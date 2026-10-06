@@ -7,15 +7,16 @@ RRF only uses ranks, so it needs no calibration between cosine similarity
 and ts_rank scores, which live on unrelated scales.
 """
 
+import math
 from collections.abc import Sequence
 from dataclasses import dataclass
 from typing import Literal
 
-from sqlalchemy import ColumnElement, Text, cast, func, select, text
+from sqlalchemy import ColumnElement, Text, case, cast, delete, func, literal, select, text
 from sqlalchemy.dialects.postgresql import TSQUERY
 from sqlalchemy.orm import Session
 
-from tieout.db.models import ChunkRow
+from tieout.db.models import TOTAL_KEY, ChunkRow, LexemeStat
 from tieout.retrieval.embeddings import Embedder
 
 RRF_K = 60
@@ -90,15 +91,105 @@ def vector_ids(
     return list(session.scalars(stmt))
 
 
-def keyword_ids(session: Session, query: str, filters: SearchFilters, limit: int) -> list[str]:
-    tsq = or_tsquery(query)
+# Terms in more than MAX_DF of all chunks ("statement" is in 44%) act as
+# corpus-specific stopwords: they match nearly everything and rank nothing.
+MAX_DF = 0.20
+MAX_TERMS = 12
+KeywordScoring = Literal["idf", "ts_rank"]
+
+
+def bm25_idf(ndoc: int, total: int) -> float:
+    return math.log((total - ndoc + 0.5) / (ndoc + 0.5) + 1.0)
+
+
+def select_terms(
+    lexemes: Sequence[str],
+    ndoc: dict[str, int],
+    total: int,
+    max_df: float = MAX_DF,
+    max_terms: int = MAX_TERMS,
+) -> list[tuple[str, float]]:
+    """Query lexemes worth matching, with BM25 IDF weights, most informative first.
+
+    Drops terms absent from the corpus (they can't match) and terms in more
+    than `max_df` of chunks.
+    """
+    kept = {
+        lex: bm25_idf(ndoc[lex], total)
+        for lex in set(lexemes)
+        if 0 < ndoc.get(lex, 0) <= max_df * total
+    }
+    return sorted(kept.items(), key=lambda kv: (-kv[1], kv[0]))[:max_terms]
+
+
+def _query_terms(session: Session, query: str) -> list[tuple[str, float]] | None:
+    """IDF-weighted terms for `query`, or None if lexeme stats are not built."""
+    total = session.scalar(select(LexemeStat.ndoc).where(LexemeStat.word == TOTAL_KEY))
+    if not total:
+        return None
+    lexemes = list(
+        session.scalars(
+            select(text("lexeme")).select_from(func.unnest(func.to_tsvector("english", query)))
+        )
+    )
+    rows = session.execute(
+        select(LexemeStat.word, LexemeStat.ndoc).where(LexemeStat.word.in_(lexemes))
+    )
+    ndoc = {word: n for word, n in rows}
+    return select_terms(lexemes, ndoc, total)
+
+
+def keyword_ids(
+    session: Session,
+    query: str,
+    filters: SearchFilters,
+    limit: int,
+    scoring: KeywordScoring = "idf",
+) -> list[str]:
+    terms = _query_terms(session, query) if scoring == "idf" else None
+    if terms is None:
+        # Plain OR query ranked by ts_rank_cd (no IDF): the baseline.
+        tsq = or_tsquery(query)
+        stmt = (
+            select(ChunkRow.chunk_id)
+            .where(ChunkRow.tsv.op("@@")(tsq), *filters.clauses())
+            .order_by(func.ts_rank_cd(ChunkRow.tsv, tsq).desc(), ChunkRow.chunk_id)
+            .limit(limit)
+        )
+        return list(session.scalars(stmt))
+    if not terms:
+        return []
+
+    # BM25-lite: score = sum of IDF over the query terms the chunk contains.
+    def lex_query(lex: str) -> ColumnElement[str]:
+        return cast(literal("'" + lex.replace("'", "''") + "'"), TSQUERY)
+
+    matches = [(ChunkRow.tsv.op("@@")(lex_query(lex)), idf) for lex, idf in terms]
+    score = sum((case((m, idf), else_=0.0) for m, idf in matches), start=literal(0.0))
+    any_term = cast(
+        literal(" | ".join("'" + lex.replace("'", "''") + "'" for lex, _ in terms)), TSQUERY
+    )
     stmt = (
         select(ChunkRow.chunk_id)
-        .where(ChunkRow.tsv.op("@@")(tsq), *filters.clauses())
-        .order_by(func.ts_rank_cd(ChunkRow.tsv, tsq).desc(), ChunkRow.chunk_id)
+        .where(ChunkRow.tsv.op("@@")(any_term), *filters.clauses())
+        .order_by(score.desc(), func.ts_rank_cd(ChunkRow.tsv, any_term).desc(), ChunkRow.chunk_id)
         .limit(limit)
     )
     return list(session.scalars(stmt))
+
+
+def build_lexeme_stats(session: Session) -> int:
+    """Rebuild per-lexeme document frequencies from the chunk index."""
+    session.execute(delete(LexemeStat))
+    session.execute(
+        text(
+            "INSERT INTO lexeme_stats (word, ndoc) "
+            "SELECT word, ndoc FROM ts_stat('SELECT tsv FROM chunks')"
+        )
+    )
+    total = session.scalar(select(func.count()).select_from(ChunkRow)) or 0
+    session.add(LexemeStat(word=TOTAL_KEY, ndoc=total))
+    return total
 
 
 def search(
@@ -110,6 +201,7 @@ def search(
     k: int = 8,
     mode: Mode = "hybrid",
     candidates: int = 50,
+    keyword_scoring: KeywordScoring = "idf",
 ) -> list[SearchHit]:
     filters = filters or SearchFilters()
     vec_ids: list[str] = []
@@ -117,7 +209,7 @@ def search(
     if mode in ("hybrid", "vector"):
         vec_ids = vector_ids(session, embedder.embed_query(query).tolist(), filters, candidates)
     if mode in ("hybrid", "keyword"):
-        kw_ids = keyword_ids(session, query, filters, candidates)
+        kw_ids = keyword_ids(session, query, filters, candidates, keyword_scoring)
 
     fused = rrf([r for r in (vec_ids, kw_ids) if r])[:k]
     if not fused:

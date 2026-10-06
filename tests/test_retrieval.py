@@ -2,7 +2,7 @@ from itertools import pairwise
 
 from tieout.parsing.sections import Section
 from tieout.retrieval.chunking import DocMeta, chunk_sections, make_chunk_id, split_lines
-from tieout.retrieval.search import rrf
+from tieout.retrieval.search import bm25_idf, rrf, select_terms
 
 META = DocMeta("ACME_2022_10K", "Acme", "ACME", 2022)
 
@@ -73,3 +73,18 @@ def test_long_line_is_split_to_fit() -> None:
     windows = split_lines([words(1000, "x")], max_tokens=300, overlap=50)
     assert all(sum(len(x.split()) for x in w) <= 300 for w in windows)
     assert " ".join(" ".join(w) for w in windows).split()[-1] == "x999"
+
+
+def test_select_terms_drops_common_and_unknown_terms() -> None:
+    ndoc = {"statement": 5741, "million": 3440, "expenditur": 383, "capit": 1506, "usd": 20}
+    terms = select_terms(
+        ["statement", "million", "expenditur", "capit", "usd", "zebra"], ndoc, total=13003
+    )
+    words = [w for w, _ in terms]
+    assert "statement" not in words and "million" not in words  # > 20% of chunks
+    assert "zebra" not in words  # not in the corpus
+    assert words == ["usd", "expenditur", "capit"]  # rarest first
+
+
+def test_bm25_idf_decreases_with_frequency() -> None:
+    assert bm25_idf(10, 1000) > bm25_idf(100, 1000) > bm25_idf(500, 1000) > 0

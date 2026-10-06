@@ -23,6 +23,7 @@ from tieout.parsing.pdf import extract_pages
 from tieout.parsing.sections import Section, split_sections
 from tieout.retrieval.chunking import Chunk, DocMeta, chunk_sections
 from tieout.retrieval.embeddings import Embedder, Vector
+from tieout.retrieval.search import build_lexeme_stats
 
 CHUNK_COLUMNS = (
     "chunk_id",
@@ -159,4 +160,6 @@ def run_index(
             stats.embedded += n_new
             if on_filing:
                 on_filing(filing.doc_name, len(chunks), n_new)
+    with get_sessionmaker(engine)() as session, session.begin():
+        build_lexeme_stats(session)
     return stats

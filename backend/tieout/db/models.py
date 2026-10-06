@@ -127,3 +127,16 @@ class ChunkRow(Base):
             postgresql_ops={"embedding": "vector_cosine_ops"},
         ),
     )
+
+
+# Row in lexeme_stats holding the total number of chunks (for IDF).
+TOTAL_KEY = "__total__"
+
+
+class LexemeStat(Base):
+    """Document frequency of each full-text lexeme over all chunks (for IDF)."""
+
+    __tablename__ = "lexeme_stats"
+
+    word: Mapped[str] = mapped_column(Text, primary_key=True)
+    ndoc: Mapped[int] = mapped_column(Integer)

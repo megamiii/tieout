@@ -86,24 +86,26 @@ def run_load(http: CachedClient, companies: list[CompanyConfig]) -> dict[str, in
             )
             counts["companies"] += 1
 
-            # Replace this company's filings and facts wholesale (idempotent reload).
-            session.execute(delete(Filing).where(Filing.cik == company.cik))
-            session.execute(delete(XbrlFactRow).where(XbrlFactRow.cik == company.cik))
+            # Upsert filings (deleting them would cascade to their parsed sections
+            # and chunks); replace the company's facts wholesale.
             for f in company.filings:
-                session.add(
-                    Filing(
-                        accession=f.accession,
-                        cik=company.cik,
-                        doc_name=f.doc_name,
-                        fiscal_year=f.fiscal_year,
-                        form=f.form,
-                        period_end=date.fromisoformat(f.period_end),
-                        filing_date=date.fromisoformat(f.filing_date),
-                        edgar_url=f.edgar_url,
-                        pdf_url=f.pdf_url,
-                    )
+                values = {
+                    "cik": company.cik,
+                    "doc_name": f.doc_name,
+                    "fiscal_year": f.fiscal_year,
+                    "form": f.form,
+                    "period_end": date.fromisoformat(f.period_end),
+                    "filing_date": date.fromisoformat(f.filing_date),
+                    "edgar_url": f.edgar_url,
+                    "pdf_url": f.pdf_url,
+                }
+                session.execute(
+                    pg_insert(Filing)
+                    .values(accession=f.accession, **values)
+                    .on_conflict_do_update(index_elements=[Filing.accession], set_=values)
                 )
                 counts["filings"] += 1
+            session.execute(delete(XbrlFactRow).where(XbrlFactRow.cik == company.cik))
             session.flush()
             facts = iter_facts(edgar.company_facts(company.cik))
             counts["xbrl_facts"] += _copy_facts(session, facts)

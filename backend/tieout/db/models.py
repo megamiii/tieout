@@ -140,3 +140,15 @@ class LexemeStat(Base):
 
     word: Mapped[str] = mapped_column(Text, primary_key=True)
     ndoc: Mapped[int] = mapped_column(Integer)
+
+
+class XbrlConcept(Base):
+    """Catalog of XBRL concepts (label + description), embedded for lookup by meaning."""
+
+    __tablename__ = "xbrl_concepts"
+
+    concept: Mapped[str] = mapped_column(String(255), primary_key=True)
+    taxonomy: Mapped[str] = mapped_column(String(16))
+    label: Mapped[str] = mapped_column(Text)
+    description: Mapped[str] = mapped_column(Text)
+    embedding: Mapped[list[float]] = mapped_column(Vector(EMBEDDING_DIM))

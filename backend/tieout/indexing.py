@@ -17,6 +17,8 @@ from sqlalchemy.orm import Session
 
 from tieout.db.models import ChunkRow, SectionRow
 from tieout.db.session import get_engine, get_sessionmaker, init_db
+from tieout.edgar.client import COMPANYFACTS_URL
+from tieout.edgar.facts_query import build_concept_catalog
 from tieout.financebench.selection import CompanyConfig, FilingConfig
 from tieout.net.cached_client import CachedClient
 from tieout.parsing.pdf import extract_pages
@@ -163,3 +165,39 @@ def run_index(
     with get_sessionmaker(engine)() as session, session.begin():
         build_lexeme_stats(session)
     return stats
+
+
+CONCEPTS_CACHE_NAME = "_xbrl_concepts"
+
+
+def cached_embed(
+    embedder: Embedder, cache: EmbeddingCache, name: str
+) -> Callable[[list[str]], list[Vector]]:
+    """An embed function backed by the on-disk embedding cache file `name`."""
+
+    def embed(texts: list[str]) -> list[Vector]:
+        stored = cache.load(name)
+        keys = [cache.key(t) for t in texts]
+        missing = [i for i, k in enumerate(keys) if k not in stored]
+        if missing:
+            fresh = embedder.embed_documents([texts[i] for i in missing])
+            for i, vec in zip(missing, fresh, strict=True):
+                stored[keys[i]] = vec
+            cache.save(name, {k: stored[k] for k in keys})
+        return [stored[k] for k in keys]
+
+    return embed
+
+
+def run_concepts(
+    http: CachedClient, companies: list[CompanyConfig], embedder: Embedder, cache_root: Path
+) -> int:
+    """Build the XBRL concept catalog (labels + descriptions, embedded)."""
+    engine = get_engine()
+    init_db(engine)
+    paths = [http.path(COMPANYFACTS_URL.format(cik=c.cik)) for c in companies]
+    embed = cached_embed(
+        embedder, EmbeddingCache(cache_root, embedder.model_name), CONCEPTS_CACHE_NAME
+    )
+    with get_sessionmaker(engine)() as session, session.begin():
+        return build_concept_catalog(session, paths, embed)

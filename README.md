@@ -96,6 +96,15 @@ Parsing and retrieval (milestone 2):
 - **Measured result: on raw FinanceBench questions, vector search alone beats hybrid** (hit@10 68.6% vs 54.3%; see [Retrieval](#retrieval-milestone-2)). Keyword search mostly fails from vocabulary mismatch: questions say "capital expenditure" or "quick ratio", while the gold page says "Purchases of property, plant and equipment" or shows only the raw line items. Stripping FinanceBench's instruction sentences barely changes this (keyword hit@10 24.3% → 28.6%). RRF weights were not tuned on these 70 questions, to avoid fitting the method to the test set. Which mode the agent uses will be decided by the agent experiments in milestone 5, where the agent writes its own search queries.
 - **Known limitation:** dense financial-statement tables retrieve poorly in every mode. For "3M FY2018 capital expenditure", the gold cash-flow-statement chunk (p. 60) is not in the top 10 of any retriever. Exact line-item values are what the XBRL tool (`get_financial_facts`) is for.
 
+LLM client and agent loop (milestone 3):
+
+- **Free tier shapes the design:** Groq's free tier for `openai/gpt-oss-20b` / `gpt-oss-120b` allows 30 requests/min, 1,000 requests/day, 8,000 tokens/min and 200,000 tokens/day (from Groq's rate-limit docs, checked 2026-10-07). An agent resends the whole conversation on every step, so tokens, not requests, are the binding limit. Search results are truncated to 1,000 characters per passage, the default is 5 passages, Pydantic's schema `title` fields are stripped from tool schemas, and each run has a token budget.
+- **One client, any OpenAI-compatible provider:** a small `httpx` client for `/chat/completions`, so `LLM_PROVIDER=groq|ollama|openai_compatible` switches providers. It doesn't use an SDK, so retries, caching and token accounting are all visible in about 200 lines.
+- **Response cache = recordings:** each request is serialized as canonical JSON (sorted keys, plus the provider URL) and hashed with SHA-256; the response is stored under that hash. Re-running an identical request costs no tokens. In offline mode the client serves only cached responses and raises on a miss, so a recorded run replays exactly, which is the mechanism for keyless tests and, later, the public demo.
+- **Rate limiting before, retrying after:** a sliding-window limiter waits *before* a request that would exceed requests/min or tokens/min (estimated at ~4 characters per token). If a 429 still happens, the client retries after Groq's `retry-after`, using the same backoff code as the SEC downloader. A daily ledger (`data/usage/YYYY-MM-DD.json`) records tokens per model, cache hits, tokens saved and Groq's latest `x-ratelimit-*` headers; `tieout usage` reports it against the daily limits.
+- **The loop is written by hand** (`backend/tieout/agent/loop.py`, no framework): send messages and tool schemas, execute each tool call, append each result as a `tool` message tied to its `tool_call_id`, and stop when the model answers in plain text.
+- **Guardrails:** a maximum number of steps, where the last step sets `tool_choice="none"` so the model answers with what it has instead of the run ending empty; a token budget per run, counted for cached responses too so a replay stops exactly where the live run did; and tool errors (invalid JSON, schema violations, unknown tickers) returned to the model as `{"error": ...}` so it can correct itself.
+
 ## Data
 
 All data is public:
@@ -178,6 +187,8 @@ pip install -e ".[dev]"
 docker compose up -d --wait     # Postgres + pgvector
 tieout data all                 # select, download (cached), load XBRL, parse + chunk + embed + index
 tieout search "capital expenditures" --ticker MMM --year 2018
+tieout ask "What was 3M's FY2018 capital expenditure?"   # needs GROQ_API_KEY or Ollama
+tieout usage                    # today's tokens vs the free-tier daily limits
 pytest -q
 ```
 
@@ -202,7 +213,7 @@ _TODO: add the MCP client config snippet._
 
 - [x] 1. Data + caching: FinanceBench sample, company selection, EDGAR filings + XBRL facts, cached downloads, Postgres load
 - [x] 2. Parsing (10-K sections with page numbers) + hybrid retrieval, with a retrieval eval
-- [ ] 3. Agent loop with one tool
+- [x] 3. Agent loop with one tool (offline tests only so far; the first live run with a Groq key is still to do)
 - [ ] 4. All tools + answer validation
 - [ ] 5. Evals
 - [ ] 6. UI + review queue
@@ -227,6 +238,8 @@ tieout/
 │   ├── db/               # SQLAlchemy models, engine, schema init
 │   ├── parsing/          # PDF pages, 10-K section splitter, cover-page date
 │   ├── retrieval/        # token-aware chunking, embeddings, hybrid search
+│   ├── llm/              # OpenAI-compatible client, response cache, rate limits, usage ledger
+│   ├── agent/            # agent loop, tools, system prompt
 │   ├── evals/            # retrieval eval
 │   ├── ingest.py         # select → download → load pipeline
 │   ├── indexing.py       # parse → chunk → embed (cached) → index pipeline

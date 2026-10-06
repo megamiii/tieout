@@ -1,0 +1,471 @@
+[
+  {
+    "name": "AMD",
+    "ticker": "AMD",
+    "cik": 2488,
+    "sector": "Information Technology",
+    "question_count": 8,
+    "filings": [
+      {
+        "doc_name": "AMD_2015_10K",
+        "fiscal_year": 2015,
+        "accession": "0000002488-16-000111",
+        "form": "10-K",
+        "period_end": "2015-12-26",
+        "filing_date": "2016-02-18",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248816000111/amd-12262015x10k.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/AMD_2015_10K.pdf",
+        "question_count": 1
+      },
+      {
+        "doc_name": "AMD_2022_10K",
+        "fiscal_year": 2022,
+        "accession": "0000002488-23-000047",
+        "form": "10-K",
+        "period_end": "2022-12-31",
+        "filing_date": "2023-02-27",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/2488/000000248823000047/amd-20221231.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/AMD_2022_10K.pdf",
+        "question_count": 7
+      }
+    ]
+  },
+  {
+    "name": "Boeing",
+    "ticker": "BA",
+    "cik": 12927,
+    "sector": "Industrials",
+    "question_count": 8,
+    "filings": [
+      {
+        "doc_name": "BOEING_2018_10K",
+        "fiscal_year": 2018,
+        "accession": "0000012927-19-000010",
+        "form": "10-K",
+        "period_end": "2018-12-31",
+        "filing_date": "2019-02-08",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/12927/000001292719000010/a201812dec3110k.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/BOEING_2018_10K.pdf",
+        "question_count": 1
+      },
+      {
+        "doc_name": "BOEING_2022_10K",
+        "fiscal_year": 2022,
+        "accession": "0000012927-23-000007",
+        "form": "10-K",
+        "period_end": "2022-12-31",
+        "filing_date": "2023-01-27",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/12927/000001292723000007/ba-20221231.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/BOEING_2022_10K.pdf",
+        "question_count": 7
+      }
+    ]
+  },
+  {
+    "name": "American Express",
+    "ticker": "AXP",
+    "cik": 4962,
+    "sector": "Financials",
+    "question_count": 7,
+    "filings": [
+      {
+        "doc_name": "AMERICANEXPRESS_2022_10K",
+        "fiscal_year": 2022,
+        "accession": "0000004962-23-000006",
+        "form": "10-K",
+        "period_end": "2022-12-31",
+        "filing_date": "2023-02-10",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/4962/000000496223000006/axp-20221231.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/AMERICANEXPRESS_2022_10K.pdf",
+        "question_count": 7
+      }
+    ]
+  },
+  {
+    "name": "PepsiCo",
+    "ticker": "PEP",
+    "cik": 77476,
+    "sector": "Consumer Staples",
+    "question_count": 6,
+    "filings": [
+      {
+        "doc_name": "PEPSICO_2021_10K",
+        "fiscal_year": 2021,
+        "accession": "0000077476-22-000010",
+        "form": "10-K",
+        "period_end": "2021-12-25",
+        "filing_date": "2022-02-10",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747622000010/pep-20211225.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/PEPSICO_2021_10K.pdf",
+        "question_count": 1
+      },
+      {
+        "doc_name": "PEPSICO_2022_10K",
+        "fiscal_year": 2022,
+        "accession": "0000077476-23-000007",
+        "form": "10-K",
+        "period_end": "2022-12-31",
+        "filing_date": "2023-02-09",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/77476/000007747623000007/pep-20221231.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/PEPSICO_2022_10K.pdf",
+        "question_count": 5
+      }
+    ]
+  },
+  {
+    "name": "3M",
+    "ticker": "MMM",
+    "cik": 66740,
+    "sector": "Industrials",
+    "question_count": 5,
+    "filings": [
+      {
+        "doc_name": "3M_2018_10K",
+        "fiscal_year": 2018,
+        "accession": "0001558370-19-000470",
+        "form": "10-K",
+        "period_end": "2018-12-31",
+        "filing_date": "2019-02-07",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/66740/000155837019000470/mmm-20181231x10k.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/3M_2018_10K.pdf",
+        "question_count": 2
+      },
+      {
+        "doc_name": "3M_2022_10K",
+        "fiscal_year": 2022,
+        "accession": "0000066740-23-000014",
+        "form": "10-K",
+        "period_end": "2022-12-31",
+        "filing_date": "2023-02-08",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/66740/000006674023000014/mmm-20221231.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/3M_2022_10K.pdf",
+        "question_count": 3
+      }
+    ]
+  },
+  {
+    "name": "Adobe",
+    "ticker": "ADBE",
+    "cik": 796343,
+    "sector": "Information Technology",
+    "question_count": 5,
+    "filings": [
+      {
+        "doc_name": "ADOBE_2015_10K",
+        "fiscal_year": 2015,
+        "accession": "0000796343-16-000224",
+        "form": "10-K",
+        "period_end": "2015-11-27",
+        "filing_date": "2016-01-19",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/796343/000079634316000224/adbe10kfy15.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/ADOBE_2015_10K.pdf",
+        "question_count": 1
+      },
+      {
+        "doc_name": "ADOBE_2016_10K",
+        "fiscal_year": 2016,
+        "accession": "0000796343-17-000031",
+        "form": "10-K",
+        "period_end": "2016-12-02",
+        "filing_date": "2017-01-20",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/796343/000079634317000031/adbe10kfy16.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/ADOBE_2016_10K.pdf",
+        "question_count": 1
+      },
+      {
+        "doc_name": "ADOBE_2017_10K",
+        "fiscal_year": 2017,
+        "accession": "0000796343-18-000015",
+        "form": "10-K",
+        "period_end": "2017-12-01",
+        "filing_date": "2018-01-22",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/796343/000079634318000015/adbe10kfy17.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/ADOBE_2017_10K.pdf",
+        "question_count": 1
+      },
+      {
+        "doc_name": "ADOBE_2022_10K",
+        "fiscal_year": 2022,
+        "accession": "0000796343-23-000007",
+        "form": "10-K",
+        "period_end": "2022-12-02",
+        "filing_date": "2023-01-17",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/796343/000079634323000007/adbe-20221202.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/ADOBE_2022_10K.pdf",
+        "question_count": 2
+      }
+    ]
+  },
+  {
+    "name": "Amcor",
+    "ticker": "AMCR",
+    "cik": 1748790,
+    "sector": "Materials",
+    "question_count": 5,
+    "filings": [
+      {
+        "doc_name": "AMCOR_2020_10K",
+        "fiscal_year": 2020,
+        "accession": "0001748790-20-000025",
+        "form": "10-K",
+        "period_end": "2020-06-30",
+        "filing_date": "2020-08-27",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/1748790/000174879020000025/amcr-20200630.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/AMCOR_2020_10K.pdf",
+        "question_count": 1
+      },
+      {
+        "doc_name": "AMCOR_2023_10K",
+        "fiscal_year": 2023,
+        "accession": "0001748790-23-000030",
+        "form": "10-K",
+        "period_end": "2023-06-30",
+        "filing_date": "2023-08-17",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/1748790/000174879023000030/amcr-20230630.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/AMCOR_2023_10K.pdf",
+        "question_count": 4
+      }
+    ]
+  },
+  {
+    "name": "Best Buy",
+    "ticker": "BBY",
+    "cik": 764478,
+    "sector": "Consumer Discretionary",
+    "question_count": 5,
+    "filings": [
+      {
+        "doc_name": "BESTBUY_2017_10K",
+        "fiscal_year": 2017,
+        "accession": "0000764478-17-000008",
+        "form": "10-K",
+        "period_end": "2017-01-28",
+        "filing_date": "2017-03-24",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/764478/000076447817000008/bby-2017x10k.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/BESTBUY_2017_10K.pdf",
+        "question_count": 1
+      },
+      {
+        "doc_name": "BESTBUY_2019_10K",
+        "fiscal_year": 2019,
+        "accession": "0000764478-19-000009",
+        "form": "10-K",
+        "period_end": "2019-02-02",
+        "filing_date": "2019-03-28",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/764478/000076447819000009/bby-2019x10k.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/BESTBUY_2019_10K.pdf",
+        "question_count": 1
+      },
+      {
+        "doc_name": "BESTBUY_2023_10K",
+        "fiscal_year": 2023,
+        "accession": "0000764478-23-000006",
+        "form": "10-K",
+        "period_end": "2023-01-28",
+        "filing_date": "2023-03-17",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/764478/000076447823000006/bby-20230128x10k.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/BESTBUY_2023_10K.pdf",
+        "question_count": 3
+      }
+    ]
+  },
+  {
+    "name": "Verizon",
+    "ticker": "VZ",
+    "cik": 732712,
+    "sector": "Communication Services",
+    "question_count": 5,
+    "filings": [
+      {
+        "doc_name": "VERIZON_2021_10K",
+        "fiscal_year": 2021,
+        "accession": "0000732712-22-000008",
+        "form": "10-K",
+        "period_end": "2021-12-31",
+        "filing_date": "2022-02-11",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/732712/000073271222000008/vz-20211231.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/VERIZON_2021_10K.pdf",
+        "question_count": 2
+      },
+      {
+        "doc_name": "VERIZON_2022_10K",
+        "fiscal_year": 2022,
+        "accession": "0000732712-23-000012",
+        "form": "10-K",
+        "period_end": "2022-12-31",
+        "filing_date": "2023-02-10",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/732712/000073271223000012/vz-20221231.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/VERIZON_2022_10K.pdf",
+        "question_count": 3
+      }
+    ]
+  },
+  {
+    "name": "Corning",
+    "ticker": "GLW",
+    "cik": 24741,
+    "sector": "Information Technology",
+    "question_count": 4,
+    "filings": [
+      {
+        "doc_name": "CORNING_2020_10K",
+        "fiscal_year": 2020,
+        "accession": "0001562762-21-000023",
+        "form": "10-K",
+        "period_end": "2020-12-31",
+        "filing_date": "2021-02-12",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/24741/000156276221000023/glw-20201231x10k.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/CORNING_2020_10K.pdf",
+        "question_count": 1
+      },
+      {
+        "doc_name": "CORNING_2021_10K",
+        "fiscal_year": 2021,
+        "accession": "0001437749-22-003247",
+        "form": "10-K",
+        "period_end": "2021-12-31",
+        "filing_date": "2022-02-14",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/24741/000143774922003247/glw20211231_10k.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/CORNING_2021_10K.pdf",
+        "question_count": 1
+      },
+      {
+        "doc_name": "CORNING_2022_10K",
+        "fiscal_year": 2022,
+        "accession": "0001437749-23-003123",
+        "form": "10-K",
+        "period_end": "2022-12-31",
+        "filing_date": "2023-02-13",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/24741/000143774923003123/glw20221231_10k.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/CORNING_2022_10K.pdf",
+        "question_count": 2
+      }
+    ]
+  },
+  {
+    "name": "CVS Health",
+    "ticker": "CVS",
+    "cik": 64803,
+    "sector": "Health Care",
+    "question_count": 4,
+    "filings": [
+      {
+        "doc_name": "CVSHEALTH_2018_10K",
+        "fiscal_year": 2018,
+        "accession": "0000064803-19-000013",
+        "form": "10-K",
+        "period_end": "2018-12-31",
+        "filing_date": "2019-02-28",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/64803/000006480319000013/cvs-2018231x10k.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/CVSHEALTH_2018_10K.pdf",
+        "question_count": 1
+      },
+      {
+        "doc_name": "CVSHEALTH_2022_10K",
+        "fiscal_year": 2022,
+        "accession": "0000064803-23-000009",
+        "form": "10-K",
+        "period_end": "2022-12-31",
+        "filing_date": "2023-02-08",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/64803/000006480323000009/cvs-20221231.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/CVSHEALTH_2022_10K.pdf",
+        "question_count": 3
+      }
+    ]
+  },
+  {
+    "name": "General Mills",
+    "ticker": "GIS",
+    "cik": 40704,
+    "sector": "Consumer Staples",
+    "question_count": 4,
+    "filings": [
+      {
+        "doc_name": "GENERALMILLS_2019_10K",
+        "fiscal_year": 2019,
+        "accession": "0001193125-19-184675",
+        "form": "10-K",
+        "period_end": "2019-05-26",
+        "filing_date": "2019-06-28",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/40704/000119312519184675/d725716d10k.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/GENERALMILLS_2019_10K.pdf",
+        "question_count": 1
+      },
+      {
+        "doc_name": "GENERALMILLS_2020_10K",
+        "fiscal_year": 2020,
+        "accession": "0001193125-20-186469",
+        "form": "10-K",
+        "period_end": "2020-05-31",
+        "filing_date": "2020-07-02",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/40704/000119312520186469/d89717d10k.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/GENERALMILLS_2020_10K.pdf",
+        "question_count": 2
+      },
+      {
+        "doc_name": "GENERALMILLS_2022_10K",
+        "fiscal_year": 2022,
+        "accession": "0001193125-22-185257",
+        "form": "10-K",
+        "period_end": "2022-05-29",
+        "filing_date": "2022-06-30",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/40704/000119312522185257/d313744d10k.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/GENERALMILLS_2022_10K.pdf",
+        "question_count": 1
+      }
+    ]
+  },
+  {
+    "name": "Nike",
+    "ticker": "NKE",
+    "cik": 320187,
+    "sector": "Consumer Discretionary",
+    "question_count": 4,
+    "filings": [
+      {
+        "doc_name": "NIKE_2018_10K",
+        "fiscal_year": 2018,
+        "accession": "0000320187-18-000142",
+        "form": "10-K",
+        "period_end": "2018-05-31",
+        "filing_date": "2018-07-25",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018718000142/nke-5312018x10k.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/NIKE_2018_10K.pdf",
+        "question_count": 1
+      },
+      {
+        "doc_name": "NIKE_2019_10K",
+        "fiscal_year": 2019,
+        "accession": "0000320187-19-000051",
+        "form": "10-K",
+        "period_end": "2019-05-31",
+        "filing_date": "2019-07-23",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018719000051/nke-531201910k.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/NIKE_2019_10K.pdf",
+        "question_count": 1
+      },
+      {
+        "doc_name": "NIKE_2021_10K",
+        "fiscal_year": 2021,
+        "accession": "0000320187-21-000028",
+        "form": "10-K",
+        "period_end": "2021-05-31",
+        "filing_date": "2021-07-20",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018721000028/nke-20210531.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/NIKE_2021_10K.pdf",
+        "question_count": 1
+      },
+      {
+        "doc_name": "NIKE_2023_10K",
+        "fiscal_year": 2023,
+        "accession": "0000320187-23-000039",
+        "form": "10-K",
+        "period_end": "2023-05-31",
+        "filing_date": "2023-07-20",
+        "edgar_url": "https://www.sec.gov/Archives/edgar/data/320187/000032018723000039/nke-20230531.htm",
+        "pdf_url": "https://raw.githubusercontent.com/patronus-ai/financebench/main/pdfs/NIKE_2023_10K.pdf",
+        "question_count": 1
+      }
+    ]
+  }
+]

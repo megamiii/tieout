@@ -103,7 +103,18 @@ LLM client and agent loop (milestone 3):
 - **Response cache = recordings:** each request is serialized as canonical JSON (sorted keys, plus the provider URL) and hashed with SHA-256; the response is stored under that hash. Re-running an identical request costs no tokens. In offline mode the client serves only cached responses and raises on a miss, so a recorded run replays exactly, which is the mechanism for keyless tests and, later, the public demo.
 - **Rate limiting before, retrying after:** a sliding-window limiter waits *before* a request that would exceed requests/min or tokens/min (estimated at ~4 characters per token). If a 429 still happens, the client retries after Groq's `retry-after`, using the same backoff code as the SEC downloader. A daily ledger (`data/usage/YYYY-MM-DD.json`) records tokens per model, cache hits, tokens saved and Groq's latest `x-ratelimit-*` headers; `tieout usage` reports it against the daily limits.
 - **The loop is written by hand** (`backend/tieout/agent/loop.py`, no framework): send messages and tool schemas, execute each tool call, append each result as a `tool` message tied to its `tool_call_id`, and stop when the model answers in plain text.
-- **Guardrails:** a maximum number of steps, where the last step sets `tool_choice="none"` so the model answers with what it has instead of the run ending empty; a token budget per run, counted for cached responses too so a replay stops exactly where the live run did; and tool errors (invalid JSON, schema violations, unknown tickers) returned to the model as `{"error": ...}` so it can correct itself.
+- **Guardrails:** a maximum number of steps, where the last step forces a final answer (in milestone 3 with `tool_choice="none"`; since milestone 4 by forcing `submit_answer`) so the run doesn't end empty; a token budget per run, counted for cached responses too so a replay stops exactly where the live run did; and tool errors (invalid JSON, schema violations, unknown tickers) returned to the model as `{"error": ...}` so it can correct itself.
+
+Tools and answer validation (milestone 4):
+
+- **`get_financial_facts` answers what retrieval can't:** dense financial tables retrieve poorly, so line items come from XBRL. A phrase is matched to the company's own concepts by embeddings over concept label + description (2,807 concepts, embedded once and cached), keyword matches on the label, and a short alias list for common names ("capex" → `PaymentsToAcquirePropertyPlantAndEquipment`). For "3M capital expenditure FY2018" it returns 1,577,000,000 with its fact ID, the value the retrievers missed.
+- **As originally reported:** each fiscal year's value comes from the earliest-filed 10-K that reports that period, which is what FinanceBench answers and an audit tie-out use. Quarterly durations and balance-sheet instants that are not fiscal-year ends are excluded.
+- **Restatements are warnings, not abstentions:** 3,906 (company, concept, period) combinations have more than one reported value across 10-Ks, mostly later reclassifications. Routing all of them to review would flag almost everything, so a cited fact that was later reported differently adds a warning to the answer (shown to the reviewer) instead.
+- **`read_section` reads one page at a time:** Item 8 can span 70 pages, far more than 8k tokens/min allows, so the tool returns one page's chunks with their IDs (for example the whole cash flow statement around a search hit).
+- **`calculate` is a safe evaluator, not `eval`:** it walks a whitelisted Python AST (numbers, + − × ÷ // % **, unary minus, abs/round/min/max) with `Decimal` arithmetic, so `__import__('os')` can't run, 0.1 + 0.2 is exactly 0.3, and `9**9**9` is refused.
+- **`submit_answer` is validated against the run's own evidence:** every tool result registers the sources it showed the model. A submission is rejected, with the specific problems sent back to the model, unless (1) every cited ID was returned by a tool in this run, which catches both invented IDs and real ones the model never saw; (2) every quote appears in its source (numeric quotes match at any scale); and (3) every figure in the answer appears in a cited source or a `calculate` result, allowing rounding and unit changes ($1,577 million ↔ 1,577,000,000; 14.9% ↔ 14.858). Rule 3 is how "never let the LLM do math" is enforced rather than requested. It is skipped in the ablation without a calculator, which could not satisfy it.
+- **Abstention:** the answer is `needs_review` if the model flags it (missing, ambiguous or conflicting evidence), its confidence is below 0.7, it fails validation twice, or the run hits its step or token limit without a valid submission. The reasons are kept for the review queue. On the last step `tool_choice` forces `submit_answer`, so running out of steps still produces a validated answer or a clear review reason. A plain-text reply is answered with a request to call `submit_answer`.
+- **Replay without a key, database or model:** outputs of the database tools are recorded by a hash of (tool, arguments), like LLM responses. Since validation only needs the run's evidence, a recorded run replays fully offline, which is what the CI eval and the public demo need.
 
 ## Data
 
@@ -185,9 +196,11 @@ cp .env.example .env            # set SEC_USER_AGENT to "<name> <your email>"
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -e ".[dev]"
 docker compose up -d --wait     # Postgres + pgvector
-tieout data all                 # select, download (cached), load XBRL, parse + chunk + embed + index
+tieout data all                 # select, download (cached), load XBRL, concept catalog, parse + chunk + embed + index
 tieout search "capital expenditures" --ticker MMM --year 2018
 tieout ask "What was 3M's FY2018 capital expenditure?"   # needs GROQ_API_KEY or Ollama
+tieout ask "..." --recording recordings/demo1             # record LLM + tool calls
+tieout ask "..." --recording recordings/demo1 --offline   # replay: no key, DB or model
 tieout usage                    # today's tokens vs the free-tier daily limits
 pytest -q
 ```
@@ -214,7 +227,7 @@ _TODO: add the MCP client config snippet._
 - [x] 1. Data + caching: FinanceBench sample, company selection, EDGAR filings + XBRL facts, cached downloads, Postgres load
 - [x] 2. Parsing (10-K sections with page numbers) + hybrid retrieval, with a retrieval eval
 - [x] 3. Agent loop with one tool (offline tests only so far; the first live run with a Groq key is still to do)
-- [ ] 4. All tools + answer validation
+- [x] 4. All tools + answer validation (offline tests and a real-data tool check; no live LLM run yet)
 - [ ] 5. Evals
 - [ ] 6. UI + review queue
 - [ ] 7. Tie-out + analytical review
@@ -239,7 +252,7 @@ tieout/
 │   ├── parsing/          # PDF pages, 10-K section splitter, cover-page date
 │   ├── retrieval/        # token-aware chunking, embeddings, hybrid search
 │   ├── llm/              # OpenAI-compatible client, response cache, rate limits, usage ledger
-│   ├── agent/            # agent loop, tools, system prompt
+│   ├── agent/            # agent loop, tools, calculator, answer validation, recording
 │   ├── evals/            # retrieval eval
 │   ├── ingest.py         # select → download → load pipeline
 │   ├── indexing.py       # parse → chunk → embed (cached) → index pipeline

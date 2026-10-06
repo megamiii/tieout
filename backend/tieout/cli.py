@@ -1,6 +1,7 @@
 """Command-line entry point: `tieout --help`."""
 
 from datetime import date
+from pathlib import Path
 from typing import Annotated
 
 import typer
@@ -13,7 +14,7 @@ from tieout.db.models import ChunkRow
 from tieout.db.session import get_sessionmaker
 from tieout.evals.retrieval_eval import run_retrieval_eval, write_reports
 from tieout.financebench.dataset import load_questions
-from tieout.indexing import run_index
+from tieout.indexing import run_concepts, run_index
 from tieout.llm.limits import UsageLedger, limits_for
 from tieout.retrieval.chunking import MAX_TOKENS, OVERLAP_TOKENS
 from tieout.retrieval.embeddings import get_embedder
@@ -84,12 +85,23 @@ def data_index() -> None:
     )
 
 
+@data_app.command("concepts")
+def data_concepts() -> None:
+    """Build the XBRL concept catalog (embedded labels + descriptions)."""
+    settings = get_settings()
+    embedder = get_embedder(settings.data_path / "models")
+    with ingest.client_from(settings) as http:
+        n = run_concepts(http, ingest.load_selected(), embedder, settings.data_path / "embeddings")
+    typer.echo(f"{n} XBRL concepts in the catalog")
+
+
 @data_app.command("all")
 def data_all() -> None:
     """select + download + load + index."""
     data_select()
     data_download()
     data_load()
+    data_concepts()
     data_index()
 
 
@@ -148,6 +160,9 @@ def ask_cmd(
     question: str,
     mode: Annotated[str, typer.Option(help="search mode: hybrid | vector | keyword")] = "hybrid",
     offline: Annotated[bool, typer.Option(help="replay recorded responses only")] = False,
+    recording: Annotated[
+        Path | None, typer.Option(help="recording dir (llm/ + tools/) to fill or replay")
+    ] = None,
 ) -> None:
     """Ask the agent a question about the supported 10-K filings."""
     settings = get_settings()
@@ -156,22 +171,37 @@ def ask_cmd(
         ingest.load_selected(),
         search_mode=mode,  # type: ignore[arg-type]
         offline=offline,
+        recording_dir=recording,
     )
     result = agent.ask(question)
     for step in result.steps:
         r = step.response
         src = "cache" if r.cached else f"{r.latency_ms:.0f} ms"
+        flags = (" forced submit" if step.forced_submit else "") + (
+            " (plain text, nudged)" if step.nudged else ""
+        )
         typer.echo(
-            f"[step {step.index + 1}] {r.usage.prompt_tokens}+{r.usage.completion_tokens} tokens "
-            f"({src}){' forced answer' if step.forced_answer else ''}"
+            f"[step {step.index + 1}] {r.usage.prompt_tokens}+{r.usage.completion_tokens} "
+            f"tokens ({src}){flags}"
         )
         for o in step.tool_outcomes:
-            status = f"error: {o.error}" if o.error else f"{len(o.output.get('results', []))} hits"
-            typer.echo(f"    {o.name}({o.raw_arguments}) -> {status}")
+            status = f"error: {o.error}" if o.error else f"{len(o.evidence)} sources"
+            typer.echo(f"    {o.name}({o.raw_arguments[:200]}) -> {status[:300]}")
+    f = result.final
     typer.echo("")
-    typer.echo(f"stop: {result.stop_reason}; tokens: {result.usage.total_tokens}")
+    typer.echo(
+        f"status: {f.status}  stop: {result.stop_reason}  tokens: {result.usage.total_tokens}"
+    )
+    if f.confidence is not None:
+        typer.echo(f"confidence: {f.confidence:.2f}")
     typer.echo("")
-    typer.echo(result.answer or "(no answer)")
+    typer.echo(f.answer or "(no answer)")
+    for c in f.citations:
+        typer.echo(f"  [{c['source_id']}] {c['quote']!r}")
+    for reason in f.review_reasons:
+        typer.echo(f"  review: {reason}")
+    for warning in f.warnings:
+        typer.echo(f"  warning: {warning}")
 
 
 @app.command("usage")

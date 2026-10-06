@@ -10,12 +10,13 @@ import json
 import time
 from abc import ABC, abstractmethod
 from collections.abc import Callable
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Any
 
 from pydantic import BaseModel, Field, ValidationError
 from sqlalchemy.orm import Session
 
+from tieout.agent.validation import Evidence, numbers_in
 from tieout.financebench.selection import CompanyConfig
 from tieout.llm.types import ToolCall
 from tieout.retrieval.embeddings import Embedder
@@ -25,9 +26,21 @@ SNIPPET_CHARS = 1000  # ~250 tokens per hit: free-tier tokens/min are tight
 
 
 def _strip_titles(schema: Any) -> Any:
-    """Drop Pydantic's auto-generated 'title' keys: they cost tokens and add nothing."""
+    """Drop Pydantic's auto-generated 'title' keys: they cost tokens and add nothing.
+
+    Keys of a "properties" mapping are field names, so a field called "title"
+    is kept.
+    """
     if isinstance(schema, dict):
-        return {k: _strip_titles(v) for k, v in schema.items() if k != "title"}
+        return {
+            k: (
+                {name: _strip_titles(sub) for name, sub in v.items()}
+                if k == "properties" and isinstance(v, dict)
+                else _strip_titles(v)
+            )
+            for k, v in schema.items()
+            if k != "title"
+        }
     if isinstance(schema, list):
         return [_strip_titles(v) for v in schema]
     return schema
@@ -41,6 +54,10 @@ class Tool(ABC):
     @abstractmethod
     def run(self, args: Any) -> Any:
         """Execute with validated args; return something JSON-serializable."""
+
+    def evidence(self, output: Any) -> list[Evidence]:
+        """Sources (or calculation results) this output showed the model."""
+        return []
 
     def schema(self) -> dict[str, Any]:
         return {
@@ -66,6 +83,7 @@ class ToolOutcome:
     output: Any
     error: str | None
     latency_ms: float
+    evidence: list[Evidence] = field(default_factory=list)
 
     @property
     def content(self) -> str:
@@ -102,9 +120,25 @@ def execute_tool_call(tools: dict[str, Tool], call: ToolCall) -> ToolOutcome:
         problems = "; ".join(f"{'.'.join(map(str, e['loc']))}: {e['msg']}" for e in err.errors())
         return outcome(parsed, None, f"invalid arguments: {problems}")
     try:
-        return outcome(args.model_dump(), tool.run(args), None)
+        output = tool.run(args)
     except ToolInputError as err:
         return outcome(args.model_dump(), None, str(err))
+    result = outcome(args.model_dump(), output, None)
+    result.evidence = tool.evidence(output)
+    return result
+
+
+def chunk_evidence(chunks: list[dict[str, Any]]) -> list[Evidence]:
+    return [
+        Evidence(
+            source_id=c["chunk_id"],
+            kind="chunk",
+            text=c["text"],
+            values=numbers_in(c["text"]),
+            meta={k: c[k] for k in ("ticker", "fiscal_year", "section", "page") if k in c},
+        )
+        for c in chunks
+    ]
 
 
 class SearchFilingsArgs(BaseModel):
@@ -170,3 +204,6 @@ class SearchFilingsTool(Tool):
         if not results:
             return {"results": [], "note": "no passages matched; try other words or filters"}
         return {"results": results}
+
+    def evidence(self, output: Any) -> list[Evidence]:
+        return chunk_evidence(output.get("results", []))

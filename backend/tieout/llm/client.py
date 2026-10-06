@@ -120,7 +120,7 @@ class LLMClient:
         messages: list[Message],
         *,
         tools: list[dict[str, Any]] | None = None,
-        tool_choice: str | None = None,
+        tool_choice: str | dict[str, Any] | None = None,
         temperature: float = 0.0,
         max_tokens: int = 1024,
         extra: dict[str, Any] | None = None,

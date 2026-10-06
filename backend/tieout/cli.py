@@ -7,12 +7,14 @@ import typer
 from sqlalchemy import func, select
 
 from tieout import ingest
+from tieout.agent.factory import build_agent
 from tieout.config import REPO_ROOT, get_settings
 from tieout.db.models import ChunkRow
 from tieout.db.session import get_sessionmaker
 from tieout.evals.retrieval_eval import run_retrieval_eval, write_reports
 from tieout.financebench.dataset import load_questions
 from tieout.indexing import run_index
+from tieout.llm.limits import UsageLedger, limits_for
 from tieout.retrieval.chunking import MAX_TOKENS, OVERLAP_TOKENS
 from tieout.retrieval.embeddings import get_embedder
 from tieout.retrieval.search import RRF_K, SearchFilters, search
@@ -139,6 +141,60 @@ def eval_retrieval() -> None:
     }
     write_reports(results, REPO_ROOT / "evals" / "reports", meta)
     typer.echo((REPO_ROOT / "evals" / "reports" / "retrieval.md").read_text(encoding="utf-8"))
+
+
+@app.command("ask")
+def ask_cmd(
+    question: str,
+    mode: Annotated[str, typer.Option(help="search mode: hybrid | vector | keyword")] = "hybrid",
+    offline: Annotated[bool, typer.Option(help="replay recorded responses only")] = False,
+) -> None:
+    """Ask the agent a question about the supported 10-K filings."""
+    settings = get_settings()
+    agent = build_agent(
+        settings,
+        ingest.load_selected(),
+        search_mode=mode,  # type: ignore[arg-type]
+        offline=offline,
+    )
+    result = agent.ask(question)
+    for step in result.steps:
+        r = step.response
+        src = "cache" if r.cached else f"{r.latency_ms:.0f} ms"
+        typer.echo(
+            f"[step {step.index + 1}] {r.usage.prompt_tokens}+{r.usage.completion_tokens} tokens "
+            f"({src}){' forced answer' if step.forced_answer else ''}"
+        )
+        for o in step.tool_outcomes:
+            status = f"error: {o.error}" if o.error else f"{len(o.output.get('results', []))} hits"
+            typer.echo(f"    {o.name}({o.raw_arguments}) -> {status}")
+    typer.echo("")
+    typer.echo(f"stop: {result.stop_reason}; tokens: {result.usage.total_tokens}")
+    typer.echo("")
+    typer.echo(result.answer or "(no answer)")
+
+
+@app.command("usage")
+def usage_cmd() -> None:
+    """Today's LLM token usage against the free-tier daily limits."""
+    settings = get_settings()
+    data = UsageLedger(settings.usage_dir).read()
+    if not data:
+        typer.echo("no LLM usage recorded today")
+        return
+    for model, m in data.items():
+        tokens = m["prompt_tokens"] + m["completion_tokens"]
+        lim = limits_for(settings.llm_provider, model)
+        typer.echo(f"{model}:")
+        if lim:
+            typer.echo(f"  tokens   {tokens:>9,} / {lim.tpd:,} per day ({tokens / lim.tpd:.1%})")
+            typer.echo(f"  requests {m['requests']:>9,} / {lim.rpd:,} per day")
+        else:
+            typer.echo(f"  tokens   {tokens:>9,} (no known daily limit)")
+            typer.echo(f"  requests {m['requests']:>9,}")
+        typer.echo(
+            f"  cache hits {m['cache_hits']:,} (saved {m['tokens_saved_by_cache']:,} tokens)"
+        )
 
 
 if __name__ == "__main__":

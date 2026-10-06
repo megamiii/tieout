@@ -1,0 +1,8616 @@
+{
+  "meta": {
+    "date": "2026-10-07",
+    "embedding_model": "BAAI/bge-small-en-v1.5",
+    "chunk_max_tokens": 400,
+    "chunk_overlap_tokens": 50,
+    "chunks_indexed": 13003,
+    "rrf_k": 60
+  },
+  "results": [
+    {
+      "name": "vector",
+      "n": 70,
+      "hit_at": {
+        "1": 0.2,
+        "3": 0.42857142857142855,
+        "5": 0.5428571428571428,
+        "10": 0.6857142857142857
+      },
+      "mrr": 0.3433106575963718,
+      "latency_ms_p50": 46.182350255548954,
+      "latency_ms_p95": 86.63969952613115,
+      "per_question": [
+        {
+          "financebench_id": "financebench_id_03029",
+          "doc_name": "3M_2018_10K",
+          "gold_pages": [
+            60
+          ],
+          "retrieved_pages": [
+            44,
+            83,
+            43,
+            60,
+            39,
+            98,
+            26,
+            58,
+            90,
+            14
+          ],
+          "first_hit_rank": 4
+        },
+        {
+          "financebench_id": "financebench_id_04672",
+          "doc_name": "3M_2018_10K",
+          "gold_pages": [
+            58
+          ],
+          "retrieved_pages": [
+            100,
+            16,
+            44,
+            13,
+            98,
+            47,
+            45,
+            51,
+            101,
+            14
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00499",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            48,
+            50,
+            52
+          ],
+          "retrieved_pages": [
+            37,
+            39,
+            38,
+            4,
+            34,
+            50,
+            51,
+            40,
+            244,
+            10
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_01226",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            27
+          ],
+          "retrieved_pages": [
+            30,
+            19,
+            121,
+            33,
+            31,
+            20,
+            121,
+            22,
+            4,
+            24
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01865",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            25
+          ],
+          "retrieved_pages": [
+            21,
+            19,
+            64,
+            26,
+            10,
+            15,
+            11,
+            64,
+            61,
+            19
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04735",
+          "doc_name": "ADOBE_2015_10K",
+          "gold_pages": [
+            59,
+            63
+          ],
+          "retrieved_pages": [
+            63,
+            52,
+            59,
+            72,
+            73,
+            78,
+            76,
+            104,
+            51,
+            68
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_07507",
+          "doc_name": "ADOBE_2016_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            62,
+            101,
+            63,
+            65,
+            43,
+            97,
+            52,
+            82,
+            49,
+            99
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_03856",
+          "doc_name": "ADOBE_2017_10K",
+          "gold_pages": [
+            57,
+            61
+          ],
+          "retrieved_pages": [
+            61,
+            57,
+            71,
+            34,
+            50,
+            74,
+            34,
+            94,
+            91,
+            51
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_00438",
+          "doc_name": "ADOBE_2022_10K",
+          "gold_pages": [
+            54
+          ],
+          "retrieved_pages": [
+            39,
+            4,
+            14,
+            17,
+            54,
+            41,
+            39,
+            58,
+            41,
+            8
+          ],
+          "first_hit_rank": 5
+        },
+        {
+          "financebench_id": "financebench_id_00591",
+          "doc_name": "ADOBE_2022_10K",
+          "gold_pages": [
+            57
+          ],
+          "retrieved_pages": [
+            57,
+            47,
+            69,
+            54,
+            40,
+            65,
+            75,
+            5,
+            53,
+            37
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_03882",
+          "doc_name": "AMCOR_2020_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            31,
+            54,
+            51,
+            50,
+            75,
+            111,
+            38,
+            77,
+            88,
+            52
+          ],
+          "first_hit_rank": 4
+        },
+        {
+          "financebench_id": "financebench_id_00799",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            35,
+            77,
+            87,
+            2,
+            77,
+            46,
+            54,
+            48,
+            21,
+            39
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01079",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            64
+          ],
+          "retrieved_pages": [
+            30,
+            64,
+            30,
+            86,
+            54,
+            64,
+            52,
+            152,
+            117,
+            53
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_01148",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            5
+          ],
+          "retrieved_pages": [
+            55,
+            7,
+            5,
+            30,
+            11,
+            37,
+            25,
+            9,
+            9,
+            151
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_00684",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            35,
+            35,
+            50,
+            32,
+            21,
+            33,
+            61,
+            56,
+            2,
+            44
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_03069",
+          "doc_name": "AMD_2015_10K",
+          "gold_pages": [
+            56,
+            60
+          ],
+          "retrieved_pages": [
+            43,
+            39,
+            48,
+            48,
+            94,
+            39,
+            60,
+            69,
+            32,
+            41
+          ],
+          "first_hit_rank": 7
+        },
+        {
+          "financebench_id": "financebench_id_00222",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            80,
+            53,
+            53,
+            51,
+            67,
+            42,
+            1,
+            1,
+            4,
+            97
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00995",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            4
+          ],
+          "retrieved_pages": [
+            11,
+            11,
+            4,
+            111,
+            9,
+            110,
+            12,
+            44,
+            9,
+            68
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_01198",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            43
+          ],
+          "retrieved_pages": [
+            65,
+            49,
+            68,
+            48,
+            88,
+            49,
+            98,
+            52,
+            54,
+            67
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00917",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            43
+          ],
+          "retrieved_pages": [
+            49,
+            51,
+            42,
+            22,
+            43,
+            28,
+            98,
+            97,
+            81,
+            29
+          ],
+          "first_hit_rank": 5
+        },
+        {
+          "financebench_id": "financebench_id_01279",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            58
+          ],
+          "retrieved_pages": [
+            51,
+            58,
+            58,
+            52,
+            51,
+            59,
+            4,
+            37,
+            57,
+            68
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_00563",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            48
+          ],
+          "retrieved_pages": [
+            67,
+            1,
+            43,
+            48,
+            43,
+            54,
+            68,
+            42,
+            75,
+            67
+          ],
+          "first_hit_rank": 4
+        },
+        {
+          "financebench_id": "financebench_id_00757",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            12
+          ],
+          "retrieved_pages": [
+            110,
+            80,
+            67,
+            68,
+            67,
+            22,
+            112,
+            3,
+            4,
+            43
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00476",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            1
+          ],
+          "retrieved_pages": [
+            1,
+            126,
+            259,
+            260,
+            124,
+            252,
+            1,
+            162,
+            120,
+            71
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_01028",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            155
+          ],
+          "retrieved_pages": [
+            153,
+            6,
+            153,
+            4,
+            25,
+            5,
+            95,
+            88,
+            252,
+            40
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00723",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            96
+          ],
+          "retrieved_pages": [
+            46,
+            64,
+            45,
+            57,
+            72,
+            105,
+            9,
+            49,
+            48,
+            39
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00720",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            96
+          ],
+          "retrieved_pages": [
+            45,
+            46,
+            85,
+            57,
+            102,
+            44,
+            90,
+            48,
+            150,
+            61
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01351",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            44
+          ],
+          "retrieved_pages": [
+            49,
+            146,
+            148,
+            148,
+            47,
+            96,
+            156,
+            144,
+            44,
+            126
+          ],
+          "first_hit_rank": 9
+        },
+        {
+          "financebench_id": "financebench_id_01964",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            98
+          ],
+          "retrieved_pages": [
+            126,
+            98,
+            152,
+            98,
+            95,
+            127,
+            92,
+            142,
+            156,
+            28
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_01981",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            45
+          ],
+          "retrieved_pages": [
+            117,
+            49,
+            5,
+            142,
+            126,
+            173,
+            188,
+            51,
+            61,
+            127
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_02608",
+          "doc_name": "BESTBUY_2017_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            91,
+            91,
+            31,
+            34,
+            81,
+            56,
+            33,
+            25,
+            37,
+            33
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_04417",
+          "doc_name": "BESTBUY_2019_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            52,
+            26,
+            32,
+            25,
+            55,
+            26,
+            41,
+            53,
+            26,
+            82
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_00685",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            40
+          ],
+          "retrieved_pages": [
+            23,
+            22,
+            32,
+            37,
+            33,
+            23,
+            24,
+            46,
+            32,
+            25
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01077",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            51
+          ],
+          "retrieved_pages": [
+            39,
+            44,
+            30,
+            69,
+            66,
+            26,
+            19,
+            18,
+            44,
+            63
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01275",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            42
+          ],
+          "retrieved_pages": [
+            29,
+            42,
+            29,
+            39,
+            30,
+            26,
+            27,
+            23,
+            27,
+            25
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_10285",
+          "doc_name": "BOEING_2018_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            71,
+            52,
+            53,
+            57,
+            56,
+            51,
+            38,
+            47,
+            24,
+            50
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_00517",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            55,
+            62,
+            100,
+            116,
+            57,
+            3,
+            24,
+            59,
+            61,
+            3
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_01091",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            113
+          ],
+          "retrieved_pages": [
+            20,
+            113,
+            29,
+            2,
+            37,
+            23,
+            119,
+            132,
+            19,
+            126
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_00678",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            55
+          ],
+          "retrieved_pages": [
+            24,
+            51,
+            49,
+            57,
+            63,
+            120,
+            62,
+            51,
+            100,
+            50
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01290",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            8,
+            10,
+            14
+          ],
+          "retrieved_pages": [
+            55,
+            3,
+            62,
+            57,
+            59,
+            115,
+            61,
+            83,
+            129,
+            5
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00464",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            8
+          ],
+          "retrieved_pages": [
+            63,
+            36,
+            22,
+            13,
+            37,
+            57,
+            10,
+            23,
+            100,
+            29
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00494",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            9
+          ],
+          "retrieved_pages": [
+            35,
+            81,
+            9,
+            35,
+            22,
+            33,
+            37,
+            28,
+            81,
+            80
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_00585",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            55
+          ],
+          "retrieved_pages": [
+            79,
+            77,
+            27,
+            76,
+            100,
+            55,
+            78,
+            24,
+            57,
+            56
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_10130",
+          "doc_name": "CORNING_2020_10K",
+          "gold_pages": [
+            70,
+            72
+          ],
+          "retrieved_pages": [
+            131,
+            73,
+            95,
+            110,
+            72,
+            111,
+            45,
+            77,
+            128,
+            121
+          ],
+          "first_hit_rank": 5
+        },
+        {
+          "financebench_id": "financebench_id_02981",
+          "doc_name": "CORNING_2021_10K",
+          "gold_pages": [
+            65
+          ],
+          "retrieved_pages": [
+            85,
+            102,
+            65,
+            117,
+            26,
+            42,
+            34,
+            88,
+            28,
+            40
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_01346",
+          "doc_name": "CORNING_2022_10K",
+          "gold_pages": [
+            24
+          ],
+          "retrieved_pages": [
+            26,
+            77,
+            79,
+            79,
+            32,
+            32,
+            102,
+            153,
+            76,
+            79
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00005",
+          "doc_name": "CORNING_2022_10K",
+          "gold_pages": [
+            60
+          ],
+          "retrieved_pages": [
+            34,
+            66,
+            102,
+            103,
+            63,
+            101,
+            91,
+            64,
+            60,
+            1
+          ],
+          "first_hit_rank": 9
+        },
+        {
+          "financebench_id": "financebench_id_05915",
+          "doc_name": "CVSHEALTH_2018_10K",
+          "gold_pages": [
+            302,
+            304
+          ],
+          "retrieved_pages": [
+            145,
+            144,
+            83,
+            279,
+            304,
+            371,
+            267,
+            374,
+            152,
+            339
+          ],
+          "first_hit_rank": 5
+        },
+        {
+          "financebench_id": "financebench_id_00790",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            108,
+            110
+          ],
+          "retrieved_pages": [
+            89,
+            111,
+            132,
+            89,
+            1,
+            110,
+            100,
+            4,
+            71,
+            182
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_01107",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            173,
+            174
+          ],
+          "retrieved_pages": [
+            174,
+            75,
+            177,
+            20,
+            88,
+            88,
+            175,
+            77,
+            178,
+            190
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_01244",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            68
+          ],
+          "retrieved_pages": [
+            68,
+            92,
+            70,
+            167,
+            168,
+            68,
+            92,
+            113,
+            92,
+            167
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_04103",
+          "doc_name": "GENERALMILLS_2019_10K",
+          "gold_pages": [
+            53,
+            55
+          ],
+          "retrieved_pages": [
+            109,
+            58,
+            57,
+            41,
+            62,
+            120,
+            76,
+            20,
+            105,
+            72
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03471",
+          "doc_name": "GENERALMILLS_2020_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            50,
+            27,
+            53,
+            17,
+            66,
+            19,
+            97,
+            29,
+            29,
+            92
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_04854",
+          "doc_name": "GENERALMILLS_2020_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            52,
+            95,
+            37,
+            17,
+            27,
+            28,
+            28,
+            50,
+            63,
+            29
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_10136",
+          "doc_name": "GENERALMILLS_2022_10K",
+          "gold_pages": [
+            45,
+            49
+          ],
+          "retrieved_pages": [
+            18,
+            25,
+            35,
+            48,
+            28,
+            47,
+            27,
+            49,
+            73,
+            18
+          ],
+          "first_hit_rank": 8
+        },
+        {
+          "financebench_id": "financebench_id_04302",
+          "doc_name": "NIKE_2018_10K",
+          "gold_pages": [
+            46
+          ],
+          "retrieved_pages": [
+            72,
+            22,
+            46,
+            28,
+            22,
+            56,
+            89,
+            22,
+            28,
+            30
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_03531",
+          "doc_name": "NIKE_2019_10K",
+          "gold_pages": [
+            54
+          ],
+          "retrieved_pages": [
+            54,
+            55,
+            66,
+            82,
+            84,
+            40,
+            40,
+            52,
+            72,
+            56
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_04080",
+          "doc_name": "NIKE_2021_10K",
+          "gold_pages": [
+            59,
+            61
+          ],
+          "retrieved_pages": [
+            62,
+            61,
+            59,
+            63,
+            63,
+            31,
+            101,
+            61,
+            57,
+            72
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_01163",
+          "doc_name": "NIKE_2023_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            62,
+            48,
+            62,
+            49,
+            61,
+            82,
+            92,
+            90,
+            91,
+            72
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_04980",
+          "doc_name": "PEPSICO_2021_10K",
+          "gold_pages": [
+            63
+          ],
+          "retrieved_pages": [
+            52,
+            52,
+            64,
+            106,
+            65,
+            63,
+            71,
+            109,
+            108,
+            53
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_01009",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            4,
+            5
+          ],
+          "retrieved_pages": [
+            482,
+            484,
+            10,
+            28,
+            26,
+            34,
+            64,
+            4,
+            32,
+            13
+          ],
+          "first_hit_rank": 8
+        },
+        {
+          "financebench_id": "financebench_id_00735",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            26
+          ],
+          "retrieved_pages": [
+            35,
+            64,
+            34,
+            11,
+            32,
+            500,
+            66,
+            112,
+            134,
+            65
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01328",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            78
+          ],
+          "retrieved_pages": [
+            78,
+            42,
+            79,
+            49,
+            78,
+            68,
+            64,
+            39,
+            110,
+            46
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_03620",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            62,
+            64
+          ],
+          "retrieved_pages": [
+            80,
+            54,
+            425,
+            46,
+            456,
+            46,
+            59,
+            86,
+            434,
+            117
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04481",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            62,
+            64
+          ],
+          "retrieved_pages": [
+            54,
+            59,
+            46,
+            100,
+            434,
+            114,
+            114,
+            46,
+            46,
+            65
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00859",
+          "doc_name": "VERIZON_2021_10K",
+          "gold_pages": [
+            85
+          ],
+          "retrieved_pages": [
+            86,
+            47,
+            85,
+            47,
+            84,
+            87,
+            46,
+            87,
+            85,
+            46
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_02024",
+          "doc_name": "VERIZON_2021_10K",
+          "gold_pages": [
+            63,
+            94
+          ],
+          "retrieved_pages": [
+            20,
+            36,
+            33,
+            52,
+            94,
+            102,
+            24,
+            89,
+            76,
+            94
+          ],
+          "first_hit_rank": 5
+        },
+        {
+          "financebench_id": "financebench_id_00216",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            94,
+            49,
+            62,
+            94,
+            49,
+            96,
+            48,
+            64,
+            50,
+            18
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00215",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            23,
+            56
+          ],
+          "retrieved_pages": [
+            38,
+            56,
+            57,
+            37,
+            39,
+            78,
+            58,
+            21,
+            40,
+            106
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_00566",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            77
+          ],
+          "retrieved_pages": [
+            77,
+            40,
+            98,
+            34,
+            35,
+            40,
+            41,
+            113,
+            18,
+            25
+          ],
+          "first_hit_rank": 1
+        }
+      ]
+    },
+    {
+      "name": "keyword, ts_rank_cd (no IDF)",
+      "n": 70,
+      "hit_at": {
+        "1": 0.04285714285714286,
+        "3": 0.1,
+        "5": 0.15714285714285714,
+        "10": 0.2571428571428571
+      },
+      "mrr": 0.09287414965986394,
+      "latency_ms_p50": 56.1768002808094,
+      "latency_ms_p95": 181.55810050666332,
+      "per_question": [
+        {
+          "financebench_id": "financebench_id_03029",
+          "doc_name": "3M_2018_10K",
+          "gold_pages": [
+            60
+          ],
+          "retrieved_pages": [
+            49,
+            152,
+            88,
+            90,
+            49,
+            90,
+            153,
+            43,
+            46,
+            109
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04672",
+          "doc_name": "3M_2018_10K",
+          "gold_pages": [
+            58
+          ],
+          "retrieved_pages": [
+            152,
+            132,
+            105,
+            153,
+            29,
+            30,
+            132,
+            99,
+            16,
+            106
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00499",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            48,
+            50,
+            52
+          ],
+          "retrieved_pages": [
+            244,
+            245,
+            121,
+            61,
+            28,
+            61,
+            37,
+            62,
+            57,
+            5
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01226",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            27
+          ],
+          "retrieved_pages": [
+            244,
+            121,
+            245,
+            53,
+            4,
+            19,
+            28,
+            19,
+            15,
+            108
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01865",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            25
+          ],
+          "retrieved_pages": [
+            121,
+            244,
+            28,
+            245,
+            19,
+            53,
+            20,
+            19,
+            114,
+            18
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04735",
+          "doc_name": "ADOBE_2015_10K",
+          "gold_pages": [
+            59,
+            63
+          ],
+          "retrieved_pages": [
+            104,
+            52,
+            53,
+            104,
+            77,
+            71,
+            6,
+            4,
+            17,
+            69
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_07507",
+          "doc_name": "ADOBE_2016_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            40,
+            10,
+            66,
+            5,
+            6,
+            102,
+            11,
+            94,
+            4,
+            80
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03856",
+          "doc_name": "ADOBE_2017_10K",
+          "gold_pages": [
+            57,
+            61
+          ],
+          "retrieved_pages": [
+            49,
+            50,
+            6,
+            71,
+            61,
+            57,
+            49,
+            76,
+            39,
+            12
+          ],
+          "first_hit_rank": 5
+        },
+        {
+          "financebench_id": "financebench_id_00438",
+          "doc_name": "ADOBE_2022_10K",
+          "gold_pages": [
+            54
+          ],
+          "retrieved_pages": [
+            99,
+            7,
+            19,
+            13,
+            10,
+            11,
+            7,
+            12,
+            12,
+            39
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00591",
+          "doc_name": "ADOBE_2022_10K",
+          "gold_pages": [
+            57
+          ],
+          "retrieved_pages": [
+            11,
+            99,
+            7,
+            10,
+            10,
+            7,
+            19,
+            11,
+            13,
+            13
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03882",
+          "doc_name": "AMCOR_2020_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            30,
+            28,
+            35,
+            54,
+            29,
+            44,
+            61,
+            28,
+            29,
+            98
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00799",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            152,
+            37,
+            48,
+            113,
+            48,
+            114,
+            115,
+            151,
+            104,
+            113
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01079",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            64
+          ],
+          "retrieved_pages": [
+            37,
+            152,
+            114,
+            115,
+            113,
+            147,
+            114,
+            113,
+            114,
+            37
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01148",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            5
+          ],
+          "retrieved_pages": [
+            37,
+            152,
+            114,
+            115,
+            113,
+            37,
+            114,
+            113,
+            114,
+            147
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00684",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            152,
+            37,
+            114,
+            151,
+            131,
+            113,
+            37,
+            115,
+            58,
+            114
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03069",
+          "doc_name": "AMD_2015_10K",
+          "gold_pages": [
+            56,
+            60
+          ],
+          "retrieved_pages": [
+            92,
+            95,
+            93,
+            9,
+            3,
+            212,
+            3,
+            210,
+            60,
+            3
+          ],
+          "first_hit_rank": 9
+        },
+        {
+          "financebench_id": "financebench_id_00222",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            11,
+            44,
+            9,
+            9,
+            8,
+            104,
+            44,
+            5,
+            102,
+            7
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00995",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            4
+          ],
+          "retrieved_pages": [
+            11,
+            26,
+            26,
+            29,
+            7,
+            44,
+            9,
+            31,
+            28,
+            9
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01198",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            43
+          ],
+          "retrieved_pages": [
+            11,
+            44,
+            9,
+            9,
+            8,
+            102,
+            43,
+            49,
+            4,
+            44
+          ],
+          "first_hit_rank": 7
+        },
+        {
+          "financebench_id": "financebench_id_00917",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            43
+          ],
+          "retrieved_pages": [
+            64,
+            9,
+            11,
+            38,
+            44,
+            65,
+            61,
+            89,
+            62,
+            75
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01279",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            58
+          ],
+          "retrieved_pages": [
+            37,
+            51,
+            58,
+            52,
+            53,
+            58,
+            11,
+            44,
+            4,
+            4
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_00563",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            48
+          ],
+          "retrieved_pages": [
+            9,
+            11,
+            75,
+            102,
+            48,
+            44,
+            67,
+            43,
+            9,
+            6
+          ],
+          "first_hit_rank": 5
+        },
+        {
+          "financebench_id": "financebench_id_00757",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            12
+          ],
+          "retrieved_pages": [
+            11,
+            102,
+            44,
+            9,
+            26,
+            8,
+            8,
+            104,
+            61,
+            62
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00476",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            1
+          ],
+          "retrieved_pages": [
+            254,
+            252,
+            253,
+            65,
+            118,
+            1,
+            150,
+            176,
+            118,
+            68
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_01028",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            155
+          ],
+          "retrieved_pages": [
+            254,
+            252,
+            253,
+            65,
+            176,
+            72,
+            163,
+            157,
+            150,
+            163
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00723",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            96
+          ],
+          "retrieved_pages": [
+            254,
+            252,
+            225,
+            14,
+            253,
+            92,
+            153,
+            162,
+            104,
+            84
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00720",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            96
+          ],
+          "retrieved_pages": [
+            254,
+            252,
+            253,
+            65,
+            163,
+            164,
+            176,
+            162,
+            164,
+            150
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01351",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            44
+          ],
+          "retrieved_pages": [
+            254,
+            252,
+            253,
+            84,
+            148,
+            65,
+            134,
+            176,
+            125,
+            37
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01964",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            98
+          ],
+          "retrieved_pages": [
+            254,
+            252,
+            253,
+            65,
+            176,
+            98,
+            163,
+            150,
+            150,
+            163
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_01981",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            45
+          ],
+          "retrieved_pages": [
+            254,
+            252,
+            85,
+            253,
+            7,
+            107,
+            52,
+            65,
+            103,
+            108
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_02608",
+          "doc_name": "BESTBUY_2017_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            103,
+            97,
+            60,
+            4,
+            27,
+            53,
+            96,
+            96,
+            42,
+            74
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04417",
+          "doc_name": "BESTBUY_2019_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            101,
+            91,
+            35,
+            91,
+            96,
+            81,
+            60,
+            27,
+            80,
+            57
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00685",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            40
+          ],
+          "retrieved_pages": [
+            69,
+            66,
+            21,
+            66,
+            44,
+            66,
+            4,
+            32,
+            23,
+            5
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01077",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            51
+          ],
+          "retrieved_pages": [
+            69,
+            66,
+            66,
+            66,
+            44,
+            21,
+            23,
+            4,
+            32,
+            5
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01275",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            42
+          ],
+          "retrieved_pages": [
+            69,
+            29,
+            29,
+            42,
+            5,
+            55,
+            66,
+            37,
+            44,
+            21
+          ],
+          "first_hit_rank": 4
+        },
+        {
+          "financebench_id": "financebench_id_10285",
+          "doc_name": "BOEING_2018_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            85,
+            110,
+            53,
+            64,
+            103,
+            51,
+            119,
+            36,
+            42,
+            105
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00517",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            65,
+            24,
+            35,
+            116,
+            115,
+            185,
+            22,
+            3,
+            81,
+            129
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01091",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            113
+          ],
+          "retrieved_pages": [
+            124,
+            187,
+            188,
+            126,
+            188,
+            187,
+            185,
+            7,
+            129,
+            133
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00678",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            55
+          ],
+          "retrieved_pages": [
+            133,
+            142,
+            146,
+            185,
+            133,
+            132,
+            119,
+            124,
+            129,
+            175
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01290",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            8,
+            10,
+            14
+          ],
+          "retrieved_pages": [
+            185,
+            66,
+            129,
+            115,
+            32,
+            175,
+            145,
+            142,
+            19,
+            87
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00464",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            8
+          ],
+          "retrieved_pages": [
+            185,
+            129,
+            175,
+            14,
+            145,
+            128,
+            142,
+            5,
+            133,
+            127
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00494",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            9
+          ],
+          "retrieved_pages": [
+            53,
+            9,
+            35,
+            185,
+            35,
+            81,
+            52,
+            36,
+            17,
+            145
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_00585",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            55
+          ],
+          "retrieved_pages": [
+            79,
+            67,
+            77,
+            78,
+            52,
+            145,
+            53,
+            185,
+            133,
+            56
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_10130",
+          "doc_name": "CORNING_2020_10K",
+          "gold_pages": [
+            70,
+            72
+          ],
+          "retrieved_pages": [
+            133,
+            112,
+            43,
+            133,
+            77,
+            59,
+            66,
+            58,
+            45,
+            31
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_02981",
+          "doc_name": "CORNING_2021_10K",
+          "gold_pages": [
+            65
+          ],
+          "retrieved_pages": [
+            120,
+            65,
+            57,
+            85,
+            101,
+            29,
+            57,
+            12,
+            96,
+            32
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_01346",
+          "doc_name": "CORNING_2022_10K",
+          "gold_pages": [
+            24
+          ],
+          "retrieved_pages": [
+            154,
+            79,
+            69,
+            26,
+            77,
+            79,
+            90,
+            51,
+            51,
+            51
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00005",
+          "doc_name": "CORNING_2022_10K",
+          "gold_pages": [
+            60
+          ],
+          "retrieved_pages": [
+            154,
+            90,
+            50,
+            65,
+            11,
+            154,
+            90,
+            66,
+            11,
+            67
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_05915",
+          "doc_name": "CVSHEALTH_2018_10K",
+          "gold_pages": [
+            302,
+            304
+          ],
+          "retrieved_pages": [
+            112,
+            378,
+            3,
+            265,
+            380,
+            66,
+            113,
+            308,
+            114,
+            112
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00790",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            108,
+            110
+          ],
+          "retrieved_pages": [
+            204,
+            196,
+            198,
+            4,
+            205,
+            19,
+            71,
+            135,
+            114,
+            195
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01107",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            173,
+            174
+          ],
+          "retrieved_pages": [
+            196,
+            204,
+            198,
+            66,
+            181,
+            205,
+            66,
+            114,
+            66,
+            71
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01244",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            68
+          ],
+          "retrieved_pages": [
+            204,
+            196,
+            198,
+            205,
+            193,
+            193,
+            71,
+            68,
+            70,
+            4
+          ],
+          "first_hit_rank": 8
+        },
+        {
+          "financebench_id": "financebench_id_04103",
+          "doc_name": "GENERALMILLS_2019_10K",
+          "gold_pages": [
+            53,
+            55
+          ],
+          "retrieved_pages": [
+            135,
+            58,
+            108,
+            2,
+            41,
+            77,
+            77,
+            60,
+            51,
+            62
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03471",
+          "doc_name": "GENERALMILLS_2020_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            50,
+            56,
+            46,
+            46,
+            45,
+            122,
+            125,
+            124,
+            7,
+            53
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_04854",
+          "doc_name": "GENERALMILLS_2020_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            37,
+            21,
+            26,
+            52,
+            29,
+            46,
+            53,
+            18,
+            62,
+            27
+          ],
+          "first_hit_rank": 4
+        },
+        {
+          "financebench_id": "financebench_id_10136",
+          "doc_name": "GENERALMILLS_2022_10K",
+          "gold_pages": [
+            45,
+            49
+          ],
+          "retrieved_pages": [
+            43,
+            35,
+            18,
+            89,
+            43,
+            46,
+            50,
+            90,
+            49,
+            19
+          ],
+          "first_hit_rank": 9
+        },
+        {
+          "financebench_id": "financebench_id_04302",
+          "doc_name": "NIKE_2018_10K",
+          "gold_pages": [
+            46
+          ],
+          "retrieved_pages": [
+            91,
+            92,
+            25,
+            25,
+            45,
+            25,
+            4,
+            45,
+            77,
+            85
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03531",
+          "doc_name": "NIKE_2019_10K",
+          "gold_pages": [
+            54
+          ],
+          "retrieved_pages": [
+            99,
+            100,
+            54,
+            69,
+            82,
+            74,
+            81,
+            66,
+            64,
+            84
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_04080",
+          "doc_name": "NIKE_2021_10K",
+          "gold_pages": [
+            59,
+            61
+          ],
+          "retrieved_pages": [
+            57,
+            57,
+            70,
+            98,
+            35,
+            49,
+            56,
+            57,
+            107,
+            84
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01163",
+          "doc_name": "NIKE_2023_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            62,
+            69,
+            62,
+            48,
+            19,
+            6,
+            19,
+            6,
+            88,
+            12
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_04980",
+          "doc_name": "PEPSICO_2021_10K",
+          "gold_pages": [
+            63
+          ],
+          "retrieved_pages": [
+            52,
+            535,
+            534,
+            533,
+            47,
+            53,
+            544,
+            541,
+            53,
+            52
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01009",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            4,
+            5
+          ],
+          "retrieved_pages": [
+            489,
+            488,
+            490,
+            498,
+            28,
+            27,
+            429,
+            43,
+            44,
+            40
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00735",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            26
+          ],
+          "retrieved_pages": [
+            489,
+            488,
+            490,
+            498,
+            501,
+            495,
+            502,
+            128,
+            127,
+            28
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01328",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            78
+          ],
+          "retrieved_pages": [
+            488,
+            489,
+            490,
+            483,
+            498,
+            495,
+            482,
+            487,
+            497,
+            491
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03620",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            62,
+            64
+          ],
+          "retrieved_pages": [
+            489,
+            488,
+            53,
+            47,
+            495,
+            54,
+            498,
+            103,
+            106,
+            490
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04481",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            62,
+            64
+          ],
+          "retrieved_pages": [
+            489,
+            488,
+            47,
+            495,
+            54,
+            498,
+            490,
+            53,
+            65,
+            77
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00859",
+          "doc_name": "VERIZON_2021_10K",
+          "gold_pages": [
+            85
+          ],
+          "retrieved_pages": [
+            85,
+            87,
+            86,
+            46,
+            46,
+            47,
+            63,
+            86,
+            46,
+            84
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_02024",
+          "doc_name": "VERIZON_2021_10K",
+          "gold_pages": [
+            63,
+            94
+          ],
+          "retrieved_pages": [
+            78,
+            19,
+            48,
+            44,
+            49,
+            24,
+            39,
+            100,
+            70,
+            79
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00216",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            51,
+            52,
+            80,
+            11,
+            107,
+            4,
+            48,
+            111,
+            39,
+            87
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00215",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            23,
+            56
+          ],
+          "retrieved_pages": [
+            5,
+            18,
+            4,
+            59,
+            84,
+            4,
+            51,
+            80,
+            100,
+            52
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00566",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            77
+          ],
+          "retrieved_pages": [
+            30,
+            25,
+            113,
+            18,
+            31,
+            41,
+            52,
+            25,
+            77,
+            94
+          ],
+          "first_hit_rank": 9
+        }
+      ]
+    },
+    {
+      "name": "keyword, BM25-lite IDF",
+      "n": 70,
+      "hit_at": {
+        "1": 0.1,
+        "3": 0.17142857142857143,
+        "5": 0.17142857142857143,
+        "10": 0.24285714285714285
+      },
+      "mrr": 0.1376190476190476,
+      "latency_ms_p50": 82.41584990173578,
+      "latency_ms_p95": 129.51930053532124,
+      "per_question": [
+        {
+          "financebench_id": "financebench_id_03029",
+          "doc_name": "3M_2018_10K",
+          "gold_pages": [
+            60
+          ],
+          "retrieved_pages": [
+            49,
+            65,
+            7,
+            113,
+            47,
+            41,
+            39,
+            83,
+            83,
+            43
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04672",
+          "doc_name": "3M_2018_10K",
+          "gold_pages": [
+            58
+          ],
+          "retrieved_pages": [
+            65,
+            2,
+            54,
+            13,
+            76,
+            99,
+            94,
+            47,
+            7,
+            88
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00499",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            48,
+            50,
+            52
+          ],
+          "retrieved_pages": [
+            244,
+            245,
+            37,
+            7,
+            244,
+            38,
+            6,
+            61,
+            15,
+            10
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01226",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            27
+          ],
+          "retrieved_pages": [
+            182,
+            34,
+            98,
+            87,
+            163,
+            182,
+            238,
+            202,
+            36,
+            21
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01865",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            25
+          ],
+          "retrieved_pages": [
+            22,
+            121,
+            32,
+            31,
+            30,
+            64,
+            31,
+            33,
+            27,
+            32
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04735",
+          "doc_name": "ADOBE_2015_10K",
+          "gold_pages": [
+            59,
+            63
+          ],
+          "retrieved_pages": [
+            4,
+            77,
+            3,
+            29,
+            74,
+            105,
+            17,
+            85,
+            85,
+            18
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_07507",
+          "doc_name": "ADOBE_2016_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            42,
+            12,
+            4,
+            20,
+            69,
+            41,
+            79,
+            8,
+            32,
+            3
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03856",
+          "doc_name": "ADOBE_2017_10K",
+          "gold_pages": [
+            57,
+            61
+          ],
+          "retrieved_pages": [
+            4,
+            75,
+            66,
+            55,
+            90,
+            103,
+            53,
+            93,
+            98,
+            30
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00438",
+          "doc_name": "ADOBE_2022_10K",
+          "gold_pages": [
+            54
+          ],
+          "retrieved_pages": [
+            33,
+            23,
+            7,
+            12,
+            12,
+            9,
+            32,
+            24,
+            37,
+            5
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00591",
+          "doc_name": "ADOBE_2022_10K",
+          "gold_pages": [
+            57
+          ],
+          "retrieved_pages": [
+            6,
+            12,
+            12,
+            5,
+            17,
+            51,
+            51,
+            11,
+            10,
+            10
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03882",
+          "doc_name": "AMCOR_2020_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            172,
+            116,
+            8,
+            41,
+            60,
+            60,
+            61,
+            34,
+            126,
+            9
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00799",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            135,
+            9,
+            5,
+            145,
+            122,
+            4,
+            21,
+            129,
+            21,
+            57
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01079",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            64
+          ],
+          "retrieved_pages": [
+            130,
+            130,
+            144,
+            145,
+            125,
+            102,
+            66,
+            31,
+            147,
+            147
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01148",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            5
+          ],
+          "retrieved_pages": [
+            4,
+            14,
+            14,
+            11,
+            7,
+            5,
+            9,
+            14,
+            5,
+            22
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_00684",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            21,
+            57,
+            83,
+            21,
+            9,
+            74,
+            86,
+            30,
+            58,
+            39
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03069",
+          "doc_name": "AMD_2015_10K",
+          "gold_pages": [
+            56,
+            60
+          ],
+          "retrieved_pages": [
+            89,
+            30,
+            157,
+            108,
+            28,
+            170,
+            127,
+            170,
+            192,
+            135
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00222",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            22,
+            35,
+            53,
+            10,
+            7,
+            20,
+            27,
+            12,
+            10,
+            20
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00995",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            4
+          ],
+          "retrieved_pages": [
+            60,
+            7,
+            24,
+            43,
+            24,
+            69,
+            23,
+            64,
+            38,
+            15
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01198",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            43
+          ],
+          "retrieved_pages": [
+            43,
+            49,
+            4,
+            61,
+            5,
+            67,
+            60,
+            26,
+            48,
+            45
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_00917",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            43
+          ],
+          "retrieved_pages": [
+            62,
+            31,
+            22,
+            81,
+            81,
+            34,
+            47,
+            65,
+            49,
+            24
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01279",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            58
+          ],
+          "retrieved_pages": [
+            4,
+            51,
+            58,
+            59,
+            62,
+            53,
+            31,
+            64,
+            37,
+            37
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_00563",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            48
+          ],
+          "retrieved_pages": [
+            43,
+            48,
+            72,
+            9,
+            44,
+            67,
+            6,
+            75,
+            13,
+            68
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_00757",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            12
+          ],
+          "retrieved_pages": [
+            80,
+            11,
+            9,
+            26,
+            8,
+            8,
+            61,
+            26,
+            44,
+            11
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00476",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            1
+          ],
+          "retrieved_pages": [
+            1,
+            162,
+            118,
+            23,
+            260,
+            259,
+            134,
+            158,
+            1,
+            41
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_01028",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            155
+          ],
+          "retrieved_pages": [
+            9,
+            25,
+            155,
+            74,
+            25,
+            7,
+            157,
+            60,
+            49,
+            152
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_00723",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            96
+          ],
+          "retrieved_pages": [
+            64,
+            45,
+            236,
+            196,
+            19,
+            9,
+            9,
+            132,
+            254,
+            253
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00720",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            96
+          ],
+          "retrieved_pages": [
+            19,
+            147,
+            135,
+            118,
+            228,
+            197,
+            196,
+            45,
+            50,
+            129
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01351",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            44
+          ],
+          "retrieved_pages": [
+            79,
+            79,
+            148,
+            254,
+            252,
+            253,
+            65,
+            176,
+            150,
+            163
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01964",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            98
+          ],
+          "retrieved_pages": [
+            152,
+            98,
+            135,
+            122,
+            134,
+            156,
+            139,
+            136,
+            95,
+            85
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_01981",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            45
+          ],
+          "retrieved_pages": [
+            27,
+            26,
+            28,
+            7,
+            28,
+            28,
+            38,
+            85,
+            27,
+            45
+          ],
+          "first_hit_rank": 10
+        },
+        {
+          "financebench_id": "financebench_id_02608",
+          "doc_name": "BESTBUY_2017_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            36,
+            7,
+            34,
+            13,
+            32,
+            32,
+            42,
+            66,
+            71,
+            62
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04417",
+          "doc_name": "BESTBUY_2019_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            80,
+            67,
+            45,
+            44,
+            44,
+            52,
+            86,
+            64,
+            43,
+            42
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_00685",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            40
+          ],
+          "retrieved_pages": [
+            26,
+            23,
+            23,
+            17,
+            7,
+            48,
+            14,
+            54,
+            33,
+            32
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01077",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            51
+          ],
+          "retrieved_pages": [
+            23,
+            45,
+            5,
+            17,
+            48,
+            50,
+            50,
+            45,
+            46,
+            46
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01275",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            42
+          ],
+          "retrieved_pages": [
+            29,
+            29,
+            42,
+            42,
+            30,
+            18,
+            18,
+            9,
+            6,
+            30
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_10285",
+          "doc_name": "BOEING_2018_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            41,
+            110,
+            49,
+            85,
+            64,
+            53,
+            64,
+            72,
+            75,
+            52
+          ],
+          "first_hit_rank": 10
+        },
+        {
+          "financebench_id": "financebench_id_00517",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            83,
+            107,
+            4,
+            161,
+            38,
+            40,
+            41,
+            23,
+            54,
+            90
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01091",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            113
+          ],
+          "retrieved_pages": [
+            17,
+            29,
+            12,
+            6,
+            4,
+            6,
+            8,
+            53,
+            11,
+            39
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00678",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            55
+          ],
+          "retrieved_pages": [
+            51,
+            35,
+            50,
+            18,
+            15,
+            51,
+            50,
+            51,
+            32,
+            32
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01290",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            8,
+            10,
+            14
+          ],
+          "retrieved_pages": [
+            113,
+            118,
+            118,
+            66,
+            115,
+            32,
+            19,
+            87,
+            65,
+            41
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00464",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            8
+          ],
+          "retrieved_pages": [
+            8,
+            175,
+            145,
+            182,
+            174,
+            17,
+            175,
+            12,
+            53,
+            156
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_00494",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            9
+          ],
+          "retrieved_pages": [
+            108,
+            22,
+            122,
+            22,
+            66,
+            48,
+            71,
+            122,
+            53,
+            48
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00585",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            55
+          ],
+          "retrieved_pages": [
+            25,
+            43,
+            28,
+            9,
+            43,
+            27,
+            24,
+            38,
+            43,
+            41
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_10130",
+          "doc_name": "CORNING_2020_10K",
+          "gold_pages": [
+            70,
+            72
+          ],
+          "retrieved_pages": [
+            41,
+            102,
+            115,
+            46,
+            50,
+            86,
+            43,
+            86,
+            66,
+            72
+          ],
+          "first_hit_rank": 10
+        },
+        {
+          "financebench_id": "financebench_id_02981",
+          "doc_name": "CORNING_2021_10K",
+          "gold_pages": [
+            65
+          ],
+          "retrieved_pages": [
+            26,
+            17,
+            38,
+            32,
+            25,
+            37,
+            36,
+            38,
+            37,
+            81
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01346",
+          "doc_name": "CORNING_2022_10K",
+          "gold_pages": [
+            24
+          ],
+          "retrieved_pages": [
+            154,
+            90,
+            154,
+            51,
+            51,
+            51,
+            11,
+            50,
+            11,
+            52
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00005",
+          "doc_name": "CORNING_2022_10K",
+          "gold_pages": [
+            60
+          ],
+          "retrieved_pages": [
+            150,
+            118,
+            133,
+            134,
+            150,
+            23,
+            30,
+            30,
+            118,
+            133
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_05915",
+          "doc_name": "CVSHEALTH_2018_10K",
+          "gold_pages": [
+            302,
+            304
+          ],
+          "retrieved_pages": [
+            171,
+            263,
+            222,
+            102,
+            283,
+            285,
+            235,
+            248,
+            386,
+            40
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00790",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            108,
+            110
+          ],
+          "retrieved_pages": [
+            122,
+            59,
+            176,
+            176,
+            205,
+            194,
+            195,
+            194,
+            193,
+            3
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01107",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            173,
+            174
+          ],
+          "retrieved_pages": [
+            48,
+            175,
+            86,
+            43,
+            26,
+            24,
+            20,
+            47,
+            50,
+            162
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01244",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            68
+          ],
+          "retrieved_pages": [
+            68,
+            167,
+            168,
+            70,
+            113,
+            193,
+            168,
+            92,
+            111,
+            27
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_04103",
+          "doc_name": "GENERALMILLS_2019_10K",
+          "gold_pages": [
+            53,
+            55
+          ],
+          "retrieved_pages": [
+            123,
+            123,
+            122,
+            16,
+            122,
+            25,
+            26,
+            27,
+            21,
+            26
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03471",
+          "doc_name": "GENERALMILLS_2020_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            110,
+            110,
+            42,
+            42,
+            96,
+            96,
+            95,
+            19,
+            18,
+            6
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04854",
+          "doc_name": "GENERALMILLS_2020_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            17,
+            18,
+            95,
+            125,
+            124,
+            56,
+            45,
+            46,
+            120,
+            37
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_10136",
+          "doc_name": "GENERALMILLS_2022_10K",
+          "gold_pages": [
+            45,
+            49
+          ],
+          "retrieved_pages": [
+            102,
+            36,
+            37,
+            34,
+            33,
+            35,
+            23,
+            38,
+            24,
+            19
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04302",
+          "doc_name": "NIKE_2018_10K",
+          "gold_pages": [
+            46
+          ],
+          "retrieved_pages": [
+            8,
+            84,
+            16,
+            41,
+            75,
+            15,
+            70,
+            1,
+            70,
+            16
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03531",
+          "doc_name": "NIKE_2019_10K",
+          "gold_pages": [
+            54
+          ],
+          "retrieved_pages": [
+            39,
+            39,
+            79,
+            82,
+            77,
+            43,
+            62,
+            69,
+            59,
+            60
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04080",
+          "doc_name": "NIKE_2021_10K",
+          "gold_pages": [
+            59,
+            61
+          ],
+          "retrieved_pages": [
+            12,
+            25,
+            6,
+            25,
+            48,
+            67,
+            70,
+            90,
+            90,
+            37
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01163",
+          "doc_name": "NIKE_2023_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            62,
+            62,
+            20,
+            22,
+            26,
+            16,
+            14,
+            53,
+            21,
+            49
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_04980",
+          "doc_name": "PEPSICO_2021_10K",
+          "gold_pages": [
+            63
+          ],
+          "retrieved_pages": [
+            16,
+            16,
+            474,
+            105,
+            51,
+            47,
+            114,
+            111,
+            46,
+            67
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01009",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            4,
+            5
+          ],
+          "retrieved_pages": [
+            100,
+            15,
+            9,
+            7,
+            45,
+            44,
+            109,
+            43,
+            44,
+            55
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00735",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            26
+          ],
+          "retrieved_pages": [
+            331,
+            238,
+            24,
+            11,
+            37,
+            218,
+            225,
+            25,
+            7,
+            18
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01328",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            78
+          ],
+          "retrieved_pages": [
+            57,
+            398,
+            285,
+            278,
+            57,
+            153,
+            218,
+            151,
+            177,
+            443
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03620",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            62,
+            64
+          ],
+          "retrieved_pages": [
+            376,
+            68,
+            47,
+            160,
+            229,
+            467,
+            319,
+            336,
+            311,
+            186
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04481",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            62,
+            64
+          ],
+          "retrieved_pages": [
+            220,
+            179,
+            400,
+            376,
+            392,
+            229,
+            195,
+            28,
+            501,
+            169
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00859",
+          "doc_name": "VERIZON_2021_10K",
+          "gold_pages": [
+            85
+          ],
+          "retrieved_pages": [
+            85,
+            87,
+            46,
+            63,
+            87,
+            86,
+            47,
+            86,
+            46,
+            63
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_02024",
+          "doc_name": "VERIZON_2021_10K",
+          "gold_pages": [
+            63,
+            94
+          ],
+          "retrieved_pages": [
+            94,
+            67,
+            44,
+            67,
+            103,
+            45,
+            68,
+            35,
+            35,
+            73
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_00216",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            45,
+            52,
+            46,
+            13,
+            66,
+            42,
+            7,
+            87,
+            100,
+            59
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00215",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            23,
+            56
+          ],
+          "retrieved_pages": [
+            9,
+            35,
+            15,
+            16,
+            18,
+            39,
+            39,
+            12,
+            70,
+            20
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00566",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            77
+          ],
+          "retrieved_pages": [
+            89,
+            62,
+            46,
+            81,
+            41,
+            49,
+            105,
+            82,
+            75,
+            56
+          ],
+          "first_hit_rank": null
+        }
+      ]
+    },
+    {
+      "name": "hybrid RRF, ts_rank_cd keyword",
+      "n": 70,
+      "hit_at": {
+        "1": 0.12857142857142856,
+        "3": 0.2714285714285714,
+        "5": 0.32857142857142857,
+        "10": 0.5
+      },
+      "mrr": 0.2265816326530612,
+      "latency_ms_p50": 108.6451499722898,
+      "latency_ms_p95": 267.5709994509816,
+      "per_question": [
+        {
+          "financebench_id": "financebench_id_03029",
+          "doc_name": "3M_2018_10K",
+          "gold_pages": [
+            60
+          ],
+          "retrieved_pages": [
+            43,
+            90,
+            44,
+            109,
+            88,
+            60,
+            100,
+            90,
+            44,
+            46
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_04672",
+          "doc_name": "3M_2018_10K",
+          "gold_pages": [
+            58
+          ],
+          "retrieved_pages": [
+            16,
+            105,
+            44,
+            46,
+            26,
+            14,
+            90,
+            48,
+            106,
+            43
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00499",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            48,
+            50,
+            52
+          ],
+          "retrieved_pages": [
+            37,
+            121,
+            4,
+            28,
+            36,
+            38,
+            61,
+            62,
+            244,
+            53
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01226",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            27
+          ],
+          "retrieved_pages": [
+            121,
+            19,
+            4,
+            53,
+            19,
+            22,
+            15,
+            15,
+            58,
+            28
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01865",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            25
+          ],
+          "retrieved_pages": [
+            19,
+            21,
+            121,
+            28,
+            53,
+            26,
+            61,
+            19,
+            114,
+            64
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04735",
+          "doc_name": "ADOBE_2015_10K",
+          "gold_pages": [
+            59,
+            63
+          ],
+          "retrieved_pages": [
+            52,
+            104,
+            78,
+            73,
+            51,
+            77,
+            53,
+            104,
+            72,
+            34
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_07507",
+          "doc_name": "ADOBE_2016_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            101,
+            66,
+            87,
+            51,
+            102,
+            65,
+            62,
+            85,
+            40,
+            52
+          ],
+          "first_hit_rank": 7
+        },
+        {
+          "financebench_id": "financebench_id_03856",
+          "doc_name": "ADOBE_2017_10K",
+          "gold_pages": [
+            57,
+            61
+          ],
+          "retrieved_pages": [
+            61,
+            71,
+            57,
+            50,
+            49,
+            76,
+            97,
+            50,
+            51,
+            62
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_00438",
+          "doc_name": "ADOBE_2022_10K",
+          "gold_pages": [
+            54
+          ],
+          "retrieved_pages": [
+            39,
+            14,
+            88,
+            4,
+            8,
+            54,
+            17,
+            58,
+            57,
+            38
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_00591",
+          "doc_name": "ADOBE_2022_10K",
+          "gold_pages": [
+            57
+          ],
+          "retrieved_pages": [
+            5,
+            6,
+            39,
+            10,
+            11,
+            39,
+            14,
+            5,
+            6,
+            95
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03882",
+          "doc_name": "AMCOR_2020_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            54,
+            28,
+            30,
+            31,
+            56,
+            36,
+            34,
+            49,
+            35,
+            31
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00799",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            48,
+            77,
+            115,
+            56,
+            77,
+            62,
+            152,
+            35,
+            37,
+            87
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01079",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            64
+          ],
+          "retrieved_pages": [
+            152,
+            115,
+            64,
+            64,
+            114,
+            113,
+            114,
+            114,
+            113,
+            56
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_01148",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            5
+          ],
+          "retrieved_pages": [
+            115,
+            151,
+            37,
+            37,
+            152,
+            7,
+            16,
+            114,
+            18,
+            118
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00684",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            56,
+            77,
+            62,
+            55,
+            60,
+            2,
+            61,
+            48,
+            59,
+            152
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03069",
+          "doc_name": "AMD_2015_10K",
+          "gold_pages": [
+            56,
+            60
+          ],
+          "retrieved_pages": [
+            60,
+            43,
+            43,
+            92,
+            60,
+            48,
+            63,
+            36,
+            91,
+            72
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_00222",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            4,
+            9,
+            80,
+            4,
+            104,
+            63,
+            63,
+            11,
+            44,
+            53
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00995",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            4
+          ],
+          "retrieved_pages": [
+            11,
+            11,
+            9,
+            12,
+            7,
+            12,
+            8,
+            9,
+            44,
+            110
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01198",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            43
+          ],
+          "retrieved_pages": [
+            49,
+            67,
+            48,
+            102,
+            43,
+            61,
+            48,
+            4,
+            52,
+            106
+          ],
+          "first_hit_rank": 5
+        },
+        {
+          "financebench_id": "financebench_id_00917",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            43
+          ],
+          "retrieved_pages": [
+            75,
+            65,
+            32,
+            48,
+            65,
+            48,
+            4,
+            68,
+            37,
+            49
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01279",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            58
+          ],
+          "retrieved_pages": [
+            58,
+            51,
+            52,
+            37,
+            58,
+            4,
+            59,
+            52,
+            37,
+            89
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_00563",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            48
+          ],
+          "retrieved_pages": [
+            67,
+            48,
+            43,
+            75,
+            102,
+            103,
+            67,
+            49,
+            106,
+            102
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_00757",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            12
+          ],
+          "retrieved_pages": [
+            61,
+            102,
+            106,
+            80,
+            104,
+            4,
+            9,
+            26,
+            12,
+            102
+          ],
+          "first_hit_rank": 9
+        },
+        {
+          "financebench_id": "financebench_id_00476",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            1
+          ],
+          "retrieved_pages": [
+            1,
+            252,
+            162,
+            260,
+            259,
+            118,
+            120,
+            71,
+            3,
+            69
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_01028",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            155
+          ],
+          "retrieved_pages": [
+            252,
+            4,
+            153,
+            40,
+            5,
+            6,
+            9,
+            92,
+            98,
+            63
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00723",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            96
+          ],
+          "retrieved_pages": [
+            72,
+            9,
+            53,
+            104,
+            47,
+            75,
+            224,
+            152,
+            254,
+            46
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00720",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            96
+          ],
+          "retrieved_pages": [
+            150,
+            65,
+            64,
+            4,
+            92,
+            150,
+            3,
+            45,
+            254,
+            252
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01351",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            44
+          ],
+          "retrieved_pages": [
+            148,
+            146,
+            49,
+            89,
+            176,
+            163,
+            147,
+            171,
+            254,
+            252
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01964",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            98
+          ],
+          "retrieved_pages": [
+            98,
+            127,
+            152,
+            92,
+            139,
+            65,
+            98,
+            156,
+            164,
+            150
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_01981",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            45
+          ],
+          "retrieved_pages": [
+            5,
+            254,
+            108,
+            252,
+            7,
+            29,
+            176,
+            107,
+            59,
+            109
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_02608",
+          "doc_name": "BESTBUY_2017_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            91,
+            37,
+            34,
+            27,
+            27,
+            56,
+            91,
+            53,
+            31,
+            81
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_04417",
+          "doc_name": "BESTBUY_2019_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            32,
+            91,
+            60,
+            82,
+            91,
+            41,
+            27,
+            35,
+            80,
+            19
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00685",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            40
+          ],
+          "retrieved_pages": [
+            32,
+            23,
+            5,
+            44,
+            32,
+            37,
+            36,
+            37,
+            26,
+            23
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01077",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            51
+          ],
+          "retrieved_pages": [
+            69,
+            44,
+            4,
+            23,
+            66,
+            51,
+            44,
+            26,
+            5,
+            66
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_01275",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            42
+          ],
+          "retrieved_pages": [
+            29,
+            29,
+            42,
+            44,
+            23,
+            69,
+            23,
+            5,
+            55,
+            44
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_10285",
+          "doc_name": "BOEING_2018_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            53,
+            51,
+            110,
+            57,
+            38,
+            24,
+            52,
+            71,
+            85,
+            42
+          ],
+          "first_hit_rank": 7
+        },
+        {
+          "financebench_id": "financebench_id_00517",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            116,
+            3,
+            115,
+            35,
+            62,
+            3,
+            55,
+            24,
+            25,
+            22
+          ],
+          "first_hit_rank": 5
+        },
+        {
+          "financebench_id": "financebench_id_01091",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            113
+          ],
+          "retrieved_pages": [
+            132,
+            29,
+            119,
+            124,
+            7,
+            16,
+            188,
+            20,
+            63,
+            19
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00678",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            55
+          ],
+          "retrieved_pages": [
+            63,
+            120,
+            119,
+            51,
+            124,
+            62,
+            122,
+            5,
+            78,
+            50
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01290",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            8,
+            10,
+            14
+          ],
+          "retrieved_pages": [
+            115,
+            129,
+            5,
+            83,
+            87,
+            62,
+            22,
+            3,
+            41,
+            32
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00464",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            8
+          ],
+          "retrieved_pages": [
+            22,
+            63,
+            14,
+            3,
+            13,
+            12,
+            62,
+            8,
+            29,
+            45
+          ],
+          "first_hit_rank": 8
+        },
+        {
+          "financebench_id": "financebench_id_00494",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            9
+          ],
+          "retrieved_pages": [
+            35,
+            9,
+            81,
+            35,
+            36,
+            9,
+            10,
+            23,
+            83,
+            91
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_00585",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            55
+          ],
+          "retrieved_pages": [
+            77,
+            78,
+            79,
+            79,
+            56,
+            76,
+            27,
+            78,
+            43,
+            24
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_10130",
+          "doc_name": "CORNING_2020_10K",
+          "gold_pages": [
+            70,
+            72
+          ],
+          "retrieved_pages": [
+            43,
+            45,
+            66,
+            77,
+            31,
+            121,
+            31,
+            122,
+            67,
+            84
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_02981",
+          "doc_name": "CORNING_2021_10K",
+          "gold_pages": [
+            65
+          ],
+          "retrieved_pages": [
+            85,
+            65,
+            29,
+            113,
+            28,
+            26,
+            32,
+            30,
+            78,
+            76
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_01346",
+          "doc_name": "CORNING_2022_10K",
+          "gold_pages": [
+            24
+          ],
+          "retrieved_pages": [
+            26,
+            79,
+            77,
+            79,
+            32,
+            32,
+            69,
+            33,
+            78,
+            83
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00005",
+          "doc_name": "CORNING_2022_10K",
+          "gold_pages": [
+            60
+          ],
+          "retrieved_pages": [
+            66,
+            34,
+            63,
+            67,
+            91,
+            43,
+            65,
+            79,
+            69,
+            70
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_05915",
+          "doc_name": "CVSHEALTH_2018_10K",
+          "gold_pages": [
+            302,
+            304
+          ],
+          "retrieved_pages": [
+            107,
+            374,
+            327,
+            376,
+            324,
+            317,
+            292,
+            313,
+            89,
+            375
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00790",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            108,
+            110
+          ],
+          "retrieved_pages": [
+            4,
+            71,
+            19,
+            114,
+            18,
+            204,
+            89,
+            111,
+            196,
+            198
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01107",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            173,
+            174
+          ],
+          "retrieved_pages": [
+            162,
+            190,
+            114,
+            80,
+            174,
+            102,
+            89,
+            171,
+            196,
+            174
+          ],
+          "first_hit_rank": 5
+        },
+        {
+          "financebench_id": "financebench_id_01244",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            68
+          ],
+          "retrieved_pages": [
+            68,
+            70,
+            168,
+            113,
+            164,
+            193,
+            114,
+            71,
+            93,
+            185
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_04103",
+          "doc_name": "GENERALMILLS_2019_10K",
+          "gold_pages": [
+            53,
+            55
+          ],
+          "retrieved_pages": [
+            58,
+            41,
+            108,
+            62,
+            29,
+            109,
+            32,
+            86,
+            33,
+            38
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03471",
+          "doc_name": "GENERALMILLS_2020_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            50,
+            53,
+            27,
+            66,
+            46,
+            97,
+            67,
+            96,
+            67,
+            69
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_04854",
+          "doc_name": "GENERALMILLS_2020_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            37,
+            52,
+            27,
+            29,
+            53,
+            27,
+            76,
+            95,
+            18,
+            63
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_10136",
+          "doc_name": "GENERALMILLS_2022_10K",
+          "gold_pages": [
+            45,
+            49
+          ],
+          "retrieved_pages": [
+            18,
+            35,
+            49,
+            49,
+            36,
+            25,
+            27,
+            72,
+            50,
+            90
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_04302",
+          "doc_name": "NIKE_2018_10K",
+          "gold_pages": [
+            46
+          ],
+          "retrieved_pages": [
+            22,
+            22,
+            25,
+            56,
+            25,
+            25,
+            32,
+            30,
+            30,
+            31
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03531",
+          "doc_name": "NIKE_2019_10K",
+          "gold_pages": [
+            54
+          ],
+          "retrieved_pages": [
+            54,
+            82,
+            66,
+            84,
+            69,
+            72,
+            85,
+            40,
+            68,
+            86
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_04080",
+          "doc_name": "NIKE_2021_10K",
+          "gold_pages": [
+            59,
+            61
+          ],
+          "retrieved_pages": [
+            57,
+            70,
+            59,
+            49,
+            31,
+            98,
+            57,
+            55,
+            84,
+            101
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_01163",
+          "doc_name": "NIKE_2023_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            62,
+            62,
+            82,
+            88,
+            93,
+            19,
+            72,
+            48,
+            26,
+            6
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_04980",
+          "doc_name": "PEPSICO_2021_10K",
+          "gold_pages": [
+            63
+          ],
+          "retrieved_pages": [
+            52,
+            52,
+            64,
+            53,
+            109,
+            53,
+            54,
+            51,
+            63,
+            71
+          ],
+          "first_hit_rank": 9
+        },
+        {
+          "financebench_id": "financebench_id_01009",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            4,
+            5
+          ],
+          "retrieved_pages": [
+            28,
+            489,
+            28,
+            32,
+            27,
+            29,
+            2,
+            482,
+            484,
+            488
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00735",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            26
+          ],
+          "retrieved_pages": [
+            112,
+            497,
+            128,
+            2,
+            499,
+            122,
+            35,
+            489,
+            64,
+            488
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01328",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            78
+          ],
+          "retrieved_pages": [
+            79,
+            62,
+            103,
+            68,
+            49,
+            31,
+            50,
+            109,
+            46,
+            78
+          ],
+          "first_hit_rank": 10
+        },
+        {
+          "financebench_id": "financebench_id_03620",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            62,
+            64
+          ],
+          "retrieved_pages": [
+            54,
+            64,
+            65,
+            53,
+            59,
+            102,
+            111,
+            55,
+            80,
+            489
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_04481",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            62,
+            64
+          ],
+          "retrieved_pages": [
+            54,
+            65,
+            59,
+            114,
+            100,
+            64,
+            46,
+            40,
+            77,
+            111
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_00859",
+          "doc_name": "VERIZON_2021_10K",
+          "gold_pages": [
+            85
+          ],
+          "retrieved_pages": [
+            86,
+            85,
+            87,
+            47,
+            84,
+            46,
+            47,
+            46,
+            87,
+            46
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_02024",
+          "doc_name": "VERIZON_2021_10K",
+          "gold_pages": [
+            63,
+            94
+          ],
+          "retrieved_pages": [
+            24,
+            36,
+            23,
+            24,
+            38,
+            91,
+            20,
+            76,
+            94,
+            20
+          ],
+          "first_hit_rank": 9
+        },
+        {
+          "financebench_id": "financebench_id_00216",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            48,
+            62,
+            87,
+            70,
+            65,
+            78,
+            78,
+            49,
+            94,
+            51
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00215",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            23,
+            56
+          ],
+          "retrieved_pages": [
+            39,
+            21,
+            52,
+            5,
+            18,
+            78,
+            4,
+            51,
+            72,
+            39
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00566",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            77
+          ],
+          "retrieved_pages": [
+            113,
+            25,
+            18,
+            77,
+            41,
+            31,
+            40,
+            34,
+            30,
+            98
+          ],
+          "first_hit_rank": 4
+        }
+      ]
+    },
+    {
+      "name": "hybrid RRF, BM25-lite keyword",
+      "n": 70,
+      "hit_at": {
+        "1": 0.11428571428571428,
+        "3": 0.2857142857142857,
+        "5": 0.37142857142857144,
+        "10": 0.5428571428571428
+      },
+      "mrr": 0.2337981859410431,
+      "latency_ms_p50": 120.74655015021563,
+      "latency_ms_p95": 217.04280003905296,
+      "per_question": [
+        {
+          "financebench_id": "financebench_id_03029",
+          "doc_name": "3M_2018_10K",
+          "gold_pages": [
+            60
+          ],
+          "retrieved_pages": [
+            83,
+            39,
+            43,
+            44,
+            47,
+            109,
+            49,
+            88,
+            88,
+            26
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04672",
+          "doc_name": "3M_2018_10K",
+          "gold_pages": [
+            58
+          ],
+          "retrieved_pages": [
+            44,
+            44,
+            47,
+            51,
+            13,
+            43,
+            48,
+            100,
+            65,
+            16
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00499",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            48,
+            50,
+            52
+          ],
+          "retrieved_pages": [
+            37,
+            38,
+            244,
+            34,
+            39,
+            51,
+            38,
+            41,
+            15,
+            62
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01226",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            27
+          ],
+          "retrieved_pages": [
+            21,
+            33,
+            31,
+            30,
+            20,
+            36,
+            24,
+            27,
+            20,
+            182
+          ],
+          "first_hit_rank": 8
+        },
+        {
+          "financebench_id": "financebench_id_01865",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            25
+          ],
+          "retrieved_pages": [
+            64,
+            19,
+            121,
+            32,
+            19,
+            32,
+            61,
+            10,
+            33,
+            22
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04735",
+          "doc_name": "ADOBE_2015_10K",
+          "gold_pages": [
+            59,
+            63
+          ],
+          "retrieved_pages": [
+            77,
+            51,
+            53,
+            90,
+            100,
+            4,
+            63,
+            52,
+            59,
+            3
+          ],
+          "first_hit_rank": 7
+        },
+        {
+          "financebench_id": "financebench_id_07507",
+          "doc_name": "ADOBE_2016_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            40,
+            42,
+            66,
+            66,
+            99,
+            42,
+            62,
+            12,
+            101,
+            63
+          ],
+          "first_hit_rank": 7
+        },
+        {
+          "financebench_id": "financebench_id_03856",
+          "doc_name": "ADOBE_2017_10K",
+          "gold_pages": [
+            57,
+            61
+          ],
+          "retrieved_pages": [
+            75,
+            57,
+            34,
+            97,
+            103,
+            62,
+            76,
+            77,
+            51,
+            73
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_00438",
+          "doc_name": "ADOBE_2022_10K",
+          "gold_pages": [
+            54
+          ],
+          "retrieved_pages": [
+            39,
+            17,
+            4,
+            8,
+            38,
+            25,
+            7,
+            20,
+            70,
+            39
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00591",
+          "doc_name": "ADOBE_2022_10K",
+          "gold_pages": [
+            57
+          ],
+          "retrieved_pages": [
+            6,
+            5,
+            10,
+            3,
+            39,
+            5,
+            14,
+            11,
+            6,
+            5
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03882",
+          "doc_name": "AMCOR_2020_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            83,
+            34,
+            172,
+            31,
+            116,
+            54,
+            8,
+            51,
+            41,
+            50
+          ],
+          "first_hit_rank": 10
+        },
+        {
+          "financebench_id": "financebench_id_00799",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            21,
+            4,
+            21,
+            30,
+            135,
+            35,
+            9,
+            77,
+            87,
+            5
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01079",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            64
+          ],
+          "retrieved_pages": [
+            102,
+            55,
+            66,
+            64,
+            64,
+            72,
+            30,
+            130,
+            130,
+            30
+          ],
+          "first_hit_rank": 4
+        },
+        {
+          "financebench_id": "financebench_id_01148",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            5
+          ],
+          "retrieved_pages": [
+            7,
+            5,
+            9,
+            9,
+            11,
+            22,
+            14,
+            5,
+            100,
+            24
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_00684",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            21,
+            21,
+            30,
+            50,
+            44,
+            33,
+            39,
+            44,
+            60,
+            9
+          ],
+          "first_hit_rank": 4
+        },
+        {
+          "financebench_id": "financebench_id_03069",
+          "doc_name": "AMD_2015_10K",
+          "gold_pages": [
+            56,
+            60
+          ],
+          "retrieved_pages": [
+            33,
+            43,
+            89,
+            30,
+            39,
+            157,
+            48,
+            48,
+            108,
+            94
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00222",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            53,
+            22,
+            20,
+            53,
+            1,
+            20,
+            51,
+            37,
+            94,
+            80
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00995",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            4
+          ],
+          "retrieved_pages": [
+            11,
+            60,
+            7,
+            43,
+            60,
+            12,
+            11,
+            4,
+            69,
+            19
+          ],
+          "first_hit_rank": 8
+        },
+        {
+          "financebench_id": "financebench_id_01198",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            43
+          ],
+          "retrieved_pages": [
+            49,
+            48,
+            67,
+            68,
+            49,
+            43,
+            61,
+            48,
+            4,
+            45
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_00917",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            43
+          ],
+          "retrieved_pages": [
+            49,
+            81,
+            28,
+            43,
+            29,
+            22,
+            19,
+            46,
+            32,
+            1
+          ],
+          "first_hit_rank": 4
+        },
+        {
+          "financebench_id": "financebench_id_01279",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            58
+          ],
+          "retrieved_pages": [
+            58,
+            51,
+            59,
+            52,
+            58,
+            37,
+            4,
+            53,
+            37,
+            88
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_00563",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            48
+          ],
+          "retrieved_pages": [
+            43,
+            48,
+            67,
+            75,
+            68,
+            43,
+            43,
+            13,
+            49,
+            44
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_00757",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            12
+          ],
+          "retrieved_pages": [
+            80,
+            12,
+            61,
+            4,
+            45,
+            44,
+            9,
+            22,
+            26,
+            11
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_00476",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            1
+          ],
+          "retrieved_pages": [
+            1,
+            259,
+            260,
+            162,
+            1,
+            118,
+            41,
+            252,
+            3,
+            126
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_01028",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            155
+          ],
+          "retrieved_pages": [
+            25,
+            25,
+            153,
+            9,
+            152,
+            145,
+            155,
+            49,
+            142,
+            6
+          ],
+          "first_hit_rank": 7
+        },
+        {
+          "financebench_id": "financebench_id_00723",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            96
+          ],
+          "retrieved_pages": [
+            64,
+            45,
+            9,
+            49,
+            39,
+            15,
+            46,
+            132,
+            50,
+            75
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00720",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            96
+          ],
+          "retrieved_pages": [
+            45,
+            44,
+            47,
+            45,
+            4,
+            152,
+            15,
+            3,
+            19,
+            46
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01351",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            44
+          ],
+          "retrieved_pages": [
+            148,
+            176,
+            163,
+            164,
+            92,
+            162,
+            79,
+            49,
+            146,
+            79
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01964",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            98
+          ],
+          "retrieved_pages": [
+            152,
+            98,
+            95,
+            156,
+            139,
+            92,
+            127,
+            134,
+            28,
+            136
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_01981",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            45
+          ],
+          "retrieved_pages": [
+            28,
+            5,
+            7,
+            27,
+            117,
+            49,
+            4,
+            108,
+            107,
+            116
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_02608",
+          "doc_name": "BESTBUY_2017_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            34,
+            91,
+            32,
+            34,
+            31,
+            37,
+            56,
+            32,
+            26,
+            33
+          ],
+          "first_hit_rank": 7
+        },
+        {
+          "financebench_id": "financebench_id_04417",
+          "doc_name": "BESTBUY_2019_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            52,
+            41,
+            43,
+            45,
+            60,
+            80,
+            78,
+            50,
+            96,
+            62
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_00685",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            40
+          ],
+          "retrieved_pages": [
+            23,
+            23,
+            26,
+            33,
+            46,
+            27,
+            32,
+            24,
+            32,
+            32
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01077",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            51
+          ],
+          "retrieved_pages": [
+            44,
+            23,
+            44,
+            5,
+            69,
+            51,
+            28,
+            28,
+            66,
+            4
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_01275",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            42
+          ],
+          "retrieved_pages": [
+            29,
+            29,
+            42,
+            30,
+            30,
+            42,
+            18,
+            49,
+            44,
+            55
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_10285",
+          "doc_name": "BOEING_2018_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            53,
+            71,
+            52,
+            110,
+            72,
+            53,
+            49,
+            85,
+            64,
+            39
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_00517",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            116,
+            83,
+            100,
+            114,
+            38,
+            41,
+            40,
+            81,
+            2,
+            54
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01091",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            113
+          ],
+          "retrieved_pages": [
+            29,
+            17,
+            37,
+            113,
+            20,
+            19,
+            16,
+            4,
+            2,
+            12
+          ],
+          "first_hit_rank": 4
+        },
+        {
+          "financebench_id": "financebench_id_00678",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            55
+          ],
+          "retrieved_pages": [
+            51,
+            51,
+            35,
+            50,
+            24,
+            120,
+            50,
+            49,
+            15,
+            122
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01290",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            8,
+            10,
+            14
+          ],
+          "retrieved_pages": [
+            115,
+            83,
+            87,
+            3,
+            22,
+            41,
+            5,
+            57,
+            116,
+            19
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00464",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            8
+          ],
+          "retrieved_pages": [
+            8,
+            12,
+            13,
+            36,
+            29,
+            14,
+            18,
+            45,
+            63,
+            36
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_00494",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            9
+          ],
+          "retrieved_pages": [
+            22,
+            23,
+            62,
+            55,
+            9,
+            83,
+            35,
+            108,
+            81,
+            22
+          ],
+          "first_hit_rank": 5
+        },
+        {
+          "financebench_id": "financebench_id_00585",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            55
+          ],
+          "retrieved_pages": [
+            27,
+            43,
+            24,
+            43,
+            43,
+            28,
+            42,
+            31,
+            26,
+            37
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_10130",
+          "doc_name": "CORNING_2020_10K",
+          "gold_pages": [
+            70,
+            72
+          ],
+          "retrieved_pages": [
+            72,
+            43,
+            66,
+            45,
+            102,
+            93,
+            73,
+            86,
+            103,
+            90
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_02981",
+          "doc_name": "CORNING_2021_10K",
+          "gold_pages": [
+            65
+          ],
+          "retrieved_pages": [
+            26,
+            65,
+            28,
+            38,
+            32,
+            42,
+            110,
+            76,
+            43,
+            30
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_01346",
+          "doc_name": "CORNING_2022_10K",
+          "gold_pages": [
+            24
+          ],
+          "retrieved_pages": [
+            79,
+            71,
+            24,
+            91,
+            91,
+            73,
+            64,
+            154,
+            26,
+            77
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_00005",
+          "doc_name": "CORNING_2022_10K",
+          "gold_pages": [
+            60
+          ],
+          "retrieved_pages": [
+            34,
+            66,
+            30,
+            23,
+            69,
+            6,
+            150,
+            118,
+            133,
+            102
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_05915",
+          "doc_name": "CVSHEALTH_2018_10K",
+          "gold_pages": [
+            302,
+            304
+          ],
+          "retrieved_pages": [
+            145,
+            144,
+            285,
+            351,
+            100,
+            171,
+            263,
+            83,
+            222,
+            279
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00790",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            108,
+            110
+          ],
+          "retrieved_pages": [
+            89,
+            142,
+            113,
+            168,
+            92,
+            17,
+            91,
+            92,
+            122,
+            111
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01107",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            173,
+            174
+          ],
+          "retrieved_pages": [
+            175,
+            162,
+            48,
+            20,
+            177,
+            24,
+            164,
+            171,
+            173,
+            137
+          ],
+          "first_hit_rank": 9
+        },
+        {
+          "financebench_id": "financebench_id_01244",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            68
+          ],
+          "retrieved_pages": [
+            68,
+            70,
+            92,
+            167,
+            168,
+            113,
+            168,
+            92,
+            69,
+            110
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_04103",
+          "doc_name": "GENERALMILLS_2019_10K",
+          "gold_pages": [
+            53,
+            55
+          ],
+          "retrieved_pages": [
+            109,
+            41,
+            20,
+            123,
+            108,
+            123,
+            58,
+            122,
+            57,
+            16
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03471",
+          "doc_name": "GENERALMILLS_2020_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            42,
+            42,
+            96,
+            19,
+            29,
+            39,
+            36,
+            36,
+            18,
+            20
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04854",
+          "doc_name": "GENERALMILLS_2020_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            17,
+            95,
+            37,
+            18,
+            76,
+            17,
+            29,
+            84,
+            19,
+            26
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_10136",
+          "doc_name": "GENERALMILLS_2022_10K",
+          "gold_pages": [
+            45,
+            49
+          ],
+          "retrieved_pages": [
+            35,
+            37,
+            18,
+            28,
+            36,
+            28,
+            29,
+            39,
+            30,
+            27
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04302",
+          "doc_name": "NIKE_2018_10K",
+          "gold_pages": [
+            46
+          ],
+          "retrieved_pages": [
+            22,
+            22,
+            39,
+            29,
+            39,
+            8,
+            72,
+            84,
+            16,
+            46
+          ],
+          "first_hit_rank": 10
+        },
+        {
+          "financebench_id": "financebench_id_03531",
+          "doc_name": "NIKE_2019_10K",
+          "gold_pages": [
+            54
+          ],
+          "retrieved_pages": [
+            82,
+            54,
+            69,
+            68,
+            56,
+            26,
+            67,
+            41,
+            26,
+            50
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_04080",
+          "doc_name": "NIKE_2021_10K",
+          "gold_pages": [
+            59,
+            61
+          ],
+          "retrieved_pages": [
+            67,
+            70,
+            90,
+            71,
+            31,
+            30,
+            36,
+            47,
+            62,
+            12
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01163",
+          "doc_name": "NIKE_2023_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            62,
+            62,
+            49,
+            14,
+            93,
+            92,
+            82,
+            48,
+            48,
+            72
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_04980",
+          "doc_name": "PEPSICO_2021_10K",
+          "gold_pages": [
+            63
+          ],
+          "retrieved_pages": [
+            52,
+            51,
+            52,
+            53,
+            53,
+            54,
+            67,
+            106,
+            38,
+            2
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01009",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            4,
+            5
+          ],
+          "retrieved_pages": [
+            9,
+            7,
+            55,
+            482,
+            100,
+            484,
+            15,
+            10,
+            28,
+            45
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00735",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            26
+          ],
+          "retrieved_pages": [
+            35,
+            11,
+            68,
+            12,
+            26,
+            4,
+            7,
+            34,
+            331,
+            238
+          ],
+          "first_hit_rank": 5
+        },
+        {
+          "financebench_id": "financebench_id_01328",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            78
+          ],
+          "retrieved_pages": [
+            49,
+            79,
+            78,
+            64,
+            42,
+            49,
+            46,
+            78,
+            68,
+            79
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_03620",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            62,
+            64
+          ],
+          "retrieved_pages": [
+            80,
+            104,
+            74,
+            55,
+            83,
+            376,
+            68,
+            54,
+            47,
+            425
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04481",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            62,
+            64
+          ],
+          "retrieved_pages": [
+            376,
+            100,
+            68,
+            220,
+            54,
+            179,
+            59,
+            46,
+            400,
+            392
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00859",
+          "doc_name": "VERIZON_2021_10K",
+          "gold_pages": [
+            85
+          ],
+          "retrieved_pages": [
+            85,
+            86,
+            87,
+            47,
+            87,
+            46,
+            47,
+            63,
+            84,
+            46
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_02024",
+          "doc_name": "VERIZON_2021_10K",
+          "gold_pages": [
+            63,
+            94
+          ],
+          "retrieved_pages": [
+            89,
+            94,
+            103,
+            76,
+            80,
+            75,
+            46,
+            38,
+            20,
+            36
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_00216",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            46,
+            87,
+            45,
+            37,
+            23,
+            62,
+            48,
+            59,
+            48,
+            70
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00215",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            23,
+            56
+          ],
+          "retrieved_pages": [
+            39,
+            38,
+            78,
+            21,
+            72,
+            23,
+            21,
+            37,
+            57,
+            35
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_00566",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            77
+          ],
+          "retrieved_pages": [
+            113,
+            82,
+            56,
+            105,
+            25,
+            40,
+            34,
+            68,
+            40,
+            41
+          ],
+          "first_hit_rank": null
+        }
+      ]
+    },
+    {
+      "name": "hybrid RRF, BM25-lite, no filing filter",
+      "n": 70,
+      "hit_at": {
+        "1": 0.05714285714285714,
+        "3": 0.22857142857142856,
+        "5": 0.2857142857142857,
+        "10": 0.42857142857142855
+      },
+      "mrr": 0.15917800453514738,
+      "latency_ms_p50": 471.8993999995291,
+      "latency_ms_p95": 729.5268997550011,
+      "per_question": [
+        {
+          "financebench_id": "financebench_id_03029",
+          "doc_name": "3M_2018_10K",
+          "gold_pages": [
+            60
+          ],
+          "retrieved_pages": [
+            37,
+            83,
+            39,
+            43,
+            47,
+            49,
+            39,
+            44,
+            186,
+            146
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04672",
+          "doc_name": "3M_2018_10K",
+          "gold_pages": [
+            58
+          ],
+          "retrieved_pages": [
+            100,
+            171,
+            16,
+            60,
+            44,
+            235,
+            13,
+            248,
+            56,
+            98
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00499",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            48,
+            50,
+            52
+          ],
+          "retrieved_pages": [
+            44,
+            69,
+            14,
+            37,
+            43,
+            14,
+            9,
+            39,
+            15,
+            38
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01226",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            27
+          ],
+          "retrieved_pages": [
+            37,
+            30,
+            37,
+            19,
+            37,
+            30,
+            33,
+            38,
+            19,
+            182
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01865",
+          "doc_name": "3M_2022_10K",
+          "gold_pages": [
+            25
+          ],
+          "retrieved_pages": [
+            64,
+            19,
+            32,
+            26,
+            121,
+            32,
+            19,
+            19,
+            269,
+            21
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04735",
+          "doc_name": "ADOBE_2015_10K",
+          "gold_pages": [
+            59,
+            63
+          ],
+          "retrieved_pages": [
+            110,
+            57,
+            123,
+            47,
+            65,
+            123,
+            61,
+            102,
+            141,
+            53
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_07507",
+          "doc_name": "ADOBE_2016_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            138,
+            54,
+            123,
+            58,
+            141,
+            62,
+            143,
+            101,
+            63,
+            110
+          ],
+          "first_hit_rank": 6
+        },
+        {
+          "financebench_id": "financebench_id_03856",
+          "doc_name": "ADOBE_2017_10K",
+          "gold_pages": [
+            57,
+            61
+          ],
+          "retrieved_pages": [
+            110,
+            57,
+            61,
+            123,
+            47,
+            123,
+            65,
+            102,
+            141,
+            53
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_00438",
+          "doc_name": "ADOBE_2022_10K",
+          "gold_pages": [
+            54
+          ],
+          "retrieved_pages": [
+            10,
+            21,
+            33,
+            73,
+            36,
+            99,
+            17,
+            39,
+            23,
+            23
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00591",
+          "doc_name": "ADOBE_2022_10K",
+          "gold_pages": [
+            57
+          ],
+          "retrieved_pages": [
+            6,
+            5,
+            57,
+            10,
+            61,
+            17,
+            65,
+            47,
+            19,
+            40
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_03882",
+          "doc_name": "AMCOR_2020_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            83,
+            172,
+            31,
+            201,
+            87,
+            116,
+            35,
+            43,
+            27,
+            9
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00799",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            21,
+            4,
+            21,
+            18,
+            31,
+            102,
+            35,
+            16,
+            102,
+            77
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01079",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            64
+          ],
+          "retrieved_pages": [
+            102,
+            53,
+            55,
+            54,
+            30,
+            130,
+            130,
+            64,
+            30,
+            144
+          ],
+          "first_hit_rank": 8
+        },
+        {
+          "financebench_id": "financebench_id_01148",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            5
+          ],
+          "retrieved_pages": [
+            6,
+            7,
+            5,
+            7,
+            8,
+            7,
+            8,
+            11,
+            9,
+            9
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_00684",
+          "doc_name": "AMCOR_2023_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            21,
+            26,
+            35,
+            58,
+            31,
+            57,
+            23,
+            62,
+            83,
+            31
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03069",
+          "doc_name": "AMD_2015_10K",
+          "gold_pages": [
+            56,
+            60
+          ],
+          "retrieved_pages": [
+            43,
+            19,
+            235,
+            39,
+            48,
+            263,
+            48,
+            222,
+            94,
+            248
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00222",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            22,
+            80,
+            11,
+            10,
+            53,
+            53,
+            12,
+            63,
+            12,
+            73
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00995",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            4
+          ],
+          "retrieved_pages": [
+            60,
+            37,
+            7,
+            43,
+            11,
+            11,
+            11,
+            67,
+            4,
+            13
+          ],
+          "first_hit_rank": 9
+        },
+        {
+          "financebench_id": "financebench_id_01198",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            43
+          ],
+          "retrieved_pages": [
+            36,
+            42,
+            42,
+            36,
+            47,
+            84,
+            49,
+            48,
+            43,
+            41
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00917",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            43
+          ],
+          "retrieved_pages": [
+            37,
+            81,
+            83,
+            37,
+            33,
+            36,
+            43,
+            37,
+            36,
+            19
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01279",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            58
+          ],
+          "retrieved_pages": [
+            60,
+            58,
+            51,
+            59,
+            37,
+            3,
+            60,
+            17,
+            9,
+            17
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_00563",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            48
+          ],
+          "retrieved_pages": [
+            43,
+            48,
+            43,
+            83,
+            67,
+            75,
+            41,
+            84,
+            83,
+            68
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_00757",
+          "doc_name": "AMD_2022_10K",
+          "gold_pages": [
+            12
+          ],
+          "retrieved_pages": [
+            80,
+            73,
+            110,
+            11,
+            36,
+            73,
+            84,
+            14,
+            67,
+            68
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00476",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            1
+          ],
+          "retrieved_pages": [
+            1,
+            162,
+            259,
+            260,
+            118,
+            1,
+            41,
+            3,
+            68,
+            1
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_01028",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            155
+          ],
+          "retrieved_pages": [
+            25,
+            25,
+            153,
+            9,
+            152,
+            145,
+            155,
+            49,
+            142,
+            6
+          ],
+          "first_hit_rank": 7
+        },
+        {
+          "financebench_id": "financebench_id_00723",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            96
+          ],
+          "retrieved_pages": [
+            64,
+            45,
+            133,
+            31,
+            29,
+            37,
+            23,
+            28,
+            36,
+            40
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00720",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            96
+          ],
+          "retrieved_pages": [
+            45,
+            44,
+            47,
+            45,
+            152,
+            4,
+            15,
+            3,
+            37,
+            46
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01351",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            44
+          ],
+          "retrieved_pages": [
+            148,
+            79,
+            49,
+            146,
+            79,
+            148,
+            32,
+            49,
+            47,
+            96
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01964",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            98
+          ],
+          "retrieved_pages": [
+            152,
+            98,
+            95,
+            156,
+            139,
+            92,
+            127,
+            134,
+            28,
+            65
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_01981",
+          "doc_name": "AMERICANEXPRESS_2022_10K",
+          "gold_pages": [
+            45
+          ],
+          "retrieved_pages": [
+            28,
+            5,
+            7,
+            27,
+            117,
+            49,
+            4,
+            108,
+            107,
+            116
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_02608",
+          "doc_name": "BESTBUY_2017_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            91,
+            34,
+            31,
+            37,
+            32,
+            34,
+            56,
+            91,
+            22,
+            19
+          ],
+          "first_hit_rank": 7
+        },
+        {
+          "financebench_id": "financebench_id_04417",
+          "doc_name": "BESTBUY_2019_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            52,
+            39,
+            55,
+            41,
+            43,
+            60,
+            62,
+            50,
+            80,
+            67
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_00685",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            40
+          ],
+          "retrieved_pages": [
+            28,
+            28,
+            23,
+            23,
+            30,
+            26,
+            31,
+            35,
+            33,
+            50
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01077",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            51
+          ],
+          "retrieved_pages": [
+            44,
+            23,
+            44,
+            51,
+            28,
+            28,
+            42,
+            39,
+            45,
+            134
+          ],
+          "first_hit_rank": 4
+        },
+        {
+          "financebench_id": "financebench_id_01275",
+          "doc_name": "BESTBUY_2023_10K",
+          "gold_pages": [
+            42
+          ],
+          "retrieved_pages": [
+            29,
+            42,
+            29,
+            41,
+            43,
+            55,
+            30,
+            58,
+            43,
+            41
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_10285",
+          "doc_name": "BOEING_2018_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            111,
+            53,
+            57,
+            71,
+            52,
+            110,
+            59,
+            72,
+            84,
+            59
+          ],
+          "first_hit_rank": 5
+        },
+        {
+          "financebench_id": "financebench_id_00517",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            83,
+            63,
+            55,
+            35,
+            62,
+            90,
+            12,
+            50,
+            5,
+            100
+          ],
+          "first_hit_rank": 5
+        },
+        {
+          "financebench_id": "financebench_id_01091",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            113
+          ],
+          "retrieved_pages": [
+            29,
+            17,
+            37,
+            9,
+            4,
+            30,
+            20,
+            52,
+            17,
+            113
+          ],
+          "first_hit_rank": 10
+        },
+        {
+          "financebench_id": "financebench_id_00678",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            55
+          ],
+          "retrieved_pages": [
+            51,
+            35,
+            46,
+            50,
+            51,
+            50,
+            28,
+            15,
+            24,
+            49
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01290",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            8,
+            10,
+            14
+          ],
+          "retrieved_pages": [
+            3,
+            3,
+            112,
+            83,
+            55,
+            3,
+            62,
+            113,
+            118,
+            57
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00464",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            8
+          ],
+          "retrieved_pages": [
+            7,
+            8,
+            45,
+            12,
+            63,
+            33,
+            4,
+            36,
+            17,
+            20
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_00494",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            9
+          ],
+          "retrieved_pages": [
+            22,
+            23,
+            107,
+            35,
+            81,
+            108,
+            22,
+            9,
+            122,
+            35
+          ],
+          "first_hit_rank": 8
+        },
+        {
+          "financebench_id": "financebench_id_00585",
+          "doc_name": "BOEING_2022_10K",
+          "gold_pages": [
+            55
+          ],
+          "retrieved_pages": [
+            27,
+            43,
+            24,
+            43,
+            42,
+            31,
+            25,
+            79,
+            43,
+            77
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_10130",
+          "doc_name": "CORNING_2020_10K",
+          "gold_pages": [
+            70,
+            72
+          ],
+          "retrieved_pages": [
+            123,
+            66,
+            41,
+            123,
+            138,
+            128,
+            141,
+            76,
+            131,
+            143
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_02981",
+          "doc_name": "CORNING_2021_10K",
+          "gold_pages": [
+            65
+          ],
+          "retrieved_pages": [
+            37,
+            123,
+            85,
+            93,
+            123,
+            128,
+            19,
+            138,
+            76,
+            141
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01346",
+          "doc_name": "CORNING_2022_10K",
+          "gold_pages": [
+            24
+          ],
+          "retrieved_pages": [
+            39,
+            26,
+            49,
+            29,
+            86,
+            6,
+            77,
+            32,
+            31,
+            32
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00005",
+          "doc_name": "CORNING_2022_10K",
+          "gold_pages": [
+            60
+          ],
+          "retrieved_pages": [
+            100,
+            111,
+            150,
+            32,
+            118,
+            34,
+            42,
+            133,
+            44,
+            45
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_05915",
+          "doc_name": "CVSHEALTH_2018_10K",
+          "gold_pages": [
+            302,
+            304
+          ],
+          "retrieved_pages": [
+            138,
+            145,
+            102,
+            171,
+            123,
+            144,
+            141,
+            161,
+            83,
+            143
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00790",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            108,
+            110
+          ],
+          "retrieved_pages": [
+            69,
+            89,
+            122,
+            111,
+            59,
+            132,
+            89,
+            314,
+            284,
+            54
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01107",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            173,
+            174
+          ],
+          "retrieved_pages": [
+            270,
+            175,
+            48,
+            162,
+            17,
+            24,
+            164,
+            369,
+            174,
+            75
+          ],
+          "first_hit_rank": 9
+        },
+        {
+          "financebench_id": "financebench_id_01244",
+          "doc_name": "CVSHEALTH_2022_10K",
+          "gold_pages": [
+            68
+          ],
+          "retrieved_pages": [
+            68,
+            63,
+            70,
+            167,
+            113,
+            92,
+            168,
+            307,
+            168,
+            283
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_04103",
+          "doc_name": "GENERALMILLS_2019_10K",
+          "gold_pages": [
+            53,
+            55
+          ],
+          "retrieved_pages": [
+            37,
+            138,
+            109,
+            63,
+            134,
+            53,
+            263,
+            49,
+            222,
+            123
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03471",
+          "doc_name": "GENERALMILLS_2020_10K",
+          "gold_pages": [
+            50
+          ],
+          "retrieved_pages": [
+            108,
+            109,
+            90,
+            110,
+            50,
+            47,
+            123,
+            123,
+            55,
+            27
+          ],
+          "first_hit_rank": 5
+        },
+        {
+          "financebench_id": "financebench_id_04854",
+          "doc_name": "GENERALMILLS_2020_10K",
+          "gold_pages": [
+            52
+          ],
+          "retrieved_pages": [
+            17,
+            95,
+            37,
+            18,
+            18,
+            18,
+            49,
+            31,
+            103,
+            25
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_10136",
+          "doc_name": "GENERALMILLS_2022_10K",
+          "gold_pages": [
+            45,
+            49
+          ],
+          "retrieved_pages": [
+            37,
+            35,
+            18,
+            263,
+            222,
+            17,
+            138,
+            123,
+            41,
+            25
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04302",
+          "doc_name": "NIKE_2018_10K",
+          "gold_pages": [
+            46
+          ],
+          "retrieved_pages": [
+            34,
+            138,
+            123,
+            72,
+            141,
+            22,
+            143,
+            89,
+            110,
+            43
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_03531",
+          "doc_name": "NIKE_2019_10K",
+          "gold_pages": [
+            54
+          ],
+          "retrieved_pages": [
+            82,
+            101,
+            54,
+            39,
+            31,
+            48,
+            61,
+            35,
+            61,
+            39
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_04080",
+          "doc_name": "NIKE_2021_10K",
+          "gold_pages": [
+            59,
+            61
+          ],
+          "retrieved_pages": [
+            24,
+            20,
+            110,
+            20,
+            63,
+            134,
+            102,
+            61,
+            20,
+            102
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01163",
+          "doc_name": "NIKE_2023_10K",
+          "gold_pages": [
+            62
+          ],
+          "retrieved_pages": [
+            62,
+            62,
+            49,
+            40,
+            55,
+            62,
+            49,
+            29,
+            47,
+            62
+          ],
+          "first_hit_rank": 1
+        },
+        {
+          "financebench_id": "financebench_id_04980",
+          "doc_name": "PEPSICO_2021_10K",
+          "gold_pages": [
+            63
+          ],
+          "retrieved_pages": [
+            52,
+            58,
+            4,
+            52,
+            39,
+            64,
+            47,
+            106,
+            53,
+            102
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01009",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            4,
+            5
+          ],
+          "retrieved_pages": [
+            9,
+            100,
+            530,
+            528,
+            97,
+            15,
+            482,
+            10,
+            16,
+            484
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00735",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            26
+          ],
+          "retrieved_pages": [
+            25,
+            26,
+            12,
+            63,
+            267,
+            30,
+            35,
+            64,
+            52,
+            546
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_01328",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            78
+          ],
+          "retrieved_pages": [
+            76,
+            334,
+            78,
+            138,
+            70,
+            41,
+            22,
+            42,
+            31,
+            77
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_03620",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            62,
+            64
+          ],
+          "retrieved_pages": [
+            25,
+            26,
+            107,
+            89,
+            95,
+            83,
+            89,
+            80,
+            95,
+            54
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_04481",
+          "doc_name": "PEPSICO_2022_10K",
+          "gold_pages": [
+            62,
+            64
+          ],
+          "retrieved_pages": [
+            89,
+            54,
+            97,
+            95,
+            107,
+            53,
+            70,
+            59,
+            171,
+            46
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00859",
+          "doc_name": "VERIZON_2021_10K",
+          "gold_pages": [
+            85
+          ],
+          "retrieved_pages": [
+            88,
+            85,
+            38,
+            90,
+            61,
+            87,
+            54,
+            65,
+            48,
+            46
+          ],
+          "first_hit_rank": 2
+        },
+        {
+          "financebench_id": "financebench_id_02024",
+          "doc_name": "VERIZON_2021_10K",
+          "gold_pages": [
+            63,
+            94
+          ],
+          "retrieved_pages": [
+            89,
+            98,
+            94,
+            97,
+            97,
+            161,
+            20,
+            92,
+            354,
+            70
+          ],
+          "first_hit_rank": 3
+        },
+        {
+          "financebench_id": "financebench_id_00216",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            56
+          ],
+          "retrieved_pages": [
+            46,
+            40,
+            11,
+            94,
+            10,
+            12,
+            46,
+            59,
+            12,
+            49
+          ],
+          "first_hit_rank": null
+        },
+        {
+          "financebench_id": "financebench_id_00215",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            23,
+            56
+          ],
+          "retrieved_pages": [
+            39,
+            36,
+            38,
+            21,
+            78,
+            21,
+            23,
+            72,
+            40,
+            38
+          ],
+          "first_hit_rank": 7
+        },
+        {
+          "financebench_id": "financebench_id_00566",
+          "doc_name": "VERIZON_2022_10K",
+          "gold_pages": [
+            77
+          ],
+          "retrieved_pages": [
+            113,
+            82,
+            56,
+            105,
+            25,
+            77,
+            39,
+            77,
+            89,
+            76
+          ],
+          "first_hit_rank": 8
+        }
+      ]
+    }
+  ]
+}

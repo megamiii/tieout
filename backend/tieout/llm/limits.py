@@ -1,0 +1,142 @@
+"""Free-tier rate limits: a client-side limiter and a daily usage ledger."""
+
+import json
+import os
+import tempfile
+import threading
+import time
+from collections import deque
+from collections.abc import Callable
+from dataclasses import dataclass
+from datetime import date
+from pathlib import Path
+from typing import Any
+
+from tieout.llm.types import Usage
+
+
+@dataclass(frozen=True)
+class FreeTierLimits:
+    rpm: int  # requests per minute
+    rpd: int  # requests per day
+    tpm: int  # tokens per minute
+    tpd: int  # tokens per day
+
+
+# Groq free tier, from https://console.groq.com/docs/rate-limits (checked 2026-10-07).
+GROQ_FREE_TIER = {
+    "openai/gpt-oss-20b": FreeTierLimits(rpm=30, rpd=1_000, tpm=8_000, tpd=200_000),
+    "openai/gpt-oss-120b": FreeTierLimits(rpm=30, rpd=1_000, tpm=8_000, tpd=200_000),
+}
+
+
+def limits_for(provider: str, model: str) -> FreeTierLimits | None:
+    """Known limits, or None (e.g. local Ollama has no rate limits)."""
+    if provider == "groq":
+        return GROQ_FREE_TIER.get(model)
+    return None
+
+
+class WindowLimiter:
+    """Waits *before* a request that would exceed requests/min or tokens/min.
+
+    Keeps the (time, tokens) of requests in the last 60 s. Proactive waiting
+    avoids most 429s; the client still retries if one happens anyway.
+    """
+
+    WINDOW = 60.0
+
+    def __init__(
+        self,
+        rpm: int,
+        tpm: int,
+        *,
+        clock: Callable[[], float] = time.monotonic,
+        sleep: Callable[[float], None] = time.sleep,
+    ) -> None:
+        self.rpm = rpm
+        self.tpm = tpm
+        self._clock = clock
+        self._sleep = sleep
+        self._events: deque[tuple[float, int]] = deque()
+        self._lock = threading.Lock()
+
+    def _prune(self, now: float) -> None:
+        while self._events and now - self._events[0][0] >= self.WINDOW:
+            self._events.popleft()
+
+    def wait_for(self, estimated_tokens: int) -> float:
+        """Block until a request of ~estimated_tokens fits. Returns seconds waited."""
+        waited = 0.0
+        with self._lock:
+            while True:
+                now = self._clock()
+                self._prune(now)
+                used = sum(t for _, t in self._events)
+                fits_requests = len(self._events) < self.rpm
+                # A request bigger than the whole budget can only run in an empty window.
+                fits_tokens = used + estimated_tokens <= self.tpm or not self._events
+                if fits_requests and fits_tokens:
+                    return waited
+                delay = self.WINDOW - (now - self._events[0][0]) + 0.05
+                self._sleep(delay)
+                waited += delay
+
+    def record(self, tokens: int) -> None:
+        with self._lock:
+            self._events.append((self._clock(), tokens))
+
+
+class UsageLedger:
+    """Per-day token and request counts in data/usage/YYYY-MM-DD.json."""
+
+    def __init__(self, directory: Path, today: Callable[[], date] = date.today) -> None:
+        self.directory = directory
+        self._today = today
+        self._lock = threading.Lock()
+
+    def _path(self, day: date) -> Path:
+        return self.directory / f"{day.isoformat()}.json"
+
+    def read(self, day: date | None = None) -> dict[str, Any]:
+        path = self._path(day or self._today())
+        if not path.exists():
+            return {}
+        data: dict[str, Any] = json.loads(path.read_text(encoding="utf-8"))
+        return data
+
+    def add(
+        self,
+        model: str,
+        usage: Usage,
+        *,
+        cached: bool,
+        rate_headers: dict[str, str] | None = None,
+    ) -> None:
+        with self._lock:
+            day = self._today()
+            data = self.read(day)
+            m = data.setdefault(
+                model,
+                {
+                    "requests": 0,
+                    "prompt_tokens": 0,
+                    "completion_tokens": 0,
+                    "cache_hits": 0,
+                    "tokens_saved_by_cache": 0,
+                },
+            )
+            if cached:
+                m["cache_hits"] += 1
+                m["tokens_saved_by_cache"] += usage.total_tokens
+            else:
+                m["requests"] += 1
+                m["prompt_tokens"] += usage.prompt_tokens
+                m["completion_tokens"] += usage.completion_tokens
+            if rate_headers:
+                m["last_rate_limit_headers"] = rate_headers
+            self.directory.mkdir(parents=True, exist_ok=True)
+            fd, tmp = tempfile.mkstemp(dir=self.directory, prefix=".part-")
+            with os.fdopen(fd, "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=2)
+            os.replace(tmp, self._path(day))

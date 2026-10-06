@@ -1,0 +1,23 @@
+# secrets
+.env
+
+# local data (re-created by `tieout data ...`)
+data/
+
+# python
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# node
+node_modules/
+dist/
+
+# os / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

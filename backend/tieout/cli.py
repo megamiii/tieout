@@ -2,7 +2,7 @@
 
 from datetime import date
 from pathlib import Path
-from typing import Annotated
+from typing import Annotated, Any
 
 import typer
 from sqlalchemy import func, select
@@ -12,11 +12,20 @@ from tieout.agent.factory import build_agent
 from tieout.config import REPO_ROOT, get_settings
 from tieout.db.models import ChunkRow
 from tieout.db.session import get_sessionmaker
+from tieout.evals.metrics import compute, write_report
 from tieout.evals.retrieval_eval import run_retrieval_eval, write_reports
-from tieout.financebench.dataset import load_questions
+from tieout.evals.runner import EXPERIMENTS, run_answers, run_grading
+from tieout.evals.sets import (
+    EvalItem,
+    build_financebench_set,
+    build_xbrl_set,
+    read_set,
+    write_set,
+)
+from tieout.financebench.dataset import load_documents, load_questions
 from tieout.indexing import run_concepts, run_index
-from tieout.llm.client import configured_limits
-from tieout.llm.limits import UsageLedger, limits_for
+from tieout.llm.client import configured_limits, quota_timezone
+from tieout.llm.limits import UsageLedger, limits_for, quota_day
 from tieout.retrieval.chunking import MAX_TOKENS, OVERLAP_TOKENS
 from tieout.retrieval.embeddings import get_embedder
 from tieout.retrieval.search import RRF_K, SearchFilters, search
@@ -156,6 +165,89 @@ def eval_retrieval() -> None:
     typer.echo((REPO_ROOT / "evals" / "reports" / "retrieval.md").read_text(encoding="utf-8"))
 
 
+SETS_DIR = REPO_ROOT / "evals" / "sets"
+SET_NAMES = ("financebench", "xbrl_numeric")
+
+
+def _load_sets(which: str) -> dict[str, list[EvalItem]]:
+    names = SET_NAMES if which == "all" else (which,)
+    return {n: read_set(SETS_DIR / f"{n}.jsonl") for n in names}
+
+
+@eval_app.command("build-sets")
+def eval_build_sets() -> None:
+    """Write evals/sets/financebench.jsonl and evals/sets/xbrl_numeric.jsonl."""
+    settings = get_settings()
+    companies = ingest.load_selected()
+    with ingest.client_from(settings) as http:
+        fb = build_financebench_set(load_questions(http), load_documents(http), companies)
+    with get_sessionmaker()() as session:
+        xb = build_xbrl_set(session, companies)
+    write_set(fb, SETS_DIR / "financebench.jsonl")
+    write_set(xb, SETS_DIR / "xbrl_numeric.jsonl")
+    n_num = sum(i.answer_kind == "numeric" for i in fb)
+    typer.echo(f"financebench: {len(fb)} items ({n_num} numeric, {len(fb) - n_num} text)")
+    typer.echo(f"xbrl_numeric: {len(xb)} items")
+
+
+@eval_app.command("run")
+def eval_run(
+    experiment: Annotated[str, typer.Argument(help="baseline | agent_hybrid | agent_full")],
+    eval_set: Annotated[
+        str, typer.Option("--set", help="financebench | xbrl_numeric | all")
+    ] = "all",
+    limit: Annotated[int | None, typer.Option(help="answer at most N new items")] = None,
+    offline: Annotated[bool, typer.Option(help="replay recordings only (no key/DB)")] = False,
+    retry_errors: bool = False,
+) -> None:
+    """Answer (resumable) and grade one experiment. Re-run to continue."""
+    settings = get_settings()
+    companies = ingest.load_selected()
+    if experiment not in EXPERIMENTS:
+        raise typer.BadParameter(f"choose one of {list(EXPERIMENTS)}")
+    for name, items in _load_sets(eval_set).items():
+
+        def show(item_id: str, data: dict[str, Any] | None, _: str) -> None:
+            d = data or {}
+            status = d.get("error") or d.get("status")
+            typer.echo(f"  {item_id}: {status} ({d.get('requests', 0)} requests)")
+
+        typer.echo(f"[{experiment} / {name}] answering")
+        s = run_answers(
+            experiment,
+            items,
+            settings,
+            companies,
+            offline=offline,
+            limit=limit,
+            retry_errors=retry_errors,
+            on_item=show,
+        )
+        typer.echo(f"  answered {s.done}, already done {s.skipped}, errors {s.errors}")
+        g = run_grading(experiment, items, settings, offline=offline)
+        typer.echo(f"  graded {g.done}, already graded {g.skipped}")
+        for stop in (s.stopped, g.stopped):
+            if stop:
+                typer.echo(f"  stopped: {stop}")
+                return
+
+
+@eval_app.command("report")
+def eval_report() -> None:
+    """Compute metrics from evals/runs and write evals/reports/eval.{md,json}."""
+    settings = get_settings()
+    sets = _load_sets("all")
+    metrics = [compute(exp, name, items) for name, items in sets.items() for exp in EXPERIMENTS]
+    meta = {
+        "date": date.today().isoformat(),
+        "agent_model": settings.llm_model,
+        "judge_model": settings.judge_model,
+        "provider": settings.llm_provider,
+    }
+    path = write_report(metrics, REPO_ROOT / "evals" / "reports", meta)
+    typer.echo(path.read_text(encoding="utf-8"))
+
+
 @app.command("ask")
 def ask_cmd(
     question: str,
@@ -209,7 +301,8 @@ def ask_cmd(
 def usage_cmd() -> None:
     """Today's LLM token usage against the free-tier daily limits."""
     settings = get_settings()
-    data = UsageLedger(settings.usage_dir).read()
+    tz = quota_timezone(settings)
+    data = UsageLedger(settings.usage_dir, today=quota_day(tz)).read()
     if not data:
         typer.echo("no LLM usage recorded today")
         return
@@ -231,7 +324,7 @@ def usage_cmd() -> None:
         typer.echo(
             f"  cache hits {m['cache_hits']:,} (saved {m['tokens_saved_by_cache']:,} tokens)"
         )
-    typer.echo("(days are local dates; Gemini's daily quota resets at midnight Pacific)")
+    typer.echo(f"(quota day in {tz or 'local time'})")
 
 
 if __name__ == "__main__":

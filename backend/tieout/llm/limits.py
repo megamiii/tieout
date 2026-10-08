@@ -8,9 +8,10 @@ import time
 from collections import deque
 from collections.abc import Callable
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 from typing import Any
+from zoneinfo import ZoneInfo
 
 from tieout.llm.types import Usage
 
@@ -30,6 +31,19 @@ GROQ_FREE_TIER = {
     "openai/gpt-oss-20b": FreeTierLimits(rpm=30, rpd=1_000, tpm=8_000, tpd=200_000),
     "openai/gpt-oss-120b": FreeTierLimits(rpm=30, rpd=1_000, tpm=8_000, tpd=200_000),
 }
+
+
+# Daily quotas reset at midnight in the provider's timezone, not the user's.
+# Gemini: midnight Pacific (https://ai.google.dev/gemini-api/docs/rate-limits).
+QUOTA_TIMEZONES = {"gemini": "America/Los_Angeles", "groq": "UTC"}
+
+
+def quota_day(timezone: str | None) -> Callable[[], date]:
+    """'Today' for quota accounting: in `timezone`, or the local date if None."""
+    if not timezone:
+        return date.today
+    tz = ZoneInfo(timezone)
+    return lambda: datetime.now(tz).date()
 
 
 def limits_for(
@@ -103,7 +117,11 @@ class WindowLimiter:
 
 
 class UsageLedger:
-    """Per-day token and request counts in data/usage/YYYY-MM-DD.json."""
+    """Per-day token and request counts in data/usage/YYYY-MM-DD.json.
+
+    The day is the provider's quota day (see quota_day), so "used today"
+    matches what the provider counts against the daily limit.
+    """
 
     def __init__(self, directory: Path, today: Callable[[], date] = date.today) -> None:
         self.directory = directory

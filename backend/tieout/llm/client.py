@@ -25,7 +25,14 @@ import httpx
 import truststore
 
 from tieout.config import Settings
-from tieout.llm.limits import FreeTierLimits, UsageLedger, WindowLimiter, limits_for
+from tieout.llm.limits import (
+    QUOTA_TIMEZONES,
+    FreeTierLimits,
+    UsageLedger,
+    WindowLimiter,
+    limits_for,
+    quota_day,
+)
 from tieout.llm.types import (
     ChatResponse,
     LLMCacheMiss,
@@ -205,11 +212,23 @@ class LLMClient:
 
     def _write_cache(self, path: Path, body: dict[str, Any], raw: dict[str, Any]) -> None:
         path.parent.mkdir(parents=True, exist_ok=True)
-        record = {"provider": self.provider, "request": body, "response": raw}
+        # The request body is not stored: it repeats the whole conversation on
+        # every step and would make committed recordings large. The file name
+        # (the request hash) is what identifies the request.
+        record = {
+            "provider": self.provider,
+            "model": body["model"],
+            "messages": len(body["messages"]),
+            "response": raw,
+        }
         fd, tmp = tempfile.mkstemp(dir=path.parent, prefix=".part-")
         with os.fdopen(fd, "w", encoding="utf-8") as f:
             json.dump(record, f, indent=1, ensure_ascii=False)
         os.replace(tmp, path)
+
+
+def quota_timezone(settings: Settings) -> str | None:
+    return settings.llm_quota_timezone or QUOTA_TIMEZONES.get(settings.llm_provider)
 
 
 def configured_limits(settings: Settings) -> FreeTierLimits | None:
@@ -239,7 +258,7 @@ def make_llm_client(
         model=settings.llm_model,
         provider=provider,
         cache_dir=cache_dir or settings.llm_cache_dir,
-        ledger=UsageLedger(settings.usage_dir),
+        ledger=UsageLedger(settings.usage_dir, today=quota_day(quota_timezone(settings))),
         limiter=limiter,
         offline=offline,
     )

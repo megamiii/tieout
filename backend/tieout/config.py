@@ -35,6 +35,13 @@ class Settings(BaseSettings):
     llm_tpm: int = Field(default=0, ge=0)  # tokens per minute
     llm_rpd: int = Field(default=0, ge=0)  # requests per day
     llm_tpd: int = Field(default=0, ge=0)  # tokens per day
+    # Timezone of the provider's daily quota reset; empty = provider preset.
+    llm_quota_timezone: str = ""
+    # LLM-as-judge for evals. A different model than the agent limits
+    # self-preference bias (and on Gemini has its own daily quota).
+    judge_model: str = "gemini-3.1-flash-lite"
+    judge_rpm: int = Field(default=15, ge=0)
+    judge_rpd: int = Field(default=500, ge=0)
     # gpt-oss reasoning effort (low | medium | high); empty = provider default.
     # Reasoning tokens count against the free-tier token limits.
     llm_reasoning_effort: str = ""

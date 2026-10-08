@@ -91,6 +91,7 @@ class AgentResult:
     usage: Usage
     messages: list[Message]
     rejections: int = 0
+    evidence: EvidenceLedger = field(default_factory=EvidenceLedger)
 
     @property
     def answer(self) -> str | None:
@@ -228,4 +229,5 @@ def run_agent(
         usage=usage,
         messages=messages,
         rejections=rejections,
+        evidence=ledger,
     )

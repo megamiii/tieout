@@ -117,3 +117,10 @@ def test_years_counts_and_labels_are_not_figures() -> None:
         t for t, _ in figures_in_answer("In FY2018 (2018), 3M's 3 segments in Item 7 grew 4.5%")
     ]
     assert figures == ["4.5%"]
+
+
+def test_trailing_punctuation_is_not_part_of_a_number() -> None:
+    # Regression: "2015," was parsed as a figure and the answer was rejected.
+    text = "In fiscal year 2015, Adobe's capex was $184.9 million ($184,936 thousand)."
+    assert [t for t, _ in figures_in_answer(text)] == ["$184.9", "($184,936"]
+    assert numbers_in("Revenue rose to 1,577, then 1,373.") == [Decimal(1577), Decimal(1373)]

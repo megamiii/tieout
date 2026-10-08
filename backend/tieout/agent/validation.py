@@ -29,7 +29,11 @@ SCALES = (Decimal(1), Decimal(10) ** 3, Decimal(10) ** 6, Decimal(10) ** 9, Deci
 RELATIVE_TOLERANCE = Decimal("0.005")
 SMALL_INT_MAX = 12  # "3 segments", "Item 7": counts and labels, not figures
 
-NUMBER_RE = re.compile(r"(?<![A-Za-z0-9.])\(?-?\$?\d[\d,]*(?:\.\d+)?\)?%?(?![A-Za-z0-9])")
+# A thousands separator must be followed by exactly three digits, so the comma
+# in "fiscal year 2015, Adobe" is punctuation, not part of the number.
+NUMBER_RE = re.compile(
+    r"(?<![A-Za-z0-9.,])\(?-?\$?(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?\)?%?(?![A-Za-z0-9])"
+)
 
 
 @dataclass

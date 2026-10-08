@@ -119,6 +119,14 @@ Tools and answer validation (milestone 4):
 - **Abstention:** the answer is `needs_review` if the model flags it (missing, ambiguous or conflicting evidence), its confidence is below 0.7, it fails validation twice, or the run hits its step or token limit without a valid submission. The reasons are kept for the review queue. On the last step `tool_choice` forces `submit_answer`, so running out of steps still produces a validated answer or a clear review reason. A plain-text reply is answered with a request to call `submit_answer`.
 - **Replay without a key, database or model:** outputs of the database tools are recorded by a hash of (tool, arguments), like LLM responses. Since validation only needs the run's evidence, a recorded run replays fully offline, which is what the CI eval and the public demo need.
 
+Web UI and review queue (milestone 6):
+
+- **Runs are persisted, reviews are append-only:** every answered question is stored in `agent_runs` (answer, status, review reasons, citations, usage, trace). Reviewer decisions go to `review_decisions` and are never updated in place: the latest decision is the current state and the history shows who accepted or overrode what, and when, which is what an audit trail needs.
+- **A queue with real cases from day one:** `tieout runs import-evals agent_full` loads the agent's eval results into the queue without any LLM calls, so the review queue opens with the actual FinanceBench questions the agent sent to review, with their real reasons (for example "the number $9,983 is not in any cited source or calculate result": the model summed the quick-ratio components itself instead of using the calculator). Only agent runs are imported; the baseline exists for comparison, not review.
+- **Highlighting is computed on the server and unit-tested:** the API returns each cited passage as segments with the quoted spans marked. Matching tolerates PDF line breaks inside table rows and quotes with or without thousands separators ("1577" matches "1,577" but not the "15,77" inside "15,770"); when the quote as a whole isn't in the passage, its figures are highlighted instead and the UI says so. Several quotes from the same source are merged into one card, and each passage scrolls to its first highlight.
+- **Model output is rendered as Markdown, safely:** the model writes Markdown; the UI renders it with `react-markdown`, which never renders raw HTML. The prompt was not changed mid-eval to avoid Markdown, since that would mix two agent versions within one experiment.
+- **Frontend stack:** React 19 + TypeScript (strict) with Vite, ESLint (`typescript-eslint` strict) and plain CSS with light and dark themes; three views (ask, review queue, eval dashboard) with a tiny hash router instead of a router dependency. Vite is pinned to 6 because Vite 8 requires Node ≥ 20.19.
+
 ## Data
 
 All data is public:
@@ -225,7 +233,15 @@ tieout usage                    # today's tokens vs the free-tier daily limits
 pytest -q
 ```
 
-The first `tieout data all` embeds 13,003 chunks on the CPU (about 70 minutes on a 15 W laptop CPU); later runs reuse the embedding cache and finish in a few minutes. `make ingest`, `make test` and `make lint` wrap the same commands. The web UI (`make dev`) arrives in a later milestone; see [Build progress](#build-progress).
+Web UI (two terminals; open http://localhost:5173):
+
+```bash
+tieout serve --reload           # API on :8000  (make api)
+npm --prefix frontend install && npm --prefix frontend run dev   # UI on :5173 (make web)
+tieout runs import-evals agent_full   # optional: fill the review queue from eval results
+```
+
+The first `tieout data all` embeds 13,003 chunks on the CPU (about 70 minutes on a 15 W laptop CPU); later runs reuse the embedding cache and finish in a few minutes. `make ingest`, `make test` and `make lint` wrap the same commands. See [Build progress](#build-progress).
 
 ### Evaluate
 
@@ -249,7 +265,7 @@ _TODO: add the MCP client config snippet._
 - [x] 3. Agent loop with one tool
 - [x] 4. All tools + answer validation (first live run recorded on Gemini; see below)
 - [ ] 5. Evals
-- [ ] 6. UI + review queue
+- [x] 6. UI + review queue
 - [ ] 7. Tie-out + analytical review
 - [ ] 8. Tracing
 - [ ] 9. MCP server
@@ -273,10 +289,14 @@ tieout/
 │   ├── retrieval/        # token-aware chunking, embeddings, hybrid search
 │   ├── llm/              # OpenAI-compatible client, response cache, rate limits, usage ledger
 │   ├── agent/            # agent loop, tools, calculator, answer validation, recording
-│   ├── evals/            # retrieval eval
+│   ├── evals/            # eval sets, graders, runner, metrics, retrieval eval
+│   ├── api/              # FastAPI app
+│   ├── runs.py           # persisted runs, review decisions, citation views
+│   ├── highlight.py      # quote highlighting in cited passages
 │   ├── ingest.py         # select → download → load pipeline
 │   ├── indexing.py       # parse → chunk → embed (cached) → index pipeline
 │   └── cli.py            # `tieout` command line
+├── frontend/             # React + TypeScript UI (Vite)
 ├── config/companies.json # selected companies, filings and accession numbers
 ├── evals/reports/        # eval reports (Markdown + JSON)
 ├── tests/                # unit tests + DB tests (skipped without Postgres)

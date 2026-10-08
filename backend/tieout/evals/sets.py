@@ -226,7 +226,7 @@ def stratified(items: list[EvalItem], n: int, rng: random.Random) -> list[EvalIt
 def write_set(items: list[EvalItem], path: Path) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     lines = [json.dumps(i.model_dump(mode="json"), ensure_ascii=False) for i in items]
-    path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    path.write_text("\n".join(lines) + "\n", encoding="utf-8", newline="\n")
 
 
 def read_set(path: Path) -> list[EvalItem]:

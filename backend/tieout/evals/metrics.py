@@ -155,5 +155,5 @@ def write_report(all_metrics: list[Metrics], out_dir: Path, meta: dict[str, Any]
             )
         lines.append("")
     path = out_dir / "eval.md"
-    path.write_text("\n".join(lines), encoding="utf-8")
+    path.write_text("\n".join(lines), encoding="utf-8", newline="\n")
     return path

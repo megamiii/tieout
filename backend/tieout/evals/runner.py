@@ -65,7 +65,9 @@ def load_result(experiment: str, item_id: str) -> dict[str, Any] | None:
 def save_result(experiment: str, item_id: str, data: dict[str, Any]) -> None:
     path = result_path(experiment, item_id)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(data, indent=1, ensure_ascii=False) + "\n", encoding="utf-8")
+    path.write_text(
+        json.dumps(data, indent=1, ensure_ascii=False) + "\n", encoding="utf-8", newline="\n"
+    )
 
 
 class Budget:

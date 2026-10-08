@@ -125,7 +125,9 @@ def run_retrieval_eval(
 def write_reports(results: list[ConfigResult], out_dir: Path, meta: dict[str, object]) -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
     payload = {"meta": meta, "results": [asdict(r) for r in results]}
-    (out_dir / "retrieval.json").write_text(json.dumps(payload, indent=2) + "\n", encoding="utf-8")
+    (out_dir / "retrieval.json").write_text(
+        json.dumps(payload, indent=2) + "\n", encoding="utf-8", newline="\n"
+    )
     lines = [
         "# Retrieval eval",
         "",
@@ -143,4 +145,4 @@ def write_reports(results: list[ConfigResult], out_dir: Path, meta: dict[str, ob
             f"{r.latency_ms_p95:.0f} |"
         )
     lines += ["", "Run metadata: " + ", ".join(f"{k}={v}" for k, v in meta.items()), ""]
-    (out_dir / "retrieval.md").write_text("\n".join(lines), encoding="utf-8")
+    (out_dir / "retrieval.md").write_text("\n".join(lines), encoding="utf-8", newline="\n")

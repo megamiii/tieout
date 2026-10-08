@@ -124,3 +124,12 @@ def test_trailing_punctuation_is_not_part_of_a_number() -> None:
     text = "In fiscal year 2015, Adobe's capex was $184.9 million ($184,936 thousand)."
     assert [t for t, _ in figures_in_answer(text)] == ["$184.9", "($184,936"]
     assert numbers_in("Revenue rose to 1,577, then 1,373.") == [Decimal(1577), Decimal(1373)]
+
+
+def test_ledger_keeps_the_fullest_text_of_a_chunk() -> None:
+    led = EvidenceLedger()
+    led.add(
+        Evidence(CHUNK, "chunk", "Current operating lease liabilities 4,134 3,859 Other cur…", [])
+    )
+    led.add(Evidence(CHUNK, "chunk", "short…", []))
+    assert led.sources[CHUNK].text.startswith("Current operating lease")

@@ -47,8 +47,8 @@ class Settings(BaseSettings):
     llm_reasoning_effort: str = ""
 
     # Agent guardrails
-    agent_max_steps: int = Field(default=6, ge=1, le=20)
-    agent_max_tokens_per_run: int = Field(default=30_000, gt=0)
+    agent_max_steps: int = Field(default=8, ge=2, le=20)
+    agent_max_tokens_per_run: int = Field(default=60_000, gt=0)
 
     @property
     def data_path(self) -> Path:

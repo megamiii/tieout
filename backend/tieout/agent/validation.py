@@ -54,7 +54,11 @@ class EvidenceLedger:
         if evidence.kind == "calc":
             self.calc_results.extend(evidence.values)
         else:
-            self.sources[evidence.source_id] = evidence
+            # Keep the fullest text: search results are truncated snippets, while
+            # read_section returns the whole chunk.
+            known = self.sources.get(evidence.source_id)
+            if known is None or len(evidence.text) > len(known.text):
+                self.sources[evidence.source_id] = evidence
 
 
 def to_decimal(token: str) -> Decimal | None:
@@ -121,12 +125,14 @@ def normalize(text: str) -> str:
 class Citation(BaseModel):
     source_id: str = Field(
         pattern=r"^(ch|xf)_[0-9a-f]{16}$",
-        description="A chunk_id (ch_...) or XBRL fact_id (xf_...) returned by a tool.",
+        description="A chunk_id (ch_...) or XBRL fact_id (xf_...) returned by a tool. "
+        "calculate results are not citable: cite the sources of their inputs.",
     )
     quote: str = Field(
         min_length=1,
         max_length=300,
-        description="Exact text (or the number) from that source that supports the answer.",
+        description="A short exact quote (under 300 characters) or the number from that "
+        "source that supports the answer.",
     )
 
 

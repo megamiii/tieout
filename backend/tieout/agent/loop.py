@@ -12,8 +12,9 @@
         a plain-text reply is not an answer: ask the model to call submit_answer
         stop if the run has used its token budget
 
-On the last allowed step, tool_choice forces submit_answer, so a run that is
-out of steps still ends with an answer that went through validation. A run
+On the last two allowed steps, tool_choice forces submit_answer, so a run
+that is out of steps still ends with an answer that went through validation,
+with one chance to fix a rejected submission. A run
 that ends without a valid submission is routed to human review.
 """
 
@@ -52,11 +53,12 @@ class ChatModel(Protocol):
 
 @dataclass(frozen=True)
 class AgentLimits:
-    max_steps: int = 6
-    max_tokens_per_run: int = 30_000
+    max_steps: int = 8
+    max_tokens_per_run: int = 60_000
     max_tokens_per_response: int = 1024
     confidence_threshold: float = 0.7
     max_rejections: int = 2  # invalid submissions before giving up
+    submit_window: int = 2  # final steps on which submit_answer is forced
 
 
 DEFAULT_LIMITS = AgentLimits()
@@ -161,7 +163,9 @@ def run_agent(
     rejections = 0
 
     for i in range(limits.max_steps):
-        last = i == limits.max_steps - 1
+        # Force submit_answer for the last `submit_window` steps, so a rejected
+        # submission still has a step left to be fixed.
+        last = i >= limits.max_steps - limits.submit_window
         response = llm.chat(
             messages,
             tools=schemas,

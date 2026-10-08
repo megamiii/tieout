@@ -204,7 +204,7 @@ def test_plain_text_reply_is_nudged_to_submit() -> None:
 def test_last_step_forces_submit_answer() -> None:
     llm = ScriptedLLM([resp(SEARCH), resp(SEARCH), resp(submit("It was $1,577 million."))])
     result = run_agent(llm, tools(), "sys", "q", AgentLimits(max_steps=3))
-    assert [r["tool_choice"] for r in llm.requests] == ["auto", "auto", FORCE_SUBMIT]
+    assert [r["tool_choice"] for r in llm.requests] == ["auto", FORCE_SUBMIT, FORCE_SUBMIT]
     assert result.final.status == "answered" and result.steps[-1].forced_submit
 
 
@@ -340,3 +340,12 @@ def test_record_then_replay_offline(tmp_path: Path) -> None:
     assert [s.response.request_hash for s in replay.steps] == [
         s.response.request_hash for s in live.steps
     ]
+
+
+def test_rejection_in_the_submit_window_can_still_be_fixed() -> None:
+    bad = submit("It was $1,577 million.", quote="capex was 3,541")  # not in the source
+    good = submit("It was $1,577 million.")
+    llm = ScriptedLLM([resp(SEARCH), resp(SEARCH), resp(bad), resp(good)])
+    result = run_agent(llm, tools(), "sys", "q", AgentLimits(max_steps=4))
+    assert [r["tool_choice"] for r in llm.requests][2:] == [FORCE_SUBMIT, FORCE_SUBMIT]
+    assert result.final.status == "answered" and result.rejections == 1

@@ -39,7 +39,7 @@ EXPERIMENTS: dict[Experiment, str] = {
 RUNS_DIR = REPO_ROOT / "evals" / "runs"
 RECORDINGS_DIR = REPO_ROOT / "recordings" / "evals"
 # Requests one item may need at most (agent steps); stop before the budget can't cover it.
-REQUESTS_PER_ITEM = 8
+REQUESTS_PER_ITEM = 10
 
 
 @dataclass

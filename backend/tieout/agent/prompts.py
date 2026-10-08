@@ -30,6 +30,8 @@ missing, ambiguous or conflicting, say so in the answer, set needs_review to tru
 and explain in review_reason. A flagged answer is better than a wrong one.
 - Be concise: state the figure with units and fiscal year, then one or two \
 sentences of context.
+- Submit as soon as the evidence answers the question. Do not keep searching to \
+re-confirm a figure a tool has already given you.
 """
 
 

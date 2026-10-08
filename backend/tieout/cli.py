@@ -25,7 +25,7 @@ from tieout.evals.sets import (
 from tieout.financebench.dataset import load_documents, load_questions
 from tieout.indexing import run_concepts, run_index
 from tieout.llm.client import configured_limits, quota_timezone
-from tieout.llm.limits import UsageLedger, limits_for, quota_day
+from tieout.llm.limits import FreeTierLimits, UsageLedger, limits_for, quota_day
 from tieout.retrieval.chunking import MAX_TOKENS, OVERLAP_TOKENS
 from tieout.retrieval.embeddings import get_embedder
 from tieout.retrieval.search import RRF_K, SearchFilters, search
@@ -316,6 +316,8 @@ def usage_cmd() -> None:
         tokens = m["prompt_tokens"] + m["completion_tokens"]
         if model == settings.llm_model:
             lim = configured_limits(settings)
+        elif model == settings.judge_model:
+            lim = FreeTierLimits(rpm=settings.judge_rpm, rpd=settings.judge_rpd, tpm=None, tpd=None)
         else:
             lim = limits_for(settings.llm_provider, model)
         typer.echo(f"{model}:")

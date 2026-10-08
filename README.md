@@ -44,7 +44,7 @@ In auditing, a *tie-out* is the check that every number stated in a document mat
                                                    │ REST API
                         ┌──────────────────────────▼──────────────────────────┐
                         │ FastAPI backend                                      │
-                        │   Agent loop ──► LLM API (Groq / Ollama)             │
+                        │   Agent loop ──► LLM API (Groq / Gemini / Ollama)    │
                         │     ├─ search_filings ──► hybrid RAG                 │
                         │     ├─ read_section                                  │
                         │     ├─ get_financial_facts ──► SEC EDGAR XBRL (cache)│
@@ -99,7 +99,7 @@ Parsing and retrieval (milestone 2):
 LLM client and agent loop (milestone 3):
 
 - **Free tier shapes the design:** Groq's free tier for `openai/gpt-oss-20b` / `gpt-oss-120b` allows 30 requests/min, 1,000 requests/day, 8,000 tokens/min and 200,000 tokens/day (from Groq's rate-limit docs, checked 2026-10-07). An agent resends the whole conversation on every step, so tokens, not requests, are the binding limit. Search results are truncated to 1,000 characters per passage, the default is 5 passages, Pydantic's schema `title` fields are stripped from tool schemas, and each run has a token budget.
-- **One client, any OpenAI-compatible provider:** a small `httpx` client for `/chat/completions`, so `LLM_PROVIDER=groq|ollama|openai_compatible` switches providers. It doesn't use an SDK, so retries, caching and token accounting are all visible in about 200 lines.
+- **One client, any OpenAI-compatible provider:** a small `httpx` client for `/chat/completions`, so `LLM_PROVIDER=groq|gemini|ollama|openai_compatible` switches providers. Groq's free-tier limits are built in; Gemini shows each project's free-tier limits in AI Studio instead of publishing them, so they are set in `.env` (`LLM_RPM`, `LLM_TPM`, `LLM_RPD`, `LLM_TPD`). Gemini returns its retry hint in the 429 body (`retryDelay`) rather than a `Retry-After` header, and the client reads both. It doesn't use an SDK, so retries, caching and token accounting are all visible in about 200 lines.
 - **Response cache = recordings:** each request is serialized as canonical JSON (sorted keys, plus the provider URL) and hashed with SHA-256; the response is stored under that hash. Re-running an identical request costs no tokens. In offline mode the client serves only cached responses and raises on a miss, so a recorded run replays exactly, which is the mechanism for keyless tests and, later, the public demo.
 - **Rate limiting before, retrying after:** a sliding-window limiter waits *before* a request that would exceed requests/min or tokens/min (estimated at ~4 characters per token). If a 429 still happens, the client retries after Groq's `retry-after`, using the same backoff code as the SEC downloader. A daily ledger (`data/usage/YYYY-MM-DD.json`) records tokens per model, cache hits, tokens saved and Groq's latest `x-ratelimit-*` headers; `tieout usage` reports it against the daily limits.
 - **The loop is written by hand** (`backend/tieout/agent/loop.py`, no framework): send messages and tool schemas, execute each tool call, append each result as a `tool` message tied to its `tool_call_id`, and stop when the model answers in plain text.
@@ -185,7 +185,7 @@ After `tieout data index`: 705 sections and 13,003 chunks (bge-small-en-v1.5, 38
 ### Requirements
 
 - Python 3.11+, Node.js 20+, Docker
-- Optional: a free [Groq](https://console.groq.com) API key, or [Ollama](https://ollama.com) for local runs (neither is needed for demo mode). The project never needs a paid API key.
+- Optional: a free API key from [Groq](https://console.groq.com) or [Google AI Studio](https://aistudio.google.com/apikey) (Gemini), or [Ollama](https://ollama.com) for local runs. None is needed for demo mode, and the project never needs a paid API key.
 
 ### Run locally
 

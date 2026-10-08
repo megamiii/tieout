@@ -6,8 +6,9 @@ from typing import Any
 import httpx
 import pytest
 
-from tieout.llm.client import LLMClient, request_hash
-from tieout.llm.limits import UsageLedger, WindowLimiter
+from tieout.config import Settings
+from tieout.llm.client import LLMClient, make_llm_client, request_hash, retry_delay
+from tieout.llm.limits import FreeTierLimits, UsageLedger, WindowLimiter, limits_for
 from tieout.llm.types import LLMCacheMiss, LLMError, Usage
 
 
@@ -171,3 +172,48 @@ def test_oversized_request_runs_alone() -> None:
     clock = FakeClock()
     lim = WindowLimiter(rpm=30, tpm=8000, clock=clock, sleep=clock.sleep)
     assert lim.wait_for(20_000) == 0  # empty window: allowed (the API decides)
+
+
+def test_gemini_retry_delay_in_body_is_honoured(tmp_path: Path) -> None:
+    gemini_429 = (
+        '[{"error": {"code": 429, "status": "RESOURCE_EXHAUSTED", "details": '
+        '[{"@type": "type.googleapis.com/google.rpc.RetryInfo", "retryDelay": "37s"}]}}]'
+    )
+    responses = iter([httpx.Response(429, text=gemini_429), httpx.Response(200, json=completion())])
+    sleeps: list[float] = []
+    make_client(tmp_path, lambda r: next(responses), sleeps=sleeps).chat(MSGS)
+    assert sleeps == [37.0]
+
+
+def test_retry_delay_parsing() -> None:
+    assert retry_delay("7", "") == 7.0
+    assert retry_delay(None, '{"retryDelay": "1.5s"}') == 1.5
+    assert retry_delay("not-a-number", "no hint") is None
+
+
+def test_configured_limits_override_presets() -> None:
+    preset = limits_for("groq", "openai/gpt-oss-20b")
+    assert preset is not None and preset.tpd == 200_000
+    # Gemini has no built-in preset: limits come from .env (copied from AI Studio).
+    assert limits_for("gemini", "gemini-3.8-flash") is None
+    custom = limits_for("gemini", "gemini-3.8-flash", FreeTierLimits(rpm=10, rpd=0, tpm=0, tpd=0))
+    assert custom == FreeTierLimits(rpm=10, rpd=None, tpm=None, tpd=None)
+    # A partial override keeps the rest of a preset.
+    mixed = limits_for("groq", "openai/gpt-oss-20b", FreeTierLimits(rpm=5, rpd=0, tpm=0, tpd=0))
+    assert mixed == FreeTierLimits(rpm=5, rpd=1_000, tpm=8_000, tpd=200_000)
+
+
+def test_unknown_limits_do_not_throttle() -> None:
+    clock = FakeClock()
+    lim = WindowLimiter(rpm=None, tpm=None, clock=clock, sleep=clock.sleep)
+    for _ in range(100):
+        assert lim.wait_for(50_000) == 0
+        lim.record(50_000)
+
+
+def test_gemini_preset_requires_its_key() -> None:
+    settings = Settings(llm_provider="gemini", llm_model="gemini-3.8-flash", gemini_api_key="")
+    with pytest.raises(LLMError, match="GEMINI_API_KEY"):
+        make_llm_client(settings)
+    client = make_llm_client(settings, offline=True)  # replay needs no key
+    assert client.base_url == "https://generativelanguage.googleapis.com/v1beta/openai"

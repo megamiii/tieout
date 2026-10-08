@@ -22,12 +22,19 @@ class Settings(BaseSettings):
     data_dir: Path = Path("data")
 
     # LLM: any OpenAI-compatible chat completions API. Free options only:
-    # Groq's free tier (default) or a local Ollama server.
-    llm_provider: str = "groq"  # groq | ollama | openai_compatible
+    # Groq or Gemini free tiers, or a local Ollama server.
+    llm_provider: str = "groq"  # groq | gemini | ollama | openai_compatible
     llm_model: str = "openai/gpt-oss-20b"
     llm_base_url: str = ""  # overrides the provider preset
     groq_api_key: str = ""
+    gemini_api_key: str = ""
     llm_api_key: str = ""  # for openai_compatible providers
+    # Free-tier limits, when the provider doesn't publish fixed ones (Gemini shows
+    # each project's limits in AI Studio). 0 = use the built-in preset, if any.
+    llm_rpm: int = Field(default=0, ge=0)  # requests per minute
+    llm_tpm: int = Field(default=0, ge=0)  # tokens per minute
+    llm_rpd: int = Field(default=0, ge=0)  # requests per day
+    llm_tpd: int = Field(default=0, ge=0)  # tokens per day
     # gpt-oss reasoning effort (low | medium | high); empty = provider default.
     # Reasoning tokens count against the free-tier token limits.
     llm_reasoning_effort: str = ""

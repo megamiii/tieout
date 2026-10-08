@@ -13,6 +13,7 @@ the network, which is how tests (and the public demo) replay agent runs.
 import hashlib
 import json
 import os
+import re
 import ssl
 import tempfile
 import time
@@ -24,7 +25,7 @@ import httpx
 import truststore
 
 from tieout.config import Settings
-from tieout.llm.limits import UsageLedger, WindowLimiter, limits_for
+from tieout.llm.limits import FreeTierLimits, UsageLedger, WindowLimiter, limits_for
 from tieout.llm.types import (
     ChatResponse,
     LLMCacheMiss,
@@ -37,10 +38,29 @@ from tieout.net.retry import RetryableError, retry_call
 
 PROVIDER_URLS = {
     "groq": "https://api.groq.com/openai/v1",
+    # https://ai.google.dev/gemini-api/docs/openai (checked 2026-10-09)
+    "gemini": "https://generativelanguage.googleapis.com/v1beta/openai",
     "ollama": "http://localhost:11434/v1",
 }
+KEY_HELP = {
+    "groq": "GROQ_API_KEY is not set (free key: https://console.groq.com)",
+    "gemini": "GEMINI_API_KEY is not set (free key: https://aistudio.google.com/apikey)",
+}
+# Gemini sends its retry hint in the error body ("retryDelay": "37s"), not a header.
+RETRY_DELAY_RE = re.compile(r'"retryDelay"\s*:\s*"(\d+(?:\.\d+)?)s"')
 RETRY_STATUSES = {429, 500, 502, 503, 504}
 RATE_HEADER_PREFIX = "x-ratelimit-"
+
+
+def retry_delay(header: str | None, body: str) -> float | None:
+    """Seconds to wait from a Retry-After header or a Gemini-style retryDelay."""
+    if header:
+        try:
+            return float(header)
+        except ValueError:
+            pass
+    m = RETRY_DELAY_RE.search(body)
+    return float(m.group(1)) if m else None
 
 
 def request_hash(base_url: str, body: dict[str, Any]) -> str:
@@ -171,11 +191,7 @@ class LLMClient:
             k: v for k, v in r.headers.items() if k.lower().startswith(RATE_HEADER_PREFIX)
         }
         if r.status_code in RETRY_STATUSES:
-            retry_after = r.headers.get("retry-after")
-            try:
-                delay = float(retry_after) if retry_after else None
-            except ValueError:
-                delay = None
+            delay = retry_delay(r.headers.get("retry-after"), r.text)
             raise RetryableError(f"HTTP {r.status_code}: {r.text[:200]}", retry_after=delay)
         if r.status_code != 200:
             raise LLMError(f"HTTP {r.status_code}: {r.text[:500]}")
@@ -191,6 +207,13 @@ class LLMClient:
         os.replace(tmp, path)
 
 
+def configured_limits(settings: Settings) -> FreeTierLimits | None:
+    overrides = FreeTierLimits(
+        rpm=settings.llm_rpm, rpd=settings.llm_rpd, tpm=settings.llm_tpm, tpd=settings.llm_tpd
+    )
+    return limits_for(settings.llm_provider, settings.llm_model, overrides)
+
+
 def make_llm_client(
     settings: Settings, *, offline: bool = False, cache_dir: Path | None = None
 ) -> LLMClient:
@@ -198,10 +221,12 @@ def make_llm_client(
     base_url = settings.llm_base_url or PROVIDER_URLS.get(provider, "")
     if not base_url:
         raise LLMError(f"set LLM_BASE_URL for provider {provider!r}")
-    api_key = settings.groq_api_key if provider == "groq" else settings.llm_api_key
-    if provider == "groq" and not api_key and not offline:
-        raise LLMError("GROQ_API_KEY is not set (free key: https://console.groq.com)")
-    limits = limits_for(provider, settings.llm_model)
+    api_key = {"groq": settings.groq_api_key, "gemini": settings.gemini_api_key}.get(
+        provider, settings.llm_api_key
+    )
+    if provider in KEY_HELP and not api_key and not offline:
+        raise LLMError(KEY_HELP[provider])
+    limits = configured_limits(settings)
     limiter = WindowLimiter(limits.rpm, limits.tpm) if limits else None
     return LLMClient(
         base_url=base_url,

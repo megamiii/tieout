@@ -15,6 +15,7 @@ from tieout.db.session import get_sessionmaker
 from tieout.evals.retrieval_eval import run_retrieval_eval, write_reports
 from tieout.financebench.dataset import load_questions
 from tieout.indexing import run_concepts, run_index
+from tieout.llm.client import configured_limits
 from tieout.llm.limits import UsageLedger, limits_for
 from tieout.retrieval.chunking import MAX_TOKENS, OVERLAP_TOKENS
 from tieout.retrieval.embeddings import get_embedder
@@ -212,19 +213,25 @@ def usage_cmd() -> None:
     if not data:
         typer.echo("no LLM usage recorded today")
         return
+
+    def against(used: int, limit: int | None) -> str:
+        if not limit:
+            return f"{used:>9,} (daily limit unknown; set it in .env)"
+        return f"{used:>9,} / {limit:,} per day ({used / limit:.1%})"
+
     for model, m in data.items():
         tokens = m["prompt_tokens"] + m["completion_tokens"]
-        lim = limits_for(settings.llm_provider, model)
-        typer.echo(f"{model}:")
-        if lim:
-            typer.echo(f"  tokens   {tokens:>9,} / {lim.tpd:,} per day ({tokens / lim.tpd:.1%})")
-            typer.echo(f"  requests {m['requests']:>9,} / {lim.rpd:,} per day")
+        if model == settings.llm_model:
+            lim = configured_limits(settings)
         else:
-            typer.echo(f"  tokens   {tokens:>9,} (no known daily limit)")
-            typer.echo(f"  requests {m['requests']:>9,}")
+            lim = limits_for(settings.llm_provider, model)
+        typer.echo(f"{model}:")
+        typer.echo(f"  tokens   {against(tokens, lim.tpd if lim else None)}")
+        typer.echo(f"  requests {against(m['requests'], lim.rpd if lim else None)}")
         typer.echo(
             f"  cache hits {m['cache_hits']:,} (saved {m['tokens_saved_by_cache']:,} tokens)"
         )
+    typer.echo("(days are local dates; Gemini's daily quota resets at midnight Pacific)")
 
 
 if __name__ == "__main__":

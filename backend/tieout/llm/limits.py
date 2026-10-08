@@ -17,10 +17,12 @@ from tieout.llm.types import Usage
 
 @dataclass(frozen=True)
 class FreeTierLimits:
-    rpm: int  # requests per minute
-    rpd: int  # requests per day
-    tpm: int  # tokens per minute
-    tpd: int  # tokens per day
+    """None means unknown / not enforced."""
+
+    rpm: int | None  # requests per minute
+    rpd: int | None  # requests per day
+    tpm: int | None  # tokens per minute
+    tpd: int | None  # tokens per day
 
 
 # Groq free tier, from https://console.groq.com/docs/rate-limits (checked 2026-10-07).
@@ -30,11 +32,24 @@ GROQ_FREE_TIER = {
 }
 
 
-def limits_for(provider: str, model: str) -> FreeTierLimits | None:
-    """Known limits, or None (e.g. local Ollama has no rate limits)."""
-    if provider == "groq":
-        return GROQ_FREE_TIER.get(model)
-    return None
+def limits_for(
+    provider: str, model: str, overrides: FreeTierLimits | None = None
+) -> FreeTierLimits | None:
+    """Limits for a provider/model: configured overrides first, then built-in presets.
+
+    Gemini's free-tier limits are shown per project in AI Studio rather than
+    published, so they come from LLM_RPM / LLM_TPM / LLM_RPD / LLM_TPD.
+    Returns None when nothing is known (e.g. local Ollama has no limits).
+    """
+    preset = GROQ_FREE_TIER.get(model) if provider == "groq" else None
+    if overrides is None or not any((overrides.rpm, overrides.tpm, overrides.rpd, overrides.tpd)):
+        return preset
+    return FreeTierLimits(
+        rpm=overrides.rpm or (preset.rpm if preset else None),
+        rpd=overrides.rpd or (preset.rpd if preset else None),
+        tpm=overrides.tpm or (preset.tpm if preset else None),
+        tpd=overrides.tpd or (preset.tpd if preset else None),
+    )
 
 
 class WindowLimiter:
@@ -48,14 +63,14 @@ class WindowLimiter:
 
     def __init__(
         self,
-        rpm: int,
-        tpm: int,
+        rpm: int | None,
+        tpm: int | None,
         *,
         clock: Callable[[], float] = time.monotonic,
         sleep: Callable[[float], None] = time.sleep,
     ) -> None:
-        self.rpm = rpm
-        self.tpm = tpm
+        self.rpm = rpm if rpm else 10**9  # unknown: don't throttle on this axis
+        self.tpm = tpm if tpm else 10**12
         self._clock = clock
         self._sleep = sleep
         self._events: deque[tuple[float, int]] = deque()

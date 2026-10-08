@@ -10,32 +10,44 @@
   {
    "source_id": "xf_1bace80574710929",
    "quote": "9440000000",
-   "supports": false
+   "values": [
+    "9440000000"
+   ]
   },
   {
    "source_id": "xf_1212b4610d64800a",
    "quote": "39403000000",
-   "supports": false
+   "values": [
+    "39403000000"
+   ]
   },
   {
    "source_id": "xf_27003ee06685c505",
    "quote": "9961000000",
-   "supports": false
+   "values": [
+    "9961000000"
+   ]
   },
   {
    "source_id": "xf_ecdba833520156ac",
    "quote": "42879000000",
-   "supports": false
+   "values": [
+    "42879000000"
+   ]
   },
   {
    "source_id": "xf_e1a76d1826356991",
    "quote": "9912000000",
-   "supports": false
+   "values": [
+    "9912000000"
+   ]
   },
   {
    "source_id": "xf_06e4c059600b7713",
    "quote": "46298000000",
-   "supports": false
+   "values": [
+    "46298000000"
+   ]
   }
  ],
  "review_reasons": [

@@ -15,7 +15,9 @@
    "concept": "Revenues",
    "fiscal_year": 2022,
    "restated": [],
-   "supports": false
+   "values": [
+    "322467000000"
+   ]
   },
   {
    "source_id": "xf_f2e068915f0ff21b",
@@ -25,7 +27,9 @@
    "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
    "fiscal_year": 2022,
    "restated": [],
-   "supports": false
+   "values": [
+    "2727000000"
+   ]
   },
   {
    "source_id": "xf_96763fb04244e688",
@@ -35,7 +39,9 @@
    "concept": "PropertyPlantAndEquipmentNet",
    "fiscal_year": 2022,
    "restated": [],
-   "supports": false
+   "values": [
+    "12873000000"
+   ]
   },
   {
    "source_id": "xf_cd29bfea0d414de2",
@@ -45,7 +51,9 @@
    "concept": "Assets",
    "fiscal_year": 2022,
    "restated": [],
-   "supports": false
+   "values": [
+    "228275000000"
+   ]
   }
  ],
  "review_reasons": [],

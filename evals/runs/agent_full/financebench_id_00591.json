@@ -15,7 +15,9 @@
    "concept": "NetCashProvidedByUsedInOperatingActivities",
    "fiscal_year": 2022,
    "restated": [],
-   "supports": false
+   "values": [
+    "7838000000"
+   ]
   },
   {
    "source_id": "xf_09e3f56f9ea98999",
@@ -25,7 +27,9 @@
    "concept": "NetCashProvidedByUsedInOperatingActivities",
    "fiscal_year": 2021,
    "restated": [],
-   "supports": false
+   "values": [
+    "7230000000"
+   ]
   },
   {
    "source_id": "xf_ba8be4a22fb68bbf",
@@ -35,7 +39,9 @@
    "concept": "NetCashProvidedByUsedInOperatingActivities",
    "fiscal_year": 2020,
    "restated": [],
-   "supports": false
+   "values": [
+    "5727000000"
+   ]
   },
   {
    "source_id": "xf_614ea9aafa8b6865",
@@ -45,7 +51,9 @@
    "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
    "fiscal_year": 2022,
    "restated": [],
-   "supports": false
+   "values": [
+    "442000000"
+   ]
   },
   {
    "source_id": "xf_2f4be6f22f55f295",
@@ -55,7 +63,9 @@
    "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
    "fiscal_year": 2021,
    "restated": [],
-   "supports": false
+   "values": [
+    "348000000"
+   ]
   },
   {
    "source_id": "xf_4ec4b6cdc82fbe67",
@@ -65,7 +75,9 @@
    "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
    "fiscal_year": 2020,
    "restated": [],
-   "supports": false
+   "values": [
+    "419000000"
+   ]
   },
   {
    "source_id": "xf_5beb4a691185e347",
@@ -75,7 +87,9 @@
    "concept": "NetIncomeLoss",
    "fiscal_year": 2022,
    "restated": [],
-   "supports": false
+   "values": [
+    "4756000000"
+   ]
   },
   {
    "source_id": "xf_1670be96d48fac59",
@@ -85,7 +99,9 @@
    "concept": "NetIncomeLoss",
    "fiscal_year": 2021,
    "restated": [],
-   "supports": false
+   "values": [
+    "4822000000"
+   ]
   },
   {
    "source_id": "xf_e4d2040b48e1286e",
@@ -95,7 +111,9 @@
    "concept": "NetIncomeLoss",
    "fiscal_year": 2020,
    "restated": [],
-   "supports": false
+   "values": [
+    "5260000000"
+   ]
   }
  ],
  "review_reasons": [],

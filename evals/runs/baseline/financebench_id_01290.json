@@ -15,7 +15,19 @@
    "fiscal_year": 2022,
    "section": "Item 1",
    "page": 3,
-   "supports": false
+   "values": [
+    "1",
+    "737",
+    "767",
+    "777",
+    "787",
+    "747",
+    "2022",
+    "737",
+    "7",
+    "737",
+    "10"
+   ]
   }
  ],
  "review_reasons": [

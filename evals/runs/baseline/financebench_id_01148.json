@@ -15,7 +15,11 @@
    "fiscal_year": 2023,
    "section": "Item 8",
    "page": 55,
-   "supports": false
+   "values": [
+    "1",
+    "150",
+    "55"
+   ]
   }
  ],
  "review_reasons": [],

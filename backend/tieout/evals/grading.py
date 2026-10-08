@@ -7,7 +7,7 @@ from dataclasses import dataclass, field
 from decimal import Decimal
 from typing import Any, Protocol
 
-from tieout.agent.validation import SCALES, Evidence, figures_in_answer
+from tieout.agent.validation import SCALES, figures_in_answer, numbers_in
 from tieout.evals.sets import EvalItem
 from tieout.llm.types import ChatResponse, Message, Usage
 
@@ -111,26 +111,51 @@ def grade(item: EvalItem, answer: str | None, judge_llm: ChatModel | None) -> Gr
     return judge(judge_llm, item, answer)
 
 
-def citation_supports(item: EvalItem, citation: dict[str, Any], evidence: Evidence | None) -> bool:
-    """A citation supports the answer if it is gold evidence or carries the gold value.
+DISTINCTIVE_MIN = Decimal(100)  # smaller figures ("31", "2.00") match by coincidence
 
-    - a chunk on one of the question's gold evidence pages (FinanceBench);
-    - one of the gold XBRL facts (Set B);
-    - a source whose values include the gold number, at any scale.
+
+def _is_year(v: Decimal) -> bool:
+    return v == v.to_integral_value() and 1900 <= v <= 2100
+
+
+def _cited_values(citation: dict[str, Any]) -> list[Decimal]:
+    """What the citation asserts: the numbers in its quote (chunks) or its value (facts)."""
+    if citation.get("kind") == "fact" or citation["source_id"].startswith("xf_"):
+        return [abs(Decimal(v)) for v in citation.get("values", [])]
+    return [abs(v) for v in numbers_in(citation.get("quote", ""))]
+
+
+def _same_figure(cited: Decimal, evidence: Decimal) -> bool:
+    """Equal at some scale, up to the rounding of the evidence figure as written
+    ("7,453" in millions matches 7,452,600,000 but not 7,460,000,000)."""
+    exponent = evidence.normalize().as_tuple().exponent
+    step = Decimal(10) ** (exponent if isinstance(exponent, int) and exponent < 0 else 0)
+    return any(abs(cited - evidence * scale) <= step * scale / 2 for scale in SCALES)
+
+
+def citation_supports(item: EvalItem, citation: dict[str, Any]) -> bool:
+    """Does a citation point at the gold evidence? Computed at report time.
+
+    A citation supports the answer if it is
+    - one of the gold XBRL facts (Set B), or
+    - a chunk on a gold evidence page of the right filing (FinanceBench), or
+    - a source asserting the gold value (numeric questions, answer tolerance), or
+    - a source asserting a distinctive figure (>= 100, not a year) that also
+      appears in the gold evidence passages, equal up to that figure's rounding.
     """
     if citation["source_id"] in item.gold_fact_ids:
         return True
-    if evidence is None:
-        return False
-    if evidence.kind == "chunk" and evidence.meta.get("page") in item.gold_pages:
-        same_filing = evidence.meta.get("fiscal_year") in (None, item.fiscal_year)
-        if same_filing:
-            return True
-    if item.gold_value is not None:
+    if (
+        citation.get("kind") == "chunk"
+        and citation.get("page") in item.gold_pages
+        and citation.get("fiscal_year") in (None, item.fiscal_year)
+    ):
+        return True
+    cited = _cited_values(citation)
+    if item.gold_value is not None and item.gold_value != 0:
         gold = abs(item.gold_value)
         tol = gold * item.tolerance_pct / 100
-        for v in evidence.values:
-            for scale in SCALES:
-                if abs(abs(v) - gold * scale) <= tol * scale:
-                    return True
-    return False
+        if any(abs(v - gold * s) <= tol * s for v in cited for s in SCALES):
+            return True
+    distinctive = [e for e in item.gold_evidence_values if e >= DISTINCTIVE_MIN and not _is_year(e)]
+    return any(_same_figure(v, e) for v in cited for e in distinctive)

@@ -15,7 +15,12 @@
    "fiscal_year": 2022,
    "section": "Item 1A",
    "page": 18,
-   "supports": false
+   "values": [
+    "117100",
+    "186700",
+    "31",
+    "2022"
+   ]
   },
   {
    "source_id": "ch_e45545bb88293d76",
@@ -25,7 +30,21 @@
    "fiscal_year": 2022,
    "section": "Item 7",
    "page": 42,
-   "supports": false
+   "values": [
+    "31",
+    "2022",
+    "2021",
+    "37141",
+    "39539",
+    "23087",
+    "20286",
+    "14054",
+    "19253",
+    "2022",
+    "2022",
+    "10",
+    "42"
+   ]
   },
   {
    "source_id": "xf_39deba555a2ae5be",
@@ -35,7 +54,9 @@
    "concept": "Revenues",
    "fiscal_year": 2022,
    "restated": [],
-   "supports": false
+   "values": [
+    "136835000000"
+   ]
   },
   {
    "source_id": "xf_fa57b922b803aa34",
@@ -45,7 +66,9 @@
    "concept": "PropertyPlantAndEquipmentNet",
    "fiscal_year": 2022,
    "restated": [],
-   "supports": false
+   "values": [
+    "107434000000"
+   ]
   }
  ],
  "review_reasons": [],

@@ -10,22 +10,30 @@
   {
    "source_id": "xf_0a3e29123bb0bc01",
    "quote": "775000000",
-   "supports": false
+   "values": [
+    "775000000"
+   ]
   },
   {
    "source_id": "xf_5424f00679f4a155",
    "quote": "5103000000",
-   "supports": false
+   "values": [
+    "5103000000"
+   ]
   },
   {
    "source_id": "xf_522ef00a0af3f867",
    "quote": "689000000",
-   "supports": false
+   "values": [
+    "689000000"
+   ]
   },
   {
    "source_id": "xf_ffdf55261282ef35",
    "quote": "4476000000",
-   "supports": false
+   "values": [
+    "4476000000"
+   ]
   }
  ],
  "review_reasons": [

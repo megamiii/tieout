@@ -15,7 +15,9 @@
    "fiscal_year": 2022,
    "section": "Item 1",
    "page": 4,
-   "supports": true
+   "values": [
+    "1"
+   ]
   },
   {
    "source_id": "ch_14f332cffcf58250",
@@ -25,7 +27,14 @@
    "fiscal_year": 2022,
    "section": "Item 1",
    "page": 11,
-   "supports": false
+   "values": [
+    "6",
+    "7",
+    "7",
+    "7",
+    "6",
+    "7"
+   ]
   }
  ],
  "review_reasons": [],

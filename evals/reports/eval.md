@@ -6,9 +6,9 @@ Run metadata: date=2026-10-09, agent_model=gemini-3.5-flash-lite, judge_model=ge
 
 | Configuration | graded | accuracy | answered | acc. when answered | numeric | text | citation precision | abstention P / R | requests/q | tokens/q | latency p50 / p95 |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| Single prompt, vector RAG only (baseline) | 70/70 | 44.3% | 50.0% | 80.0% | 43.5% | 44.7% | 47.8% (67) | 91.4% / 82.1% | 1.0 | 2,702 | 1.3 s / 11.6 s |
+| Single prompt, vector RAG only (baseline) | 70/70 | 44.3% | 50.0% | 80.0% | 43.5% | 44.7% | 59.7% (67) | 91.4% / 82.1% | 1.0 | 2,702 | 1.3 s / 11.6 s |
 | Agent + hybrid RAG | 0/70 | - | - | - | - | - | - (0) | - / - | - | - | - s / - s |
-| Agent + hybrid RAG + XBRL + calculator | 24/70 | 79.2% | 75.0% | 88.9% | - | 79.2% | 22.0% (82) | 50.0% / 60.0% | 6.9 | 34,350 | 16.5 s / 41.4 s |
+| Agent + hybrid RAG + XBRL + calculator | 24/70 | 79.2% | 75.0% | 88.9% | - | 79.2% | 79.3% (82) | 50.0% / 60.0% | 6.9 | 34,350 | 16.5 s / 41.4 s |
 
 ## xbrl_numeric
 

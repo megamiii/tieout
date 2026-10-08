@@ -10,7 +10,17 @@
   {
    "source_id": "ch_01fe8fea89768e09",
    "quote": "One customer accounted for approximately 18% of the total consolidated accounts receivable balance as of De…",
-   "supports": false
+   "values": [
+    "10",
+    "18",
+    "31",
+    "2022",
+    "20",
+    "15",
+    "25",
+    "2021",
+    "11"
+   ]
   }
  ],
  "review_reasons": [

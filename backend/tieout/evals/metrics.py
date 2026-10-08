@@ -17,6 +17,7 @@ from dataclasses import asdict, dataclass
 from pathlib import Path
 from typing import Any
 
+from tieout.evals.grading import citation_supports
 from tieout.evals.runner import EXPERIMENTS, load_result
 from tieout.evals.sets import EvalItem
 
@@ -68,7 +69,7 @@ def compute(experiment: str, eval_set: str, items: list[EvalItem]) -> Metrics:
         sub = [r["grade"]["correct"] for i, r in graded if i.answer_kind == kind]
         return _ratio(sum(sub), len(sub))
 
-    cits = [c for _, r in graded for c in r.get("citations", [])]
+    cits = [citation_supports(i, c) for i, r in graded for c in r.get("citations", [])]
     live = [r for _, r in done if not r.get("error") and r.get("latency_ms") is not None]
     usage_rows = [r for _, r in done if not r.get("error")]
     n_eval = len(graded) + errors
@@ -82,7 +83,7 @@ def compute(experiment: str, eval_set: str, items: list[EvalItem]) -> Metrics:
         accuracy_answered=_ratio(sum(r["grade"]["correct"] for _, r in answered), len(answered)),
         numeric_accuracy=acc("numeric"),
         text_accuracy=acc("text"),
-        citation_precision=_ratio(sum(1 for c in cits if c.get("supports")), len(cits)),
+        citation_precision=_ratio(sum(cits), len(cits)),
         citations=len(cits),
         abstention_precision=_ratio(
             sum(1 for _, r in review if not r["grade"]["correct"]), len(review)

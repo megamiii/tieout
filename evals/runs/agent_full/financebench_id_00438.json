@@ -15,7 +15,9 @@
    "concept": "OperatingIncomeLoss",
    "fiscal_year": 2020,
    "restated": [],
-   "supports": false
+   "values": [
+    "4237000000"
+   ]
   },
   {
    "source_id": "xf_290c0e80639e9932",
@@ -25,7 +27,9 @@
    "concept": "Revenues",
    "fiscal_year": 2020,
    "restated": [],
-   "supports": false
+   "values": [
+    "12868000000"
+   ]
   },
   {
    "source_id": "xf_2963cba112394e52",
@@ -35,7 +39,9 @@
    "concept": "OperatingIncomeLoss",
    "fiscal_year": 2021,
    "restated": [],
-   "supports": false
+   "values": [
+    "5802000000"
+   ]
   },
   {
    "source_id": "xf_9ed375e4bd56aa99",
@@ -45,7 +51,9 @@
    "concept": "Revenues",
    "fiscal_year": 2021,
    "restated": [],
-   "supports": false
+   "values": [
+    "15785000000"
+   ]
   },
   {
    "source_id": "xf_a5192497ce542683",
@@ -55,7 +63,9 @@
    "concept": "OperatingIncomeLoss",
    "fiscal_year": 2022,
    "restated": [],
-   "supports": false
+   "values": [
+    "6098000000"
+   ]
   },
   {
    "source_id": "xf_b85532cd36aa2586",
@@ -65,7 +75,9 @@
    "concept": "Revenues",
    "fiscal_year": 2022,
    "restated": [],
-   "supports": false
+   "values": [
+    "17606000000"
+   ]
   }
  ],
  "review_reasons": [],

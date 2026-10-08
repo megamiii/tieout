@@ -22,7 +22,7 @@ from tieout.agent.loop import FinalAnswer
 from tieout.agent.validation import EvidenceLedger
 from tieout.config import REPO_ROOT, Settings
 from tieout.evals.baseline import run_baseline
-from tieout.evals.grading import ChatModel, citation_supports, grade
+from tieout.evals.grading import ChatModel, grade
 from tieout.evals.sets import EvalItem
 from tieout.financebench.selection import CompanyConfig
 from tieout.llm.client import LLMClient, configured_limits, make_llm_client, quota_timezone
@@ -98,7 +98,9 @@ def _record(
     citations = []
     for c in final.citations:
         ev = ledger.sources.get(c["source_id"])
-        citations.append({**c, "supports": citation_supports(item, c, ev)})
+        # Store what the cited source states; whether it supports the answer is
+        # computed at report time, so the rule can change without re-running.
+        citations.append({**c, "values": [str(v) for v in ev.values] if ev else []})
     live = [r for r in responses if not r.cached]
     return {
         "item_id": item.id,

@@ -19,6 +19,7 @@ from typing import Literal
 from pydantic import BaseModel, Field
 from sqlalchemy.orm import Session
 
+from tieout.agent.validation import figures_in_answer
 from tieout.edgar.facts_query import annual_values, fiscal_year_ends
 from tieout.financebench.dataset import Document, Question
 from tieout.financebench.selection import CompanyConfig
@@ -40,6 +41,9 @@ class EvalItem(BaseModel):
     justification: str | None = None
     gold_pages: list[int] = Field(default_factory=list)  # 1-based PDF pages
     gold_fact_ids: list[str] = Field(default_factory=list)
+    # Figures in FinanceBench's gold evidence passages (no years or small counts),
+    # used to judge whether a citation points at the same facts as the evidence.
+    gold_evidence_values: list[Decimal] = Field(default_factory=list)
     question_type: str = ""
 
 
@@ -87,6 +91,9 @@ def build_financebench_set(
                 justification=q.justification,
                 gold_pages=sorted(
                     {e.evidence_page_num + 1 for e in q.evidence if e.doc_name == q.doc_name}
+                ),
+                gold_evidence_values=sorted(
+                    {abs(v) for e in q.evidence for _, v in figures_in_answer(e.evidence_text)}
                 ),
                 question_type=q.question_type,
             )

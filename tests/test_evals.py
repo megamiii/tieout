@@ -110,16 +110,42 @@ def test_no_answer_is_incorrect_without_calling_judge() -> None:
 
 
 def test_citation_support_rules() -> None:
-    it = item(gold_fact_ids=["xf_aaaaaaaaaaaaaaaa"])
-    on_gold_page = Evidence("ch_1", "chunk", "x", [], {"page": 60, "fiscal_year": 2018})
-    other_page = Evidence("ch_2", "chunk", "x", [Decimal(5)], {"page": 12, "fiscal_year": 2018})
-    has_value = Evidence("ch_3", "chunk", "(1,577)", [Decimal(1577)], {"page": 47})
-    fact = Evidence("xf_bbbbbbbbbbbbbbbb", "fact", "", [Decimal(1577000000)])
-    assert citation_supports(it, {"source_id": "ch_1"}, on_gold_page)
-    assert not citation_supports(it, {"source_id": "ch_2"}, other_page)
-    assert citation_supports(it, {"source_id": "ch_3"}, has_value)
-    assert citation_supports(it, {"source_id": "xf_bbbbbbbbbbbbbbbb"}, fact)
-    assert citation_supports(it, {"source_id": "xf_aaaaaaaaaaaaaaaa"}, None)  # gold fact id
+    it = item(
+        gold_fact_ids=["xf_aaaaaaaaaaaaaaaa"],
+        answer_kind="text",
+        gold_value=None,
+        gold_evidence_values=[Decimal(7453), Decimal(5175)],
+    )
+    on_gold_page = {"source_id": "ch_1", "kind": "chunk", "page": 60, "fiscal_year": 2018}
+    wrong_filing = {"source_id": "ch_1", "kind": "chunk", "page": 60, "fiscal_year": 2022}
+    other_page = {"source_id": "ch_2", "kind": "chunk", "page": 12, "quote": "5 segments in 2018"}
+    # A fact can't be "on a page"; it supports if it states a gold-evidence figure.
+    fact = {"source_id": "xf_bbbbbbbbbbbbbbbb", "kind": "fact", "values": ["7453000000"]}
+    unrelated_fact = {"source_id": "xf_cccccccccccccccc", "kind": "fact", "values": ["999"]}
+    assert citation_supports(it, on_gold_page)
+    assert not citation_supports(it, wrong_filing)
+    assert not citation_supports(it, other_page)
+    assert citation_supports(it, fact)
+    assert not citation_supports(it, unrelated_fact)
+    assert citation_supports(it, {"source_id": "xf_aaaaaaaaaaaaaaaa"})  # gold fact id
+    numeric = item()  # gold value 1577 (USD millions)
+    assert citation_supports(numeric, {"source_id": "ch_3", "kind": "chunk", "quote": "(1,577)"})
+
+
+def test_citation_support_ignores_coincidental_figures() -> None:
+    it = item(
+        answer_kind="text",
+        gold_value=None,
+        gold_evidence_values=[Decimal(31), Decimal(2019), Decimal(9912)],
+    )
+    small = {"source_id": "ch_1", "kind": "chunk", "page": 5, "quote": "31 aircraft"}
+    year = {"source_id": "ch_2", "kind": "chunk", "page": 5, "quote": "in 2019"}
+    near_miss = {"source_id": "xf_dddddddddddddddd", "kind": "fact", "values": ["9961000000"]}
+    exact = {"source_id": "xf_eeeeeeeeeeeeeeee", "kind": "fact", "values": ["9912000000"]}
+    assert not citation_supports(it, small)  # figures under 100 match by coincidence
+    assert not citation_supports(it, year)
+    assert not citation_supports(it, near_miss)  # 0.5% off is a different number
+    assert citation_supports(it, exact)
 
 
 def company(ticker: str, name: str, years: list[int]) -> CompanyConfig:
@@ -242,7 +268,10 @@ def test_metrics_from_results(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -
                 "prompt_tokens": 900,
                 "completion_tokens": 100,
                 "latency_ms": latency,
-                "citations": [{"supports": s} for s in supports],
+                "citations": [
+                    {"source_id": f"ch_{n}", "kind": "chunk", "quote": "1,577" if s else "1"}
+                    for n, s in enumerate(supports)
+                ],
                 "grade": {"correct": correct},
             },
         )

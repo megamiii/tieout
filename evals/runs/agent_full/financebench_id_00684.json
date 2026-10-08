@@ -15,7 +15,47 @@
    "fiscal_year": 2023,
    "section": "Item 7",
    "page": 33,
-   "supports": false
+   "values": [
+    "2023",
+    "91",
+    "3",
+    "1",
+    "4",
+    "24",
+    "8",
+    "2023",
+    "2022",
+    "2",
+    "2023",
+    "22",
+    "8",
+    "20",
+    "12",
+    "11",
+    "5",
+    "2023",
+    "2022",
+    "2725",
+    "2820",
+    "18.5",
+    "19.4",
+    "95",
+    "3",
+    "2023",
+    "2022",
+    "78",
+    "73",
+    "2023",
+    "56",
+    "18.5",
+    "2023",
+    "2023",
+    "2022",
+    "1246",
+    "1284",
+    "8.5",
+    "8.8"
+   ]
   },
   {
    "source_id": "xf_9af1303a4f0ad4bc",
@@ -25,7 +65,9 @@
    "concept": "GrossProfit",
    "fiscal_year": 2021,
    "restated": [],
-   "supports": false
+   "values": [
+    "2732000000"
+   ]
   },
   {
    "source_id": "xf_d3c009a7bec5f5fd",
@@ -35,7 +77,9 @@
    "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
    "fiscal_year": 2021,
    "restated": [],
-   "supports": false
+   "values": [
+    "12861000000"
+   ]
   },
   {
    "source_id": "xf_34da8bd1f1abfc5f",
@@ -45,7 +89,9 @@
    "concept": "GrossProfit",
    "fiscal_year": 2022,
    "restated": [],
-   "supports": false
+   "values": [
+    "2820000000"
+   ]
   },
   {
    "source_id": "xf_8903905de1c53df6",
@@ -55,7 +101,9 @@
    "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
    "fiscal_year": 2022,
    "restated": [],
-   "supports": false
+   "values": [
+    "14544000000"
+   ]
   },
   {
    "source_id": "xf_6d605e633bbde2ee",
@@ -65,7 +113,9 @@
    "concept": "GrossProfit",
    "fiscal_year": 2023,
    "restated": [],
-   "supports": false
+   "values": [
+    "2725000000"
+   ]
   },
   {
    "source_id": "xf_c1d4edc172663062",
@@ -75,7 +125,9 @@
    "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
    "fiscal_year": 2023,
    "restated": [],
-   "supports": false
+   "values": [
+    "14694000000"
+   ]
   }
  ],
  "review_reasons": [],

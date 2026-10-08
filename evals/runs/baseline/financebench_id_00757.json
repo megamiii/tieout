@@ -15,7 +15,17 @@
    "fiscal_year": 2022,
    "section": "Item 8",
    "page": 80,
-   "supports": false
+   "values": [
+    "10",
+    "18",
+    "31",
+    "2022",
+    "20",
+    "15",
+    "25",
+    "2021",
+    "11"
+   ]
   }
  ],
  "review_reasons": [],

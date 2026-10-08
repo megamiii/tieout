@@ -81,7 +81,12 @@ def parse_response(
     choice = raw["choices"][0]
     msg = choice["message"]
     calls = [
-        ToolCall(id=tc["id"], name=tc["function"]["name"], arguments=tc["function"]["arguments"])
+        ToolCall(
+            id=tc["id"],
+            name=tc["function"]["name"],
+            arguments=tc["function"]["arguments"],
+            extra={k: v for k, v in tc.items() if k not in ("id", "type", "function")},
+        )
         for tc in (msg.get("tool_calls") or [])
     ]
     usage = raw.get("usage") or {}

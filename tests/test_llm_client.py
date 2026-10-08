@@ -217,3 +217,19 @@ def test_gemini_preset_requires_its_key() -> None:
         make_llm_client(settings)
     client = make_llm_client(settings, offline=True)  # replay needs no key
     assert client.base_url == "https://generativelanguage.googleapis.com/v1beta/openai"
+
+
+def test_provider_extras_on_tool_calls_are_echoed_back(tmp_path: Path) -> None:
+    signature = {"google": {"thought_signature": "c2lnbmF0dXJl"}}
+    tool_call = {
+        "id": "call_1",
+        "type": "function",
+        "function": {"name": "search_filings", "arguments": "{}"},
+        "extra_content": signature,
+    }
+    client = make_client(
+        tmp_path, lambda r: httpx.Response(200, json=completion("", tool_calls=[tool_call]))
+    )
+    msg = client.chat(MSGS).assistant_message()
+    assert msg["tool_calls"][0]["extra_content"] == signature
+    assert msg["tool_calls"][0]["function"]["name"] == "search_filings"

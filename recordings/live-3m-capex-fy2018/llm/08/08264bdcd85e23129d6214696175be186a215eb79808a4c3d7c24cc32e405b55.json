@@ -1,0 +1,339 @@
+{
+ "provider": "gemini",
+ "request": {
+  "model": "gemini-3.5-flash-lite",
+  "messages": [
+   {
+    "role": "system",
+    "content": "You are tieout, an assistant for audit-style questions about public companies' 10-K annual reports.\n\nSupported filings (ticker, company: fiscal years):\n- AMD, AMD: FY2015, FY2022\n- BA, Boeing: FY2018, FY2022\n- AXP, American Express: FY2022\n- PEP, PepsiCo: FY2021, FY2022\n- MMM, 3M: FY2018, FY2022\n- ADBE, Adobe: FY2015, FY2016, FY2017, FY2022\n- AMCR, Amcor: FY2020, FY2023\n- BBY, Best Buy: FY2017, FY2019, FY2023\n- VZ, Verizon: FY2021, FY2022\n- GLW, Corning: FY2020, FY2021, FY2022\n- CVS, CVS Health: FY2018, FY2022\n- GIS, General Mills: FY2019, FY2020, FY2022\n- NKE, Nike: FY2018, FY2019, FY2021, FY2023\n\nTools:\n- get_financial_facts: the company's reported XBRL figures. Use it first for any line item (revenue, capex, net income, assets, ...).\n- search_filings: find passages in the 10-K text. Use the filing's own words and filter by ticker and fiscal_year.\n- read_section: read a full page of a 10-K item, e.g. the whole table around a hit.\n- calculate: every computed number (differences, ratios, growth, sums). Never do arithmetic yourself.\n- submit_answer: your final answer. Always finish with it.\n\nRules:\n- Use only evidence from the tools, never memory.\n- Every number in your answer must appear in a cited source or a calculate result. You may round it and change its scale (1577000000 -> $1,577 million).\n- Cite each source you rely on with its chunk_id or fact_id and a short exact quote from it (for a fact, its value).\n- confidence is your probability that the answer is correct. If the evidence is missing, ambiguous or conflicting, say so in the answer, set needs_review to true and explain in review_reason. A flagged answer is better than a wrong one.\n- Be concise: state the figure with units and fiscal year, then one or two sentences of context.\n"
+   },
+   {
+    "role": "user",
+    "content": "What was 3M's FY2018 capital expenditure in USD millions?"
+   },
+   {
+    "role": "assistant",
+    "content": "",
+    "tool_calls": [
+     {
+      "extra_content": {
+       "google": {
+        "thought_signature": "EmAKXgFpFH0TekX0qmrAL9sOdBD7jpirqjhRVabjPkiFPdeCdS3//1Z6bLwJGTS4mYkGgOwqBX46eIOsDJk6zHOTZSnKDcR4sfgWQHEaC3ssE1FVcS9rh4whIEiEmKyfKag="
+       }
+      },
+      "id": "call_689344",
+      "type": "function",
+      "function": {
+       "name": "get_financial_facts",
+       "arguments": "{\"query\":\"capital expenditure\",\"ticker\":\"MMM\",\"fiscal_years\":[2018]}"
+      }
+     }
+    ]
+   },
+   {
+    "role": "tool",
+    "tool_call_id": "call_689344",
+    "content": "{\"ticker\": \"MMM\", \"concepts\": [{\"concept\": \"PaymentsToAcquirePropertyPlantAndEquipment\", \"label\": \"Payments to Acquire Property, Plant, and Equipment\", \"unit\": \"USD\", \"values\": [{\"fiscal_year\": 2018, \"period\": \"2018-01-01..2018-12-31\", \"value\": \"1577000000\", \"fact_id\": \"xf_77403cb0139a90aa\", \"reported_in_10k_filed\": \"2019-02-07\"}]}, {\"concept\": \"AdditionalPaidInCapitalCommonStock\", \"label\": \"Additional Paid in Capital, Common Stock\", \"unit\": \"USD\", \"values\": [{\"fiscal_year\": 2018, \"period\": \"as of 2018-12-31\", \"value\": \"5643000000\", \"fact_id\": \"xf_66fe673cea6047c9\", \"reported_in_10k_filed\": \"2019-02-07\"}]}]}"
+   }
+  ],
+  "temperature": 0.0,
+  "max_tokens": 1024,
+  "tools": [
+   {
+    "type": "function",
+    "function": {
+     "name": "search_filings",
+     "description": "Search the text of supported 10-K filings. Returns passages with a chunk_id, company, fiscal year, 10-K item and page. Filter by ticker and fiscal_year whenever the question names them.",
+     "parameters": {
+      "properties": {
+       "query": {
+        "description": "What to look for, in the filing's own words.",
+        "minLength": 2,
+        "type": "string"
+       },
+       "ticker": {
+        "anyOf": [
+         {
+          "type": "string"
+         },
+         {
+          "type": "null"
+         }
+        ],
+        "default": null,
+        "description": "Company ticker, e.g. 'MMM'."
+       },
+       "fiscal_year": {
+        "anyOf": [
+         {
+          "type": "integer"
+         },
+         {
+          "type": "null"
+         }
+        ],
+        "default": null,
+        "description": "Fiscal year of the 10-K."
+       },
+       "section": {
+        "anyOf": [
+         {
+          "type": "string"
+         },
+         {
+          "type": "null"
+         }
+        ],
+        "default": null,
+        "description": "10-K item: '1' business, '1A' risk factors, '7' MD&A, '7A' market risk, '8' financial statements."
+       },
+       "k": {
+        "default": 5,
+        "description": "Number of passages to return.",
+        "maximum": 10,
+        "minimum": 1,
+        "type": "integer"
+       }
+      },
+      "required": [
+       "query"
+      ],
+      "type": "object"
+     }
+    }
+   },
+   {
+    "type": "function",
+    "function": {
+     "name": "read_section",
+     "description": "Read one page of a 10-K item in full (e.g. the whole cash flow statement around a search hit). Returns the page's passages with chunk_ids, and the item's page range.",
+     "parameters": {
+      "properties": {
+       "ticker": {
+        "type": "string"
+       },
+       "fiscal_year": {
+        "type": "integer"
+       },
+       "item": {
+        "description": "10-K item, e.g. '7' (MD&A), '8' (financial statements), '1A'.",
+        "type": "string"
+       },
+       "page": {
+        "anyOf": [
+         {
+          "type": "integer"
+         },
+         {
+          "type": "null"
+         }
+        ],
+        "default": null,
+        "description": "Page to read within the item; default: its first page."
+       }
+      },
+      "required": [
+       "ticker",
+       "fiscal_year",
+       "item"
+      ],
+      "type": "object"
+     }
+    }
+   },
+   {
+    "type": "function",
+    "function": {
+     "name": "get_financial_facts",
+     "description": "Structured financial data (XBRL) that the company reported to the SEC in its 10-Ks. Returns annual values as originally reported, each with a fact_id to cite, for the best-matching concepts. Use it for any line-item figure.",
+     "parameters": {
+      "properties": {
+       "ticker": {
+        "type": "string"
+       },
+       "query": {
+        "anyOf": [
+         {
+          "type": "string"
+         },
+         {
+          "type": "null"
+         }
+        ],
+        "default": null,
+        "description": "Line item in plain words, e.g. 'capital expenditure', 'total revenue'."
+       },
+       "concept": {
+        "anyOf": [
+         {
+          "type": "string"
+         },
+         {
+          "type": "null"
+         }
+        ],
+        "default": null,
+        "description": "Exact US-GAAP concept name, if known (overrides query)."
+       },
+       "fiscal_years": {
+        "anyOf": [
+         {
+          "items": {
+           "type": "integer"
+          },
+          "maxItems": 5,
+          "type": "array"
+         },
+         {
+          "type": "null"
+         }
+        ],
+        "default": null,
+        "description": "Fiscal years; default: the latest 3."
+       }
+      },
+      "required": [
+       "ticker"
+      ],
+      "type": "object"
+     }
+    }
+   },
+   {
+    "type": "function",
+    "function": {
+     "name": "calculate",
+     "description": "Evaluate an arithmetic expression exactly. Use it for every computed number (differences, ratios, growth rates, sums); never do arithmetic yourself.",
+     "parameters": {
+      "properties": {
+       "expression": {
+        "description": "Arithmetic only, e.g. '(1577 - 1373) / 1373 * 100'. Functions: abs, round, min, max.",
+        "type": "string"
+       }
+      },
+      "required": [
+       "expression"
+      ],
+      "type": "object"
+     }
+    }
+   },
+   {
+    "type": "function",
+    "function": {
+     "name": "submit_answer",
+     "description": "Submit the final answer. Every citation needs a source_id returned by a tool and a quote that appears in it. Numbers in the answer must come from cited sources or calculate results. Set needs_review when evidence is missing or conflicting.",
+     "parameters": {
+      "$defs": {
+       "Citation": {
+        "properties": {
+         "source_id": {
+          "description": "A chunk_id (ch_...) or XBRL fact_id (xf_...) returned by a tool.",
+          "pattern": "^(ch|xf)_[0-9a-f]{16}$",
+          "type": "string"
+         },
+         "quote": {
+          "description": "Exact text (or the number) from that source that supports the answer.",
+          "maxLength": 300,
+          "minLength": 1,
+          "type": "string"
+         }
+        },
+        "required": [
+         "source_id",
+         "quote"
+        ],
+        "type": "object"
+       }
+      },
+      "properties": {
+       "answer": {
+        "description": "The final answer.",
+        "maxLength": 2000,
+        "minLength": 1,
+        "type": "string"
+       },
+       "confidence": {
+        "description": "Probability the answer is correct.",
+        "maximum": 1,
+        "minimum": 0,
+        "type": "number"
+       },
+       "rationale": {
+        "description": "How the sources support the answer.",
+        "maxLength": 2000,
+        "type": "string"
+       },
+       "citations": {
+        "items": {
+         "$ref": "#/$defs/Citation"
+        },
+        "maxItems": 10,
+        "type": "array"
+       },
+       "needs_review": {
+        "default": false,
+        "description": "True if evidence is missing, ambiguous or conflicting.",
+        "type": "boolean"
+       },
+       "review_reason": {
+        "anyOf": [
+         {
+          "maxLength": 500,
+          "type": "string"
+         },
+         {
+          "type": "null"
+         }
+        ],
+        "default": null
+       }
+      },
+      "required": [
+       "answer",
+       "confidence",
+       "rationale"
+      ],
+      "type": "object"
+     }
+    }
+   }
+  ],
+  "tool_choice": "auto"
+ },
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T84J5kccEfn8Y1YNevqsTyua2X9WKtPpLwZ2gbBDCD0cfiodVhYuR49Tf03mxzcYzun3LzmQtnn5Pi3fdxhUCnm+Dvnz8d3qsB7f78vKwpAiN29/+eHwgZGw="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"capital expenditures\",\"fiscal_year\":2018,\"ticker\":\"MMM\"}",
+        "name": "search_filings"
+       },
+       "id": "call_858747",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791491798,
+  "id": "1f7Haua9LsmHxs0PlMSq6A0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 33,
+   "prompt_tokens": 2119,
+   "total_tokens": 2152
+  }
+ }
+}

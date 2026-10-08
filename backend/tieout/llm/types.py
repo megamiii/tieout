@@ -13,6 +13,9 @@ class ToolCall:
     id: str
     name: str
     arguments: str  # raw JSON string, exactly as the model produced it
+    # Provider-specific fields, echoed back verbatim in the next request. Gemini
+    # requires its `extra_content.google.thought_signature` to be returned.
+    extra: dict[str, Any] = field(default_factory=dict)
 
 
 @dataclass(frozen=True)
@@ -50,6 +53,7 @@ class ChatResponse:
         if self.tool_calls:
             msg["tool_calls"] = [
                 {
+                    **tc.extra,
                     "id": tc.id,
                     "type": "function",
                     "function": {"name": tc.name, "arguments": tc.arguments},

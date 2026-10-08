@@ -1,0 +1,32 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "ADBE",
+  "fiscal_year": 2022,
+  "item": "7",
+  "page": 41
+ },
+ "output": {
+  "ticker": "ADBE",
+  "fiscal_year": 2022,
+  "item": "7",
+  "title": "Management's Discussion and Analysis",
+  "page": 41,
+  "item_pages": [
+   36,
+   49
+  ],
+  "chunks": [
+   {
+    "chunk_id": "ch_64163ccdc383b22f",
+    "page": 41,
+    "text": "We have the following reportable segments: Digital Media, Digital Experience, and Publishing and Advertising. Subscription revenue by reportable segment for fiscal 2022, 2021 and 2020 is as follows: (dollars in millions) 2022 2021 2020 % Change 2022-2021 Digital Media $ 12,385 $ 11,048 $ 8,813 12 % Digital Experience 3,880 3,379 2,660 15 % Publishing and Advertising 123 146 153 (16) % Total subscription revenue $ 16,388 $ 14,573 $ 11,626 12 % Product Our product revenue is comprised primarily of fees related to licenses for on-premise software purchased on a perpetual basis, for a fixed period of time or based on usage for certain of our OEM and royalty agreements. We primarily recognize product revenue at the point in time the software is available to the customer, provided all other revenue recognition criteria are met. Services and Other Our services and other revenue is comprised primarily of fees related to consulting, training, maintenance and support for certain on-premise licenses that are recognized at a point in time and our advertising offerings. We typically sell our consulting contracts on a time-and-materials or fixed-fee basis. These revenues are recognized as the services are performed for time-and- materials contracts and on a relative performance basis for fixed-fee contracts. Training revenues are recognized as the services are performed. Our maintenance and support offerings, which entitle customers, partners and developers to receive desktop product upgrades and enhancements or technical support, depending on the offering, are generally recognized ratably over the term of the arrangement. Transaction-based advertising revenue is recognized on a usage basis as we satisfy the performance obligations to our customers. Segments In fiscal 2022, we categorized our products into the following reportable segments: • Digital Media—Our Digital Media segment provides products, services and solutions that enable individuals, teams and enterprises to create, publish and promote their content anywhere and accelerate their productivity by"
+   },
+   {
+    "chunk_id": "ch_149e92b4b255b051",
+    "page": 41,
+    "text": "In fiscal 2022, we categorized our products into the following reportable segments: • Digital Media—Our Digital Media segment provides products, services and solutions that enable individuals, teams and enterprises to create, publish and promote their content anywhere and accelerate their productivity by modernizing how they view, share, engage with and collaborate on documents and creative content. Our customers include creative professionals, including photographers, video editors, graphic and experience designers and game developers, communicators, including content creators, students, marketers and knowledge workers, and consumers. • Digital Experience—Our Digital Experience segment provides an integrated platform and set of applications and services that enable brands and businesses to create, manage, execute, measure, monetize and optimize customer experiences that span from analytics to commerce. Our customers include marketers, advertisers, agencies, publishers, merchandisers, merchants, web analysts, data scientists, developers and executives across the C-suite. • Publishing and Advertising—Our Publishing and Advertising segment contains legacy products and services that address diverse market opportunities, including eLearning solutions, technical document publishing, web conferencing, document and forms platform, web application development, high-end printing and our Adobe Advertising Cloud offerings. Segment Information (dollars in millions) 2022 2021 2020 % Change 2022-2021 Digital Media $ 12,842 $ 11,520 $ 9,233 11 % Percentage of total revenue 73 % 73 % 72 % Digital Experience 4,422 3,867 3,125 14 % Percentage of total revenue 25 % 24 % 24 % Publishing and Advertising 342 398 510 (14) % Percentage of total revenue 2 % 3 % 4 % Total revenue $ 17,606 $ 15,785 $ 12,868 12 % Table of Contents 41"
+   }
+  ]
+ }
+}

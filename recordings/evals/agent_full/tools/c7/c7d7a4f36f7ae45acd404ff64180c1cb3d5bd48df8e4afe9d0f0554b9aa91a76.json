@@ -1,0 +1,17 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "VZ",
+  "query": "long-term debt",
+  "concept": null,
+  "fiscal_years": [
+   2021,
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "VZ",
+  "concepts": [],
+  "note": "no annual values found"
+ }
+}

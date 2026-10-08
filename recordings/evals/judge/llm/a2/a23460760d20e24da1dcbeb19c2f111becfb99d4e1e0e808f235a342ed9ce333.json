@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer incorrectly states that the information is unavailable, whereas the gold answer provides a clear calculation showing an improvement in FCF conversion.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0Taldk5FMxoF4+0tT64RxBtwVTxPIlNcnn5XvUBnlA75IoosMy8jgKQGrE56CsVSdQxdz4/kB8qqB5pRVh4YWIsxa/9mXI0uc3sZpKRSKj8z/poLwSLrK3JQ+IzokOUklOLc9oFr9ragC5TcTX"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493039,
+  "id": "owPIatiLEtH4nsEPt9TM8Ac",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 259,
+   "total_tokens": 297
+  }
+ }
+}

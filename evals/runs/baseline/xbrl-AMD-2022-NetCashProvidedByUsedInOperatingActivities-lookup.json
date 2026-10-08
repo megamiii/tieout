@@ -1,0 +1,36 @@
+{
+ "item_id": "xbrl-AMD-2022-NetCashProvidedByUsedInOperatingActivities-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "$3,565 million",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_d47a8b02d8d2e8ce",
+   "quote": "Operating activities $ 3,565",
+   "kind": "chunk",
+   "ticker": "AMD",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 51,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2615,
+ "completion_tokens": 79,
+ "latency_ms": 977.6,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$3,565 matches 3565 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

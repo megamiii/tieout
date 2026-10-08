@@ -1,0 +1,27 @@
+{
+ "item_id": "financebench_id_04481",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "needs_review",
+ "answer": "Based on the provided passages, the D&A and unadjusted operating income required to calculate the FY2022 unadjusted EBITDA and EBITDA % margin for PepsiCo are not contained in the text.",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [],
+ "review_reasons": [
+  "model flagged for review"
+ ],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2132,
+ "completion_tokens": 75,
+ "latency_ms": 1221.1,
+ "grade": {
+  "correct": false,
+  "method": "numeric",
+  "detail": "no figure in the answer matches the gold value",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

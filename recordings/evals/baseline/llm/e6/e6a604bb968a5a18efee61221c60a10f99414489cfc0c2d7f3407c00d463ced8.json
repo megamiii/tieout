@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the exact capital expenditure (purchases of property, plant and equipment) for Adobe in fiscal year 2016 is not explicitly stated with a specific numerical dollar amount.\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TDGMi8O2X0bencCoEMSxOnl1ktSGqb0CFdGCAz5CtggC+1grNZKrPkJJh1WK6OWOh0FU5yte0UcZSyh4bH0GPUOSoM3lpa3hbEUjCzEnNOBsVM40/xmSTvLo="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492395,
+  "id": "IQHIauGtC76e28oP0-bPgA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 75,
+   "prompt_tokens": 3673,
+   "total_tokens": 3748
+  }
+ }
+}

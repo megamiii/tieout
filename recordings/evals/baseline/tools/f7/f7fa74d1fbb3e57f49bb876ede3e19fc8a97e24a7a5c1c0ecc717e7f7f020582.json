@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What was Verizon's net income in fiscal year 2022? Answer in USD millions.",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5fe0ae06d8a5c498",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 27,
+    "text": "(dollars in millions) Years Ended December 31, 2022 2021 Consolidated Net Income $ 21,748 $ 22,618 Add: Provision for income taxes 6,523 6,802 Interest expense 3,613 3,485 Depreciation and amortization expense (1) 17,099 16,206 Consolidated EBITDA $ 48,983 $ 49,111 Add (Less): Other (income) expense, net (2) (3) $ (1,373) $ (312) Equity in earnings of unconsolidated businesses (4) (44) (145) Severance charges 304 209 Loss on spectrum licenses — 223 Net gain from sale of Media — (706) Consolidated Adjusted EBITDA $ 47,870 $ 48,380 (1) Includes Amortization of acquisition-related intangible assets, which were $826 million and $594 million during the years ended December 31, 2022 and 2021, respectively. See \"Special Items\" for additional information. (2) Includes Pension and benefits remeasurement credits of $1.7 billion and $2.4 billion during the years ended December 31, 2022 and 2021, respectively. See \"Special Items\" and \"Other Income (Expense), Net\" for additional information. (3) In…"
+   },
+   {
+    "chunk_id": "ch_e128c9d3d7199637",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 54,
+    "text": "Consolidated Statements of Income Verizon Communications Inc. and Subsidiaries (dollars in millions, except per share amounts) Years Ended December 31, 2022 2021 2020 Operating Revenues Service revenues and other $ 109,625 $ 110,449 $ 109,872 Wireless equipment revenues 27,210 23,164 18,420 Total Operating Revenues 136,835 133,613 128,292 Operating Expenses Cost of services (exclusive of items shown below) 28,637 31,234 31,401 Cost of wireless equipment 30,496 25,067 19,800 Selling, general and administrative expense 30,136 28,658 31,573 Depreciation and amortization expense 17,099 16,206 16,720 Total Operating Expenses 106,368 101,165 99,494 Operating Income 30,467 32,448 28,798 Equity in earnings (losses) of unconsolidated businesses 44 145 (45) Other income (expense), net 1,373 312 (539) Interest expense (3,613) (3,485) (4,247) Income Before Provision For Income Taxes 28,271 29,420 23,967 Provision for income taxes (6,523) (6,802) (5,619) Net Income $ 21,748 $ 22,618 $ 18,348 Net in…"
+   },
+   {
+    "chunk_id": "ch_42b6c533c68a7967",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Consolidated Statements of Comprehensive Income Verizon Communications Inc. and Subsidiaries (dollars in millions) Years Ended December 31, 2022 2021 2020 Net Income $ 21,748 $ 22,618 $ 18,348 Other Comprehensive Loss, Net of Tax (Expense) Benefit Foreign currency translation adjustments, net of tax of $(13), $(17) and $19 (153) (141) 180 Unrealized gain (loss) on cash flow hedges, net of tax of $(111), $30 and $197 322 (85) (571) Unrealized loss on fair value hedges, net of tax of $148, $0 and $0 (431) — — Unrealized loss on marketable securities, net of tax of $8, $3 and $(2) (25) (9) (2) Defined benefit pension and postretirement plans, net of tax of $221, $205 and $221 (651) (621) (676) Other comprehensive loss attributable to Verizon (938) (856) (1,069) Total Comprehensive Income $ 20,810 $ 21,762 $ 17,279 Comprehensive income attributable to noncontrolling interests $ 492 $ 553 $ 547 Comprehensive income attributable to Verizon 20,318 21,209 16,732 Total Comprehensive Income $ 20…"
+   },
+   {
+    "chunk_id": "ch_a22d945fdd4b83bc",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 98,
+    "text": "series of legal entity restructurings. The increase in the provision for income taxes was primarily due to the increase in income before income taxes in 2021. The amounts of cash taxes paid by Verizon are as follows: (dollars in millions) Years Ended December 31, 2022 2021 2020 Income taxes, net of amounts refunded $ 2,736 $ 3,040 $ 2,725 Employment taxes 1,245 1,225 618 Property and other taxes 1,959 1,756 2,093 Total $ 5,940 $ 6,021 $ 5,436 Verizon 2022 Annual Report on Form 10-K 98"
+   },
+   {
+    "chunk_id": "ch_bbb26027fd2bdf0f",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 78,
+    "text": "(2) During 2022, we recorded net gains of $119 million in connection with the open market repurchases, which were reflected within Other income (expense), net in our consolidated statements of income. Issuances (dollars in millions) Principal Amount Issued Net Proceeds (1) Verizon 3.875% notes due 2052 (2) $ 1,000 $ 982 Verizon 4.100% notes due 2055 655 650 Verizon 4.250% notes due 2030 (3) € 1,250 1,227 Verizon 4.750% notes due 2034 (3) € 1,250 1,231 Total $ 4,090 (1) Net proceeds were net of underwriting discounts and other issuance costs. In addition, for securities denominated in a currency other than the U.S. dollar, net proceeds are shown on a U.S. dollar equivalent basis. (2) An amount equal to the net proceeds from this green bond is expected to be used to fund, in whole or in part, certain renewable energy projects, including new and existing investments made by us during the period from December 1, 2021 through the maturity date of the green bond. (3) See Note 9 for additiona…"
+   },
+   {
+    "chunk_id": "ch_e0eb0a10972af3b3",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 99,
+    "text": "2,812 $ 3,134 $ 2,944 Included in the total unrecognized tax benefits at December 31, 2022, 2021 and 2020 is $2.5 billion, $2.8 billion and $2.5 billion, respectively, that if recognized, would favorably affect the effective income tax rate. We recognized the following net after-tax expenses (benefit) related to interest and penalties in the provision for income taxes: Years Ended December 31, (dollars in millions) 2022 $ 35 2021 (21) 2020 5 99 Verizon 2022 Annual Report on Form 10-K"
+   },
+   {
+    "chunk_id": "ch_4bcc45c0a92264fd",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Consolidated Statements of Cash Flows Verizon Communications Inc. and Subsidiaries (dollars in millions) Years Ended December 31, 2022 2021 2020 Cash Flows from Operating Activities Net Income $ 21,748 $ 22,618 $ 18,348 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization expense 17,099 16,206 16,720 Employee retirement benefits (2,046) (3,391) 840 Deferred income taxes 2,973 4,264 1,553 Provision for expected credit losses 1,611 789 1,380 Equity in losses (earnings) of unconsolidated businesses, net of dividends received (10) 36 91 Changes in current assets and liabilities, net of effects from acquisition/disposition of businesses: Accounts receivable (1,978) (1,592) 189 Inventories 627 (905) (369) Prepaid expenses and other 928 150 1,202 Accounts payable and accrued liabilities and Other current liabilities (33) 1,457 (966) Other, net (3,778) (93) 2,780 Net cash provided by operating activities 37,141 39,539 41,768 Cash Flows…"
+   },
+   {
+    "chunk_id": "ch_c03d034733a0731a",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 69,
+    "text": "(dollars in millions) At December 31, 2022 At December 31, 2021 Assets Prepaid expenses and other $ 2,629 $ 2,432 Other assets 2,475 2,259 Total $ 5,104 $ 4,691 For both the years ended December 31, 2022 and 2021, we recognized expense of $3.0 billion associated with the amortization of deferred contract costs, primarily within Selling, general and administrative expense in our consolidated statements of income. We assess our deferred contract costs for impairment on a quarterly basis. We recognize an impairment charge to the extent the carrying amount of a deferred cost exceeds the remaining amount of consideration we expect to receive in exchange for the goods and services related to the cost, less the expected costs related directly to providing those goods and services that have 69 Verizon 2022 Annual Report on Form 10-K"
+   }
+  ]
+ }
+}

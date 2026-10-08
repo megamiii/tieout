@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What drove revenue change as of the FY22 for AMD?",
+  "ticker": "AMD",
+  "fiscal_year": null,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_9e053ef04c8a3860",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 47,
+    "text": "Stock-based compensation expense of $63 million in 2015 decreased by $18 million as compared to $81 million in 2014. The decrease was primarily due to a lower weighted average grant date fair value and the effect of the 2015 and 2014 Restructuring Plans. Stock-based compensation expense of $81 million in 2014 decreased by $10 million as compared to $91 million in 2013. The decrease was primarily due to lower expense related to stock options and restricted stock granted in connection with our SeaMicro acquisition as most awards became fully vested during 2014 and lower stock compensation expense as a result of our 2014 Restructuring Plan. As of December 26, 2015, we had $11 million of total unrecognized compensation expense, net of estimated forfeitures, related to stock options that will be recognized over a weighted-average period of 2.30 years. Also, as of December 26, 2015, we had $88 million of total unrecognized compensation expense, net of estimated forfeitures, related to restri…"
+   },
+   {
+    "chunk_id": "ch_53b0f94ed94174db",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 42,
+    "text": "revenue was partially offset by an increase in net revenue received in connection with higher unit shipments of our semi-custom SoC products. Enterprise, Embedded and Semi-Custom net revenue of $2.4 billion in 2014 increased by 51% compared to net revenue of $1.6 billion in 2013. The increase was primarily due to an increase in net revenue received in connection with higher unit shipments of our semi-custom SoC products, which we began shipping in the second quarter of 2013. Enterprise, Embedded and Semi-Custom operating income was $215 million in 2015 compared to $399 million in 2014. The decline in operating results was primarily due to the decrease in net revenue referenced above and a $16 million increase in research and development expenses, partially offset by a $19 million decrease in marketing, general and administrative expenses and a $2 million decrease in cost of sales. The decrease in cost of sales was primarily due to a decrease in unit shipments of our server and embedded…"
+   },
+   {
+    "chunk_id": "ch_946262407dce6c5b",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 65,
+    "text": "change is considered preferable based on the Company's facts and circumstances as it provides better and more timely information of expected future income tax liabilities arising from temporary tax differences primarily associated with the Xilinx acquisition. As a result of the acquisition, the Company recorded $27.3 billion of identified intangible assets (refer to Note 5 - Business Combinations), of which $16.9 billion are related to foreign operations which will be amortized to income from operations over the assets' estimated useful lives, but for which the Company will not receive a tax deduction under GILTI. This accounting policy change resulted in the recording of $857 million of deferred tax liabilities in connection with the Xilinx acquisition as disclosed in Note 14 - Income Taxes. In addition, for the year ended December 31, 2022, it resulted in a decrease in the income tax provision with a corresponding increase to net income of $296 million and an increase in basic and di…"
+   },
+   {
+    "chunk_id": "ch_c7f3648fd62e5a82",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 36,
+    "text": "game console royalties. Gross margin in 2014 included a $58 million lower of cost or market inventory adjustment, which accounted for one gross margin percentage point, and a $27 million benefit from technology licensing revenue, which accounted for less than one gross margin percentage point. Operating loss for 2015 was $481 million compared to an operating loss of $155 million in 2014. The decline in operating performance in 2015 compared to 2014 was primarily due to a decrease in net revenue and in gross margin as described above. Despite the challenging business environment, we made important changes to our business. During 2015, we continued to focus on introducing a more diverse product portfolio. As part of our long-term strategy to deliver great products, we introduced a number of new products in 2015 including, our 6 th Generation AMD A-Series mobile processors (formerly codenamed “Carrizo”) in a SoC design and introduced a desktop A-series processor, the AMD A10-7870K APU. We…"
+   },
+   {
+    "chunk_id": "ch_590937f92d4fbc50",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 42,
+    "text": "Operating loss in 2014 included a $19 million benefit from technology licensing revenue. Research and development expenses and marketing, general and administrative expenses decreased for the reasons set forth under “Expenses,” below. Computing and Graphics operating loss was $76 million in 2014 compared to an operating loss of $101 million in 2013. The improvement in operating results was primarily due to a $323 million decrease in cost of sales, a $201 million decrease in research and development expenses and an $89 million decrease in marketing, general and administrative expenses, partially offset by the decrease in net revenue referenced above. Cost of sales decreased primarily due to lower unit shipments in 2014 compared to 2013. Operating loss in 2014 included a $19 million benefit from technology licensing revenue. In addition, operating loss in 2013 included a $57 million benefit from sales of inventory that had been previously reserved in the third quarter of 2012, as compare…"
+   },
+   {
+    "chunk_id": "ch_a4680637b8cab0ba",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 84,
+    "text": "2015 2014 2013 (In millions) United States $ 984 $ 1,030 $ 801 Europe 168 325 460 China 1,145 2,324 2,519 Singapore 356 371 610 Japan 1,254 1,324 710 Other countries 84 132 199 Total sales to external customers $ 3,991 $ 5,506 $ 5,299 The Company had two customers that accounted for more than 10% of the Company's consolidated net revenue in 2015. The Company had three customers that accounted for more than 10% of the Company's consolidated net revenue in 2014 and 2013. Net sales to these customers were approximately 31% and 18% of consolidated net revenue in 2015, 23%, 13% and 13% of consolidated net revenue in 2014 and 17%, 11% and 10% of consolidated net revenue in 2013. The majority of the revenue from these customers was related to products from the Enterprise, Embedded and Semi-Custom segment. The following table summarizes long-lived assets by geographic areas: 2015 2014 (In millions) United States $ 123 $ 149 Malaysia 11 57 China 5 45 Singapore 25 17 Other countries 24 34 Total …"
+   },
+   {
+    "chunk_id": "ch_58ea377b420505c5",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 49,
+    "text": "up adjustment, and depreciation related to the Xilinx fixed assets fair value step-up adjustment, certain compensation charges related to the acquisitions of Xilinx and Pensando, and licensing gain. All Other operating loss of $409 million in 2021 primarily consisted of $379 million of stock-based compensation expense and $42 million of acquisition-related costs. Comparison of Gross Margin, Expenses, Licensing Gain, Interest Expense, Other Income (Expense) and Income Taxes The following is a summary of certain consolidated statement of operations data for 2022 and 2021: December 31, 2022 December 25, 2021 (In millions, except for percentages) Net revenue $ 23,601 $ 16,434 Cost of sales 11,550 8,505 Amortization of acquisition-related intangibles 1,448 — Gross profit 10,603 7,929 Gross margin 45 % 48 % Research and development 5,005 2,845 Marketing, general and administrative 2,336 1,448 Amortization of acquisition-related intangibles 2,100 — Licensing gain (102) (12) Interest expense (…"
+   },
+   {
+    "chunk_id": "ch_c75c8199fc337a2e",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 41,
+    "text": "not consider these expenses and credits in evaluating the performance of the reportable segments. Also included in this category are amortization of acquired intangible assets, employee stock-based compensation expense, restructuring and other special charges, net, technology node transition charge, workforce rebalancing severance charges, goodwill impairment charge, significant or unusual lower of cost or market inventory adjustments and a net gain from licenses and settlement agreements regarding patent- related matters. We also reported the results of former businesses in the All Other category because the operating results were not material. We intend the discussion of our financial condition and results of operations that follows to provide information that will assist you in understanding our financial statements, the changes in certain key items in those financial statements from year to year, the primary factors that resulted in those changes and how certain accounting principl…"
+   }
+  ]
+ }
+}

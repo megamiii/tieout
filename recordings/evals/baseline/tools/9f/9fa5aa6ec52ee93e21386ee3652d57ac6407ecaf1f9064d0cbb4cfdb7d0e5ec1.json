@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "By what percentage did CVS Health's total assets change from fiscal year 2021 to fiscal year 2022? Give the percentage rounded to one decimal place.",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_124d95c66d05f976",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 81,
+    "text": "Health Care Benefits Segment The following table summarizes the Health Care Benefits segment's performance for the respective periods: Change Year Ended December 31, 2022 vs. 2021 2021 vs. 2020 In millions, except percentages and basis points (“bps”) 2022 2021 2020 $ % $ % Revenues: Premiums $ 85,274 $ 76,064 $ 69,301 $ 9,210 12.1 % $ 6,763 9.8 % Services 5,659 5,536 5,683 123 2.2 % (147) (2.6)% Net investment income 476 586 483 (110) (18.8)% 103 21.3 % Total revenues 91,409 82,186 75,467 9,223 11.2 % 6,719 8.9 % Benefit costs 71,611 64,662 56,083 6,949 10.7 % 8,579 15.3 % MBR (Benefit costs as a % of premium revenues) 84.0 % 85.0 % 80.9% (100) bps 410 bps Loss on assets held for sale $ 41 $ — $ — $ 41 100.0 % $ — — % Operating expenses 14,639 14,003 14,218 636 4.5 % (215) (1.5)% Operating expenses as a % of total revenues 16.0 % 17.0 % 18.8 % Operating income $ 5,118 $ 3,521 $ 5,166 $ 1,597 45.4 % $ (1,645) (31.8)% Operating income as a % of total revenues 5.6 % 4.3 % 6.8 % Adjusted o…"
+   },
+   {
+    "chunk_id": "ch_63c1b33f8ed47ab7",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 75,
+    "text": "Results of Operations The following information summarizes the Company's results of operations for 2022 compared to 2021. For discussion of the Company's results of operations for 2021 compared to 2020, see “Management's Discussion and Analysis of Financial Condition and Results of Operations” included in the Company's Annual Report on Form 10-K for the fiscal year ended December 31, 2021 filed with the U.S. Securities and Exchange Commission (the “SEC”) on February 9, 2022. Summary of Consolidated Financial Results Change Year Ended December 31, 2022 vs. 2021 2021 vs. 2020 In millions 2022 2021 2020 $ % $ % Revenues: Products $ 226,616 $ 203,738 $ 190,688 $ 22,878 11.2 % $ 13,050 6.8 % Premiums 85,330 76,132 69,364 9,198 12.1 % 6,768 9.8 % Services 9,683 11,042 7,856 (1,359) (12.3)% 3,186 40.6 % Net investment income 838 1,199 798 (361) (30.1)% 401 50.3 % Total revenues 322,467 292,111 268,706 30,356 10.4 % 23,405 8.7 % Operating costs: Cost of products sold 196,892 175,803 163,981 21…"
+   },
+   {
+    "chunk_id": "ch_0fc913b892205687",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 137,
+    "text": "3. Investments Total investments at December 31, 2022 and 2021 were as follows: 2022 2021 In millions Current Long-term Total Current Long-term Total Debt securities available for sale $ 2,718 $ 17,562 $ 20,280 $ 3,009 $ 20,231 $ 23,240 Mortgage loans 55 989 1,044 58 844 902 Other investments 5 2,562 2,567 50 1,950 2,000 Total investments $ 2,778 $ 21,113 $ 23,891 $ 3,117 $ 23,025 $ 26,142 (1) Includes long-term investments of $17 million which have been accounted for as assets held for sale and are included in assets held for sale on the consolidated balance sheet at December 31, 2022. See Note 2 ‘‘Acquisitions, Divestitures and Asset Sales'' for additional information. At December 31, 2022 and 2021, the Company held investments of $331 million and $450 million, respectively, related to the 2012 conversion of an existing group annuity contract from a participating to a non-participating contract. These investments are included in the total investments of large case pensions supporting…"
+   },
+   {
+    "chunk_id": "ch_bb4ec090c7882ba0",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 163,
+    "text": "existing taxable temporary differences, projected future taxable income, tax planning strategies and the Company's recent operating results. The Company established valuation allowances of $532 million and $325 million as of December 31, 2022 and 2021, respectively, because it does not consider it more likely than not that certain deferred tax assets will be recovered. As of December 31, 2022, the Company had net operating and capital loss carryovers of $266 million, which expire between 2023 and 2042. A reconciliation of the beginning and ending balance of unrecognized tax benefits in 2022, 2021 and 2020 is as follows: In millions 2022 2021 2020 Beginning balance $ 782 $ 768 $ 655 Additions based on tax positions related to the current year 5 3 3 Additions based on tax positions related to prior years 42 52 182 Reductions for tax positions of prior years (166) (33) (56) Expiration of statutes of limitation (4) (1) (2) Settlements (213) (7) (14) Ending balance $ 446 $ 782 $ 768 CVS Hea…"
+   },
+   {
+    "chunk_id": "ch_7117b8f37173aff8",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 147,
+    "text": "Separate Accounts financial assets at December 31, 2022 and 2021 were as follows: December 31, 2022 December 31, 2021 In millions Level 1 Level 2 Level 3 Total Level 1 Level 2 Level 3 Total Cash and cash equivalents $ 2 $ 154 $ — $ 156 $ 2 $ 186 $ — $ 188 Debt securities 712 1,965 — 2,677 1,233 3,048 — 4,281 Equity securities — — — — — 1 — 1 Common/collective trusts — 480 — 480 — 547 — 547 Total $ 714 $ 2,599 $ — $ 3,313 $ 1,235 $ 3,782 $ — $ 5,017 (1) Excludes $85 million of other payables and $70 million of other receivables at December 31, 2022 and 2021, respectively. During the years ended December 31, 2022 and 2021, the Company had no gross transfers of Separate Accounts financial assets into or out of Level 3. 5. Goodwill and Other Intangibles Goodwill Below is a summary of the changes in the carrying amount of goodwill by segment for the years ended December 31, 2022 and 2021: In millions Health Care Benefits Pharmacy Services Retail/ LTC Total Balance at December 31, 2020 $ 45,…"
+   },
+   {
+    "chunk_id": "ch_1c7af47753f1b44c",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 88,
+    "text": "Corporate/Other Segment The following table summarizes the Corporate/Other segment's performance for the respective periods: Change Year Ended December 31, 2022 vs. 2021 2021 vs. 2020 In millions, except percentages 2022 2021 2020 $ % $ % Revenues: Premiums $ 56 $ 68 $ 63 $ (12) (17.6)% $ 5 7.9 % Services 68 57 48 11 19.3 % 9 18.8 % Net investment income 406 596 315 (190) (31.9)% 281 89.2 % Total revenues 530 721 426 (191) (26.5)% 295 69.2 % Cost of products sold 42 37 — 5 13.5 % 37 100.0 % Benefit costs 319 212 221 107 50.5 % (9) (4.1)% Opioid litigation charges 5,803 — — 5,803 100.0 % — — % Operating expenses 1,975 2,078 1,846 (103) (5.0)% 232 12.6 % Operating loss (7,609) (1,606) (1,641) (6,003) (373.8)% 35 2.1 % Adjusted operating loss (1,785) (1,471) (1,306) (314) (21.3)% (165) (12.6)% (1) See “Segment Analysis” above in this MD&A for a reconciliation of Corporate/Other segment operating loss (GAAP measure) to adjusted operating loss, which represents the Company's principal measu…"
+   },
+   {
+    "chunk_id": "ch_c6d41a82e4a8f68b",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 75,
+    "text": "(3,733) (47.3)% 697 9.7 % Loss from discontinued operations, net of tax — — (9) — — % 9 100.0 % Net income 4,165 7,898 7,192 (3,733) (47.3)% 706 9.8 % Net (income) loss attributable to noncontrolling interests (16) 12 (13) (28) (233.3)% 25 192.3 % Net income attributable to CVS Health $ 4,149 $ 7,910 $ 7,179 $ (3,761) (47.5)% $ 731 10.2 % Commentary - 2022 compared to 2021 Revenues • Total revenues increased $30.4 billion, or 10.4%, in 2022 compared to 2021. The increase in total revenues was primarily driven by growth across all segments. • Please see “Segment Analysis” later in this MD&A for additional information about the revenues of the Company's segments. Operating expenses • Operating expenses increased $1.1 billion, or 3.1%, in 2022 compared to 2021. The increase in operating expenses was primarily due to increased operating expenses to support growth in the business, incremental investments in business operations and decreased gains from legal settlements in 2022 compared to 2…"
+   },
+   {
+    "chunk_id": "ch_ccfd8576856eda05",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 102,
+    "text": "completion factors that were 3 and 21 basis points higher, respectively, than previously estimated, resulting in a decrease of $32 million and $207 million in 2022 and 2021, respectively, in health care costs payable that related to the prior year. The Company has considered the pattern of changes in its completion factors when determining the completion factors used in its estimates of IBNR as of December 31, 2022. However, based on historical claim experience, it is reasonably possible that the Company's estimated weighted average completion factors may vary by plus or minus 12 basis points from the Company's assumed rates, which could impact health care costs payable by approximately plus or minus $207 million pretax. Also, during 2022 and 2021, the Company observed that health care costs for claims with claim incurred dates of three months or less before the financial statement date were lower than previously estimated. Specifically, after considering the claims paid in 2022 and 20…"
+   }
+  ]
+ }
+}

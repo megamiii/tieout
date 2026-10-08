@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"3.44\",\n  \"confidence\": 0.99,\n  \"citations\": [{\"source_id\": \"ch_29e387f1cf346a87\", \"quote\": \"Cost of sales 24,576\"}, {\"source_id\": \"ch_80bf156ef544ecbf\", \"quote\": \"Inventories 6,854 7,367\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TJU2p45EUk9FXF7IzDtCqb81Tq+R/Tan/PoqlQSZsIMXy+fWubJxOa7C6k//aAGdd78Hwmh4fZMCbD8qSCLvNV1iJiO4JkCm6ABLqmtv7XDIIzByqpe09gXk="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492818,
+  "id": "0gLIarGKDeDPvdIPpLiz8Qk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 119,
+   "prompt_tokens": 2982,
+   "total_tokens": 3101
+  }
+ }
+}

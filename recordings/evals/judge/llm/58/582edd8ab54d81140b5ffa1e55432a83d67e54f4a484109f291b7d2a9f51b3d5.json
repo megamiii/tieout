@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer fails to reach the conclusion that Verizon is capital intensive and incorrectly claims the information is unavailable, despite the data being present in the 10-K.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0Te6bj10XBuIwAgxqDgi48iqHXmyz+uKgdGrLf64YfMr6oj4C6kezG1mveU5K8WuT9L2PUUxlGyBeCL/gpwWn8fO+9164e4676l2YHXgWNp4H2DF/ah4tEdDdHKzGJtqbjHIkpt0N9I9eoK12k"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492878,
+  "id": "CQPIaojZJtT_vdIPgtHUoAo",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 284,
+   "total_tokens": 329
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"$52,862 million (total revenues net of interest expense) or $42,967 million (total non-interest revenues) in fiscal year 2022\",\n  \"confidence\": 0.9,\n  \"citations\": [{\"source_id\": \"ch_01a1954f662f77a4\", \"quote\": \"Total non-interest revenues 42,967\"}, {\"source_id\": \"ch_01a1954f662f77a4\", \"quote\": \"Total revenues net of interest expense 52,862\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0ToL1gcfNcYH59yHZzEFjNYWAr7RW9Vqx7NZTJfh47AMX/lfiOx2FbHwUCZdCpS7zZxorCj7iuAy10lrwrckEBkt831tdVouU110WUlLi1tvL/XXGY/fBwX1Q="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493368,
+  "id": "9wTIaunoMqrNnsEP8JCcoAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 159,
+   "prompt_tokens": 3709,
+   "total_tokens": 3868
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\n  \"answer\": \"As of 2022, American Express considers geographic operating segments primarily as the United States versus outside the United States. Additionally, jurisdictions representing a significant portion of its billed business outside the United States include the United Kingdom (UK), the European Union (EU), Australia, Japan, and Canada, and its card network business operates in approximately 103 countries and territories.\",\n  \"confidence\": 0.95,\n  \"citations\": [\n    {\n      \"source_id\": \"ch_18e0db3e648881b4\",\n      \"quote\": \"geographic considerations (primarily United States versus outside the United States)\"\n    },\n    {\n      \"source_id\": \"ch_6af1e8c537576e6d\",\n      \"quote\": \"Jurisdictions that represent a significant portion of our billed business outside of the United States include the United Kingdom (UK), the European Union (EU), Australia, Japan, Canada...\"\n    }\n  ],\n  \"needs_review\": false\n}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T0ORGtIQFQs+S8Cls122fgZi9s+lUAmjQi+UU/DhzFCrRgcdqifDq9ACVY5mNZIxTP2iPZJrtReOqBgSjCaTLZQ2ufUgUfr/aaWFN+2swQbOGDRnqCiasEvE="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492697,
+  "id": "WALIasONNOWBxs0P5L_j6Ac",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 242,
+   "prompt_tokens": 1949,
+   "total_tokens": 2191
+  }
+ }
+}

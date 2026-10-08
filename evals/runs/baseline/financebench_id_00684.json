@@ -1,0 +1,36 @@
+{
+ "item_id": "financebench_id_00684",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "No, Amcor does not have an improving gross margin profile as of FY2023. Gross profit as a percentage of net sales decreased from 19.4% in fiscal year 2022 to 18.5% in fiscal year 2023.",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_c0b687348702b7d5",
+   "quote": "Gross profit as a percentage of net sales 18.5 % 19.4 % \nGross profit decreased by $95 million, or 3%, in fiscal year 2023, compared to fiscal year 2022.",
+   "kind": "chunk",
+   "ticker": "AMCR",
+   "fiscal_year": 2023,
+   "section": "Item 7",
+   "page": 33,
+   "supports": false
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2334,
+ "completion_tokens": 177,
+ "latency_ms": 1304.3,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer reaches the same correct conclusion as the gold answer and provides accurate supporting calculations that align with the gold standard.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

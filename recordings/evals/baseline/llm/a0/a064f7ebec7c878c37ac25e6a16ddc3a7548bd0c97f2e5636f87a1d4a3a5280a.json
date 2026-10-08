@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"In fiscal year 2022, Boeing had a net loss (net income was negative) of $5,053 million.\",\n  \"confidence\": 0.99,\n  \"citations\": [{\"source_id\": \"ch_cc19595608c4e1aa\", \"quote\": \"Net loss (5,053)\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TpKWr4TnWsMm3SOJ1sKhGCTE0d+rAJJLplUBRyz7MsOE76KlaeiZE6v6amAHRMq956Y99D9U7/1b8RJcMIf/QGwFJWrqfrd0dl/hAG2alLBssOXoSqG4rICQ="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493417,
+  "id": "KQXIar36Bai8vdIPtvyFsQk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 100,
+   "prompt_tokens": 3367,
+   "total_tokens": 3467
+  }
+ }
+}

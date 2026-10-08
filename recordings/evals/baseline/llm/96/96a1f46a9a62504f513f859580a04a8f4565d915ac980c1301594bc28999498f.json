@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\n  \"answer\": \"$21,748 million for fiscal year 2022\",\n  \"confidence\": 1.0,\n  \"citations\": [\n    {\n      \"source_id\": \"ch_e128c9d3d7199637\",\n      \"quote\": \"Net Income $ 21,748\"\n    }\n  ],\n  \"needs_review\": false\n}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TAZ+aF2Mz9c57sbG955B0uuTmq985pgqWOT8WEg9C0iFNhLo4VknDhmGLpaUZlcwLU3z3pdyqgDcNV2UhknUQ28Q8VxKC3xop0YajuCmi7XpDllmEf0BgKv4="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493485,
+  "id": "bAXIaoXbKqiG28oPiseBsQk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 107,
+   "prompt_tokens": 2775,
+   "total_tokens": 2882
+  }
+ }
+}

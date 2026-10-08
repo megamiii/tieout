@@ -1,0 +1,28 @@
+{
+ "item_id": "financebench_id_00216",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "needs_review",
+ "answer": "Based on the provided passages, there is no mention of Verizon's quick ratio or a discussion of its liquidity profile using the quick ratio for FY 2022.",
+ "confidence": 0.0,
+ "rationale": null,
+ "citations": [],
+ "review_reasons": [
+  "model flagged for review",
+  "confidence 0.00 is below 0.70"
+ ],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 1876,
+ "completion_tokens": 69,
+ "latency_ms": 6520.5,
+ "grade": {
+  "correct": false,
+  "method": "judge",
+  "detail": "The answer incorrectly states that the information is unavailable, whereas the gold answer provides a calculation based on the 10-K data to determine the liquidity profile.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

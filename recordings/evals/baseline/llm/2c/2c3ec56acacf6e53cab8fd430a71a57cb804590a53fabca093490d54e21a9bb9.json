@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, there is no mention of whether PepsiCo has reported any materially important ongoing legal battles from FY2022 and FY2021.\",\n  \"confidence\": 1.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T3comNfY1S6VyMXW87atIXXHukmvoEKJj99Euvy/N7GV5yLq0xCJGU0JHQ2PL7RFp2oV2JxeKPMn0JPjeaof69qB12hcaNlGQZPc4To/hNrVpRTNwnZIZmhM="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492665,
+  "id": "MwLIapHgAZPZxs0PjMfGgAI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 69,
+   "prompt_tokens": 2380,
+   "total_tokens": 2449
+  }
+ }
+}

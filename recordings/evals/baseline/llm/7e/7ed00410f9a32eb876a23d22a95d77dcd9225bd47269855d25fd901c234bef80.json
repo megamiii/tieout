@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"$1,615.9 million as of June 30, 2020\",\n  \"confidence\": 1.0,\n  \"citations\": [{\"source_id\": \"ch_ac076d241cac257d\", \"quote\": \"Trade receivables, net 1,615.9 1,864.3\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tri4iRW/Wx7dUocHxcmEmIlX6Rpxpl5/3yawgqq2Squ4RrMmrj6DQdYaXbkYc6/Wblm+c5B3qibvywWJzMzlill9GE3rBjJ/KRErcG8YkXXkOpTrO+e7vAzE="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492816,
+  "id": "0ALIapKXDqeXvdIPs7e3mA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 102,
+   "prompt_tokens": 2791,
+   "total_tokens": 2893
+  }
+ }
+}

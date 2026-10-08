@@ -1,0 +1,150 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMCR",
+  "query": "gross profit",
+  "concept": null,
+  "fiscal_years": [
+   2020,
+   2021,
+   2022,
+   2023
+  ]
+ },
+ "output": {
+  "ticker": "AMCR",
+  "concepts": [
+   {
+    "concept": "GrossProfit",
+    "label": "Gross Profit",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-07-01..2023-06-30",
+      "value": "2725000000",
+      "fact_id": "xf_6d605e633bbde2ee",
+      "reported_in_10k_filed": "2023-08-17"
+     },
+     {
+      "fiscal_year": 2022,
+      "period": "2021-07-01..2022-06-30",
+      "value": "2820000000",
+      "fact_id": "xf_34da8bd1f1abfc5f",
+      "reported_in_10k_filed": "2022-08-18"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2020-07-01..2021-06-30",
+      "value": "2732000000",
+      "fact_id": "xf_9af1303a4f0ad4bc",
+      "reported_in_10k_filed": "2021-08-24"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "2019-07-01..2020-06-30",
+      "value": "2535500000",
+      "fact_id": "xf_34ee5e7458c1d1b9",
+      "reported_in_10k_filed": "2020-08-27",
+      "later_restated_to": [
+       {
+        "value": "2536000000",
+        "fact_id": "xf_82074d8d7fe119c9",
+        "filed": "2021-08-24"
+       },
+       {
+        "value": "2536000000",
+        "fact_id": "xf_04ae7ac1da936a00",
+        "filed": "2022-08-18"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "concept": "MachineryAndEquipmentGross",
+    "label": "Machinery and Equipment, Gross",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-06-30",
+      "value": "6084000000",
+      "fact_id": "xf_8835a10bbb621bfe",
+      "reported_in_10k_filed": "2023-08-17"
+     },
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-06-30",
+      "value": "5797000000",
+      "fact_id": "xf_5c1c78761d6c5969",
+      "reported_in_10k_filed": "2022-08-18"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "as of 2021-06-30",
+      "value": "5937000000",
+      "fact_id": "xf_debb92fd623705e7",
+      "reported_in_10k_filed": "2021-08-24"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "as of 2020-06-30",
+      "value": "5434800000",
+      "fact_id": "xf_60ee10004f266dcc",
+      "reported_in_10k_filed": "2020-08-27",
+      "later_restated_to": [
+       {
+        "value": "5435000000",
+        "fact_id": "xf_386e53ef36ea4f05",
+        "filed": "2021-08-24"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "concept": "BuildingsAndImprovementsGross",
+    "label": "Buildings and Improvements, Gross",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-06-30",
+      "value": "1483000000",
+      "fact_id": "xf_18f006ef323ff7f3",
+      "reported_in_10k_filed": "2023-08-17"
+     },
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-06-30",
+      "value": "1323000000",
+      "fact_id": "xf_8667e11f1317fefc",
+      "reported_in_10k_filed": "2022-08-18"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "as of 2021-06-30",
+      "value": "1355000000",
+      "fact_id": "xf_d089c58612fc5746",
+      "reported_in_10k_filed": "2021-08-24"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "as of 2020-06-30",
+      "value": "1253400000",
+      "fact_id": "xf_9fbbb87ca4814873",
+      "reported_in_10k_filed": "2020-08-27",
+      "later_restated_to": [
+       {
+        "value": "1253000000",
+        "fact_id": "xf_c426d967ecd8b332",
+        "filed": "2021-08-24"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

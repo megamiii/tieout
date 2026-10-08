@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMD",
+  "query": "current liabilities",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "AMD",
+  "concepts": [
+   {
+    "concept": "LiabilitiesCurrent",
+    "label": "Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "6369000000",
+      "fact_id": "xf_273a9d2b6f498f40",
+      "reported_in_10k_filed": "2023-02-27"
+     }
+    ]
+   },
+   {
+    "concept": "AccruedLiabilitiesCurrent",
+    "label": "Accrued Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "3077000000",
+      "fact_id": "xf_3ba63a4515f9d572",
+      "reported_in_10k_filed": "2023-02-27"
+     }
+    ]
+   },
+   {
+    "concept": "OtherLiabilitiesCurrent",
+    "label": "Other Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "336000000",
+      "fact_id": "xf_13d527eb10571870",
+      "reported_in_10k_filed": "2023-02-27"
+     }
+    ]
+   }
+  ]
+ }
+}

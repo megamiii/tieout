@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "VZ",
+  "query": "capital expenditures",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "VZ",
+  "concepts": [
+   {
+    "concept": "CapitalExpendituresIncurredButNotYetPaid",
+    "label": "Capital Expenditures Incurred but Not yet Paid",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "6000000000",
+      "fact_id": "xf_0a79e9b62bc751f5",
+      "reported_in_10k_filed": "2023-02-10"
+     }
+    ]
+   },
+   {
+    "concept": "InterestCostsCapitalized",
+    "label": "Interest Costs Capitalized",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "2030000000",
+      "fact_id": "xf_2b29e0169e6038c0",
+      "reported_in_10k_filed": "2023-02-10"
+     }
+    ]
+   }
+  ]
+ }
+}

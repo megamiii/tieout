@@ -1,0 +1,36 @@
+{
+ "item_id": "financebench_id_00585",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "Boeing's effective income tax rate was (0.6)% in FY2022 compared to 14.8% in FY2021.",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_5d78669497b1d576",
+   "quote": "Effective income tax rate (0.6) % 14.8 % 17.5 %",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 24,
+   "supports": false
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 3389,
+ "completion_tokens": 121,
+ "latency_ms": 1061.3,
+ "grade": {
+  "correct": false,
+  "method": "judge",
+  "detail": "The answer provides incorrect values and signs for the effective tax rates, contradicting the gold answer.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

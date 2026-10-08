@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What is Amcor's year end FY2020 net AR (in USD millions)? Address the question by adopting the perspective of a financial analyst who can only use the details shown within the balance sheet.",
+  "ticker": "AMCR",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_f6272f1a290a0ab9",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 31,
+    "text": "Net income attributable to Amcor plc, as reported $ 612.2 $ 430.2 $ 575.2 Add: Net income (loss) attributable to non-controlling interests 4.4 7.2 11.4 Less: (Income) loss from discontinued operations, net of tax 7.7 (0.7) — Income from continuing operations 624.3 436.7 586.6 Add: Income tax expense 186.9 171.5 118.8 Add: Interest expense 206.9 207.9 210.0 Less: Interest income (22.2) (16.8) (13.1) EBIT from continuing operations 995.9 799.3 902.3 Add: Material restructuring programs (1) 105.7 64.1 14.4 Add: Impairments in equity method investments (2) 25.6 14.0 36.5 Add: Material acquisition costs and other (3) 145.6 143.1 — Add: Amortization of acquired intangible assets from business combinations (4) 191.1 31.1 19.3 Add/(Less): Economic net investment hedging activities not qualifying for hedge accounting (5) — (1.4) 83.9 Add: Impact of hyperinflation (6) 27.7 30.2 — Less: Net legal settlements (7) — (5.0) — Add: Pension settlements (8) 5.5 — — Adjusted EBIT from continuing operatio…"
+   },
+   {
+    "chunk_id": "ch_b6bc70d65fa17954",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 54,
+    "text": "other than the entity's functional currency are remeasured at the exchange rate as of the balance sheet date to the entity's functional currency. Foreign currency transaction gains and losses related to short-term and long-term debt are recorded in other non-operating income (loss), net, in the consolidated statement of income. The Company recorded such foreign currency transaction net loss of $0.4 million, net gain of $1.1 million and net loss of $82.7 million during the fiscal years ended June 30, 2020, 2019 and 2018, respectively. All other foreign currency transaction gains and losses are recorded in other income, net in the consolidated statement of income. These foreign currency transaction net gains amounted to $21.4 million, $8.9 million and $1.0 million during the fiscal years ended June 30, 2020, 2019 and 2018, respectively. Upon consolidation, the results of operations of subsidiaries whose functional currency is other than the reporting currency of the Company are translate…"
+   },
+   {
+    "chunk_id": "ch_3d0877b6de11b56c",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 51,
+    "text": "Amcor plc and Subsidiaries Consolidated Statement of Cash Flows (in millions) For the years ended June 30, 2020 2019 2018 Cash flows from operating activities: Net income $ 616.6 $ 437.4 $ 586.6 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and impairment 651.6 453.0 357.1 Net periodic benefit cost 9.1 12.5 7.7 Amortization of debt discount and deferred financing costs 8.1 5.8 5.1 Amortization of deferred gain on sale and leasebacks — (7.0) (4.4) Net gain on disposal of property, plant and equipment (3.6) (16.0) (18.2) Gain on disposal of U.S. plants — (159.1) — Equity in (income) loss of affiliated companies 14.0 (4.1) 17.5 Net foreign exchange (gain) loss (16.2) (5.1) 85.9 Share-based compensation 34.0 18.6 21.0 Other, net (0.2) (77.9) 0.4 Loss from hyperinflationary accounting for Argentine subsidiaries 37.9 30.2 — Deferred income taxes, net (113.7) 72.8 (73.5) Dividends received from affiliated companies 7.0 8.3 8.7 Cha…"
+   },
+   {
+    "chunk_id": "ch_ac076d241cac257d",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 50,
+    "text": "Amcor plc and Subsidiaries Consolidated Balance Sheet (in millions) As of June 30, 2020 2019 Assets Current assets: Cash and cash equivalents $ 742.6 $ 601.6 Trade receivables, net 1,615.9 1,864.3 Inventories, net 1,831.9 1,953.8 Prepaid expenses and other current assets 344.3 374.3 Assets held for sale — 416.1 Total current assets 4,534.7 5,210.1 Non-current assets: Investments in affiliated companies 77.7 98.9 Property, plant and equipment, net 3,614.8 3,975.0 Operating lease assets 525.3 — Deferred tax assets 135.4 190.9 Other intangible assets, net 1,994.3 2,306.8 Goodwill 5,339.3 5,156.0 Employee benefit assets 43.4 40.2 Other non-current assets 177.2 187.1 Total non-current assets 11,907.4 11,954.9 Total assets $ 16,442.1 $ 17,165.0 Liabilities Current liabilities: Current portion of long-term debt $ 11.1 $ 5.4 Short-term debt 195.2 788.8 Trade payables 2,170.8 2,303.4 Accrued employee costs 476.5 378.4 Other current liabilities 1,120.0 1,044.9 Liabilities held for sale — 20.9 To…"
+   },
+   {
+    "chunk_id": "ch_8dddb677a730b899",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 75,
+    "text": "At June 30, 2020, the Company had a notional amount of $100 million (equivalent to €89.0 million) cross-currency interest rate swaps outstanding. The Company did not designate the swaps as a hedging instrument and thus changes in fair value were immediately recognized in earnings. During the third quarter of fiscal year 2020, the Company entered into six Treasury lock agreements to protect against unfavorable interest rate changes relating to the highly probable issuance of long-term debt. The total notional amount of the Treasury lock of $250.0 million was designated as a cash flow hedge of an anticipated transaction and deemed these agreements to be highly effective. The associated unsecured senior note was issued on June 19, 2020, and the Company has settled these Treasury lock agreements with a $19.8 million cash payment to the counterparties. The loss associated with the settlement was recorded in accumulated other comprehensive loss and will be amortized to interest expense over …"
+   },
+   {
+    "chunk_id": "ch_6210b0fbb4d68020",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 111,
+    "text": "Deed of Cross Guarantee Balance Sheet (in millions) As of June 30, 2020 2019 Assets Current assets: Cash and cash equivalents $ 37.2 $ 52.3 Trade receivables, net 787.2 801.5 Inventories 57.5 65.5 Prepaid expenses and other current assets 13.7 14.3 Total current assets 895.6 933.6 Non-current assets: Property, plant and equipment, net 76.8 82.0 Deferred tax assets 23.3 53.0 Other intangible assets, net 10.4 9.6 Goodwill 91.2 93.1 Other non-current assets 12,454.6 10,417.7 Total non-current assets 12,656.3 10,655.4 Total assets $ 13,551.9 $ 11,589.0 Liabilities Current liabilities: Short-term debt 507.3 155.3 Trade payables 143.3 190.8 Accrued employee costs 17.8 19.0 Other current liabilities 40.7 66.7 Total current liabilities 709.1 431.8 Non-current liabilities: Long-term debt, less current portion 355.8 1,587.7 Other non-current liabilities 2.9 3.3 Total liabilities 1,067.8 2,022.8 Shareholders' Equity Issued 15.7 16.3 Additional paid-in capital 5,500.9 6,030.8 Retained earnings 5,9…"
+   },
+   {
+    "chunk_id": "ch_4cfb460fc8e69704",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 38,
+    "text": "will continue to evaluate the nature and extent of the impact on our business and consolidated results of operations. Pension Costs Approximately 50% of our defined benefits plans are closed to new entrants and future accruals. The accounting for our pension plans requires us to recognize the overfunded or underfunded status of the pension plans on our balance sheet. A substantial portion of our pension amounts relate to our defined benefit plans in the United States, Germany, Switzerland and the United Kingdom. Net periodic pension cost recorded in fiscal year 2020 was $9.9 million, compared to pension cost of $12.5 million in fiscal year 2019 and $7.7 million in fiscal year 2018. We expect pension expense before the effect of income taxes for fiscal year 2021 to be approximately $12.7 million. For our sponsored plans, the relevant accounting guidance requires that management make certain assumptions relating to the long-term rate of return on plan assets, discount rates used to deter…"
+   },
+   {
+    "chunk_id": "ch_24bbfd65291d8c1e",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 77,
+    "text": "designated as foreign currency net investment hedges as of June 30, 2019. The designated foreign currency-denominated debt was included in long-term debt in the consolidated balance sheet. There are no currency net investment hedges as of June 30, 2020. Certain derivative financial instruments are subject to netting arrangements and are eligible for offset. The Company has made an accounting policy election not to offset the fair values of these instruments within the consolidated balance sheets. 77"
+   }
+  ]
+ }
+}

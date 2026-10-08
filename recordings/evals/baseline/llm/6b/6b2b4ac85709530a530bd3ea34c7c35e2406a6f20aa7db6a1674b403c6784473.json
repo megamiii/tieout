@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"52.0%\",\n  \"confidence\": 1.0,\n  \"citations\": [{\"source_id\": \"ch_9cc5bf16c10372cf\", \"quote\": \"Research and development costs increased by $33.3 million, or 52.0%, to $97.3 million for fiscal year 2020, from $64.0 million for fiscal year 2019.\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TeSOPmP90WlpoUP/H0Th+t9OHittpi+68tG0G2aVLYoFA1YYHbI7CgjMpGKz2zEoiLmfuHgWtf8d6YKOVjb7ZgXIfZ10w0ksjkELyY4+rgAPgjf/YiOeuFts="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493357,
+  "id": "7ATIavqJMv7rkdUPja7jgQ4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 117,
+   "prompt_tokens": 2481,
+   "total_tokens": 2598
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "item_id": "financebench_id_00859",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "Cross currency swaps had the highest total notional amount, which was $32.5 billion at December 31, 2021.",
+ "confidence": 0.95,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_8af65309e66e6d85",
+   "quote": "At December 31, 2021 and 2020, the total notional amount of the cross currency swaps was $32.5 billion and $26.3 billion, respectively.",
+   "kind": "chunk",
+   "ticker": "VZ",
+   "fiscal_year": 2021,
+   "section": "Item 7A",
+   "page": 47,
+   "supports": false
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2429,
+ "completion_tokens": 139,
+ "latency_ms": 1258.2,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer correctly identifies the instrument with the highest notional value and provides the correct figure, matching the gold answer's value of $32,502 million (expressed as $32.5 billion).",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

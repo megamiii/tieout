@@ -1,0 +1,36 @@
+{
+ "item_id": "xbrl-CVS-2022-Assets-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "$228,275 million in fiscal year 2022",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_f8a564f1d3487be1",
+   "quote": "Total assets $ 228,275 $ 232,999",
+   "kind": "chunk",
+   "ticker": "CVS",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 110,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 3190,
+ "completion_tokens": 100,
+ "latency_ms": 1016.7,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$228,275 matches 228275 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

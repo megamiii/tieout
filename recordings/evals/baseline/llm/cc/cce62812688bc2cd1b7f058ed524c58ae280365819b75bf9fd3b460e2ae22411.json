@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the necessary net income (or net earnings) figures for the full calculation are not fully provided alongside revenue for all three years in a way that allows a complete derivation of net profit margins directly from an income statement within the text. Specifically, the net earnings figures provided vary (e.g., net earnings from continuing operations vs. net earnings attributable to shareholders), and the passages do not explicitly calculate or list the net profit margins for FY2015, FY2016, and FY2017.\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TUrFolAts85j8ovdJsCYhwY4SU4Eob+K0m+uhJqUVwjqFkKFrUTCf4Jyg6Q/FA5fIqMoj3Ah4k7IChkLUd+Lo+mlv7vHv0AfCJrG8vYpI6omxiwxtlgydUi8="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492767,
+  "id": "ngLIatjOE7Ltxs0PtJP4yAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 144,
+   "prompt_tokens": 2563,
+   "total_tokens": 2707
+  }
+ }
+}

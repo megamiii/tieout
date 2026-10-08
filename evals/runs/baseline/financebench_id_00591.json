@@ -1,0 +1,27 @@
+{
+ "item_id": "financebench_id_00591",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "needs_review",
+ "answer": "Based on the provided passages, there is no mention or calculation of \"Free cashflow conversion\" for Adobe as of FY2022.",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [],
+ "review_reasons": [
+  "model flagged for review"
+ ],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2881,
+ "completion_tokens": 63,
+ "latency_ms": 1086.3,
+ "grade": {
+  "correct": false,
+  "method": "judge",
+  "detail": "The answer incorrectly states that the information is unavailable, whereas the gold answer provides a clear calculation showing an improvement in FCF conversion.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

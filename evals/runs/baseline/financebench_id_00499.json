@@ -1,0 +1,49 @@
+{
+ "item_id": "financebench_id_00499",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "needs_review",
+ "answer": "Based on the provided passages, it is not possible to conclusively determine whether 3M is a \"capital-intensive\" business, as the term \"capital-intensive\" is not explicitly stated or evaluated in the text. However, the passages do disclose that for FY2022, total capital spending (investments in property, plant, and equipment) was $1,749 million, and net property, plant, and equipment was $9,178 million.",
+ "confidence": 0.6,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_43b034ee28278bf3",
+   "quote": "Total Company 92,000 95,000 $ 1,749 $ 1,603 $ 9,178 $ 9,429",
+   "kind": "chunk",
+   "ticker": "MMM",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 34,
+   "supports": false
+  },
+  {
+   "source_id": "ch_007dbcf117aed57c",
+   "quote": "Property, plant and equipment — net 9,178 9,429",
+   "kind": "chunk",
+   "ticker": "MMM",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 50,
+   "supports": true
+  }
+ ],
+ "review_reasons": [
+  "model flagged for review",
+  "confidence 0.60 is below 0.70"
+ ],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2461,
+ "completion_tokens": 277,
+ "latency_ms": 1461.0,
+ "grade": {
+  "correct": false,
+  "method": "judge",
+  "detail": "The answer fails to reach the same conclusion as the gold answer, instead claiming it is not possible to determine the company's capital intensity despite having the necessary data to perform the analysis.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

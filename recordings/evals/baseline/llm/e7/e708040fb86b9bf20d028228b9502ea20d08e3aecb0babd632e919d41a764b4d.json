@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\n  \"answer\": \"Operations brought in the most cash flow for Nike in FY2023 with $5,841 million.\",\n  \"confidence\": 1.0,\n  \"citations\": [\n    {\n      \"source_id\": \"ch_e8d535624a3d0686\",\n      \"quote\": \"Cash provided (used) by operations 5,841 5,188 6,657\"\n    },\n    {\n      \"source_id\": \"ch_96c82839a25a7d16\",\n      \"quote\": \"Cash provided (used) by investing activities was an inflow of $564 million for fiscal 2023\"\n    },\n    {\n      \"source_id\": \"ch_763be03a42eb9ab7\",\n      \"quote\": \"Cash provided (used) by financing activities was an outflow of $7,447 million for fiscal 2023\"\n    }\n  ],\n  \"needs_review\": false\n}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TDSc/0ehqGB++PFFMg41DVORt2tWq0/CbD1SQddqbkQjMDv76JyzRYjLpYM/83MU/2FMn9bRmuXTGhbwMBs19veolA6kNuagVsFujK4b7SPXvIFCFIc2aAkA="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492720,
+  "id": "bwLIaqS7BviovdIPiqPDmAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 257,
+   "prompt_tokens": 3031,
+   "total_tokens": 3288
+  }
+ }
+}

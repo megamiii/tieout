@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\n  \"answer\": \"44.3%\",\n  \"confidence\": 0.99,\n  \"citations\": [\n    {\n      \"source_id\": \"ch_eff10dd0e23194b0\",\n      \"quote\": \"Net cash provided by operating activities 21,079 14,645 5,591\"\n    }\n  ],\n  \"needs_review\": false\n}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T7mLbQbf11JsgqpKuYbU/PUk01A8SPswug4ul88q/Kl06HwMWna6FcTZ79dyhmRo0+JMmYDgMY8VJQbA1arOWRIEOczV1FEkwKrILX+QsfGmo41Z1ZVE6Usc="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493366,
+  "id": "9QTIapvXGa2hnsEP1vyFmQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 110,
+   "prompt_tokens": 3255,
+   "total_tokens": 3365
+  }
+ }
+}

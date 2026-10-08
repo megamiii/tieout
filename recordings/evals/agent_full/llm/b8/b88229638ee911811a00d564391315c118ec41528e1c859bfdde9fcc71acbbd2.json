@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TNL6enAcx5Y1QxA25j7LLGRP4A7Cq89XvqmurQ2XzaCqEPzk1rsQKeC49s/jb+mfNnKrq1q8Z1TnT4KaLTrQRTsrKqP6o6LKzNqm/NpoukT6ghAiSapuRjnA="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"For a financial institution like American Express (AMEX), operating margin is not a standard or useful metric because its business model relies significantly on net interest income, interest expense, and provisions for credit losses, and its income statement does not feature a traditional \\\"operating income\\\" line item. Instead, AMEX evaluates its profitability using metrics such as total revenues net of interest expense, pretax income, and net income (which was $7,514 million in 2022 compared to $8,060 million in 2021).\",\"confidence\":1,\"rationale\":\"Explains that operating margin is not a standard metric for financial institutions like American Express due to their specific income statement structure (net interest income, provisions, etc.) and provides the alternative profitability metrics reported by the company.\",\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_290f30a8f788565c\",\"quote\":\"Total revenues net of interest expense $ 52,862 $ 42,380 $ 36,087 $ 10,482 25 % $ 6,293 17 %\"},{\"source_id\":\"ch_290f30a8f788565c\",\"quote\":\"Net income 7,514 8,060 3,135 (546) (7) 4,925 #\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_1224954",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791495175,
+  "id": "_wvIaqKZNfjRxN8P3-GpwAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 338,
+   "prompt_tokens": 9895,
+   "total_tokens": 10233
+  }
+ }
+}

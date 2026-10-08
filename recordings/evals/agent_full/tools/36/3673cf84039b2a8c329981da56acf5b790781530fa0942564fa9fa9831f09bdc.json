@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "MMM",
+  "query": "capital expenditures",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "MMM",
+  "concepts": [
+   {
+    "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "label": "Payments to Acquire Property, Plant, and Equipment",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "1749000000",
+      "fact_id": "xf_8467d31db1457a6a",
+      "reported_in_10k_filed": "2023-02-08"
+     }
+    ]
+   },
+   {
+    "concept": "AdditionalPaidInCapitalCommonStock",
+    "label": "Additional Paid in Capital, Common Stock",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "6691000000",
+      "fact_id": "xf_3e0bf332c920a043",
+      "reported_in_10k_filed": "2023-02-08"
+     }
+    ]
+   }
+  ]
+ }
+}

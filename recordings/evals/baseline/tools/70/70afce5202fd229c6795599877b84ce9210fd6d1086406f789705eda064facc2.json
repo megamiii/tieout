@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Among operations, investing, and financing activities, which brought in the most (or lost the least) cash flow for AMD in FY22?",
+  "ticker": "AMD",
+  "fiscal_year": null,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_bbd0f6d150f7a1eb",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 60,
+    "text": "Advanced Micro Devices, Inc. Consolidated Statements of Cash Flows Year Ended December 26, 2015 December 27, 2014 December 28, 2013 (In millions) Cash flows from operating activities: Net loss $ (660) $ (403) $ (83) Adjustments to reconcile net loss to net cash used in operating activities: Depreciation and amortization 167 203 236 Net loss on disposal of property, plant and equipment — — 31 Stock-based compensation expense 63 81 91 Non-cash interest expense 11 17 25 Goodwill impairment charge — 233 — Restructuring and other special charges, net 83 14 — Net loss on debt redemptions — 61 1 Other (3) (13) (1) Changes in operating assets and liabilities: Accounts receivable 280 7 (200) Inventories (11) 199 (322) Prepayments and other - GLOBALFOUNDRIES 84 (113) — Prepaid expenses and other assets (111) (7) (103) Accounts payables, accrued liabilities and other (156) (231) 266 Payable to GLOBALFOUNDRIES 27 (146) (89) Net cash used in operating activities (226) (98) (148) Cash flows from inv…"
+   },
+   {
+    "chunk_id": "ch_8763a6146f45f5a1",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 48,
+    "text": "Net cash used in operating activities was $226 million in 2015 compared to $98 million in 2014. The increase in cash used in operating activities was primarily due to lower cash collections during 2015 compared 2014 driven by lower sales compared to 2014, partially offset by lower other operating expenses and labor cost as a result of restructuring actions and the absence of the final $200 million cash payment made in the first quarter of 2014 related to GF's waiver of a portion of our obligations for wafer purchase commitments. Net cash used in operating activities was $98 million in 2014 compared to $148 million in 2013. The decrease in cash used in operating activities was primarily due to higher cash collections during 2014 compared 2013 driven by slightly higher sales compared to 2013, partially offset by the $113 million prepayments to GF in the fourth quarter of 2014. Investing Activities Net cash provided by investing activities was $147 million in 2015, which consisted of a ne…"
+   },
+   {
+    "chunk_id": "ch_b470ec07392b8e3b",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 51,
+    "text": "will be able to access the capital markets should we require additional funds. However, we cannot assure that such funds will be available on favorable terms, or at all. Operating Activities Our working capital cash inflows and outflows from operations consist primarily of cash collections from our customers, payments for inventory purchases and payments for employee-related expenditures. 48"
+   },
+   {
+    "chunk_id": "ch_1b46976287264920",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 48,
+    "text": "Our debt and capital lease obligations as of December 26, 2015 were $2.3 billion as compared to $2.2 billion as of December 27, 2014. During 2015, we received $100 million net proceeds from our Secured Revolving Line of Credit, of which $42 million was used to repay the remaining aggregate principal amount of our 6.00% Notes. We believe our cash and cash equivalents balance along with the savings from our restructuring plans and our Secured Revolving Line of Credit will be sufficient to fund operations, including capital expenditures, over the next 12 months. We believe that in the event we decide to obtain external funding, we may be able to access the capital markets on terms and in amounts adequate to meet our objectives. Over the longer term, should additional funding be required, such as to meet payment obligations of our long-term debt when due, we may need to raise the required funds through borrowings or public or private sales of debt or equity securities, which may be issued …"
+   },
+   {
+    "chunk_id": "ch_0e75f54a5bed411e",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 58,
+    "text": "Table of Contents Advanced Micro Devices, Inc. Consolidated Statements of Cash Flows Year Ended December 31, 2022 December 25, 2021 December 26, 2020 (In millions) Cash flows from operating activities: Net income $ 1,320 $ 3,162 $ 2,490 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization 4,174 407 312 Stock-based compensation 1,081 379 274 Amortization of debt discount and issuance costs — 5 14 Amortization of operating lease right-of-use assets 88 56 42 Amortization of inventory fair value adjustment 189 — — Loss on debt redemption, repurchase and conversion — 7 54 Loss on sale or disposal of property and equipment 16 34 33 Deferred income taxes (1,505) 308 (1,223) (Gains) losses on equity investments, net 62 (56) (2) Other (14) (7) 8 Changes in operating assets and liabilities: Accounts receivable, net (1,091) (640) (219) Inventories (1,401) (556) (417) Receivables from related parties (13) 8 10 Prepaid expenses and other as…"
+   },
+   {
+    "chunk_id": "ch_12e7e095c7e31fda",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 48,
+    "text": "available-for-sale securities and net proceeds of $154 million from sales and purchases of property, plant and equipment. Financing Activities Net cash provided by financing activities was $59 million in 2015, primarily due to net proceeds from borrowings pursuant to our Secured Revolving Line of Credit of $100 million, of which $42 million was used to repay the remaining aggregate principal amount of our 6.00% Notes during the second quarter of 2015. In addition, during 2015, we received $5 million from the exercise of employee stock options. Net cash provided by financing activities was $46 million in 2014, primarily due to net proceeds from borrowings pursuant to our 6.75% Notes of $589 million, our 7.00% Notes of $491 million and our Secured Revolving Line of Credit of $75 million, partially offset by $518 million in payments to repurchase a portion of our 6.00% Notes, $522 million in payments to repurchase our 8.125% Notes, $48 million in payments to repurchase a portion of our 7.…"
+   },
+   {
+    "chunk_id": "ch_a1909add1d198442",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 48,
+    "text": "of Credit, $3 million from the issuance of common stock under our stock-based compensation plan and $10 million from other financing activities, including net proceeds from U.S. government grants for research and development activities and foreign grants from the Canadian government for research and development activities related to our AMD APU products. The cash inflows were partially offset by the repurchase of $50 million in principal amount of our 6.00% Notes (which is a portion of our outstanding 6.00% Notes) in open market transactions and $5 million in payments for capital lease obligations. 46"
+   },
+   {
+    "chunk_id": "ch_2c1d85b51acacf48",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 58,
+    "text": "(2,667) (2,056) (850) Proceeds from maturity of short-term investments 4,310 1,678 192 Cash received from acquisition of Xilinx 2,366 — — Acquisition of Pensando, net of cash acquired (1,544) — — Other (16) (7) — Net cash provided by (used in) investing activities 1,999 (686) (952) Cash flows from financing activities: Proceeds from debt, net of issuance costs 991 — 200 Repayment of debt (312) — (200) Proceeds from sales of common stock through employee equity plans 167 104 85 Repurchases of common stock (3,702) (1,762) — Common stock repurchases for tax withholding on employee equity plans (406) (237) (78) Other (2) — (1) Net cash (used in) provided by financing activities (3,264) (1,895) 6 Net increase in cash and cash equivalents 2,300 940 125 Cash and cash equivalents at beginning of year 2,535 1,595 1,470 Cash and cash equivalents at end of year $ 4,835 $ 2,535 $ 1,595 55"
+   }
+  ]
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "item_id": "xbrl-VZ-2022-NetIncomeLoss-growth",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "-3.8%",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_5fe0ae06d8a5c498",
+   "quote": "(dollars in millions) Years Ended December 31, 2022 2021\nConsolidated Net Income $ 21,748 $ 22,618",
+   "kind": "chunk",
+   "ticker": "VZ",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 27,
+   "supports": false
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2652,
+ "completion_tokens": 126,
+ "latency_ms": 1457.0,
+ "grade": {
+  "correct": false,
+  "method": "numeric",
+  "detail": "no figure in the answer matches the gold value",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

@@ -1,0 +1,56 @@
+{
+ "item_id": "financebench_id_01346",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "Corning's effective tax rate was 20.2% for FY2021 and 22.9% for FY2022, representing an increase of 2.7 percentage points.",
+ "confidence": 0.95,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_0efbb9dcb15d473f",
+   "quote": "Effective tax rate 22.9% 20.2% 17.5%",
+   "kind": "chunk",
+   "ticker": "GLW",
+   "fiscal_year": 2022,
+   "section": "Item 16",
+   "page": 77,
+   "supports": false
+  },
+  {
+   "source_id": "ch_f14c36911f1c0d9c",
+   "quote": "Year ended December 31, 2021 ... Effective ... tax rate ... 20.2%",
+   "kind": "chunk",
+   "ticker": "GLW",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 32,
+   "supports": false
+  },
+  {
+   "source_id": "ch_3f935f65bc98dffb",
+   "quote": "Year ended December 31, 2022 ... Effective ... tax rate ... 22.9%",
+   "kind": "chunk",
+   "ticker": "GLW",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 32,
+   "supports": false
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2830,
+ "completion_tokens": 232,
+ "latency_ms": 1502.8,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer provides more precise figures that align with the gold answer's rounded values and correctly identifies the change between the two fiscal years.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

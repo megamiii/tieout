@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer incorrectly states that the information is unavailable, whereas the gold answer provides a clear identification of the primary customer groups and a specific revenue percentage for the US government.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TXam4N+cWVwxAsHgFOOoXcv2BvlU9jRSCKphHh+8P7hu4injZvMTP6CV4x+k44ER0cNX4FtEaljWnlQe3tpZHz4ZuRMzspKmNHWvW9X2bNC6SbwN7QO8h/DJa0YO/XIqURB6Yt1UzUHElIB0d"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493300,
+  "id": "qgTIaoDGBrWkvdIPs_ndSA",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 251,
+   "total_tokens": 296
+  }
+ }
+}

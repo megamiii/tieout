@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "cyclical cyclicality cycle",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": "1",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_f2fea58a24d6f9b1",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 5,
+    "text": "Conduct to reaffirm their commitment to do their work in a compliant and ethical manner. We provide several channels for all employees to speak up, ask for guidance and report concerns related to ethics or safety violations. We address employee concerns and take appropriate actions that uphold our Boeing values. Competition The commercial jet aircraft market and the airline industry remain extremely competitive. We face aggressive international competitors who are intent on increasing their market share, such as Airbus and entrants from China. We are focused on improving our products and processes and continuing cost reduction efforts. We intend to continue to compete with other aircraft manufacturers by providing customers with airplanes and services that deliver superior design, safety, efficiency and value to customers around the world. BDS faces strong competition primarily from Lockheed Martin Corporation, Northrop Grumman Corporation, Raytheon Technologies Corporation, General Dy…"
+   },
+   {
+    "chunk_id": "ch_738a38f356eb487d",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 7,
+    "text": "Table of Contents are aluminum (sheet, plate, forgings and extrusions), titanium (sheet, plate, forgings and extrusions) and composites (including carbon and boron). Although alternative sources generally exist for these raw materials, qualification of the sources could take a year or more. During 2022, as a result of the Russia Ukraine war, we suspended purchasing titanium from Russia. This has not disrupted our operations as we have been able to use inventory on hand and identify alternative sources. Many major components and product equipment items are procured or subcontracted on a sole-source basis. We continue to work with a small number of sole-source suppliers to ensure continuity of supply for certain items. Suppliers We are dependent upon the ability of a large number of U.S. and non-U.S. suppliers and subcontractors to meet performance specifications, quality standards and delivery schedules at our anticipated costs. While we maintain an extensive qualification and performan…"
+   },
+   {
+    "chunk_id": "ch_b9d9e18c46aae634",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 6,
+    "text": "installation and operational approvals. These requirements are generally administered by the national aviation authorities of each country and, in the case of Europe, coordinated by the European Union Aviation Safety Agency. Environmental. We are subject to various federal, state, local and non-U.S. laws and regulations relating to environmental protection, including the discharge, treatment, storage, disposal and remediation of hazardous substances and wastes. We could also be affected by laws and regulations relating to climate change, including laws limiting or otherwise related to greenhouse gas emissions. These laws and regulations could lead to increased environmental compliance expenditures, increased energy and raw materials costs and new and/or additional investment in designs and technologies. We continually assess our compliance status and management of environmental matters to ensure our operations are in compliance with all applicable environmental laws and regulations. In…"
+   },
+   {
+    "chunk_id": "ch_b6b6178da4cbabd7",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 8,
+    "text": "Table of Contents Forward-looking statements are based on expectations and assumptions that we believe to be reasonable when made, but that may not prove to be accurate. These statements are not guarantees and are subject to risks, uncertainties and changes in circumstances that are difficult to predict. Many factors, including those set forth in the “Risk Factors” section below and other important factors disclosed in this report and from time to time in our other filings with the SEC, could cause actual results to differ materially and adversely from these forward-looking statements. Any forward-looking statement speaks only as of the date on which it is made, and we assume no obligation to update or revise any forward- looking statement whether as a result of new information, future events or otherwise, except as required by law."
+   },
+   {
+    "chunk_id": "ch_9e36ed69de9be803",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 6,
+    "text": "including regulations relating to import-export control, tariffs, investment, exchange controls, anti-corruption and repatriation of earnings. Non- U.S. sales are also subject to varying currency, political and economic risks. Raw Materials, Parts and Subassemblies We are highly dependent on the availability of essential materials, parts and subassemblies from our suppliers and subcontractors. The most important raw materials required for our aerospace products 4"
+   }
+  ]
+ }
+}

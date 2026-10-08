@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "By what percentage did Boeing's net cash provided by operating activities change from fiscal year 2021 to fiscal year 2022? Give the percentage rounded to one decimal place.",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_6062c86cf713a95e",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 42,
+    "text": "9,324 (18,366) Net cash (used)/provided by financing activities (1,266) (5,600) 34,955 Effect of exchange rate changes on cash and cash equivalents (73) (39) 85 Net increase/(decrease) in cash & cash equivalents, including restricted 6,543 269 (1,736) Cash & cash equivalents, including restricted, at beginning of year 8,104 7,835 9,571 Cash & cash equivalents, including restricted, at end of year $14,647 $8,104 $7,835 Operating Activities Net cash provided by operating activities was $3.5 billion during 2022, compared with net cash used by operating activities of $3.4 billion during 2021. The $6.9 billion improvement in cash provided by operating activities in 2022 is primarily driven by improved changes in assets and liabilities of $11.1 billion, partially offset by lower non-cash items of $3.4 billion and higher net loss of $0.8 billion. Changes in assets and liabilities for 2022 improved by $11.1 billion compared with 2021 primarily driven by favorable changes in Accrued liabilities…"
+   },
+   {
+    "chunk_id": "ch_cd8460afdb066257",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 27,
+    "text": "Table of Contents Other Earnings Items (Dollars in millions) Years ended December 31, 2022 2021 2020 Loss from operations ($3,547) ($2,902) ($12,767) Other income, net 1,058 551 447 Interest and debt expense (2,533) (2,682) (2,156) Loss before income taxes (5,022) (5,033) (14,476) Income tax (expense)/benefit (31) 743 2,535 Net loss from continuing operations (5,053) (4,290) (11,941) Less: net loss attributable to noncontrolling interest (118) (88) ($68) Net loss attributable to Boeing Shareholders ($4,935) ($4,202) ($11,873) Non-operating pension income included in Other income, net was $881 million in 2022, $528 million in 2021, and $340 million in 2020. The increased income in 2022 compared to 2021 was primarily due to lower amortization of net actuarial losses in 2022 and a settlement loss recorded in 2021. The increased income in 2021 compared to 2020 was primarily due to lower interest cost and higher expected return on plan assets, partially offset by higher amortization of net …"
+   },
+   {
+    "chunk_id": "ch_927e945230de288c",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 43,
+    "text": "Table of Contents payment in 2021 consistent with the terms of the Deferred Prosecution Agreement between Boeing and the U.S. Department of Justice. Concessions paid to 737 MAX customers totaled $1.0 billion and $2.5 billion during 2022 and 2021. Growth in Accounts Payable in 2022 is a source of cash while reductions in Accounts Payable in 2021 were a use of cash generally reflecting increases in production rates. Inventory improvements were driven by higher 737 MAX deliveries and resumption of 787 deliveries in 2022. Additionally, in 2022 and 2021 we received income tax refunds of $1.5 billion and $1.7 billion. Cash provided by Advances and progress billings was $0.1 billion in 2022, as compared with $2.5 billion of cash provided in 2021. The $3.4 billion reduction in non-cash items in 2022 is primarily driven by the $3.5 billion reach-forward loss on the 787 program that was recorded in 2021. Net loss for 2022 was $5.1 billion compared with net loss of $4.3 billion in 2021. The $0.8 …"
+   },
+   {
+    "chunk_id": "ch_c0ec956f9687e5a4",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 59,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Cash Flows (Dollars in millions) Years ended December 31, 2022 2021 2020 Cash flows – operating activities: Net loss ($5,053) ($4,290) ($11,941) Adjustments to reconcile net loss to net cash used by operating activities: Non-cash items – Share-based plans expense 725 833 250 Treasury shares issued for 401(k) contribution 1,215 1,233 195 Depreciation and amortization 1,979 2,144 2,246 Investment/asset impairment charges, net 112 98 410 Customer financing valuation adjustments 37 12 Gain on dispositions, net (6) (277) (202) 787 and 777X reach-forward losses 3,460 6,493 Other charges and credits, net 364 360 1,462 Changes in assets and liabilities – Accounts receivable 142 (713) 909 Unbilled receivables 6 (586) 919 Advances and progress billings 108 2,505 (1,060) Inventories 420 (1,127) (11,002) Other current assets (591) 345 372 Accounts payable 838 (3,783) (5,363) Accrued liabilities 2,956 (3,687) 1,074 Inc…"
+   },
+   {
+    "chunk_id": "ch_32fca80fc1ad4fcb",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 43,
+    "text": "2022 and declined by $1.5 billion and $1.9 billion in 2021 and 2020. Supply chain financing is not material to our overall liquidity. The declines in 2021 and 2020 were primarily due to reductions in commercial purchases from suppliers. Investing Activities Cash provided by investing activities during 2022 was $4.4 billion, compared with cash provided by investing activities of $9.3 billion during 2021 and cash used by investing activities of $18.4 billion during 2020. The decrease in cash inflows in 2022 compared to 2021 is primarily due to $5.6 billion of net proceeds from investments compared to $9.8 billion in 2021. The increase in cash inflows in 2021 compared to 2020 is primarily due to $27.1 billion of higher net proceeds from investments. Capital expenditures totaled $1.2 billion in 2022, compared with $1.0 billion in 2021 and $1.3 billion in 2020. We expect capital expenditures in 2023 to be higher than in 2022. Financing Activities Cash used by financing activities was $1.3 b…"
+   },
+   {
+    "chunk_id": "ch_49c7cb1e23bdcc16",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 43,
+    "text": "to inventory, as well as $1.2 billion of treasury shares issued to fund Company contributions to the 401(k) plan and $0.8 billion of share-based plans expense reflecting a one-time stock grant to most employees in lieu of 2021 salary increases. The changes in assets and liabilities reflect the significant increase in commercial aircraft inventory in 2020 driven by lower deliveries due to the COVID-19 pandemic and the 737 MAX grounding. In 2021, inventory growth slowed as the continued buildup of 787 aircraft caused by production issues and 777X inventory growth was partially offset by a decrease in 737 MAX inventory following the resumption of deliveries. Compensation payments to 737 MAX customers totaled $2.5 billion in 2021 and $2.2 billion in 2020. In the first quarter of 2021, we paid $0.7 billion consistent with the terms of the Deferred Prosecution Agreement between Boeing and the U.S. Department of Justice. Additionally, in 2021, we received income tax refunds of $1.7 billion. C…"
+   },
+   {
+    "chunk_id": "ch_e375bef8529b86a7",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 76,
+    "text": "Table of Contents Note 4 – Income Taxes The components of Loss before income taxes were: Years ended December 31, 2022 2021 2020 U.S. ($5,457) ($5,475) ($14,882) Non-U.S. 435 442 406 Total ($5,022) ($5,033) ($14,476) Income tax (benefit)/expense consisted of the following: Years ended December 31, 2022 2021 2020 Current tax (benefit)/expense U.S. federal ($58) ($89) ($3,968) Non-U.S. 142 147 148 U.S. state (42) 42 21 Total current 42 100 (3,799) Deferred tax (benefit)/expense U.S. federal (62) (855) 652 Non-U.S. (3) (12) U.S. state 54 24 612 Total deferred (11) (843) 1,264 Total income tax expense/(benefit) $31 ($743) ($2,535) Net income tax (refunds)/payments were ($1,317), ($1,480) and $37 in 2022, 2021 and 2020, respectively. 72"
+   },
+   {
+    "chunk_id": "ch_5d78669497b1d576",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 24,
+    "text": "Table of Contents Consolidated Results of Operations The following table summarizes key indicators of consolidated results of operations: (Dollars in millions, except per share data) Years ended December 31, 2022 2021 2020 Revenues $66,608 $62,286 $58,158 GAAP Loss from operations ($3,547) ($2,902) ($12,767) Operating margins (5.3) % (4.7) % (22.0) % Effective income tax rate (0.6) % 14.8 % 17.5 % Net loss attributable to Boeing Shareholders ($4,935) ($4,202) ($11,873) Diluted loss per share ($8.30) ($7.15) ($20.88) Non-GAAP Core operating loss ($4,690) ($4,075) ($14,150) Core operating margins (7.0 %) (6.5 %) (24.3 %) Core loss per share ($11.06) ($9.44) ($23.25) These measures exclude certain components of pension and other postretirement benefit expense. See pages 45 - 47 for important information about these non-GAAP measures and reconciliations to the most directly comparable GAAP measures. Revenues The following table summarizes Revenues: (Dollars in millions) Years ended Decembe…"
+   }
+  ]
+ }
+}

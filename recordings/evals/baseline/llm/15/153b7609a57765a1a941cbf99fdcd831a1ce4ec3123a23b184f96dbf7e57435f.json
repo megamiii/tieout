@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the text mentions that concentrations of credit risk with respect to trade receivables are limited because a large number of geographically diverse customers make up the company's customer base, and that one customer accounted for approximately 18% of the total consolidated accounts receivable balance as of December 31, 2022 (implied by Note 10 in the FY2022 10-K).\",\n  \"confidence\": 0.85,\n  \"citations\": [{\"source_id\": \"ch_01fe8fea89768e09\", \"quote\": \"The Company believes that concentrations of credit risk with respect to trade receivables are limited because a large number of geographically diverse customers make up the Company's customer base, thus diluting the trade credit risk. One customer accounted for approximately 18% of the total consolidated accounts receivable balance as of De…\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T73uURU9HD0SDEqGwTzi1RGH5+ZndOFns4Bw2oqAX99YIV6Zcd9HTcBn0aQLNuKceCYUURcPHG3Xqvs76noQnrZMF4wE5vJ6acDI+H2RNSZDueeDW8eaFGEU="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492678,
+  "id": "OgLIar3EDpzyxN8P0a-HyAg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 212,
+   "prompt_tokens": 2085,
+   "total_tokens": 2297
+  }
+ }
+}

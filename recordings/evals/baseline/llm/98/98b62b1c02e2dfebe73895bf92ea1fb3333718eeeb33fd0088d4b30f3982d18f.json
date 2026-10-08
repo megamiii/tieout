@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"$16,525 million\",\n  \"confidence\": 1.0,\n  \"citations\": [{\"source_id\": \"ch_0da7064d2a288d6f\", \"quote\": \"Total current assets 16,525 15,134\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tgjt5qzwKE9MckidoYEZiRcYdq9JEV1QQ7SKnJOp2aKaJ/iljT96I/V80PcciC0jxdLa6bGfFQCrWAs8h2XYEpm8xDk15TwXJ7CcQEgrtPWtw8aHwMeBCoOg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492803,
+  "id": "wgLIasntLp3S28oPkNON-Qw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 88,
+   "prompt_tokens": 2825,
+   "total_tokens": 2913
+  }
+ }
+}

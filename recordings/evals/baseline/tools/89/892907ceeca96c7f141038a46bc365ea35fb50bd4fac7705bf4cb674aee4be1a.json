@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "In agreement with the information outlined in the income statement, what is the FY2015 - FY2017 3 year average net profit margin (as a %) for Best Buy? Answer in units of percents and round to one decimal place.",
+  "ticker": "BBY",
+  "fiscal_year": 2017,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_2dacb6c7aaf85cb3",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 91,
+    "text": "$ 2,112 $ 2,951 $ 9,191 Operating income (6) 86 288 230 771 1,375 Net earnings from continuing operations 37 164 129 477 807 Gain (loss) from discontinued operations, net of tax 92 — (4) 2 90 Net earnings attributable to Best Buy Co., Inc. shareholders 129 164 125 479 897 Diluted earnings (loss) per share (4) Continuing operations $ 0.10 $ 0.46 $ 0.37 $ 1.39 $ 2.30 Discontinued operations 0.26 — (0.01) 0.01 0.26 Diluted earnings per share $ 0.36 $ 0.46 $ 0.36 $ 1.40 $ 2.56 (1) Our comparable sales calculation compares revenue from stores, websites and call centers operating for at least 14 full months, as well as revenue related to certain other comparable sales channels for a particular period to the corresponding period in the prior year. Relocated stores, as well as remodeled, expanded and downsized stores closed more than 14 days, are excluded from our comparable sales calculation until at least 14 full months after reopening. Acquisitions are included in the comparable sales calcu…"
+   },
+   {
+    "chunk_id": "ch_61b6b687cc4204aa",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 91,
+    "text": "Table of Contents 13. Quarterly Financial Information (Unaudited) The following tables show selected operating results for each 3-month quarter and full year of fiscal 2017 and 2016 (unaudited) ($ in millions): Quarter 12-Month 1st 2nd 3rd 4th 2017 Revenue $ 8,443 $ 8,533 $ 8,945 $ 13,482 $ 39,403 Comparable sales % change (1) (0.1)% 0.8% 1.8% (0.7)% 0.3% Gross profit (2) $ 2,145 $ 2,062 $ 2,203 $ 3,030 $ 9,440 Operating income (3) 372 289 312 881 1,854 Net earnings from continuing operations 226 182 192 607 1,207 Gain from discontinued operations, net of tax 3 16 2 — 21 Net earnings attributable to Best Buy Co., Inc. shareholders 229 198 194 607 1,228 Diluted earnings per share (4) Continuing operations $ 0.69 $ 0.56 $ 0.60 $ 1.91 $ 3.74 Discontinued operations 0.01 0.05 0.01 — 0.07 Diluted earnings per share $ 0.70 $ 0.61 $ 0.61 $ 1.91 $ 3.81 Quarter 12-Month 1st 2nd 3rd 4th 2016 Revenue $ 8,558 $ 8,528 $ 8,819 $ 13,623 $ 39,528 Comparable sales % change (1) 0.6% 3.8% 0.8% (1.7)% 0.5…"
+   },
+   {
+    "chunk_id": "ch_f273bf4d61aa2331",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 7",
+    "page": 31,
+    "text": "Table of Contents Consolidated Results The following table presents selected consolidated financial data for each of the past three fiscal years ($ in millions, except per share amounts): Consolidated Performance Summary 2017 2016 2015 Revenue $ 39,403 $ 39,528 $ 40,339 Revenue % decline (0.3)% (2.0)% (0.7)% Comparable sales % gain (1) 0.3 % 0.5 % 0.5 % Comparable sales % gain (decline), excluding estimated impact of installment billing (1)(2) n/a (0.1)% — % Restructuring charges - cost of goods sold $ — $ 3 $ — Gross profit $ 9,440 $ 9,191 $ 9,047 Gross profit as a % of revenue (3) 24.0 % 23.3 % 22.4 % SG&A $ 7,547 $ 7,618 $ 7,592 SG&A as a % of revenue 19.2 % 19.3 % 18.8 % Restructuring charges $ 39 $ 198 $ 5 Operating income $ 1,854 $ 1,375 $ 1,450 Operating income as a % of revenue 4.7 % 3.5 % 3.6 % Net earnings from continuing operations $ 1,207 $ 807 $ 1,246 Gain (loss) from discontinued operations (4) $ 21 $ 90 $ (13) Net earnings attributable to Best Buy Co., Inc. shareholders …"
+   },
+   {
+    "chunk_id": "ch_8f7d600ddcdf2b39",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Table of Contents (1) Non-comparable sales reflects the impact of net store opening and closing activity, as well as the impact of revenue streams not included within our comparable sales calculation, such as profit share revenue, credit card revenue, gift card breakage, commercial sales and sales of merchandise to wholesalers and dealers. The net store changes did not have a material impact on our revenue in fiscal 2017, as the majority of closures related to our small-format Best Buy Mobile stand- alone stores. The closing of small-format Best Buy Mobile stores have a significantly smaller impact given their smaller size and limited category focus compared to our large-format stores. The profit-share revenue included in our non-comparable sales relate to our extended warranty protection plans that are managed by a third party underwriter. We may be eligible to receive profit-sharing payments, depending on the performance of the portfolio. When performance of the portfolio is strong a…"
+   },
+   {
+    "chunk_id": "ch_a4689a3f27c2406a",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 81,
+    "text": "Table of Contents The following table presents a reconciliation of the numerators and denominators of basic and diluted earnings per share from continuing operations attributable to Best Buy Co., Inc. in fiscal 2017 , 2016 and 2015 ($ and shares in millions, except per share amounts): 2017 2016 2015 Numerator (in millions): Net earnings from continuing operations attributable to Best Buy Co., Inc., shareholders $ 1,207 $ 807 $ 1,246 Denominator (in millions): Weighted-average common shares outstanding 318.5 346.5 349.5 Effect of potentially dilutive securities: Stock options and other 4.1 4.2 4.1 Weighted-average common shares outstanding, assuming dilution 322.6 350.7 353.6 Net earnings per share from continuing operations attributable to Best Buy Co., Inc. shareholders Basic $ 3.79 $ 2.33 $ 3.57 Diluted $ 3.74 $ 2.30 $ 3.53 Repurchase of Common Stock In June 2011, our Board of Directors authorized a $5.0 billion share repurchase program. There is no expiration date governing the peri…"
+   },
+   {
+    "chunk_id": "ch_c52da7a156b1a9e9",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Diluted earnings (loss) per share attributable to Best Buy Co., Inc. shareholders Continuing operations $ 3.74 $ 2.30 $ 3.53 Discontinued operations 0.07 0.26 (0.04) Diluted earnings per share $ 3.81 $ 2.56 $ 3.49 Weighted-average common shares outstanding Basic 318.5 346.5 349.5 Diluted 322.6 350.7 353.6 See Notes to Consolidated Financial Statements. 54"
+   },
+   {
+    "chunk_id": "ch_39fa9c684e279a79",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 7",
+    "page": 33,
+    "text": "Domestic segment revenue of $36.2 billion in fiscal 2017 decreased 0.3% compared to the prior year. The components of the 0.3% revenue decrease in the Domestic segment in fiscal 2017 were as follows: Comparable sales impact 0.2 % Non-comparable sales (1) (0.5)% Total revenue decrease (0.3)% 31"
+   },
+   {
+    "chunk_id": "ch_b4d7b36ca4cc4809",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 5",
+    "page": 25,
+    "text": "Table of Contents Best Buy Stock Comparative Performance Graph The information contained in this Best Buy Stock Comparative Performance Graph section shall not be deemed to be \"soliciting material\" or \"filed\" or incorporated by reference in future filings with the SEC, or subject to the liabilities of Section 18 of the Exchange Act, except to the extent that we specifically incorporate it by reference into a document filed under the Securities Act or the Exchange Act. The graph below compares the cumulative total shareholder return on our common stock for the last five fiscal years with the cumulative total return on the Standard & Poor's 500 Index (\"S&P 500\"), of which we are a component, and the Standard & Poor's Retailing Group Industry Index (\"S&P Retailing Group\"), of which we are also a component. The S&P Retailing Group is a capitalization-weighted index of domestic equities traded on the NYSE and NASDAQ and includes high-capitalization stocks representing the retail sector of t…"
+   }
+  ]
+ }
+}

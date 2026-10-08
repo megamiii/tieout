@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "By drawing conclusions from the information stated only in the statement of financial position, what is General Mills's FY2020 working capital ratio? Define working capital ratio as total current assets divided by total current liabilities. Round your answer to two decimal places.",
+  "ticker": "GIS",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_63241075a35e108d",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 50,
+    "text": "50 Consolidated Balance Sheets GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions, Except Par Value) May 31, 2020 May 26, 2019 ASSETS Current assets: Cash and cash equivalents $ 1,677.8 $ 450.0 Receivables 1,615.1 1,679.7 Inventories 1,426.3 1,559.3 Prepaid expenses and other current assets 402.1 497.5 Total current assets 5,121.3 4,186.5 Land, buildings, and equipment 3,580.6 3,787.2 Goodwill 13,923.2 13,995.8 Other intangible assets 7,095.8 7,166.8 Other assets 1,085.8 974.9 Total assets $ 30,806.7 $ 30,111.2 LIABILITIES AND EQUITY Current liabilities: Accounts payable $ 3,247.7 $ 2,854.1 Current portion of long-term debt 2,331.5 1,396.5 Notes payable 279.0 1,468.7 Other current liabilities 1,633.3 1,367.8 Total current liabilities 7,491.5 7,087.1 Long-term debt 10,929.0 11,624.8 Deferred income taxes 1,947.1 2,031.0 Other liabilities 1,545.0 1,448.9 Total liabilities 21,912.6 22,191.8 Redeemable interest 544.6 551.7 Stockholders' equity: Common stock, 754.6 shares issued, $0.10 par v…"
+   },
+   {
+    "chunk_id": "ch_33cb408a8b32664f",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 27,
+    "text": "During fiscal 2020, cash provided by operations was $3,676 million compared to $2,807 million in the same period last year. The $869 million increase was primarily driven by an $801 million change in current assets and liabilities and a $425 million increase in net earnings, partially offset by a $192 million change in non-cash restructuring, impairment, and other exit costs and a $123 million change in deferred income taxes. The $801 million change in current assets and liabilities was primarily driven by a $233 million change in other current liabilities, primarily driven by changes in income taxes payable, trade and advertising accruals, and incentive accruals, a $230 million change in accounts payable as a result of increased spending on raw materials and packaging as well as the continued extension of payment terms, and a $208 million change in prepaid and other current assets, primarily driven by the timing of certain tax payments and receipts. We strive to grow core working capi…"
+   },
+   {
+    "chunk_id": "ch_962446b223521a31",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 53,
+    "text": "53 Notes to Consolidated Financial Statements GENERAL MILLS, INC. AND SUBSIDIARIES NOTE 1. BASIS OF PRESENTATION AND RECLASSIFICATIONS Basis of Presentation Our Consolidated Financial Statements include the accounts of General Mills, Inc. and all subsidiaries in which we have a controlling financial interest. Intercompany transactions and accounts, including any noncontrolling and redeemable interests' share of those transactions, are eliminated in consolidation. Our fiscal year ends on the last Sunday in May. Fiscal year 2020 consisted of 53 weeks, while fiscal years 2019 and 2018 consisted of 52 weeks. Certain reclassifications to our previously reported financial information have been made to conform to the current period presentation. See Note 2 for additional information. Change in Reporting Period As part of a long-term plan to conform the fiscal year ends of all our operations, in fiscal 2020 we changed the reporting period of our Pet segment from an April fiscal year-end to a M…"
+   },
+   {
+    "chunk_id": "ch_ca1ddef1a8211dd0",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 6",
+    "page": 17,
+    "text": "2,807.0 $ 2,841.0 $ 2,415.2 $ 2,764.2 Capital expenditures 460.8 537.6 622.7 684.4 729.3 Free cash flow (b) 3,215.4 2,269.4 2,218.3 1,730.8 2,034.9 Share data: Cash dividends per common share $ 1.96 $ 1.96 $ 1.96 $ 1.92 $ 1.78 (a) Fiscal 2020 was a 53-week year; all other fiscal years were 52 weeks. (b) See “Glossary” in Item 8 of this report for definition. (c) See “Non-GAAP Measures” in Item 7 of this report for our discussion of this measure not defined by generally accepted accounting principles. (d) In fiscal 2019, we retrospectively adopted new accounting requirements related to the presentation of net periodic defined benefit pension expense, net periodic postretirement benefit expense, and net periodic postemployment benefit expense. Please see Note 2 to the Consolidated Financial Statements in Item 8 of this report. (e) In fiscal 2018, we adopted new requirements for the accounting and presentation of stock-based payments. This resulted in the reclassification of realized wind…"
+   },
+   {
+    "chunk_id": "ch_b6f5de2cc64fc761",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 66,
+    "text": "- (11.6) - (11.6) Derivatives not designated as hedging instruments: Foreign exchange contracts (a) (c) - 18.8 - 18.8 - (0.2) - (0.2) Commodity contracts (a) (d) 4.6 1.6 - 6.2 (3.4) (26.7) - (30.1) Grain contracts (a) (d) - 5.0 - 5.0 - (1.2) - (1.2) Total 4.6 25.4 - 30.0 (3.4) (28.1) - (31.5) Other assets and liabilities reported at fair value: Marketable investments (a) (e) 4.9 56.7 - 61.6 - - - - Total 4.9 56.7 - 61.6 - - - - Total assets, liabilities, and derivative positions recorded at fair value $ 9.5 $ 107.5 $ - $ 117.0 $ (3.4) $ (39.7) $ - $ (43.1) (a) These contracts and investments are recorded as prepaid expenses and other current assets, other assets, other current liabilities or other liabilities, as appropriate, based on whether in a gain or loss position. Certain marketable investments are recorded as cash and cash equivalents. (b) Based on LIBOR and swap rates. As of May 31, 2020, the carrying amount of hedged debt designated as the hedged item in a fair value hedge was…"
+   },
+   {
+    "chunk_id": "ch_a1425333f7237b56",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 19,
+    "text": "19 attributable to redeemable and noncontrolling interests. We also returned cash to shareholders through dividends totaling $1.2 billion and reduced total debt outstanding by $1.0 billion. Our ratio of net debt-to-operating cash flow was 3.2 in fiscal 2020, and our net debt- to-adjusted earnings before net interest, income taxes, depreciation and amortization (net debt-to-adjusted EBITDA) ratio was 3.2, which was favorable to our fiscal 2020 target of 3.5 (See the “Non-GAAP Measures” section below for a description of our use of measures not defined by GAAP). A detailed review of our fiscal 2020 performance compared to fiscal 2019 appears below in the section titled “Fiscal 2020 Consolidated Results of Operations.” A detailed review of our fiscal 2019 performance compared to our fiscal 2018 performance is set forth in Part II, Item 7 of our Form 10-K for the fiscal year ended May 26, 2019 under the caption “Management's Discussion and Analysis of Financial Condition and Results of Ope…"
+   },
+   {
+    "chunk_id": "ch_d8b3d4cc6923d348",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 97,
+    "text": "97 Strategic Revenue Management (SRM). A company-wide capability focused on generating sustainable benefits from net price realization and mix by identifying and executing against specific opportunities to apply tools including pricing, sizing, mix management, and promotion optimization across each of our businesses. Supply chain input costs. Costs incurred to produce and deliver product, including costs for ingredients and conversion, inventory management, logistics, and warehousing. TCJA. U.S. Tax Cuts and Jobs Act which was signed into law on December 22, 2017. Total debt. Notes payable and long-term debt, including current portion. Translation adjustments. The impact of the conversion of our foreign affiliates' financial statements to United States dollars for the purpose of consolidating our financial statements. Variable interest entities (VIEs). A legal structure that is used for business purposes that either (1) does not have equity investors that have voting rights and share i…"
+   },
+   {
+    "chunk_id": "ch_b778dabd713b28aa",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 29,
+    "text": "29 CAPITAL RESOURCES Total capital consisted of the following: In Millions May 31, 2020 May 26, 2019 Notes payable $ 279.0 $ 1,468.7 Current portion of long-term debt 2,331.5 1,396.5 Long-term debt 10,929.0 11,624.8 Total debt 13,539.5 14,490.0 Redeemable interest 544.6 551.7 Noncontrolling interests 291.0 313.2 Stockholders' equity 8,058.5 7,054.5 Total capital $ 22,433.6 $ 22,409.4 The following table details the fee-paid committed and uncommitted credit lines we had available as of May 31, 2020: In Billions Facility Amount Borrowed Amount Credit facility expiring: May 2022 $ 2.7 $ - September 2022 0.2 - Total committed credit facilities 2.9 - Uncommitted credit facilities 0.6 0.2 Total committed and uncommitted credit facilities $ 3.5 $ 0.2 To ensure availability of funds, we maintain bank credit lines and have commercial paper programs available to us in the United States and Europe. In response to uncertainty surrounding the availability and cost of commercial paper borrowings as …"
+   }
+  ]
+ }
+}

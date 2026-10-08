@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What was Amcor's operating income in fiscal year 2020? Answer in USD millions.",
+  "ticker": "AMCR",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_c0cf187589fb85b7",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 28,
+    "text": "Results of Operations The following is a discussion and analysis of changes in the financial condition and results of operations for fiscal year 2020 compared to fiscal year 2019. A discussion and analysis regarding our results of operations for fiscal year 2019 compared to fiscal year 2018 that are not included in this Annual Report on Form 10-K can be found in Part II, Item 7 of our Annual Report on Form 10-K for the fiscal year ended June 30, 2019, filed with the SEC on September 3, 2019. Consolidated Results of Operations (in millions) 2020 2019 Net sales $ 12,467.5 $ 9,458.2 Operating income 994.0 791.7 Operating profit as a percentage of net sales 8.0 % 8.4 % Net income attributable to Amcor plc $ 612.2 $ 430.2 Diluted Earnings Per Share $ 0.382 $ 0.363 Net sales increased $3,009.3 million, or 31.8%, to $12,467.5 million for the fiscal year 2020, from $9,458.2 million for the fiscal year 2019. Excluding negative currency impacts of $274.0 million, or (2.9%), and pass-through of l…"
+   },
+   {
+    "chunk_id": "ch_4da5a7022574af86",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 48,
+    "text": "Amcor plc and Subsidiaries Consolidated Statement of Income (in millions, except per share data) For the years ended June 30, 2020 2019 2018 Net sales $ 12,467.5 $ 9,458.2 $ 9,319.1 Cost of sales (9,932.0) (7,659.1) (7,462.3) Gross profit 2,535.5 1,799.1 1,856.8 Operating expenses: Selling, general, and administrative expenses (1,384.8) (999.0) (793.2) Research and development expenses (97.3) (64.0) (72.7) Restructuring and related expenses (115.1) (130.8) (40.2) Other income, net 55.7 186.4 43.2 Operating income 994.0 791.7 993.9 Interest income 22.2 16.8 13.1 Interest expense (206.9) (207.9) (210.0) Other non-operating income (loss), net 15.9 3.5 (74.1) Income from continuing operations before income taxes and equity in income (loss) of affiliated companies 825.2 604.1 722.9 Income tax expense (186.9) (171.5) (118.8) Equity in income (loss) of affiliated companies, net of tax (14.0) 4.1 (17.5) Income from continuing operations 624.3 436.7 586.6 Income (loss) from discontinued operati…"
+   },
+   {
+    "chunk_id": "ch_167519ca8a884d81",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Consolidated Other Income, Net (in millions) 2020 2019 Other income, net $ 55.7 $ 186.4 Other income, net, as a percentage of net sales 0.4 % 2.0 % Other income, net decreased by $130.7 million to $55.7 million for fiscal year 2020, from $186.4 million for fiscal year 2019. The decrease was mainly driven by nonrecurrence of remedy disposal related gains in the fiscal year 2019. Consolidated Interest Income (in millions) 2020 2019 Interest income $ 22.2 $ 16.8 Interest income as a percentage of net sales 0.2 % 0.2 % Interest income increased by $5.4 million, or 32.1%, to $22.2 million for fiscal year 2020, from $16.8 million for fiscal year 2019, mainly driven by higher cash balances during the period and negative interest rates on a portion of Euro denominated borrowings. Consolidated Interest Expense (in millions) 2020 2019 Interest expense $ (206.9) $ (207.9) Interest expense as a percentage of net sales (1.7)% (2.2)% Interest expense remained relatively stable at $206.9 million for …"
+   },
+   {
+    "chunk_id": "ch_46da51bcfbcc4a37",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 112,
+    "text": "0.085 0.120 0.097 0.061 0.363 Income from discontinued operations — — — 0.001 0.001 Net income 0.085 0.120 0.097 0.062 0.364 Diluted earnings per share: (2) Income from continuing operations 0.085 0.120 0.097 0.060 0.362 Income from discontinued operations — — — 0.001 0.001 Net income 0.085 0.120 0.097 0.061 0.363 (1) The fourth quarter of fiscal 2019 reflects the results of Amcor plc, including Bemis results since the acquisition date of June 11, 2019. The earlier quarters solely reflect the results of Amcor Limited. (2) Per share amounts are computed independently for each of the quarters presented. The sum of the quarters may not equal the total year amount due to the impact of changes in average quarterly shares outstanding. Note 24 - Subsequent Events On August 18, 2020, the Company's Board of Directors declared a quarterly cash dividend of $0.115 per share to be paid on September 23, 2020 to shareholders of record as of September 3, 2020. Amcor has received a waiver from the Aust…"
+   },
+   {
+    "chunk_id": "ch_b896130b6ff10c9f",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 109,
+    "text": "Deed of Cross Guarantee Statement of Income (in millions) For the year ended June 30, 2020 2019 Net sales $ 323.6 $ 352.8 Cost of sales (274.1) (301.2) Gross profit 49.5 51.6 Operating expenses (24.5) (164.4) Other income, net 4,167.0 1,138.5 Operating income 4,192.0 1,025.7 Interest income 24.8 34.7 Interest expense (29.9) (80.0) Other non-operating income (loss), net (0.5) 6.9 Income from continuing operations before income taxes 4,186.4 987.3 Income tax credit (22.6) 8.0 Net income $ 4,163.8 $ 995.3 109"
+   },
+   {
+    "chunk_id": "ch_3d0877b6de11b56c",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 51,
+    "text": "Amcor plc and Subsidiaries Consolidated Statement of Cash Flows (in millions) For the years ended June 30, 2020 2019 2018 Cash flows from operating activities: Net income $ 616.6 $ 437.4 $ 586.6 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and impairment 651.6 453.0 357.1 Net periodic benefit cost 9.1 12.5 7.7 Amortization of debt discount and deferred financing costs 8.1 5.8 5.1 Amortization of deferred gain on sale and leasebacks — (7.0) (4.4) Net gain on disposal of property, plant and equipment (3.6) (16.0) (18.2) Gain on disposal of U.S. plants — (159.1) — Equity in (income) loss of affiliated companies 14.0 (4.1) 17.5 Net foreign exchange (gain) loss (16.2) (5.1) 85.9 Share-based compensation 34.0 18.6 21.0 Other, net (0.2) (77.9) 0.4 Loss from hyperinflationary accounting for Argentine subsidiaries 37.9 30.2 — Deferred income taxes, net (113.7) 72.8 (73.5) Dividends received from affiliated companies 7.0 8.3 8.7 Cha…"
+   },
+   {
+    "chunk_id": "ch_0423c4ded30ecc26",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 36,
+    "text": "We had cash outflows of $67.0 million, $20.2 million and $35.7 million for the purchase of our shares in the open market during fiscal years 2020, 2019 and 2018, respectively, as treasury shares to satisfy the vesting and exercises of share-based compensation awards and shares purchased for shareholder settlement in the fourth quarter of fiscal year 2020. As of June 30, 2020, 2019 and 2018, we held treasury shares at cost of $67.0 million, $16.1 million and $10.7 million, representing 6.7 million, 1.4 million and 0.9 million shares, respectively. 36"
+   },
+   {
+    "chunk_id": "ch_137c2480a782d238",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 6",
+    "page": 23,
+    "text": "Other Operating Data Capital expenditures 399.5 332.2 365.0 379.3 346.7 Depreciation and amortization 607.2 349.7 352.7 351.8 351.0 (1) Fiscal year 2020 and 2019 reflects the results of Amcor plc, including Bemis results since the acquisition date of June 11, 2019. The historical periods solely reflect the results of Amcor Limited. (2) Fiscal year 2019 dividends per share include dividends of $0.240 and $0.215 per share declared in August 2018 and February 2019, respectively, along with a pro-rata dividend of $0.120 per share declared in April 2019. The April 2019 dividend was declared to align the period over which dividends had been paid to Amcor and Bemis shareholders prior to completion of the acquisition. 23"
+   }
+  ]
+ }
+}

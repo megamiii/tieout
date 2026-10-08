@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "CVS",
+  "query": "capital expenditures",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "CVS",
+  "concepts": [
+   {
+    "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "label": "Payments to Acquire Property, Plant, and Equipment",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "2727000000",
+      "fact_id": "xf_f2e068915f0ff21b",
+      "reported_in_10k_filed": "2023-02-08"
+     }
+    ]
+   },
+   {
+    "concept": "DeferredPolicyAcquisitionCostsAdditions",
+    "label": "Deferred Policy Acquisition Cost, Capitalization",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "564000000",
+      "fact_id": "xf_aa445998fe225f62",
+      "reported_in_10k_filed": "2024-02-07"
+     }
+    ]
+   }
+  ]
+ }
+}

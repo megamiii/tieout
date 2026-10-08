@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Yes, CVS Health reported ongoing legal battles and charges related to widespread prescription opioid abuse (including the consolidated multidistrict litigation *In re National Prescription Opiate Litigation*, MDL No. 2804, and $5.8 billion in opioid litigation charges recorded in 2022) as well as securities and ERISA litigation regarding its LTC business unit stemming from events between 2017 and 2019, with proceedings extending through 2020, 2021, and 2022.\",\n  \"confidence\": 0.95,\n  \"citations\": [{\"source_id\": \"ch_9abdf33074129ca6\", \"quote\": \"Controlled Substances Litigation, Audits and Subpoenas In December 2017, the U.S. Judicial Panel on Multidistrict Litigation consolidated numerous cases... generally concerning the impacts of widespread prescription opioid abuse. The consolidated multidistrict litigation captioned In re National Prescription Opiate Litigation (MDL No. 2804) is pending...\"}, {\"source_id\": \"ch_b99cfa2af92b530c\", \"quote\": \"investment in company stock between December 3, 2017 and February 20, 2019, claiming losses related to the performance of the Company's LTC business unit... In October 2022, the court granted the Company's motion to dismiss with prejudice. Plaintiffs have appealed this decision to the Second Circuit.\"}, {\"source_id\": \"ch_1c7af47753f1b44c\", \"quote\": \"Opioid litigation charges 5,803 \\u2014 \\u2014 5,803 100.0 % \\u2014 \\u2014 %\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TpQWAawCeGVIBCQjOcBHbtOtQP3JEAKgnEJVe/YZl5ofWqSTv3mTPZQUYqgYYIJwZhXLaa6p0I79/esmjqAn4ar/hsreZSFpzohdhoZsZIMCPYIZAHfiUsI4="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492704,
+  "id": "XwLIauzCGc6c28oPy-mU-Q0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 424,
+   "prompt_tokens": 2596,
+   "total_tokens": 3020
+  }
+ }
+}

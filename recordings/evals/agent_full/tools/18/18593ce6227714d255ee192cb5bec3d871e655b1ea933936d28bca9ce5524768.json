@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Balance Sheets Corning Incorporated",
+  "ticker": "GLW",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_437693e0cfec56a7",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 55,
+    "text": "Table of Contents Corning Incorporated 2022 Annual Report Index to Financial Statements Page Report of Independent Registered Public Accounting Firm (PCAOB ID 238) 56 Consolidated Statements of Income 58 Consolidated Statements of Comprehensive Income 59 Consolidated Balance Sheets 60 Consolidated Statements of Cash Flows 61 Consolidated Statements of Changes in Shareholders' Equity 62 Notes to Consolidated Financial Statements 1. Summary of Significant Accounting Policies 63 2. Restructuring, Impairment and Other Charges and Credits 71 3. HSG Transactions and Acquisitions 73 4. Revenue 74 5. Inventories 75 6. Leases 75 7. Income Taxes 76 8. Property, Plant and Equipment, Net of Accumulated Depreciation 80 9. Goodwill and Other Intangible Assets 80 10. Other Assets and Other Liabilities 81 11. Debt 83 12. Employee Retirement Plans 84 13. Commitments, Contingencies and Guarantees 90 14. Hedging Activities 91 15. Fair Value Measurements 93 16. Shareholders' Equity 94 17. Earnings Per Com…"
+   },
+   {
+    "chunk_id": "ch_0ee4488ab191abf5",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 56,
+    "text": "Table of Contents Report of Independent Registered Public Accounting Firm To the Board of Directors and Shareholders of Corning Incorporated Opinions on the Financial Statements and Internal Control over Financial Reporting We have audited the accompanying consolidated balance sheets of Corning Incorporated and its subsidiaries (the “Company”) as of December 31, 2022 and 2021, and the related consolidated statements of income, comprehensive income, changes in shareholders' equity and cash flows for each of the three years in the period ended December 31, 2022, including the related notes (collectively referred to as the “consolidated financial statements”). We also have audited the Company's internal control over financial reporting as of December 31, 2022, based on criteria established in Internal Control - Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO). In our opinion, the consolidated financial statements referred to…"
+   },
+   {
+    "chunk_id": "ch_bd1f1e1075307850",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 60,
+    "text": "Table of Contents Consolidated Balance Sheets Corning Incorporated and Subsidiary Companies December 31, (in millions, except share and per share amounts) 2022 2021 Assets Current assets: Cash and cash equivalents $ 1,671 $ 2,148 Trade accounts receivable, net of doubtful accounts - $40 and $42 1,721 2,004 Inventories (Note 5) 2,904 2,481 Other current assets (Notes 10 and 14) 1,157 1,026 Total current assets 7,453 7,659 Property, plant and equipment, net of accumulated depreciation - $14,147 and $13,969 (Note 8) 15,371 15,804 Goodwill, net (Note 9) 2,394 2,421 Other intangible assets, net (Note 9) 1,029 1,148 Deferred income taxes (Note 7) 1,073 1,066 Other assets (Notes 10 and 14) 2,179 2,056 Total Assets $ 29,499 $ 30,154 Liabilities and Equity Current liabilities: Current portion of long-term debt and short-term borrowings (Note 11) $ 224 $ 55 Accounts payable 1,804 1,612 Other accrued liabilities (Notes 10 and 13) 3,147 3,139 Total current liabilities 5,175 4,806 Long-term debt (N…"
+   },
+   {
+    "chunk_id": "ch_3c35ec7262d86933",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 91,
+    "text": "into accumulated other comprehensive loss on the consolidated balance sheets until the hedged item impacts earnings. As of December 31, 2022, the amount expected to be reclassified into earnings within the next 12 months is a pre-tax gain of $20 million. Corning has entered into leases of precious metals, with maturities through 2025. To offset the risk of changes in the fair value of the Company's separate accounting pool of leased precious metals due to adverse changes in the respective market prices, Corning designated the bifurcated embedded derivatives included in these leases as fair value hedges. The gain or loss on the derivatives, as well as the offsetting loss or gain on the hedged item attributable to the hedged risk, are recognized in current earnings. The amounts representing the time value component of the derivatives are excluded from the assessment of effectiveness and amortized in earnings. The impact of the excluded component on Corning's other comprehensive income an…"
+   },
+   {
+    "chunk_id": "ch_b938af896677441d",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Table of Contents LIQUIDITY AND CAPITAL RESOURCES Our financial condition and liquidity are strong. We are not aware of any known trends, demands, commitments, events or uncertainties that will result in or that are reasonably likely to result in a material decrease in our liquidity. In addition, other than items discussed, there are no known material trends, favorable or unfavorable, in our capital resources and no expected material changes in the mix of such resources. Our major source of funding for 2023 and beyond will be our operating cash flow, our existing balances of cash and cash equivalents and proceeds from any issuances of debt. We believe we have sufficient liquidity to fund operations, acquisitions, capital expenditures, scheduled debt repayments, dividend payments and share repurchase programs through 2023. We will continue to generate cash from operations and maintain access to our revolving credit facilities and commercial paper programs as discussed in more detail bel…"
+   }
+  ]
+ }
+}

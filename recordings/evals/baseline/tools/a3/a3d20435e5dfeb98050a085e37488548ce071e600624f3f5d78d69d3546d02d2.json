@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What was Best Buy's total revenue in fiscal year 2017? Answer in USD millions.",
+  "ticker": "BBY",
+  "fiscal_year": 2017,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_524ec445adce1b56",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 88,
+    "text": "Table of Contents The following tables present our business segment information in fiscal 2017 , 2016 and 2015 ($ in millions): 2017 2016 2015 Revenue Domestic $ 36,248 $ 36,365 $ 36,055 International 3,155 3,163 4,284 Total revenue $ 39,403 $ 39,528 $ 40,339 Percentage of revenue, by revenue category Domestic Consumer Electronics 34% 32% 31% Computing and Mobile Phones 45% 46% 47% Entertainment 7% 8% 9% Appliances 9% 8% 7% Services 5% 5% 5% Other —% 1% 1% Total 100% 100% 100% International Consumer Electronics 31% 31% 30% Computing and Mobile Phones 48% 48% 49% Entertainment 7% 9% 9% Appliances 6% 5% 5% Services 7% 6% 6% Other 1% 1% 1% Total 100% 100% 100% Operating income (loss) Domestic (1) $ 1,764 $ 1,585 $ 1,437 International 90 (210) 13 Total operating income 1,854 1,375 1,450 Other income (expense) Gain on sale of investments 3 2 13 Investment income and other 31 13 14 Interest expense (72) (80) (90) Earnings from continuing operations before income tax expense $ 1,816 $ 1,310 $…"
+   },
+   {
+    "chunk_id": "ch_39fa9c684e279a79",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 7",
+    "page": 33,
+    "text": "Domestic segment revenue of $36.2 billion in fiscal 2017 decreased 0.3% compared to the prior year. The components of the 0.3% revenue decrease in the Domestic segment in fiscal 2017 were as follows: Comparable sales impact 0.2 % Non-comparable sales (1) (0.5)% Total revenue decrease (0.3)% 31"
+   },
+   {
+    "chunk_id": "ch_5670de4746ecb0cb",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 7",
+    "page": 32,
+    "text": "Table of Contents Fiscal 2017 Results Compared With Fiscal 2016 Consolidated revenue of $39.4 billion in fiscal 2017 decreased 0.3% compared to fiscal 2016. The components of the 0.3% revenue decrease in fiscal 2017 were as follows: Impact of foreign currency exchange rate fluctuations (0.2)% Non-comparable sales (1) (0.3)% Comparable sales impact 0.2 % Total revenue decrease (0.3)% (1) Non-comparable sales reflects the impact of revenue in our International segment for the first through third quarters of fiscal 2017, net store opening and closing activity, as well as, the impact of revenue streams not included within our comparable sales calculation, such as profit share revenue, certain credit card revenue, gift card breakage and sales of merchandise to wholesalers and dealers, as applicable. Our gross profit rate increased 0.7% of revenue in fiscal 2017 . Our Domestic segment contributed a rate increase of 0.5% of revenue, while our International segment contributed 0.2%. For furthe…"
+   },
+   {
+    "chunk_id": "ch_8f7d600ddcdf2b39",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Table of Contents (1) Non-comparable sales reflects the impact of net store opening and closing activity, as well as the impact of revenue streams not included within our comparable sales calculation, such as profit share revenue, credit card revenue, gift card breakage, commercial sales and sales of merchandise to wholesalers and dealers. The net store changes did not have a material impact on our revenue in fiscal 2017, as the majority of closures related to our small-format Best Buy Mobile stand- alone stores. The closing of small-format Best Buy Mobile stores have a significantly smaller impact given their smaller size and limited category focus compared to our large-format stores. The profit-share revenue included in our non-comparable sales relate to our extended warranty protection plans that are managed by a third party underwriter. We may be eligible to receive profit-sharing payments, depending on the performance of the portfolio. When performance of the portfolio is strong a…"
+   },
+   {
+    "chunk_id": "ch_61b6b687cc4204aa",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 91,
+    "text": "Table of Contents 13. Quarterly Financial Information (Unaudited) The following tables show selected operating results for each 3-month quarter and full year of fiscal 2017 and 2016 (unaudited) ($ in millions): Quarter 12-Month 1st 2nd 3rd 4th 2017 Revenue $ 8,443 $ 8,533 $ 8,945 $ 13,482 $ 39,403 Comparable sales % change (1) (0.1)% 0.8% 1.8% (0.7)% 0.3% Gross profit (2) $ 2,145 $ 2,062 $ 2,203 $ 3,030 $ 9,440 Operating income (3) 372 289 312 881 1,854 Net earnings from continuing operations 226 182 192 607 1,207 Gain from discontinued operations, net of tax 3 16 2 — 21 Net earnings attributable to Best Buy Co., Inc. shareholders 229 198 194 607 1,228 Diluted earnings per share (4) Continuing operations $ 0.69 $ 0.56 $ 0.60 $ 1.91 $ 3.74 Discontinued operations 0.01 0.05 0.01 — 0.07 Diluted earnings per share $ 0.70 $ 0.61 $ 0.61 $ 1.91 $ 3.81 Quarter 12-Month 1st 2nd 3rd 4th 2016 Revenue $ 8,558 $ 8,528 $ 8,819 $ 13,623 $ 39,528 Comparable sales % change (1) 0.6% 3.8% 0.8% (1.7)% 0.5…"
+   },
+   {
+    "chunk_id": "ch_6ab5d319e2dd30bf",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 7",
+    "page": 38,
+    "text": "Table of Contents The following table presents the International segment's revenue mix percentages by revenue category in fiscal 2017 and 2016 : Revenue Mix Summary Year Ended January 28, 2017 January 30, 2016 Consumer Electronics 31% 31% Computing and Mobile Phones 48% 48% Entertainment 7% 9% Appliances 6% 5% Services 7% 6% Other 1% 1% Total 100% 100% As noted above, comparable sales information has not been provided for the International segment for fiscal 2017 or 2016 due to the Canadian brand consolidation. As such, it is also impractical to provide such information on a revenue category basis. However, as noted above, the revenue mix by category has not changed significantly from fiscal 2016. Our International segment experienced a gross profit increase of $83 million , or 11.7% , in fiscal 2017 compared to fiscal 2016 . Excluding the impact of foreign currency exchange rate fluctuations, the increase in gross profit was $98 million. The gross profit rate increased to 25.0% in fis…"
+   },
+   {
+    "chunk_id": "ch_f273bf4d61aa2331",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 7",
+    "page": 31,
+    "text": "Table of Contents Consolidated Results The following table presents selected consolidated financial data for each of the past three fiscal years ($ in millions, except per share amounts): Consolidated Performance Summary 2017 2016 2015 Revenue $ 39,403 $ 39,528 $ 40,339 Revenue % decline (0.3)% (2.0)% (0.7)% Comparable sales % gain (1) 0.3 % 0.5 % 0.5 % Comparable sales % gain (decline), excluding estimated impact of installment billing (1)(2) n/a (0.1)% — % Restructuring charges - cost of goods sold $ — $ 3 $ — Gross profit $ 9,440 $ 9,191 $ 9,047 Gross profit as a % of revenue (3) 24.0 % 23.3 % 22.4 % SG&A $ 7,547 $ 7,618 $ 7,592 SG&A as a % of revenue 19.2 % 19.3 % 18.8 % Restructuring charges $ 39 $ 198 $ 5 Operating income $ 1,854 $ 1,375 $ 1,450 Operating income as a % of revenue 4.7 % 3.5 % 3.6 % Net earnings from continuing operations $ 1,207 $ 807 $ 1,246 Gain (loss) from discontinued operations (4) $ 21 $ 90 $ (13) Net earnings attributable to Best Buy Co., Inc. shareholders …"
+   },
+   {
+    "chunk_id": "ch_66f8fe4224ac405b",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Table of Contents Consolidated Statements of Earnings $ and shares in millions, except per share amounts Fiscal Years Ended January 28, 2017 January 30, 2016 January 31, 2015 Revenue $ 39,403 $ 39,528 $ 40,339 Cost of goods sold 29,963 30,334 31,292 Restructuring charges — cost of goods sold — 3 — Gross profit 9,440 9,191 9,047 Selling, general and administrative expenses 7,547 7,618 7,592 Restructuring charges 39 198 5 Operating income 1,854 1,375 1,450 Other income (expense) Gain on sale of investments 3 2 13 Investment income and other 31 13 14 Interest expense (72) (80) (90) Earnings from continuing operations before income tax expense 1,816 1,310 1,387 Income tax expense 609 503 141 Net earnings from continuing operations 1,207 807 1,246 Gain (loss) from discontinued operations (Note 2), net of tax expense of $7, $1 and $0 21 90 (11) Net earnings including noncontrolling interests 1,228 897 1,235 Net earnings from discontinued operations attributable to noncontrolling interests — …"
+   }
+  ]
+ }
+}

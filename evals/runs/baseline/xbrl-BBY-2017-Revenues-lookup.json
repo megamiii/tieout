@@ -1,0 +1,36 @@
+{
+ "item_id": "xbrl-BBY-2017-Revenues-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "$39,403 million in fiscal year 2017",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_f273bf4d61aa2331",
+   "quote": "Revenue $ 39,403 $ 39,528 $ 40,339",
+   "kind": "chunk",
+   "ticker": "BBY",
+   "fiscal_year": 2017,
+   "section": "Item 7",
+   "page": 31,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2879,
+ "completion_tokens": 103,
+ "latency_ms": 995.1,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$39,403 matches 39403 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

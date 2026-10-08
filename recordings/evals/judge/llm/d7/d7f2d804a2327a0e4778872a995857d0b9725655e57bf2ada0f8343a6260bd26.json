@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly concludes that the gross margin is not improving and provides accurate supporting data that aligns with the gold answer's figures.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TRfNq6KsYyPH/jAkVbxlJG6xnsVJrvEq+Cc91a1cxTUvCAlUCerceeR4ylsyaechjgYYoj9c6HG77gbXJicTPFIIILWJTeK6uJLRchO3yohEO6S6ndwpKL3nBOclxiVcgNgw5lnjLfwYW4ckA"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791495470,
+  "id": "Kg3Iaqe0LJy2vdIP0-n1-A0",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 335,
+   "total_tokens": 373
+  }
+ }
+}

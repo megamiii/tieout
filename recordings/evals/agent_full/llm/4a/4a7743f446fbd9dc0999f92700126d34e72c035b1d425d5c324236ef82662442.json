@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TpyDV737iP0/wAWihRMumb46ROKPWWF84OqRsBm5Gfn67ekp1DWghcfuN7zEt76HbRVZ5NToZ9WwEncJnPUHs6eTn30DzuHisFAZ6rh+3a6H1thMeaO8EUV0="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"citations\":[{\"quote\":\"322467000000\",\"source_id\":\"xf_b44fb71e14418824\"},{\"source_id\":\"xf_f2e068915f0ff21b\",\"quote\":\"2727000000\"},{\"source_id\":\"xf_96763fb04244e688\",\"quote\":\"12873000000\"},{\"quote\":\"228275000000\",\"source_id\":\"xf_cd29bfea0d414de2\"}],\"rationale\":\"The computed capex-to-revenue ratio (0.85%) and net PPE-to-total-assets ratio (5.64%) demonstrate that CVS Health has relatively low capital intensity relative to its massive scale of operations and total asset base in FY2022.\",\"answer\":\"Based on FY2022 data, CVS Health is generally not considered highly capital-intensive. In FY2022, CVS reported total revenues of $322,467 million and capital expenditures (payments to acquire property, plant, and equipment) of $2,727 million, representing a capex-to-revenue ratio of approximately 0.85%. Additionally, its net property, plant, and equipment of $12,873 million represented about 5.64% of total assets of $228,275 million.\",\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_1020002",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791495268,
+  "id": "YwzIaq3eCLmF28oPtf_QsAg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 372,
+   "prompt_tokens": 3593,
+   "total_tokens": 3965
+  }
+ }
+}

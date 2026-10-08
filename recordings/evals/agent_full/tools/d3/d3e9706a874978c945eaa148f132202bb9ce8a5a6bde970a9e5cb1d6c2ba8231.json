@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "VZ",
+  "query": "property, plant and equipment",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "VZ",
+  "concepts": [
+   {
+    "concept": "PropertyPlantAndEquipmentNet",
+    "label": "Property, Plant and Equipment, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "107434000000",
+      "fact_id": "xf_fa57b922b803aa34",
+      "reported_in_10k_filed": "2023-02-10"
+     }
+    ]
+   },
+   {
+    "concept": "PropertyPlantAndEquipmentGross",
+    "label": "Property, Plant and Equipment, Gross",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "307689000000",
+      "fact_id": "xf_dd5c5c68158ce7c1",
+      "reported_in_10k_filed": "2023-02-10"
+     }
+    ]
+   }
+  ]
+ }
+}

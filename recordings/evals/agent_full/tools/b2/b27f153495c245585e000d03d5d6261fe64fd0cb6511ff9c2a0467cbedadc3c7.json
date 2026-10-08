@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMD",
+  "query": "current assets",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "AMD",
+  "concepts": [
+   {
+    "concept": "AssetsCurrent",
+    "label": "Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "15019000000",
+      "fact_id": "xf_cd113587c9485a6d",
+      "reported_in_10k_filed": "2023-02-27"
+     }
+    ]
+   },
+   {
+    "concept": "PrepaidExpenseAndOtherAssetsCurrent",
+    "label": "Prepaid Expense and Other Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "1265000000",
+      "fact_id": "xf_c7b68d8b991192aa",
+      "reported_in_10k_filed": "2023-02-27"
+     }
+    ]
+   }
+  ]
+ }
+}

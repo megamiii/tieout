@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the D&A and unadjusted operating income required to calculate the FY2022 unadjusted EBITDA and EBITDA % margin for PepsiCo are not contained in the text.\",\n  \"confidence\": 1.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tz6rpqNmc0gSfglDOuv3btOkB9IQwOT5NekvlaCV/NxCwCrEsiquy/m4u7wZvpSCPJImArJKaVl6PGR3B40Pm4N4GfLgssHVzO9ZpylWLVdIcFeW2gdOY1bo="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492825,
+  "id": "2ALIatL0H9qpvdIP7d3R0Qo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 75,
+   "prompt_tokens": 2132,
+   "total_tokens": 2207
+  }
+ }
+}

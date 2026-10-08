@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer incorrectly states that the information is unavailable, whereas the gold answer provides specific drivers for the revenue change found in the 10-K filing.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TfpsOvGrEYLl4HXkPaAnPu8Hxwfk9vgJ4qrF/SNcJunPCpLkfPHPLWyM7zVS0owV61mu4PwnvSelIlIdiiSqHp1MQ5lvyV2a6Db1/v6/75yTuY65D4pq7AfSdzGSYcSpn/H4j38aVo9StGTxk"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493241,
+  "id": "bgTIasOvBq2_xN8PycHuiA4",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 194,
+   "total_tokens": 237
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly calculates the quick ratio using the same figures as the gold answer, arrives at the same result (1.57), and reaches the same conclusion regarding AMD's liquidity.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TGQbMuad97HP4wjpMdfgXDhKZc/by48B4oCsdX+m3uV1iaQrzJHgYSm+tLzNn0wwyQx1XBIH9CFsVJxVuNtmvGcnl+7t6THObsZ+Rdl6kDgrH5T32yr7V9sRPgMSeCBXBljtJ9VSbIHspJOjA"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791494692,
+  "id": "IwrIarrXN6eXvdIPs7e3mA0",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 50,
+   "prompt_tokens": 480,
+   "total_tokens": 530
+  }
+ }
+}

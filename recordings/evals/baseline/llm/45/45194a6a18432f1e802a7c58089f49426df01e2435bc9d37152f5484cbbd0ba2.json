@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"18.23\",\n  \"confidence\": 0.95,\n  \"citations\": [{\"source_id\": \"ch_fe85733ebf4e6a2e\", \"quote\": \"Total revenues 194,579\"}, {\"source_id\": \"ch_c04c176dd7f1348b\", \"quote\": \"Property and equipment, net $ 11,349 $ 10,292\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TrPJ4bzx9NSB1uEGSV04EXNAa6eOUPUTneSWUfDzZ9/pP0b4uFXmJaRGlw+Ck492ZMSXZO4p3XQ9y2jtr4QhXnZakOpFH3IGewGZYQ/WTERi90PlalFDeXBg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492862,
+  "id": "_QLIaqScHNCHxN8P1Ka8oAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 129,
+   "prompt_tokens": 3232,
+   "total_tokens": 3361
+  }
+ }
+}

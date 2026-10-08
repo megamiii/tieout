@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the low ratio of property and equipment to total assets and reaches a consistent conclusion regarding the company's capital intensity, despite a slight difference in the interpretation of the 'capital-intensive' label compared to the gold answer.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TqnGU74oZe99ZlyoWJLx1FPcPA3rQ9fcZDOgGvUg65+KYguzcyLhJC/TtUsDCfBy7Xl5k7GGCddO7BVVD0kO2R/6pPCPWXYFwuCFWjUKNPwXMhLjNYv+icB3Az/1JoxF0kRKgujvzrmv0NWem"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791495650,
+  "id": "0w3Iar-rArSs28oPpMjYsQs",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 60,
+   "prompt_tokens": 393,
+   "total_tokens": 453
+  }
+ }
+}

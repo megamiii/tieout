@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the exact net income for fiscal year 2022 and fiscal year 2023 is not mentioned (though net earnings are referenced generally, specific dollar values or the percentage change for net income are absent).\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T1eeoIXQcbMKVSB00zJVEmj0gnLuD6nAt4QoQ26OqBMI+96QxWyRb2mpxqsYOvLYBkWPMXSeFR+VB2J3SAK4TjgzlB3m/8BDMN83SPR91w8pt/savwQGWT9A="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493421,
+  "id": "LQXIaojHCfvPvdIPsbfKkQs",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 85,
+   "prompt_tokens": 2302,
+   "total_tokens": 2387
+  }
+ }
+}

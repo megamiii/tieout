@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What was General Mills's net income in fiscal year 2019? Answer in USD millions.",
+  "ticker": "GIS",
+  "fiscal_year": 2019,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_fd436285d693627d",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 106,
+    "text": "Table of Contents NOTE 18. QUARTERLY DATA (UNAUDITED) Summarized quarterly data for fiscal 2019 and fiscal 2018 follows: First Quarter Second Quarter Third Quarter Fourth Quarter In Millions, Except Per Share Amounts Fiscal Year Fiscal Year Fiscal Year Fiscal Year 2019 2018 2019 2018 2019 2018 2019 2018 Net sales $ 4,094.0 $ 3,769.2 $ 4,411.2 $ 4,198.7 $ 4,198.3 $ 3,882.3 $ 4,161.7 $ 3,890.2 Gross margin 1,342.8 1,313.3 1,509.7 1,446.2 1,443.0 1,256.5 1,461.3 1,419.6 Net earnings attributable to General Mills 392.3 404.7 343.4 430.5 446.8 941.4 570.2 354.4 EPS: Basic $ 0.66 $ 0.70 $ 0.57 $ 0.75 $ 0.74 $ 1.64 $ 0.95 $ 0.60 Diluted $ 0.65 $ 0.69 $ 0.57 $ 0.74 $ 0.74 $ 1.62 $ 0.94 $ 0.59 During the fourth quarter of fiscal 2019, we sold our yogurt business in China and simultaneously entered into a new Yoplait license agreement with the purchaser for their use of the Yoplait brand. We recorded a gain of $5.4 million. In the fourth quarter of fiscal 2019, we recorded restructuring and impa…"
+   },
+   {
+    "chunk_id": "ch_ae82f3180035ddba",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 20,
+    "text": "Table of Contents Net cash provided by operations totaled $2.8 billion in fiscal 2019 representing a conversion rate of 157 percent of net earnings, including earnings attributable to redeemable and noncontrolling interests. This cash generation supported capital investments totaling $538 million, and our resulting free cash flow was $2.3 billion at a conversion rate of 115 percent of adjusted net earnings, including earnings attributable to redeemable and noncontrolling interests. We also returned cash to shareholders through dividends totaling $1.2 billion and reduced total debt outstanding by $1.3 billion. A detailed review of our fiscal 2019 performance compared to fiscal 2018 appears below in the section titled “Fiscal 2019 Consolidated Results of Operations.” A detailed review of our fiscal 2018 performance compared to our fiscal 2017 performance is set forth in Part II, Item 7 of our Form 10-K for the fiscal year ended May 27, 2018 under the caption “Management's Discussion and …"
+   },
+   {
+    "chunk_id": "ch_5500f4d811242893",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Table of Contents Consolidated Statements of Earnings GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions, Except per Share Data) Fiscal Year 2019 2018 2017 Net sales $ 16,865.2 $ 15,740.4 $ 15,619.8 Cost of sales 11,108.4 10,304.8 10,052.0 Selling, general, and administrative expenses 2,935.8 2,850.1 2,888.8 Divestitures loss 30.0 - 6.5 Restructuring, impairment, and other exit costs 275.1 165.6 180.4 Operating profit 2,515.9 2,419.9 2,492.1 Benefit plan non-service income (87.9) (89.4) (74.3) Interest, net 521.8 373.7 295.1 Earnings before income taxes and after-tax earnings from joint ventures 2,082.0 2,135.6 2,271.3 Income taxes 367.8 57.3 655.2 After-tax earnings from joint ventures 72.0 84.7 85.0 Net earnings, including earnings attributable to redeemable and noncontrolling interests 1,786.2 2,163.0 1,701.1 Net earnings attributable to redeemable and noncontrolling interests 33.5 32.0 43.6 Net earnings attributable to General Mills $ 1,752.7 $ 2,131.0 $ 1,657.5 Earnings per share -…"
+   },
+   {
+    "chunk_id": "ch_1872c69e0477cedc",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 19,
+    "text": "Our consolidated net sales for fiscal 2019 rose 7 percent to $16.9 billion. On an organic basis, net sales essentially matched year-ago levels. Operating profit of $2.5 billion increased 4 percent. Adjusted operating profit of $2.8 billion increased 9 percent and increased 10 percent on a constant-currency basis. Diluted EPS of $2.90 was down 20 percent compared to fiscal 2018 results. Adjusted diluted EPS was up 4 percent to $3.22 per share and increased 4 percent on a constant-currency basis (See the “Non-GAAP Measures” section below for a description of our use of measures not defined by generally accepted accounting principles (GAAP)). 19"
+   },
+   {
+    "chunk_id": "ch_3c4fce91c17a28ea",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 21,
+    "text": "Table of Contents A summary of our consolidated financial results for fiscal 2019 follows: Fiscal 2019 In millions, except per share Fiscal 2019 vs. Fiscal 2018 Percent of Net Sales Constant- Currency Growth (a) Net sales $ 16,865.2 7 % 9 % Operating profit 2,515.9 4 % 14.9 % Net earnings attributable to General Mills 1,752.7 (18) % Diluted EPS $ 2.90 (20) % Organic net sales growth rate (a) Flat Adjusted operating profit (a) 2,858.0 9 % 16.9 % 10 % Adjusted diluted EPS (a) $ 3.22 4 % 4 % (a)See the “Non-GAAP Measures” section below for our use of measures not defined by GAAP. Consolidated net sales were as follows: Fiscal 2019 Fiscal 2019 vs. Fiscal 2018 Fiscal 2018 Net sales (in millions) $ 16,865.2 7 % $ 15,740.4 Contributions from volume growth (a) 5 pts Net price realization and mix 4 pts Foreign currency exchange (2)pts (a)Measured in tons based on the stated weight of our product shipments. The 7 percent increase in net sales in fiscal 2019 reflects the addition of Blue Buffalo,…"
+   },
+   {
+    "chunk_id": "ch_71e7fa06daa99ef7",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 46,
+    "text": "Table of Contents Net Debt-to-Adjusted Earnings before Net Interest, Income Taxes, Depreciation and Amortization (EBITDA) Ratio We believe that this measure provides useful information to investors because it is an indicator of our ability to incur additional debt and to service our existing debt. The reconciliation of adjusted EBITDA to net earnings attributable to General Mills on a pro forma basis, its GAAP equivalent, as well as the calculation of the net debt-to-adjusted EBITDA ratio are as follows: Fiscal Year In Millions 2019 2018 Total debt (a) $ 14,490.0 $ 15,818.6 Cash 450.0 399.0 Net debt $ 14,040.0 $ 15,419.6 Net earnings attributable to General Mills, as reported (b) $ 1,752.7 $ 2,252.4 Net earnings attributable to redeemable and noncontrolling interests 33.5 32.0 After-tax earnings from joint ventures (72.0) (84.7) Income taxes 367.8 104.3 Earnings before income taxes and after-tax earnings from joint ventures 2,082.0 2,304.0 Interest, net 521.8 527.8 Depreciation and amo…"
+   },
+   {
+    "chunk_id": "ch_3db9c7f411b58908",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 54,
+    "text": "Table of Contents Consolidated Statements of Comprehensive Income GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions) Fiscal Year 2019 2018 2017 Net earnings, including earnings attributable to redeemable and noncontrolling interests $ 1,786.2 $ 2,163.0 $ 1,701.1 Other comprehensive income (loss), net of tax: Foreign currency translation (82.8) (37.0) 6.3 Net actuarial (loss) income (253.4) 140.1 197.9 Other fair value changes: Securities - 1.2 0.8 Hedge derivatives 12.1 (50.8) 53.3 Reclassification to earnings: Securities (2.0) (5.1) - Hedge derivatives 0.9 17.4 (25.7) Amortization of losses and prior service costs 84.6 117.6 122.5 Other comprehensive (loss) income, net of tax (240.6) 183.4 355.1 Total comprehensive income 1,545.6 2,346.4 2,056.2 Comprehensive (loss) income attributable to redeemable and noncontrolling interests (10.7) 70.5 31.0 Comprehensive income attributable to General Mills $ 1,556.3 $ 2,275.9 $ 2,025.2 See accompanying notes to consolidated financial statements. …"
+   },
+   {
+    "chunk_id": "ch_8b775555fcc54919",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 67,
+    "text": "(0.1) 17.3 (3.3) Dividends received 86.7 113.2 75.6 Summary combined financial information for the joint ventures on a 100 percent basis is as follows: Fiscal Year In Millions 2019 2018 2017 Net sales: CPW $ 1,647.7 $ 1,734.0 $ 1,648.4 HDJ 396.2 430.4 435.1 Total net sales 2,043.9 2,164.4 2,083.5 Gross margin 744.4 853.6 865.9 Earnings before income taxes 155.4 216.2 243.3 Earnings after income taxes 111.9 176.7 190.3 In Millions May 26, 2019 May 27, 2018 Current assets $ 895.6 $ 938.5 Noncurrent assets 839.2 902.5 Current liabilities 1,517.3 1,579.3 Noncurrent liabilities 77.1 72.6 67"
+   }
+  ]
+ }
+}

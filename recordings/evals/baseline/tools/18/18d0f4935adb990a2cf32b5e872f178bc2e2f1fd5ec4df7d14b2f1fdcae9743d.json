@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "By what percentage did AMD's total assets change from fiscal year 2014 to fiscal year 2015? Give the percentage rounded to one decimal place.",
+  "ticker": "AMD",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_4840c11a47be3c29",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 94,
+    "text": "Supplementary Financial Information (unaudited) The Company uses a 52 or 53 week fiscal year ending on the last Saturday in December. All quarters of 2015 and 2014 consisted of 13 weeks. (In millions, except per share amounts) 2015 2014 Dec. 26 Sep. 26 Jun. 27 Mar. 28 Dec. 27 Sep. 27 Jun. 28 Mar. 29 Net revenue $ 958 $ 1,061 $ 942 $ 1,030 $ 1,239 $ 1,429 $ 1,441 $ 1,397 Cost of sales (1) 675 822 710 704 879 935 943 910 Gross margin 283 239 232 326 360 494 498 487 Research and development 229 241 235 242 238 278 277 279 Marketing, general and administrative 109 108 134 131 144 150 154 156 Amortization of acquired intangible assets — — — 3 4 3 4 3 Restructuring and other special charges (gains), net (2) (6) 48 — 87 71 — — — Goodwill impairment charge(3) — — — — 233 — — — Operating income (loss) (49) (158) (137) (137) (330) 63 63 49 Interest expense (41) (39) (40) (40) (41) (43) (46) (47) Other income (expense), net (2) — (3) — 4 (1) (49) (20) Income (loss) before income taxes (92) (197) …"
+   },
+   {
+    "chunk_id": "ch_002a467906a83ab4",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 43,
+    "text": "2015 2014 2013 (In millions, except for percentages) Cost of sales $ 2,911 $ 3,667 $ 3,321 Gross margin 1,080 1,839 1,978 Gross margin percentage 27% 33% 37% Research and development 947 1,072 1,201 Marketing, general and administrative 482 604 674 Amortization of acquired intangible assets 3 14 18 Restructuring and other special charges, net 129 71 30 Goodwill impairment charge — 233 — Legal settlements, net — — (48) Interest expense (160) (177) (177) Other expense, net (5) (66) — Provision (benefit) for income taxes $ 14 $ 5 $ 9 Gross Margin Gross margin as a percentage of net revenue was 27% in 2015 compared to 33% in 2014. Gross margin in 2015 was adversely impacted by an inventory write-down of $65 million, which was primarily the result of lower anticipated demand for older-generation APUs and a technology node transition charge of $33 million. The impact of the write-down accounted for approximately two gross margin percentage points and the technology node transition charge acc…"
+   },
+   {
+    "chunk_id": "ch_dc97809c177275ff",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 77,
+    "text": "provided for uncertain tax positions that require a liability under the adopted method to account for uncertainty in income taxes. The Company has not recognized any current or long-term deferred tax assets under a valuation allowance as a result of the application of uncertainty in income taxes in ASC 740 for unrecognized tax benefits as of December 26, 2015. NOTE 10: Debt and Other Obligations Total Debt The Company's total debt as of December 26, 2015 and December 27, 2014 consisted of: December 26, 2015 December 27, 2014 (In millions) 6.00% Notes, net of discount $ — $ 42 6.75% Notes 600 600 6.75% Notes, interest rate swap 7 3 7.75% Notes 450 450 7.50% Notes 475 475 7.00% Notes 500 500 Secured Revolving Line of Credit 230 130 Capital lease obligations — 12 Total debt 2,262 2,212 Less: current portion 230 177 Total debt, less current portion $ 2,032 $ 2,035 6.00% Convertible Senior Notes due 2015 On April 27, 2007, the Company issued $2.2 billion aggregate principal amount of the 6.…"
+   },
+   {
+    "chunk_id": "ch_5e813507c6cd363f",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 47,
+    "text": "related to the reversal of previously recognized tax benefits associated with other comprehensive income, offset by $3 million of tax benefits for Canadian tax credits and the monetization of certain U.S. tax credits. As of December 26, 2015, substantially all of our U.S. and foreign deferred tax assets, net of deferred tax liabilities, continued to be subject to a valuation allowance. The realization of these assets is dependent on substantial future taxable income which, at December 26, 2015, in management's estimate, is not more likely than not to be achieved. As of December 26, 2015, the Italian tax authorities had concluded their audit of our subsidiaries' activities in Italy for the years 2003 through 2013. We have agreed to a settlement of $11 million in taxes and penalties, which was reflected in full in the 2015 tax provision, and $2 million in interest. Stock-Based Compensation Expense We allocated stock-based compensation expense related to employee stock options, restricted…"
+   },
+   {
+    "chunk_id": "ch_9e053ef04c8a3860",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 47,
+    "text": "Stock-based compensation expense of $63 million in 2015 decreased by $18 million as compared to $81 million in 2014. The decrease was primarily due to a lower weighted average grant date fair value and the effect of the 2015 and 2014 Restructuring Plans. Stock-based compensation expense of $81 million in 2014 decreased by $10 million as compared to $91 million in 2013. The decrease was primarily due to lower expense related to stock options and restricted stock granted in connection with our SeaMicro acquisition as most awards became fully vested during 2014 and lower stock compensation expense as a result of our 2014 Restructuring Plan. As of December 26, 2015, we had $11 million of total unrecognized compensation expense, net of estimated forfeitures, related to stock options that will be recognized over a weighted-average period of 2.30 years. Also, as of December 26, 2015, we had $88 million of total unrecognized compensation expense, net of estimated forfeitures, related to restri…"
+   },
+   {
+    "chunk_id": "ch_c8c3cc20863c9ec7",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 68,
+    "text": "NOTE 5: Supplemental Balance Sheet Information Inventories December 26, 2015 December 27, 2014 (In millions) Raw materials $ 16 $ 40 Work in process 482 431 Finished goods 180 214 Total inventories, net $ 678 $ 685 Other current assets December 26, 2015 December 27, 2014 (In millions) Assets held-for-sale $ 183 $ — Other current assets 65 48 Total other current assets $ 248 $ 48 Property, plant and equipment December 26, 2015 December 27, 2014 (In millions) Land and land improvements $ 1 $ 4 Buildings and leasehold improvements 145 246 Equipment 821 1,416 Construction in progress 17 14 Property, plant and equipment, gross 984 1,680 Accumulated depreciation and amortization (796) (1,378) Total property, plant and equipment, net $ 188 $ 302 Depreciation expense for 2015, 2014 and 2013 was $94 million, $115 million and $139 million, respectively. Other assets December 26, 2015 December 27, 2014 (In millions) Software and technology licenses $ 189 $ 219 Other 134 125 Total other assets $ 3…"
+   },
+   {
+    "chunk_id": "ch_c75c8199fc337a2e",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 41,
+    "text": "not consider these expenses and credits in evaluating the performance of the reportable segments. Also included in this category are amortization of acquired intangible assets, employee stock-based compensation expense, restructuring and other special charges, net, technology node transition charge, workforce rebalancing severance charges, goodwill impairment charge, significant or unusual lower of cost or market inventory adjustments and a net gain from licenses and settlement agreements regarding patent- related matters. We also reported the results of former businesses in the All Other category because the operating results were not material. We intend the discussion of our financial condition and results of operations that follows to provide information that will assist you in understanding our financial statements, the changes in certain key items in those financial statements from year to year, the primary factors that resulted in those changes and how certain accounting principl…"
+   },
+   {
+    "chunk_id": "ch_8763a6146f45f5a1",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 48,
+    "text": "Net cash used in operating activities was $226 million in 2015 compared to $98 million in 2014. The increase in cash used in operating activities was primarily due to lower cash collections during 2015 compared 2014 driven by lower sales compared to 2014, partially offset by lower other operating expenses and labor cost as a result of restructuring actions and the absence of the final $200 million cash payment made in the first quarter of 2014 related to GF's waiver of a portion of our obligations for wafer purchase commitments. Net cash used in operating activities was $98 million in 2014 compared to $148 million in 2013. The decrease in cash used in operating activities was primarily due to higher cash collections during 2014 compared 2013 driven by slightly higher sales compared to 2013, partially offset by the $113 million prepayments to GF in the fourth quarter of 2014. Investing Activities Net cash provided by investing activities was $147 million in 2015, which consisted of a ne…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"For FY2023, Boeing is forecasting the following production rate changes and plans: gradually return/increase the 787 program to 5 per month; resume production of the 777X (paused in 2022 and 2023); and implement further gradual production rate increases for the 737 program based on market demand and supply chain capacity.\",\n  \"confidence\": 0.95,\n  \"citations\": [{\"source_id\": \"ch_8f70480d12e20cc2\", \"quote\": \"We are currently producing at low rates and expect to gradually return to 5 per month in 2023.\"}, {\"source_id\": \"ch_0a25c7e82e5729d4\", \"quote\": \"In April 2022, we decided to pause production of the 777X-9 during 2022 and 2023.\"}, {\"source_id\": \"ch_dacec146e187d286\", \"quote\": \"The 787 program is currently producing at low rates and we expect to gradually increase to 5 per month in 2023. Production of the 777X is currently paused and is expected to resume in 2023. The 737 program has experienced operational and supply chain challenges stabilizing production at 31 per month. We plan to gradually increase 737 production rates based on market demand and supply chain capacity.\"}, {\"source_id\": \"ch_fbe39bf0fbfa90e4\", \"quote\": \"We increased the production rate to 31 per month in 2022, and expect to implement further gradual production rate increases based on market demand and supply chain capacity.\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T5Jus40UI65fjciFGT7IhtbEV/jLnrFygaCcBoyWijWg49wI6ibD0Miy17GWNpgsZ867gjHair2rUG/AJTKIDq3FepWOEH/kECPK3VKG8Y9t6ggR3+KNUEgM="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492600,
+  "id": "9gHIavHUMpPZxs0PjMfGgAI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 415,
+   "prompt_tokens": 2278,
+   "total_tokens": 2693
+  }
+ }
+}

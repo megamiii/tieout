@@ -1,0 +1,36 @@
+{
+ "item_id": "financebench_id_04302",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "53.8%",
+ "confidence": 0.95,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_958b2d8c64f9212f",
+   "quote": "Year Ended May 31, (In millions, except per share data) 2018 2017 2016\nRevenues $ 36,397 $ 34,350 $ 32,376\nCost of sales 20,441 19,038 17,405",
+   "kind": "chunk",
+   "ticker": "NKE",
+   "fiscal_year": 2018,
+   "section": "Item 8",
+   "page": 46,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2280,
+ "completion_tokens": 155,
+ "latency_ms": 1162.9,
+ "grade": {
+  "correct": false,
+  "method": "numeric",
+  "detail": "no figure in the answer matches the gold value",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

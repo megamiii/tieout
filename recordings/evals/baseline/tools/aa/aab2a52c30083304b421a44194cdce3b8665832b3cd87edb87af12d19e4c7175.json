@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What is the FY2022 unadjusted EBITDA less capex for PepsiCo? Define unadjusted EBITDA as unadjusted operating income + depreciation and amortization [from cash flow statement]. Answer in USD millions. Respond to the question by assuming the perspective of an investment analyst who can only use the details shown within the statement of cash flows and the income statement.",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_3fafd9c510e1e77d",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 80,
+    "text": "64 Depreciable and amortizable assets are evaluated for impairment upon a significant change in the operating or macroeconomic environment. In these circumstances, if an evaluation of the undiscounted cash flows indicates impairment, the asset is written down to its estimated fair value, which is based on discounted future cash flows. Useful lives are periodically evaluated to determine whether events or circumstances have occurred which indicate the need for revision. Indefinite-Lived Intangible Assets In the first quarter of 2022, we discontinued or repositioned certain juice and dairy brands in Russia in our Europe division. As a result, we recognized pre-tax impairment charges (included in brand portfolio impairment charges) of $241 million ($193 million after-tax or $0.14 per share) in impairment of intangible assets, primarily related to indefinite-lived intangible assets in the year ended December 31, 2022. See Note 1 for further information. (a) 78"
+   },
+   {
+    "chunk_id": "ch_d66af1f692631321",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 54,
+    "text": "Table of Contents Free Cash Flow The table below reconciles net cash provided by operating activities, as reflected on our cash flow statement, to our free cash flow. Free cash flow is a non-GAAP financial measure. For further information on free cash flow, see “Non-GAAP Measures.” 2022 2021 Change Net cash provided by operating activities, GAAP measure $ 10,811 $ 11,616 (7)% Capital spending (5,207) (4,625) Sales of property, plant and equipment 251 166 Free cash flow, non-GAAP measure $ 5,855 $ 7,157 (18)% We use free cash flow primarily for acquisitions and financing activities, including debt repayments, dividends and share repurchases. We expect to continue to return free cash flow to our shareholders primarily through dividends and share repurchases while maintaining Tier 1 commercial paper access, which we believe will facilitate appropriate financial flexibility and ready access to global capital and credit markets at favorable interest rates. However, see “Item 1A. Risk Factor…"
+   },
+   {
+    "chunk_id": "ch_f439c4468e124230",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 425,
+    "text": "Section 162(m) of the Code. In the event any payment is delayed solely as a result of the preceding restriction, such payment shall be made as soon as administratively feasible following the first date as of which Section 162(m) of the Code no longer precludes the deduction by the Company of such payment. Amounts deferred because of the Section 162(m) deduction limitation shall be increased by simple interest for the period of delay at the annual rate of six percent (6%). APPENDIX TO ARTICLE PBG Foreword This Appendix sets forth additional provisions applicable to individuals specified in the Articles of this Appendix. In any case where there is a conflict between the Appendix and the main text of the Plan, the Appendix shall govern. Article A (Article IPO) – Transferred and Transition Individuals IPO.1 Scope. This Article supplements the main portion of the Plan document with respect to the rights and benefits of Transferred and Transition Individuals following the spinoff of this Pla…"
+   },
+   {
+    "chunk_id": "ch_ce0db548de20d3fd",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 46,
+    "text": "Table of Contents negatively impacted by a 25-percentage-point impact of higher commodity costs, primarily cooking oil and potatoes, certain operating cost increases and higher advertising and marketing expenses, partially offset by the net revenue growth and productivity savings. Additionally, prior-year impairment charges associated with an equity method investment positively contributed 3 percentage points to operating profit performance. Unfavorable foreign exchange negatively impacted operating profit performance by 4 percentage points. Non-GAAP Measures Certain financial measures contained in this Form 10-K adjust for the impact of specified items and are not in accordance with GAAP. We use non-GAAP financial measures internally to make operating and strategic decisions, including the preparation of our annual operating plan, evaluation of our overall business performance and as a factor in determining compensation for certain employees. We believe presenting non-GAAP financial m…"
+   },
+   {
+    "chunk_id": "ch_67801215ca383ae7",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 456,
+    "text": "dividend, recapitalization, merger, consolidation, spin-off, combination or exchange of shares or other any other corporate change treated as subject to this provision by the Plan Administrator, such equitable adjustment shall be made in the number and kind of phantom units credited to an Account or subaccount as the Plan Administrator may determine to be necessary or appropriate. In no event will shares of PepsiCo Common Stock actually be purchased or held under this Plan, and no Participant 20"
+   },
+   {
+    "chunk_id": "ch_605edece6be2c5e5",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 46,
+    "text": "asset impairment charges (non-cash); pension and retiree medical-related amounts (including all settlement and curtailment gains and losses); charges or adjustments related to the enactment of new laws, rules or regulations, such as tax law changes; amounts related to the resolution of tax positions; tax benefits related to reorganizations of our operations; debt redemptions, cash tender or exchange offers; and remeasurements of net monetary assets. Prior to the fourth quarter of 2021, certain immaterial pension and retiree medical-related settlement and curtailment gains and losses were not considered items affecting comparability. Pension and retiree medical-related service cost, interest cost, expected return on plan assets, and other net periodic pension costs continue to be reflected in our core results. See below and “Items Affecting Comparability” for a description of adjustments to our GAAP financial measures in this Form 10-K. Non-GAAP information should be considered as suppl…"
+   },
+   {
+    "chunk_id": "ch_e3c6569d2d0f08af",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 59,
+    "text": "environment. If an evaluation of the undiscounted future cash flows indicates impairment, the asset is written down to its estimated fair value, which is based on its discounted future cash flows. See Notes 2 and 4 to our consolidated financial statements for further information. Income Tax Expense and Accruals Our annual tax rate is based on our income, statutory tax rates and tax structure and transactions, including transfer pricing arrangements, available to us in the various jurisdictions in which we operate. Significant judgment is required in determining our annual tax rate and in evaluating our tax positions. We establish reserves when, despite our belief that our tax return positions are fully supportable, we believe that certain positions are subject to challenge and that we likely will not succeed. We adjust these reserves, as well as the related interest, in light of changing facts and circumstances, such as the progress of a tax audit, new tax laws, relevant court cases or…"
+   },
+   {
+    "chunk_id": "ch_d12b6fba50eded39",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 86,
+    "text": "selling, general and administrative expenses. The gross amount of interest accrued, reported in other liabilities, was $292 million as of December 31, 2022, of which $4 million of tax benefit was recognized in 2022. The gross amount of interest accrued, reported in other liabilities, was $326 million as of December 25, 2021, of which $3 million of tax benefit was recognized in 2021. A reconciliation of unrecognized tax benefits is as follows: 2022 2021 Balance, beginning of year $ 1,900 $ 1,621 Additions for tax positions related to the current year 228 222 Additions for tax positions from prior years 206 681 Reductions for tax positions from prior years (357) (558) Settlement payments (53) (25) Statutes of limitations expiration (36) (39) Translation and other (21) (2) Balance, end of year $ 1,867 $ 1,900 Carryforwards and Allowances Operating loss carryforwards totaling $32.2 billion as of December 31, 2022 are being carried forward in a number of foreign and state jurisdictions wher…"
+   }
+  ]
+ }
+}

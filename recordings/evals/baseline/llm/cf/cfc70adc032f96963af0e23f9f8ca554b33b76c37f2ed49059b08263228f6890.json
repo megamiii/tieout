@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"$39,403 million in fiscal year 2017\",\n  \"confidence\": 1.0,\n  \"citations\": [{\"source_id\": \"ch_f273bf4d61aa2331\", \"quote\": \"Revenue $ 39,403 $ 39,528 $ 40,339\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TCgRtSMAYslsdltVSZSZYCUiy78qyezbfOf4UQ62NWbjAbqU9ucaSI60QbNjWKApOLiwuNeSh8wiTqbCISslC2TtqdTyyjmjlevdIY2L1Jt/omfO/nnSS0HY="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493418,
+  "id": "KgXIaqeeDbmP28oPoo7owQ4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 103,
+   "prompt_tokens": 2879,
+   "total_tokens": 2982
+  }
+ }
+}

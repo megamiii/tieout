@@ -1,0 +1,36 @@
+{
+ "item_id": "xbrl-PEP-2022-Assets-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "$92,187 million in fiscal year 2022",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_a8ef5eaafabf5981",
+   "quote": "Total Assets $ 92,187 $ 92,377",
+   "kind": "chunk",
+   "ticker": "PEP",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 66,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 3470,
+ "completion_tokens": 111,
+ "latency_ms": 1016.0,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$92,187 matches 92187 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

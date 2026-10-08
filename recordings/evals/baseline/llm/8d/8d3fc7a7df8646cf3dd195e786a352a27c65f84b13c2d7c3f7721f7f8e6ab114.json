@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T7jcUiduAvPhBHIykiX61hLCS2iK2H5wJko8/w7N8fImMJiz3IdXZ9PGHVmCcrURKL15dJAsFGuyzOAG182llA27e9FKPwyJq37YIB9Z3IV8Gvzf6zrhDUUg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493367,
+  "id": "9gTIapuoINz_nsEPgIWEyQk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 34,
+   "prompt_tokens": 2856,
+   "total_tokens": 2890
+  }
+ }
+}

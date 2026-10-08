@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Is Verizon a capital intensive business based on FY 2022 data?",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_463fac52635f0f96",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 38,
+    "text": "We expect that our capital spending requirements will continue to be financed primarily through internally generated funds. Debt or equity financing may be needed to fund additional investments or development activities, or to maintain an appropriate capital structure to ensure our financial flexibility. Our external financing arrangements include credit facilities and other bank lines of credit, an active commercial paper program, vendor financing arrangements, issuances of registered debt or equity securities, U.S. retail medium-term notes and other securities that are privately-placed or offered overseas. In addition, we monetize certain receivables through asset-backed debt transactions. Capital Expenditures Our 2023 capital program includes capital to fund advanced networks and services, including expanding our core networks, adding capacity and density to our 5G network in order to stay ahead of our customers' increasing data demands and deploying C-Band, transforming our structu…"
+   },
+   {
+    "chunk_id": "ch_54dcad0b04037d12",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Consolidated Balance Sheets Verizon Communications Inc. and Subsidiaries (dollars in millions, except per share amounts) At December 31, 2022 2021 Assets Current assets Cash and cash equivalents $ 2,605 $ 2,921 Accounts receivable 25,332 24,742 Less Allowance for credit losses 826 896 Accounts receivable, net 24,506 23,846 Inventories 2,388 3,055 Prepaid expenses and other 8,358 6,906 Total current assets 37,857 36,728 Property, plant and equipment 307,689 289,897 Less Accumulated depreciation 200,255 190,201 Property, plant and equipment, net 107,434 99,696 Investments in unconsolidated businesses 1,071 1,061 Wireless licenses 149,796 147,619 Goodwill 28,671 28,603 Other intangible assets, net 11,461 11,677 Operating lease right-of-use assets 26,130 27,883 Other assets 17,260 13,329 Total assets $ 379,680 $ 366,596 Liabilities and Equity Current liabilities Debt maturing within one year $ 9,963 $ 7,443 Accounts payable and accrued liabilities 23,977 24,833 Current operating lease liab…"
+   },
+   {
+    "chunk_id": "ch_4bcc45c0a92264fd",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Consolidated Statements of Cash Flows Verizon Communications Inc. and Subsidiaries (dollars in millions) Years Ended December 31, 2022 2021 2020 Cash Flows from Operating Activities Net Income $ 21,748 $ 22,618 $ 18,348 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization expense 17,099 16,206 16,720 Employee retirement benefits (2,046) (3,391) 840 Deferred income taxes 2,973 4,264 1,553 Provision for expected credit losses 1,611 789 1,380 Equity in losses (earnings) of unconsolidated businesses, net of dividends received (10) 36 91 Changes in current assets and liabilities, net of effects from acquisition/disposition of businesses: Accounts receivable (1,978) (1,592) 189 Inventories 627 (905) (369) Prepaid expenses and other 928 150 1,202 Accounts payable and accrued liabilities and Other current liabilities (33) 1,457 (966) Other, net (3,778) (93) 2,780 Net cash provided by operating activities 37,141 39,539 41,768 Cash Flows…"
+   },
+   {
+    "chunk_id": "ch_7e781814632289e2",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 37,
+    "text": "capacity and further expanding our wireless coverage, and by continuing the build-out of our 5G network. 2023 Operating Revenue Trends In our Consumer segment, we expect to see a continuation of service revenue growth in 2023 as customers shift to higher access plans with additional services and increase the number of devices they connect with our networks and services. We expect continued growth in wireless service revenue, driven by migrations to higher priced plans, increases in fixed wireless access connections, and the pricing actions implemented in the second quarter of 2022. We expect Fios revenue to benefit in 2023 as growth in our broadband customer base and increases in demand for higher speed internet connections offset the impact of the shift from the bundling of wireline services to standalone Internet service. In our Business segment, we expect wireless revenue to expand, driven by growth from increases in wireless volumes and fixed wireless access contributions. We expec…"
+   },
+   {
+    "chunk_id": "ch_452bb2db6809a9c4",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 39,
+    "text": "Cash Flows Provided By Operating Activities Our primary source of funds continues to be cash generated from operations. Net cash provided by operating activities decreased by $2.4 billion during 2022 compared to 2021, primarily driven by higher device payment receivables as our device payment portfolio increased over the comparative period, which was partially due to the change in device payment plan terms to 36 months. This decrease was further driven by a decrease in earnings. We expect to make approximately $200 million of discretionary pension contributions in 2023. Additionally, we expect that there will be no required pension funding through 2026, subject to changes in market conditions. Cash Flows Used In Investing Activities Capital Expenditures Capital expenditures continue to relate primarily to the use of capital resources to increase the operating efficiency and productivity of our networks, maintain our existing infrastructure, facilitate the introduction of new products a…"
+   },
+   {
+    "chunk_id": "ch_bbb26027fd2bdf0f",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 78,
+    "text": "(2) During 2022, we recorded net gains of $119 million in connection with the open market repurchases, which were reflected within Other income (expense), net in our consolidated statements of income. Issuances (dollars in millions) Principal Amount Issued Net Proceeds (1) Verizon 3.875% notes due 2052 (2) $ 1,000 $ 982 Verizon 4.100% notes due 2055 655 650 Verizon 4.250% notes due 2030 (3) € 1,250 1,227 Verizon 4.750% notes due 2034 (3) € 1,250 1,231 Total $ 4,090 (1) Net proceeds were net of underwriting discounts and other issuance costs. In addition, for securities denominated in a currency other than the U.S. dollar, net proceeds are shown on a U.S. dollar equivalent basis. (2) An amount equal to the net proceeds from this green bond is expected to be used to fund, in whole or in part, certain renewable energy projects, including new and existing investments made by us during the period from December 1, 2021 through the maturity date of the green bond. (3) See Note 9 for additiona…"
+   },
+   {
+    "chunk_id": "ch_ea0920e289967f57",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 58,
+    "text": "Consolidated Statements of Changes in Equity Verizon Communications Inc. and Subsidiaries (dollars in millions, except per share amounts, and shares in thousands) Years Ended December 31, 2022 2021 2020 Shares Amount Shares Amount Shares Amount Common Stock Balance at beginning of year 4,291,434 $ 429 4,291,434 $ 429 4,291,434 $ 429 Balance at end of year 4,291,434 429 4,291,434 429 4,291,434 429 Additional Paid In Capital Balance at beginning of year 13,861 13,404 13,419 Other (Note 14) (441) 457 (15) Balance at end of year 13,420 13,861 13,404 Retained Earnings Balance at beginning of year 71,993 60,464 53,147 Opening balance sheet adjustment (Note 1) — — (200) Adjusted opening balance 71,993 60,464 52,947 Net income attributable to Verizon 21,256 22,065 17,801 Dividends declared ($2.585, $2.535, $2.485 per share) (10,860) (10,532) (10,284) Other (9) (4) — Balance at end of year 82,380 71,993 60,464 Accumulated Other Comprehensive Income (Loss) Balance at beginning of year attributab…"
+   },
+   {
+    "chunk_id": "ch_4144dc3a0c9f038c",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 21,
+    "text": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations Overview Verizon Communications Inc. (the Company) is a holding company that, acting through its subsidiaries (together with the Company, collectively, Verizon), is one of the world's leading providers of communications, technology, information and entertainment products and services to consumers, businesses and government entities. With a presence around the world, we offer data, video and voice services and solutions on our networks and platforms that are designed to meet customers' demand for mobility, reliable network connectivity, security and control. To compete effectively in today's dynamic marketplace, we are focused on the capabilities of our high-performing networks to drive growth based on delivering what customers want and need in the digital world. In 2022, we focused on maintaining our network leadership, including by rapidly deploying C-Band spectrum; retaining and growing our …"
+   }
+  ]
+ }
+}

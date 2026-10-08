@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Ts2DSBimlTr6h0eqYoZdlKjky0b5WevcH2qnwn/ehaM8X3ikKycj9H1da/XYPcWl8I7XMiokcifG33uOj2P160f3vLkYgvyKgzqk9pUMEj5JWGORy0TLd08k="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The effective tax rate for Boeing in FY2022 was -0.6% and in FY2021 was 14.7% (both found in Item 8 Note 4 table of the FY2022 10-K). The difference is -15.3 percentage points.\",\"needs_review\":false,\"answer\":\"In FY2022, Boeing's effective tax rate was -0.6% (an income tax benefit rate), compared to 14.7% in FY2021. This represents a decrease of 15.3 percentage points in the effective tax rate.\",\"citations\":[{\"source_id\":\"ch_8235cd5783697122\",\"quote\":\"-0.6\"},{\"quote\":\"14.7\",\"source_id\":\"ch_8235cd5783697122\"}],\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_978634",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494927,
+  "id": "DgvIaoyKDbCIvdIP5oqI2Ao",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 226,
+   "prompt_tokens": 4182,
+   "prompt_tokens_details": {
+    "cached_tokens": 2006
+   },
+   "total_tokens": 4408
+  }
+ }
+}

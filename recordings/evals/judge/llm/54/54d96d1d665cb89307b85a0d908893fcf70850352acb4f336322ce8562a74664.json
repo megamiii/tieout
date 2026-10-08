@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer reaches the same conclusion as the gold answer regarding the consistency of gross margins and provides accurate supporting calculations that align with the company's historical financial data.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TH+f0+WvmO+6y1OOvImE1CRyycHEMihX0a48a2Fnb1wcmhutT1yuhMmEn0Ws+eZysrvI6u6oxd8PTRx6ToRrG6LCL2ApZ1buPmpK06Q3/r7EglDFqIN0P3iyVY90AkZYwR7KBxp+d4FCgDw9K"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791495490,
+  "id": "Lg3IavauFNzZxs0PipbfsQo",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 388,
+   "total_tokens": 432
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TyWPro7LoZrRShPtZ2IHvbA8pu3RgAuXOGF0R2lKM426U/xfw09w9lrmOERBlwwAVd+g53kaq5dyLhPWVmY+k38iCnRPbt6iagkixOtMRQrYSXIOxhdDVBQc="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"7,838\",\"source_id\":\"xf_1f4633b3b5215e4e\"},{\"source_id\":\"xf_09e3f56f9ea98999\",\"quote\":\"7,230\"},{\"quote\":\"5,727\",\"source_id\":\"xf_ba8be4a22fb68bbf\"},{\"quote\":\"442000000\",\"source_id\":\"xf_614ea9aafa8b6865\"},{\"quote\":\"348000000\",\"source_id\":\"xf_2f4be6f22f55f295\"},{\"quote\":\"419000000\",\"source_id\":\"xf_4ec4b6cdc82fbe67\"},{\"source_id\":\"xf_5beb4a691185e347\",\"quote\":\"4,756\"},{\"source_id\":\"xf_1670be96d48fac59\",\"quote\":\"4,822\"},{\"quote\":\"5,260\",\"source_id\":\"xf_e4d2040b48e1286e\"}],\"answer\":\"As of FY2022, Adobe does not explicitly report a standard \\\"Free Cash Flow Conversion\\\" metric in its 10-K filing. When calculating Free Cash Flow as Net Cash Provided by Operating Activities minus Purchases of Property, Plant, and Equipment:\\n- FY2020: Operating Cash Flow of $5,727 million minus CapEx of $419 million\\n- FY2021: Operating Cash Flow of $7,230 million minus CapEx of $348 million\\n- FY2022: Operating Cash Flow of $7,838 million minus CapEx of $442 million = $7,396 million\\n\\nNet Income was $5,260 million in FY2020, $4,822 million in FY2021, and $4,756 million in FY2022.\",\"confidence\":0.95,\"rationale\":\"All figures are directly from XBRL financial facts and explicitly cited.\",\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_831949",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494982,
+  "id": "PQvIaqqrK6SJxN8PmpPIgAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 553,
+   "prompt_tokens": 9116,
+   "total_tokens": 9669
+  }
+ }
+}

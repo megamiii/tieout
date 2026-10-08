@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Customer deposits was the largest liability in American Express's Balance Sheet in 2022, amounting to $110,239 million.\",\n  \"confidence\": 0.99,\n  \"citations\": [{\"source_id\": \"ch_6a05ea70d49e4006\", \"quote\": \"Customer deposits $ 110,239 $ 84,382\"}, {\"source_id\": \"ch_6a05ea70d49e4006\", \"quote\": \"Accounts payable 12,133 10,574 Short-term borrowings 1,348 2,243 Long-term debt (includes debt issued by consolidated variable interest entities: 2022, $12,662; 2021, $13,803) 42,573 38,675 Other liabilities 37,350 30,497\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TqDfK5PSYcf+Dstfs9CA5cvu51NZ9UUNkj7d350pCGMEl0v7TPjitMT1qRI16SxdwOXE9h5ootglHDYEA4x+JA/3m4XT2ck6CK1rCrknlRJEsAP0x/35rUIk="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492762,
+  "id": "mgLIasqfBc6c28oPy-mU-Q0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 248,
+   "prompt_tokens": 2833,
+   "total_tokens": 3081
+  }
+ }
+}

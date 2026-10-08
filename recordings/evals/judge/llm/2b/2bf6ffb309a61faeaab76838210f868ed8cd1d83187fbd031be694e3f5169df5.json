@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer incorrectly states that the information is unavailable, whereas the gold answer confirms that Boeing's business is subject to cyclicality due to its exposure to the airline industry.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T6Cx7VQdTFl4lr2mSM9q6x7k4G4/pzh9a4hciHU+6xg7xWu7bsFW50mgFHzdGTQsHLtp6lT04mCpu+V30xGdvpKMT0b0RZrKNah/RXE4yIKf2k2WWmcyWZ0yP9eKeGUwNV3PUj6T4MqKNkLg5"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492924,
+  "id": "MgPIatq2IMKL7M8P5PqB6AM",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 208,
+   "total_tokens": 254
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the three segments that exceed the 20% threshold and provides accurate calculations that align with the gold answer's figures.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T56ogbxubHE7f9cCwpvkZD1NMjgPLvdDvqlr2jpcrofl8UyiZcHUQik9zlAr3U/QuMLemS2VEQ3uo6fRCTktivCBo5HZyxDNhOXOVhjJkLRxzHjix/n+NpkIsfr9vxHP8GYXYEe7A7dNtLMaN"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791495415,
+  "id": "7AzIaqDAEvjRxN8P3-GpwAU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 444,
+   "total_tokens": 485
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What was Boeing's operating income in fiscal year 2018? Answer in USD millions.",
+  "ticker": "BA",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_f404717f779a910c",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 117,
+    "text": "Table of Contents Note 24 – Quarterly Financial Data (Unaudited) 2018 2017 4th 3rd 2nd 1st 4th 3rd 2nd 1st Total revenues $28,341 $25,146 $24,258 $23,382 $24,770 $24,223 $23,051 $21,961 Total costs and expenses (22,090) (21,040) (19,536) (18,824) (19,881) (19,956) (18,702) (18,073) Earnings from operations 4,175 2,227 2,710 2,875 2,978 2,630 2,530 2,206 Net earnings 3,424 2,363 2,196 2,477 3,320 1,810 1,749 1,579 Basic earnings per share 6.00 4.11 3.77 4.19 5.57 3.03 2.91 2.57 Diluted earnings per share 5.93 4.07 3.73 4.15 5.49 2.99 2.87 2.54 Gross profit is calculated as Total revenues minus Total costs and expenses. Total costs and expenses includes Cost of products, Cost of services and Boeing Capital interest expense. During the third quarter of 2018, we recorded a tax benefit of $412 related to the settlement of the 2013-2014 federal tax audit. During the fourth quarter of 2017, as a result of the enactment of the TCJA, we recorded provisional tax benefits of $1,271 , primarily re…"
+   },
+   {
+    "chunk_id": "ch_2b6fcfab27e48773",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Cash Flows (Dollars in millions) Years ended December 31, 2018 2017 2016 Cash flows – operating activities: Net earnings $10,460 $8,458 $5,034 Adjustments to reconcile net earnings to net cash provided by operating activities: Non-cash items – Share-based plans expense 202 202 190 Depreciation and amortization 2,114 2,047 1,889 Investment/asset impairment charges, net 93 113 90 Customer financing valuation (benefit)/expense (3) 2 (7) (Gain)/loss on dispositions, net (75) (21) 7 Other charges and credits, net 247 293 371 Changes in assets and liabilities – Accounts receivable (795) (840) 326 Unbilled receivables (1,826) (1,600) 792 Advances and progress billings 2,636 4,700 (1,362) Inventories 568 (1,403) 4,004 Other current assets 98 (19) (200) Accounts payable 2 130 622 Accrued liabilities 1,117 335 312 Income taxes receivable, payable and deferred (180) 656 (734) Other long-term liabilities 87 94 (68) Pe…"
+   },
+   {
+    "chunk_id": "ch_646d7ca0490ce73e",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 50,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Operations (Dollars in millions, except per share data) Years ended December 31, 2018 2017 2016 Sales of products $90,229 $83,740 $83,198 Sales of services 10,898 10,265 10,298 Total revenues 101,127 94,005 93,496 Cost of products (72,922) (68,879) (71,013) Cost of services (8,499) (7,663) (7,954) Boeing Capital interest expense (69) (70) (59) Total costs and expenses (81,490) (76,612) (79,026) 19,637 17,393 14,470 Income from operating investments, net 111 204 303 General and administrative expense (4,567) (4,095) (3,613) Research and development expense, net (3,269) (3,179) (4,626) Gain/(loss) on dispositions, net 75 21 (7) Earnings from operations 11,987 10,344 6,527 Other income/(loss), net 92 123 (438) Interest and debt expense (475) (360) (306) Earnings before income taxes 11,604 10,107 5,783 Income tax expense (1,144) (1,649) (749) Net earnings $10,460 $8,458 $5,034 Basic earnings per share $18.05 $…"
+   },
+   {
+    "chunk_id": "ch_b61d8209bcd0ec49",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 6",
+    "page": 19,
+    "text": "Item 6. Selected Financial Data Five-Year Summary (Unaudited) (Dollars in millions, except per share data) 2018 2017 2016 2015 (2) 2014 (2) Revenues $101,127 $94,005 $93,496 $96,114 $90,762 Net earnings from continuing operations $10,460 $8,458 $5,034 $5,176 $5,446 Basic earnings per share from continuing operations $18.05 $14.03 $7.92 $7.52 $7.47 Diluted earnings per share from continuing operations 17.85 13.85 7.83 7.44 7.38 Dividends declared per share (1) 7.19 5.97 4.69 3.82 3.10 Cash and cash equivalents $7,637 $8,813 $8,801 $11,302 $11,733 Short-term and other investments 927 1,179 1,228 750 1,359 Total assets 117,359 112,362 109,076 94,408 92,921 Total debt 13,847 11,117 9,952 9,964 9,070 Operating cash flow $15,322 $13,346 $10,496 $9,363 $8,858 Total backlog $490,481 $474,640 $473,492 (2) $489,299 $502,391 Year-end workforce 153,000 140,800 150,500 161,400 165,500 (1) Cash dividends have been paid on common stock every year since 1942. (2) Amounts prior to 2016, along with 2016…"
+   },
+   {
+    "chunk_id": "ch_86e713f5ae229bfb",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 51,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Comprehensive Income (Dollars in millions) Years ended December 31, 2018 2017 2016 Net earnings $10,460 $8,458 $5,034 Other comprehensive income/(loss), net of tax: Currency translation adjustments (86) 128 (104) Unrealized gain/(loss) on certain investments, net of tax of ($1), ($1) and $1 2 1 (2) Derivative instruments: Unrealized (loss)/gain arising during period, net of tax of $40, ($66), and $4 (146) 119 (8) Reclassification adjustment for loss included in net earnings, net of tax of ($8), ($28), and ($43) 30 52 78 Total derivative instruments, net of tax (116) 171 70 Defined benefit pension plans & other postretirement benefits: Net actuarial gain/(loss) arising during the period, net of tax of ($105), $248, and $752 384 (495) (1,365) Amortization of actuarial losses included in net periodic pension cost, net of tax of ($242), ($272), and ($288) 878 542 524 Settlements and curtailments included in ne…"
+   },
+   {
+    "chunk_id": "ch_5450c7b0b2e30ea4",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 24,
+    "text": "Table of Contents Other Earnings Items (Dollars in millions) Years ended December 31, 2018 2017 2016 Earnings from operations $11,987 $10,344 $6,527 Other income/(loss), net 92 123 (438) Interest and debt expense (475) (360) (306) Earnings before income taxes 11,604 10,107 5,783 Income tax expense (1,144) (1,649) (749) Net earnings from continuing operations $10,460 $8,458 $5,034 Other income/(loss), net decreased by $31 million in 2018 primarily due to lower gains from foreign exchange, partially offset by higher interest income. Other income/(loss), net increased by $561 million in 2017 primarily due to a decrease in non-operating pension and postretirement costs and higher gains from foreign exchange. The non-operating pension expense included in Other income/(loss), net was a benefit of $143 million in 2018 and $117 million in 2017 , compared with an expense of $327 million in 2016 . The benefits in 2018 and 2017 reflect expected returns in excess of interest cost and amortization …"
+   },
+   {
+    "chunk_id": "ch_19117b0ec4a3c020",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Notes to the Consolidated Financial Statements Summary of Business Segment Data (Dollars in millions) Years ended December 31, 2018 2017 2016 Revenues: Commercial Airplanes $60,715 $58,014 $59,378 Defense, Space & Security 23,195 20,561 20,180 Global Services 17,018 14,581 13,819 Boeing Capital 274 307 298 Unallocated items, eliminations and other (75) 542 (179) Total revenues $101,127 $94,005 $93,496 Earnings from operations: Commercial Airplanes $7,879 $5,452 $1,981 Defense, Space & Security 1,594 2,193 1,678 Global Services 2,522 2,246 2,159 Boeing Capital 79 114 59 Segment operating profit 12,074 10,005 5,877 Unallocated items, eliminations and other (1,414) (1,099) (707) FAS/CAS service cost adjustment 1,327 1,438 1,357 Earnings from operations 11,987 10,344 6,527 Other income/(loss), net 92 123 (438) Interest and debt expense (475) (360) (306) Earnings before income taxes 11,604 10,107 5,783 Income tax expense (1,144) (1,649) …"
+   },
+   {
+    "chunk_id": "ch_d2ab0b1165b3f841",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 52,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Financial Position (Dollars in millions, except per share data) December 31, 2018 2017 Assets Cash and cash equivalents $7,637 $8,813 Short-term and other investments 927 1,179 Accounts receivable, net 3,879 2,894 Unbilled receivables, net 10,025 8,194 Current portion of customer financing, net 460 309 Inventories 62,567 61,388 Other current assets 2,335 2,417 Total current assets 87,830 85,194 Customer financing, net 2,418 2,756 Property, plant and equipment, net 12,645 12,672 Goodwill 7,840 5,559 Acquired intangible assets, net 3,429 2,573 Deferred income taxes 284 321 Investments 1,087 1,260 Other assets, net of accumulated amortization of $503 and $482 1,826 2,027 Total assets $117,359 $112,362 Liabilities and equity Accounts payable $12,916 $12,202 Accrued liabilities 14,808 13,069 Advances and progress billings 50,676 48,042 Short-term debt and current portion of long-term debt 3,190 1,335 Total curr…"
+   }
+  ]
+ }
+}

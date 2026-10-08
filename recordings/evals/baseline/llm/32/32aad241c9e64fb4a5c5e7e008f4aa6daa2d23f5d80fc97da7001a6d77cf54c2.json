@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the cash from operations for Adobe in FY2017 is not explicitly stated as a single total sum in the cash flow statement excerpt, so the operating cash flow ratio cannot be calculated solely from these fragments.\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TIa9tXaMJXWyaQ3lW+AFwmzSCWpV+T6WGqn9pk+ltJC3G7zE2IZW86N6yr1GooKvifGCuLJ+MVbIVR5z63fVZxfqOUnB+cfG/pr0aZWgUWi5rkN8ZN2nve/Y="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492812,
+  "id": "ywLIapWmIbSwvdIP5K3kmQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 82,
+   "prompt_tokens": 3556,
+   "total_tokens": 3638
+  }
+ }
+}

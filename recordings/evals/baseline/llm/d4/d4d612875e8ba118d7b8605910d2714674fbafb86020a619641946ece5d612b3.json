@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\n  \"answer\": \"$4,029 million\",\n  \"confidence\": 1.0,\n  \"citations\": [\n    {\n      \"source_id\": \"ch_3585d8ef8beaae62\",\n      \"quote\": \"NET INCOME $ 4,029\"\n    }\n  ],\n  \"needs_review\": false\n}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TipAIluDtXSdkR2KHAmozU8BiC+nQvxFf0v8IqOSwnSHuZ3DQw7jZl1Vq1QW22afBmW+mSfDBj1SJq+X/u33x4oNOfbvpeF6WuGJ8IJi6hCsKSSo4cWeTABM="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493480,
+  "id": "ZwXIaurpOoWM28oPyLH--Ak",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 93,
+   "prompt_tokens": 2946,
+   "total_tokens": 3039
+  }
+ }
+}

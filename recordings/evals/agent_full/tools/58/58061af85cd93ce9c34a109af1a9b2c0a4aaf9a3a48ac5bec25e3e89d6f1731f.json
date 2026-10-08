@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "quick ratio",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_6fa05ef3f259986a",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 46,
+    "text": "(dollars in millions) Percentage point change Increase/(decrease) at December 31, 2022 Pension plans discount rate +0.50 $ (676) -0.50 740 Rate of return on pension plan assets +1.00 (168) -1.00 168 Postretirement plans discount rate +0.50 (507) -0.50 552 Rate of return on postretirement plan assets +1.00 (5) -1.00 5 In addition to our liability hedging assets, we also employ an interest rate hedging strategy to further minimize the impact of discount rate changes on the funded ratio of the pension plan. While the target hedge ratio varies depending on the funded status of the plan and the level of interest rates, the target hedge ratio was greater than 80% at December 31, 2022, significantly limiting volatility. The annual measurement date for both our pension and other postretirement benefits is December 31. We use the full yield curve approach to estimate the interest cost component of net periodic benefit cost for pension and other postretirement benefits. The full yield curve appr…"
+   },
+   {
+    "chunk_id": "ch_171affb0e923c55b",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7A",
+    "page": 49,
+    "text": "Certain of our floating rate debt and certain of our interest rate derivative transactions utilize interest rates that are linked to the London Inter-Bank Offered Rate (LIBOR) as the benchmark rate. The U.S. dollar LIBOR rates utilized in these transactions will cease publication after June 30, 2023, in accordance with recent U.S. and international regulatory guidance for reform. The consequences of these developments cannot be entirely predicted but could include an increase in the cost of our floating rate debt or exposure under our interest rate derivative transactions. We do not anticipate a significant impact to our financial position given our current mix of variable and fixed-rate debt and taking into account the impact of our interest rate hedging. In 2021, we began utilizing interest rates that are linked to the Secured Overnight Financing Rate as the benchmark rate for various floating rate transactions. The table that follows summarizes the fair values of our long-term debt,…"
+   },
+   {
+    "chunk_id": "ch_acc66d10002e0245",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 88,
+    "text": "Fair Value of Short-term and Long-term Debt The fair value of our debt is determined using various methods, including quoted prices for identical debt instruments, which is a Level 1 measurement, as well as quoted prices for similar debt instruments with comparable terms and maturities, which is a Level 2 measurement. The fair value of our short-term and long-term debt, excluding finance leases, was as follows: Fair Value (dollars in millions) Carrying Amount Level 1 Level 2 Level 3 Total At December 31, 2021 $ 149,543 $ 106,599 $ 62,606 $ — $ 169,205 At December 31, 2022 148,906 84,385 54,656 — 139,041 Derivative Instruments We enter into derivative transactions primarily to manage our exposure to fluctuations in foreign currency exchange rates and interest rates. We employ risk management strategies, which may include the use of a variety of derivatives including interest rate swaps, cross currency swaps, forward starting interest rate swaps, treasury rate locks, interest rate caps, …"
+   },
+   {
+    "chunk_id": "ch_b369d5e6f87b3e30",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 45,
+    "text": "The discounted cash flow analysis factored in assumptions on discount rates and terminal growth rates to reflect risk profiles of key strategic revenue and cost initiatives, as well as revenue and EBITDA growth relative to history and market trends and expectations. The market multiples approach incorporated significant judgment involved in the selection of comparable public company multiples and benchmarks. The selection of companies and multiples was influenced by differences in growth and profitability, and volatility in market prices of peer companies. These valuation inputs are inherently judgmental, and an adverse change in one or a combination of these inputs could trigger a goodwill impairment loss in the future. During the fourth quarter of 2022, we performed a qualitative impairment assessment for our Consumer reporting unit. Our qualitative assessment indicated that it was more likely than not that the fair value of our Consumer reporting unit exceeded its carrying value and…"
+   },
+   {
+    "chunk_id": "ch_384e304b22770353",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 77,
+    "text": "Long-term debt maturing within one year $ 9,813 $ 7,443 Add commercial paper 150 — Debt maturing within one year 9,963 7,443 Add long-term debt 140,676 143,425 Total debt $ 150,639 $ 150,868 (1) The debt obligations bore interest at a floating rate based on the Compounded Secured Overnight Financing Rate (SOFR) for the interest period or the London Interbank Offered Rate (LIBOR) plus an applicable interest margin per annum, as applicable. Compounded SOFR is calculated using the SOFR Index published by the Federal Reserve Bank of New York in accordance with the formula set forth in the terms of the notes. The Compounded SOFR for the interest period ending in December 2022 was 3.450%. The one-month and three-month LIBOR at December 31, 2022 was 4.392% and 4.767%, respectively. (2) The debt obligations bore interest at floating rates, including floating rates associated with SOFR for the interest period, or LIBOR plus an applicable interest margin per annum, as applicable. Floating rates …"
+   }
+  ]
+ }
+}

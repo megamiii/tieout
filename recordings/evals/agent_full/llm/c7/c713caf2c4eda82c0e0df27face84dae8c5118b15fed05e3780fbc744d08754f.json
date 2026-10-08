@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TDuOCeTmPw9FFuOv3LNQCb7PQfg6uuHmFSdwL0NByytYFkaJAzCKA82o/AXGIVmCffPzyRzudrA/UAiDIlldnh+2sH5M7LC/L5/9Z6ZggzWo8Aov0z9RXx3A="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"liquidity and capital resources\",\"ticker\":\"AMD\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_696854",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494628,
+  "id": "5AnIarDmB7q0xN8Pw6iWuAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 36,
+   "prompt_tokens": 3118,
+   "total_tokens": 3154
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TTece4c7GyliUKGnSMuJR1TtqeJcPPyx86ZTQCExyw6e+Q16sQ8CudjjYJvFWSg1PxjvEirFWmQVSQfYwmQxSug8Dw9Yn0d17XDYUJLzUpiCBsnHxFtzIVVE="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2021,\"ticker\":\"VZ\",\"query\":\"total notional amount interest rate swaps cross currency swaps December 31 2021\"}",
+        "name": "search_filings"
+       },
+       "id": "call_859059",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791495326,
+  "id": "nQzIaoLCKpzyxN8Ph_KHoAw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 50,
+   "prompt_tokens": 6275,
+   "prompt_tokens_details": {
+    "cached_tokens": 4040
+   },
+   "total_tokens": 6325
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Who are the primary customers of Boeing as of FY2022?",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_cc19595608c4e1aa",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Operations (Dollars in millions, except per share data) Years ended December 31, 2022 2021 2020 Sales of products $55,893 $51,386 $47,142 Sales of services 10,715 10,900 11,016 Total revenues 66,608 62,286 58,158 Cost of products (53,969) (49,954) (54,568) Cost of services (9,109) (9,283) (9,232) Boeing Capital interest expense (28) (32) (43) Total costs and expenses (63,106) (59,269) (63,843) 3,502 3,017 (5,685) (Loss)/income from operating investments, net (16) 210 9 General and administrative expense (4,187) (4,157) (4,817) Research and development expense, net (2,852) (2,249) (2,476) Gain on dispositions, net 6 277 202 Loss from operations (3,547) (2,902) (12,767) Other income, net 1,058 551 447 Interest and debt expense (2,533) (2,682) (2,156) Loss before income taxes (5,022) (5,033) (14,476) Income tax (expense)/benefit (31) 743 2,535 Net loss (5,053) (4,290) (11,941) Less: net loss attributable to n…"
+   },
+   {
+    "chunk_id": "ch_fb6b1cda9b1186b7",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 3,
+    "text": "Item 1. Business The Boeing Company, together with its subsidiaries (herein referred to as “Boeing,” the “Company,” “we,” “us,” “our”), is one of the world's major aerospace firms. We are organized based on the products and services we offer. We operate in four reportable segments: • Commercial Airplanes (BCA); • Defense, Space & Security (BDS); • Global Services (BGS); • Boeing Capital (BCC). Commercial Airplanes Segment This segment develops, produces and markets commercial jet aircraft principally to the commercial airline industry worldwide. We are a leading producer of commercial aircraft and offer a family of commercial jetliners designed to meet a broad spectrum of global passenger and cargo requirements of airlines. This family of commercial jet aircraft in production includes the 737 narrow-body model and the 767, 777 and 787 wide- body models. We ended production of the 747 wide-body model in 2022. Development continues on the 777X program and the 737-7 and 737- 10 derivative…"
+   },
+   {
+    "chunk_id": "ch_54aaca8411e8a11d",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 62,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Notes to the Consolidated Financial Statements Summary of Business Segment Data (Dollars in millions) Years ended December 31, 2022 2021 2020 Revenues: Commercial Airplanes $25,867 $19,493 $16,162 Defense, Space & Security 23,162 26,540 26,257 Global Services 17,611 16,328 15,543 Boeing Capital 199 272 261 Unallocated items, eliminations and other (231) (347) (65) Total revenues $66,608 $62,286 $58,158 (Loss)/earnings from operations: Commercial Airplanes ($2,370) ($6,475) ($13,847) Defense, Space & Security (3,544) 1,544 1,539 Global Services 2,727 2,017 450 Boeing Capital 29 106 63 Segment operating loss (3,158) (2,808) (11,795) Unallocated items, eliminations and other (1,532) (1,267) (2,355) FAS/CAS service cost adjustment 1,143 1,173 1,383 Loss from operations (3,547) (2,902) (12,767) Other income, net 1,058 551 447 Interest and debt expense (2,533) (2,682) (2,156) Loss before income taxes (5,022) (5,033) (14,476) Income tax (e…"
+   },
+   {
+    "chunk_id": "ch_64f168f59c555e1b",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Financial Position (Dollars in millions, except per share data) December 31, 2022 2021 Assets Cash and cash equivalents $14,614 $8,052 Short-term and other investments 2,606 8,192 Accounts receivable, net 2,517 2,641 Unbilled receivables, net 8,634 8,620 Current portion of customer financing, net 154 117 Inventories 78,151 78,823 Other current assets, net 2,847 2,221 Total current assets 109,523 108,666 Customer financing, net 1,450 1,695 Property, plant and equipment, net 10,550 10,918 Goodwill 8,057 8,068 Acquired intangible assets, net 2,311 2,562 Deferred income taxes 63 77 Investments 983 975 Other assets, net of accumulated amortization of $949 and $975 4,163 5,591 Total assets $137,100 $138,552 Liabilities and equity Accounts payable $10,200 $9,261 Accrued liabilities 21,581 18,455 Advances and progress billings 53,081 52,980 Short-term debt and current portion of long-term debt 5,190 1,296 Total cu…"
+   },
+   {
+    "chunk_id": "ch_c0ec956f9687e5a4",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 59,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Cash Flows (Dollars in millions) Years ended December 31, 2022 2021 2020 Cash flows – operating activities: Net loss ($5,053) ($4,290) ($11,941) Adjustments to reconcile net loss to net cash used by operating activities: Non-cash items – Share-based plans expense 725 833 250 Treasury shares issued for 401(k) contribution 1,215 1,233 195 Depreciation and amortization 1,979 2,144 2,246 Investment/asset impairment charges, net 112 98 410 Customer financing valuation adjustments 37 12 Gain on dispositions, net (6) (277) (202) 787 and 777X reach-forward losses 3,460 6,493 Other charges and credits, net 364 360 1,462 Changes in assets and liabilities – Accounts receivable 142 (713) 909 Unbilled receivables 6 (586) 919 Advances and progress billings 108 2,505 (1,060) Inventories 420 (1,127) (11,002) Other current assets (591) 345 372 Accounts payable 838 (3,783) (5,363) Accrued liabilities 2,956 (3,687) 1,074 Inc…"
+   },
+   {
+    "chunk_id": "ch_a22b6d9c61f38dbf",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 115,
+    "text": "Table of Contents BCA revenues by customer location consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: Asia $4,484 $2,792 $2,679 Europe 4,038 4,334 3,872 Middle East 2,003 1,098 1,647 Other non-U.S. 3,042 1,681 513 Total non-U.S. revenues 13,567 9,905 8,711 United States 12,167 9,472 7,899 Estimated potential concessions and other considerations to 737 MAX customers 16 14 (498) Total revenues from contracts with customers 25,750 19,391 16,112 Intersegment revenues, eliminated on consolidation 117 102 50 Total segment revenues $25,867 $19,493 $16,162 Revenue recognized on fixed-price contracts 100 % 100 % 100 % Revenue recognized at a point in time 100 % 100 % 100 % BDS revenues on contracts with customers, based on the customer's location, consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: U.S. customers $17,144 $19,869 $19,662 Non-U.S. customers 6,018 6,671 6,595 Total segme…"
+   },
+   {
+    "chunk_id": "ch_b409cf7f7a6e8d93",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 61,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Equity Boeing shareholders (Dollars in millions, except per share data) Common Stock Additional Paid-In Capital Treasury Stock Retained Earnings Accumulated Other Comprehensive Loss Non- controlling Interests Total Balance at January 1, 2020 $5,061 $6,745 ($54,914) $50,482 ($16,153) $317 ($8,462) Net loss (11,873) (68) (11,941) Other comprehensive loss, net of tax of $52 (980) (980) Share-based compensation 250 250 Treasury shares issued for stock options exercised, net (26) 63 37 Treasury shares issued for other share-based plans, net (214) 47 (167) Treasury shares contributed to pension plans 952 2,048 3,000 Treasury shares issued for 401(k) contribution 80 115 195 Changes in noncontrolling interests (8) (8) Other 1 1 Balance at December 31, 2020 $5,061 $7,787 ($52,641) $38,610 ($17,133) $241 ($18,075) Net loss (4,202) (88) (4,290) Other comprehensive income, net of tax of ($57) 5,474 5,474 Share-based c…"
+   },
+   {
+    "chunk_id": "ch_242ce481a1eca4e5",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 83,
+    "text": "Table of Contents Our financing receivable balances at December 31, 2022 by internal credit rating category and year of origination consisted of the following: Rating categories Current 2021 2020 2019 2018 Prior Total BBB $68 $68 BB $35 $218 $112 $39 $12 63 479 B 35 218 253 CCC 19 370 389 Total carrying value of financing receivables $35 $253 $112 $58 $12 $719 $1,189 At December 31, 2022, our allowance for losses related to receivables with ratings of CCC, B, BB and BBB. We applied default rates that averaged 100.0%, 31.5%, 2.9% and 0.1%, respectively, to the exposure associated with those receivables. Customer Financing Exposure The majority of our customer financing portfolio is concentrated in the following aircraft models at December 31: 2022 2021 717 Aircraft ($45 and $62 accounted for as operating leases) $563 $603 747-8 Aircraft (Accounted for as sales-type/finance leases) 394 435 737 Aircraft ($174 and $145 accounted for as operating leases) 186 163 777 Aircraft ($209 and $225 …"
+   }
+  ]
+ }
+}

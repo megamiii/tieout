@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Has CVS Health reported any materially important ongoing legal battles from 2022, 2021 and 2020?",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_9abdf33074129ca6",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 174,
+    "text": "Controlled Substances Litigation, Audits and Subpoenas In December 2017, the U.S. Judicial Panel on Multidistrict Litigation consolidated numerous cases filed against various defendants by plaintiffs such as counties, cities, hospitals, Indian tribes and third-party payors, alleging claims beginning as far back as the early 2000s generally concerning the impacts of widespread prescription opioid abuse. The consolidated multidistrict litigation captioned In re National Prescription Opiate Litigation (MDL No. 2804) is pending in the U.S. District Court for the Northern District of Ohio. This multidistrict litigation presumptively includes hundreds of relevant federal court cases that name the Company as a defendant. A significant number of similar cases that name the Company as a defendant in some capacity are pending in state courts. In addition, the Company has been named as a defendant in similar cases brought by certain state Attorneys General. The Company is defending itself against…"
+   },
+   {
+    "chunk_id": "ch_63c1b33f8ed47ab7",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 75,
+    "text": "Results of Operations The following information summarizes the Company's results of operations for 2022 compared to 2021. For discussion of the Company's results of operations for 2021 compared to 2020, see “Management's Discussion and Analysis of Financial Condition and Results of Operations” included in the Company's Annual Report on Form 10-K for the fiscal year ended December 31, 2021 filed with the U.S. Securities and Exchange Commission (the “SEC”) on February 9, 2022. Summary of Consolidated Financial Results Change Year Ended December 31, 2022 vs. 2021 2021 vs. 2020 In millions 2022 2021 2020 $ % $ % Revenues: Products $ 226,616 $ 203,738 $ 190,688 $ 22,878 11.2 % $ 13,050 6.8 % Premiums 85,330 76,132 69,364 9,198 12.1 % 6,768 9.8 % Services 9,683 11,042 7,856 (1,359) (12.3)% 3,186 40.6 % Net investment income 838 1,199 798 (361) (30.1)% 401 50.3 % Total revenues 322,467 292,111 268,706 30,356 10.4 % 23,405 8.7 % Operating costs: Cost of products sold 196,892 175,803 163,981 21…"
+   },
+   {
+    "chunk_id": "ch_b99cfa2af92b530c",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 177,
+    "text": "investment in company stock between December 3, 2017 and February 20, 2019, claiming losses related to the performance of the Company's LTC business unit. The district court consolidated the actions, and in October 2021, dismissed the consolidated action without prejudice. Plaintiffs filed an amended consolidated complaint, which the Company moved to dismiss. In October 2022, the court granted the Company's motion to dismiss with prejudice. Plaintiffs have appealed this decision to the Second Circuit. The Company also received a related document request pursuant to ERISA § 104(b), to which the Company has responded. The Company and its current and former officers and directors are defending themselves against these claims. In December 2021, the Company received a demand for inspection of books and records pursuant to Delaware Corporation Law Section 220 (the “Demand”). The Demand purports to be related to potential breaches of fiduciary duties by the Board in relation to certain matter…"
+   },
+   {
+    "chunk_id": "ch_b0d17def6f46f544",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 20,
+    "text": "that the Company will not be required to materially change its business practices, based on: (i) future enactment of new health care or other laws or regulations; (ii) the interpretation or application of existing laws or regulations, including the laws and regulations described in this Government Regulation section, as they may relate to one or more of the Company's businesses, one or more of the industries in which the Company competes and/or the health care industry generally; (iii) pending or future federal or state governmental investigations of one or more of the Company's businesses, one or more of the industries in which the Company competes and/or the health care industry generally; (iv) pending or future government audits, investigations or enforcement actions against the Company; or (v) adverse developments in pending or future legal proceedings against or affecting the Company, including qui tam lawsuits, or affecting one or more of the industries in which the Company compe…"
+   },
+   {
+    "chunk_id": "ch_1c7af47753f1b44c",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 88,
+    "text": "Corporate/Other Segment The following table summarizes the Corporate/Other segment's performance for the respective periods: Change Year Ended December 31, 2022 vs. 2021 2021 vs. 2020 In millions, except percentages 2022 2021 2020 $ % $ % Revenues: Premiums $ 56 $ 68 $ 63 $ (12) (17.6)% $ 5 7.9 % Services 68 57 48 11 19.3 % 9 18.8 % Net investment income 406 596 315 (190) (31.9)% 281 89.2 % Total revenues 530 721 426 (191) (26.5)% 295 69.2 % Cost of products sold 42 37 — 5 13.5 % 37 100.0 % Benefit costs 319 212 221 107 50.5 % (9) (4.1)% Opioid litigation charges 5,803 — — 5,803 100.0 % — — % Operating expenses 1,975 2,078 1,846 (103) (5.0)% 232 12.6 % Operating loss (7,609) (1,606) (1,641) (6,003) (373.8)% 35 2.1 % Adjusted operating loss (1,785) (1,471) (1,306) (314) (21.3)% (165) (12.6)% (1) See “Segment Analysis” above in this MD&A for a reconciliation of Corporate/Other segment operating loss (GAAP measure) to adjusted operating loss, which represents the Company's principal measu…"
+   },
+   {
+    "chunk_id": "ch_184195c50c293a9f",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 88,
+    "text": "See “Segment Analysis” above in this MD&A for a reconciliation of Corporate/Other segment operating loss (GAAP measure) to adjusted operating loss, which represents the Company's principal measure of segment performance. Commentary - 2022 compared to 2021 Revenues • Revenues primarily relate to products for which the Company no longer solicits or accepts new customers, such as large case pensions and long-term care insurance products. • Total revenues decreased $191 million, or 26.5%, in 2022 compared to 2021. The decrease was primarily driven by net realized capital losses in 2022 compared to net realized capital gains in 2021 and lower net investment income from private equity investments, partially offset by higher average invested assets and favorable average investment yields in 2022 compared to 2021. Opioid litigation charges • During 2022, the Company recorded $5.8 billion of opioid litigation charges. See Note 16 ‘‘Commitments and Contingencies'' included in Item 8 of this 10-K…"
+   },
+   {
+    "chunk_id": "ch_e746f5ba131e7ef8",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 175,
+    "text": "The Company has concluded that settlement of opioid claims by governmental entities and tribes is probable, and the loss related thereto could be reasonably estimated. As a result of that conclusion, and its assessment of certain other opioid-related claims including those for which the Company reached agreement in August and September 2022, the Company recorded pre-tax charges of $5.2 billion and $99 million during the three months ended September 30, 2022 and the three months ended December 31, 2022, respectively, of which $4.8 billion was recorded in other long-term liabilities on the consolidated balance sheet. In addition, the Company expects the cash impact in 2023 and 2024 to be less than $500 million in each year. Because loss contingencies are inherently unpredictable and unfavorable developments or resolutions can occur, the assessment requires judgments about future events. Moreover, the settlement is in its early phases, and there is no assurance that contingencies will be …"
+   },
+   {
+    "chunk_id": "ch_9baf152bce0041df",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 77,
+    "text": "Outlook for 2023 With respect to 2023, the Company believes you should consider the following important information: • The Health Care Benefits segment is expected to continue to benefit from Medicare and Commercial membership growth, partially offset by declines in Medicaid due to the impact of redeterminations in 2023. • The Pharmacy Services segment is expected to continue to benefit from the Company's ability to drive further improvements in purchasing economics and strong pharmacy network volume. These increases are expected to be partially offset by continued client price improvements and regulation of pharmacy pricing. • The Retail/LTC segment is expected to continue to benefit from increased prescription volume and improved generic drug purchasing, partially offset by continued pharmacy reimbursement pressure and lower contributions from COVID-19 vaccinations, diagnostic testing and OTC test kits as COVID-19 transitions to the endemic stage. • The Company is expected to benefit…"
+   }
+  ]
+ }
+}

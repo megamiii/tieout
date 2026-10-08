@@ -1,0 +1,46 @@
+{
+ "item_id": "xbrl-AXP-2022-RevenueFromContractWithCustomerExcludingAssessedTax-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "$52,862 million (total revenues net of interest expense) or $42,967 million (total non-interest revenues) in fiscal year 2022",
+ "confidence": 0.9,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_01a1954f662f77a4",
+   "quote": "Total non-interest revenues 42,967",
+   "kind": "chunk",
+   "ticker": "AXP",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 96,
+   "supports": false
+  },
+  {
+   "source_id": "ch_01a1954f662f77a4",
+   "quote": "Total revenues net of interest expense 52,862",
+   "kind": "chunk",
+   "ticker": "AXP",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 96,
+   "supports": false
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 3709,
+ "completion_tokens": 159,
+ "latency_ms": 1116.8,
+ "grade": {
+  "correct": false,
+  "method": "numeric",
+  "detail": "no figure in the answer matches the gold value",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Balance Sheets Long-term debt",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_893b1455f30d1984",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 41,
+    "text": "agreement, the Company has agreed to guarantee certain of the payment obligations of Cellco and the Originators to the ABS Entities. Cash collections on the receivables collateralizing our asset-backed debt securities are required at certain specified times to be placed into segregated accounts. Deposits to the segregated accounts are considered restricted cash and are included in Prepaid expenses and other and Other assets in our consolidated balance sheets. Proceeds from our asset-backed debt transactions are reflected in Cash flows from financing activities in our consolidated statements of cash flows. The asset-backed debt issued is included in Debt maturing within one year and Long-term debt in our consolidated balance sheets. See Note 7 to the consolidated financial statements for additional information. Long-Term Credit Facilities At December 31, 2022 (dollars in millions) Maturities Facility Capacity Unused Capacity Principal Amount Outstanding Verizon revolving credit facility…"
+   },
+   {
+    "chunk_id": "ch_4abef3c10af85f32",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7A",
+    "page": 49,
+    "text": "the obligation to return cash collateral arising from derivative instruments recognized at fair value. At December 31, 2022, we did not hold any collateral. At December 31, 2022, we posted $2.3 billion of collateral related to derivative contracts under collateral exchange agreements, which was recorded as Prepaid expenses and other in our consolidated balance sheet. At December 31, 2021, we held and posted $0.1 billion and an insignificant amount, respectively, of collateral related to derivative contracts under collateral exchange arrangements, which were recorded as Other current liabilities and Prepaid expenses and other, respectively, in our consolidated balance sheet. While we may be exposed to credit losses due to the nonperformance of our counterparties, we consider the risk remote and do not expect that any such nonperformance would result in a significant effect on our results of operations or financial condition due to our diversified pool of counterparties. See Note 9 to th…"
+   },
+   {
+    "chunk_id": "ch_d9e3cb3e5f7d2f2e",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 79,
+    "text": "agreement, the Company has agreed to guarantee certain of the payment obligations of Cellco and the Originators to the ABS Entities. Cash collections on the receivables collateralizing our asset-backed debt securities are required at certain specified times to be placed into segregated accounts. Deposits to the segregated accounts are considered restricted cash and are included in Prepaid expenses and other and Other assets in our consolidated balance sheets. Proceeds from our asset-backed debt transactions are reflected in Cash flows from financing activities in our consolidated statements of cash flows. The asset-backed debt issued is included in Debt maturing within one year and Long-term debt in our consolidated balance sheets. 79 Verizon 2022 Annual Report on Form 10-K"
+   },
+   {
+    "chunk_id": "ch_ca5b2b7cc393e536",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 89,
+    "text": "(dollars in millions) Years Ended December 31, 2022 2021 Other, net Cash Flows from Operating Activities: Cash received for settlement of interest rate swaps $ 40 $ 107 Cash paid for settlement of forward starting interest rate swaps (107) (237) Cash received for settlement of treasury rate locks — 251 The following table displays the amounts recorded in Long-term debt in our consolidated balance sheets related to cumulative basis adjustments for fair value hedges. The cumulative amounts exclude cumulative basis adjustments related to foreign exchange risk. (dollars in millions) At December 31, 2022 2021 Carrying amount of hedged liabilities $ 21,741 $ 20,027 Cumulative amount of fair value hedging adjustment included in the carrying amount of the hedged liabilities (4,512) (113) Cumulative amount of fair value hedging adjustment remaining for which hedge accounting has been discontinued 488 575 Interest Rate Swaps We enter into interest rate swaps to achieve a targeted mix of fixed an…"
+   },
+   {
+    "chunk_id": "ch_cf7adac4def57f70",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 81,
+    "text": "the advances at any time without penalty, but in certain cases, with breakage costs. Subject to certain conditions, we may also remove receivables from the applicable ABS Entity. In October 2022, we borrowed $2.0 billion under the loan agreement entered into in connection with the 2022 ABS Financing Facility. The aggregate outstanding balance under the 2022 ABS Financing Facility was $2.0 billion as of December 31, 2022. Variable Interest Entities The ABS Entities meet the definition of a VIE for which we have determined that we are the primary beneficiary as we have both the power to direct the activities of the entity that most significantly impact the entity's performance and the obligation to absorb losses or the right to receive benefits of the entity. Therefore, the assets, liabilities and activities of the ABS Entities are consolidated in our financial results and are included in amounts presented on the face of our consolidated balance sheets. The assets and liabilities related…"
+   }
+  ]
+ }
+}

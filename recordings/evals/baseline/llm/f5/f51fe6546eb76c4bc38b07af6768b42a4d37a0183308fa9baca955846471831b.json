@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, there is no mention of Amcor's research and development expense for fiscal year 2023.\",\n  \"confidence\": 1.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TOpImCyTYBTKzii0lw1/YS7i1lhUFQub6p4ITtjHceKjaYHWhN5woY8WfPEoqpGFthj17vQSR7f3FSJCwHKfd8moN+Rey2mHWKrMFQ14g8ahF073EVSj3qw4="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493359,
+  "id": "7wTIapmXBLOWkdUPvdC5yQ0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 62,
+   "prompt_tokens": 2058,
+   "total_tokens": 2120
+  }
+ }
+}

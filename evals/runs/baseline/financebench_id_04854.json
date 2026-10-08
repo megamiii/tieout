@@ -1,0 +1,56 @@
+{
+ "item_id": "financebench_id_04854",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "$3,215.4 million for fiscal 2020",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_9ae9ff68006e4948",
+   "quote": "Net cash provided by operating activities 3,676.2",
+   "kind": "chunk",
+   "ticker": "GIS",
+   "fiscal_year": 2020,
+   "section": "Item 7",
+   "page": 37,
+   "supports": false
+  },
+  {
+   "source_id": "ch_9ae9ff68006e4948",
+   "quote": "Purchases of land, buildings, and equipment (460.8)",
+   "kind": "chunk",
+   "ticker": "GIS",
+   "fiscal_year": 2020,
+   "section": "Item 7",
+   "page": 37,
+   "supports": false
+  },
+  {
+   "source_id": "ch_ca1ddef1a8211dd0",
+   "quote": "Free cash flow (b) 3,215.4",
+   "kind": "chunk",
+   "ticker": "GIS",
+   "fiscal_year": 2020,
+   "section": "Item 6",
+   "page": 17,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2747,
+ "completion_tokens": 176,
+ "latency_ms": 1103.8,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$3,215.4 matches 3215.00 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

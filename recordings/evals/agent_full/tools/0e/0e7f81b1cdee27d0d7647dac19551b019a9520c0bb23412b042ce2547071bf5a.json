@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "MMM",
+  "query": "Property, Plant and Equipment",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "MMM",
+  "concepts": [
+   {
+    "concept": "PropertyPlantAndEquipmentNet",
+    "label": "Property, Plant and Equipment, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "9178000000",
+      "fact_id": "xf_4cbcef9d0175e903",
+      "reported_in_10k_filed": "2023-02-08"
+     }
+    ]
+   },
+   {
+    "concept": "PropertyPlantAndEquipmentGross",
+    "label": "Property, Plant and Equipment, Gross",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "25998000000",
+      "fact_id": "xf_8eed545ae318d056",
+      "reported_in_10k_filed": "2023-02-08"
+     }
+    ]
+   }
+  ]
+ }
+}

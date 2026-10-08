@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TB4SBYJWH29gGbHAewncPNDhJbG4n0dH/8EBxVX2dCXFjlCPOTY0pqtzmrMBogkW+MB6xT9wxu7GV2P8+ytd+2MS1CpusR66a4WJ/x5xEFgtRMZHE7CoB4tQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AMCR\",\"query\":\"liabilities current\",\"fiscal_years\":[2022,2023]}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_433050",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791495277,
+  "id": "agzIavKfIdbZxN8P5fncsQ0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 6516,
+   "prompt_tokens_details": {
+    "cached_tokens": 4030
+   },
+   "total_tokens": 6557
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\n  \"answer\": \"$5,409 million for FY2019\",\n  \"confidence\": 1.0,\n  \"citations\": [\n    {\n      \"source_id\": \"ch_8168b6b422ae3513\",\n      \"quote\": \"Merchandise inventories 5,409 5,209\"\n    }\n  ],\n  \"needs_review\": false\n}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TLQUzC0lNw2tUA9FA/MUaTQBHpMhT1RqbAXAR/jiHyZEDdfj8Ven653zAp5szc6ewq9MHzSclelVE21VSg5+AWpRo2mx3/nUcjGetBpof+qBMLpHCdhXdsnw="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492824,
+  "id": "1wLIau7EGKn2xN8P05re0AM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 108,
+   "prompt_tokens": 3091,
+   "total_tokens": 3199
+  }
+ }
+}

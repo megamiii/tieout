@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T9kvOxavdnfTOWEo5u42X7M0cVHyo44GNeEmViIlQtuqfv9f171qTKlq1wZGNJ3T7tT3rLMGHGKMpIhYeF4T4unPbdPCrH3Pka8PTJIh5qtbOofSiXUAU9bc="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"Total revenues $66,608 $62,286 $58,158\",\"source_id\":\"ch_54aaca8411e8a11d\"},{\"quote\":\"Commercial Airplanes $25,867 $19,493 $16,162\",\"source_id\":\"ch_54aaca8411e8a11d\"},{\"source_id\":\"ch_54aaca8411e8a11d\",\"quote\":\"Defense, Space & Security 23,162 26,540 26,257\"},{\"quote\":\"Global Services 17,611 16,328 15,543\",\"source_id\":\"ch_54aaca8411e8a11d\"}],\"answer\":\"Yes. For FY2022, Boeing had total revenues of $66,608 million, and three of its primary segments each represented more than 20% of total revenue:\\n1. Commercial Airplanes segment revenues were $25,867 million (38.83% of total revenue).\\n2. Defense, Space & Security segment revenues were $23,162 million (34.77% of total revenue).\\n3. Global Services segment revenues were $17,611 million (26.44% of total revenue).\",\"rationale\":\"Boeing's segment revenues for FY2022 were retrieved from the 10-K, and their percentages of total revenue ($66,608 million) were calculated using the calculate tool (yielding 38.83%, 34.77%, and 26.44%), each exceeding 20%.\",\"confidence\":1,\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_738173",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494855,
+  "id": "xQrIapeuL_y2kdUP_qKKmAc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 441,
+   "prompt_tokens": 8772,
+   "prompt_tokens_details": {
+    "cached_tokens": 4448
+   },
+   "total_tokens": 9213
+  }
+ }
+}

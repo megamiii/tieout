@@ -1,0 +1,36 @@
+{
+ "item_id": "xbrl-AMD-2015-NetIncomeLoss-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "AMD's net income (loss) attributable to AMD common stockholders in fiscal year 2015 was $(660) million.",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_cc959f6dc3e3b2e2",
+   "quote": "Net income (loss) attributable to AMD common stockholders $ (660)",
+   "kind": "chunk",
+   "ticker": "AMD",
+   "fiscal_year": 2015,
+   "section": "Item 6",
+   "page": 34,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 3038,
+ "completion_tokens": 123,
+ "latency_ms": 1065.9,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "(660) matches -660 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

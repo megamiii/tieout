@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the information needed to calculate AMD's total assets for fiscal years 2014 and 2015 is not present. Therefore, the percentage change cannot be determined.\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TdzNG+I1GJieqTaPlCHTBsFTyt2ce9rglb5ViEVRI2htnZ8Ev4Ql0ctnL73Woma3CzZ9FKbEc0PQvXRoJJrv7O8opgxqlAUo3dtRSaJW4hyRAQ73bavoOcJQ="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493360,
+  "id": "8ATIavqnBKulnsEP8K_NsQ0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 77,
+   "prompt_tokens": 2851,
+   "total_tokens": 2928
+  }
+ }
+}

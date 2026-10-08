@@ -1,0 +1,46 @@
+{
+ "item_id": "financebench_id_01091",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "Yes, Boeing reported involvement in multiple legal proceedings and actions filed against it, including those resulting from the October 29, 2018 accident of Lion Air Flight 610 and the March 10, 2019 accident of Ethiopian Airlines Flight 302, as well as a Deferred Prosecution Agreement with the U.S. Department of Justice resolving a previously disclosed investigation.",
+ "confidence": 0.95,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_f8fc5ef01eba0774",
+   "quote": "Item 3. Legal Proceedings Currently, we are involved in a number of legal proceedings.",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2022,
+   "section": "Item 3",
+   "page": 20,
+   "supports": false
+  },
+  {
+   "source_id": "ch_87c7e84ed08663db",
+   "quote": "Multiple legal actions have been filed against us as a result of the October 29, 2018 accident of Lion Air Flight 610 and the March 10, 2019 accident of Ethiopian Airlines Flight 302. During 2021, we entered into (i) a Deferred Prosecution Agreement with the U.S. Department of Justice that resolved the Department of Justice's previously disclosed investigation into us regarding the evaluation of the 737 M…",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 113,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2062,
+ "completion_tokens": 298,
+ "latency_ms": 1374.4,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer correctly identifies the legal battles mentioned in the gold answer and provides additional accurate context regarding the Deferred Prosecution Agreement.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Taking into account the information outlined in the income statement, what is the FY2019 - FY2021 3 year average unadjusted operating income % margin for Corning? Answer in units of percents and round to one decimal place.",
+  "ticker": "GLW",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_3a84c9902757d640",
+    "ticker": "GLW",
+    "fiscal_year": 2021,
+    "section": "Item 16",
+    "page": 85,
+    "text": "Table of Contents 7. Leases (Continued) The weighted average remaining lease terms and weighted average discount rates for operating and finance leases, respectively, are 12.9 years and 15.0 years and 4.0% and 4.4%, respectively. As of December 31, 2021, maturities of lease liabilities are as follows (in millions): 2022 2023 2024 2025 2026 After 2026 Gross Total Imputed Discount Total Operating leases $ 103 $ 110 $ 97 $ 85 $ 78 $ 553 $ 1,026 $ (241) $ 785 Finance leases 22 27 21 15 32 142 259 (76) 183 As of December 31, 2021, Corning had additional operating leases, primarily for new production facilities, that have not yet commenced or been recorded, of approximately $122 million on an undiscounted basis. These operating leases will commence in fiscal years 2022 and 2023 with lease terms between 10 and 20 years. 8. Income Taxes Income before income taxes follows (in millions): Year ended December 31, 2021 2020 2019 U.S. companies $ 1,254 $ (71) $ 504 Non-U.S. companies 1,143 694 712 I…"
+   },
+   {
+    "chunk_id": "ch_c8ac96f537b6fa32",
+    "ticker": "GLW",
+    "fiscal_year": 2021,
+    "section": "Item 16",
+    "page": 102,
+    "text": "cash flow hedges into accumulated other comprehensive loss on the consolidated balance sheets until the hedged item impacts earnings. At December 31, 2021, the amount expected to be reclassified into earnings within the next 12 months is a pre-tax gain of $47 million. In 2021, Corning entered into leases of precious metals, with maturities through 2025. To offset the risk of changes in the fair value of the Company's separate accounting pool of leased precious metals due to adverse changes in the respective market prices, Corning designated the bifurcated embedded derivatives included in these leases as fair value hedges. The gain or loss on the derivatives, as well as the offsetting loss or gain on the hedged item attributable to the hedged risk, are recognized in current earnings. The amounts representing the time value component of the derivatives are excluded from the assessment of effectiveness and amortized in earnings. The impact of the excluded component on Corning's other comp…"
+   },
+   {
+    "chunk_id": "ch_35f9c22a79cd8068",
+    "ticker": "GLW",
+    "fiscal_year": 2021,
+    "section": "Item 16",
+    "page": 65,
+    "text": "Table of Contents Consolidated Statements of Income Corning Incorporated and Subsidiary Companies Year ended December 31, (In millions, except per share amounts) 2021 2020 2019 Net sales $ 14,082 $ 11,303 $ 11,503 Cost of sales 9,019 7,772 7,468 Gross margin 5,063 3,531 4,035 Operating expenses: Selling, general and administrative expenses 1,827 1,747 1,585 Research, development and engineering expenses 995 1,154 1,031 Amortization of purchased intangibles 129 121 113 Operating income 2,112 509 1,306 Equity in earnings (losses) of affiliated companies (Note 3) 35 (25) 17 Interest income 11 15 21 Interest expense (300) (276) (221) Translated earnings contract gain (loss), net (Note 15) 354 (38) 248 Transaction-related gain, net (Note 4) 498 Other income (expense), net 185 (60) (155) Income before income taxes 2,397 623 1,216 Provision for income taxes (Note 8) (491) (111) (256) Net income attributable to Corning Incorporated $ 1,906 $ 512 $ 960 Earnings per common share attributable to …"
+   },
+   {
+    "chunk_id": "ch_8a5423ff2e74b66a",
+    "ticker": "GLW",
+    "fiscal_year": 2021,
+    "section": "Item 16",
+    "page": 117,
+    "text": "Table of Contents 20. Reportable Segments (Continued) A reconciliation of reportable segment assets to consolidated total assets follows (in millions): December 31, 2021 2020 2019 Total assets of reportable segments $ 16,930 $ 16,865 $ 16,998 Total assets of All Other 2,024 2,157 1,028 Unallocated amounts: Current assets (1) 3,163 3,434 3,301 Investments (2) 54 177 43 Property, plant and equipment, net (3) 1,620 1,548 1,764 Other non-current assets (4) 6,363 6,594 5,764 Total assets $ 30,154 $ 30,775 $ 28,898 (1) Includes current corporate assets, including cash, other receivables, prepaid expenses and current portion of long-term derivative assets. (2) Represents other corporate investments. Asset balance does not include equity method affiliate liability balance of $270 million for HSG in 2019. HSG became a fully consolidated subsidiary of Corning on September 9, 2020. (3) Represents corporate property not specifically identifiable to an operating segment. (4) Includes non-current co…"
+   },
+   {
+    "chunk_id": "ch_fca817c2a6ac599d",
+    "ticker": "GLW",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 26,
+    "text": "Table of Contents RESULTS OF OPERATIONS Selected highlights from our operations follow (in millions): Year ended December 31, % change 2021 2020 2019 21 vs. 20 20 vs. 19 Net sales $ 14,082 $ 11,303 $ 11,503 25 (2) Gross margin $ 5,063 $ 3,531 $ 4,035 43 (12) (gross margin %) 36% 31% 35% Selling, general and administrative expenses $ 1,827 $ 1,747 $ 1,585 5 10 (as a % of net sales) 13% 15% 14% Research, development and engineering expenses $ 995 $ 1,154 $ 1,031 (14) 12 (as a % of net sales) 7% 10% 9% Equity in earnings (losses) of affiliated companies $ 35 $ (25) $ 17 * * (as a % of net sales) 0% (0)% 0% Translated earnings contract gain (loss), net $ 354 $ (38) $ 248 * * (as a % of net sales) 3% (0)% 2% Transaction-related gain, net $ 498 * * (as a % of net sales) 4% Income before income taxes $ 2,397 $ 623 $ 1,216 285 (49) (as a % of net sales) 17% 6% 11% Provision for income taxes $ (491) $ (111) $ (256) (342) 57 (as a % of net sales) (3)% (1)% (2)% Net income attributable to Corning…"
+   },
+   {
+    "chunk_id": "ch_087f36a236f36db7",
+    "ticker": "GLW",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 42,
+    "text": "debt. We believe we have sufficient liquidity to fund operations, acquisitions, capital expenditures, scheduled debt repayments, dividend payments and share repurchase programs for the next twelve months. Our Revolving Credit Agreement includes affirmative and negative covenants with which we must comply, including a leverage (debt to capital ratio) financial covenant. The required leverage ratio is a maximum of 60%. At December 31, 2021, our leverage using this measure was approximately 36%. As of December 31, 2021, Corning was in compliance and no amounts were outstanding under the Company's Revolving Credit Agreement. Our debt instruments contain customary event of default provisions, which allow the lenders the option of accelerating all obligations upon the occurrence of certain events. In addition, some of our debt instruments contain a cross default provision, whereby an uncured default exceeding a specified amount on one debt obligation of the Company, also would be considered …"
+   },
+   {
+    "chunk_id": "ch_60cd32fb25301098",
+    "ticker": "GLW",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Table of Contents See “Items Excluded from GAAP Measures” for the descriptions of the footnoted reconciling items. Year ended December 31, 2020 Net sales Equity (losses) earnings Income before income taxes Net income Effective tax rate (a) Earnings per share As reported $ 11,303 $ (25) $ 623 $ 512 17.8% $ 0.54 Constant-currency adjustment (1) 44 22 17 0.02 Translation loss on Japanese yen-denominated debt (2) 86 67 0.09 Translated earnings contract loss, net (3) 46 36 0.05 Acquisition-related costs (4) 156 114 0.15 Discrete tax items and other tax-related adjustments (5) (24) (0.03) Pension mark-to-market adjustment (6) 31 24 0.03 Restructuring, impairment and other charges and credits (7) 827 621 0.80 Litigation, regulatory and other legal matters (8) 144 120 0.16 Bond redemption loss (10) 22 17 0.02 Gain on investment (11) (107) (83) (0.11) Equity in losses of affiliated companies (13) 111 111 98 0.13 Transaction-related gain, net (14) (498) (387) (0.50) Cumulative adjustment related…"
+   },
+   {
+    "chunk_id": "ch_f9b56f797543428a",
+    "ticker": "GLW",
+    "fiscal_year": 2021,
+    "section": "Item 16",
+    "page": 88,
+    "text": "Table of Contents 8. Income Taxes (Continued) The following is a tabular reconciliation of the total amount of unrecognized tax benefits (in millions): 2021 2020 2019 Balance at January 1 $ 131 $ 62 $ 435 Additions based on tax positions related to the current year 54 19 3 Additions for tax positions of prior years 17 53 2 Reductions for tax positions of prior years (21) Settlements and lapse of statute of limitations (3) (3) (378) Balance at December 31 $ 178 $ 131 $ 62 During 2020, the Internal Revenue Service (“IRS”) opened an audit for tax years 2015-2018. We do not expect additional material exposure for the tax years under audit. However, if upon conclusion of these matters, the ultimate determination of taxes owed is for an amount materially different than our current position, our overall tax expense and effective tax rate could be materially impacted in the period of adjustment. The additions for tax positions of prior years were primarily due to tax audits, development of tax…"
+   }
+  ]
+ }
+}

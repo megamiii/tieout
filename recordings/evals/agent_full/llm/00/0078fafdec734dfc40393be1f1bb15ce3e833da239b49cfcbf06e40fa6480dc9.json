@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TH/SYcO505spLP2W03dZvLaGzJXVoIedRFfFIFYDvay2v+i8Z/bMpXtdZSQevMgSdUTLnapxc7+ZgOMrWOcAkHMDb3uhccKhKcvraFg9HjZNe5gONTkQ6mjQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"VZ\",\"query\":\"Consolidated Balance Sheets Long-term debt\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_734296",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494889,
+  "id": "5QrIas_IO769nsEP84ad8Ag",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 2197,
+   "total_tokens": 2236
+  }
+ }
+}

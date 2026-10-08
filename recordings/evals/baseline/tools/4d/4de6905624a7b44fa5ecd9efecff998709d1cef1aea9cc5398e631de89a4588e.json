@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What was Corning's operating income in fiscal year 2020? Answer in USD millions.",
+  "ticker": "GLW",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_dbb0bc4b811dfda8",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 73,
+    "text": "Index Consolidated Statements of Cash Flows Corning Incorporated and Subsidiary Companies Year ended December 31, (In millions) 2020 2019 2018 Cash Flows from Operating Activities: Net income $ 512 $ 960 $ 1,066 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation 1,399 1,390 1,199 Amortization of purchased intangibles 121 113 94 Loss on disposal of assets 138 123 43 Severance charges 148 63 16 Severance payments (147) (28) (3) Share-based compensation expense 207 56 51 Equity in losses (earnings) of affiliated companies 25 (17) (390) Dividends received from affiliated companies 1 106 241 Deferred tax benefit (20) (191) (38) Customer incentives and deposits, net 221 142 700 Pension plan contributions (221) (2) (117) Translated earnings contract loss (gain) 38 (248) 93 Unrealized translation (gain) loss on transactions (133) 33 55 Asbestos claim payments (130) (50) (35) Tax assessment refunds 101 Asset impairment 217 Transaction-related gain, ne…"
+   },
+   {
+    "chunk_id": "ch_e2359e537629d18d",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 26,
+    "text": "Index RESULTS OF OPERATIONS Selected highlights from our operations follow (in millions): Year ended December 31, % change 2020 2019 2018 20 vs. 19 19 vs. 18 Net sales $ 11,303 $ 11,503 $ 11,290 (2) 2 Gross margin $ 3,531 $ 4,035 $ 4,461 (12) (10) (gross margin %) 31% 35% 40% Selling, general and administrative expenses $ 1,747 $ 1,585 $ 1,799 10 (12) (as a % of net sales) 15% 14% 16% Research, development and engineering expenses $ 1,154 $ 1,031 $ 993 12 4 (as a % of net sales) 10% 9% 9% Equity in (losses) earnings of affiliated companies $ (25) $ 17 $ 390 * (96) (as a % of net sales) (0)% 0% 3% Translated earnings contract (loss) gain, net $ (38) $ 248 $ (93) * * (as a % of net sales) (0)% 2% (1)% Transaction-related gain, net $ 498 * * (as a % of net sales) 4% Income before income taxes $ 623 $ 1,216 $ 1,503 (49) (19) (as a % of net sales) 6% 11% 13% Provision for income taxes $ (111) $ (256) $ (437) 57 41 (as a % of net sales) (1)% (2)% (4)% Net income attributable to Corning Incor…"
+   },
+   {
+    "chunk_id": "ch_007054bfbfeba8c5",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 70,
+    "text": "Index Consolidated Statements of Income Corning Incorporated and Subsidiary Companies Year ended December 31, (In millions, except per share amounts) 2020 2019 2018 Net sales $ 11,303 $ 11,503 $ 11,290 Cost of sales 7,772 7,468 6,829 Gross margin 3,531 4,035 4,461 Operating expenses: Selling, general and administrative expenses 1,747 1,585 1,799 Research, development and engineering expenses 1,154 1,031 993 Amortization of purchased intangibles 121 113 94 Operating income 509 1,306 1,575 Equity in (losses) earnings of affiliated companies (Note 3) (25) 17 390 Interest income 15 21 38 Interest expense (276) (221) (191) Translated earnings contract (loss) gain, net (Note 15) (38) 248 (93) Transaction-related gain, net (Note 4) 498 Other expense, net (60) (155) (216) Income before income taxes 623 1,216 1,503 Provision for income taxes (Note 8) (111) (256) (437) Net income attributable to Corning Incorporated $ 512 $ 960 $ 1,066 Earnings per common share attributable to Corning Incorporat…"
+   },
+   {
+    "chunk_id": "ch_7da4da922230daf3",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 95,
+    "text": "Index During 2020, the Company distributed approximately $914 million from foreign subsidiaries to their respective U.S. parent companies. As of December 31, 2020, Corning has approximately $2 billion of indefinitely reinvested foreign earnings. It remains impracticable to calculate the tax cost of repatriating unremitted earnings which are considered indefinitely reinvested. The tax effects of temporary differences and carryforwards that gave rise to significant portions of the deferred tax assets and liabilities are as follows (in millions): December 31, 2020 2019 Loss and tax credit carryforwards $ 637 $ 388 Other assets 269 345 Asset impairments and restructuring reserves 29 30 Postretirement medical and life benefits 171 168 Other accrued liabilities 162 218 Other employee benefits 337 345 Gross deferred tax assets 1,605 1,494 Valuation allowances (167) (215) Total deferred tax assets 1,438 1,279 Intangible and other assets (95) (110) Fixed assets (375) (216) Financing leases (160…"
+   },
+   {
+    "chunk_id": "ch_bcb3395c7b2363e5",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 93,
+    "text": "Index Supplemental balance sheet information related to leases was as follows (in millions, except lease term and discount rate): December 31, 2020 2019 Operating Leases: Operating lease right-of-use assets, net (1) $ 680 $ 504 Other current liabilities $ 96 $ 62 Operating lease liabilities (2) 633 450 Total operating lease liabilities $ 729 $ 512 Finance Leases: Property and equipment, at cost $ 184 $ 294 Accumulated depreciation (27) (52) Property and equipment, net $ 157 $ 242 Current portion of long-term debt $ 10 $ 9 Long-term debt 163 271 Total finance lease liabilities $ 173 $ 280 (1) Included in other assets. (2) Included in other liabilities. The weighted average remaining lease terms for operating and financing leases are 12.5 years and 15.5 years, respectively. The weighted average discount rates for operating and financing leases are 3.9% and 4.7%, respectively. As of December 31, 2020, maturities of lease liabilities are as follows (in millions): 2021 2022 2023 2024 2025 A…"
+   },
+   {
+    "chunk_id": "ch_33a0836942312b9b",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 25,
+    "text": "An $83 million gain recognized from the initial public offering of an investment in the fourth quarter of 2020. Diluted earnings per share decreased in 2020 by $0.53 per share, or 50%, when compared to 2019, primarily driven by the decrease in net income described above. The impact of share repurchases did not materially impact the change in diluted earnings per share. The translation impact of fluctuations in foreign currency exchange rates, including the impact of hedges realized in the current year, positively impacted Corning's net income by approximately $51 million in the year ended December 31, 2020, when compared to the same period in 2019. 2021 Corporate Outlook We believe 2021 will be a year of growth and we will continue to focus on operational excellence, cash-flow generation and prudent capital allocation. We expect year-over-year sales growth to accelerate in the first quarter of 2021, with approximately $3.0 - $3.2 billion of net sales. 25"
+   },
+   {
+    "chunk_id": "ch_5c9b80970b4d6fcd",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 102,
+    "text": "Index The following table shows debt maturities by year at December 31, 2020 (in millions) (1): 2021 2022 2023 2024 2025 Thereafter $ 156 $ 422 $ 382 $ 317 $ 171 $ 6,580 (1) Excludes interest rate swap gains, bond discounts and deferred expenses. Debt Issuances and Repayments 2020 During the fourth quarter of 2020, Corning redeemed $100 million of 7.0% debentures due in 2024 with a carrying amount of $99 million, paying a $21 million make-whole call premium. The total payment of $121 million is disclosed in financing activities in the consolidated statements of cash flows. The redemption resulted in a loss of $22 million. In conjunction with the change in control of HSG on September 9, 2020, a variable interest rate loan of $175 million USD, maturing on September 8, 2021, was made to DC HSC Holdings, LLC, now a consolidated subsidiary of Corning. In December 2020, DC HSC Holdings, LLC repaid $100 million of the loan. The remaining balance of $75 million is reflected in the current port…"
+   },
+   {
+    "chunk_id": "ch_acc1a2e6078e9300",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Includes pre-tax realized losses related to the expiration of option contracts for the year ended 2020, 2019, 2018 of $20 million, $37 million and $11 million, respectively, and was reflected in operating activities in the consolidated statements of cash flows. (2) The impact to income was primarily driven by Japanese yen, South Korean won, and euro-denominated hedges of translated earnings. Income Before Income Taxes The translation impact of fluctuations in foreign currency exchange rates, including the impact of hedges realized in the current year, positively impacted Corning's income before income taxes by $60 million in the year ended December 31, 2020, when compared to the same period in 2019. Provision for Income Taxes Our provision for income taxes and the related effective income tax rates were as follows (dollars in millions): Year ended December 31, 2020 2019 2018 Provision for income taxes $ (111) $ (256) $ (437) Effective tax rate 17.8% 21.1% 29.1% For the year ended Decem…"
+   }
+  ]
+ }
+}

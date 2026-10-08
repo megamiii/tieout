@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "segment net sales data computing and graphics enterprise embedded semi-custom",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7bd3f31a389c781c",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 67,
+    "text": "results has been updated consistent with the revised manner in which the Company's CODM assesses the company's financial performance and allocates resources. All prior-period segment data have been retrospectively adjusted. The Company's four reportable segments are: • the Data Center segment, which primarily includes server CPUs and GPUs, DPUs, FPGAs and Adaptive SoC products for data centers; • the Client segment, which primarily includes CPUs, accelerated processing units that integrate microprocessors and GPUs (APUs), and chipsets for desktop and notebook personal computers; • the Gaming segment, which primarily includes discrete GPUs, semi-custom SoC products and development services; and • the Embedded segment, which primarily includes embedded CPUs and GPUs, FPGAs, and Adaptive SoC products. From time to time, the Company may also sell or license portions of its IP portfolio. In addition to these reportable segments, the Company has an All Other category, which is not a reportab…"
+   },
+   {
+    "chunk_id": "ch_9321416dd5ddbc9a",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 6,
+    "text": "now offer the industry's strongest portfolio of data center computing solutions based on our CPUs, high-performance GPUs, DPUs, FPGAs, and Adaptive SoCs. We have a broad technology roadmap and products targeting AI training and inference spanning cloud, edge and intelligent endpoints. We achieve this through our family of CPUs, GPUs, FPGAs, and Adaptive SoCs. We develop world-class software platforms that are used to enable our high-performance products. Our software platforms include development tools, compilers, and drivers for our CPUs, GPUs and FPGAs. We work closely with our customers to define and develop customized solutions to precisely match their requirements. We enable this by combining our broad portfolio of high-performance IP with our leadership design and packaging to deliver world-class customized solutions to our customers. We invest in innovative technology and solutions such as our custom-ready chiplet platform and AMD Infinity Architecture to maintain our leadership…"
+   },
+   {
+    "chunk_id": "ch_4627843238794e5a",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 13,
+    "text": "Table of Contents Competition in Gaming Segment In the graphics market, our principal competitor in the supply of discrete graphics is NVIDIA who is the market share leader. Intel also manufactures and sells embedded graphics processors and integrated graphics processor (IGP) chipsets. Also, Intel has developed their own gaming-focused discrete GPUs and has entered the market. Other competitors include suppliers of discrete graphics and integrated graphics processor (IGP) chipsets. Some of our competitors are smaller companies, which may have greater flexibility to address specific market needs, but less financial resources to address the growing complexity of graphics processors and the associated research and development costs. With respect to integrated graphics, higher unit shipments of our APUs and Intel's integrated graphics may drive computer manufacturers to reduce the number of systems they build paired with discrete graphics components, particularly for notebooks, because the…"
+   },
+   {
+    "chunk_id": "ch_191f2bb42773e387",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 43,
+    "text": "acceleration and rapid innovation across a variety of technologies and established AMD in multiple embedded markets where we have traditionally not had a significant presence. We now offer Field Programmable Gate Arrays (FPGAs), Adaptive SoCs, and Adaptive Compute Acceleration Platform (ACAP) products. With the acquisition of Xilinx, we have access to a new set of markets and customers, further strengthening and diversifying our business model. In May 2022, we expanded our data center solutions capabilities with the acquisition of Pensando Systems, Inc. (Pensando). We now offer high-performance data processing units (DPUs) and a software stack that complements our existing products. With the Xilinx and Pensando acquisitions, we are well positioned to provide the industry's broadest set of leadership compute engines and accelerators to help enable best performance, security, flexibility and total cost of ownership for leading-edge data centers. Our 2022 financial results reflect the str…"
+   },
+   {
+    "chunk_id": "ch_d4166c27e7864922",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 4,
+    "text": "server microprocessors (CPUs) and graphics processing units (GPUs), data processing units (DPUs), Field Programmable Gate Arrays (FPGAs), and Adaptive System-on-Chip (SoC) products for data centers; • CPUs, accelerated processing units (APUs) that integrate CPUs and GPUs, and chipsets for desktop and notebook personal computers; • discrete GPUs, and semi-custom SoC products and development services; and • embedded CPUs, GPUs, APUs, FPGAs, and Adaptive SoC products. From time to time, we may also sell or license portions of our intellectual property (IP) portfolio. 1"
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer incorrectly states that there is no mention of legal battles in the filings, whereas the gold answer correctly identifies that the company addressed the issue and concluded that no proceedings would have a material adverse effect.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TLV+kx4jmpUoHYkyZcrze6hM24TPCB6QxLX8BnzeKIhVZcX9q03bUYGSZ1uv9nS7tmJMnizxffYf53iwUZYoHt23Z7S4iA4Iw/hVewgUDIHGhmRIO+a7lz2pj99AgpdWmVOtIGHX9K8L4Kf9o"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493102,
+  "id": "4QPIavSqJ7Ss28oPpMjYsQs",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 52,
+   "prompt_tokens": 204,
+   "total_tokens": 256
+  }
+ }
+}

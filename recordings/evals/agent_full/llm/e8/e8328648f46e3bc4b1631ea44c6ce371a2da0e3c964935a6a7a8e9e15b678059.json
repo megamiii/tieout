@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TOQLwnSKjm/4BGYacILj5eVVnCHupjhAL4ptqMt6JLT/o87iOUtxumK95r+MAzpvEaUXjcJTJXUQapTwtKp1L+0iYGqq/JP2Y9ISdFdY0GDijXE+293Ucfgs="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"citations\":[{\"quote\":\"Debt maturing within one year $ 9,963 $ 7,443\",\"source_id\":\"ch_54dcad0b04037d12\"},{\"source_id\":\"ch_54dcad0b04037d12\",\"quote\":\"Long-term debt 140,676 143,425\"}],\"rationale\":\"Provides the exact figures for short-term/current debt and long-term debt from the balance sheets for both 2021 and 2022, answering whether debt increased or decreased.\",\"answer\":\"Yes, Verizon's total debt (combining debt maturing within one year and long-term debt) actually decreased slightly between December 31, 2021 and December 31, 2022, although its short-term debt increased. \\n\\nSpecifically, from the Consolidated Balance Sheets:\\n- Debt maturing within one year was $7,443 million at December 31, 2021, and increased to $9,963 million at December 31, 2022.\\n- Long-term debt was $143,425 million at December 31, 2021, and decreased to $140,676 million at December 31, 2022.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_978399",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494915,
+  "id": "AQvIaqGIO7TQvdIP9IuCyAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 332,
+   "prompt_tokens": 8494,
+   "total_tokens": 8826
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The client correctly identified the Data Center segment as having the highest proportional increase and provided accurate calculations that match the gold answer.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TC6r8sFH0eU0RaJ+T92JhacdvfRh5aps7llXNs+btRQkeN4EFI0i27X9PCqPjfkX80HxP3l2H0FA9QeUmnQycahuemOTpZycVfsZC5gibfFBza7Ea9smTUq0vxk2s4JqpIbQ5nKzFqWRCRLfL"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791495427,
+  "id": "-AzIaq_rCIL-vdIP_NvD0Qo",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 36,
+   "prompt_tokens": 555,
+   "total_tokens": 591
+  }
+ }
+}

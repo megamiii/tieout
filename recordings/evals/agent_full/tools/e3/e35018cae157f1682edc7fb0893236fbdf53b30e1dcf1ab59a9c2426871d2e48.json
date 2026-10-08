@@ -1,0 +1,80 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMCR",
+  "query": "cash and cash equivalents",
+  "concept": null,
+  "fiscal_years": [
+   2022,
+   2023
+  ]
+ },
+ "output": {
+  "ticker": "AMCR",
+  "concepts": [
+   {
+    "concept": "CashAndCashEquivalentsAtCarryingValue",
+    "label": "Cash and Cash Equivalents, at Carrying Value",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-06-30",
+      "value": "689000000",
+      "fact_id": "xf_522ef00a0af3f867",
+      "reported_in_10k_filed": "2023-08-17"
+     },
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-06-30",
+      "value": "775000000",
+      "fact_id": "xf_0a3e29123bb0bc01",
+      "reported_in_10k_filed": "2022-08-18"
+     }
+    ]
+   },
+   {
+    "concept": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalents",
+    "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-06-30",
+      "value": "689000000",
+      "fact_id": "xf_fb4ffe7a2523850d",
+      "reported_in_10k_filed": "2023-08-17"
+     },
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-06-30",
+      "value": "775000000",
+      "fact_id": "xf_273cd0be8b797c46",
+      "reported_in_10k_filed": "2022-08-18"
+     }
+    ]
+   },
+   {
+    "concept": "CashCashEquivalentsRestrictedCashAndRestrictedCashEquivalentsIncludingDisposalGroupAndDiscontinuedOperations",
+    "label": "Cash, Cash Equivalents, Restricted Cash and Restricted Cash Equivalents, Including Disposal Group and Discontinued Operations",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-06-30",
+      "value": "689000000",
+      "fact_id": "xf_c565a7bd505d6511",
+      "reported_in_10k_filed": "2024-08-16"
+     },
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-06-30",
+      "value": "850000000",
+      "fact_id": "xf_7a23deebf2bdaaa9",
+      "reported_in_10k_filed": "2023-08-17"
+     }
+    ]
+   }
+  ]
+ }
+}

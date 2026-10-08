@@ -1,0 +1,32 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "item": "8",
+  "page": 57
+ },
+ "output": {
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "item": "8",
+  "title": "Financial Statements and Supplementary Data",
+  "page": 57,
+  "item_pages": [
+   51,
+   107
+  ],
+  "chunks": [
+   {
+    "chunk_id": "ch_4bcc45c0a92264fd",
+    "page": 57,
+    "text": "Consolidated Statements of Cash Flows Verizon Communications Inc. and Subsidiaries (dollars in millions) Years Ended December 31, 2022 2021 2020 Cash Flows from Operating Activities Net Income $ 21,748 $ 22,618 $ 18,348 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation and amortization expense 17,099 16,206 16,720 Employee retirement benefits (2,046) (3,391) 840 Deferred income taxes 2,973 4,264 1,553 Provision for expected credit losses 1,611 789 1,380 Equity in losses (earnings) of unconsolidated businesses, net of dividends received (10) 36 91 Changes in current assets and liabilities, net of effects from acquisition/disposition of businesses: Accounts receivable (1,978) (1,592) 189 Inventories 627 (905) (369) Prepaid expenses and other 928 150 1,202 Accounts payable and accrued liabilities and Other current liabilities (33) 1,457 (966) Other, net (3,778) (93) 2,780 Net cash provided by operating activities 37,141 39,539 41,768 Cash Flows from Investing Activities Capital expenditures (including capitalized software) (23,087) (20,286) (18,192) Cash received (paid) related to acquisitions of businesses, net of cash acquired 248 (4,065) (520) Acquisitions of wireless licenses (3,653) (47,596) (3,896) Collateral payments related to derivative contracts, net of repayments (2,265) (21) — Proceeds from disposition of business 33 4,122 — Other, net 62 693 (904) Net cash used in investing activities (28,662) (67,153)"
+   },
+   {
+    "chunk_id": "ch_aa4b80370d486634",
+    "page": 57,
+    "text": "Collateral payments related to derivative contracts, net of repayments (2,265) (21) — Proceeds from disposition of business 33 4,122 — Other, net 62 693 (904) Net cash used in investing activities (28,662) (67,153) (23,512) Cash Flows from Financing Activities Proceeds from long-term borrowings 7,074 33,034 25,822 Proceeds from asset-backed long-term borrowings 10,732 8,383 5,635 Net proceeds from (repayments of) short-term commercial paper 106 — (9) Repayments of long-term borrowings and finance lease obligations (8,616) (14,063) (9,775) Repayments of asset-backed long-term borrowings (4,948) (4,800) (7,413) Dividends paid (10,805) (10,445) (10,232) Other, net (2,072) (3,832) (2,703) Net cash provided by (used in) financing activities (8,529) 8,277 1,325 Increase (decrease) in cash, cash equivalents and restricted cash (50) (19,337) 19,581 Cash, cash equivalents and restricted cash, beginning of period 4,161 23,498 3,917 Cash, cash equivalents and restricted cash, end of period (Note 1) $ 4,111 $ 4,161 $ 23,498 See Notes to Consolidated Financial Statements 57 Verizon 2022 Annual Report on Form 10-K"
+   }
+  ]
+ }
+}

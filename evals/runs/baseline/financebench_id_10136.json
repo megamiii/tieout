@@ -1,0 +1,46 @@
+{
+ "item_id": "financebench_id_10136",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "0.46",
+ "confidence": 0.95,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_29eaf1f1d6233ca9",
+   "quote": "Dividends paid in fiscal 2022 totaled $1,244 million, or $2.04 per share.",
+   "kind": "chunk",
+   "ticker": "GIS",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 27,
+   "supports": false
+  },
+  {
+   "source_id": "ch_1a6135740f34b415",
+   "quote": "Net earnings attributable to General Mills 2,707.3",
+   "kind": "chunk",
+   "ticker": "GIS",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 48,
+   "supports": false
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2838,
+ "completion_tokens": 139,
+ "latency_ms": 1274.4,
+ "grade": {
+  "correct": false,
+  "method": "numeric",
+  "detail": "no figure in the answer matches the gold value",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

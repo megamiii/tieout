@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer fails to identify that operating margin is not a standard or useful metric for American Express, instead incorrectly stating that the information is unavailable.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TVPu7+iM/20QGwUaZNbzrb7DAmhdMElPwIGkJ6GT4S1hQNWepG7czrNCs6NDTp7JIOQEJ9pX7PWSRUVhCjyF+jxIkGzrc/PSQhO7uOKqo28N+SLpAasxTBCWfqle7WZwrX0bzEZx9I4w7HedI"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493089,
+  "id": "1APIatq7GarxnsEPytWFwAg",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 214,
+   "total_tokens": 254
+  }
+ }
+}

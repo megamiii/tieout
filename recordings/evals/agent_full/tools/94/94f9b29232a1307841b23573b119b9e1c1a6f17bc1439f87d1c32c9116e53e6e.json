@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "gross margin",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": "7",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_1a9ace5d37ed8fb1",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 74,
+    "text": "third line of defense and provides independent assessments and effective challenge of the first and second lines of defense. CREDIT RISK MANAGEMENT PROCESS We define credit risk as loss due to default or changes in the credit quality of a customer, obligor or security. Our credit risks are divided into two broad categories: individual and institutional. Each has distinct risk management capabilities, strategies, and tools. Business units that create individual or institutional credit risk exposures of significant importance are supported by dedicated risk management teams, each led by a Chief Credit Officer. Individual Credit Risk Individual credit risk arises from consumer and small business charge cards, credit cards, and term loans. These portfolios consist of millions of customers across multiple geographies, industries and levels of net worth. We benefit from the high-quality profile of our customers, which is driven by our brand, premium customer servicing, product features and r…"
+   },
+   {
+    "chunk_id": "ch_290f30a8f788565c",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 44,
+    "text": "Table of Contents TABLE 1: SUMMARY OF FINANCIAL PERFORMANCE Years Ended December 31, Change Change (Millions, except percentages, per share amounts and where indicated) 2022 2021 2020 2022 vs. 2021 2021 vs. 2020 Selected Income Statement Data Total revenues net of interest expense $ 52,862 $ 42,380 $ 36,087 $ 10,482 25 % $ 6,293 17 % Provisions for credit losses 2,182 (1,419) 4,730 3,601 # (6,149) # Expenses 41,095 33,110 27,061 7,985 24 6,049 22 Pretax income 9,585 10,689 4,296 (1,104) (10) 6,393 # Income tax provision 2,071 2,629 1,161 (558) (21) 1,468 # Net income 7,514 8,060 3,135 (546) (7) 4,925 # Earnings per common share — diluted $ 9.85 $ 10.02 $ 3.77 $ (0.17) (2)% $ 6.25 # % Common Share Statistics Cash dividends declared per common share $ 2.08 $ 1.72 $ 1.72 $ 0.36 21 % $ — — % Average common shares outstanding: Basic 751 789 805 (38) (5)% (16) (2)% Diluted 752 790 806 (38) (5)% (16) (2)% Selected Metrics and Ratios Network volumes (Billions) $ 1,552.8 $ 1,284.2 $ 1,037.8 $ 2…"
+   },
+   {
+    "chunk_id": "ch_5772574933334dce",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 84,
+    "text": "Table of Contents Our methodology for conducting the quantitative goodwill impairment testing is fundamentally based on the measurement of fair value for our reporting units, which inherently entails the use of significant management judgment. For valuation, we use a combination of the income approach (discounted cash flows) and market approach (market multiples) in estimating the fair value of our reporting units. When preparing discounted cash flow models under the income approach, we estimate future cash flows using the reporting unit's internal multi-year forecast, and a terminal value calculated using a growth rate that we believe is appropriate in light of current and expected future economic conditions. To discount these cash flows we use our expected cost of equity, determined using a capital asset pricing model. When using the market method under the market approach, we apply comparable publicly traded companies' multiples (e.g., earnings, revenues) to our reporting units' ope…"
+   },
+   {
+    "chunk_id": "ch_86058a8524e94344",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 75,
+    "text": "our business and results of operations” and “Arrangements with our business partners represent a significant portion of our business. We are exposed to risks associated with our business partners, including reputational issues, business slowdowns, bankruptcies, liquidations, restructurings and consolidations, and the possible obligation to make payments to our partners” under “Risk Factors” for additional information. Debt Exposure As part of our ongoing risk management process, we monitor our financial exposure to both sovereign and non-sovereign customers and counterparties, and measure and manage concentrations of risk by geographic regions, as well as by economic sectors and industries. A primary focus area for monitoring is credit deterioration due to weaknesses in economic and fiscal profiles. We evaluate countries based on the market assessment of the riskiness of their sovereign debt and our assessment of the economic and financial outlook and closely monitor those deemed high …"
+   },
+   {
+    "chunk_id": "ch_f251134fcfc2bda7",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 64,
+    "text": "Table of Contents CORPORATE & OTHER Corporate functions and certain other businesses are included in Corporate & Other. Corporate & Other pretax loss was $2.2 billion and $1.0 billion in 2022 and 2021, respectively. The increase in the pretax loss was primarily driven by net losses on Amex Ventures investments in the current year, as compared to net gains in the prior year, a non-cash gain in the prior year related to an increase in GBTG's total equity book value and higher compensation costs in the current year. CONSOLIDATED CAPITAL RESOURCES AND LIQUIDITY Our balance sheet management objectives are to maintain: • A solid and flexible equity capital profile; • A broad, deep and diverse set of funding sources to finance our assets and meet operating requirements; and • Liquidity programs that enable us to continuously meet expected future financing obligations and business requirements for at least a twelve-month period in the event we are unable to continue to raise new funds under ou…"
+   }
+  ]
+ }
+}

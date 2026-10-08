@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"In fiscal year 2018, 3M's net income attributable to 3M was $5,349 million.\",\n  \"confidence\": 1.0,\n  \"citations\": [{\"source_id\": \"ch_002a8a4749ce6e30\", \"quote\": \"Net income attributable to 3M 5,349\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TiFwZB61UoKH8p9aHRMRnKr+Z1R4PgZj6Jfmnck6ZEdTq3pxHgr6biLASe5eOmJiZTJEMvO9sWMfuasByahuQmOLWFH5uTfSJTuaFfM5XBYTrf/UT/nY8Yqw="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493477,
+  "id": "ZQXIatitD8b6vdIPx9C0uQk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 106,
+   "prompt_tokens": 3195,
+   "total_tokens": 3301
+  }
+ }
+}

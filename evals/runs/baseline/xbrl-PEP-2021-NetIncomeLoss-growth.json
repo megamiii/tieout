@@ -1,0 +1,36 @@
+{
+ "item_id": "xbrl-PEP-2021-NetIncomeLoss-growth",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "PepsiCo's net income increased by 7.0% from fiscal year 2020 to fiscal year 2021.",
+ "confidence": 0.99,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_b7df7e4543cc7133",
+   "quote": "Net income 7,679 7,175",
+   "kind": "chunk",
+   "ticker": "PEP",
+   "fiscal_year": 2021,
+   "section": "Item 7",
+   "page": 61,
+   "supports": false
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 3251,
+ "completion_tokens": 108,
+ "latency_ms": 1116.0,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "7.0% matches 6.9944 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

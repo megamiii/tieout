@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "cyclical cycle cyclicality",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": "7",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_55366641fb3c48e0",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 37,
+    "text": "need to modernize aging equipment and inventories. BDS expects that it will continue to have a wide range of opportunities across Asia, Europe and the Middle East given the diverse regional threats. At the end of 2022, 28% of BDS backlog was attributable to non-U.S. customers. Results of Operations (Dollars in millions) Years ended December 31, 2022 2021 2020 Revenues $23,162 $26,540 $26,257 % of total company revenues 35 % 43 % 45 % (Loss)/earnings from operations ($3,544) $1,544 $1,539 Operating margins (15.3)% 5.8 % 5.9 % Since our operating cycle is long-term and involves many different types of development and production contracts with varying delivery and milestone schedules, the operating results of a particular period may not be indicative of future operating results. In addition, depending on the customer and their funding sources, our orders might be structured as annual follow-on contracts, or as one large multi-year order or long-term award. As a result, period-to-period co…"
+   },
+   {
+    "chunk_id": "ch_82e33b5cae6ee32b",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 52,
+    "text": "offset deferred income tax assets and result in higher taxable income in future years and increase income taxes payable. Tax law determines whether future reversals of temporary differences will result in taxable and deductible amounts that offset each other in future years. The particular years in which temporary differences result in taxable or deductible amounts generally are determined by the timing of the recovery of the related asset or settlement of the related liability. On a quarterly basis, we assess the likelihood that we will be able to recover our deferred tax assets against future sources of taxable income and reduce the carrying amounts of deferred tax assets by recording a valuation allowance if, based on the available evidence, it is more likely than not (defined as a likelihood of more than 50%) that all or a portion of such assets will not be realized. This assessment takes into account both positive and negative evidence. A recent history of financial reporting loss…"
+   },
+   {
+    "chunk_id": "ch_49fd0c9dc0574642",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 51,
+    "text": "however, when estimated costs to complete a program plus costs already included in inventory exceed estimated revenues from the program, a loss is recorded in the current period. Reductions to the estimated loss are included in the gross profit margin for undelivered units in the accounting quantity whereas increases to the estimated loss are recorded as an earnings charge in the period in which the loss is determined. The 767, 777X, and 787 programs had near break-even or single digit margins at December 31, 2022. Adverse changes to the revenue and/or cost estimates for these programs could result in earnings charges in future periods. 777X Program The 777X program had near break-even gross margins at December 31, 2022. The level of profitability on the 777X program will be subject to a number of factors. These factors include continued production disruption due to labor instability and supply chain disruption, customer negotiations, further production rate adjustments for the 777X or…"
+   },
+   {
+    "chunk_id": "ch_95d473d77d5157c9",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 35,
+    "text": "Table of Contents The 777X program had near break-even gross margins at December 31, 2022. The level of profitability on the 777X program will be subject to a number of factors. These factors include continued production disruption due to labor instability and supply chain disruption, customer negotiations, further production rate adjustments for the 777X or other commercial aircraft programs, contraction of the accounting quantity and potential risks associated with the testing program and the timing of aircraft certification. One or more of these factors could result in additional reach-forward losses on the 777X program in future periods. 787 Program During the fourth quarter of 2022, we increased the accounting quantity for the 787 program by 100 units due to the program's normal progress of obtaining additional orders and delivering aircraft. The increase in the accounting quantity improved the program's profit margin. We received FAA authorization to resume delivery on July 28, 2…"
+   },
+   {
+    "chunk_id": "ch_2d6c20a46b0e52b9",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 36,
+    "text": "indicators, performance or reliability issues involving completed aircraft, capital expenditures and other costs associated with increasing or adding new production capacity, learning curve, additional change incorporation, achieving anticipated cost reductions, the addition of regulatory requirements in connection with certification in one or more jurisdictions, flight test and certification schedules, costs, schedule and demand for new airplanes and derivatives and status of customer claims, supplier claims or assertions and other contractual negotiations. While we believe the cost and revenue estimates incorporated in the consolidated financial statements are appropriate, the technical complexity of our airplane programs creates financial risk as additional completion costs may become necessary or scheduled delivery dates could be extended, which could trigger termination provisions, order cancellations or other financially significant exposure. 34"
+   }
+  ]
+ }
+}

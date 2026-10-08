@@ -1,0 +1,38 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "VZ",
+  "query": "total debt",
+  "concept": null,
+  "fiscal_years": [
+   2021,
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "VZ",
+  "concepts": [
+   {
+    "concept": "ShortTermBorrowings",
+    "label": "Short-term Debt",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "150000000",
+      "fact_id": "xf_70cce65cf155dbc4",
+      "reported_in_10k_filed": "2023-02-10"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "as of 2021-12-31",
+      "value": "0",
+      "fact_id": "xf_f020230b49964669",
+      "reported_in_10k_filed": "2022-02-11"
+     }
+    ]
+   }
+  ]
+ }
+}

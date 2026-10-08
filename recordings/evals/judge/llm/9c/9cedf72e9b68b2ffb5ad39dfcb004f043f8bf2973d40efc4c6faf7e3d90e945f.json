@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies all the acquisitions listed in the gold answer for FY2023 and appropriately notes the absence of information for FY2021 and FY2022 based on the provided context.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TN39/bGyMw0fEahr7w5ZH7mSQajDhnFB9mrWMlZUzAO9xwnR5eEbY7q9poGKrtjPl1RLvhE8aZpRa3xJ+AKnSwZPsjsOdO1+wfKTBzWZyZdQRQEP2idPYmBfg3U1O3Tbnnvrrcuu10A+GHdog"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493183,
+  "id": "LQTIauymAtGV3boPrPuVuA0",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 55,
+   "prompt_tokens": 626,
+   "total_tokens": 681
+  }
+ }
+}

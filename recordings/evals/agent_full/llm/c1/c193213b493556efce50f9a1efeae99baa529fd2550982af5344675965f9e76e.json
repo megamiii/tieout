@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TanPrsgSzAQ0SYPPOYzvJdxB3MdBH2B1EAQ4/tFjD/jfGwdlji3YRQ/TvVbh60kMv6idgCGpTb9XWbSLvBu9TtzmGojjyVnbT+xeaz18OJ5I6Y9Kx98zQUgU="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"775000000\",\"source_id\":\"xf_0a3e29123bb0bc01\"},{\"quote\":\"5103000000\",\"source_id\":\"xf_5424f00679f4a155\"},{\"quote\":\"689000000\",\"source_id\":\"xf_522ef00a0af3f867\"},{\"source_id\":\"xf_ffdf55261282ef35\",\"quote\":\"4476000000\"}],\"needs_review\":false,\"answer\":\"Based on Amcor's financial data for FY2022 and FY2023, the quick ratio (using Cash and Cash Equivalents divided by Current Liabilities) remained essentially flat, moving from approximately 0.152 in FY2022 ($775 million / $5,103 million) to approximately 0.154 in FY2023 ($689 million / $4,476 million). A financial analyst typically would not focus heavily on the quick ratio for a packaging company like Amcor because manufacturing and packaging businesses maintain significant inventories and often operate with negative working capital, relying instead on steady operating cash flows to meet short-term obligations.\",\"rationale\":\"The numbers cited from XBRL facts cover cash and current liabilities for both fiscal years. The quick ratio values are computed from these inputs, meeting all tieout rules.\",\"confidence\":0.9}",
+        "name": "submit_answer"
+       },
+       "id": "call_990896",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791495303,
+  "id": "eQzIaqeXO6jRvdIP05rQwQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 367,
+   "prompt_tokens": 7713,
+   "total_tokens": 8080
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the Consolidated Statements of Income show total revenue of $12,868 million and operating income of $4,237 million for FY2020 (operating margin of ~32.9%), total revenue of $15,785 million and operating income of $5,802 million for FY2021 (operating margin of ~36.8%), and total revenue of $17,606 million and operating income of $6,098 million for FY2022 (operating margin of ~34.6%). While operating income increased each year, the operating margin decreased from FY2021 to FY2022.\",\n  \"confidence\": 0.9,\n  \"citations\": [{\"source_id\": \"ch_ee934cda3730c264\", \"quote\": \"Total revenue 17,606 15,785 12,868 ... Operating income 6,098 5,802 4,237\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TFwoIHYDXB4jciAtU4TFvblhD8QSMYE6h/rqDoLKgr84OXNy6jFE35UthTAL0o9w40TIkF4j7uZsDZ7uybPA0UfLbBPLqo8VZwU23BGLH8J3f7UHSuf0qlhw="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492596,
+  "id": "7AHIatGjNeblxN8PkMLDgQ0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 257,
+   "prompt_tokens": 2192,
+   "total_tokens": 2449
+  }
+ }
+}

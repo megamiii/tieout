@@ -1,0 +1,56 @@
+{
+ "item_id": "financebench_id_01163",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "Operations brought in the most cash flow for Nike in FY2023 with $5,841 million.",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_e8d535624a3d0686",
+   "quote": "Cash provided (used) by operations 5,841 5,188 6,657",
+   "kind": "chunk",
+   "ticker": "NKE",
+   "fiscal_year": 2023,
+   "section": "Item 8",
+   "page": 62,
+   "supports": true
+  },
+  {
+   "source_id": "ch_96c82839a25a7d16",
+   "quote": "Cash provided (used) by investing activities was an inflow of $564 million for fiscal 2023",
+   "kind": "chunk",
+   "ticker": "NKE",
+   "fiscal_year": 2023,
+   "section": "Item 7",
+   "page": 48,
+   "supports": false
+  },
+  {
+   "source_id": "ch_763be03a42eb9ab7",
+   "quote": "Cash provided (used) by financing activities was an outflow of $7,447 million for fiscal 2023",
+   "kind": "chunk",
+   "ticker": "NKE",
+   "fiscal_year": 2023,
+   "section": "Item 7",
+   "page": 49,
+   "supports": false
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 3031,
+ "completion_tokens": 257,
+ "latency_ms": 1547.9,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer correctly identifies that cash flow from operations was the highest and provides the specific figure from the 10-K, which aligns with the gold answer's conclusion.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

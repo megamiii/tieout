@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the income statement, balance sheet, and necessary line items (such as inventory, accounts receivable, accounts payable, COGS, and revenue) for FY2018 and FY2019 are not shown. Therefore, the FY2019 cash conversion cycle cannot be calculated from the given text.\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T7f3KGLZ2v9/+RxUHWsxxN8sUoYkwFOui4IuPEFrarGJQYkHla6YORkXxQzKNtt8RFxi2gWCHlUG2rGxJl+UOu+mN8wcSk1HhdBwmW0i2d+574JrwdEXaXvs="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492820,
+  "id": "0wLIasuEHai8vdIPtvyFsQk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 103,
+   "prompt_tokens": 2610,
+   "total_tokens": 2713
+  }
+ }
+}

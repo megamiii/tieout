@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the primary drivers of the operating margin decline, including litigation costs, PFAS-related impairment charges, and manufacturing/logistics headwinds, aligning with the gold answer's core points.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0ToL5W1GFqpTRtrrxsLseoo9NbaDaGVFxgB+5XKzJgxJ2HakGQkvfWvV8Xyp+cSYNCGaPBn593htwl0E9z5/ctGiVdQOL8Cj3DOdSWyqiovbt6e9qhYicbtF97M6kekq23K9gh2Y29raya4A6N"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493251,
+  "id": "eQTIarHvHan2xN8P05re0AM",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 52,
+   "prompt_tokens": 372,
+   "total_tokens": 424
+  }
+ }
+}

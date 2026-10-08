@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, PepsiCo serves customers and consumers in more than 200 countries and territories as of FY2022, and has operations, subsidiaries, or research centers in various specific geographies including the United States, Panama, Guatemala, Brazil, Bermuda, Hong Kong, Cayman Islands, Argentina, Australia, Luxembourg, United Kingdom, Kyrgyzstan, Mexico, Barbados, India, Ireland, China, and Russia.\",\n  \"confidence\": 0.9,\n  \"citations\": [{\"source_id\": \"ch_a883629456d85853\", \"quote\": \"serving customers and consumers in more than 200 countries and territories.\"}, {\"source_id\": \"ch_74ed68faddc33e78\", \"quote\": \"EXHIBIT 21 PEPSICO, INC. SUBSIDIARIES (as of December 31, 2022)... Alimentos del Istmo, S.A. Panama ... Amavale Agricola Ltda. Brazil ... Asia Bottlers Limited Hong Kong ... Beaman Bottling Company United States, Alabama ...\"}, {\"source_id\": \"ch_b7263b624cbc7c1c\", \"quote\": \"Our research centers are located around the world, including in Brazil, China, India, Ireland, Mexico, Russia, South A…\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T4hyrHtyL4d6sxY/gaqT3Ja3o0DN8BCr70AisqrRagRAWGDX9QdFf+ScZPBfUlDVWXSgOqWmLlWCmYWuxqxgHHBnPLuuJM8VexehG93NjusW6RMLkBNZu49k="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492696,
+  "id": "VwLIatbjDbGDxs0Py6bKwAg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 313,
+   "prompt_tokens": 2165,
+   "total_tokens": 2478
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\n  \"answer\": \"Based on the provided passages, there is no mention of AMD's quick ratio for FY22, so it cannot be determined whether AMD has a reasonably healthy liquidity profile based on its quick ratio.\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true\n}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TAi09iYhJ8FWzfmeaCEMQ65j4uCgitg/O5LzHfkekrTzAYLPGl9ggTYibJ5qnt4jj/1dqCWIi3S+Ic7EBaC2nUdv+7GCYCGxFuJYHAkAzuRg6Mz29J+/f3A4="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492588,
+  "id": "4QHIatWmG4WM28oPyLH--Ak",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 78,
+   "prompt_tokens": 1922,
+   "total_tokens": 2000
+  }
+ }
+}

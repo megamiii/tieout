@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tf+U6FbEqbKiUiDniSErJ4RQ7a0neyMGJ/o4K9qQTmijt6a2+Wfep13vuo+NyjHGIH30Y4S7eWCuos3q9riG/ktI4Uc/noVR2njBS+D3baaaiVYr9mKLrzeM="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2021,\"query\":\"Derivative Financial Instruments Notional Balance Sheet fair value December 31 2021\",\"ticker\":\"VZ\"}",
+        "name": "search_filings"
+       },
+       "id": "call_970269",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791495319,
+  "id": "kQzIaunuD5OavdIPyN_6-A0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 49,
+   "prompt_tokens": 3321,
+   "total_tokens": 3370
+  }
+ }
+}

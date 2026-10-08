@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer provides incorrect values and signs for the effective tax rates, contradicting the gold answer.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T6hmtYE4xkh/l9wwuSp8at1EZ/wYxCJpBaORZWUh4DoFXjYMTtTTvMiZCRYJj5renxXQUz5yUxispfWj7Gs38gG0nXL1DoAdq1ZcHZDwDPwSCZXXUcEG5txLg7WBEEIfADKzmEpWJB9f6SsEb"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493027,
+  "id": "kwPIaoXqBsv6nsEPvqOhqQM",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 30,
+   "prompt_tokens": 271,
+   "total_tokens": 301
+  }
+ }
+}

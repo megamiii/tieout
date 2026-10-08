@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What is the quantity of restructuring costs directly outlined in Pepsico's income statements for FY2022? If restructuring costs are not explicitly outlined then state 0.",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_45a2cd756f9a96f4",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 78,
+    "text": "expenditures of approximately $2.9 billion. These pre-tax charges are expected to consist of approximately 55% of severance and other employee-related costs, 10% for asset impairments (all non-cash) resulting from plant closures and related actions and 35% for other costs associated with the implementation of our initiatives. The total plan pre-tax charges are expected to be incurred by division approximately as follows: FLNA QFNA PBNA LatAm Europe AMESA APAC Corporate Expected pre-tax charges 15 % 1 % 25 % 10 % 25 % 5 % 4 % 15 % A summary of our 2019 Productivity Plan charges is as follows: 2022 2021 2020 Cost of sales $ 33 $ 29 $ 30 Selling, general and administrative expenses 347 208 239 Other pension and retiree medical benefits expense 31 10 20 Total restructuring and impairment charges $ 411 $ 247 $ 289 After-tax amount $ 334 $ 206 $ 231 Impact on net income attributable to PepsiCo per common share $ (0.24) $ (0.15) $ (0.17) 76"
+   },
+   {
+    "chunk_id": "ch_92d5bcf3176e1155",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 42,
+    "text": "Restructuring and impairment charges Acquisition and divestiture- related charges Core, Non-GAAP Measure FLNA $ 5,633 $ — $ 28 $ 2 $ 5,663 QFNA 578 — — — 578 PBNA 2,442 — 20 11 2,473 LatAm 1,369 — 37 — 1,406 Europe 1,292 — 81 8 1,381 AMESA 858 — 15 10 883 APAC 673 — 7 4 684 Corporate unallocated expenses (1,683) 19 49 (39) (1,654) Total $ 11,162 $ 19 $ 237 $ (4) $ 11,414 (a) See “Items Affecting Comparability.” (b) Includes charges taken as a result of the COVID-19 pandemic. See Note 1 to our consolidated financial statements for further information. (c) In 2021, income amount primarily relates to gains associated with the contingent consideration in connection with our acquisition of Rockstar Energy Beverages (Rockstar). This impact is partially offset by divestiture-related charges associated with the Juice Transaction. See Note 13 to our consolidated financial statements for further information. (a) (b) (b) (a) (b) (c) (b) 40"
+   },
+   {
+    "chunk_id": "ch_404572c7f31f52ba",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 79,
+    "text": "Table of Contents 2022 2021 2020 Plan to Date through 12/31/2022 FLNA $ 46 $ 28 $ 83 $ 210 QFNA 7 — 5 19 PBNA 68 20 47 226 LatAm 32 37 31 171 Europe 109 81 48 343 AMESA 12 15 14 82 APAC 16 7 5 77 Corporate 90 49 36 229 380 237 269 1,357 Other pension and retiree medical benefits income 31 10 20 98 Total $ 411 $ 247 $ 289 $ 1,455 Plan to Date through 12/31/2022 Severance and other employee costs $ 807 Asset impairments 190 Other costs 458 Total $ 1,455 Severance and other employee costs primarily include severance and other termination benefits, as well as voluntary separation arrangements. Other costs primarily include costs associated with the implementation of our initiatives, including contract termination costs, consulting and other professional fees. A summary of our 2019 Productivity Plan is as follows: Severance and Other Employee Costs Asset Impairments Other Costs Total Liability as of December 28, 2019 $ 128 $ — $ 21 $ 149 2020 restructuring charges 158 33 98 289 Cash payment…"
+   },
+   {
+    "chunk_id": "ch_ecd4a15ed83eecd2",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 49,
+    "text": "0.03 0.01 Restructuring and impairment charges 0.24 0.15 Acquisition and divestiture-related charges 0.05 (0.02) Gain associated with the Juice Transaction (2.08) — Impairment and other charges 2.12 — Pension and retiree medical-related impact 0.17 0.01 Charge related to cash tender offers — 0.49 Tax benefit related to the IRS audit (0.23) — Tax expense related to the TCJ Act 0.06 0.14 Core net income attributable to PepsiCo per common share – diluted, non-GAAP measure $ 6.79 $ 6.26 9 % Impact of foreign exchange translation 2 Growth in core net income attributable to PepsiCo per common share – diluted, on a constant currency basis, non-GAAP measure 11 % (a) Does not sum due to rounding. Mark-to-Market Net Impact We centrally manage commodity derivatives on behalf of our divisions. These commodity derivatives include agricultural products, energy and metals. Commodity derivatives that do not qualify for hedge accounting treatment are marked to market each period with the resulting gain…"
+   },
+   {
+    "chunk_id": "ch_a2adcb3a929cae03",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 78,
+    "text": "Table of Contents Recently Issued Accounting Pronouncements - Not Yet Adopted In September 2022, the Financial Accounting Standards Board (FASB) issued guidance to enhance the transparency of supplier finance programs to allow financial statement users to understand the effect on working capital, liquidity and cash flows. The new guidance requires disclosure of key terms of the program, including a description of the payment terms, payment timing and assets pledged as security or other forms of guarantees provided to the finance provider or intermediary. Other requirements include the disclosure of the amount that remains unpaid as of the end of the reporting period, a description of where these obligations are presented in the balance sheet and a rollforward of the obligation during the annual period. The guidance is effective in the first quarter of 2023, except for the rollforward, which is effective in 2024. Early adoption is permitted. We will adopt the guidance when effective. No…"
+   },
+   {
+    "chunk_id": "ch_8018e980bbebd754",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 68,
+    "text": "Table of Contents Notes to Consolidated Financial Statements Note 1 — Basis of Presentation and Our Divisions Basis of Presentation The accompanying consolidated financial statements have been prepared in accordance with GAAP and include the consolidated accounts of PepsiCo, Inc. and the affiliates that we control. In addition, we include our share of the results of certain other affiliates using the equity method based on our economic ownership interest, our ability to exercise significant influence over the operating or financial decisions of these affiliates or our ability to direct their economic resources. We do not control these other affiliates, as our ownership in these other affiliates is generally 50% or less. Intercompany balances and transactions are eliminated. As a result of exchange restrictions and other operating restrictions, we do not have control over our Venezuelan subsidiaries. As such, our Venezuelan subsidiaries are not included within our consolidated financial…"
+   },
+   {
+    "chunk_id": "ch_54bf5e6b14449e55",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 64,
+    "text": "Table of Contents Consolidated Statement of Cash Flows PepsiCo, Inc. and Subsidiaries Fiscal years ended December 31, 2022, December 25, 2021 and December 26, 2020 (in millions) 2022 2021 2020 Operating Activities Net income $ 8,978 $ 7,679 $ 7,175 Depreciation and amortization 2,763 2,710 2,548 Gain associated with the Juice Transaction (3,321) — — Impairment and other charges 3,618 — — Operating lease right-of-use asset amortization 517 505 478 Share-based compensation expense 343 301 264 Restructuring and impairment charges 411 247 289 Cash payments for restructuring charges (224) (256) (255) Acquisition and divestiture-related charges 80 (4) 255 Cash payments for acquisition and divestiture-related charges (46) (176) (131) Pension and retiree medical plan expenses 419 123 408 Pension and retiree medical plan contributions (384) (785) (562) Deferred income taxes and other tax charges and credits (873) 298 361 Tax expense related to the TCJ Act 86 190 — Tax payments related to the TC…"
+   },
+   {
+    "chunk_id": "ch_47be09b64fe40eab",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 39,
+    "text": "Table of Contents Our foreign currency derivatives had a total notional value of $3.0 billion as of December 31, 2022 and $2.8 billion as of December 25, 2021. At the end of 2022, we estimate that an unfavorable 10% change in the underlying exchange rates would have decreased our net unrealized gains in 2022 by $298 million, which would be significantly offset by an inverse change in the fair value of the underlying exposure. The total notional amount of our debt instruments designated as net investment hedges was $2.9 billion as of December 31, 2022 and $2.1 billion as of December 25, 2021. Interest Rates Our interest rate derivatives had a total notional value of $1.3 billion as of December 31, 2022 and $2.1 billion as of December 25, 2021. Assuming year-end 2022 investment levels and variable rate debt, a 1-percentage-point increase in interest rates would have decreased our net interest expense in 2022 by $48 million due to higher cash and cash equivalents and short- term investmen…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the cash from operations and total current liabilities for FY2015 are not fully available (the passages do not show the complete cash flow statement total or the current liabilities total).\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TkyWUxzOFW5ywQUdgmUEAiZynpyuJEmP8jKZZtyLZOISczKwCRZiAk14Y4qc2Uu6Qzwaj8ZQvyTuu112yiC5qwmU6gSTTjeBfSw2SfEHxytYJVnExil8TQ5k="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492853,
+  "id": "2wLIaqK2MOSwvdIPzaewqQo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 77,
+   "prompt_tokens": 1978,
+   "total_tokens": 2055
+  }
+ }
+}

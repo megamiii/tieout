@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"$509 million\",\n  \"confidence\": 1.0,\n  \"citations\": [{\"source_id\": \"ch_007054bfbfeba8c5\", \"quote\": \"Operating income 509 1,306 1,575\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T/sN/4vg/J4nZy4SZeKE371mWoCXzknoKxHweZiXXBnIN8XGE1ub5ZYaVZVqpdT4Fn437j6i2EzB46UZWWSZo5iDv3yjc9XrD4rVBRc9MfeM49VLf9TAiiCE="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493429,
+  "id": "NAXIaqesOMOixN8PtoeM6A4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 83,
+   "prompt_tokens": 2984,
+   "total_tokens": 3067
+  }
+ }
+}

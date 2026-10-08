@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What was Adobe's capital expenditure (purchases of property, plant and equipment) in fiscal year 2016? Answer in USD millions.",
+  "ticker": "ADBE",
+  "fiscal_year": 2016,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_067e436fabafc5fa",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 84,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 84 Amortization expense related to purchased and other intangible assets was $152.4 million, $174.5 million, and $152.7 million for fiscal 2016, 2015 and 2014 respectively. Of these amounts, $71.1 million, $104.4 million, and $100.2 million were included in cost of sales for fiscal 2016, 2015 and 2014 respectively. Purchased and other intangible assets are amortized over their estimated useful lives of 1 to 14 years. As of December 2, 2016, we expect amortization expense in future periods to be as follows (in thousands): Fiscal Year Purchased Technology Other Intangible Assets 2017 $ 23,908 $ 106,083 2018 16,698 91,126 2019 11,063 64,289 2020 8,854 35,275 2021 5,825 13,526 Thereafter 814 36,944 Total expected amortization expense $ 67,162 $ 347,243 NOTE 8. ACCRUED EXPENSES Accrued expenses as of December 2, 2016 and November 27, 2015 consisted of the following (in thousands): 2016 2015 A…"
+   },
+   {
+    "chunk_id": "ch_c931f8b5b9838abd",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 61,
+    "text": "Table of Contents 61 ADOBE SYSTEMS INCORPORATED CONSOLIDATED BALANCE SHEETS (In thousands, except par value) December 2, 2016 November 27, 2015 ASSETS Current assets: Cash and cash equivalents $ 1,011,315 $ 876,560 Short-term investments 3,749,985 3,111,524 Trade receivables, net of allowances for doubtful accounts of $6,214 and $7,293, respectively 833,033 672,006 Prepaid expenses and other current assets 245,441 161,802 Total current assets 5,839,774 4,821,892 Property and equipment, net 816,264 787,421 Goodwill 5,406,474 5,366,881 Purchased and other intangibles, net 414,405 510,007 Investment in lease receivable 80,439 80,439 Other assets 149,758 159,832 Total assets $ 12,707,114 $ 11,726,472 LIABILITIES AND STOCKHOLDERS' EQUITY Current liabilities: Trade payables $ 88,024 $ 93,307 Accrued expenses 739,630 679,884 Income taxes payable 38,362 6,165 Deferred revenue 1,945,619 1,434,200 Total current liabilities 2,811,635 2,213,556 Long-term liabilities: Debt and capital lease obligat…"
+   },
+   {
+    "chunk_id": "ch_1e50b1fe94159a93",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 100,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 100 The tables below list our revenue and property and equipment, net, by geographic area for fiscal 2016, 2015 and 2014 (in thousands). With the exception of property and equipment, we do not identify or allocate our assets (including long-lived assets) by geographic area. Revenue 2016 2015 2014 Americas: United States $ 3,087,764 $ 2,548,024 $ 2,115,148 Other 312,371 240,020 199,221 Total Americas 3,400,135 2,788,044 2,314,369 EMEA 1,619,153 1,336,448 1,179,864 APAC: Japan 401,205 347,740 365,570 Other 433,937 323,279 287,262 Total APAC 835,142 671,019 652,832 Revenue $ 5,854,430 $ 4,795,511 $ 4,147,065 Property and Equipment 2016 2015 Americas: United States $ 642,823 $ 621,122 Other 559 427 Total Americas 643,382 621,549 EMEA 48,662 43,943 APAC: India 106,322 111,662 Other 17,898 10,267 Total APAC 124,220 121,929 Property and equipment, net $ 816,264 $ 787,421 Significant Customers F…"
+   },
+   {
+    "chunk_id": "ch_e556f37545b3c47b",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 101,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 101 NOTE 18. SELECTED QUARTERLY FINANCIAL DATA (unaudited) 2016 (in thousands, except per share data) Quarter Ended March 4 June 3 September 2 December 2 Revenue $ 1,383,335 $ 1,398,709 $ 1,463,967 $ 1,608,419 Gross profit $ 1,184,763 $ 1,196,630 $ 1,261,266 $ 1,391,863 Income before income taxes $ 292,307 $ 329,830 $ 356,301 $ 456,700 Net income $ 254,307 $ 244,074 $ 270,788 $ 399,613 Basic net income per share $ 0.51 $ 0.49 $ 0.54 $ 0.81 Diluted net income per share $ 0.50 $ 0.48 $ 0.54 $ 0.80 2015 (in thousands, except per share data) Quarter Ended February 27 May 29 August 28 November 27 Revenue $ 1,109,181 $ 1,162,158 $ 1,217,768 $ 1,306,404 Gross profit $ 942,383 $ 976,985 $ 1,026,783 $ 1,105,043 Income before income taxes $ 163,248 $ 180,974 $ 232,619 $ 296,940 Net income $ 84,888 $ 147,493 $ 174,465 $ 222,705 Basic net income per share $ 0.17 $ 0.30 $ 0.35 $ 0.45 Diluted net inco…"
+   },
+   {
+    "chunk_id": "ch_73562c3c90512ce0",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 7",
+    "page": 54,
+    "text": "Table of Contents 54 Cash Flows from Investing Activities For fiscal 2016, net cash used for investing activities of $960.0 million was primarily due to purchases of short-term investments. Other uses of cash represented purchases of property and equipment, purchases of long-term investments and other assets, and an immaterial acquisition. These cash outflows were offset in part by sales and maturities of short-term investments. For fiscal 2015, net cash used for investing activities of $1.49 billion was primarily due to purchases of short-term investments and our acquisition of Fotolia. Other uses of cash during fiscal 2015 represented purchases of property and equipment, and long- term investments and other assets. These cash outflows were offset in part by sales and maturities of short-term investments and proceeds received from the sale of certain property assets. See Note 2 and Note 6 of our Consolidated Financial Statements for more detailed information regarding our acquisition …"
+   },
+   {
+    "chunk_id": "ch_7776f7e0ebfb6257",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 82,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 82 Net gains (losses) recognized in interest and other income (expense), net relating to balance sheet hedging for fiscal 2016, 2015 and 2014 were as follows (in thousands): 2016 2015 2014 Gain (loss) on foreign currency assets and liabilities: Net realized gain (loss) recognized in other income $ 832 $ (10,952) $ (21,559) Net unrealized gain (loss) recognized in other income (6,070) 3,815 17,217 (5,238) (7,137) (4,342) Gain (loss) on hedges of foreign currency assets and liabilities: Net realized gain recognized in other income 174 5,490 1,324 Net unrealized gain (loss) recognized in other income (1,482) (1,060) (858) (1,308) 4,430 466 Net gain (loss) recognized in interest and other income (expense), net $ (6,546) $ (2,707) $ (3,876) NOTE 6. PROPERTY AND EQUIPMENT Property and equipment, net consisted of the following as of December 2, 2016 and November 27, 2015 (in thousands): 2016 20…"
+   },
+   {
+    "chunk_id": "ch_ccbc9fc625e01f84",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 65,
+    "text": "Table of Contents 65 ADOBE SYSTEMS INCORPORATED CONSOLIDATED STATEMENTS OF CASH FLOWS (In thousands) Years Ended December 2, 2016 November 27, 2015 November 28, 2014 Cash flows from operating activities: Net income $ 1,168,782 $ 629,551 $ 268,395 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and accretion 331,535 339,473 313,590 Stock-based compensation 349,912 335,859 333,701 Deferred income taxes 24,222 (69,657) (26,089) Gain on the sale of property — (21,415) — Unrealized (gains) losses on investments 3,145 (9,210) (74) Tax benefit from stock-based compensation 75,102 68,133 53,225 Excess tax benefits from stock-based compensation (75,105) (68,153) (53,235) Other non-cash items 2,022 1,216 1,889 Changes in operating assets and liabilities, net of acquired assets and assumed liabilities: Trade receivables, net (160,416) (79,502) 7,928 Prepaid expenses and other current assets (71,021) (7,701) (1,918) Trade payables (6,281…"
+   },
+   {
+    "chunk_id": "ch_651457b6b31657b0",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 83,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 83 NOTE 7. GOODWILL AND PURCHASED AND OTHER INTANGIBLES Goodwill by reportable segment and activity for the years ended December 2, 2016 and November 27, 2015 was as follows (in thousands): 2014 Acquisitions Other(1) 2015 Acquisitions Other(1) 2016 Digital Media $2,057,398 $ 747,964 $ (9,060) $2,796,302 $ — $ 288 $2,796,590 Digital Marketing 2,406,141 — (93,983) 2,312,158 35,802 3,502 2,351,462 Print and Publishing 258,423 — (2) 258,421 — 1 258,422 Goodwill $4,721,962 $ 747,964 $ (103,045) $5,366,881 $ 35,802 $ 3,791 $5,406,474 _________________________________________ (1) Amounts primarily consist of foreign currency translation adjustments. Purchased and other intangible assets by reportable segment as of December 2, 2016 and November 27, 2015 were as follows (in thousands): 2016 2015 Digital Media $ 203,570 $ 291,779 Digital Marketing 210,823 218,054 Print and Publishing 12 174 Purcha…"
+   }
+  ]
+ }
+}

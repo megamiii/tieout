@@ -1,0 +1,102 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "ADBE",
+  "query": "Net income",
+  "concept": null,
+  "fiscal_years": [
+   2022,
+   2021,
+   2020
+  ]
+ },
+ "output": {
+  "ticker": "ADBE",
+  "concepts": [
+   {
+    "concept": "NetIncomeLoss",
+    "label": "Net Income (Loss) Attributable to Parent",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-04..2022-12-02",
+      "value": "4756000000",
+      "fact_id": "xf_5beb4a691185e347",
+      "reported_in_10k_filed": "2023-01-17"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2020-11-28..2021-12-03",
+      "value": "4822000000",
+      "fact_id": "xf_1670be96d48fac59",
+      "reported_in_10k_filed": "2022-01-21"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "2019-11-30..2020-11-27",
+      "value": "5260000000",
+      "fact_id": "xf_e4d2040b48e1286e",
+      "reported_in_10k_filed": "2021-01-15"
+     }
+    ]
+   },
+   {
+    "concept": "IncomeTaxesPaidNet",
+    "label": "Income Taxes Paid, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-04..2022-12-02",
+      "value": "778000000",
+      "fact_id": "xf_c8db1c8bae419a75",
+      "reported_in_10k_filed": "2023-01-17"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2020-11-28..2021-12-03",
+      "value": "843000000",
+      "fact_id": "xf_10f527547a2602b1",
+      "reported_in_10k_filed": "2022-01-21"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "2019-11-30..2020-11-27",
+      "value": "469000000",
+      "fact_id": "xf_3423be8254be6a94",
+      "reported_in_10k_filed": "2021-01-15"
+     }
+    ]
+   },
+   {
+    "concept": "OtherComprehensiveIncomeLossNetOfTax",
+    "label": "Other Comprehensive Income (Loss), Net of Tax",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-04..2022-12-02",
+      "value": "-156000000",
+      "fact_id": "xf_c83ec661ab8dda3b",
+      "reported_in_10k_filed": "2023-01-17"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2020-11-28..2021-12-03",
+      "value": "21000000",
+      "fact_id": "xf_612acbfe99f774aa",
+      "reported_in_10k_filed": "2022-01-21"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "2019-11-30..2020-11-27",
+      "value": "30000000",
+      "fact_id": "xf_303da62b218cb62e",
+      "reported_in_10k_filed": "2021-01-15"
+     }
+    ]
+   }
+  ]
+ }
+}

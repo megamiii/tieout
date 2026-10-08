@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies that Boeing's business is subject to cyclicality and provides a detailed explanation of the economic factors influencing demand, which aligns with and expands upon the gold answer.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TYhWOmkftp2r4gx/NUsiIVv/156QiI7efdDYDkB4X9yPofDHapTJmhHTLdZZPcqgFhLiCIIh2IWW65FrIsmPT69h31N9VktKrgz0MDBJlGUTWWVxIKRPsJwrFLTFcHh85LiR6ta4DCB10WhJv"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791495359,
+  "id": "ogzIavz4I_iovdIPiqPDmAU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 48,
+   "prompt_tokens": 270,
+   "total_tokens": 318
+  }
+ }
+}

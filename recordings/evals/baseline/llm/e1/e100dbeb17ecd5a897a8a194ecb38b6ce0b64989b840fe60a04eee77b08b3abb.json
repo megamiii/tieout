@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the statement of cash flows excerpts do not explicitly list the line item for capital expenditures (though the MD&A section [ch_0181d9213f15b935] mentions net capital spending of $4.5 billion for 2021, and the segment/other division information [ch_0eff7e2108e9d30c] shows total capital spending of $4,625 million or $4.625 billion for FY2021). Relying strictly on the statement of cash flows details provided in the text, a specific capital expenditure figure is not explicitly broken out within the snippet.\",\n  \"confidence\": 0.5,\n  \"citations\": [{\"source_id\": \"ch_0181d9213f15b935\", \"quote\": \"primarily reflecting net capital spending of $4.5 billion\"}, {\"source_id\": \"ch_0eff7e2108e9d30c\", \"quote\": \"Total $ 4,625 $ 4,240 $ 4,232\"}],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TO2je/6hUsVDUR87kextVALMgc6ZAB3OVe5llGBefBeZd/mvfPqUl4we3Emj1binntvMj8DWVLrsS44/PRAXIg2kwRjJByJkah7s5f1M+P+XGIAtFbWsDppE="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492856,
+  "id": "9wLIaqLTB7WkvdIPs_ndSA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 272,
+   "prompt_tokens": 2795,
+   "total_tokens": 3067
+  }
+ }
+}

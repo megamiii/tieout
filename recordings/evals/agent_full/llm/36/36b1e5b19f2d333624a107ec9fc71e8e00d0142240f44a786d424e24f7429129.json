@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TBTg6l5XvVNkeRWnazW6vSzmSgXmC2mqPe15Lk0AFCUbs5bHYLNMmjPdiSHe/LE4y6RlCRD8JCuglCKGNdE5jfLwMnx57rrV8yDxgos8hf9m0mMwlHNR9fLk="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"answer\":\"Yes, Boeing's commercial aircraft business is subject to market conditions and economic fluctuations that impact demand for commercial aircraft and related services. According to its 2022 Form 10-K, demand for commercial aircraft is influenced by long-term trends in passenger and cargo traffic driven by sustained economic growth, airline profitability, availability of aircraft financing, world trade policies, and external developments such as fuel price spikes and pandemics.\",\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_7e0487cb0613fc4c\",\"quote\":\"Market conditions have a significant impact on demand for our commercial aircraft and related services. The commercial aircraft market is predominantly driven by long-term trends in airline passenger and cargo traffic.\"},{\"source_id\":\"ch_e0c1aff98930524a\",\"quote\":\"In order to help account for economic fluctuations between the contract date and delivery date, aircraft pricing generally consists of a fixed amount as modified by price escalation formulas derived from labor, commodity and other price indices.\"}],\"rationale\":\"Boeing's disclosures in Item 1A (Risk Factors) state that demand for its commercial aircraft and related services is significantly impacted by market conditions, economic fluctuations, airline profitability, availability of financing, and long-term traffic trends, establishing that its commercial business is sensitive to economic cycles.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_884680",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494731,
+  "id": "SgrIauisDr6yxN8PhtuNyAg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 310,
+   "prompt_tokens": 9823,
+   "prompt_tokens_details": {
+    "cached_tokens": 6612
+   },
+   "total_tokens": 10133
+  }
+ }
+}

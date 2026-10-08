@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "net revenue accounted for",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_ea09a043d16b26b7",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 60,
+    "text": "Principles of Consolidation. The consolidated financial statements include the Company's accounts and those of its wholly-owned subsidiaries. Upon consolidation, all inter-company accounts and transactions have been eliminated. Reclassification. Certain prior period amounts have been reclassified to conform to current period presentation. Use of Estimates. The preparation of consolidated financial statements in conformity with U.S. generally accepted accounting principles (U.S. GAAP) requires management to make estimates and assumptions that affect the reported amounts of assets and liabilities and disclosure of commitments and contingencies at the date of the financial statements and the reported amounts of revenues and expenses during the reporting periods. Actual results are likely to differ from those estimates, and such differences may be material to the financial statements. Areas where management uses subjective judgment include, but are not limited to, revenue allowances, inven…"
+   },
+   {
+    "chunk_id": "ch_642887caa9e203ae",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 61,
+    "text": "Table of Contents The Company offers incentive programs to certain customers, including cooperative advertising, marketing promotions, volume-based incentives and special pricing arrangements. Where funds provided for such programs can be estimated, the Company recognizes a reduction to revenue at the time the related revenue is recognized; otherwise, the Company recognizes such reduction to revenue at the later of when: i) the related revenue transaction occurs; or ii) the program is offered. For transactions where the Company reimburses a customer for a portion of the customer's cost to perform specific product advertising or marketing and promotional activities, such amounts are recognized as a reduction to revenue unless they qualify for expense recognition. Constraints of variable consideration have not been material. Custom products Custom products which are associated with the Company's Gaming segment (semi-custom products), sold under non-cancellable purchases orders, for which…"
+   },
+   {
+    "chunk_id": "ch_ffdf02ee54c499db",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 67,
+    "text": "Table of Contents Accrued Liabilities December 31, 2022 December 25, 2021 (In millions) Accrued marketing programs $ 876 $ 933 Accrued compensation and benefits 701 705 Customer program liabilities 859 314 Other accrued and current liabilities 641 472 Total accrued liabilities $ 3,077 $ 2,424 Revenue Revenue allocated to remaining performance obligations that are unsatisfied (or partially unsatisfied) include amounts received from customers and amounts that will be invoiced and recognized as revenue in future periods for development services, IP licensing and product revenue. As of December 31, 2022, the aggregate transaction price allocated to remaining performance obligations under contracts with an original expected duration of more than one year was $247 million, of which $213 million is expected to be recognized in the next 12 months. The revenue allocated to remaining performance obligations does not include amounts which have an original expected duration of one year or less. Re…"
+   },
+   {
+    "chunk_id": "ch_c197046d7cd722aa",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 45,
+    "text": "Table of Contents Critical Accounting Estimates Our discussion and analysis of our financial condition and results of operations are based upon our consolidated financial statements, which have been prepared in accordance with U.S. generally accepted accounting principles (U.S. GAAP). The preparation of our financial statements requires us to make estimates and judgments that affect the reported amounts in our consolidated financial statements. We evaluate our estimates on an on-going basis, including those related to our revenue, inventories, business combination, goodwill, long-lived and intangible assets, and income taxes. We base our estimates on historical experience and on various other assumptions that we believe to be reasonable under the circumstances, the results of which form the basis for making judgments about the carrying values of assets and liabilities. Although actual results have historically been reasonably consistent with management's expectations, the actual result…"
+   },
+   {
+    "chunk_id": "ch_cb587adeacc79358",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 68,
+    "text": "Table of Contents The following table provides a summary of net revenue and operating income (loss) by segment for 2022, 2021 and 2020. Year Ended December 31, 2022 December 25, 2021 December 26, 2020 (In millions) Net revenue: Data Center $ 6,043 $ 3,694 $ 1,685 Client 6,201 6,887 5,189 Gaming 6,805 5,607 2,746 Embedded 4,552 246 143 Total net revenue $ 23,601 $ 16,434 $ 9,763 Operating income (loss): Data Center $ 1,848 $ 991 $ 198 Client 1,190 2,088 1,608 Gaming 953 934 (138) Embedded 2,252 44 (11) All Other (4,979) (409) (288) Total operating income (loss) $ 1,264 $ 3,648 $ 1,369 The following table provides items included in All Other category: Year Ended December 31, 2022 December 25, 2021 December 26, 2020 (In millions) Operating loss: Stock-based compensation expense $ 1,081 $ 379 $ 274 Acquisition-related costs 452 42 14 Amortization of acquisition-related intangibles 3,548 — — Licensing gain (102) (12) — Total operating loss $ 4,979 $ 409 $ 288 The Company does not discretely…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"As of FY2022, 3M's business segment operating income margins decreased year-on-year due to increases in raw materials, logistics, and special item costs for significant litigation; lower gain on sale of properties; and manufacturing productivity impacts. These were partially offset by sales growth leverage, and benefits from restructuring actions and lower related charges. Margins were also impacted by special item charges for PFAS manufacturing exit costs related to asset impairments (resulting in a 2022 fourth quarter pre-tax charge of $0.8 billion), manufacturing productivity headwinds magnified by the shutdown of certain operations in Belgium, and investments in auto electrification, which were partially offset by selling price actions, strong spending discipline, and restructuring actions.\",\n  \"confidence\": 0.95,\n  \"citations\": [{\"source_id\": \"ch_f1824e9c87b0c3f4\", \"quote\": \"Business segment operating income margins decreased year-on-year due to increases in raw materials, logistics and special item costs for significant litigation; lower gain on sale of properties; and manufacturing productivity impacts that were partially offset by sales growth leverage, and benefits from restructuring actions and lower related charges.\"}, {\"source_id\": \"ch_514192bc4b5f1151\", \"quote\": \"Business segment operating income margins decreased year-on-year due to special item charges for PFAS manufacturing exit costs related to asset impairments (discussed in Note 15) resulting in a 2022 fourth quarter pre-tax charge of $0.8 billion. Margins were also impacted by increased raw materials and logistics costs, manufacturing productivity headwinds which were further magnified by the shutdown of certain operations in Belgium and investments in auto electrification, partially offset by selling price actions, strong spending discipline and restructuring actions.\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TBMoAFAgu7SG8YJtsjt20mLMS+GSP7kUN2PwHhSOUhC/pKMXAapvoUWZsz6sjyRH89QxDbpMmLcoVngwX92YEmJjadkcG9gYn1HkwKdJTX52yWis63ZmW5Z8="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492739,
+  "id": "ggLIaoycN_ynvdIPmK6zCQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 399,
+   "prompt_tokens": 1931,
+   "total_tokens": 2330
+  }
+ }
+}

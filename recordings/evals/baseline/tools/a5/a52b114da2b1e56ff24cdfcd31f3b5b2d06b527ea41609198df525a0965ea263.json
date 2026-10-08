@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What is Adobe's year-over-year change in unadjusted operating income from FY2015 to FY2016 (in units of percents and round to one decimal place)? Give a solution to the question by using the income statement.",
+  "ticker": "ADBE",
+  "fiscal_year": 2016,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e777950bf9252d3b",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 62,
+    "text": "Table of Contents 62 ADOBE SYSTEMS INCORPORATED CONSOLIDATED STATEMENTS OF INCOME (In thousands, except per share data) Years Ended December 2, 2016 November 27, 2015 November 28, 2014 Revenue: Subscription $ 4,584,833 $ 3,223,904 $ 2,076,584 Product 800,498 1,125,146 1,627,803 Services and support 469,099 446,461 442,678 Total revenue 5,854,430 4,795,511 4,147,065 Cost of revenue: Subscription 461,860 409,194 335,432 Product 68,917 90,035 97,099 Services and support 289,131 245,088 189,549 Total cost of revenue 819,908 744,317 622,080 Gross profit 5,034,522 4,051,194 3,524,985 Operating expenses: Research and development 975,987 862,730 844,353 Sales and marketing 1,910,197 1,683,242 1,652,308 General and administrative 577,710 531,919 543,332 Restructuring and other charges (1,508) 1,559 19,883 Amortization of purchased intangibles 78,534 68,649 52,424 Total operating expenses 3,540,920 3,148,099 3,112,300 Operating income 1,493,602 903,095 412,685 Non-operating income (expense): Int…"
+   },
+   {
+    "chunk_id": "ch_e556f37545b3c47b",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 101,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 101 NOTE 18. SELECTED QUARTERLY FINANCIAL DATA (unaudited) 2016 (in thousands, except per share data) Quarter Ended March 4 June 3 September 2 December 2 Revenue $ 1,383,335 $ 1,398,709 $ 1,463,967 $ 1,608,419 Gross profit $ 1,184,763 $ 1,196,630 $ 1,261,266 $ 1,391,863 Income before income taxes $ 292,307 $ 329,830 $ 356,301 $ 456,700 Net income $ 254,307 $ 244,074 $ 270,788 $ 399,613 Basic net income per share $ 0.51 $ 0.49 $ 0.54 $ 0.81 Diluted net income per share $ 0.50 $ 0.48 $ 0.54 $ 0.80 2015 (in thousands, except per share data) Quarter Ended February 27 May 29 August 28 November 27 Revenue $ 1,109,181 $ 1,162,158 $ 1,217,768 $ 1,306,404 Gross profit $ 942,383 $ 976,985 $ 1,026,783 $ 1,105,043 Income before income taxes $ 163,248 $ 180,974 $ 232,619 $ 296,940 Net income $ 84,888 $ 147,493 $ 174,465 $ 222,705 Basic net income per share $ 0.17 $ 0.30 $ 0.35 $ 0.45 Diluted net inco…"
+   },
+   {
+    "chunk_id": "ch_11b18a0439e76790",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 63,
+    "text": "Table of Contents 63 ADOBE SYSTEMS INCORPORATED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (In thousands) Years Ended December 2, 2016 November 27, 2015 November 28, 2014 Increase/(Decrease) Net income $ 1,168,782 $ 629,551 $ 268,395 Other comprehensive income (loss), net of taxes: Available-for-sale securities: Unrealized gains / losses on available-for-sale securities (1,618) (9,226) 2,315 Reclassification adjustment for recognized gains / losses on available- for-sale securities (1,895) (2,955) (3,928) Net increase (decrease) from available-for-sale securities (3,513) (12,181) (1,613) Derivatives designated as hedging instruments: Unrealized gains / losses on derivative instruments 35,199 29,795 41,993 Reclassification adjustment for recognized gains / losses on derivative instruments (16,425) (55,535) (18,705) Net increase (decrease) from derivatives designated as hedging instruments 18,774 (25,740) 23,288 Foreign currency translation adjustments (19,783) (123,065) (75,872) Ot…"
+   },
+   {
+    "chunk_id": "ch_ccbc9fc625e01f84",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 65,
+    "text": "Table of Contents 65 ADOBE SYSTEMS INCORPORATED CONSOLIDATED STATEMENTS OF CASH FLOWS (In thousands) Years Ended December 2, 2016 November 27, 2015 November 28, 2014 Cash flows from operating activities: Net income $ 1,168,782 $ 629,551 $ 268,395 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and accretion 331,535 339,473 313,590 Stock-based compensation 349,912 335,859 333,701 Deferred income taxes 24,222 (69,657) (26,089) Gain on the sale of property — (21,415) — Unrealized (gains) losses on investments 3,145 (9,210) (74) Tax benefit from stock-based compensation 75,102 68,133 53,225 Excess tax benefits from stock-based compensation (75,105) (68,153) (53,235) Other non-cash items 2,022 1,216 1,889 Changes in operating assets and liabilities, net of acquired assets and assumed liabilities: Trade receivables, net (160,416) (79,502) 7,928 Prepaid expenses and other current assets (71,021) (7,701) (1,918) Trade payables (6,281…"
+   },
+   {
+    "chunk_id": "ch_67801f7c4eb947f6",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 7",
+    "page": 43,
+    "text": "Table of Contents 43 Revenue (dollars in millions) Revenue for fiscal 2016 benefited from an extra week in the first quarter of fiscal 2016 due to our 52/53 week financial calendar whereby fiscal 2016 is a 53-week year compared with fiscal 2015 and 2014, which were 52-week years. Fiscal 2016 Fiscal 2015 Fiscal 2014 % Change 2016-2015 % Change 2015-2014 Subscription $ 4,584.8 $ 3,223.9 $ 2,076.6 42 % 55 % Percentage of total revenue 78% 67% 50% Product 800.5 1,125.1 1,627.8 (29)% (31)% Percentage of total revenue 14% 24% 39% Services and support 469.1 446.5 442.7 5 % 1 % Percentage of total revenue 8% 9% 11% Total revenue $ 5,854.4 $ 4,795.5 $ 4,147.1 22 % 16 % Our subscription revenue is comprised primarily of fees we charge for our subscription and hosted service offerings including Creative Cloud and certain of our Adobe Marketing Cloud and Document Cloud services. We recognize subscription revenue ratably over the term of agreements with our customers, beginning with commencement of…"
+   },
+   {
+    "chunk_id": "ch_04ded856c0d84b07",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 97,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 97 NOTE 15. DEBT Our long-term debt as of December 2, 2016 and November 27, 2015 consisted of the following (in thousands): 2016 2015 Notes $ 1,888,951 $ 1,887,410 Fair value of interest rate swap 13,117 19,821 Adjusted carrying value of Notes 1,902,068 1,907,231 Senior Notes In February 2010, we issued $600 million of 3.25% senior notes due February 1, 2015 (the “2015 Notes”) and $900 million of 4.75% senior notes due February 1, 2020 (the “2020 Notes”). Our proceeds were $1.5 billion and were net of an issuance discount of $6.6 million. In addition, we incurred issuance costs of $10.7 million. Both the discount and issuance costs were or are being amortized to interest expense over the respective terms of the 2015 and 2020 Notes using the effective interest method. The 2015 and 2020 Notes rank equally with our other unsecured and unsubordinated indebtedness. The effective interest rate…"
+   },
+   {
+    "chunk_id": "ch_d48df58075433a6e",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 7",
+    "page": 52,
+    "text": "Table of Contents 52 Provision for Income Taxes (dollars in millions) Fiscal 2016 Fiscal 2015 Fiscal 2014 % Change 2016-2015 % Change 2015-2014 Provision $ 266.4 $ 244.2 $ 93.0 9% 163% Percentage of total revenue 5% 5% 2% Effective tax rate 19% 28% 26% Our effective tax rate decreased by approximately nine percentage points during fiscal 2016 as compared to fiscal 2015. The decrease was primarily due to tax benefits recognized as a result of the completion of certain income tax examinations and the permanent extension of the U.S. Research and Development credit for 2015 and onward. The reinstatement of the credit was retroactive to January 1, 2015. A tax benefit for the credit relating to fiscal 2015 was reflected in its entirety in the first quarter of fiscal 2016. The decrease was partially offset by stronger domestic profits for fiscal 2016. In addition, the fiscal 2015 effective tax rate included one-time tax costs associated with licensing acquired company assets to Adobe's tradin…"
+   },
+   {
+    "chunk_id": "ch_7776f7e0ebfb6257",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 82,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 82 Net gains (losses) recognized in interest and other income (expense), net relating to balance sheet hedging for fiscal 2016, 2015 and 2014 were as follows (in thousands): 2016 2015 2014 Gain (loss) on foreign currency assets and liabilities: Net realized gain (loss) recognized in other income $ 832 $ (10,952) $ (21,559) Net unrealized gain (loss) recognized in other income (6,070) 3,815 17,217 (5,238) (7,137) (4,342) Gain (loss) on hedges of foreign currency assets and liabilities: Net realized gain recognized in other income 174 5,490 1,324 Net unrealized gain (loss) recognized in other income (1,482) (1,060) (858) (1,308) 4,430 466 Net gain (loss) recognized in interest and other income (expense), net $ (6,546) $ (2,707) $ (3,876) NOTE 6. PROPERTY AND EQUIPMENT Property and equipment, net consisted of the following as of December 2, 2016 and November 27, 2015 (in thousands): 2016 20…"
+   }
+  ]
+ }
+}

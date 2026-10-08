@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"5.5%\",\n  \"confidence\": 0.95,\n  \"citations\": [{\"source_id\": \"ch_1917f091afdd0d15\", \"quote\": \"Net sales (in millions) $ 17,626.6 5 % $ 16,865.2\"}, {\"source_id\": \"ch_ca47e44ccdebe119\", \"quote\": \"Net sales $ 17,626.6 $ 16,865.2 $ 15,740.4\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TYcJZlBQyxMg6tyA1dD+Of/PsAKawR+9hiz3xYNG1aM0j5u1JO3epdED2qpKZ5TLoIgVeT/KI8Lz10Xj95s0S+EJmzXcxjQvLzYAntK87S9nuyIO+ZHkn/kA="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493428,
+  "id": "MwXIauPNMdT_vdIPgtHUoAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 154,
+   "prompt_tokens": 2792,
+   "total_tokens": 2946
+  }
+ }
+}

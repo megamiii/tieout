@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Answer the following question as if you are an equity research analyst and have lost internet connection so you do not have access to financial metric providers. According to the details clearly outlined within the P&L statement and the statement of cash flows, what is the FY2015 depreciation and amortization (D&A from cash flow statement) % margin for AMD?",
+  "ticker": "AMD",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_002a467906a83ab4",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 43,
+    "text": "2015 2014 2013 (In millions, except for percentages) Cost of sales $ 2,911 $ 3,667 $ 3,321 Gross margin 1,080 1,839 1,978 Gross margin percentage 27% 33% 37% Research and development 947 1,072 1,201 Marketing, general and administrative 482 604 674 Amortization of acquired intangible assets 3 14 18 Restructuring and other special charges, net 129 71 30 Goodwill impairment charge — 233 — Legal settlements, net — — (48) Interest expense (160) (177) (177) Other expense, net (5) (66) — Provision (benefit) for income taxes $ 14 $ 5 $ 9 Gross Margin Gross margin as a percentage of net revenue was 27% in 2015 compared to 33% in 2014. Gross margin in 2015 was adversely impacted by an inventory write-down of $65 million, which was primarily the result of lower anticipated demand for older-generation APUs and a technology node transition charge of $33 million. The impact of the write-down accounted for approximately two gross margin percentage points and the technology node transition charge acc…"
+   },
+   {
+    "chunk_id": "ch_dc47943b8c594722",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 39,
+    "text": "projections are based on management's estimates of revenue growth rates and operating margins, taking into consideration industry and market condition. The key assumptions we have used to determine the fair value of our reporting units includes projected cash flows for the next 10 years and discount rates ranging from 13% to 35% from 2013 to 2015. The discount rate used is based on the weighted-average cost of capital adjusted for the relevant risk associated with business-specific characteristics and the 37"
+   },
+   {
+    "chunk_id": "ch_a1909add1d198442",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 48,
+    "text": "of Credit, $3 million from the issuance of common stock under our stock-based compensation plan and $10 million from other financing activities, including net proceeds from U.S. government grants for research and development activities and foreign grants from the Canadian government for research and development activities related to our AMD APU products. The cash inflows were partially offset by the repurchase of $50 million in principal amount of our 6.00% Notes (which is a portion of our outstanding 6.00% Notes) in open market transactions and $5 million in payments for capital lease obligations. 46"
+   },
+   {
+    "chunk_id": "ch_1b46976287264920",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 48,
+    "text": "Our debt and capital lease obligations as of December 26, 2015 were $2.3 billion as compared to $2.2 billion as of December 27, 2014. During 2015, we received $100 million net proceeds from our Secured Revolving Line of Credit, of which $42 million was used to repay the remaining aggregate principal amount of our 6.00% Notes. We believe our cash and cash equivalents balance along with the savings from our restructuring plans and our Secured Revolving Line of Credit will be sufficient to fund operations, including capital expenditures, over the next 12 months. We believe that in the event we decide to obtain external funding, we may be able to access the capital markets on terms and in amounts adequate to meet our objectives. Over the longer term, should additional funding be required, such as to meet payment obligations of our long-term debt when due, we may need to raise the required funds through borrowings or public or private sales of debt or equity securities, which may be issued …"
+   },
+   {
+    "chunk_id": "ch_4840c11a47be3c29",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 94,
+    "text": "Supplementary Financial Information (unaudited) The Company uses a 52 or 53 week fiscal year ending on the last Saturday in December. All quarters of 2015 and 2014 consisted of 13 weeks. (In millions, except per share amounts) 2015 2014 Dec. 26 Sep. 26 Jun. 27 Mar. 28 Dec. 27 Sep. 27 Jun. 28 Mar. 29 Net revenue $ 958 $ 1,061 $ 942 $ 1,030 $ 1,239 $ 1,429 $ 1,441 $ 1,397 Cost of sales (1) 675 822 710 704 879 935 943 910 Gross margin 283 239 232 326 360 494 498 487 Research and development 229 241 235 242 238 278 277 279 Marketing, general and administrative 109 108 134 131 144 150 154 156 Amortization of acquired intangible assets — — — 3 4 3 4 3 Restructuring and other special charges (gains), net (2) (6) 48 — 87 71 — — — Goodwill impairment charge(3) — — — — 233 — — — Operating income (loss) (49) (158) (137) (137) (330) 63 63 49 Interest expense (41) (39) (40) (40) (41) (43) (46) (47) Other income (expense), net (2) — (3) — 4 (1) (49) (20) Income (loss) before income taxes (92) (197) …"
+   },
+   {
+    "chunk_id": "ch_b470e78876b6c694",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 39,
+    "text": "favorable than our previous estimates, additional inventory write-downs may be required and would be reflected in cost of sales in the period the revision is made. This would have a negative impact on our gross margin in that period. If in any period we are able to sell inventories that were not valued or that had been written down in a previous period, related revenues would be recorded without any offsetting charge to cost of sales, resulting in a net benefit to our gross margin in that period. Goodwill. Goodwill represents the excess of the purchase price over the fair value of net tangible and identifiable intangible assets acquired. Goodwill is not amortized, but rather is tested for impairment at least annually, or more frequently if there are indicators of impairment present. We perform an annual goodwill impairment analysis as of the first day of the fourth quarter of each year. We evaluate whether goodwill has been impaired at the reporting unit level by first determining whet…"
+   },
+   {
+    "chunk_id": "ch_bbd0f6d150f7a1eb",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 60,
+    "text": "Advanced Micro Devices, Inc. Consolidated Statements of Cash Flows Year Ended December 26, 2015 December 27, 2014 December 28, 2013 (In millions) Cash flows from operating activities: Net loss $ (660) $ (403) $ (83) Adjustments to reconcile net loss to net cash used in operating activities: Depreciation and amortization 167 203 236 Net loss on disposal of property, plant and equipment — — 31 Stock-based compensation expense 63 81 91 Non-cash interest expense 11 17 25 Goodwill impairment charge — 233 — Restructuring and other special charges, net 83 14 — Net loss on debt redemptions — 61 1 Other (3) (13) (1) Changes in operating assets and liabilities: Accounts receivable 280 7 (200) Inventories (11) 199 (322) Prepayments and other - GLOBALFOUNDRIES 84 (113) — Prepaid expenses and other assets (111) (7) (103) Accounts payables, accrued liabilities and other (156) (231) 266 Payable to GLOBALFOUNDRIES 27 (146) (89) Net cash used in operating activities (226) (98) (148) Cash flows from inv…"
+   },
+   {
+    "chunk_id": "ch_a4c2f84474ef58d0",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 69,
+    "text": "present value of future cash flows based on management's forecast of revenue growth rates and operating margins. Based on this analysis, the implied fair value of the goodwill of the Computing and Graphics reporting unit was zero. The Company concluded that the carrying amount of goodwill assigned to the Computing and Graphics segment exceeded the implied fair values and recorded an impairment charge of $233 million, which is included in “Goodwill impairment charge” on the Company's consolidated statement of operations. The Company determined that the estimated fair value exceeded the carrying value of the remaining two reporting units, indicating that there was no goodwill impairment with respect to these reporting units. In connection with completing the goodwill 67"
+   }
+  ]
+ }
+}

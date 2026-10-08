@@ -1,0 +1,34 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "For FY2023, Boeing reported the following commercial aircraft production rate plans and expectations:\n\n- **787 Program:** Expected to gradually return and increase to **5 per month** in 2023.\n- **777X Program:** Production was paused in 2002 and is expected to **resume in 2023**.\n- **737 Program:** After stabilizing production at **31 per month** in 2022, Boeing plans to **gradually increase production rates** based on market demand and supply chain capacity.\n- **747 Program:** Production was completed in the fourth quarter of 2022, with delivery of the final aircraft expected in early 2023.",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TGi22k+oilNHUpAXlpvYzXiS43ppdbrHtCH4O6Vea+VvFdXwmwTiSLOhg9NEL2J5tdjM2Sb5sLCYHX6UeXQdV6xCJmdm+oFVJVKbeFYwmSV4lR/mVFj0aYcg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791494785,
+  "id": "gArIari2AbuBxs0P9PyOgQw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 158,
+   "prompt_tokens": 6505,
+   "prompt_tokens_details": {
+    "cached_tokens": 4042
+   },
+   "total_tokens": 6663
+  }
+ }
+}

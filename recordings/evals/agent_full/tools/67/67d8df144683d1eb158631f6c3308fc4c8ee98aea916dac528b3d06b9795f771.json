@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "operating margin",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_28c34b87d2dd2ff0",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 135,
+    "text": "We posted $8 million and $11 million as of December 31, 2022 and 2021, respectively, as initial margin on our centrally cleared interest rate swaps; such amounts are recorded within Other assets on the Consolidated Balance Sheets and are not netted against the derivative balances. DERIVATIVE FINANCIAL INSTRUMENTS THAT QUALIFY FOR HEDGE ACCOUNTING Derivatives executed for hedge accounting purposes are documented and designated as such when we enter into the contracts. In accordance with our risk management policies, we structure our hedges with terms similar to those of the item being hedged. We formally assess, at inception of the hedge accounting relationship and on a quarterly basis, whether derivatives designated as hedges are highly effective in offsetting the fair value or cash flows of the hedged items. These assessments usually are made through the application of a regression analysis method. If it is determined that a derivative is not highly effective as a hedge, we will disco…"
+   },
+   {
+    "chunk_id": "ch_6bca9207404bc648",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 135,
+    "text": "Table of Contents Our derivatives are carried at fair value on the Consolidated Balance Sheets. The accounting for changes in fair value depends on the instruments' intended use and the resulting hedge designation, if any, as discussed below. Refer to Note 14 for a description of our methodology for determining the fair value of derivatives. The following table summarizes the total fair value, excluding interest accruals, of derivative assets and liabilities as of December 31: Other Assets Fair Value Other Liabilities Fair Value (Millions) 2022 2021 2022 2021 Derivatives designated as hedging instruments: Fair value hedges - Interest rate contracts $ — $ 204 $ 211 $ — Net investment hedges - Foreign exchange contracts 350 219 251 54 Total derivatives designated as hedging instruments 350 423 462 54 Derivatives not designated as hedging instruments: Foreign exchange contracts and other 171 167 339 85 Total derivatives, gross 521 590 801 139 Derivative asset and derivative liability nett…"
+   },
+   {
+    "chunk_id": "ch_03bf61b3eca0bd91",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 105,
+    "text": "Table of Contents Leasehold improvements are depreciated using the straight-line method over the lesser of the remaining term of the leased facility, or the economic life of the improvement, and range from 5 to 10 years. We recognize lease restoration obligations at the fair value of the restoration liabilities when incurred and amortize the restoration assets over the lease term. Leases We have operating leases worldwide for facilities and equipment, which, for those leases with terms greater than 12 months, are recorded as lease-related assets and liabilities. We do not separate lease and non-lease components. Lease-related assets, or right-of-use assets, are recognized at the lease commencement date at amounts equal to the respective lease liabilities, adjusted for prepaid lease payments, initial direct costs and lease incentives. Lease liabilities are recognized at the present value of the contractual fixed lease payments, discounted using our incremental borrowing rate as of the l…"
+   },
+   {
+    "chunk_id": "ch_db23192d7bcf8959",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 104,
+    "text": "December 31, 2022, we performed a quantitative goodwill impairment assessment for those reporting units which were impacted by the realignment of our operating segments and concluded that their fair values exceeded their carrying values. Refer to Note 24 for further information on the realignment of our operating segments. Premises and Equipment Premises and equipment, including leasehold improvements, are carried at cost less accumulated depreciation. Costs incurred during construction are capitalized and are depreciated once an asset is placed in service. Depreciation is generally computed using the straight-line method over the estimated useful lives of the assets, which range from 3 to 10 years for equipment, furniture and building improvements, and from 40 to 50 years for premises, which are depreciated based upon their estimated useful life at the acquisition date. Certain costs associated with the acquisition or development of internal-use software are also capitalized and recor…"
+   },
+   {
+    "chunk_id": "ch_dbe3d6aa93fbc71a",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 228,
+    "text": "unless, in the opinion of the Firm, such excess parachute payments (in whole or in part) represent reasonable compensation for services actually rendered (within the meaning of Section 280G(g)(4)(B) of the Code) in excess of the “base amount” (within the meaning of Section 280G(b)(3) of the Code) allocable to such reasonable compensation, or are otherwise not subject to the Excise Tax; and (D) the value of any non-cash benefits or any deferred payment or benefit shall be determined by the Firm in accordance with the principles of Sections 280G(d)(3) and (4) of the Code and regulations or other guidance thereunder. For purposes of determining whether any Payments in respect of a Participant shall be reduced, a Participant shall be deemed to pay federal income tax at the highest marginal rate of federal income taxation (and state and local income taxes at the highest marginal rate of taxation in the state and locality of such Participant's residence, net of the maximum reduction in feder…"
+   }
+  ]
+ }
+}

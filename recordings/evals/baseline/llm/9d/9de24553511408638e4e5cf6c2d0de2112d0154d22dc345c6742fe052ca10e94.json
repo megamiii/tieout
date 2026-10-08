@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"$3,565 million\",\n  \"confidence\": 1.0,\n  \"citations\": [{\"source_id\": \"ch_d47a8b02d8d2e8ce\", \"quote\": \"Operating activities $ 3,565\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Thw3l7o2NvKLOTSJTjGYDCNHfAAGs8Mv7PMsAct5QOf2ts4HWmk8Pb1N6K11DRa3jE4cj3g1RJb9Q/q11X0MA5urko99FniuFIMRJWDbJwbrcpF/qu3D+kQg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493363,
+  "id": "8wTIaqaOEr3RnsEP4qeP2Q0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 79,
+   "prompt_tokens": 2615,
+   "total_tokens": 2694
+  }
+ }
+}

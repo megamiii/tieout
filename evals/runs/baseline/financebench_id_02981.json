@@ -1,0 +1,46 @@
+{
+ "item_id": "financebench_id_02981",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "10.4%",
+ "confidence": 0.95,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_35f9c22a79cd8068",
+   "quote": "Operating income 2,112 509 1,306",
+   "kind": "chunk",
+   "ticker": "GLW",
+   "fiscal_year": 2021,
+   "section": "Item 16",
+   "page": 65,
+   "supports": true
+  },
+  {
+   "source_id": "ch_35f9c22a79cd8068",
+   "quote": "Net sales $ 14,082 $ 11,303 $ 11,503",
+   "kind": "chunk",
+   "ticker": "GLW",
+   "fiscal_year": 2021,
+   "section": "Item 16",
+   "page": 65,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 3009,
+ "completion_tokens": 142,
+ "latency_ms": 1163.2,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "10.4% matches 10.3 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

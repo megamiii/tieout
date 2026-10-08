@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Has AMCOR's quick ratio improved or declined between FY2023 and FY2022? If the quick ratio is not something that a financial analyst would ask about a company like this, then state that and explain why.",
+  "ticker": "AMCR",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_913f79e45a173206",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 35,
+    "text": "This adjusted information should not be construed as an alternative to results determined in accordance with U.S. GAAP. We use the non- GAAP measures to evaluate operating performance and believe that these non-GAAP measures are useful to enable investors and other external parties to perform comparisons of our current and historical performance. A reconciliation of reported net income attributable to Amcor plc to Adjusted EBIT and adjusted net income for fiscal years 2023, 2022, and 2021 is as follows: Years ended June 30, ($ in millions) 2023 2022 2021 Net income attributable to Amcor plc, as reported $ 1,048 $ 805 $ 939 Add: Net income attributable to non-controlling interests 10 10 12 Net income 1,058 815 951 Add: Income tax expense 193 300 261 Add: Interest expense 290 159 153 Less: Interest income (31) (24) (14) EBIT 1,510 1,250 1,351 Add: 2018/2019 Restructuring programs (1) — 37 88 Add: Amortization of acquired intangible assets from business combinations (2) 160 163 165 Add: I…"
+   },
+   {
+    "chunk_id": "ch_2d32cf0690abfc97",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 77,
+    "text": "contracts, the Company paid a weighted-average fixed rate of interest of 4.53% and received a variable rate of interest, based on compound overnight SOFR, for the period from November 2022 through June 2023, settled monthly. In March 2023, the Company entered into interest rate swap contracts for a total notional amount of $1.2 billion. Under the terms of the contracts, the Company will pay a weighted-average fixed interest rate of 3.88% and receives a variable rate of interest, based on 1-month Term SOFR, from July 2023 through June 2024, settled monthly. As of June 30, 2023, the Company had no other receive-variable/pay-fixed interest rate swaps than those listed above. As of June 30, 2022, the Company had no receive-variable/pay-fixed interest rate swaps. Although the Company is not applying hedge accounting, the Company believes that these economic hedging instruments are effective in protecting the Company against the risks of changes in the variable interest rate on a portion of …"
+   },
+   {
+    "chunk_id": "ch_2adfc64d2809a426",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 87,
+    "text": "Short-Term Debt Short-term debt is generally used to fund working capital requirements. The Company has classified commercial paper as long-term as of June 30, 2023, in accordance with the Company's ability and intent to refinance such obligations on a long-term basis. The following table summarizes the carrying value of short-term debt as of June 30, 2023, and 2022, respectively: June 30, ($ in millions) 2023 2022 Bank loans $ 13 $ 32 Bank overdrafts 67 104 Total short-term debt $ 80 $ 136 As of June 30, 2023, the Company paid a weighted-average interest rate of 3.98% per annum on short-term debt, payable at maturity. As of June 30, 2022, the Company paid a weighted-average interest rate of 1.40% per annum, payable at maturity. 87"
+   },
+   {
+    "chunk_id": "ch_49ea5c434ae39dc1",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "front",
+    "page": 2,
+    "text": "with any new or revised financial accounting standards provided pursuant to Section 13(a) of the Exchange Act. ☐ Indicate by check mark whether the registrant has filed a report on and attestation to its management's assessment of the effectiveness of its internal control over financial reporting under Section 404(b) of the Sarbanes-Oxley Act (15 U.S.C. 7262(b)) by the registered public accounting firm that prepared or issued its audit report. ☒ If securities are registered pursuant to Section 12(b) of the Act, indicate by check mark whether the financial statements of the registrant included in the filing reflect the correction of an error to previously issued financial statements. ☐ Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant's executive officers during the relevant recovery period pursuant to §240.10D-1(b). ☐ Indicate by check mark whether the regist…"
+   },
+   {
+    "chunk_id": "ch_b5dd7ce4f24e7bb3",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 77,
+    "text": "To manage this exchange rate risk, the Company utilizes forward contracts. Contracts that qualify for hedge accounting are designated as cash flow hedges of certain forecasted transactions denominated in foreign currencies. The effective portion of the changes in fair value of these instruments is reported in accumulated other comprehensive loss (\"AOCI\") and reclassified into earnings in the same financial statement line item and in the same period or periods during which the related hedged transactions affect earnings. The ineffective portion is recognized in earnings over the life of the hedging relationship in the same consolidated statements of income line item as the underlying hedged item. Changes in the fair value of forward contracts that have not been designated as hedging instruments are reported in the accompanying consolidated statements of income. As of June 30, 2023, and 2022, the notional amount of the outstanding forward contracts was $0.5 billion and $1.0 billion, resp…"
+   },
+   {
+    "chunk_id": "ch_74c8664f2e5fe98b",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7A",
+    "page": 46,
+    "text": "Item 7A. - Quantitative and Qualitative Disclosures About Market Risk Overview Our activities expose us to a variety of market risks and financial risks. Our overall risk management program seeks to minimize potential adverse effects of these risks on Amcor's financial performance. From time to time, we enter into various derivative financial instruments, such as foreign exchange contracts, commodity fixed price swaps (on behalf of customers), and interest rate swaps to manage these risks. Our hedging activities are conducted on a centralized basis through standard operating procedures and delegated authorities, which provide guidelines for control, counterparty risk, and ongoing reporting. These derivative instruments are designed to reduce the economic risk associated with movements in foreign exchange rates, raw material prices, and to fixed and variable interest rates, but may not have been designated or qualify for hedge accounting under U.S. GAAP and hence may increase income sta…"
+   },
+   {
+    "chunk_id": "ch_efbc5e65a0d12d0f",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 54,
+    "text": "Amcor plc and Subsidiaries Consolidated Statements of Equity ($ in millions, except per share data) Ordinary Shares Additional Paid-In Capital Retained Earnings Accumulated Other Comprehensive Loss Treasury Shares Non- controlling Interest Total Balance as of June 30, 2020 $ 16 $ 5,480 $ 246 $ (1,049) $ (67) $ 61 $ 4,687 Net income 939 12 951 Other comprehensive income 283 — 283 Share buyback/cancellations (1) (350) (351) Dividends declared ($0.4675 per share) (728) (14) (742) Options exercised and shares vested (16) 46 30 Net settlement of forward contracts to purchase own equity for share-based incentive plans, net of tax (72) (72) Purchase of treasury shares (8) (8) Share-based compensation expense 58 58 Change in non-controlling interest (8) — (2) (10) Cumulative adjustment related to the adoption of ASC 326 (5) (5) Balance as of June 30, 2021 15 5,092 452 (766) (29) 57 4,821 Net income 805 10 815 Other comprehensive loss (114) — (114) Share buyback/cancellations — (601) (601) Divi…"
+   },
+   {
+    "chunk_id": "ch_cfbfa81d94fc226c",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 48,
+    "text": "Item 8. - Financial Statements and Supplementary Data Report of Independent Registered Public Accounting Firm To the Board of Directors and Shareholders of Amcor plc Opinions on the Financial Statements and Internal Control over Financial Reporting We have audited the accompanying consolidated balance sheets of Amcor plc and its subsidiaries (the “Company”) as of June 30, 2023 and 2022, and the related consolidated statements of income, comprehensive income, equity and cash flows for each of the three years in the period ended June 30, 2023, including the related notes and schedule of valuation and qualifying accounts and reserves for each of the three years in the period ended June 30, 2023 appearing under Item 15(a)(2) (collectively referred to as the “consolidated financial statements”). We also have audited the Company's internal control over financial reporting as of June 30, 2023, based on criteria established in Internal Control - Integrated Framework (2013) issued by the Commit…"
+   }
+  ]
+ }
+}

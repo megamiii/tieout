@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "cost of goods sold",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e78d04ca8db7f263",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 90,
+    "text": "growth, the impact of global economic, political and other events on market capacity, demand for securities we offer, regulatory changes, our ability to securitize and sell loans and receivables and the performance of loans and receivables previously sold in securitization transactions; • our ability to implement our ESG strategies and initiatives, which depend in part on the amount and efficacy of our investments in product innovations, marketing campaigns, our supply chain and operations, and philanthropic, colleague and community programs; customer behaviors; and the cost and availability of solutions for a low carbon economy; • legal and regulatory developments, which could affect the profitability of our business activities; limit our ability to pursue business opportunities or conduct business in certain jurisdictions; require changes to business practices or alter our relationships with Card Members, partners, merchants and other third parties, including our ability to continue …"
+   },
+   {
+    "chunk_id": "ch_406aa10dc9be7f2c",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 140,
+    "text": "which are described further below), Travelers Cheques and other prepaid products outstanding, accounts payable, short-term borrowings and certain other liabilities for which the carrying values approximate fair value because they are short term in duration, have no defined maturity or have a market-based interest rate. Financial Liabilities Carried At Other Than Fair Value Certificates of Deposit Certificates of deposit (CDs) are recorded at their historical issuance cost on the Consolidated Balance Sheets. Fair value is estimated using a discounted cash flow methodology based on the future cash flows and the discount rate that reflects the current market rates for similar types of CDs within similar markets. Long-term Debt Long-term debt is recorded at historical issuance cost on the Consolidated Balance Sheets adjusted for (i) unamortized discount and unamortized fees, (ii) the impact of movements in exchange rates on foreign currency denominated debt and (iii) the impact of fair val…"
+   },
+   {
+    "chunk_id": "ch_52a652ea7249e8ed",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 86,
+    "text": "Table of Contents Cobrand cards — Cards issued under cobrand agreements with selected commercial partners. Pursuant to the cobrand agreements, we make payments to our cobrand partners, which can be significant, based primarily on the amount of Card Member spending and corresponding rewards earned on such spending and, under certain arrangements, on the number of accounts acquired and retained. The partner is then liable for providing rewards to the Card Member under the cobrand partner's own loyalty program. Credit cards — Represents cards that have a range of revolving payment terms, structured payment features (e.g. Plan It), grace periods, and rate and fee structures. Discount revenue — Discount revenue represents the amount we earn and retain from the merchant payable for facilitating transactions between Card Members and merchants on payment products issued by American Express. Goods and Services (G&S)-related volume — Includes spend in merchant categories other than T&E-related m…"
+   },
+   {
+    "chunk_id": "ch_590829af172f7582",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 103,
+    "text": "Table of Contents Contra-revenue Payments made pursuant to contractual arrangements with our merchants, network partners, and other customers are classified as contra-revenue, except where we receive goods, services or other benefits for which the fair value is determinable and measurable, in which case they are recorded as expense. Interest Income Interest on Card Member loans is assessed using the average daily balance method. Unless the loan is classified as non-accrual, interest is recognized based upon the principal amount outstanding, in accordance with the terms of the applicable account agreement, until the outstanding balance is paid, or written off. Interest and dividends on investment securities primarily relate to our performing fixed-income securities. Interest income is recognized as earned using the effective interest method, which adjusts the yield for security premiums and discounts, fees and other payments, so that a constant rate of return is recognized on the invest…"
+   },
+   {
+    "chunk_id": "ch_7b37bb2f077ba357",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 121,
+    "text": "Table of Contents NOTE 6 OTHER ASSETS The following is a summary of Other assets as of December 31: (Millions) 2022 2021 Goodwill $ 3,786 $ 3,804 Other intangible assets, at amortized cost 146 201 Other 13,757 13,239 Total $ 17,689 $ 17,244 (a) Primarily includes net deferred tax assets, other receivables net of reserves, investments in non-consolidated entities, prepaid assets, tax credit investments and right-of-use lease assets. GOODWILL The changes in the carrying amount of goodwill reported in our reportable operating segments were as follows: (Millions) USCS CS ICS GMNS Total Balance as of December 31, 2020 $ 369 $ 2,124 $ 799 $ 560 $ 3,852 Acquisitions — — — — — Dispositions — — (3) — (3) Other (1) (1) (43) — (45) Balance as of December 31, 2021 $ 368 $ 2,123 $ 753 $ 560 $ 3,804 Acquisitions 13 — — — 13 Dispositions — — — — — Other (2) (1) (28) — (31) Balance as of December 31, 2022 $ 379 $ 2,122 $ 725 $ 560 $ 3,786 (a) Primarily includes foreign currency translation. During the…"
+   }
+  ]
+ }
+}

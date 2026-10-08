@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the cash flow statement excerpt stops before showing the numerical value for capital expenditures (listed as \\\"Purchases of property, plant and equip...\\\"). Therefore, the exact FY2018 capital expenditure amount from the cash flow statement is not available in the given text.\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TthGFTYNWLeV5BRDr5zOIFAkX8tBqd7y3dQZ1Cezj88jy2ueMh0oabZeclkiKtmtihficIA2dclSdrlEQpnRW5/ghaRJvZXbyIqZhkzWIhUDSy/XvwIdEIlI="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492788,
+  "id": "swLIatygGqiG28oPiseBsQk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 93,
+   "prompt_tokens": 2960,
+   "total_tokens": 3053
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What is the FY2021 capital expenditure amount (in USD billions) for PepsiCo? Respond to the question by assuming the perspective of an investment analyst who can only use the details shown within the statement of cash flows.",
+  "ticker": "PEP",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_0181d9213f15b935",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 52,
+    "text": "In 2021, net cash provided by operating activities was $11.6 billion, compared to $10.6 billion in the prior year. The increase in operating cash flow primarily reflects favorable working capital comparisons and operating profit performance, partially offset by higher pre-tax pension and retiree medical plan contributions and higher net cash tax payments in the current year. Investing Activities In 2021, net cash used for investing activities was $3.3 billion, primarily reflecting net capital spending of $4.5 billion, partially offset by maturities of short-term investments with maturities greater than three months of $1.1 billion. In 2020, net cash used for investing activities was $11.6 billion, primarily reflecting net cash paid in connection with our acquisitions of Rockstar of $3.85 billion, Pioneer Foods of $1.2 billion and Be & Cheery of $0.7 billion, net capital spending of $4.2 billion, as well as purchases of short-term investments with maturities greater than three months of…"
+   },
+   {
+    "chunk_id": "ch_f6a97065967eb176",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 52,
+    "text": "Table of Contents outstanding amounts related to suppliers participating in such financing arrangements are recorded within accounts payable and other current liabilities in our consolidated balance sheet. We were informed by the participating financial institutions that as of December 25, 2021 and December 26, 2020, $1.5 billion and $1.2 billion, respectively, of our accounts payable to suppliers who participate in these financing arrangements are outstanding. These supply chain finance arrangements did not have a material impact on our liquidity or capital resources in the periods presented and we do not expect such arrangements to have a material impact on our liquidity or capital resources for the foreseeable future. Furthermore, our cash provided from operating activities is somewhat impacted by seasonality. Working capital needs are impacted by weekly sales, which are generally highest in the third quarter due to seasonal and holiday-related sales patterns and generally lowest in…"
+   },
+   {
+    "chunk_id": "ch_82080bfdc7281c20",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 64,
+    "text": "Table of Contents Consolidated Statement of Cash Flows (continued) PepsiCo, Inc. and Subsidiaries Fiscal years ended December 25, 2021, December 26, 2020 and December 28, 2019 (in millions) 2021 2020 2019 Financing Activities Proceeds from issuances of long-term debt $ 4,122 $ 13,809 $ 4,621 Payments of long-term debt (3,455) (1,830) (3,970) Cash tender offers/debt redemption (4,844) (1,100) (1,007) Short-term borrowings, by original maturity: More than three months - proceeds 8 4,077 6 More than three months - payments (397) (3,554) (2) Three months or less, net 434 (109) (3) Payments of acquisition-related contingent consideration (773) — — Cash dividends paid (5,815) (5,509) (5,304) Share repurchases - common (106) (2,000) (3,000) Proceeds from exercises of stock options 185 179 329 Withholding tax payments on restricted stock units (RSUs) and performance stock units (PSUs) converted (92) (96) (114) Other financing (47) (48) (45) Net Cash (Used for)/Provided by Financing Activities …"
+   },
+   {
+    "chunk_id": "ch_a484317ce7a722ae",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 106,
+    "text": "date, the purchase price will be adjusted for net working capital and net debt amounts as of the transaction close date compared to targeted amounts set forth in the purchase agreement. We expect to record a pre-tax gain of approximately $3 billion in our PBNA and Europe segments in the first quarter of 2022 as a result of this transaction. We have reclassified $1.8 billion of assets, primarily accounts receivable, net, and inventories of $0.5 billion, goodwill and other intangible assets of $0.6 billion and property, plant and equipment of 104"
+   },
+   {
+    "chunk_id": "ch_9e9cd8d1be9bdac6",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 65,
+    "text": "Table of Contents Consolidated Balance Sheet PepsiCo, Inc. and Subsidiaries December 25, 2021 and December 26, 2020 (in millions except per share amounts) 2021 2020 ASSETS Current Assets Cash and cash equivalents $ 5,596 $ 8,185 Short-term investments 392 1,366 Accounts and notes receivable, net 8,680 8,404 Inventories 4,347 4,172 Prepaid expenses and other current assets 980 874 Assets held for sale 1,788 — Total Current Assets 21,783 23,001 Property, Plant and Equipment, net 22,407 21,369 Amortizable Intangible Assets, net 1,538 1,703 Goodwill 18,381 18,757 Other Indefinite-Lived Intangible Assets 17,127 17,612 Investments in Noncontrolled Affiliates 2,627 2,792 Deferred Income Taxes 4,310 4,372 Other Assets 4,204 3,312 Total Assets $ 92,377 $ 92,918 LIABILITIES AND EQUITY Current Liabilities Short-term debt obligations $ 4,308 $ 3,780 Accounts payable and other current liabilities 21,159 19,592 Liabilities held for sale 753 — Total Current Liabilities 26,220 23,372 Long-Term Debt Ob…"
+   },
+   {
+    "chunk_id": "ch_08cc13ea872a82a1",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 63,
+    "text": "Table of Contents Consolidated Statement of Cash Flows PepsiCo, Inc. and Subsidiaries Fiscal years ended December 25, 2021, December 26, 2020 and December 28, 2019 (in millions) 2021 2020 2019 Operating Activities Net income $ 7,679 $ 7,175 $ 7,353 Depreciation and amortization 2,710 2,548 2,432 Operating lease right-of-use asset amortization 505 478 412 Share-based compensation expense 301 264 237 Restructuring and impairment charges 247 289 370 Cash payments for restructuring charges (256) (255) (350) Acquisition and divestiture-related charges (4) 255 55 Cash payments for acquisition and divestiture-related charges (176) (131) (10) Pension and retiree medical plan expenses 123 408 519 Pension and retiree medical plan contributions (785) (562) (716) Deferred income taxes and other tax charges and credits 298 361 453 Tax expense/(benefit) related to the TCJ Act 190 — (8) Tax payments related to the TCJ Act (309) (78) (423) Change in assets and liabilities: Accounts and notes receivabl…"
+   },
+   {
+    "chunk_id": "ch_0eff7e2108e9d30c",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 71,
+    "text": "Table of Contents Other Division Information Total assets and capital spending of each division are as follows: Total Assets Capital Spending 2021 2020 2021 2020 2019 FLNA $ 9,763 $ 8,730 $ 1,411 $ 1,189 $ 1,227 QFNA 1,101 1,021 92 85 104 PBNA 37,801 37,079 1,275 1,245 1,053 LatAm 7,272 6,977 461 390 557 Europe 18,472 17,917 752 730 613 AMESA 6,125 5,942 325 252 267 APAC 5,654 5,770 203 230 195 Total division 86,188 83,436 4,519 4,121 4,016 Corporate 6,189 9,482 106 119 216 Total $ 92,377 $ 92,918 $ 4,625 $ 4,240 $ 4,232 (a) Corporate assets consist principally of certain cash and cash equivalents, restricted cash, short-term investments, derivative instruments, property, plant and equipment and tax assets. In 2021, the change in assets was primarily due to a decrease in cash and cash equivalents and short-term investments. Refer to the cash flow statement for further information. Amortization of intangible assets and depreciation and other amortization of each division are as follows:…"
+   },
+   {
+    "chunk_id": "ch_53e4838f986ecee0",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 109,
+    "text": "Table of Contents (d) Approximately 7% and 6% of the inventory cost in 2021 and 2020, respectively, were computed using the LIFO method. The differences between LIFO and FIFO methods of valuing these inventories were not material. See Note 2 for further information. (e) See Note 2 for further information. (f) See Note 7 for further information. (g) See Note 12 for further information. (h) Increase reflects higher production payables due to strong business performance across a number of our divisions as well as higher commodity prices, partially offset by liabilities reclassified as held for sale in connection with our Juice Transaction. Statement of Cash Flows 2021 2020 2019 Interest paid $ 1,184 $ 1,156 $ 1,076 Income taxes paid, net of refunds $ 1,933 $ 1,770 $ 2,226 (a) In 2021, excludes the charge related to cash tender offers. See Note 8 for further information. (b) In 2021, 2020 and 2019, includes tax payments of $309 million, $78 million and $423 million, respectively, related t…"
+   }
+  ]
+ }
+}

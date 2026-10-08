@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "CVS",
+  "query": "Total revenues",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "CVS",
+  "concepts": [
+   {
+    "concept": "Revenues",
+    "label": "Revenues",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "322467000000",
+      "fact_id": "xf_b44fb71e14418824",
+      "reported_in_10k_filed": "2023-02-08"
+     }
+    ]
+   },
+   {
+    "concept": "RelatedPartyTransactionOtherRevenuesFromTransactionsWithRelatedParty",
+    "label": "Related Party Transaction, Other Revenues from Transactions with Related Party",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "87000000",
+      "fact_id": "xf_69d8a3365d9501cd",
+      "reported_in_10k_filed": "2023-02-08"
+     }
+    ]
+   }
+  ]
+ }
+}

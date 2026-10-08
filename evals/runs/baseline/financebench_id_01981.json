@@ -1,0 +1,28 @@
+{
+ "item_id": "financebench_id_01981",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "needs_review",
+ "answer": "Based on the provided passages, there is no information regarding whether American Express was able to retain card members during 2022.",
+ "confidence": 0.0,
+ "rationale": null,
+ "citations": [],
+ "review_reasons": [
+  "model flagged for review",
+  "confidence 0.00 is below 0.70"
+ ],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2715,
+ "completion_tokens": 61,
+ "latency_ms": 1013.7,
+ "grade": {
+  "correct": false,
+  "method": "judge",
+  "detail": "The gold answer states that American Express was able to retain card members, while the provided answer incorrectly claims that the information is unavailable.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

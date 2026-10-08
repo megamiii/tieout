@@ -1,0 +1,36 @@
+{
+ "item_id": "financebench_id_03531",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "$16,525 million",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_0da7064d2a288d6f",
+   "quote": "Total current assets 16,525 15,134",
+   "kind": "chunk",
+   "ticker": "NKE",
+   "fiscal_year": 2019,
+   "section": "Item 8",
+   "page": 54,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2825,
+ "completion_tokens": 88,
+ "latency_ms": 1042.3,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$16,525 matches 16525.00 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

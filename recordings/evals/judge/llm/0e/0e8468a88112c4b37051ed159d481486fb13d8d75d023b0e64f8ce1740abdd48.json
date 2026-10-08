@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the primary geographic segments (United States vs. outside the United States) and provides the specific regions (EMEA, APAC, LACC) implied by the gold answer through its detailed breakdown of international jurisdictions.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T6+TUyGpgT+5YFEtjGbNcoMxSiShXs/qjVU/up7O6Tz0eTOqU/hwepzjavTyBcg/EjSqz4JSr76aJrCSqMbq45L3Lc53jWswSM5Mm/mwo7u4PAWK0lg4m7/oUU83EuKGc+UiPMC9QXCPF8KV5"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493163,
+  "id": "IATIaubMEuuhnsEPxrLQ6Qc",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 57,
+   "prompt_tokens": 223,
+   "total_tokens": 280
+  }
+ }
+}

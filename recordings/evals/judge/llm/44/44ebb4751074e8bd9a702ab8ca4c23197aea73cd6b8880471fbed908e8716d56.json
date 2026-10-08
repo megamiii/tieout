@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies that only common shares are registered under Section 12(b) and concludes that no debt securities are registered, which aligns with the gold answer.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TTlGiVyR83VmRcjlkcyy5Xb71qrgkTg2x5rztUwKb1SMRX9sXaWYmzdv1kY8p/gN02y9sTdS+4fylDVUsKek0ZT5ISjbY7UQsaEOvTX1Ucd99N430e6/BAFpasURPPlDJr2XlYl2svlsYEo9b"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492934,
+  "id": "PAPIavfZFr3RnsEP4qeP2Q0",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 244,
+   "total_tokens": 290
+  }
+ }
+}

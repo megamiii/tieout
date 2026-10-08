@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Does AMEX have an improving operating margin profile as of 2022? If operating margin is not a useful metric for a company like this, then state that and explain why.",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a74aac52f536b9bc",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 46,
+    "text": "Table of Contents Card Member rewards, Card Member services and Business development expenses are generally correlated to volumes or are variable based on usage, and increased year-over year due to network volume growth and higher usage of travel-related benefits. Card Member rewards expense growth was also driven by a larger proportion of billed business in categories that earn incremental rewards such as travel. During the year, we continued to make significant investments in marketing to drive growth momentum and accelerate new card acquisitions. Operating expenses increased 24 percent year-over-year, primarily driven by net losses in the current year associated with our Amex Ventures equity investments as compared to net gains in the prior year, as well as higher compensation costs due to an increase in our colleague base to support business growth and compensation decisions we made. We remain focused on driving marketing and operating expense efficiencies, while continuing to inve…"
+   },
+   {
+    "chunk_id": "ch_f251134fcfc2bda7",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 64,
+    "text": "Table of Contents CORPORATE & OTHER Corporate functions and certain other businesses are included in Corporate & Other. Corporate & Other pretax loss was $2.2 billion and $1.0 billion in 2022 and 2021, respectively. The increase in the pretax loss was primarily driven by net losses on Amex Ventures investments in the current year, as compared to net gains in the prior year, a non-cash gain in the prior year related to an increase in GBTG's total equity book value and higher compensation costs in the current year. CONSOLIDATED CAPITAL RESOURCES AND LIQUIDITY Our balance sheet management objectives are to maintain: • A solid and flexible equity capital profile; • A broad, deep and diverse set of funding sources to finance our assets and meet operating requirements; and • Liquidity programs that enable us to continuously meet expected future financing obligations and business requirements for at least a twelve-month period in the event we are unable to continue to raise new funds under ou…"
+   },
+   {
+    "chunk_id": "ch_dcf51f2c73d117cb",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 45,
+    "text": "Table of Contents BUSINESS ENVIRONMENT Our results for the year demonstrate that our growth strategy is working and our business is in an even stronger position today than before the pandemic. Spending on our network reached record levels, and credit metrics remain below pre-pandemic levels. Our investments in product innovation, technology, people and our brand has led to increased generational relevance with Millennial and Gen Z customers, record new card acquisitions, deeper relationships with customers and expanded merchant acceptance. For 2022, we reported net income of $7.5 billion, or $9.85 per share, compared with net income of $8.1 billion, or $10.02 per share, a year ago. The reduction in net income reflected credit reserve builds and net losses in our Amex Ventures strategic investment portfolio in the current year compared with sizeable credit reserve releases and significant net gains in our Amex Ventures strategic investment portfolio in the prior year. Worldwide network …"
+   },
+   {
+    "chunk_id": "ch_247a49f24c5f4625",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 57,
+    "text": "and higher net write-offs in the current year. The reserve build in the current year was primarily driven by higher delinquencies and an increase in receivables outstanding. The reserve release in the prior year was driven by improved portfolio quality and macroeconomic forecasts, partially offset by an increase in receivables outstanding. Provisions for credit losses decreased in 2021 compared to 2020, primarily driven by reserve releases in 2021, versus reserve builds in 2020. 54"
+   },
+   {
+    "chunk_id": "ch_d4977d01cee1d51d",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 72,
+    "text": "Table of Contents CASH FLOWS The following table summarizes our cash flow activity, followed by a discussion of the major drivers impacting operating, investing and financing cash flows for the year ended December 31, 2022 compared to the year ended December 31, 2021: TABLE 21: CASH FLOWS (Billions) 2022 2021 2020 Total cash provided by (used in): Operating activities $ 21.1 $ 14.6 $ 5.6 Investing activities (33.7) (10.5) 11.6 Financing activities 24.5 (14.9) (9.1) Effect of foreign currency exchange rates on cash and cash equivalents — (0.1) 0.4 Net increase (decrease) in cash and cash equivalents $ 11.9 $ (10.9) $ 8.5 Cash Flows from Operating Activities Our cash flows from operating activities primarily include net income adjusted for (i) non-cash items included in net income, such as provisions for credit losses, depreciation and amortization, stock-based compensation, deferred taxes and other non-cash items and (ii) changes in the balances of operating assets and liabilities, whic…"
+   },
+   {
+    "chunk_id": "ch_03bf61b3eca0bd91",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 105,
+    "text": "Table of Contents Leasehold improvements are depreciated using the straight-line method over the lesser of the remaining term of the leased facility, or the economic life of the improvement, and range from 5 to 10 years. We recognize lease restoration obligations at the fair value of the restoration liabilities when incurred and amortize the restoration assets over the lease term. Leases We have operating leases worldwide for facilities and equipment, which, for those leases with terms greater than 12 months, are recorded as lease-related assets and liabilities. We do not separate lease and non-lease components. Lease-related assets, or right-of-use assets, are recognized at the lease commencement date at amounts equal to the respective lease liabilities, adjusted for prepaid lease payments, initial direct costs and lease incentives. Lease liabilities are recognized at the present value of the contractual fixed lease payments, discounted using our incremental borrowing rate as of the l…"
+   },
+   {
+    "chunk_id": "ch_18e0db3e648881b4",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 153,
+    "text": "Table of Contents NOTE 24 REPORTABLE OPERATING SEGMENTS AND GEOGRAPHIC OPERATIONS REPORTABLE OPERATING SEGMENTS We consider a combination of factors when evaluating the composition of our reportable operating segments, including the results reviewed by the chief operating decision maker, economic characteristics, products and services offered, classes of customers, product distribution channels, geographic considerations (primarily United States versus outside the United States), and regulatory environment considerations. Effective for the first quarter of 2022, we updated the methodology used to allocate certain revenues; prior period amounts have been recast to conform to current period presentation. Effective for the third quarter of 2022, we realigned our reportable segments to reflect organizational changes announced during the second quarter of 2022. Prior periods have been recast to conform to the new reportable operating segments. The following is a brief description of the pri…"
+   },
+   {
+    "chunk_id": "ch_7e1351d9f434c397",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 9,
+    "text": "Throughout 2022, we launched Amex Flex across our offices, where, depending on role and business needs, colleagues can work in the office, at home or take a hybrid approach that combines both. This approach is designed to enable us to both broaden the talent pool from which we can attract candidates and increase colleague retention. We conduct an annual Colleague Experience Survey to better understand our colleagues' needs and overall experience at American Express and in 2022, 92 percent of colleagues who participated in the survey said they would recommend American Express as a great place to work. Our 2022 annual company scorecard included talent retention, colleague engagement and diversity representation goals. As of December 31, 2022, women represented 53.7 percent of our global workforce and Asian, Black/African American and Hispanic/Latinx people represented 18.7 percent, 17.9 percent and 14.2 percent, respectively, of our U.S. workforce based on preliminary data for our 2022 U…"
+   }
+  ]
+ }
+}

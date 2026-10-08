@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the improving gross margin trend and provides the same accurate figures as the gold answer, while also adding relevant context regarding Boeing's accounting practices.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TvHTF5naLgcVD/p1k7DXV32SiZXCA9D/faFj9glK8yUDgAAOXpxJqrmMGTT46fRS7LXeywwbNzo7SPtqe3kMEr0+N+5VfrV5mkTjKtcMU3KIZ6Qf0cjzkB7dnRGAFeoeW+q4SuenoIt1t7kt+"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791495466,
+  "id": "HQ3Iav-LObmF28oPtf_QsAg",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 418,
+   "total_tokens": 462
+  }
+ }
+}

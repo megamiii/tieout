@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"0.46\",\n  \"confidence\": 0.95,\n  \"citations\": [{\"source_id\": \"ch_29eaf1f1d6233ca9\", \"quote\": \"Dividends paid in fiscal 2022 totaled $1,244 million, or $2.04 per share.\"}, {\"source_id\": \"ch_1a6135740f34b415\", \"quote\": \"Net earnings attributable to General Mills 2,707.3\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TIyiJZyPQPS1Ox0YEjnjEbM4FlUjg1GcjcH5x/wAj4BbNOVMjYZ0jmoghQ6A4wsDoBxSH+rJytoz7GHpta893aEJfZ1ZpxggyvGTj+7AkMncPCEKeruU40Bo="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492865,
+  "id": "AQPIat2JDL6e28oP0-bPgA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 139,
+   "prompt_tokens": 2838,
+   "total_tokens": 2977
+  }
+ }
+}

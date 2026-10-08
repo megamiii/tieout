@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What was the largest liability in American Express's Balance Sheet in 2022?",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_d8013a0ed7bdc308",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 126,
+    "text": "Table of Contents Aggregate annual maturities on long-term debt obligations (based on contractual maturity or anticipated redemption dates) as of December 31, 2022 were as follows: (Millions) 2023 2024 2025 2026 2027 Thereafter Total American Express Company (Parent Company only) $ 5,750 $ 7,500 $ 5,250 $ 2,450 $ 4,911 $ 4,273 $ 30,134 American Express Credit Corporation — — — — 339 — 339 Lending Trust 2,685 2,750 7,250 — — — 12,685 Other 76 114 67 — — — 257 $ 8,511 $ 10,364 $ 12,567 $ 2,450 $ 5,250 $ 4,273 $ 43,415 Unamortized Underwriting Fees (84) Unamortized Discount and Premium (522) Impacts due to Fair Value Hedge Accounting (236) Total Long-Term Debt $ 42,573 We maintained a committed syndicated bank credit facility of $3.5 billion as of December 31, 2022 and 2021, all of which was undrawn as of the respective dates. The facility has a maturity date of October 15, 2024, and the availability of the facility is subject to compliance with certain covenants, principally our maintena…"
+   },
+   {
+    "chunk_id": "ch_6a05ea70d49e4006",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 98,
+    "text": "Other assets, less reserves for credit losses: 2022, $22; 2021, $25 17,689 17,244 Total assets $ 228,354 $ 188,548 Liabilities and Shareholders' Equity Liabilities Customer deposits $ 110,239 $ 84,382 Accounts payable 12,133 10,574 Short-term borrowings 1,348 2,243 Long-term debt (includes debt issued by consolidated variable interest entities: 2022, $12,662; 2021, $13,803) 42,573 38,675 Other liabilities 37,350 30,497 Total liabilities $ 203,643 $ 166,371 Contingencies and Commitments (Note 12) Shareholders' Equity Preferred shares, $1.66 par value, authorized 20 million shares; issued and outstanding 1,600 shares as of December 31, 2022 and 2021 (Note 16) — — Common shares, $0.20 par value, authorized 3.6 billion shares; issued and outstanding 743 million shares as of December 31, 2022 and 761 million shares as of December 31, 2021 149 153 Additional paid-in capital 11,493 11,495 Retained earnings 16,279 13,474 Accumulated other comprehensive income (loss) (3,210) (2,945) Total share…"
+   },
+   {
+    "chunk_id": "ch_9968ab3b95e0b525",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 152,
+    "text": "Table of Contents NOTE 23 SIGNIFICANT CREDIT CONCENTRATIONS Concentrations of credit risk exist when changes in economic, industry or geographic factors similarly affect groups of counterparties whose aggregate credit exposure is material in relation to American Express' total credit exposure. Our customers operate in diverse industries, economic sectors and geographic regions. The following table details our maximum credit exposure of the on-balance sheet assets by category as of December 31: (Billions) 2022 2021 Individuals: $ 156 $ 131 United States 129 108 Outside the United States 27 23 Institutions: Financial services 36 24 Other 17 15 U.S. Government and agencies 4 2 Total on-balance sheet $ 213 $ 172 (a) Primarily reflects loans and receivables from global consumer and small business Card Members, which are governed by individual credit risk management. (b) The geographic regions with the largest concentration outside the United States include the United Kingdom, Japan, the Eur…"
+   },
+   {
+    "chunk_id": "ch_1ff60ced74aa865f",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 98,
+    "text": "Table of Contents CONSOLIDATED BALANCE SHEETS December 31 (Millions, except share data) 2022 2021 Assets Cash and cash equivalents Cash and due from banks (includes restricted cash of consolidated variable interest entities: 2022, $5; 2021, $11) $ 5,510 $ 1,292 Interest-bearing deposits in other banks (includes securities purchased under resale agreements: 2022, $318; 2021, $463) 28,097 20,548 Short-term investment securities (includes restricted investments of consolidated variable interest entities: 2022, $54; 2021, $32) 307 188 Total cash and cash equivalents 33,914 22,028 Card Member receivables (includes gross receivables available to settle obligations of a consolidated variable interest entity: 2022, $5,193; 2021, $5,175), less reserves for credit losses: 2022, $229; 2021, $64 57,384 53,581 Card Member loans (includes gross loans available to settle obligations of a consolidated variable interest entity: 2022, $28,461; 2021, $26,587), less reserves for credit losses: 2022, $3,74…"
+   },
+   {
+    "chunk_id": "ch_f0885a17240d2858",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 95,
+    "text": "Table of Contents INDEX TO CONSOLIDATED FINANCIAL STATEMENTS CONSOLIDATED FINANCIAL STATEMENTS PAGE Consolidated Statements of Income – For the Years Ended December 31, 2022, 2021 and 2020 93 Consolidated Statements of Comprehensive Income – For the Years Ended December 31, 2022, 2021 and 2020 94 Consolidated Balance Sheets – December 31, 2022 and 2021 95 Consolidated Statements of Cash Flows – For the Years Ended December 31, 2022, 2021 and 2020 96 Consolidated Statements of Shareholders' Equity – For the Years Ended December 31, 2022, 2021 and 2020 97 NOTES TO CONSOLIDATED FINANCIAL STATEMENTS 98 Note 1 – Summary of Significant Accounting Policies 98 Note 2 – Loans and Card Member Receivables 104 Note 3 – Reserves for Credit Losses 112 Note 4 – Investment Securities 115 Note 5 – Asset Securitizations 117 Note 6 – Other Assets 118 Note 7 – Customer Deposits 120 Note 8 – Debt 121 Note 9 – Other Liabilities 124 Note 10 – Stock-Based Compensation 125 Note 11 – Retirement Plans 127 Note 1…"
+   },
+   {
+    "chunk_id": "ch_c457900154adba4a",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 127,
+    "text": "Table of Contents NOTE 9 OTHER LIABILITIES The following is a summary of Other liabilities as of December 31: (Millions) 2022 2021 Membership Rewards liability $ 12,789 $ 11,398 Deferred card and other fees, net 3,027 2,516 Employee-related liabilities 2,530 2,528 Card Member rebate and reward accruals 2,126 1,809 Income tax liability 1,651 1,576 Other 15,227 10,670 Total $ 37,350 $ 30,497 (a) Includes employee benefit plan obligations and incentive compensation. (b) Card Member rebate and reward accruals include payments to third-party reward partners and cash-back rewards. (c) Includes repatriation tax liability of $1,012 million as of both December 31, 2022 and 2021, which represents our remaining obligation under the Tax Cuts and Jobs Act enacted on December 22, 2017 (Tax Act) to pay a one-time transition tax on unrepatriated earnings and profits of certain foreign subsidiaries, the net position for current federal, state and non-U.S. income tax liabilities, and deferred tax liabil…"
+   },
+   {
+    "chunk_id": "ch_3e8eee62c4fd968c",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 92,
+    "text": "Table of Contents REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM To the Board of Directors and Shareholders of American Express Company Opinions on the Financial Statements and Internal Control over Financial Reporting We have audited the accompanying consolidated balance sheets of American Express Company and its subsidiaries (the “Company”) as of December 31, 2022 and 2021, and the related consolidated statements of income, of comprehensive income, of shareholders' equity and of cash flows for each of the three years in the period ended December 31, 2022, including the related notes (collectively referred to as the “consolidated financial statements”). We also have audited the Company's internal control over financial reporting as of December 31, 2022, based on criteria established in Internal Control - Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO). In our opinion, the consolidated financial statements refer…"
+   },
+   {
+    "chunk_id": "ch_6a57adda00623d42",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 142,
+    "text": "Table of Contents NOTE 15 GUARANTEES The maximum potential undiscounted future payments and related liability resulting from guarantees and indemnifications provided by us in the ordinary course of business were $1 billion and $21 million, respectively, as of December 31, 2022 and $1 billion and $24 million, respectively, as of December 31, 2021, all of which were primarily related to our real estate arrangements and business dispositions. To date, we have not experienced any significant losses related to guarantees or indemnifications. Our recognition of these instruments is at fair value. In addition, we establish reserves when a loss is probable and the amount can be reasonably estimated. NOTE 16 COMMON AND PREFERRED SHARES The following table shows authorized shares and provides a reconciliation of common shares issued and outstanding for the years ended December 31: (Millions, except where indicated) 2022 2021 2020 Common shares authorized (billions) 3.6 3.6 3.6 Shares issued and …"
+   }
+  ]
+ }
+}

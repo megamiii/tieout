@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the only security explicitly mentioned as registered under Section 12(b) of the Act is Common Shares (par value $0.20 per Share), which is an equity security rather than a debt security. The passages do not state that any debt securities are registered to trade on a national securities exchange under American Express' name.\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T6oylCsSbVP5WJfodYZYkR9yLUqhMrPpkAMTE9TeZFcPKzESi5B3sQKbzKkg6ZHxRnM4tD7kloYA7XVpbAmbdOwS20NdqGWOPQhhBVNeraLxk9x5Jb7149Gs="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492598,
+  "id": "9QHIaun8Lf74xN8PravcyQw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 107,
+   "prompt_tokens": 2623,
+   "total_tokens": 2730
+  }
+ }
+}

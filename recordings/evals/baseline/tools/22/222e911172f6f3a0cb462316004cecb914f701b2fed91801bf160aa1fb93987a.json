@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "By what percentage did Adobe's operating income change from fiscal year 2014 to fiscal year 2015? Give the percentage rounded to one decimal place.",
+  "ticker": "ADBE",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_2881456ad64a5f53",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 50,
+    "text": "50 Provision for Income Taxes (dollars in millions) Fiscal 2015 Fiscal 2014 Fiscal 2013 % Change 2015-2014 % Change 2014-2013 Provision ..................................................................... $ 244.2 $ 93.0 $ 66.2 163% 40% Percentage of total revenue....................................... 5% 2% 2% Effective tax rate....................................................... 28% 26% 19% Our effective tax rate increased by approximately two percentage points during fiscal 2015 as compared to fiscal 2014. The increase was primarily due to tax costs associated with licensing acquired company assets to Adobe's trading companies. The increase was partially offset by tax benefits related to the reinstatement of the federal research and development tax credit in December 2014. The reinstatement of the credit was retroactive to January 1, 2014. Our effective tax rate increased by approximately seven percentage points during fiscal 2014 as compared to fiscal 2013. The increase was prim…"
+   },
+   {
+    "chunk_id": "ch_5a9df4023e720675",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 41,
+    "text": "41 Revenue (dollars in millions) Fiscal 2015 Fiscal 2014 Fiscal 2013 % Change 2015-2014 % Change 2014-2013 Subscription ................................................................ $ 3,223.9 $ 2,076.6 $ 1,137.9 55 % 82 % Percentage of total revenue....................................... 67% 50% 28% Product ........................................................................ 1,125.1 1,627.8 2,470.1 (31)% (34)% Percentage of total revenue....................................... 24% 39% 61% Services and support ................................................... 446.5 442.7 447.2 1 % (1)%"
+   },
+   {
+    "chunk_id": "ch_30dd1eff7d2cbac0",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 45,
+    "text": "45 Cost of Revenue (dollars in millions) Fiscal 2015 Fiscal 2014 Fiscal 2013 % Change 2015-2014 % Change 2014-2013 Subscription ................................................................ $ 409.2 $ 335.5 $ 278.1 22 % 21 % Percentage of total revenue....................................... 9% 8% 7% Product ........................................................................ 90.0 97.1 138.2 (7)% (30)% Percentage of total revenue....................................... 2% 2% 3% Services and support ................................................... 245.1 189.5 170.3 29 % 11 %"
+   },
+   {
+    "chunk_id": "ch_4bf6cd97e852e45e",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 49,
+    "text": "49 Non-Operating Income (Expense), Net (dollars in millions) Fiscal 2015 Fiscal 2014 Fiscal 2013 % Change 2015-2014 % Change 2014-2013 Interest and other income (expense), net..................... $ 33.9 $ 7.3 $ 4.9 * 49 % Percentage of total revenue....................................... ** ** ** Interest expense........................................................... (64.2) (59.7) (67.5) 8 % (12)% Percentage of total revenue....................................... (1)% (1)% (2)% Investment gains (losses), net ..................................... 1.0 1.1 (4.0) * * Percentage of total revenue....................................... ** ** ** Total non-operating income (expense), net................. $"
+   },
+   {
+    "chunk_id": "ch_e409de0ea9d780d2",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 41,
+    "text": "We have the following reportable segments—Digital Media, Digital Marketing and Print and Publishing. Subscription revenue by reportable segment for fiscal 2015, 2014 and 2013 is as follows (dollars in millions): Fiscal 2015 Fiscal 2014 Fiscal 2013 % Change 2015-2014 % Change 2014-2013 Digital Media.............................................................. $ 2,264.7 $ 1,268.3 $ 471.9 79% 169% Digital Marketing........................................................ 937.0 797.5 663.1 17% 20% Print and Publishing.................................................... 22.2 10.8 2.9 * * Total subscription revenue........................................ $ 3,223.9 $ 2,076.6 $ 1,137.9 55% 82% _________________________________________ (*) Percentage is not meaningful."
+   },
+   {
+    "chunk_id": "ch_099ebf93627fd788",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 42,
+    "text": "42 Segment Information (dollars in millions) Fiscal 2015 Fiscal 2014 Fiscal 2013 % Change 2015-2014 % Change 2014-2013 Digital Media .............................................................. $ 3,095.2 $ 2,603.2 $ 2,625.9 19% (1)% Percentage of total revenue....................................... 65% 63% 65% Digital Marketing........................................................ 1,508.9 1,355.2 1,228.8 11% 10 % Percentage of total revenue....................................... 31% 33% 30% Print and Publishing.................................................... 191.4 188.7 200.5 1% (6)%"
+   },
+   {
+    "chunk_id": "ch_3754c8fbfb6fd1b7",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 83,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 83 The provision for income taxes for fiscal 2015, 2014 and 2013 consisted of the following (in thousands): 2015 2014 2013 Current: United States federal .............................................................................................. $ 204,834 $ 26,822 $ (53,985) Foreign ................................................................................................................... 52,125 51,684 65,609 State and local ........................................................................................................ (14,975) 4,713 3,317"
+   },
+   {
+    "chunk_id": "ch_8d56abcf73384151",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 42,
+    "text": "Print and Publishing.................................................... 191.4 188.7 200.5 1% (6)% Percentage of total revenue....................................... 4% 4% 5% Total revenue............................................................... $ 4,795.5 $ 4,147.1 $ 4,055.2 16% 2 % Fiscal 2015 Revenue Compared to Fiscal 2014 Revenue Digital Media Revenue from Digital Media increased $492.0 million during fiscal 2015 as compared to fiscal 2014, primarily driven by increases in revenue associated with our creative offerings due to continued strong adoption of Creative Cloud. Document Cloud revenue remained stable during fiscal 2015 as compared to fiscal 2014. Creative revenue, which includes our Creative Cloud and perpetual creative offerings, increased during fiscal 2015 as compared to fiscal 2014, primarily due to the increase in subscription revenue associated with our Creative Cloud offerings driven by the increase in number of paid Creative Cloud team, individual and enterpri…"
+   }
+  ]
+ }
+}

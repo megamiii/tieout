@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TktDIV9sYD2GG/8UDrOlw3NTzffJNcTufvruMrCgsdPL5k5+B4rLWceWhuMYDbpkl4NTmUH7ExcTjWZFovH03DN97sHv0qaJyHsy3dgdJa6gJcQUX4G/Ijfk="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AMCR\",\"query\":\"quick ratio or acid-test ratio\",\"fiscal_year\":2023}",
+        "name": "search_filings"
+       },
+       "id": "call_1309611",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791495270,
+  "id": "ZgzIau-PB9D6vdIPtYSzqQY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 3348,
+   "total_tokens": 3387
+  }
+ }
+}

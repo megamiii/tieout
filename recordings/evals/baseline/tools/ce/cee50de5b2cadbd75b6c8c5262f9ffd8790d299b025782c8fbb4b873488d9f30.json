@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What was CVS Health's total assets in fiscal year 2022? Answer in USD millions.",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_0fc913b892205687",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 137,
+    "text": "3. Investments Total investments at December 31, 2022 and 2021 were as follows: 2022 2021 In millions Current Long-term Total Current Long-term Total Debt securities available for sale $ 2,718 $ 17,562 $ 20,280 $ 3,009 $ 20,231 $ 23,240 Mortgage loans 55 989 1,044 58 844 902 Other investments 5 2,562 2,567 50 1,950 2,000 Total investments $ 2,778 $ 21,113 $ 23,891 $ 3,117 $ 23,025 $ 26,142 (1) Includes long-term investments of $17 million which have been accounted for as assets held for sale and are included in assets held for sale on the consolidated balance sheet at December 31, 2022. See Note 2 ‘‘Acquisitions, Divestitures and Asset Sales'' for additional information. At December 31, 2022 and 2021, the Company held investments of $331 million and $450 million, respectively, related to the 2012 conversion of an existing group annuity contract from a participating to a non-participating contract. These investments are included in the total investments of large case pensions supporting…"
+   },
+   {
+    "chunk_id": "ch_f8a564f1d3487be1",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 110,
+    "text": "Index to Consolidated Financial Statements Consolidated Balance Sheets At December 31, In millions, except per share amounts 2022 2021 Assets: Cash and cash equivalents $ 12,945 $ 9,408 Investments 2,778 3,117 Accounts receivable, net 27,276 24,431 Inventories 19,090 17,760 Assets held for sale 908 — Other current assets 2,685 5,292 Total current assets 65,682 60,008 Long-term investments 21,096 23,025 Property and equipment, net 12,873 12,896 Operating lease right-of-use assets 17,872 19,122 Goodwill 78,150 79,121 Intangible assets, net 24,754 29,026 Separate accounts assets 3,228 5,087 Other assets 4,620 4,714 Total assets $ 228,275 $ 232,999 Liabilities: Accounts payable $ 14,838 $ 12,544 Pharmacy claims and discounts payable 19,423 17,330 Health care costs payable 10,406 8,808 Policyholders' funds 1,500 4,301 Accrued expenses 18,745 17,670 Other insurance liabilities 1,140 1,303 Current portion of operating lease liabilities 1,678 1,646 Current portion of long-term debt 1,778 4,205…"
+   },
+   {
+    "chunk_id": "ch_7117b8f37173aff8",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 147,
+    "text": "Separate Accounts financial assets at December 31, 2022 and 2021 were as follows: December 31, 2022 December 31, 2021 In millions Level 1 Level 2 Level 3 Total Level 1 Level 2 Level 3 Total Cash and cash equivalents $ 2 $ 154 $ — $ 156 $ 2 $ 186 $ — $ 188 Debt securities 712 1,965 — 2,677 1,233 3,048 — 4,281 Equity securities — — — — — 1 — 1 Common/collective trusts — 480 — 480 — 547 — 547 Total $ 714 $ 2,599 $ — $ 3,313 $ 1,235 $ 3,782 $ — $ 5,017 (1) Excludes $85 million of other payables and $70 million of other receivables at December 31, 2022 and 2021, respectively. During the years ended December 31, 2022 and 2021, the Company had no gross transfers of Separate Accounts financial assets into or out of Level 3. 5. Goodwill and Other Intangibles Goodwill Below is a summary of the changes in the carrying amount of goodwill by segment for the years ended December 31, 2022 and 2021: In millions Health Care Benefits Pharmacy Services Retail/ LTC Total Balance at December 31, 2020 $ 45,…"
+   },
+   {
+    "chunk_id": "ch_63c1b33f8ed47ab7",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 75,
+    "text": "Results of Operations The following information summarizes the Company's results of operations for 2022 compared to 2021. For discussion of the Company's results of operations for 2021 compared to 2020, see “Management's Discussion and Analysis of Financial Condition and Results of Operations” included in the Company's Annual Report on Form 10-K for the fiscal year ended December 31, 2021 filed with the U.S. Securities and Exchange Commission (the “SEC”) on February 9, 2022. Summary of Consolidated Financial Results Change Year Ended December 31, 2022 vs. 2021 2021 vs. 2020 In millions 2022 2021 2020 $ % $ % Revenues: Products $ 226,616 $ 203,738 $ 190,688 $ 22,878 11.2 % $ 13,050 6.8 % Premiums 85,330 76,132 69,364 9,198 12.1 % 6,768 9.8 % Services 9,683 11,042 7,856 (1,359) (12.3)% 3,186 40.6 % Net investment income 838 1,199 798 (361) (30.1)% 401 50.3 % Total revenues 322,467 292,111 268,706 30,356 10.4 % 23,405 8.7 % Operating costs: Cost of products sold 196,892 175,803 163,981 21…"
+   },
+   {
+    "chunk_id": "ch_1a3d93cf5a1239bc",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 89,
+    "text": "(47.6)% Net increase in cash, cash equivalents and restricted cash $ 614 $ 1,648 $ 2,635 $ (1,034) (62.7)% $ (987) (37.5)% Commentary - 2022 compared to 2021 • Net cash provided by operating activities decreased by $2.1 billion in 2022 compared to 2021 primarily due to the timing of payments and higher inventory purchases. • Net cash used in investing activities decreased by $214 million in 2022 compared to 2021 primarily due to lower net purchases of investments and the gross proceeds from the divestitures of PayFlex and bswift, largely offset by a reduction in restricted cash as a result of the sale of health savings account funds held on behalf of customers in conjunction with the sale of PayFlex. In addition, cash used in investing activities reflected the following activity: • Gross capital expenditures remained relatively consistent at approximately $2.7 billion and $2.5 billion in 2022 and 2021, respectively. During 2022, approximately 73% of the Company's total capital expendit…"
+   },
+   {
+    "chunk_id": "ch_bb4ec090c7882ba0",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 163,
+    "text": "existing taxable temporary differences, projected future taxable income, tax planning strategies and the Company's recent operating results. The Company established valuation allowances of $532 million and $325 million as of December 31, 2022 and 2021, respectively, because it does not consider it more likely than not that certain deferred tax assets will be recovered. As of December 31, 2022, the Company had net operating and capital loss carryovers of $266 million, which expire between 2023 and 2042. A reconciliation of the beginning and ending balance of unrecognized tax benefits in 2022, 2021 and 2020 is as follows: In millions 2022 2021 2020 Beginning balance $ 782 $ 768 $ 655 Additions based on tax positions related to the current year 5 3 3 Additions based on tax positions related to prior years 42 52 182 Reductions for tax positions of prior years (166) (33) (56) Expiration of statutes of limitation (4) (1) (2) Settlements (213) (7) (14) Ending balance $ 446 $ 782 $ 768 CVS Hea…"
+   },
+   {
+    "chunk_id": "ch_f662a3d1c024d0e9",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 109,
+    "text": "Index to Consolidated Financial Statements Consolidated Statements of Comprehensive Income For the Years Ended December 31, In millions 2022 2021 2020 Net income $ 4,165 $ 7,898 $ 7,192 Other comprehensive income (loss), net of tax: Net unrealized investment gains (losses) (2,279) (436) 440 Foreign currency translation adjustments — (7) 3 Net cash flow hedges 17 (26) (31) Pension and other postretirement benefits (168) 20 (17) Other comprehensive income (loss) (2,430) (449) 395 Comprehensive income 1,735 7,449 7,587 Comprehensive (income) loss attributable to noncontrolling interests (16) 12 (13) Comprehensive income attributable to CVS Health $ 1,719 $ 7,461 $ 7,574 See accompanying notes to consolidated financial statements. 107"
+   },
+   {
+    "chunk_id": "ch_52221ad825a4e8ac",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 163,
+    "text": "The following table is a summary of the components of the Company's deferred income tax assets and liabilities as of December 31, 2022 and 2021: In millions 2022 2021 Deferred income tax assets: Lease and rents $ 5,242 $ 5,563 Legal charges 1,260 19 Inventory 103 99 Employee benefits 153 193 Bad debts and other allowances 480 489 Net operating loss and capital loss carryforwards 266 416 Deferred income 66 78 Insurance reserves 455 501 Investments 293 — Payroll tax deferral — 87 Other 335 377 Valuation allowance (532) (325) Total deferred income tax assets 8,121 7,497 Deferred income tax liabilities: Retirement benefits (92) (105) Investments — (334) Lease and rents (4,639) (4,947) Depreciation and amortization (7,139) (8,381) Total deferred income tax liabilities (11,870) (13,767) Net deferred income tax liabilities $ (3,749) $ (6,270) (1) Includes deferred income tax assets of $131 million which have been accounted for as assets held for sale and are included in assets held for sale o…"
+   }
+  ]
+ }
+}

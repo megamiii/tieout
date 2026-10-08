@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer provides more precise figures that align with the gold answer's rounded values and correctly identifies the change between the two fiscal years.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TuVSr/PhJ77YfkQHzUn6/I+l7QPG2iBStWW+7C2IC755Tp6EE0rbt26O9KhUnmhxjycIzobFy7IsZ6zhoNVSWdRH+7FEFS9ouXyii/pFuL3A4gH/7yM/cMj4y8iWQ6AwKlZVR2MPqy2bhCUFJ"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493334,
+  "id": "wATIau3KF76e28oP0-bPgA0",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 218,
+   "total_tokens": 257
+  }
+ }
+}

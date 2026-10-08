@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "From FY21 to FY22, excluding Embedded, in which AMD reporting segment did sales proportionally increase the most?",
+  "ticker": "AMD",
+  "fiscal_year": null,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7bd3f31a389c781c",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 67,
+    "text": "results has been updated consistent with the revised manner in which the Company's CODM assesses the company's financial performance and allocates resources. All prior-period segment data have been retrospectively adjusted. The Company's four reportable segments are: • the Data Center segment, which primarily includes server CPUs and GPUs, DPUs, FPGAs and Adaptive SoC products for data centers; • the Client segment, which primarily includes CPUs, accelerated processing units that integrate microprocessors and GPUs (APUs), and chipsets for desktop and notebook personal computers; • the Gaming segment, which primarily includes discrete GPUs, semi-custom SoC products and development services; and • the Embedded segment, which primarily includes embedded CPUs and GPUs, FPGAs, and Adaptive SoC products. From time to time, the Company may also sell or license portions of its IP portfolio. In addition to these reportable segments, the Company has an All Other category, which is not a reportab…"
+   },
+   {
+    "chunk_id": "ch_29c728357add8d14",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 83,
+    "text": "NOTE 12: Segment Reporting Management, including the Chief Operating Decision Maker, who is the Company's Chief Executive Officer, reviews and assesses operating performance using segment net revenues and operating income (loss) before interest, other income (expense), net and income taxes. These performance measures include the allocation of expenses to the operating segments based on management's judgment. In connection with the Company's continued strategic transformation, effective July 1, 2014, the Company realigned its organizational structure. As a result of this organizational change, the Company has the following two reportable segments: • the Computing and Graphics segment, which primarily includes desktop and notebook processors and chipsets, discrete graphics processing units (GPUs) and professional graphics; and • the Enterprise, Embedded and Semi-Custom segment, which primarily includes server and embedded processors, semi-custom System-on-Chip (SoC) products, engineering…"
+   },
+   {
+    "chunk_id": "ch_44e95cced16a93bf",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "front",
+    "page": 1,
+    "text": "Table of Contents UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K (Mark One) ☒ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934. For the fiscal year ended December 31, 2022 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934. For the transition period from to Commission File Number 001-07882 ADVANCED MICRO DEVICES, INC. (Exact name of registrant as specified in its charter) Delaware 94-1692300 (State or other jurisdiction of incorporation or organization) (I.R.S. Employer Identification No.) 2485 Augustine Drive Santa Clara, California 95054 (Address of principal executive offices) (408) 749-4000 (Registrant's telephone number, including area code) Securities registered pursuant to Section 12(b) of the Act: (Title of each class) (Trading symbol) (Name of each exchange on which registered) Common Stock, $0.01 par value per share AMD The NASDAQ Global Select Market Securities r…"
+   },
+   {
+    "chunk_id": "ch_7401ade5a984bd6a",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 56,
+    "text": "ITEM 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA Advanced Micro Devices, Inc. Consolidated Statements of Operations Year Ended December 26, 2015 December 27, 2014 December 28, 2013 (In millions, except per share amounts) Net revenue $ 3,991 $ 5,506 $ 5,299 Cost of sales 2,911 3,667 3,321 Gross margin 1,080 1,839 1,978 Research and development 947 1,072 1,201 Marketing, general and administrative 482 604 674 Amortization of acquired intangible assets 3 14 18 Restructuring and other special charges, net 129 71 30 Goodwill impairment charge — 233 — Legal settlements, net — — (48) Operating income (loss) (481) (155) 103 Interest expense (160) (177) (177) Other expense, net (5) (66) — Loss before income taxes (646) (398) (74) Provision for income taxes 14 5 9 Net loss $ (660) $ (403) $ (83) Net loss per share Basic $ (0.84) $ (0.53) $ (0.11) Diluted $ (0.84) $ (0.53) $ (0.11) Shares used in per share calculation Basic 783 768 754 Diluted 783 768 754 See accompanying notes to consolidated…"
+   },
+   {
+    "chunk_id": "ch_af99f94b09949ba1",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "front",
+    "page": 1,
+    "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 FORM 10-K (Mark One) ý ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934. For the fiscal year ended December 26, 2015 OR ¨ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934. For the transition period from to Commission File Number 001-07882 ADVANCED MICRO DEVICES, INC. (Exact name of registrant as specified in its charter) Delaware 94-1692300 (State or other jurisdiction of incorporation or organization) (I.R.S. Employer Identification No.) One AMD Place, Sunnyvale, California 94088 (Address of principal executive offices) (Zip Code) (408) 749-4000 (Registrant's telephone number, including area code) Securities registered pursuant to Section 12(b) of the Act: (Title of each class) (Name of each exchange on which registered) Common Stock $0.01 par value per share The NASDAQ Stock Market LLC Securities registered pursuant to Section 12(g) of th…"
+   },
+   {
+    "chunk_id": "ch_191f2bb42773e387",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 43,
+    "text": "acceleration and rapid innovation across a variety of technologies and established AMD in multiple embedded markets where we have traditionally not had a significant presence. We now offer Field Programmable Gate Arrays (FPGAs), Adaptive SoCs, and Adaptive Compute Acceleration Platform (ACAP) products. With the acquisition of Xilinx, we have access to a new set of markets and customers, further strengthening and diversifying our business model. In May 2022, we expanded our data center solutions capabilities with the acquisition of Pensando Systems, Inc. (Pensando). We now offer high-performance data processing units (DPUs) and a software stack that complements our existing products. With the Xilinx and Pensando acquisitions, we are well positioned to provide the industry's broadest set of leadership compute engines and accelerators to help enable best performance, security, flexibility and total cost of ownership for leading-edge data centers. Our 2022 financial results reflect the str…"
+   },
+   {
+    "chunk_id": "ch_dc117b15489222bc",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 48,
+    "text": "Table of Contents Results of Operations During the second quarter of fiscal year 2022, we changed our reporting segments to align our financial reporting with how we manage our business in strategic end markets. This is consistent with how our Chief Operating Decision Maker (CODM) assesses our financial performance and allocates resources. As a result, we report our financial performance based on the following four reportable segments: Data Center, Client, Gaming, and Embedded. Additional information on our reportable segments is contained in Note 4 – Segment Reporting of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K). Our operating results tend to vary seasonally. Historically, our net revenue has been generally higher in the second half of the year than in the first half of the year, although market conditions and product transitions could impact these trends. The following table provides a summary of net revenue and operating income (loss) by segment for 2022 …"
+   },
+   {
+    "chunk_id": "ch_b2057a03c38210d5",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 43,
+    "text": "ITEM 7. MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS The following discussion should be read in conjunction with the consolidated financial statements as of December 31, 2022 and December 25, 2021 and for each of the three years in the period ended December 31, 2022 and related notes, which are included in this Annual Report on Form 10-K as well as with the other sections of this Annual Report on Form 10-K, “Part II, Item 8: Financial Statements and Supplementary Data.” Introduction In this section, we will describe the general financial condition and the results of operations of Advanced Micro Devices, Inc. and its wholly-owned subsidiaries (collectively, “us,” “our” or “AMD”), including a discussion of our results of operations for 2022 compared to 2021, an analysis of changes in our financial condition and a discussion of our off-balance sheet arrangements. Discussions of 2020 items and year-to-year comparisons between 2021 and 2020 that are …"
+   }
+  ]
+ }
+}

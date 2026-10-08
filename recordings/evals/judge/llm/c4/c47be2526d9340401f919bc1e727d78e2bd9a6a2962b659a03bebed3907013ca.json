@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The gold answer identifies operating activities as the primary source of cash flow, whereas the provided answer incorrectly identifies investing activities. The provided answer contradicts the gold answer's conclusion.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0Tqis8tx+kJ1a3O2aN4ylRGcSylmjyZ8WPOoKwiBZS0032p6HN9SxH9h3xLVWKrqoY5JqKgTfGkxJNZAcocPpotESj0FDz5Fk44iuaAFEebXN1daABgiHENr7L1RbsZm00hI22QayQdbJfkzlY"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493289,
+  "id": "nATIar3DNdXS28oPxYWq0As",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 194,
+   "total_tokens": 240
+  }
+ }
+}

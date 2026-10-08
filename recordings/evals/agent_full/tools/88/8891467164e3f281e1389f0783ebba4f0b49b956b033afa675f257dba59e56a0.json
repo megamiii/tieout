@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "VZ",
+  "query": "operating revenue",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "VZ",
+  "concepts": [
+   {
+    "concept": "Revenues",
+    "label": "Revenues",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "136835000000",
+      "fact_id": "xf_39deba555a2ae5be",
+      "reported_in_10k_filed": "2023-02-10"
+     }
+    ]
+   },
+   {
+    "concept": "OperatingIncomeLoss",
+    "label": "Operating Income (Loss)",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "30467000000",
+      "fact_id": "xf_e81e11ce636cafca",
+      "reported_in_10k_filed": "2023-02-10"
+     }
+    ]
+   }
+  ]
+ }
+}

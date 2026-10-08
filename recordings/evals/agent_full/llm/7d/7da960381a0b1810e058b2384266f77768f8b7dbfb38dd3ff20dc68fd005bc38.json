@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TM/YMwvrEYzTN65WSu9dIpIobN8GjAvv58KqB8tRPyZwSGebgZBz/sroIgxUcqC+ibf3ageXMkyFbZjVZAwJMGZOz7hAdWsrfEUe4TP92G40eum5XljYJM9o="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"cyclical cyclicality cycle\",\"ticker\":\"BA\",\"fiscal_year\":2022,\"section\":\"1\"}",
+        "name": "search_filings"
+       },
+       "id": "call_1219702",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494723,
+  "id": "QwrIap7kBZPQ28oP4aOHuQ0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 42,
+   "prompt_tokens": 3135,
+   "total_tokens": 3177
+  }
+ }
+}

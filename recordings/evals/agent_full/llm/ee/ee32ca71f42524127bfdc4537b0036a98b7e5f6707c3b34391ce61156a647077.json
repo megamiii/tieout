@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T8HlJ3hclEN6X5chlIOA9XZLFowE2PbiG+qKYT3LadiVgXoB9LjQX2pL2NH8QGdAmMk6+2yXNnktQHUTZD08oqLzzTCWcURLKfdt9BlKiiXew4hTelX4YCug="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"answer\":\"Yes, Verizon is a capital-intensive business based on FY 2022 data. In its FY 2022 10-K, Verizon explicitly states under Risk Factors that \\\"We require a significant amount of capital to operate and grow our business.\\\" In FY 2022, Verizon had capital expenditures (including capitalized software) of $23,087 million, which represents approximately 16.87% of its total operating revenues ($136,835 million). Additionally, as of December 31, 2022, the company reported net property, plant and equipment of $107,434 million.\",\"needs_review\":false,\"citations\":[{\"quote\":\"We require a significant amount of capital to operate and grow our business.\",\"source_id\":\"ch_b93cb7bf5b3409c2\"},{\"source_id\":\"ch_e45545bb88293d76\",\"quote\":\"Less Capital expenditures (including capitalized software) 23,087\"},{\"source_id\":\"xf_39deba555a2ae5be\",\"quote\":\"136835000000\"},{\"quote\":\"107434000000\",\"source_id\":\"xf_fa57b922b803aa34\"}],\"rationale\":\"The company explicitly notes in Item 1A that it requires a significant amount of capital to operate and grow. Quantitative metrics confirm this: capital expenditures were $23,087 million (approx. 16.9% of revenues of $136,835 million) and net property, plant and equipment was $107,434 million at year-end 2022.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_638863",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494568,
+  "id": "pgnIatqsLbb7xs0P-cGg8Ac",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 427,
+   "prompt_tokens": 4190,
+   "prompt_tokens_details": {
+    "cached_tokens": 1997
+   },
+   "total_tokens": 4617
+  }
+ }
+}

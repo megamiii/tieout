@@ -1,0 +1,80 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMCR",
+  "query": "current assets",
+  "concept": null,
+  "fiscal_years": [
+   2022,
+   2023
+  ]
+ },
+ "output": {
+  "ticker": "AMCR",
+  "concepts": [
+   {
+    "concept": "AssetsCurrent",
+    "label": "Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-06-30",
+      "value": "5308000000",
+      "fact_id": "xf_426d06d0d61dc884",
+      "reported_in_10k_filed": "2023-08-17"
+     },
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-06-30",
+      "value": "5853000000",
+      "fact_id": "xf_89b5fdabecd7ead8",
+      "reported_in_10k_filed": "2022-08-18"
+     }
+    ]
+   },
+   {
+    "concept": "PrepaidExpenseAndOtherAssetsCurrent",
+    "label": "Prepaid Expense and Other Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-06-30",
+      "value": "531000000",
+      "fact_id": "xf_2f1246bb0f477472",
+      "reported_in_10k_filed": "2023-08-17"
+     },
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-06-30",
+      "value": "512000000",
+      "fact_id": "xf_132caa53b985ba57",
+      "reported_in_10k_filed": "2022-08-18"
+     }
+    ]
+   },
+   {
+    "concept": "OtherAssetsNoncurrent",
+    "label": "Other Assets, Noncurrent",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-06-30",
+      "value": "309000000",
+      "fact_id": "xf_fd0049f25f5bec18",
+      "reported_in_10k_filed": "2023-08-17"
+     },
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-06-30",
+      "value": "206000000",
+      "fact_id": "xf_adabfaeeb3a272ed",
+      "reported_in_10k_filed": "2022-08-18"
+     }
+    ]
+   }
+  ]
+ }
+}

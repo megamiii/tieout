@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\n  \"answer\": \"Based on the provided FY 2022 data, the passages discuss capital spending requirements, capital programs for advanced networks (such as 5G and C-Band), and capital expenditures related to increasing operating efficiency and maintaining existing infrastructure, but they do not explicitly state whether Verizon is a \\\"capital intensive\\\" business.\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true\n}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T9MQCmjHTrK/KZaO4SYAHeAoae0A+aWTzABTdLhEsQYEIKfPIh65YmlQTPNcecK+SnSXys5h0TZHJJCetUp8RPPY6FYpF4GSn3rtHc8/NdbuovNAT9BATMHw="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492570,
+  "id": "zAHIar6BNsOixN8PtoeM6A4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 102,
+   "prompt_tokens": 2623,
+   "total_tokens": 2725
+  }
+ }
+}

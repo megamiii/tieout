@@ -1,0 +1,28 @@
+{
+ "item_id": "xbrl-BBY-2023-NetIncomeLoss-growth",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "needs_review",
+ "answer": "Based on the provided passages, the exact net income for fiscal year 2022 and fiscal year 2023 is not mentioned (though net earnings are referenced generally, specific dollar values or the percentage change for net income are absent).",
+ "confidence": 0.0,
+ "rationale": null,
+ "citations": [],
+ "review_reasons": [
+  "model flagged for review",
+  "confidence 0.00 is below 0.70"
+ ],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2302,
+ "completion_tokens": 85,
+ "latency_ms": 1112.1,
+ "grade": {
+  "correct": false,
+  "method": "numeric",
+  "detail": "no figure in the answer matches the gold value",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

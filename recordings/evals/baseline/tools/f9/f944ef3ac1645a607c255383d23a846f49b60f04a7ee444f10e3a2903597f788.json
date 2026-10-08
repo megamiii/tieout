@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What was Amcor's research and development expense in fiscal year 2023? Answer in USD millions.",
+  "ticker": "AMCR",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_d3efc71e1a53f813",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 33,
+    "text": "Interest income increased by $7 million, or 29%, in fiscal year 2023, compared to fiscal year 2022, driven by increased interest rates on cash balances. Consolidated Interest Expense ($ in millions) 2023 2022 Interest expense $ (290) $ (159) Interest expense as a percentage of net sales (2.0)% (1.1)% Interest expense increased by $131 million, or 82%, in fiscal year 2023, compared to fiscal year 2022, primarily driven by increased interest rates on U.S. dollar and Euro denominated variable rate debt. 33"
+   },
+   {
+    "chunk_id": "ch_cb522849e6ae3cac",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 73,
+    "text": "Estimated future amortization expense for intangible assets is as follows: ($ in millions) Amortization Fiscal year 2024 $ 173 Fiscal year 2025 159 Fiscal year 2026 156 Fiscal year 2027 141 Fiscal year 2028 141 73"
+   },
+   {
+    "chunk_id": "ch_807cabccef966493",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 101,
+    "text": "Property and other losses, net in fiscal year 2023 includes property claims and losses of $5 million and $3 million of net insurance recovery related to the closure of the Company's South African business. Fiscal year 2022 includes business losses primarily associated with the destruction of the Company's Durban, South Africa facility during general civil unrest in July 2021, net of insurance recovery. (7) Russia-Ukraine conflict impacts in fiscal year 2023 includes a pre-tax net gain on the sale of the Company's Russian business of $215 million, incremental costs of $18 million, and restructuring and related expenses of $107 million incurred in connection with the conflict. Fiscal year 2022 includes $138 million of impairment charges, $57 million of restructuring and related expenses, and $5 million of other expenses. Refer to Note 4, \"Restructuring, Impairment, and Other Related Activities, Net, \" and Note 7, \"Restructuring,\" for further information. (8) Other in fiscal year 2023 inc…"
+   },
+   {
+    "chunk_id": "ch_03ed47ff1b286660",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 72,
+    "text": "$ (1,051) $ 1,524 June 30, 2022 ($ in millions) Gross Carrying Amount Accumulated Amortization and Impairment (1) Net Carrying Amount Customer relationships $ 1,970 $ (529) $ 1,441 Computer software 235 (162) 73 Other (2) 323 (180) 143 Total other intangible assets $ 2,528 $ (871) $ 1,657 (1) Accumulated amortization and impairment included $34 million and $33 million for June 30, 2023, and 2022, respectively, of accumulated impairment in the Other category. (2) Other included $17 million and $16 million for June 30, 2023, and 2022, respectively, of acquired intellectual property assets not yet being amortized as the related research and development projects have not yet been completed. Amortization expense for intangible assets during the fiscal years 2023, 2022, and 2021 was $174 million, $180 million, and $182 million, respectively. During the last three fiscal years, there were no impairment charges recorded on intangible assets. 72"
+   },
+   {
+    "chunk_id": "ch_c0b687348702b7d5",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 33,
+    "text": "for the fiscal year 2023 was a decrease of $91 million, or (3%), reflecting price/mix benefits of approximately 1%, offset by unfavorable volumes (4%). Adjusted EBIT decreased by $24 million, or 8%, in fiscal year 2023, compared to fiscal year 2022. Excluding negative currency impacts of $2 million, the remaining variation in adjusted EBIT for the fiscal year 2023 was a decrease of $22 million, or 8%, with favorable price/mix of 20%, more than offset by unfavorable volumes of (12%), unfavorable plant costs of (11%) and unfavorable SG&A and other costs of (5%), all largely impacted by inflationary pressures. Consolidated Gross Profit ($ in millions) 2023 2022 Gross profit $ 2,725 $ 2,820 Gross profit as a percentage of net sales 18.5 % 19.4 % Gross profit decreased by $95 million, or 3%, in fiscal year 2023, compared to fiscal year 2022. Excluding negative currency impacts of $78 million, the negative impact from disposed and ceased operations of $73 million, the remaining variation in …"
+   },
+   {
+    "chunk_id": "ch_77b7d4f7561a7c51",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 93,
+    "text": "(24) (19) (58) Income tax expense $ 193 $ 300 $ 261 (1) In fiscal year 2023, Other is comprised of effects of foreign currency exchange of $25 million, adjustments to prior year, movement in deferred tax positions, changes in tax rate, and other individually immaterial items. In fiscal year 2022, Other is comprised of adjustments to prior year, movements in deferred tax positions of $13 million, changes in tax rates, and other individually immaterial items. In fiscal year 2021, Other is comprised of adjustments to prior fiscal year, including one related to the crystallization of benefits from business restructuring of $45 million, changes in tax rate, and other individually immaterial items. Amcor operates in over forty different jurisdictions with a wide range of statutory tax rates. The tax expense from operating in non-UK jurisdictions in excess of the UK statutory tax rate is included in the line \"Foreign tax rate differential\" in the above tax rate reconciliation table. For fisca…"
+   },
+   {
+    "chunk_id": "ch_7d38a5c5e870fca4",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Consolidated Income Tax Expense ($ in millions) 2023 2022 Income tax expense $ (193) $ (300) Effective tax rate 15.4 % 26.9 % Income tax expense decreased by $107 million, or 36%, in fiscal year 2023, compared to fiscal year 2022. The decrease was predominantly attributable to a decrease in tax provisions for uncertain tax positions and a non-taxable capital gain on the sale of the Russian business. 34"
+   },
+   {
+    "chunk_id": "ch_624a995e63fde8cb",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 68,
+    "text": "Fiscal year 2023 includes restructuring related costs from the 2023 Restructuring Plan of $6 million. (2) Fiscal year 2023 includes restructuring related costs of $4 million that pertain to \"Other Restructuring Plans.\" Fiscal year 2022 includes $55 million in restructuring expenses and $2 million of restructuring related expenses that pertain to the Russia-Ukraine conflict as discussed above in section \"Other Restructuring Plans.\" (3) Fiscal years 2022 and 2021 include $17 million and $13 million, respectively, of restructuring related costs from the 2019 Bemis Integration Plan. An analysis of the restructuring expenses by type incurred follows: Years ended June 30, ($ in millions) 2023 2022 2021 Employee related expenses $ 68 $ 58 $ 76 Fixed asset related expenses 18 4 23 Other expenses 15 15 34 Gain on sale of business — — (51) Total restructuring expenses, net $ 101 $ 77 $ 82 68"
+   }
+  ]
+ }
+}

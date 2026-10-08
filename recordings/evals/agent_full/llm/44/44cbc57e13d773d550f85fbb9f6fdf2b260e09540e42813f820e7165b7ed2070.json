@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T+reaYZf0A+FHpKj17kbSTCxf9Qh81DUnzyQUxNmOXPRvMkYRrk/ZofAUd79lk/kWN+ydOcBkcW53UCqvC2BgsYI6tdtHBTZIf5X4VQ1ofPequnUq++4ZlDg="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"segment net sales data computing and graphics enterprise embedded semi-custom\",\"ticker\":\"AMD\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_841551",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494855,
+  "id": "xwrIasn7FK2hnsEP1vyFmQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 1860,
+   "total_tokens": 1903
+  }
+ }
+}

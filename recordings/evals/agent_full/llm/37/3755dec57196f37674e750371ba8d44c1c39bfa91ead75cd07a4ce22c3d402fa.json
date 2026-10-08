@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TfU/rw8NxEaJ8jGhtI59Of3L5r5JssyfIj1Yi7Lb35YdJXSc4ZdWcdhqenPvx5cH0oDzbsS+XF/CzVBMKVbMLvbUL1IK46lH5XQxj5OhS6Ih50zfv/mNEP2o="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"ticker\":\"VZ\",\"query\":\"Consolidated Balance Sheets Verizon Communications Inc. At December 31\"}",
+        "name": "search_filings"
+       },
+       "id": "call_203363",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494903,
+  "id": "9wrIapnvG76e28oP0-bPgA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 3506,
+   "total_tokens": 3550
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer reaches the correct conclusion and provides valid supporting evidence from the 10-K, even though it uses a different financial metric (capital expenditure ratio) than the gold answer's asset-to-revenue ratio.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TeEHwvgw3iJYFTGqyUVEt4PmQYZF1cDeC4p+52uqPMhBac3xwbVrJ7zDOZsvr44KshYI+7jJje4qCHe77E0eS7a5i4uBsy618cGEy32tJDx7DSy8BFcrVPiF0UhsN9e/b4FwfaI06xWoJYa+U"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791494690,
+  "id": "IQrIar2vOeWBxs0P5L_j6Ac",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 57,
+   "prompt_tokens": 362,
+   "total_tokens": 419
+  }
+ }
+}

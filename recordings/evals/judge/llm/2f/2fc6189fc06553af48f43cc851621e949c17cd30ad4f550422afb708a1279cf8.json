@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer confirms that dividends were paid in 2022, which aligns with the gold answer's conclusion that dividends were paid every quarter that year.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TK1F/p3ed2XpwzqKy7fghq5iLpaC4webNC6yFobTZdXuyjNthjhmb6lwvyppioLL5VpEtsD09a7umlebz8nooHzQMafD09HsVDY3gUDORRTOGpOSL3oGL9AkNOTwrhuinAgYN6SBV2HOagRsw"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493263,
+  "id": "gwTIarunKuao28oPq_uxyAo",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 183,
+   "total_tokens": 227
+  }
+ }
+}

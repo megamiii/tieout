@@ -1,0 +1,36 @@
+{
+ "item_id": "xbrl-MMM-2018-NetIncomeLoss-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "In fiscal year 2018, 3M's net income attributable to 3M was $5,349 million.",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_002a8a4749ce6e30",
+   "quote": "Net income attributable to 3M 5,349",
+   "kind": "chunk",
+   "ticker": "MMM",
+   "fiscal_year": 2018,
+   "section": "Item 6",
+   "page": 14,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 3195,
+ "completion_tokens": 106,
+ "latency_ms": 1374.1,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$5,349 matches 5349 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"No, Verizon decreased its total long-term debt, including current maturities, from $150,868 million at December 31, 2021 to $150,489 million at December 31, 2022.\",\n  \"confidence\": 1.0,\n  \"citations\": [{\"source_id\": \"ch_1392c9ec3215c080\", \"quote\": \"Total long-term debt, including current maturities 150,489 150,868\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TF8r5IyFgdPWT5c2h1ZgYPu6xFegnkk9NlLmPxgS9PEO3A9XRTGClokk74clKNIv1jzHvVy+Q0rR76K9+AOOj+721VbIb7AVN1J/694iOtfPI6oDjlbYh+78="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492605,
+  "id": "_AHIaqaaGtmc28oPmv3kgQI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 146,
+   "prompt_tokens": 2594,
+   "total_tokens": 2740
+  }
+ }
+}

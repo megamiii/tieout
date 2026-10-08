@@ -1,0 +1,88 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "BBY",
+  "query": "gross profit",
+  "concept": null,
+  "fiscal_years": [
+   2023,
+   2019,
+   2017
+  ]
+ },
+ "output": {
+  "ticker": "BBY",
+  "concepts": [
+   {
+    "concept": "GrossProfit",
+    "label": "Gross Profit",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-01-30..2023-01-28",
+      "value": "9912000000",
+      "fact_id": "xf_e1a76d1826356991",
+      "reported_in_10k_filed": "2023-03-17"
+     },
+     {
+      "fiscal_year": 2019,
+      "period": "2018-02-04..2019-02-02",
+      "value": "9961000000",
+      "fact_id": "xf_27003ee06685c505",
+      "reported_in_10k_filed": "2019-03-28"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "2016-01-31..2017-01-28",
+      "value": "9440000000",
+      "fact_id": "xf_1bace80574710929",
+      "reported_in_10k_filed": "2017-03-24"
+     }
+    ]
+   },
+   {
+    "concept": "GoodwillGross",
+    "label": "Goodwill, Gross",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-01-28",
+      "value": "2058000000",
+      "fact_id": "xf_c57e74f7a8415673",
+      "reported_in_10k_filed": "2023-03-17"
+     },
+     {
+      "fiscal_year": 2019,
+      "period": "as of 2019-02-02",
+      "value": "1590000000",
+      "fact_id": "xf_8035a0204e49fbd1",
+      "reported_in_10k_filed": "2019-03-28"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "as of 2017-01-28",
+      "value": "1100000000",
+      "fact_id": "xf_0cd079a2925b0f4c",
+      "reported_in_10k_filed": "2017-03-24"
+     }
+    ]
+   },
+   {
+    "concept": "PaymentsToAcquireBusinessesGross",
+    "label": "Payments to Acquire Businesses, Gross",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "2018-02-04..2019-02-02",
+      "value": "795000000",
+      "fact_id": "xf_b585b5f03593e2e3",
+      "reported_in_10k_filed": "2019-03-28"
+     }
+    ]
+   }
+  ]
+ }
+}

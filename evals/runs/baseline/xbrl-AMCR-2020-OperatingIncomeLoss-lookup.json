@@ -1,0 +1,36 @@
+{
+ "item_id": "xbrl-AMCR-2020-OperatingIncomeLoss-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "$994.0 million",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_c0cf187589fb85b7",
+   "quote": "Operating income 994.0 791.7",
+   "kind": "chunk",
+   "ticker": "AMCR",
+   "fiscal_year": 2020,
+   "section": "Item 7",
+   "page": 28,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2855,
+ "completion_tokens": 100,
+ "latency_ms": 973.5,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$994.0 matches 994 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

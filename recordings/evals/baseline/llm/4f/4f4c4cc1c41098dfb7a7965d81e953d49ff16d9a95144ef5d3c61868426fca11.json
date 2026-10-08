@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"$11,987 million\",\n  \"confidence\": 1.0,\n  \"citations\": [{\"source_id\": \"ch_646d7ca0490ce73e\", \"quote\": \"Earnings from operations 11,987 10,344 6,527\"}, {\"source_id\": \"ch_5450c7b0b2e30ea4\", \"quote\": \"Earnings from operations $11,987 $10,344 $6,527\"}, {\"source_id\": \"ch_19117b0ec4a3c020\", \"quote\": \"Earnings from operations 11,987 10,344 6,527\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T/S35Ea8HREu86o1zoJ0nSQqON50WeXqtEZ2StCj52o/pxZH4TCMCU9yXV95B/Du48qns+ZaVnv+9YhcWgmo7aZ9X+iFblNEE0Q0K8pxOZxrNb5X3rCIP7ss="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493369,
+  "id": "-ATIaqKSOqulnsEP8K_NsQ0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 197,
+   "prompt_tokens": 3741,
+   "total_tokens": 3938
+  }
+ }
+}

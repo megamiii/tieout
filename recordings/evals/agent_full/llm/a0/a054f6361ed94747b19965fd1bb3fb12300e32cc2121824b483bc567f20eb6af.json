@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TFQ9NRPgoC5GaG0FB2Kz9BoCr/4ybxXKmQV8EAhu5UaiVGNvAXnnUezFfcf6dj6Jscpx8gxF3olZnVARya6y5/mOWBOSKFMI0RF3BLizWgm9e6HFeJVevcIk="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"VZ\",\"query\":\"derivative instruments foreign currency interest rate notional value\",\"fiscal_year\":2021}",
+        "name": "search_filings"
+       },
+       "id": "call_1230036",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791495312,
+  "id": "hwzIat3-OruBxs0P9PyOgQw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 1876,
+   "total_tokens": 1916
+  }
+ }
+}

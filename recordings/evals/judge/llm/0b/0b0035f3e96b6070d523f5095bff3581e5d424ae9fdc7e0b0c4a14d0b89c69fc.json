@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the instrument with the highest notional value and provides a figure that is consistent with the gold answer's value of $32,502 million.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TkwiTkzoVsmqbeZ+jq5jjm3Ct4ciYN6rO/sY/8cAD9OrpuNaiNE+NqCK+zK7DSX8i/XoTMlXI4z4WgWWhyFABjGpPgaTquvZ0LFrDXB+/7H+zSZO8stLNaNdfwfoJ8yE4wP3U88Lka8eTARUW"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791495692,
+  "id": "-Q3IaorhF6D4xN8Pkr-s4Aw",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 48,
+   "prompt_tokens": 292,
+   "total_tokens": 340
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, there is no mention of CVS Health's total assets for fiscal year 2021 or fiscal year 2022, nor the percentage change between them.\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tw5wS2cqtVvQrAGE/F228aGfsI0BOYhM26xR8FyFDaJLdnsTq66ljwge9oqOFU866qv9aEtsV/jIfb575pqUpcDX8CMvA2VT2XP77DHgLwX0LaPL9llCU3QE="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493424,
+  "id": "LwXIasWmG5PQ28oP4aOHuQ0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 75,
+   "prompt_tokens": 3493,
+   "total_tokens": 3568
+  }
+ }
+}

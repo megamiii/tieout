@@ -1,0 +1,36 @@
+{
+ "item_id": "xbrl-ADBE-2022-Assets-growth",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "Adobe's total assets decreased by 0.3% from fiscal year 2021 to fiscal year 2022.",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_76414535f94d238a",
+   "quote": "Total assets $ 27,165 $ 27,241",
+   "kind": "chunk",
+   "ticker": "ADBE",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 53,
+   "supports": false
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2791,
+ "completion_tokens": 111,
+ "latency_ms": 1184.4,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "0.3% matches -0.2790 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

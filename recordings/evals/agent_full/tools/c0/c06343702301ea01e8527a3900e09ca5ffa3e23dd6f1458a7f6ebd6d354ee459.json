@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "cyclical cyclicality industry commercial airlines",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": "7",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_b3bcf253a0e9c1f3",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Table of Contents as well as any responses from Russia that could affect our supply chain, business partners or customers, for any additional impacts to our business. Segment Results of Operations and Financial Condition Commercial Airplanes Business Environment and Trends Airline Industry Environment See Overview to Management's Discussion and Analysis of Financial Condition and Results of Operations for a discussion of the airline industry environment. Industry Competitiveness The industry continues to recover from the lingering effects of the COVID-19 pandemic. The commercial aircraft market and the airline industry both remain extremely competitive. While the impacts and responses have varied globally, the reduction of demand and disruption in production has adversely impacted most manufacturers in the commercial aircraft industry. Continued access to global markets remains vital to our ability to fully realize our sales potential and long-term investment returns. Approximately 70%…"
+   },
+   {
+    "chunk_id": "ch_594ec8ab69ce3660",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 23,
+    "text": "Table of Contents The long-term outlook for the industry remains positive due to the fundamental drivers of air travel demand: economic growth, increasing propensity to travel due to increased trade, globalization and improved airline services driven by liberalization of air traffic rights between countries. Our Commercial Market Outlook forecast projects a 3.8% growth rate for passenger and cargo traffic over a 20-year period. Based on long-term global economic growth projections of 2.6% in average annual gross domestic product, we project demand for approximately 41,170 new airplanes over the next 20 years. The industry remains vulnerable to exogenous developments including fuel price spikes, credit market shocks, acts of terrorism, natural disasters, conflicts, epidemics, pandemics and increased global environmental regulations. During 2022, commercial services volume at BGS recovered to pre-pandemic levels. We expect BGS commercial revenues to remain strong in future quarters as th…"
+   },
+   {
+    "chunk_id": "ch_2dbe6b16ad269789",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 22,
+    "text": "capture key next-generation programs while expanding our presence in adjacent and international markets, underscored by an intense focus on growth and productivity. BGS provides support for commercial and defense through innovative, comprehensive and cost-competitive product and service solutions. BCC facilitates, arranges, structures and provides selective financing solutions for our Boeing customers. Business Environment and Trends Domestic travel continues to recover from the lingering effects of the COVID-19 pandemic before international travel and the narrow-body market continues to follow domestic travel recovery, while the wide-body market continues to be paced by international travel recovery. The pace of the commercial market recovery remains impacted by government restrictions related to COVID-19, especially China. We are seeing a strong recovery in travel demand for our airline customers in North and South America, the Middle East, and Europe, and demand for dedicated freigh…"
+   },
+   {
+    "chunk_id": "ch_25d897fca5835b04",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 22,
+    "text": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations Consolidated Results of Operations and Financial Condition Overview We are a global market leader in the design, development, manufacture, sale, service and support of commercial jetliners, military aircraft, satellites, missile defense, human space flight and launch systems and services. We are one of the two major manufacturers of 100+ seat airplanes for the worldwide commercial airline industry and one of the largest defense contractors in the U.S. While our principal operations are in the U.S., we conduct operations in an expanding number of countries and rely on an extensive network of non-U.S. partners, key suppliers and subcontractors. Our strategy is centered on successful execution in healthy core businesses – Commercial Airplanes (BCA), Defense, Space & Security (BDS) and Global Services (BGS) – supplemented and supported by Boeing Capital (BCC). Taken together, these core businesses…"
+   },
+   {
+    "chunk_id": "ch_daaad77d9d924fb8",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 39,
+    "text": "development, we may experience schedule delays and cost impacts, which could increase our estimated cost to perform the work or reduce our estimated price, either of which could result in a material charge or otherwise adversely affect our financial condition. These programs are ongoing, and while we believe the cost and fee estimates incorporated in the financial statements are appropriate, the technical complexity of these programs creates financial risk as additional completion costs may become necessary or scheduled delivery dates could be extended, which could trigger termination provisions or other financially significant exposure. Risk remains that we may be required to record additional reach-forward losses in future periods. Global Services Business Environment and Trends The aerospace markets we serve include parts distribution, logistics and other inventory services; maintenance, engineering and upgrades; training and professional services; and data analytics and digital ser…"
+   }
+  ]
+ }
+}

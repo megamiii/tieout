@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_4139ea3f78d97cda",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 97,
+    "text": "Table of Contents CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME Year Ended December 31 (Millions) 2022 2021 2020 Net income $ 7,514 $ 8,060 $ 3,135 Other comprehensive (loss) income: Net unrealized debt securities (losses) gains, net of tax (87) (42) 32 Foreign currency translation adjustments, net of hedges and tax (230) (163) (40) Net unrealized pension and other postretirement benefits, net of tax 52 155 (150) Other comprehensive (loss) income (265) (50) (158) Comprehensive income $ 7,249 $ 8,010 $ 2,977 See Notes to Consolidated Financial Statements. 94"
+   },
+   {
+    "chunk_id": "ch_f0885a17240d2858",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 95,
+    "text": "Table of Contents INDEX TO CONSOLIDATED FINANCIAL STATEMENTS CONSOLIDATED FINANCIAL STATEMENTS PAGE Consolidated Statements of Income – For the Years Ended December 31, 2022, 2021 and 2020 93 Consolidated Statements of Comprehensive Income – For the Years Ended December 31, 2022, 2021 and 2020 94 Consolidated Balance Sheets – December 31, 2022 and 2021 95 Consolidated Statements of Cash Flows – For the Years Ended December 31, 2022, 2021 and 2020 96 Consolidated Statements of Shareholders' Equity – For the Years Ended December 31, 2022, 2021 and 2020 97 NOTES TO CONSOLIDATED FINANCIAL STATEMENTS 98 Note 1 – Summary of Significant Accounting Policies 98 Note 2 – Loans and Card Member Receivables 104 Note 3 – Reserves for Credit Losses 112 Note 4 – Investment Securities 115 Note 5 – Asset Securitizations 117 Note 6 – Other Assets 118 Note 7 – Customer Deposits 120 Note 8 – Debt 121 Note 9 – Other Liabilities 124 Note 10 – Stock-Based Compensation 125 Note 11 – Retirement Plans 127 Note 1…"
+   },
+   {
+    "chunk_id": "ch_01a1954f662f77a4",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 96,
+    "text": "Table of Contents CONSOLIDATED STATEMENTS OF INCOME Year Ended December 31 (Millions, except per share amounts) 2022 2021 2020 Revenues Non-interest revenues Discount revenue $ 30,739 $ 24,563 $ 19,435 Net card fees 6,070 5,195 4,664 Service fees and other revenue 4,521 3,316 2,702 Processed revenue 1,637 1,556 1,301 Total non-interest revenues 42,967 34,630 28,102 Interest income Interest on loans 11,967 8,850 9,779 Interest and dividends on investment securities 96 83 127 Deposits with banks and other 595 100 177 Total interest income 12,658 9,033 10,083 Interest expense Deposits 1,527 458 943 Long-term debt and other 1,236 825 1,155 Total interest expense 2,763 1,283 2,098 Net interest income 9,895 7,750 7,985 Total revenues net of interest expense 52,862 42,380 36,087 Provisions for credit losses Card Member receivables 627 (73) 1,015 Card Member loans 1,514 (1,155) 3,453 Other 41 (191) 262 Total provisions for credit losses 2,182 (1,419) 4,730 Total revenues net of interest expens…"
+   },
+   {
+    "chunk_id": "ch_0cfc76bac8265f6c",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 96,
+    "text": "5,458 5,291 3,696 Salaries and employee benefits 7,252 6,240 5,718 Other, net 6,481 4,817 5,325 Total expenses 41,095 33,110 27,061 Pretax income 9,585 10,689 4,296 Income tax provision 2,071 2,629 1,161 Net income $ 7,514 $ 8,060 $ 3,135 Earnings per Common Share — (Note 21) Basic $ 9.86 $ 10.04 $ 3.77 Diluted $ 9.85 $ 10.02 $ 3.77 Average common shares outstanding for earnings per common share: Basic 751 789 805 Diluted 752 790 806 (a) Represents net income less (i) earnings allocated to participating share awards of $57 million, $56 million and $20 million for the years ended December 31, 2022, 2021 and 2020, respectively, (ii) dividends on preferred shares of $57 million, $71 million and $79 million for the years ended December 31, 2022, 2021 and 2020, respectively, and (iii) equity-related adjustments of $16 million related to the redemption of preferred shares for the year ended December 31, 2021. See Notes to Consolidated Financial Statements. (a) 93"
+   },
+   {
+    "chunk_id": "ch_eff10dd0e23194b0",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 99,
+    "text": "Table of Contents CONSOLIDATED STATEMENTS OF CASH FLOWS Years Ended December 31 (Millions) 2022 2021 2020 Cash Flows from Operating Activities Net income $ 7,514 $ 8,060 $ 3,135 Adjustments to reconcile net income to net cash provided by operating activities: Provisions for credit losses 2,182 (1,419) 4,730 Depreciation and amortization 1,626 1,695 1,543 Stock-based compensation 375 330 249 Deferred taxes (1,189) 294 (939) Other items 365 (772) 683 Originations of loans held-for-sale (277) — — Proceeds from sales of loans held-for-sale 277 — — Changes in operating assets and liabilities, net of effects of acquisitions and dispositions: Other assets 1,391 1,068 (1,785) Accounts payable & other liabilities 8,815 5,389 (2,025) Net cash provided by operating activities 21,079 14,645 5,591 Cash Flows from Investing Activities Sale of investment securities 26 62 69 Maturities and redemptions of investment securities 1,892 20,032 7,159 Purchase of investments (4,175) (1,517) (20,562) Net (inc…"
+   }
+  ]
+ }
+}

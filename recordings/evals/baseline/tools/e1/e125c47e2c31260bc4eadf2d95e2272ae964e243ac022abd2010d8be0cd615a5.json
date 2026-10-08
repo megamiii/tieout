@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What was CVS Health's net cash provided by operating activities in fiscal year 2022? Answer in USD millions.",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_1a3d93cf5a1239bc",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 89,
+    "text": "(47.6)% Net increase in cash, cash equivalents and restricted cash $ 614 $ 1,648 $ 2,635 $ (1,034) (62.7)% $ (987) (37.5)% Commentary - 2022 compared to 2021 • Net cash provided by operating activities decreased by $2.1 billion in 2022 compared to 2021 primarily due to the timing of payments and higher inventory purchases. • Net cash used in investing activities decreased by $214 million in 2022 compared to 2021 primarily due to lower net purchases of investments and the gross proceeds from the divestitures of PayFlex and bswift, largely offset by a reduction in restricted cash as a result of the sale of health savings account funds held on behalf of customers in conjunction with the sale of PayFlex. In addition, cash used in investing activities reflected the following activity: • Gross capital expenditures remained relatively consistent at approximately $2.7 billion and $2.5 billion in 2022 and 2021, respectively. During 2022, approximately 73% of the Company's total capital expendit…"
+   },
+   {
+    "chunk_id": "ch_4760e4f5e8db9997",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 111,
+    "text": "Index to Consolidated Financial Statements Consolidated Statements of Cash Flows For the Years Ended December 31, In millions 2022 2021 2020 Cash flows from operating activities: Cash receipts from customers $ 313,662 $ 284,219 $ 264,327 Cash paid for inventory and prescriptions dispensed by retail network pharmacies (189,766) (165,783) (158,636) Insurance benefits paid (69,728) (63,598) (55,124) Cash paid to other suppliers and employees (32,662) (31,652) (29,763) Interest and investment income received 1,026 743 894 Interest paid (2,239) (2,469) (2,904) Income taxes paid (4,116) (3,195) (2,929) Net cash provided by operating activities 16,177 18,265 15,865 Cash flows from investing activities: Proceeds from sales and maturities of investments 6,729 7,246 6,467 Purchases of investments (7,746) (9,963) (9,639) Purchases of property and equipment (2,727) (2,520) (2,437) Proceeds from sale-leaseback transactions — — 101 Acquisitions (net of cash acquired) (139) (146) (866) Proceeds from …"
+   },
+   {
+    "chunk_id": "ch_33e23e1f74d50697",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 112,
+    "text": "Index to Consolidated Financial Statements For the Years Ended December 31, In millions 2022 2021 2020 Reconciliation of net income to net cash provided by operating activities: Net income $ 4,165 $ 7,898 $ 7,192 Adjustments required to reconcile net income to net cash provided by operating activities: Depreciation and amortization 4,247 4,512 4,441 Loss on assets held for sale 2,533 — — Store impairments — 1,358 — Goodwill impairment — 431 — Stock-based compensation 447 484 400 Gain on sale of subsidiaries (475) — (269) Loss on early extinguishment of debt — 452 1,440 Deferred income taxes (2,075) (428) (570) Other noncash items 332 (390) 72 Change in operating assets and liabilities, net of effects from acquisitions: Accounts receivable, net (2,971) (2,703) (1,510) Inventories (1,435) 735 (973) Other assets (566) (3) 364 Accounts payable and pharmacy claims and discounts payable 4,260 2,898 2,769 Health care costs payable and other insurance liabilities 1,247 169 (231) Other liabilit…"
+   },
+   {
+    "chunk_id": "ch_63c1b33f8ed47ab7",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 75,
+    "text": "Results of Operations The following information summarizes the Company's results of operations for 2022 compared to 2021. For discussion of the Company's results of operations for 2021 compared to 2020, see “Management's Discussion and Analysis of Financial Condition and Results of Operations” included in the Company's Annual Report on Form 10-K for the fiscal year ended December 31, 2021 filed with the U.S. Securities and Exchange Commission (the “SEC”) on February 9, 2022. Summary of Consolidated Financial Results Change Year Ended December 31, 2022 vs. 2021 2021 vs. 2020 In millions 2022 2021 2020 $ % $ % Revenues: Products $ 226,616 $ 203,738 $ 190,688 $ 22,878 11.2 % $ 13,050 6.8 % Premiums 85,330 76,132 69,364 9,198 12.1 % 6,768 9.8 % Services 9,683 11,042 7,856 (1,359) (12.3)% 3,186 40.6 % Net investment income 838 1,199 798 (361) (30.1)% 401 50.3 % Total revenues 322,467 292,111 268,706 30,356 10.4 % 23,405 8.7 % Operating costs: Cost of products sold 196,892 175,803 163,981 21…"
+   },
+   {
+    "chunk_id": "ch_9212d0248e101434",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 108,
+    "text": "Index to Consolidated Financial Statements Consolidated Statements of Operations For the Years Ended December 31, In millions, except per share amounts 2022 2021 2020 Revenues: Products $ 226,616 $ 203,738 $ 190,688 Premiums 85,330 76,132 69,364 Services 9,683 11,042 7,856 Net investment income 838 1,199 798 Total revenues 322,467 292,111 268,706 Operating costs: Cost of products sold 196,892 175,803 163,981 Benefit costs 71,281 64,260 55,679 Opioid litigation charges 5,803 — — Loss on assets held for sale 2,533 — — Store impairments — 1,358 — Goodwill impairment — 431 — Operating expenses 38,212 37,066 35,135 Total operating costs 314,721 278,918 254,795 Operating income 7,746 13,193 13,911 Interest expense 2,287 2,503 2,907 Loss on early extinguishment of debt — 452 1,440 Other income (169) (182) (206) Income before income tax provision 5,628 10,420 9,770 Income tax provision 1,463 2,522 2,569 Income from continuing operations 4,165 7,898 7,201 Loss from discontinued operations, net …"
+   },
+   {
+    "chunk_id": "ch_92060eb3363f0540",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 168,
+    "text": "20% of the $1.5 billion notional amount of the ASR, thereby concluding the ASR. These shares were placed into treasury stock and the forward contract was reclassified from capital surplus to treasury stock in February 2022. At the time they were received, the initial and final receipt of shares resulted in an immediate reduction of the outstanding shares used to calculate the weighted average common shares outstanding for basic and diluted earnings per share. Dividends The quarterly cash dividend declared by the Board was $0.55 and $0.50 per share in 2022 and 2021, respectively. In December 2022, the Board authorized a 10% increase in the quarterly cash dividend to $0.605 per share effective in 2023. CVS Health Corporation has paid cash dividends every quarter since becoming a public company. Future dividend payments will depend on the Company's earnings, capital requirements, financial condition and other factors considered relevant by the Board. Regulatory Requirements The Company's …"
+   },
+   {
+    "chunk_id": "ch_c6d41a82e4a8f68b",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 75,
+    "text": "(3,733) (47.3)% 697 9.7 % Loss from discontinued operations, net of tax — — (9) — — % 9 100.0 % Net income 4,165 7,898 7,192 (3,733) (47.3)% 706 9.8 % Net (income) loss attributable to noncontrolling interests (16) 12 (13) (28) (233.3)% 25 192.3 % Net income attributable to CVS Health $ 4,149 $ 7,910 $ 7,179 $ (3,761) (47.5)% $ 731 10.2 % Commentary - 2022 compared to 2021 Revenues • Total revenues increased $30.4 billion, or 10.4%, in 2022 compared to 2021. The increase in total revenues was primarily driven by growth across all segments. • Please see “Segment Analysis” later in this MD&A for additional information about the revenues of the Company's segments. Operating expenses • Operating expenses increased $1.1 billion, or 3.1%, in 2022 compared to 2021. The increase in operating expenses was primarily due to increased operating expenses to support growth in the business, incremental investments in business operations and decreased gains from legal settlements in 2022 compared to 2…"
+   },
+   {
+    "chunk_id": "ch_bb4ec090c7882ba0",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 163,
+    "text": "existing taxable temporary differences, projected future taxable income, tax planning strategies and the Company's recent operating results. The Company established valuation allowances of $532 million and $325 million as of December 31, 2022 and 2021, respectively, because it does not consider it more likely than not that certain deferred tax assets will be recovered. As of December 31, 2022, the Company had net operating and capital loss carryovers of $266 million, which expire between 2023 and 2042. A reconciliation of the beginning and ending balance of unrecognized tax benefits in 2022, 2021 and 2020 is as follows: In millions 2022 2021 2020 Beginning balance $ 782 $ 768 $ 655 Additions based on tax positions related to the current year 5 3 3 Additions based on tax positions related to prior years 42 52 182 Reductions for tax positions of prior years (166) (33) (56) Expiration of statutes of limitation (4) (1) (2) Settlements (213) (7) (14) Ending balance $ 446 $ 782 $ 768 CVS Hea…"
+   }
+  ]
+ }
+}

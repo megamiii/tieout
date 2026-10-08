@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer reaches the same correct conclusion as the gold answer and provides the standard calculation for working capital, which is acceptable even though the gold answer used a more granular operating-only approach.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0ToMlTzKU+47TUNSnWyf/YanDH8THNMVvSqglYefbot3cZw17DflAPkFAKBxgVS3KnXQdiXm8beNhDHjeqUcliuKShCBt+On3GftqM5tpr9F9qCgBq4opYFBWexqDW6/C8i7w2oRe2qNgE5glO"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791494689,
+  "id": "IQrIari6CZzyxN8P0a-HyAg",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 49,
+   "prompt_tokens": 324,
+   "total_tokens": 373
+  }
+ }
+}

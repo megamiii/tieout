@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the exact percentage change in operating income from fiscal year 2014 to fiscal year 2015 is not mentioned.\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TAbyhGuAI8d1uIESOaH19qe9/U0b79O3va30aTU8iqsHKp2m4lH0ZACHO77H9YiLQiEczOmk3pPZhrOw8eTAw82m6+QjImg62b1UN7zmPhLQMi7cpvaMyyLA="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492375,
+  "id": "DAHIaqnRAv6IxN8PjfXHyA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 67,
+   "prompt_tokens": 2119,
+   "total_tokens": 2186
+  }
+ }
+}

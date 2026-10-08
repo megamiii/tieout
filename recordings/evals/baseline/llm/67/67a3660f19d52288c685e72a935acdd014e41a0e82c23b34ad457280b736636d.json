@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Amcor primarily operates in the packaging industry, developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other consumer goods end markets.\",\n  \"confidence\": 0.95,\n  \"citations\": [{\"source_id\": \"ch_698fb03e2c68042e\", \"quote\": \"Today, Amcor is a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other consumer goods end markets.\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TeHGYNnuCsIXu3gEYOjeMWYz71+TN/c+MMkoxBEFrI2+MGQs3ZqTM1RU4u/S+Txh6PNI4iySoiPm5OWlBfTar3pUG+/YteBoKWS7QTZ5H/u46La/U4976QGo="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492705,
+  "id": "YQLIarL-DPvPvdIPsbfKkQs",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 135,
+   "prompt_tokens": 1965,
+   "total_tokens": 2100
+  }
+ }
+}

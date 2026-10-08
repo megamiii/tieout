@@ -1,0 +1,36 @@
+{
+ "item_id": "xbrl-AXP-2022-Assets-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "$228,354 million",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_6a05ea70d49e4006",
+   "quote": "Total assets $ 228,354 $ 188,548",
+   "kind": "chunk",
+   "ticker": "AXP",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 98,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 3488,
+ "completion_tokens": 92,
+ "latency_ms": 1103.2,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$228,354 matches 228354 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

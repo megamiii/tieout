@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "By what percentage did PepsiCo's net income change from fiscal year 2020 to fiscal year 2021? Give the percentage rounded to one decimal place.",
+  "ticker": "PEP",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_02035dd0d0b01462",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 62,
+    "text": "Table of Contents Consolidated Statement of Comprehensive Income PepsiCo, Inc. and Subsidiaries Fiscal years ended December 25, 2021, December 26, 2020 and December 28, 2019 (in millions) 2021 2020 2019 Net income $ 7,679 $ 7,175 $ 7,353 Other comprehensive income/(loss), net of taxes: Net currency translation adjustment (369) (650) 628 Net change on cash flow hedges 155 7 (90) Net pension and retiree medical adjustments 770 (532) 283 Other 22 (1) (2) 578 (1,176) 819 Comprehensive income 8,257 5,999 8,172 Less: Comprehensive income attributable to noncontrolling interests 61 55 39 Comprehensive Income Attributable to PepsiCo $ 8,196 $ 5,944 $ 8,133 See accompanying notes to the consolidated financial statements. 60"
+   },
+   {
+    "chunk_id": "ch_b7df7e4543cc7133",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 61,
+    "text": "Table of Contents Consolidated Statement of Income PepsiCo, Inc. and Subsidiaries Fiscal years ended December 25, 2021, December 26, 2020 and December 28, 2019 (in millions except per share amounts) 2021 2020 2019 Net Revenue $ 79,474 $ 70,372 $ 67,161 Cost of sales 37,075 31,797 30,132 Gross profit 42,399 38,575 37,029 Selling, general and administrative expenses 31,237 28,495 26,738 Operating Profit 11,162 10,080 10,291 Other pension and retiree medical benefits income/(expense) 522 117 (44) Net interest expense and other (1,863) (1,128) (935) Income before income taxes 9,821 9,069 9,312 Provision for income taxes 2,142 1,894 1,959 Net income 7,679 7,175 7,353 Less: Net income attributable to noncontrolling interests 61 55 39 Net Income Attributable to PepsiCo $ 7,618 $ 7,120 $ 7,314 Net Income Attributable to PepsiCo per Common Share Basic $ 5.51 $ 5.14 $ 5.23 Diluted $ 5.49 $ 5.12 $ 5.20 Weighted-average common shares outstanding Basic 1,382 1,385 1,399 Diluted 1,389 1,392 1,407 Se…"
+   },
+   {
+    "chunk_id": "ch_08cc13ea872a82a1",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 63,
+    "text": "Table of Contents Consolidated Statement of Cash Flows PepsiCo, Inc. and Subsidiaries Fiscal years ended December 25, 2021, December 26, 2020 and December 28, 2019 (in millions) 2021 2020 2019 Operating Activities Net income $ 7,679 $ 7,175 $ 7,353 Depreciation and amortization 2,710 2,548 2,432 Operating lease right-of-use asset amortization 505 478 412 Share-based compensation expense 301 264 237 Restructuring and impairment charges 247 289 370 Cash payments for restructuring charges (256) (255) (350) Acquisition and divestiture-related charges (4) 255 55 Cash payments for acquisition and divestiture-related charges (176) (131) (10) Pension and retiree medical plan expenses 123 408 519 Pension and retiree medical plan contributions (785) (562) (716) Deferred income taxes and other tax charges and credits 298 361 453 Tax expense/(benefit) related to the TCJ Act 190 — (8) Tax payments related to the TCJ Act (309) (78) (423) Change in assets and liabilities: Accounts and notes receivabl…"
+   },
+   {
+    "chunk_id": "ch_e3a8a83258e6d03c",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 80,
+    "text": "Table of Contents (g) Acquisitions in 2020 primarily reflects our acquisition of Pioneer Foods. See Note 13 for further information. (h) Acquisitions in 2020 primarily reflects our acquisition of Be & Cheery. See Note 13 for further information. Note 5 — Income Taxes The components of income before income taxes are as follows: 2021 2020 2019 United States $ 3,740 $ 4,070 $ 4,123 Foreign 6,081 4,999 5,189 $ 9,821 $ 9,069 $ 9,312 The provision for income taxes consisted of the following: 2021 2020 2019 Current: U.S. Federal $ 702 $ 715 $ 652 Foreign 955 932 807 State 44 110 196 1,701 1,757 1,655 Deferred: U.S. Federal 375 273 325 Foreign (14) (167) (31) State 80 31 10 441 137 304 $ 2,142 $ 1,894 $ 1,959 A reconciliation of the U.S. Federal statutory tax rate to our annual tax rate is as follows: 2021 2020 2019 U.S. Federal statutory tax rate 21.0 % 21.0 % 21.0 % State income tax, net of U.S. Federal tax benefit 1.0 1.2 1.6 Lower taxes on foreign results (1.6) (0.8) (0.9) One-time mandato…"
+   },
+   {
+    "chunk_id": "ch_d3f0aa338631cdbc",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 94,
+    "text": "3,019 3,017 Notes due 2024 (2.1% and 2.1%) 2,986 3,067 Notes due 2025 (2.7% and 2.7%) 3,230 3,227 Notes due 2026 (3.2% and 3.2%) 2,450 2,492 Notes due 2027-2060 (2.6% and 2.8%) 24,313 24,673 Other, due 2021-2027 (1.3% and 1.3%) 32 29 39,898 43,728 Less: current maturities of long-term debt obligations 3,872 3,358 Total $ 36,026 $ 40,370 (a) Amounts are shown net of unamortized net discounts of $233 million and $260 million for 2021 and 2020, respectively. (b) The interest rates presented reflect weighted-average effective interest rates at year-end. Certain of our fixed rate indebtedness have been swapped to floating rates through the use of interest rate derivative instruments. See Note 9 for further information regarding our interest rate derivative instruments. As of December 25, 2021 and December 26, 2020, our international debt of $38 million and $29 million, respectively, was related to borrowings from external parties, including various lines of credit. These lines (a) (a) (b) (…"
+   },
+   {
+    "chunk_id": "ch_15171cf852257f1d",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 102,
+    "text": "Net other comprehensive (loss)/income (322) 200 1,001 22 901 Tax amounts (47) (45) (231) — (323) Balance as of December 25, 2021 $ (12,309) $ 159 $ (2,750) $ 2 $ (14,898) (a) The change in 2021 primarily comprises fair value increases in available-for-sale securities. (b) Pension and retiree medical amounts are net of taxes of $1,466 million as of December 29, 2018, $1,370 million as of December 28, 2019, $1,514 million as of December 26, 2020 and $1,283 million as of December 25, 2021. (c) Currency translation adjustment primarily reflects the appreciation of the Russian ruble, Canadian dollar, Mexican peso and Pound sterling. (d) Currency translation adjustment primarily reflects the depreciation of the Russian ruble and Mexican peso. (e) Currency translation adjustment primarily reflects the depreciation of the Turkish lira, Swiss franc and Mexican peso. (a) (b) (c) (b) (d) (b) (e) (b) 100"
+   },
+   {
+    "chunk_id": "ch_0eec1785054c2ee0",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 75,
+    "text": "and (4) include the amount of tax based on income in the income tax provision and any incremental amount as a tax not based on income for hybrid tax regimes. We adopted the guidance in the first quarter of 2021. The adoption did not have a material impact on our consolidated financial statements or related disclosures. Note 3 — Restructuring and Impairment Charges 2019 Multi-Year Productivity Plan The 2019 Productivity Plan, publicly announced on February 15, 2019, will leverage new technology and business models to further simplify, harmonize and automate processes; re-engineer our go-to-market and information systems, including deploying the right automation for each market; and simplify our organization and optimize our manufacturing and supply chain footprint. To build on the successful implementation of the 2019 Productivity Plan to date, we expanded and extended the plan through the end of 2026 to take advantage of additional opportunities within the initiatives described above. …"
+   },
+   {
+    "chunk_id": "ch_3504dc3d6ef7d3dc",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 76,
+    "text": "Table of Contents A summary of our 2019 Productivity Plan charges is as follows: 2021 2020 2019 Cost of sales $ 29 $ 30 $ 115 Selling, general and administrative expenses 208 239 253 Other pension and retiree medical benefits expense 10 20 2 Total restructuring and impairment charges $ 247 $ 289 $ 370 After-tax amount $ 206 $ 231 $ 303 Impact on net income attributable to PepsiCo per common share $ (0.15) $ (0.17) $ (0.21) 2021 2020 2019 Plan to Date through 12/25/2021 FLNA $ 28 $ 83 $ 22 $ 164 QFNA — 5 2 12 PBNA 20 47 51 158 LatAm 37 31 62 139 Europe 81 48 99 234 AMESA 15 14 38 70 APAC 7 5 47 61 Corporate 49 36 47 139 237 269 368 977 Other pension and retiree medical benefits expense 10 20 2 67 Total $ 247 $ 289 $ 370 $ 1,044 Plan to Date through 12/25/2021 Severance and other employee costs $ 564 Asset impairments 157 Other costs 323 Total $ 1,044 Severance and other employee costs primarily include severance and other termination benefits, as well as voluntary separation arrangement…"
+   }
+  ]
+ }
+}

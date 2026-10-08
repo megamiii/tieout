@@ -1,0 +1,56 @@
+{
+ "item_id": "xbrl-BA-2018-OperatingIncomeLoss-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "$11,987 million",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_646d7ca0490ce73e",
+   "quote": "Earnings from operations 11,987 10,344 6,527",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2018,
+   "section": "Item 8",
+   "page": 50,
+   "supports": true
+  },
+  {
+   "source_id": "ch_5450c7b0b2e30ea4",
+   "quote": "Earnings from operations $11,987 $10,344 $6,527",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2018,
+   "section": "Item 7",
+   "page": 24,
+   "supports": true
+  },
+  {
+   "source_id": "ch_19117b0ec4a3c020",
+   "quote": "Earnings from operations 11,987 10,344 6,527",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2018,
+   "section": "Item 8",
+   "page": 56,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 3741,
+ "completion_tokens": 197,
+ "latency_ms": 1218.4,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$11,987 matches 11987 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Does Adobe have an improving operating margin profile as of FY2022? If operating margin is not a useful metric for a company like this, then state that and explain why.",
+  "ticker": "ADBE",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_296766943960adb4",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 39,
+    "text": "customer journeys across B2E use cases, including through Marketo Engage, Adobe Campaign, Adobe Target and Journey Optimizer. • Marketing workflow. We offer Adobe Workfront, a work management platform directed toward marketers to orchestrate campaign workflows. In addition to chief marketing officers, chief revenue officers and digital marketers, users of our Digital Experience solutions include advertisers, campaign managers, publishers, data analysts, content managers, social marketers, marketing executives and information management and technology executives. These customers often are involved in workflows that utilize other Adobe products, such as our Digital Media offerings. By combining the creativity of our Digital Media business with the science of our Digital Experience business, we help our customers to more efficiently and effectively make, manage, measure and monetize their content across every channel with an end-to-end workflow and feedback loop. We utilize a direct sales…"
+   },
+   {
+    "chunk_id": "ch_e8fde7920cce50da",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 4,
+    "text": "feedback loop. We believe we are uniquely positioned to be a leader in both of these areas, where our mission to change the world through digital experiences has never been more relevant, as people seek new ways to create, collaborate and communicate and businesses continue to invest in digital transformation. In addition, our ability to deliver innovation and productivity improvements across customer workflows involving the creation, management, delivery, measurement and optimization of engaging content favorably positions Adobe as our customers continue to invest in delivering digital experiences. SEGMENTS Our business is organized into three reportable segments: • Digital Media; • Digital Experience; and • Publishing and Advertising. These segments provide Adobe's senior management with a comprehensive financial view of our key businesses. Our segments are aligned around our two strategic growth opportunities further described below, and our legacy products and solutions are contain…"
+   },
+   {
+    "chunk_id": "ch_ac836415d4ac9fda",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 14,
+    "text": "insights to personalize that journey, as well as visually map individual journeys across systems in an intuitive, workflow-based interface. Adobe Journey Optimizer also allows businesses to track detailed performance of executed journeys and how individuals are progressing in real time, with data automatically sent to Adobe Experience Platform to allow full-funnel analysis. Marketing Workflow Adobe Workfront Adobe Workfront provides a unified work management application to enable teams to work more efficiently, with tools to strategize, plan, execute, review and deliver on complex workflows. An Adobe Photoshop plugin and integrations with Adobe Experience Manager Assets and Adobe Marketo Engage create a content supply chain for enterprises and enhance our experience delivery to B2B brands. Other Products and Services We also offer a broad range of other enterprise and digital media products and services. Information about other products not referenced here can be found on our corporate…"
+   },
+   {
+    "chunk_id": "ch_5c01ab13303bb9fb",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 17,
+    "text": "• Ecosystem: We strive to bring progress on diversity to our brand, products, partnerships, community engagement and the vendors we use. We collaborate with industry peers to advance diversity across multiple dimensions, including through our participation in the CEO Action on Diversity & Inclusion, The Valuable 500, the Ascend 5-Point Action Agenda and ParityPledge. In fiscal 2022, we launched the Adobe Equity and Advancement Initiative, a multi-faceted grantmaking program to support non-profit organizations, and we continued to invest in our Supplier Diversity program to purchase goods and services from businesses that are certified as majority-owned and operated by underrepresented groups. We invest in analysis and transparency to demonstrate our commitment to fair compensation. We define pay parity as ensuring that employees in the same job and location are paid fairly regardless of their gender or ethnicity. In fiscal 2022, we again achieved global gender pay parity and U.S. URM a…"
+   },
+   {
+    "chunk_id": "ch_ee934cda3730c264",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 54,
+    "text": "ADOBE INC. CONSOLIDATED STATEMENTS OF INCOME (In millions, except per share data) Years Ended December 2, 2022 December 3, 2021 November 27, 2020 Revenue: Subscription $ 16,388 $ 14,573 $ 11,626 Product 532 555 507 Services and other 686 657 735 Total revenue 17,606 15,785 12,868 Cost of revenue: Subscription 1,646 1,374 1,108 Product 35 41 36 Services and other 484 450 578 Total cost of revenue 2,165 1,865 1,722 Gross profit 15,441 13,920 11,146 Operating expenses: Research and development 2,987 2,540 2,188 Sales and marketing 4,968 4,321 3,591 General and administrative 1,219 1,085 968 Amortization of intangibles 169 172 162 Total operating expenses 9,343 8,118 6,909 Operating income 6,098 5,802 4,237 Non-operating income (expense): Interest expense (112) (113) (116) Investment gains (losses), net (19) 16 13 Other income (expense), net 41 — 42 Total non-operating income (expense), net (90) (97) (61) Income before income taxes 6,008 5,705 4,176 Provision for (benefit from) income taxe…"
+   },
+   {
+    "chunk_id": "ch_149e92b4b255b051",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 41,
+    "text": "In fiscal 2022, we categorized our products into the following reportable segments: • Digital Media—Our Digital Media segment provides products, services and solutions that enable individuals, teams and enterprises to create, publish and promote their content anywhere and accelerate their productivity by modernizing how they view, share, engage with and collaborate on documents and creative content. Our customers include creative professionals, including photographers, video editors, graphic and experience designers and game developers, communicators, including content creators, students, marketers and knowledge workers, and consumers. • Digital Experience—Our Digital Experience segment provides an integrated platform and set of applications and services that enable brands and businesses to create, manage, execute, measure, monetize and optimize customer experiences that span from analytics to commerce. Our customers include marketers, advertisers, agencies, publishers, merchandisers, …"
+   },
+   {
+    "chunk_id": "ch_dbfb4cebe298166c",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 39,
+    "text": "Our success in driving growth in ARR has positively affected our revenue growth. Creative revenue in fiscal 2022 was $10.46 billion, up from $9.55 billion in fiscal 2021 and representing 10% year-over-year growth. Document Cloud revenue in fiscal 2022 was $2.38 billion, up from $1.97 billion in fiscal 2021 and representing 21% year-over-year growth. Total Digital Media segment revenue grew to $12.84 billion in fiscal 2022, up from $11.52 billion in fiscal 2021 and representing 11% year- over-year growth driven by strong net new user growth. Digital Experience We are a market leader in the fast-growing category addressed by our Digital Experience segment. The Adobe Experience Cloud applications, services and platform are designed to manage customer journeys, enable personalized experiences at scale and deliver intelligence for businesses of any size in any industry. Our differentiation and competitive advantage are strengthened by our ability to use the Adobe Experience Platform to inte…"
+   },
+   {
+    "chunk_id": "ch_e9c333f50ad6b108",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 58,
+    "text": "NOTE 1. BASIS OF PRESENTATION AND SIGNIFICANT ACCOUNTING POLICIES Operations Founded in 1982, Adobe is one of the largest and most diversified software companies in the world. We offer a line of products and services used by creative professionals, including photographers, video editors, graphic and experience designers and game developers; communicators, including content creators, students, marketers and knowledge workers; businesses of all sizes; and consumers for creating, managing, delivering, measuring, optimizing, engaging and transacting with compelling content and experiences across personal computers, smartphones, other electronic devices and digital media formats. We market our products and services directly to enterprise customers through our sales force and local field offices. We license our products to end users through app stores and our own website at www.adobe.com. We offer many of our products via a Software-as-a-Service (“SaaS”) model or a managed services model (bo…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tt/IuOGbKEsxRlT66M4yWJGK7QkG22ArcRq6AFdqm465gCMNSG1yLn8cfgpTo+WKydBKImjIpSCdWnUJw3/NDfH5mGYt+G0P6Ux7IlycYn4onvk5REk42upQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"As of FY2022, Adobe does not explicitly report a standard \\\"Free Cash Flow Conversion\\\" metric in its 10-K filing, but when calculating Free Cash Flow as Net Cash Provided by Operating Activities minus Purchases of Property, Plant, and Equipment (CapEx):\\n- **FY2020:** Operating Cash Flow of $5,727 million minus CapEx of $419 million = **$5,308 million**\\n- **FY2021:** Operating Cash Flow of $7,230 million minus CapEx of $348 million = **$6,882 million**\\n- **FY2022:** Operating Cash Flow of $7,838 million minus CapEx of $442 million = **$7,396 million**\\n\\nComparing Free Cash Flow to Net Income ($5,260 million in FY2020, $4,822 million in FY2021, and $4,756 million in FY2022), the FCF-to-Net Income conversion ratio has improved across these years (approx. 101% in FY2020, 143% in FY2021, and 156% in FY2022), driven by increasing operating cash flows alongside decreasing net income.\",\"citations\":[{\"quote\":\"7,838\",\"source_id\":\"xf_1f4633b3b5215e4e\"},{\"quote\":\"7,230\",\"source_id\":\"xf_09e3f56f9ea98999\"},{\"quote\":\"5,727\",\"source_id\":\"xf_ba8be4a22fb68bbf\"},{\"source_id\":\"xf_614ea9aafa8b6865\",\"quote\":\"442000000\"},{\"quote\":\"348000000\",\"source_id\":\"xf_2f4be6f22f55f295\"},{\"quote\":\"419000000\",\"source_id\":\"xf_4ec4b6cdc82fbe67\"},{\"quote\":\"4,756\",\"source_id\":\"xf_5beb4a691185e347\"},{\"quote\":\"4,822\",\"source_id\":\"xf_1670be96d48fac59\"},{\"quote\":\"5,260\",\"source_id\":\"xf_e4d2040b48e1286e\"}],\"needs_review\":false,\"confidence\":0.95,\"rationale\":\"The answer clearly explains that Adobe does not define an official Free Cash Flow conversion metric, but computes Free Cash Flow and its conversion from Net Income for FY2020, FY2021, and FY2022 based on reported operating cash flow, CapEx, and net income figures.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_961279",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494973,
+  "id": "OAvIaqCENdXS28oPxYWq0As",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 701,
+   "prompt_tokens": 8250,
+   "total_tokens": 8951
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "operating margin",
+  "ticker": "ADBE",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a5b2b06f6366293f",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 64,
+    "text": "provide SaaS services to a customer where we have a reason to believe the customer's ability and intention to pay is not probable, the arrangement is not considered to be a revenue contract. Accordingly, we will not recognize any consideration received as revenue until termination or substantive completion of the services. Adopted Accounting Guidance and Accounting Pronouncements Not Yet Effective There have been no recent accounting pronouncements, changes in accounting pronouncements or recently adopted accounting guidance during fiscal 2022 that are of significance or potential significance to us. NOTE 2. REVENUE Segment Information We report segment information based on the “management” approach. The management approach designates the internal reporting used by management for making decisions and assessing performance as the source of our reportable segments. Our Chief Executive Officer, the chief operating decision maker, reviews revenue and gross margin information for each of ou…"
+   },
+   {
+    "chunk_id": "ch_4d35a1de81dff1ab",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 24,
+    "text": "enhance our protective measures to address new threats, may increase the risk of a system or process failure or the creation of a gap in the associated security measures. Any such failure or gap could materially and adversely affect our business, results of operations and financial results. We devote significant resources to address security vulnerabilities through engineering more secure products, enhancing security and reliability features in our products and systems, code hardening, conducting rigorous penetration tests, deploying updates to address security vulnerabilities, regularly reviewing our service providers' security controls, reviewing and auditing our hosted services against independent security control frameworks (such as ISO 27001, SOC 2 and PCI), providing resources, such as mandatory security training, for our workforce and improving our incident response time, but security vulnerabilities cannot be totally eliminated. The cost of undertaking these efforts could reduc…"
+   },
+   {
+    "chunk_id": "ch_c337fea329093bc8",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 33,
+    "text": "any of the countries in which we do business could also cause slower or impaired collections on accounts receivable, which may adversely impact our liquidity and financial condition. A disruption in financial markets could impair our banking partners, on which we rely for operating cash management and derivative programs. Any of these events would likely harm our business, financial condition and results of operations. Revenue, margin or earnings shortfalls or the volatility of the market generally may cause the market price of our stock to decline. In the past, the market price for our common stock experienced significant fluctuations and it may do so in the future. A number of factors may affect the market price for our common stock, such as: • shortfalls in, or changes in expectations about, our revenue, margins, earnings, Annualized Recurring Revenue (“ARR”), sales of our Digital Experience offerings or other key performance metrics; • changes in estimates or recommendations by sec…"
+   },
+   {
+    "chunk_id": "ch_23de7a09fdeca219",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 87,
+    "text": "1.00%. The margin for term SOFR, adjusted daily SOFR, and alternative currency rate loans is based on our debt ratings, and ranges from 0.460% to 0.900%. In addition, facility fees determined according to our debt ratings are payable on the aggregate commitments, regardless of usage, quarterly in an amount ranging from 0.04% to 0.10% per annum. We are permitted to permanently reduce the aggregate commitment under the Revolving Credit Agreement at any time. Subject to certain conditions stated in the Revolving Credit Agreement, Adobe and any of its subsidiaries designated as additional borrowers may borrow, prepay and re-borrow amounts at any time during the term of the Revolving Credit Agreement. The Revolving Credit Agreement contains customary representations, warranties, affirmative and negative covenants, including events of default and indemnification provisions in favor of the lenders. The negative covenants include restrictions regarding the incurrence of liens and indebtedness,…"
+   },
+   {
+    "chunk_id": "ch_cf5c8c8074fffffa",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 37,
+    "text": "• historical and expected customer attrition rates and anticipated growth in revenue from acquired customers; • the acquired company's trade name and trademarks as well as assumptions about the period of time the acquired trade name and trademarks will continue to be used in the combined company's product portfolio; • the expected use of the acquired assets; and • discount rates. In connection with the purchase price allocations for our acquisitions, we estimate the fair value of the deferred revenue obligations assumed. The estimated fair value of these obligations is determined utilizing a cost build-up approach. The cost build-up approach determines fair value by estimating the costs related to fulfilling the obligations plus a normal profit margin. Unanticipated events and circumstances may occur which may affect the accuracy or validity of such assumptions, estimates or actual results. Accounting for Income Taxes We use the asset and liability method of accounting for income taxes…"
+   }
+  ]
+ }
+}

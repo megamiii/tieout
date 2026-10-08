@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"$228,354 million\",\n  \"confidence\": 1.0,\n  \"citations\": [{\"source_id\": \"ch_6a05ea70d49e4006\", \"quote\": \"Total assets $ 228,354 $ 188,548\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TrFPcpeQhvKDFj/Jh3hq8/lqeHQfyIBpt4uAYN18XLui5gxlzm7OTOcGlF9s4LUN3eGnvaBcd7+gIuNmaW54L0bMEAp39ed0pT4j8tA/CyNxERQjDIL0GBfY="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493364,
+  "id": "9ATIap3FEuuhnsEPxrLQ6Qc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 92,
+   "prompt_tokens": 3488,
+   "total_tokens": 3580
+  }
+ }
+}

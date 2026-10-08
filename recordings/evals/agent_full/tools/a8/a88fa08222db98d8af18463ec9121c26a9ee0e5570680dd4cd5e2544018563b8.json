@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "manufacturing and sourcing capability",
+  "ticker": "MMM",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_43b034ee28278bf3",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Table of Contents Geographic Area Supplemental Information Employees as of December 31, Capital Spending Property, Plant and Equipment - net as of December 31, (Millions, except Employees) 2022 2021 2022 2021 2022 2021 Americas 54,000 56,000 $ 1,321 $ 1,046 $ 6,066 $ 5,864 Asia Pacific 18,000 18,000 182 216 1,389 1,582 Europe, Middle East and Africa 20,000 21,000 246 341 1,723 1,983 Total Company 92,000 95,000 $ 1,749 $ 1,603 $ 9,178 $ 9,429 Employment: Employment decreased in 2022 when compared to 2021. The above table includes the impact of acquisitions, net of divestitures and other actions. Capital Spending/Net Property, Plant and Equipment: Investments in property, plant and equipment enable growth across many diverse markets, helping to meet product demand and increasing manufacturing efficiency. 3M is increasing its investment in manufacturing and sourcing capability in order to more closely align its product capability with its sales in major geographic areas in order to best s…"
+   },
+   {
+    "chunk_id": "ch_daf58f5fca5f9643",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 12,
+    "text": "including in the form of restrictions on discharges at our manufacturing facilities, requiring the installation of control technologies, suspension or shutdown of facility operations, switching costs in seeking alternative sources of supply, potential customer damage claims due to supply disruptions or otherwise, and reporting requirements or bans on PFAS and PFAS-containing products manufactured by the Company. * The Company is subject to risks related to international, federal, state, and local treaties, laws, and regulations, as well as compliance risks related to legal or regulatory requirements, contract requirements, policies and practices, or other matters that require or encourage the Company or its suppliers, vendors, or channel partners to conduct business in a certain way. The outcome of legal and regulatory proceedings related to compliance with these treaties, laws, regulations, and requirements could have a material adverse effect on the Company's ability to execute its s…"
+   },
+   {
+    "chunk_id": "ch_5aad2651a580a335",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 36,
+    "text": "Tapes, Medical Solutions, Oral Care, Personal Safety, Separation and Purification Sciences, and Transportation Safety. 3M is a highly integrated enterprise, where businesses share technology and leverage common fundamental strengths and capabilities, thus many of 3M's businesses could not easily be sold on a stand-alone basis. 3M's focus on research and development has resulted in a portion of 3M's value being comprised of internally developed businesses. Following the annual impairment test, as a result of 3M's December 2022 announced commitment to a plan to exit per- and polyfluoroalkyl substance (PFAS) manufacturing as described in Notes 4 and 15, 3M tested the Advanced Materials and Electronics Materials Solutions reporting units (within the Transportation and Electronics business) for impairment resulting in a goodwill impairment charge related to the Advanced Materials reporting unit. 3M will continue to monitor its reporting units and asset groups in 2023 for any triggering even…"
+   },
+   {
+    "chunk_id": "ch_e5d8ac71778fb146",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 6,
+    "text": "purchase plan; and other resources. Some of these benefits can also be available to regular part-time employees who work at least 20 hours a week. Programs and benefits differ internationally for a variety of reasons, such as local legal requirements, market practices, and negotiations with works councils, trade unions, and other employee representative bodies. Raw Materials In 2022, many geopolitical, logistics, and disruptive events caused imbalance in the global supply chain, similar to the past few years. The Company experienced raw material price inflation and constrained supply throughout the global marketplace and continued to deploy productivity projects to minimize the impact. To help manage disruption in its manufacturing operations, 3M deployed careful management of existing raw material inventories, strategic relationships with key suppliers, and qualification of additional supply sources. 3M manages spend category price risks through negotiated supply contracts and price p…"
+   },
+   {
+    "chunk_id": "ch_10b8adcd5d8b90d8",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 20,
+    "text": "Table of Contents 3M Belgium has experienced interruptions to portions of the manufacturing at its site in Zwijndrecht, Belgium, as more fully discussed in Note 16. As discussed in Note 16, 3M Belgium received agreement with authorities in June 2022 to begin the process toward restarting operations at the Zwijndrecht facility. 3M Belgium has provided information required by the Flemish environmental authorities to receive agreement from the authorities to restart operations, and has done so for production or sampling purposes. Belgian government authorities continue to maintain oversight of these operations and compliance with applicable requirements. In December 2022, 3M Belgium received an official infraction report from the Flemish Environmental Inspectorate and continues to work with the government authorities to comply with applicable legal requirements. See further discussion in Note 16. 3M is also impacted by the Russia-Ukraine conflict. In light of a number of factors, 3M suspe…"
+   }
+  ]
+ }
+}

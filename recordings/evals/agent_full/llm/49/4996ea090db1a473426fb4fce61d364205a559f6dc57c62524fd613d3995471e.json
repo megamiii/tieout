@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TbN1HUjS+sdEMgcNWCmbVy0T3kOCNr2ZMFbSH8OQ40VgjXxxcHNq42tW/LMPWyeiuUMh3WSpniBoKnFuxVkHMYQkpEcKdzh6vOY8W8ORa7vJ6t+CVCVOGWF8="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"long-term debt\",\"fiscal_years\":[2021,2022],\"ticker\":\"VZ\"}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_853994",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494885,
+  "id": "1wrIau-PBcnknsEP76OF-A4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 2122,
+   "total_tokens": 2163
+  }
+ }
+}

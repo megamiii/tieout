@@ -1,0 +1,98 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "BBY",
+  "query": "gross profit margin",
+  "concept": null,
+  "fiscal_years": null
+ },
+ "output": {
+  "ticker": "BBY",
+  "concepts": [
+   {
+    "concept": "GrossProfit",
+    "label": "Gross Profit",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2026,
+      "period": "2025-02-02..2026-01-31",
+      "value": "9373000000",
+      "fact_id": "xf_cafc02e084b5986d",
+      "reported_in_10k_filed": "2026-03-18"
+     },
+     {
+      "fiscal_year": 2025,
+      "period": "2024-02-04..2025-02-01",
+      "value": "9385000000",
+      "fact_id": "xf_cc28762193908cd3",
+      "reported_in_10k_filed": "2025-03-19"
+     },
+     {
+      "fiscal_year": 2024,
+      "period": "2023-01-29..2024-02-03",
+      "value": "9603000000",
+      "fact_id": "xf_87d4a976fe8f223b",
+      "reported_in_10k_filed": "2024-03-15"
+     }
+    ]
+   },
+   {
+    "concept": "GoodwillGross",
+    "label": "Goodwill, Gross",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2026,
+      "period": "as of 2026-01-31",
+      "value": "2058000000",
+      "fact_id": "xf_cf3dfa952ddf4c48",
+      "reported_in_10k_filed": "2026-03-18"
+     },
+     {
+      "fiscal_year": 2025,
+      "period": "as of 2025-02-01",
+      "value": "2058000000",
+      "fact_id": "xf_6416ba3bf31d1b7f",
+      "reported_in_10k_filed": "2025-03-19"
+     },
+     {
+      "fiscal_year": 2024,
+      "period": "as of 2024-02-03",
+      "value": "2058000000",
+      "fact_id": "xf_162b1cad9d1dd539",
+      "reported_in_10k_filed": "2024-03-15"
+     }
+    ]
+   },
+   {
+    "concept": "CapitalLeasedAssetsGross",
+    "label": "Capital Leased Assets, Gross",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "as of 2019-02-02",
+      "value": "579000000",
+      "fact_id": "xf_e36646ee7e905786",
+      "reported_in_10k_filed": "2019-03-28"
+     },
+     {
+      "fiscal_year": 2018,
+      "period": "as of 2018-02-03",
+      "value": "340000000",
+      "fact_id": "xf_9045e563c9dda9c4",
+      "reported_in_10k_filed": "2018-04-02"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "as of 2017-01-28",
+      "value": "300000000",
+      "fact_id": "xf_b3726e5da257b013",
+      "reported_in_10k_filed": "2017-03-24"
+     }
+    ]
+   }
+  ]
+ }
+}

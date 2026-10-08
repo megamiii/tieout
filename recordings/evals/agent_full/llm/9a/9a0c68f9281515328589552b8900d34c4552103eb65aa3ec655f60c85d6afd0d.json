@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T6JPUeI8RJk4GYXUEhZVjg/Mkbo4SX54H7gyEV4pe/lZpAU94kQ6PJ2H0Htgy6uY9Pudcxifn7IV/a9xdaCngA7p8OfjWYbB3rJ1HbH01DG2M2UKMfVKcyLM="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"ticker\":\"BA\",\"query\":\"Commercial Airplanes Defense Space Security Global Services revenue 2022\"}",
+        "name": "search_filings"
+       },
+       "id": "call_1213556",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494817,
+  "id": "mwrIauzpCrbhvdIP5pPo-QI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 3867,
+   "total_tokens": 3912
+  }
+ }
+}

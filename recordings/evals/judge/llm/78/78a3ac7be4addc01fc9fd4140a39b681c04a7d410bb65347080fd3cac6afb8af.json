@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies that multiple categories exceed the 20% threshold and provides accurate figures that align with the gold answer's data.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0Tk4PqLRgaElDnf9YoJ7l0f+RHn4d0L9DkAt4tn2cOpYWocG82d12IsToc/rOwXOX1a8yGvPhRoHCxOdzOMx92VlRykGMqDtPDVLoD8umTYbGsSwYPd0DIYlfDZSEDF9HkZF69pzri9IlpyExR"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492998,
+  "id": "eQPIas7eMfiovdIPiqPDmAU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 440,
+   "total_tokens": 480
+  }
+ }
+}

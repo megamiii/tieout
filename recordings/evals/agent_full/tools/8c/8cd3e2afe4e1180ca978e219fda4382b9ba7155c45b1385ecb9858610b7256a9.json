@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "quick ratio or acid-test ratio",
+  "ticker": "AMCR",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_68374a3091c2e5d0",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 44,
+    "text": "the carrying value of a reporting unit exceeds its fair value, we recognize an impairment loss equal to the difference between the carrying value and estimated fair value of the reporting unit, adjusted for any tax benefits, limited to the amount of the carrying value of goodwill. Our estimates associated with the goodwill impairment tests are considered critical due to the amount of goodwill recorded on our consolidated balance sheets and the judgment required in determining fair value amounts, including projected future cash flows. Judgment is also used in assessing whether goodwill should be tested more frequently for impairment than annually. Factors such as a significant decrease in expected net earnings, adverse equity market conditions, and other external events, such as significant inflation and rising interest rates, may result in the need for more frequent assessments. Intangible assets consist primarily of purchased customer relationships, technology, trademarks, and softwar…"
+   },
+   {
+    "chunk_id": "ch_38353e1087f37c63",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 44,
+    "text": "Discount Rate Total Increase/(Decrease) to Pension Expense from Current Assumption Rate of Return on Plan Assets Total Increase/ (Decrease) to Pension Expense from Current Assumption (in $ millions) (in $ millions) +25 basis points 1 +25 basis points (3) 4.26 percent (current assumption) — 5.47 percent (current assumption) — -25 basis points (1) -25 basis points 3 Goodwill and Other Intangible Assets Goodwill represents the excess of the aggregate purchase price over the fair value of net assets acquired, including intangible assets. Goodwill is not amortized but is instead tested for impairment annually in the fourth quarter of each fiscal year, or when events and circumstances indicate an impairment may have occurred. Our reporting units each contain goodwill that is assessed for potential impairment. All goodwill is assigned to a reporting unit, which we have defined as an operating segment, based on the relative fair value of the reporting unit at the time of each acquisition. We h…"
+   },
+   {
+    "chunk_id": "ch_be6565d7e8d0f3f0",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 59,
+    "text": "markets in which it operates. All goodwill is assigned to a reporting unit, which is defined as the operating segment. The Company has six reporting units with goodwill that are assessed for potential impairment. When performing the required impairment tests, the Company has the option to first assess qualitative factors to determine if a quantitative assessment for goodwill impairment is necessary. If the qualitative assessment concludes that it is more likely than not that the fair value of a reporting unit is less than its carrying value, the Company performs a quantitative assessment. The Company's quantitative assessment utilizes a discounted cash flow model to determine the fair value of the reporting units. Deriving fair value using discounted cash flows requires judgment and is sensitive to changes in underlying assumptions and market factors. Key assumptions include revenue growth, projected operating income growth, market 59"
+   },
+   {
+    "chunk_id": "ch_4ca0c63a73ba29ad",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 60,
+    "text": "multiples, terminal values, and discount rates. Sensitivity analyses are performed around certain of these assumptions to assess the reasonableness of the assumptions and the resulting estimated fair values. If current expectations of future growth rates and margins are not met, or if market factors beyond the Company's control, such as factors impacting the applicable discount rate or economic or political conditions in key markets change significantly, then goodwill allocated to one or more reporting units may be impaired. In fiscal year 2023, the Company performed quantitative impairment tests for all of its reporting units and the Company concluded that goodwill was not impaired as the fair values of the reporting units substantially exceeded their carrying values. Other Intangible Assets, Net: Contractual or separable intangible assets that have finite useful lives are amortized against income using the straight-line method over their estimated useful lives, which range from 1 to …"
+   },
+   {
+    "chunk_id": "ch_0ab373609930324f",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 49,
+    "text": "models to determine the fair value of the reporting unit. As disclosed by management, if the carrying value of a reporting unit exceeds its fair value, management would recognize an impairment loss equal to the difference between the carrying value and estimated fair value of the reporting unit, adjusted for any tax benefits, limited to the amount of the carrying value of goodwill. Management's projected future cash flows for the Flexibles Latin America reporting unit included key assumptions relating to revenue growth, projected operating income growth, market multiples, terminal values, and the discount rate. The principal considerations for our determination that performing procedures relating to the goodwill impairment assessment of the Flexibles Latin America reporting unit within the Flexibles Segment is a critical audit matter are (i) the significant judgment by management when developing the fair value of the reporting unit; (ii) a high degree of auditor judgment, subjectivity,…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Is CVS Health a capital-intensive business based on FY2022 data?",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_ac73c2206aba9d51",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 89,
+    "text": "Liquidity and Capital Resources Cash Flows The Company maintains a level of liquidity sufficient to allow it to meet its cash needs in the short-term. Over the long term, the Company manages its cash and capital structure to maximize shareholder return, maintain its financial condition and maintain flexibility for future strategic initiatives. The Company continuously assesses its regulatory capital requirements, working capital needs, debt and leverage levels, debt maturity schedule, capital expenditure requirements, dividend payouts, potential share repurchases and future investments or acquisitions. The Company believes its operating cash flows, commercial paper program, credit facilities, as well as any potential future borrowings, will be sufficient to fund these future payments and long-term initiatives. As of December 31, 2022, the Company had approximately $12.9 billion in cash and cash equivalents, approximately $5.4 billion of which was held by the parent company or nonrestri…"
+   },
+   {
+    "chunk_id": "ch_4760e4f5e8db9997",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 111,
+    "text": "Index to Consolidated Financial Statements Consolidated Statements of Cash Flows For the Years Ended December 31, In millions 2022 2021 2020 Cash flows from operating activities: Cash receipts from customers $ 313,662 $ 284,219 $ 264,327 Cash paid for inventory and prescriptions dispensed by retail network pharmacies (189,766) (165,783) (158,636) Insurance benefits paid (69,728) (63,598) (55,124) Cash paid to other suppliers and employees (32,662) (31,652) (29,763) Interest and investment income received 1,026 743 894 Interest paid (2,239) (2,469) (2,904) Income taxes paid (4,116) (3,195) (2,929) Net cash provided by operating activities 16,177 18,265 15,865 Cash flows from investing activities: Proceeds from sales and maturities of investments 6,729 7,246 6,467 Purchases of investments (7,746) (9,963) (9,639) Purchases of property and equipment (2,727) (2,520) (2,437) Proceeds from sale-leaseback transactions — — 101 Acquisitions (net of cash acquired) (139) (146) (866) Proceeds from …"
+   },
+   {
+    "chunk_id": "ch_f79b86a98f189700",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 132,
+    "text": "these VIEs as long-term investments on the consolidated balance sheets and recognizes its share of each VIE's income or losses in net income. The Company's maximum exposure to loss from these VIEs is limited to its investment balances as disclosed below and the risk of recapture of previously recognized tax credits related to the real estate partnerships, which the Company does not consider significant. Other variable interest holder VIE assets included in long-term investments on the consolidated balance sheets at December 31, 2022 and 2021 were as follows: In millions 2022 2021 Hedge fund investments $ 589 $ 463 Private equity investments 707 601 Real estate partnerships 241 225 Total $ 1,537 $ 1,289 Related Party Transactions The Company has an equity method investment in SureScripts, LLC (“SureScripts”), which operates a clinical health information network. The Company utilizes this clinical health information network in providing services to its client plan members and retail cust…"
+   },
+   {
+    "chunk_id": "ch_1a3d93cf5a1239bc",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 89,
+    "text": "(47.6)% Net increase in cash, cash equivalents and restricted cash $ 614 $ 1,648 $ 2,635 $ (1,034) (62.7)% $ (987) (37.5)% Commentary - 2022 compared to 2021 • Net cash provided by operating activities decreased by $2.1 billion in 2022 compared to 2021 primarily due to the timing of payments and higher inventory purchases. • Net cash used in investing activities decreased by $214 million in 2022 compared to 2021 primarily due to lower net purchases of investments and the gross proceeds from the divestitures of PayFlex and bswift, largely offset by a reduction in restricted cash as a result of the sale of health savings account funds held on behalf of customers in conjunction with the sale of PayFlex. In addition, cash used in investing activities reflected the following activity: • Gross capital expenditures remained relatively consistent at approximately $2.7 billion and $2.5 billion in 2022 and 2021, respectively. During 2022, approximately 73% of the Company's total capital expendit…"
+   },
+   {
+    "chunk_id": "ch_2e9e681f6634d340",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "front",
+    "page": 1,
+    "text": "Indicate by check mark whether the registrant has filed a report on and attestation to its management's assessment of the effectiveness of its internal control over financial reporting under Section 404(b) of the Sarbanes-Oxley Act (15 U.S.C 7262(b)) by the registered public accounting firm that prepared or issued its audit report. ☒ If securities are registered pursuant to Section 12(b) of the Act, indicate by check mark whether the financial statements of the registrant included in the filing reflect the correction of an error to previously issued financial statements ☐ Yes ☒ No Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant's executive officers during the relevant recovery period pursuant to § 240.10D-1(b). ☐ Yes ☒ No Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Act). ☐ Yes ☒ No The aggregate market v…"
+   },
+   {
+    "chunk_id": "ch_f8a564f1d3487be1",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 110,
+    "text": "Index to Consolidated Financial Statements Consolidated Balance Sheets At December 31, In millions, except per share amounts 2022 2021 Assets: Cash and cash equivalents $ 12,945 $ 9,408 Investments 2,778 3,117 Accounts receivable, net 27,276 24,431 Inventories 19,090 17,760 Assets held for sale 908 — Other current assets 2,685 5,292 Total current assets 65,682 60,008 Long-term investments 21,096 23,025 Property and equipment, net 12,873 12,896 Operating lease right-of-use assets 17,872 19,122 Goodwill 78,150 79,121 Intangible assets, net 24,754 29,026 Separate accounts assets 3,228 5,087 Other assets 4,620 4,714 Total assets $ 228,275 $ 232,999 Liabilities: Accounts payable $ 14,838 $ 12,544 Pharmacy claims and discounts payable 19,423 17,330 Health care costs payable 10,406 8,808 Policyholders' funds 1,500 4,301 Accrued expenses 18,745 17,670 Other insurance liabilities 1,140 1,303 Current portion of operating lease liabilities 1,678 1,646 Current portion of long-term debt 1,778 4,205…"
+   },
+   {
+    "chunk_id": "ch_3cfee3c989a79d79",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 100,
+    "text": "profitability and cash flows. When preparing these estimates, the Company considers historical results and current operating trends and consolidated sales, profitability and cash flow results and forecasts. These estimates can be affected by a number of factors including general economic and regulatory conditions, efforts of third party organizations to reduce their prescription drug costs and/or increased member co-payments, the continued efforts of competitors to gain market share and consumer spending patterns. During the fourth quarter of 2022, the Company undertook an initiative to evaluate its corporate office real estate space in response to its new flexible work arrangement. As part of this initiative, the Company evaluated its current real estate space and changes in employee work arrangement requirements to ensure it had the appropriate space to support the business. As a result of this assessment, the Company determined that it would vacate and abandon certain leased corpora…"
+   },
+   {
+    "chunk_id": "ch_3a97e8af29577931",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 4,
+    "text": "Item 1. Business. Overview CVS Health Corporation, together with its subsidiaries (collectively, “CVS Health,” the “Company,” “we,” “our” or “us”), is a leading diversified health solutions company reshaping health care to help make healthier happen for more Americans. In an increasingly connected and digital world, CVS Health is meeting people wherever they are and changing health care to meet their needs. The Company has more than 9,000 retail locations, more than 1,100 walk-in medical clinics, a leading pharmacy benefits manager with over 110 million plan members with expanding specialty pharmacy solutions and a dedicated senior pharmacy care business serving more than one million patients per year. The Company also serves an estimated 35 million people through traditional, voluntary and consumer-directed health insurance products and related services, including expanding Medicare Advantage offerings and a leading standalone Medicare Part D prescription drug plan (“PDP”). The Compan…"
+   }
+  ]
+ }
+}

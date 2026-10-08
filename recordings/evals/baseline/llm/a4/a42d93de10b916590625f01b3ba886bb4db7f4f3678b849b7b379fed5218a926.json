@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\n  \"answer\": \"-3.8%\",\n  \"confidence\": 1.0,\n  \"citations\": [\n    {\n      \"source_id\": \"ch_5fe0ae06d8a5c498\",\n      \"quote\": \"(dollars in millions) Years Ended December 31, 2022 2021\\nConsolidated Net Income $ 21,748 $ 22,618\"\n    }\n  ],\n  \"needs_review\": false\n}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TGrhpKlIIPvgbynT+3EmNRK2pbbRurrSAq2MWXjRycqtlzwllfNaJ1sikUmHK8xsvpFZl/zm6fTDwZ10I/gGQugoLPN1pBfBo1tz2FrVpUgzmbDV/Q+7eg3Q="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493484,
+  "id": "awXIapTmD_74xN8PravcyQw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 126,
+   "prompt_tokens": 2652,
+   "total_tokens": 2778
+  }
+ }
+}

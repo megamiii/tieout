@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Cross currency swaps had the highest total notional amount, which was $32.5 billion at December 31, 2021.\",\n  \"confidence\": 0.95,\n  \"citations\": [{\"source_id\": \"ch_8af65309e66e6d85\", \"quote\": \"At December 31, 2021 and 2020, the total notional amount of the cross currency swaps was $32.5 billion and $26.3 billion, respectively.\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TFoRUl4InJ9enws5tOjc+4seeJWR0Ajr6m4FMzvPArceb2j6snHXt7gWxJGUILbbL2rk9Uw828JRri4bdn73ZVVXis6f4HcWx0M1wyHamN9u7LyGbKT3tDpI="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492681,
+  "id": "SALIasv5LqGExN8P6vndkQ0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 139,
+   "prompt_tokens": 2429,
+   "total_tokens": 2568
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What is the FY2019 cash conversion cycle (CCC) for General Mills? CCC is defined as: DIO + DSO - DPO. DIO is defined as: 365 * (average inventory between FY2018 and FY2019) / (FY2019 COGS). DSO is defined as: 365 * (average accounts receivable between FY2018 and FY2019) / (FY2019 Revenue). DPO is defined as: 365 * (average accounts payable between FY2018 and FY2019) / (FY2019 COGS + change in inventory between FY2018 and FY2019). Round your answer to two decimal places. Address the question by using the line items and information shown within the income statement and the balance sheet.",
+  "ticker": "GIS",
+  "fiscal_year": 2019,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e083bee20c02eaa4",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 109,
+    "text": "Table of Contents Operating cash flow conversion rate. Net cash provided by operating activities, divided by net earnings, including earnings attributable to redeemable and noncontrolling interests. Operating cash flow to net debt ratio. Net Debt divided by cash provided by operating activities. Organic net sales growth. Net sales growth adjusted for foreign currency translation, as well as acquisitions, divestitures, and a 53 rd week impact, when applicable. Project-related costs. Costs incurred related to our restructuring initiatives not included in restructuring charges. Redeemable interest. Interest of consolidated subsidiaries held by a third party that can be redeemed outside of our control and therefore cannot be classified as a noncontrolling interest in equity. Reporting unit. An operating segment or a business one level below an operating segment. Strategic Revenue Management (SRM). A company-wide capability focused on generating sustainable benefits from net price realizati…"
+   },
+   {
+    "chunk_id": "ch_353e64c4f45a7884",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 58,
+    "text": "Table of Contents Notes to Consolidated Financial Statements GENERAL MILLS, INC. AND SUBSIDIARIES NOTE 1. BASIS OF PRESENTATION AND RECLASSIFICATIONS Basis of Presentation Our Consolidated Financial Statements include the accounts of General Mills, Inc. and all subsidiaries in which we have a controlling financial interest. Intercompany transactions and accounts, including any noncontrolling and redeemable interests' share of those transactions, are eliminated in consolidation. Our fiscal year ends on the last Sunday in May. Certain reclassifications to our previously reported financial information have been made to conform to the current period presentation. See Note 2 for additional information. Change in Reporting Period As part of a long-term plan to conform the fiscal year ends of all our operations, in fiscal 2017 we changed the reporting period of General Mills Brasil Alimentos Ltda (Yoki) within our Asia & Latin America segment from an April fiscal year-end to a May fiscal year…"
+   },
+   {
+    "chunk_id": "ch_b12322fb9ece1e56",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Table of Contents Consolidated Statements of Cash Flows GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions) Fiscal Year 2019 2018 2017 Cash Flows - Operating Activities Net earnings, including earnings attributable to redeemable and noncontrolling interests $ 1,786.2 $ 2,163.0 $ 1,701.1 Adjustments to reconcile net earnings to net cash provided by operating activities: Depreciation and amortization 620.1 618.8 603.6 After-tax earnings from joint ventures (72.0) (84.7) (85.0) Distributions of earnings from joint ventures 86.7 113.2 75.6 Stock-based compensation 84.9 77.0 95.7 Deferred income taxes 93.5 (504.3) 183.9 Pension and other postretirement benefit plan contributions (28.8) (31.8) (45.4) Pension and other postretirement benefit plan costs 6.1 4.6 35.7 Divestitures loss 30.0 - 13.5 Restructuring, impairment, and other exit costs 235.7 126.0 117.0 Changes in current assets and liabilities, excluding the effects of acquisitions and divestitures (7.5) 542.1 (194.2) Other, net (27.9) …"
+   },
+   {
+    "chunk_id": "ch_7936e636c1fe81f1",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 41,
+    "text": "Table of Contents Free Cash Flow Conversion Rate We believe this measure provides useful information to investors because it is important for assessing our efficiency in converting earnings to cash and returning cash to shareholders. The calculation of free cash flow conversion rate and net cash provided by operating activities conversion rate, its equivalent GAAP measure, follows: In Millions Fiscal 2019 Net earnings, including earnings attributable to redeemable and noncontrolling interests, as reported $ 1,786.2 Net tax benefit (a) $ (7.2) Tax item (a) (72.9) Mark-to-market effects, net of tax (b) 27.7 Acquisition integration costs, net of tax (c) 19.7 Divestitures loss, net of tax (c) 16.4 Restructuring charges, net of tax (d) 63.0 Project-related costs, net of tax (d) 1.1 Asset impairments, net of tax (d) 159.7 Hyperinflationary accounting, net of tax (e) 3.2 Investment valuation adjustments, net of tax (f) (17.6) Legal recovery, net of tax (g) (10.8) CPW restructuring costs, net …"
+   },
+   {
+    "chunk_id": "ch_18778dbc508df233",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 62,
+    "text": "statements, and the reported amounts of revenues and expenses during the reporting period. These estimates include our accounting for promotional expenditures, valuation of long-lived assets, intangible assets, redeemable interest, stock-based compensation, income taxes, and defined benefit pension, other postretirement benefit and postemployment benefit plans. Actual results could differ from our estimates. New Accounting Standards In the first quarter of fiscal 2019, we adopted new accounting requirements related to the presentation of net periodic defined benefit pension expense, net periodic postretirement benefit expense, and net periodic postemployment benefit expense (collectively “net periodic benefit expense”). The new standard requires the service cost component of net periodic benefit expense to be recorded in the same line items as other employee compensation costs within our Consolidated Statements of Earnings. Other components of net periodic benefit expense must be prese…"
+   },
+   {
+    "chunk_id": "ch_842be5dfbc3e87fd",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 16",
+    "page": 120,
+    "text": "2013, the Officers' Certificate for the 2023 Notes, incorporated herein by reference to Exhibit 4.1 to the Company's Current Report on Form 8-K dated April 24, 2015, and the Officers' Certificate for the 2027 Notes, incorporated herein by reference to Exhibit 4.2 to the Company's Current Report on Form 8-K dated April 24, 2015. We encourage you to read the Indenture and the Officers' Certificates for additional information. References in this section to the “Company,” “us,” “we” and “our” are solely to General Mills and not to any of its subsidiaries, unless the context requires otherwise. General We issued €500,000,000 aggregate principal amount of our 2020 Notes on November 15, 2013, €500,000,000 aggregate principal amount of our 2023 Notes and €400,000,000 aggregate principal amount of our 2027 Notes on April 27, 2015, and €500,000,000 aggregate principal amount of our Floating Rate Notes on January 15, 2016. The 2020 Notes, 2023 Notes, 2027 Notes and Floating Rate Notes are listed …"
+   },
+   {
+    "chunk_id": "ch_62d9e0d922ecaa1a",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 76,
+    "text": "Table of Contents Information related to our cash flow hedges, fair value hedges, and other derivatives not designated as hedging instruments for the fiscal years ended May 26, 2019 and May 27, 2018, follows: Interest Rate Contracts Foreign Exchange Contracts Equity Contracts Commodity Contracts Total Fiscal Year Fiscal Year Fiscal Year Fiscal Year Fiscal Year In Millions 2019 2018 2019 2018 2019 2018 2019 2018 2019 2018 Derivatives in Cash Flow Hedging Relationships: Amount of gain (loss) recognized in other comprehensive income (OCI) (a) $ - $ (50.5) $ 15.7 $ (14.6) $ - $ - $ - $ - $ 15.7 $ (65.1) Amount of net gain (loss) reclassified from AOCI into earnings (a) (b) (9.0) 19.3 8.4 (4.2) - - - - (0.6) 15.1 Amount of net gain (loss) recognized in earnings (c) - (2.6) 0.5 (0.3) - - - - 0.5 (2.9) Derivatives in Fair Value Hedging Relationships: Amount of net gain (loss) recognized in earnings (d) 2.4 (3.4) - - - - - - 2.4 (3.4) Derivatives Not Designated as Hedging Instruments: Amount o…"
+   },
+   {
+    "chunk_id": "ch_ae82f3180035ddba",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 20,
+    "text": "Table of Contents Net cash provided by operations totaled $2.8 billion in fiscal 2019 representing a conversion rate of 157 percent of net earnings, including earnings attributable to redeemable and noncontrolling interests. This cash generation supported capital investments totaling $538 million, and our resulting free cash flow was $2.3 billion at a conversion rate of 115 percent of adjusted net earnings, including earnings attributable to redeemable and noncontrolling interests. We also returned cash to shareholders through dividends totaling $1.2 billion and reduced total debt outstanding by $1.3 billion. A detailed review of our fiscal 2019 performance compared to fiscal 2018 appears below in the section titled “Fiscal 2019 Consolidated Results of Operations.” A detailed review of our fiscal 2018 performance compared to our fiscal 2017 performance is set forth in Part II, Item 7 of our Form 10-K for the fiscal year ended May 27, 2018 under the caption “Management's Discussion and …"
+   }
+  ]
+ }
+}

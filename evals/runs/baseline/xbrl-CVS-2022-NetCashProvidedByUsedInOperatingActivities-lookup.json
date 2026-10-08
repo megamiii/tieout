@@ -1,0 +1,36 @@
+{
+ "item_id": "xbrl-CVS-2022-NetCashProvidedByUsedInOperatingActivities-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "$16,177 million",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_4760e4f5e8db9997",
+   "quote": "Net cash provided by operating activities 16,177 18,265 15,865",
+   "kind": "chunk",
+   "ticker": "CVS",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 111,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 3215,
+ "completion_tokens": 98,
+ "latency_ms": 1103.5,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$16,177 matches 16177 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

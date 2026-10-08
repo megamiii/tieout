@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer fails to identify that gross margin is not a relevant metric for American Express, instead incorrectly stating that the information is unavailable in the filings.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TzdP/hUcz/4AeujPx/cnsIAjX5lJMsO/6FiHbF4wTlwMEhbjyl9qk1Q2TyDniBKEX4KNQ27fFQEozBED1XqycyrlhN5GTcu2QmhQ8pP7Ifbxykhm4TNpWYcyBg4VyyrYKW58S6lPC3JXqwWMU"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493076,
+  "id": "yQPIati-NbWkvdIPs_ndSA",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 207,
+   "total_tokens": 248
+  }
+ }
+}

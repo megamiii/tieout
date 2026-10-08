@@ -1,0 +1,66 @@
+{
+ "item_id": "financebench_id_00494",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "For FY2023, Boeing is forecasting the following production rate changes and plans: gradually return/increase the 787 program to 5 per month; resume production of the 777X (paused in 2022 and 2023); and implement further gradual production rate increases for the 737 program based on market demand and supply chain capacity.",
+ "confidence": 0.95,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_8f70480d12e20cc2",
+   "quote": "We are currently producing at low rates and expect to gradually return to 5 per month in 2023.",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 35,
+   "supports": false
+  },
+  {
+   "source_id": "ch_0a25c7e82e5729d4",
+   "quote": "In April 2022, we decided to pause production of the 777X-9 during 2022 and 2023.",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 81,
+   "supports": false
+  },
+  {
+   "source_id": "ch_dacec146e187d286",
+   "quote": "The 787 program is currently producing at low rates and we expect to gradually increase to 5 per month in 2023. Production of the 777X is currently paused and is expected to resume in 2023. The 737 program has experienced operational and supply chain challenges stabilizing production at 31 per month. We plan to gradually increase 737 production rates based on market demand and supply chain capacity.",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2022,
+   "section": "Item 1A",
+   "page": 9,
+   "supports": true
+  },
+  {
+   "source_id": "ch_fbe39bf0fbfa90e4",
+   "quote": "We increased the production rate to 31 per month in 2022, and expect to implement further gradual production rate increases based on market demand and supply chain capacity.",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 33,
+   "supports": false
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2278,
+ "completion_tokens": 415,
+ "latency_ms": 1650.1,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer correctly identifies the production rate changes for the 737, 777X, and 787 programs, aligning with the gold answer while providing additional specific details.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

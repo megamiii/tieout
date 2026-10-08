@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Is 3M a capital-intensive business based on FY2022 data?",
+  "ticker": "MMM",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e93625b3e41f5140",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 37,
+    "text": "Table of Contents FINANCIAL CONDITION AND LIQUIDITY The strength and stability of 3M's business model and strong free cash flow capability, together with proven capital markets access, provide financial flexibility to deploy capital in accordance with the Company's stated priorities and meet needs associated with contractual commitments and other obligations. Investing in 3M's business to drive organic growth and deliver strong returns on invested capital remains the first priority for capital deployment. This includes research and development, capital expenditures, and commercialization capability. The Company also continues to actively manage its portfolio through acquisitions and divestitures to maximize value for shareholders. 3M expects to continue returning cash to shareholders through dividends and share repurchases. To fund cash needs in the United States, the Company relies on ongoing cash flow from U.S. operations, access to capital markets and repatriation of the earnings of…"
+   },
+   {
+    "chunk_id": "ch_ba56fb37025279d4",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 39,
+    "text": "1 31 Net cash provided by (used in) investing activities $ (1,046) $ (1,317) Investments in property, plant and equipment enable growth across many diverse markets, helping to meet product demand and increasing manufacturing efficiency. The Company expects 2023 capital spending to be approximately $1.5 billion to $1.8 billion as 3M continues to invest in growth, productivity and sustainability. 3M records capital-related government grants earned as reductions to the cost of property, plant and equipment; and associated unpaid liabilities and grant proceeds receivable are considered non-cash changes in such balances for purposes of preparation of statement of cash flows. 39"
+   },
+   {
+    "chunk_id": "ch_e8eaa998b1bc16ef",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 38,
+    "text": "(1,424) Less: Cash, cash equivalents and marketable securities 3,916 4,792 (876) Net debt (non-GAAP measure) $ 12,023 $ 12,571 $ (548) Refer to the preceding “Total Debt” and “Cash, Cash Equivalents and Marketable Securities” sections for additional details. Balance Sheet: 3M's strong balance sheet and liquidity provide the Company with significant flexibility to fund its numerous opportunities going forward. The Company will continue to invest in its operations to drive growth, including continual review of acquisition opportunities. The Company uses working capital measures that place emphasis and focus on certain working capital assets, such as accounts receivable and inventory activity. Working capital (non-GAAP measure): December 31, (Millions) 2022 2021 Change Current assets $ 14,688 $ 15,403 $ (715) Less: Current liabilities 9,523 9,035 488 Working capital (non-GAAP measure) $ 5,165 $ 6,368 $ (1,203) Various assets and liabilities, including cash and short-term debt, can fluctua…"
+   },
+   {
+    "chunk_id": "ch_d7d17a73dbfec7c1",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 4,
+    "text": "Item 1. Business. 3M Company was incorporated in 1929 under the laws of the State of Delaware to continue operations begun in 1902. The Company's ticker symbol is MMM. As used herein, the term “3M” or “Company” includes 3M Company and its subsidiaries unless the context indicates otherwise. In this document, for any references to Note 1 through Note 19, refer to the Notes to Consolidated Financial Statements in Item 8. Available Information The Securities and Exchange Commission (SEC) maintains a website that contains reports, proxy and information statements, and other information regarding issuers, including the Company, that file electronically with the SEC. The public can obtain any documents that the Company files with the SEC at http://www.sec.gov. The Company files annual reports, quarterly reports, proxy statements and other documents with the SEC under the Securities Exchange Act of 1934 (Exchange Act). 3M also makes available free of charge through its website (http://investo…"
+   },
+   {
+    "chunk_id": "ch_43b034ee28278bf3",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Table of Contents Geographic Area Supplemental Information Employees as of December 31, Capital Spending Property, Plant and Equipment - net as of December 31, (Millions, except Employees) 2022 2021 2022 2021 2022 2021 Americas 54,000 56,000 $ 1,321 $ 1,046 $ 6,066 $ 5,864 Asia Pacific 18,000 18,000 182 216 1,389 1,582 Europe, Middle East and Africa 20,000 21,000 246 341 1,723 1,983 Total Company 92,000 95,000 $ 1,749 $ 1,603 $ 9,178 $ 9,429 Employment: Employment decreased in 2022 when compared to 2021. The above table includes the impact of acquisitions, net of divestitures and other actions. Capital Spending/Net Property, Plant and Equipment: Investments in property, plant and equipment enable growth across many diverse markets, helping to meet product demand and increasing manufacturing efficiency. 3M is increasing its investment in manufacturing and sourcing capability in order to more closely align its product capability with its sales in major geographic areas in order to best s…"
+   },
+   {
+    "chunk_id": "ch_007dbcf117aed57c",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 50,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Balance Sheet At December 31 (Dollars in millions, except per share amount) 2022 2021 Assets Current assets Cash and cash equivalents $ 3,655 $ 4,564 Marketable securities — current 238 201 Accounts receivable — net of allowances of $174 and $189 4,532 4,660 Inventories Finished goods 2,497 2,196 Work in process 1,606 1,577 Raw materials and supplies 1,269 1,212 Total inventories 5,372 4,985 Prepaids 435 654 Other current assets 456 339 Total current assets 14,688 15,403 Property, plant and equipment 25,998 27,213 Less: Accumulated depreciation (16,820) (17,784) Property, plant and equipment — net 9,178 9,429 Operating lease right of use assets 829 858 Goodwill 12,790 13,486 Intangible assets — net 4,699 5,288 Other assets 4,271 2,608 Total assets $ 46,455 $ 47,072 Liabilities Current liabilities Short-term borrowings and current portion of long-term debt $ 1,938 $ 1,307 Accounts payable 3,183 2,994 Accrued payroll 692 1,020 Ac…"
+   },
+   {
+    "chunk_id": "ch_5583138c6d32df03",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 51,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Statement of Changes in Equity Years ended December 31 3M Company Shareholders (Dollars in millions, except per share amounts) Total Common Stock and Additional Paid-in Capital Retained Earnings Treasury Stock Accumulated Other Comprehensive Income (Loss) Non-controlling Interest Balance at December 31, 2019 $ 10,126 $ 5,916 $ 42,130 $ (29,849) $ (8,134) $ 63 Net income 5,453 5,449 4 Other comprehensive income (loss), net of tax: Cumulative translation adjustment 447 449 (2) Defined benefit pension and post-retirement plans adjustment 106 106 Cash flow hedging instruments - unrealized gain (loss) (142) (142) Total other comprehensive income (loss), net of tax 411 Dividends declared ($5.88 per share, Note 8) (3,388) (3,388) Purchase of non-controlling interest (1) (1) Stock-based compensation 255 255 Reacquired stock (358) (358) Issuances pursuant to stock options and benefit plans 433 (370) 803 Balance at December 31, 2020 12,9…"
+   },
+   {
+    "chunk_id": "ch_b17b82a40114c39a",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 40,
+    "text": "Table of Contents 3M invests in renewal and maintenance programs, which pertain to cost reduction, cycle time, maintaining and renewing current capacity, eliminating pollution, and compliance. Costs related to maintenance, ordinary repairs, and certain other items are expensed. 3M also invests in growth, which adds to capacity, driven by new products, both through expansion of current facilities and new facilities. Finally, 3M also invests in other initiatives, such as information technology (IT), laboratory facilities, and a continued focus on investments in sustainability. Refer to Note 3 for information on acquisitions and divestitures (including the cash payment from the Food Safety business split-off). The Company is actively considering additional acquisitions, investments and strategic alliances, and from time to time may also divest certain businesses. Purchases of marketable securities and investments and proceeds from maturities and sale of marketable securities and investmen…"
+   }
+  ]
+ }
+}

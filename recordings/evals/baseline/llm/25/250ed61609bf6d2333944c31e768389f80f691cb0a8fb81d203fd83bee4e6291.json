@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\n  \"answer\": \"AMD's net income (loss) attributable to AMD common stockholders in fiscal year 2015 was $(660) million.\",\n  \"confidence\": 1.0,\n  \"citations\": [\n    {\n      \"source_id\": \"ch_cc959f6dc3e3b2e2\",\n      \"quote\": \"Net income (loss) attributable to AMD common stockholders $ (660)\"\n    }\n  ],\n  \"needs_review\": false\n}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TwTVtEecNPIy1rjtUBQGF0iIdi6ebbu8PB7432mjjaEyBiFYm1T+Zvjy8M5d77v6p7OWE2Bv+d7kt5504r93Tup+/rPfH5TO4AtGm17MeirULjn3I8CAxdA8="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493361,
+  "id": "8QTIauriCJ2_nsEP1N2ZkQ4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 123,
+   "prompt_tokens": 3038,
+   "total_tokens": 3161
+  }
+ }
+}

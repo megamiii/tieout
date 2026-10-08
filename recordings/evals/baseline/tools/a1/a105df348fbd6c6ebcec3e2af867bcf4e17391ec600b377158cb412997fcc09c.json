@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "By what percentage did American Express's net cash provided by operating activities change from fiscal year 2021 to fiscal year 2022? Give the percentage rounded to one decimal place.",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_d4977d01cee1d51d",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 72,
+    "text": "Table of Contents CASH FLOWS The following table summarizes our cash flow activity, followed by a discussion of the major drivers impacting operating, investing and financing cash flows for the year ended December 31, 2022 compared to the year ended December 31, 2021: TABLE 21: CASH FLOWS (Billions) 2022 2021 2020 Total cash provided by (used in): Operating activities $ 21.1 $ 14.6 $ 5.6 Investing activities (33.7) (10.5) 11.6 Financing activities 24.5 (14.9) (9.1) Effect of foreign currency exchange rates on cash and cash equivalents — (0.1) 0.4 Net increase (decrease) in cash and cash equivalents $ 11.9 $ (10.9) $ 8.5 Cash Flows from Operating Activities Our cash flows from operating activities primarily include net income adjusted for (i) non-cash items included in net income, such as provisions for credit losses, depreciation and amortization, stock-based compensation, deferred taxes and other non-cash items and (ii) changes in the balances of operating assets and liabilities, whic…"
+   },
+   {
+    "chunk_id": "ch_249c7f2ab06b0612",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 146,
+    "text": "Table of Contents NOTE 20 INCOME TAXES The components of income tax expense for the years ended December 31 included in the Consolidated Statements of Income were as follows: (Millions) 2022 2021 2020 Current income tax expense: U.S. federal $ 2,445 $ 1,656 $ 1,122 U.S. state and local 339 351 339 Non-U.S. 476 328 639 Total current income tax expense 3,260 2,335 2,100 Deferred income tax (benefit) expense: U.S. federal (763) 231 (931) U.S. state and local (117) 22 (119) Non-U.S. (309) 41 111 Total deferred income tax (benefit) expense (1,189) 294 (939) Total income tax expense $ 2,071 $ 2,629 $ 1,161 A reconciliation of the U.S. federal statutory rate of 21 percent as of December 31, 2022, 2021 and 2020, to our actual income tax rate was as follows: 2022 2021 2020 U.S. statutory federal income tax rate 21.0 % 21.0 % 21.0 % (Decrease) increase in taxes resulting from: Tax credits and tax-exempt income (0.9) (0.1) (4.1) State and local income taxes, net of federal benefit 3.1 3.0 3.7 Non…"
+   },
+   {
+    "chunk_id": "ch_eff10dd0e23194b0",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 99,
+    "text": "Table of Contents CONSOLIDATED STATEMENTS OF CASH FLOWS Years Ended December 31 (Millions) 2022 2021 2020 Cash Flows from Operating Activities Net income $ 7,514 $ 8,060 $ 3,135 Adjustments to reconcile net income to net cash provided by operating activities: Provisions for credit losses 2,182 (1,419) 4,730 Depreciation and amortization 1,626 1,695 1,543 Stock-based compensation 375 330 249 Deferred taxes (1,189) 294 (939) Other items 365 (772) 683 Originations of loans held-for-sale (277) — — Proceeds from sales of loans held-for-sale 277 — — Changes in operating assets and liabilities, net of effects of acquisitions and dispositions: Other assets 1,391 1,068 (1,785) Accounts payable & other liabilities 8,815 5,389 (2,025) Net cash provided by operating activities 21,079 14,645 5,591 Cash Flows from Investing Activities Sale of investment securities 26 62 69 Maturities and redemptions of investment securities 1,892 20,032 7,159 Purchase of investments (4,175) (1,517) (20,562) Net (inc…"
+   },
+   {
+    "chunk_id": "ch_4b360dba1392cdcf",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 169,
+    "text": "Table of Contents Years Ended December 31, (Millions, except percentages) 2022 Average Balance 2021 Average Balance 2020 Average Balance Non-interest-earning assets Cash and due from banks U.S. $ 2,794 $ 2,729 $ 2,205 Non-U.S. 742 868 823 Card Member receivables, net U.S. 34,527 30,039 27,414 Non-U.S. 19,973 16,632 16,009 Reserves for credit losses on Card Member and other loans U.S. (2,972) (3,964) (4,682) Non-U.S. (272) (369) (526) Other assets U.S. 16,621 16,589 14,680 Non-U.S. 5,650 5,514 5,830 Total non-interest-earning assets 77,063 68,038 61,753 U.S. 50,970 45,393 39,617 Non-U.S. 26,093 22,645 22,136 Total assets 205,479 189,593 190,079 U.S. 163,617 153,981 155,526 Non-U.S. $ 41,862 $ 35,612 $ 34,553 Percentage of total average assets attributable to non-U.S. activities 20.4 % 18.8 % 18.2 % (a) Averages based on month-end balances. (b) Includes premises and equipment, net of accumulated depreciation and amortization. (a) (a) (a) (b) A-2"
+   },
+   {
+    "chunk_id": "ch_0b15ecfd0bb9b4a8",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 157,
+    "text": "Table of Contents PARENT COMPANY – CONDENSED STATEMENTS OF CASH FLOWS Years Ended December 31 (Millions) 2022 2021 2020 Cash Flows from Operating Activities Net income $ 7,514 $ 8,060 $ 3,135 Adjustments to reconcile net income to cash provided by operating activities: Equity in net income of subsidiaries and affiliates (7,905) (8,560) (3,716) Dividends received from subsidiaries and affiliates 5,549 9,102 2,679 Other operating activities, primarily with subsidiaries and affiliates 160 (305) 732 Net cash provided by operating activities 5,318 8,297 2,830 Cash Flows from Investing Activities (Increase) decrease in loans to subsidiaries and affiliates (4,850) (176) 11,434 Investments in subsidiaries and affiliates (1) (60) (52) Other investing activities — — 74 Net cash (used in) provided by investing activities (4,851) (236) 11,456 Cash Flows from Financing Activities Net decrease in short-term debt from subsidiaries and affiliates (136) (2,636) (3,289) Proceeds from long-term debt 13,2…"
+   },
+   {
+    "chunk_id": "ch_afa1eb092d302760",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 47,
+    "text": "Table of Contents CONSOLIDATED RESULTS OF OPERATIONS The discussions in the “Consolidated Results of Operations” and “Business Segment Results of Operations” provide commentary on the variances for the year ended December 31, 2022 compared to the year ended December 31, 2021, as presented in the accompanying tables. For a discussion of the financial condition and results of operations for 2021 compared to 2020, please refer to Part II, Item 7. “Management's Discussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on Form 10-K for the year ended December 31, 2021, filed with the SEC on February 11, 2022. Beginning in the first quarter of 2022, we made reporting presentation changes to our Consolidated Statements of Income to separately present revenues earned from processed volumes, previously reported in Discount revenue, Other fees and commissions and Other revenue, as Processed revenue. The remaining balances from Other fees and commissions and O…"
+   },
+   {
+    "chunk_id": "ch_290f30a8f788565c",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 44,
+    "text": "Table of Contents TABLE 1: SUMMARY OF FINANCIAL PERFORMANCE Years Ended December 31, Change Change (Millions, except percentages, per share amounts and where indicated) 2022 2021 2020 2022 vs. 2021 2021 vs. 2020 Selected Income Statement Data Total revenues net of interest expense $ 52,862 $ 42,380 $ 36,087 $ 10,482 25 % $ 6,293 17 % Provisions for credit losses 2,182 (1,419) 4,730 3,601 # (6,149) # Expenses 41,095 33,110 27,061 7,985 24 6,049 22 Pretax income 9,585 10,689 4,296 (1,104) (10) 6,393 # Income tax provision 2,071 2,629 1,161 (558) (21) 1,468 # Net income 7,514 8,060 3,135 (546) (7) 4,925 # Earnings per common share — diluted $ 9.85 $ 10.02 $ 3.77 $ (0.17) (2)% $ 6.25 # % Common Share Statistics Cash dividends declared per common share $ 2.08 $ 1.72 $ 1.72 $ 0.36 21 % $ — — % Average common shares outstanding: Basic 751 789 805 (38) (5)% (16) (2)% Diluted 752 790 806 (38) (5)% (16) (2)% Selected Metrics and Ratios Network volumes (Billions) $ 1,552.8 $ 1,284.2 $ 1,037.8 $ 2…"
+   },
+   {
+    "chunk_id": "ch_54f1968121d04da3",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 157,
+    "text": "Net cash provided by (used in) financing activities 2,380 (13,688) (7,748) Net increase (decrease) in cash and cash equivalents 2,847 (5,627) 6,538 Cash and cash equivalents at beginning of year 5,341 10,968 4,430 Cash and cash equivalents at end of year $ 8,188 $ 5,341 $ 10,968 Supplemental cash flow information Years Ended December 31 (Millions) 2022 2021 2020 Non-Cash Investing Activities Loans to subsidiaries and affiliates $ — $ (1,787) $ (4,971) Non-Cash Financing Activities Short-term debts from subsidiaries and affiliates — — 4,971 Proceeds from long-term debt $ — $ 1,787 $ — 154"
+   }
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "How much has the effective tax rate of American Express changed between FY2021 and FY2022?",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_d62089b6afec8ae5",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 49,
+    "text": "Business development expense increased, primarily due to increased partner payments and client incentives, both of which were driven by higher network volumes. Card Member services expense increased, primarily due to higher usage of travel-related benefits. Marketing expense increased, primarily due to business investments to drive growth momentum and accelerate new card acquisitions. Salaries and employee benefits expense increased, primarily driven by higher compensation costs, reflecting an increase in our colleague base to support business growth as well as compensation decisions made. Other expenses increased, primarily driven by net losses on Amex Ventures investments in the current year, as compared to net gains in the prior year. INCOME TAXES The effective tax rate was 21.6 percent and 24.6 percent for 2022 and 2021, respectively. The reduction in the effective tax rate primarily reflected discrete tax benefits in the current year related to the resolution of prior-year tax ite…"
+   },
+   {
+    "chunk_id": "ch_249c7f2ab06b0612",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 146,
+    "text": "Table of Contents NOTE 20 INCOME TAXES The components of income tax expense for the years ended December 31 included in the Consolidated Statements of Income were as follows: (Millions) 2022 2021 2020 Current income tax expense: U.S. federal $ 2,445 $ 1,656 $ 1,122 U.S. state and local 339 351 339 Non-U.S. 476 328 639 Total current income tax expense 3,260 2,335 2,100 Deferred income tax (benefit) expense: U.S. federal (763) 231 (931) U.S. state and local (117) 22 (119) Non-U.S. (309) 41 111 Total deferred income tax (benefit) expense (1,189) 294 (939) Total income tax expense $ 2,071 $ 2,629 $ 1,161 A reconciliation of the U.S. federal statutory rate of 21 percent as of December 31, 2022, 2021 and 2020, to our actual income tax rate was as follows: 2022 2021 2020 U.S. statutory federal income tax rate 21.0 % 21.0 % 21.0 % (Decrease) increase in taxes resulting from: Tax credits and tax-exempt income (0.9) (0.1) (4.1) State and local income taxes, net of federal benefit 3.1 3.0 3.7 Non…"
+   },
+   {
+    "chunk_id": "ch_07f2d557c4da2d92",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 148,
+    "text": "Interest and penalties relating to unrecognized tax benefits are reported in the income tax provision. For the years ended December 31, 2022, 2021 and 2020, we recognized approximately $10 million, $40 million and $260 million, respectively, in expenses for interest and penalties. We had approximately $380 million accrued for the payment of interest and penalties as of both December 31, 2022 and 2021. 145"
+   },
+   {
+    "chunk_id": "ch_c55d2bd7a8cc8279",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 148,
+    "text": "Table of Contents The following table presents changes in unrecognized tax benefits: (Millions) 2022 2021 2020 Balance, January 1 $ 1,024 $ 790 $ 726 Increases: Current year tax positions 119 64 57 Tax positions related to prior years 30 225 105 Effects of foreign currency translations — — — Decreases: Tax positions related to prior years (30) (14) (24) Settlements with tax authorities (74) (15) (15) Lapse of statute of limitations (104) (17) (58) Effects of foreign currency translations (3) (9) (1) Balance, December 31 $ 962 $ 1,024 $ 790 Included in the unrecognized tax benefits of $1.0 billion, $1.0 billion and $0.8 billion for December 31, 2022, 2021 and 2020, respectively, are approximately $750 million, $780 million and $580 million, respectively, that, if recognized, would favorably affect the effective tax rate in a future period. We believe it is reasonably possible that our unrecognized tax benefits could decrease within the next twelve months by as much as $150 million, prin…"
+   },
+   {
+    "chunk_id": "ch_afa1eb092d302760",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 47,
+    "text": "Table of Contents CONSOLIDATED RESULTS OF OPERATIONS The discussions in the “Consolidated Results of Operations” and “Business Segment Results of Operations” provide commentary on the variances for the year ended December 31, 2022 compared to the year ended December 31, 2021, as presented in the accompanying tables. For a discussion of the financial condition and results of operations for 2021 compared to 2020, please refer to Part II, Item 7. “Management's Discussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on Form 10-K for the year ended December 31, 2021, filed with the SEC on February 11, 2022. Beginning in the first quarter of 2022, we made reporting presentation changes to our Consolidated Statements of Income to separately present revenues earned from processed volumes, previously reported in Discount revenue, Other fees and commissions and Other revenue, as Processed revenue. The remaining balances from Other fees and commissions and O…"
+   },
+   {
+    "chunk_id": "ch_01a1954f662f77a4",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 96,
+    "text": "Table of Contents CONSOLIDATED STATEMENTS OF INCOME Year Ended December 31 (Millions, except per share amounts) 2022 2021 2020 Revenues Non-interest revenues Discount revenue $ 30,739 $ 24,563 $ 19,435 Net card fees 6,070 5,195 4,664 Service fees and other revenue 4,521 3,316 2,702 Processed revenue 1,637 1,556 1,301 Total non-interest revenues 42,967 34,630 28,102 Interest income Interest on loans 11,967 8,850 9,779 Interest and dividends on investment securities 96 83 127 Deposits with banks and other 595 100 177 Total interest income 12,658 9,033 10,083 Interest expense Deposits 1,527 458 943 Long-term debt and other 1,236 825 1,155 Total interest expense 2,763 1,283 2,098 Net interest income 9,895 7,750 7,985 Total revenues net of interest expense 52,862 42,380 36,087 Provisions for credit losses Card Member receivables 627 (73) 1,015 Card Member loans 1,514 (1,155) 3,453 Other 41 (191) 262 Total provisions for credit losses 2,182 (1,419) 4,730 Total revenues net of interest expens…"
+   },
+   {
+    "chunk_id": "ch_4c4fd5597140401b",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 156,
+    "text": "Table of Contents NOTE 25 PARENT COMPANY PARENT COMPANY – CONDENSED STATEMENTS OF INCOME AND COMPREHENSIVE INCOME Years Ended December 31 (Millions) 2022 2021 2020 Revenues Non-interest revenues Other $ 388 $ 343 $ 480 Total non-interest revenues 388 343 480 Interest income 614 96 228 Interest expense 857 482 630 Total revenues net of interest expense 145 (43) 78 Expenses Salaries and employee benefits 408 359 333 Other 372 346 562 Total expenses 780 705 895 Pretax loss (635) (748) (817) Income tax benefit (244) (248) (236) Net loss before equity in net income of subsidiaries and affiliates (391) (500) (581) Equity in net income of subsidiaries and affiliates 7,905 8,560 3,716 Net income $ 7,514 $ 8,060 $ 3,135 Net unrealized pension and other postretirement benefits, net of tax 10 151 (91) Other comprehensive (loss) income, net (275) (201) (67) Comprehensive income $ 7,249 $ 8,010 $ 2,977 PARENT COMPANY – CONDENSED BALANCE SHEETS As of December 31 (Millions) 2022 2021 Assets Cash and …"
+   },
+   {
+    "chunk_id": "ch_e9949ef0c183e39e",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 144,
+    "text": "Net unrealized (losses) gains on debt securities $ (27) $ (13) $ 9 Foreign currency translation adjustment, net of hedges 75 51 (62) Pension and other postretirement benefits 27 52 (28) Total tax impact $ 75 $ 90 $ (81) Reclassifications out of AOCI into the Consolidated Statements of Income, net of taxes, were not significant for the years ended December 31, 2022, 2021 and 2020. (a) 141"
+   }
+  ]
+ }
+}

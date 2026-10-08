@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "free cash flow",
+  "ticker": "ADBE",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7b3c6fcd78e6eaed",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 47,
+    "text": "LIQUIDITY AND CAPITAL RESOURCES Cash Flows This data should be read in conjunction with our Consolidated Statements of Cash Flows. As of (in millions) December 2, 2022 December 3, 2021 Cash and cash equivalents $ 4,236 $ 3,844 Short-term investments $ 1,860 $ 1,954 Working capital $ 868 $ 1,737 Stockholders' equity $ 14,051 $ 14,797 A summary of our cash flows for fiscal 2022, 2021 and 2020 is as follows: (in millions) 2022 2021 2020 Net cash provided by operating activities $ 7,838 $ 7,230 $ 5,727 Net cash used for investing activities (570) (3,537) (414) Net cash used for financing activities (6,825) (4,301) (3,488) Effect of foreign currency exchange rates on cash and cash equivalents (51) (26) 3 Net change in cash and cash equivalents $ 392 $ (634) $ 1,828 Our primary source of cash is receipts from revenue. Our primary uses of cash are our stock repurchase program as described below and general business expenses including payroll, marketing and third-party hosting services. Other …"
+   },
+   {
+    "chunk_id": "ch_5dcfa601d7a829f6",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 57,
+    "text": "ADOBE INC. CONSOLIDATED STATEMENTS OF CASH FLOWS (In millions) Years Ended December 2, 2022 December 3, 2021 November 27, 2020 Cash flows from operating activities: Net income $ 4,756 $ 4,822 $ 5,260 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and accretion 856 788 757 Stock-based compensation 1,440 1,069 909 Reduction of operating lease right-of-use assets 83 73 87 Deferred income taxes 328 183 (1,501) Unrealized losses (gains) on investments, net 29 (4) (11) Other non-cash items 10 7 40 Changes in operating assets and liabilities, net of acquired assets and assumed liabilities: Trade receivables, net (198) (430) 106 Prepaid expenses and other assets (94) (475) (288) Trade payables 66 (20) 96 Accrued expenses and other liabilities 7 162 86 Income taxes payable 19 2 (72) Deferred revenue 536 1,053 258 Net cash provided by operating activities 7,838 7,230 5,727 Cash flows from investing activities: Purchases of short-term …"
+   },
+   {
+    "chunk_id": "ch_19b98a4c29ffe7b2",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 47,
+    "text": "adjusted for the net effect of non-cash items. The primary working capital sources of cash were increases in deferred revenue driven by Digital Media and Digital Experience offerings, partially offset by increases in trade receivables attributable to the timing of billings. Cash Flows from Investing Activities For fiscal 2022, net cash used for investing activities of $570 million was primarily due to ongoing capital expenditures and business acquisitions. See Note 3 of our Notes to Consolidated Financial Statements for further information regarding these acquisitions. Cash Flows from Financing Activities For fiscal 2022, net cash used for financing activities of $6.83 billion was primarily due to payments for our common stock repurchases and taxes paid related to the net share settlement of equity awards, offset in part by proceeds from re-issuance of treasury stock mainly for our employee stock purchase plan. See the section titled “Stock Repurchase Program” below. Liquidity and Capi…"
+   },
+   {
+    "chunk_id": "ch_d0c6290c1f0a93f2",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7A",
+    "page": 50,
+    "text": "and retained earnings in our non-U.S. Dollar functional currency foreign subsidiaries. As of December 2, 2022 and December 3, 2021, this long-term investment exposure totaled an absolute notional equivalent of $770 million and $749 million, respectively. At this time, we do not hedge these long-term investment exposures. We do not use foreign exchange contracts for speculative trading purposes, nor do we hedge our foreign currency exposure in a manner that entirely offsets the effects of changes in foreign exchange rates. We regularly review our hedging program and assess the need to utilize financial instruments to hedge currency exposures on an ongoing basis. Cash Flow Hedges of Forecasted Foreign Currency Revenue and Expenses We may use foreign exchange purchased options or forward contracts to hedge foreign currency revenue denominated in Euros, British Pounds, Japanese Yen and Australian Dollars, or foreign currency expenses in Indian Rupees. We hedge these cash flow exposures to …"
+   },
+   {
+    "chunk_id": "ch_a2fa4a64e7942c2e",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 10,
+    "text": "Adobe Express Adobe Express is our web-native platform and mobile app directed towards first-time creators and communicators that enables easy-to-use, efficient content creation, featuring guided tools, one-click solutions for quick projects, simple drag and drop functions, collaboration tools, thousands of templates and access to more than 20,000 fonts and the entire Adobe Stock photo collection. We recently launched the new Content Scheduler feature in Adobe Express, which allows creators to plan, schedule, preview and publish social media content across multiple platforms all from one place. Adobe Express includes both free and premium features. Adobe Stock Adobe Stock provides designers and businesses with access to millions of high-quality, curated, royalty-free photos, vectors, illustrations, videos, templates, audio and 3D assets, for all of their creative projects. Adobe Stock is built into our Creative Cloud apps, including Photoshop, Illustrator and InDesign, enabling users t…"
+   }
+  ]
+ }
+}

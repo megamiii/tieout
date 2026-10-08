@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tv3BPTId8M9JmMCCnLJ8myoB5O+oozBBD0HEr2gQ/TuQlTADI76Uw6eQEb4nFIGrCOX+C4/V2tNaOX8aJo7xNG61KnLmIIifY1BTxwVA4I9UbJQIiGl4H158="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"Verizon does not mention or use the quick ratio in its FY 2022 10-K. Telecom companies manage liquidity through cash flows from operations, debt capital markets, and credit facilities. Total current assets and current liabilities are provided from the financial facts.\",\"answer\":\"The quick ratio is not typically emphasized or relied upon by capital-intensive telecommunications companies like Verizon to measure liquidity, and Verizon does not report a quick ratio in its FY 2022 Form 10-K. \\n\\nFor large, investment-grade network operators, liquidity and capital resources are instead evaluated based on operating cash flows, access to commercial paper and credit facilities, and the ongoing ability to service long-term debt obligations rather than standard quick ratio metrics. As of December 31, 2022, Verizon reported current assets of $37,857 million and current liabilities of $50,171 million.\",\"confidence\":1,\"citations\":[{\"quote\":\"37857000000\",\"source_id\":\"xf_35e91dd446b966e9\"},{\"source_id\":\"xf_81d4d7e5bf6f9f3f\",\"quote\":\"50171000000\"}],\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_898030",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494611,
+  "id": "0gnIasY3gqC90g_3seHxDA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 303,
+   "prompt_tokens": 5425,
+   "prompt_tokens_details": {
+    "cached_tokens": 2012
+   },
+   "total_tokens": 5728
+  }
+ }
+}

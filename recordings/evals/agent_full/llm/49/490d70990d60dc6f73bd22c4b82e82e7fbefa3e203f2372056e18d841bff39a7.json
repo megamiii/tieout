@@ -1,0 +1,56 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TUZKx8//74ERQ3WYjtHxVWwBNMUVyaNHB6CVzdollmTirulsOpNOjYVIjP76cZ0fvhc6IHOb1pFgQ84lena68DohmfqQTc+QcaxLtHuNMcEcJ267Yl63EHnc="
+        }
+       },
+       "function": {
+        "arguments": "{\"expression\":\"6098000000 / 17606000000 * 100\"}",
+        "name": "calculate"
+       },
+       "id": "call_1007092",
+       "type": "function"
+      },
+      {
+       "function": {
+        "arguments": "{\"expression\":\"5802000000 / 15785000000 * 100\"}",
+        "name": "calculate"
+       },
+       "id": "call_1007093",
+       "type": "function"
+      },
+      {
+       "function": {
+        "arguments": "{\"expression\":\"4237000000 / 12868000000 * 100\"}",
+        "name": "calculate"
+       },
+       "id": "call_1007094",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494645,
+  "id": "9AnIaq_7OZ3S28oPkNON-Qw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 123,
+   "prompt_tokens": 3613,
+   "total_tokens": 3736
+  }
+ }
+}

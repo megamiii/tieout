@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Adobe's total assets decreased by 0.3% from fiscal year 2021 to fiscal year 2022.\",\n  \"confidence\": 1.0,\n  \"citations\": [{\"source_id\": \"ch_76414535f94d238a\", \"quote\": \"Total assets $ 27,165 $ 27,241\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Ti1ynJahQ2EtGwKjUQoY6Ie/DPDw1vPOz52qJKFNTeVs753/sPepayZLQn2JmdK8t4jBDL//JUqhefOaEyS/SiRlN82RcLG7yfD7wxfN+z2WtajwnWeb5hSg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493355,
+  "id": "6gTIatCOL9f_nsEP48armQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 111,
+   "prompt_tokens": 2791,
+   "total_tokens": 2902
+  }
+ }
+}

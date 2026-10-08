@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Operating activities brought in the most cash flow for Best Buy in FY2023, providing $1,824 million.\",\n  \"confidence\": 1.0,\n  \"citations\": [{\"source_id\": \"ch_e64d7dca6930b4b6\", \"quote\": \"Total cash provided by operating activities 1,824\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0THlLQQtRgK5VvEI0GJnTjujXEn+tapVfg3pxKbV+Zqc1igLCHhMv3zAKgEHe2CLG8I1lUDCArg+11dBBxeyGyCzEBhNGBPhaMaRJUqRe0I/Zb3QIJjwOijfc="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492742,
+  "id": "hQLIaqmILLPY28oPnLrp0Ak",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 102,
+   "prompt_tokens": 2575,
+   "total_tokens": 2677
+  }
+ }
+}

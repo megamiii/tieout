@@ -1,0 +1,46 @@
+{
+ "item_id": "financebench_id_00517",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "Yes, product categories represented more than 20% of Boeing's total revenue for FY2022. Total revenues were $66,608 million, and Sales of products were $55,893 million (representing approximately 83.9% of total revenue). Additionally, by segment, Commercial Airplanes generated $25,867 million (approx. 38.8%) and Defense, Space & Security generated $23,162 million (approx. 34.8%) of total revenues for FY2022.",
+ "confidence": 0.99,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_cc19595608c4e1aa",
+   "quote": "Sales of products $55,893 ... Total revenues 66,608",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 55,
+   "supports": false
+  },
+  {
+   "source_id": "ch_54aaca8411e8a11d",
+   "quote": "Revenues: Commercial Airplanes $25,867 ... Defense, Space & Security 23,162 ... Global Services 17,611 ... Boeing Capital 199 ... Total revenues $66,608",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 62,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 3512,
+ "completion_tokens": 286,
+ "latency_ms": 1487.2,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer correctly identifies that multiple categories exceed the 20% threshold and provides accurate figures that align with the gold answer's data.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

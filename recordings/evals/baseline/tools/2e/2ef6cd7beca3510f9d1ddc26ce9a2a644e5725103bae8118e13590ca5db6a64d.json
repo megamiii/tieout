@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Does Adobe have an improving Free cashflow conversion as of FY2022?",
+  "ticker": "ADBE",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5dcfa601d7a829f6",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 57,
+    "text": "ADOBE INC. CONSOLIDATED STATEMENTS OF CASH FLOWS (In millions) Years Ended December 2, 2022 December 3, 2021 November 27, 2020 Cash flows from operating activities: Net income $ 4,756 $ 4,822 $ 5,260 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and accretion 856 788 757 Stock-based compensation 1,440 1,069 909 Reduction of operating lease right-of-use assets 83 73 87 Deferred income taxes 328 183 (1,501) Unrealized losses (gains) on investments, net 29 (4) (11) Other non-cash items 10 7 40 Changes in operating assets and liabilities, net of acquired assets and assumed liabilities: Trade receivables, net (198) (430) 106 Prepaid expenses and other assets (94) (475) (288) Trade payables 66 (20) 96 Accrued expenses and other liabilities 7 162 86 Income taxes payable 19 2 (72) Deferred revenue 536 1,053 258 Net cash provided by operating activities 7,838 7,230 5,727 Cash flows from investing activities: Purchases of short-term …"
+   },
+   {
+    "chunk_id": "ch_7b3c6fcd78e6eaed",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 47,
+    "text": "LIQUIDITY AND CAPITAL RESOURCES Cash Flows This data should be read in conjunction with our Consolidated Statements of Cash Flows. As of (in millions) December 2, 2022 December 3, 2021 Cash and cash equivalents $ 4,236 $ 3,844 Short-term investments $ 1,860 $ 1,954 Working capital $ 868 $ 1,737 Stockholders' equity $ 14,051 $ 14,797 A summary of our cash flows for fiscal 2022, 2021 and 2020 is as follows: (in millions) 2022 2021 2020 Net cash provided by operating activities $ 7,838 $ 7,230 $ 5,727 Net cash used for investing activities (570) (3,537) (414) Net cash used for financing activities (6,825) (4,301) (3,488) Effect of foreign currency exchange rates on cash and cash equivalents (51) (26) 3 Net change in cash and cash equivalents $ 392 $ (634) $ 1,828 Our primary source of cash is receipts from revenue. Our primary uses of cash are our stock repurchase program as described below and general business expenses including payroll, marketing and third-party hosting services. Other …"
+   },
+   {
+    "chunk_id": "ch_81efa9fe7e2f50df",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 69,
+    "text": "Cash, cash equivalents and short-term investments consisted of the following as of December 2, 2022: (in millions) Amortized Cost Unrealized Gains Unrealized Losses Estimated Fair Value Current assets: Cash $ 657 $ — $ — $ 657 Cash equivalents: Corporate debt securities 39 — — 39 Money market funds 3,479 — — 3,479 Time deposits 61 — — 61 Total cash equivalents 3,579 — — 3,579 Total cash and cash equivalents 4,236 — — 4,236 Short-term fixed income securities: Asset-backed securities 98 — (1) 97 Corporate debt securities 1,290 — (24) 1,266 Foreign government securities 5 — — 5 Municipal securities 24 — — 24 U.S. agency securities 34 — — 34 U.S. Treasury securities 450 — (16) 434 Total short-term investments 1,901 — (41) 1,860 Total cash, cash equivalents and short-term investments $ 6,137 $ — $ (41) $ 6,096 Table of Contents ADOBE INC. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 69"
+   },
+   {
+    "chunk_id": "ch_ee934cda3730c264",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 54,
+    "text": "ADOBE INC. CONSOLIDATED STATEMENTS OF INCOME (In millions, except per share data) Years Ended December 2, 2022 December 3, 2021 November 27, 2020 Revenue: Subscription $ 16,388 $ 14,573 $ 11,626 Product 532 555 507 Services and other 686 657 735 Total revenue 17,606 15,785 12,868 Cost of revenue: Subscription 1,646 1,374 1,108 Product 35 41 36 Services and other 484 450 578 Total cost of revenue 2,165 1,865 1,722 Gross profit 15,441 13,920 11,146 Operating expenses: Research and development 2,987 2,540 2,188 Sales and marketing 4,968 4,321 3,591 General and administrative 1,219 1,085 968 Amortization of intangibles 169 172 162 Total operating expenses 9,343 8,118 6,909 Operating income 6,098 5,802 4,237 Non-operating income (expense): Interest expense (112) (113) (116) Investment gains (losses), net (19) 16 13 Other income (expense), net 41 — 42 Total non-operating income (expense), net (90) (97) (61) Income before income taxes 6,008 5,705 4,176 Provision for (benefit from) income taxe…"
+   },
+   {
+    "chunk_id": "ch_f40214fbebdb5d7b",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 40,
+    "text": "Cost of revenue of $2.17 billion increased by $300 million, or 16%, during fiscal 2022, from $1.87 billion in fiscal 2021 primarily due to increases in hosting services and data center costs, as well as increases in base and incentive compensation and related benefits costs. • Operating expenses of $9.34 billion increased by $1.23 billion, or 15%, during fiscal 2022, from $8.12 billion in fiscal 2021 primarily due to increases in base and incentive compensation and related benefits costs, as well as increased marketing spend. • Cash flows from operations of $7.84 billion during fiscal 2022 increased by $608 million, or 8%, from $7.23 billion in fiscal 2021 primarily due to higher net income after adjustment for non-cash items. Revenue Revenue for fiscal 2021 benefited from an extra week in the first quarter of fiscal 2021 due to our 52/53 week financial calendar whereby fiscal 2021 was a 53-week year compared with fiscal 2022 and 2020 which were 52-week years. (dollars in millions) 202…"
+   },
+   {
+    "chunk_id": "ch_ca2a937396a5f5c8",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 65,
+    "text": "Our segment revenue and results for fiscal 2022, 2021 and 2020 were as follows: (dollars in millions) Digital Media Digital Experience Publishing and Advertising Total Fiscal 2022 Revenue $ 12,842 $ 4,422 $ 342 $ 17,606 Cost of revenue 561 1,502 102 2,165 Gross profit $ 12,281 $ 2,920 $ 240 $ 15,441 Gross profit as a percentage of revenue 96 % 66 % 70 % 88 % Fiscal 2021 Revenue $ 11,520 $ 3,867 $ 398 $ 15,785 Cost of revenue 429 1,321 115 1,865 Gross profit $ 11,091 $ 2,546 $ 283 $ 13,920 Gross profit as a percentage of revenue 96 % 66 % 71 % 88 % Fiscal 2020 Revenue $ 9,233 $ 3,125 $ 510 $ 12,868 Cost of revenue 352 1,126 244 1,722 Gross profit $ 8,881 $ 1,999 $ 266 $ 11,146 Gross profit as a percentage of revenue 96 % 64 % 52 % 87 % We generally categorize revenue by geographic area based on where the customer manages their utilization of our offerings. Revenue by geographic area for fiscal 2022, 2021 and 2020 were as follows: (in millions) 2022 2021 2020 Americas: United States $ 9,…"
+   },
+   {
+    "chunk_id": "ch_9ba6193c1a1078d3",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 75,
+    "text": "— (39) 8,500 Publishing and Advertising 398 — — 398 — — 398 Goodwill $ 10,742 $ 1,960 $ (34) $ 12,668 $ 161 $ (42) $ 12,787 _________________________________________ (1) Amounts consist of foreign currency translation adjustments. Table of Contents ADOBE INC. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 75"
+   },
+   {
+    "chunk_id": "ch_7497ca01843297b7",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 5,
+    "text": "and keeping track feedback across different channels obsolete. We are expanding the capabilities of Creative Cloud on the web with improvements to our public beta web versions of Photoshop and Illustrator, which allow subscribers to edit and review their files directly in their browser. Other new features and solutions introduced in our products include Substance 3D Modeler, a new desktop and VR application for creating 3D objects; AI-powered quick actions and social media content scheduling in Adobe Express; direct video upload from select cameras to Frame.io with Camera to Cloud; and improved AI-powered neural filters and content-aware editing in Photoshop and Lightroom. We are continuing to focus on democratizing 3D and immersive content creation with Adobe Aero and our Substance suite of products, as well as through integrating our Substance 3D capabilities into our other applications. We are pursuing new ways to inspire, empower and connect the creative community, such as through …"
+   }
+  ]
+ }
+}

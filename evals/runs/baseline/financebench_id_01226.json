@@ -1,0 +1,46 @@
+{
+ "item_id": "financebench_id_01226",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "As of FY2022, 3M's business segment operating income margins decreased year-on-year due to increases in raw materials, logistics, and special item costs for significant litigation; lower gain on sale of properties; and manufacturing productivity impacts. These were partially offset by sales growth leverage, and benefits from restructuring actions and lower related charges. Margins were also impacted by special item charges for PFAS manufacturing exit costs related to asset impairments (resulting in a 2022 fourth quarter pre-tax charge of $0.8 billion), manufacturing productivity headwinds magnified by the shutdown of certain operations in Belgium, and investments in auto electrification, which were partially offset by selling price actions, strong spending discipline, and restructuring actions.",
+ "confidence": 0.95,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_f1824e9c87b0c3f4",
+   "quote": "Business segment operating income margins decreased year-on-year due to increases in raw materials, logistics and special item costs for significant litigation; lower gain on sale of properties; and manufacturing productivity impacts that were partially offset by sales growth leverage, and benefits from restructuring actions and lower related charges.",
+   "kind": "chunk",
+   "ticker": "MMM",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 30,
+   "supports": false
+  },
+  {
+   "source_id": "ch_514192bc4b5f1151",
+   "quote": "Business segment operating income margins decreased year-on-year due to special item charges for PFAS manufacturing exit costs related to asset impairments (discussed in Note 15) resulting in a 2022 fourth quarter pre-tax charge of $0.8 billion. Margins were also impacted by increased raw materials and logistics costs, manufacturing productivity headwinds which were further magnified by the shutdown of certain operations in Belgium and investments in auto electrification, partially offset by selling price actions, strong spending discipline and restructuring actions.",
+   "kind": "chunk",
+   "ticker": "MMM",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 31,
+   "supports": false
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 1931,
+ "completion_tokens": 399,
+ "latency_ms": 1594.8,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer correctly identifies the primary drivers of the operating margin decline, including litigation costs, PFAS-related impairment charges, and manufacturing/logistics headwinds, aligning with the gold answer's core points.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

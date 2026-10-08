@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "legal proceedings",
+  "ticker": "PEP",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_b5b1ca2910f1a712",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 3",
+    "page": 26,
+    "text": "Item 3. Legal Proceedings. We and our subsidiaries are party to a variety of litigation, claims, legal or regulatory proceedings, inquiries and investigations. While the results of such litigation, claims, legal or regulatory proceedings, inquiries and investigations cannot be predicted with certainty, management believes that the final outcome of the foregoing will not have a material adverse effect on our financial condition, results of operations or cash flows. See also “Item 1. Business – Regulatory Matters” and “Item 1A. Risk Factors.” (a) (b) (b) (b) (b) (b) 24"
+   },
+   {
+    "chunk_id": "ch_b308036cf1b548fe",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 1A",
+    "page": 25,
+    "text": "which can adversely affect our business. In addition, the results of third-party studies (whether or not scientifically valid) purporting to assess the health implications of consumption of certain ingredients or substances present in certain of our products or packaging materials have resulted in and could continue to result in our being subject to new taxes and regulations or lawsuits that can adversely affect our business. Potential liabilities and costs from litigation, claims, legal or regulatory proceedings, inquiries or investigations can have an adverse impact on our business. We and our subsidiaries are party to a variety of litigation, claims, legal or regulatory proceedings, inquiries and investigations, including but not limited to matters related to our advertising, marketing or commercial practices, product labels, claims and ingredients, personal injury and property damage, intellectual property rights, privacy, employment, tax and insurance matters, environmental, socia…"
+   },
+   {
+    "chunk_id": "ch_4b5a56ddd11da7ea",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 16",
+    "page": 134,
+    "text": "another enterprise, against expenses (including attorneys' fees), judgments, fines and amounts paid in settlement actually and reasonably incurred by such person in connection with such action, suit or proceeding. Pursuant to our By-Laws this indemnification may, at the Board's discretion, also include advancement of expenses prior to the final disposition of such action, suit or proceeding. In addition, we have entered into indemnification agreements with each of our independent directors, pursuant to which we have agreed to indemnify and hold harmless, to the full extent permitted by law, each director against any and all liabilities and assessments (including attorneys' fees and other costs, expenses and obligations) arising out of or related to any threatened, pending or completed action, suit, proceeding, inquiry or investigation, whether civil, criminal, administrative, or other, including, but not limited to, judgments, fines, penalties and amounts paid in settlement (whether wi…"
+   },
+   {
+    "chunk_id": "ch_abb07f89c6f0b9a8",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 16",
+    "page": 162,
+    "text": "We may elect to have our obligations under the indenture discharged with respect to the outstanding notes of any series (“legal defeasance”). Legal defeasance means that we will be deemed to have paid and discharged the entire indebtedness represented by the outstanding notes of such series under the indenture, except for: • the rights of holders of the notes to receive principal, interest and any premium when due; • our obligations with respect to the notes concerning issuing temporary notes, registration of transfer of the notes, mutilated, destroyed, lost or stolen notes and the maintenance of an office or agency for payment for security payments held in trust; • the rights, powers, trusts, duties and immunities of the trustee; and • the defeasance provisions of the indenture. In addition, we may elect to have our obligations released with respect to certain covenants in the indenture (“covenant defeasance”). Any omission to comply with these obligations will not constitute a defaul…"
+   },
+   {
+    "chunk_id": "ch_da4e494a6ea9dab6",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 16",
+    "page": 163,
+    "text": "• a combination of money and U.S. government obligations (or equivalent government obligations, as applicable), in each case sufficient, in the written opinion (with respect to U.S. or equivalent government obligations or a combination of money and U.S. or equivalent government obligations, as applicable) of a nationally recognized firm of independent registered public accountants, to pay and discharge, and which shall be applied by the trustee to pay and discharge, all of the principal (including mandatory sinking fund payments), interest and any premium at the due date or maturity; • in the case of legal defeasance, we must have delivered to the trustee an opinion of counsel stating that, under then applicable federal income tax law, the holders of the notes of that series will not recognize income, gain or loss for federal income tax purposes as a result of the deposit, defeasance and discharge to be effected and will be subject to the same federal income tax as would be the case if…"
+   }
+  ]
+ }
+}

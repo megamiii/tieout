@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer reaches the same correct conclusion as the gold answer, although it cites a slightly different figure for the 2022 debt balance ($150,489 million vs $150,639 million). Given that both figures confirm a decrease in debt, the discrepancy is minor and the conclusion remains accurate.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TfUbHEXxYUypc6Wppf+u+TusizIs8tIDEWc0AL98DSnZoQh98sE0SuBga9IE+xsq2RRFBCO07UYhQyKhJnkuMYvyPJcIiPOpfsJtMNKRxT7oQcAn7OoFV89LzdcaQ9mX5Jqpk8Gi/RrNyZ4jT"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493010,
+  "id": "hgPIasvEMMGwnsEPu9iD4AE",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 80,
+   "prompt_tokens": 251,
+   "total_tokens": 331
+  }
+ }
+}

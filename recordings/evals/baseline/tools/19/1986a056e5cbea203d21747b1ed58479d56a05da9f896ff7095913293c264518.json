@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "You are an investment banker and your only resource(s) to answer the following question is (are): the statement of financial position and the cash flow statement. Here's the question: what is the FY2015 operating cash flow ratio for Adobe? Operating cash flow ratio is defined as: cash from operations / total current liabilities. Round your answer to two decimal places.",
+  "ticker": "ADBE",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_b58c214c5b629429",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 63,
+    "text": "63 ADOBE SYSTEMS INCORPORATED CONSOLIDATED STATEMENTS OF CASH FLOWS (In thousands) Years Ended November 27, 2015 November 28, 2014 November 29, 2013 Cash flows from operating activities: Net income..................................................................................................................... $ 629,551 $ 268,395 $ 289,985 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and accretion................................................................. 339,473 313,590 321,227 Stock-based compensation ....................................................................................... 335,859 333,701 328,987"
+   },
+   {
+    "chunk_id": "ch_12168f8ccc611a8c",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 52,
+    "text": "52 Cash Flows from Investing Activities For fiscal 2015, net cash used for investing activities of $1.49 billion was primarily due to purchases of short-term investments and our acquisition of Fotolia. Other uses of cash during fiscal 2015 represented purchases of property and equipment, and long- term investments and other assets. These cash outflows were offset in part by sales and maturities of short-term investments and proceeds received from the sale of certain property assets. See Note 2 and Note 6 of our Consolidated Financial Statements for more detailed information regarding our acquisition of Fotolia and sale of property assets, respectively. For fiscal 2014, net cash used for investing activities of $490.7 million was primarily due to purchases of short-term investments, purchases of property and equipment and a business acquisition. These cash outflows were offset in part by sales and maturities of short-term investments. For fiscal 2013, net cash used for investing activit…"
+   },
+   {
+    "chunk_id": "ch_9e5b59626bf228b3",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 59,
+    "text": "59 ADOBE SYSTEMS INCORPORATED CONSOLIDATED BALANCE SHEETS (In thousands, except par value) November 27, 2015 November 28, 2014 ASSETS Current assets: Cash and cash equivalents.................................................................................................................... $ 876,560 $ 1,117,400 Short-term investments ........................................................................................................................ 3,111,524 2,622,091 Trade receivables, net of allowances for doubtful accounts of $7,293 and $7,867, respectively........ 672,006 591,800"
+   },
+   {
+    "chunk_id": "ch_9d26330efbe91a63",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 72,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 72 Cash, cash equivalents and short-term investments consisted of the following as of November 27, 2015 (in thousands): Amortized Cost Unrealized Gains Unrealized Losses Estimated Fair Value Current assets: Cash........................................................................................ $ 352,371 $ — $ — $ 352,371 Cash equivalents: Money market mutual funds ............................................. 482,479 — — 482,479 Municipal securities .......................................................... 1,850 — (1) 1,849 Time deposits .................................................................... 13,461 — — 13,461"
+   },
+   {
+    "chunk_id": "ch_be094f34ae6f61b8",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 73,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 73 Cash, cash equivalents and short-term investments consisted of the following as of November 28, 2014 (in thousands): Amortized Cost Unrealized Gains Unrealized Losses Estimated Fair Value Current assets: Cash........................................................................................... $ 348,283 $ — $ — $ 348,283 Cash equivalents: Money market mutual funds ................................................ 705,978 — — 705,978 Time deposits ....................................................................... 63,139 — — 63,139 Total cash equivalents........................................................ 769,117 — — 769,117"
+   },
+   {
+    "chunk_id": "ch_983043b1a44959b9",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 78,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 78 the intrinsic value of these cash flow hedges in accumulated other comprehensive income in our Consolidated Balance Sheets, until the forecasted transaction occurs. When the forecasted transaction occurs, we reclassify the related gain or loss on the cash flow hedge to revenue. In the event the underlying forecasted transaction does not occur, or it becomes probable that it will not occur, we reclassify the gain or loss on the related cash flow hedge from accumulated other comprehensive income to interest and other income (expense), net in our Consolidated Statements of Income at that time. If we do not elect hedge accounting, or the contract does not qualify for hedge accounting treatment, the changes in fair value from period to period are recorded in interest and other income (expense), net in our Consolidated Statements of Income. In December 2014, prior to issuing new long-term fixed rate debt, we…"
+   },
+   {
+    "chunk_id": "ch_9294ddcd025166a4",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 76,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 76 The fair value of our financial assets and liabilities at November 28, 2014 was determined using the following inputs (in thousands): Fair Value Measurements at Reporting Date Using Quoted Prices in Active Markets for Identical Assets Significant Other Observable Inputs Significant Unobservable Inputs Total (Level 1) (Level 2) (Level 3) Assets: Cash equivalents: Money market mutual funds ................................ $ 705,978 $ 705,978 $ — $ — Time deposits ....................................................... 63,139 63,139 — — Short-term investments: Corporate bonds and commercial paper............... 1,519,376 — 1,519,376 — Foreign government securities ............................. 4,511 — 4,511 — Marketable equity securities................................. 491 491 — — Municipal securities ............................................. 175,201 — 175,201 —"
+   },
+   {
+    "chunk_id": "ch_613861f9561373a4",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 104,
+    "text": "position of Adobe Systems Incorporated and subsidiaries as of November 27, 2015 and November 28, 2014, and the results of their operations and their cash flows for each of the years in the three-year period ended November 27, 2015, in conformity with U.S. generally accepted accounting principles. Also in our opinion, Adobe Systems Incorporated maintained, in all material respects, effective internal control over financial reporting as of November 27, 2015, based on criteria established in Internal Control - Integrated Framework (2013) issued by the COSO. (signed) KPMG LLP Santa Clara, California January 19, 2016"
+   }
+  ]
+ }
+}

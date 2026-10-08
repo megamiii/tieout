@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"$12,645 million for FY2018\",\n  \"confidence\": 1.0,\n  \"citations\": [{\"source_id\": \"ch_d2ab0b1165b3f841\", \"quote\": \"Property, plant and equipment, net 12,645 12,672\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TNjRKrxjG3QLRwi2cnD3AIu3NAc4phJAaO42jyjTI6rB+vKjfava2DXR/jK3mtmbWCwxTF7d5IVgIIDiJFH+N5Vg5ndMKm/mega/dBrhn5ntK8YpD5lnTkZ4="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492873,
+  "id": "CAPIaqaDKtzSxN8Pr-yskQo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 98,
+   "prompt_tokens": 2969,
+   "total_tokens": 3067
+  }
+ }
+}

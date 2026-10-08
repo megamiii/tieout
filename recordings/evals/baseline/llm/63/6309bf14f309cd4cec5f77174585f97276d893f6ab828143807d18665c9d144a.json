@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"As of FY22, AMD sells server microprocessors (CPUs) and graphics processing units (GPUs), data processing units (DPUs), Field Programmable Gate Arrays (FPGAs), and Adaptive System-on-Chip (SoC) products for data centers; CPUs, accelerated processing units (APUs) that integrate CPUs and GPUs, and chipsets for desktop and notebook personal computers; discrete GPUs, and semi-custom SoC products and development services; embedded CPUs, GPUs, APUs, FPGAs, and Adaptive SoC products; client processors such as AMD Ryzen, Ryzen PRO, Ryzen Threadripper, Ryzen Threadripper PRO, AMD Athlon, AMD Athlon PRO, and AMD PRO A-Series; and graphics products under brands like AMD Radeon graphics, AMD Embedded Radeon graphics, AMD Radeon PRO graphics, Radeon Instinct, and Radeon PRO V-series, as well as selling or licensing portions of its intellectual property (IP) portfolio.\",\n  \"confidence\": 0.95,\n  \"citations\": [{\"source_id\": \"ch_d4166c27e7864922\", \"quote\": \"server microprocessors (CPUs) and graphics processing units (GPUs), data processing units (DPUs), Field Programmable Gate Arrays (FPGAs), and Adaptive System-on-Chip (SoC) products for data centers; \\u2022 CPUs, accelerated processing units (APUs) that integrate CPUs and GPUs, and chipsets for desktop and notebook personal computers; \\u2022 discrete GPUs, and semi-custom SoC products and development services; and \\u2022 embedded CPUs, GPUs, APUs, FPGAs, and Adaptive SoC products. From time to time, we may also sell or license portions of our intellectual property (IP) portfolio.\"}, {\"source_id\": \"ch_14f332cffcf58250\", \"quote\": \"Our client processors include: AMD Ryzen, AMD Ryzen PRO, Ryzen Threadripper, Ryzen Threadripper PRO, AMD Athlon, AMD Athlon PRO, and AMD PRO A-Series. These products service desktop and notebook personal computers. Our product brand for the consumer graphics market is AMD Radeon graphics, and AMD Embedded Radeon graphics is our product brand for the embedded graphics market. Our product brand for professional graphics products are AMD Radeon PRO graphics. Our product brands for data center graphics are Radeon Instinct, Radeon PRO V-series, a…\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TQScyekDqHmZlFBpP/q/lUdW/kCaBZLgjMZdYdp3IbTs1uCEQcty4a+YyutdpipyTACcGtQef9Hf0LmAPxv5d16ECFWuCBtDeVOcpLBBQZZ77a/ZpVyc/Oyc="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492694,
+  "id": "UgLIavaDE_iovdIPiqPDmAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 535,
+   "prompt_tokens": 1801,
+   "total_tokens": 2336
+  }
+ }
+}

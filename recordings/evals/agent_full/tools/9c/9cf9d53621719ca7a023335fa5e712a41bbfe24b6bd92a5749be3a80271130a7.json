@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "VZ",
+  "query": "current liabilities",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "VZ",
+  "concepts": [
+   {
+    "concept": "LiabilitiesCurrent",
+    "label": "Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "50171000000",
+      "fact_id": "xf_81d4d7e5bf6f9f3f",
+      "reported_in_10k_filed": "2023-02-10"
+     }
+    ]
+   },
+   {
+    "concept": "AccruedLiabilitiesCurrent",
+    "label": "Accrued Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "7824000000",
+      "fact_id": "xf_bd5c6dfcdbcd1ef8",
+      "reported_in_10k_filed": "2023-02-10"
+     }
+    ]
+   },
+   {
+    "concept": "OtherLiabilitiesCurrent",
+    "label": "Other Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "12097000000",
+      "fact_id": "xf_dae695697b10058d",
+      "reported_in_10k_filed": "2023-02-10"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, Amcor completed the following acquisitions in fiscal year 2023: \n1. On August 1, 2022, a 100% equity interest in a Czech Republic company operating a flexible packaging manufacturing plant, with a purchase consideration of $59 million.\n2. On March 17, 2023, a 100% equity interest in a medical device packaging manufacturing site in Shanghai, China, with a purchase consideration of $60 million.\n3. On May 31, 2023, a New Zealand-based manufacturer of automated protein packaging machines, with a purchase consideration of $45 million. \nThe provided passages do not contain details regarding major acquisitions for FY2022 or FY2021.\",\n  \"confidence\": 0.9,\n  \"citations\": [{\"source_id\": \"ch_a1adac249f0de09a\", \"quote\": \"On August 1, 2022, the Company completed the acquisition of 100% equity interest in a Czech Republic company that operates a world-class flexible packaging manufacturing plant. The purchase consideration of $59 million... On March 17, 2023, the Company completed the acquisition of 100% equity interest in a medical device packaging manufacturing site in Shanghai, China. The purchase consideration of $60 million\"}, {\"source_id\": \"ch_cdca9b379a363798\", \"quote\": \"On May 31, 2023, the Company completed the acquisition of a New Zealand based leading manufacturer of state-of-the-art, automated protein packaging machines. The purchase consideration of $45 million\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TBwPmaZbYbukM81XgVyFykwjcExP1KskTwRvuDZd56wnbfaaQED1/GNtLU5WjGuEdP3D7jWIo6yPrUU1kccyygX12QmWfn1jkWPgeEk+jq7Ycma4MTtbrydA="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492701,
+  "id": "XALIaq3gGLSwvdIP5K3kmQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 402,
+   "prompt_tokens": 2517,
+   "total_tokens": 2919
+  }
+ }
+}

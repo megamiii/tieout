@@ -1,0 +1,28 @@
+{
+ "item_id": "xbrl-ADBE-2016-PaymentsToAcquirePropertyPlantAndEquipment-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "needs_review",
+ "answer": "Based on the provided passages, the exact capital expenditure (purchases of property, plant and equipment) for Adobe in fiscal year 2016 is not explicitly stated with a specific numerical dollar amount.",
+ "confidence": 0.0,
+ "rationale": null,
+ "citations": [],
+ "review_reasons": [
+  "model flagged for review",
+  "confidence 0.00 is below 0.70"
+ ],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 3673,
+ "completion_tokens": 75,
+ "latency_ms": 10826.9,
+ "grade": {
+  "correct": false,
+  "method": "numeric",
+  "detail": "no figure in the answer matches the gold value",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

@@ -1,0 +1,36 @@
+{
+ "item_id": "financebench_id_00757",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "Based on the provided passages, the text mentions that concentrations of credit risk with respect to trade receivables are limited because a large number of geographically diverse customers make up the company's customer base, and that one customer accounted for approximately 18% of the total consolidated accounts receivable balance as of December 31, 2022 (implied by Note 10 in the FY2022 10-K).",
+ "confidence": 0.85,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_01fe8fea89768e09",
+   "quote": "The Company believes that concentrations of credit risk with respect to trade receivables are limited because a large number of geographically diverse customers make up the Company's customer base, thus diluting the trade credit risk. One customer accounted for approximately 18% of the total consolidated accounts receivable balance as of De…",
+   "kind": "chunk",
+   "ticker": "AMD",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 80,
+   "supports": false
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2085,
+ "completion_tokens": 212,
+ "latency_ms": 12521.5,
+ "grade": {
+  "correct": false,
+  "method": "judge",
+  "detail": "The answer fails to identify the customer concentration regarding net revenue, instead citing a figure for accounts receivable, which contradicts the gold answer's focus on revenue concentration.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Are there any product categories / service categories that represent more than 20% of Boeing's revenue for FY2022?",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_cc19595608c4e1aa",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Operations (Dollars in millions, except per share data) Years ended December 31, 2022 2021 2020 Sales of products $55,893 $51,386 $47,142 Sales of services 10,715 10,900 11,016 Total revenues 66,608 62,286 58,158 Cost of products (53,969) (49,954) (54,568) Cost of services (9,109) (9,283) (9,232) Boeing Capital interest expense (28) (32) (43) Total costs and expenses (63,106) (59,269) (63,843) 3,502 3,017 (5,685) (Loss)/income from operating investments, net (16) 210 9 General and administrative expense (4,187) (4,157) (4,817) Research and development expense, net (2,852) (2,249) (2,476) Gain on dispositions, net 6 277 202 Loss from operations (3,547) (2,902) (12,767) Other income, net 1,058 551 447 Interest and debt expense (2,533) (2,682) (2,156) Loss before income taxes (5,022) (5,033) (14,476) Income tax (expense)/benefit (31) 743 2,535 Net loss (5,053) (4,290) (11,941) Less: net loss attributable to n…"
+   },
+   {
+    "chunk_id": "ch_54aaca8411e8a11d",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 62,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Notes to the Consolidated Financial Statements Summary of Business Segment Data (Dollars in millions) Years ended December 31, 2022 2021 2020 Revenues: Commercial Airplanes $25,867 $19,493 $16,162 Defense, Space & Security 23,162 26,540 26,257 Global Services 17,611 16,328 15,543 Boeing Capital 199 272 261 Unallocated items, eliminations and other (231) (347) (65) Total revenues $66,608 $62,286 $58,158 (Loss)/earnings from operations: Commercial Airplanes ($2,370) ($6,475) ($13,847) Defense, Space & Security (3,544) 1,544 1,539 Global Services 2,727 2,017 450 Boeing Capital 29 106 63 Segment operating loss (3,158) (2,808) (11,795) Unallocated items, eliminations and other (1,532) (1,267) (2,355) FAS/CAS service cost adjustment 1,143 1,173 1,383 Loss from operations (3,547) (2,902) (12,767) Other income, net 1,058 551 447 Interest and debt expense (2,533) (2,682) (2,156) Loss before income taxes (5,022) (5,033) (14,476) Income tax (e…"
+   },
+   {
+    "chunk_id": "ch_f0cb6ba3d131e9c6",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 100,
+    "text": "Table of Contents December 31, 2022 December 31, 2021 Total Level 1 Level 2 Level 3 Total Level 1 Level 2 Level 3 Fixed income securities: Corporate $15,095 $15,025 $70 $20,573 $20,520 $53 U.S. government and agencies 7,827 7,827 11,285 11,285 Mortgage backed and asset backed 664 502 162 777 675 102 Municipal 843 811 32 1,064 1,035 29 Sovereign 706 706 1,135 1,126 9 Other 8 $8 3 $3 Derivatives: Assets 36 36 62 62 Liabilities (87) (87) (48) (48) Cash equivalents and other short-term investments 571 571 448 448 Equity securities: U.S. common and preferred stock 2,931 2,931 4,463 4,463 Non-U.S. common and preferred stock 2,023 2,023 3,345 3,340 5 Boeing company stock 1,782 1,782 1,883 1,883 Derivatives: Assets 1 1 Liabilities (1) (1) (1) (1) Private equity Real estate and real assets: Real estate 413 413 Real assets 362 310 47 5 784 749 35 Derivatives: Assets 1 1 8 8 Liabilities (8) (7) (1) (2) (2) Total $32,753 $7,054 $25,431 $268 $46,193 $10,851 $35,144 $198 Fixed income common/collecti…"
+   },
+   {
+    "chunk_id": "ch_106a3b3674ea94d5",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 116,
+    "text": "Table of Contents BGS revenues consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: Commercial $9,560 $7,527 $6,936 Government 7,681 8,553 8,368 Total revenues from contracts with customers 17,241 16,080 15,304 Intersegment revenues eliminated on consolidation 370 248 239 Total segment revenues $17,611 $16,328 $15,543 Revenue recognized at a point in time 50 % 45 % 47 % Revenue recognized on fixed-price contracts 88 % 86 % 87 % Revenue from the U.S. government 33 % 40 % 41 % Includes revenues earned from foreign military sales through the U.S. government. Earnings in Equity Method Investments For the year ended December 31, 2022, our share of income from equity method investments was $56, primarily driven by investments held in Unallocated items, eliminations and other. For the years ended December 31, 2021 and 2020, our share of income from equity method investments was $40 and $86, primarily in our BDS segment. Backlog Our total b…"
+   },
+   {
+    "chunk_id": "ch_64f168f59c555e1b",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Financial Position (Dollars in millions, except per share data) December 31, 2022 2021 Assets Cash and cash equivalents $14,614 $8,052 Short-term and other investments 2,606 8,192 Accounts receivable, net 2,517 2,641 Unbilled receivables, net 8,634 8,620 Current portion of customer financing, net 154 117 Inventories 78,151 78,823 Other current assets, net 2,847 2,221 Total current assets 109,523 108,666 Customer financing, net 1,450 1,695 Property, plant and equipment, net 10,550 10,918 Goodwill 8,057 8,068 Acquired intangible assets, net 2,311 2,562 Deferred income taxes 63 77 Investments 983 975 Other assets, net of accumulated amortization of $949 and $975 4,163 5,591 Total assets $137,100 $138,552 Liabilities and equity Accounts payable $10,200 $9,261 Accrued liabilities 21,581 18,455 Advances and progress billings 53,081 52,980 Short-term debt and current portion of long-term debt 5,190 1,296 Total cu…"
+   },
+   {
+    "chunk_id": "ch_fb6b1cda9b1186b7",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 3,
+    "text": "Item 1. Business The Boeing Company, together with its subsidiaries (herein referred to as “Boeing,” the “Company,” “we,” “us,” “our”), is one of the world's major aerospace firms. We are organized based on the products and services we offer. We operate in four reportable segments: • Commercial Airplanes (BCA); • Defense, Space & Security (BDS); • Global Services (BGS); • Boeing Capital (BCC). Commercial Airplanes Segment This segment develops, produces and markets commercial jet aircraft principally to the commercial airline industry worldwide. We are a leading producer of commercial aircraft and offer a family of commercial jetliners designed to meet a broad spectrum of global passenger and cargo requirements of airlines. This family of commercial jet aircraft in production includes the 737 narrow-body model and the 767, 777 and 787 wide- body models. We ended production of the 747 wide-body model in 2022. Development continues on the 777X program and the 737-7 and 737- 10 derivative…"
+   },
+   {
+    "chunk_id": "ch_5d78669497b1d576",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 24,
+    "text": "Table of Contents Consolidated Results of Operations The following table summarizes key indicators of consolidated results of operations: (Dollars in millions, except per share data) Years ended December 31, 2022 2021 2020 Revenues $66,608 $62,286 $58,158 GAAP Loss from operations ($3,547) ($2,902) ($12,767) Operating margins (5.3) % (4.7) % (22.0) % Effective income tax rate (0.6) % 14.8 % 17.5 % Net loss attributable to Boeing Shareholders ($4,935) ($4,202) ($11,873) Diluted loss per share ($8.30) ($7.15) ($20.88) Non-GAAP Core operating loss ($4,690) ($4,075) ($14,150) Core operating margins (7.0 %) (6.5 %) (24.3 %) Core loss per share ($11.06) ($9.44) ($23.25) These measures exclude certain components of pension and other postretirement benefit expense. See pages 45 - 47 for important information about these non-GAAP measures and reconciliations to the most directly comparable GAAP measures. Revenues The following table summarizes Revenues: (Dollars in millions) Years ended Decembe…"
+   },
+   {
+    "chunk_id": "ch_c0ec956f9687e5a4",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 59,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Cash Flows (Dollars in millions) Years ended December 31, 2022 2021 2020 Cash flows – operating activities: Net loss ($5,053) ($4,290) ($11,941) Adjustments to reconcile net loss to net cash used by operating activities: Non-cash items – Share-based plans expense 725 833 250 Treasury shares issued for 401(k) contribution 1,215 1,233 195 Depreciation and amortization 1,979 2,144 2,246 Investment/asset impairment charges, net 112 98 410 Customer financing valuation adjustments 37 12 Gain on dispositions, net (6) (277) (202) 787 and 777X reach-forward losses 3,460 6,493 Other charges and credits, net 364 360 1,462 Changes in assets and liabilities – Accounts receivable 142 (713) 909 Unbilled receivables 6 (586) 919 Advances and progress billings 108 2,505 (1,060) Inventories 420 (1,127) (11,002) Other current assets (591) 345 372 Accounts payable 838 (3,783) (5,363) Accrued liabilities 2,956 (3,687) 1,074 Inc…"
+   }
+  ]
+ }
+}

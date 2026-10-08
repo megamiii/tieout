@@ -1,0 +1,28 @@
+{
+ "item_id": "financebench_id_03856",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "needs_review",
+ "answer": "Based on the provided passages, the cash from operations for Adobe in FY2017 is not explicitly stated as a single total sum in the cash flow statement excerpt, so the operating cash flow ratio cannot be calculated solely from these fragments.",
+ "confidence": 0.0,
+ "rationale": null,
+ "citations": [],
+ "review_reasons": [
+  "model flagged for review",
+  "confidence 0.00 is below 0.70"
+ ],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 3556,
+ "completion_tokens": 82,
+ "latency_ms": 1139.0,
+ "grade": {
+  "correct": false,
+  "method": "numeric",
+  "detail": "no figure in the answer matches the gold value",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

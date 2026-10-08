@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"$411 million\",\n  \"confidence\": 0.9,\n  \"citations\": [{\"source_id\": \"ch_45a2cd756f9a96f4\", \"quote\": \"Total restructuring and impairment charges $ 411 $ 247 $ 289\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T+F3ALIjT8FT5GFfSbyuxSaGSHLG0udaDWykX/aaVX2TADZOsF8jYWefU2F5xlq4a7gyyvXVKgGUS7zbHvaZ5T5dLwxyJXpXVRrozEYdXetNqnceO2rA6QRI="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492755,
+  "id": "kwLIaqbxC7Ltxs0PtJP4yAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 88,
+   "prompt_tokens": 2676,
+   "total_tokens": 2764
+  }
+ }
+}

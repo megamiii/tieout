@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TKVJgNwQDCB7pWFXUgZ3/xfWssp5jP08qmd2V26Tjxvqh5m7EE/oOXkfJED4yguO7li7Bfp7A6Pjktoaa8KQ9pu0fge5Zza4MSWT5iYi4eNhgt7FIb16YUPo="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_years\":[2021,2022],\"ticker\":\"VZ\",\"query\":\"total debt\"}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_1064366",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494863,
+  "id": "zwrIatLgE6rNnsEP8JCcoAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 1860,
+   "total_tokens": 1899
+  }
+ }
+}

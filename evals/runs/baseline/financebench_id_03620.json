@@ -1,0 +1,28 @@
+{
+ "item_id": "financebench_id_03620",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "needs_review",
+ "answer": "",
+ "confidence": 0.0,
+ "rationale": null,
+ "citations": [],
+ "review_reasons": [
+  "model flagged for review",
+  "confidence 0.00 is below 0.70"
+ ],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2054,
+ "completion_tokens": 35,
+ "latency_ms": 1038.6,
+ "grade": {
+  "correct": false,
+  "method": "no_answer",
+  "detail": "no answer produced",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

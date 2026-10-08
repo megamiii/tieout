@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What was Adobe's capital expenditure (purchases of property, plant and equipment) in fiscal year 2015? Answer in USD millions.",
+  "ticker": "ADBE",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_2881456ad64a5f53",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 50,
+    "text": "50 Provision for Income Taxes (dollars in millions) Fiscal 2015 Fiscal 2014 Fiscal 2013 % Change 2015-2014 % Change 2014-2013 Provision ..................................................................... $ 244.2 $ 93.0 $ 66.2 163% 40% Percentage of total revenue....................................... 5% 2% 2% Effective tax rate....................................................... 28% 26% 19% Our effective tax rate increased by approximately two percentage points during fiscal 2015 as compared to fiscal 2014. The increase was primarily due to tax costs associated with licensing acquired company assets to Adobe's trading companies. The increase was partially offset by tax benefits related to the reinstatement of the federal research and development tax credit in December 2014. The reinstatement of the credit was retroactive to January 1, 2014. Our effective tax rate increased by approximately seven percentage points during fiscal 2014 as compared to fiscal 2013. The increase was prim…"
+   },
+   {
+    "chunk_id": "ch_12e8b9ecbd93d50a",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 54,
+    "text": "Purchase obligations ................................................. 419.8 341.3 74.6 3.9 — Total........................................................................ $ 3,006.1 $ 456.1 $ 282.2 $ 1,076.2 $ 1,191.6 Senior Notes In January 2015, we issued the 2025 Notes and settled the 2015 Notes. As of November 27, 2015, our outstanding notes payable consists of the 2020 Notes and 2025 Notes with a total carrying value of $1.91 billion. At November 27, 2015, our"
+   },
+   {
+    "chunk_id": "ch_1d56a97319c8f4b7",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 80,
+    "text": "Less accumulated depreciation and amortization ......................................................... (971,195) (914,034) Property and equipment, net....................................................................................... $ 787,421 $ 785,123 Depreciation and amortization expense of property and equipment for fiscal 2015, 2014 and 2013 was $146.3 million, $144.2 million and $144.7 million, respectively. In the second quarter of fiscal 2015, management approved a plan to sell land and an unoccupied building located in San Jose, California. The total carrying value of the property assets was $36.3 million which mostly pertained to the land. The decision to sell these property assets was largely based upon a general lack of operational needs for the building and land, and recent improvements in market conditions for commercial real estate in the area. We began to actively market the assets during the second quarter of fiscal 2015 and finalized the sale of these assets on …"
+   },
+   {
+    "chunk_id": "ch_3754c8fbfb6fd1b7",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 83,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 83 The provision for income taxes for fiscal 2015, 2014 and 2013 consisted of the following (in thousands): 2015 2014 2013 Current: United States federal .............................................................................................. $ 204,834 $ 26,822 $ (53,985) Foreign ................................................................................................................... 52,125 51,684 65,609 State and local ........................................................................................................ (14,975) 4,713 3,317"
+   },
+   {
+    "chunk_id": "ch_61e461528da204c1",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 80,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 80 NOTE 6. PROPERTY AND EQUIPMENT Property and equipment, net consisted of the following as of November 27, 2015 and November 28, 2014 (in thousands): 2015 2014 Computers and equipment ............................................................................................ $ 940,057 $ 855,218 Furniture and fixtures.................................................................................................... 89,434 82,385 Server hardware under capital lease.............................................................................. — 25,703"
+   },
+   {
+    "chunk_id": "ch_6b3722c924638362",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 102,
+    "text": "Cost of revenue............................................ 170,788 404,804 10,965 586,557 Gross profit.................................................. $ 2,455,125 $ 824,064 $ 189,494 $ 3,468,683 Gross profit as a percentage of revenue ...... 93% 67% 95% 86% The tables below list our revenue and property and equipment, net, by geographic area for fiscal 2015, 2014 and 2013 (in thousands). With the exception of property and equipment, we do not identify or allocate our assets (including long-lived assets) by geographic area. Revenue 2015 2014 2013 Americas: United States ............................................................................. $ 2,548,024 $ 2,115,148 $ 1,935,429"
+   },
+   {
+    "chunk_id": "ch_12168f8ccc611a8c",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 52,
+    "text": "52 Cash Flows from Investing Activities For fiscal 2015, net cash used for investing activities of $1.49 billion was primarily due to purchases of short-term investments and our acquisition of Fotolia. Other uses of cash during fiscal 2015 represented purchases of property and equipment, and long- term investments and other assets. These cash outflows were offset in part by sales and maturities of short-term investments and proceeds received from the sale of certain property assets. See Note 2 and Note 6 of our Consolidated Financial Statements for more detailed information regarding our acquisition of Fotolia and sale of property assets, respectively. For fiscal 2014, net cash used for investing activities of $490.7 million was primarily due to purchases of short-term investments, purchases of property and equipment and a business acquisition. These cash outflows were offset in part by sales and maturities of short-term investments. For fiscal 2013, net cash used for investing activit…"
+   },
+   {
+    "chunk_id": "ch_8fd1c8b770c940e0",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 81,
+    "text": "Purchased and other intangible assets, net ..................................................................................... $ 510,007 $ 469,662 Purchased and other intangible assets subject to amortization as of November 27, 2015 and November 28, 2014 were as follows (in thousands): 2015 2014 Cost Accumulated Amortization Net Cost Accumulated Amortization Net Purchased technology........................... $ 199,053 $ (104,704) $ 94,349 $ 405,208 $ (264,697) $ 140,511 Customer contracts and relationships... $ 506,639 $ (204,578) $ 302,061 $ 376,994 $ (143,330) $ 233,664 Trademarks........................................... 81,219 (41,175) 40,044 67,268 (36,516) 30,752 Acquired rights to use technology........ 144,202 (100,278) 43,924 148,836 (86,258) 62,578"
+   }
+  ]
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "ADBE",
+  "query": "capital expenditures",
+  "concept": null,
+  "fiscal_years": [
+   2022,
+   2021,
+   2020
+  ]
+ },
+ "output": {
+  "ticker": "ADBE",
+  "concepts": [
+   {
+    "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "label": "Payments to Acquire Property, Plant, and Equipment",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-04..2022-12-02",
+      "value": "442000000",
+      "fact_id": "xf_614ea9aafa8b6865",
+      "reported_in_10k_filed": "2023-01-17"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2020-11-28..2021-12-03",
+      "value": "348000000",
+      "fact_id": "xf_2f4be6f22f55f295",
+      "reported_in_10k_filed": "2022-01-21"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "2019-11-30..2020-11-27",
+      "value": "419000000",
+      "fact_id": "xf_4ec4b6cdc82fbe67",
+      "reported_in_10k_filed": "2021-01-15"
+     }
+    ]
+   },
+   {
+    "concept": "CapitalizedContractCostAmortization",
+    "label": "Capitalized Contract Cost, Amortization",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-04..2022-12-02",
+      "value": "238000000",
+      "fact_id": "xf_06fd1c38990bc918",
+      "reported_in_10k_filed": "2023-01-17"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2020-11-28..2021-12-03",
+      "value": "212000000",
+      "fact_id": "xf_588dd9fbf382494a",
+      "reported_in_10k_filed": "2022-01-21"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "2019-11-30..2020-11-27",
+      "value": "186000000",
+      "fact_id": "xf_4dd0012c1923aea4",
+      "reported_in_10k_filed": "2021-01-15"
+     }
+    ]
+   },
+   {
+    "concept": "AdditionalPaidInCapital",
+    "label": "Additional Paid in Capital",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-02",
+      "value": "9868000000",
+      "fact_id": "xf_cbecac940a346f9b",
+      "reported_in_10k_filed": "2023-01-17"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "as of 2021-12-03",
+      "value": "8428000000",
+      "fact_id": "xf_5b493ce0b8103638",
+      "reported_in_10k_filed": "2022-01-21"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "as of 2020-11-27",
+      "value": "7357000000",
+      "fact_id": "xf_f7a02cbea605ca02",
+      "reported_in_10k_filed": "2021-01-15"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Does AMCOR have an improving gross margin profile as of FY2023? If gross margin is not a useful metric for a company like this, then state that and explain why.",
+  "ticker": "AMCR",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_913f79e45a173206",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 35,
+    "text": "This adjusted information should not be construed as an alternative to results determined in accordance with U.S. GAAP. We use the non- GAAP measures to evaluate operating performance and believe that these non-GAAP measures are useful to enable investors and other external parties to perform comparisons of our current and historical performance. A reconciliation of reported net income attributable to Amcor plc to Adjusted EBIT and adjusted net income for fiscal years 2023, 2022, and 2021 is as follows: Years ended June 30, ($ in millions) 2023 2022 2021 Net income attributable to Amcor plc, as reported $ 1,048 $ 805 $ 939 Add: Net income attributable to non-controlling interests 10 10 12 Net income 1,058 815 951 Add: Income tax expense 193 300 261 Add: Interest expense 290 159 153 Less: Interest income (31) (24) (14) EBIT 1,510 1,250 1,351 Add: 2018/2019 Restructuring programs (1) — 37 88 Add: Amortization of acquired intangible assets from business combinations (2) 160 163 165 Add: I…"
+   },
+   {
+    "chunk_id": "ch_e00b19f38d6d2d3f",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 35,
+    "text": "Presentation of Non-GAAP Information This Annual Report on Form 10-K refers to non-GAAP financial measures: adjusted earnings before interest and taxes (\"Adjusted EBIT\"), earnings before interest and tax (\"EBIT\"), adjusted net income, and net debt. Such measures have not been prepared in accordance with accounting principles generally accepted in the United States of America (\"U.S. GAAP\"). These non-GAAP financial measures adjust for factors that are unusual or unpredictable. These measures exclude the impact of certain amounts related to the effect of changes in currency exchange rates, acquisitions, and restructuring, including employee related costs, equipment relocation costs, accelerated depreciation, and the write-down of equipment. These measures also exclude gains or losses on sales of significant property and divestitures, significant property and other impairments, net of insurance recovery, certain regulatory and litigation matters, significant pension settlements, impairmen…"
+   },
+   {
+    "chunk_id": "ch_2bba86d92f1fb602",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 50,
+    "text": "Amcor plc and Subsidiaries Consolidated Statements of Income ($ in millions, except per share data) For the years ended June 30, 2023 2022 2021 Net sales $ 14,694 $ 14,544 $ 12,861 Cost of sales (11,969) (11,724) (10,129) Gross profit 2,725 2,820 2,732 Selling, general, and administrative expenses (1,246) (1,284) (1,292) Research and development expenses (101) (96) (100) Restructuring, impairment, and other related activities, net 104 (234) (94) Other income, net 26 33 75 Operating income 1,508 1,239 1,321 Interest income 31 24 14 Interest expense (290) (159) (153) Other non-operating income, net 2 11 11 Income before income taxes and equity in income of affiliated companies 1,251 1,115 1,193 Income tax expense (193) (300) (261) Equity in income of affiliated companies, net of tax — — 19 Net income $ 1,058 $ 815 $ 951 Net income attributable to non-controlling interests (10) (10) (12) Net income attributable to Amcor plc $ 1,048 $ 805 $ 939 Basic earnings per share: Basic earnings per …"
+   },
+   {
+    "chunk_id": "ch_1e6acd1a888f235c",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 32,
+    "text": "Diluted earnings per share (\"Diluted EPS\") increased by $0.176, or 33%, in fiscal year 2023, compared to fiscal year 2022, with net income attributable to ordinary shareholders increasing by 30% and the diluted weighted-average number of shares outstanding decreasing by 3%. The decrease in the diluted weighted-average number of shares outstanding was due to the repurchase of shares under announced share buyback programs. Segment Results of Operations Flexibles Segment ($ in millions) 2023 2022 Net sales $ 11,154 $ 11,151 Adjusted EBIT 1,429 1,517 Adjusted EBIT as a percentage of net sales 12.8 % 13.6 % Net sales increased by $3 million, or 0%, in fiscal year 2023, compared to fiscal year 2022. Excluding the pass-through of higher raw material costs of $516 million, negative currency impacts of $404 million, and the negative impact of disposed and ceased operations of $207 million, the remaining variation in net sales for the fiscal year 2023 was an increase of $98 million, or 1%, refle…"
+   },
+   {
+    "chunk_id": "ch_dcf3eaf91ef32f66",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 1A",
+    "page": 21,
+    "text": "dependent, in part, on prevailing economic and competitive conditions and certain legislative, regulatory, and other factors beyond our control. If we are unable to maintain sufficient cash flows from operations to meet our debt commitments, our financial condition and results of operations are likely to be materially adversely impacted. We use cash provided by operations, commercial paper issuances, bank term loans, committed and uncommitted revolving credit facilities, debt issuances, and equity issuances to meet our funding needs. Credit rating agencies rate our debt securities on many factors, including our financial results, their view of the general outlook for our industry, and their view of the general outlook for the global economy. Any significant additional indebtedness would likely negatively affect the credit ratings of our debt. Actions taken by the rating agencies include maintaining, upgrading, or downgrading the current rating or placing us on a watch list for a possib…"
+   },
+   {
+    "chunk_id": "ch_c0b687348702b7d5",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 33,
+    "text": "for the fiscal year 2023 was a decrease of $91 million, or (3%), reflecting price/mix benefits of approximately 1%, offset by unfavorable volumes (4%). Adjusted EBIT decreased by $24 million, or 8%, in fiscal year 2023, compared to fiscal year 2022. Excluding negative currency impacts of $2 million, the remaining variation in adjusted EBIT for the fiscal year 2023 was a decrease of $22 million, or 8%, with favorable price/mix of 20%, more than offset by unfavorable volumes of (12%), unfavorable plant costs of (11%) and unfavorable SG&A and other costs of (5%), all largely impacted by inflationary pressures. Consolidated Gross Profit ($ in millions) 2023 2022 Gross profit $ 2,725 $ 2,820 Gross profit as a percentage of net sales 18.5 % 19.4 % Gross profit decreased by $95 million, or 3%, in fiscal year 2023, compared to fiscal year 2022. Excluding negative currency impacts of $78 million, the negative impact from disposed and ceased operations of $73 million, the remaining variation in …"
+   },
+   {
+    "chunk_id": "ch_eeaa8ee2c816a471",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 61,
+    "text": "accrue or disclose uncertain tax positions. In making these assessments, management must often analyze complex tax laws of multiple jurisdictions. Accounting guidance prescribes a recognition threshold and measurement attribute for the financial statement recognition and measurement of a tax position taken or expected to be taken in a tax return. The Company records the related interest expense and penalties, if any, as tax expense in the tax provision. See Note 17, \"Income Taxes,\" for more information on the Company's income taxes. 61"
+   },
+   {
+    "chunk_id": "ch_6bf4cb818f2f5a9d",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Note 2 - Significant Accounting Policies Basis of Presentation and Principles of Consolidation: The consolidated financial statements include the accounts of the Company and its subsidiaries, for which the Company has a controlling financial interest. All significant intercompany transactions and balances have been eliminated. The consolidated financial statements are prepared in accordance with accounting principles generally accepted in the United States of America (\"U.S. GAAP\"). The Company reclassified prior year inventory comparatives in the condensed consolidated balance sheets to conform to the current year's presentation which provides the breakdown of inventory. This change in presentation did not have an impact on the Company's financial condition or operating results. Certain amounts in the Company's notes to consolidated financial statements may not add up or recalculate due to rounding. Business Combinations: The Company uses the acquisition method of accounting, which req…"
+   }
+  ]
+ }
+}

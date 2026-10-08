@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Has Boeing reported any materially important ongoing legal battles from FY2022?",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_f8fc5ef01eba0774",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 3",
+    "page": 20,
+    "text": "Item 3. Legal Proceedings Currently, we are involved in a number of legal proceedings. For a discussion of contingencies related to legal proceedings, see Note 21 to our Consolidated Financial Statements, which is hereby incorporated by reference."
+   },
+   {
+    "chunk_id": "ch_87c7e84ed08663db",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 113,
+    "text": "Table of Contents based upon current information, that the outcome of any such legal proceeding, claim, or government dispute and investigation will not have a material effect on our financial position, results of operations or cash flows. Where it is reasonably possible that we will incur losses in excess of recorded amounts in connection with any of the matters set forth below, we will disclose either the amount or range of reasonably possible losses in excess of such amounts or, where no such amount or range can be reasonably estimated, the reasons why no such estimate can be made. Multiple legal actions have been filed against us as a result of the October 29, 2018 accident of Lion Air Flight 610 and the March 10, 2019 accident of Ethiopian Airlines Flight 302. During 2021, we entered into (i) a Deferred Prosecution Agreement with the U.S. Department of Justice that resolved the Department of Justice's previously disclosed investigation into us regarding the evaluation of the 737 M…"
+   },
+   {
+    "chunk_id": "ch_6672471beaad8837",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 29,
+    "text": "unobligated backlog in 2022 was primarily due to contract awards, partially offset by reclassifications to contractual backlog related to BDS and BGS contracts. Additional Considerations Global Trade We continually monitor the global trade environment in response to geopolitical economic developments, as well as changes in tariffs, trade agreements or sanctions that may impact the Company. The current state of U.S.-China relations remains an ongoing watch item. Since 2018, the U.S. and China have imposed tariffs on each other's imports. Certain aircraft parts and components that Boeing procures are subject to these tariffs. We are mitigating import costs through Duty Drawback Customs procedures. China is a significant market for commercial aircraft. Boeing has long-standing relationships with our Chinese customers, who represent a key component of our commercial aircraft backlog. Overall, the U.S.-China trade relationship remains stalled as economic and national security concerns conti…"
+   },
+   {
+    "chunk_id": "ch_d301e179d5b38289",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "front",
+    "page": 2,
+    "text": "Table of Contents THE BOEING COMPANY Index to the Form 10-K For the Fiscal Year Ended December 31, 2022 PART I Page Item 1. Business 1 Item 1A. Risk Factors 6 Item 1B. Unresolved Staff Comments 17 Item 2. Properties 18 Item 3. Legal Proceedings 18 Item 4. Mine Safety Disclosures 18 PART II Item 5. Market for Registrant's Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities 19 Item 6. [Reserved] 19 Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations 20 Item 7A. Quantitative and Qualitative Disclosures About Market Risk 51 Item 8. Financial Statements and Supplementary Data 52 Item 9. Changes in and Disagreements With Accountants on Accounting and Financial Disclosure 122 Item 9A. Controls and Procedures 122 Item 9B. Other Information 122 Item 9C. Disclosure Regarding Foreign Jurisdictions that Prevent Inspections 122 PART III Item 10. Directors, Executive Officers and Corporate Governance 123 Item 11. Executive Co…"
+   },
+   {
+    "chunk_id": "ch_d1744f094fc2ed7e",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 37,
+    "text": "Table of Contents Defense, Space & Security Business Environment and Trends United States Government Defense Environment Overview The Consolidated Appropriations Act, 2023, enacted in December 2022, provided fiscal year 2023 (FY23) appropriations for government departments and agencies, including $817 billion for the U.S. DoD and $25.4 billion for NASA. The enacted FY23 appropriations included funding for Boeing's major programs, including the F/A-18 Super Hornet, F-15EX, CH-47 Chinook, AH-64 Apache, V-22 Osprey, KC-46A Tanker, MQ-25, and the Space Launch System. The FY23 appropriations support F/A-18 production further into calendar year 2025. The FY23 appropriations did not include funding for additional P-8 aircraft. The P-8 program continues to pursue additional sales opportunities to extend production beyond 2024. There is ongoing uncertainty with respect to program-level appropriations for the U.S. DoD, NASA and other government agencies for fiscal year 2024 and beyond. U.S. gove…"
+   },
+   {
+    "chunk_id": "ch_9ac80ecf8ce1c07d",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 23,
+    "text": "As a result of the war in Ukraine, we recorded earnings charges totaling $212 million during the first quarter of 2022, primarily related to asset impairments. We have closed our facilities in Russia. We are focused on the safety of our employees and retaining the strength of our engineering talent through voluntary transfers to other countries. We have also suspended our business in Russia, including parts, maintenance and technical support for Russian airlines, and purchases from Russian suppliers. We are complying with U.S. and international sanctions and export control restrictions. We have sufficient material and parts to avoid production disruptions in the near-term, but future impacts to our production from disruptions in our supply chain are possible. The war in Ukraine continues to impact our airline and lessor customers. We continue to monitor developments and potential Boeing impacts, and take mitigating actions as appropriate. 21"
+   },
+   {
+    "chunk_id": "ch_6acac840694fe0ee",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 119,
+    "text": "Table of Contents REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM To the shareholders and the Board of Directors of The Boeing Company Opinion on the Financial Statements We have audited the accompanying consolidated statements of financial position of The Boeing Company and subsidiaries (the \"Company\") as of December 31, 2022 and 2021, the related consolidated statements of operations, comprehensive income, equity, and cash flows, for each of the three years in the period ended December 31, 2022, and the related notes (collectively referred to as the \"financial statements\"). In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of December 31, 2022 and 2021, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2022, in conformity with accounting principles generally accepted in the United States of America. We have also audited, in accordance with …"
+   },
+   {
+    "chunk_id": "ch_25e474d33c7df94f",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 15",
+    "page": 132,
+    "text": "Item 15. Exhibits and Financial Statement Schedules (a) List of documents filed as part of this report: 1. Financial Statements Our consolidated financial statements are as set forth under Item 8 of this report on Form 10-K. 2. Financial Statement Schedules All schedules are omitted because they are not applicable, not required or the information is included in the consolidated financial statements. 3. Exhibits 3.1 Amended and Restated Certificate of Incorporation of The Boeing Company dated May 5, 2006 (Exhibit 3.1 to the Company's Current Report on Form 8-K dated May 1, 2006) 3.2 By-Laws of The Boeing Company, as amended and restated, effective June 28, 2022 (Exhibit 3.2 to the Company's Form 10-Q for the quarter ended June 30, 2022) 4.1 Description of The Boeing Company Securities Registered under Section 12 of the Exchange Act (Exhibit 4.1 to the Company's Form 10-K for the year ended December 31, 2019) 10.1 364-Day Credit Agreement, dated as of August 25, 2022, among The Boeing Co…"
+   }
+  ]
+ }
+}

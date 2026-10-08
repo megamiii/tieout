@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the necessary figure for Cost of Goods Sold (COGS) for FY2020 is not included in the text. Therefore, the FY2020 days payable outstanding (DPO) cannot be calculated from the given passages alone.\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T1Tv/e+nTlHDAPs9ipB9vcEgw1o/L1UICNodAZL/236h1+MfXJlBM4dHNXtWIUMZP+9v9kIOrU7AGBu/0E7hXX/ix7fzM5l40aqVpZZWLMKQLsZPNMLg6fds="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492864,
+  "id": "AAPIap_IBr6e28oP0-bPgA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 89,
+   "prompt_tokens": 2568,
+   "total_tokens": 2657
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Boeing had a net loss in both fiscal years 2021 and 2022 (representing a negative net income), with the net loss increasing from $4,290 million in 2021 to $5,053 million in 2022, which is an increase in the net loss of 17.8%.\",\n  \"confidence\": 0.9,\n  \"citations\": [{\"source_id\": \"ch_1908872c8c93b9bc\", \"quote\": \"Net loss ($5,053) ($4,290)\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T0iOapNWeo8Bx8k8QIMf+1j88/3NygNByy9Y/5XukA8WkuG1Rt/RGB+Z7VtQg37cOAuDgz6vzyM5Ro8dlxCJZoCcnoyCkTE76102aIUmoEqP4J7Qrrr8NP40="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493416,
+  "id": "JwXIarXFNOWBxs0P5L_j6Ac",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 156,
+   "prompt_tokens": 2932,
+   "total_tokens": 3088
+  }
+ }
+}

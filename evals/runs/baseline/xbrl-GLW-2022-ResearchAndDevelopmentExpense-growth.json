@@ -1,0 +1,36 @@
+{
+ "item_id": "xbrl-GLW-2022-ResearchAndDevelopmentExpense-growth",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "5.0%",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_6629d2661a5b7b79",
+   "quote": "Research, Development and Engineering Expenses Research, development and engineering expenses increased by $52 million, or 5%, and were consistent as a percentage of sales when compared to 2021.",
+   "kind": "chunk",
+   "ticker": "GLW",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 25,
+   "supports": false
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2777,
+ "completion_tokens": 124,
+ "latency_ms": 1295.5,
+ "grade": {
+  "correct": false,
+  "method": "numeric",
+  "detail": "no figure in the answer matches the gold value",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

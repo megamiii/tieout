@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"0.68\",\n  \"confidence\": 0.99,\n  \"citations\": [{\"source_id\": \"ch_63241075a35e108d\", \"quote\": \"Total current assets 5,121.3\"}, {\"source_id\": \"ch_63241075a35e108d\", \"quote\": \"Total current liabilities 7,491.5\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TG0FQm0mE37kWNnuba0q6YNJ2vXe2c07rQmlz4PoYnZhYAHz726AbplAbFnb9KmNe2o0zBUk5VCe4HJUdHmVNewUZRip9u0EujQZFoGYAwRJJM1vFHsqDluY="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492802,
+  "id": "wQLIarjmJ8OixN8PtoeM6A4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 122,
+   "prompt_tokens": 2811,
+   "total_tokens": 2933
+  }
+ }
+}

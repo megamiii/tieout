@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TcSpy3rPx7zIxXCxjzHvXnB46taeUjB1KdZKOk04mbZu5EJo8HGxBMXH2L3ZT3V9mMJgBDLrgpX0f+R5YH+Y9uGSMxTWen1rtS95t5aDrRud7EyjZ4E001mw="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"Total current assets 7,453 7,659\",\"source_id\":\"ch_bd1f1e1075307850\"},{\"source_id\":\"ch_bd1f1e1075307850\",\"quote\":\"Total current liabilities 5,175 4,806\"}],\"rationale\":\"The user asked whether Corning has positive working capital based on FY2022 data. Using Corning's Consolidated Balance Sheets from the FY2022 10-K, Total Current Assets were $7,453 million and Total Current Liabilities were $5,175 million. Subtracting current liabilities from current assets gives positive working capital of $2,278 million.\",\"needs_review\":false,\"confidence\":1,\"answer\":\"Based on FY2022 data, Corning has positive working capital. \\n\\nAs of December 31, 2022, Corning reported:\\n- **Total current assets:** $7,453 million\\n- **Total current liabilities:** $5,175 million\\n\\nWorking capital (Current Assets – Current Liabilities) is **$2,278 million**.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_1199270",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494554,
+  "id": "mQnIat7BDbLtxs0Pi8b50A0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 285,
+   "prompt_tokens": 6169,
+   "total_tokens": 6454
+  }
+ }
+}

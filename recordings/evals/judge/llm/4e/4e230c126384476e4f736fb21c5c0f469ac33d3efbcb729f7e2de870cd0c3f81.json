@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the legal battles mentioned in the gold answer and provides additional accurate context regarding the Deferred Prosecution Agreement.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TirHSCaez2JhEy7vmKju9y4Fvh8eNiNecy/79zHtXlDxlABBj6TMcvhFEH9dwCqLRom9DzaD3IRNOSQ9bUKuOoGIvSc7UlLyGtEUKw3FvPsyZ61toLZqJzt2MvaMQ+jXOWABtjueY92nG5uuy"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493196,
+  "id": "QATIavfmC7iE7M8PqaGj2As",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 35,
+   "prompt_tokens": 249,
+   "total_tokens": 284
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Does Corning have positive working capital based on FY2022 data? If working capital is not a useful or relevant metric for this company, then please state that and explain why.",
+  "ticker": "GLW",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_b938af896677441d",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Table of Contents LIQUIDITY AND CAPITAL RESOURCES Our financial condition and liquidity are strong. We are not aware of any known trends, demands, commitments, events or uncertainties that will result in or that are reasonably likely to result in a material decrease in our liquidity. In addition, other than items discussed, there are no known material trends, favorable or unfavorable, in our capital resources and no expected material changes in the mix of such resources. Our major source of funding for 2023 and beyond will be our operating cash flow, our existing balances of cash and cash equivalents and proceeds from any issuances of debt. We believe we have sufficient liquidity to fund operations, acquisitions, capital expenditures, scheduled debt repayments, dividend payments and share repurchase programs through 2023. We will continue to generate cash from operations and maintain access to our revolving credit facilities and commercial paper programs as discussed in more detail bel…"
+   },
+   {
+    "chunk_id": "ch_8d262c4878ef5e8f",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 66,
+    "text": "purchased, are considered cash equivalents. The carrying amount of these securities approximates fair value because of the short-term maturity of these instruments. The following table presents supplemental disclosures of cash flow information (in millions): Year ended December 31, 2022 2021 2020 Non-cash transactions: Accruals for capital expenditures $ 414 $ 357 $ 231 Cash paid for interest and income taxes: Interest (1) $ 275 $ 287 $ 298 Income taxes, net of refunds received $ 426 $ 377 $ 220 (1) Includes approximately $48 million, $36 million and $58 million of interest costs that were capitalized as part of property, plant and equipment during the year ended December 31, 2022, 2021 and 2020, respectively. Trade Accounts Receivable, net of Doubtful Accounts The allowance for doubtful accounts is based on the best estimate of the amount of probable lifetime credit losses in existing accounts receivable. The Company determines the allowance based on historical write-off experience an…"
+   },
+   {
+    "chunk_id": "ch_dfefa3afae042acf",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 102,
+    "text": "264 Segment assets (5) $ 3,183 $ 8,672 $ 2,328 $ 2,150 $ 791 $ 2,024 $ 19,148 Capital expenditures $ 301 $ 710 $ 183 $ 228 $ 128 $ 149 $ 1,699 For the year ended December 31, 2020 Segment net sales $ 3,563 $ 3,172 $ 1,884 $ 1,370 $ 998 $ 465 $ 11,452 Depreciation (2) $ 242 $ 548 $ 162 $ 132 $ 50 $ 81 $ 1,215 Research, development and engineering expenses (3) $ 204 $ 99 $ 155 $ 100 $ 26 $ 170 $ 754 Income tax (provision) benefit (4) $ (101) $ (190) $ (113) $ (52) $ (37) $ 58 $ (435) Net income (loss) $ 366 $ 717 $ 423 $ 197 $ 139 $ (214) $ 1,628 Investment in affiliated companies, at equity $ 3 $ 107 $ 4 $ 2 $ 142 $ 258 Segment assets (5) $ 2,868 $ 8,842 $ 2,571 $ 1,986 $ 683 $ 2,157 $ 19,107 Capital expenditures $ 127 $ 311 $ 125 $ 159 $ 83 $ 123 $ 928 (1) Corning obtained a controlling interest in HSG during the third quarter of 2020 and has consolidated results in Hemlock and Emerging Growth Businesses since September 9, 2020. Refer to Note 3 (HSG Transactions and Acquisitions) in th…"
+   },
+   {
+    "chunk_id": "ch_bb89458d09dfbaf1",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 103,
+    "text": "(51) (214) Unallocated amounts: Impact of constant currency reporting not included in segment net income (loss) (480) (87) (22) Gain (loss) on foreign currency hedges related to translated earnings 348 354 (46) Translation gain (loss) on Japanese yen-denominated debt 191 180 (86) Litigation, regulatory and other legal matters (100) (16) (144) Research, development, and engineering expense (2)(3) (163) (151) (150) Transaction-related gain, net (4) 498 Amortization of intangibles (123) (129) (121) Interest expense, net (237) (265) (261) Income tax benefit 204 120 324 Pension mark-to-market (11) (32) (31) Cumulative adjustment related to customer contract (5) (105) Severance (charges) credits (3) (70) 13 (148) Asset impairment (3) (217) Capacity realignment and other charges and credits (3) (344) (123) (462) Bond redemption loss (6) (31) (22) Gain (loss) on investments (7) 8 (23) 107 Gain on sale of business 53 54 Other corporate items (214) (254) (230) Net income $ 1,316 $ 1,906 $ 512 (1…"
+   },
+   {
+    "chunk_id": "ch_813911043891ec66",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 63,
+    "text": "receive benefits from the entity that may be significant. The Company did not have any material consolidated or nonconsolidated VIEs in its operations for the presented reporting periods. On September 9, 2020, Hemlock Semiconductor Group (“HSG”) redeemed the entire ownership interest of DuPont in HSG with a value of $250 million (the “Redemption”). Upon completion of the Redemption, Corning obtained a 100% interest in HS LLC and an 80.5% interest in HSO LLC, which are affiliated entities within HSG. Since September 9, 2020, HSG's results have been consolidated in Corning's consolidated financial statements and included within Hemlock and Emerging Growth Businesses. Refer to Note 3 (HSG Transactions and Acquisitions) in the notes to the consolidated financial statements for additional information. Certain prior year amounts have been reclassified to conform to the current year's presentation. These reclassifications had no impact on the results of operations, financial position, or chan…"
+   },
+   {
+    "chunk_id": "ch_1ba97bc3f9326840",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 101,
+    "text": "Table of Contents 18. Share-Based Compensation (Continued) The following inputs were used for the valuation of option grants under the stock option plans awarded during 2020: Expected volatility and Weighted-average volatility 32.9% Expected dividends 4.48% Risk-free rate and Average risk-free rate 0.5% Expected term (in years) 7.4 Pre-vesting executive departure rate 0.6% Pre-vesting non-executive departure rate 2.5% 19. Reportable Segments The Company has determined that it has five reportable segments for financial reporting purposes, as follows: • Optical Communications – manufactures carrier network and enterprise network components for the telecommunications industry. • Display Technologies – manufactures glass substrates for flat panel liquid crystal displays and other high-performance display panels. • Specialty Materials – manufactures products that provide material formulations for glass, glass ceramics and fluoride crystals to meet demand for unique customer needs. • Environ…"
+   },
+   {
+    "chunk_id": "ch_fc08f2d4360b33bf",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 91,
+    "text": "Corning uses OTC foreign exchange forward and option contracts not designated as hedging instruments for accounting purposes to offset economic currency risks. The undesignated hedges limit exposure to foreign functional currency fluctuations related to certain subsidiaries' monetary assets, monetary liabilities and net earnings in foreign currencies. A significant portion of the Company's non-U.S. revenue and expenses are denominated in Japanese yen, South Korean won, new Taiwan dollar, Chinese yuan and euro. When this revenue and these expenses are translated back to U.S. dollars, the Company is exposed to foreign exchange rate movements. To protect translated earnings against movements in these currencies, the Company has entered into a series of average rate forwards and option contracts. Most of these contracts hedge a significant portion of the Company's exposure to the Japanese yen, with maturities through 2024, and South Korean won, with maturities through 2026. 91"
+   },
+   {
+    "chunk_id": "ch_1738d37693fa9582",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 64,
+    "text": "initial estimates of the liability. Product warranty liabilities were not material as of December 31, 2022 and 2021. In addition, the Company has contractual arrangements with certain customers, mainly related to Telecommunications products and comprised of design, installation, training and software maintenance services, in which revenue is recognized over time. The performance obligations under these contracts generally require services to be performed over time, resulting in either a straight-line amortization method or an input method using incurred and forecasted expense to predict revenue recognition patterns which follows satisfaction of the performance obligation. Corning's other revenue was not material for the years ended December 31, 2022, 2021 and 2020. Contract Assets and Liabilities Contract assets, such as incremental costs to obtain or fulfill contracts, are an insignificant component of Corning's revenue recognition process. Most of Corning's fulfillment costs as a man…"
+   }
+  ]
+ }
+}

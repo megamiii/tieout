@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Are Best Buy's gross margins historically consistent (not fluctuating more than roughly 2% each year)? If gross margins are not a relevant metric for a company like this, then please state that and explain why.",
+  "ticker": "BBY",
+  "fiscal_year": null,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5063d729a18046d6",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 7",
+    "page": 28,
+    "text": "comparable sales as revenue in the International segment was once again deemed to be comparable and, as such, Consolidated comparable sales are once again equal to the aggregation of Domestic and International comparable sales. However, we have not provided International comparable sales for fiscal 2017 as the calculation would only include comparable revenue from the fourth quarter of fiscal 2017 and may be misleading in future periods when used for comparison purposes. The method of calculating comparable sales varies across the retail industry. As a result, our method of calculating comparable sales may not be the same as other retailers' methods. Non-GAAP Financial Measures This MD&A includes financial information prepared in accordance with accounting principles generally accepted in the United States (\"GAAP\"), as well as certain adjusted or non-GAAP financial measures such as constant currency, non-GAAP operating income, non-GAAP effective tax rate, non-GAAP net earnings from con…"
+   },
+   {
+    "chunk_id": "ch_b567efb50e779055",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 6",
+    "page": 27,
+    "text": "Included within net earnings from continuing operations and net earnings attributable to Best Buy Co., Inc. shareholders for fiscal 2015 includes $353 million due to a discrete benefit related to reorganizing certain European legal entities. (7) Our comparable sales calculation compares revenue from stores, websites and call centers operating for at least 14 full months, as well as revenue related to certain other comparable sales channels for a particular period to the corresponding period in the prior year. Relocated stores, as well as remodeled, expanded and downsized stores closed more than 14 days, are excluded from the comparable sales calculation until at least 14 full months after reopening. Acquisitions are included in the comparable sales calculation beginning with the first full quarter following the first anniversary of the date of the acquisition. The Canadian brand consolidation, which included the permanent closure of 66 Future Shop stores, the conversion of 65 Future Sh…"
+   },
+   {
+    "chunk_id": "ch_da724d60b5e423d5",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 28,
+    "text": "comparable and, as such, Consolidated comparable sales are once again equal to the aggregation of Domestic and International comparable sales. However, we have not provided International comparable sales for fiscal 2017 as the calculation would only include comparable revenue from the fourth quarter of fiscal 2017 and may be misleading in future periods when used for comparison purposes. On March 1, 2018, we announced our intent to close all of our 257 remaining Best Buy Mobile stand-alone stores in the U.S. As a result, all revenue related to these stores has been excluded from the comparable sales calculation beginning in March 2018. On October 1, 2018, we acquired all outstanding shares of GreatCall. Consistent with our comparable sales policy, the results of GreatCall are excluded from our comparable sales calculation for fiscal 2019. Non-GAAP Financial Measures This MD&A includes financial information prepared in accordance with accounting principles generally accepted in the Unit…"
+   },
+   {
+    "chunk_id": "ch_b4d7b36ca4cc4809",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 5",
+    "page": 25,
+    "text": "Table of Contents Best Buy Stock Comparative Performance Graph The information contained in this Best Buy Stock Comparative Performance Graph section shall not be deemed to be \"soliciting material\" or \"filed\" or incorporated by reference in future filings with the SEC, or subject to the liabilities of Section 18 of the Exchange Act, except to the extent that we specifically incorporate it by reference into a document filed under the Securities Act or the Exchange Act. The graph below compares the cumulative total shareholder return on our common stock for the last five fiscal years with the cumulative total return on the Standard & Poor's 500 Index (\"S&P 500\"), of which we are a component, and the Standard & Poor's Retailing Group Industry Index (\"S&P Retailing Group\"), of which we are also a component. The S&P Retailing Group is a capitalization-weighted index of domestic equities traded on the NYSE and NASDAQ and includes high-capitalization stocks representing the retail sector of t…"
+   },
+   {
+    "chunk_id": "ch_9ca1da071d0012b6",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 5",
+    "page": 24,
+    "text": "\"Approximate Dollar Value of Shares that May Yet Be Purchased Under the Program\" column reflects the $349 million we purchased in the fourth quarter of fiscal 2019 pursuant to such program. For additional information, see Note 7, Shareholders' Equity , of the Notes to the Consolidated Financial Statements included in Item 8, Financial Statements and Supplementary Data , of this Annual Report on Form 10-K. Best Buy Stock Comparative Performance Graph The information contained in this Best Buy Stock Comparative Performance Graph section shall not be deemed to be \"soliciting material\" or \"filed\" or incorporated by reference in future filings with the SEC, or subject to the liabilities of Section 18 of the Exchange Act, except to the extent that we specifically incorporate it by reference into a document filed under the Securities Act or the Exchange Act. The graph below compares the cumulative total shareholder return on our common stock for the last five fiscal years with the cumulative …"
+   },
+   {
+    "chunk_id": "ch_411ab8854d12a447",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 6",
+    "page": 27,
+    "text": "65 Future Shop stores to Best Buy stores and the elimination of the Future Shop website, had a material impact on a year-over-year basis on the remaining Canadian retail stores and the website. As such, from the first quarter of fiscal 2016 through the third quarter of fiscal 2017, all Canadian store and website revenue was removed from the comparable sales base and the International segment no longer had a comparable metric. Therefore, Consolidated comparable sales equaled the Domestic segment comparable sales. Beginning in the fourth quarter of fiscal 2017, we resumed reporting International comparable sales as revenue in the International segment was once again deemed to be comparable and, as such, Consolidated comparable sales are once again equal to the aggregation of Domestic and International comparable sales. (8) The current ratio is calculated by dividing total current assets by total current liabilities."
+   },
+   {
+    "chunk_id": "ch_def0a873dc096cf1",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 5",
+    "page": 25,
+    "text": "Table of Contents COMPARISON OF 5 YEAR CUMULATIVE TOTAL RETURN* Among Best Buy Co., Inc., the S&P 500 and the S&P Retailing Group Fiscal Years Ended February 1, 2014 January 31, 2015 January 30, 2016 January 28, 2017 February 3, 2018 February 2, 2019 Best Buy Co., Inc. $ 100.00 $ 153.08 $ 126.20 $ 205.59 $ 345.38 $ 290.98 S&P 500 100.00 114.22 113.46 136.20 172.17 168.19 S&P Retailing Group 100.00 119.10 140.73 167.11 241.08 256.26 * Cumulative total return assumes dividend reinvestment. Source: Research Data Group, Inc. 23"
+   },
+   {
+    "chunk_id": "ch_d9ad3579271049ed",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 7",
+    "page": 28,
+    "text": "Table of Contents retailers, is seasonal. A higher proportion of our revenue and earnings is generated in the fiscal fourth quarter, which includes the majority of the holiday shopping season in the U.S., Canada and Mexico (\"Holiday\"). Throughout this MD&A, we refer to comparable sales. Our comparable sales calculation compares revenue from stores, websites and call centers operating for at least 14 full months, as well as revenue related to certain other comparable sales channels for a particular period to the corresponding period in the prior year. Relocated stores, as well as remodeled, expanded and downsized stores closed more than 14 days, are excluded from the comparable sales calculation until at least 14 full months after reopening. Acquisitions are included in the comparable sales calculation beginning with the first full quarter following the first anniversary of the date of the acquisition. The calculation of comparable sales excludes the impact of revenue from discontinued …"
+   }
+  ]
+ }
+}

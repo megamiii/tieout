@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What is the FY2017 operating cash flow ratio for Adobe? Operating cash flow ratio is defined as: cash from operations / total current liabilities. Round your answer to two decimal places. Please utilize information provided primarily within the balance sheet and the cash flow statement.",
+  "ticker": "ADBE",
+  "fiscal_year": 2017,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_1b3869b8b6c9b348",
+    "ticker": "ADBE",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 61,
+    "text": "Table of Contents 61 ADOBE SYSTEMS INCORPORATED CONSOLIDATED STATEMENTS OF CASH FLOWS (In thousands) Years Ended December 1, 2017 December 2, 2016 November 27, 2015 Cash flows from operating activities: Net income $ 1,693,954 $ 1,168,782 $ 629,551 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and accretion 325,997 331,535 339,473 Stock-based compensation 451,451 349,912 335,859 Deferred income taxes 51,605 24,222 (69,657) Gain on the sale of property — — (21,415) Unrealized (gains) losses on investments (5,494) 3,145 (9,210) Excess tax benefits from stock-based compensation — (75,105) (68,153) Other non-cash items 4,625 2,022 1,216 Changes in operating assets and liabilities, net of acquired assets and assumed liabilities: Trade receivables, net (187,173) (160,416) (79,502) Prepaid expenses and other current assets 28,040 (71,021) (7,701) Trade payables (45,186) (6,281) 22,870 Accrued expenses 154,125 64,978 (22,564) Income…"
+   },
+   {
+    "chunk_id": "ch_cbe5f6d849a546ae",
+    "ticker": "ADBE",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Table of Contents 57 ADOBE SYSTEMS INCORPORATED CONSOLIDATED BALANCE SHEETS (In thousands, except par value) December 1, 2017 December 2, 2016 ASSETS Current assets: Cash and cash equivalents $ 2,306,072 $ 1,011,315 Short-term investments 3,513,702 3,749,985 Trade receivables, net of allowances for doubtful accounts of $9,151 and $6,214, respectively 1,217,968 833,033 Prepaid expenses and other current assets 210,071 245,441 Total current assets 7,247,813 5,839,774 Property and equipment, net 936,976 816,264 Goodwill 5,821,561 5,406,474 Purchased and other intangibles, net 385,658 414,405 Investment in lease receivable — 80,439 Other assets 143,548 139,890 Total assets $ 14,535,556 $ 12,697,246 LIABILITIES AND STOCKHOLDERS' EQUITY Current liabilities: Trade payables $ 113,538 $ 88,024 Accrued expenses 993,773 739,630 Income taxes payable 14,196 38,362 Deferred revenue 2,405,950 1,945,619 Total current liabilities 3,527,457 2,811,635 Long-term liabilities: Debt and capital lease obligat…"
+   },
+   {
+    "chunk_id": "ch_fdb03b7f43676edf",
+    "ticker": "ADBE",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 71,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 71 Cash, cash equivalents and short-term investments consisted of the following as of December 1, 2017 (in thousands): Amortized Cost Unrealized Gains Unrealized Losses Estimated Fair Value Current assets: Cash $ 280,488 $ — $ — $ 280,488 Cash equivalents: Money market mutual funds 2,006,741 — — 2,006,741 Time deposits 18,843 — — 18,843 Total cash equivalents 2,025,584 — — 2,025,584 Total cash and cash equivalents 2,306,072 — — 2,306,072 Short-term fixed income securities: Asset-backed securities 98,403 1 (403) 98,001 Corporate bonds and commercial paper 2,461,691 2,694 (10,125) 2,454,260 Foreign government securities 2,396 — (8) 2,388 Municipal securities 21,189 8 (132) 21,065 U.S. Treasury securities 941,538 2 (3,552) 937,988 Total short-term investments 3,525,217 2,705 (14,220) 3,513,702 Total cash, cash equivalents and short-term investments $ 5,831,289 $ 2,705 $ (14,220) $ 5,819,774…"
+   },
+   {
+    "chunk_id": "ch_a77c109fef5cce57",
+    "ticker": "ADBE",
+    "fiscal_year": 2017,
+    "section": "Item 6",
+    "page": 34,
+    "text": "$ — $ — $ — $ — $ — Financial position:(1) Cash, cash equivalents and short-term investments $ 5,819,774 $ 4,761,300 $ 3,988,084 $ 3,739,491 $ 3,173,752 Working capital(2) $ 3,720,356 $ 3,028,139 $ 2,608,336 $ 2,107,893 $ 2,520,281 Total assets $ 14,535,556 $ 12,697,246 $ 11,714,500 $ 10,781,991 $ 10,374,940 Debt and capital lease obligations, non- current $ 1,881,421 $ 1,892,200 $ 1,895,259 $ 907,248 $ 1,493,939 Stockholders' equity $ 8,459,869 $ 7,424,835 $ 7,001,580 $ 6,775,905 $ 6,724,634 Additional data: Worldwide employees 17,973 15,706 13,893 12,499 11,847 _________________________________________ (1) Information associated with our financial position is as of the Friday closest to November 30 for the five fiscal periods through 2017. (2) For fiscal 2014 and prior, our working capital did not include the effects of the adoption of ASU No. 2015-17, Balance Sheet Classification of Deferred Taxes, which required all deferred tax assets and liabilities and any related valuation allo…"
+   },
+   {
+    "chunk_id": "ch_2c60c533ac374ec2",
+    "ticker": "ADBE",
+    "fiscal_year": 2017,
+    "section": "Item 7",
+    "page": 50,
+    "text": "investments. Other uses of cash represented purchases of property and equipment, purchases of long-term investments and other assets, and an immaterial acquisition. These cash outflows were offset in part by sales and maturities of short-term investments. For fiscal 2015, net cash used for investing activities of $1.49 billion was primarily due to purchases of short-term investments and our acquisition of Fotolia. Other uses of cash during fiscal 2015 represented purchases of property and equipment and long- term investments and other assets. These cash outflows were offset in part by sales and maturities of short-term investments and proceeds received from the sale of certain property assets. See Note 2 and Note 6 of our Consolidated Financial Statements for more detailed information regarding our acquisitions and the Almaden Tower purchase, respectively. Cash Flows from Financing Activities For fiscal 2017, net cash used for financing activities of $1.18 billion was primarily due to …"
+   },
+   {
+    "chunk_id": "ch_0169a91596728604",
+    "ticker": "ADBE",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 74,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 74 The fair value of our financial assets and liabilities at December 2, 2016 was determined using the following inputs (in thousands): Fair Value Measurements at Reporting Date Using Quoted Prices in Active Markets for Identical Assets Significant Other Observable Inputs Significant Unobservable Inputs Total (Level 1) (Level 2) (Level 3) Assets: Cash equivalents: Corporate bonds and commercial paper $ 1,249 $ — $ 1,249 $ — Money market mutual funds 782,210 782,210 — — Municipal securities 1,301 — 1,301 — Time deposits 17,920 17,920 — — Short-term investments: Asset-backed securities 110,914 — 110,914 — Corporate bonds and commercial paper 2,458,350 — 2,458,350 — Municipal securities 134,222 — 134,222 — U.S. agency securities 39,580 — 39,580 — U.S. Treasury securities 1,006,919 — 1,006,919 — Prepaid expenses and other current assets: Foreign currency derivatives 38,112 — 38,112 — Other a…"
+   },
+   {
+    "chunk_id": "ch_b6dcff3d6c918a60",
+    "ticker": "ADBE",
+    "fiscal_year": 2017,
+    "section": "Item 6",
+    "page": 34,
+    "text": "ITEM 6. SELECTED FINANCIAL DATA The following selected consolidated financial data (presented in thousands, except per share amounts and employee data) is derived from our Consolidated Financial Statements. As our historical operating results are not necessarily indicative of future operating results, this data should be read in conjunction with the Consolidated Financial Statements and notes thereto, and with Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations. Fiscal Years 2017 2016 2015 2014 2013 Operations: Revenue $ 7,301,505 $ 5,854,430 $ 4,795,511 $ 4,147,065 $ 4,055,240 Gross profit $ 6,291,014 $ 5,034,522 $ 4,051,194 $ 3,524,985 $ 3,468,683 Income before income taxes $ 2,137,641 $ 1,435,138 $ 873,781 $ 361,376 $ 356,141 Net income $ 1,693,954 $ 1,168,782 $ 629,551 $ 268,395 $ 289,985 Net income per share: Basic $ 3.43 $ 2.35 $ 1.26 $ 0.54 $ 0.58 Diluted $ 3.38 $ 2.32 $ 1.24 $ 0.53 $ 0.56 Shares used to compute basic net income per shar…"
+   },
+   {
+    "chunk_id": "ch_a1936c9381640149",
+    "ticker": "ADBE",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 94,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 94 NOTE 16. NON-OPERATING INCOME (EXPENSE) Non-operating income (expense) for fiscal 2017, 2016 and 2015 included the following (in thousands): 2017 2016 2015 Interest and other income (expense), net: Interest income $ 66,069 $ 47,340 $ 28,759 Foreign exchange gains (losses) (30,705) (35,716) (20,130) Realized gains on fixed income investment 1,673 2,880 3,309 Realized losses on fixed income investment (725) (985) (354) Other 83 29 22,325 Interest and other income (expense), net $ 36,395 $ 13,548 $ 33,909 Interest expense $ (74,402) $ (70,442) $ (64,184) Investment gains (losses), net: Realized investment gains $ 3,279 $ 4,964 $ 2,760 Unrealized investment gains 4,274 186 — Realized investment losses — (6,720) (206) Unrealized investment losses — — (1,593) Investment gains (losses), net $ 7,553 $ (1,570) $ 961 Non-operating income (expense), net $ (30,454) $ (58,464) $ (29,314) NOTE 17. …"
+   }
+  ]
+ }
+}

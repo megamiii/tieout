@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TtCNcbyQaBXbzXDuwMWpjw/gBDX54GDDU70GdzBpAAubPtrQGFtMQLWHvOuhTQJra6YVXylNAAL2DhlDriVWUtMUwjCHE4rtK0lu1VmyxWULgjJSJOxbslOo="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"ticker\":\"BA\",\"query\":\"percentage of revenue product category service Boeing 2022\"}",
+        "name": "search_filings"
+       },
+       "id": "call_659191",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494810,
+  "id": "kwrIasicNKS3xN8PqfTFsA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 1864,
+   "total_tokens": 1907
+  }
+ }
+}

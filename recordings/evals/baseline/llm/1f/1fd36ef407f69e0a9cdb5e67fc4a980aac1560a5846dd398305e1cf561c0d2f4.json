@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"53.8%\",\n  \"confidence\": 0.95,\n  \"citations\": [{\"source_id\": \"ch_958b2d8c64f9212f\", \"quote\": \"Year Ended May 31, (In millions, except per share data) 2018 2017 2016\\nRevenues $ 36,397 $ 34,350 $ 32,376\\nCost of sales 20,441 19,038 17,405\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TwHo6/wiI/D3VTtY14XINvasf9TatiwI4rTh9j6KmyPWg+UpYjPQq7VdK6ZZTGMNIY0R2oP3zO9fSnfbDYrG+QFOJj6TNKPfaYwhG7fAy/oQ3SB+0p8+nmsI="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492821,
+  "id": "1QLIao6pDfvPvdIPsbfKkQs",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 155,
+   "prompt_tokens": 2280,
+   "total_tokens": 2435
+  }
+ }
+}

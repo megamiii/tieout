@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T6d04zoyUUgwichi2zEgACViIKpgYS3PFfUonCShJN629K/d0j5J9V3Du24RKenrhoSyCnpTdAX1BvmFMwN3I60cxUnIcmVoxHecus5cWp20euCA7cgZ4oFo="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"Data Center $ 6,043 $ 3,694 $ 1,685\",\"source_id\":\"ch_cb587adeacc79358\"},{\"quote\":\"Client 6,201 6,887 5,189\",\"source_id\":\"ch_cb587adeacc79358\"},{\"quote\":\"Gaming 6,805 5,607 2,746\",\"source_id\":\"ch_cb587adeacc79358\"}],\"needs_review\":false,\"answer\":\"From FY21 to FY22, excluding Embedded, sales proportionally increased the most in the **Data Center** segment. \\n\\nNet revenue by segment (in millions):\\n- **Data Center**: Increased from $3,694 in FY21 to $6,043 in FY22, a proportional increase of approximately **63.59%** ((6,043 - 3,694) / 3,694).\\n- **Gaming**: Increased from $5,607 in FY21 to $6,805 in FY22, a proportional increase of approximately **21.37%** ((6,805 - 5,607) / 5,607).\\n- **Client**: Decreased from $6,887 in FY21 to $6,201 in FY22, a proportional change of approximately **-9.96%** ((6,201 - 6,887) / 6,887).\\n\\n*(Note: While the Embedded segment grew massively from $246 million to $4,552 million due to the Xilinx acquisition, the question explicitly excludes Embedded).*\",\"rationale\":\"All net revenue figures for Data Center, Client, and Gaming segments for FY21 and FY22 were obtained from Note 4 (Segment Reporting) in Item 8 of the FY2022 10-K. Percentage changes were calculated for each segment, showing Data Center grew by ~63.59%, Gaming by ~21.37%, and Client declined by ~9.96%. Therefore, Data Center increased the most among segments excluding Embedded.\",\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_1049576",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494862,
+  "id": "zQrIaohGvdGewQ_ip4_ZDQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 536,
+   "prompt_tokens": 4973,
+   "prompt_tokens_details": {
+    "cached_tokens": 2005
+   },
+   "total_tokens": 5509
+  }
+ }
+}

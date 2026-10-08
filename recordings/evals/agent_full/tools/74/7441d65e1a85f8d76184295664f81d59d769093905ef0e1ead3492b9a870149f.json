@@ -1,0 +1,78 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "BA",
+  "query": "revenue",
+  "concept": null,
+  "fiscal_years": [
+   2021,
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "BA",
+  "concepts": [
+   {
+    "concept": "Revenues",
+    "label": "Revenues",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "66608000000",
+      "fact_id": "xf_1a73650d37effa98",
+      "reported_in_10k_filed": "2023-01-27"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2021-01-01..2021-12-31",
+      "value": "62286000000",
+      "fact_id": "xf_6532ea43c2756739",
+      "reported_in_10k_filed": "2022-01-31"
+     }
+    ]
+   },
+   {
+    "concept": "CostOfRevenue",
+    "label": "Cost of Revenue",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "63106000000",
+      "fact_id": "xf_0cd893c47f1a78b4",
+      "reported_in_10k_filed": "2023-01-27",
+      "later_restated_to": [
+       {
+        "value": "63078000000",
+        "fact_id": "xf_f6b7a208569a8ba4",
+        "filed": "2024-01-31"
+       },
+       {
+        "value": "63078000000",
+        "fact_id": "xf_28f225e68feae279",
+        "filed": "2025-02-03"
+       }
+      ]
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2021-01-01..2021-12-31",
+      "value": "59269000000",
+      "fact_id": "xf_6ea19e1c43ccbffe",
+      "reported_in_10k_filed": "2022-01-31",
+      "later_restated_to": [
+       {
+        "value": "59237000000",
+        "fact_id": "xf_4898961a8e502983",
+        "filed": "2024-01-31"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

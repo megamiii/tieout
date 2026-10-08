@@ -1,0 +1,30 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AXP",
+  "query": "operating income",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "AXP",
+  "concepts": [
+   {
+    "concept": "InterestAndDividendIncomeSecurities",
+    "label": "Interest and Dividend Income, Securities, Operating",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "96000000",
+      "fact_id": "xf_3c729b0df564b419",
+      "reported_in_10k_filed": "2023-02-10"
+     }
+    ]
+   }
+  ]
+ }
+}

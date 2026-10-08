@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What drove operating margin change as of the FY22 for AMD? If operating margin is not a useful metric for a company like this, then please state that and explain why.",
+  "ticker": "AMD",
+  "fiscal_year": null,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_29c728357add8d14",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 83,
+    "text": "NOTE 12: Segment Reporting Management, including the Chief Operating Decision Maker, who is the Company's Chief Executive Officer, reviews and assesses operating performance using segment net revenues and operating income (loss) before interest, other income (expense), net and income taxes. These performance measures include the allocation of expenses to the operating segments based on management's judgment. In connection with the Company's continued strategic transformation, effective July 1, 2014, the Company realigned its organizational structure. As a result of this organizational change, the Company has the following two reportable segments: • the Computing and Graphics segment, which primarily includes desktop and notebook processors and chipsets, discrete graphics processing units (GPUs) and professional graphics; and • the Enterprise, Embedded and Semi-Custom segment, which primarily includes server and embedded processors, semi-custom System-on-Chip (SoC) products, engineering…"
+   },
+   {
+    "chunk_id": "ch_c7f3648fd62e5a82",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 36,
+    "text": "game console royalties. Gross margin in 2014 included a $58 million lower of cost or market inventory adjustment, which accounted for one gross margin percentage point, and a $27 million benefit from technology licensing revenue, which accounted for less than one gross margin percentage point. Operating loss for 2015 was $481 million compared to an operating loss of $155 million in 2014. The decline in operating performance in 2015 compared to 2014 was primarily due to a decrease in net revenue and in gross margin as described above. Despite the challenging business environment, we made important changes to our business. During 2015, we continued to focus on introducing a more diverse product portfolio. As part of our long-term strategy to deliver great products, we introduced a number of new products in 2015 including, our 6 th Generation AMD A-Series mobile processors (formerly codenamed “Carrizo”) in a SoC design and introduced a desktop A-series processor, the AMD A10-7870K APU. We…"
+   },
+   {
+    "chunk_id": "ch_5a9d6cfc33627efb",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 43,
+    "text": "lower of cost or market inventory adjustment, which accounted for one gross margin percentage point, and a $27 million benefit from technology licensing revenue, which accounted for less than one gross margin percentage point. Gross margin as a percentage of net revenue was 33% in 2014 compared to 37% in 2013. Gross margin in 2014 included a $58 million lower of cost or market inventory adjustment, which accounted for one gross margin percentage point, and a $27 million benefit from technology licensing revenue, which accounted for less than one gross margin percentage point. Gross margin in 2013 included a $57 million benefit from sales of inventory that was previously reserved in the third quarter of 2012, which accounted for one gross margin percentage point as compared to $8 million in 2014 which had a less than one percentage point impact. Gross margin in 2014 was adversely impacted by lower average gross margins in our Enterprise, Embedded and Semi-Custom segment driven by increa…"
+   },
+   {
+    "chunk_id": "ch_6f458f8d1aa8123c",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 36,
+    "text": "ITEM 7.MANAGEMENT'S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS The following discussion should be read in conjunction with the consolidated financial statements as of December 26, 2015 and December 27, 2014 and for each of the three years in the period ended December 26, 2015 and related notes, which are included in this Annual Report on Form 10-K as well as with the other sections of this Annual Report on Form 10-K, including “Part I, Item 1: Business,” “Part II, Item 6: Selected Financial Data” and “Part II, Item 8: Financial Statements and Supplementary Data.” Introduction We are a global semiconductor company primarily offering: (i) x86 microprocessors, as a standalone central processing unit (CPU) or as incorporated into an accelerated processing unit (APU), chipsets, and discrete graphics processing units (GPUs) for the consumer, commercial and professional graphics markets; and (ii) server and embedded CPUs, GPUs and APUs, and semi-custom System-on-…"
+   },
+   {
+    "chunk_id": "ch_c75c8199fc337a2e",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 41,
+    "text": "not consider these expenses and credits in evaluating the performance of the reportable segments. Also included in this category are amortization of acquired intangible assets, employee stock-based compensation expense, restructuring and other special charges, net, technology node transition charge, workforce rebalancing severance charges, goodwill impairment charge, significant or unusual lower of cost or market inventory adjustments and a net gain from licenses and settlement agreements regarding patent- related matters. We also reported the results of former businesses in the All Other category because the operating results were not material. We intend the discussion of our financial condition and results of operations that follows to provide information that will assist you in understanding our financial statements, the changes in certain key items in those financial statements from year to year, the primary factors that resulted in those changes and how certain accounting principl…"
+   },
+   {
+    "chunk_id": "ch_9e053ef04c8a3860",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 47,
+    "text": "Stock-based compensation expense of $63 million in 2015 decreased by $18 million as compared to $81 million in 2014. The decrease was primarily due to a lower weighted average grant date fair value and the effect of the 2015 and 2014 Restructuring Plans. Stock-based compensation expense of $81 million in 2014 decreased by $10 million as compared to $91 million in 2013. The decrease was primarily due to lower expense related to stock options and restricted stock granted in connection with our SeaMicro acquisition as most awards became fully vested during 2014 and lower stock compensation expense as a result of our 2014 Restructuring Plan. As of December 26, 2015, we had $11 million of total unrecognized compensation expense, net of estimated forfeitures, related to stock options that will be recognized over a weighted-average period of 2.30 years. Also, as of December 26, 2015, we had $88 million of total unrecognized compensation expense, net of estimated forfeitures, related to restri…"
+   },
+   {
+    "chunk_id": "ch_e935d56563ad0c6e",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 36,
+    "text": "to a decrease in demand for our products. Additionally, competitive pressures contributed to an overall challenging year. We also experienced reduced demand from our Original Equipment Manufacturers (“OEM”) customers in advance of the launch of Microsoft Windows® 10. Net revenue for 2015 was approximately $4.0 billion, a decrease of 28% compared to 2014 net revenue of $5.5 billion. The decrease in net revenue from 2014 was due to a 42% decrease in Computing and Graphics segment revenue and an 8% decrease in Enterprise, Embedded and Semi-Custom segment revenue. Computing and Graphics segment revenue declined year-over-year primarily due to lower client processor sales. Enterprise, Embedded and Semi-Custom segment revenue declined year-over-year primarily due to lower server and embedded revenue and lower game console royalties, partially offset by higher semi-custom SoC sales. Gross margin, as a percentage of net revenue for 2015, was 27% compared to 33% in 2014. Gross margin in 2015 wa…"
+   },
+   {
+    "chunk_id": "ch_9e742850b375ae67",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 40,
+    "text": "form of a valuation allowance, for the deferred tax assets that we estimate will not ultimately be recoverable. We consider past performance, future expected taxable income and prudent and feasible tax planning strategies in determining the need for a valuation allowance. In addition, the calculation of our tax liabilities involves dealing with uncertainties in the application of complex tax rules and the potential for future adjustment of our uncertain tax positions by the Internal Revenue Service or other taxing authority. If our estimates of these taxes are greater or less than actual results, an additional tax benefit or charge will result. We recognize the interest and penalties related to unrecognized tax benefits as interest expense and income tax expense, respectively. Results of Operations Management, including the Chief Operating Decision Maker, who is our Chief Executive Officer, reviews and assesses our operating performance using segment net revenue and operating income (l…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the tax rates for both years and accurately calculates the 3.0 percentage point decrease, which aligns with the gold answer.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TiDMLSY7n0dWVVhnIsbsFkaS835RnYRmuUylOcU7IaFQDHuRKDlYyBz9veTj0ehSpa+aUIQrakwhTRlgRxL+5kFWOeZqEEg1Xbs5MVWUH6LGkcYNFKPRr6M46o1m+uK4EZg+hno+yFS3ZLo29"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493343,
+  "id": "1gTIar-7FoWM28oPyLH--Ak",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 225,
+   "total_tokens": 266
+  }
+ }
+}

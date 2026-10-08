@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "How does Boeing's effective tax rate in FY2022 compare to FY2021?",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_cf88f8fbe6d9652d",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 79,
+    "text": "affect the effective tax rate, if recognized. As of December 31, 2022, these amounts are primarily associated with the amount of research tax credits claimed and various other matters. Federal income tax audits have been settled for all years prior to 2018. The Internal Revenue Service (IRS) began the 2018-2019 federal tax audit in the first quarter of 2021 and added tax year 2020 to the audit in the fourth quarter of 2021. We are also subject to examination in major state and international jurisdictions for the 2008-2021 tax years. We believe appropriate provisions for all outstanding tax issues have been made for all jurisdictions and all open years. Note 5 – Accounts Receivable, net Accounts receivable at December 31 consisted of the following: 2022 2021 U.S. government contracts $800 $1,180 Commercial Airplanes 293 279 Global Services 1,390 1,456 Defense, Space, & Security 145 111 Other 5 5 Less valuation allowance (116) (390) Total $2,517 $2,641 Includes foreign military sales thr…"
+   },
+   {
+    "chunk_id": "ch_8235cd5783697122",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 77,
+    "text": "Table of Contents The following is a reconciliation of the U.S. federal statutory tax to actual income tax (benefit)/expense: Years ended December 31, 2022 2021 2020 Amount Rate Amount Rate Amount Rate U.S. federal statutory tax ($1,054) 21.0 % ($1,057) 21.0 % ($3,039) 21.0 % Valuation allowance 1,199 (23.9) 512 (10.2) 2,603 (18.0) Research and development credits (204) 4.1 (189) 3.8 (284) 2.0 State income tax provision, net of effects on U.S. federal tax (90) 1.8 (94) 1.9 (168) 1.2 Tax on non-U.S. activities 64 (1.3) 47 (0.9) 7 (0.1) Impact of CARES Act (5) 0.1 3 (0.1) (1,175) 8.1 Other provision adjustments 121 (2.4) 35 (0.8) 108 (0.8) Audit settlements (587) 4.1 Income tax expense/(benefit) $31 (0.6)% ($743) 14.7 % ($2,535) 17.5 % On March 27, 2020, the CARES Act was enacted, which includes a five year net operating loss (NOL) carryback provision which enabled us to benefit from the 2020 U.S. federal tax NOL at the former federal tax rate of 35%. In 2022, 2021, and 2020, we recorded…"
+   },
+   {
+    "chunk_id": "ch_cd8460afdb066257",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 27,
+    "text": "Table of Contents Other Earnings Items (Dollars in millions) Years ended December 31, 2022 2021 2020 Loss from operations ($3,547) ($2,902) ($12,767) Other income, net 1,058 551 447 Interest and debt expense (2,533) (2,682) (2,156) Loss before income taxes (5,022) (5,033) (14,476) Income tax (expense)/benefit (31) 743 2,535 Net loss from continuing operations (5,053) (4,290) (11,941) Less: net loss attributable to noncontrolling interest (118) (88) ($68) Net loss attributable to Boeing Shareholders ($4,935) ($4,202) ($11,873) Non-operating pension income included in Other income, net was $881 million in 2022, $528 million in 2021, and $340 million in 2020. The increased income in 2022 compared to 2021 was primarily due to lower amortization of net actuarial losses in 2022 and a settlement loss recorded in 2021. The increased income in 2021 compared to 2020 was primarily due to lower interest cost and higher expected return on plan assets, partially offset by higher amortization of net …"
+   },
+   {
+    "chunk_id": "ch_e375bef8529b86a7",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 76,
+    "text": "Table of Contents Note 4 – Income Taxes The components of Loss before income taxes were: Years ended December 31, 2022 2021 2020 U.S. ($5,457) ($5,475) ($14,882) Non-U.S. 435 442 406 Total ($5,022) ($5,033) ($14,476) Income tax (benefit)/expense consisted of the following: Years ended December 31, 2022 2021 2020 Current tax (benefit)/expense U.S. federal ($58) ($89) ($3,968) Non-U.S. 142 147 148 U.S. state (42) 42 21 Total current 42 100 (3,799) Deferred tax (benefit)/expense U.S. federal (62) (855) 652 Non-U.S. (3) (12) U.S. state 54 24 612 Total deferred (11) (843) 1,264 Total income tax expense/(benefit) $31 ($743) ($2,535) Net income tax (refunds)/payments were ($1,317), ($1,480) and $37 in 2022, 2021 and 2020, respectively. 72"
+   },
+   {
+    "chunk_id": "ch_f0cb6ba3d131e9c6",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 100,
+    "text": "Table of Contents December 31, 2022 December 31, 2021 Total Level 1 Level 2 Level 3 Total Level 1 Level 2 Level 3 Fixed income securities: Corporate $15,095 $15,025 $70 $20,573 $20,520 $53 U.S. government and agencies 7,827 7,827 11,285 11,285 Mortgage backed and asset backed 664 502 162 777 675 102 Municipal 843 811 32 1,064 1,035 29 Sovereign 706 706 1,135 1,126 9 Other 8 $8 3 $3 Derivatives: Assets 36 36 62 62 Liabilities (87) (87) (48) (48) Cash equivalents and other short-term investments 571 571 448 448 Equity securities: U.S. common and preferred stock 2,931 2,931 4,463 4,463 Non-U.S. common and preferred stock 2,023 2,023 3,345 3,340 5 Boeing company stock 1,782 1,782 1,883 1,883 Derivatives: Assets 1 1 Liabilities (1) (1) (1) (1) Private equity Real estate and real assets: Real estate 413 413 Real assets 362 310 47 5 784 749 35 Derivatives: Assets 1 1 8 8 Liabilities (8) (7) (1) (2) (2) Total $32,753 $7,054 $25,431 $268 $46,193 $10,851 $35,144 $198 Fixed income common/collecti…"
+   },
+   {
+    "chunk_id": "ch_cc19595608c4e1aa",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Operations (Dollars in millions, except per share data) Years ended December 31, 2022 2021 2020 Sales of products $55,893 $51,386 $47,142 Sales of services 10,715 10,900 11,016 Total revenues 66,608 62,286 58,158 Cost of products (53,969) (49,954) (54,568) Cost of services (9,109) (9,283) (9,232) Boeing Capital interest expense (28) (32) (43) Total costs and expenses (63,106) (59,269) (63,843) 3,502 3,017 (5,685) (Loss)/income from operating investments, net (16) 210 9 General and administrative expense (4,187) (4,157) (4,817) Research and development expense, net (2,852) (2,249) (2,476) Gain on dispositions, net 6 277 202 Loss from operations (3,547) (2,902) (12,767) Other income, net 1,058 551 447 Interest and debt expense (2,533) (2,682) (2,156) Loss before income taxes (5,022) (5,033) (14,476) Income tax (expense)/benefit (31) 743 2,535 Net loss (5,053) (4,290) (11,941) Less: net loss attributable to n…"
+   },
+   {
+    "chunk_id": "ch_363e64002ee6d654",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 78,
+    "text": "Table of Contents Net deferred tax assets/(liabilities) at December 31 were as follows: 2022 2021 Deferred tax assets $12,301 $11,258 Deferred tax liabilities (9,306) (8,976) Valuation allowance (3,162) (2,423) Net deferred tax assets/(liabilities) ($167) ($141) The Company's deferred income tax assets of $12,301 can be used in future years to offset taxable income and reduce income taxes payable. The Company's deferred income tax liabilities of $9,306 will partially offset deferred income tax assets and result in higher taxable income in future years and increase income taxes payable. Tax law determines whether future reversals of temporary differences will result in taxable and deductible amounts that offset each other in future years. The particular years in which temporary differences result in taxable or deductible amounts generally are determined by the timing of the recovery of the related asset or settlement of the related liability. The deferred income tax assets and liabiliti…"
+   },
+   {
+    "chunk_id": "ch_5d78669497b1d576",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 24,
+    "text": "Table of Contents Consolidated Results of Operations The following table summarizes key indicators of consolidated results of operations: (Dollars in millions, except per share data) Years ended December 31, 2022 2021 2020 Revenues $66,608 $62,286 $58,158 GAAP Loss from operations ($3,547) ($2,902) ($12,767) Operating margins (5.3) % (4.7) % (22.0) % Effective income tax rate (0.6) % 14.8 % 17.5 % Net loss attributable to Boeing Shareholders ($4,935) ($4,202) ($11,873) Diluted loss per share ($8.30) ($7.15) ($20.88) Non-GAAP Core operating loss ($4,690) ($4,075) ($14,150) Core operating margins (7.0 %) (6.5 %) (24.3 %) Core loss per share ($11.06) ($9.44) ($23.25) These measures exclude certain components of pension and other postretirement benefit expense. See pages 45 - 47 for important information about these non-GAAP measures and reconciliations to the most directly comparable GAAP measures. Revenues The following table summarizes Revenues: (Dollars in millions) Years ended Decembe…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What are major acquisitions that Best Buy has done in FY2023, FY2022 and FY2021?",
+  "ticker": "BBY",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_8507e990670687a2",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 39,
+    "text": "Consolidated Balance Sheets $ in millions, except per share amounts January 28, 2023 January 29, 2022 Assets Current assets Cash and cash equivalents $ 1,874 $ 2,936 Receivables, net 1,141 1,042 Merchandise inventories 5,140 5,965 Other current assets 647 596 Total current assets 8,802 10,539 Property and equipment Land and buildings 688 671 Leasehold improvements 2,260 2,160 Fixtures and equipment 3,928 5,419 Property under finance leases 100 91 Gross property and equipment 6,976 8,341 Less accumulated depreciation 4,624 6,091 Net property and equipment 2,352 2,250 Operating lease assets 2,746 2,654 Goodwill 1,383 1,384 Other assets 520 677 Total assets $ 15,803 $ 17,504 Liabilities and equity Current liabilities Accounts payable $ 5,687 $ 6,803 Unredeemed gift card liabilities 274 316 Deferred revenue 1,116 1,103 Accrued compensation and related expenses 405 845 Accrued liabilities 843 946 Current portion of operating lease liabilities 638 648 Current portion of long-term debt 16 13 …"
+   },
+   {
+    "chunk_id": "ch_7bb388a0f6e76660",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 44,
+    "text": "Notes to Consolidated Financial Statements 1. Summary of Significant Accounting Policies Unless the context otherwise requires, the use of the terms “Best Buy,” “we,” “us” and “our” in these Notes to Consolidated Financial Statements refers to Best Buy Co., Inc. and, as applicable, its consolidated subsidiaries. Description of Business We are driven by our purpose to enrich lives through technology and our vision to personalize and humanize technology solutions for every stage of life. We accomplish this by leveraging our combination of technology and a human touch to meet our customers' everyday needs, whether they come to us online, visit our stores or invite us into their homes. We have operations in the U.S. and Canada. We have two reportable segments: Domestic and International. The Domestic segment is comprised of our operations in all states, districts and territories of the U.S. and our Best Buy Health business, and includes the brand names Best Buy, Best Buy Ads, Best Buy Busi…"
+   },
+   {
+    "chunk_id": "ch_df93cdb394c9bde0",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Store-related projects(1) 355 178 117 Supply chain 35 10 57 Total capital expenditures(2) $ 930 $ 737 $ 713 (1) Store-related projects are primarily comprised of store remodels and various merchandising projects. (2) Total capital expenditures exclude non-cash capital expenditures of $35 million, $46 million and $32 million in fiscal 2023, fiscal 2022 and fiscal 2021, respectively. Non-cash capital expenditures are comprised of additions to property and equipment included in accounts payable, as well as finance leases. We currently expect capital expenditures to approximate $850 million in fiscal 2024. Debt and Capital As of January 28, 2023, we had $500 million of principal amount of notes due October 1, 2028 (“2028 Notes”) and $650 million of principal amount of notes due October 1, 2030 (“2030 Notes”). Refer to Note 8, Debt, in the Notes to Consolidated Financial Statements, included in Item 8, Financial Statements and Supplementary Data, of this Annual Report on Form 10-K for furth…"
+   },
+   {
+    "chunk_id": "ch_545bd6eb9e76ba04",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 16",
+    "page": 69,
+    "text": "Exhibit 21.1 BEST BUY CO., INC. SUBSIDIARIES OF THE REGISTRANT AT January 28, 2023 * State or Other Jurisdiction of Incorporation or Organization BBC Investment Co. Nevada BBY Networks, Inc. Minnesota BBC Property Co. Minnesota Best Buy Stores, L.P. (1) Virginia BBY Services, Inc. Delaware BestBuy.com, LLC Virginia Best Buy Puerto Rico Holdings, LLC Delaware Best Buy Stores Puerto Rico, LLC Puerto Rico Best Buy Texas.com, LLC Virginia Best Buy Warehousing Logistics, LLC Delaware Nichols Distribution, LLC Minnesota Magnolia Hi-Fi, LLC (2) Washington Pacific Sales Kitchen and Bath Centers, LLC California ProTheo III, LLC Delaware Two Peaks, LLC (3) Delaware USB RETC Fund 2019-7, LLC Delaware Lily Solar Lessee, LLC # Delaware USB RETC Fund 2019-8, LLC Delaware Albedo Lessee 2, LLC # Delaware USB RETC Fund 2020-12, LLC Delaware Little Bear Master Tenant, LLC # Delaware USB RETC Fund 2020-19, LLC Delaware Prospero II Master Tenant, LLC# Delaware BBY Holdings International, Inc. Minnesota Be…"
+   },
+   {
+    "chunk_id": "ch_fd785ee905bb26a9",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 14",
+    "page": 66,
+    "text": "3. Exhibits: Incorporated by Reference Filed Exhibit No. Exhibit Description Form Exhibit Filing Date Herewith 3.1 Amended and Restated Articles of Incorporation 8-K 3.1 6/12/2020 3.2 Amended and Restated By-Laws 8-K 3.1 6/14/2018 4.1 Form of Indenture, to be dated as of March 11, 2011, between Best Buy Co., Inc. and U.S. Bank National Association, as successor trustee S-3ASR 4.1 3/8/2011 4.2 Third Supplemental Indenture, dated as of September 27, 2018, to the Indenture dated as of March 11, 2011, between Best Buy Co., Inc. and U.S. Bank National Association, as successor 8-K 4.1 9/27/2018 4.3 Form of 4.450% Notes due 2028 (included in Exhibit 4.2) 4.4 Fourth Supplemental Indenture, dated as of October 1, 2020, to the Indenture, dated as of March 11, 2011, between Best Buy Co., Inc. and U.S. Bank National Association, as successor trustee 8-K 4.1 10/1/2020 4.5 Form of 1.950% Notes due 2030 (included in Exhibit 4.4) 10.1 Five-Year Credit Agreement dated as of May 18, 2021, among Best Bu…"
+   },
+   {
+    "chunk_id": "ch_0cffd25029d3e522",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 26,
+    "text": "Domestic segment stores open at the end of each of the last three fiscal years were as follows: 2021 2022 2023 Total Stores at End of Fiscal Year Stores Opened Stores Closed(1) Total Stores at End of Fiscal Year Stores Opened Stores Closed Total Stores at End of Fiscal Year Best Buy 956 2 (20) 938 1 (14) 925 Outlet Centers 14 2 - 16 3 - 19 Pacific Sales 21 - - 21 - (1) 20 Yardbird - 9 - 9 5 - 14 Total Domestic segment stores 991 13 (20) 984 9 (15) 978 (1) Excludes stores that were temporarily closed as a result of the COVID-19 pandemic. We continuously monitor store performance as part of a market-driven, omnichannel strategy. As we approach the expiration of leases, we evaluate various options for each location, including whether a store should remain open. In fiscal 2024, we currently expect to close approximately 20 to 30 Best Buy stores and to increase the number of Outlet Centers to approximately 30. Domestic segment revenue mix percentages and comparable sales percentage changes …"
+   },
+   {
+    "chunk_id": "ch_6d2428e5fb6d991e",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 2",
+    "page": 19,
+    "text": "Item 2. Properties. Domestic Stores The location and total square footage of our Domestic segment stores at the end of fiscal 2023 were as follows: U.S. Stores(1) U.S. Stores(1) Alabama 11 Nebraska 5 Alaska 2 Nevada 9 Arizona 22 New Hampshire 6 Arkansas 7 New Jersey 26 California 133 New Mexico 5 Colorado 23 New York 47 Connecticut 10 North Carolina 31 Delaware 3 North Dakota 4 District of Columbia 1 Ohio 32 Florida 61 Oklahoma 12 Georgia 28 Oregon 11 Hawaii 2 Pennsylvania 33 Idaho 5 Puerto Rico 2 Illinois 42 Rhode Island 1 Indiana 22 South Carolina 13 Iowa 10 South Dakota 2 Kansas 8 Tennessee 14 Kentucky 9 Texas 100 Louisiana 15 Utah 11 Maine 3 Vermont 1 Maryland 22 Virginia 31 Massachusetts 21 Washington 20 Michigan 29 West Virginia 5 Minnesota 20 Wisconsin 20 Mississippi 7 Wyoming 1 Missouri 17 Total Domestic store count 978 Montana 3 Square footage (in thousands) 37,388 (1) Includes 20 Pacific Sales stores, 19 Best Buy Outlet Centers and 14 Yardbird stand-alone stores. Internationa…"
+   },
+   {
+    "chunk_id": "ch_ae425160de5361b7",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 1B",
+    "page": 18,
+    "text": "Item 1B. Unresolved Staff Comments. Not applicable. 18"
+   }
+  ]
+ }
+}

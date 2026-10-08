@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "By what percentage did CVS Health's net cash provided by operating activities change from fiscal year 2017 to fiscal year 2018? Give the percentage rounded to one decimal place.",
+  "ticker": "CVS",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_fe85733ebf4e6a2e",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 267,
+    "text": "Results of Operations Summary of Consolidated Financial Results Change Year Ended December 31, 2018 vs. 2017 2017 vs. 2016 In millions 2018 2017 2016 $ % $ % Revenues: Products $ 183,910 $ 180,063 $ 173,377 $ 3,847 2.1 % $ 6,686 3.9 % Premiums 8,184 3,558 3,069 4,626 130.0 % 489 15.9 % Services 1,825 1,144 1,080 681 59.5 % 64 5.9 % Net investment income 660 21 20 639 3,042.9 % 1 5.0 % Total revenues 194,579 184,786 177,546 9,793 5.3 % 7,240 4.1 % Operating Costs: Cost of products sold 156,447 153,448 146,533 2,999 2.0 % 6,915 4.7 % Benefit costs 6,594 2,810 2,179 3,784 134.7 % 631 29.0 % Goodwill impairments 6,149 181 — 5,968 3,297.2 % 181 — % Operating expenses 21,368 18,809 18,448 2,559 13.6 % 361 2.0 % Total operating costs 190,558 175,248 167,160 15,310 8.7 % 8,088 4.8 % Operating income 4,021 9,538 10,386 (5,517) (57.8)% (848) (8.2)% Interest expense 2,619 1,062 1,078 1,557 146.6 % (16) (1.5)% Loss on early extinguishment of debt — — 643 — — % (643) (100.0)%"
+   },
+   {
+    "chunk_id": "ch_76a7e4b036b173ea",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 277,
+    "text": "Operating expenses as a percentage of total revenues were 21.1% in 2017 compared to 20.1% in 2016 . The increase in 2017 was primarily due to a decline in expense leverage with the loss of business from the previously discussed marketplace changes that restrict CVS Pharmacy from participating in certain networks. Operating income • Operating income decreased $879 million , or 11.8% , to approximately $6.6 billion in 2017 compared to 2016 . The decrease in operating income was driven primarily by the increased operating expenses described above and reimbursement pressure. Page 13"
+   },
+   {
+    "chunk_id": "ch_3a0935523ecf6cb2",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 279,
+    "text": "payouts, potential share repurchases and future investments or acquisitions. The Company believes its operating cash flows, commercial paper program, credit facilities, sale-leaseback program, as well as any potential future borrowings, will be sufficient to fund these future payments and long-term initiatives. The net change in cash, cash equivalents and restricted cash for the years ended December 31, 2018 , 2017 and 2016 is as follows: Change Year Ended December 31, 2018 vs. 2017 2017 vs. 2016 In millions 2018 2017 2016 $ % $ % Net cash provided by operating activities $ 8,865 $ 8,007 $ 10,141 $ 858 11 % $ (2,134) (21)% Net cash used in investing activities (43,285) (2,877) (2,470) (40,408) 1,405 % (407) 16 % Net cash provided by (used in) financing activities 36,819 (6,751) (6,761) 43,570 (645)% 10 — % Effect of exchange rate changes on cash, cash equivalents and restricted cash (4) 1 2 (5) (500)% (1) (50)% Net increase (decrease) in cash, cash equivalents and restricted cash $ 2,3…"
+   },
+   {
+    "chunk_id": "ch_930d0c92b23a26ef",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 280,
+    "text": "Net cash provided by operating activities decreased by $2.1 billion , in 2017 due primarily to the timing of payments for the Company's Medicare Part D operations. • Net cash used in investing activities increased by $407 million in 2017 largely driven by an increase in acquisition activity as compared to 2016 . In addition, cash used in investing activities reflected the following activity: • Gross capital expenditures in 2017 totaled approximately $1.9 billion , a decrease of $306 million compared to prior year. The decrease in 2017 capital expenditures is due to the Target integration being completed in 2016. During 2017 , approximately 25% of the Company's total capital expenditures were for new store construction, 30% were for store, fulfillment and support facilities expansion and improvements and 45% were for technology and other corporate initiatives. • Proceeds from sale-leaseback transactions totaled $265 million in 2017 compared to $230 million in 2016 . • Net cash used in f…"
+   },
+   {
+    "chunk_id": "ch_8b4a851cc495a1bb",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 280,
+    "text": "Commentary - 2018 compared to 2017 • Net cash provided by operating activities increased by $858 million in 2018 due primarily to the timing of client payments and the timing of payments for the Company's Medicare Part D operations. • Net cash used in investing activities increased by $40.4 billion in 2018 largely driven by the Aetna Acquisition in November 2018. In addition, cash used in investing activities reflected the following activity: • Gross capital expenditures remained relatively consistent at approximately $2.0 billion and $1.9 billion in 2018 and 2017 , respectively. During 2018 , approximately 21% of the Company's total capital expenditures were for new store construction, 32% were for store, fulfillment and support facilities expansion and improvements and 47% were for technology and other corporate initiatives. • The Company did not complete any sale-leaseback transactions in 2018 compared to $265 million in 2017 . Under the sale-leaseback transactions, the properties g…"
+   },
+   {
+    "chunk_id": "ch_6e87cdca8defd0a2",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 268,
+    "text": "Operating income • Operating income decreased $5.5 billion or 57.8% in 2018 compared to 2017 . The decrease was primarily due to the increase in operating expenses described above, continued price compression in the Pharmacy Services segment and reimbursement pressure in the Retail/LTC segment. The decrease was partially offset by increased prescription volume, improved purchasing economics and the addition of Aetna. • Please see “Segment Analysis” later in this document for additional information about the operating income of the Company's segments. Interest expense • Interest expense increased $1.6 billion during 2018 , primarily due to financing activity associated with the Aetna Acquisition. See Note 8 ‘‘Borrowings and Credit Agreements'' to the consolidated financial statements for additional information. Other expense (income) • Other expense decreased $212 million during 2018, primarily due to 2017 reflecting a $187 million loss on settlement of the Company's defined benefit pen…"
+   },
+   {
+    "chunk_id": "ch_9e3343d7d00e60c7",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 267,
+    "text": "1,305 24.5 % Commentary - 2018 compared to 2017 Revenues • Total revenues increased $9.8 billion or 5.3% in 2018 compared to 2017 . The increase in total revenues was due to a 2.7% increase in Pharmacy Services segment revenue, a 5.8% increase in Retail/LTC segment revenue and the impact of the Aetna Acquisition (primarily reflected in the Health Care Benefits segment) which occurred in November 2018. • Please see “Segment Analysis” later in this document for additional information about the revenues of the Company's segments. Operating expenses (including goodwill impairments) • Operating expenses increased $8.5 billion or 44.9% in 2018 compared to 2017 . The increase in operating expenses was primarily due to higher operating expenses in the Retail/LTC segment including increased goodwill impairment charges in 2018, the impact of the Aetna Acquisition and an increase in acquisition-related transaction and integration costs. The increase was partially offset by a lack of charges assoc…"
+   },
+   {
+    "chunk_id": "ch_e808e7328eafb8ec",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 267,
+    "text": "1,062 1,078 1,557 146.6 % (16) (1.5)% Loss on early extinguishment of debt — — 643 — — % (643) (100.0)% Other expense (income) (4) 208 28 (212) (101.9)% 180 642.9 % Income before income tax provision 1,406 8,268 8,637 (6,862) (83.0)% (369) (4.3)% Income tax provision 2,002 1,637 3,317 365 22.3 % (1,680) (50.6)% Income (loss) from continuing operations (596) 6,631 5,320 (7,227) (109.0)% 1,311 24.6 % Loss from discontinued operations, net of tax — (8) (1) 8 (100.0)% (7) 700.0 % Net income (loss) (596) 6,623 5,319 (7,219) (109.0)% 1,304 24.5 % Net (income) loss attributable to noncontrolling interest 2 (1) (2) 3 (300.0)% 1 (50.0)% Net income (loss) attributable to CVS Health $ (594) $ 6,622 $ 5,317 $ (7,216) (109.0)% $ 1,305 24.5 % Commentary - 2018 compared to 2017 Revenues • Total revenues increased $9.8 billion or 5.3% in 2018 compared to 2017 . The increase in total revenues was due to a 2.7% increase in Pharmacy Services"
+   }
+  ]
+ }
+}

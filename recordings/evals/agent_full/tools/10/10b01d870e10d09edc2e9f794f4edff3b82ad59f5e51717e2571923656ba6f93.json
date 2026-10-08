@@ -1,0 +1,59 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMCR",
+  "query": "marketable securities current",
+  "concept": null,
+  "fiscal_years": [
+   2022,
+   2023
+  ]
+ },
+ "output": {
+  "ticker": "AMCR",
+  "concepts": [
+   {
+    "concept": "AccountsPayableCurrent",
+    "label": "Accounts Payable, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-06-30",
+      "value": "2690000000",
+      "fact_id": "xf_de02c8cb59b806f0",
+      "reported_in_10k_filed": "2023-08-17"
+     },
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-06-30",
+      "value": "3073000000",
+      "fact_id": "xf_56cbe4f2fb08c860",
+      "reported_in_10k_filed": "2022-08-18"
+     }
+    ]
+   },
+   {
+    "concept": "FinanceLeaseLiabilityCurrent",
+    "label": "Finance Lease, Liability, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-06-30",
+      "value": "10000000",
+      "fact_id": "xf_d5f99db3b8234538",
+      "reported_in_10k_filed": "2023-08-17"
+     },
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-06-30",
+      "value": "10000000",
+      "fact_id": "xf_a873005a18061ff2",
+      "reported_in_10k_filed": "2022-08-18"
+     }
+    ]
+   }
+  ]
+ }
+}

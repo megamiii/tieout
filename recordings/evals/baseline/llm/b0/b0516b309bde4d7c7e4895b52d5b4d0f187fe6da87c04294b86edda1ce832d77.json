@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"The effective tax rate was 21.6 percent for 2022 and 24.6 percent for 2021, representing a decrease of 3.0 percentage points.\",\n  \"confidence\": 1.0,\n  \"citations\": [{\"source_id\": \"ch_d62089b6afec8ae5\", \"quote\": \"The effective tax rate was 21.6 percent and 24.6 percent for 2022 and 2021, respectively.\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tfp/f+R+a7kNuEzVVepGPOZRaIYFPdvWBETKXtzLrxefE6bqYE1drkhKs4QkaF4SoPkrBH8ZXHw3NIiNEkfaUIs2Zrq1Q0Z7WyItZgFGYIqXtZl8DSTNaPr8="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492758,
+  "id": "lgLIaqDbEbOuvdIPvZTz6A0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 135,
+   "prompt_tokens": 2635,
+   "total_tokens": 2770
+  }
+ }
+}

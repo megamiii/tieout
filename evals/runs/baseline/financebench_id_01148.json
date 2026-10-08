@@ -1,0 +1,36 @@
+{
+ "item_id": "financebench_id_01148",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "Amcor primarily operates in the packaging industry, developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other consumer goods end markets.",
+ "confidence": 0.95,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_698fb03e2c68042e",
+   "quote": "Today, Amcor is a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other consumer goods end markets.",
+   "kind": "chunk",
+   "ticker": "AMCR",
+   "fiscal_year": 2023,
+   "section": "Item 8",
+   "page": 55,
+   "supports": false
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 1965,
+ "completion_tokens": 135,
+ "latency_ms": 1329.0,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer correctly identifies that Amcor operates in the packaging industry, which aligns with the gold answer's focus on packaging production. It provides additional relevant detail about the company's end markets without contradicting the gold answer.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

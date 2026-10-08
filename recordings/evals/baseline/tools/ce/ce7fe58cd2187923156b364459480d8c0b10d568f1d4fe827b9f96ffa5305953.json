@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Was American Express able to retain card members during 2022?",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a631c0500c28b07e",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 117,
+    "text": "Table of Contents CHANGES IN CARD MEMBER RECEIVABLES RESERVE FOR CREDIT LOSSES Card Member receivables reserve for credit losses increased for the year ended December 31, 2022, primarily driven by higher delinquencies and growth in receivables outstanding. Card Member receivables reserve for credit losses decreased for the year ended December 31, 2021, primarily due to improved portfolio quality and macroeconomic forecasts, in large part driven by improvement in unemployment rate projections, partially offset by an increase in receivables outstanding. The following table presents changes in the Card Member receivables reserve for credit losses for the years ended December 31: (Millions) 2022 2021 2020 Beginning Balance $ 64 $ 267 $ 126 Provisions 627 (73) 1,015 Net write-offs (462) (129) (881) Other — (1) 7 Ending Balance $ 229 $ 64 $ 267 (a) Provisions for principal and fee reserve components. Provisions for credit losses includes reserve build (release) and replenishment for net writ…"
+   },
+   {
+    "chunk_id": "ch_34aa51b51849e844",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 49,
+    "text": "Table of Contents TABLE 4: EXPENSES SUMMARY Years Ended December 31, Change Change (Millions, except percentages) 2022 2021 2020 2022 vs. 2021 2021 vs. 2020 Card Member rewards $ 14,002 $ 11,007 $ 8,041 $ 2,995 27 % $ 2,966 37 % Business development 4,943 3,762 3,051 1,181 31 711 23 Card Member services 2,959 1,993 1,230 966 48 763 62 Marketing 5,458 5,291 3,696 167 3 1,595 43 Salaries and employee benefits 7,252 6,240 5,718 1,012 16 522 9 Other, net 6,481 4,817 5,325 1,664 35 (508) (10) Total expenses $ 41,095 $ 33,110 $ 27,061 $ 7,985 24 % $ 6,049 22 % EXPENSES Card Member rewards expense increased, primarily driven by increases in Membership Rewards and cash back rewards expenses, collectively, of $2.0 billion, and cobrand rewards expense of $1.0 billion, both of which were primarily driven by higher billed business. The increase in Membership Rewards expense was also driven by a larger proportion of spend in categories that earn incremental rewards such as travel and a higher mix o…"
+   },
+   {
+    "chunk_id": "ch_6af1e8c537576e6d",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 5,
+    "text": "Over the last several years, we have focused on broadening the appeal of our products to attract new customers, particularly Millennial and Gen Z customers, as well as expanding our position with small and mid-sized enterprise (SME) customers by providing more ways to help them manage and grow their businesses. We have also introduced new adjacent products that complement our existing products, such as our business checking and consumer rewards checking account products and new digital capabilities, which in part result from our acquisitions of Kabbage, Resy and acompay. Additionally, we have evolved our card issuing businesses by bringing together our consumer, SME and large commercial issuing activities outside of the United States into a new ICS organization to enable a greater focus on local priorities. Jurisdictions that represent a significant portion of our billed business outside of the United States include the United Kingdom (UK), the European Union (EU), Australia, Japan, Ca…"
+   },
+   {
+    "chunk_id": "ch_6a57adda00623d42",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 142,
+    "text": "Table of Contents NOTE 15 GUARANTEES The maximum potential undiscounted future payments and related liability resulting from guarantees and indemnifications provided by us in the ordinary course of business were $1 billion and $21 million, respectively, as of December 31, 2022 and $1 billion and $24 million, respectively, as of December 31, 2021, all of which were primarily related to our real estate arrangements and business dispositions. To date, we have not experienced any significant losses related to guarantees or indemnifications. Our recognition of these instruments is at fair value. In addition, we establish reserves when a loss is probable and the amount can be reasonably estimated. NOTE 16 COMMON AND PREFERRED SHARES The following table shows authorized shares and provides a reconciliation of common shares issued and outstanding for the years ended December 31: (Millions, except where indicated) 2022 2021 2020 Common shares authorized (billions) 3.6 3.6 3.6 Shares issued and …"
+   },
+   {
+    "chunk_id": "ch_d8013a0ed7bdc308",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 126,
+    "text": "Table of Contents Aggregate annual maturities on long-term debt obligations (based on contractual maturity or anticipated redemption dates) as of December 31, 2022 were as follows: (Millions) 2023 2024 2025 2026 2027 Thereafter Total American Express Company (Parent Company only) $ 5,750 $ 7,500 $ 5,250 $ 2,450 $ 4,911 $ 4,273 $ 30,134 American Express Credit Corporation — — — — 339 — 339 Lending Trust 2,685 2,750 7,250 — — — 12,685 Other 76 114 67 — — — 257 $ 8,511 $ 10,364 $ 12,567 $ 2,450 $ 5,250 $ 4,273 $ 43,415 Unamortized Underwriting Fees (84) Unamortized Discount and Premium (522) Impacts due to Fair Value Hedge Accounting (236) Total Long-Term Debt $ 42,573 We maintained a committed syndicated bank credit facility of $3.5 billion as of December 31, 2022 and 2021, all of which was undrawn as of the respective dates. The facility has a maturity date of October 15, 2024, and the availability of the facility is subject to compliance with certain covenants, principally our maintena…"
+   },
+   {
+    "chunk_id": "ch_03915aa7ceab7b99",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 173,
+    "text": "their repayment period beyond one year for balances outstanding as of December 31, 2022. Card member receivables are due upon receipt of Card Member statements and have no stated interest rate and are therefore included in the due within one year category. (b) Card Member loans and receivables due after one year represent Troubled Debt Restructurings (TDRs). Card Members experiencing financial difficulties are offered modification programs wherein a long-term concession (more than 12 months) has been granted to the borrower and are classified as TDRs. (c) Other loans due after one year primarily represents installment loans. (a) (b) (c) (c) (c) A-6"
+   },
+   {
+    "chunk_id": "ch_bbfef9b70614729b",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 188,
+    "text": "year. Participants who were not in “pay status” as of January 1, 2005 are governed from and after such date by the terms of the Plan, as amended and restated, and as further amended and restated from time to time. For purposes of this section, a Participant was in “pay status” as of January 1, 2005 if he or she was entitled to benefits under the Plan as of January 1, 2005, with payments scheduled to begin on or before April 1, 2005. (d) Effective as of October 1, 2005, Ameriprise Financial, Inc. (“AFI”) ceased to be a participating employer in Amex's tax-qualified retirement plans and the components of such plans covering AFI participants were transferred to new plans established by AFI in a transaction that complied with Section 414(l) of the Internal Revenue Code of 1986, as amended (the “Code”). In connection with that transaction, the component of the Prior SRP Plan and the Plan covering AFI participants were similarly transferred, and active and retired AFI participants and AFI be…"
+   },
+   {
+    "chunk_id": "ch_b9f23a37bf3c9d89",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 51,
+    "text": "Table of Contents TABLE 7: SELECTED CREDIT-RELATED STATISTICAL INFORMATION As of or for the Years Ended December 31, Change Change (Millions, except percentages and where indicated) 2022 2021 2020 2022 vs. 2021 2021 vs. 2020 Card Member loans: Card Member loans (billions) $ 108.0 $ 88.6 $ 73.4 22 % 21 % Credit loss reserves: Beginning balance $ 3,305 $ 5,344 $ 4,027 (38) 33 Provisions — principal, interest and fees 1,514 (1,155) 3,453 # # Net write-offs — principal less recoveries (837) (672) (1,795) 25 (63) Net write-offs — interest and fees less recoveries (229) (207) (375) 11 (45) Other (6) (5) 34 (20) # Ending balance $ 3,747 $ 3,305 $ 5,344 13 (38) % of loans 3.5 % 3.7 % 7.3 % % of past due 348 % 555 % 727 % Average loans (billions) $ 95.4 $ 76.1 $ 74.6 25 2 Net write-off rate — principal, interest and fees 1.1 % 1.2 % 2.9 % Net write-off rate — principal only 0.9 % 0.9 % 2.4 % 30+ days past due as a % of total 1.0 % 0.7 % 1.0 % Card Member receivables: Card Member receivables (bi…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies that operating margin is not a useful metric for American Express and provides the correct reasoning regarding the company's financial structure, aligning with the gold answer.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TU1qiqJW9YqREvkklsrEYf2g5nIiA7iqJl6YkCJ0yUM9Q5ViDevylOIdHofW8V/sENdFdhKusnGWwsY3bAPu/7j0nTz7QUc+VzbCF3EjAq33KvA+sXLXM8ZwwIxQM4egbv/WTah+k1pEM7N6O"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791495603,
+  "id": "pA3IasmYLJbT28oP6s3V8Aw",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 291,
+   "total_tokens": 337
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\n  \"answer\": \"Based on the provided passages, the text does not explicitly name Boeing's specific primary customers as of FY2022, though it notes that its Commercial Airplanes segment markets commercial jet aircraft \\\"principally to the commercial airline industry worldwide\\\" and lists customer locations by region (such as Asia, Europe, the Middle East, and the United States).\",\n  \"confidence\": 0.4,\n  \"citations\": [\n    {\n      \"source_id\": \"ch_fb6b1cda9b1186b7\",\n      \"quote\": \"Commercial Airplanes Segment This segment develops, produces and markets commercial jet aircraft principally to the commercial airline industry worldwide.\"\n    }\n  ],\n  \"needs_review\": true\n}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T2aAxrmnhU/kh2A+rpuYuUco680Fe8ODtJuCtEnZso6PjwV7Ml/Z77fGjwHpu6UJGErU5epyf9eT9Wofqe29qX9qtXWg2tXKQSQczBisvfl1g/XQKtp17XQg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492751,
+  "id": "jgLIatOmFIXYxN8P7e6n0Ac",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 172,
+   "prompt_tokens": 3475,
+   "total_tokens": 3647
+  }
+ }
+}

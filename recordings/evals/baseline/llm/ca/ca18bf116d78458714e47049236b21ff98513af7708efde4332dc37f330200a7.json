@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\n  \"answer\": \"5.0%\",\n  \"confidence\": 1.0,\n  \"citations\": [\n    {\n      \"source_id\": \"ch_6629d2661a5b7b79\",\n      \"quote\": \"Research, Development and Engineering Expenses Research, development and engineering expenses increased by $52 million, or 5%, and were consistent as a percentage of sales when compared to 2021.\"\n    }\n  ],\n  \"needs_review\": false\n}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T3VR2YHfiw1hkqHi0Zqk/jAakBWw8I+L6LJSmr1HZCJdD6s3ljKRkW7I0CvD0qvjPRU/RvCbklp+75X6SvD3bruw0rEMzg/l/Aga1uEyO7Es+4wl9YaVq9IQ="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493430,
+  "id": "NgXIarb9CaSJxN8PmpPIgAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 124,
+   "prompt_tokens": 2777,
+   "total_tokens": 2901
+  }
+ }
+}

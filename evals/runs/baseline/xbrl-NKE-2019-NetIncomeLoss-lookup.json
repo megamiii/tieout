@@ -1,0 +1,36 @@
+{
+ "item_id": "xbrl-NKE-2019-NetIncomeLoss-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "$4,029 million",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_3585d8ef8beaae62",
+   "quote": "NET INCOME $ 4,029",
+   "kind": "chunk",
+   "ticker": "NKE",
+   "fiscal_year": 2019,
+   "section": "Item 8",
+   "page": 52,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2946,
+ "completion_tokens": 93,
+ "latency_ms": 1112.9,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$4,029 matches 4029 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

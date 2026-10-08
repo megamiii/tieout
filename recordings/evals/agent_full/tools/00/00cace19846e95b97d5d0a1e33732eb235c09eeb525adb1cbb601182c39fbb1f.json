@@ -1,0 +1,80 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMCR",
+  "query": "liabilities current",
+  "concept": null,
+  "fiscal_years": [
+   2022,
+   2023
+  ]
+ },
+ "output": {
+  "ticker": "AMCR",
+  "concepts": [
+   {
+    "concept": "LiabilitiesCurrent",
+    "label": "Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-06-30",
+      "value": "4476000000",
+      "fact_id": "xf_ffdf55261282ef35",
+      "reported_in_10k_filed": "2023-08-17"
+     },
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-06-30",
+      "value": "5103000000",
+      "fact_id": "xf_5424f00679f4a155",
+      "reported_in_10k_filed": "2022-08-18"
+     }
+    ]
+   },
+   {
+    "concept": "OtherLiabilitiesCurrent",
+    "label": "Other Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-06-30",
+      "value": "1297000000",
+      "fact_id": "xf_998f7fb58ffa0e16",
+      "reported_in_10k_filed": "2023-08-17"
+     },
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-06-30",
+      "value": "1344000000",
+      "fact_id": "xf_b58bfa893d5aa612",
+      "reported_in_10k_filed": "2022-08-18"
+     }
+    ]
+   },
+   {
+    "concept": "EmployeeRelatedLiabilitiesCurrent",
+    "label": "Employee-related Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-06-30",
+      "value": "396000000",
+      "fact_id": "xf_048e1d003daccdad",
+      "reported_in_10k_filed": "2023-08-17"
+     },
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-06-30",
+      "value": "471000000",
+      "fact_id": "xf_05acf746df012694",
+      "reported_in_10k_filed": "2022-08-18"
+     }
+    ]
+   }
+  ]
+ }
+}

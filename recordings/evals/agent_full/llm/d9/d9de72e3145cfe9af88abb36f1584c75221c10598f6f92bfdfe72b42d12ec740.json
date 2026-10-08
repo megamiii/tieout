@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TQ3HM2PvBciOnUtAe4DAvI9H6LkLUFzCOIVDcrLmQoIoxOiJq0QBfl47b4KrUesDCcrXnJO/yOiuhd6UydbM3hMLl5GF/ji+QH/OmGq9OfgdseCQFaufFPWQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_c0b687348702b7d5\",\"quote\":\"Gross profit as a percentage of net sales 18.5 % 19.4 %\"},{\"quote\":\"2,732\",\"source_id\":\"xf_9af1303a4f0ad4bc\"},{\"quote\":\"12,861\",\"source_id\":\"xf_d3c009a7bec5f5fd\"},{\"quote\":\"2,820\",\"source_id\":\"xf_34da8bd1f1abfc5f\"},{\"source_id\":\"xf_8903905de1c53df6\",\"quote\":\"14,544\"},{\"source_id\":\"xf_6d605e633bbde2ee\",\"quote\":\"2,725\"},{\"source_id\":\"xf_c1d4edc172663062\",\"quote\":\"14,694\"}],\"confidence\":1,\"answer\":\"No, Amcor does not have an improving gross margin profile as of FY2023. Gross profit as a percentage of net sales decreased from 21.2% in FY2021 ($2,732 million gross profit on $12,861 million net sales) to 19.4% in FY2022 ($2,820 million gross profit on $14,544 million net sales), and further declined to 18.5% in FY2023 ($2,725 million gross profit on $14,694 million net sales).\",\"needs_review\":false,\"rationale\":\"The user asks if Amcor has an improving gross margin profile as of FY2023. Gross margin is useful and tracked explicitly by the company. The figures from the 10-K show gross profit percentage declining from 21.2% (FY2021) to 19.4% (FY2022) and 18.5% (FY2023).\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_1214700",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791495030,
+  "id": "dQvIauiFAdKFxN8P4MGmmQg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 502,
+   "prompt_tokens": 6063,
+   "total_tokens": 6565
+  }
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "item_id": "financebench_id_05915",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "18.23",
+ "confidence": 0.95,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_fe85733ebf4e6a2e",
+   "quote": "Total revenues 194,579",
+   "kind": "chunk",
+   "ticker": "CVS",
+   "fiscal_year": 2018,
+   "section": "Item 16",
+   "page": 267,
+   "supports": false
+  },
+  {
+   "source_id": "ch_c04c176dd7f1348b",
+   "quote": "Property and equipment, net $ 11,349 $ 10,292",
+   "kind": "chunk",
+   "ticker": "CVS",
+   "fiscal_year": 2018,
+   "section": "Item 16",
+   "page": 304,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 3232,
+ "completion_tokens": 129,
+ "latency_ms": 1748.9,
+ "grade": {
+  "correct": false,
+  "method": "numeric",
+  "detail": "no figure in the answer matches the gold value",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

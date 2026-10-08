@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "By what percentage did 3M's net income change from fiscal year 2017 to fiscal year 2018? Give the percentage rounded to one decimal place.",
+  "ticker": "MMM",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_8846c7d12852a021",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 31,
+    "text": "35.5 percent, compared to 28.3 percent in 2016, an increase of 7.2 percentage points. The changes in the tax rates between years were impacted by many factors, including the enactment of the Tax Cuts and Jobs Act (TCJA) in December 2017 as further described in the Overview, “Income, earnings per share, and effective tax rate adjusted for impacts of the Tax Cuts and Jobs Act (TCJA) -(non-GAAP measures)” section and in Note 10. During the fourth quarter of 2017, 3M recorded a net tax expense of $762 million related to the enactment of the TCJA. As a result of finalizing estimates related to TCJA, the Company recorded additional net charges in the amount of $176 million as measurement period adjustments in 2018. The expense is primarily related to the TCJA's transition tax on previously unremitted earnings of non-U.S. subsidiaries and is net of remeasurement of 3M's deferred tax assets and liabilities. The TCJA establishes new tax laws that affected 2018 and will affect future periods, in…"
+   },
+   {
+    "chunk_id": "ch_9e7298c2e0683023",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 19,
+    "text": "2.9 percentage points versus 2016. Excluding the impact of TCJA, the fourth quarter and full year 2017 change in tax rate was driven largely by increasing benefits from our supply chain centers of expertise, favorable geographic mix and other items, as referenced in Note 10. Shares of common stock outstanding: · Weighted-average diluted shares outstanding in 2017 declined 1.0 percent year-on-year, which benefited earnings per share. The Company purchased $2.1 billion of its own stock in 2017. Operating income, operating income margin, income before taxes, net income, earnings per share, and effective tax rate adjusted for impacts of the Minnesota NRD resolution and the measurement period adjustment to the impact of the enactment of the Tax Cuts and Jobs Act (TCJA) - (non-GAAP measures): As further discussed in Note 16, in February 2018, 3M reached an agreement with the State of Minnesota that resolved the previously disclosed Natural Resource Damages (NRD) lawsuit filed by the State ag…"
+   },
+   {
+    "chunk_id": "ch_44eef46d8b60fa15",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 24,
+    "text": "Table of Contents Year 2018 sales results by geographic area/business segment: Percent change information compares the full year 2018 with the same period last year, unless otherwise indicated. Additional discussion of business segment results is provided in the Performance by Business Segment section. Year ended December 31, 2018 Europe, Latin United Asia Middle East America/ Other States Pacific & Africa Canada Unallocated Worldwide Net sales (millions) $ 12,840 $ 10,254 $ 6,654 $ 3,024 $ (7) $ 32,765 % of worldwide sales 39.2 % 31.3 % 20.3 % 9.2 % — 100.0 % Components of net sales change: Volume — organic 2.1 % 3.5 % — % 2.1 % — 2.1 % Price 1.1 0.3 1.7 2.0 — 1.1 Organic local-currency sales 3.2 3.8 1.7 4.1 — 3.2 Acquisitions 1.9 0.5 2.2 0.7 — 1.4 Divestitures (1.3) (0.6) (2.5) (1.4) — (1.3) Translation — 0.8 1.7 (3.7) — 0.2 Total sales change 3.8 % 4.5 % 3.1 % (0.3)% — 3.5 % Total sales change: Industrial 3.6 % 4.4 % 4.2 % (1.8)% — 3.4 % Safety and Graphics 11.2 % 7.0 % 12.9 % 2.6 %…"
+   },
+   {
+    "chunk_id": "ch_90602b15da77880c",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 31,
+    "text": "Table of Contents Interest expense increased during 2018 and 2017 due to higher average debt balances and higher U.S. borrowing costs. In addition, in October 2017, via cash tender offers, 3M repurchased $305 million aggregate principal amount of its outstanding notes. The Company recorded an early debt extinguishment charge of $96 million in the fourth quarter of 2017, which was included within interest expense. Capitalized interest related to property, plant and equipment construction in progress is recorded as a reduction to interest expense. Interest income increased year-on-year in both 2018 and 2017 due to higher average interest rates. Effective January 1, 2018, in conjunction with 3M's adoption of ASU No. 2017-07, all pension and postretirement net periodic benefit cost components (except the service cost component) are reported within other expense (income), net. For additional details, refer to Note 1 (Significant Accounting Policies). Year-on-year pension and postretirement …"
+   },
+   {
+    "chunk_id": "ch_83306bfbd374e1a0",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 17,
+    "text": "Table of Contents Foreign exchange impacts: · Foreign currency impacts (net of hedging) decreased pre-tax earnings year-on-year by approximately $27 million and approximately $42 million, or the equivalent of 3 cents and 5 cents per diluted share, for the fourth quarter and full year 2018, respectively, excluding the impact of foreign currency changes on tax rates. Legal-related charges · In the second quarter of 2018, 3M reached agreements in principle on a number of respiratory mask/asbestos claims and an oral care product liability matter, the implications of which resulted in an increase in certain legal accruals. Refer to Note 16 for further details. Other expense: · Fourth quarter 2018's interest expense (net of interest income) decreased $72 million, primarily due to the $96 million early extinguishment of debt charge in the fourth quarter 2017 that was not repeated in 2018. Full year 2018's interest expense (net of interest income) increased $8 million year-on-year as a result …"
+   },
+   {
+    "chunk_id": "ch_413bd40871dcb962",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 16,
+    "text": "for full year 2017, an increase of 12.1 percent on a per diluted share. Adjusting for the NRD matter and the TCJA as described further below, net income was $6.295 billion, or $10.46 per diluted share for the full year 2018, compared to $5.620 billion, or $9.17 per diluted share for full year 2017, an increase of 14.1 percent on a per diluted share basis. These non-GAAP measures are further described and reconciled to the most directly comparable GAAP financial measures in the section that follows. Additional discussion related to the components of the year-on-year change in earnings per diluted share follows: 2017 divestiture of identity management business: · In May 2017, 3M completed the related sale or transfer of control, as applicable of its identity management business and reflected a pre-tax gain of $457 million, which was reported within the Company's Safety and Graphics business. The earnings per share impact reflects the specific income tax rate used for this divestiture. Or…"
+   },
+   {
+    "chunk_id": "ch_3768fbeaae42a875",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 44,
+    "text": "Refer to the preceding “Total Debt” and “Cash, Cash Equivalents and Marketable Securities” sections for additional details. Balance Sheet: 3M's strong balance sheet and liquidity provide the Company with significant flexibility to fund its numerous opportunities going forward. The Company will continue to invest in its operations to drive growth, including continual review of acquisition opportunities. The Company uses working capital measures that place emphasis and focus on certain working capital assets, such as accounts receivable and inventory activity. Working Capital (non-GAAP measure): December 31, 2018 versus (Millions) 2018 2017 2017 Current assets $ 13,709 $ 14,277 $ (568) Less: Current liabilities 7,244 7,687 (443) Working capital (non-GAAP measure) $ 6,465 $ 6,590 $ (125) Various assets and liabilities, including cash and short-term debt, can fluctuate significantly from month to month depending on short-term liquidity needs. Working capital is not defined under U.S. gener…"
+   },
+   {
+    "chunk_id": "ch_c9d77d27e8b9bf97",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 25,
+    "text": "Table of Contents Year 2017 sales results by geographic area/business segment: Percent change information compares the full year 2017 with the full year 2016, unless otherwise indicated. Additional discussion of business segment results is provided in the Performance by Business Segment section. Year ended December 31, 2017 Europe, Latin United Asia Middle East America/ Other States Pacific & Africa Canada Unallocated Worldwide Net sales (millions) $ 12,372 $ 9,809 $ 6,456 $ 3,033 $ (13) $ 31,657 % of worldwide sales 39.1 % 31.0 % 20.4 % 9.5 % — 100.0 % Components of net sales change: Volume — organic 2.8 % 11.5 % 2.5 % 2.5 % — 5.2 % Price (0.3) (0.3) 0.7 1.1 — — Organic local-currency sales 2.5 11.2 3.2 3.6 — 5.2 Acquisitions 0.5 0.2 0.7 0.2 — 0.4 Divestitures (1.5) (0.4) (0.8) (1.4) — (1.0) Translation — (0.1) 1.7 2.2 — 0.5 Total sales change 1.5 % 10.9 % 4.8 % 4.6 % — 5.1 % Total sales change: Industrial 3.1 % 8.7 % 6.5 % 6.8 % — 5.8 % Safety and Graphics 1.3 % 10.0 % 8.3 % 0.6 % — …"
+   }
+  ]
+ }
+}

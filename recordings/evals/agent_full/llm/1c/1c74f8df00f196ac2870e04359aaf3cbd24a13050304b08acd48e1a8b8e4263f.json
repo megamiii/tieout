@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T2Ez4DNlOZ3CK+TZvocpUOi6Lk/8QOEImBHynV+pIKq+8RCielRwSYcpA8CFAewNJHLITchDEE5qKTAKGkuvyvPcvro+Pd+K3C3tjFRSInhGVLqsz8WEDlHw="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2021,\"ticker\":\"VZ\",\"query\":\"Interest Rate Caps total notional amount December 31 2021\"}",
+        "name": "search_filings"
+       },
+       "id": "call_1187759",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791495328,
+  "id": "nwzIau7-IJzyxN8Ph_KHoAw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 9672,
+   "prompt_tokens_details": {
+    "cached_tokens": 6077
+   },
+   "total_tokens": 9719
+  }
+ }
+}

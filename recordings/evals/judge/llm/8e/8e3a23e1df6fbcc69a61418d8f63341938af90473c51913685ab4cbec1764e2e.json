@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer fails to reach the same conclusion as the gold answer, instead claiming it is not possible to determine the company's capital intensity despite having the necessary data to perform the analysis.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TSB5a5veTJEl5ehwAZzE+xAs3Z0pVbv0T3zKlQfTwOCXPCWM23mJS5Mt/XZEnuujq2Uwtch0Zb6v2KjL+lPNtz0BXQ3JkhzsaKi9nvGH/1TRaxp9sPCYl8LbwM1uNXeL+5Chpelfm5ZBzEfFG"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492985,
+  "id": "UwPIarTaMoWM28oPyLH--Ak",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 49,
+   "prompt_tokens": 308,
+   "total_tokens": 357
+  }
+ }
+}

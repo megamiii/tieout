@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "operating margin",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": "7",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_b60a8b89eb43d8e9",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 53,
+    "text": "Table of Contents BUSINESS SEGMENT RESULTS OF OPERATIONS We consider a combination of factors when evaluating the composition of our reportable operating segments, including the results reviewed by the chief operating decision maker, economic characteristics, products and services offered, classes of customers, product distribution channels, geographic considerations (primarily United States versus outside the United States) and regulatory considerations. Refer to Note 24 to the “Consolidated Financial Statements” and Part I, Item 1. “Business” for additional discussion of products and services that comprise each segment. Effective for the third quarter of 2022, we realigned our reportable segments to reflect organizational changes announced during the second quarter of 2022. Prior periods presented herein have been recast to conform to the new reportable operating segments, which are: USCS, CS, ICS and GMNS, with corporate functions and certain other businesses and operations included…"
+   },
+   {
+    "chunk_id": "ch_86058a8524e94344",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 75,
+    "text": "our business and results of operations” and “Arrangements with our business partners represent a significant portion of our business. We are exposed to risks associated with our business partners, including reputational issues, business slowdowns, bankruptcies, liquidations, restructurings and consolidations, and the possible obligation to make payments to our partners” under “Risk Factors” for additional information. Debt Exposure As part of our ongoing risk management process, we monitor our financial exposure to both sovereign and non-sovereign customers and counterparties, and measure and manage concentrations of risk by geographic regions, as well as by economic sectors and industries. A primary focus area for monitoring is credit deterioration due to weaknesses in economic and fiscal profiles. We evaluate countries based on the market assessment of the riskiness of their sovereign debt and our assessment of the economic and financial outlook and closely monitor those deemed high …"
+   },
+   {
+    "chunk_id": "ch_5772574933334dce",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 84,
+    "text": "Table of Contents Our methodology for conducting the quantitative goodwill impairment testing is fundamentally based on the measurement of fair value for our reporting units, which inherently entails the use of significant management judgment. For valuation, we use a combination of the income approach (discounted cash flows) and market approach (market multiples) in estimating the fair value of our reporting units. When preparing discounted cash flow models under the income approach, we estimate future cash flows using the reporting unit's internal multi-year forecast, and a terminal value calculated using a growth rate that we believe is appropriate in light of current and expected future economic conditions. To discount these cash flows we use our expected cost of equity, determined using a capital asset pricing model. When using the market method under the market approach, we apply comparable publicly traded companies' multiples (e.g., earnings, revenues) to our reporting units' ope…"
+   },
+   {
+    "chunk_id": "ch_f251134fcfc2bda7",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 64,
+    "text": "Table of Contents CORPORATE & OTHER Corporate functions and certain other businesses are included in Corporate & Other. Corporate & Other pretax loss was $2.2 billion and $1.0 billion in 2022 and 2021, respectively. The increase in the pretax loss was primarily driven by net losses on Amex Ventures investments in the current year, as compared to net gains in the prior year, a non-cash gain in the prior year related to an increase in GBTG's total equity book value and higher compensation costs in the current year. CONSOLIDATED CAPITAL RESOURCES AND LIQUIDITY Our balance sheet management objectives are to maintain: • A solid and flexible equity capital profile; • A broad, deep and diverse set of funding sources to finance our assets and meet operating requirements; and • Liquidity programs that enable us to continuously meet expected future financing obligations and business requirements for at least a twelve-month period in the event we are unable to continue to raise new funds under ou…"
+   },
+   {
+    "chunk_id": "ch_7bb60dc0c6147ed7",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 71,
+    "text": "securitization trusts or pledged in return for secured borrowings to provide further liquidity, subject in each case to applicable market conditions and eligibility criteria. Committed Bank Credit Facility In addition to the secured borrowing facilities described above, as of December 31, 2022 we maintained a committed syndicated bank credit facility of $3.5 billion with a maturity date of October 15, 2024. The availability of the credit facility is subject to our maintenance of a minimum CET1 risk-based capital ratio of 4.5 percent, with certain restrictions in relation to either accessing the facility or distributing capital to common shareholders in the event our CET1 risk- based capital ratio falls between 4.5 percent and 6.5 percent. It does not contain a material adverse change clause, which might otherwise preclude borrowing under the facility, nor is it dependent on our credit rating. As of December 31, 2022, we were in compliance with the covenants contained in the credit faci…"
+   }
+  ]
+ }
+}

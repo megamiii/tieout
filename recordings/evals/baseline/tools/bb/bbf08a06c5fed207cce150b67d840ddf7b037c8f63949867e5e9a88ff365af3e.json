@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What drove gross margin change as of the FY2022 for American Express? If gross margin is not a useful metric for a company like this, then please state that and explain why.",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_11a952202ee40419",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 45,
+    "text": "36 percent year-over-year, driven in part by higher travel-related revenues. Net interest income increased 28 percent versus the prior year, primarily driven by growth in Card Member loans. While the rising interest rate environment had a fairly neutral impact on our results for the full year, rising rates did have a modest negative impact on net interest income towards the end of the year. Card Member loans increased 22 percent year-over-year, with the majority of growth coming from existing Card Members and was driven by ongoing strong growth in billed business, which began to moderate towards the end of the year as we lapped the steep phase of recovery. Provisions for credit losses increased versus the prior year, reflecting a reserve build of $617 million compared with a reserve release of $2.5 billion in the prior year, and are expected to increase in 2023. While delinquency and net write-off rates continued to increase throughout the year, these metrics remain strong, supported b…"
+   },
+   {
+    "chunk_id": "ch_a74aac52f536b9bc",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 46,
+    "text": "Table of Contents Card Member rewards, Card Member services and Business development expenses are generally correlated to volumes or are variable based on usage, and increased year-over year due to network volume growth and higher usage of travel-related benefits. Card Member rewards expense growth was also driven by a larger proportion of billed business in categories that earn incremental rewards such as travel. During the year, we continued to make significant investments in marketing to drive growth momentum and accelerate new card acquisitions. Operating expenses increased 24 percent year-over-year, primarily driven by net losses in the current year associated with our Amex Ventures equity investments as compared to net gains in the prior year, as well as higher compensation costs due to an increase in our colleague base to support business growth and compensation decisions we made. We remain focused on driving marketing and operating expense efficiencies, while continuing to inve…"
+   },
+   {
+    "chunk_id": "ch_922bd9cf77a099f4",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 85,
+    "text": "Table of Contents OTHER MATTERS As previously disclosed, we identified during an internal review that over time certain current and former U.S. Card Members with multiple cards were not credited certain Membership Rewards points that they had earned. We completed our review of this matter in the fourth quarter of 2022, which resulted in an immaterial impact to our Consolidated Financial Statements for the year ended December 31, 2022. RECENTLY ISSUED AND ADOPTED ACCOUNTING STANDARDS Refer to the Recently Issued and Adopted Accounting Standards section of Note 1 to the “Consolidated Financial Statements.” GLOSSARY OF SELECTED TERMINOLOGY Adjusted net interest income — A non-GAAP measure that represents net interest income attributable to our Card Member loans (which includes, on a GAAP basis, interest that is deemed uncollectible), excluding the impact of interest expense and interest income not attributable to our Card Member loans. Airline-related volume — Represents spend at airlines…"
+   },
+   {
+    "chunk_id": "ch_247a49f24c5f4625",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 57,
+    "text": "and higher net write-offs in the current year. The reserve build in the current year was primarily driven by higher delinquencies and an increase in receivables outstanding. The reserve release in the prior year was driven by improved portfolio quality and macroeconomic forecasts, partially offset by an increase in receivables outstanding. Provisions for credit losses decreased in 2021 compared to 2020, primarily driven by reserve releases in 2021, versus reserve builds in 2020. 54"
+   },
+   {
+    "chunk_id": "ch_be62ecf08685703a",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 102,
+    "text": "Table of Contents AMOUNTS BASED ON ESTIMATES AND ASSUMPTIONS Accounting estimates are an integral part of the Consolidated Financial Statements. These estimates are based, in part, on management's assumptions concerning future events. Among the more significant assumptions are those that relate to reserves for Card Member credit losses on loans and receivables, Membership Rewards liability, goodwill and income taxes. These accounting estimates reflect the best judgment of management, but actual results could differ. INCOME STATEMENT Revenue is recognized when obligations under the terms of a contract with our customers are satisfied. We are not required to disclose revenue that is expected to be recognized in future periods related to contracts that have an original expected duration of one year or less and contracts with variable consideration (e.g., discount revenue). Non-interest revenue expected to be recognized in future periods related to all other contracts with customers is not…"
+   },
+   {
+    "chunk_id": "ch_290f30a8f788565c",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 44,
+    "text": "Table of Contents TABLE 1: SUMMARY OF FINANCIAL PERFORMANCE Years Ended December 31, Change Change (Millions, except percentages, per share amounts and where indicated) 2022 2021 2020 2022 vs. 2021 2021 vs. 2020 Selected Income Statement Data Total revenues net of interest expense $ 52,862 $ 42,380 $ 36,087 $ 10,482 25 % $ 6,293 17 % Provisions for credit losses 2,182 (1,419) 4,730 3,601 # (6,149) # Expenses 41,095 33,110 27,061 7,985 24 6,049 22 Pretax income 9,585 10,689 4,296 (1,104) (10) 6,393 # Income tax provision 2,071 2,629 1,161 (558) (21) 1,468 # Net income 7,514 8,060 3,135 (546) (7) 4,925 # Earnings per common share — diluted $ 9.85 $ 10.02 $ 3.77 $ (0.17) (2)% $ 6.25 # % Common Share Statistics Cash dividends declared per common share $ 2.08 $ 1.72 $ 1.72 $ 0.36 21 % $ — — % Average common shares outstanding: Basic 751 789 805 (38) (5)% (16) (2)% Diluted 752 790 806 (38) (5)% (16) (2)% Selected Metrics and Ratios Network volumes (Billions) $ 1,552.8 $ 1,284.2 $ 1,037.8 $ 2…"
+   },
+   {
+    "chunk_id": "ch_e78d04ca8db7f263",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 90,
+    "text": "growth, the impact of global economic, political and other events on market capacity, demand for securities we offer, regulatory changes, our ability to securitize and sell loans and receivables and the performance of loans and receivables previously sold in securitization transactions; • our ability to implement our ESG strategies and initiatives, which depend in part on the amount and efficacy of our investments in product innovations, marketing campaigns, our supply chain and operations, and philanthropic, colleague and community programs; customer behaviors; and the cost and availability of solutions for a low carbon economy; • legal and regulatory developments, which could affect the profitability of our business activities; limit our ability to pursue business opportunities or conduct business in certain jurisdictions; require changes to business practices or alter our relationships with Card Members, partners, merchants and other third parties, including our ability to continue …"
+   },
+   {
+    "chunk_id": "ch_b315df64329bc041",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 48,
+    "text": "build in the current year was primarily driven by increases in non-card loans outstanding, partially offset by improved credit performance. The reserve release in the prior year was due to improved portfolio quality and macroeconomic forecasts. Refer to Note 3 to the “Consolidated Financial Statements” for further information regarding our reserves for credit losses. (a) (a) (b) (c) (a)(b) (a)(c) 45"
+   }
+  ]
+ }
+}

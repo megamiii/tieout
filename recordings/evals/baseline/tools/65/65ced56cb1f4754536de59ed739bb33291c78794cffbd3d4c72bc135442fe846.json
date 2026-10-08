@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "By what percentage did Amcor's total revenue change from fiscal year 2019 to fiscal year 2020? Give the percentage rounded to one decimal place.",
+  "ticker": "AMCR",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_c0cf187589fb85b7",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 28,
+    "text": "Results of Operations The following is a discussion and analysis of changes in the financial condition and results of operations for fiscal year 2020 compared to fiscal year 2019. A discussion and analysis regarding our results of operations for fiscal year 2019 compared to fiscal year 2018 that are not included in this Annual Report on Form 10-K can be found in Part II, Item 7 of our Annual Report on Form 10-K for the fiscal year ended June 30, 2019, filed with the SEC on September 3, 2019. Consolidated Results of Operations (in millions) 2020 2019 Net sales $ 12,467.5 $ 9,458.2 Operating income 994.0 791.7 Operating profit as a percentage of net sales 8.0 % 8.4 % Net income attributable to Amcor plc $ 612.2 $ 430.2 Diluted Earnings Per Share $ 0.382 $ 0.363 Net sales increased $3,009.3 million, or 31.8%, to $12,467.5 million for the fiscal year 2020, from $9,458.2 million for the fiscal year 2019. Excluding negative currency impacts of $274.0 million, or (2.9%), and pass-through of l…"
+   },
+   {
+    "chunk_id": "ch_137c2480a782d238",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 6",
+    "page": 23,
+    "text": "Other Operating Data Capital expenditures 399.5 332.2 365.0 379.3 346.7 Depreciation and amortization 607.2 349.7 352.7 351.8 351.0 (1) Fiscal year 2020 and 2019 reflects the results of Amcor plc, including Bemis results since the acquisition date of June 11, 2019. The historical periods solely reflect the results of Amcor Limited. (2) Fiscal year 2019 dividends per share include dividends of $0.240 and $0.215 per share declared in August 2018 and February 2019, respectively, along with a pro-rata dividend of $0.120 per share declared in April 2019. The April 2019 dividend was declared to align the period over which dividends had been paid to Amcor and Bemis shareholders prior to completion of the acquisition. 23"
+   },
+   {
+    "chunk_id": "ch_db55366b1af3156b",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 94,
+    "text": "Foreign tax rate differential 70.2 59.5 (40.8) Tax-exempt income — — 5.7 Non-deductible expenses 13.2 5.6 (7.7) Tax law changes (30.5) (2.3) (52.9) Change in valuation allowance (16.5) (5.9) 5.3 Other (2.2) (0.2) (7.7) Income tax expense $ 186.9 $ 171.5 $ 118.8 Amcor operates in over forty different jurisdictions with a wide range of statutory tax rates. The tax expense from operating in non-UK jurisdictions in excess of the UK statutory tax rate is included in the line \"Foreign tax rate differential\" in the above tax rate reconciliation table. For fiscal year 2020, the Company's effective tax rate was 22.6% as compared to the effective tax rates of 28.4% and 16.4% for fiscal years 2019 and 2018, respectively. The fiscal year 2020 foreign tax rate differential reflects a benefit related to Swiss tax law changes, which was mostly offset by current period tax charges related to true-up adjustments. Refer to the section \"Swiss Tax Reform\" in this footnote for a discussion of the benefit r…"
+   },
+   {
+    "chunk_id": "ch_048243d84da9a9d2",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 96,
+    "text": "During the fiscal year ended June 30, 2020, Swiss tax laws were changed in order to remove certain tax regimes and replace these with new measures that are hereafter referred to as \"Swiss Tax Reform.\" In the fourth quarter of fiscal year 2020, the Company obtained confirmation from local authorities as to the methodology to calculate the future benefits and recorded the impact. The net impact was a benefit of $21.7 million, which consisted of a reduction in deferred tax expense from an allowed step-up of intangible assets for tax purposes. 96"
+   },
+   {
+    "chunk_id": "ch_4da5a7022574af86",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 48,
+    "text": "Amcor plc and Subsidiaries Consolidated Statement of Income (in millions, except per share data) For the years ended June 30, 2020 2019 2018 Net sales $ 12,467.5 $ 9,458.2 $ 9,319.1 Cost of sales (9,932.0) (7,659.1) (7,462.3) Gross profit 2,535.5 1,799.1 1,856.8 Operating expenses: Selling, general, and administrative expenses (1,384.8) (999.0) (793.2) Research and development expenses (97.3) (64.0) (72.7) Restructuring and related expenses (115.1) (130.8) (40.2) Other income, net 55.7 186.4 43.2 Operating income 994.0 791.7 993.9 Interest income 22.2 16.8 13.1 Interest expense (206.9) (207.9) (210.0) Other non-operating income (loss), net 15.9 3.5 (74.1) Income from continuing operations before income taxes and equity in income (loss) of affiliated companies 825.2 604.1 722.9 Income tax expense (186.9) (171.5) (118.8) Equity in income (loss) of affiliated companies, net of tax (14.0) 4.1 (17.5) Income from continuing operations 624.3 436.7 586.6 Income (loss) from discontinued operati…"
+   },
+   {
+    "chunk_id": "ch_46da51bcfbcc4a37",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 112,
+    "text": "0.085 0.120 0.097 0.061 0.363 Income from discontinued operations — — — 0.001 0.001 Net income 0.085 0.120 0.097 0.062 0.364 Diluted earnings per share: (2) Income from continuing operations 0.085 0.120 0.097 0.060 0.362 Income from discontinued operations — — — 0.001 0.001 Net income 0.085 0.120 0.097 0.061 0.363 (1) The fourth quarter of fiscal 2019 reflects the results of Amcor plc, including Bemis results since the acquisition date of June 11, 2019. The earlier quarters solely reflect the results of Amcor Limited. (2) Per share amounts are computed independently for each of the quarters presented. The sum of the quarters may not equal the total year amount due to the impact of changes in average quarterly shares outstanding. Note 24 - Subsequent Events On August 18, 2020, the Company's Board of Directors declared a quarterly cash dividend of $0.115 per share to be paid on September 23, 2020 to shareholders of record as of September 3, 2020. Amcor has received a waiver from the Aust…"
+   },
+   {
+    "chunk_id": "ch_167519ca8a884d81",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Consolidated Other Income, Net (in millions) 2020 2019 Other income, net $ 55.7 $ 186.4 Other income, net, as a percentage of net sales 0.4 % 2.0 % Other income, net decreased by $130.7 million to $55.7 million for fiscal year 2020, from $186.4 million for fiscal year 2019. The decrease was mainly driven by nonrecurrence of remedy disposal related gains in the fiscal year 2019. Consolidated Interest Income (in millions) 2020 2019 Interest income $ 22.2 $ 16.8 Interest income as a percentage of net sales 0.2 % 0.2 % Interest income increased by $5.4 million, or 32.1%, to $22.2 million for fiscal year 2020, from $16.8 million for fiscal year 2019, mainly driven by higher cash balances during the period and negative interest rates on a portion of Euro denominated borrowings. Consolidated Interest Expense (in millions) 2020 2019 Interest expense $ (206.9) $ (207.9) Interest expense as a percentage of net sales (1.7)% (2.2)% Interest expense remained relatively stable at $206.9 million for …"
+   },
+   {
+    "chunk_id": "ch_627e50c4639fae0c",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 94,
+    "text": "Note 16 - Income Taxes Amcor plc is a tax resident of the United Kingdom of Great Britain and Northern Ireland (\"UK\"). Prior to the acquisition of Bemis, the ultimate parent of the Company at June 30, 2018 was Amcor Limited, which was a tax resident of Australia. The components of income before income taxes and equity in income (loss) of affiliated companies were as follows: Years ended June 30, (in millions) 2020 2019 2018 Domestic (35.6) $ 31.7 $ (206.6) Foreign 860.8 572.4 929.5 Total income before income taxes and equity in income (loss) of affiliated companies $ 825.2 $ 604.1 $ 722.9 Income tax expense consisted of the following: Years ended June 30, (in millions) 2020 2019 2018 Current tax Domestic 0.5 $ 7.2 $ 0.2 Foreign 300.1 91.5 192.1 Total current tax 300.6 98.7 192.3 Deferred tax Domestic 1.0 (3.2) (21.3) Foreign (114.7) 76.0 (52.2) Total deferred tax (113.7) 72.8 (73.5) Income tax expense $ 186.9 $ 171.5 $ 118.8 The following is a reconciliation of income tax computed at t…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TFRDJ3LSDfdKeztPLyoehVI9TIcmtJMZtI4E9lkVZZmVQiSTnzrHSoud1m7dF/oWe2RXMmbO0uUEarvV91ogQKmrmqlaZ834gHWBPfMGhAlR8vzd/T3NwAO4="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"management believes that the final outcome of the foregoing will not have a material adverse effect on our financial condition, results of operations or cash flows.\",\"source_id\":\"ch_3829c9d1997f0b3d\"},{\"quote\":\"management believes that the final outcome of the foregoing will not have a material adverse effect on our financial condition, results of operations or cash flows.\",\"source_id\":\"ch_b5b1ca2910f1a712\"}],\"needs_review\":false,\"answer\":\"In both FY2021 and FY2022, PepsiCo reported that while it and its subsidiaries are party to a variety of litigation, claims, legal or regulatory proceedings, inquiries, and investigations, management believes that the final outcome of these matters will not have a material adverse effect on its financial condition, results of operations, or cash flows.\",\"confidence\":1,\"rationale\":\"Both FY2021 and FY2022 Item 3 disclosures state that although PepsiCo is party to various legal proceedings and claims, management does not believe the final outcome will have a material adverse effect on the company's financial condition, results of operations, or cash flows.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_1200025",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791495206,
+  "id": "JQzIarSgF5L8vdIPz7LOuAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 280,
+   "prompt_tokens": 4636,
+   "prompt_tokens_details": {
+    "cached_tokens": 2010
+   },
+   "total_tokens": 4916
+  }
+ }
+}

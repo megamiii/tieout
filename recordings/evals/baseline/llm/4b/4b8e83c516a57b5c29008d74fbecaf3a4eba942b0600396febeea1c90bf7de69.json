@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the exact net income percentage change from fiscal year 2017 to fiscal year 2018 is not explicitly mentioned (only adjusted/non-GAAP per diluted share metrics and other specific figures are provided).\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T5+V00S4S7qMJ7lcObCkH65nDbPpd3Ou9pjm6pAUeE/rgvJnQPt3jY5LnYOfdpBOEXWUq1977U9R5mj1vBpIXczNKtrdGy6s3M1aGIKnjlxKzxECyGmcl9w8="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493435,
+  "id": "OgXIaqn1Jr6yxN8PhtuNyAg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 85,
+   "prompt_tokens": 2713,
+   "total_tokens": 2798
+  }
+ }
+}

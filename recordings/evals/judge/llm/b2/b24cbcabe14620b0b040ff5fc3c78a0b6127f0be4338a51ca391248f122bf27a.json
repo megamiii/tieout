@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer incorrectly states that the information is unavailable, whereas the gold answer provides a calculation based on the 10-K data to determine the liquidity profile.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0Tk9jzS70vl7CQDHgxsjUVMpxeWcbDnFhWnJzWliUXFPxJCsx3SgbiOILMexlVBq7GiviYDI+zwSsO5YhO4cuxFBXAagEY7cnCGXjl+D275/JLl9uvy/0aieIFMcO8WHWYjAmC7lMw1opfZufv"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492883,
+  "id": "DgPIao6nHNq6vdIPh5Dz2Q8",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 270,
+   "total_tokens": 314
+  }
+ }
+}

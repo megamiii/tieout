@@ -1,0 +1,36 @@
+{
+ "item_id": "xbrl-AMCR-2020-ResearchAndDevelopmentExpense-growth",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "52.0%",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_9cc5bf16c10372cf",
+   "quote": "Research and development costs increased by $33.3 million, or 52.0%, to $97.3 million for fiscal year 2020, from $64.0 million for fiscal year 2019.",
+   "kind": "chunk",
+   "ticker": "AMCR",
+   "fiscal_year": 2020,
+   "section": "Item 7",
+   "page": 29,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2481,
+ "completion_tokens": 117,
+ "latency_ms": 960.3,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "52.0% matches 52.0312 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

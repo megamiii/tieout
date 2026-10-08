@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"$228,275 million in fiscal year 2022\",\n  \"confidence\": 1.0,\n  \"citations\": [{\"source_id\": \"ch_f8a564f1d3487be1\", \"quote\": \"Total assets $ 228,275 $ 232,999\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TpYqtaICa5Xs5g8rVv49ZImoNY9lI08kSgyzjK9RvnOR0kCqJHugcFyAW5biEgiZykMAhM3huByvav8nLZu1Jw4WL8t7MJgIvwUaUKNz93GX2dw5QAKl4MWo="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493425,
+  "id": "MAXIapC6G72H28oPzeHCuQw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 100,
+   "prompt_tokens": 3190,
+   "total_tokens": 3290
+  }
+ }
+}

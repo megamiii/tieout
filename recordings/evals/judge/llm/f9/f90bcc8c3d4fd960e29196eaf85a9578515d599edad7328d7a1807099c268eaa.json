@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer fails to identify the customer concentration regarding net revenue, instead citing a figure for accounts receivable, which contradicts the gold answer's focus on revenue concentration.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T281RymWa6z4LTpoaC+CgnNUHqSC6+tVY8vdmrgM83l9Ze+nKBxax/F2RWB6mXrWkOQzC6tzEiPz5NlIV1FBxAgDTOoFcIn2/GNY7j8kdU5UituWPSk9GPKrbLu05fIunjwuxnf0Kkj7p//5s"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493115,
+  "id": "7gPIaqnoN9mc28oPmv3kgQI",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 249,
+   "total_tokens": 293
+  }
+ }
+}

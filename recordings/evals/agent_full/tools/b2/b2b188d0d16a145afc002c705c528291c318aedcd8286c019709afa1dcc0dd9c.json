@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "pretax income",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": "7",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e69520d69ad324c0",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 60,
+    "text": "Table of Contents INTERNATIONAL CARD SERVICES TABLE 13: ICS SELECTED INCOME STATEMENT DATA Years Ended December 31, Change Change (Millions, except percentages) 2022 2021 2020 2022 vs. 2021 2021 vs. 2020 Revenues Non-interest revenues $ 8,262 $ 6,761 $ 5,877 $ 1,501 22 % $ 884 15 % Interest income 1,453 1,116 1,244 337 30 (128) (10) Interest expense 654 442 379 212 48 63 17 Net interest income 799 674 865 125 19 (191) (22) Total revenues net of interest expense 9,061 7,435 6,742 1,626 22 693 10 Provisions for credit losses 584 (43) 734 627 # (777) # Total revenues net of interest expense after provisions for credit losses 8,477 7,478 6,008 999 13 1,470 24 Total expenses 7,899 6,549 5,487 1,350 21 1,062 19 Pretax segment income $ 578 $ 929 $ 521 $ (351) (38)% $ 408 78 % # Denotes a variance of 100 percent or more ICS issues a wide range of proprietary consumer, small business and corporate cards outside the United States. ICS also provides services to our international customers, includ…"
+   },
+   {
+    "chunk_id": "ch_f251134fcfc2bda7",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 64,
+    "text": "Table of Contents CORPORATE & OTHER Corporate functions and certain other businesses are included in Corporate & Other. Corporate & Other pretax loss was $2.2 billion and $1.0 billion in 2022 and 2021, respectively. The increase in the pretax loss was primarily driven by net losses on Amex Ventures investments in the current year, as compared to net gains in the prior year, a non-cash gain in the prior year related to an increase in GBTG's total equity book value and higher compensation costs in the current year. CONSOLIDATED CAPITAL RESOURCES AND LIQUIDITY Our balance sheet management objectives are to maintain: • A solid and flexible equity capital profile; • A broad, deep and diverse set of funding sources to finance our assets and meet operating requirements; and • Liquidity programs that enable us to continuously meet expected future financing obligations and business requirements for at least a twelve-month period in the event we are unable to continue to raise new funds under ou…"
+   },
+   {
+    "chunk_id": "ch_290f30a8f788565c",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 44,
+    "text": "Table of Contents TABLE 1: SUMMARY OF FINANCIAL PERFORMANCE Years Ended December 31, Change Change (Millions, except percentages, per share amounts and where indicated) 2022 2021 2020 2022 vs. 2021 2021 vs. 2020 Selected Income Statement Data Total revenues net of interest expense $ 52,862 $ 42,380 $ 36,087 $ 10,482 25 % $ 6,293 17 % Provisions for credit losses 2,182 (1,419) 4,730 3,601 # (6,149) # Expenses 41,095 33,110 27,061 7,985 24 6,049 22 Pretax income 9,585 10,689 4,296 (1,104) (10) 6,393 # Income tax provision 2,071 2,629 1,161 (558) (21) 1,468 # Net income 7,514 8,060 3,135 (546) (7) 4,925 # Earnings per common share — diluted $ 9.85 $ 10.02 $ 3.77 $ (0.17) (2)% $ 6.25 # % Common Share Statistics Cash dividends declared per common share $ 2.08 $ 1.72 $ 1.72 $ 0.36 21 % $ — — % Average common shares outstanding: Basic 751 789 805 (38) (5)% (16) (2)% Diluted 752 790 806 (38) (5)% (16) (2)% Selected Metrics and Ratios Network volumes (Billions) $ 1,552.8 $ 1,284.2 $ 1,037.8 $ 2…"
+   },
+   {
+    "chunk_id": "ch_490a5e2448e6d81d",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 79,
+    "text": "Table of Contents With respect to Card Member spending and cross-currency transactions, including related foreign exchange forward contracts outstanding, the impact of a hypothetical 10 percent strengthening of the U.S. dollar would have been immaterial to projected earnings as of December 31, 2022. With respect to translation exposure of foreign subsidiary equity balances, including related foreign exchange forward contracts outstanding, a hypothetical 10 percent strengthening of the U.S. dollar would result in an immaterial reduction in other comprehensive income and equity as of December 31, 2022. With respect to anticipated earnings denominated in foreign currencies for the next twelve months, the adverse impact on pretax income of a hypothetical 10 percent strengthening of the U.S. dollar would be approximately $153 million as of December 31, 2022. To a much lesser extent, we are also subject to market risk arising from activities conducted by our Foreign Exchange International Pa…"
+   },
+   {
+    "chunk_id": "ch_d166d42c10173230",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 57,
+    "text": "Table of Contents COMMERCIAL SERVICES TABLE 11: CS SELECTED INCOME STATEMENT DATA Years Ended December 31, Change Change (Millions, except percentages) 2022 2021 2020 2022 vs. 2021 2021 vs. 2020 Revenues Non-interest revenues $ 12,196 $ 9,833 $ 8,210 $ 2,363 24 % $ 1,623 20 % Interest income 2,070 1,408 1,532 662 47 (124) (8) Interest expense 697 330 508 367 # (178) (35) Net interest income 1,373 1,078 1,024 295 27 54 5 Total revenues net of interest expense 13,569 10,911 9,234 2,658 24 1,677 18 Provisions for credit losses 565 (420) 1,291 985 # (1,711) # Total revenues net of interest expense after provisions for credit losses 13,004 11,331 7,943 1,673 15 3,388 43 Total expenses 10,124 8,395 6,930 1,729 21 1,465 21 Pretax segment income $ 2,880 $ 2,936 $ 1,013 $ (56) (2)% $ 1,923 # % # Denotes a variance of 100 percent or more CS issues a wide range of proprietary corporate and small business cards and provides services to U.S. businesses, including payment and expense management, ban…"
+   }
+  ]
+ }
+}

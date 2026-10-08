@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer provides incorrect figures for the effective tax rates, stating -0.6% and 14.7% instead of the gold answer's 0.62% and -14.76%.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T1K0PyfQCB88zF/3ev34sejW0iio5RhVWVV2fklaxwd6jpOC/43yUjQdPCqSFr6883MrSwt1uSYJSHgZaDouQ9qS3DJkMKi1qOgnDbzoAu/uwPBmw+IQiHuAgQi9N4DgXrWeSkGvm+saTWCgP"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791495442,
+  "id": "Dw3IavHVNJzyxN8Ph_KHoAw",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 58,
+   "prompt_tokens": 296,
+   "total_tokens": 354
+  }
+ }
+}

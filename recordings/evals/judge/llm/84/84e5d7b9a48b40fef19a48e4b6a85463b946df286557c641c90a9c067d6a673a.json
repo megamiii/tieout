@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer includes all the information provided in the gold answer and adds relevant, accurate details regarding specific product brands and IP licensing, which does not contradict the gold answer.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T4Bo/2A7AgLzS9nSGPQECah8KoBtMX0sTMAq8mOHTbDKufYIF7sfb4YQqPbxPB31R6mzygS7XlGWAnlTiNhDKLkQ+tEwyG0F9OZlOmvCzD3Dp9skiBGrrQtviZvCH3YpJyUJDOm514ADCTwbj"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493140,
+  "id": "BwTIatzSD7qjnsEP9cGJ-A0",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 433,
+   "total_tokens": 478
+  }
+ }
+}

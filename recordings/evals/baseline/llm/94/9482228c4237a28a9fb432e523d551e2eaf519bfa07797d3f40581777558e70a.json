@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the balance sheet data and net PPNE for FY2018 for 3M are not shown. Therefore, the question cannot be answered using only the provided passages.\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TEo5NFOQOtCDiz3CZg213pWNJPg+7AwXJ32/fJnp3abSoltbWKof7/LcNc218ZZ2byqSOH1s4W2h/hetnqggBBfqVWkdh4s1xOa2dFvYhSNHMN20QPW3ADpo="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492826,
+  "id": "2gLIaqCdB6D4xN8Pkr-s4Aw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 75,
+   "prompt_tokens": 3233,
+   "total_tokens": 3308
+  }
+ }
+}

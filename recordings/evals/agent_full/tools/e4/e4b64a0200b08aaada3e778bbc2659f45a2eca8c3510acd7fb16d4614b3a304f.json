@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Derivative Financial Instruments Notional Balance Sheet fair value December 31 2021",
+  "ticker": "VZ",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_28224598a5b7f0df",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 86,
+    "text": "The following tables summarize the activities of our designated derivatives: (dollars in millions) At December 31, 2021 2020 Interest Rate Swaps: Notional value entered into $ 6,050 $ 10,168 Notional value settled 4,018 9,488 Ineffective portion gain recognized in Interest expense 2 46 Cross Currency Swaps: Notional value entered into 6,214 4,817 Notional value settled — 1,600 Pre-tax gain (loss) recognized in Other comprehensive loss Forward Starting Interest Rate Swaps: (2,285) 1,810 Notional value entered into — — Notional value settled 1,000 1,000 Pre-tax gain (loss) recognized in Other comprehensive loss 258 (486) Treasury Rate Locks: Notional value entered into 4,650 5,500 Notional value settled 4,650 5,500 Pre-tax gain (loss) recognized in Other comprehensive loss 251 (41) (dollars in millions) At December 31, 2021 2020 Other, net Cash Flows from Operating Activities: Cash received for settlement of interest rate swaps $ 107 $ 764 Cash paid for settlement of forward starting int…"
+   },
+   {
+    "chunk_id": "ch_9a5ef4bd8c32d0eb",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 85,
+    "text": "Derivative contracts are valued using models based on readily observable market parameters for all substantial terms of our derivative contracts and thus are classified within Level 2. We use mid-market pricing for fair value measurements of our derivative instruments. Our derivative instruments are recorded on a gross basis. We recognize transfers between levels of the fair value hierarchy as of the end of the reporting period. Fair Value of Short-term and Long-term Debt The fair value of our debt is determined using various methods, including quoted prices for identical debt instruments, which is a Level 1 measurement, as well as quoted prices for similar debt instruments with comparable terms and maturities, which is a Level 2 measurement. The fair value of our short-term and long-term debt, excluding finance leases, was as follows: Fair Value (dollars in millions) Carrying Amount Level 1 Level 2 Level 3 Total At December 31, 2020 $ 127,778 $ 103,967 $ 52,785 $ — $ 156,752 At Decemb…"
+   },
+   {
+    "chunk_id": "ch_dec3abc0046d5228",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 7A",
+    "page": 46,
+    "text": "instruments and fair value amounts recognized for the right to reclaim cash collateral or the obligation to return cash collateral arising from derivative instruments recognized at fair value. At December 31, 2021, we held and posted $0.1 billion and an insignificant amount, respectively, of collateral related to derivative contracts under collateral exchange agreements, which were recorded as Other current liabilities and Prepaid expenses and other, respectively, in our consolidated balance sheet. At December 31, 2020, we held $0.2 billion of collateral related to derivative contracts under collateral exchange arrangements, which were recorded as Other current liabilities in our consolidated balance sheet. While we may be exposed to credit losses due to the nonperformance of our counterparties, we consider the risk remote and do not expect that any such nonperformance would result in a significant effect on our results of operations or financial condition due to our diversified pool o…"
+   },
+   {
+    "chunk_id": "ch_a1508acf724c6fee",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 85,
+    "text": "Certain of our equity investments do not have readily determinable fair values and are excluded from the tables above. Such investments are measured at cost, less any impairment, plus or minus changes resulting from observable price changes in orderly transactions for an identical or similar investment of the same issuer and are included in Investments in unconsolidated businesses in our consolidated balance sheets. As of December 31, 2021 and December 31, 2020, the carrying amount of our investments without readily determinable fair values were $808 million and $402 million, respectively. During 2021, there were approximately $66 million of adjustments due to observable price changes and insignificant impairment charges. Cumulative adjustments due to observable price changes and impairment charges were approximately $143 million and $63 million, respectively. Verizon has a liability for contingent consideration related to its acquisition of Tracfone, completed in November 2021. The fa…"
+   },
+   {
+    "chunk_id": "ch_cde5ffe540b277e5",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 87,
+    "text": "We enter into British Pound Sterling and Euro foreign exchange forwards to mitigate our foreign exchange rate risk related to non-functional currency denominated monetary assets and liabilities of international subsidiaries. Treasury Rate Locks We enter into treasury rate locks to mitigate our interest rate risk. Swaptions We enter into swaptions to achieve a targeted mix of fixed and variable rate debt. In January 2022, we sold payer swaptions with a notional amount of $1.0 billion to enter into future pay-floating interest rate swaps indexed to SOFR that were not designated in hedging relationships. Concentrations of Credit Risk Financial instruments that subject us to concentrations of credit risk consist primarily of temporary cash investments, short-term and long- term investments, trade receivables, including device payment plan agreement receivables, certain notes receivable, including lease receivables, and derivative contracts. Counterparties to our derivative contracts are ma…"
+   }
+  ]
+ }
+}

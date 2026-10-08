@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies that the operating margin declined in FY2022, matches the figures provided in the gold answer, and provides additional context regarding the trend.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TswoHuBUSeywS79SpXjDTHyzGH4LFliYnERtkAo2lYSyuo2yqH7bg8Nx7N6FKGQZMWbgORDFQR4Y7z9HQjCmsbzfDWJyaOVVgA7GB1QxgaRBC7bHOhaNBkrCY0J9VklQPcHkTsDKg4wpAU8u5"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791494693,
+  "id": "JArIaoujK9q6vdIPh5Dz2Q8",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 555,
+   "total_tokens": 600
+  }
+ }
+}

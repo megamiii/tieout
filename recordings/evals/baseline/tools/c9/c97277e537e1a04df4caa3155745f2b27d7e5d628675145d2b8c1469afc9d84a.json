@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Is Boeing's business subject to cyclicality?",
+  "ticker": "BA",
+  "fiscal_year": null,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_cbcee2216d47b49c",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 63,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Notes to the Consolidated Financial Statements Years ended December 31, 2022, 2021 and 2020 (Dollars in millions, except otherwise stated) Note 1 – Summary of Significant Accounting Policies Principles of Consolidation and Basis of Presentation The Consolidated Financial Statements included in this report have been prepared by management of The Boeing Company (herein referred to as “Boeing,” the “Company,” “we,” “us” or “our”). These statements include the accounts of all majority-owned subsidiaries and variable interest entities that are required to be consolidated. All significant intercompany accounts and transactions have been eliminated. As described in Note 22, we operate in four reportable segments: Commercial Airplanes (BCA), Defense, Space & Security (BDS), Global Services (BGS) and Boeing Capital (BCC). Use of Estimates The preparation of financial statements in conformity with U.S. generally accepted accounting principles…"
+   },
+   {
+    "chunk_id": "ch_65910809db031f80",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 33,
+    "text": "Table of Contents Since our operating cycle is long-term and involves many different types of development and production contracts with varying delivery and milestone schedules, the operating results of a particular year, or year-to-year comparisons of revenues, earnings and backlog may not be indicative of future operating results. In addition, depending on the customer and their funding sources, our orders might be structured as annual follow-on contracts, or as one large multi-year order or long-term award. As a result, period-to-period comparisons of backlog are not necessarily indicative of future workloads. The following discussions of comparative results among periods should be viewed in this context. Deliveries of units for new-build production aircraft, including remanufactures and modifications were as follows: Years ended December 31, 2018 2017 2016 F/A-18 Models 17 23 25 F-15 Models 10 16 15 C-17 Globemaster III 4 CH-47 Chinook (New) 13 9 25 CH-47 Chinook (Renewed) 17 35 25…"
+   },
+   {
+    "chunk_id": "ch_2d6c20a46b0e52b9",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 36,
+    "text": "indicators, performance or reliability issues involving completed aircraft, capital expenditures and other costs associated with increasing or adding new production capacity, learning curve, additional change incorporation, achieving anticipated cost reductions, the addition of regulatory requirements in connection with certification in one or more jurisdictions, flight test and certification schedules, costs, schedule and demand for new airplanes and derivatives and status of customer claims, supplier claims or assertions and other contractual negotiations. While we believe the cost and revenue estimates incorporated in the consolidated financial statements are appropriate, the technical complexity of our airplane programs creates financial risk as additional completion costs may become necessary or scheduled delivery dates could be extended, which could trigger termination provisions, order cancellations or other financially significant exposure. 34"
+   },
+   {
+    "chunk_id": "ch_da1da5ae3460887f",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 20,
+    "text": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations Consolidated Results of Operations and Financial Condition Overview We are a global market leader in the design, development, manufacture, sale, service and support of commercial jetliners, military aircraft, satellites, missile defense, human space flight and launch systems and services. We are one of the two major manufacturers of 100+ seat airplanes for the worldwide commercial airline industry and one of the largest defense contractors in the U.S. While our principal operations are in the U.S., we conduct operations in an expanding number of countries and rely on an extensive network of non-U.S. partners, key suppliers and subcontractors. Our strategy is centered on successful execution in healthy core businesses – Commercial Airplanes ( BCA ), Defense, Space & Security ( BDS ), and Global Services ( BGS ) – supplemented and supported by Boeing Capital ( BCC ). Taken together, these core b…"
+   },
+   {
+    "chunk_id": "ch_ed1226711a5b9485",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 1A",
+    "page": 8,
+    "text": "Table of Contents fluctuate significantly from period to period. Changes in escalation amounts can significantly impact revenues and operating margins in our Commercial Airplanes business. We derive a significant portion of our revenues from a limited number of commercial airlines. We can make no assurance that any customer will exercise purchase options, fulfill existing purchase commitments or purchase additional products or services from us. In addition, fleet decisions, airline consolidations or financial challenges involving any of our major commercial airline customers could significantly reduce our revenues and limit our opportunity to generate profits from those customers. Our Commercial Airplanes business depends on our ability to maintain a healthy production system, achieve planned production rate targets, successfully develop new aircraft or new derivative aircraft, and meet or exceed stringent performance and reliability standards. The commercial aircraft business is extre…"
+   },
+   {
+    "chunk_id": "ch_d0fe84b804832852",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Notes to the Consolidated Financial Statements Years ended December 31, 2018, 2017 and 2016 (Dollars in millions, except per share data) Note 1 – Summary of Significant Accounting Policies Principles of Consolidation and Basis of Presentation The Consolidated Financial Statements included in this report have been prepared by management of The Boeing Company (herein referred to as “Boeing,” the “Company,” “we,” “us,” or “our”). These statements include the accounts of all majority-owned subsidiaries and variable interest entities that are required to be consolidated. All significant intercompany accounts and transactions have been eliminated. As described in Note 23 , effective July 1, 2017, we now operate in four reportable segments: Commercial Airplanes (BCA); Defense, Space & Security (BDS), Global Services (BGS), and Boeing Capital (BCC). Amounts in prior periods have been reclassified to conform to the current year presentation.…"
+   },
+   {
+    "chunk_id": "ch_25d897fca5835b04",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 22,
+    "text": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations Consolidated Results of Operations and Financial Condition Overview We are a global market leader in the design, development, manufacture, sale, service and support of commercial jetliners, military aircraft, satellites, missile defense, human space flight and launch systems and services. We are one of the two major manufacturers of 100+ seat airplanes for the worldwide commercial airline industry and one of the largest defense contractors in the U.S. While our principal operations are in the U.S., we conduct operations in an expanding number of countries and rely on an extensive network of non-U.S. partners, key suppliers and subcontractors. Our strategy is centered on successful execution in healthy core businesses – Commercial Airplanes (BCA), Defense, Space & Security (BDS) and Global Services (BGS) – supplemented and supported by Boeing Capital (BCC). Taken together, these core businesses…"
+   },
+   {
+    "chunk_id": "ch_4b30f59e40edafaa",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 13,
+    "text": "(b) the period over which the units can reasonably be expected to be produced and (c) the units' expected sales prices, production costs, program tooling and other non-recurring costs, and routine warranty costs for the total program. Several factors determine accounting quantity, including firm orders, letters of intent from prospective customers and market studies. Changes to customer or model mix, production costs and rates, learning curve, changes to price escalation indices, costs of derivative aircraft, supplier performance, customer and supplier negotiations/settlements, supplier claims and/or certification issues can impact these estimates. In addition, on development programs such as the 777X, 737-7 and 737-10 we are subject to risks with respect to the timing and conditions of aircraft certification, including potential gaps between when aircraft are certified in various jurisdictions, changes in certification processes and our estimates with respect to timing of future certi…"
+   }
+  ]
+ }
+}

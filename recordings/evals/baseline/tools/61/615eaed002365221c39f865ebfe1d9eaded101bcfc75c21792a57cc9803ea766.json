@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "We want to calculate a financial metric. Please help us compute it by basing your answers off of the cash flow statement and the income statement. Here's the question: what is the FY2022 retention ratio (using total cash dividends paid and net income attributable to shareholders) for General Mills? Round answer to two decimal places.",
+  "ticker": "GIS",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_64719ce882bfc62f",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 18,
+    "text": "18 increased 4 percent on a constant-currency basis (See the “Non-GAAP Measures” section below for a description of our use of measures not defined by generally accepted accounting principles (GAAP)). Net cash provided by operations totaled $3.3 billion in fiscal 2022 representing a conversion rate of 121 percent of net earnings, including earnings attributable to redeemable and noncontrolling interests. This cash generation supported capital investments totaling $569 million, and our resulting free cash flow was $2.7 billion at a conversion rate of 113 percent of adjusted net earnings, including earnings attributable to redeemable and noncontrolling interests. We returned cash to shareholders through dividends totaling $1.2 billion and net share repurchases totaling $715 million. Our ratio of net debt-to-operating cash flow was 3.3 in fiscal 2022, and our net debt-to-adjusted earnings before net interest, income taxes, depreciation and amortization (net debt-to-adjusted EBITDA) ratio …"
+   },
+   {
+    "chunk_id": "ch_0ce8f68b77faff90",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 25,
+    "text": "inflation of approximately 14 percent in fiscal 2023. We attempt to minimize the effects of inflation through HMM, SRM, planning, and operating practices. Our risk management practices are discussed in Item 7A of this report. LIQUIDITY AND CAPITAL RESOURCES The primary source of our liquidity is cash flow from operations. Over the most recent two-year period, our operations have generated $6.3 billion in cash. A substantial portion of this operating cash flow has been returned to shareholders through dividends and share repurchases. We also use cash from operations to fund our capital expenditures, acquisitions, and debt service. We typically use a combination of cash, notes payable, and long-term debt, and occasionally issue shares of common stock, to finance significant acquisitions. As of May 29, 2022, we had $523 million of cash and cash equivalents held in foreign jurisdictions. In anticipation of repatriating funds from foreign jurisdictions, we record local country withholding t…"
+   },
+   {
+    "chunk_id": "ch_68a67022e923711f",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 35,
+    "text": "35 Free Cash Flow Conversion Rate We believe this measure provides useful information to investors because it is important for assessing our efficiency in converting earnings to cash and returning cash to shareholders. The calculation of free cash flow conversion rate and net cash provided by operating activities conversion rate, its equivalent GAAP measure, follows: In Millions Fiscal 2022 Net earnings, including earnings attributable to redeemable and noncontrolling interests, as reported $ 2,735.0 Divestitures gain, net of tax (189.0) Mark-to-market effects, net of tax (102.5) Transaction costs, net of tax 56.4 Restructuring (recoveries) charges, net of tax (16.7) Acquisition integration costs, net of tax 17.2 Non-income tax recovery, net of tax (14.5) Investment activity, net, net of tax 6.2 CPW restructuring charges, net of tax (0.9) Tax item (50.7) Adjusted net earnings, including earnings attributable to redeemable and noncontrolling interests $ 2,440.5 Net cash provided by oper…"
+   },
+   {
+    "chunk_id": "ch_1a6135740f34b415",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 48,
+    "text": "48 Consolidated Statements of Total Equity and Redeemable Interest GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions, Except per Share Data) Fiscal Year 2022 2021 2020 Shares Amount Shares Amount Shares Amount Total equity, beginning balance $ 9,773.2 $ 8,349.5 $ 7,367.7 Common stock, 1 billion shares authorized, $0.10 par value 754.6 75.5 754.6 75.5 754.6 75.5 Additional paid-in capital: Beginning balance 1,365.5 1,348.6 1,386.7 Stock compensation plans 17.9 6.2 (12.1) Unearned compensation related to stock unit awards (92.2) (78.0) (85.7) Earned compensation 104.5 88.5 92.8 Decrease (increase) in redemption value of redeemable interest 14.1 0.2 (33.1) Reversal of cumulative redeemable interest value adjustments (207.4) - - Acquisition of noncontrolling interest (19.5) - - Ending balance 1,182.9 1,365.5 1,348.6 Retained earnings: Beginning balance 17,069.8 15,982.1 14,996.7 Net earnings attributable to General Mills 2,707.3 2,339.8 2,181.2 Cash dividends declared ($2.04, $2.02, and $1…"
+   },
+   {
+    "chunk_id": "ch_8c68947e0e09c6a7",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 28,
+    "text": "available net income based on the application of a floating preferred return rate to the holder's capital account balance established in the most recent mark-to-market valuation (currently $252 million). On June 1, 2021, the floating preferred return rate on GMC's Class A Interests was reset to the sum of three-month LIBOR plus 160 basis points. The preferred return rate is adjusted every three years through a negotiated agreement with the Class A Interest holder or through a remarketing auction. We have an option to purchase the Class A Interests for consideration equal to the then current capital account value, plus any unpaid preferred return and the prescribed make-whole amount. If we purchase these interests, any change in the third-party holder's capital account from its original value will be charged directly to retained earnings and will increase or decrease the net earnings used to calculate EPS in that period. CRITICAL ACCOUNTING ESTIMATES For a complete description of our si…"
+   },
+   {
+    "chunk_id": "ch_12b0e93b9a21a99e",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 47,
+    "text": "47 Consolidated Balance Sheets GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions, Except Par Value) May 29, 2022 May 30, 2021 ASSETS Current assets: Cash and cash equivalents $ 569.4 $ 1,505.2 Receivables 1,692.1 1,638.5 Inventories 1,867.3 1,820.5 Prepaid expenses and other current assets 802.1 790.3 Assets held for sale 158.9 - Total current assets 5,089.8 5,754.5 Land, buildings, and equipment 3,393.8 3,606.8 Goodwill 14,378.5 14,062.4 Other intangible assets 6,999.9 7,150.6 Other assets 1,228.1 1,267.6 Total assets $ 31,090.1 $ 31,841.9 LIABILITIES AND EQUITY Current liabilities: Accounts payable $ 3,982.3 $ 3,653.5 Current portion of long-term debt 1,674.2 2,463.8 Notes payable 811.4 361.3 Other current liabilities 1,552.0 1,787.2 Total current liabilities 8,019.9 8,265.8 Long-term debt 9,134.8 9,786.9 Deferred income taxes 2,218.3 2,118.4 Other liabilities 929.1 1,292.7 Total liabilities 20,302.1 21,463.8 Redeemable interest - 604.9 Stockholders' equity: Common stock, 754.6 share…"
+   },
+   {
+    "chunk_id": "ch_29eaf1f1d6233ca9",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 27,
+    "text": "$74 million in fiscal 2021. During fiscal 2022, we repurchased 14 million shares of our common stock for $877 million. During fiscal 2021, we repurchased 5 million shares of our common stock for $301 million. Dividends paid in fiscal 2022 totaled $1,244 million, or $2.04 per share. Dividends paid in fiscal 2021 totaled $1,246 million, or $2.02 per share. Selected Cash Flows from Joint Ventures Selected cash flows from our joint ventures are set forth in the following table: Fiscal Year Inflow (Outflow), in Millions 2022 2021 Investments in affiliates, net $ 15.4 $ 15.5 Dividends received 107.5 95.2 The following table details the fee-paid committed and uncommitted credit lines we had available as of May 29, 2022: In Billions Facility Amount Borrowed Amount Credit facility expiring: April 2026 $ 2.7 $ - Total committed credit facilities 2.7 - Uncommitted credit facilities 0.6 0.1 Total committed and uncommitted credit facilities $ 3.3 $ 0.1 To ensure availability of funds, we maintain b…"
+   },
+   {
+    "chunk_id": "ch_61717727f18c18a9",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 49,
+    "text": "49 Consolidated Statements of Cash Flows GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions) Fiscal Year 2022 2021 2020 Cash Flows - Operating Activities Net earnings, including earnings attributable to redeemable and noncontrolling interests $ 2,735.0 $ 2,346.0 $ 2,210.8 Adjustments to reconcile net earnings to net cash provided by operating activities: Depreciation and amortization 570.3 601.3 594.7 After-tax earnings from joint ventures (111.7) (117.7) (91.1) Distributions of earnings from joint ventures 107.5 95.2 76.5 Stock-based compensation 98.7 89.9 94.9 Deferred income taxes 62.2 118.8 (29.6) Pension and other postretirement benefit plan contributions (31.3) (33.4) (31.1) Pension and other postretirement benefit plan costs (30.1) (33.6) (32.3) Divestitures (gain) loss (194.1) 53.5 - Restructuring, impairment, and other exit (recoveries) costs (117.1) 150.9 43.6 Changes in current assets and liabilities, excluding the effects of acquisition and divestitures 277.4 (155.9) 793.9 O…"
+   }
+  ]
+ }
+}

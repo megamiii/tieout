@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "CVS",
+  "query": "Property and equipment, net",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "CVS",
+  "concepts": [
+   {
+    "concept": "PropertyPlantAndEquipmentNet",
+    "label": "Property, Plant and Equipment, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "12873000000",
+      "fact_id": "xf_96763fb04244e688",
+      "reported_in_10k_filed": "2023-02-08"
+     }
+    ]
+   },
+   {
+    "concept": "PropertyPlantAndEquipmentGross",
+    "label": "Property, Plant and Equipment, Gross",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "34600000000",
+      "fact_id": "xf_07ba9c55bfb1ab8f",
+      "reported_in_10k_filed": "2023-02-08"
+     }
+    ]
+   }
+  ]
+ }
+}

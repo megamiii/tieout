@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Operating income increased",
+  "ticker": "ADBE",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_3c56b47e12ff0ded",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 40,
+    "text": "Financial Performance Summary for Fiscal 2022 • Total Digital Media ARR of approximately $13.97 billion as of December 2, 2022 increased by $1.82 billion, or 15%, from $12.15 billion as of December 3, 2021. The change in our Digital Media ARR was primarily due to new user adoption of our Creative Cloud and Document Cloud offerings, partially offset by an $87 million ARR reduction taken in March 2022 in response to the Russia-Ukraine war. • Creative revenue of $10.46 billion increased by $913 million, or 10%, during fiscal 2022, from $9.55 billion in fiscal 2021. Document Cloud revenue of $2.38 billion increased by $409 million, or 21%, during fiscal 2022, from $1.97 billion in fiscal 2021. The increases were primarily due to subscription revenue growth associated with our Creative Cloud and Document Cloud offerings. • Digital Experience revenue of $4.42 billion increased by $555 million, or 14%, during fiscal 2022, from $3.87 billion in fiscal 2021. The increase was primarily due to su…"
+   },
+   {
+    "chunk_id": "ch_c54a5c0db5b89249",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 44,
+    "text": "Research and development expenses increased due to the following: Components of % Change 2022-2021 Incentive compensation, cash and stock-based 7 % Base compensation and related benefits 7 Professional and consulting fees 2 Various individually insignificant items 2 Total change 18 % We believe that investments in research and development, including the recruiting and hiring of software developers, are critical to remain competitive in the marketplace and are directly related to continued timely development of new and enhanced offerings and solutions. We will continue to focus on long-term opportunities available in our end markets and make significant investments in the development of our subscription and service offerings, applications and tools. Sales and Marketing Sales and marketing expenses consist primarily of compensation costs, amortization of contract acquisition costs, including sales commissions, travel expenses and related facilities costs for our sales, marketing, order m…"
+   },
+   {
+    "chunk_id": "ch_f40214fbebdb5d7b",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 40,
+    "text": "Cost of revenue of $2.17 billion increased by $300 million, or 16%, during fiscal 2022, from $1.87 billion in fiscal 2021 primarily due to increases in hosting services and data center costs, as well as increases in base and incentive compensation and related benefits costs. • Operating expenses of $9.34 billion increased by $1.23 billion, or 15%, during fiscal 2022, from $8.12 billion in fiscal 2021 primarily due to increases in base and incentive compensation and related benefits costs, as well as increased marketing spend. • Cash flows from operations of $7.84 billion during fiscal 2022 increased by $608 million, or 8%, from $7.23 billion in fiscal 2021 primarily due to higher net income after adjustment for non-cash items. Revenue Revenue for fiscal 2021 benefited from an extra week in the first quarter of fiscal 2021 due to our 52/53 week financial calendar whereby fiscal 2021 was a 53-week year compared with fiscal 2022 and 2020 which were 52-week years. (dollars in millions) 202…"
+   },
+   {
+    "chunk_id": "ch_38e70614df34400c",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 55,
+    "text": "ADOBE INC. CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (In millions) Years Ended December 2, 2022 December 3, 2021 November 27, 2020 Increase/(Decrease) Net income $ 4,756 $ 4,822 $ 5,260 Other comprehensive income (loss), net of taxes: Available-for-sale securities: Unrealized gains / losses on available-for-sale securities (39) (8) 3 Reclassification adjustment for recognized gains / losses on available- for-sale securities — — (1) Net increase (decrease) from available-for-sale securities (39) (8) 2 Derivatives designated as hedging instruments: Unrealized gains / losses on derivative instruments 139 69 (44) Reclassification adjustment for realized gains / losses on derivative instruments (151) 20 6 Net increase (decrease) from derivatives designated as hedging instruments (12) 89 (38) Foreign currency translation adjustments (105) (60) 66 Other comprehensive income (loss), net of taxes (156) 21 30 Total comprehensive income, net of taxes $ 4,600 $ 4,843 $ 5,290 See accompanying…"
+   },
+   {
+    "chunk_id": "ch_2a5c979a414adfe2",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 45,
+    "text": "Non-Operating Income (Expense), Net (dollars in millions) 2022 2021 2020 % Change 2022-2021 Interest expense $ (112) $ (113) $ (116) (1) % Percentage of total revenue (1) % (1) % (1) % Investment gains (losses), net (19) 16 13 ** Percentage of total revenue * * * Other income (expense), net 41 — 42 ** Percentage of total revenue * * * Total non-operating income (expense), net $ (90) $ (97) $ (61) (7) % _________________________________________ (*) Percentage is less than 1%. (**) Percentage is not meaningful. Interest Expense Interest expense represents interest associated with our debt instruments. Interest on our senior notes is payable semi- annually, in arrears, on February 1 and August 1. Investment Gains (Losses), Net Investment gains (losses), net consists principally of unrealized holding gains and losses associated with our deferred compensation plan assets, and gains and losses associated with our direct and indirect investments in privately held companies. Other Income (Expe…"
+   }
+  ]
+ }
+}

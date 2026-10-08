@@ -1,0 +1,28 @@
+{
+ "item_id": "xbrl-BBY-2019-NetIncomeLoss-growth",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "needs_review",
+ "answer": "Based on the provided passages, the exact percentage change for net income is not mentioned.",
+ "confidence": 0.0,
+ "rationale": null,
+ "citations": [],
+ "review_reasons": [
+  "model flagged for review",
+  "confidence 0.00 is below 0.70"
+ ],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2692,
+ "completion_tokens": 51,
+ "latency_ms": 924.1,
+ "grade": {
+  "correct": false,
+  "method": "numeric",
+  "detail": "no figure in the answer matches the gold value",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

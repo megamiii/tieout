@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\n  \"answer\": \"31.8%\",\n  \"confidence\": 1.0,\n  \"citations\": [\n    {\n      \"source_id\": \"ch_c0cf187589fb85b7\",\n      \"quote\": \"Net sales increased $3,009.3 million, or 31.8%, to $12,467.5 million for the fiscal year 2020, from $9,458.2 million for the fiscal year 2019.\"\n    }\n  ],\n  \"needs_review\": false\n}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T7bt0rgyjUd0Zsd8tFw5hvOMt6bu9eS4vaGLYtoSuvbU27aYYs/ukQS6b+I1cXm/9HPdk0tF7QgARUqtK2q+pR9Feub+MZ+akLX88n+BNrFRRaFjUBTiNpHg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493358,
+  "id": "7QTIauDYMurZ7M8PrLiggQc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 144,
+   "prompt_tokens": 2905,
+   "total_tokens": 3049
+  }
+ }
+}

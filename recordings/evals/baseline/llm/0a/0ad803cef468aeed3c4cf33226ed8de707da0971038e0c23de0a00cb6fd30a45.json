@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, there is no mention or confirmation of whether Boeing's business is subject to cyclicality.\",\n  \"confidence\": 0.0,\n  \"citations\": [],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TjG729aBqG9i4AoAqgAQL/ruazzt+BckoWASGUwl9BfQKcD8YsTiFLKxL7ZMmpIiOj+YbD0Ga9OA6KeZKart3qoE3yKowkBCeqy7008yz8mFm90uQThQMbGw="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492597,
+  "id": "9AHIaryvKaeXvdIPs7e3mA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 58,
+   "prompt_tokens": 1957,
+   "total_tokens": 2015
+  }
+ }
+}

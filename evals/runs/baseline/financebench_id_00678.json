@@ -1,0 +1,49 @@
+{
+ "item_id": "financebench_id_00678",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "needs_review",
+ "answer": "Based on the provided passages, the text does not explicitly state whether Boeing has an improving gross margin profile for the entire company as of FY2022, though it provides operating margins (which worsened from -4.7% in 2021 to -5.3% in 2022) and mentions specific program gross margins (such as the 777X program having near break-even gross margins at December 31, 2022).",
+ "confidence": 0.5,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_5d78669497b1d576",
+   "quote": "Operating margins (5.3) % (4.7) % (22.0) %",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 24,
+   "supports": false
+  },
+  {
+   "source_id": "ch_49fd0c9dc0574642",
+   "quote": "The 777X program had near break-even gross margins at December 31, 2022.",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 51,
+   "supports": false
+  }
+ ],
+ "review_reasons": [
+  "model flagged for review",
+  "confidence 0.50 is below 0.70"
+ ],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2635,
+ "completion_tokens": 239,
+ "latency_ms": 1337.8,
+ "grade": {
+  "correct": false,
+  "method": "judge",
+  "detail": "The answer fails to identify the improving gross margin profile and instead focuses on operating margins, contradicting the gold answer's conclusion.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

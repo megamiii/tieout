@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TM3vbVBJtSDUjyI9xyYN51EH1/0XlbUhM6RaeWFSGz4I6btCOU+k5hRqOfPc/VghPSm7NVb9hNfB8EOSemogy4TsgtAjOL/8kVrQsVZ+PW+MPlCEWKk3KR2w="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"Based on FY2022 data, 3M operates a moderately capital-intensive business. In FY2022, 3M reported capital expenditures (payments to acquire property, plant, and equipment) of $1,749 million against total revenues of $34,229 million, resulting in a capital expenditures-to-revenue ratio of approximately 5.11%. Furthermore, as of December 31, 2022, net property, plant, and equipment stood at $9,178 million, representing about 26.8% of total revenues. While 3M maintains significant manufacturing operations and invests heavily in physical assets and equipment to support its diverse product lines, these capital intensity metrics are generally characteristic of a traditional global industrial and manufacturing enterprise rather than extremely capital-intensive sectors like telecommunications or utilities.\",\"citations\":[{\"source_id\":\"ch_43b034ee28278bf3\",\"quote\":\"$ 1,749\"},{\"source_id\":\"xf_1d89f65f55401d88\",\"quote\":\"34,229,000,000\"},{\"source_id\":\"ch_43b034ee28278bf3\",\"quote\":\"$ 9,178\"}],\"rationale\":\"The answer uses FY2022 figures from 3M's 10-K: capital spending/expenditures of $1,749 million, total revenues of $34,229 million, and net property, plant, and equipment of $9,178 million. These metrics allow a determination of its capital intensity.\",\"needs_review\":false,\"confidence\":0.95}",
+        "name": "submit_answer"
+       },
+       "id": "call_923548",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494799,
+  "id": "jQrIas7SLd74vdIPyrLo4Aw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 404,
+   "prompt_tokens": 5979,
+   "total_tokens": 6383
+  }
+ }
+}

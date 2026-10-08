@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The gold answer states that American Express was able to retain card members, while the provided answer incorrectly claims that the information is unavailable.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T3hEhMx6Uyl7CURYeHSbx0pZW7m6Tcca92+VXTqnYPw0u9M/ifzo5XI3sjQ3mFn2FS2oiC164ilKDQZpTlJnO37iocjLGk+J1+NFLYHzogkPHNzMR3Nejx3irFKo5UVqiZYuEfERiq1WMeWT0"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493354,
+  "id": "6QTIavjKGrDLkdUP6IOYmQk",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 162,
+   "total_tokens": 200
+  }
+ }
+}

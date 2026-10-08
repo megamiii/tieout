@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer incorrectly states that the information is unavailable, whereas the gold answer provides the calculation and conclusion based on the 10-K data.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TIW4N7mElweX+BvDEKvQHUGRt/HVgRXW9Gb5bs4/bJbnUwfT4RJ8kSOTo3wsRK5Z9wQg/y2NTGlCcGaA3f0tSXleYCNq0AVoMQ8XduveqyGNM6rr3rhshsjqqT2dSfBAlIcjcMB20D7VMtGPF"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492891,
+  "id": "EwPIasT_O7mP28oPoo7owQ4",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 234,
+   "total_tokens": 275
+  }
+ }
+}

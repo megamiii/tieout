@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "As of FY 2021, how much did Verizon expect to pay for its retirees in 2024?",
+  "ticker": "VZ",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_add67f459f16588d",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 20,
+    "text": "Operating Income $32,448 $28,798 2021 2020 Net Income $22,618 $18,348 2021 2020 Cash Flows from Operations $41,768 $39,539 2021 2020 Capital Expenditures $20,286 $18,192 2021 2020"
+   },
+   {
+    "chunk_id": "ch_871a29538fc73f4b",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 36,
+    "text": "postretirement benefit payments. These estimated amounts: (1) are subject to change based on changes to assumptions and future plan performance, which could impact the timing and/or amounts of these payments; and (2) exclude expectations beyond 5 years due to uncertainty of the timing and amounts. See Note 11 to the consolidated financial statements for additional information. • We are not able to make a reasonable estimate of when the unrecognized tax benefits balance of $3.1 billion and related interest and penalties will be settled with the respective taxing authorities until the related tax audits are further developed or resolved. See Note 12 to the consolidated financial statements for additional information. Consolidated Financial Condition (dollars in millions) Years Ended December 31, 2021 2020 Cash flows provided by (used in) Operating activities $ 39,539 $ 41,768 Investing activities (67,153) (23,512) Financing activities 8,277 1,325 Increase (decrease) in cash, cash equival…"
+   },
+   {
+    "chunk_id": "ch_cd2677f72a225b72",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 33,
+    "text": "The income and expenses related to special items included in our consolidated results of operations were as follows: (dollars in millions) Years Ended December 31, 2021 2020 Within Total Operating Expenses $ (274) $ 1,542 Within Equity in earnings (losses) of unconsolidated businesses (131) — Within Other income (expense), net 1,162 1,732 Within Interest expense — (27) Total $ 757 $ 3,247 Severance, Pension and Benefits Charges (Credits) During 2021, in accordance with our accounting policy to recognize actuarial gains and losses in the period in which they occur, we recorded net pre-tax pension and benefits credits of $2.4 billion in our pension and postretirement benefit plans. The credits were recorded in Other income (expense), net in our consolidated statement of income and were primarily driven by a credit of $1.1 billion due to an increase in our discount rate assumption used to determine the current year liabilities of our pension plans and postretirement benefit plans from a w…"
+   },
+   {
+    "chunk_id": "ch_84aeb9994e632c87",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 52,
+    "text": "Consolidated Statements of Comprehensive Income Verizon Communications Inc. and Subsidiaries (dollars in millions) Years Ended December 31, 2021 2020 2019 Net Income $ 22,618 $ 18,348 $ 19,788 Other Comprehensive Loss, Net of Tax (Expense) Benefit Foreign currency translation adjustments, net of tax of $(17), $19 and $(21) (141) 180 16 Unrealized loss on cash flow hedges, net of tax of $30, $197 and $265 (85) (571) (736) Unrealized gain (loss) on marketable securities, net of tax of $3, $(2) and $(2) (9) (2) 7 Defined benefit pension and postretirement plans, net of tax of $205, $221 and $219 (621) (676) (659) Other comprehensive loss attributable to Verizon (856) (1,069) (1,372) Total Comprehensive Income $ 21,762 $ 17,279 $ 18,416 Comprehensive income attributable to noncontrolling interests $ 553 $ 547 $ 523 Comprehensive income attributable to Verizon 21,209 16,732 17,893 Total Comprehensive Income $ 21,762 $ 17,279 $ 18,416 See Notes to Consolidated Financial Statements 52 Verizon…"
+   },
+   {
+    "chunk_id": "ch_d4892879a94f6571",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 94,
+    "text": "charges were recorded in Other income (expense), net in our consolidated statement of income and were primarily driven by a charge of $3.2 billion due to a decrease in our discount rate assumption used to determine the current year liabilities of our pension plans and postretirement benefit plans from a weighted-average of 3.3% at December 31, 2019 to a weighted-average of 2.6% at December 31, 2020, partially offset by a credit of $1.6 billion due to the difference between our estimated and our actual return on assets. During 2020, we also recorded net pre-tax severance charges of $309 million in Selling, general and administrative expense in our consolidated statements of income. During 2019, we recorded net pre-tax pension and benefits charges of $126 million in our pension and postretirement benefit plans. The charges were recorded in Other income (expense), net in our consolidated statement of income and were primarily driven by a charge of $4.3 billion due to a decrease in our dis…"
+   },
+   {
+    "chunk_id": "ch_9557cd9a8a329b38",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 102,
+    "text": "Balance Sheet Information (dollars in millions) At December 31, 2021 2020 Prepaid expenses and other Prepaid taxes $ 1,093 $ 1,200 Deferred contract costs 2,432 2,472 Restricted cash 1,094 1,195 Other prepaid expense and other 2,287 1,843 $ 6,906 $ 6,710 Accounts payable and accrued liabilities Accounts payable $ 8,040 $ 6,667 Accrued expenses 9,123 6,050 Accrued vacation, salaries and wages 4,485 5,057 Interest payable 1,561 1,452 Taxes payable 1,624 1,432 $ 24,833 $ 20,658 Other current liabilities Dividends payable $ 2,709 $ 2,618 Contract liability 6,053 4,843 Other 2,263 2,167 $ 11,025 $ 9,628 As of December 31, 2021 and 2020, Property, plant and equipment includes approximately $5.9 billion and $4.1 billion of additions that have not yet been paid. Cash Flow Information (dollars in millions) Years Ended December 31, 2021 2020 2019 Cash Paid Interest, net of amounts capitalized $ 3,435 $ 4,420 $ 4,714 Income taxes, net of amounts refunded 3,040 2,725 3,583 Other, net Cash Flows fr…"
+   },
+   {
+    "chunk_id": "ch_5418835a37973316",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 24,
+    "text": "Depreciation and amortization expense decreased during 2021 compared to 2020, primarily as a result of the Verizon Media sale. See Note 3 to the consolidated financial statements for additional information. Other Consolidated Results Other Income (Expense), Net Additional information relating to Other income (expense), net is as follows: (dollars in millions) Increase/(Decrease) Years Ended December 31, 2021 2020 2021 vs. 2020 Interest income $ 48 $ 65 $ (17) (26.2) % Other components of net periodic benefit (cost) income 3,785 (425) 4,210 nm Early debt extinguishment costs (3,541) (129) (3,412) nm Other, net 20 (50) 70 nm Total $ 312 $ (539) $ 851 nm nm - not meaningful Other income (expense), net reflects certain items not directly related to our core operations, including interest income, gains and losses from non-operating asset dispositions, debt extinguishment costs, components of net periodic pension and postretirement benefit cost and income and foreign exchange gains and losse…"
+   },
+   {
+    "chunk_id": "ch_65bbf3bdaf73a0a8",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 89,
+    "text": "summarize benefit costs, as well as the benefit obligations, plan assets, funded status and rate assumptions associated with pension and postretirement health care and life insurance benefit plans. Obligations and Funded Status (dollars in millions) Pension Health Care and Life At December 31, 2021 2020 2021 2020 Change in Benefit Obligations Beginning of year $ 22,236 $ 21,248 $ 16,168 $ 15,669 Service cost 282 305 112 110 Interest cost 394 505 289 429 Actuarial (gain) loss, net (605) 2,308 (930) 887 Benefits paid (816) (842) (929) (927) Curtailment and termination benefits 6 — — — Settlements paid (1,330) (1,288) — — End of year 20,167 22,236 14,710 16,168 Change in Plan Assets Beginning of year 20,128 19,451 572 743 Actual return on plan assets 2,049 2,750 53 47 Company contributions 56 57 885 709 Benefits paid (816) (842) (929) (927) Settlements paid (1,330) (1,288) — — End of year 20,087 20,128 581 572 Funded Status - End of year $ (80) $ (2,108) $ (14,129) $ (15,596) (dollars in …"
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies that gross margin is not a useful metric for American Express and provides a clear explanation as to why, aligning with the gold answer's conclusion.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TPjAnLmkBQQgh6gy0LajW0unIWfUpw2AJOmPrypNjd0aZZE8x4WsS9AxPfPcmIlNUtOhP8F6R9qo7LEOBJhFvDBzm4UTUstCf4BzYGQy9MZ4xDfE3Wi89ZTBhsiwN1VcAEVzLQFUdPJYmetj6"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791495588,
+  "id": "Qg3IaqiNN8nknsEP76OF-A4",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 311,
+   "total_tokens": 356
+  }
+ }
+}

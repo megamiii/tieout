@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TCKQSrSNMMHUKrPIOK5fG0gcVUl4htdnZGb0HboehiPoaqTnaVujjrCSCWNuUsr94tCqSjrgMpSRhwrFZbsVYCgDZjBfol42Ux6CQGK/TxwyTLcamG0ONdWU="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"Boeing's GAAP gross profit and revenues were obtained from reported facts, yielding a gross margin of 4.84% in 2021 and 5.26% in 2022. Program accounting details from Item 7 explain why gross margin metrics are evaluated in the context of long-term program estimates.\",\"citations\":[{\"source_id\":\"xf_7ab1a5616652c01f\",\"quote\":\"3502000000\"},{\"source_id\":\"xf_1a73650d37effa98\",\"quote\":\"66608000000\"},{\"source_id\":\"xf_3adce0a81b1d82ff\",\"quote\":\"3017000000\"},{\"quote\":\"62286000000\",\"source_id\":\"xf_6532ea43c2756739\"},{\"source_id\":\"ch_3742073db84b4e2a\",\"quote\":\"Program accounting requires the demonstrated ability to reliably estimate revenues, costs and gross profit margin for the defined program accounting quantity.\"}],\"answer\":\"As of FY2022, Boeing shows a modestly improving GAAP gross margin profile, with gross profit increasing from $3,017 million (4.84% of revenue) in FY2021 to $3,502 million (5.26% of revenue) in FY2022. However, due to the long-term, complex nature of its contracts, Boeing relies heavily on program accounting and estimates of margins at completion over the life of multi-year production programs, rather than simple point-of-sale gross margins.\",\"confidence\":0.95}",
+        "name": "submit_answer"
+       },
+       "id": "call_939202",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791495002,
+  "id": "WQvIavV51dLbyg_FharQCw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 425,
+   "prompt_tokens": 4913,
+   "prompt_tokens_details": {
+    "cached_tokens": 2004
+   },
+   "total_tokens": 5338
+  }
+ }
+}

@@ -1,0 +1,28 @@
+{
+ "item_id": "financebench_id_00215",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "needs_review",
+ "answer": "Based on the provided FY 2022 data, the passages discuss capital spending requirements, capital programs for advanced networks (such as 5G and C-Band), and capital expenditures related to increasing operating efficiency and maintaining existing infrastructure, but they do not explicitly state whether Verizon is a \"capital intensive\" business.",
+ "confidence": 0.0,
+ "rationale": null,
+ "citations": [],
+ "review_reasons": [
+  "model flagged for review",
+  "confidence 0.00 is below 0.70"
+ ],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2623,
+ "completion_tokens": 102,
+ "latency_ms": 13839.1,
+ "grade": {
+  "correct": false,
+  "method": "judge",
+  "detail": "The answer fails to reach the conclusion that Verizon is capital intensive and incorrectly claims the information is unavailable, despite the data being present in the 10-K.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

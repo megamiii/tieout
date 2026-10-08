@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TuSGFlDkoWfQa4eRkkyczRtfM59R8JqiKEcdymG0ZLEtG+/QeOCQwnR3a4KL28mTRc9m+rr0bp54qBhcTiw4eo2AwFdxCd4bVNHmArSPhdGQEusP0nDV6faE="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The cross currency swaps had a total notional amount of $32.5 billion at December 31, 2021, which is higher than other derivative instruments disclosed (e.g., interest rate swaps at $19.8 billion, forward starting interest rate swaps at $1.0 billion, and net investment hedges at €750 million).\",\"citations\":[{\"quote\":\"At December 31, 2021 and 2020, the total notional amount of the cross currency swaps was $32.5 billion and $26.3 billion, respectively.\",\"source_id\":\"ch_8af65309e66e6d85\"}],\"answer\":\"Among all of the derivative instruments used by Verizon in FY 2021 to manage foreign currency and interest rate exposures, **cross currency swaps** had the highest notional value, with a total notional amount of **$32.5 billion** as of December 31, 2021.\",\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_211519",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791495330,
+  "id": "oQzIari3D5L8vdIPz7LOuAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 243,
+   "prompt_tokens": 11373,
+   "total_tokens": 11616
+  }
+ }
+}

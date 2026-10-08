@@ -1,0 +1,46 @@
+{
+ "item_id": "financebench_id_04080",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "3.44",
+ "confidence": 0.99,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_29e387f1cf346a87",
+   "quote": "Cost of sales 24,576",
+   "kind": "chunk",
+   "ticker": "NKE",
+   "fiscal_year": 2021,
+   "section": "Item 8",
+   "page": 59,
+   "supports": true
+  },
+  {
+   "source_id": "ch_80bf156ef544ecbf",
+   "quote": "Inventories 6,854 7,367",
+   "kind": "chunk",
+   "ticker": "NKE",
+   "fiscal_year": 2021,
+   "section": "Item 8",
+   "page": 61,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2982,
+ "completion_tokens": 119,
+ "latency_ms": 1147.7,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "3.44 matches 3.46 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

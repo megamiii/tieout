@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "We need to calculate a financial metric by using information only provided within the balance sheet. Please answer the following question: what is Boeing's year end FY2018 net property, plant, and equipment (in USD millions)?",
+  "ticker": "BA",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_6d071eb860d4022b",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 71,
+    "text": "Table of Contents Consolidated Statement of Financial Position (Dollars in millions) December 31, 2017 Assets Reported Impact of New Standards Restated Cash and cash equivalents $8,813 $8,813 Short-term and other investments 1,179 1,179 Accounts receivable, net 10,516 ($7,622) 2,894 Unbilled receivables, net 8,194 8,194 Current portion of customer financing, net 309 309 Inventories 44,344 17,044 61,388 Other current assets 2,417 2,417 Total current assets 65,161 20,033 85,194 Customer financing, net 2,740 16 2,756 Property, plant and equipment, net 12,672 12,672 Goodwill 5,559 5,559 Acquired intangible assets, net 2,573 2,573 Deferred income taxes 341 (20) 321 Investments 1,260 1,260 Other assets, net of accumulated amortization 2,027 2,027 Total assets $92,333 $20,029 $112,362 Liabilities and equity Accounts payable $12,202 $12,202 Accrued liabilities 15,292 ($2,223) 13,069 Advances and billings in excess of related costs 27,440 (27,440) Advances and progress billings 48,042 48,042 Sh…"
+   },
+   {
+    "chunk_id": "ch_d2ab0b1165b3f841",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 52,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Financial Position (Dollars in millions, except per share data) December 31, 2018 2017 Assets Cash and cash equivalents $7,637 $8,813 Short-term and other investments 927 1,179 Accounts receivable, net 3,879 2,894 Unbilled receivables, net 10,025 8,194 Current portion of customer financing, net 460 309 Inventories 62,567 61,388 Other current assets 2,335 2,417 Total current assets 87,830 85,194 Customer financing, net 2,418 2,756 Property, plant and equipment, net 12,645 12,672 Goodwill 7,840 5,559 Acquired intangible assets, net 3,429 2,573 Deferred income taxes 284 321 Investments 1,087 1,260 Other assets, net of accumulated amortization of $503 and $482 1,826 2,027 Total assets $117,359 $112,362 Liabilities and equity Accounts payable $12,916 $12,202 Accrued liabilities 14,808 13,069 Advances and progress billings 50,676 48,042 Short-term debt and current portion of long-term debt 3,190 1,335 Total curr…"
+   },
+   {
+    "chunk_id": "ch_2b6fcfab27e48773",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Cash Flows (Dollars in millions) Years ended December 31, 2018 2017 2016 Cash flows – operating activities: Net earnings $10,460 $8,458 $5,034 Adjustments to reconcile net earnings to net cash provided by operating activities: Non-cash items – Share-based plans expense 202 202 190 Depreciation and amortization 2,114 2,047 1,889 Investment/asset impairment charges, net 93 113 90 Customer financing valuation (benefit)/expense (3) 2 (7) (Gain)/loss on dispositions, net (75) (21) 7 Other charges and credits, net 247 293 371 Changes in assets and liabilities – Accounts receivable (795) (840) 326 Unbilled receivables (1,826) (1,600) 792 Advances and progress billings 2,636 4,700 (1,362) Inventories 568 (1,403) 4,004 Other current assets 98 (19) (200) Accounts payable 2 130 622 Accrued liabilities 1,117 335 312 Income taxes receivable, payable and deferred (180) 656 (734) Other long-term liabilities 87 94 (68) Pe…"
+   },
+   {
+    "chunk_id": "ch_d0fe84b804832852",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Notes to the Consolidated Financial Statements Years ended December 31, 2018, 2017 and 2016 (Dollars in millions, except per share data) Note 1 – Summary of Significant Accounting Policies Principles of Consolidation and Basis of Presentation The Consolidated Financial Statements included in this report have been prepared by management of The Boeing Company (herein referred to as “Boeing,” the “Company,” “we,” “us,” or “our”). These statements include the accounts of all majority-owned subsidiaries and variable interest entities that are required to be consolidated. All significant intercompany accounts and transactions have been eliminated. As described in Note 23 , effective July 1, 2017, we now operate in four reportable segments: Commercial Airplanes (BCA); Defense, Space & Security (BDS), Global Services (BGS), and Boeing Capital (BCC). Amounts in prior periods have been reclassified to conform to the current year presentation.…"
+   },
+   {
+    "chunk_id": "ch_19117b0ec4a3c020",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Notes to the Consolidated Financial Statements Summary of Business Segment Data (Dollars in millions) Years ended December 31, 2018 2017 2016 Revenues: Commercial Airplanes $60,715 $58,014 $59,378 Defense, Space & Security 23,195 20,561 20,180 Global Services 17,018 14,581 13,819 Boeing Capital 274 307 298 Unallocated items, eliminations and other (75) 542 (179) Total revenues $101,127 $94,005 $93,496 Earnings from operations: Commercial Airplanes $7,879 $5,452 $1,981 Defense, Space & Security 1,594 2,193 1,678 Global Services 2,522 2,246 2,159 Boeing Capital 79 114 59 Segment operating profit 12,074 10,005 5,877 Unallocated items, eliminations and other (1,414) (1,099) (707) FAS/CAS service cost adjustment 1,327 1,438 1,357 Earnings from operations 11,987 10,344 6,527 Other income/(loss), net 92 123 (438) Interest and debt expense (475) (360) (306) Earnings before income taxes 11,604 10,107 5,783 Income tax expense (1,144) (1,649) …"
+   },
+   {
+    "chunk_id": "ch_86e713f5ae229bfb",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 51,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Comprehensive Income (Dollars in millions) Years ended December 31, 2018 2017 2016 Net earnings $10,460 $8,458 $5,034 Other comprehensive income/(loss), net of tax: Currency translation adjustments (86) 128 (104) Unrealized gain/(loss) on certain investments, net of tax of ($1), ($1) and $1 2 1 (2) Derivative instruments: Unrealized (loss)/gain arising during period, net of tax of $40, ($66), and $4 (146) 119 (8) Reclassification adjustment for loss included in net earnings, net of tax of ($8), ($28), and ($43) 30 52 78 Total derivative instruments, net of tax (116) 171 70 Defined benefit pension plans & other postretirement benefits: Net actuarial gain/(loss) arising during the period, net of tax of ($105), $248, and $752 384 (495) (1,365) Amortization of actuarial losses included in net periodic pension cost, net of tax of ($242), ($272), and ($288) 878 542 524 Settlements and curtailments included in ne…"
+   },
+   {
+    "chunk_id": "ch_aa0f368a40c7c31a",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 38,
+    "text": "Table of Contents Financial Position The following table presents selected financial data for BCC as of December 31: (Dollars in millions) 2018 2017 Customer financing and investment portfolio, net $2,790 $3,003 Other assets, primarily cash and short-term investments 717 677 Total assets $3,507 $3,680 Other liabilities, primarily deferred income taxes $523 $653 Debt, including intercompany loans 2,487 2,523 Equity 497 504 Total liabilities and equity $3,507 $3,680 Debt-to-equity ratio 5.0-to-1 5.0-to-1 BCC 's customer financing and investment portfolio at December 31, 2018 decreased from December 31, 2017 , primarily due to $812 million of note payoffs, asset sales and portfolio run-off, partially offset by new volume. Aircraft subject to leases with a carrying value of approximately $84 million are scheduled to be returned off lease during 2019 . We are seeking to remarket these aircraft or have the leases extended. BCC enters into certain transactions with Boeing, reflected in Unallo…"
+   },
+   {
+    "chunk_id": "ch_b36d4176c2db66e8",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 47,
+    "text": "employees transitioned to company-funded defined contribution retirement savings plans effective January 1, 2019. Accounting rules require an annual measurement of our projected obligation and plan assets. These measurements are based upon several assumptions, including the discount rate and the expected long-term rate of asset return. Future changes in assumptions or differences between actual and expected outcomes can significantly affect our future annual expense, projected benefit obligation and Shareholders' equity. 45"
+   }
+  ]
+ }
+}

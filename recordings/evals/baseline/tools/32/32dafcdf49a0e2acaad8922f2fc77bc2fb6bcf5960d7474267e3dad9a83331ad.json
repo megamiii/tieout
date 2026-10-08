@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What is the FY2022 unadjusted EBITDA % margin for PepsiCo? Calculate unadjusted EBITDA using unadjusted operating income and D&A (from cash flow statement). Give a response to the question by relying on the details shown in the statement of cash flows and the P&L statement.",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_d66af1f692631321",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 54,
+    "text": "Table of Contents Free Cash Flow The table below reconciles net cash provided by operating activities, as reflected on our cash flow statement, to our free cash flow. Free cash flow is a non-GAAP financial measure. For further information on free cash flow, see “Non-GAAP Measures.” 2022 2021 Change Net cash provided by operating activities, GAAP measure $ 10,811 $ 11,616 (7)% Capital spending (5,207) (4,625) Sales of property, plant and equipment 251 166 Free cash flow, non-GAAP measure $ 5,855 $ 7,157 (18)% We use free cash flow primarily for acquisitions and financing activities, including debt repayments, dividends and share repurchases. We expect to continue to return free cash flow to our shareholders primarily through dividends and share repurchases while maintaining Tier 1 commercial paper access, which we believe will facilitate appropriate financial flexibility and ready access to global capital and credit markets at favorable interest rates. However, see “Item 1A. Risk Factor…"
+   },
+   {
+    "chunk_id": "ch_e3c6569d2d0f08af",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 59,
+    "text": "environment. If an evaluation of the undiscounted future cash flows indicates impairment, the asset is written down to its estimated fair value, which is based on its discounted future cash flows. See Notes 2 and 4 to our consolidated financial statements for further information. Income Tax Expense and Accruals Our annual tax rate is based on our income, statutory tax rates and tax structure and transactions, including transfer pricing arrangements, available to us in the various jurisdictions in which we operate. Significant judgment is required in determining our annual tax rate and in evaluating our tax positions. We establish reserves when, despite our belief that our tax return positions are fully supportable, we believe that certain positions are subject to challenge and that we likely will not succeed. We adjust these reserves, as well as the related interest, in light of changing facts and circumstances, such as the progress of a tax audit, new tax laws, relevant court cases or…"
+   },
+   {
+    "chunk_id": "ch_ce0db548de20d3fd",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 46,
+    "text": "Table of Contents negatively impacted by a 25-percentage-point impact of higher commodity costs, primarily cooking oil and potatoes, certain operating cost increases and higher advertising and marketing expenses, partially offset by the net revenue growth and productivity savings. Additionally, prior-year impairment charges associated with an equity method investment positively contributed 3 percentage points to operating profit performance. Unfavorable foreign exchange negatively impacted operating profit performance by 4 percentage points. Non-GAAP Measures Certain financial measures contained in this Form 10-K adjust for the impact of specified items and are not in accordance with GAAP. We use non-GAAP financial measures internally to make operating and strategic decisions, including the preparation of our annual operating plan, evaluation of our overall business performance and as a factor in determining compensation for certain employees. We believe presenting non-GAAP financial m…"
+   },
+   {
+    "chunk_id": "ch_1fada7284b49814a",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 100,
+    "text": "Table of Contents we immediately recognize the related hedging gains or losses in earnings; such gains or losses reclassified during the year ended December 31, 2022 were not material. Cash flows from derivatives used to manage commodity price, foreign exchange or interest rate risks are classified as operating activities in the cash flow statement. We classify both the earnings and cash flow impact from these derivatives consistent with the underlying hedged item. Credit Risk We perform assessments of our counterparty credit risk regularly, including reviewing netting agreements, if any, and a review of credit ratings, credit default swap rates and potential nonperformance of the counterparty. Based on our most recent assessment of our counterparty credit risk, we consider this risk to be low. In addition, we enter into derivative contracts with a variety of financial institutions that we believe are creditworthy in order to reduce our concentration of credit risk. Certain of our agre…"
+   },
+   {
+    "chunk_id": "ch_d4493cb2a6665ce4",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 434,
+    "text": "TABLE OF CONTENTS ARTICLE I – INTRODUCTION 1 ARTICLE II – DEFINITIONS 2 2.01 Account: 2 2.02 Act: 2 2.03 Base Compensation: 2 2.04 Beneficiary: 2 2.05 Bonus Compensation: 2 2.06 Code: 3 2.07 Company: 3 2.08 Deferral Subaccount: 3 2.09 Disability: 3 2.10 Distribution Valuation Date: 3 2.11 Election Form: 3 2.12 Eligible Executive: 3 2.13 Employer: 4 2.14 ERISA: 4 2.15 Executive: 4 2.16 409A Program: 4 2.17 Key Employee: 4 2.18 NAV: 5 2.19 Participant: 5 2.20 PepsiCo Organization: 5 2.21 Performance Period: 5 2.22 Plan: 5 2.23 Plan Administrator: 6 2.24 Plan Year: 6 2.25 Pre-409A Program: 6 2.26 Prohibited Misconduct: 6 2.27 Recordkeeper: 7 2.28 Retirement: 8 2.29 Second Look Election: 8 2.30 Section 409A: 8 2.31 Separation from Service: 8 2.32 Specific Payment Date: 8 2.33 Unforeseeable Emergency: 8 2.34 U.S.: 9 2.35 Valuation Date: 9 -i-"
+   },
+   {
+    "chunk_id": "ch_a4114117436b932a",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 114,
+    "text": "Table of Contents based on volumes sold and terms of the sales incentives, (3) assessed the Company's ability to accurately estimate its sales incentive accrual by comparing previously established accruals to actual settlements, and (4) tested a sample of settlements or claims that occurred after period end, and compared them to the recorded sales incentive accrual. Carrying value of certain reacquired and acquired franchise rights and SodaStream brand As discussed in Notes 2 and 4 to the consolidated financial statements, the Company performs impairment testing of its indefinite-lived intangible assets on an annual basis during the third quarter of each fiscal year and whenever events and changes in circumstances indicate that there is a greater than 50% likelihood that the asset is impaired. The carrying value of indefinite-lived intangible assets as of December 31, 2022 was $32.5 billion which represents 35% of total assets, and includes PepsiCo Beverages North America's (PBNA) reac…"
+   },
+   {
+    "chunk_id": "ch_d8d72bb0f7a16fd9",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 114,
+    "text": "The following are the primary procedures we performed to address this critical audit matter. We evaluated the design and tested the operating effectiveness of certain internal controls related to the indefinite-lived assets impairment process, including controls related to the development of forecasted revenue, profitability levels, and expected long-term growth rates and select the discount rates to be applied to the projected cash flows. We also evaluated the sensitivity of the Company's conclusion to changes in assumptions, including the assessment of changes in assumptions from prior periods. To assess the Company's ability to accurately forecast, we compared the Company's historical forecasted results to actual results. We compared the cash flow projections used in the impairment tests with available external industry data and other internal information. We involved valuation professionals with specialized skills and knowledge who assisted in evaluating (1) the long-term growth ra…"
+   },
+   {
+    "chunk_id": "ch_5c7d976e353264cf",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 46,
+    "text": "net income attributable to noncontrolling interests and net income attributable to PepsiCo, each adjusted for items affecting comparability, operating profit and net income attributable to PepsiCo per common share – diluted, each adjusted for items affecting comparability, and the corresponding constant currency growth rates These measures exclude the net impact of mark-to-market gains and losses on centrally managed commodity derivatives that do not qualify for hedge accounting, restructuring and impairment charges related to our 2019 Multi-Year Productivity Plan (2019 Productivity Plan), charges associated with our acquisitions and divestitures, the gain associated with the Juice Transaction, impairment and other charges 44"
+   }
+  ]
+ }
+}

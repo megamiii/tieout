@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What was Best Buy's net cash provided by operating activities in fiscal year 2019? Answer in USD millions.",
+  "ticker": "BBY",
+  "fiscal_year": 2019,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_de534caaedf3498c",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 41,
+    "text": "Table of Contents Cash Flows The following table summarizes our cash flows from operating, investing and financing activities for each of the past three fiscal years ($ in millions): 2019 2018 2017 (1) Total cash provided by (used in): Operating activities $ 2,408 $ 2,141 $ 2,557 Investing activities 508 (1,002) (877) Financing activities (2,018) (2,297) (1,418) Effect of exchange rate changes on cash (14) 25 10 Increase (decrease) in cash, cash equivalents and restricted cash $ 884 $ (1,133) $ 272 Operating Activities The increase in cash provided by operating activities in fiscal 2019 compared to fiscal 2018 was primarily due to the timing of inventory receipts and payments and increased earnings. This was partially offset by higher incentive compensation payments, including payouts related to prior-year performance, timing of receivables collections and income tax payments. The decrease in cash provided by operating activities in fiscal 2018 compared to fiscal 2017 was primarily due…"
+   },
+   {
+    "chunk_id": "ch_9c22df6686efd657",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 6",
+    "page": 26,
+    "text": "Included within operating income, net earnings from continuing operations and net earnings attributable to Best Buy Co., Inc. shareholders for fiscal 2019 is $46 million ($35 million net of taxes) of restructuring charges from continuing operations related to measures we took to restructure our business; $35 million ($28 million net of taxes) of charges associated with the acquisition of GreatCall, including acquisition-related transaction costs and the non-cash amortization of definite-lived intangible assets; and $7 million ($5 million net of taxes) related to a one-time bonus for certain employees in response to future tax savings created by the Tax Cuts and Jobs Act (\"tax reform\" or \"Tax Act\") enacted into law in fiscal 2018. Also included in net earnings from continuing operations and net earnings attributable to Best Buy Co., Inc. shareholders for fiscal 2019 is $25 million of subsequent adjustments resulting from the Tax Act. Refer to Note 9, Restructuring Charges , Note 2, Acqu…"
+   },
+   {
+    "chunk_id": "ch_468a0c65de58edaa",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Table of Contents Consolidated Statements of Cash Flows $ in millions Fiscal Years Ended February 2, 2019 February 3, 2018 January 28, 2017 Operating activities Net earnings $ 1,464 $ 1,000 $ 1,228 Adjustments to reconcile net earnings to total cash provided by operating activities: Depreciation and amortization 770 683 654 Restructuring charges 46 10 39 Stock-based compensation 123 129 108 Deferred income taxes 10 162 201 Other, net (25) (13) (17) Changes in operating assets and liabilities, net of acquired assets and liabilities: Receivables 28 315 (193) Merchandise inventories (194) (335) 199 Other assets (34) (21) 10 Accounts payable 432 (196) 518 Other liabilities (234) 117 23 Income taxes 22 290 (213) Total cash provided by operating activities 2,408 2,141 2,557 Investing activities Additions to property and equipment, net of $53, $123 and $48, respectively, of non-cash capital expenditures (819) (688) (580) Purchases of investments — (4,325) (3,045) Sales of investments 2,098 4,…"
+   },
+   {
+    "chunk_id": "ch_bbfe140efcd3855c",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 6",
+    "page": 27,
+    "text": "Table of Contents (3) Included within operating income, net earnings from continuing operations and net earnings attributable to Best Buy Co., Inc. shareholders for fiscal 2018 is $80 million ($51 million net of taxes) related to a one-time bonus for certain employees and $20 million ($13 million net of taxes) related to a one-time contribution to the Best Buy Foundation in response to future tax savings created by the Tax Act. Also included in net earnings from continuing operations and net earnings attributable to Best Buy Co., Inc. shareholders for fiscal 2018 is $283 million of charges resulting from the Tax Act. Refer to Note 11, Income Taxes , in the Notes to the Consolidated Financial Statements, included in Item 8, Financial Statements and Supplementary Data , of this Annual Report on Form 10-K. (4) Included within net earnings from continuing operations and net earnings attributable to Best Buy Co., Inc. shareholders for fiscal 2017 includes $161 million ($100 million net of t…"
+   },
+   {
+    "chunk_id": "ch_bc17d9ecd7b1242b",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 6",
+    "page": 26,
+    "text": "23.2% 23.4% 24.0% 23.3% 22.4% Selling, general and administrative expenses rate 18.7% 19.0% 19.2% 19.3% 18.8% Operating income rate 4.4% 4.4% 4.7% 3.5% 3.6% Year-End Data Current ratio (8) 1.2 1.3 1.5 1.4 1.5 Total assets $ 12,901 $ 13,049 $ 13,856 $ 13,519 $ 15,245 Debt, including current portion 1,388 1,355 1,365 1,734 1,613 Total equity 3,306 3,612 4,709 4,378 5,000 Number of stores Domestic (9) 1,026 1,298 1,369 1,416 1,449 International 212 216 212 216 283 Total 1,238 1,514 1,581 1,632 1,732 Retail square footage (in thousands) Domestic (9) 39,500 40,360 41,039 41,234 41,734 International 4,607 4,602 4,511 4,543 6,470 Total 44,107 44,962 45,550 45,777 48,204 (1) Included within operating income, net earnings from continuing operations and net earnings attributable to Best Buy Co., Inc. shareholders for fiscal 2019 is $46 million ($35 million net of taxes) of restructuring charges from continuing operations related to measures we took to restructure our business; $35 million ($28 m…"
+   },
+   {
+    "chunk_id": "ch_8168b6b422ae3513",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 52,
+    "text": "Table of Contents Consolidated Balance Sheets $ in millions, except per share and share amounts February 2, 2019 February 3, 2018 Assets Current assets Cash and cash equivalents $ 1,980 $ 1,101 Short-term investments — 2,032 Receivables, net 1,015 1,049 Merchandise inventories 5,409 5,209 Other current assets 466 438 Total current assets 8,870 9,829 Property and equipment Land and buildings 637 623 Leasehold improvements 2,119 2,327 Fixtures and equipment 5,865 5,410 Property under capital and financing leases 579 340 Gross property and equipment 9,200 8,700 Less accumulated depreciation 6,690 6,279 Net property and equipment 2,510 2,421 Goodwill 915 425 Other assets 606 374 Total assets $ 12,901 $ 13,049 Liabilities and equity Current liabilities Accounts payable $ 5,257 $ 4,873 Unredeemed gift card liabilities 290 385 Deferred revenue 446 453 Accrued compensation and related expenses 482 561 Accrued liabilities 982 1,001 Current portion of long-term debt 56 544 Total current liabilit…"
+   },
+   {
+    "chunk_id": "ch_04f87848453dd07f",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 90,
+    "text": "Table of Contents (1) Refer to Item 1, Business , of this Annual Report on Form 10-K for additional information regarding the key components of each revenue category. GreatCall results of operations from the date of acquisition were included within the Domestic segment and Services revenue category. (2) The Domestic segment operating income includes certain operations that are based in foreign tax jurisdictions and primarily relate to sourcing products into the U.S. Geographic Information The following table presents our geographic information in fiscal 2019 , fiscal 2018 and fiscal 2017 ($ in millions): 2019 2018 2017 Revenue from external customers United States $ 39,304 $ 38,662 $ 36,248 Canada 3,214 3,187 2,899 Other 361 302 256 Total revenue from external customers $ 42,879 $ 42,151 $ 39,403 Long-lived assets United States $ 2,321 $ 2,205 $ 2,120 Canada 161 190 156 Other 28 26 17 Total long-lived assets $ 2,510 $ 2,421 $ 2,293 15. Quarterly Financial Information (Unaudited) The fo…"
+   },
+   {
+    "chunk_id": "ch_4b4ba741d33f4880",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 41,
+    "text": "The increase in cash used in investing activities in fiscal 2018 compared to fiscal 2017 was primarily due to an increase in capital spending to support our strategic growth initiatives and cash received in fiscal 2017 for the Five Star asset held-for-sale. This was partially offset by a decrease in the net investment in short-term investments during fiscal 2018. Financing Activities The decrease in cash used in financing activities in fiscal 2019 compared to fiscal 2018 was primarily due to a decrease in shares repurchased as we reached our $3.5 billion two-year share repurchase plan announced on March 1, 2018. This was partially offset by a decrease in the volume of option exercises and an increase in our regular quarterly dividend rate from $0.34 per share in fiscal 2018 to $0.45 per share in fiscal 2019. The increase in cash used in financing activities in fiscal 2018 compared to fiscal 2017 was primarily due to increased share repurchases, driven by an increase in our share price …"
+   }
+  ]
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "MMM",
+  "query": "revenue",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "MMM",
+  "concepts": [
+   {
+    "concept": "Revenues",
+    "label": "Revenues",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "34229000000",
+      "fact_id": "xf_1d89f65f55401d88",
+      "reported_in_10k_filed": "2023-02-08",
+      "later_restated_to": [
+       {
+        "value": "26161000000",
+        "fact_id": "xf_ae613db019e2c727",
+        "filed": "2025-02-05"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "34229000000",
+      "fact_id": "xf_f8f5c68c0ad5786d",
+      "reported_in_10k_filed": "2023-02-08",
+      "later_restated_to": [
+       {
+        "value": "26161000000",
+        "fact_id": "xf_ad042f656f103177",
+        "filed": "2025-02-05"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

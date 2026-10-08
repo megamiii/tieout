@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "By what percentage did Verizon's net income change from fiscal year 2021 to fiscal year 2022? Give the percentage rounded to one decimal place.",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a22d945fdd4b83bc",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 98,
+    "text": "series of legal entity restructurings. The increase in the provision for income taxes was primarily due to the increase in income before income taxes in 2021. The amounts of cash taxes paid by Verizon are as follows: (dollars in millions) Years Ended December 31, 2022 2021 2020 Income taxes, net of amounts refunded $ 2,736 $ 3,040 $ 2,725 Employment taxes 1,245 1,225 618 Property and other taxes 1,959 1,756 2,093 Total $ 5,940 $ 6,021 $ 5,436 Verizon 2022 Annual Report on Form 10-K 98"
+   },
+   {
+    "chunk_id": "ch_1ff4d43e163f8034",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 98,
+    "text": "1,432 Foreign (22) (97) 1 State and Local 466 1,007 120 Total 2,973 4,264 1,553 Total income tax provision $ 6,523 $ 6,802 $ 5,619 The following table shows the principal reasons for the difference between the effective income tax rate and the statutory federal income tax rate: Years Ended December 31, 2022 2021 2020 Statutory federal income tax rate 21.0 % 21.0 % 21.0 % State and local income tax rate, net of federal tax benefits 3.9 3.8 3.9 Noncontrolling interest (0.4) (0.4) (0.5) Divestitures — (0.6) 0.1 Tax credits (0.5) (0.5) (0.8) Other, net (0.9) (0.2) (0.3) Effective income tax rate 23.1 % 23.1 % 23.4 % The effective income tax rate for 2022 and 2021 was 23.1%. The effective income tax rate for the twelve months ended December 31, 2022 was comparable to the similar period in 2021. The decrease in the provision for income taxes was primarily due to the decrease in income before income taxes in the current period. The effective income tax rate for 2021 was 23.1% compared to 23.4…"
+   },
+   {
+    "chunk_id": "ch_5fe0ae06d8a5c498",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 27,
+    "text": "(dollars in millions) Years Ended December 31, 2022 2021 Consolidated Net Income $ 21,748 $ 22,618 Add: Provision for income taxes 6,523 6,802 Interest expense 3,613 3,485 Depreciation and amortization expense (1) 17,099 16,206 Consolidated EBITDA $ 48,983 $ 49,111 Add (Less): Other (income) expense, net (2) (3) $ (1,373) $ (312) Equity in earnings of unconsolidated businesses (4) (44) (145) Severance charges 304 209 Loss on spectrum licenses — 223 Net gain from sale of Media — (706) Consolidated Adjusted EBITDA $ 47,870 $ 48,380 (1) Includes Amortization of acquisition-related intangible assets, which were $826 million and $594 million during the years ended December 31, 2022 and 2021, respectively. See \"Special Items\" for additional information. (2) Includes Pension and benefits remeasurement credits of $1.7 billion and $2.4 billion during the years ended December 31, 2022 and 2021, respectively. See \"Special Items\" and \"Other Income (Expense), Net\" for additional information. (3) In…"
+   },
+   {
+    "chunk_id": "ch_e0eb0a10972af3b3",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 99,
+    "text": "2,812 $ 3,134 $ 2,944 Included in the total unrecognized tax benefits at December 31, 2022, 2021 and 2020 is $2.5 billion, $2.8 billion and $2.5 billion, respectively, that if recognized, would favorably affect the effective income tax rate. We recognized the following net after-tax expenses (benefit) related to interest and penalties in the provision for income taxes: Years Ended December 31, (dollars in millions) 2022 $ 35 2021 (21) 2020 5 99 Verizon 2022 Annual Report on Form 10-K"
+   },
+   {
+    "chunk_id": "ch_f815bb9c44274037",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 26,
+    "text": "Provision for Income Taxes (dollars in millions) Increase/(Decrease) Years Ended December 31, 2022 2021 2022 vs. 2021 Provision for income taxes $ 6,523 $ 6,802 $ (279) (4.1) % Effective income tax rate 23.1 % 23.1 % The effective income tax rate is calculated by dividing the provision for income taxes by income before the provision for income taxes. The effective income tax rate for the year ended December 31, 2022 was comparable to the similar period in 2021. The decrease in the provision for income taxes was primarily due to the decrease in income before income taxes in 2022. A reconciliation of the statutory federal income tax rate to the effective income tax rate for each period is included in Note 12 to the consolidated financial statements. Consolidated Net Income, Consolidated EBITDA and Consolidated Adjusted EBITDA Consolidated earnings before interest, taxes, depreciation and amortization expense (Consolidated EBITDA) and Consolidated Adjusted EBITDA, which are presented belo…"
+   },
+   {
+    "chunk_id": "ch_0221a28aef1fd686",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 34,
+    "text": "• an increase of $73 million in provision for credit losses driven by increased device payment loan volume and an increase in the expected loss rate primarily as a result of the change in device payment plan terms to 36 months. Depreciation and Amortization Expense Depreciation and amortization expense increased during 2022 compared to 2021, driven by the change in the mix of total Verizon depreciable and amortizable assets and Business usage of those assets. Segment Operating Income and EBITDA (dollars in millions) Increase/(Decrease) Years Ended December 31, 2022 2021 2022 vs. 2021 Segment Operating Income Add Depreciation and amortization expense 4,312 4,084 228 5.6 $ 2,631 $ 3,437 $ (806) (23.5) % Segment EBITDA $ 6,943 $ 7,521 $ (578) (7.7) Segment operating income margin Segment EBITDA margin 8.5% 22.3% 11.1% 24.2% The changes in the table above during the periods presented were primarily a result of the factors described in connection with operating revenues and operating expens…"
+   },
+   {
+    "chunk_id": "ch_e36a8b975c2a4bc2",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 25,
+    "text": "See Note 3 to the consolidated financial statements for additional information on the sale of Verizon Media, the acquisition of TracFone and spectrum license transactions. Depreciation and Amortization Expense Depreciation and amortization expense increased during 2022 compared to 2021, primarily due to the change in the mix of net depreciable and amortizable assets, including acquisition-related intangible assets, as well as the deployment of C-Band spectrum. Other Consolidated Results Other Income (Expense), Net Additional information relating to Other income (expense), net is as follows: (dollars in millions) Increase/(Decrease) Years Ended December 31, 2022 2021 2022 vs. 2021 Interest income $ 146 $ 48 $ 98 nm Other components of net periodic benefit income 2,386 3,785 (1,399) (37.0) % Net debt extinguishment losses (1,077) (3,541) 2,464 69.6 Other, net (82) 20 (102) nm Total $ 1,373 $ 312 $ 1,061 nm nm - not meaningful Other income (expense), net reflects certain items not directl…"
+   },
+   {
+    "chunk_id": "ch_1babf55892ed80ce",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 103,
+    "text": "A reconciliation of the total reportable segments' operating income to consolidated income before provision for income taxes is as follows: (dollars in millions) Years Ended December 31, 2022 2021 2020 Operating Income Total reportable segments $ 31,477 $ 33,392 $ 32,629 Corporate and other (319) (449) (1,472) Reconciling items: Severance charges (304) (209) (221) Other components of net periodic pension and benefit charges (Note 11) (387) (769) (817) Loss on spectrum licenses — (223) (1,195) Net gain (loss) from disposition of business — 706 (126) Consolidated operating income 30,467 32,448 28,798 Equity in earnings (losses) of unconsolidated businesses 44 145 (45) Other income (expense), net 1,373 312 (539) Interest expense (3,613) (3,485) (4,247) Income Before Provision For Income Taxes $ 28,271 $ 29,420 $ 23,967 No single customer accounted for more than 10% of our total operating revenues during the years ended December 31, 2022, 2021 and 2020. International operating revenues wer…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.",
+  "ticker": "MMM",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_3768fbeaae42a875",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 44,
+    "text": "Refer to the preceding “Total Debt” and “Cash, Cash Equivalents and Marketable Securities” sections for additional details. Balance Sheet: 3M's strong balance sheet and liquidity provide the Company with significant flexibility to fund its numerous opportunities going forward. The Company will continue to invest in its operations to drive growth, including continual review of acquisition opportunities. The Company uses working capital measures that place emphasis and focus on certain working capital assets, such as accounts receivable and inventory activity. Working Capital (non-GAAP measure): December 31, 2018 versus (Millions) 2018 2017 2017 Current assets $ 13,709 $ 14,277 $ (568) Less: Current liabilities 7,244 7,687 (443) Working capital (non-GAAP measure) $ 6,465 $ 6,590 $ (125) Various assets and liabilities, including cash and short-term debt, can fluctuate significantly from month to month depending on short-term liquidity needs. Working capital is not defined under U.S. gener…"
+   },
+   {
+    "chunk_id": "ch_6b2a38e2ec2d6aac",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 83,
+    "text": "discounts/premiums, payment of debt issue costs, as well as net interest payments/receipts associated with interest rate swap contracts. Cash interest payments exclude the cash paid for early debt extinguishment costs. Additional details are described in Note 12. Individual amounts in the Consolidated Statement of Cash Flows exclude the impacts of acquisitions, divestitures and exchange rate impacts, which are presented separately. Transactions related to investing and financing activities with significant non-cash components are as follows: · 3M sold and leased-back, under capital leases, certain recently constructed machinery and equipment in return for municipal securities with certain cities in the United States. In aggregate, the values totaled approximately $13 million in 2018, $13 million in 2017, and $12 million in 2016, as of the transaction date. 83"
+   },
+   {
+    "chunk_id": "ch_b792d3af84510eed",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 43,
+    "text": "Table of Contents FINANCIAL CONDITION AND LIQUIDI TY The strength and stability of 3M's business model and strong free cash flow capability, together with proven capital markets access, positions the Company to be able to add further leverage to its capital structure. Investing in 3M's businesses to drive organic growth remains the first priority for capital deployment, including research and development, capital expenditures, and commercialization capability. Investment in organic growth will be supplemented by complementary acquisitions. 3M will also continue to return cash to shareholders through dividends and share repurchases. Sources for cash availability in the United States, such as ongoing cash flow from operations and access to capital markets, have historically been sufficient to fund dividend payments to shareholders, as well as funding U.S. acquisitions and other items as needed. The TCJA creates additional repatriation opportunities for 3M to access international cash pos…"
+   },
+   {
+    "chunk_id": "ch_be9a964b06a211ba",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 60,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Statement of Cash Flow s Years ended December 31 (Millions) 2018 2017 2016 Cash Flows from Operating Activities Net income including noncontrolling interest $ 5,363 $ 4,869 $ 5,058 Adjustments to reconcile net income including noncontrolling interest to net cash provided by operating activities Depreciation and amortization 1,488 1,544 1,474 Company pension and postretirement contributions (370) (967) (383) Company pension and postretirement expense 410 334 250 Stock-based compensation expense 302 324 298 Gain on sale of businesses (545) (586) (111) Deferred income taxes (57) 107 7 Changes in assets and liabilities Accounts receivable (305) (245) (313) Inventories (509) (387) 57 Accounts payable 408 24 148 Accrued income taxes (current and long-term) 134 967 101 Other — net 120 256 76 Net cash provided by (used in) operating activities 6,439 6,240 6,662 Cash Flows from Investing Activities Purchases of property, plant and equip…"
+   },
+   {
+    "chunk_id": "ch_c1be923d6b089792",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 39,
+    "text": "Table of Contents Geographic Area Supplemental Information Property, Plant and Equipment - net Employees as of December 31, Capital Spending as of December 31, (Millions, except Employees) 2018 2017 2016 2018 2017 2016 2018 2017 United States 37,412 36,958 35,748 $ 994 $ 852 $ 834 $ 4,915 $ 4,891 Asia Pacific 18,971 18,283 18,124 238 209 228 1,624 1,672 Europe, Middle East and Africa 20,884 20,869 20,203 295 256 294 1,751 1,798 Latin America and Canada 16,249 15,426 17,509 50 56 64 448 505 Total Company 93,516 91,536 91,584 $ 1,577 $1,373 $1,420 $ 8,738 $ 8,866 Employment: Employment increased 1,980 positions in 2018 and decreased by 48 positions in 2017. Capital Spending/Net Property, Plant and Equipment: Investments in property, plant and equipment enable growth across many diverse markets, helping to meet product demand and increasing manufacturing efficiency. In 2018, 63% of 3M's capital spending was within the United States, followed by Europe, Middle East and Africa; Asia Pacific…"
+   },
+   {
+    "chunk_id": "ch_500e1e693e11f77e",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 98,
+    "text": "488 640 Core equities 55 62 742 790 5 4 802 856 Equities, valued at net asset value* 16 21 Total Equities $ 961 $ 1,318 $ 1,032 $ 1,122 $ 5 $ 4 $ 2,014 $ 2,465 Fixed Income Domestic government $ 334 $ 362 $ 351 $ 256 $ 5 $ 4 $ 690 $ 622 Foreign government 150 168 321 338 — — 471 506 Corporate debt securities 56 63 993 1,072 9 10 1,058 1,145 Fixed income securities, valued at net asset value* 961 976 Total Fixed Income $ 540 $ 593 $ 1,665 $ 1,666 $ 14 $ 14 $ 3,180 $ 3,249 Private Equity Real estate $ 5 $ 36 $ 75 $ 74 $ 4 $ 3 $ 84 $ 113 Real estate, valued at net asset value* 37 36 Partnership investments* 89 68 Total Private Equity $ 5 $ 36 $ 75 $ 74 $ 4 $ 3 $ 210 $ 217 Absolute Return Derivatives $ 1 $ — $ 1 $ 2 $ — $ — $ 2 $ 2 Insurance — — — — 496 519 496 519 Other — — 33 — 8 7 41 7 Other, valued at net asset value* — 1 Hedge funds* 186 194 Total Absolute Return $ 1 $ — $ 34 $ 2 $ 504 $ 526 $ 725 $ 723 Cash and Cash Equivalents Cash and cash equivalents $ 71 $ 67 $ 22 $ 34 $ — $ — $ …"
+   },
+   {
+    "chunk_id": "ch_3415b59ec981ec16",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 26,
+    "text": "Table of Contents Foreign currency translation increased year-on-year sales by 0.5 percent, with the translation-related sales increase in Latin America/Canada and EMEA partially offset by the decreases in Asia Pacific. Selling prices were flat year-on-year for 2017. In Asia Pacific, strong volume growth in electronics had a negative impact on price. Latin America/Canada and EMEA had price growth, while the U.S. selling prices declined slightly. Financial condition: 3M generated $6.4 billion of operating cash flow in 2018, an increase of $199 million when compared to 2017. This followed a decrease of $422 million when comparing 2017 to 2016. Refer to the section entitled “Financial Condition and Liquidity” later in MD&A for a discussion of items impacting cash flows. In November 2018, 3M's Board of Directors authorized the repurchase of up to $10 billion of 3M's outstanding common stock, which replaced the Company's February 2016 repurchase program. This program has no pre-established …"
+   },
+   {
+    "chunk_id": "ch_788c54576b42a952",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 58,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Balance Shee t At December 31 December 31, December 31, (Dollars in millions, except per share amount) 2018 2017 Assets Current assets Cash and cash equivalents $ 2,853 $ 3,053 Marketable securities — current 380 1,076 Accounts receivable — net of allowances of $95 and $103 5,020 4,911 Inventories Finished goods 2,120 1,915 Work in process 1,292 1,218 Raw materials and supplies 954 901 Total inventories 4,366 4,034 Prepaids 741 937 Other current assets 349 266 Total current assets 13,709 14,277 Property, plant and equipment 24,873 24,914 Less: Accumulated depreciation (16,135) (16,048) Property, plant and equipment — net 8,738 8,866 Goodwill 10,051 10,513 Intangible assets — net 2,657 2,936 Other assets 1,345 1,395 Total assets $ 36,500 $ 37,987 Liabilities Current liabilities Short-term borrowings and current portion of long-term debt $ 1,211 $ 1,853 Accounts payable 2,266 1,945 Accrued payroll 749 870 Accrued income taxes 243…"
+   }
+  ]
+ }
+}

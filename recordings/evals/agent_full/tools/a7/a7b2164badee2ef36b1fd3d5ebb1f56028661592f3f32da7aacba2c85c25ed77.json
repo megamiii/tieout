@@ -1,0 +1,60 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "BBY",
+  "query": "revenue",
+  "concept": null,
+  "fiscal_years": [
+   2023,
+   2019,
+   2017
+  ]
+ },
+ "output": {
+  "ticker": "BBY",
+  "concepts": [
+   {
+    "concept": "Revenues",
+    "label": "Revenues",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-01-30..2023-01-28",
+      "value": "46298000000",
+      "fact_id": "xf_06e4c059600b7713",
+      "reported_in_10k_filed": "2023-03-17"
+     },
+     {
+      "fiscal_year": 2019,
+      "period": "2018-02-04..2019-02-02",
+      "value": "42879000000",
+      "fact_id": "xf_ecdba833520156ac",
+      "reported_in_10k_filed": "2019-03-28"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "2016-01-31..2017-01-28",
+      "value": "39403000000",
+      "fact_id": "xf_1212b4610d64800a",
+      "reported_in_10k_filed": "2019-03-28"
+     }
+    ]
+   },
+   {
+    "concept": "SalesRevenueNet",
+    "label": "Revenue, Net (Deprecated 2018-01-31)",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2017,
+      "period": "2016-01-31..2017-01-28",
+      "value": "39403000000",
+      "fact_id": "xf_8b468436ed2f684b",
+      "reported_in_10k_filed": "2017-03-24"
+     }
+    ]
+   }
+  ]
+ }
+}

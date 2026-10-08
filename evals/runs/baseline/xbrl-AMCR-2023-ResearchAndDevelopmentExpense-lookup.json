@@ -1,0 +1,27 @@
+{
+ "item_id": "xbrl-AMCR-2023-ResearchAndDevelopmentExpense-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "baseline",
+ "status": "needs_review",
+ "answer": "Based on the provided passages, there is no mention of Amcor's research and development expense for fiscal year 2023.",
+ "confidence": 1.0,
+ "rationale": null,
+ "citations": [],
+ "review_reasons": [
+  "model flagged for review"
+ ],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2058,
+ "completion_tokens": 62,
+ "latency_ms": 1021.2,
+ "grade": {
+  "correct": false,
+  "method": "numeric",
+  "detail": "no figure in the answer matches the gold value",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

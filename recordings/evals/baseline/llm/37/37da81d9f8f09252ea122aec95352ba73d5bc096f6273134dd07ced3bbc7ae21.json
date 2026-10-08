@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Yes, CVS Health has paid cash dividends every quarter since becoming a public company, including during 2022.\",\n  \"confidence\": 0.9,\n  \"citations\": [{\"source_id\": \"ch_973e7bf6470f94c3\", \"quote\": \"During 2022, 2021 and 2020, the quarterly cash dividend was $0.55, $0.50 and $0.50 per share, respectively. ... CVS Health Corporation has paid cash dividends every quarter since becoming a public company.\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TOFUbEFWuhnVp/knl/7iTVRUrQxFYCuVDnFkb+vCpMvM0/WTVaSr9bbX95M0tuc8eJInGLA+Em+waAEhAknwkRRq7nNdYsWMO2Ev+ZmnR62mJuGu+8jdQAAg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492741,
+  "id": "hALIarm9FZy2vdIP0-n1-A0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 148,
+   "prompt_tokens": 2582,
+   "total_tokens": 2730
+  }
+ }
+}

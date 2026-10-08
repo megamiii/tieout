@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "By what percentage did General Mills's total revenue change from fiscal year 2019 to fiscal year 2020? Give the percentage rounded to one decimal place.",
+  "ticker": "GIS",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_1917f091afdd0d15",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 20,
+    "text": "20 A summary of our consolidated financial results for fiscal 2020 follows: Fiscal 2020 In millions, except per share Fiscal 2020 vs. Fiscal 2019 Percent of Net Sales Constant- Currency Growth (a) Net sales $ 17,626.6 5 % Operating profit 2,953.9 17 % 16.8 % Net earnings attributable to General Mills 2,181.2 24 % Diluted earnings per share $ 3.56 23 % Organic net sales growth rate (a) 4 % Adjusted operating profit (a) 3,058.0 7 % 17.3 % 7 % Adjusted diluted earnings per share (a) $ 3.61 12 % 12 % (a) See the \"Non-GAAP Measures\" section below for our use of measures not defined by GAAP. Consolidated net sales were as follows: Fiscal 2020 Fiscal 2020 vs. Fiscal 2019 Fiscal 2019 Net sales (in millions) $ 17,626.6 5 % $ 16,865.2 Contributions from volume growth (a) 4 pts Net price realization and mix 2 pts Foreign currency exchange (1)pt Note: Table may not foot due to rounding (a) Measured in tons based on the stated weight of our product shipments. The 5 percent increase in net sales in …"
+   },
+   {
+    "chunk_id": "ch_a1425333f7237b56",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 19,
+    "text": "19 attributable to redeemable and noncontrolling interests. We also returned cash to shareholders through dividends totaling $1.2 billion and reduced total debt outstanding by $1.0 billion. Our ratio of net debt-to-operating cash flow was 3.2 in fiscal 2020, and our net debt- to-adjusted earnings before net interest, income taxes, depreciation and amortization (net debt-to-adjusted EBITDA) ratio was 3.2, which was favorable to our fiscal 2020 target of 3.5 (See the “Non-GAAP Measures” section below for a description of our use of measures not defined by GAAP). A detailed review of our fiscal 2020 performance compared to fiscal 2019 appears below in the section titled “Fiscal 2020 Consolidated Results of Operations.” A detailed review of our fiscal 2019 performance compared to our fiscal 2018 performance is set forth in Part II, Item 7 of our Form 10-K for the fiscal year ended May 26, 2019 under the caption “Management's Discussion and Analysis of Financial Condition and Results of Ope…"
+   },
+   {
+    "chunk_id": "ch_0305831f0ce8d2ff",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 93,
+    "text": "In Millions, Except Per Share Amounts 2020 2019 2020 2019 2020 2019 2020 2019 Net sales $ 4,002.5 $ 4,094.0 $ 4,420.8 $ 4,411.2 $ 4,180.3 $ 4,198.3 $ 5,023.0 $ 4,161.7 Gross margin 1,389.5 1,342.8 1,569.1 1,509.7 1,403.2 1,443.0 1,768.1 1,461.3 Net earnings attributable to General Mills 520.6 392.3 580.8 343.4 454.1 446.8 625.7 570.2 EPS: Basic $ 0.86 $ 0.66 $ 0.96 $ 0.57 $ 0.75 $ 0.74 $ 1.03 $ 0.95 Diluted $ 0.85 $ 0.65 $ 0.95 $ 0.57 $ 0.74 $ 0.74 $ 1.02 $ 0.94 During the fourth quarter of fiscal 2020, we changed the reporting period of our Pet segment from an April fiscal year end to a May fiscal year end to match our fiscal calendar. Accordingly, our fiscal 2020 fourth quarter results include 4 months of Pet segment results compared to 3 months in the fourth quarter of fiscal 2019. The fourth quarter of fiscal 2020 also included an additional week of results"
+   },
+   {
+    "chunk_id": "ch_c7248392d6109dea",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 21,
+    "text": "drive efficiencies in targeted areas of our global supply chain. Please see Note 4 to the Consolidated Financial Statements in Item 8 of this report for additional information. Benefit plan non-service income totaled $113 million in fiscal 2020 compared to $88 million in fiscal 2019, primarily reflecting lower interest costs (please see Note 2 to the Consolidated Financial Statements in Item 8 of this report for additional information). Interest, net for fiscal 2020 totaled $466 million, $56 million lower than fiscal 2019, primarily driven by lower average debt levels. Our effective tax rate for fiscal 2020 was 18.5 percent compared to 17.7 percent in fiscal 2019. The 0.8 percentage point increase was primarily due to certain nonrecurring discrete tax benefits in fiscal 2019, partially offset by the benefit from the reorganization of certain wholly-owned subsidiaries and favorable changes in earnings mix by jurisdiction in fiscal 2020. Our adjusted effective tax rate was 20.7 percent i…"
+   },
+   {
+    "chunk_id": "ch_33cb408a8b32664f",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 27,
+    "text": "During fiscal 2020, cash provided by operations was $3,676 million compared to $2,807 million in the same period last year. The $869 million increase was primarily driven by an $801 million change in current assets and liabilities and a $425 million increase in net earnings, partially offset by a $192 million change in non-cash restructuring, impairment, and other exit costs and a $123 million change in deferred income taxes. The $801 million change in current assets and liabilities was primarily driven by a $233 million change in other current liabilities, primarily driven by changes in income taxes payable, trade and advertising accruals, and incentive accruals, a $230 million change in accounts payable as a result of increased spending on raw materials and packaging as well as the continued extension of payment terms, and a $208 million change in prepaid and other current assets, primarily driven by the timing of certain tax payments and receipts. We strive to grow core working capi…"
+   },
+   {
+    "chunk_id": "ch_fd82062e03aee5a3",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 26,
+    "text": "The 2 percent decrease in Asia & Latin America organic net sales in fiscal 2020 was primarily driven by the impact of the COVID-19 pandemic. The decrease in organic net sales growth includes unfavorable organic net price realization and mix and a decrease in contributions from organic volume growth. Segment operating profit decreased 74 percent to $19 million in fiscal 2020, compared to $72 million in fiscal 2019, primarily driven by an increase in input costs and lower contributions from volume growth. Segment operating profit decreased 73 percent on a constant- currency basis in fiscal 2020 compared to fiscal 2019 (see the “Non-GAAP Measures” section below for our use of this measure not defined by GAAP). UNALLOCATED CORPORATE ITEMS Unallocated corporate items include corporate overhead expenses, variances to planned domestic employee benefits and incentives, contributions to the General Mills Foundation, asset and liability remeasurement impact of hyperinflationary economies, restru…"
+   },
+   {
+    "chunk_id": "ch_79f05f25e7ab745a",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 24,
+    "text": "including foodservice, convenience stores, vending, and supermarket bakeries in the United States. Convenience Stores & Foodservice net sales were as follows: Fiscal 2020 Fiscal 2020 vs. 2019 Percentage Change Fiscal 2019 Net sales (in millions) $ 1,816.4 (8)% $ 1,969.1 Contributions from volume growth (a) (6)pts Net price realization and mix (2)pts Note: Table may not foot due to rounding. (a) Measured in tons based on the stated weight of our product shipments. Convenience Stores & Foodservice net sales decreased 8 percent in fiscal 2020 primarily driven by the impact of the COVID-19 pandemic on away-from-home channels. The decrease in net sales includes a decrease in contributions from volume growth and unfavorable net price realization and mix. The components of Convenience Stores & Foodservice organic net sales growth are shown in the following table: Fiscal 2020 vs. 2019 Percentage Change Contributions from organic volume growth (a) (7)pts Organic net price realization and mix (2…"
+   },
+   {
+    "chunk_id": "ch_ca47e44ccdebe119",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 48,
+    "text": "48 Consolidated Statements of Earnings GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions, Except per Share Data) Fiscal Year 2020 2019 2018 Net sales $ 17,626.6 $ 16,865.2 $ 15,740.4 Cost of sales 11,496.7 11,108.4 10,304.8 Selling, general, and administrative expenses 3,151.6 2,935.8 2,850.1 Divestitures loss - 30.0 - Restructuring, impairment, and other exit costs 24.4 275.1 165.6 Operating profit 2,953.9 2,515.9 2,419.9 Benefit plan non-service income (112.8) (87.9) (89.4) Interest, net 466.5 521.8 373.7 Earnings before income taxes and after-tax earnings from joint ventures 2,600.2 2,082.0 2,135.6 Income taxes 480.5 367.8 57.3 After-tax earnings from joint ventures 91.1 72.0 84.7 Net earnings, including earnings attributable to redeemable and noncontrolling interests 2,210.8 1,786.2 2,163.0 Net earnings attributable to redeemable and noncontrolling interests 29.6 33.5 32.0 Net earnings attributable to General Mills $ 2,181.2 $ 1,752.7 $ 2,131.0 Earnings per share - basic $ 3.59 $ 2…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "item_id": "financebench_id_01328",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "$411 million",
+ "confidence": 0.9,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_45a2cd756f9a96f4",
+   "quote": "Total restructuring and impairment charges $ 411 $ 247 $ 289",
+   "kind": "chunk",
+   "ticker": "PEP",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 78,
+   "supports": true
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2676,
+ "completion_tokens": 88,
+ "latency_ms": 1090.5,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer provides the exact figure specified in the gold answer.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

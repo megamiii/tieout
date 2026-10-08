@@ -1,0 +1,56 @@
+{
+ "item_id": "financebench_id_01107",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "answered",
+ "answer": "Yes, CVS Health reported ongoing legal battles and charges related to widespread prescription opioid abuse (including the consolidated multidistrict litigation *In re National Prescription Opiate Litigation*, MDL No. 2804, and $5.8 billion in opioid litigation charges recorded in 2022) as well as securities and ERISA litigation regarding its LTC business unit stemming from events between 2017 and 2019, with proceedings extending through 2020, 2021, and 2022.",
+ "confidence": 0.95,
+ "rationale": null,
+ "citations": [
+  {
+   "source_id": "ch_9abdf33074129ca6",
+   "quote": "Controlled Substances Litigation, Audits and Subpoenas In December 2017, the U.S. Judicial Panel on Multidistrict Litigation consolidated numerous cases... generally concerning the impacts of widespread prescription opioid abuse. The consolidated multidistrict litigation captioned In re National Prescription Opiate Litigation (MDL No. 2804) is pending...",
+   "kind": "chunk",
+   "ticker": "CVS",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 174,
+   "supports": true
+  },
+  {
+   "source_id": "ch_b99cfa2af92b530c",
+   "quote": "investment in company stock between December 3, 2017 and February 20, 2019, claiming losses related to the performance of the Company's LTC business unit... In October 2022, the court granted the Company's motion to dismiss with prejudice. Plaintiffs have appealed this decision to the Second Circuit.",
+   "kind": "chunk",
+   "ticker": "CVS",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 177,
+   "supports": false
+  },
+  {
+   "source_id": "ch_1c7af47753f1b44c",
+   "quote": "Opioid litigation charges 5,803 — — 5,803 100.0 % — — %",
+   "kind": "chunk",
+   "ticker": "CVS",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 88,
+   "supports": false
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2596,
+ "completion_tokens": 424,
+ "latency_ms": 1613.7,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer correctly identifies that CVS reported ongoing legal battles during the specified years and includes specific, accurate details regarding the opioid litigation, which is a primary component of the gold answer.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What was American Express's total revenue in fiscal year 2022? Answer in USD millions.",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_01a1954f662f77a4",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 96,
+    "text": "Table of Contents CONSOLIDATED STATEMENTS OF INCOME Year Ended December 31 (Millions, except per share amounts) 2022 2021 2020 Revenues Non-interest revenues Discount revenue $ 30,739 $ 24,563 $ 19,435 Net card fees 6,070 5,195 4,664 Service fees and other revenue 4,521 3,316 2,702 Processed revenue 1,637 1,556 1,301 Total non-interest revenues 42,967 34,630 28,102 Interest income Interest on loans 11,967 8,850 9,779 Interest and dividends on investment securities 96 83 127 Deposits with banks and other 595 100 177 Total interest income 12,658 9,033 10,083 Interest expense Deposits 1,527 458 943 Long-term debt and other 1,236 825 1,155 Total interest expense 2,763 1,283 2,098 Net interest income 9,895 7,750 7,985 Total revenues net of interest expense 52,862 42,380 36,087 Provisions for credit losses Card Member receivables 627 (73) 1,015 Card Member loans 1,514 (1,155) 3,453 Other 41 (191) 262 Total provisions for credit losses 2,182 (1,419) 4,730 Total revenues net of interest expens…"
+   },
+   {
+    "chunk_id": "ch_4c4fd5597140401b",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 156,
+    "text": "Table of Contents NOTE 25 PARENT COMPANY PARENT COMPANY – CONDENSED STATEMENTS OF INCOME AND COMPREHENSIVE INCOME Years Ended December 31 (Millions) 2022 2021 2020 Revenues Non-interest revenues Other $ 388 $ 343 $ 480 Total non-interest revenues 388 343 480 Interest income 614 96 228 Interest expense 857 482 630 Total revenues net of interest expense 145 (43) 78 Expenses Salaries and employee benefits 408 359 333 Other 372 346 562 Total expenses 780 705 895 Pretax loss (635) (748) (817) Income tax benefit (244) (248) (236) Net loss before equity in net income of subsidiaries and affiliates (391) (500) (581) Equity in net income of subsidiaries and affiliates 7,905 8,560 3,716 Net income $ 7,514 $ 8,060 $ 3,135 Net unrealized pension and other postretirement benefits, net of tax 10 151 (91) Other comprehensive (loss) income, net (275) (201) (67) Comprehensive income $ 7,249 $ 8,010 $ 2,977 PARENT COMPANY – CONDENSED BALANCE SHEETS As of December 31 (Millions) 2022 2021 Assets Cash and …"
+   },
+   {
+    "chunk_id": "ch_afa1eb092d302760",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 47,
+    "text": "Table of Contents CONSOLIDATED RESULTS OF OPERATIONS The discussions in the “Consolidated Results of Operations” and “Business Segment Results of Operations” provide commentary on the variances for the year ended December 31, 2022 compared to the year ended December 31, 2021, as presented in the accompanying tables. For a discussion of the financial condition and results of operations for 2021 compared to 2020, please refer to Part II, Item 7. “Management's Discussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on Form 10-K for the year ended December 31, 2021, filed with the SEC on February 11, 2022. Beginning in the first quarter of 2022, we made reporting presentation changes to our Consolidated Statements of Income to separately present revenues earned from processed volumes, previously reported in Discount revenue, Other fees and commissions and Other revenue, as Processed revenue. The remaining balances from Other fees and commissions and O…"
+   },
+   {
+    "chunk_id": "ch_f6568218d2811d81",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 145,
+    "text": "Table of Contents NOTE 18 SERVICE FEES AND OTHER REVENUE AND OTHER EXPENSES The following is a detail of Service fees and other revenue for the years ended December 31: (Millions) 2022 2021 2020 Service fees $ 1,444 $ 1,385 $ 1,280 Foreign currency-related revenue 1,202 624 517 Delinquency fees 809 637 772 Travel commissions and fees 507 244 102 Other fees and revenues 559 426 31 Total Service fees and other revenue $ 4,521 $ 3,316 $ 2,702 The following is a detail of Other expenses for the years ended December 31: (Millions) 2022 2021 2020 Data processing and equipment $ 2,606 $ 2,431 $ 2,334 Professional services 2,074 1,958 1,789 Net unrealized and realized losses (gains) on Amex Ventures investments 302 (767) (152) Other 1,499 1,195 1,354 Total Other expenses $ 6,481 $ 4,817 $ 5,325 NOTE 19 RESTRUCTURING We periodically initiate restructuring programs to support new business strategies and to enhance our overall effectiveness and efficiency. In connection with these programs, we wi…"
+   },
+   {
+    "chunk_id": "ch_2338aeb026371ad4",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 154,
+    "text": "Table of Contents The following table presents certain selected financial information for our reportable operating segments and Corporate & Other as of or for the years ended December 31, 2022, 2021 and 2020: (Millions, except where indicated) USCS CS ICS GMNS Corporate & Other Consolidated 2022 Total non-interest revenues $ 16,440 $ 12,196 $ 8,262 $ 6,123 $ (54) $ 42,967 Revenue from contracts with customers 12,478 10,844 5,301 5,603 (7) 34,219 Interest income 8,457 2,070 1,453 23 655 12,658 Interest expense 983 697 654 (329) 758 2,763 Total revenues net of interest expense 23,914 13,569 9,061 6,475 (157) 52,862 Pretax income (loss) 5,400 2,880 578 2,954 (2,227) 9,585 Total assets (billions) $ 94 $ 51 $ 37 $ 20 $ 26 $ 228 2021 Total non-interest revenues $ 12,989 $ 9,833 $ 6,761 $ 5,021 $ 26 $ 34,630 Revenue from contracts with customers 9,823 8,659 4,368 4,694 172 27,716 Interest income 6,328 1,408 1,116 16 165 9,033 Interest expense 395 330 442 (92) 208 1,283 Total revenues net of i…"
+   },
+   {
+    "chunk_id": "ch_249c7f2ab06b0612",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 146,
+    "text": "Table of Contents NOTE 20 INCOME TAXES The components of income tax expense for the years ended December 31 included in the Consolidated Statements of Income were as follows: (Millions) 2022 2021 2020 Current income tax expense: U.S. federal $ 2,445 $ 1,656 $ 1,122 U.S. state and local 339 351 339 Non-U.S. 476 328 639 Total current income tax expense 3,260 2,335 2,100 Deferred income tax (benefit) expense: U.S. federal (763) 231 (931) U.S. state and local (117) 22 (119) Non-U.S. (309) 41 111 Total deferred income tax (benefit) expense (1,189) 294 (939) Total income tax expense $ 2,071 $ 2,629 $ 1,161 A reconciliation of the U.S. federal statutory rate of 21 percent as of December 31, 2022, 2021 and 2020, to our actual income tax rate was as follows: 2022 2021 2020 U.S. statutory federal income tax rate 21.0 % 21.0 % 21.0 % (Decrease) increase in taxes resulting from: Tax credits and tax-exempt income (0.9) (0.1) (4.1) State and local income taxes, net of federal benefit 3.1 3.0 3.7 Non…"
+   },
+   {
+    "chunk_id": "ch_290f30a8f788565c",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 44,
+    "text": "Table of Contents TABLE 1: SUMMARY OF FINANCIAL PERFORMANCE Years Ended December 31, Change Change (Millions, except percentages, per share amounts and where indicated) 2022 2021 2020 2022 vs. 2021 2021 vs. 2020 Selected Income Statement Data Total revenues net of interest expense $ 52,862 $ 42,380 $ 36,087 $ 10,482 25 % $ 6,293 17 % Provisions for credit losses 2,182 (1,419) 4,730 3,601 # (6,149) # Expenses 41,095 33,110 27,061 7,985 24 6,049 22 Pretax income 9,585 10,689 4,296 (1,104) (10) 6,393 # Income tax provision 2,071 2,629 1,161 (558) (21) 1,468 # Net income 7,514 8,060 3,135 (546) (7) 4,925 # Earnings per common share — diluted $ 9.85 $ 10.02 $ 3.77 $ (0.17) (2)% $ 6.25 # % Common Share Statistics Cash dividends declared per common share $ 2.08 $ 1.72 $ 1.72 $ 0.36 21 % $ — — % Average common shares outstanding: Basic 751 789 805 (38) (5)% (16) (2)% Diluted 752 790 806 (38) (5)% (16) (2)% Selected Metrics and Ratios Network volumes (Billions) $ 1,552.8 $ 1,284.2 $ 1,037.8 $ 2…"
+   },
+   {
+    "chunk_id": "ch_e69520d69ad324c0",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 60,
+    "text": "Table of Contents INTERNATIONAL CARD SERVICES TABLE 13: ICS SELECTED INCOME STATEMENT DATA Years Ended December 31, Change Change (Millions, except percentages) 2022 2021 2020 2022 vs. 2021 2021 vs. 2020 Revenues Non-interest revenues $ 8,262 $ 6,761 $ 5,877 $ 1,501 22 % $ 884 15 % Interest income 1,453 1,116 1,244 337 30 (128) (10) Interest expense 654 442 379 212 48 63 17 Net interest income 799 674 865 125 19 (191) (22) Total revenues net of interest expense 9,061 7,435 6,742 1,626 22 693 10 Provisions for credit losses 584 (43) 734 627 # (777) # Total revenues net of interest expense after provisions for credit losses 8,477 7,478 6,008 999 13 1,470 24 Total expenses 7,899 6,549 5,487 1,350 21 1,062 19 Pretax segment income $ 578 $ 929 $ 521 $ (351) (38)% $ 408 78 % # Denotes a variance of 100 percent or more ICS issues a wide range of proprietary consumer, small business and corporate cards outside the United States. ICS also provides services to our international customers, includ…"
+   }
+  ]
+ }
+}

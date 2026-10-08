@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What are the geographies that Pepsico primarily operates in as of FY2022?",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_74ed68faddc33e78",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 482,
+    "text": "EXHIBIT 21 PEPSICO, INC. SUBSIDIARIES (as of December 31, 2022) Entity Name Jurisdiction Alimentos del Istmo, S.A. Panama Alimentos Quaker Oats y Compania Limitada Guatemala Amavale Agricola Ltda. Brazil Anderson Hill Insurance Limited Bermuda Asia Bottlers Limited Hong Kong BAESA Capital Corporation Ltd. Cayman Islands Balmoral Industries LLC United States, Delaware Bare Foods Co. United States, Delaware Barrhead LLC United States, Delaware Beaman Bottling Company United States, Delaware Bebidas Sudamerica S.A. Argentina Beech Limited Cayman Islands Bell Taco Funding Syndicate Australia Bendler Investments S.à r.l Luxembourg Beverages, Foods & Service Industries, Inc. United States, Delaware BFY Brands Limited United Kingdom BFY Brands, LLC United States, Delaware Bishkeksut, OJSC Kyrgyzstan Blaue NC, S. de R.L. de C.V. Mexico Blue Cloud Distribution of Alabama, Inc. United States, Alabama Blue Cloud Distribution of Alaska, Inc. United States, Alaska Blue Cloud Distribution of Arizona…"
+   },
+   {
+    "chunk_id": "ch_2466cca25f074799",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 484,
+    "text": "United States, Delaware Elaboradora Argentina de Cereales S.R.L. Argentina Enter Logistica, LLC Russia Environ at Inverrary Partnership United States, Florida Environ of Inverrary, Inc. United States, Florida EPIC Enterprises, Inc. United States, Massachusetts Eridanus Investments S.à r.l Luxembourg Evercrisp Snack Productos de Chile S.A. Chile Fabrica de Productos Alimenticios Rene y Cia S.C.A. Guatemala Fabrica PepsiCo Mexicali, S. de R.L. de C.V. Mexico Fairlight International SRL Barbados Far East Bottlers (Hong Kong) Limited Hong Kong FL Transportation, Inc. United States, Delaware FLI Andean, LLC United States, Delaware FLI Colombia, LLC United States, Delaware 3"
+   },
+   {
+    "chunk_id": "ch_b7263b624cbc7c1c",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 10,
+    "text": "dairy, protein, fiber, micronutrients and hydration; development of packaging technology and new package designs, including reducing the amount of plastic in our packaging and developing recyclable, compostable, biodegradable or otherwise sustainable packaging; development of marketing, merchandising and dispensing equipment; further expanding our beyond the bottle portfolio including innovation for our SodaStream business; investments in technology and digitalization, including artificial intelligence and data analytics to enhance our consumer insights and research; continuing to strengthen our omnichannel capabilities, particularly in e-commerce; and efforts focused on reducing our impact on the environment, including reducing water use in our operations and our agricultural practices and reducing our environmental impact in our operations throughout our value chain. Our research centers are located around the world, including in Brazil, China, India, Ireland, Mexico, Russia, South A…"
+   },
+   {
+    "chunk_id": "ch_972a8302e8204955",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 4",
+    "page": 28,
+    "text": "Table of Contents rejoined PepsiCo in 2002. Prior to joining PepsiCo in 1987, Mr. Johnston was with General Electric Company in a variety of finance positions. Ram Krishnan has served as Chief Executive Officer, International Beverages and Chief Commercial Officer of PepsiCo, effective January 2022. Prior to that, Mr. Krishnan served as Executive Vice President and Chief Commercial Officer, PepsiCo, from 2019 to 2021, as President and Chief Executive Officer of PepsiCo's Asia Pacific, Australia and New Zealand and China Region from 2018 to 2020, and as PepsiCo's Senior Vice President and Chief Customer Officer for Walmart, leading PepsiCo's global Walmart customer team, from 2016 to 2017. Mr. Krishnan joined PepsiCo in 2006 and held marketing roles of increasing responsibility from 2006 to 2016, including as Senior Vice President and Chief Marketing Officer, Frito-Lay North America from 2014 to 2016, as Senior Vice President, Marketing, Frito-Lay North America from 2012 to 2013 and as …"
+   },
+   {
+    "chunk_id": "ch_3be4e7884db32edc",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 2",
+    "page": 26,
+    "text": "Item 2. Properties. Our principal executive office located in Purchase, New York and our facilities located in Plano, Texas, all of which we own, are our most significant corporate properties. In connection with making, marketing, distributing and selling our products, each division utilizes manufacturing, processing, bottling and production plants, warehouses, distribution centers, storage facilities, offices, including division headquarters, research and development facilities and other facilities, all of which are either owned or leased. Significant properties by division are as follows: Property Type Location Owned/ Leased FLNA Research and development facility Plano, Texas Owned QFNA Convenient food plant Cedar Rapids, Iowa Owned PBNA Research and development facility Valhalla, New York Owned PBNA Concentrate plant Arlington, Texas Owned LatAm Convenient food plant Celaya, Mexico Owned LatAm Two convenient food plants Vallejo, Mexico Owned Europe Convenient food plant Leicester, U…"
+   },
+   {
+    "chunk_id": "ch_f7e39b9b68da21c6",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 34,
+    "text": "conditions, civil unrest, natural disasters, debt and credit issues and currency controls or fluctuations. We continue to monitor the economic, operating and political environment in these markets closely, including risks of additional impairments or write-offs, and to identify actions to potentially mitigate any unfavorable impacts on our future results. See Notes 1 and 4 to our consolidated financial statements for a discussion of impairment charges recognized in the year ended December 31, 2022. Risks Associated with the Deadly Conflict in Ukraine In addition to the risks associated with international operations discussed above, we continue to face risks associated with the deadly conflict in Ukraine. The conflict has continued to result in worldwide geopolitical and macroeconomic uncertainty, and certain of our operations in Ukraine remain suspended. We have suspended sales to our customers of Pepsi-Cola and certain of our other global beverage brands, our discretionary capital inv…"
+   },
+   {
+    "chunk_id": "ch_54bf5e6b14449e55",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 64,
+    "text": "Table of Contents Consolidated Statement of Cash Flows PepsiCo, Inc. and Subsidiaries Fiscal years ended December 31, 2022, December 25, 2021 and December 26, 2020 (in millions) 2022 2021 2020 Operating Activities Net income $ 8,978 $ 7,679 $ 7,175 Depreciation and amortization 2,763 2,710 2,548 Gain associated with the Juice Transaction (3,321) — — Impairment and other charges 3,618 — — Operating lease right-of-use asset amortization 517 505 478 Share-based compensation expense 343 301 264 Restructuring and impairment charges 411 247 289 Cash payments for restructuring charges (224) (256) (255) Acquisition and divestiture-related charges 80 (4) 255 Cash payments for acquisition and divestiture-related charges (46) (176) (131) Pension and retiree medical plan expenses 419 123 408 Pension and retiree medical plan contributions (384) (785) (562) Deferred income taxes and other tax charges and credits (873) 298 361 Tax expense related to the TCJ Act 86 190 — Tax payments related to the TC…"
+   },
+   {
+    "chunk_id": "ch_a883629456d85853",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 4,
+    "text": "Item 1. Business. When used in this report, the terms “we,” “us,” “our,” “PepsiCo” and the “Company” mean PepsiCo, Inc. and its consolidated subsidiaries, collectively. Certain terms used in this Annual Report on Form 10-K are defined in the Glossary included in Item 7. of this report. Company Overview We were incorporated in Delaware in 1919 and reincorporated in North Carolina in 1986. We are a leading global beverage and convenient food company with a complementary portfolio of brands, including Lay's, Doritos, Cheetos, Gatorade, Pepsi-Cola, Mountain Dew, Quaker and SodaStream. Through our operations, authorized bottlers, contract manufacturers and other third parties, we make, market, distribute and sell a wide variety of beverages and convenient foods, serving customers and consumers in more than 200 countries and territories. Our Operations We are organized into seven reportable segments (also referred to as divisions), as follows: 1) Frito-Lay North America (FLNA), which include…"
+   }
+  ]
+ }
+}

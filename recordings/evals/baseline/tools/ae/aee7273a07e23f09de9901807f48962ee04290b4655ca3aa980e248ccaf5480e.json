@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What was PepsiCo's total assets in fiscal year 2022? Answer in USD millions.",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a8ef5eaafabf5981",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 66,
+    "text": "Table of Contents Consolidated Balance Sheet PepsiCo, Inc. and Subsidiaries December 31, 2022 and December 25, 2021 (in millions except per share amounts) 2022 2021 ASSETS Current Assets Cash and cash equivalents $ 4,954 $ 5,596 Short-term investments 394 392 Accounts and notes receivable, net 10,163 8,680 Inventories 5,222 4,347 Prepaid expenses and other current assets 806 980 Assets held for sale — 1,788 Total Current Assets 21,539 21,783 Property, Plant and Equipment, net 24,291 22,407 Amortizable Intangible Assets, net 1,277 1,538 Goodwill 18,202 18,381 Other Indefinite-Lived Intangible Assets 14,309 17,127 Investments in Noncontrolled Affiliates 3,073 2,350 Deferred Income Taxes 4,204 4,310 Other Assets 5,292 4,481 Total Assets $ 92,187 $ 92,377 LIABILITIES AND EQUITY Current Liabilities Short-term debt obligations $ 3,414 $ 4,308 Accounts payable and other current liabilities 23,371 21,159 Liabilities held for sale — 753 Total Current Liabilities 26,785 26,220 Long-Term Debt Obl…"
+   },
+   {
+    "chunk_id": "ch_7a48f98cd7a1b7a6",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 62,
+    "text": "Table of Contents Consolidated Statement of Income PepsiCo, Inc. and Subsidiaries Fiscal years ended December 31, 2022, December 25, 2021 and December 26, 2020 (in millions except per share amounts) 2022 2021 2020 Net Revenue $ 86,392 $ 79,474 $ 70,372 Cost of sales 40,576 37,075 31,797 Gross profit 45,816 42,399 38,575 Selling, general and administrative expenses 34,459 31,237 28,453 Gain associated with the Juice Transaction (see Note 13) (3,321) — — Impairment of intangible assets (see Notes 1 and 4) 3,166 — 42 Operating Profit 11,512 11,162 10,080 Other pension and retiree medical benefits income 132 522 117 Net interest expense and other (939) (1,863) (1,128) Income before income taxes 10,705 9,821 9,069 Provision for income taxes 1,727 2,142 1,894 Net income 8,978 7,679 7,175 Less: Net income attributable to noncontrolling interests 68 61 55 Net Income Attributable to PepsiCo $ 8,910 $ 7,618 $ 7,120 Net Income Attributable to PepsiCo per Common Share Basic $ 6.45 $ 5.51 $ 5.14 Di…"
+   },
+   {
+    "chunk_id": "ch_34840c001eadbe76",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 63,
+    "text": "Table of Contents Consolidated Statement of Comprehensive Income PepsiCo, Inc. and Subsidiaries Fiscal years ended December 31, 2022, December 25, 2021 and December 26, 2020 (in millions) 2022 2021 2020 Net income $ 8,978 $ 7,679 $ 7,175 Other comprehensive (loss)/income, net of taxes: Net currency translation adjustment (643) (369) (650) Net change on cash flow hedges (158) 155 7 Net pension and retiree medical adjustments 389 770 (532) Other 4 22 (1) (408) 578 (1,176) Comprehensive income 8,570 8,257 5,999 Less: Comprehensive income attributable to noncontrolling interests 64 61 55 Comprehensive Income Attributable to PepsiCo $ 8,506 $ 8,196 $ 5,944 See accompanying notes to the consolidated financial statements. 61"
+   },
+   {
+    "chunk_id": "ch_54bf5e6b14449e55",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 64,
+    "text": "Table of Contents Consolidated Statement of Cash Flows PepsiCo, Inc. and Subsidiaries Fiscal years ended December 31, 2022, December 25, 2021 and December 26, 2020 (in millions) 2022 2021 2020 Operating Activities Net income $ 8,978 $ 7,679 $ 7,175 Depreciation and amortization 2,763 2,710 2,548 Gain associated with the Juice Transaction (3,321) — — Impairment and other charges 3,618 — — Operating lease right-of-use asset amortization 517 505 478 Share-based compensation expense 343 301 264 Restructuring and impairment charges 411 247 289 Cash payments for restructuring charges (224) (256) (255) Acquisition and divestiture-related charges 80 (4) 255 Cash payments for acquisition and divestiture-related charges (46) (176) (131) Pension and retiree medical plan expenses 419 123 408 Pension and retiree medical plan contributions (384) (785) (562) Deferred income taxes and other tax charges and credits (873) 298 361 Tax expense related to the TCJ Act 86 190 — Tax payments related to the TC…"
+   },
+   {
+    "chunk_id": "ch_47be09b64fe40eab",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 39,
+    "text": "Table of Contents Our foreign currency derivatives had a total notional value of $3.0 billion as of December 31, 2022 and $2.8 billion as of December 25, 2021. At the end of 2022, we estimate that an unfavorable 10% change in the underlying exchange rates would have decreased our net unrealized gains in 2022 by $298 million, which would be significantly offset by an inverse change in the fair value of the underlying exposure. The total notional amount of our debt instruments designated as net investment hedges was $2.9 billion as of December 31, 2022 and $2.1 billion as of December 25, 2021. Interest Rates Our interest rate derivatives had a total notional value of $1.3 billion as of December 31, 2022 and $2.1 billion as of December 25, 2021. Assuming year-end 2022 investment levels and variable rate debt, a 1-percentage-point increase in interest rates would have decreased our net interest expense in 2022 by $48 million due to higher cash and cash equivalents and short- term investmen…"
+   },
+   {
+    "chunk_id": "ch_0b81063c98c426ec",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 65,
+    "text": "Table of Contents Consolidated Statement of Cash Flows (continued) PepsiCo, Inc. and Subsidiaries Fiscal years ended December 31, 2022, December 25, 2021 and December 26, 2020 (in millions) 2022 2021 2020 Financing Activities Proceeds from issuances of long-term debt $ 3,377 $ 4,122 $ 13,809 Payments of long-term debt (2,458) (3,455) (1,830) Debt redemptions/cash tender offers (1,716) (4,844) (1,100) Short-term borrowings, by original maturity: More than three months - proceeds 1,969 8 4,077 More than three months - payments (1,951) (397) (3,554) Three months or less, net (31) 434 (109) Payments of acquisition-related contingent consideration — (773) — Cash dividends paid (6,172) (5,815) (5,509) Share repurchases - common (1,500) (106) (2,000) Proceeds from exercises of stock options 138 185 179 Withholding tax payments on restricted stock units (RSUs) and performance stock units (PSUs) converted (107) (92) (96) Other financing (72) (47) (48) Net Cash (Used for)/Provided by Financing A…"
+   },
+   {
+    "chunk_id": "ch_74553d22b057b249",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 85,
+    "text": "Table of Contents Deferred tax liabilities and assets are comprised of the following: 2022 2021 Deferred tax liabilities Debt guarantee of wholly-owned subsidiary $ 578 $ 578 Property, plant and equipment 2,126 2,036 Recapture of net operating losses 492 504 Pension liabilities 189 216 Right-of-use assets 534 450 Investment in TBG 186 — Other 232 254 Gross deferred tax liabilities 4,337 4,038 Deferred tax assets Net carryforwards 5,342 4,974 Intangible assets other than nondeductible goodwill 1,614 1,111 Share-based compensation 120 98 Retiree medical benefits 118 147 Other employee-related benefits 349 379 Deductible state tax and interest benefits 144 149 Lease liabilities 534 450 Capitalized research and development 150 — Other 1,050 842 Gross deferred tax assets 9,421 8,150 Valuation allowances (5,013) (4,628) Deferred tax assets, net 4,408 3,522 Net deferred tax (assets)/liabilities $ (71) $ 516 A summary of our valuation allowance activity is as follows: 2022 2021 2020 Balance, b…"
+   },
+   {
+    "chunk_id": "ch_ab7e43f8e284033b",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 74,
+    "text": "Table of Contents Amortization of intangible assets and depreciation and other amortization of each division are as follows: Amortization of Intangible Assets Depreciation and Other Amortization 2022 2021 2020 2022 2021 2020 FLNA $ 11 $ 11 $ 10 $ 653 $ 594 $ 550 QFNA — — — 47 46 41 PBNA 22 25 28 930 926 899 LatAm 3 4 4 306 283 251 Europe 30 37 40 357 364 350 AMESA 4 5 3 179 181 149 APAC 8 9 5 92 102 91 Total division 78 91 90 2,564 2,496 2,331 Corporate — — — 121 123 127 Total $ 78 $ 91 $ 90 $ 2,685 $ 2,619 $ 2,458 Net revenue and long-lived assets by country are as follows: Net Revenue Long-Lived Assets 2022 2021 2020 2022 2021 United States $ 49,390 $ 44,545 $ 40,800 $ 38,240 $ 36,324 Mexico 5,472 4,580 3,924 1,933 1,720 Russia 4,118 3,426 3,009 2,538 3,751 Canada 3,536 3,405 2,989 2,678 2,846 China 2,752 2,679 1,732 1,517 1,745 United Kingdom 1,844 2,102 1,882 847 906 South Africa 1,837 2,008 1,282 1,327 1,389 All other countries 17,443 16,729 14,754 12,885 13,399 Total $ 86,392 $ 7…"
+   }
+  ]
+ }
+}

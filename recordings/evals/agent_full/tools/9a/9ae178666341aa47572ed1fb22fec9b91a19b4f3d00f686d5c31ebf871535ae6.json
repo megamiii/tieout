@@ -1,0 +1,86 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "BA",
+  "query": "gross profit",
+  "concept": null,
+  "fiscal_years": [
+   2020,
+   2021,
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "BA",
+  "concepts": [
+   {
+    "concept": "GrossProfit",
+    "label": "Gross Profit",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "3502000000",
+      "fact_id": "xf_7ab1a5616652c01f",
+      "reported_in_10k_filed": "2023-01-27",
+      "later_restated_to": [
+       {
+        "value": "3530000000",
+        "fact_id": "xf_cf746c2b44d2b02b",
+        "filed": "2024-01-31"
+       },
+       {
+        "value": "3530000000",
+        "fact_id": "xf_3d5e632d2493a6cc",
+        "filed": "2025-02-03"
+       }
+      ]
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2021-01-01..2021-12-31",
+      "value": "3017000000",
+      "fact_id": "xf_3adce0a81b1d82ff",
+      "reported_in_10k_filed": "2022-01-31",
+      "later_restated_to": [
+       {
+        "value": "3049000000",
+        "fact_id": "xf_da82ec648d5e4b6d",
+        "filed": "2024-01-31"
+       }
+      ]
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "2020-01-01..2020-12-31",
+      "value": "-5685000000",
+      "fact_id": "xf_943ade6b341fb0a7",
+      "reported_in_10k_filed": "2021-02-01"
+     }
+    ]
+   },
+   {
+    "concept": "MachineryAndEquipmentGross",
+    "label": "Machinery and Equipment, Gross",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2021,
+      "period": "as of 2021-12-31",
+      "value": "15692000000",
+      "fact_id": "xf_1eaac73d82380a96",
+      "reported_in_10k_filed": "2022-01-31"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "as of 2020-12-31",
+      "value": "16060000000",
+      "fact_id": "xf_f1af3fca6e487224",
+      "reported_in_10k_filed": "2021-02-01"
+     }
+    ]
+   }
+  ]
+ }
+}

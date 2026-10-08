@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies that cash flow from operations was the highest and provides the specific figure from the 10-K, which aligns with the gold answer's conclusion.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TpZeQPnLiPIEuG4QnTIa1W+EZGrzaxJiAD5uCxq3kArKTAlXV54izAlt5r97j27xmp6e4MtyUo+hSgws+3dkix2i9yuobYZTL+xb+LXhpS3HA/2B1AymyaXKr6qhaUDy3qlEKUjKY35aOZdW6"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791493229,
+  "id": "YgTIasK7HLOWkdUPvdC5yQ0",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 194,
+   "total_tokens": 241
+  }
+ }
+}

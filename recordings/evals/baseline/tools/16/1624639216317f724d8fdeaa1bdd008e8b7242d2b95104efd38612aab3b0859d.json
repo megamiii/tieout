@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Does Verizon have a reasonably healthy liquidity profile based on its quick ratio for FY 2022? If the quick ratio is not relevant to measure liquidity, please state that and explain why.",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_2271f576bc65b122",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 94,
+    "text": "In determining our pension and other postretirement benefit obligations, we used a weighted-average discount rate of 5.2% in 2022. The rates were selected to approximate the composite interest rates available on a selection of high-quality bonds available in the market at December 31, 2022. The bonds selected had maturities that coincided with the time periods during which benefits payments are expected to occur, were non-callable and available in sufficient quantities to ensure marketability (at least $300 million par outstanding). In order to project the long-term target investment return for the total portfolio, estimates are prepared for the total return of each major asset class over the subsequent 10-year period. Those estimates are based on a combination of factors including the current market interest rates and valuation levels, consensus earnings expectations and historical long-term risk premiums. To determine the aggregate return for the pension trust, the projected return o…"
+   },
+   {
+    "chunk_id": "ch_4abef3c10af85f32",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7A",
+    "page": 49,
+    "text": "the obligation to return cash collateral arising from derivative instruments recognized at fair value. At December 31, 2022, we did not hold any collateral. At December 31, 2022, we posted $2.3 billion of collateral related to derivative contracts under collateral exchange agreements, which was recorded as Prepaid expenses and other in our consolidated balance sheet. At December 31, 2021, we held and posted $0.1 billion and an insignificant amount, respectively, of collateral related to derivative contracts under collateral exchange arrangements, which were recorded as Other current liabilities and Prepaid expenses and other, respectively, in our consolidated balance sheet. While we may be exposed to credit losses due to the nonperformance of our counterparties, we consider the risk remote and do not expect that any such nonperformance would result in a significant effect on our results of operations or financial condition due to our diversified pool of counterparties. See Note 9 to th…"
+   },
+   {
+    "chunk_id": "ch_16de055f14aeee6f",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 62,
+    "text": "Other assets 163 146 17 Cash, cash equivalents and restricted cash $ 4,111 $ 4,161 $ (50) Investments in Debt and Equity Securities Investments in equity securities that are not accounted for under equity method accounting or result in consolidation are to be measured at fair value. For investments in equity securities without readily determinable fair values, Verizon elects the measurement alternative permitted under GAAP to measure these investments at cost, less any impairment, plus or minus changes resulting from observable price changes in orderly transactions for an identical or similar investment of the same issuer. For investments in debt securities without quoted prices, Verizon uses an alternative matrix pricing method. Investments in equity securities that do not result in consolidation of the investee are included in Investments in unconsolidated businesses and debt securities are included in Other assets in our consolidated balance sheets. Allowance for Credit Losses Accou…"
+   },
+   {
+    "chunk_id": "ch_5bfb59c077e14a02",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 94,
+    "text": "plan assets is designed so that 41% to 51% of the assets have the objective of achieving a return in excess of the growth in liabilities (comprised of public equities, private equities, real estate, hedge funds, high yield bonds and emerging market debt) and 55% to 65% of the assets are invested as liability hedging assets (where interest rate sensitivity of the liability hedging assets better match the interest rate sensitivity of the liability) and a maximum of 10% is in cash. This allocation will shift as funded status improves to a higher allocation of liability hedging assets. Target policies will be revisited periodically to ensure they are in line with fund objectives. Both active and passive management approaches are used depending on perceived market efficiencies and various other factors. Due to our diversification and risk control processes, there are no significant concentrations of risk, in terms of sector, industry, geography or company names. Pension and healthcare and l…"
+   },
+   {
+    "chunk_id": "ch_171affb0e923c55b",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7A",
+    "page": 49,
+    "text": "Certain of our floating rate debt and certain of our interest rate derivative transactions utilize interest rates that are linked to the London Inter-Bank Offered Rate (LIBOR) as the benchmark rate. The U.S. dollar LIBOR rates utilized in these transactions will cease publication after June 30, 2023, in accordance with recent U.S. and international regulatory guidance for reform. The consequences of these developments cannot be entirely predicted but could include an increase in the cost of our floating rate debt or exposure under our interest rate derivative transactions. We do not anticipate a significant impact to our financial position given our current mix of variable and fixed-rate debt and taking into account the impact of our interest rate hedging. In 2021, we began utilizing interest rates that are linked to the Secured Overnight Financing Rate as the benchmark rate for various floating rate transactions. The table that follows summarizes the fair values of our long-term debt,…"
+   },
+   {
+    "chunk_id": "ch_e0fc4157973ea183",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 96,
+    "text": "might ultimately be realized. Because of the inherent uncertainty of valuation, estimated fair values might differ significantly from the values that would have been used had a ready market for the securities existed. These differences could be material. Forward currency contracts, futures, and options are valued by the trustee at the exchange rates and market prices prevailing on the last business day of the year. Both exchange rates and market prices are readily available from published sources. These securities are classified by the asset class of the underlying holdings. Hedge funds are valued by the custodian at NAV based on statements received from the investment manager. These funds are valued in accordance with the terms of their corresponding offering or private placement memoranda. Verizon 2022 Annual Report on Form 10-K 96"
+   },
+   {
+    "chunk_id": "ch_84363d1e602d0678",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 48,
+    "text": "consideration related to the achievement of certain performance measures and other commercial arrangements. The fair value of the common stock was determined on the basis of its closing market price on the Acquisition Date. The estimated fair value of the contingent consideration as of the Acquisition Date was approximately $560 million calculated using a probability-weighted discounted cash flow model and significant unobservable inputs, thus representing a Level 3 measurement. The contingent consideration payable is based on the achievement of certain revenue and operational targets, measured over a two-year earn out period, as defined in the TracFone Purchase Agreement. During 2022, Verizon made payments of $188 million related to the contingent consideration, which is reflected in Cash flows from financing activities in our consolidated statement of cash flows for the twelve months ended December 31, 2022. Payments related to the contingent consideration are expected to continue th…"
+   },
+   {
+    "chunk_id": "ch_6ef61484cc823346",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 64,
+    "text": "recoverable. If any indications of impairment are present, we would test for recoverability by comparing the carrying amount of the asset group to the net undiscounted cash flows expected to be generated from the asset group. If those net undiscounted cash flows do not exceed the carrying amount, we would perform the next step, which is to determine the fair value of the asset and record an impairment, if any. We re-evaluate the useful life determinations for these intangible assets each year to determine whether events and circumstances warrant a revision to their remaining useful lives. Verizon 2022 Annual Report on Form 10-K 64"
+   }
+  ]
+ }
+}

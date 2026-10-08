@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\n  \"answer\": \"Based on the provided passages, it is not possible to conclusively determine whether 3M is a \\\"capital-intensive\\\" business, as the term \\\"capital-intensive\\\" is not explicitly stated or evaluated in the text. However, the passages do disclose that for FY2022, total capital spending (investments in property, plant, and equipment) was $1,749 million, and net property, plant, and equipment was $9,178 million.\",\n  \"confidence\": 0.6,\n  \"citations\": [\n    {\n      \"source_id\": \"ch_43b034ee28278bf3\",\n      \"quote\": \"Total Company 92,000 95,000 $ 1,749 $ 1,603 $ 9,178 $ 9,429\"\n    },\n    {\n      \"source_id\": \"ch_007dbcf117aed57c\",\n      \"quote\": \"Property, plant and equipment — net 9,178 9,429\"\n    }\n  ],\n  \"needs_review\": true\n}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Ttz/6V/KDn3UxvBfFGv39DFWUy92ftp4Ch+9KAdpn9bHKHQtB4tV5Z4+OJO0/iz3Xnxv4LthQ89vlD7wMiZZbNGfkoO1+cogbZwE+KiPigMggAG+3Thyv4vA="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492601,
+  "id": "-AHIauu_H9KFxN8Px8DkwQw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 277,
+   "prompt_tokens": 2461,
+   "total_tokens": 2738
+  }
+ }
+}

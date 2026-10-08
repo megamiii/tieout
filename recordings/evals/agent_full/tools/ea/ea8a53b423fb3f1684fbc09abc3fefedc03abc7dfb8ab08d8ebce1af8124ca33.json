@@ -1,0 +1,32 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "item": "8",
+  "page": 56
+ },
+ "output": {
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "item": "8",
+  "title": "Financial Statements and Supplementary Data",
+  "page": 56,
+  "item_pages": [
+   51,
+   107
+  ],
+  "chunks": [
+   {
+    "chunk_id": "ch_54dcad0b04037d12",
+    "page": 56,
+    "text": "Consolidated Balance Sheets Verizon Communications Inc. and Subsidiaries (dollars in millions, except per share amounts) At December 31, 2022 2021 Assets Current assets Cash and cash equivalents $ 2,605 $ 2,921 Accounts receivable 25,332 24,742 Less Allowance for credit losses 826 896 Accounts receivable, net 24,506 23,846 Inventories 2,388 3,055 Prepaid expenses and other 8,358 6,906 Total current assets 37,857 36,728 Property, plant and equipment 307,689 289,897 Less Accumulated depreciation 200,255 190,201 Property, plant and equipment, net 107,434 99,696 Investments in unconsolidated businesses 1,071 1,061 Wireless licenses 149,796 147,619 Goodwill 28,671 28,603 Other intangible assets, net 11,461 11,677 Operating lease right-of-use assets 26,130 27,883 Other assets 17,260 13,329 Total assets $ 379,680 $ 366,596 Liabilities and Equity Current liabilities Debt maturing within one year $ 9,963 $ 7,443 Accounts payable and accrued liabilities 23,977 24,833 Current operating lease liabilities 4,134 3,859 Other current liabilities 12,097 11,025 Total current liabilities 50,171 47,160 Long-term debt 140,676 143,425 Employee benefit obligations 12,974 15,410 Deferred income taxes 43,441 40,685 Non-current operating lease liabilities 21,558 23,203 Other liabilities 18,397 13,513 Total long-term liabilities 237,046 236,236 Commitments and Contingencies (Note 16) Equity"
+   },
+   {
+    "chunk_id": "ch_4922da8acd8ac8ba",
+    "page": 56,
+    "text": "40,685 Non-current operating lease liabilities 21,558 23,203 Other liabilities 18,397 13,513 Total long-term liabilities 237,046 236,236 Commitments and Contingencies (Note 16) Equity Series preferred stock ($0.10 par value; 250,000,000 shares authorized; none issued) — — Common stock ($0.10 par value; 6,250,000,000 shares authorized in each period; 4,291,433,646 shares issued in each period) 429 429 Additional paid in capital 13,420 13,861 Retained earnings 82,380 71,993 Accumulated other comprehensive loss (1,865) (927) Common stock in treasury, at cost (91,572,258 and 93,634,725 shares outstanding) (4,013) (4,104) Deferred compensation – employee stock ownership plans (ESOPs) and other 793 538 Noncontrolling interests 1,319 1,410 Total equity 92,463 83,200 Total liabilities and equity $ 379,680 $ 366,596 See Notes to Consolidated Financial Statements Verizon 2022 Annual Report on Form 10-K 56"
+   }
+  ]
+ }
+}

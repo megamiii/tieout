@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"Based on the provided passages, the FY2015 D&A from the statement of cash flows is $167 million, but the provided text does not contain the net revenue or total gross margin figures required to calculate a definitive percentage margin for it.\",\n  \"confidence\": 0.0,\n  \"citations\": [{\"source_id\": \"ch_bbd0f6d150f7a1eb\", \"quote\": \"Depreciation and amortization 167 203 236\"}],\n  \"needs_review\": true}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TdCqrqwNJZBpAfuFwB4ynvwK0maSMDHM4kbwkI+K2cOS9RH/B3AJBt26Awna+t3ZfN5SRmfwh15+GcuA2ubRefQ1Dr1mLA1va9SLTy8Oeq0ondOIll72xORs="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492801,
+  "id": "wALIasmKG4KgvdIP97Hh8Qw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 131,
+   "prompt_tokens": 2403,
+   "total_tokens": 2534
+  }
+ }
+}

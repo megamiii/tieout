@@ -1,0 +1,28 @@
+{
+ "item_id": "financebench_id_03029",
+ "eval_set": "financebench",
+ "experiment": "baseline",
+ "status": "needs_review",
+ "answer": "Based on the provided passages, the cash flow statement excerpt stops before showing the numerical value for capital expenditures (listed as \"Purchases of property, plant and equip...\"). Therefore, the exact FY2018 capital expenditure amount from the cash flow statement is not available in the given text.",
+ "confidence": 0.0,
+ "rationale": null,
+ "citations": [],
+ "review_reasons": [
+  "model flagged for review",
+  "confidence 0.00 is below 0.70"
+ ],
+ "warnings": [],
+ "requests": 1,
+ "prompt_tokens": 2960,
+ "completion_tokens": 93,
+ "latency_ms": 1182.5,
+ "grade": {
+  "correct": false,
+  "method": "numeric",
+  "detail": "no figure in the answer matches the gold value",
+  "judge_model": null
+ },
+ "stop_reason": "single_call",
+ "tool_calls": 1,
+ "rejections": 0
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TdL1YesH2snyZswyuizXHU1BVz6E+qPcFTHpILUhPXJoWxZdG8NLDt8WkWNx7teuN66jJTqIOOEKhWYmVkm0l9xHWhCy0Ip+JrFPEQmU2AnooJ/JeDo0eCf0="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"needs_review\":false,\"citations\":[{\"quote\":\"Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading Symbol(s) Name of each exchange on which registered Common Shares (par value $0.20 per Share) AXP New York Stock Exchange\",\"source_id\":\"ch_be2977e23ffce4f4\"}],\"answer\":\"As of December 31, 2022, American Express Company did not have any debt securities registered to trade on a national securities exchange under its name pursuant to Section 12(b) of the Act. Its only class of securities registered under Section 12(b) was its Common Shares (par value $0.20 per share), which traded on the New York Stock Exchange under the symbol AXP.\",\"rationale\":\"The SEC Form 10-K cover page for FY2022 lists all classes of securities registered pursuant to Section 12(b) of the Act, which only includes Common Shares (par value $0.20 per share), and no debt securities are listed.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_1106976",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494737,
+  "id": "TwrIaq3GNL6yxN8PhtuNyAg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 259,
+   "prompt_tokens": 8124,
+   "prompt_tokens_details": {
+    "cached_tokens": 6072
+   },
+   "total_tokens": 8383
+  }
+ }
+}

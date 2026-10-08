@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer reaches the same conclusion as the gold answer, provides the correct CAPEX/Revenue ratio, and correctly identifies that the company's metrics do not indicate extreme capital intensity.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TqE8ywXhXtnqU35RLKLAOGryiDOnFn+pkv9hQ2jjjOXh7TvQY0qRTp+O2ItWfkbXamDcuzBgPdpt/LdRD0F3yn+QfdDVwli/JTgftW240TfhqO+GqnbDrLRYX4qL8/q+Ub4j87CD5Cf1Kt3gV"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791495404,
+  "id": "0AzIat7dAo6f3boPkcrRwAk",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 48,
+   "prompt_tokens": 361,
+   "total_tokens": 409
+  }
+ }
+}

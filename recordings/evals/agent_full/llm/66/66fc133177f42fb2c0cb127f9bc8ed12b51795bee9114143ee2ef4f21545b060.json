@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TrAsxS0JDzBrkzrRuqwKl6a9f9LzGsfJtT4P4qqFhcFatc4XRoY1w8cVsQvnxDtBBAaNFmRra5TVgqI7Qcm6/b3JqYChRxdKoOlZ/YO8gxHckLYQx4th+AW0="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_01fe8fea89768e09\",\"quote\":\"One customer accounted for approximately 18% of the total consolidated accounts receivable balance as of December 31, 2022\"}],\"rationale\":\"AMD's Note 10 - Concentrations of Credit Risk discusses credit risk with respect to trade receivables and customer concentration (one customer accounting for 18% of accounts receivable).\",\"answer\":\"Yes, AMD reported customer concentration aspects in FY22 under Note 10 (Concentrations of Credit Risk), stating that \\\"One customer accounted for approximately 18% of acquisition-related or total consolidated accounts receivable balance as of December 31, 2022,\\\" while noting that credit risk is otherwise limited due to a large and diverse customer base.\",\"confidence\":0.9}",
+        "name": "submit_answer"
+       },
+       "id": "call_977646",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791495214,
+  "id": "LQzIar24KMu0vdIPybKK6A0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 196,
+   "prompt_tokens": 10689,
+   "total_tokens": 10885
+  }
+ }
+}

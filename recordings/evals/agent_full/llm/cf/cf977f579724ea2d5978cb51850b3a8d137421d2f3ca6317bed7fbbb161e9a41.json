@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T+cAehtfB82uP5t+RWP1qX73TzdXWDnRR6/ZE/uf/ZXR2AEI7+bJzvUJ3hdIoQUOesbnNx8OrjP5lOKc41jvlIqh84+9rGeFt1ONqy1hy6hZEzXjOUznoItM="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Derivative Financial Instruments Outstanding Notional amount December 31 2021\",\"fiscal_year\":2021,\"ticker\":\"VZ\"}",
+        "name": "search_filings"
+       },
+       "id": "call_799022",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791495325,
+  "id": "lwzIao_SNouN28oPoq-ZqA4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 4783,
+   "total_tokens": 4830
+  }
+ }
+}

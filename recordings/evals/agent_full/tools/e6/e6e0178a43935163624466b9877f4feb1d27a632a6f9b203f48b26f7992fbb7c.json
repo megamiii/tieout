@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Data Center Client Gaming Embedded net revenue segment 2022 2021",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_dc117b15489222bc",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 48,
+    "text": "Table of Contents Results of Operations During the second quarter of fiscal year 2022, we changed our reporting segments to align our financial reporting with how we manage our business in strategic end markets. This is consistent with how our Chief Operating Decision Maker (CODM) assesses our financial performance and allocates resources. As a result, we report our financial performance based on the following four reportable segments: Data Center, Client, Gaming, and Embedded. Additional information on our reportable segments is contained in Note 4 – Segment Reporting of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K). Our operating results tend to vary seasonally. Historically, our net revenue has been generally higher in the second half of the year than in the first half of the year, although market conditions and product transitions could impact these trends. The following table provides a summary of net revenue and operating income (loss) by segment for 2022 …"
+   },
+   {
+    "chunk_id": "ch_cb587adeacc79358",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 68,
+    "text": "Table of Contents The following table provides a summary of net revenue and operating income (loss) by segment for 2022, 2021 and 2020. Year Ended December 31, 2022 December 25, 2021 December 26, 2020 (In millions) Net revenue: Data Center $ 6,043 $ 3,694 $ 1,685 Client 6,201 6,887 5,189 Gaming 6,805 5,607 2,746 Embedded 4,552 246 143 Total net revenue $ 23,601 $ 16,434 $ 9,763 Operating income (loss): Data Center $ 1,848 $ 991 $ 198 Client 1,190 2,088 1,608 Gaming 953 934 (138) Embedded 2,252 44 (11) All Other (4,979) (409) (288) Total operating income (loss) $ 1,264 $ 3,648 $ 1,369 The following table provides items included in All Other category: Year Ended December 31, 2022 December 25, 2021 December 26, 2020 (In millions) Operating loss: Stock-based compensation expense $ 1,081 $ 379 $ 274 Acquisition-related costs 452 42 14 Amortization of acquisition-related intangibles 3,548 — — Licensing gain (102) (12) — Total operating loss $ 4,979 $ 409 $ 288 The Company does not discretely…"
+   },
+   {
+    "chunk_id": "ch_191f2bb42773e387",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 43,
+    "text": "acceleration and rapid innovation across a variety of technologies and established AMD in multiple embedded markets where we have traditionally not had a significant presence. We now offer Field Programmable Gate Arrays (FPGAs), Adaptive SoCs, and Adaptive Compute Acceleration Platform (ACAP) products. With the acquisition of Xilinx, we have access to a new set of markets and customers, further strengthening and diversifying our business model. In May 2022, we expanded our data center solutions capabilities with the acquisition of Pensando Systems, Inc. (Pensando). We now offer high-performance data processing units (DPUs) and a software stack that complements our existing products. With the Xilinx and Pensando acquisitions, we are well positioned to provide the industry's broadest set of leadership compute engines and accelerators to help enable best performance, security, flexibility and total cost of ownership for leading-edge data centers. Our 2022 financial results reflect the str…"
+   },
+   {
+    "chunk_id": "ch_9321416dd5ddbc9a",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 6,
+    "text": "now offer the industry's strongest portfolio of data center computing solutions based on our CPUs, high-performance GPUs, DPUs, FPGAs, and Adaptive SoCs. We have a broad technology roadmap and products targeting AI training and inference spanning cloud, edge and intelligent endpoints. We achieve this through our family of CPUs, GPUs, FPGAs, and Adaptive SoCs. We develop world-class software platforms that are used to enable our high-performance products. Our software platforms include development tools, compilers, and drivers for our CPUs, GPUs and FPGAs. We work closely with our customers to define and develop customized solutions to precisely match their requirements. We enable this by combining our broad portfolio of high-performance IP with our leadership design and packaging to deliver world-class customized solutions to our customers. We invest in innovative technology and solutions such as our custom-ready chiplet platform and AMD Infinity Architecture to maintain our leadership…"
+   },
+   {
+    "chunk_id": "ch_7bd3f31a389c781c",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 67,
+    "text": "results has been updated consistent with the revised manner in which the Company's CODM assesses the company's financial performance and allocates resources. All prior-period segment data have been retrospectively adjusted. The Company's four reportable segments are: • the Data Center segment, which primarily includes server CPUs and GPUs, DPUs, FPGAs and Adaptive SoC products for data centers; • the Client segment, which primarily includes CPUs, accelerated processing units that integrate microprocessors and GPUs (APUs), and chipsets for desktop and notebook personal computers; • the Gaming segment, which primarily includes discrete GPUs, semi-custom SoC products and development services; and • the Embedded segment, which primarily includes embedded CPUs and GPUs, FPGAs, and Adaptive SoC products. From time to time, the Company may also sell or license portions of its IP portfolio. In addition to these reportable segments, the Company has an All Other category, which is not a reportab…"
+   }
+  ]
+ }
+}

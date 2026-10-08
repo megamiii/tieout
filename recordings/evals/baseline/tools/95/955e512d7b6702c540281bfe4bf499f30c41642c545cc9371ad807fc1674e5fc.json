@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What industry does AMCOR primarily operate in?",
+  "ticker": "AMCR",
+  "fiscal_year": null,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_698fb03e2c68042e",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Amcor plc and Subsidiaries Notes to Consolidated Financial Statements Note 1 - Business Description Amcor plc (\"Amcor\" or the \"Company\") is a public limited company incorporated under the Laws of the Bailiwick of Jersey. The Company's history dates back more than 150 years, with origins in both Australia and the United States of America. Today, Amcor is a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other consumer goods end markets. The Company's innovation excellence and global packaging expertise enables the Company to solve packaging challenges around the world every day, producing packaging that is more functional, appealing, and cost effective for its customers and their consumers and importantly, more sustainable for the environment. The Company's business activities are organized around two reportable segments, Flexibles and Rigid Packaging. The Company has a globally diverse operating fo…"
+   },
+   {
+    "chunk_id": "ch_1aac2b05f5ea2173",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 25,
+    "text": "Overview Amcor is a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other products. Amcor works with leading companies around the world to protect their products and the people who rely on them, differentiate brands, and improve supply chains through a range of flexible and rigid packaging, specialty cartons, closures, and services. The company is focused on making packaging that is increasingly light-weighted, recyclable and reusable, and made using an increasing amount of recycled content. During fiscal year 2020, approximately 47,000 Amcor employees generated $12.5 billion in sales from operations that spanned approximately 231 locations in over 40 countries. Significant Items Affecting the Periods Presented Impact of COVID-19 The 2019 Novel Coronavirus (\"COVID-19\") has introduced a period of unprecedented uncertainty and challenge. Amcor's operations have been largely recognized as 'essential' …"
+   },
+   {
+    "chunk_id": "ch_2756ef1525b60afd",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 1",
+    "page": 7,
+    "text": "customers. Our technically trained sales force is supported by product development engineers, design technicians, field service technicians, and customer service teams. We did not have sales to a single customer that exceeded 10% of consolidated net sales in the last three fiscal years. The major markets in which we sell our products historically have been, and continue to be, highly competitive. Areas of competition include service, sustainability, innovation, quality, and price. Competitors include AptarGroup, Inc., Ball Corporation, Berry Global Group, Inc, CCL Industries Inc., Crown Holdings, Inc., Graphic Packaging Holding Company, Huhtamaki Oyj, International Paper Company, Mayr-Melnhof Karton AG, O-I Glass, Inc., Sealed Air Corporation, Silgan Holdings Inc., Sonoco Products Company, and WestRock Company, and a variety of privately held companies. We consider ourselves to be a significant participant in the markets in which we operate; however, due to the diversity of our busines…"
+   },
+   {
+    "chunk_id": "ch_7e7d94f646562cab",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 1",
+    "page": 5,
+    "text": "Item 1. - Business The Company Amcor plc (ARBN 630 385 278) is a public limited company incorporated under the Laws of the Bailiwick of Jersey. Our history dates back more than 150 years, with origins in both Australia and the USA. Today, we are a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other products. Our innovation excellence and global packaging expertise enables us to solve packaging challenges around the world every day, producing packaging that is more functional, appealing, and cost effective for our customers and their consumers and importantly, more sustainable for the environment. Sustainability Sustainability is central to our business and one of our most exciting opportunities for growth. Working daily to embed sustainability deeper into everything we do, Amcor has been a leader in the industry in promoting sustainability. We aspire to improve the quality of lives, protect ecosy…"
+   },
+   {
+    "chunk_id": "ch_cc1e11bf8bbbc76a",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Notes to Consolidated Financial Statements Note 1 - Business Description Amcor plc (\"Amcor\" or the \"Company\") is a holding company originally incorporated under the name Arctic Jersey Limited as a limited company incorporated under the Laws of the Bailiwick of Jersey in July 2018, in order to effect the Company's combination with Bemis Company, Inc. On October 10, 2018, Arctic Jersey Limited was renamed \"Amcor plc\" and became a public limited company incorporated under the Laws of the Bailiwick of Jersey. On June 11, 2019, the Company completed its acquisition of Bemis Company, Inc (\"Bemis\"). The combination of Amcor and Bemis has created a global packaging leader. See Note 4, \"Acquisitions and Divestitures,\" for more information on the Bemis acquisition. The Company develops and produces a broad range of packaging products including flexible packaging, rigid packaging containers, specialty cartons, and closures. The Company employs approximately 47,000 individuals and has 231 principa…"
+   },
+   {
+    "chunk_id": "ch_3c1dd00558258190",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Overview Amcor is a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal- care, and other products. We work with leading companies around the world to protect their products and the people who rely on them, differentiate brands, and improve supply chains through a range of flexible and rigid packaging, specialty cartons, closures, and services. We are focused on making packaging that is increasingly light-weighted, recyclable and reusable, and made using an increasing amount of recycled content. During fiscal year 2023, Amcor generated $14.7 billion in sales from operations that spanned 218 locations in over 40 countries. Significant Developments Affecting the Periods Presented Economic and Market Conditions During fiscal year 2023, we have continued to experience intermittent supply shortages and price volatility of certain resins and raw materials as a result of market dynamics, especially in the first half of …"
+   },
+   {
+    "chunk_id": "ch_570bdb952bdb4a8b",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 1",
+    "page": 6,
+    "text": "Item 1. - Business The Company Amcor plc (ARBN 630 385 278) is a holding company originally incorporated under the name Arctic Jersey Limited as a limited company under the Laws of the Bailiwick of Jersey in July 2018, in order to effect the Company's combination with Bemis Company, Inc. On October 10, 2018, Arctic Jersey Limited was renamed \"Amcor plc\" and became a public limited company incorporated under the Laws of the Bailiwick of Jersey. Bemis Company, Inc. Merger On June 11, 2019, we completed the acquisition of Bemis Company, Inc. (\"Bemis\"), a global manufacturer of flexible packaging products, pursuant to the definitive merger agreement (the \"Agreement\") between Amcor Limited and Bemis dated August 6, 2018. Under the terms of the Agreement, Bemis shareholders received 5.1 Amcor shares for each share of Bemis stock and Amcor shareholders received one Amcor CHESS Depositary Instrument (\"CDI\") for each share of Amcor Limited stock issued and outstanding. Upon completion of the tr…"
+   },
+   {
+    "chunk_id": "ch_05dfafae5dd6fcd2",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 1",
+    "page": 7,
+    "text": "significant factor in the industries in which we operate. Raw Materials Polymer resins and films, paper, inks, adhesives, aluminum, and chemicals constitute the major raw materials we use. These are purchased from a variety of global industry sources, and we are not significantly dependent on any one supplier for our raw materials. While temporary industry-wide shortages of raw materials may occur, we expect to continue to successfully manage raw material supplies without significant supply interruptions. Currently, raw materials are readily available but pricing may fluctuate. 7"
+   }
+  ]
+ }
+}

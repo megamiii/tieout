@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "What was AMD's net income in fiscal year 2015? Answer in USD millions.",
+  "ticker": "AMD",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_cc959f6dc3e3b2e2",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 6",
+    "page": 34,
+    "text": "ITEM 6. SELECTED FINANCIAL DATA Five Years Ended December 26, 2015 (In millions except per share amounts) 2015(1) 2014(1) 2013(1) 2012(1) 2011(1) Net revenue $ 3,991 $ 5,506 $ 5,299 $ 5,422 $ 6,568 Income (loss) from continuing operations (2)(3)(4)(5)(6)(7) (660) (403) (83) (1,183) 495 Loss from discontinued operations, net of tax (8) — — — — (4) Net income (loss) attributable to AMD common stockholders $ (660) $ (403) $ (83) $ (1,183) $ 491 Net income (loss) attributable to AMD common stockholders per common share Basic Continuing operations $ (0.84) $ (0.53) $ (0.11) $ (1.60) $ 0.68 Discontinued operations — — — — (0.01) Basic net income (loss) attributable to AMD common stockholders per common share $ (0.84) $ (0.53) $ (0.11) $ (1.60) $ 0.68 Diluted Continuing operations $ (0.84) $ (0.53) $ (0.11) $ (1.60) $ 0.67 Discontinued operations — — — — (0.01) Diluted net income (loss) attributable to AMD common stockholders per common share $ (0.84) $ (0.53) $ (0.11) $ (1.60) $ 0.66 Shares …"
+   },
+   {
+    "chunk_id": "ch_4840c11a47be3c29",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 94,
+    "text": "Supplementary Financial Information (unaudited) The Company uses a 52 or 53 week fiscal year ending on the last Saturday in December. All quarters of 2015 and 2014 consisted of 13 weeks. (In millions, except per share amounts) 2015 2014 Dec. 26 Sep. 26 Jun. 27 Mar. 28 Dec. 27 Sep. 27 Jun. 28 Mar. 29 Net revenue $ 958 $ 1,061 $ 942 $ 1,030 $ 1,239 $ 1,429 $ 1,441 $ 1,397 Cost of sales (1) 675 822 710 704 879 935 943 910 Gross margin 283 239 232 326 360 494 498 487 Research and development 229 241 235 242 238 278 277 279 Marketing, general and administrative 109 108 134 131 144 150 154 156 Amortization of acquired intangible assets — — — 3 4 3 4 3 Restructuring and other special charges (gains), net (2) (6) 48 — 87 71 — — — Goodwill impairment charge(3) — — — — 233 — — — Operating income (loss) (49) (158) (137) (137) (330) 63 63 49 Interest expense (41) (39) (40) (40) (41) (43) (46) (47) Other income (expense), net (2) — (3) — 4 (1) (49) (20) Income (loss) before income taxes (92) (197) …"
+   },
+   {
+    "chunk_id": "ch_f162657f41ba7e65",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 83,
+    "text": "The following table provides a summary of net revenue and operating income (loss) by segment and income (loss) before income taxes for 2015, 2014 and 2013. The results prior to July 1, 2014 have been recast to reflect the Company's new reportable segments. 2015 2014 2013 (In millions) Net revenue: Computing and Graphics $ 1,805 $ 3,132 $ 3,720 Enterprise, Embedded and Semi-Custom 2,186 2,374 1,577 All Other — — 2 Total net revenue $ 3,991 $ 5,506 $ 5,299 Operating income (loss): Computing and Graphics $ (502) $ (76) $ (101) Enterprise, Embedded and Semi-Custom 215 399 295 All Other (194) (478) (91) Total operating income (loss) $ (481) $ (155) $ 103 Interest expense (160) (177) (177) Other expense, net (5) (66) — Loss before income taxes $ (646) $ (398) $ (74) The Company does not discretely allocate assets to its operating segments, nor does management evaluate operating segments using discrete asset information. The Company's operations outside the United States include research and …"
+   },
+   {
+    "chunk_id": "ch_aebddabcb1249755",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 94,
+    "text": "(102) $ (197) $ (181) $ (180) $ (364) $ 17 $ (36) $ (20) Net income (loss) per share Basic $ (0.13) $ (0.25) $ (0.23) $ (0.23) $ (0.47) $ 0.02 $ (0.05) $ (0.03) Diluted $ (0.13) $ (0.25) $ (0.23) $ (0.23) $ (0.47) $ 0.02 $ (0.05) $ (0.03) Shares used in per share calculation Basic 791 785 778 777 776 770 764 761 Diluted 791 785 778 777 776 785 764 761 (1) During 2015, the Company recorded a technology node transition charge of $33 million in the second quarter and an inventory write-down of $65 million in the third quarter. During the fourth quarter of 2014, the Company recorded a lower of cost or market charge of $58 million related to our second-generation APU products. (2) Under the 2014 restructuring plan, the Company recorded restructuring and other special charges, net of $71 million, $12 million and $6 million in fourth quarter of 2014, first quarter of 2015, respectively, and third quarter of 2015, and a restructuring charge reversal of $2 million in fourth quarter of 2015. Dur…"
+   },
+   {
+    "chunk_id": "ch_c75c8199fc337a2e",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 41,
+    "text": "not consider these expenses and credits in evaluating the performance of the reportable segments. Also included in this category are amortization of acquired intangible assets, employee stock-based compensation expense, restructuring and other special charges, net, technology node transition charge, workforce rebalancing severance charges, goodwill impairment charge, significant or unusual lower of cost or market inventory adjustments and a net gain from licenses and settlement agreements regarding patent- related matters. We also reported the results of former businesses in the All Other category because the operating results were not material. We intend the discussion of our financial condition and results of operations that follows to provide information that will assist you in understanding our financial statements, the changes in certain key items in those financial statements from year to year, the primary factors that resulted in those changes and how certain accounting principl…"
+   },
+   {
+    "chunk_id": "ch_002a467906a83ab4",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 43,
+    "text": "2015 2014 2013 (In millions, except for percentages) Cost of sales $ 2,911 $ 3,667 $ 3,321 Gross margin 1,080 1,839 1,978 Gross margin percentage 27% 33% 37% Research and development 947 1,072 1,201 Marketing, general and administrative 482 604 674 Amortization of acquired intangible assets 3 14 18 Restructuring and other special charges, net 129 71 30 Goodwill impairment charge — 233 — Legal settlements, net — — (48) Interest expense (160) (177) (177) Other expense, net (5) (66) — Provision (benefit) for income taxes $ 14 $ 5 $ 9 Gross Margin Gross margin as a percentage of net revenue was 27% in 2015 compared to 33% in 2014. Gross margin in 2015 was adversely impacted by an inventory write-down of $65 million, which was primarily the result of lower anticipated demand for older-generation APUs and a technology node transition charge of $33 million. The impact of the write-down accounted for approximately two gross margin percentage points and the technology node transition charge acc…"
+   },
+   {
+    "chunk_id": "ch_a4680637b8cab0ba",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 84,
+    "text": "2015 2014 2013 (In millions) United States $ 984 $ 1,030 $ 801 Europe 168 325 460 China 1,145 2,324 2,519 Singapore 356 371 610 Japan 1,254 1,324 710 Other countries 84 132 199 Total sales to external customers $ 3,991 $ 5,506 $ 5,299 The Company had two customers that accounted for more than 10% of the Company's consolidated net revenue in 2015. The Company had three customers that accounted for more than 10% of the Company's consolidated net revenue in 2014 and 2013. Net sales to these customers were approximately 31% and 18% of consolidated net revenue in 2015, 23%, 13% and 13% of consolidated net revenue in 2014 and 17%, 11% and 10% of consolidated net revenue in 2013. The majority of the revenue from these customers was related to products from the Enterprise, Embedded and Semi-Custom segment. The following table summarizes long-lived assets by geographic areas: 2015 2014 (In millions) United States $ 123 $ 149 Malaysia 11 57 China 5 45 Singapore 25 17 Other countries 24 34 Total …"
+   },
+   {
+    "chunk_id": "ch_e67b225cacdac0a6",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 94,
+    "text": "million in third quarter of 2015. Under the 2015 restructuring plan, the Company recorded restructuring and other special charges, net of $41 million in third quarter of 2015 and a restructuring charge reversal of $4 million in fourth quarter of 2015. (3) During the fourth quarter of 2014, the Company recorded a goodwill impairment charge of $233 million relating to its Computing and Graphics segment. 92"
+   }
+  ]
+ }
+}

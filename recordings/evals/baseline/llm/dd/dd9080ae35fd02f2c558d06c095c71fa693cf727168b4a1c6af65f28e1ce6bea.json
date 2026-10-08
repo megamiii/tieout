@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"answer\": \"65.4%\",\n  \"confidence\": 1.0,\n  \"citations\": [{\"source_id\": \"ch_e777950bf9252d3b\", \"quote\": \"Operating income 1,493,602 903,095 412,685\"}],\n  \"needs_review\": false}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TTxh/JRAfh7kPLRhLdVybzbQUDsPVZ0bNUC7UZ8h2bmrJY2gnWrukgigaKfAepogUurhBc8sLpZTS7xAKkhpa2poLFzLLwQ3h45xsj6u4x31pNlcLyxDhlJA="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791492863,
+  "id": "_wLIas4yoPjE3w-Sv6zgDA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 96,
+   "prompt_tokens": 3607,
+   "total_tokens": 3703
+  }
+ }
+}

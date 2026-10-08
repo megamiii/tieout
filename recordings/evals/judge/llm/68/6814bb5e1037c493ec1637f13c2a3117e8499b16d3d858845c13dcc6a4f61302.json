@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The gold answer identifies a 16% concentration in net revenue, whereas the provided answer identifies an 18% concentration in accounts receivable; these are distinct financial metrics, and the answer fails to mention the revenue concentration specified in the gold answer.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T6PJ7nXeOBJJ44HrKtqiHkb36NT7pUvxaAuAS7l7cfqDVLpSeG4GZdMrKC2eEwj3c6rDZIRJXJMjhDgf6rDvdZyrrvzvBRhtmdKvf9CKzTrXeIFuWcp8sHiSCT9jGn04hJ5NpuyehAfgFW6y5"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791495633,
+  "id": "wQ3IasG-EN2O28oP8vOvqAs",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 62,
+   "prompt_tokens": 232,
+   "total_tokens": 294
+  }
+ }
+}

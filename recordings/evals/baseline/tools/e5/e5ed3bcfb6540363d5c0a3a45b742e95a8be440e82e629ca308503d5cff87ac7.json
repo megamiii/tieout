@@ -1,0 +1,78 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Based on the information provided primarily in the balance sheet and the statement of income, what is FY2020 days payable outstanding (DPO) for Corning? DPO is defined as: 365 * (average accounts payable between FY2019 and FY2020) / (FY2020 COGS + change in inventory between FY2019 and FY2020). Round your answer to two decimal places.",
+  "ticker": "GLW",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 8
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_2a75599562bed16e",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 131,
+    "text": "Index Corning Incorporated and Subsidiary Companies Schedule II – Valuation and Qualifying Accounts (in millions) Year ended December 31, 2020 Balance at ‎beginning ‎of period Additions Net ‎deductions ‎and other Balance at ‎end ‎of period Doubtful accounts $ 41 $ 5 $ 46 Deferred tax valuation allowance $ 215 $ 27 $ 75 $ 167 Year ended December 31, 2019 Balance at ‎beginning ‎of period Additions Net ‎deductions ‎and other Balance at ‎end ‎of period Doubtful accounts $ 35 $ 6 $ 41 Deferred tax valuation allowance $ 317 $ 10 $ 112 $ 215 Year ended December 31, 2018 Balance at ‎beginning ‎of period Additions Net ‎deductions ‎and other Balance at ‎end ‎of period Doubtful accounts $ 32 $ 3 $ 35 Deferred tax valuation allowance $ 456 $ 17 $ 156 $ 317"
+   },
+   {
+    "chunk_id": "ch_dbb0bc4b811dfda8",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 73,
+    "text": "Index Consolidated Statements of Cash Flows Corning Incorporated and Subsidiary Companies Year ended December 31, (In millions) 2020 2019 2018 Cash Flows from Operating Activities: Net income $ 512 $ 960 $ 1,066 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation 1,399 1,390 1,199 Amortization of purchased intangibles 121 113 94 Loss on disposal of assets 138 123 43 Severance charges 148 63 16 Severance payments (147) (28) (3) Share-based compensation expense 207 56 51 Equity in losses (earnings) of affiliated companies 25 (17) (390) Dividends received from affiliated companies 1 106 241 Deferred tax benefit (20) (191) (38) Customer incentives and deposits, net 221 142 700 Pension plan contributions (221) (2) (117) Translated earnings contract loss (gain) 38 (248) 93 Unrealized translation (gain) loss on transactions (133) 33 55 Asbestos claim payments (130) (50) (35) Tax assessment refunds 101 Asset impairment 217 Transaction-related gain, ne…"
+   },
+   {
+    "chunk_id": "ch_7da4da922230daf3",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 95,
+    "text": "Index During 2020, the Company distributed approximately $914 million from foreign subsidiaries to their respective U.S. parent companies. As of December 31, 2020, Corning has approximately $2 billion of indefinitely reinvested foreign earnings. It remains impracticable to calculate the tax cost of repatriating unremitted earnings which are considered indefinitely reinvested. The tax effects of temporary differences and carryforwards that gave rise to significant portions of the deferred tax assets and liabilities are as follows (in millions): December 31, 2020 2019 Loss and tax credit carryforwards $ 637 $ 388 Other assets 269 345 Asset impairments and restructuring reserves 29 30 Postretirement medical and life benefits 171 168 Other accrued liabilities 162 218 Other employee benefits 337 345 Gross deferred tax assets 1,605 1,494 Valuation allowances (167) (215) Total deferred tax assets 1,438 1,279 Intangible and other assets (95) (110) Fixed assets (375) (216) Financing leases (160…"
+   },
+   {
+    "chunk_id": "ch_3c9e2e24f83b576a",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 110,
+    "text": "The following reflects the gross benefit payments that are expected to be paid for domestic and international defined benefit pension plans and the postretirement medical and life plans (in millions): Expected benefit payments Domestic ‎pension ‎benefits International ‎pension ‎benefits Postretirement ‎benefits 2021 $ 216 $ 25 $ 37 2022 $ 221 $ 31 $ 37 2023 $ 231 $ 30 $ 37 2024 $ 238 $ 32 $ 37 2025 $ 247 $ 35 $ 37 2026-2030 $ 1,312 $ 219 $ 188 Other Benefit Plans Corning offers defined contribution plans covering employees meeting certain eligibility requirements. Total consolidated defined contribution plan expense was $76 million, $108 million and $67 million for the years ended December 31, 2020, 2019 and 2018, respectively. 110"
+   },
+   {
+    "chunk_id": "ch_d1257e6e3df4b8fa",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 72,
+    "text": "Index Consolidated Balance Sheets Corning Incorporated and Subsidiary Companies December 31, (In millions, except share and per share amounts) 2020 2019 Assets Current assets: Cash and cash equivalents $ 2,672 $ 2,434 Trade accounts receivable, net of doubtful accounts - $46 and $41 2,133 1,836 Inventories, net (Note 6) 2,438 2,320 Other current assets (Note 11 and 15) 761 873 Total current assets 8,004 7,463 Property, plant and equipment, net of accumulated depreciation - $13,663 and $12,995 (Note 9) 15,742 15,337 Goodwill, net (Note 10) 2,460 1,935 Other intangible assets, net (Note 10) 1,308 1,185 Deferred income taxes (Note 8) 1,121 1,157 Other assets (Note 11 and 15) 2,140 1,821 Total Assets $ 30,775 $ 28,898 Liabilities and Equity Current liabilities: Current portion of long-term debt and short-term borrowings (Note 12) $ 156 $ 11 Accounts payable 1,174 1,587 Other accrued liabilities (Note 11 and 14) 2,437 1,923 Total current liabilities 3,767 3,521 Long-term debt (Note 12) 7,81…"
+   },
+   {
+    "chunk_id": "ch_e60267b2e66ad1f5",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 111,
+    "text": "Purchase obligations are enforceable and legally binding obligations which primarily consist of raw material and energy-related take-or-pay contracts. (3) Capital expenditure obligations primarily reflect amounts associated with capital expansion activities. (4) Debentures are stated at maturity value and excludes interest rate swap gains or losses and bond discounts. (5) The estimate of interest payments assumes interest is paid through the date of maturity or expiration of the related debt, based upon stated rates in the respective debt instruments. (6) At December 31, 2020, $35 million was included on the consolidated balance sheets related to uncertain tax positions. The Company is required, at the time a guarantee is issued, to recognize a liability for the fair value or market value of the obligation it assumes. In the normal course of business, the Company does not routinely provide significant third-party guarantees. Generally, third-party guarantees provided by Corning are lim…"
+   },
+   {
+    "chunk_id": "ch_69948b6eafd55c65",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 45,
+    "text": "gains of $20 million and realized gain of $29 million, respectively. At December 31, 2020 and 2019, the euro-denominated average rate instruments had a gross notional amount of $0.5 billion and $1.3 billion, respectively. These derivative instruments are not designated as accounting hedges, and changes in fair value are recorded in earnings in the translated earnings contract (loss) gain, net line of the consolidated statements of income. Off Balance Sheet Arrangements Off balance sheet arrangements are transactions, agreements, or other contractual arrangements with an unconsolidated entity for which Corning has an obligation to the entity that is not recorded in our consolidated financial statements. Corning's off balance sheet arrangements include guarantee and indemnity contracts. At the time a guarantee is issued, the Company is required to recognize a liability for the fair value or market value of the obligation it assumes. In the normal course of our business, we do not routine…"
+   },
+   {
+    "chunk_id": "ch_932c0b2c6609945d",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 77,
+    "text": "Corning's share-based compensation programs include employee stock option grants, time-based restricted stock awards and time-based restricted stock units, as more fully described in Note 19 (Share-Based Compensation) to the consolidated financial statements. The cost of share-based compensation awards is equal to the fair value of the award at the date of grant and compensation expense is recognized for those awards earned over the vesting period. Corning estimates the fair value of share-based awards using a multiple-point Black-Scholes option valuation model, which incorporates assumptions including expected volatility, dividend yield, risk-free rate, expected term and departure rates. Cash and Cash Equivalents Cash equivalents consist of highly liquid investments that are readily convertible into cash. Securities with contractual maturities of three months or less, when purchased, are considered cash equivalents. The carrying amount of these securities approximates fair value becau…"
+   }
+  ]
+ }
+}

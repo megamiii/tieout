@@ -20,7 +20,7 @@ from tieout.db.models import (
     XbrlFactRow,
 )
 from tieout.evals.sets import EvalItem
-from tieout.highlight import highlight
+from tieout.highlight import highlight_all
 
 Decision = Literal["accept", "override"]
 QueueFilter = Literal["pending", "reviewed", "all"]
@@ -208,20 +208,18 @@ def list_runs(
     return [run_summary(run, decision) for run, decision in session.execute(stmt)]
 
 
-def _source_detail(session: Session, citation: dict[str, Any]) -> dict[str, Any]:
-    sid = citation["source_id"]
-    quote = citation.get("quote", "")
-    if sid.startswith("ch_"):
+def _source_detail(session: Session, source_id: str, quotes: list[str]) -> dict[str, Any]:
+    if source_id.startswith("ch_"):
         row = session.execute(
             select(ChunkRow, Company.ticker, Company.name, Filing.doc_name, Filing.edgar_url)
             .join(Filing, Filing.accession == ChunkRow.accession)
             .join(Company, Company.cik == ChunkRow.cik)
-            .where(ChunkRow.chunk_id == sid)
+            .where(ChunkRow.chunk_id == source_id)
         ).first()
         if row is None:
             return {"found": False}
         chunk, ticker, name, doc_name, edgar_url = row
-        segments, match = highlight(chunk.text, quote)
+        segments, kinds = highlight_all(chunk.text, quotes)
         return {
             "found": True,
             "kind": "chunk",
@@ -234,9 +232,9 @@ def _source_detail(session: Session, citation: dict[str, Any]) -> dict[str, Any]
             "doc_name": doc_name,
             "edgar_url": edgar_url,
             "segments": segments,
-            "match": match,
+            "matches": kinds,  # per quote: "quote" | "figures" | "none"
         }
-    fact = session.get(XbrlFactRow, sid)
+    fact = session.get(XbrlFactRow, source_id)
     if fact is None:
         return {"found": False}
     company = session.get(Company, fact.cik)
@@ -253,6 +251,19 @@ def _source_detail(session: Session, citation: dict[str, Any]) -> dict[str, Any]
         "accession": fact.accession,
         "filed": fact.filed.isoformat(),
     }
+
+
+def grouped_citations(session: Session, citations: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """One entry per cited source, with all of its quotes, in first-cited order."""
+    quotes: dict[str, list[str]] = {}
+    for c in citations:
+        q = quotes.setdefault(c["source_id"], [])
+        if c.get("quote") and c["quote"] not in q:
+            q.append(c["quote"])
+    return [
+        {"source_id": sid, "quotes": qs, **_source_detail(session, sid, qs)}
+        for sid, qs in quotes.items()
+    ]
 
 
 def run_detail(session: Session, run_id: str) -> dict[str, Any] | None:
@@ -279,14 +290,7 @@ def run_detail(session: Session, run_id: str) -> dict[str, Any] | None:
                 "completion_tokens": run.completion_tokens,
                 "latency_ms": run.latency_ms,
             },
-            "citations": [
-                {
-                    "source_id": c["source_id"],
-                    "quote": c.get("quote", ""),
-                    **_source_detail(session, c),
-                }
-                for c in run.citations
-            ],
+            "citations": grouped_citations(session, run.citations),
             "trace": run.trace,
             "decisions": [_decision_dict(d) for d in decisions],
         }

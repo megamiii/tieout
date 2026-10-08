@@ -124,3 +124,24 @@ def test_unknown_citation_source_is_reported_not_raised(
     add_run(session, "test-run-4", "needs_review")
     detail = client.get("/api/runs/test-run-4").json()
     assert detail["citations"][0]["found"] is False
+
+
+def test_ask_persists_the_run(client: TestClient, monkeypatch: pytest.MonkeyPatch) -> None:
+    # The real agent loop with a scripted model and a stub search tool: no LLM, no index.
+    from test_agent_loop import SEARCH, ScriptedLLM, StubSearch, resp, submit
+    from tieout.agent.factory import Agent
+    from tieout.agent.finance_tools import CalculateTool, SubmitAnswerTool
+    from tieout.agent.loop import AgentLimits
+    from tieout.api import app as app_module
+
+    llm = ScriptedLLM([resp(SEARCH), resp(submit("3M's FY2018 capex was $1,577 million."))])
+    stub = Agent(llm, [StubSearch(), CalculateTool(), SubmitAnswerTool()], "sys", AgentLimits())
+    monkeypatch.setattr(app_module, "agent", lambda: stub)
+
+    r = client.post("/api/ask", json={"question": "What was 3M's FY2018 capex?"})
+    assert r.status_code == 200
+    run = r.json()
+    assert run["status"] == "answered" and run["source"] == "live"
+    assert run["usage"]["requests"] == 2
+    assert [s["tools"][0]["name"] for s in run["trace"]] == ["search_filings", "submit_answer"]
+    assert client.get(f"/api/runs/{run['id']}").json()["answer"] == run["answer"]

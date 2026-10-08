@@ -1,4 +1,4 @@
-from tieout.highlight import highlight
+from tieout.highlight import highlight, highlight_all
 
 TABLE = (
     "Cash Flows from Investing Activities\n"
@@ -38,3 +38,9 @@ def test_figures_do_not_match_inside_longer_numbers() -> None:
 def test_no_match() -> None:
     spans, kind = marked(TABLE, "goodwill impairment")
     assert spans == [] and kind == "none"
+
+
+def test_several_quotes_of_one_source_are_merged() -> None:
+    segments, kinds = highlight_all(TABLE, ["Cash Flows from Investing", "(1,373)", "goodwill"])
+    assert [s["text"] for s in segments if s["mark"]] == ["Cash Flows from Investing", "(1,373)"]
+    assert kinds == ["quote", "quote", "none"]

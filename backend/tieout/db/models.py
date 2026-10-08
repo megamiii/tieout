@@ -1,13 +1,16 @@
 """Database schema (SQLAlchemy 2.0 typed ORM)."""
 
-from datetime import date
+from datetime import date, datetime
 from decimal import Decimal
+from typing import Any
 
 from pgvector.sqlalchemy import Vector
 from sqlalchemy import (
     BigInteger,
     Computed,
     Date,
+    DateTime,
+    Float,
     ForeignKey,
     Index,
     Integer,
@@ -15,7 +18,7 @@ from sqlalchemy import (
     String,
     Text,
 )
-from sqlalchemy.dialects.postgresql import TSVECTOR
+from sqlalchemy.dialects.postgresql import JSONB, TSVECTOR
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
 
 EMBEDDING_DIM = 384  # BAAI/bge-small-en-v1.5
@@ -152,3 +155,43 @@ class XbrlConcept(Base):
     label: Mapped[str] = mapped_column(Text)
     description: Mapped[str] = mapped_column(Text)
     embedding: Mapped[list[float]] = mapped_column(Vector(EMBEDDING_DIM))
+
+
+class AgentRun(Base):
+    """A question answered by the agent (live, or imported from an eval run)."""
+
+    __tablename__ = "agent_runs"
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True)  # uuid4
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    source: Mapped[str] = mapped_column(String(64))  # "live", "eval:agent_full", ...
+    question: Mapped[str] = mapped_column(Text)
+    status: Mapped[str] = mapped_column(String(16), index=True)  # answered | needs_review
+    answer: Mapped[str | None] = mapped_column(Text)
+    confidence: Mapped[float | None] = mapped_column(Float)
+    rationale: Mapped[str | None] = mapped_column(Text)
+    citations: Mapped[list[dict[str, Any]]] = mapped_column(JSONB)
+    review_reasons: Mapped[list[str]] = mapped_column(JSONB)
+    warnings: Mapped[list[str]] = mapped_column(JSONB)
+    stop_reason: Mapped[str] = mapped_column(String(32))
+    model: Mapped[str] = mapped_column(String(64))
+    requests: Mapped[int] = mapped_column(Integer)
+    prompt_tokens: Mapped[int] = mapped_column(Integer)
+    completion_tokens: Mapped[int] = mapped_column(Integer)
+    latency_ms: Mapped[float | None] = mapped_column(Float)
+    trace: Mapped[list[dict[str, Any]]] = mapped_column(JSONB)
+    eval_item_id: Mapped[str | None] = mapped_column(String(128), unique=True)
+
+
+class ReviewDecision(Base):
+    """A reviewer's decision on a run. Append-only: the latest decision is current."""
+
+    __tablename__ = "review_decisions"
+
+    id: Mapped[int] = mapped_column(Integer, primary_key=True)
+    run_id: Mapped[str] = mapped_column(ForeignKey("agent_runs.id", ondelete="CASCADE"), index=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    decision: Mapped[str] = mapped_column(String(16))  # accept | override
+    final_answer: Mapped[str] = mapped_column(Text)
+    note: Mapped[str] = mapped_column(Text)
+    reviewer: Mapped[str] = mapped_column(String(100))

@@ -11,10 +11,10 @@ from tieout import ingest
 from tieout.agent.factory import build_agent
 from tieout.config import REPO_ROOT, get_settings
 from tieout.db.models import ChunkRow
-from tieout.db.session import get_sessionmaker
+from tieout.db.session import get_sessionmaker, init_db
 from tieout.evals.metrics import compute, write_report
 from tieout.evals.retrieval_eval import run_retrieval_eval, write_reports
-from tieout.evals.runner import EXPERIMENTS, run_answers, run_grading
+from tieout.evals.runner import EXPERIMENTS, RUNS_DIR, run_answers, run_grading
 from tieout.evals.sets import (
     EvalItem,
     build_financebench_set,
@@ -29,6 +29,7 @@ from tieout.llm.limits import FreeTierLimits, UsageLedger, limits_for, quota_day
 from tieout.retrieval.chunking import MAX_TOKENS, OVERLAP_TOKENS
 from tieout.retrieval.embeddings import get_embedder
 from tieout.retrieval.search import RRF_K, SearchFilters, search
+from tieout.runs import import_eval_results
 
 app = typer.Typer(
     no_args_is_help=True,
@@ -246,6 +247,36 @@ def eval_report() -> None:
     }
     path = write_report(metrics, REPO_ROOT / "evals" / "reports", meta)
     typer.echo(path.read_text(encoding="utf-8"))
+
+
+runs_app = typer.Typer(no_args_is_help=True, help="Agent runs and the review queue.")
+app.add_typer(runs_app, name="runs")
+
+
+@runs_app.command("import-evals")
+def runs_import_evals(
+    experiment: Annotated[str, typer.Argument(help="eval experiment")] = "agent_full",
+) -> None:
+    """Load an experiment's eval results into the review queue (no LLM calls)."""
+    settings = get_settings()
+    items = [i for name in SET_NAMES for i in read_set(SETS_DIR / f"{name}.jsonl")]
+    init_db()
+    with get_sessionmaker()() as session, session.begin():
+        n = import_eval_results(session, experiment, RUNS_DIR, items, settings.llm_model)
+    typer.echo(f"imported {n} runs from evals/runs/{experiment}")
+
+
+@app.command("serve")
+def serve(
+    host: str = "127.0.0.1",
+    port: int = 8000,
+    reload: bool = False,
+) -> None:
+    """Run the API (and the built frontend, if frontend/dist exists)."""
+    import uvicorn
+
+    init_db()
+    uvicorn.run("tieout.api.app:app", host=host, port=port, reload=reload)
 
 
 @app.command("ask")

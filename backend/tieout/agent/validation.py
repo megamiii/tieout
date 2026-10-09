@@ -8,8 +8,9 @@ this run's evidence:
    (catches made-up IDs and real IDs the model never saw);
 2. each citation's quote must appear in that source (text match for chunks,
    numeric match at any scale for facts);
-3. every number in the answer must come from a cited source or a calculate
-   result: the model may copy and round numbers, never compute them.
+3. every number in the answer must come from a cited source, a calculate
+   result or the question itself: the model may copy and round numbers,
+   never compute them.
 
 No database is needed, so validation works the same live and on replay.
 """
@@ -149,7 +150,11 @@ class SubmitAnswerArgs(BaseModel):
 
 
 def validate_submission(
-    args: SubmitAnswerArgs, ledger: EvidenceLedger, *, check_figures: bool = True
+    args: SubmitAnswerArgs,
+    ledger: EvidenceLedger,
+    *,
+    check_figures: bool = True,
+    question: str = "",
 ) -> list[str]:
     """Problems with a submission; an empty list means it is accepted.
 
@@ -175,7 +180,9 @@ def validate_submission(
                 f"quote {c.quote!r} does not appear in {c.source_id}; quote the source exactly"
             )
 
-    pool = [v for ev in cited for v in ev.values] + ledger.calc_results
+    # Figures from the question are legitimate ("more than 20% of revenue?").
+    # Validator v1 lacked this and rejected correct answers that repeated them.
+    pool = [v for ev in cited for v in ev.values] + ledger.calc_results + numbers_in(question)
     for token, value in figures_in_answer(args.answer) if check_figures else []:
         if not supported(token, value, pool):
             problems.append(

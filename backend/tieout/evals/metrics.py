@@ -18,8 +18,10 @@ from pathlib import Path
 from typing import Any
 
 from tieout.evals.grading import citation_supports
-from tieout.evals.runner import EXPERIMENTS, load_result
+from tieout.evals.runner import ARCHIVED, EXPERIMENTS, load_result
 from tieout.evals.sets import EvalItem
+
+LABELS: dict[str, str] = {str(k): v for k, v in EXPERIMENTS.items()} | ARCHIVED
 
 
 @dataclass
@@ -145,7 +147,7 @@ def write_report(all_metrics: list[Metrics], out_dir: Path, meta: dict[str, Any]
             if m.eval_set != eval_set:
                 continue
             lines.append(
-                f"| {EXPERIMENTS.get(m.experiment, m.experiment)} | {m.graded}/{m.n} "  # type: ignore[call-overload]
+                f"| {LABELS.get(m.experiment, m.experiment)} | {m.graded}/{m.n} "
                 f"| {pct(m.accuracy)} | {pct(m.answered_rate)} | {pct(m.accuracy_answered)} "
                 f"| {pct(m.numeric_accuracy)} | {pct(m.text_accuracy)} "
                 f"| {pct(m.citation_precision)} ({m.citations}) "

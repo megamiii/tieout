@@ -14,7 +14,7 @@ from tieout.db.models import ChunkRow
 from tieout.db.session import get_sessionmaker, init_db
 from tieout.evals.metrics import compute, write_report
 from tieout.evals.retrieval_eval import run_retrieval_eval, write_reports
-from tieout.evals.runner import EXPERIMENTS, RUNS_DIR, run_answers, run_grading
+from tieout.evals.runner import ARCHIVED, EXPERIMENTS, RUNS_DIR, run_answers, run_grading
 from tieout.evals.sets import (
     EvalItem,
     build_financebench_set,
@@ -238,7 +238,12 @@ def eval_report() -> None:
     """Compute metrics from evals/runs and write evals/reports/eval.{md,json}."""
     settings = get_settings()
     sets = _load_sets("all")
-    metrics = [compute(exp, name, items) for name, items in sets.items() for exp in EXPERIMENTS]
+    archived = [a for a in ARCHIVED if (RUNS_DIR / a).exists()]
+    metrics = [
+        compute(exp, name, items)
+        for name, items in sets.items()
+        for exp in [*EXPERIMENTS, *archived]
+    ]
     meta = {
         "date": date.today().isoformat(),
         "agent_model": settings.llm_model,

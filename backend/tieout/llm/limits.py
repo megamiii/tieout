@@ -170,6 +170,6 @@ class UsageLedger:
                 m["last_rate_limit_headers"] = rate_headers
             self.directory.mkdir(parents=True, exist_ok=True)
             fd, tmp = tempfile.mkstemp(dir=self.directory, prefix=".part-")
-            with os.fdopen(fd, "w", encoding="utf-8") as f:
+            with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as f:
                 json.dump(data, f, indent=2)
             os.replace(tmp, self._path(day))

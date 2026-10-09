@@ -133,3 +133,13 @@ def test_ledger_keeps_the_fullest_text_of_a_chunk() -> None:
     )
     led.add(Evidence(CHUNK, "chunk", "short…", []))
     assert led.sources[CHUNK].text.startswith("Current operating lease")
+
+
+def test_figures_from_the_question_are_allowed() -> None:
+    # Validator v1 rejected this correct answer: "20%" comes from the question.
+    args = submit(
+        "No segment exceeds 20% of revenue; capex was $1,577 million.", [(CHUNK, "(1,577)")]
+    )
+    assert any("20%" in p for p in validate_submission(args, ledger()))
+    question = "Does any segment represent more than 20% of revenue?"
+    assert validate_submission(args, ledger(), question=question) == []

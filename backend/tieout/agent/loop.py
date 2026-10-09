@@ -187,7 +187,9 @@ def run_agent(
             step.tool_outcomes.append(outcome)
             if call.name == SUBMIT and outcome.error is None:
                 args = SubmitAnswerArgs.model_validate(outcome.arguments)
-                problems = validate_submission(args, ledger, check_figures=check_figures)
+                problems = validate_submission(
+                    args, ledger, check_figures=check_figures, question=question
+                )
                 if not problems:
                     final = finalize(args, ledger, limits)
                     stop = "submitted"

@@ -36,6 +36,10 @@ EXPERIMENTS: dict[Experiment, str] = {
     "agent_hybrid": "Agent + hybrid RAG",
     "agent_full": "Agent + hybrid RAG + XBRL + calculator",
 }
+# Earlier versions kept for comparison in the report; not re-runnable with current code.
+ARCHIVED: dict[str, str] = {
+    "agent_full_v1": "Agent + hybrid RAG + XBRL + calculator, validator v1 (archived)",
+}
 RUNS_DIR = REPO_ROOT / "evals" / "runs"
 RECORDINGS_DIR = REPO_ROOT / "recordings" / "evals"
 # Requests one item may need at most (agent steps); stop before the budget can't cover it.

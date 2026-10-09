@@ -14,7 +14,7 @@ from tieout import runs
 from tieout.agent.factory import Agent, build_agent
 from tieout.config import REPO_ROOT, get_settings
 from tieout.db.session import get_sessionmaker
-from tieout.evals.runner import EXPERIMENTS
+from tieout.evals.runner import ARCHIVED, EXPERIMENTS
 from tieout.financebench.selection import CompanyConfig
 from tieout.ingest import load_selected
 from tieout.llm.types import LLMError
@@ -126,7 +126,7 @@ def eval_report() -> dict[str, Any]:
     if not EVAL_REPORT.exists():
         raise HTTPException(404, "no eval report yet; run `tieout eval report`")
     report: dict[str, Any] = json.loads(EVAL_REPORT.read_text(encoding="utf-8"))
-    report["experiments"] = EXPERIMENTS
+    report["experiments"] = {**EXPERIMENTS, **ARCHIVED}
     return report
 
 

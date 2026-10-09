@@ -60,6 +60,6 @@ class RecordedTool(Tool):
     def _write(path: Path, record: dict[str, Any]) -> None:
         path.parent.mkdir(parents=True, exist_ok=True)
         fd, tmp = tempfile.mkstemp(dir=path.parent, prefix=".part-")
-        with os.fdopen(fd, "w", encoding="utf-8") as f:
+        with os.fdopen(fd, "w", encoding="utf-8", newline="\n") as f:
             json.dump(record, f, indent=1, ensure_ascii=False)
         os.replace(tmp, path)

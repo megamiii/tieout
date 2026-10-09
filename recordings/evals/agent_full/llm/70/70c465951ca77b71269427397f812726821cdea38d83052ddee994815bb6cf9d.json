@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TNo7e7RDEutf0xLjGCsW4uAG+10zMBRqhshf7inuDGt8P1LEEqIn1RGCc0IKUeZ6Dx2AV7vYtF67vc5MUuVqc2CCwBPkX+TkxbRVplCTSZuFj/FynJg7UKWc="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"The FY2018 fixed asset turnover ratio for CVS Health is 17.76. This is calculated using FY2018 revenue of $194,579 million divided by the average PP&E (Property, Plant and Equipment, net) between FY2017 ($10,292 million) and FY2018 ($11,349 million), which equals $10,820.5 million.\",\"citations\":[{\"quote\":\"194579000000\",\"source_id\":\"xf_cad3b56cd56533a5\"},{\"quote\":\"10292000000\",\"source_id\":\"xf_82d1c76527aac013\"},{\"quote\":\"11349000000\",\"source_id\":\"xf_1da336599da65be9\"}],\"rationale\":\"Revenue for FY2018 is $194,579,000,000. PP&E, net for FY2017 is $10,292,000,000 and for FY2018 is $11,349,000,000. Average PP&E = (10292 + 11349) / 2 = 10820.5 million. Ratio = 194579 / 10820.5 = 17.7598 = 17.76.\",\"needs_review\":false,\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_170092",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560842,
+  "id": "iAzJasPaJreJxN8Pnrbg-QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 394,
+   "prompt_tokens": 4217,
+   "total_tokens": 4611
+  }
+ }
+}

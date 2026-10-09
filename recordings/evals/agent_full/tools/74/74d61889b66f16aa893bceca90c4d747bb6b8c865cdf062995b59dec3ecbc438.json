@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "NIKE, Inc. STATEMENTS OF INCOME Revenues Cost of sales",
+  "ticker": "NKE",
+  "fiscal_year": 2018,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_958b2d8c64f9212f",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 46,
+    "text": "Table of Contents NIKE, Inc. Consolidated Statements of Income Year Ended May 31, (In millions, except per share data) 2018 2017 2016 Revenues $ 36,397 $ 34,350 $ 32,376 Cost of sales 20,441 19,038 17,405 Gross profit 15,956 15,312 14,971 Demand creation expense 3,577 3,341 3,278 Operating overhead expense 7,934 7,222 7,191 Total selling and administrative expense 11,511 10,563 10,469 Interest expense (income), net 54 59 19 Other expense (income), net 66 (196) (140) Income before income taxes 4,325 4,886 4,623 Income tax expense 2,392 646 863 NET INCOME $ 1,933 $ 4,240 $ 3,760 Earnings per common share: Basic $ 1.19 $ 2.56 $ 2.21 Diluted $ 1.17 $ 2.51 $ 2.16 Dividends declared per common share $ 0.78 $ 0.70 $ 0.62 The accompanying Notes to the Consolidated Financial Statements are an integral part of this statement. 44"
+   },
+   {
+    "chunk_id": "ch_78261d67ab25e69a",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 73,
+    "text": "Table of Contents Year Ended May 31, (In millions) 2018 2017 2016 REVENUES North America $ 14,855 $ 15,216 $ 14,764 Europe, Middle East & Africa 9,242 7,970 7,568 Greater China 5,134 4,237 3,785 Asia Pacific & Latin America 5,166 4,737 4,317 Global Brand Divisions 88 73 73 Total NIKE Brand 34,485 32,233 30,507 Converse 1,886 2,042 1,955 Corporate 26 75 (86) TOTAL NIKE, INC. REVENUES $ 36,397 $ 34,350 $ 32,376 EARNINGS BEFORE INTEREST AND TAXES North America $ 3,600 $ 3,875 $ 3,763 Europe, Middle East & Africa 1,587 1,507 1,787 Greater China 1,807 1,507 1,372 Asia Pacific & Latin America 1,189 980 1,002 Global Brand Divisions (2,658) (2,677) (2,596) Total NIKE Brand 5,525 5,192 5,328 Converse 310 477 487 Corporate (1,456) (724) (1,173) Total NIKE, Inc. Earnings Before Interest and Taxes 4,379 4,945 4,642 Interest expense (income), net 54 59 19 TOTAL NIKE, INC. INCOME BEFORE INCOME TAXES $ 4,325 $ 4,886 $ 4,623 ADDITIONS TO LONG-LIVED ASSETS North America $ 196 $ 223 $ 242 Europe, Middle…"
+   },
+   {
+    "chunk_id": "ch_6dbcc7c7a5c4dc97",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 74,
+    "text": "Table of Contents As of May 31, (In millions) 2018 2017 ACCOUNTS RECEIVABLE, NET North America $ 1,443 $ 1,798 Europe, Middle East & Africa 870 690 Greater China 101 102 Asia Pacific & Latin America 720 693 Global Brand Divisions 102 86 Total NIKE Brand 3,236 3,369 Converse 240 297 Corporate 22 11 TOTAL ACCOUNTS RECEIVABLE, NET $ 3,498 $ 3,677 INVENTORIES North America $ 2,270 $ 2,218 Europe, Middle East & Africa 1,433 1,327 Greater China 580 463 Asia Pacific & Latin America 687 694 Global Brand Divisions 91 68 Total NIKE Brand 5,061 4,770 Converse 268 286 Corporate (68) (1) TOTAL INVENTORIES $ 5,261 $ 5,055 PROPERTY, PLANT AND EQUIPMENT, NET North America $ 848 $ 819 Europe, Middle East & Africa 849 709 Greater China 256 225 Asia Pacific & Latin America 339 340 Global Brand Divisions 597 533 Total NIKE Brand 2,889 2,626 Converse 115 125 Corporate 1,450 1,238 TOTAL PROPERTY, PLANT AND EQUIPMENT, NET $ 4,454 $ 3,989 Revenues by Major Product Lines Revenues from external customers for NI…"
+   },
+   {
+    "chunk_id": "ch_29214e323a7c70f9",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 74,
+    "text": "1,396 1,425 1,496 Other 2,000 2,190 1,942 TOTAL NIKE, INC. REVENUES $ 36,397 $ 34,350 $ 32,376 Revenues and Long-Lived Assets by Geographic Area After allocation of revenues for Global Brand Divisions, Converse and Corporate to geographical areas based on the location where the sales originated, revenues by geographical area are essentially the same as reported above for the NIKE Brand operating segments with the exception of the United States. Revenues derived in the United States were $15,314 million , $15,778 million and $15,304 million for the years ended May 31, 2018 , 2017 and 2016 , respectively. The Company's largest concentrations of long-lived assets primarily consist of the Company's world headquarters and distribution facilities in the United States and distribution facilities in Belgium, China and Japan. Long-lived assets attributable to operations in the United States, which are primarily composed of net property, plant & equipment, were $2,930 million and $2,629 million …"
+   },
+   {
+    "chunk_id": "ch_829bd6b7f3bf2fbf",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 45,
+    "text": "Table of Contents Report of Independent Registered Public Accounting Firm To the Board of Directors and Shareholders of NIKE, Inc. Opinions on the Financial Statements and Internal Control over Financial Reporting We have audited the accompanying consolidated balance sheets of NIKE, Inc. and its subsidiaries as of May 31, 2018 and 2017, and the related consolidated statements of income, comprehensive income, shareholders' equity and cash flows for each of the three years in the period ended May 31, 2018, including the related notes and financial statement schedule listed in the index appearing under Item 15(a)(2) (collectively referred to as the “consolidated financial statements”). We also have audited the Company ' s internal control over financial reporting as of May 31, 2018, based on criteria established in Internal Control - Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO). In our opinion, the consolidated financial…"
+   }
+  ]
+ }
+}

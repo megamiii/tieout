@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TCvS6L/dJDT7xybDIevamHH3BmtIzY53JVMNnzw6onA4+CGBQTLdRbrbS2++Vt5Qql72HTCmrt+uLUSYXZPMQ8CUgvYbHHDM9cHiQZV6a07GIsh0CTtMKyE4="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AMD\",\"fiscal_year\":2022,\"query\":\"Consolidated Statements of Cash Flows operating investing financing\"}",
+        "name": "search_filings"
+       },
+       "id": "call_945862",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560114,
+  "id": "sQnJatqdK5XQvdIPspndmAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 2545,
+   "total_tokens": 2585
+  }
+ }
+}

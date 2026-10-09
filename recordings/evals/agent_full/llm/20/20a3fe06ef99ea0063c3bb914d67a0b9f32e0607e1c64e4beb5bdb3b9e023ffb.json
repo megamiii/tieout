@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T6p8XwI1gOgZIbR6I4epWGT+3tnIZ0PuLzbwa0/IvnafGyj/QkCQbvTiD3tjtNArogcxQyv48DS7zZNaZM4RwsTnmMPHV9FrMRxuHLFGeytxcKRKywiaSnnI="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Yardbird Furniture\",\"fiscal_year\":2023,\"ticker\":\"BBY\"}",
+        "name": "search_filings"
+       },
+       "id": "call_241054",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559815,
+  "id": "hwjJarz5CrGexN8P1OWrmQc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 35,
+   "prompt_tokens": 3324,
+   "total_tokens": 3359
+  }
+ }
+}

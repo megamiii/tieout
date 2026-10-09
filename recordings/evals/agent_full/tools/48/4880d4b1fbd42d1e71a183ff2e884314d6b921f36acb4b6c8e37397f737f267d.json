@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Operating income Fiscal 2015 Fiscal 2014 millions",
+  "ticker": "ADBE",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_2881456ad64a5f53",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 50,
+    "text": "50 Provision for Income Taxes (dollars in millions) Fiscal 2015 Fiscal 2014 Fiscal 2013 % Change 2015-2014 % Change 2014-2013 Provision ..................................................................... $ 244.2 $ 93.0 $ 66.2 163% 40% Percentage of total revenue....................................... 5% 2% 2% Effective tax rate....................................................... 28% 26% 19% Our effective tax rate increased by approximately two percentage points during fiscal 2015 as compared to fiscal 2014. The increase was primarily due to tax costs associated with licensing acquired company assets to Adobe's trading companies. The increase was partially offset by tax benefits related to the reinstatement of the federal research and development tax credit in December 2014. The reinstatement of the credit was retroactive to January 1, 2014. Our effective tax rate increased by approximately seven percentage points during fiscal 2014 as compared to fiscal 2013. The increase was prim…"
+   },
+   {
+    "chunk_id": "ch_149a051b7a7f803d",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 40,
+    "text": "40 Total Creative ARR exiting fiscal 2015 was $2.60 billion, up from $1.61 billion at the end of fiscal 2014. We exited fiscal 2015 with 6.167 million paid Creative Cloud subscriptions, up 78% from 3.458 million at the end of fiscal 2014. Our Digital Media segment also includes our Document Cloud products and solutions, including our newly released Acrobat DC product which helped grow Document Cloud ARR to $397 million exiting fiscal 2015, up from $265 million at the end of fiscal 2014. Total Digital Media ARR grew to approximately $3.00 billion at the end of fiscal 2015, up from $1.88 billion at the end of fiscal 2014, demonstrating the progress we have made with the transformation of our business to a more recurring, ratable and predictable revenue model. Our reported ARR results in fiscal 2015 are based on currency rates set at the start of fiscal 2015 and held constant throughout the year. Revaluing our ending ARR for fiscal 2015 using currency rates at the beginning of fiscal 2016…"
+   },
+   {
+    "chunk_id": "ch_ed392b8b5382b12d",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 40,
+    "text": "Cost of revenue of $744.3 million increased by $122.2 million, or 20%, during fiscal 2015, from $622.1 million in fiscal 2014. The increases were primarily due to increases in costs associated with compensation and related benefits driven by additional headcount and costs of professional services driven by the increase in our professional services business. • Operating expenses of $3.15 billion increased by $35.8 million during fiscal 2015, from $3.11 billion in fiscal 2014. The increase is due to higher costs associated with compensation and related benefits driven by additional headcount and amortization of intangibles from the Fotolia acquisition in fiscal 2015. • Net income of $629.6 million increased by $361.2 million, or 135%, during fiscal 2015 from $268.4 million in fiscal 2014 primarily due to revenue growth. • Net cash flow from operations of $1.47 billion during fiscal 2015 increased by $182.0 million, or 14%, from $1.29 billion during fiscal 2014 primarily due to higher net…"
+   },
+   {
+    "chunk_id": "ch_9f4b45eb9a92f5d5",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 95,
+    "text": "discount. During fiscal 2015, we repurchased approximately 8.1 million shares at an average price of $77.38 through structured repurchase agreements entered into during fiscal 2015 and fiscal 2014. During fiscal 2014, we repurchased approximately 10.9 million shares at an average price of $63.48 through structured repurchase agreements entered into during fiscal 2014 and fiscal 2013. During fiscal 2013, we repurchased approximately 21.6 million shares at an average price per share of $46.47 through structured repurchase agreements entered into during fiscal 2013 and fiscal 2012. For fiscal 2015, 2014 and 2013, the prepayments were classified as treasury stock on our Consolidated Balance Sheets at the payment date, though only shares physically delivered to us by November 27, 2015, November 28, 2014 and November 29, 2013 were excluded from the computation of earnings per share. As of November 27, 2015, $38.2 million of prepayments remained under the agreement. Subsequent to November 27,…"
+   },
+   {
+    "chunk_id": "ch_613e489bb38402a4",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 43,
+    "text": "due to growth in Digital Media and Digital Marketing revenue. The overall increase in EMEA revenue was slightly offset by declines due to strengthening of the U.S. Dollar against the Euro, British Pound and other EMEA currencies in fiscal 2015. Within the Americas and EMEA, fluctuations in revenue by reportable segment were attributable to the factors noted in the segment information above. Revenue in APAC remained stable during fiscal 2015 as compared to fiscal 2014 due to an increase in Digital Marketing revenue offset by a decrease in Digital Media revenue.The increase in Digital Marketing revenue in APAC was attributable to the factors noted in the segment information above. The decline in Digital Media revenue was primarily due to expected decreases in perpetual license revenue, partially offset by increases in subscription revenue during fiscal 2015 as compared to fiscal 2014. Fiscal 2014 Revenue by Geography Compared to Fiscal 2013 Revenue by Geography Overall revenue increased …"
+   }
+  ]
+ }
+}

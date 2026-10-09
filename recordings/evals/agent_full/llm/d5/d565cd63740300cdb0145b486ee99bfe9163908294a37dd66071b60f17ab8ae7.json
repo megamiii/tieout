@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TuKVv3vGjUW/1goJ8+AdJV3XO6tf45zMrm8K+n2y1xXkmgmk6m9R6d/OTQt5s7f3myhLanQUwQ1+NWzQjtenUeVgmeawKxypz0DlbZmD22SNCj3ooXRvdKd8="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Financing activities Net cash used in financing activities $ (3,264)\",\"fiscal_year\":2022,\"ticker\":\"AMD\"}",
+        "name": "search_filings"
+       },
+       "id": "call_156264",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560114,
+  "id": "sgnJaprGIcjOvdIPytLNqAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 48,
+   "prompt_tokens": 4133,
+   "total_tokens": 4181
+  }
+ }
+}

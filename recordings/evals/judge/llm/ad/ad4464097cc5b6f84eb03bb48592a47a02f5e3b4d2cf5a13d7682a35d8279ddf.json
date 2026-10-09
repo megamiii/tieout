@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer accurately captures all the product categories mentioned in the gold answer while providing additional context by organizing them into AMD's reportable segments, which enhances clarity without contradicting the source.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TetxhcZhwvqfQ3xhgoh4wSKxfd3GMPW8vMPeEWXGZNDtdQCmcDNy7qGUB3JxI+L/B950gPDVRlGqp5IkPx9omY12wzVrVfQub1rUngTEDENfTjnJXsW1q3g3GO/nVelu1y9ohHxQRmCAvkPZd"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791560923,
+  "id": "2gzJavfHHbeJxN8Pnrbg-QU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 48,
+   "prompt_tokens": 448,
+   "total_tokens": 496
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 7,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TRNnF9Oje635XGzHmz8TPh1nP6gOC0HYdPx4LBRn4Xw8mLR2uVav8UDZ38QIA34NGNwgUjyTctFlG21wXIRdVKdq2hkzp0B7nVi1K/5TIUi5Sn+fXlPtyF2M="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2021,\"query\":\"Inventories, net\",\"ticker\":\"NKE\"}",
+        "name": "search_filings"
+       },
+       "id": "call_1068711",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560550,
+  "id": "ZgvJauLcHuKs28oPnp6miAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 36,
+   "prompt_tokens": 2774,
+   "total_tokens": 2810
+  }
+ }
+}

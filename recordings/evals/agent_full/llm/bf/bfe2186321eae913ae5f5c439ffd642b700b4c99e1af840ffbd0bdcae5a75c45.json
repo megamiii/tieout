@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tl+g7WgaRZkD3ODPUJ1OOaxGARNmtTUydIPcaJrPaQtV3yo6YVgY46DP9jize9PW1W1KBrvstkROpQGVlb4rcFT/AoAXCS0B/jOQkt4OxLKigEyNyWHaT3po="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"For FY2022, General Mills reported net income attributable to General Mills (parent) of $2,707.3 million ($2,707,300,000) and total cash dividends paid of $1,244.5 million ($1,244,500,000). The retention ratio (calculated as (Net Income Attributable to Shareholders - Dividends Paid) / Net Income Attributable to Shareholders) is 0.54 or 54.03%.\",\"confidence\":1,\"citations\":[{\"quote\":\"2707300000\",\"source_id\":\"xf_e1b1c96f099c8a8b\"},{\"quote\":\"1244500000\",\"source_id\":\"xf_1eba79cf28e580c4\"}],\"needs_review\":false,\"rationale\":\"Net income attributable to General Mills is $2,707.3 million and total cash dividends paid is $1,244.5 million. Retention ratio = (2,707,300,000 - 1,244,500,000) / 2,707,300,000 = 0.5403169..., which rounds to 0.54 or 54.03%.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_257931",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560915,
+  "id": "0gzJaoO1Hq6FxN8P5vjekQI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 335,
+   "prompt_tokens": 5246,
+   "total_tokens": 5581
+  }
+ }
+}

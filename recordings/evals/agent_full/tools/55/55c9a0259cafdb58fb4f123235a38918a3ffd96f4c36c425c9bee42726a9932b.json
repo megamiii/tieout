@@ -1,0 +1,94 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "CVS",
+  "query": "total assets",
+  "concept": null,
+  "fiscal_years": [
+   2021,
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "CVS",
+  "concepts": [
+   {
+    "concept": "Assets",
+    "label": "Assets",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "228275000000",
+      "fact_id": "xf_cd29bfea0d414de2",
+      "reported_in_10k_filed": "2023-02-08"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "as of 2021-12-31",
+      "value": "232999000000",
+      "fact_id": "xf_62c0e6a998c1edcb",
+      "reported_in_10k_filed": "2022-02-09"
+     }
+    ]
+   },
+   {
+    "concept": "OtherAssetsCurrent",
+    "label": "Other Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "2685000000",
+      "fact_id": "xf_242628b274cb8bbe",
+      "reported_in_10k_filed": "2023-02-08",
+      "later_restated_to": [
+       {
+        "value": "2636000000",
+        "fact_id": "xf_7d6b91a1e4d2d405",
+        "filed": "2024-02-07"
+       }
+      ]
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "as of 2021-12-31",
+      "value": "5292000000",
+      "fact_id": "xf_a819c769df7b7a51",
+      "reported_in_10k_filed": "2022-02-09"
+     }
+    ]
+   },
+   {
+    "concept": "AssetsCurrent",
+    "label": "Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "65682000000",
+      "fact_id": "xf_5fa9667bfd14f747",
+      "reported_in_10k_filed": "2023-02-08",
+      "later_restated_to": [
+       {
+        "value": "65633000000",
+        "fact_id": "xf_1023f17eda80f467",
+        "filed": "2024-02-07"
+       }
+      ]
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "as of 2021-12-31",
+      "value": "60008000000",
+      "fact_id": "xf_9411bae9b379f470",
+      "reported_in_10k_filed": "2022-02-09"
+     }
+    ]
+   }
+  ]
+ }
+}

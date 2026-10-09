@@ -1,0 +1,72 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "ADBE",
+  "query": "current liabilities",
+  "concept": null,
+  "fiscal_years": [
+   2015
+  ]
+ },
+ "output": {
+  "ticker": "ADBE",
+  "concepts": [
+   {
+    "concept": "LiabilitiesCurrent",
+    "label": "Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2015,
+      "period": "as of 2015-11-27",
+      "value": "2213556000",
+      "fact_id": "xf_b3d318973b4eb661",
+      "reported_in_10k_filed": "2016-01-19"
+     }
+    ]
+   },
+   {
+    "concept": "AccruedLiabilitiesCurrent",
+    "label": "Accrued Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2015,
+      "period": "as of 2015-11-27",
+      "value": "678364000",
+      "fact_id": "xf_cbf15e0e5acb98c8",
+      "reported_in_10k_filed": "2016-01-19",
+      "later_restated_to": [
+       {
+        "value": "679884000",
+        "fact_id": "xf_f3a9b71d459c6cac",
+        "filed": "2017-01-20"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "concept": "OtherAccruedLiabilitiesCurrent",
+    "label": "Other Accrued Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2015,
+      "period": "as of 2015-11-27",
+      "value": "182332000",
+      "fact_id": "xf_1c8d484d115e0b9e",
+      "reported_in_10k_filed": "2016-01-19",
+      "later_restated_to": [
+       {
+        "value": "183852000",
+        "fact_id": "xf_6d877d6ce7989481",
+        "filed": "2017-01-20"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

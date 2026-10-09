@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TZrHVkIiPb/OUXluROogT6R+vErxcVXyVRxJgb2GhDKgMkDAXde5NgfWU07pbmNwxK24eGPXVu8o0YnYanOAx0vsgfPaqRQTJisPueT1zn2L2mWC9ecOhEiY="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AMD\",\"fiscal_year\":2015,\"query\":\"Consolidated Statements of Cash Flows Depreciation and amortization\"}",
+        "name": "search_filings"
+       },
+       "id": "call_166620",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560423,
+  "id": "5wrJatrPC-mH28oPvLehoA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 2415,
+   "total_tokens": 2455
+  }
+ }
+}

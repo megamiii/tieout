@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The gold answer identifies $411 million in restructuring costs, whereas the provided answer incorrectly states that these costs are not outlined and provides a value of 0.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TcveTAAqXzH8+jCkau+6TOGztVjfSxrxjOtVcCED6uywOAUDDbSE5rn8EdeveWi6WzyQps4pi7jleVMiSjSnOsAFQ5pQkMiLyrRSQKSkZaHjV6dKNANo8PtI78U73XCj7azUzNXPS5tUNgzsx"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791561081,
+  "id": "bQ3JatDLHpekxN8Pm7K-oAc",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 221,
+   "total_tokens": 266
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly confirms that American Express retained and grew its card member base in 2022, providing accurate supporting data from the 10-K filing.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T/p8nRTF4cVmNeF5w53wk21xDTzw+lXmcUzL5HB1U1kxLxOaGczlwxGVSK5zDBJxSqNVJ+Bfj9+z5WNrLi3esVRBbJGikGp+xEnJKdm9WOoLR3YGUKNG13rFUnKBCD4ZkJqhloux9C+FRExpA"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791561114,
+  "id": "mQ3JarezPL2Axs0Pq5K22QU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 283,
+   "total_tokens": 329
+  }
+ }
+}

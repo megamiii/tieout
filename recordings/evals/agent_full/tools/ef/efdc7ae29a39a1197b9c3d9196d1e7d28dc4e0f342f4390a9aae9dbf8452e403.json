@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Inventories, net",
+  "ticker": "NKE",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5677dbfb80dd10b8",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 67,
+    "text": "Accounts receivable, net consist primarily of amounts due from customers. The Company makes ongoing estimates relating to the collectability of its accounts receivable and maintains an allowance for expected losses resulting from the inability of its customers to make required payments. In addition to judgments about the creditworthiness of significant customers based on ongoing credit evaluations, the Company considers historical levels of credit losses, as well as macroeconomic and industry trends, such as the impacts of COVID–19, to determine the amount of the allowance. Accounts receivable with anticipated collection dates greater than 12 months from the balance sheet date and related allowances are considered non-current and recorded in Deferred income taxes and other assets. The allowance for uncollectible accounts receivable was $93 million and $214 million as of May 31, 2021 and 2020, respectively. INVENTORY VALUATION Inventories are stated at lower of cost and net realizable v…"
+   },
+   {
+    "chunk_id": "ch_b1b932a7c16e2095",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 50,
+    "text": "claims in any future period are inherently uncertain and may differ from estimates recorded. If actual or expected future returns, discounts or claims were significantly different than reserves established, a reduction or increase to net revenues would be recorded in the period in which such determination was made. Refer also to Note 1 — Summary of Significant Accounting Policies and Note 16 — Revenues for additional information in the accompanying Notes to the Consolidated Financial Statements. INVENTORY RESERVES We make ongoing estimates relating to the net realizable value of inventories based upon our assumptions about future demand and market conditions. If we estimate the net realizable value of our inventory is less than the cost of the inventory recorded on our books, we record a reserve equal to the difference between the cost of the inventory and the estimated net realizable value. This reserve is recorded as a charge to Cost of sales. If changes in market conditions result i…"
+   },
+   {
+    "chunk_id": "ch_4751ae93fe7b7fa0",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 70,
+    "text": "markets, adverse impacts on the global supply chain, revised payment terms with certain wholesale customers, higher sales-related reserves, factory cancellation costs and a volatile effective tax rate driven by changes in the mix of earnings across the Company's jurisdictions. RECENTLY ADOPTED ACCOUNTING STANDARDS In October 2016, the FASB issued ASU No. 2016-16, Income Taxes (Topic 740): Intra-Entity Transfers of Assets Other Than Inventory. The updated guidance requires companies to recognize the income tax consequences of an intra-entity transfer of an asset other than inventory when the transfer occurs. Income tax effects of intra-entity transfers of inventory will continue to be deferred until the inventory has been sold to a third party. The Company adopted the standard on June 1, 2018, using a modified retrospective approach, with the cumulative effect of applying the new standard recognized in Retained earnings at the date of adoption. The adoption resulted in reductions to Ret…"
+   },
+   {
+    "chunk_id": "ch_858aafa6e8d6a6ff",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 71,
+    "text": "Table of Contents expenses and other current assets of $507 million, $422 million and $45 million, respectively, and an increase in Deferred income taxes and other liabilities of $40 million on the Consolidated Balance Sheets. NOTE 2 — INVENTORIES Inventory balances of $6,854 million and $7,367 million as of May 31, 2021 and 2020, respectively, were substantially all finished goods. NOTE 3 — PROPERTY, PLANT AND EQUIPMENT Property, plant and equipment, net included the following: MAY 31, (Dollars in millions) 2021 2020 Land and improvements $ 363 $ 345 Buildings 3,365 2,442 Machinery and equipment 3,023 2,751 Internal-use software 1,391 1,483 Leasehold improvements 1,608 1,554 Construction in process 311 1,086 Total property, plant and equipment, gross 10,061 9,661 Less accumulated depreciation 5,157 4,795 TOTAL PROPERTY, PLANT AND EQUIPMENT, NET $ 4,904 $ 4,866 Capitalized interest was not material for the years ended May 31, 2021, 2020 and 2019. NOTE 4 — IDENTIFIABLE INTANGIBLE ASSETS…"
+   },
+   {
+    "chunk_id": "ch_6df794dd54c6dd6e",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 1A",
+    "page": 17,
+    "text": "demand may result in inventory write-downs, and the sale of excess inventory at discounted prices could significantly impair our brand image and have an adverse effect on our operating results, financial condition and cash flows. Conversely, if we underestimate consumer demand for our products or if our manufacturers fail to supply products we require at the time we need them, we may experience inventory shortages. Inventory shortages could delay shipments to customers, negatively impact retailer, distributor and consumer relationships and diminish brand loyalty. The difficulty in forecasting demand also makes it difficult to estimate our future results of operations, financial condition and cash flows from period to period. A failure to accurately predict the level of demand for our products could adversely affect our net revenues and net income, and we are unlikely to forecast such effects with any certainty in advance. Our NIKE Direct operations have required and will continue to re…"
+   }
+  ]
+ }
+}

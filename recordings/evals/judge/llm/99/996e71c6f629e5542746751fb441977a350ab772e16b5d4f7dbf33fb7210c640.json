@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer provides more precise figures that align with the gold answer's rounded values, correctly identifying the increase in the effective tax rate.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TADhVw2v8n8awt0oVoce5xoL4K2AtoaowEifc5NG1pO/WrbaHKgUH7aJ4xErGFnGaU6buU8WKDUUMxBvLhbNKcedyZFlbQlD4ku925A7LJgonTNn/MjhB8msm85++exZ99ASf0lJun8nsoHK+"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791561082,
+  "id": "eQ3JaoX5OqO_vdIP-aSQmQU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 229,
+   "total_tokens": 268
+  }
+ }
+}

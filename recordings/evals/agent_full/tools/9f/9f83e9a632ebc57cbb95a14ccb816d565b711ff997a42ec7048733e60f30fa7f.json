@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Operating income 1,311 3,648",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_dc117b15489222bc",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 48,
+    "text": "Table of Contents Results of Operations During the second quarter of fiscal year 2022, we changed our reporting segments to align our financial reporting with how we manage our business in strategic end markets. This is consistent with how our Chief Operating Decision Maker (CODM) assesses our financial performance and allocates resources. As a result, we report our financial performance based on the following four reportable segments: Data Center, Client, Gaming, and Embedded. Additional information on our reportable segments is contained in Note 4 – Segment Reporting of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K). Our operating results tend to vary seasonally. Historically, our net revenue has been generally higher in the second half of the year than in the first half of the year, although market conditions and product transitions could impact these trends. The following table provides a summary of net revenue and operating income (loss) by segment for 2022 …"
+   },
+   {
+    "chunk_id": "ch_cb587adeacc79358",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 68,
+    "text": "Table of Contents The following table provides a summary of net revenue and operating income (loss) by segment for 2022, 2021 and 2020. Year Ended December 31, 2022 December 25, 2021 December 26, 2020 (In millions) Net revenue: Data Center $ 6,043 $ 3,694 $ 1,685 Client 6,201 6,887 5,189 Gaming 6,805 5,607 2,746 Embedded 4,552 246 143 Total net revenue $ 23,601 $ 16,434 $ 9,763 Operating income (loss): Data Center $ 1,848 $ 991 $ 198 Client 1,190 2,088 1,608 Gaming 953 934 (138) Embedded 2,252 44 (11) All Other (4,979) (409) (288) Total operating income (loss) $ 1,264 $ 3,648 $ 1,369 The following table provides items included in All Other category: Year Ended December 31, 2022 December 25, 2021 December 26, 2020 (In millions) Operating loss: Stock-based compensation expense $ 1,081 $ 379 $ 274 Acquisition-related costs 452 42 14 Amortization of acquisition-related intangibles 3,548 — — Licensing gain (102) (12) — Total operating loss $ 4,979 $ 409 $ 288 The Company does not discretely…"
+   },
+   {
+    "chunk_id": "ch_062d2fbd4a48e1b5",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 54,
+    "text": "ITEM 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA Advanced Micro Devices, Inc. Consolidated Statements of Operations Year Ended December 31, 2022 December 25, 2021 December 26, 2020 (In millions, except per share amounts) Net revenue $ 23,601 $ 16,434 $ 9,763 Cost of sales 11,550 8,505 5,416 Amortization of acquisition-related intangibles 1,448 — — Total cost of sales 12,998 8,505 5,416 Gross profit 10,603 7,929 4,347 Research and development 5,005 2,845 1,983 Marketing, general and administrative 2,336 1,448 995 Amortization of acquisition-related intangibles 2,100 — — Licensing gain (102) (12) — Operating income 1,264 3,648 1,369 Interest expense (88) (34) (47) Other income (expense), net 8 55 (47) Income before income taxes and equity income 1,184 3,669 1,275 Income tax provision (benefit) (122) 513 (1,210) Equity income in investee 14 6 5 Net income $ 1,320 $ 3,162 $ 2,490 Earnings per share Basic $ 0.85 $ 2.61 $ 2.10 Diluted $ 0.84 $ 2.57 $ 2.06 Shares used in per share calculat…"
+   },
+   {
+    "chunk_id": "ch_a8231f37bc40c2be",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 73,
+    "text": "(In millions) Net revenue $ 4,612 Operating income $ 2,247 Operating income attributable to Xilinx recorded under the Embedded and Data Center segments does not include $4.2 billion of amortization of acquisition- related intangibles, employee stock-based compensation expense and acquisition-related costs, which are recorded under the “All Other” segment. In 2022, Xilinx acquisition-related costs of $350 million were recorded under Cost of sales, Research and development, and Marketing, general and administrative expenses on the Company's Consolidated Statements of Operations. Acquisition-related costs are primarily comprised of direct transaction costs, fair value adjustments for acquired inventory and certain compensation charges. The Company may incur additional acquisition-related costs in the future related to the Xilinx acquisition. Supplemental Unaudited Pro Forma Information Following are the supplemental consolidated financial results of the Company, Xilinx and Pensando on an …"
+   },
+   {
+    "chunk_id": "ch_0f04b6203dc74c32",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 66,
+    "text": "As of December 31, 2022 and December 25, 2021, Accounts receivable, net included unbilled accounts receivable of $1.1 billion and $329 million, respectively. Unbilled accounts receivables primarily represent work completed for development services and on custom products for which revenue has been recognized but not yet invoiced. All unbilled accounts receivable are expected to be billed and collected within 12 months. Inventories December 31, 2022 December 25, 2021 (In millions) Raw materials $ 231 $ 82 Work in process 2,648 1,676 Finished goods 892 197 Total inventories $ 3,771 $ 1,955 Property and Equipment, net December 31, 2022 December 25, 2021 (In millions) Land $ 120 $ — Building and leasehold improvements 594 206 Equipment 2,163 1,534 Construction in progress 143 96 Property and equipment, gross 3,020 1,836 Accumulated depreciation (1,507) (1,134) Total property and equipment, net $ 1,513 $ 702 Depreciation expense for 2022, 2021 and 2020 was $439 million, $296 million and $217…"
+   }
+  ]
+ }
+}

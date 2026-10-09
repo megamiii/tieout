@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TtcWBlgSLXumYtedrOdkQdZvwt0TF0mn42Wg2HnL9Zjx/bUPTVtN0PJgfxQKjjpLIoUsM4d/gUq/gCNTqmwXSOGw7zDKIOjlToMm8IYvou6ovLh2peYRGEPk="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"rationale\":\"All cited numbers and facts are directly supported by the text chunks from the FY2022 10-K.\",\"citations\":[{\"quote\":\"Multiple legal actions have been filed against us as a result of the October 29, 2018 accident of Lion Air Flight 610 and the March 10, 2019 accident of Ethiopian Airlines Flight 302.\",\"source_id\":\"ch_87c7e84ed08663db\"},{\"source_id\":\"ch_87c7e84ed08663db\",\"quote\":\"In September 2022, we settled a previously disclosed investigation by the Securities and Exchange Commission related to the 737 MAX accidents and consented to a civil penalty, which resulted in an earnings charge of $200 that was paid in October 2022.\"},{\"quote\":\"Embraer has disputed our right to terminate the agreements, and the dispute is currently in arbitration. We cannot reasonably estimate a range of loss, if any, that may result from the arbitration, which we currently expect to be completed in late 2023 or early 2024.\",\"source_id\":\"ch_abda6cab788d1e7b\"}],\"needs_review\":false,\"answer\":\"Yes, Boeing reported several ongoing legal battles and investigations from FY2022 in Note 21 of its Consolidated Financial Statements. Notable ongoing and recently resolved matters include:\\n1. **737 MAX Accidents:** Multiple legal actions and pending lawsuits related to the October 29, 2018 Lion Air Flight 610 and March 10, 2019 Ethiopian Airlines Flight 302 accidents. Boeing noted that it cannot reasonably estimate a range of loss not covered by insurance for these remaining pending lawsuits.\\n2. **SEC and DOJ Matters:** Boeing settled a Securities and Exchange Commission (SEC) investigation in September 2022 related to the 737 MAX accidents with a $200 civil penalty earnings charge, and previously entered a Deferred Prosecution Agreement with the U.S. Department of Justice in 2021.\\n3. **Embraer Arbitration:** Following Boeing's 2020 termination of agreements to establish joint ventures with Embraer S.A., Embraer disputed the termination and entered arbitration, which was expected to be completed in late 2023 or early 2024.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_172158",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559928,
+  "id": "9wjJatP3A5jR28oPlLqWyQ0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 560,
+   "prompt_tokens": 7366,
+   "prompt_tokens_details": {
+    "cached_tokens": 4037
+   },
+   "total_tokens": 7926
+  }
+ }
+}

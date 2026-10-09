@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Cash Flows operating activities 2017",
+  "ticker": "CVS",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_4529b83182f8c682",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 305,
+    "text": "Consolidated Statements of Cash Flows For the Years Ended December 31, In millions 2018 2017 2016 Cash flows from operating activities: Cash receipts from customers $ 186,519 $ 176,594 $ 172,310 Cash paid for inventory and prescriptions dispensed by retail network pharmacies (148,821) (146,469) (140,312) Insurance benefits paid (7,057) (2,810) (2,199) Cash paid to other suppliers and employees (17,234) (15,348) (15,478) Interest and investment income received 644 21 20 Interest paid (2,803) (1,072) (1,140) Income taxes paid (2,383) (2,909) (3,060) Net cash provided by operating activities 8,865 8,007 10,141 Cash flows from investing activities: Proceeds from sales and maturities of investments 817 61 91 Purchases of investments (692) (137) (80) Purchases of property and equipment (2,037) (1,918) (2,224) Proceeds from sale-leaseback transactions — 265 230 Acquisitions (net of cash acquired) (42,226) (1,181) (524) Proceeds from sale of subsidiary and other assets 832 — — Other 21 33 37 N…"
+   },
+   {
+    "chunk_id": "ch_3a0935523ecf6cb2",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 279,
+    "text": "payouts, potential share repurchases and future investments or acquisitions. The Company believes its operating cash flows, commercial paper program, credit facilities, sale-leaseback program, as well as any potential future borrowings, will be sufficient to fund these future payments and long-term initiatives. The net change in cash, cash equivalents and restricted cash for the years ended December 31, 2018 , 2017 and 2016 is as follows: Change Year Ended December 31, 2018 vs. 2017 2017 vs. 2016 In millions 2018 2017 2016 $ % $ % Net cash provided by operating activities $ 8,865 $ 8,007 $ 10,141 $ 858 11 % $ (2,134) (21)% Net cash used in investing activities (43,285) (2,877) (2,470) (40,408) 1,405 % (407) 16 % Net cash provided by (used in) financing activities 36,819 (6,751) (6,761) 43,570 (645)% 10 — % Effect of exchange rate changes on cash, cash equivalents and restricted cash (4) 1 2 (5) (500)% (1) (50)% Net increase (decrease) in cash, cash equivalents and restricted cash $ 2,3…"
+   },
+   {
+    "chunk_id": "ch_79834613cd0fe6ff",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 328,
+    "text": "Total cash, cash equivalents and restricted cash at the end of the period in the statement of cash flows $ 4,295 $ 1,900 $ 3,520 See “Restricted cash” above for further discussion of the nature of the Company's restricted cash and restricted cash equivalent balances. The following is a reconciliation of the effect on the relevant line items in the consolidated statement of cash flows for the years ended December 31, 2017 and 2016 as a result of adopting this new accounting guidance: As Previously In millions Reported Adjustments As Revised Year Ended December 31, 2017 Acquisitions (net of cash acquired) $ (1,236) $ 55 $ (1,181) Net cash used in investing activities (2,932) 55 (2,877) Net decrease in cash, cash equivalents and restricted cash (1) (1,675) 55 (1,620) Cash, cash equivalents and restricted cash at the beginning of the period (1) 3,371 149 3,520 Cash, cash equivalents and restricted cash at the end of the period (1) 1,696 204 1,900 Year Ended December 31, 2016 Acquisitions (…"
+   },
+   {
+    "chunk_id": "ch_a79066a9e4bbc1dc",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 328,
+    "text": "to eliminate the diversity in practice related to such classifications. Effective January 1, 2018, the Company adopted this new accounting guidance. The adoption of this new guidance did not have a material impact on the Company's financial condition or results of operations. Statement of Cash Flows - Restricted Cash In November 2016, the FASB issued ASU 2016-18, Statement of Cash Flows , which amends Accounting Standard Codification Topic 230. This ASU requires entities to show the changes in the total of cash, cash equivalents, restricted cash and restricted cash equivalents in the statement of cash flows. As a result, entities no longer are required to present transfers between cash and cash equivalents and restricted cash and restricted cash equivalents in the statement of cash flows. When cash, cash equivalents, restricted cash and restricted cash equivalents are presented in more than one line item on the balance sheet, the new guidance requires a reconciliation of the totals in …"
+   },
+   {
+    "chunk_id": "ch_04b127081daeef29",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 15",
+    "page": 68,
+    "text": "Item 15. Exhibits, Financial Statement Schedules The following documents are filed as part of this Annual Report on Form 10-K: 1. Financial Statements. The following financial statements, related notes and report are incorporated by reference from the Annual Report in Item 8 hereof: Consolidated Statements of Operations for the Years Ended December 31, 2018, 2017 and 2016 Consolidated Statements of Comprehensive Income (Loss) for the Years Ended December 31, 2018, 2017 and 2016 Consolidated Balance Sheets as of December 31, 2018 and 2017 Consolidated Statements of Cash Flows for the Years Ended December 31, 2018, 2017 and 2016 Consolidated Statements of Shareholders' Equity for the Years Ended December 31, 2018, 2017 and 2016 Notes to Consolidated Financial Statements Report of Independent Registered Public Accounting Firm 2. Financial Statement Schedules. All financial statement schedules are omitted because they are not applicable, not required under the instructions, or the informat…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "As of February 2, 2019 (year-end FY2019), Best Buy's total merchandise inventories were **$5,409 million**.\n\nAs reported on the Consolidated Balance Sheets, merchandise inventories were $5,409 million (compared to $5,209 million at the end of FY2018).",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TtZrOsA9mzEotKhP5kqTPbxUOP2YYUIKwN0ahPfP9MMkW+/Xyu2/bqegUkYSE0AukDyuib6uA44TxYob+3qPbxXQEieo5Zz9HeSJXddfkgazEVoEy+ei8wKQ="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791560663,
+  "id": "1gvJar6uDIqFxN8P1vfl0AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 77,
+   "prompt_tokens": 3879,
+   "total_tokens": 3956
+  }
+ }
+}

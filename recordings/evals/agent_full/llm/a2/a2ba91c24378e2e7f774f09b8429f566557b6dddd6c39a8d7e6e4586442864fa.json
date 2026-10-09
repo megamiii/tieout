@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TJKlCS/Skl8xH19Zb7ycCp8/4bOJq7utQTZyLofFwBGjXT5sVKZhFCYfmtUiRGq554wCtLRwThQHGiBBNeMq3vwExMYbPmkRZ/bkUD2FEDFIkZuHSrUXCRb0="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"In fiscal year 2022, excluding the impact of M&A/divestitures (organic sales), the **Consumer** segment dragged down 3M's overall growth with an organic sales decline of **-0.9%**. In contrast, Safety and Industrial grew 1.0%, Transportation and Electronics grew 1.2%, and Health Care grew 3.2% on an organic basis.\",\"citations\":[{\"quote\":\"Consumer (0.9) — (0.4) (2.6) (3.9)\",\"source_id\":\"ch_80d20f234646fe22\"},{\"quote\":\"Organic sales 1.0 %\",\"source_id\":\"ch_7f89f6f9151a245d\"},{\"quote\":\"Organic sales 1.2 %\",\"source_id\":\"ch_d21331ee8360a3c7\"},{\"quote\":\"Organic sales 3.2 %\",\"source_id\":\"ch_59afedc10674107d\"}],\"confidence\":1,\"rationale\":\"Cited exact matching text segments for the organic sales growth rates of each of 3M's segments in FY2022.\",\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_743994",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560244,
+  "id": "MwrJas7DGd3txs0Pw9zL4Ak",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 306,
+   "prompt_tokens": 9821,
+   "total_tokens": 10127
+  }
+ }
+}

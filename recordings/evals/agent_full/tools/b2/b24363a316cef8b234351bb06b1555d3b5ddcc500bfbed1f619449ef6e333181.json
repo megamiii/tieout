@@ -1,0 +1,98 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "BA",
+  "query": "net cash provided by operating activities",
+  "concept": null,
+  "fiscal_years": null
+ },
+ "output": {
+  "ticker": "BA",
+  "concepts": [
+   {
+    "concept": "NetCashProvidedByUsedInOperatingActivities",
+    "label": "Net Cash Provided by (Used in) Operating Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2025,
+      "period": "2025-01-01..2025-12-31",
+      "value": "1065000000",
+      "fact_id": "xf_f9658afa1bc75be0",
+      "reported_in_10k_filed": "2026-01-30"
+     },
+     {
+      "fiscal_year": 2024,
+      "period": "2024-01-01..2024-12-31",
+      "value": "-12080000000",
+      "fact_id": "xf_9a3166d0d279dde4",
+      "reported_in_10k_filed": "2025-02-03"
+     },
+     {
+      "fiscal_year": 2023,
+      "period": "2023-01-01..2023-12-31",
+      "value": "5960000000",
+      "fact_id": "xf_5482023f170ab348",
+      "reported_in_10k_filed": "2024-01-31"
+     }
+    ]
+   },
+   {
+    "concept": "NetCashProvidedByUsedInFinancingActivities",
+    "label": "Net Cash Provided by (Used in) Financing Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2025,
+      "period": "2025-01-01..2025-12-31",
+      "value": "-3763000000",
+      "fact_id": "xf_a466067f1d791b35",
+      "reported_in_10k_filed": "2026-01-30"
+     },
+     {
+      "fiscal_year": 2024,
+      "period": "2024-01-01..2024-12-31",
+      "value": "25209000000",
+      "fact_id": "xf_350dbad77c880fe1",
+      "reported_in_10k_filed": "2025-02-03"
+     },
+     {
+      "fiscal_year": 2023,
+      "period": "2023-01-01..2023-12-31",
+      "value": "-5487000000",
+      "fact_id": "xf_71253e1b2310400f",
+      "reported_in_10k_filed": "2024-01-31"
+     }
+    ]
+   },
+   {
+    "concept": "AdjustmentsNoncashItemsToReconcileNetIncomeLossToCashProvidedByUsedInOperatingActivitiesOther",
+    "label": "Adjustments, Noncash Items, to Reconcile Net Income (Loss) to Cash Provided by (Used in) Operating Activities, Other (Deprecated 2011-01-31)",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2010,
+      "period": "2010-01-01..2010-12-31",
+      "value": "512000000",
+      "fact_id": "xf_6bd3dfcf69a9381c",
+      "reported_in_10k_filed": "2011-02-09"
+     },
+     {
+      "fiscal_year": 2009,
+      "period": "2009-01-01..2009-12-31",
+      "value": "214000000",
+      "fact_id": "xf_456754e6ae833630",
+      "reported_in_10k_filed": "2010-02-08"
+     },
+     {
+      "fiscal_year": 2008,
+      "period": "2008-01-01..2008-12-31",
+      "value": "116000000",
+      "fact_id": "xf_ccd4d46ba55b186f",
+      "reported_in_10k_filed": "2010-02-08"
+     }
+    ]
+   }
+  ]
+ }
+}

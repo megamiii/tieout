@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 17,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TQO5muTJmsfqR7QseMj2KwDTcLpFz3n6TO6ND9yN4OiPQOAAjMsJalgFsCnftutkM5R8LERuoPZ2+aRjMoycjrpA70ly6Yrwhkk0/oqpsdF/0W+frL9a8Lsc="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"rationale\":\"Using net cash provided by operating activities of $3,676.2 million (3,676,200,000) and capital expenditures (purchases of land, buildings, and equipment) of $460.8 million (460,800,000), the resulting FCF is $3,215.4 million.\",\"needs_review\":false,\"answer\":\"For FY2020, General Mills reported net cash provided by operating activities of 3676200000 USD and purchases of land, buildings, and equipment of 460800000 USD. Free cash flow for FY2020 is $3,215.4 million (3,215,400,000 USD).\",\"citations\":[{\"quote\":\"3676200000\",\"source_id\":\"xf_ab7a5161bdd81508\"},{\"quote\":\"460800000\",\"source_id\":\"xf_e3e58cb26c41c4b3\"},{\"source_id\":\"ch_64e42fbe9399cfd3\",\"quote\":\"3215.4\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_177789",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560781,
+  "id": "TAzJaqyVFJLxnsEP6-iEiQs",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 311,
+   "prompt_tokens": 9658,
+   "prompt_tokens_details": {
+    "cached_tokens": 6615
+   },
+   "total_tokens": 9969
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "BBY",
+  "query": "inventories",
+  "concept": null,
+  "fiscal_years": [
+   2019
+  ]
+ },
+ "output": {
+  "ticker": "BBY",
+  "concepts": [
+   {
+    "concept": "IncreaseDecreaseInInventories",
+    "label": "Increase (Decrease) in Inventories",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "2018-02-04..2019-02-02",
+      "value": "194000000",
+      "fact_id": "xf_c99e60757ff4eed3",
+      "reported_in_10k_filed": "2019-03-28"
+     }
+    ]
+   },
+   {
+    "concept": "InventoryNet",
+    "label": "Inventory, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "as of 2019-02-02",
+      "value": "5409000000",
+      "fact_id": "xf_59292bcbc2142e3c",
+      "reported_in_10k_filed": "2019-03-28"
+     }
+    ]
+   }
+  ]
+ }
+}

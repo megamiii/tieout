@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T6y4Zov9vI0qVC2SV7s2uw04FMyw8HUvBy8nJW7ujjnLrXV7vA+1/SW7uFXz4zqLErgnxwlI8s+OggwjPnCpJikdRQbVi1rzg7xhDsdNsxPaZw4Fmcw7Ykp4="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"answer\":\"Yes, American Express was able to grow and retain its Card Members during 2022. Total cards-in-force increased to 133.3 million as of December 31, 2022, up from 121.7 million at the end of 2021 (a 10% increase). Additionally, proprietary cards-in-force rose to 76.7 million in 2022 from 71.4 million in 2021 (a 7% increase), and basic cards-in-force grew to 111.5 million from 100.7 million (an 11% increase).\",\"rationale\":\"The filing provides cards-in-force statistics showing growth in total, proprietary, and basic cards in 2022 compared to 2021, demonstrating strong retention and acquisition of card members.\",\"confidence\":1,\"citations\":[{\"quote\":\"Cards-in-force (millions) 133.3 121.7 112.0 10 9\",\"source_id\":\"ch_aa946ea415b4647d\"},{\"quote\":\"Proprietary cards-in-force 76.7 71.4 68.9 7 4\",\"source_id\":\"ch_aa946ea415b4647d\"},{\"quote\":\"Basic cards-in-force (millions) 111.5 100.7 91.3 11 10\",\"source_id\":\"ch_aa946ea415b4647d\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_929420",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560305,
+  "id": "bwrJatLRHMXhvdIPnMnZ8AQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 400,
+   "prompt_tokens": 13832,
+   "total_tokens": 14232
+  }
+ }
+}

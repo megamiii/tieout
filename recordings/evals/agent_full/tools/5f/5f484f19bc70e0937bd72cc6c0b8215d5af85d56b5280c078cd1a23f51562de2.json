@@ -1,0 +1,65 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "PEP",
+  "query": "capital expenditures",
+  "concept": null,
+  "fiscal_years": [
+   2021
+  ]
+ },
+ "output": {
+  "ticker": "PEP",
+  "concepts": [
+   {
+    "concept": "PaymentsToAcquireProductiveAssets",
+    "label": "Payments to Acquire Productive Assets",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2021,
+      "period": "2020-12-27..2021-12-25",
+      "value": "4625000000",
+      "fact_id": "xf_d9750ce2b8c6246b",
+      "reported_in_10k_filed": "2022-02-10"
+     }
+    ]
+   },
+   {
+    "concept": "CapitalizedComputerSoftwareNet",
+    "label": "Capitalized Computer Software, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2021,
+      "period": "as of 2021-12-25",
+      "value": "809000000",
+      "fact_id": "xf_bf08ecb4acbabb1f",
+      "reported_in_10k_filed": "2022-02-10",
+      "later_restated_to": [
+       {
+        "value": "800000000",
+        "fact_id": "xf_6e9f97a6adef79b0",
+        "filed": "2023-02-09"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "concept": "AdditionalPaidInCapitalCommonStock",
+    "label": "Additional Paid in Capital, Common Stock",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2021,
+      "period": "as of 2021-12-25",
+      "value": "4001000000",
+      "fact_id": "xf_b30954f7c206f95b",
+      "reported_in_10k_filed": "2022-02-10"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GIS",
+  "query": "capital expenditures",
+  "concept": null,
+  "fiscal_years": [
+   2020
+  ]
+ },
+ "output": {
+  "ticker": "GIS",
+  "concepts": [
+   {
+    "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "label": "Payments to Acquire Property, Plant, and Equipment",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2019-05-27..2020-05-31",
+      "value": "460800000",
+      "fact_id": "xf_e3e58cb26c41c4b3",
+      "reported_in_10k_filed": "2020-07-02"
+     }
+    ]
+   },
+   {
+    "concept": "InterestCostsCapitalizedAdjustment",
+    "label": "Interest Costs Capitalized Adjustment",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2019-05-27..2020-05-31",
+      "value": "2600000",
+      "fact_id": "xf_6410fb255e641741",
+      "reported_in_10k_filed": "2020-07-02"
+     }
+    ]
+   }
+  ]
+ }
+}

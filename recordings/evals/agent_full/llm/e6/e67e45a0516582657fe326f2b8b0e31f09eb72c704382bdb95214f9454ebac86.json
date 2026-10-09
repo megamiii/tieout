@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 15,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TBoZrPJ8RKX0sX2FqIa+8NDANzgxOiM+OcWnJB7fLRHT8ij9YxjRmB76VfY9fVuN4GwFegTdWHrTzOSr+UFA+4nMxgo1uYvTS3VR3po9UIHAs5eC+cuAQb7Y="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"Net cash provided by operating activities $ 3,676.2\",\"source_id\":\"ch_0022ce47fb71fa86\"},{\"quote\":\"Purchases of land, buildings, and equipment $ (460.8)\",\"source_id\":\"ch_64e42fbe9399cfd3\"}],\"confidence\":1,\"rationale\":\"Net cash from operations ($3,676.2 million) minus purchases of land, buildings, and equipment ($460.8 million) gives free cash flow of $3,215.4 million for FY2020.\",\"needs_review\":false,\"answer\":\"For FY2020, General Mills reported net cash provided by operating activities of $3,676.2 million ($3,676,200,000) and purchases of land, buildings, and equipment (capital expenditures) of $460.8 million ($460,800,000). Free cash flow for FY2020 is $3,215.4 million.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_536186",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560779,
+  "id": "SwzJatxm74Tszw_gpazADw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 268,
+   "prompt_tokens": 9219,
+   "total_tokens": 9487
+  }
+ }
+}

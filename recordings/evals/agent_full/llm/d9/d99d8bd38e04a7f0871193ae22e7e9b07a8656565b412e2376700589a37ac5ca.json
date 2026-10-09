@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TcJFTF/sRHXyI7LU8aSUEw4f80vrMp8D5ZOmlCDR7ZPcg/9jwMOtiOKQxEfPm9jb+y5U4LOaYhGStxoRxofhVjQnnNCvOX0gaX/qD+zu7Z5rFMWyJO0Tc9J4="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The estimated future benefit payments table in Note 11 (Employee Benefits) of Verizon's FY 2021 10-K lists expected payments for 2024 as $1,097 million for Pension Benefits and $862 million for Health Care and Life, summing to $1,959 million.\",\"answer\":\"As of fiscal year 2021, Verizon expected to pay a total of $1,959 million for its retirees in 2024. This consisted of $1,097 million in pension benefits and $862 million in health care and life insurance benefits.\",\"citations\":[{\"source_id\":\"ch_8b9f31edf0a2f0b4\",\"quote\":\"2024 1,097 862\"}],\"needs_review\":false,\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_166235",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560308,
+  "id": "dArJasCdCoKwvdIPh-HYmQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 209,
+   "prompt_tokens": 3349,
+   "total_tokens": 3558
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "ADBE",
+  "query": "operating activities",
+  "concept": null,
+  "fiscal_years": [
+   2015
+  ]
+ },
+ "output": {
+  "ticker": "ADBE",
+  "concepts": [
+   {
+    "concept": "NetCashProvidedByUsedInOperatingActivities",
+    "label": "Net Cash Provided by (Used in) Operating Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2015,
+      "period": "2014-11-29..2015-11-27",
+      "value": "1469502000",
+      "fact_id": "xf_4484e442dd832df3",
+      "reported_in_10k_filed": "2016-01-19"
+     }
+    ]
+   },
+   {
+    "concept": "InterestPaidNet",
+    "label": "Interest Paid, Excluding Capitalized Interest, Operating Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2015,
+      "period": "2014-11-29..2015-11-27",
+      "value": "56014000",
+      "fact_id": "xf_155df3733b20c857",
+      "reported_in_10k_filed": "2016-01-19"
+     }
+    ]
+   },
+   {
+    "concept": "OperatingExpenses",
+    "label": "Operating Expenses",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2015,
+      "period": "2014-11-29..2015-11-27",
+      "value": "3148099000",
+      "fact_id": "xf_dd5e60e41ea6a43b",
+      "reported_in_10k_filed": "2016-01-19"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "MMM",
+  "query": "Property, Plant and Equipment, Net",
+  "concept": null,
+  "fiscal_years": [
+   2018
+  ]
+ },
+ "output": {
+  "ticker": "MMM",
+  "concepts": [
+   {
+    "concept": "PropertyPlantAndEquipmentNet",
+    "label": "Property, Plant and Equipment, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "as of 2018-12-31",
+      "value": "8738000000",
+      "fact_id": "xf_1543b9dce1a72359",
+      "reported_in_10k_filed": "2019-02-07"
+     }
+    ]
+   },
+   {
+    "concept": "PropertyPlantAndEquipmentGross",
+    "label": "Property, Plant and Equipment, Gross",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "as of 2018-12-31",
+      "value": "24873000000",
+      "fact_id": "xf_93689c39a0e662e6",
+      "reported_in_10k_filed": "2019-02-07"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies operating activities as the primary source of cash flow and provides the specific figure of $1,824 million, which aligns with the gold answer's $1.8 billion.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T1+1pvUVrf05PWd7qHQK8/cCNxNi+nTDMJeCxG8hu2L+Au+FdTSp4ACaE9P/LVN/CxkaZpzXStOq6QjLvXV0NCKhAt8AZbUp1GQdwqKSIiOHL9heaqAc5H3xRAcUBxdBnmjZAVgvvRaJCsYMD"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791561055,
+  "id": "SA3JaqP_PMvavdIPrcC9mQU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 53,
+   "prompt_tokens": 242,
+   "total_tokens": 295
+  }
+ }
+}

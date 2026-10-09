@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TDBg9K63JzyfOu+UGLid1c7VbzH8Ebd50Wox5HsLCPkNX8dJ74esSYg7oPVfZq+SJmcpNIVvHIgQTW4pHEH66+RVlC2MdFGOos0RE8VhItBIEH05cydy+4Is="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"confidence\":1,\"answer\":\"In fiscal year 2019, General Mills reported net earnings attributable to General Mills of $1,752.7 million (or $1,752.7 million net income). Total net earnings including earnings attributable to redeemable and noncontrolling interests were $1,786.2 million.\",\"citations\":[{\"source_id\":\"ch_5500f4d811242893\",\"quote\":\"Net earnings attributable to General Mills $ 1,752.7\"},{\"source_id\":\"ch_5500f4d811242893\",\"quote\":\"Net earnings, including earnings attributable to redeemable and noncontrolling interests 1,786.2\"}],\"rationale\":\"The Consolidated Statements of Earnings reports Net earnings attributable to General Mills of $1,752.7 million and Net earnings including earnings attributable to redeemable and noncontrolling interests of $1,786.2 million for fiscal year 2019.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_202166",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561668,
+  "id": "ww_Jaoz0N8vavdIPrcC9mQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 250,
+   "prompt_tokens": 4439,
+   "total_tokens": 4689
+  }
+ }
+}

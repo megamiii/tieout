@@ -1,0 +1,67 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "NKE",
+  "query": "cost of goods sold",
+  "concept": null,
+  "fiscal_years": [
+   2016,
+   2017,
+   2018
+  ]
+ },
+ "output": {
+  "ticker": "NKE",
+  "concepts": [
+   {
+    "concept": "CostOfGoodsAndServicesSold",
+    "label": "Cost of Goods and Services Sold",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "2017-06-01..2018-05-31",
+      "value": "20441000000",
+      "fact_id": "xf_a381e263b7d2305d",
+      "reported_in_10k_filed": "2019-07-23"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "2016-06-01..2017-05-31",
+      "value": "19038000000",
+      "fact_id": "xf_e4a2f822816dd1fe",
+      "reported_in_10k_filed": "2019-07-23"
+     }
+    ]
+   },
+   {
+    "concept": "CostOfGoodsSold",
+    "label": "Cost of Goods Sold (Deprecated 2018-01-31)",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "2017-06-01..2018-05-31",
+      "value": "20441000000",
+      "fact_id": "xf_b4336b046458a55b",
+      "reported_in_10k_filed": "2018-07-25"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "2016-06-01..2017-05-31",
+      "value": "19038000000",
+      "fact_id": "xf_5af46748838e56f0",
+      "reported_in_10k_filed": "2017-07-20"
+     },
+     {
+      "fiscal_year": 2016,
+      "period": "2015-06-01..2016-05-31",
+      "value": "17405000000",
+      "fact_id": "xf_ac2a3b1a0b189a6b",
+      "reported_in_10k_filed": "2016-07-21"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies all four geographic regions specified in the gold answer.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TG5K8d2sKjE/z0tjYeHBeS8xQAGZ7fTGo+3wV9N7Cd01CvBcNRPDD4MWmKFG0P2RNw20jqmq82+LyERRVLRJ/1imfIc6HfodrhOAd9MPYz3RMH0U3sitgkCwB3HRbJNVM0zUHJ4d/JXyMarS1"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791560939,
+  "id": "6QzJapvyLa6FxN8P947lgQc",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 26,
+   "prompt_tokens": 210,
+   "total_tokens": 236
+  }
+ }
+}

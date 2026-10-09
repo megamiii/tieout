@@ -1,0 +1,70 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMCR",
+  "query": "operating income",
+  "concept": null,
+  "fiscal_years": [
+   2020
+  ]
+ },
+ "output": {
+  "ticker": "AMCR",
+  "concepts": [
+   {
+    "concept": "OperatingIncomeLoss",
+    "label": "Operating Income (Loss)",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2019-07-01..2020-06-30",
+      "value": "994000000",
+      "fact_id": "xf_fbec194c4d391ba6",
+      "reported_in_10k_filed": "2020-08-27"
+     }
+    ]
+   },
+   {
+    "concept": "OtherOperatingIncomeExpenseNet",
+    "label": "Other Operating Income (Expense), Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2019-07-01..2020-06-30",
+      "value": "55700000",
+      "fact_id": "xf_c8a4cc158a732423",
+      "reported_in_10k_filed": "2020-08-27",
+      "later_restated_to": [
+       {
+        "value": "55000000",
+        "fact_id": "xf_21f29994360ac9e0",
+        "filed": "2021-08-24"
+       },
+       {
+        "value": "55000000",
+        "fact_id": "xf_a51199d275db30a8",
+        "filed": "2022-08-18"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "concept": "NumberOfOperatingSegments",
+    "label": "Number of Operating Segments",
+    "unit": "numberOfSegments",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2019-07-01..2020-06-30",
+      "value": "5",
+      "fact_id": "xf_82eb38a08fe85ec2",
+      "reported_in_10k_filed": "2020-08-27"
+     }
+    ]
+   }
+  ]
+ }
+}

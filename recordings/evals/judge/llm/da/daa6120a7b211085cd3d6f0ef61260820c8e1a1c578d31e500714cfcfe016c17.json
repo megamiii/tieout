@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the primary drivers of the operating margin decrease, including the specific litigation and exit costs mentioned in the gold answer, while providing more granular detail that is consistent with the company's 10-K filing.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T6td20PzErCzRGczZsyeEwB6eEY6xxSqTUBnz30qYnyFC8lfdEVo2qTPecHHzrs53dOUsjD1hLQ2ufQlEgL6ICnOAsx4gGvff4NF44l/IR7U5A07RB7t+W7laqa6ky3D59DKtIrK7ZyElT1+J"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791561027,
+  "id": "Pw3Jat7QEqOFxN8Pu7moiAY",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 58,
+   "prompt_tokens": 359,
+   "total_tokens": 417
+  }
+ }
+}

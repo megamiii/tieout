@@ -1,0 +1,10 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMCR",
+  "query": null,
+  "concept": null,
+  "fiscal_years": null
+ },
+ "error": "give a query (line item in words) or an exact concept"
+}

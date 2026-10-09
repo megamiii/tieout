@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "PEP",
+  "query": "restructuring",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "PEP",
+  "concepts": [
+   {
+    "concept": "PaymentsForRestructuring",
+    "label": "Payments for Restructuring",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-26..2022-12-31",
+      "value": "224000000",
+      "fact_id": "xf_c94da21fabb09e1b",
+      "reported_in_10k_filed": "2023-02-09"
+     }
+    ]
+   },
+   {
+    "concept": "RestructuringCharges",
+    "label": "Restructuring Charges",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-26..2022-12-31",
+      "value": "0",
+      "fact_id": "xf_b28bc21c8b928f0c",
+      "reported_in_10k_filed": "2023-02-09"
+     }
+    ]
+   }
+  ]
+ }
+}

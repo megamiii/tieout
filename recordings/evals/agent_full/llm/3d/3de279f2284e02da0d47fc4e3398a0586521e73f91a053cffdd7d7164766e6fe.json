@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TC3tDP23ohckz2iQcqAwk07yrPsFuXE5c/E8RYzDt0GAreJl3tk3GRwrsVf09VA884hCK9ppphH8QALHjpTTRSqJhgzLQRUNGFu0R5WtWMFS4Q7H7e/iFbvw="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Net sales $ 16,865.2\",\"ticker\":\"GIS\",\"fiscal_year\":2020}",
+        "name": "search_filings"
+       },
+       "id": "call_236005",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561691,
+  "id": "2Q_JapqTHKr5xN8P0YO5kAg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 6756,
+   "prompt_tokens_details": {
+    "cached_tokens": 4038
+   },
+   "total_tokens": 6799
+  }
+ }
+}

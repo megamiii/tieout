@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Total assets",
+  "ticker": "ADBE",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_123507470a69d218",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 69,
+    "text": "The table below represents the final purchase price allocation to total identifiable intangible assets acquired and net liabilities assumed based on their respective estimated fair values as of December 7, 2020. (dollars in millions) Amount Weighted Average Useful Life (years) Customer contracts and relationships $ 290 10 Purchased technology 100 3 Backlog 40 2 Trademarks 30 5 Total identifiable intangible assets 460 Net liabilities assumed (31) N/A Goodwill (1) 1,095 N/A Total purchase price $ 1,524 _________________________________________ (1) Non-deductible for tax purposes. NOTE 4. CASH, CASH EQUIVALENTS AND SHORT-TERM INVESTMENTS Cash equivalents consist of highly liquid marketable securities with remaining maturities of three months or less at the date of purchase. We classify our investments in marketable debt securities as “available-for-sale.” We carry these investments at fair value, based on quoted market prices or other readily available market information. Unrealized gains…"
+   },
+   {
+    "chunk_id": "ch_73a6c3376737504a",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 72,
+    "text": "The fair value of our financial assets and liabilities at December 3, 2021 was determined using the following inputs: (in millions) Fair Value Measurements at Reporting Date Using Quoted Prices in Active Markets for Identical Assets Significant Other Observable Inputs Significant Unobservable Inputs Total (Level 1) (Level 2) (Level 3) Assets: Cash equivalents: Corporate debt securities $ 5 $ — $ 5 $ — Money market funds 2,914 2,914 — — Time deposits 175 175 — — Short-term investments: Asset-backed securities 124 — 124 — Corporate debt securities 1,425 — 1,425 — Municipal securities 28 — 28 — U.S. Treasury securities 377 — 377 — Prepaid expenses and other current assets: Foreign currency derivatives 98 — 98 — Other assets: Deferred compensation plan assets 151 151 — — Total assets $ 5,297 $ 3,240 $ 2,057 $ — Liabilities: Accrued expenses: Foreign currency derivatives $ 8 $ — $ 8 $ — See Note 4 for further information regarding the fair value of our financial instruments. Our fixed incom…"
+   },
+   {
+    "chunk_id": "ch_f0ca9a6ad2ebb4f3",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 70,
+    "text": "Cash, cash equivalents and short-term investments consisted of the following as of December 3, 2021: (in millions) Amortized Cost Unrealized Gains Unrealized Losses Estimated Fair Value Current assets: Cash $ 750 $ — $ — $ 750 Cash equivalents: Corporate debt securities 5 — — 5 Money market funds 2,914 — — 2,914 Time deposits 175 — — 175 Total cash equivalents 3,094 — — 3,094 Total cash and cash equivalents 3,844 — — 3,844 Short-term fixed income securities: Asset-backed securities 124 — — 124 Corporate debt securities 1,426 2 (3) 1,425 Municipal securities 28 — — 28 U.S. Treasury securities 378 — (1) 377 Total short-term investments 1,956 2 (4) 1,954 Total cash, cash equivalents and short-term investments $ 5,800 $ 2 $ (4) $ 5,798 See Note 5 for further information regarding the fair value of our financial instruments. The following table summarizes the estimated fair value of short-term fixed income debt securities classified as short- term investments based on stated effective matur…"
+   },
+   {
+    "chunk_id": "ch_76414535f94d238a",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 53,
+    "text": "ADOBE INC. CONSOLIDATED BALANCE SHEETS (In millions, except par value) December 2, 2022 December 3, 2021 ASSETS Current assets: Cash and cash equivalents $ 4,236 $ 3,844 Short-term investments 1,860 1,954 Trade receivables, net of allowances for doubtful accounts of $23 and of $16, respectively 2,065 1,878 Prepaid expenses and other current assets 835 993 Total current assets 8,996 8,669 Property and equipment, net 1,908 1,673 Operating lease right-of-use assets, net 407 443 Goodwill 12,787 12,668 Other intangibles, net 1,449 1,820 Deferred income taxes 777 1,085 Other assets 841 883 Total assets $ 27,165 $ 27,241 LIABILITIES AND STOCKHOLDERS' EQUITY Current liabilities: Trade payables $ 379 $ 312 Accrued expenses 1,790 1,736 Debt 500 — Deferred revenue 5,297 4,733 Income taxes payable 75 54 Operating lease liabilities 87 97 Total current liabilities 8,128 6,932 Long-term liabilities: Debt 3,629 4,123 Deferred revenue 117 145 Income taxes payable 530 534 Operating lease liabilities 417…"
+   },
+   {
+    "chunk_id": "ch_27fbd6592dc63879",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 71,
+    "text": "NOTE 5. FAIR VALUE MEASUREMENTS Assets and Liabilities Measured and Recorded at Fair Value on a Recurring Basis The fair value of our financial assets and liabilities at December 2, 2022 was determined using the following inputs: (in millions) Fair Value Measurements at Reporting Date Using Quoted Prices in Active Markets for Identical Assets Significant Other Observable Inputs Significant Unobservable Inputs Total (Level 1) (Level 2) (Level 3) Assets: Cash equivalents: Corporate debt securities $ 39 $ — $ 39 $ — Money market funds 3,479 3,479 — — Time deposits 61 61 — — Short-term investments: Asset-backed securities 97 — 97 — Corporate debt securities 1,266 — 1,266 — Foreign government securities 5 — 5 — Municipal securities 24 — 24 — U.S. agency securities 34 — 34 — U.S. Treasury securities 434 — 434 — Prepaid expenses and other current assets: Foreign currency derivatives 51 — 51 — Other assets: Deferred compensation plan assets 160 160 — — Total assets $ 5,650 $ 3,700 $ 1,950 $ — …"
+   }
+  ]
+ }
+}

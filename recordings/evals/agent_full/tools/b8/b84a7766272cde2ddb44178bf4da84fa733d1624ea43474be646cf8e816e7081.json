@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Dividends paid common preferred total",
+  "ticker": "GIS",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_0d99bc64e055fcd0",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 69,
+    "text": "Cumulative preference stock of 5.0 million shares, without par value, is authorized but unissued. On June 27, 2022, our Board of Directors authorized the repurchase of up to 100 million shares of our common stock. Purchases under the authorization can be made in the open market or in privately negotiated transactions, including the use of call options and other derivative instruments, Rule 10b5-1 trading plans, and accelerated repurchase programs. The authorization has no specified termination date. Share repurchases were as follows: Fiscal Year In Millions 2022 2021 2020 Shares of common stock 13.5 5.0 0.1 Aggregate purchase price $ 876.8 $ 301.4 $ 3.4"
+   },
+   {
+    "chunk_id": "ch_5bbc12a5c2b7f2e9",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 72,
+    "text": "72 We estimate the fair value of each option on the grant date using a Black-Scholes option-pricing model, which requires us to make predictive assumptions regarding future stock price volatility, employee exercise behavior, dividend yield, and the forfeiture rate. We estimate our future stock price volatility using the historical volatility over the expected term of the option, excluding time periods of volatility we believe a marketplace participant would exclude in estimating our stock price volatility. We also have considered, but did not use, implied volatility in our estimate, because trading activity in options on our stock, especially those with tenors of greater than 6 months, is insufficient to provide a reliable measure of expected volatility. Our expected term represents the period of time that options granted are expected to be outstanding based on historical data to estimate option exercises and employee terminations within the valuation model. Separate groups of employee…"
+   },
+   {
+    "chunk_id": "ch_0a52e7576f273a63",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 69,
+    "text": "Sheets. Sodiaal had the right to put all or a portion of its redeemable interest to us at fair value until the divestiture closed in the third quarter of fiscal 2022. In connection with the divestiture, cumulative adjustments made to the redeemable interest related to the fair value put feature were reversed against additional paid-in capital, where changes in the redemption amount were historically recorded, and the resulting carrying value of the noncontrolling interests were included in the calculation of the gain on divestiture. We paid dividends of $105.1 million in fiscal 2022 and $40.3 million in fiscal 2021 to Sodiaal under the terms of the Yoplait SAS, Yoplait Marques SNC, and Liberté Marques Sàrl shareholder agreements. A subsidiary of Yoplait SAS had an exclusive milk supply agreement for its European operations with Sodiaal through November 28, 2021. Net purchases totaled $99.5 million for the six-month period ended November 28, 2021, and $212.1 million for fiscal 2021. For…"
+   },
+   {
+    "chunk_id": "ch_3c0994512dfabf7d",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 49,
+    "text": "(460.8) Acquisition (1,201.3) - - Investments in affiliates, net 15.4 15.5 (48.0) Proceeds from disposal of land, buildings, and equipment 3.3 2.7 1.7 Proceeds from divestitures, net of cash divested 74.1 2.9 - Other, net (13.5) (3.1) 20.9 Net cash used by investing activities (1,690.7) (512.8) (486.2) Cash Flows - Financing Activities Change in notes payable 551.4 71.7 (1,158.6) Issuance of long-term debt 2,203.7 1,576.5 1,638.1 Payment of long-term debt (3,140.9) (2,609.0) (1,396.7) Debt exchange participation incentive cash payment - (201.4) - Proceeds from common stock issued on exercised options 161.7 74.3 263.4 Purchases of common stock for treasury (876.8) (301.4) (3.4) Dividends paid (1,244.5) (1,246.4) (1,195.8) Distributions to noncontrolling and redeemable interest holders (129.8) (48.9) (72.5) Other, net (28.0) (30.9) (16.0) Net cash used by financing activities (2,503.2) (2,715.5) (1,941.5) Effect of exchange rate changes on cash and cash equivalents (58.0) 72.5 (20.7) (De…"
+   },
+   {
+    "chunk_id": "ch_49a8567527e4d1e3",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 78,
+    "text": "- $ 0.2 Fixed income (b) 120.8 - - 120.8 117.3 - - 117.3 Cash and accruals 6.6 - - 6.6 14.8 - - 14.8 Fair value measurement of postretirement benefit plan assets $ 127.4 $ - $ - $ 127.4 $ 132.3 $ - $ - $ 132.3 Assets measured at net asset value (e) 351.8 387.1 Total postretirement benefit plan assets $ 479.2 $ 519.4 (a) Primarily publicly traded common stock for purposes of total return and to maintain equity exposure consistent with policy allocations. Investments include: United States and international public equity securities, mutual funds, and equity futures valued at closing prices from national exchanges, commingled funds valued at fair value using the unit values provided by the investment managers, and certain private equity securities valued using a matrix of pricing inputs reflecting assumptions based on the best information available. (b) Primarily government and corporate debt securities and futures for purposes of total return, managing fixed income exposure to policy all…"
+   }
+  ]
+ }
+}

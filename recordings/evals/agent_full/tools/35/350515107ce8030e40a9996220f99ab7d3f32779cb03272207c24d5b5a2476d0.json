@@ -1,0 +1,30 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMD",
+  "query": "depreciation and amortization",
+  "concept": null,
+  "fiscal_years": [
+   2015
+  ]
+ },
+ "output": {
+  "ticker": "AMD",
+  "concepts": [
+   {
+    "concept": "DepreciationDepletionAndAmortization",
+    "label": "Depreciation, Depletion and Amortization",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2015,
+      "period": "2014-12-28..2015-12-26",
+      "value": "167000000",
+      "fact_id": "xf_78f1f865ab4a47d8",
+      "reported_in_10k_filed": "2016-02-18"
+     }
+    ]
+   }
+  ]
+ }
+}

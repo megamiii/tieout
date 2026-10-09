@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the main legal categories mentioned in the gold answer (opioids and PBM litigation) while providing additional accurate context and specific financial figures that align with the company's 10-K filings.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TP772SXIdKAegbLcw7/qKNqcjaiNhTkqFX5EKKEPJMCQQwlueh4gSIQDz7lpIPXVfYMTdAI/AHEkB/67Ncl9o4TmIEgf0/+AoVWESvEjM7g8kW8DAMon2DzrGZmjZQl6cQgqakZYDJJgUGZJW"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791560987,
+  "id": "Eg3Jap-oCvjbvdIP-avxoAU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 56,
+   "prompt_tokens": 482,
+   "total_tokens": 538
+  }
+ }
+}

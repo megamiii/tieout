@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 5,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TJKCaRRl1fo6s1jlb1h93ymmeQMOKklIF4eP49zCV0IMucTJxNB1EBAH9RdY4ybkIpB+c6cVMenW2HWeCu5U8oQRoGWKq4JSTI7+I9Q3gaIJqGxM6LHZwi1Y="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2018,\"ticker\":\"NKE\",\"query\":\"Consolidated Statements of Income Revenues Cost of sales\"}",
+        "name": "search_filings"
+       },
+       "id": "call_147672",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560611,
+  "id": "owvJavKmCdGG28oPhfnE4QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 3205,
+   "total_tokens": 3246
+  }
+ }
+}

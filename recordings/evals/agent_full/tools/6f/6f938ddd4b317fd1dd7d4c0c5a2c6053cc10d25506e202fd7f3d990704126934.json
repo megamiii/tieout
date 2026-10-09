@@ -1,0 +1,30 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "PEP",
+  "query": "revenue",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "PEP",
+  "concepts": [
+   {
+    "concept": "Revenues",
+    "label": "Revenues",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-26..2022-12-31",
+      "value": "86392000000",
+      "fact_id": "xf_723e7f18d91a4704",
+      "reported_in_10k_filed": "2023-02-09"
+     }
+    ]
+   }
+  ]
+ }
+}

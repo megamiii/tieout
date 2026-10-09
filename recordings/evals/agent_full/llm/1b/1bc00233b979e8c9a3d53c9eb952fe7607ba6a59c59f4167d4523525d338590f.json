@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T/c9OU0QeMCCA4FP8ux+U+xGNipo5QCGHrHLHEP0aoSPchWzmfKCFG1tvba+iFuXoKuIls3xRuNW+yOAVgB29bwjUsIPRS+7IOCG7oaEkg9TSADzKCKdNJuM="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"GLW\",\"query\":\"research and development expense\",\"fiscal_years\":[2021,2022]}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_104839",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561715,
+  "id": "8g_JarflG-KvxN8P9oHwgA4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 42,
+   "prompt_tokens": 1874,
+   "total_tokens": 1916
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TGjWCa58k86Nhe+HCIIk4AD6TqsD9hv93xPE1Bt/1CLSL1JCXGTOv3+0DfGgrENzvbQKk7b3MhM0GLl6ty3NOfHipiiKAkkPwozTbqtJecydJvze3KSFlViw="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"ticker\":\"ADBE\",\"fiscal_year\":2015,\"query\":\"property, plant and equipment\"}",
+        "name": "search_filings"
+       },
+       "id": "call_290578",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561126,
+  "id": "pg3JapydEIX-vdIP39GJ-QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 2311,
+   "total_tokens": 2354
+  }
+ }
+}

@@ -1,0 +1,37 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "ADBE",
+  "fiscal_year": 2015,
+  "item": "8",
+  "page": 61
+ },
+ "output": {
+  "ticker": "ADBE",
+  "fiscal_year": 2015,
+  "item": "8",
+  "title": "Financial Statements and Supplementary Data",
+  "page": 61,
+  "item_pages": [
+   58,
+   105
+  ],
+  "chunks": [
+   {
+    "chunk_id": "ch_383aed4336412da6",
+    "page": 61,
+    "text": "61 ADOBE SYSTEMS INCORPORATED CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME (In thousands) Years Ended November 27, 2015 November 28, 2014 November 29, 2013 Increase/(Decrease) Net income.......................................................................................................... $ 629,551 $ 268,395 $ 289,985 Other comprehensive income (loss), net of taxes: Available-for-sale securities: Unrealized gains / losses on available-for-sale securities ........................... (9,226) 2,315 (2,185) Reclassification adjustment for recognized gains / losses on available- for-sale securities ..................................................................................... (2,955) (3,928) (3,013) Net increase (decrease) from available-for-sale securities ...................... (12,181) (1,613) (5,198)"
+   },
+   {
+    "chunk_id": "ch_39d6880f00ea1a90",
+    "page": 61,
+    "text": "Net increase (decrease) from available-for-sale securities ...................... (12,181) (1,613) (5,198) Derivatives designated as hedging instruments: Unrealized gains / losses on derivative instruments.................................... 29,795 41,993 34,677 Reclassification adjustment for recognized gains / losses on derivative instruments............................................................................................... (55,535) (18,705) (35,914) Net increase (decrease) from derivatives designated as hedging instruments ........................................................................................... (25,740) 23,288 (1,237)"
+   },
+   {
+    "chunk_id": "ch_09d9910b2fb8fa15",
+    "page": 61,
+    "text": "instruments ........................................................................................... (25,740) 23,288 (1,237) Foreign currency translation adjustments ....................................................... (123,065) (75,872) 21,826 Other comprehensive income (loss), net of taxes............................................... (160,986) (54,197) 15,391 Total comprehensive income, net of taxes.......................................................... $ 468,565 $ 214,198 $ 305,376 See accompanying Notes to Consolidated Financial Statements."
+   }
+  ]
+ }
+}

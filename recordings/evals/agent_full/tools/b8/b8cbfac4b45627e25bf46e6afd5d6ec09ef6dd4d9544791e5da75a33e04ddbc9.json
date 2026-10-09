@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Operating income 2014",
+  "ticker": "ADBE",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_afe16f0b2d860c52",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 88,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 88 On January 24, 2014, our Executive Compensation Committee approved the 2014 Performance Share Program, including the award calculation methodology, under the terms of our 2003 Equity Incentive Plan. Under our 2014 Performance Share Program (“2014 Program”), shares may be earned based on the achievement of an objective relative total stockholder return measured over a three-year performance period. The purpose of the 2014 Program is to help focus key employees on building stockholder value, provide significant award potential for achieving outstanding company performance and enhance the ability of Adobe to attract and retain highly talented and competent individuals. Performance share awards will be awarded and fully vest at the later of the three-year anniversary of the grant date on January 24, 2017 or the Executive Compensation Committee's certification of the level of achievement. Participants in th…"
+   },
+   {
+    "chunk_id": "ch_2881456ad64a5f53",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 50,
+    "text": "50 Provision for Income Taxes (dollars in millions) Fiscal 2015 Fiscal 2014 Fiscal 2013 % Change 2015-2014 % Change 2014-2013 Provision ..................................................................... $ 244.2 $ 93.0 $ 66.2 163% 40% Percentage of total revenue....................................... 5% 2% 2% Effective tax rate....................................................... 28% 26% 19% Our effective tax rate increased by approximately two percentage points during fiscal 2015 as compared to fiscal 2014. The increase was primarily due to tax costs associated with licensing acquired company assets to Adobe's trading companies. The increase was partially offset by tax benefits related to the reinstatement of the federal research and development tax credit in December 2014. The reinstatement of the credit was retroactive to January 1, 2014. Our effective tax rate increased by approximately seven percentage points during fiscal 2014 as compared to fiscal 2013. The increase was prim…"
+   },
+   {
+    "chunk_id": "ch_efe4b2d5edc9e24e",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 47,
+    "text": "47 Research and Development, Sales and Marketing and General and Administrative Expenses Research and development and sales and marketing expenses increased slightly during fiscal 2015 as compared to fiscal 2014 primarily due to increases in compensation and related benefits associated with headcount. General and administrative expenses decreased slightly during fiscal 2015 as compared to fiscal 2014 primarily due to the reversal of a previously anticipated loss associated with the HTEAL proceedings, offset in part by increases in compensation and related benefits associated with headcount. The increase in research and development and general and administrative expenses during fiscal 2014 as compared to fiscal 2013 was primarily due to increases in cash incentive and stock-based compensation. The increase in stock-based compensation was driven by a change in the vesting term for stock awards granted as part of our annual review process beginning in fiscal 2013, which decreased the term…"
+   },
+   {
+    "chunk_id": "ch_2ee9e29f64d73bdd",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 49,
+    "text": "Percentage of total revenue....................................... ** ** ** Total non-operating income (expense), net................. $ (29.3) $ (51.3) $ (66.6) (43)% (23)% _________________________________________ (*) Percentage is not meaningful. (**) Percentage is less than 1%. Interest and Other Income (Expense), Net Interest and other income (expense), net consists primarily of interest earned on cash, cash equivalents and short-term fixed income investments. Interest and other income (expense), net also includes gains and losses on fixed income investments and foreign exchange gains and losses other than any gains recorded to revenue from our hedging programs. Interest and other income (expense), net increased in fiscal 2015 as compared to fiscal 2014 primarily due to the gain on the sale of certain property assets and, to a lesser extent, an increased average investment balance and average interest rate. See Note 6 of our Notes to Consolidated Financial Statements for further d…"
+   },
+   {
+    "chunk_id": "ch_a14ca39d164ff4fa",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 49,
+    "text": "interest income on our investment in lease receivable due to the purchase of the East and West Towers of our corporate headquarter offices during fiscal 2014. See Note 15 of our Notes to Consolidated Financial Statements for further details regarding our investment in lease receivables. Interest Expense Interest expense primarily represents interest associated with our senior notes and interest rate swaps. Interest on our senior notes is payable semi-annually, in arrears, on February 1 and August 1. Floating interest payments on the interest rate swaps are paid monthly. The fixed-rate interest receivable on the swaps is received semi-annually concurrent with the senior notes interest payments. Interest expense increased during fiscal 2015 as compared to fiscal 2014 primarily due to the increase in total debt, partially offset by the favorable impact of the interest rate swaps. Interest expense decreased during fiscal 2014 as compared to fiscal 2013 due to the favorable impact of the in…"
+   }
+  ]
+ }
+}

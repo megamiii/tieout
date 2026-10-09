@@ -1,0 +1,48 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0THKN4rSjrZbBxGw57qPNPrY3NXEi1fOyRYKvWQAE+CoU0ASQmglTUzxwpZi1MrRfPwngvKoB5uJYotaxkDTABUe0hdIv2PV21UnEiIhc3MrsgR78nr75V27I="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_years\":[2020,2021],\"ticker\":\"NKE\",\"query\":\"Cost of sales\"}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_159967",
+       "type": "function"
+      },
+      {
+       "function": {
+        "arguments": "{\"fiscal_years\":[2020,2021],\"query\":\"Inventories\",\"ticker\":\"NKE\"}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_159968",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560548,
+  "id": "YwvJarywKouJvdIPn8K22Ak",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 81,
+   "prompt_tokens": 1904,
+   "total_tokens": 1985
+  }
+ }
+}

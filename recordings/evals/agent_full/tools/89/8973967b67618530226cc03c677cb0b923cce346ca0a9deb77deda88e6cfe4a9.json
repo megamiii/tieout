@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Multiple legal actions have been filed against us as a result of the October 29, 2018 accident of Lion Air Flight 610",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_87c7e84ed08663db",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 113,
+    "text": "Table of Contents based upon current information, that the outcome of any such legal proceeding, claim, or government dispute and investigation will not have a material effect on our financial position, results of operations or cash flows. Where it is reasonably possible that we will incur losses in excess of recorded amounts in connection with any of the matters set forth below, we will disclose either the amount or range of reasonably possible losses in excess of such amounts or, where no such amount or range can be reasonably estimated, the reasons why no such estimate can be made. Multiple legal actions have been filed against us as a result of the October 29, 2018 accident of Lion Air Flight 610 and the March 10, 2019 accident of Ethiopian Airlines Flight 302. During 2021, we entered into (i) a Deferred Prosecution Agreement with the U.S. Department of Justice that resolved the Department of Justice's previously disclosed investigation into us regarding the evaluation of the 737 M…"
+   },
+   {
+    "chunk_id": "ch_558a8b315b07690a",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 19,
+    "text": "Table of Contents weapons, cybersecurity, border security systems, anti-terrorism technologies and/or air traffic management systems may not be insurable on commercially reasonable terms. While some of these products are shielded from liability within the U.S. under the SAFETY Act provisions of the 2002 Homeland Security Act, no such protection is available outside the U.S., potentially resulting in significant liabilities. See Note 21 of the Consolidated Financial Statements for discussion of legal proceedings resulting from the October 29, 2018 accident of Lion Air Flight 610 and the March 10, 2019 accident of Ethiopian Airlines Flight 302. The amount of insurance coverage we maintain may be inadequate to cover these or other claims or liabilities. A significant portion of our customer financing portfolio is concentrated among certain customers and in certain types of Boeing aircraft, which exposes us to concentration risks. A significant portion of our customer financing portfolio i…"
+   },
+   {
+    "chunk_id": "ch_edffcd4420cd9382",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 16,
+    "text": "that the incident posed no risk to flight safety. We promptly notified law enforcement, regulatory authorities and customers, launched an investigation, and took additional steps to protect the integrity of our systems. While this incident has not had a material impact on us, future incidents like this one could have material impact on our business, operations, and reputation. In addition, we manage information and information technology systems for certain customers and/or suppliers. Many of these customers and/or suppliers face similar security threats. If we were unable to protect against the unauthorized access, release and/or corruption of our customers' and/or suppliers' confidential, classified or personally identifiable information, our reputation could be damaged, and/or we could face financial or other losses. Business disruptions could seriously affect our future sales and financial condition or increase our costs and expenses. Our business may be impacted by disruptions inc…"
+   },
+   {
+    "chunk_id": "ch_0576a684ea7a9a48",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 90,
+    "text": "the bondholders as well as the borrower/lessee of the properties purchased with the IRB proceeds. The liabilities and IRB assets are equal and are reported net in the Consolidated Statements of Financial Position. As of December 31, 2022 and 2021, the assets and liabilities associated with the IRBs were $271. Recoverable Costs on Government Contracts Our final incurred costs for each year are subject to audit and review for allowability by the U.S. government, which can result in payment demands related to costs they believe should be disallowed. We work with the U.S. government to assess the merits of claims and where appropriate reserve for amounts disputed. If we are unable to satisfactorily resolve disputed costs, we could be required to record an earnings charge and/or provide refunds to the U.S. government. Fixed-Price Contracts Substantially all contracts at BDS and the majority of contracts at BGS Government are long-term contracts. Long-term contracts that are contracted on a …"
+   },
+   {
+    "chunk_id": "ch_a2a32ca5a9dacb47",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 93,
+    "text": "Table of Contents Other Indemnifications In conjunction with our sales of Electron Dynamic Devices, Inc. and Rocketdyne Propulsion and Power businesses and our BCA facilities in Wichita, Kansas and Tulsa and McAlester, Oklahoma, we agreed to indemnify, for an indefinite period, the buyers for costs relating to pre-closing environmental conditions and certain other items. We are unable to assess the potential number of future claims that may be asserted under these indemnifications, nor the amounts thereof (if any). As a result, we cannot estimate the maximum potential amount of future payments under these indemnities and therefore, no liability has been recorded. To the extent that claims have been made under these indemnities and/or are probable and reasonably estimable, liabilities associated with these indemnities are included in the environmental liability disclosure in Note 13. Note 15 – Debt In the third quarter of 2022, we entered into a $5,800 364-day revolving credit agreement…"
+   }
+  ]
+ }
+}

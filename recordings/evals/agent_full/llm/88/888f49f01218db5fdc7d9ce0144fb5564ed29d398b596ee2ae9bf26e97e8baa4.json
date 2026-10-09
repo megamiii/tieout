@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TzYdMb68ZVwXkwPMVHo+JtIonupmtJVrl1Q6OKBvErC3zwSrrWiZjK3Lwij9wKrivDEFCSlID02aaE2vGf0sc57UwmBA37pi97KsLmFMKmElXWGgxywRsLoQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"As of FY2022, PepsiCo serves customers and consumers in more than 200 countries and territories and operates through seven reportable segments:\\n1) Frito-Lay North America (United States and Canada)\\n2) Quaker Foods North America (United States and Canada)\\n3) PepsiCo Beverages North America (United States and Canada)\\n4) Latin America\\n5) Europe\\n6) Africa, Middle East and South Asia\\n7) Asia Pacific, Australia, and New Zealand and China region\\n\\nKey developing and emerging markets include Mexico, the Middle East, China, South Africa, Brazil, and India.\",\"rationale\":\"The shortened quote fits under the 300 character limit while accurately providing PepsiCo's operating geographies and reportable segment breakdown.\",\"confidence\":1,\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_a883629456d85853\",\"quote\":\"serving customers and consumers in more than 200 countries and territories.\"},{\"quote\":\"1) Frito-Lay North America (FLNA), which includes our branded convenient food businesses in the United States and Canada;\",\"source_id\":\"ch_7675130d841f32c8\"},{\"source_id\":\"ch_1dc79e85f0e4c835\",\"quote\":\"Our success depends in part on our ability to grow our business in developing and emerging markets, including Mexico, the Middle East, China, South Africa, Brazil and India.\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_881419",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559810,
+  "id": "gQjJaomGI5Xuxs0PnYKZ4AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 355,
+   "prompt_tokens": 8676,
+   "total_tokens": 9031
+  }
+ }
+}

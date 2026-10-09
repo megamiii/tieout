@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TeTOKWproxUTP7uCLivn06ns1HHrggUHM7w4poFgUi+XxTFaAAhx8BDIl8hyXgkSdLS0VNIU71sGT7s/K2SCCwjEqT0BdvrnIHxJXUQTwYyXJGWuBr2IoQnk="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"Not available in tools\",\"needs_review\":true,\"citations\":[],\"confidence\":0,\"rationale\":\"Unable to locate the cash flows from investing activities line item for purchases of property, plant, and equipment in the provided AXP filings.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_187527",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561410,
+  "id": "wQ7Jaq6JNKKExN8P9PeS6AY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 67,
+   "prompt_tokens": 7969,
+   "total_tokens": 8036
+  }
+ }
+}

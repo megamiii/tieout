@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Earnings Net income",
+  "ticker": "BBY",
+  "fiscal_year": 2019,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_875b47a8cab19292",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Table of Contents Consolidated Statements of Earnings $ and shares in millions, except per share amounts Fiscal Years Ended February 2, 2019 February 3, 2018 January 28, 2017 Revenue $ 42,879 $ 42,151 $ 39,403 Cost of goods sold 32,918 32,275 29,963 Gross profit 9,961 9,876 9,440 Selling, general and administrative expenses 8,015 8,023 7,547 Restructuring charges 46 10 39 Operating income 1,900 1,843 1,854 Other income (expense): Gain on sale of investments 12 1 3 Investment income and other 49 48 31 Interest expense (73) (75) (72) Earnings from continuing operations before income tax expense 1,888 1,817 1,816 Income tax expense 424 818 609 Net earnings from continuing operations 1,464 999 1,207 Gain from discontinued operations (Note 3), net of tax expense of $0, $0 and $7, respectively — 1 21 Net earnings $ 1,464 $ 1,000 $ 1,228 Basic earnings per share Continuing operations $ 5.30 $ 3.33 $ 3.79 Discontinued operations — — 0.07 Basic earnings per share $ 5.30 $ 3.33 $ 3.86 Diluted ea…"
+   },
+   {
+    "chunk_id": "ch_bbfe140efcd3855c",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 6",
+    "page": 27,
+    "text": "Table of Contents (3) Included within operating income, net earnings from continuing operations and net earnings attributable to Best Buy Co., Inc. shareholders for fiscal 2018 is $80 million ($51 million net of taxes) related to a one-time bonus for certain employees and $20 million ($13 million net of taxes) related to a one-time contribution to the Best Buy Foundation in response to future tax savings created by the Tax Act. Also included in net earnings from continuing operations and net earnings attributable to Best Buy Co., Inc. shareholders for fiscal 2018 is $283 million of charges resulting from the Tax Act. Refer to Note 11, Income Taxes , in the Notes to the Consolidated Financial Statements, included in Item 8, Financial Statements and Supplementary Data , of this Annual Report on Form 10-K. (4) Included within net earnings from continuing operations and net earnings attributable to Best Buy Co., Inc. shareholders for fiscal 2017 includes $161 million ($100 million net of t…"
+   },
+   {
+    "chunk_id": "ch_1c407f1f4f314a2b",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Table of Contents Consolidated Results The following table presents selected consolidated financial data for each of the past three fiscal years ($ in millions, except per share amounts): Consolidated Performance Summary 2019 2018 2017 Revenue $ 42,879 $ 42,151 $ 39,403 Revenue % increase (decrease) 1.7% 7.0% (0.3)% Comparable sales growth (1) 4.8% 5.6% 0.3 % Gross profit $ 9,961 $ 9,876 $ 9,440 Gross profit as a % of revenue (2) 23.2% 23.4% 24.0 % SG&A $ 8,015 $ 8,023 $ 7,547 SG&A as a % of revenue 18.7% 19.0% 19.2 % Restructuring charges $ 46 $ 10 $ 39 Operating income $ 1,900 $ 1,843 $ 1,854 Operating income as a % of revenue 4.4% 4.4% 4.7 % Net earnings from continuing operations $ 1,464 $ 999 $ 1,207 Gain from discontinued operations (3) $ — $ 1 $ 21 Net earnings $ 1,464 $ 1,000 $ 1,228 Diluted earnings per share from continuing operations $ 5.20 $ 3.26 $ 3.74 Diluted earnings per share $ 5.20 $ 3.26 $ 3.81 (1) The Canadian brand consolidation, which included the permanent closure…"
+   },
+   {
+    "chunk_id": "ch_1786f9b1e2e38025",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 78,
+    "text": "Table of Contents Earnings per Share We compute our basic earnings per share based on the weighted-average number of common shares outstanding, and our diluted earnings per share based on the weighted-average number of common shares outstanding adjusted by the number of additional shares that would have been outstanding had the potentially dilutive common shares been issued. Potentially dilutive securities include stock options, nonvested share awards and shares issuable under our employee stock purchase plan. Nonvested market-based share awards and nonvested performance-based share awards are included in the average diluted shares outstanding each period if established market or performance criteria have been met at the end of the respective periods. At February 2, 2019 , options to purchase 2.4 million shares of common stock were outstanding as follows (shares in millions): Exercisable Unexercisable Total Shares % Weighted- Average Price per Share Shares % Weighted- Average Price per…"
+   },
+   {
+    "chunk_id": "ch_2d4062d782e3d0ab",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Table of Contents Consolidated Statements of Changes in Shareholders' Equity $ and shares in millions, except per share amounts Common Shares Common Stock Prepaid Share Repurchase Additional Paid-In Capital Retained Earnings Accumulated Other Comprehensive Income (Loss) Total Equity Balances at January 30, 2016 324 $ 32 $ (55) $ — $ 4,130 $ 271 $ 4,378 Net earnings — — — — 1,228 — 1,228 Other comprehensive income (loss), net of tax: Foreign currency translation adjustments — — — — — 10 10 Reclassification of foreign currency translation adjustments into earnings — — — — — (2) (2) Settlement of accelerated share repurchase — — 55 — — — 55 Tax benefits from stock options exercised, restricted stock vesting and employee stock purchase plan — — — 17 — — 17 Stock-based compensation — — — 108 — — 108 Issuance of common stock 8 1 — 170 — — 171 Common stock dividends, $1.57 per share — — — — (505) — (505) Repurchase of common stock (21) (2) — (295) (454) — (751) Balances at January 28, 2017 31…"
+   }
+  ]
+ }
+}

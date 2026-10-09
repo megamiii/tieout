@@ -1,0 +1,32 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "AMD",
+  "fiscal_year": 2015,
+  "item": "8",
+  "page": 58
+ },
+ "output": {
+  "ticker": "AMD",
+  "fiscal_year": 2015,
+  "item": "8",
+  "title": "Financial Statements and Supplementary Data",
+  "page": 58,
+  "item_pages": [
+   56,
+   94
+  ],
+  "chunks": [
+   {
+    "chunk_id": "ch_09bec6e2e4aa68dd",
+    "page": 58,
+    "text": "Advanced Micro Devices, Inc. Consolidated Balance Sheets December 26, 2015 December 27, 2014 (In millions, except par value amounts) ASSETS Current assets: Cash and cash equivalents $ 785 $ 805 Marketable securities — 235 Accounts receivable, net 533 818 Inventories, net 678 685 Prepayments and other - GLOBALFOUNDRIES 33 113 Prepaid expenses 43 32 Other current assets 248 48 Total current assets 2,320 2,736 Property, plant and equipment, net 188 302 Acquisition related intangible assets, net — 65 Goodwill 278 320 Other assets 323 344 Total assets $ 3,109 $ 3,767 LIABILITIES AND STOCKHOLDERS' EQUITY (DEFICIT) Current liabilities: Short-term debt $ 230 $ 177 Accounts payable 279 415 Payable to GLOBALFOUNDRIES 245 218 Accrued liabilities 472 518 Other current liabilities 124 40 Deferred income on shipments to distributors 53 72 Total current liabilities 1,403 1,440 Long-term debt 2,032 2,035 Other long-term liabilities 86 105 Commitments and contingencies (see Notes 15 and 16) Stockholders' equity: Capital stock: Common stock, par value $0.01; 1,500 shares authorized on December 26, 2015 and December 27, 2014; shares issued: 806 shares on December 26, 2015 and 788 shares on December 27, 2014; shares outstanding: 792 shares on December 26, 2015 and 776 shares on December 27, 2014 8 8 Additional paid-in capital 7,017 6,949 Treasury stock, at cost (14 shares on December 26, 2015 and 12 shares on December 27, 2014 ) (123) (119) Accumulated deficit (7,306) (6,646) Accumulated other comprehensive loss (8) (5) Total stockholders' equity (deficit) (412) 187 Total liabilities and stockholders' equity (deficit) $"
+   },
+   {
+    "chunk_id": "ch_83db64f6253cac96",
+    "page": 58,
+    "text": "(119) Accumulated deficit (7,306) (6,646) Accumulated other comprehensive loss (8) (5) Total stockholders' equity (deficit) (412) 187 Total liabilities and stockholders' equity (deficit) $ 3,109 $ 3,767 See accompanying notes to consolidated financial statements. 56"
+   }
+  ]
+ }
+}

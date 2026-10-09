@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "geographies primarily operates in",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5347e5a42a26c983",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 223,
+    "text": "articles, sections, subsections, paragraphs, subparagraphs and clauses. Articles are designated by capital roman numerals. Sections are designated by Arabic numerals containing a decimal point. Subsections are designated by lower-case letters in parentheses. Paragraphs are designated by Arabic numerals in parentheses. Subparagraphs are designated by lower-case roman numerals in parentheses. Clauses are designated by upper-case letters in parentheses. Any reference in a section to a subsection (with no accompanying section reference) shall be read as a reference to the subsection with the specified designation contained in that same section. A similar rule shall apply with respect to paragraph references within a subsection and subparagraph references within a paragraph. th 8"
+   },
+   {
+    "chunk_id": "ch_8ab6511605b24f81",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 100,
+    "text": "We are subject to commodity price risk because our ability to recover increased costs through higher pricing may be limited in the competitive environment in which we operate. This risk is managed through the use of fixed-price contracts and purchase orders, pricing agreements and derivative instruments, which primarily include swaps and futures. In addition, risk to our supply of certain raw materials is mitigated through purchases from multiple geographies and suppliers. We use derivatives, with terms of no more than three years, to hedge price fluctuations related to a portion of our anticipated commodity purchases, primarily for agricultural products, energy and metals. Derivatives used to hedge commodity price risk that do not qualify for hedge accounting treatment are marked to market each period with the resulting gains and losses recorded in corporate unallocated expenses as either cost of sales or selling, general and administrative expenses, depending on the underlying commod…"
+   },
+   {
+    "chunk_id": "ch_3be4e7884db32edc",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 2",
+    "page": 26,
+    "text": "Item 2. Properties. Our principal executive office located in Purchase, New York and our facilities located in Plano, Texas, all of which we own, are our most significant corporate properties. In connection with making, marketing, distributing and selling our products, each division utilizes manufacturing, processing, bottling and production plants, warehouses, distribution centers, storage facilities, offices, including division headquarters, research and development facilities and other facilities, all of which are either owned or leased. Significant properties by division are as follows: Property Type Location Owned/ Leased FLNA Research and development facility Plano, Texas Owned QFNA Convenient food plant Cedar Rapids, Iowa Owned PBNA Research and development facility Valhalla, New York Owned PBNA Concentrate plant Arlington, Texas Owned LatAm Convenient food plant Celaya, Mexico Owned LatAm Two convenient food plants Vallejo, Mexico Owned Europe Convenient food plant Leicester, U…"
+   },
+   {
+    "chunk_id": "ch_529978bb58a3e6db",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 15,
+    "text": "future adversely affect our business by resulting in losses due to their cost, the destruction of product inventory or lost sales due to any unavailability of the product for a period of time. In addition, product quality or safety issues, whether as a result of failure to comply with food safety laws or otherwise, have in the past and could in the future also reduce consumer confidence and demand for our products, cause production and delivery disruptions, and result in increased costs (including payment of fines and/or judgments) and damage our reputation (or the reputation of joint ventures in which we have an interest), particularly as we or our joint ventures continue to expand into new categories, such as the distribution of alcoholic beverages, all of which can adversely affect our business. Failure to maintain adequate oversight over product quality or safety can result in product recalls, litigation, government investigations or inquiries or civil or criminal proceedings, all …"
+   },
+   {
+    "chunk_id": "ch_e40785ee589e46fa",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 9,
+    "text": "Changes to the retail landscape, including increased consolidation of retail ownership, the continued growth of sales through e- commerce websites and mobile commerce applications, including through subscription services and other direct-to-consumer businesses, the integration of physical and digital operations among retailers, as well as the international expansion of hard discounters, and the current economic environment continue to increase the importance of major customers. In 2022, sales to Walmart Inc. (Walmart) and its affiliates, including Sam's Club (Sam's), represented approximately 14% of our consolidated net revenue, with sales reported across all of our divisions, including concentrate sales to our independent bottlers, which were used in finished goods sold by them to Walmart. The loss of this customer would have a material adverse effect on our FLNA, QFNA and PBNA divisions. Our Competition Our beverage and convenient food products are in highly competitive categories an…"
+   }
+  ]
+ }
+}

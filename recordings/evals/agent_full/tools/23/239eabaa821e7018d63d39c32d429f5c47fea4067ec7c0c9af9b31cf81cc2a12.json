@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_8018e980bbebd754",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 68,
+    "text": "Table of Contents Notes to Consolidated Financial Statements Note 1 — Basis of Presentation and Our Divisions Basis of Presentation The accompanying consolidated financial statements have been prepared in accordance with GAAP and include the consolidated accounts of PepsiCo, Inc. and the affiliates that we control. In addition, we include our share of the results of certain other affiliates using the equity method based on our economic ownership interest, our ability to exercise significant influence over the operating or financial decisions of these affiliates or our ability to direct their economic resources. We do not control these other affiliates, as our ownership in these other affiliates is generally 50% or less. Intercompany balances and transactions are eliminated. As a result of exchange restrictions and other operating restrictions, we do not have control over our Venezuelan subsidiaries. As such, our Venezuelan subsidiaries are not included within our consolidated financial…"
+   },
+   {
+    "chunk_id": "ch_58356f54ab490a7e",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 160,
+    "text": "such unrestricted subsidiary would not be restricted from incurring secured debt nor would we be required, upon such incurrence, to secure the notes equally and ratably with such secured debt. Consolidation, Merger or Sale of Assets We may consolidate or merge with or into, or convey or transfer all or substantially all of our assets to, any entity (including, without limitation, a limited partnership or a limited liability company); provided that: • we will be the surviving corporation or, if not, that the successor will be a corporation that is organized and validly existing under the laws of any state of the United States of America or the District of Columbia and will expressly assume by a supplemental indenture our obligations under the indenture and the notes; • immediately after giving effect to such transaction, no event of default, and no default or other event which, after notice or lapse of time, or both, would become an event of default, will have happened and be continuing…"
+   },
+   {
+    "chunk_id": "ch_34840c001eadbe76",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 63,
+    "text": "Table of Contents Consolidated Statement of Comprehensive Income PepsiCo, Inc. and Subsidiaries Fiscal years ended December 31, 2022, December 25, 2021 and December 26, 2020 (in millions) 2022 2021 2020 Net income $ 8,978 $ 7,679 $ 7,175 Other comprehensive (loss)/income, net of taxes: Net currency translation adjustment (643) (369) (650) Net change on cash flow hedges (158) 155 7 Net pension and retiree medical adjustments 389 770 (532) Other 4 22 (1) (408) 578 (1,176) Comprehensive income 8,570 8,257 5,999 Less: Comprehensive income attributable to noncontrolling interests 64 61 55 Comprehensive Income Attributable to PepsiCo $ 8,506 $ 8,196 $ 5,944 See accompanying notes to the consolidated financial statements. 61"
+   },
+   {
+    "chunk_id": "ch_85efcc414bae1233",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 112,
+    "text": "accompanying Management's Annual Report on Internal Control over Financial Reporting. Our responsibility is to express an opinion on the Company's consolidated financial statements and an opinion on the Company's internal control over financial reporting based on our audits. We are a public accounting firm registered with the Public Company Accounting Oversight Board (United States) (PCAOB) and are required to be independent with respect to the Company in accordance with the U.S. federal securities laws and the applicable rules and regulations of the Securities and Exchange Commission and the PCAOB. We conducted our audits in accordance with the standards of the PCAOB. Those standards require that we plan and perform the audits to obtain reasonable assurance about whether the consolidated financial statements are free of material misstatement, whether due to error or fraud, and whether effective internal control over financial reporting was maintained in all material respects. Our audi…"
+   },
+   {
+    "chunk_id": "ch_3ffd5d30dcbc13cd",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 55,
+    "text": "Primarily reflects closing of the Juice Transaction. See Note 13 to our consolidated financial statements for further information. (i) Primarily reflects our investment in Celsius convertible preferred stock. See Note 9 to our consolidated financial statements for further information. (j) Primarily reflects debt payments and redemptions, partially offset by debt maturing within one year. See Note 8 to our consolidated financial statements for further information. (k) Primarily reflects higher commodity costs and capital expenditures in 2022. See Note 14 to our consolidated financial statements for further information. (l) Primarily reflects certain impairments and the capitalization of research and development expenses under the TCJ Act, partially offset by the deferred tax impacts of our Juice Transaction. See Note 5 to our consolidated financial statements for further information. (m) Primarily reflects changes related to pension and retiree medical plans. See Note 7 to our consolida…"
+   }
+  ]
+ }
+}

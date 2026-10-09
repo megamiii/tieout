@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "GEOGRAPHIC OPERATIONS United States EMEA APAC LACC",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e09711461c8cf119",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 155,
+    "text": "Table of Contents GEOGRAPHIC OPERATIONS The following table presents our total revenues net of interest expense and pretax income (loss) from continuing operations in different geographic regions based, in part, upon internal allocations, which necessarily involve management's judgment. Effective for the first quarter of 2022, we changed the way in which we allocate certain overhead expenses by geographic region. As a result, prior period pretax income (loss) from continuing operations by geography has been recast to conform to current period presentation; there was no impact at a consolidated level. (Millions) United States EMEA APAC LACC Other Unallocated Consolidated 2022 Total revenues net of interest expense $ 41,396 $ 4,871 $ 3,835 $ 2,917 $ (157) $ 52,862 Pretax income (loss) from continuing operations 10,383 550 376 500 (2,224) 9,585 2021 Total revenues net of interest expense $ 33,103 $ 3,643 $ 3,418 $ 2,238 $ (22) $ 42,380 Pretax income (loss) from continuing operations 10,32…"
+   },
+   {
+    "chunk_id": "ch_85ff4bb7fd20bae5",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 155,
+    "text": "EMEA represents Europe, the Middle East and Africa; APAC represents Asia Pacific, Australia and New Zealand; and LACC represents Latin America, Canada and the Caribbean. (b) Other Unallocated includes net costs which are not directly allocated to specific geographic regions, including costs related to the net negative interest spread on excess liquidity funding and executive office operations expenses. (a) (a) (a) (b) 152"
+   },
+   {
+    "chunk_id": "ch_18e0db3e648881b4",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 153,
+    "text": "Table of Contents NOTE 24 REPORTABLE OPERATING SEGMENTS AND GEOGRAPHIC OPERATIONS REPORTABLE OPERATING SEGMENTS We consider a combination of factors when evaluating the composition of our reportable operating segments, including the results reviewed by the chief operating decision maker, economic characteristics, products and services offered, classes of customers, product distribution channels, geographic considerations (primarily United States versus outside the United States), and regulatory environment considerations. Effective for the first quarter of 2022, we updated the methodology used to allocate certain revenues; prior period amounts have been recast to conform to current period presentation. Effective for the third quarter of 2022, we realigned our reportable segments to reflect organizational changes announced during the second quarter of 2022. Prior periods have been recast to conform to the new reportable operating segments. The following is a brief description of the pri…"
+   },
+   {
+    "chunk_id": "ch_b60a8b89eb43d8e9",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 53,
+    "text": "Table of Contents BUSINESS SEGMENT RESULTS OF OPERATIONS We consider a combination of factors when evaluating the composition of our reportable operating segments, including the results reviewed by the chief operating decision maker, economic characteristics, products and services offered, classes of customers, product distribution channels, geographic considerations (primarily United States versus outside the United States) and regulatory considerations. Refer to Note 24 to the “Consolidated Financial Statements” and Part I, Item 1. “Business” for additional discussion of products and services that comprise each segment. Effective for the third quarter of 2022, we realigned our reportable segments to reflect organizational changes announced during the second quarter of 2022. Prior periods presented herein have been recast to conform to the new reportable operating segments, which are: USCS, CS, ICS and GMNS, with corporate functions and certain other businesses and operations included…"
+   },
+   {
+    "chunk_id": "ch_9968ab3b95e0b525",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 152,
+    "text": "Table of Contents NOTE 23 SIGNIFICANT CREDIT CONCENTRATIONS Concentrations of credit risk exist when changes in economic, industry or geographic factors similarly affect groups of counterparties whose aggregate credit exposure is material in relation to American Express' total credit exposure. Our customers operate in diverse industries, economic sectors and geographic regions. The following table details our maximum credit exposure of the on-balance sheet assets by category as of December 31: (Billions) 2022 2021 Individuals: $ 156 $ 131 United States 129 108 Outside the United States 27 23 Institutions: Financial services 36 24 Other 17 15 U.S. Government and agencies 4 2 Total on-balance sheet $ 213 $ 172 (a) Primarily reflects loans and receivables from global consumer and small business Card Members, which are governed by individual credit risk management. (b) The geographic regions with the largest concentration outside the United States include the United Kingdom, Japan, the Eur…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0THVoDDS1SKeR5AbUC+8DXAdfEmNv2pGMJbnoS+3J+Un0frLjGFbIgnAtf2Ra8hA3GTky4H26IMc8sXXQKSz5HvvcpKv4hihRvyxPrni7hOWH+MOFh6qY02uY="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"answer\":\"AMD's total assets changed by -17.5% from fiscal year 2014 to fiscal year 2015. Total assets decreased from $3,767 million as of December 27, 2014, to $3,109 million as of December 26, 2015.\",\"rationale\":\"Total assets were $3,767 million in FY 2014 and $3,109 million in FY 2015 per AMD's Consolidated Balance Sheets. The percentage change is (3,109 - 3,767) / 3,767 * 100 = -17.467%, which rounds to -17.5%.\",\"citations\":[{\"source_id\":\"ch_09bec6e2e4aa68dd\",\"quote\":\"Total assets $ 3,109 $ 3,767\"},{\"quote\":\"xf_e8f6295a0a5df7f8\",\"source_id\":\"xf_e8f6295a0a5df7f8\"},{\"source_id\":\"xf_ab805bc7c3a43450\",\"quote\":\"xf_ab805bc7c3a43450\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_233525",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561263,
+  "id": "LQ7JatX-MemH28oPy7mhoA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 323,
+   "prompt_tokens": 4448,
+   "total_tokens": 4771
+  }
+ }
+}

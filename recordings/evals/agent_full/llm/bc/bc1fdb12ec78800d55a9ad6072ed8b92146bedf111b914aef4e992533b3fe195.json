@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TfmG5a6YtxEQZvo15RDbHnzLxJ9JMibXANdNofWv5OI6WeOtm6UIYIQ0bv5aWMSyMY/DV8cbdNRb2ObEDKITL7YkCYV3xJCe01UC+HGaeKMzujI/C8PDfkSU="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"Based on Best Buy's Consolidated Statements of Earnings for FY2015, FY2016, and FY2017, the net profit margins (Net earnings including noncontrolling interests divided by Revenue) are as follows:\\n- **FY2015**: Net earnings including noncontrolling interests of $1,235 million divided by Revenue of $40,339 million equals 3.1%\\n- **FY2016**: Net earnings including noncontrolling interests of $897 million divided by Revenue of $39,528 million equals 2.3%\\n- **FY2017**: Net earnings including noncontrolling interests of $1,228 million divided by Revenue of $39,403 million equals 3.1%\\n\\nThe 3-year average net profit margin is 2.8%.\",\"citations\":[{\"source_id\":\"ch_66f8fe4224ac405b\",\"quote\":\"Revenue $ 39,403 $ 39,528 $ 40,339\"},{\"source_id\":\"ch_66f8fe4224ac405b\",\"quote\":\"Net earnings including noncontrolling interests 1,228 897 1,235\"}],\"rationale\":\"Calculated using revenue and net earnings including noncontrolling interests from Best Buy's Consolidated Statements of Earnings across FY2015, FY2016, and FY2017.\",\"needs_review\":false,\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_912134",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560359,
+  "id": "pgrJas-hHu7Yxs0Ps9X-sAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 365,
+   "prompt_tokens": 6389,
+   "prompt_tokens_details": {
+    "cached_tokens": 2298
+   },
+   "total_tokens": 6754
+  }
+ }
+}

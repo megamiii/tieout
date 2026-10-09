@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tf2vNrt7iDt76J0lOSCv+w5BJENJN82T+dO4v/58LMqIgh12NJtwkMVYwSYQH8GEH8e2MJCKD+bQompz7I824HaTcKStBaD6GKDMAbuuMj+orYrv/36z1DeY="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"fiscal_year\":2020,\"query\":\"Consolidated Balance Sheets Assets Current assets\",\"ticker\":\"AMCR\"}",
+        "name": "search_filings"
+       },
+       "id": "call_994559",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560543,
+  "id": "XwvJauHdEKyW28oPh_7GqQc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 5814,
+   "prompt_tokens_details": {
+    "cached_tokens": 2018
+   },
+   "total_tokens": 5859
+  }
+ }
+}

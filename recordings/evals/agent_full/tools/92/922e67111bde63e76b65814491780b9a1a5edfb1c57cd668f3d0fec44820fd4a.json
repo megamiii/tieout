@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "BBY",
+  "query": "net cash provided by operating activities",
+  "concept": null,
+  "fiscal_years": [
+   2019
+  ]
+ },
+ "output": {
+  "ticker": "BBY",
+  "concepts": [
+   {
+    "concept": "NetCashProvidedByUsedInOperatingActivities",
+    "label": "Net Cash Provided by (Used in) Operating Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "2018-02-04..2019-02-02",
+      "value": "2408000000",
+      "fact_id": "xf_2d800ad1053b847d",
+      "reported_in_10k_filed": "2019-03-28"
+     }
+    ]
+   },
+   {
+    "concept": "NetCashProvidedByUsedInFinancingActivities",
+    "label": "Net Cash Provided by (Used in) Financing Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "2018-02-04..2019-02-02",
+      "value": "-2018000000",
+      "fact_id": "xf_d01e2512ba2e78cc",
+      "reported_in_10k_filed": "2019-03-28"
+     }
+    ]
+   },
+   {
+    "concept": "NetCashProvidedByUsedInInvestingActivities",
+    "label": "Net Cash Provided by (Used in) Investing Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "2018-02-04..2019-02-02",
+      "value": "508000000",
+      "fact_id": "xf_ea4c70f8e4e9f5c4",
+      "reported_in_10k_filed": "2019-03-28"
+     }
+    ]
+   }
+  ]
+ }
+}

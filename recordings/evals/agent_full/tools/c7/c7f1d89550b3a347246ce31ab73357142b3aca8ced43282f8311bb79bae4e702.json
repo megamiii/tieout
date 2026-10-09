@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AXP",
+  "query": "liabilities",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "AXP",
+  "concepts": [
+   {
+    "concept": "Liabilities",
+    "label": "Liabilities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "203643000000",
+      "fact_id": "xf_5bfd58f2ecf05aa8",
+      "reported_in_10k_filed": "2023-02-10"
+     }
+    ]
+   },
+   {
+    "concept": "OtherLiabilities",
+    "label": "Other Liabilities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "37350000000",
+      "fact_id": "xf_5fc25ae1844f85cf",
+      "reported_in_10k_filed": "2023-02-10"
+     }
+    ]
+   },
+   {
+    "concept": "LiabilitiesAndStockholdersEquity",
+    "label": "Liabilities and Equity",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "228354000000",
+      "fact_id": "xf_6fcec715986fb2fd",
+      "reported_in_10k_filed": "2023-02-10"
+     }
+    ]
+   }
+  ]
+ }
+}

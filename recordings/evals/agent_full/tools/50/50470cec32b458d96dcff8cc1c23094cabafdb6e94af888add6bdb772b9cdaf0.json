@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "products and services",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": "1",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_4403259691e4ed19",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 10,
+    "text": "applications, on our FPGAs and Adaptive SoCs. Out Vitis AI unified software platform enables the development and deployment of AI software on our FPGAs and Adaptive SoCs. Sales and Marketing We sell our products through our direct sales force and through independent distributors and sales representatives in both domestic and international markets. Our sales arrangements generally operate on the basis of product forecasts provided by the particular customer, but do not typically include any commitment or requirement for minimum product purchases. We primarily use product quotes, purchase orders, sales order acknowledgments and contractual agreements as evidence of our sales arrangements. Our agreements typically contain standard terms and conditions covering matters such as payment terms, warranties and indemnities for issues specific to our products. 7"
+   },
+   {
+    "chunk_id": "ch_d4166c27e7864922",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 4,
+    "text": "server microprocessors (CPUs) and graphics processing units (GPUs), data processing units (DPUs), Field Programmable Gate Arrays (FPGAs), and Adaptive System-on-Chip (SoC) products for data centers; • CPUs, accelerated processing units (APUs) that integrate CPUs and GPUs, and chipsets for desktop and notebook personal computers; • discrete GPUs, and semi-custom SoC products and development services; and • embedded CPUs, GPUs, APUs, FPGAs, and Adaptive SoC products. From time to time, we may also sell or license portions of our intellectual property (IP) portfolio. 1"
+   },
+   {
+    "chunk_id": "ch_572b7832b28a935b",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 15,
+    "text": "disposal of solid and hazardous wastes and remediation of contamination. These laws and regulations require our suppliers to obtain permits for operations making our products, including the discharge of air pollutants and wastewater. Environmental laws are complex, change frequently and have tended to become more stringent over time. For example, the European Union (EU) and China are two among a growing number of jurisdictions that have enacted restrictions on the use of lead and other materials in electronic products. These regulations affect semiconductor devices and packaging. A number of jurisdictions including the EU, Australia, California and China are developing or have finalized market entry or public procurement regulations for computers and servers based on ENERGY STAR specifications as well as additional energy consumption limits. 12"
+   },
+   {
+    "chunk_id": "ch_c2f8ae1df90738db",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 11,
+    "text": "online and brick and mortar retailers. Our graphics product customers include the foregoing as well as add-in-board manufacturers (AIBs). Customers of our chipset products consist primarily of PC OEMs, often through ODMs or other contract manufacturers, who build the OEM motherboards, as well as desktop and server motherboard manufacturers who incorporate chipsets into their channel motherboards. Our FPGA and Adaptive SOC products are sold to customers in a very wide range of markets such as Aerospace and Defense, Test and Measurement, Industrial, Automotive, Consumers, Broadcast, Communication Infrastructure and Data Center. For these products we either sell directly to our customers or through a network of distributors and OEM partners. We are also developing a network of Value Added Resellers (VARs) and Integrated Solution Vendors (ISVs) for our Alveo products. We work closely with our customers to define product features, performance and timing of new products so that the products …"
+   },
+   {
+    "chunk_id": "ch_3fb87b615ebce2bd",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 9,
+    "text": "needs in automotive, industrial, test, measurement, emulation, medical, multimedia, aerospace, defense, communications, networking, security, and storage markets as well as thin clients, which are computers that serve as an access device on a network. Typically, our embedded products are used in applications that require varying levels of performance, where key features may include relatively low power, small form factors, and 24x7 operations. High-performance graphics are important in some embedded systems. Support for Linux , Windows and other operating systems as well as for increasingly sophisticated applications are also critical for some customers. Other requirements may include meeting rigid specifications for industrial temperatures, shock, vibration and reliability. The embedded market has moved from developing proprietary, custom designs to leveraging industry-standard instruction set architectures and processors as a way to help reduce costs and speed time to market. Embedde…"
+   }
+  ]
+ }
+}

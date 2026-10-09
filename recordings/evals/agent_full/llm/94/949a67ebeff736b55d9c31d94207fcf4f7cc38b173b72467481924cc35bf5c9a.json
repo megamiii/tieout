@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TI8wm6n17FWuKjWb/aKafhO4mK+DqbVM9JA9aMxgoo+lTlSSvVQbUR8zfaCN41TFIUHi2/F/rbJkXBQXonje/4NA1gXCJdRi7yExN6TaTUfg6s5lmQc1AkKs="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Consolidated Statements of Cash Flows operating investing financing FY2023\",\"fiscal_year\":2023,\"ticker\":\"BBY\"}",
+        "name": "search_filings"
+       },
+       "id": "call_208113",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560068,
+  "id": "gwnJatbSG4mJ28oPvZ_N0AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 2347,
+   "total_tokens": 2393
+  }
+ }
+}

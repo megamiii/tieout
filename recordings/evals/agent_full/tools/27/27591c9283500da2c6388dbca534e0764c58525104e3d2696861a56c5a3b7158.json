@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Trade receivables",
+  "ticker": "AMCR",
+  "fiscal_year": 2020,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5ce4b90c3702c213",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 56,
+    "text": "and $34.4 million recorded at June 30, 2020 and 2019, respectively, in trade receivables, net, on the consolidated balance sheet. The current year expense to adjust the allowance for doubtful accounts is recorded within selling, general and administrative expenses in the consolidated statement of income. The Company enters into factoring arrangements from time to time to sell trade receivables to third-party financial institutions. Sales of receivables are accounted for in accordance with Financial Accounting Standards Board (\"FASB\") Accounting Standards Codification (\"ASC\") Topic 860, Transfers and Servicing (\"ASC 860\"). Agreements which result in true sales of the transferred receivables, as defined in ASC 860, which occur when receivables are transferred without recourse to the Company, are reflected as a reduction of trade receivables, net on the consolidated balance sheets and the proceeds are included in the cash flows from operating activities in the consolidated statements of c…"
+   },
+   {
+    "chunk_id": "ch_892a33310620ee8d",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 56,
+    "text": "practice or established local practice, liabilities for severance are recognized when incurred. If fixed assets are to be disposed of as a result of the Company's restructuring efforts, the assets are written off when the Company commits to dispose of them and they are no longer in use. Depreciation is accelerated on fixed assets for the period of time the asset continues to be used until the asset ceases to be used. Other restructuring costs, including costs to relocate equipment, are generally recorded as the cost is incurred or the service is provided. See Note 6, \"Restructuring Plans,\" for more information on the Company's restructuring plans. Cash and Cash Equivalents: The Company considers all highly liquid temporary investments with a maturity of three months or less when purchased to be cash equivalents. Cash equivalents include certificates of deposit that can be readily liquidated without penalty at the Company's option. Cash equivalents are carried at cost which approximates…"
+   },
+   {
+    "chunk_id": "ch_fe84466d0f842111",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 63,
+    "text": "The following table summarizes the final allocation of the total purchase consideration to the fair values of the assets acquired and liabilities assumed at the acquisition date. (in millions) Cash and cash equivalents $ 3.3 Trade receivables 425.6 Inventories 665.4 Prepaid expenses and other current assets 80.5 Assets held for sale 464.2 Property, plant and equipment 1,180.1 Deferred tax assets 42.8 Other intangible assets 1,931.2 Other non-current assets 52.8 Total identifiable assets acquired 4,845.9 Current portion of long-term debt 1.7 Short-term debt 8.6 Trade payables 286.2 Accrued employee costs 188.1 Other current liabilities 314.1 Liabilities held for sale 21.9 Long-term debt, less current portion 1,365.3 Deferred tax liabilities 598.5 Employee benefit obligation 62.7 Other non-current liabilities 136.8 Total liabilities assumed 2,983.9 Net identifiable assets acquired 1,862.0 Goodwill 3,367.6 Net assets acquired $ 5,229.6 The following table details the identifiable intangib…"
+   },
+   {
+    "chunk_id": "ch_6210b0fbb4d68020",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 111,
+    "text": "Deed of Cross Guarantee Balance Sheet (in millions) As of June 30, 2020 2019 Assets Current assets: Cash and cash equivalents $ 37.2 $ 52.3 Trade receivables, net 787.2 801.5 Inventories 57.5 65.5 Prepaid expenses and other current assets 13.7 14.3 Total current assets 895.6 933.6 Non-current assets: Property, plant and equipment, net 76.8 82.0 Deferred tax assets 23.3 53.0 Other intangible assets, net 10.4 9.6 Goodwill 91.2 93.1 Other non-current assets 12,454.6 10,417.7 Total non-current assets 12,656.3 10,655.4 Total assets $ 13,551.9 $ 11,589.0 Liabilities Current liabilities: Short-term debt 507.3 155.3 Trade payables 143.3 190.8 Accrued employee costs 17.8 19.0 Other current liabilities 40.7 66.7 Total current liabilities 709.1 431.8 Non-current liabilities: Long-term debt, less current portion 355.8 1,587.7 Other non-current liabilities 2.9 3.3 Total liabilities 1,067.8 2,022.8 Shareholders' Equity Issued 15.7 16.3 Additional paid-in capital 5,500.9 6,030.8 Retained earnings 5,9…"
+   },
+   {
+    "chunk_id": "ch_5fa55fa7e78f3a5c",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 72,
+    "text": "Note 10 - Fair Value Measurements The fair values of the Company's financial assets and financial liabilities listed below reflect the amounts that would be received to sell the assets or paid to transfer the liabilities in an orderly transaction between market participants at the measurement date (exit price). The Company's non-derivative financial instruments primarily include cash and cash equivalents, trade receivables, trade payables, short-term debt and long-term debt. At June 30, 2020 and 2019, the carrying value of these financial instruments, excluding long-term debt, approximates fair value because of the short-term nature of these instruments. Fair value disclosures are classified based on the fair value hierarchy. See Note 2, \"Significant Accounting Policies,\" for information about the Company's fair value hierarchy. The fair value of long-term debt with variable interest rates approximates its carrying value. The fair value of the Company's long-term debt with fixed intere…"
+   }
+  ]
+ }
+}

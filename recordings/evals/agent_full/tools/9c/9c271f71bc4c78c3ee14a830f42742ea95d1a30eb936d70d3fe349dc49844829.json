@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net income",
+  "ticker": "NKE",
+  "fiscal_year": 2019,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_27e7e19ee032e3f9",
+    "ticker": "NKE",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 80,
+    "text": "(70) — (17) (87) Total other comprehensive income (loss) (173) 503 — (7) 323 Balance at May 31, 2019 $ (346) $ 520 $ 115 $ (58) $ 231 (1) The accumulated foreign currency translation adjustment and net investment hedge gains/losses related to an investment in a foreign subsidiary are reclassified to Net income upon sale or upon complete or substantially complete liquidation of the respective entity. (2) Net of tax benefit (expense) of $ 0 million , $ (4) million , $ 0 million , $ 1 million and $ (3) million , respectively. (3) Net of tax (benefit) expense of $ 0 million , $ 6 million , $ 0 million , $ 0 million and $ 6 million , respectively. 78 NIKE, INC."
+   },
+   {
+    "chunk_id": "ch_634ecd0db0854709",
+    "ticker": "NKE",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Table of Contents NIKE, INC. CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME YEAR ENDED MAY 31, (Dollars in millions) 2019 2018 2017 Net income $ 4,029 $ 1,933 $ 4,240 Other comprehensive income (loss), net of tax: Change in net foreign currency translation adjustment (173) (6) 16 Change in net gains (losses) on cash flow hedges 503 76 (515) Change in net gains (losses) on other (7) 34 (32) Total other comprehensive income (loss), net of tax 323 104 (531) TOTAL COMPREHENSIVE INCOME $ 4,352 $ 2,037 $ 3,709 The accompanying Notes to the Consolidated Financial Statements are an integral part of this statement. 2019 FORM 10-K 51"
+   },
+   {
+    "chunk_id": "ch_a421444bbea9ebe8",
+    "ticker": "NKE",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 81,
+    "text": "Table of Contents (Dollars in millions) FOREIGN CURRENCY TRANSLATION ADJUSTMENT (1) CASH FLOW HEDGES NET INVESTMENT HEDGES (1) OTHER TOTAL Balance at May 31, 2017 $ (191) $ (52) $ 115 $ (85) $ (213) Other comprehensive income (loss): Other comprehensive gains (losses) before reclassifications (2) (6) (52) — 2 (56) Reclassifications to net income of previously deferred (gains) losses (3) — 128 — 32 160 Total other comprehensive income (loss) (6) 76 — 34 104 Reclassifications to retained earnings in accordance with ASU 2018-02 (4) 24 (7) — — 17 Balance at May 31, 2018 $ (173) $ 17 $ 115 $ (51) $ (92) (1) The accumulated foreign currency translation adjustment and net investment hedge gains/losses related to an investment in a foreign subsidiary are reclassified to Net income upon sale or upon complete or substantially complete liquidation of the respective entity. (2) Net of tax benefit (expense) of $ (24) million , $ (3) million , $ 0 million , $ (4) million and $ (31) million , respect…"
+   },
+   {
+    "chunk_id": "ch_c990670569f50883",
+    "ticker": "NKE",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 78,
+    "text": "AMOUNT OF GAIN (LOSS) RECOGNIZED IN INCOME ON DERIVATIVES LOCATION OF GAIN (LOSS) RECOGNIZED IN INCOME ON DERIVATIVES YEAR ENDED MAY 31, (Dollars in millions) 2019 2018 2017 Derivatives not designated as hedging instruments: Foreign exchange forwards and options $ 166 $ (57) $ (44) Other (income) expense, net Embedded derivatives 7 (4) (2) Other (income) expense, net CASH FLOW HEDGES All changes in fair value of derivatives designated as cash flow hedges are recorded in Accumulated other comprehensive income (loss) until Net income is affected by the variability of cash flows of the hedged transaction. Effective hedge results are classified in the Consolidated Statements of Income in the same manner as the underlying exposure. Derivative instruments designated as cash flow hedges must be discontinued when it is no longer probable the forecasted hedged transaction will occur in the initially identified time period. The gains and losses associated with discontinued derivative instruments…"
+   },
+   {
+    "chunk_id": "ch_86f1a5f2aeee247e",
+    "ticker": "NKE",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 81,
+    "text": "The following table summarizes the reclassifications from Accumulated other comprehensive income (loss) to the Consolidated Statements of Income: AMOUNT OF GAIN (LOSS) RECLASSIFIED FROM ACCUMULATED OTHER COMPREHENSIVE INCOME (LOSS) INTO INCOME LOCATION OF GAIN (LOSS) RECLASSIFIED FROM ACCUMULATED OTHER COMPREHENSIVE INCOME (LOSS) INTO INCOME YEAR ENDED MAY 31, (Dollars in millions) 2019 2018 Gains (losses) on cash flow hedges: Foreign exchange forwards and options $ (5) $ 34 Revenues Foreign exchange forwards and options 53 (90) Cost of sales Foreign exchange forwards and options — 1 Demand creation expense Foreign exchange forwards and options 35 (69) Other (income) expense, net Interest rate swaps (7) (7) Interest expense (income), net Total before tax 76 (131) Tax (expense) benefit (6) 3 Gain (loss) net of tax 70 (128) Gains (losses) on other 17 (32) Other (income) expense, net Total before tax 17 (32) Tax (expense) benefit — — Gain (loss) net of tax 17 (32) Total net gain (loss) re…"
+   }
+  ]
+ }
+}

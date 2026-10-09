@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net income 5349",
+  "ticker": "MMM",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5ddcea4571fecb07",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 20,
+    "text": "per share, & effective tax rate (non-GAAP measures) (Dollars in millions, except per share amounts) Net Sales Operating Income Operating Income Margin Income Before Taxes Provision for Income Taxes Effective Tax Rate Net Income Attributable to 3M Earnings Per Diluted Share Earnings per diluted share percent change Full Year 2017 GAAP $ 31,657 $ 7,692 24.3 % $ 7,548 $ 2,679 35.5 % $ 4,858 $ 7.93 Adjustment for TCJA — — — — (762) — 762 1.24 Full Year 2017 Adjusted Non-GAAP Measure $ 31,657 $ 7,692 24.3 % $ 7,548 $ 1,917 25.4 % $ 5,620 $ 9.17 Full Year 2018 GAAP $ 32,765 $ 7,207 22.0 % $ 7,000 $ 1,637 23.4 % $ 5,349 $ 8.89 12.1 % Adjustment for measurement period accounting of TCJA — — — — (176) 176 0.29 Adjustment for MN NRD Resolution — 897 — 897 127 770 1.28 Full Year 2018 Adjusted Non-GAAP Measure $ 32,765 $ 8,104 24.7 % $ 7,897 $ 1,588 20.1 % $ 6,295 $ 10.46 14.1 % 20"
+   },
+   {
+    "chunk_id": "ch_8475fd194997b27e",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 16,
+    "text": "Table of Contents Year 2018 and fourth quarter EPS: For the fourth quarter of 2018, net income attributable to 3M was $1.347 billion, or $2.27 per diluted share, compared to $523 million, or $0.85 per diluted share, in the fourth quarter of 2017, an increase of 167 percent on a per diluted share basis. Adjusting for the impacts related to the resolution of the Minnesota natural resource damages (NRD) matter and accounting for the enactment of the Tax Cuts and Jobs Act (TCJA), as further described in the Operating income, operating income margin, income before taxes, net income, earnings per share, and effective tax rate adjusted for impacts of the Minnesota NRD resolution and the measurement period adjustment to the impact of the enactment of the Tax Cuts and Jobs Act (TCJA) - (non-GAAP measures) section below, net income attributable to 3M was $1.366 billion, or $2.31 diluted share for the fourth quarter of 2018, compared to $1.285 billion, or $2.10 per diluted share for the fourth qu…"
+   },
+   {
+    "chunk_id": "ch_413bd40871dcb962",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 16,
+    "text": "for full year 2017, an increase of 12.1 percent on a per diluted share. Adjusting for the NRD matter and the TCJA as described further below, net income was $6.295 billion, or $10.46 per diluted share for the full year 2018, compared to $5.620 billion, or $9.17 per diluted share for full year 2017, an increase of 14.1 percent on a per diluted share basis. These non-GAAP measures are further described and reconciled to the most directly comparable GAAP financial measures in the section that follows. Additional discussion related to the components of the year-on-year change in earnings per diluted share follows: 2017 divestiture of identity management business: · In May 2017, 3M completed the related sale or transfer of control, as applicable of its identity management business and reflected a pre-tax gain of $457 million, which was reported within the Company's Safety and Graphics business. The earnings per share impact reflects the specific income tax rate used for this divestiture. Or…"
+   },
+   {
+    "chunk_id": "ch_86020c672ba33d24",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 126,
+    "text": "Table of Contents Business Segment Information Net Sales Operating Income (Millions) 2018 2017 2016 2018 2017 2016 Industrial $ 12,267 $ 11,866 $ 11,217 $ 2,737 $ 2,490 $ 2,528 Safety and Graphics 6,827 6,235 5,948 1,720 2,066 1,403 Health Care 6,021 5,853 5,606 1,799 1,764 1,731 Electronics and Energy 5,472 5,501 4,926 2,055 1,377 1,145 Consumer 4,796 4,731 4,578 1,027 1,004 1,054 Corporate and Unallocated 50 3 6 (1,465) (395) (321) Elimination of Dual Credit (2,668) (2,532) (2,172) (666) (614) (513) Total Company $ 32,765 $ 31,657 $ 30,109 $ 7,207 $ 7,692 $ 7,027 Assets Depreciation & Amortization Capital Expenditures (Millions) 2018 2017 2016 2018 2017 2016 2018 2017 2016 Industrial $ 9,855 $ 9,895 $ 9,140 $ 376 $ 432 $ 407 $ 454 $ 381 $ 360 Safety and Graphics 9,657 9,874 7,626 300 275 277 210 184 228 Health Care 4,687 4,757 4,293 162 175 175 180 137 136 Electronics and Energy 3,993 4,291 4,335 134 240 223 115 152 187 Consumer 2,757 2,706 2,497 91 112 114 115 109 109 Corporate and …"
+   },
+   {
+    "chunk_id": "ch_a5f0e70a18300dda",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 84,
+    "text": "Table of Contents NOTE 10. Income Taxes Income Before Income Taxes (Millions) 2018 2017 2016 United States $ 3,487 $ 4,149 $ 4,366 International 3,513 3,399 2,687 Total $ 7,000 $ 7,548 $ 7,053 Provision for Income Taxes (Millions) 2018 2017 2016 Currently payable Federal $ 698 $ 1,022 $ 1,192 State 109 59 75 International 763 722 733 Tax Cuts and Jobs Act (TCJA) non-current transition tax provision 176 623 — Deferred Federal (38) 162 (3) State (17) 15 9 International (54) 76 (11) Total $ 1,637 $ 2,679 $ 1,995 Components of Deferred Tax Assets and Liabilities (Millions) 2018 2017 Deferred tax assets: Accruals not currently deductible Employee benefit costs $ 187 $ 178 Product and other claims 228 204 Miscellaneous accruals 113 98 Pension costs 643 760 Stock-based compensation 203 210 Net operating/capital loss/tax credit carryforwards 71 89 Foreign tax credits — 32 Currency translation — 59 Inventory 54 51 Other 24 — Gross deferred tax assets 1,523 1,681 Valuation allowance (67) (81) To…"
+   }
+  ]
+ }
+}

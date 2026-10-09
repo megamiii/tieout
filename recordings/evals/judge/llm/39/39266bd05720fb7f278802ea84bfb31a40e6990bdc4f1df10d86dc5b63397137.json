@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies that operating activities provided the most cash flow and includes the specific figures from the 10-K to support this conclusion.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TwhhQBqZKIP0B0QKnoo+uwCwl8S3NhEg2JkdB3hVuFgsNY/ovli/SNNW//8gYQp9PX12gUxPvt7NG9pXL1xBwT49SHApI+qluephaxfsfesUC5tRfDvbbtYJ7AFtXfuBJgJmkheUMzSNnsEgz"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791561016,
+  "id": "Nw3JapHcOID7vdIP76S1sAU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 239,
+   "total_tokens": 280
+  }
+ }
+}

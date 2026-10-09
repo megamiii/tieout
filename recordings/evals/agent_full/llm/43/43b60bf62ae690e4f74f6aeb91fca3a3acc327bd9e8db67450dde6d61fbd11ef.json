@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "For Nike in FY2023, **operating activities** brought in the most cash flow, providing **$5,841 million**. \n\n- **Cash provided by operations:** $5,841 million\n- **Cash provided by investing activities:** $564 million\n- **Cash used by financing activities:** $(7,447) million",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0THaNQqMFgp30lFsCi8q77HkOoKJ8Eew87U6vl9e05VHeWOxrBB5QUgcB2L+qzlPzQvyzH5FaUCHGvfZVU64ehf2Pz4RxtztrR9exak04X0jrtgu31i0HayF8="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791559990,
+  "id": "NQnJaq2fLd3txs0Pw9zL4Ak",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 77,
+   "prompt_tokens": 4504,
+   "total_tokens": 4581
+  }
+ }
+}

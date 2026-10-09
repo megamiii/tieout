@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T53/rRxtAoRPxyRA1Kd2B67kSEWpcX/rJPJuA92QoR7hwvmpawFFMBTBu7e7bxhgSWCtQrfONQfbZ0pAOpneVeDOUPou/BEcSZNkVuhpeq5vFuEiUzMJrQ4A="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"CONSOLIDATED BALANCE SHEETS Total current liabilities\",\"ticker\":\"ADBE\",\"fiscal_year\":2017}",
+        "name": "search_filings"
+       },
+       "id": "call_257994",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560536,
+  "id": "VwvJaqPcMbeJxN8Pnrbg-QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 4652,
+   "total_tokens": 4693
+  }
+ }
+}

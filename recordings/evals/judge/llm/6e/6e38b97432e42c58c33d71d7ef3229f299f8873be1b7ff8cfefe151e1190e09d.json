@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the Consumer segment as the one that dragged down growth and matches the specific organic sales decline figure provided in the gold answer.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TF37mdcwcTjaBop8CpzpDaL2xSGZHzmkANt0aHO0lJ7WUeRNzrjKh3S6V4gVccIqnYF5jWeJxsGEKaTXf3E2gnJf/GAvsFLuYLS+mPpWd7duu4Z1js8QyDTuv4Tb76Jv9jPAsGltf+bdT73P8"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791561096,
+  "id": "ew3JarzIG4m5vdIPtfC0sAY",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 246,
+   "total_tokens": 286
+  }
+ }
+}

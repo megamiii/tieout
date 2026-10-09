@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0THRSMUpGRS3sNVkmpy8L4/silvL11HC7r/CRQrxklxsEVzpf/EMkit0RnyjlGordGHKNliFcygK36xhMLjs7FsLUSoVvQNm94JUiTXuhlKULsusFW32Qvwm4="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Net Cash Provided by (Used in) Investing Activities\",\"ticker\":\"NKE\",\"fiscal_years\":[2023]}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_219921",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559987,
+  "id": "MwnJauVxo7-90g_5pJCZBQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 2336,
+   "total_tokens": 2379
+  }
+ }
+}

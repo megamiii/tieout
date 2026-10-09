@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMD",
+  "query": "Net cash provided by (used in) investing activities",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "AMD",
+  "concepts": [
+   {
+    "concept": "NetCashProvidedByUsedInInvestingActivities",
+    "label": "Net Cash Provided by (Used in) Investing Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-26..2022-12-31",
+      "value": "1999000000",
+      "fact_id": "xf_53ac9a2bb03bb194",
+      "reported_in_10k_filed": "2023-02-27"
+     }
+    ]
+   },
+   {
+    "concept": "NetCashProvidedByUsedInFinancingActivities",
+    "label": "Net Cash Provided by (Used in) Financing Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-26..2022-12-31",
+      "value": "-3264000000",
+      "fact_id": "xf_4ddae45809956560",
+      "reported_in_10k_filed": "2023-02-27"
+     }
+    ]
+   }
+  ]
+ }
+}

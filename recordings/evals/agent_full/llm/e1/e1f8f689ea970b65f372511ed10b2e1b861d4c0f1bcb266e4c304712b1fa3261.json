@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T/Hgibss/SYoQJkm27JzF2ijV0m9iMbf4rTsm0D8s2NJS2PvaAJvdG7U9OvSLEL2C83Bv5qf9CjHzyzMsWwgb8upZ+pUgCAoEz1bueTDa5DdKvP4euiDpDGQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Controlled Substances Litigation, Audits and Subpoenas\",\"fiscal_year\":2022,\"section\":\"8\",\"ticker\":\"CVS\"}",
+        "name": "search_filings"
+       },
+       "id": "call_131410",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559932,
+  "id": "-wjJavyMK7GexN8P1OWrmQc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 48,
+   "prompt_tokens": 5711,
+   "prompt_tokens_details": {
+    "cached_tokens": 2456
+   },
+   "total_tokens": 5759
+  }
+ }
+}

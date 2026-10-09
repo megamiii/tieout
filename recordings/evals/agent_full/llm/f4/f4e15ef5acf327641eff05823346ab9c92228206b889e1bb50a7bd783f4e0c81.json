@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TsB+kDGryTO0YUofgY4jHH/SWrh3xSvO6DZlCYLxJrq9kL8CP7eGHsUPISDCxPUm690UrJLsE2idt6gU35Q+89h5nBjJQyN1yxw3WJPY3e7gO3sYDz1AeTYs="
+        }
+       },
+       "function": {
+        "arguments": "{\"expression\":\"(5363 - 4869) / 4869 * 100\"}",
+        "name": "calculate"
+       },
+       "id": "call_888974",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561770,
+  "id": "KhDJaoGrFqO_vdIP-aSQmQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 36,
+   "prompt_tokens": 7602,
+   "prompt_tokens_details": {
+    "cached_tokens": 4039
+   },
+   "total_tokens": 7638
+  }
+ }
+}

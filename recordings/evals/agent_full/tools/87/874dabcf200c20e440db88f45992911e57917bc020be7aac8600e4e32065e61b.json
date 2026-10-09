@@ -1,0 +1,91 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMCR",
+  "query": "research and development",
+  "concept": null,
+  "fiscal_years": null
+ },
+ "output": {
+  "ticker": "AMCR",
+  "concepts": [
+   {
+    "concept": "ResearchAndDevelopmentExpense",
+    "label": "Research and Development Expense",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2026,
+      "period": "2025-07-01..2026-06-30",
+      "value": "170000000",
+      "fact_id": "xf_2cd59cda58b911a2",
+      "reported_in_10k_filed": "2026-08-14"
+     },
+     {
+      "fiscal_year": 2025,
+      "period": "2024-07-01..2025-06-30",
+      "value": "120000000",
+      "fact_id": "xf_d0c1248174124f49",
+      "reported_in_10k_filed": "2025-08-15"
+     },
+     {
+      "fiscal_year": 2024,
+      "period": "2023-07-01..2024-06-30",
+      "value": "106000000",
+      "fact_id": "xf_cadb1356b1fb9894",
+      "reported_in_10k_filed": "2024-08-16"
+     }
+    ]
+   },
+   {
+    "concept": "LandAndLandImprovements",
+    "label": "Land and Land Improvements",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2026,
+      "period": "as of 2026-06-30",
+      "value": "434000000",
+      "fact_id": "xf_bd6a0eb530b48c3d",
+      "reported_in_10k_filed": "2026-08-14"
+     },
+     {
+      "fiscal_year": 2025,
+      "period": "as of 2025-06-30",
+      "value": "590000000",
+      "fact_id": "xf_1fff724097c5e502",
+      "reported_in_10k_filed": "2025-08-15"
+     },
+     {
+      "fiscal_year": 2024,
+      "period": "as of 2024-06-30",
+      "value": "196000000",
+      "fact_id": "xf_83c9406d9f79c375",
+      "reported_in_10k_filed": "2024-08-16"
+     }
+    ]
+   },
+   {
+    "concept": "LandImprovements",
+    "label": "Land Improvements",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "as of 2019-06-30",
+      "value": "5100000",
+      "fact_id": "xf_d1b843aea0d0029a",
+      "reported_in_10k_filed": "2019-09-03"
+     },
+     {
+      "fiscal_year": 2018,
+      "period": "as of 2018-06-30",
+      "value": "5900000",
+      "fact_id": "xf_f823d860fd8bc22e",
+      "reported_in_10k_filed": "2019-09-03"
+     }
+    ]
+   }
+  ]
+ }
+}

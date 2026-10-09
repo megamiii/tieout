@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Research and development",
+  "ticker": "AMCR",
+  "fiscal_year": 2023,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_03ed47ff1b286660",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 72,
+    "text": "$ (1,051) $ 1,524 June 30, 2022 ($ in millions) Gross Carrying Amount Accumulated Amortization and Impairment (1) Net Carrying Amount Customer relationships $ 1,970 $ (529) $ 1,441 Computer software 235 (162) 73 Other (2) 323 (180) 143 Total other intangible assets $ 2,528 $ (871) $ 1,657 (1) Accumulated amortization and impairment included $34 million and $33 million for June 30, 2023, and 2022, respectively, of accumulated impairment in the Other category. (2) Other included $17 million and $16 million for June 30, 2023, and 2022, respectively, of acquired intellectual property assets not yet being amortized as the related research and development projects have not yet been completed. Amortization expense for intangible assets during the fiscal years 2023, 2022, and 2021 was $174 million, $180 million, and $182 million, respectively. During the last three fiscal years, there were no impairment charges recorded on intangible assets. 72"
+   },
+   {
+    "chunk_id": "ch_0ab373609930324f",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 49,
+    "text": "models to determine the fair value of the reporting unit. As disclosed by management, if the carrying value of a reporting unit exceeds its fair value, management would recognize an impairment loss equal to the difference between the carrying value and estimated fair value of the reporting unit, adjusted for any tax benefits, limited to the amount of the carrying value of goodwill. Management's projected future cash flows for the Flexibles Latin America reporting unit included key assumptions relating to revenue growth, projected operating income growth, market multiples, terminal values, and the discount rate. The principal considerations for our determination that performing procedures relating to the goodwill impairment assessment of the Flexibles Latin America reporting unit within the Flexibles Segment is a critical audit matter are (i) the significant judgment by management when developing the fair value of the reporting unit; (ii) a high degree of auditor judgment, subjectivity,…"
+   },
+   {
+    "chunk_id": "ch_2bba86d92f1fb602",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 50,
+    "text": "Amcor plc and Subsidiaries Consolidated Statements of Income ($ in millions, except per share data) For the years ended June 30, 2023 2022 2021 Net sales $ 14,694 $ 14,544 $ 12,861 Cost of sales (11,969) (11,724) (10,129) Gross profit 2,725 2,820 2,732 Selling, general, and administrative expenses (1,246) (1,284) (1,292) Research and development expenses (101) (96) (100) Restructuring, impairment, and other related activities, net 104 (234) (94) Other income, net 26 33 75 Operating income 1,508 1,239 1,321 Interest income 31 24 14 Interest expense (290) (159) (153) Other non-operating income, net 2 11 11 Income before income taxes and equity in income of affiliated companies 1,251 1,115 1,193 Income tax expense (193) (300) (261) Equity in income of affiliated companies, net of tax — — 19 Net income $ 1,058 $ 815 $ 951 Net income attributable to non-controlling interests (10) (10) (12) Net income attributable to Amcor plc $ 1,048 $ 805 $ 939 Basic earnings per share: Basic earnings per …"
+   },
+   {
+    "chunk_id": "ch_4ca0c63a73ba29ad",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 60,
+    "text": "multiples, terminal values, and discount rates. Sensitivity analyses are performed around certain of these assumptions to assess the reasonableness of the assumptions and the resulting estimated fair values. If current expectations of future growth rates and margins are not met, or if market factors beyond the Company's control, such as factors impacting the applicable discount rate or economic or political conditions in key markets change significantly, then goodwill allocated to one or more reporting units may be impaired. In fiscal year 2023, the Company performed quantitative impairment tests for all of its reporting units and the Company concluded that goodwill was not impaired as the fair values of the reporting units substantially exceeded their carrying values. Other Intangible Assets, Net: Contractual or separable intangible assets that have finite useful lives are amortized against income using the straight-line method over their estimated useful lives, which range from 1 to …"
+   },
+   {
+    "chunk_id": "ch_27cc07959919442c",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 58,
+    "text": "The Company excludes from the measurement of the transaction price all taxes assessed by a government authority that are both imposed on and concurrent with a specific revenue producing transaction and collected from the customer, including sales taxes, value added taxes, excise taxes, and use taxes. Accordingly, the tax amounts are not included in net sales. The Company does not adjust the promised consideration for the time value of money for contracts where the difference between the time of payment and performance is one year or less. Research and Development: Research and development expenses are expensed as incurred. Restructuring Costs: Restructuring costs are recognized when the liability is incurred. The Company calculates severance obligations based on its standard customary practices. Accordingly, the Company records provisions for severance when payments are probable and estimable and when the Company has committed to the restructuring plan. In the absence of a standard cus…"
+   }
+  ]
+ }
+}

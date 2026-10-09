@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T7IAvZeIX/RTlEaBxmxbC8ohPvoGJ05YTrwBCphMI5IMOjlUzA7wwpYwY2QAUR3cXDczFvwtZGs4dqmWoH3udvOuCm3J6ycDWZpUsJHEhva5BZ+HNpYeCnjg="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"PEP\",\"query\":\"capital expenditures cash flows\",\"fiscal_year\":2021}",
+        "name": "search_filings"
+       },
+       "id": "call_212448",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560784,
+  "id": "UAzJaufWA6qb3boP5bzjiAM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 35,
+   "prompt_tokens": 2376,
+   "total_tokens": 2411
+  }
+ }
+}

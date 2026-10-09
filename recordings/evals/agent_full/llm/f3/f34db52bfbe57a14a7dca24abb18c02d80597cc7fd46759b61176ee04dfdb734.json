@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TIzkc6YBzsFmDWQAYvT3YcwaDtUs36ufbEbd/JPh1oKiA5tug72GZA8Mpkf/dUZrYhQpTiONrjt4egFatJF1X6wOQpG+8ECyxXXlSRXyS79JcLNdZCSj84B0="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Net income decreased 1,419 2,454\",\"ticker\":\"BBY\",\"fiscal_year\":2023}",
+        "name": "search_filings"
+       },
+       "id": "call_225965",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561587,
+  "id": "cw_JapPLBuqlvdIPy8W1oQY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 2499,
+   "total_tokens": 2546
+  }
+ }
+}

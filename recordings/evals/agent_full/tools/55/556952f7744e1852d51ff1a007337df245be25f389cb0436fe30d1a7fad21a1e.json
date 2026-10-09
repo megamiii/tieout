@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "U.S. government customers defense space security percentage revenue",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_d1744f094fc2ed7e",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 37,
+    "text": "Table of Contents Defense, Space & Security Business Environment and Trends United States Government Defense Environment Overview The Consolidated Appropriations Act, 2023, enacted in December 2022, provided fiscal year 2023 (FY23) appropriations for government departments and agencies, including $817 billion for the U.S. DoD and $25.4 billion for NASA. The enacted FY23 appropriations included funding for Boeing's major programs, including the F/A-18 Super Hornet, F-15EX, CH-47 Chinook, AH-64 Apache, V-22 Osprey, KC-46A Tanker, MQ-25, and the Space Launch System. The FY23 appropriations support F/A-18 production further into calendar year 2025. The FY23 appropriations did not include funding for additional P-8 aircraft. The P-8 program continues to pursue additional sales opportunities to extend production beyond 2024. There is ongoing uncertainty with respect to program-level appropriations for the U.S. DoD, NASA and other government agencies for fiscal year 2024 and beyond. U.S. gove…"
+   },
+   {
+    "chunk_id": "ch_8397508bdb7c8736",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 25,
+    "text": "Table of Contents KC-46A Tanker program and lower charges in 2021. BGS revenues increased by $785 million primarily due to higher commercial and government services volume. Revenues will continue to be significantly impacted until the global supply chain stabilizes, labor instability diminishes, and deliveries ramp up. Loss From Operations The following table summarizes Loss from operations: (Dollars in millions) Years ended December 31, 2022 2021 2020 Commercial Airplanes ($2,370) ($6,475) ($13,847) Defense, Space & Security (3,544) 1,544 1,539 Global Services 2,727 2,017 450 Boeing Capital 29 106 63 Segment operating loss (3,158) (2,808) (11,795) Pension FAS/CAS service cost adjustment 849 882 1,024 Postretirement FAS/CAS service cost adjustment 294 291 359 Unallocated items, eliminations and other (1,532) (1,267) (2,355) Loss from operations (GAAP) ($3,547) ($2,902) ($12,767) FAS/CAS service cost adjustment * (1,143) (1,173) (1,383) Core operating loss (Non-GAAP) ** ($4,690) ($4,075…"
+   },
+   {
+    "chunk_id": "ch_5c69613c569da40f",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 10,
+    "text": "and technologically challenging. These challenges are particularly significant with newer aircraft programs. Any failure of any Boeing aircraft to satisfy performance or reliability requirements could result in disruption to our operations, higher costs and/or lower revenues. Changes in levels of U.S. government defense spending or acquisition priorities could negatively impact our financial position and results of operations. We derive a substantial portion of our revenue from the U.S. government, primarily from defense related programs with the United States Department of Defense (U.S. DoD). Levels of U.S. defense spending are very difficult to predict and may be impacted by numerous factors such as the evolving nature of the national security threat environment, U.S. national security strategy, U.S. foreign policy, the domestic political environment, macroeconomic conditions and the ability of the U.S. government to enact relevant legislation such as authorization and appropriations…"
+   },
+   {
+    "chunk_id": "ch_f48ffc04932da50f",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 15,
+    "text": "estimate and have significant impacts on margins. In addition, some of our contracts have specific provisions relating to cost, schedule and performance. Estimating costs to complete fixed-price development contracts is generally subject to more uncertainty than fixed-price production contracts. Many of these development programs have highly complex designs. In addition, technical or quality issues that arise during development could lead to schedule delays and higher costs to complete, which could result in a material charge or otherwise adversely affect our financial condition. Examples of significant BDS fixed-price development contracts include Commercial Crew, KC-46A Tanker, MQ-25, T-7A Red Hawk, VC-25B Presidential Aircraft, and commercial and military satellites. We enter into cost-type contracts, which also carry risks. Our BDS and BGS defense businesses generated approximately 40% and 31% of their 2022 revenues from cost-type contracting arrangements. Some of these are develop…"
+   },
+   {
+    "chunk_id": "ch_54aaca8411e8a11d",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 62,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Notes to the Consolidated Financial Statements Summary of Business Segment Data (Dollars in millions) Years ended December 31, 2022 2021 2020 Revenues: Commercial Airplanes $25,867 $19,493 $16,162 Defense, Space & Security 23,162 26,540 26,257 Global Services 17,611 16,328 15,543 Boeing Capital 199 272 261 Unallocated items, eliminations and other (231) (347) (65) Total revenues $66,608 $62,286 $58,158 (Loss)/earnings from operations: Commercial Airplanes ($2,370) ($6,475) ($13,847) Defense, Space & Security (3,544) 1,544 1,539 Global Services 2,727 2,017 450 Boeing Capital 29 106 63 Segment operating loss (3,158) (2,808) (11,795) Unallocated items, eliminations and other (1,532) (1,267) (2,355) FAS/CAS service cost adjustment 1,143 1,173 1,383 Loss from operations (3,547) (2,902) (12,767) Other income, net 1,058 551 447 Interest and debt expense (2,533) (2,682) (2,156) Loss before income taxes (5,022) (5,033) (14,476) Income tax (e…"
+   }
+  ]
+ }
+}

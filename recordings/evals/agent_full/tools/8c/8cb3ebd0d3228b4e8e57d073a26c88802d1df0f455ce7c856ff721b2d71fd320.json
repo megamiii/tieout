@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "operating income 994",
+  "ticker": "AMCR",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_0d9bbd10cdf802b9",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 12",
+    "page": 115,
+    "text": "Item 12. - Security Ownership of Certain Beneficial Owners and Management and Related Shareholder Matters Equity compensation plans as of June 30, 2020 were as follows: Number of securities to be issued upon exercise of outstanding options, warrants and rights Weighted-average exercise price of outstanding options, warrants and rights Number of securities remaining available for future issuance under equity compensation plans (excluding securities reflected in column (a)) Plan Category (a) (b) (c) Equity compensation plans approved by security holders 64,624,420 (1) $ 10.32 (2) 69,848,225 (3) Equity compensation plans not approved by security holders — — — Total 64,624,420 (1) $ 10.32 (2) 69,848,225 (3) (1) Includes outstanding options awards of 55,994,907, which have a weighted average exercise price of $10.32, 6,539,330 awards of ordinary shares issuable upon vesting of performance shares/rights, 1,442,874 awards of ordinary shares issuable upon vesting of share rights and 647,309 re…"
+   },
+   {
+    "chunk_id": "ch_6ec5faf2f5f24ba0",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 57,
+    "text": "the commencement date based on the present value of the remaining lease payments over the lease term, which includes renewal periods the Company is reasonably certain to exercise. The Company reevaluates its leases on a regular basis to consider the economic and strategic incentives of exercising lease renewal options. Short term leases with a term of twelve months or less, including reasonably certain holding periods, are not recorded on the consolidated balance sheet. As the Company's leases generally do not provide an implicit rate, the Company uses its incremental borrowing rate as of the commencement date to determine the present value of lease payments. The Company recognizes expense for operating leases on a straight-line basis over the lease term in the consolidated statement of income. Certain leasing arrangements require variable payments that are dependent on usage or output or may vary for other reasons. Variable lease payments that do not depend on an index or rate are exc…"
+   },
+   {
+    "chunk_id": "ch_b896130b6ff10c9f",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 109,
+    "text": "Deed of Cross Guarantee Statement of Income (in millions) For the year ended June 30, 2020 2019 Net sales $ 323.6 $ 352.8 Cost of sales (274.1) (301.2) Gross profit 49.5 51.6 Operating expenses (24.5) (164.4) Other income, net 4,167.0 1,138.5 Operating income 4,192.0 1,025.7 Interest income 24.8 34.7 Interest expense (29.9) (80.0) Other non-operating income (loss), net (0.5) 6.9 Income from continuing operations before income taxes 4,186.4 987.3 Income tax credit (22.6) 8.0 Net income $ 4,163.8 $ 995.3 109"
+   },
+   {
+    "chunk_id": "ch_83663a925a26dc72",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 24,
+    "text": "Item 7. - Management's Discussion and Analysis of Financial Condition and Results of Operations Management's Discussion and Analysis should be read in conjunction with the Consolidated Financial Statements and related Notes included in Item 8 of this Annual Report on Form 10-K. Two Year Review of Results (In millions, except per share amounts) 2020 2019 Net sales $ 12,467.5 100.0 % $ 9,458.2 100.0 % Cost of sales (9,932.0) (79.7) (7,659.1) (81.0) Gross profit 2,535.5 20.3 1,799.1 19.0 Operating expenses: Selling, general, and administrative expenses (1,384.8) (11.1) (999.0) (10.6) Research and development expenses (97.3) (0.8) (64.0) (0.7) Restructuring and related expenses (115.1) (0.9) (130.8) (1.4) Other income, net 55.7 0.4 186.4 2.0 Operating income 994.0 8.0 791.7 8.4 Interest income 22.2 0.2 16.8 0.2 Interest expense (206.9) (1.7) (207.9) (2.2) Other non-operating income (loss), net 15.9 0.1 3.5 — Income from continuing operations before income taxes and equity in income (loss) …"
+   },
+   {
+    "chunk_id": "ch_d277073500329a0e",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 51,
+    "text": "(95.0) Prepaid expenses and other current assets (23.2) (52.0) (10.0) Trade payables (48.1) 120.5 137.0 Other current liabilities 8.4 97.6 (68.2) Accrued employee costs 81.3 (32.4) (53.9) Employee benefit obligations (32.5) (25.1) (36.4) Other, net (5.2) (21.4) 3.3 Net cash provided by operating activities 1,384.2 776.1 871.4 Cash flows from investing activities: (Issuance)/repayment of loans to/from affiliated companies (0.2) (0.5) (0.7) Investments in affiliated companies — — (13.2) Business acquisitions, net of cash acquired — 41.9 — Purchase of property, plant and equipment and other intangible assets (399.5) (332.2) (365.0) Proceeds from divesture 424.9 216.3 — Proceeds from sales of property, plant and equipment and other intangible assets 12.7 84.7 137.0 Net cash (used in) provided by investing activities 37.9 10.2 (241.9) Cash flows from financing activities: Proceeds from issuance of shares 1.0 19.3 28.1 Settlement of forward contracts — (28.2) (39.0) Purchase of treasury shar…"
+   }
+  ]
+ }
+}

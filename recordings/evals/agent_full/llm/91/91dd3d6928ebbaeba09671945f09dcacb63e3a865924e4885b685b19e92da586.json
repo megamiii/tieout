@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T6ppXisF0zHs7SFCx2tuDhkOVfSLLOctP0kRLka/H+1pKGfQxEN2gmLYUsZ93DEKh7ejq21gkVPZ3M7RG4GYXKJPB5JWynj4U1AkY/udHDi6GfN3qnkynHhY="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_8dee1026913ef279\",\"quote\":\"Current period 19.1 % $ 10.18 20.8 % $ 10.12\"},{\"source_id\":\"ch_843268dd64aa394e\",\"quote\":\"Same period last year 20.8 % $ 10.12 22.3 % $ 9.36\"},{\"source_id\":\"ch_843268dd64aa394e\",\"quote\":\"Raw material impact (2.4) (1.13) (0.8) (0.27)\"},{\"source_id\":\"ch_8dee1026913ef279\",\"quote\":\"Total special items (1.7) 0.08 (1.4) (0.61)\"},{\"quote\":\"Total organic growth/productivity and other 1.0 0.56 0.7 1.07\",\"source_id\":\"ch_843268dd64aa394e\"}],\"confidence\":1,\"rationale\":\"The answer uses exact operating margin figures and drivers from 3M's FY2022 10-K Management's Discussion and Analysis table.\",\"answer\":\"For FY2022, 3M's operating income margin decreased from 22.3% in 2021 to 19.1% in 2022. This change was primarily driven by:\\n- Increased raw material impacts, which negatively impacted operating margins by 2.4 percentage points.\\n- Higher special items (such as significant litigation costs, PFAS manufacturing exit costs, and Russia exit charges), which reduced operating margins by 1.7 percentage points on a net basis.\\n- Partially offset by organic growth, productivity, and other factors, which provided a positive impact of 1.0 percentage point.\",\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_912811",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560053,
+  "id": "cwnJavyPOpLQvdIPmue7oAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 471,
+   "prompt_tokens": 12085,
+   "total_tokens": 12556
+  }
+ }
+}

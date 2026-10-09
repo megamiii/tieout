@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TREkugDZ3d9CSfv2TRKCaAweDYdTKhRvXRPuB7u0hYL210AfL6avPZ9dRGh2LbUumpMbAOvUogmbKY31MnVd1HqK4blW9x6H8oSWf3lavT3cZj5YVEbBGzQo="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"answer\":\"In fiscal year 2020 (for the year ended June 30, 2020), Amcor's operating income was $994.0 million.\",\"rationale\":\"The Consolidated Statement of Income in Amcor's FY 2020 Form 10-K explicitly reports operating income as $994.0 million for the year ended June 30, 2020.\",\"citations\":[{\"quote\":\"Operating income 994.0\",\"source_id\":\"ch_4da5a7022574af86\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_205274",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561189,
+  "id": "5Q3Jao_GBNixvdIP-6WJ0QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 152,
+   "prompt_tokens": 5887,
+   "prompt_tokens_details": {
+    "cached_tokens": 2018
+   },
+   "total_tokens": 6039
+  }
+ }
+}

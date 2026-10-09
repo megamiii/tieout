@@ -1,0 +1,48 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TN69cGohZQrXNLW82QIdNYbTF+FiXdrrs8GjMM4ZHxsRRrk8gzTFr9WClPae3Xdr5qMfWS7yIC5Gxi3ftnNktvgc9ZrBeK+GVxMNHVJqfOllHnHUWjnwyEFI="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"operating activities\",\"ticker\":\"ADBE\",\"fiscal_years\":[2015]}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_678603",
+       "type": "function"
+      },
+      {
+       "function": {
+        "arguments": "{\"ticker\":\"ADBE\",\"fiscal_years\":[2015],\"query\":\"current liabilities\"}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_678604",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560721,
+  "id": "EAzJaqT_Iqj7xN8Pi_aswQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 70,
+   "prompt_tokens": 1913,
+   "total_tokens": 1983
+  }
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GIS",
+  "query": "Dividends paid",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "GIS",
+  "concepts": [
+   {
+    "concept": "PaymentsOfDividends",
+    "label": "Payments of Dividends",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-05-31..2022-05-29",
+      "value": "1244500000",
+      "fact_id": "xf_1eba79cf28e580c4",
+      "reported_in_10k_filed": "2022-06-30"
+     }
+    ]
+   },
+   {
+    "concept": "CommonStockDividendsPerShareCashPaid",
+    "label": "Common Stock, Dividends, Per Share, Cash Paid",
+    "unit": "USD/shares",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-05-31..2022-05-29",
+      "value": "2.04",
+      "fact_id": "xf_a046cc5def6f602e",
+      "reported_in_10k_filed": "2022-06-30"
+     }
+    ]
+   }
+  ]
+ }
+}

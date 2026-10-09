@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TokGKJpd8QaThz16ZMO2Xm4TPd/BE6Mn9NrUfHqtSoyGneN1dYhVO3xvTOdKX/fw1xQMUuU6bkbodyCg2slAu/fakzrVSazkhxIXUwZzD7gDjxFTxx734ldE="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"xf_87999063cfca5dc0\",\"quote\":\"11512000000\"},{\"source_id\":\"xf_44b934424c07aaab\",\"quote\":\"2763000000\"},{\"source_id\":\"xf_723e7f18d91a4704\",\"quote\":\"86392000000\"}],\"needs_review\":false,\"rationale\":\"Providing the base figures from XBRL facts as requested by rule.\",\"answer\":\"For FY2022, PepsiCo's unadjusted operating income was $11,512 million, and total depreciation and amortization was $2,763 million. \\n- Revenues: $86,392 million.\",\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_988896",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560677,
+  "id": "5AvJarSWEKOFxN8Pu7moiAY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 219,
+   "prompt_tokens": 5777,
+   "prompt_tokens_details": {
+    "cached_tokens": 2328
+   },
+   "total_tokens": 5996
+  }
+ }
+}

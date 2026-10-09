@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 7,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TIZqqWxABhLVCO7lhYjuov2G9iPV2SWNbVVQpxsOrtbRonRomT3yWF/w5cleCiXVe9+VtuTI0zcvd8Ykw28Ibat7JyqEtUjON7p13HOlFhSFvB14l58qUOhg="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2020,\"item\":\"8\",\"ticker\":\"GIS\",\"page\":53}",
+        "name": "read_section"
+       },
+       "id": "call_919396",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560736,
+  "id": "IAzJarm-EZXuxs0Pz4KZ4AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 36,
+   "prompt_tokens": 4239,
+   "total_tokens": 4275
+  }
+ }
+}

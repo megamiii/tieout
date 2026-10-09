@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Controlled Substances Litigation, Audits and Subpoenas",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_9abdf33074129ca6",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 174,
+    "text": "Controlled Substances Litigation, Audits and Subpoenas In December 2017, the U.S. Judicial Panel on Multidistrict Litigation consolidated numerous cases filed against various defendants by plaintiffs such as counties, cities, hospitals, Indian tribes and third-party payors, alleging claims beginning as far back as the early 2000s generally concerning the impacts of widespread prescription opioid abuse. The consolidated multidistrict litigation captioned In re National Prescription Opiate Litigation (MDL No. 2804) is pending in the U.S. District Court for the Northern District of Ohio. This multidistrict litigation presumptively includes hundreds of relevant federal court cases that name the Company as a defendant. A significant number of similar cases that name the Company as a defendant in some capacity are pending in state courts. In addition, the Company has been named as a defendant in similar cases brought by certain state Attorneys General. The Company is defending itself against…"
+   },
+   {
+    "chunk_id": "ch_e746f5ba131e7ef8",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 175,
+    "text": "The Company has concluded that settlement of opioid claims by governmental entities and tribes is probable, and the loss related thereto could be reasonably estimated. As a result of that conclusion, and its assessment of certain other opioid-related claims including those for which the Company reached agreement in August and September 2022, the Company recorded pre-tax charges of $5.2 billion and $99 million during the three months ended September 30, 2022 and the three months ended December 31, 2022, respectively, of which $4.8 billion was recorded in other long-term liabilities on the consolidated balance sheet. In addition, the Company expects the cash impact in 2023 and 2024 to be less than $500 million in each year. Because loss contingencies are inherently unpredictable and unfavorable developments or resolutions can occur, the assessment requires judgments about future events. Moreover, the settlement is in its early phases, and there is no assurance that contingencies will be …"
+   },
+   {
+    "chunk_id": "ch_fc9ff90d9808369f",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 175,
+    "text": "In January 2020, the DOJ served the Company with a DEA administrative subpoena. The subpoena seeks documents relating to practices with respect to prescription opioids and other controlled substances at CVS pharmacy locations concerning potential violations of the federal Controlled Substances Act and the federal False Claims Act. In January 2022, the DOJ served the Company with a CID regarding similar subjects, and the Company is providing documents and information in response to these matters. Prescription Processing Litigation and Investigations The Company is named as a defendant in a number of lawsuits and is subject to a number of investigations concerning its prescription processing practices, including the following: U.S. ex rel. Bassan et al. v. Omnicare, Inc. and CVS Health Corp. (U.S. District Court for the Southern District of New York). In December 2019, the U.S. Attorney's Office for the Southern District of New York (the “SDNY”) filed a complaint-in-intervention in this …"
+   },
+   {
+    "chunk_id": "ch_bf2cfc6c298c331f",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 176,
+    "text": "Company's post payment audit and collection practices). Other major health insurers are the subject of similar litigation or have settled similar litigation. The Company also has received subpoenas and/or requests for documents and other information from, and been investigated by, state Attorneys General and other state and/or federal regulators, legislators and agencies relating to, and the Company is involved in other litigation regarding, its out-of-network benefit payment and administration practices. It is reasonably possible that others could initiate additional litigation or additional regulatory action against the Company with respect to its out-of-network benefit payment and/or administration practices. CMS Actions CMS regularly audits the Company's performance to determine its compliance with CMS's regulations and its contracts with CMS and to assess the quality of services it provides to Medicare beneficiaries. CMS uses various payment mechanisms to allocate and adjust premi…"
+   },
+   {
+    "chunk_id": "ch_4cb9aa97d8077259",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 173,
+    "text": "pricing and its rebate arrangements with drug manufacturers. These complaints, brought by a number of different types of plaintiffs under a variety of legal theories, generally allege that rebate agreements between the drug manufacturers and PBMs caused inflated prices for certain drug products. The Company is defending itself against these claims. The Company has also received subpoenas, civil investigative demands (“CIDs”), and other requests for documents and information from, and is being investigated by, the FTC and Attorneys General of several states and the District of Columbia regarding its PBM practices, including pricing and rebates. The Company has been providing documents and information in response to these subpoenas, CIDs, and requests for information. United States ex rel. Behnke v. CVS Caremark Corporation, et al. (U.S. District Court for the Eastern District of Pennsylvania). In April 2018, the Court unsealed a complaint filed in February 2014. The government has decli…"
+   }
+  ]
+ }
+}

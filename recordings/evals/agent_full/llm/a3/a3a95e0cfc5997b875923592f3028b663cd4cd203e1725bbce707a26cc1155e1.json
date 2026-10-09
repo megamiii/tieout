@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TiZZhvIeeOVfYxFTyzEgiao4hyanBNU4tZe6H1gpz8ad2NOveemPBH1IBX2J2B4hdqQBKMculQnHpEUxwlqYkNhjgIS82fxBJG4fbMm03iudVWI18UiMKmvs="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":true,\"answer\":\"Adobe's operating income is not presented directly as a single line item on the Consolidated Statements of Income in the FY2015 10-K. Using the XBRL reported Operating Income figure of $903,095,000 for fiscal year 2015, additional specific GAAP operating income figures for 2014 from XBRL need verification.\",\"rationale\":\"Operating income for 2014 is not fully available in the retrieved facts or chunks to compute the exact percentage change.\",\"confidence\":0.5,\"citations\":[{\"quote\":\"903095000\",\"source_id\":\"xf_c6a853a12cafa5ad\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_44148",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561125,
+  "id": "pA3Jauv0CYX-vdIP39GJ-QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 180,
+   "prompt_tokens": 8782,
+   "prompt_tokens_details": {
+    "cached_tokens": 4448
+   },
+   "total_tokens": 8962
+  }
+ }
+}

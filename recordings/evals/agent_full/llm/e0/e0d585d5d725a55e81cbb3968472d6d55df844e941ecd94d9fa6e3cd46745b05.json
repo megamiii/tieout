@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T2DEDX4bU9/aIFIEguuMgSjccbukyV74EYhunm+LnHphXQgpieZx76IN8fGrkKDaolZFiczdnxiYjbfIMpvZup/fX0Moy9a139VG8AZMOVk45+mrOHY2TPAo="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"answer\":\"Nike's total assets decreased from $23,259 million as of May 31, 2017, to $22,536 million as of May 31, 2018, which represents a change of -3.1%.\",\"rationale\":\"Total assets were $23,259 million for fiscal year 2017 and $22,536 million for fiscal year 2018. The percentage change is calculated as ((22536 - 23259) / 23259) * 100 = -3.108%, which rounds to -3.1%.\",\"citations\":[{\"quote\":\"TOTAL ASSETS $ 22,536 $ 23,259\",\"source_id\":\"ch_636941d1901a0543\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_1048274",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561809,
+  "id": "UBDJauOFIcKH28oPjvnZsQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 223,
+   "prompt_tokens": 4356,
+   "total_tokens": 4579
+  }
+ }
+}

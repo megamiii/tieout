@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMD",
+  "query": "net income",
+  "concept": null,
+  "fiscal_years": [
+   2015
+  ]
+ },
+ "output": {
+  "ticker": "AMD",
+  "concepts": [
+   {
+    "concept": "NetIncomeLoss",
+    "label": "Net Income (Loss) Attributable to Parent",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2015,
+      "period": "2014-12-28..2015-12-26",
+      "value": "-660000000",
+      "fact_id": "xf_670fdd0bb49686dd",
+      "reported_in_10k_filed": "2016-02-18"
+     }
+    ]
+   },
+   {
+    "concept": "IncomeTaxesPaidNet",
+    "label": "Income Taxes Paid, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2015,
+      "period": "2014-12-28..2015-12-26",
+      "value": "3000000",
+      "fact_id": "xf_f6639f2be8d13a7f",
+      "reported_in_10k_filed": "2016-02-18"
+     }
+    ]
+   }
+  ]
+ }
+}

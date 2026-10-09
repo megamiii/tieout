@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "ADBE",
+  "query": "current liabilities",
+  "concept": null,
+  "fiscal_years": [
+   2017
+  ]
+ },
+ "output": {
+  "ticker": "ADBE",
+  "concepts": [
+   {
+    "concept": "LiabilitiesCurrent",
+    "label": "Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2017,
+      "period": "as of 2017-12-01",
+      "value": "3527457000",
+      "fact_id": "xf_a53539637dedc0b2",
+      "reported_in_10k_filed": "2018-01-22"
+     }
+    ]
+   },
+   {
+    "concept": "AccruedLiabilitiesCurrent",
+    "label": "Accrued Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2017,
+      "period": "as of 2017-12-01",
+      "value": "993773000",
+      "fact_id": "xf_e2d4037251caa2ac",
+      "reported_in_10k_filed": "2018-01-22"
+     }
+    ]
+   },
+   {
+    "concept": "OtherAccruedLiabilitiesCurrent",
+    "label": "Other Accrued Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2017,
+      "period": "as of 2017-12-01",
+      "value": "200475000",
+      "fact_id": "xf_efe6aca8799ab6a5",
+      "reported_in_10k_filed": "2018-01-22"
+     }
+    ]
+   }
+  ]
+ }
+}

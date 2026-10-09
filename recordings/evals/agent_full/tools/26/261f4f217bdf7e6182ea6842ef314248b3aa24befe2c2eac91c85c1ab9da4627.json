@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "PEP",
+  "query": "depreciation and amortization",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "PEP",
+  "concepts": [
+   {
+    "concept": "DepreciationDepletionAndAmortization",
+    "label": "Depreciation, Depletion and Amortization",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-26..2022-12-31",
+      "value": "2763000000",
+      "fact_id": "xf_44b934424c07aaab",
+      "reported_in_10k_filed": "2023-02-09"
+     }
+    ]
+   },
+   {
+    "concept": "DepreciationAndAmortization",
+    "label": "Depreciation, Depletion and Amortization, Nonproduction",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-26..2022-12-31",
+      "value": "2685000000",
+      "fact_id": "xf_80649257bc412350",
+      "reported_in_10k_filed": "2023-02-09"
+     }
+    ]
+   },
+   {
+    "concept": "AccumulatedDepreciationDepletionAndAmortizationPropertyPlantAndEquipment",
+    "label": "Accumulated Depreciation, Depletion and Amortization, Property, Plant, and Equipment",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "25493000000",
+      "fact_id": "xf_2acc483ccdc37147",
+      "reported_in_10k_filed": "2023-02-09"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "CVS",
+  "query": "net cash provided by operating activities 2017",
+  "concept": null,
+  "fiscal_years": [
+   2018
+  ]
+ },
+ "output": {
+  "ticker": "CVS",
+  "concepts": [
+   {
+    "concept": "NetCashProvidedByUsedInOperatingActivities",
+    "label": "Net Cash Provided by (Used in) Operating Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "2018-01-01..2018-12-31",
+      "value": "8865000000",
+      "fact_id": "xf_999d0b3e3439c0d0",
+      "reported_in_10k_filed": "2019-02-28"
+     }
+    ]
+   },
+   {
+    "concept": "NetCashProvidedByUsedInInvestingActivities",
+    "label": "Net Cash Provided by (Used in) Investing Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "2018-01-01..2018-12-31",
+      "value": "-43285000000",
+      "fact_id": "xf_f8e795a08283619a",
+      "reported_in_10k_filed": "2019-02-28"
+     }
+    ]
+   }
+  ]
+ }
+}

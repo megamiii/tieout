@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T4kbjjQRKLQPjpe4Dms0I7Ht7qim/PFma8pDrt5g6LsF+b+JWEGy2lkCtrqZ2oHQ4XhpWDgO/9zUoGjVNx2D+K4D3H1Q1XQR/HWmzPWOb5TI76/ddLrqHel8="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"ticker\":\"AXP\",\"query\":\"cards-in-force grew increased 2022\"}",
+        "name": "search_filings"
+       },
+       "id": "call_759333",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560302,
+  "id": "bArJauO-Lar5xN8P0YO5kAg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 11564,
+   "prompt_tokens_details": {
+    "cached_tokens": 8117
+   },
+   "total_tokens": 11608
+  }
+ }
+}

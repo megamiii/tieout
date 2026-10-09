@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Total current assets",
+  "ticker": "NKE",
+  "fiscal_year": 2019,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_0da7064d2a288d6f",
+    "ticker": "NKE",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 54,
+    "text": "Table of Contents NIKE, INC. CONSOLIDATED BALANCE SHEETS MAY 31, (Dollars in millions) 2019 2018 ASSETS Current assets: Cash and equivalents $ 4,466 $ 4,249 Short-term investments 197 996 Accounts receivable, net 4,272 3,498 Inventories 5,622 5,261 Prepaid expenses and other current assets 1,968 1,130 Total current assets 16,525 15,134 Property, plant and equipment, net 4,744 4,454 Identifiable intangible assets, net 283 285 Goodwill 154 154 Deferred income taxes and other assets 2,011 2,509 TOTAL ASSETS $ 23,717 $ 22,536 LIABILITIES AND SHAREHOLDERS' EQUITY Current liabilities: Current portion of long-term debt $ 6 $ 6 Notes payable 9 336 Accounts payable 2,612 2,279 Accrued liabilities 5,010 3,269 Income taxes payable 229 150 Total current liabilities 7,866 6,040 Long-term debt 3,464 3,468 Deferred income taxes and other liabilities 3,347 3,216 Commitments and contingencies (Note 18) Redeemable preferred stock — — Shareholders' equity: Common stock at stated value: Class A convertibl…"
+   },
+   {
+    "chunk_id": "ch_5dc6e30c198f0f6d",
+    "ticker": "NKE",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Table of Contents NIKE, INC. CONSOLIDATED STATEMENTS OF CASH FLOWS YEAR ENDED MAY 31, (Dollars in millions) 2019 2018 2017 Cash provided by operations: Net income $ 4,029 $ 1,933 $ 4,240 Adjustments to reconcile net income to net cash provided by operations: Depreciation 705 747 706 Deferred income taxes 34 647 (273) Stock-based compensation 325 218 215 Amortization and other 15 27 10 Net foreign currency adjustments 233 (99) (117) Changes in certain working capital components and other assets and liabilities: (Increase) decrease in accounts receivable (270) 187 (426) (Increase) decrease in inventories (490) (255) (231) (Increase) decrease in prepaid expenses and other current and non-current assets (203) 35 (120) Increase (decrease) in accounts payable, accrued liabilities and other current and non-current liabilities 1,525 1,515 (158) Cash provided by operations 5,903 4,955 3,846 Cash provided (used) by investing activities: Purchases of short-term investments (2,937) (4,783) (5,928)…"
+   },
+   {
+    "chunk_id": "ch_515876680686c87a",
+    "ticker": "NKE",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 77,
+    "text": "Foreign exchange forwards and options Deferred income taxes and other assets — 152 Deferred income taxes and other liabilities — — Total derivatives formally designated as hedging instruments 509 270 5 156 Derivatives not designated as hedging instruments: Foreign exchange forwards and options Prepaid expenses and other current assets 102 119 Accrued liabilities 46 26 Embedded derivatives Prepaid expenses and other current assets 5 3 Accrued liabilities 1 2 Embedded derivatives Deferred income taxes and other assets 6 8 Deferred income taxes and other liabilities 2 6 Total derivatives not designated as hedging instruments 113 130 49 34 TOTAL DERIVATIVES $ 622 $ 400 $ 54 $ 190 The following tables present the amounts in the Consolidated Statements of Income in which the effects of cash flow hedges are recorded and the effects of cash flow hedge activity on these line items for the years ended May 31, 2019 , 2018 and 2017 : YEAR ENDED MAY 31, 2019 2018 2017 (Dollars in millions) TOTAL AM…"
+   },
+   {
+    "chunk_id": "ch_140c10c4f039241c",
+    "ticker": "NKE",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 72,
+    "text": "Deferred tax assets and liabilities comprise the following: AS OF MAY 31, (Dollars in millions) 2019 2018 Deferred tax assets: Inventories $ 66 $ 73 Sales return reserves 128 104 Deferred compensation 271 250 Stock-based compensation 156 135 Reserves and accrued liabilities 101 102 Net operating loss carry-forwards 81 88 Other 125 106 Total deferred tax assets 928 858 Valuation allowance (88) (95) Total deferred tax assets after valuation allowance 840 763 Deferred tax liabilities: Foreign withholding tax on undistributed earnings of foreign subsidiaries (235) (155) Property, plant and equipment (188) (167) Intangibles (23) (77) Other (18) (26) Total deferred tax liabilities (464) (425) NET DEFERRED TAX ASSET $ 376 $ 338 The following is a reconciliation of the changes in the gross balance of unrecognized tax benefits: AS OF MAY 31, (Dollars in millions) 2019 2018 2017 Unrecognized tax benefits, beginning of the period $ 698 $ 461 $ 506 Gross increases related to prior period tax posit…"
+   },
+   {
+    "chunk_id": "ch_12610ab135afdb95",
+    "ticker": "NKE",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 55,
+    "text": "(1,008) Cash used by financing activities: Net proceeds from long-term debt issuance — — 1,482 Long-term debt payments, including current portion (6) (6) (44) Increase (decrease) in notes payable (325) 13 327 Payments on capital lease and other financing obligations (27) (23) (17) Proceeds from exercise of stock options and other stock issuances 700 733 489 Repurchase of common stock (4,286) (4,254) (3,223) Dividends — common and preferred (1,332) (1,243) (1,133) Tax payments for net share settlement of equity awards (17) (55) (29) Cash used by financing activities (5,293) (4,835) (2,148) Effect of exchange rate changes on cash and equivalents (129) 45 (20) Net increase (decrease) in cash and equivalents 217 441 670 Cash and equivalents, beginning of year 4,249 3,808 3,138 CASH AND EQUIVALENTS, END OF YEAR $ 4,466 $ 4,249 $ 3,808 Supplemental disclosure of cash flow information: Cash paid during the year for: Interest, net of capitalized interest $ 153 $ 125 $ 98 Income taxes 757 529 7…"
+   }
+  ]
+ }
+}

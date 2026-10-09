@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Financial Position Property, plant and equipment",
+  "ticker": "BA",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_8c200e67f1fb1ae0",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 41,
+    "text": "Table of Contents Purchase Obligations Not Recorded on the Consolidated Statements of Financial Position Purchase obligations not recorded on the Consolidated Statements of Financial Position include agreements for inventory procurement, tooling costs, electricity and natural gas contracts, property, plant and equipment, customer financing equipment, and other miscellaneous production related obligations. The most significant obligation relates to inventory procurement contracts. We have entered into certain significant inventory procurement contracts that specify determinable prices and quantities, and long-term delivery timeframes. In addition, we purchase raw materials on behalf of our suppliers. These agreements require suppliers and vendors to be prepared to build and deliver items in sufficient time to meet our production schedules. The need for such arrangements with suppliers and vendors arises from the extended production planning horizon for many of our products. A significan…"
+   },
+   {
+    "chunk_id": "ch_6d071eb860d4022b",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 71,
+    "text": "Table of Contents Consolidated Statement of Financial Position (Dollars in millions) December 31, 2017 Assets Reported Impact of New Standards Restated Cash and cash equivalents $8,813 $8,813 Short-term and other investments 1,179 1,179 Accounts receivable, net 10,516 ($7,622) 2,894 Unbilled receivables, net 8,194 8,194 Current portion of customer financing, net 309 309 Inventories 44,344 17,044 61,388 Other current assets 2,417 2,417 Total current assets 65,161 20,033 85,194 Customer financing, net 2,740 16 2,756 Property, plant and equipment, net 12,672 12,672 Goodwill 5,559 5,559 Acquired intangible assets, net 2,573 2,573 Deferred income taxes 341 (20) 321 Investments 1,260 1,260 Other assets, net of accumulated amortization 2,027 2,027 Total assets $92,333 $20,029 $112,362 Liabilities and equity Accounts payable $12,202 $12,202 Accrued liabilities 15,292 ($2,223) 13,069 Advances and billings in excess of related costs 27,440 (27,440) Advances and progress billings 48,042 48,042 Sh…"
+   },
+   {
+    "chunk_id": "ch_d2ab0b1165b3f841",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 52,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Financial Position (Dollars in millions, except per share data) December 31, 2018 2017 Assets Cash and cash equivalents $7,637 $8,813 Short-term and other investments 927 1,179 Accounts receivable, net 3,879 2,894 Unbilled receivables, net 10,025 8,194 Current portion of customer financing, net 460 309 Inventories 62,567 61,388 Other current assets 2,335 2,417 Total current assets 87,830 85,194 Customer financing, net 2,418 2,756 Property, plant and equipment, net 12,645 12,672 Goodwill 7,840 5,559 Acquired intangible assets, net 3,429 2,573 Deferred income taxes 284 321 Investments 1,087 1,260 Other assets, net of accumulated amortization of $503 and $482 1,826 2,027 Total assets $117,359 $112,362 Liabilities and equity Accounts payable $12,916 $12,202 Accrued liabilities 14,808 13,069 Advances and progress billings 50,676 48,042 Short-term debt and current portion of long-term debt 3,190 1,335 Total curr…"
+   },
+   {
+    "chunk_id": "ch_db81dbe55ebb59bf",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 49,
+    "text": "Item 8. Financial Statements and Supplementary Data Index to the Consolidated Financial Statements Page Consolidated Statements of Operations 48 Consolidated Statements of Comprehensive Income 49 Consolidated Statements of Financial Position 50 Consolidated Statements of Cash Flows 51 Consolidated Statements of Equity 52 Summary of Business Segment Data 53 Note 1 – Summary of Significant Accounting Policies 54 Note 2 - Impact of Adoption of New Standards 67 Note 3 - Acquisitions and Joint Ventures 71 Note 4 - Goodwill and Acquired Intangibles 72 Note 5 - Earnings Per Share 73 Note 6 - Income Taxes 74 Note 7 - Accounts Receivable 77 Note 8 - Inventories 77 Note 9 - Contracts with Customers 78 Note 10 - Customer Financing 78 Note 11 - Property, Plant and Equipment 81 Note 12 - Investments 82 Note 13 - Other Assets 82 Note 14 - Liabilities, Commitments and Contingencies 83 Note 15 - Arrangements with Off-Balance Sheet Risk 86 Note 16 - Debt 88 Note 17 - Postretirement Plans 89 Note 18 - S…"
+   },
+   {
+    "chunk_id": "ch_945d25da45d97670",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 64,
+    "text": "Table of Contents Used aircraft purchased by the Commercial Airplanes segment and general stock materials are stated at cost not in excess of net realizable value. See ‘Aircraft Valuation' within this Note for a discussion of our valuation of used aircraft. Spare parts inventory is stated at lower of average unit cost or net realizable value. We review our commercial spare parts and general stock materials quarterly to identify impaired inventory, including excess or obsolete inventory, based on historical sales trends, expected production usage, and the size and age of the aircraft fleet using the part. Impaired inventories are charged to Cost of products in the period the impairment occurs. Included in inventory for commercial aircraft programs are amounts paid or credited in cash, or other consideration to certain airline customers, that are referred to as early issue sales consideration. Early issue sales consideration is recognized as a reduction to revenue when the delivery of th…"
+   }
+  ]
+ }
+}

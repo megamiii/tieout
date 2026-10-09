@@ -1,0 +1,196 @@
+{
+ "item_id": "xbrl-GLW-2022-ResearchAndDevelopmentExpense-growth",
+ "eval_set": "xbrl_numeric",
+ "experiment": "agent_full",
+ "status": "answered",
+ "answer": "Corning's research and development (research, development and engineering) expense changed from $995 million in fiscal year 2021 to $1,047 million in fiscal year 2022, representing an increase of 5.2%. (Using the XBRL tag ResearchAndDevelopmentExpense, the values were $800,000,000 in 2021 and $900,000,000 in 2022, representing an increase of 12.5%).",
+ "confidence": 1.0,
+ "rationale": "Corning's Consolidated Statements of Income report Research, development and engineering expenses of $995 million for fiscal 2021 and $1,047 million for fiscal 2022, which increased by 5.2%. In the XBRL fact database, the R&D concept is tagged as $800,000,000 in 2021 and $900,000,000 in 2022 (an increase of 12.5%). Both figures are provided for completeness.",
+ "citations": [
+  {
+   "source_id": "ch_65c317f7079839a6",
+   "quote": "Research, development and engineering expenses 1,047 995",
+   "kind": "chunk",
+   "ticker": "GLW",
+   "fiscal_year": 2022,
+   "section": "Item 16",
+   "page": 58,
+   "values": [
+    "31",
+    "2022",
+    "2021",
+    "2020",
+    "14189",
+    "14082",
+    "11303",
+    "9683",
+    "9019",
+    "7772",
+    "4506",
+    "5063",
+    "3531",
+    "1898",
+    "1827",
+    "1747",
+    "1047",
+    "995",
+    "1154",
+    "123",
+    "129",
+    "121",
+    "1438",
+    "2112",
+    "509",
+    "15",
+    "11",
+    "15",
+    "292",
+    "300",
+    "276",
+    "14",
+    "351",
+    "354",
+    "38",
+    "3",
+    "498",
+    "285",
+    "249",
+    "74",
+    "1797",
+    "2426",
+    "634",
+    "7",
+    "411",
+    "491",
+    "111",
+    "1386",
+    "1935",
+    "523",
+    "70",
+    "29",
+    "11",
+    "1316",
+    "1906",
+    "512"
+   ]
+  },
+  {
+   "source_id": "xf_11566c298c2fc2f4",
+   "quote": "900000000",
+   "kind": "fact",
+   "ticker": "GLW",
+   "concept": "ResearchAndDevelopmentExpense",
+   "fiscal_year": 2022,
+   "restated": [],
+   "values": [
+    "900000000"
+   ]
+  },
+  {
+   "source_id": "xf_32a1a7a6ffddfb9f",
+   "quote": "800000000",
+   "kind": "fact",
+   "ticker": "GLW",
+   "concept": "ResearchAndDevelopmentExpense",
+   "fiscal_year": 2021,
+   "restated": [],
+   "values": [
+    "800000000"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 7,
+ "prompt_tokens": 35491,
+ "completion_tokens": 641,
+ "latency_ms": 9020.0,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "12.5% matches 12.5000 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 7,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1916,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"ticker\":\"GLW\",\"query\":\"research and development expense\",\"fiscal_years\":[2021,2022]}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 2434,
+   "tools": [
+    {
+     "name": "calculate",
+     "arguments": "{\"expression\":\"(900000000 - 800000000) / 800000000 * 100\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 2534,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"ticker\":\"GLW\",\"fiscal_year\":2022,\"query\":\"Research, development and engineering expenses\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 4634,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"ticker\":\"GLW\",\"fiscal_year\":2022,\"query\":\"Research, development and engineering expenses 838 874\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "tokens": 6731,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"ticker\":\"GLW\",\"query\":\"Consolidated Statements of Income Research, development and engineering expenses\",\"fiscal_year\":2022}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 5,
+   "tokens": 8713,
+   "tools": [
+    {
+     "name": "calculate",
+     "arguments": "{\"expression\":\"(1047 - 995) / 995 * 100\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 6,
+   "tokens": 9170,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"confidence\":1,\"citations\":[{\"quote\":\"Research, development and engineering expenses 1,047 995\",\"source_id\":\"ch_65c317f7079839a6\"},{\"quote\":\"900000000\",\"source_id\":\"xf_11566c298c2fc2f4\"},{\"source_id\":\"xf_32a1a7a6ffddfb9f\",\"quote\":\"800000000\"}],\"rationale\":\"Corning's Consolidated Statements of Income report Research, development and engineering expenses of $995 million for fiscal 2021 and $1,047 million for fiscal 2022, which increased by 5.2%. In the XBRL fact database, the R&D concept is tagged as $800,000,000 in 2021 and $900,000,000 in 2022 (an increase of 12.5%). Both figures are provided for completeness.\",\"answer\":\"Corning's research and development (research, development and engineering) expense changed from $995 million in fiscal year 2021 to $1,047 million in fiscal year 2022, representing an increase of 5.2%. (Using the XBRL tag ResearchAndDevelopmentExpense, the values were $800,000,000 in 2021 and $900,000,000 in 2022, representing an increase of 12.5%).\"}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

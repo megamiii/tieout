@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TGq2tq/5VjZ85unUto1HN3yaUlJd+0BWZiRcRZZhprssJhjbzjY3au/wV6ehf9r5bk8andFbF7dwlJ76ZQJ0A8Pyr5IYlDxOwzoV7mJm6BPjEbLchWsI4cPM="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_58ea377b420505c5\",\"quote\":\"Net revenue $ 23,601 $ 16,434\"},{\"source_id\":\"ch_476ffee67069ae20\",\"quote\":\"Embedded net revenue of $4.6 billion in 2022 increased significantly, compared to net revenue of $246 million in 2021. The significant increase in net revenue was primarily driven by the inclusion of Xilinx embedded product revenue\"},{\"quote\":\"Data Center net revenue of $6 billion in 2022 increased by 64%, compared to net revenue of $3.7 billion in 2021. The increase was primarily driven by higher sales of our EPYC server processors.\",\"source_id\":\"ch_82d1f732f8738788\"},{\"source_id\":\"ch_476ffee67069ae20\",\"quote\":\"Gaming Gaming net revenue of $6.8 billion in 2022 increased by 21%, compared to net revenue of $5.6 billion in 2021. The increase in net revenue was driven by higher semi-custom product sales due to higher demand for gaming console SoCs\"},{\"source_id\":\"ch_82d1f732f8738788\",\"quote\":\"Client Client net revenue of $6.2 billion in 2022 decreased by 10%, compared to net revenue of $6.9 billion in 2021, primarily driven by a 24% decrease in unit shipment, partially offset by a 19% increase in average selling price.\"}],\"rationale\":\"The answer details AMD's net revenue drivers for FY2022 across all four segments and overall consolidated figures, supported by exact quotes from Item 7 and Item 8 of the 2022 10-K.\",\"answer\":\"In fiscal year 2022, AMD's total net revenue increased by 43.61% to $23,601 million from $16,434 million in 2021. \\n\\nThe change was driven by:\\n- **Embedded Segment:** Increased significantly to $4,552 million (from $246 million), primarily driven by the inclusion of Xilinx embedded product revenue.\\n- **Data Center Segment:** Increased by 64% to $6,043 million (from $3,694 million), primarily driven by higher sales of EPYC server processors.\\n- **Gaming Segment:** Increased by 21% to $6,805 million (from $5,607 million), driven by higher semi-custom product sales due to higher demand for gaming console SoCs.\\n- **Client Segment (Offset):** Decreased by 10% to $6,201 million (from $6,887 million), primarily driven by a 24% decrease in unit shipments due to challenging PC market conditions and inventory corrections, partially offset by a 19% increase in average selling price.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_937247",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560003,
+  "id": "QQnJavLNLv3fxs0PkPSdiAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 732,
+   "prompt_tokens": 6986,
+   "prompt_tokens_details": {
+    "cached_tokens": 4035
+   },
+   "total_tokens": 7718
+  }
+ }
+}

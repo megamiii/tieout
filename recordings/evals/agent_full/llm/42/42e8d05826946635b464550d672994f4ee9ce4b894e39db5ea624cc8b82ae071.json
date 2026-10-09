@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 5,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TSw5UWWyPvtEqxtmvtmqvEB4aqJ7AOE6oRf8hIcTLXviCy+mx/NVy87olFe2T+HLWkBIJgNjV9j03PfavuZSg3HfMNy+ozVL7V5mGRvAQ6/zNPUOaFM0MYxE="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Consolidated Statements of Cash Flows Cash flows from operating activities Purchases of property, plant and equipment\",\"fiscal_year\":2020,\"section\":\"8\",\"ticker\":\"GIS\"}",
+        "name": "search_filings"
+       },
+       "id": "call_255759",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560735,
+  "id": "HgzJat32KYHzvdIPyvDPgAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 55,
+   "prompt_tokens": 2541,
+   "total_tokens": 2596
+  }
+ }
+}

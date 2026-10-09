@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "U.S. government consolidated revenues percentage 2022",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_106a3b3674ea94d5",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 116,
+    "text": "Table of Contents BGS revenues consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: Commercial $9,560 $7,527 $6,936 Government 7,681 8,553 8,368 Total revenues from contracts with customers 17,241 16,080 15,304 Intersegment revenues eliminated on consolidation 370 248 239 Total segment revenues $17,611 $16,328 $15,543 Revenue recognized at a point in time 50 % 45 % 47 % Revenue recognized on fixed-price contracts 88 % 86 % 87 % Revenue from the U.S. government 33 % 40 % 41 % Includes revenues earned from foreign military sales through the U.S. government. Earnings in Equity Method Investments For the year ended December 31, 2022, our share of income from equity method investments was $56, primarily driven by investments held in Unallocated items, eliminations and other. For the years ended December 31, 2021 and 2020, our share of income from equity method investments was $40 and $86, primarily in our BDS segment. Backlog Our total b…"
+   },
+   {
+    "chunk_id": "ch_a22b6d9c61f38dbf",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 115,
+    "text": "Table of Contents BCA revenues by customer location consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: Asia $4,484 $2,792 $2,679 Europe 4,038 4,334 3,872 Middle East 2,003 1,098 1,647 Other non-U.S. 3,042 1,681 513 Total non-U.S. revenues 13,567 9,905 8,711 United States 12,167 9,472 7,899 Estimated potential concessions and other considerations to 737 MAX customers 16 14 (498) Total revenues from contracts with customers 25,750 19,391 16,112 Intersegment revenues, eliminated on consolidation 117 102 50 Total segment revenues $25,867 $19,493 $16,162 Revenue recognized on fixed-price contracts 100 % 100 % 100 % Revenue recognized at a point in time 100 % 100 % 100 % BDS revenues on contracts with customers, based on the customer's location, consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: U.S. customers $17,144 $19,869 $19,662 Non-U.S. customers 6,018 6,671 6,595 Total segme…"
+   },
+   {
+    "chunk_id": "ch_cf88f8fbe6d9652d",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 79,
+    "text": "affect the effective tax rate, if recognized. As of December 31, 2022, these amounts are primarily associated with the amount of research tax credits claimed and various other matters. Federal income tax audits have been settled for all years prior to 2018. The Internal Revenue Service (IRS) began the 2018-2019 federal tax audit in the first quarter of 2021 and added tax year 2020 to the audit in the fourth quarter of 2021. We are also subject to examination in major state and international jurisdictions for the 2008-2021 tax years. We believe appropriate provisions for all outstanding tax issues have been made for all jurisdictions and all open years. Note 5 – Accounts Receivable, net Accounts receivable at December 31 consisted of the following: 2022 2021 U.S. government contracts $800 $1,180 Commercial Airplanes 293 279 Global Services 1,390 1,456 Defense, Space, & Security 145 111 Other 5 5 Less valuation allowance (116) (390) Total $2,517 $2,641 Includes foreign military sales thr…"
+   },
+   {
+    "chunk_id": "ch_2d77f8b3f6dc55d8",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 27,
+    "text": "expense of $16 million in 2020. The increased income in 2022 and 2021 was due to lower amortization of net actuarial losses. Interest and debt expense decreased by $149 million in 2022 primarily due to lower average debt balances and increased by $526 million in 2021 as a result of higher average debt balances. In August 2022, the President signed into law the Inflation Reduction Act of 2022, which contained provisions effective January 1, 2023, including a 15% corporate minimum tax and a 1% excise tax on stock buybacks, both of which we do not expect to have a material impact on our results of operations, financial condition or cash flows. For additional discussion related to Income Taxes, see Note 4 to our Consolidated Financial Statements. Total Costs and Expenses (“Cost of Sales”) Cost of sales, for both products and services, consists primarily of raw materials, parts, sub-assemblies, labor, overhead and subcontracting costs. Our BCA segment predominantly uses program accounting t…"
+   },
+   {
+    "chunk_id": "ch_f4ab865e1b87bcb2",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 114,
+    "text": "Table of Contents While our principal operations are in the United States, Canada and Australia, some key suppliers and subcontractors are located in Europe and Japan. Revenues, including foreign military sales, are reported by customer location and consisted of the following: Years ended December 31, 2022 2021 2020 Asia $8,393 $5,845 $5,931 Europe 7,916 8,967 7,961 Middle East 5,047 4,653 5,308 Canada 1,612 969 1,302 Oceania 1,576 1,147 832 Africa 418 239 114 Latin America, Caribbean and other 2,412 1,376 229 Total non-U.S. revenues 27,374 23,196 21,677 United States 39,218 39,076 36,979 Estimated potential concessions and other considerations to 737 MAX customers 16 14 (498) Total revenues $66,608 $62,286 $58,158 Revenues from the U.S. government (including foreign military sales through the U.S. government), primarily recorded at BDS and BGS, represented 40%, 49% and 51% of consolidated revenues for 2022, 2021 and 2020, respectively. Approximately 4% of operating assets were located…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,71 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GLW",
+  "query": "effective tax rate",
+  "concept": null,
+  "fiscal_years": [
+   2021,
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "GLW",
+  "concepts": [
+   {
+    "concept": "EffectiveIncomeTaxRateContinuingOperations",
+    "label": "Effective Income Tax Rate Reconciliation, Percent",
+    "unit": "pure",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "0.229",
+      "fact_id": "xf_5aaf60caa50573a5",
+      "reported_in_10k_filed": "2023-02-13"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2021-01-01..2021-12-31",
+      "value": "0.205",
+      "fact_id": "xf_b9727865462260ab",
+      "reported_in_10k_filed": "2022-02-14",
+      "later_restated_to": [
+       {
+        "value": "0.202",
+        "fact_id": "xf_526fe8850c4b4d83",
+        "filed": "2023-02-13"
+       },
+       {
+        "value": "0.202",
+        "fact_id": "xf_fdeab98cdbdc6611",
+        "filed": "2024-02-12"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "concept": "UnrecognizedTaxBenefitsThatWouldImpactEffectiveTaxRate",
+    "label": "Unrecognized Tax Benefits that Would Impact Effective Tax Rate",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "169000000",
+      "fact_id": "xf_d35972651f97bae2",
+      "reported_in_10k_filed": "2023-02-13"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "as of 2021-12-31",
+      "value": "120000000",
+      "fact_id": "xf_01f251e32514d57e",
+      "reported_in_10k_filed": "2022-02-14"
+     }
+    ]
+   }
+  ]
+ }
+}

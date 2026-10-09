@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TMvnC/pDYxPRd5toLWn7S7NXnvVpfaj3+3A6lhl+a3Y0532Dlt8Z9hwOXxAvwVFNsUWK348y4pXvlRNDwZREVWv7YpRmmbQ9JJE75U5DJElnYL92JmfFiUEw="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"citations\":[{\"quote\":\"Depreciation and amortization 167\",\"source_id\":\"ch_bbd0f6d150f7a1eb\"},{\"source_id\":\"ch_f162657f41ba7e65\",\"quote\":\"Total net revenue $ 3,991\"}],\"answer\":\"For FY2015, AMD reported Depreciation and Amortization of $167 million in the Statement of Cash Flows and Net Revenue of $3,991 million in the Consolidated Statements of Operations (P&L statement). This yields a D&A % margin of approximately 4.18%.\",\"needs_review\":false,\"rationale\":\"The D&A from the cash flow statement is $167 million and net revenue is $3,991 million. Dividing $167 million by $3,991 million gives 4.184%.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_924492",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560428,
+  "id": "6wrJao6hOaOFxN8Pu7moiAY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 223,
+   "prompt_tokens": 6517,
+   "total_tokens": 6740
+  }
+ }
+}

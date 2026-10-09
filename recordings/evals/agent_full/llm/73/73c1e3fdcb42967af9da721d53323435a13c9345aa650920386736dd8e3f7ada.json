@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TZUSqGP6xllFWKscib7nFhTZ6isDWFyVFZf5OF16lm+v2mCx21wp2PDux5thUEzC1OvSVLuCXfB8gG6T7G1Iot6aRgb3cp2BXwgzi2SnGtRjXQ2iEZNPH+jE="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AXP\",\"fiscal_year\":2022,\"query\":\"Net cash provided by operating activities\"}",
+        "name": "search_filings"
+       },
+       "id": "call_203426",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561375,
+  "id": "nw7JasHlBImJ28oPvZ_N0AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 2572,
+   "total_tokens": 2610
+  }
+ }
+}

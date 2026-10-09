@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T0OQ9NU6c2RbosrNoSc71uYSQ3zsDfgArkQsmMZyF9shJIPlOXKIMJ+hePQb2Vtad4/mWpdyyya8b+Ksa/ioC4Bcd2IBq9tIqLAWMFBkMySeftb2owf7p0gU="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"U.S. Government commercial airlines customers defense\",\"fiscal_year\":2022,\"ticker\":\"BA\"}",
+        "name": "search_filings"
+       },
+       "id": "call_195581",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560125,
+  "id": "vQnJauKxGKO_vdIP-aSQmQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 4282,
+   "total_tokens": 4322
+  }
+ }
+}

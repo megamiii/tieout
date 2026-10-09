@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TxjkGhOA+i4MpRtj9nX3//DHi1/NVfQVaYOcxXJCNosq8ig3b26t8bJ75gO1gc0fPxBx7w/Z3E+eMMB/7xSackECFAUHgdgbqnTMVjex0ENAraV9/yKWm2aA="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"needs_review\":false,\"citations\":[{\"quote\":\"Consumer (0.9) — (0.4) (2.6) (3.9)\",\"source_id\":\"ch_80d20f234646fe22\"},{\"source_id\":\"ch_7f89f6f9151a245d\",\"quote\":\"Safety and Industrial Business (33.9% of consolidated sales): ... Organic sales 1.0 %\"},{\"source_id\":\"ch_d21331ee8360a3c7\",\"quote\":\"Transportation and Electronics Business (26.0% of consolidated sales): ... Organic sales 1.2 %\"},{\"quote\":\"Health Care Business (24.6% of consolidated sales): ... Organic sales 3.2 %\",\"source_id\":\"ch_59afedc10674107d\"}],\"answer\":\"In fiscal year 2022, if we exclude the impact of M&A/divestitures (i.e. looking at organic sales growth), the **Consumer** segment dragged down 3M's overall growth, with an organic sales decline of **-0.9%** (compared to positive organic growth in Safety and Industrial at +1.0%, Transportation and Electronics at +1.2%, and Health Care at +3.2%).\",\"rationale\":\"Identified organic sales growth rates for all four business segments in 2022 from 3M's 2022 10-K. The Consumer segment was the only segment with negative organic growth (-0.9%), while all other segments posted positive organic growth.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_166796",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560243,
+  "id": "MArJasHeG--ExN8PlJPFsAY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 391,
+   "prompt_tokens": 9255,
+   "prompt_tokens_details": {
+    "cached_tokens": 6080
+   },
+   "total_tokens": 9646
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TH4MCtSkiN3HMQGUTnJFi8UIi5xpUgjw/GTFPJk0BCNdZWRZRB4QJPBEREok4JJp11EsA4D2CpTFAGAetsC6vUQ8alUPVqXujHg00SArp1eN1mMNScMBHscM="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"Amcor's 10-K states that the company develops and produces responsible packaging for various end markets.\",\"confidence\":1,\"citations\":[{\"source_id\":\"ch_7e7d94f646562cab\",\"quote\":\"Today, we are a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other products.\"}],\"needs_review\":false,\"answer\":\"Amcor primarily operates in the packaging industry, developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other products.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_907761",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559944,
+  "id": "BwnJapD8A42jvdIP7eGI8QE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 150,
+   "prompt_tokens": 4759,
+   "prompt_tokens_details": {
+    "cached_tokens": 2011
+   },
+   "total_tokens": 4909
+  }
+ }
+}

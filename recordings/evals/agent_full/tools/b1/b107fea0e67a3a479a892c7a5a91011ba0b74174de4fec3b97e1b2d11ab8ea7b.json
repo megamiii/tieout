@@ -1,0 +1,17 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "NKE",
+  "query": "Inventory",
+  "concept": null,
+  "fiscal_years": [
+   2020,
+   2021
+  ]
+ },
+ "output": {
+  "ticker": "NKE",
+  "concepts": [],
+  "note": "no annual values found"
+ }
+}

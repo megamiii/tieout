@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Balance Sheets Inventories merchandise inventories",
+  "ticker": "BBY",
+  "fiscal_year": 2019,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_8168b6b422ae3513",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 52,
+    "text": "Table of Contents Consolidated Balance Sheets $ in millions, except per share and share amounts February 2, 2019 February 3, 2018 Assets Current assets Cash and cash equivalents $ 1,980 $ 1,101 Short-term investments — 2,032 Receivables, net 1,015 1,049 Merchandise inventories 5,409 5,209 Other current assets 466 438 Total current assets 8,870 9,829 Property and equipment Land and buildings 637 623 Leasehold improvements 2,119 2,327 Fixtures and equipment 5,865 5,410 Property under capital and financing leases 579 340 Gross property and equipment 9,200 8,700 Less accumulated depreciation 6,690 6,279 Net property and equipment 2,510 2,421 Goodwill 915 425 Other assets 606 374 Total assets $ 12,901 $ 13,049 Liabilities and equity Current liabilities Accounts payable $ 5,257 $ 4,873 Unredeemed gift card liabilities 290 385 Deferred revenue 446 453 Accrued compensation and related expenses 482 561 Accrued liabilities 982 1,001 Current portion of long-term debt 56 544 Total current liabilit…"
+   },
+   {
+    "chunk_id": "ch_5c57ac2d19f07ad4",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 60,
+    "text": "193 Total cash, cash equivalents and restricted cash $ 2,184 $ 1,300 $ 2,433 Amounts included in restricted cash are pledged as collateral or restricted to use for workers' compensation and general liability insurance claims. Receivables Receivables consist primarily of amounts due from vendors for various vendor funding programs, banks for customer credit card and debit card transactions and mobile phone network operators for device sales and commissions. We establish allowances for uncollectible receivables based primarily on historical collection trends. Our allowances for uncollectible receivables were $23 million and $37 million at February 2, 2019 , and February 3, 2018 , respectively. Merchandise Inventories Merchandise inventories are recorded at the lower of cost or net realizable value and the weighted average method is used to determine the cost of inventory. The costs of in-bound freight to move inventory into our distribution centers are included as part of the net cost of…"
+   },
+   {
+    "chunk_id": "ch_008dbe6b01e023c8",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 67,
+    "text": "Cost of replacement parts and related freight expenses; • Physical inventory losses; • Markdowns; • Customer shipping and handling expenses; • Costs associated with operating our distribution network, including payroll and benefit costs, occupancy costs and depreciation; and • Freight expenses associated with moving merchandise inventories from our distribution centers to our retail stores. Selling, General and Administrative Expenses • Payroll and benefit costs for retail and corporate employees; • Occupancy and maintenance costs of retail, services and corporate facilities; • Depreciation and amortization related to retail, services and corporate assets; • Advertising costs; • Vendor allowances that are a reimbursement of specific, incremental and identifiable costs; • Tender costs, including bank charges and costs associated with credit and debit card interchange fees; • Charitable contributions; • Outside and outsourced service fees; • Long-lived asset impairment charges; and • Oth…"
+   },
+   {
+    "chunk_id": "ch_468a0c65de58edaa",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Table of Contents Consolidated Statements of Cash Flows $ in millions Fiscal Years Ended February 2, 2019 February 3, 2018 January 28, 2017 Operating activities Net earnings $ 1,464 $ 1,000 $ 1,228 Adjustments to reconcile net earnings to total cash provided by operating activities: Depreciation and amortization 770 683 654 Restructuring charges 46 10 39 Stock-based compensation 123 129 108 Deferred income taxes 10 162 201 Other, net (25) (13) (17) Changes in operating assets and liabilities, net of acquired assets and liabilities: Receivables 28 315 (193) Merchandise inventories (194) (335) 199 Other assets (34) (21) 10 Accounts payable 432 (196) 518 Other liabilities (234) 117 23 Income taxes 22 290 (213) Total cash provided by operating activities 2,408 2,141 2,557 Investing activities Additions to property and equipment, net of $53, $123 and $48, respectively, of non-cash capital expenditures (819) (688) (580) Purchases of investments — (4,325) (3,045) Sales of investments 2,098 4,…"
+   },
+   {
+    "chunk_id": "ch_92cfa686fe6bc866",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 42,
+    "text": "electronics industries, our financial position and changes in our business strategy. If further changes in our credit ratings were to occur, they could impact, among other things, interest costs for certain of our credit facilities, our future borrowing costs, access to capital markets, vendor financing terms and future new-store leasing costs. Restricted Cash Our liquidity is also affected by restricted cash balances that are pledged as collateral or restricted to use for workers' compensation and general liability insurance claims. Restricted cash and cash equivalents related to our continuing operations, which are included in Other current assets on our Consolidated Balance Sheets, remained relatively flat at $204 million and $199 million at February 2, 2019 , and February 3, 2018 , respectively. Capital Expenditures Our capital expenditures typically include investments in our stores, distribution capabilities and information technology enhancements (including e-commerce). During f…"
+   }
+  ]
+ }
+}

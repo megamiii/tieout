@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T6biFaE32fGwEjVy0Nl8IjWYyL28ObMzw+DA9dGMfQML0+4hqUjYUP1653yW7EJBk+jxQimzG9Vyhh2Mkhkr4ZAbkDhnB/MtWtjbvp3cr9MuL7W//cmOZXfE="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"1,824\",\"source_id\":\"xf_9b22d62243770f38\"},{\"quote\":\"-962000000\",\"source_id\":\"xf_3e874e8290b1c1f8\"},{\"quote\":\"-1806000000\",\"source_id\":\"xf_72162e2dd5975fed\"},{\"quote\":\"Fiscal Years Ended January 28, 2023\",\"source_id\":\"ch_e64d7dca6930b4b6\"}],\"confidence\":1,\"rationale\":\"Operating activities brought in $1,824 million, whereas investing activities used $962 million and financing activities used $1,806 million. Operating activities brought in the most cash flow in FY2023.\",\"needs_review\":false,\"answer\":\"For Best Buy in FY2023, operating activities brought in the most cash flow, generating $1,824 million. By comparison, investing activities used $962 million (lost $962 million), and financing activities used $1,806 million (lost $1,806 million).\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_1007794",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560109,
+  "id": "rAnJaq2KHP3fxs0PkPSdiAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 305,
+   "prompt_tokens": 6207,
+   "prompt_tokens_details": {
+    "cached_tokens": 2317
+   },
+   "total_tokens": 6512
+  }
+ }
+}

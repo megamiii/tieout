@@ -1,0 +1,59 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "BBY",
+  "query": "net income",
+  "concept": null,
+  "fiscal_years": [
+   2022,
+   2023
+  ]
+ },
+ "output": {
+  "ticker": "BBY",
+  "concepts": [
+   {
+    "concept": "NetIncomeLoss",
+    "label": "Net Income (Loss) Attributable to Parent",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-01-30..2023-01-28",
+      "value": "1419000000",
+      "fact_id": "xf_43e21bf6a25d1b5c",
+      "reported_in_10k_filed": "2023-03-17"
+     },
+     {
+      "fiscal_year": 2022,
+      "period": "2021-01-31..2022-01-29",
+      "value": "2454000000",
+      "fact_id": "xf_98f7d631fd3bd9ce",
+      "reported_in_10k_filed": "2022-03-18"
+     }
+    ]
+   },
+   {
+    "concept": "IncomeTaxesPaidNet",
+    "label": "Income Taxes Paid, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-01-30..2023-01-28",
+      "value": "283000000",
+      "fact_id": "xf_8e73a64de9c70b23",
+      "reported_in_10k_filed": "2023-03-17"
+     },
+     {
+      "fiscal_year": 2022,
+      "period": "2021-01-31..2022-01-29",
+      "value": "716000000",
+      "fact_id": "xf_edbb092de325cd39",
+      "reported_in_10k_filed": "2022-03-18"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TmCmG4e7cGLW6Ho2BMn0uFG1guUr93WMhfyadcidksNKlY+s1w1//dK7NlK3+Gf0zzUgXC2wTXruZWsN7hiSBCvcWpgUZp/QDd/2Uo0d8kQlPCXGqngf63kw="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"On August 1, 2022, the Company completed the acquisition of 100% equity interest in a Czech Republic company that operates a world-class flexible packaging manufacturing plant. The purchase consideration of $59 million...\",\"source_id\":\"ch_a1adac249f0de09a\"},{\"quote\":\"On May 31, 2023, the Company completed the acquisition of a New Zealand based leading manufacturer of state-of-the-art, automated protein packaging machines. The purchase consideration of $45 million...\",\"source_id\":\"ch_cdca9b379a363798\"}],\"confidence\":0.95,\"answer\":\"In FY2023, Amcor completed three major acquisitions within its Flexibles reportable segment:\\n1. On August 1, 2022, 100% equity interest in a Czech Republic company operating a flexible packaging manufacturing plant, with a purchase consideration of $59 million.\\n2. On March 17, 2023, 100% equity interest in a medical device packaging manufacturing site in Shanghai, China, with a purchase consideration of $60 million.\\n3. On May 31, 2023, a New Zealand-based manufacturer of automated protein packaging machines, with a purchase consideration of $45 million.\\n\\nFor FY2022 and FY2021, Amcor's Note 5 (\\\"Acquisitions and Divestitures\\\") does not report any major business acquisitions completed during those fiscal years, focusing instead on disposals, restructuring, and portfolio optimization under the Bemis Integration Plan.\",\"rationale\":\"The answer details the acquisitions listed in Note 5 of the FY2023 10-K, meeting all length requirements for citations.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_964416",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559878,
+  "id": "xQjJaqPsEfjbvdIP-avxoAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 417,
+   "prompt_tokens": 9983,
+   "prompt_tokens_details": {
+    "cached_tokens": 6604
+   },
+   "total_tokens": 10400
+  }
+ }
+}

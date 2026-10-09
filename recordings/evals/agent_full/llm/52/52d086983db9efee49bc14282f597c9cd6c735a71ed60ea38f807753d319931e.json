@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TIWOzzgJyZmdfyZCrQRXrfRRqB0s4alENn6tbireDmodepHzq5oU12vac/vkzZkTThdIVvKqVQi/jvzGYw/P29tHeYAA7GXISVboBe8nqBeAEb8tz92HcmLk="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"Net income (Net earnings) for Best Buy was $1,000 million in FY2018 and $1,464 million in FY2019. The percentage change is (1464 - 1000) / 1000 * 100 = 46.4%.\",\"needs_review\":false,\"confidence\":1,\"answer\":\"Best Buy's net income (Net earnings) changed from $1,000 million in fiscal year 2018 to $1,464 million in fiscal year 2019, representing an increase of 46.4%.\",\"citations\":[{\"quote\":\"Net earnings $ 1,464 $ 1,000 $ 1,228\",\"source_id\":\"ch_875b47a8cab19292\"},{\"source_id\":\"ch_ec5d4a81858d0f6c\",\"quote\":\"Net earnings attributable to Best Buy Co., Inc. shareholders 1,464 1,000 1,228\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_221008",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561567,
+  "id": "Xg_JatmzC4uJvdIPn8K22Ak",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 269,
+   "prompt_tokens": 6649,
+   "total_tokens": 6918
+  }
+ }
+}

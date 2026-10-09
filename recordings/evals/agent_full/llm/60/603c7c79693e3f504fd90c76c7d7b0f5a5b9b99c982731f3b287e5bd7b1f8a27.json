@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T/OFrzi1ogVPqObvk2BvZkLvleyegaCnM13AviovXoUUFplPzZuKSZBk/KneQrK2MQ4hA2gaudD8W4ILOoU49lmztj2Xs8oPZoDeCd0J87Fhf2nGNBTIfogE="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Consolidated Balance Sheets Trade receivables\",\"section\":\"8\",\"ticker\":\"AMCR\",\"fiscal_year\":2020}",
+        "name": "search_filings"
+       },
+       "id": "call_829610",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560542,
+  "id": "XgvJarrSHoDZxs0PrrTyoQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 4143,
+   "total_tokens": 4187
+  }
+ }
+}

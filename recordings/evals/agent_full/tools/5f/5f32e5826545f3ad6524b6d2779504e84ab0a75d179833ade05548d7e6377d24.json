@@ -1,0 +1,16 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AXP",
+  "query": null,
+  "concept": "DepositsToBankOrCustomerDeposits",
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "AXP",
+  "concepts": [],
+  "note": "no annual values found"
+ }
+}

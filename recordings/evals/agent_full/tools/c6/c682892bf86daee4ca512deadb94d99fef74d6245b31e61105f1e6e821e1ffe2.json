@@ -1,0 +1,98 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AXP",
+  "query": "property, plant and equipment",
+  "concept": null,
+  "fiscal_years": null
+ },
+ "output": {
+  "ticker": "AXP",
+  "concepts": [
+   {
+    "concept": "PropertyPlantAndEquipmentNet",
+    "label": "Property, Plant and Equipment, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2025,
+      "period": "as of 2025-12-31",
+      "value": "6118000000",
+      "fact_id": "xf_dfb95c7fe5357702",
+      "reported_in_10k_filed": "2026-02-06"
+     },
+     {
+      "fiscal_year": 2024,
+      "period": "as of 2024-12-31",
+      "value": "5371000000",
+      "fact_id": "xf_ad1a127f2888c19e",
+      "reported_in_10k_filed": "2025-02-07"
+     },
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-12-31",
+      "value": "5138000000",
+      "fact_id": "xf_1f799fedb434e982",
+      "reported_in_10k_filed": "2024-02-09"
+     }
+    ]
+   },
+   {
+    "concept": "ProceedsFromSaleOfPropertyPlantAndEquipment",
+    "label": "Proceeds from Sale of Property, Plant, and Equipment",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2025,
+      "period": "2025-01-01..2025-12-31",
+      "value": "1000000",
+      "fact_id": "xf_fe69ed90d1ecbcaa",
+      "reported_in_10k_filed": "2026-02-06"
+     },
+     {
+      "fiscal_year": 2024,
+      "period": "2024-01-01..2024-12-31",
+      "value": "6000000",
+      "fact_id": "xf_a4f190ec90d99347",
+      "reported_in_10k_filed": "2025-02-07"
+     },
+     {
+      "fiscal_year": 2023,
+      "period": "2023-01-01..2023-12-31",
+      "value": "2000000",
+      "fact_id": "xf_98eb8b3f5c9162d1",
+      "reported_in_10k_filed": "2024-02-09"
+     }
+    ]
+   },
+   {
+    "concept": "DeferredTaxAssetsPropertyPlantAndEquipment",
+    "label": "Deferred Tax Assets, Property, Plant and Equipment",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2025,
+      "period": "as of 2025-12-31",
+      "value": "995000000",
+      "fact_id": "xf_86ac8606a53463d9",
+      "reported_in_10k_filed": "2026-02-06"
+     },
+     {
+      "fiscal_year": 2024,
+      "period": "as of 2024-12-31",
+      "value": "1084000000",
+      "fact_id": "xf_0c2f655062ff9aeb",
+      "reported_in_10k_filed": "2025-02-07"
+     },
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-12-31",
+      "value": "743000000",
+      "fact_id": "xf_0692731c3f186011",
+      "reported_in_10k_filed": "2024-02-09"
+     }
+    ]
+   }
+  ]
+ }
+}

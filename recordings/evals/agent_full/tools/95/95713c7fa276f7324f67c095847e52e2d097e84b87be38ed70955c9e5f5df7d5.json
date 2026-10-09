@@ -1,0 +1,102 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "BBY",
+  "query": "net income",
+  "concept": null,
+  "fiscal_years": [
+   2015,
+   2016,
+   2017
+  ]
+ },
+ "output": {
+  "ticker": "BBY",
+  "concepts": [
+   {
+    "concept": "NetIncomeLoss",
+    "label": "Net Income (Loss) Attributable to Parent",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2017,
+      "period": "2016-01-31..2017-01-28",
+      "value": "1228000000",
+      "fact_id": "xf_0aa7dc29b72f7d66",
+      "reported_in_10k_filed": "2017-03-24"
+     },
+     {
+      "fiscal_year": 2016,
+      "period": "2015-02-01..2016-01-30",
+      "value": "897000000",
+      "fact_id": "xf_d0b30ebf4d9d2c6e",
+      "reported_in_10k_filed": "2016-03-23"
+     },
+     {
+      "fiscal_year": 2015,
+      "period": "2014-02-02..2015-01-31",
+      "value": "1233000000",
+      "fact_id": "xf_0071c6e28b66cdda",
+      "reported_in_10k_filed": "2015-03-31"
+     }
+    ]
+   },
+   {
+    "concept": "ProfitLoss",
+    "label": "Net Income (Loss), Including Portion Attributable to Noncontrolling Interest",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2017,
+      "period": "2016-01-31..2017-01-28",
+      "value": "1228000000",
+      "fact_id": "xf_2a91b6cbf27048f1",
+      "reported_in_10k_filed": "2017-03-24"
+     },
+     {
+      "fiscal_year": 2016,
+      "period": "2015-02-01..2016-01-30",
+      "value": "897000000",
+      "fact_id": "xf_e98bd5e8381e2b15",
+      "reported_in_10k_filed": "2016-03-23"
+     },
+     {
+      "fiscal_year": 2015,
+      "period": "2014-02-02..2015-01-31",
+      "value": "1235000000",
+      "fact_id": "xf_5957cc931e3dfaf2",
+      "reported_in_10k_filed": "2015-03-31"
+     }
+    ]
+   },
+   {
+    "concept": "IncomeTaxesPaidNet",
+    "label": "Income Taxes Paid, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2017,
+      "period": "2016-01-31..2017-01-28",
+      "value": "628000000",
+      "fact_id": "xf_4df5d7af3add4789",
+      "reported_in_10k_filed": "2017-03-24"
+     },
+     {
+      "fiscal_year": 2016,
+      "period": "2015-02-01..2016-01-30",
+      "value": "550000000",
+      "fact_id": "xf_07a099671e8b6652",
+      "reported_in_10k_filed": "2016-03-23"
+     },
+     {
+      "fiscal_year": 2015,
+      "period": "2014-02-02..2015-01-31",
+      "value": "355000000",
+      "fact_id": "xf_ed6a34f6ce33f653",
+      "reported_in_10k_filed": "2015-03-31"
+     }
+    ]
+   }
+  ]
+ }
+}

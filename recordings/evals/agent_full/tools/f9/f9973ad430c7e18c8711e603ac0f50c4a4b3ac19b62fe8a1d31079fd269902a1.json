@@ -1,0 +1,118 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMCR",
+  "query": "revenue",
+  "concept": null,
+  "fiscal_years": [
+   2020,
+   2019
+  ]
+ },
+ "output": {
+  "ticker": "AMCR",
+  "concepts": [
+   {
+    "concept": "Revenues",
+    "label": "Revenues",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2019-07-01..2020-06-30",
+      "value": "12467500000",
+      "fact_id": "xf_3d8b2975623fa384",
+      "reported_in_10k_filed": "2020-08-27"
+     },
+     {
+      "fiscal_year": 2019,
+      "period": "2018-07-01..2019-06-30",
+      "value": "9458200000",
+      "fact_id": "xf_fb6cad800325e34a",
+      "reported_in_10k_filed": "2019-09-03"
+     }
+    ]
+   },
+   {
+    "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2019-07-01..2020-06-30",
+      "value": "12467500000",
+      "fact_id": "xf_26dccd60fd202d0a",
+      "reported_in_10k_filed": "2020-08-27",
+      "later_restated_to": [
+       {
+        "value": "12468000000",
+        "fact_id": "xf_9780330f5164cff9",
+        "filed": "2021-08-24"
+       },
+       {
+        "value": "12468000000",
+        "fact_id": "xf_1e2e50df3da9e9ed",
+        "filed": "2022-08-18"
+       }
+      ]
+     },
+     {
+      "fiscal_year": 2019,
+      "period": "2018-07-01..2019-06-30",
+      "value": "9458200000",
+      "fact_id": "xf_285ac098b74453db",
+      "reported_in_10k_filed": "2020-08-27",
+      "later_restated_to": [
+       {
+        "value": "9458000000",
+        "fact_id": "xf_a31c72f8d06d9c93",
+        "filed": "2021-08-24"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "concept": "GrossProfit",
+    "label": "Gross Profit",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2019-07-01..2020-06-30",
+      "value": "2535500000",
+      "fact_id": "xf_34ee5e7458c1d1b9",
+      "reported_in_10k_filed": "2020-08-27",
+      "later_restated_to": [
+       {
+        "value": "2536000000",
+        "fact_id": "xf_82074d8d7fe119c9",
+        "filed": "2021-08-24"
+       },
+       {
+        "value": "2536000000",
+        "fact_id": "xf_04ae7ac1da936a00",
+        "filed": "2022-08-18"
+       }
+      ]
+     },
+     {
+      "fiscal_year": 2019,
+      "period": "2018-07-01..2019-06-30",
+      "value": "1799100000",
+      "fact_id": "xf_8bd3ad489edff749",
+      "reported_in_10k_filed": "2019-09-03",
+      "later_restated_to": [
+       {
+        "value": "1799000000",
+        "fact_id": "xf_c9ccaf578fee4bc8",
+        "filed": "2021-08-24"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

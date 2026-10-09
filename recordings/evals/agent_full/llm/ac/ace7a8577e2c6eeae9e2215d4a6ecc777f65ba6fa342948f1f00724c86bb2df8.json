@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TTrDrJuJUyYjtQgDVr6kAIjjJGkOhn4jkYGpnmIn3gK/drfTaagUvakNHPW+/ACuO9bkFHuNrX2fHkqWBmxli7qUj0EwdxRIS/WrcUshV9HOKlH+vCn4IyGk="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AXP\",\"fiscal_year\":2022,\"query\":\"cards in force retention 2022 new cards acquired\"}",
+        "name": "search_filings"
+       },
+       "id": "call_223142",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560295,
+  "id": "ZgrJap3WOayW28oPpvrGoQc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 3789,
+   "total_tokens": 3833
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TTlZax/fKTYYaa8axCA0qVi6FbCmCWPBq7qIOwbqSzBb0tWJeWkDWV5RzIEgEUt153155TyVls+a+35OTzOm9yjregtyLufS1bWUcHG83L3oGFoM1XM5A9j0="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2021,\"ticker\":\"PEP\",\"query\":\"CONSOLIDATED STATEMENT OF CASH FLOWS\",\"section\":\"8\"}",
+        "name": "search_filings"
+       },
+       "id": "call_852701",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560790,
+  "id": "VQzJasCmI8Gd3boPp8vYcA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 4190,
+   "prompt_tokens_details": {
+    "cached_tokens": 1997
+   },
+   "total_tokens": 4235
+  }
+ }
+}

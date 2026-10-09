@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TMpFUrh4Xxmolbppz5h7o6vZsWxom2kb3v4P1hzLCZ0pFC1mSIBaBwX24JBWDYYJU9Pa1Qh/wvsVDKQJQnOPdgmW63HCcdLfgtD1F04t7tHwiQPj5925sY0Q="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"citations\":[{\"quote\":\"Total current assets 16,525 15,134\",\"source_id\":\"ch_0da7064d2a288d6f\"}],\"rationale\":\"The Consolidated Balance Sheets in Nike's FY2019 Form 10-K explicitly report Total current assets as $16,525 million as of May 31, 2019.\",\"answer\":\"At the end of FY2019 (May 31, 2019), Nike had total current assets of $16,525 million.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_198013",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560480,
+  "id": "HwvJavyHLY2jvdIP7eGI8QE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 156,
+   "prompt_tokens": 4282,
+   "total_tokens": 4438
+  }
+ }
+}

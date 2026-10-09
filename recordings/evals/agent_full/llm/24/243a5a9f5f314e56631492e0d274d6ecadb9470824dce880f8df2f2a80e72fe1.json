@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T3zZbOTgiioLGz50nM9VhDYYs5p003Qf9ydmEc6t7aS3dN64pdAmKLmTZir0/KtC1BxjQoh6wDLm13AACRu1ft56e5d5PwpTmVSrMRSkm5Wp7/Af6dB9E4gg="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"ticker\":\"PEP\",\"fiscal_year\":2022,\"query\":\"Depreciation and amortization\"}",
+        "name": "search_filings"
+       },
+       "id": "call_229345",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560669,
+  "id": "3QvJao3wIIHzvdIPyvDPgAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 2987,
+   "total_tokens": 3028
+  }
+ }
+}

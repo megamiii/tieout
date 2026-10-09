@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the ongoing legal battles mentioned in the gold answer and provides additional accurate context from the 10-K filing.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0ThVfRs4wWC5eSx9zXnA5TJnJJpxZLcwpZTuuztx+JjfB4XWWB2Cg4noRfkePvhBUMpJy6yHdt036JSOFRvNO4IvkIA+UNhFD2dVwrrAPu3RfO2lFcgnbTxTVYR5YVwsBqZQ7Gqhz67avwEUiP"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791560977,
+  "id": "_wzJauyLEJrAxN8PktmhyAU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 412,
+   "total_tokens": 451
+  }
+ }
+}

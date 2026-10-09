@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "restructuring",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_ecd4a15ed83eecd2",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 49,
+    "text": "0.03 0.01 Restructuring and impairment charges 0.24 0.15 Acquisition and divestiture-related charges 0.05 (0.02) Gain associated with the Juice Transaction (2.08) — Impairment and other charges 2.12 — Pension and retiree medical-related impact 0.17 0.01 Charge related to cash tender offers — 0.49 Tax benefit related to the IRS audit (0.23) — Tax expense related to the TCJ Act 0.06 0.14 Core net income attributable to PepsiCo per common share – diluted, non-GAAP measure $ 6.79 $ 6.26 9 % Impact of foreign exchange translation 2 Growth in core net income attributable to PepsiCo per common share – diluted, on a constant currency basis, non-GAAP measure 11 % (a) Does not sum due to rounding. Mark-to-Market Net Impact We centrally manage commodity derivatives on behalf of our divisions. These commodity derivatives include agricultural products, energy and metals. Commodity derivatives that do not qualify for hedge accounting treatment are marked to market each period with the resulting gain…"
+   },
+   {
+    "chunk_id": "ch_4d730258f709258c",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 211,
+    "text": "(d) Severance Date: An Active Member's final day of employment with the Employer pursuant to the Reorganization. (e) Severance Program and Effective Date: The Terms Severance Program and Effective Date are defined as follows, separately for each Severance Program: (1) 2007/2008 Restructuring. For purposes of the 2007/2008 Restructuring, Severance Program means both the “PepsiCo Transition Severance Program for the 2007 Restructuring for Salaried Employees Below Band 1” and the “PepsiCo Transition Severance Program for the Equipment & Service Management Restructuring for Salaried Employees below Band 1” and Effective Date means February 4, 2008 (that is, the first date an Active Member would be able to retire under this paragraph (1)). (2) 2008/2009 Restructuring. For purposes of the 2008/2009 Restructuring, Severance Program means both the “PepsiCo Transition Severance Program for the 2008/2009 Restructuring for Salaried Employees Below Band I” and the “PepsiCo Transition Severance Pro…"
+   },
+   {
+    "chunk_id": "ch_a205afa7cda8ebe4",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 210,
+    "text": "APPENDIX ERW - EARLY RETIREMENT WINDOWS ERW.1 Scope. This Appendix ERW supplements the main portion of the DB Program with respect to the rights and benefits of Covered Employees. ERW.2 Definitions and Program Specific Rules. This section provides definitions for the following words or phrases in boldface and underlined. Where they appear in this Appendix ERW with initial capitals they shall have the meaning set forth below. Except as otherwise provided in this Appendix ERW, all defined terms shall have the meaning given to them in Section 2.01 of the DB Program. (a) Appendix ERW: This Appendix ERW to the DB Program. (b) Covered Employee: An Active Member who: (1) Is an Eligible Employee of an Employer at the time his employment is terminated involuntarily pursuant to the Reorganization; (2) (i) For purposes of the 2007/2008 Restructuring, has his last day of active employment between the Effective Date and December 31, 2008 (inclusive) and has a Severance Date pursuant to paragraph (1…"
+   },
+   {
+    "chunk_id": "ch_92d5bcf3176e1155",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 42,
+    "text": "Restructuring and impairment charges Acquisition and divestiture- related charges Core, Non-GAAP Measure FLNA $ 5,633 $ — $ 28 $ 2 $ 5,663 QFNA 578 — — — 578 PBNA 2,442 — 20 11 2,473 LatAm 1,369 — 37 — 1,406 Europe 1,292 — 81 8 1,381 AMESA 858 — 15 10 883 APAC 673 — 7 4 684 Corporate unallocated expenses (1,683) 19 49 (39) (1,654) Total $ 11,162 $ 19 $ 237 $ (4) $ 11,414 (a) See “Items Affecting Comparability.” (b) Includes charges taken as a result of the COVID-19 pandemic. See Note 1 to our consolidated financial statements for further information. (c) In 2021, income amount primarily relates to gains associated with the contingent consideration in connection with our acquisition of Rockstar Energy Beverages (Rockstar). This impact is partially offset by divestiture-related charges associated with the Juice Transaction. See Note 13 to our consolidated financial statements for further information. (a) (b) (b) (a) (b) (c) (b) 40"
+   },
+   {
+    "chunk_id": "ch_404572c7f31f52ba",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 79,
+    "text": "Table of Contents 2022 2021 2020 Plan to Date through 12/31/2022 FLNA $ 46 $ 28 $ 83 $ 210 QFNA 7 — 5 19 PBNA 68 20 47 226 LatAm 32 37 31 171 Europe 109 81 48 343 AMESA 12 15 14 82 APAC 16 7 5 77 Corporate 90 49 36 229 380 237 269 1,357 Other pension and retiree medical benefits income 31 10 20 98 Total $ 411 $ 247 $ 289 $ 1,455 Plan to Date through 12/31/2022 Severance and other employee costs $ 807 Asset impairments 190 Other costs 458 Total $ 1,455 Severance and other employee costs primarily include severance and other termination benefits, as well as voluntary separation arrangements. Other costs primarily include costs associated with the implementation of our initiatives, including contract termination costs, consulting and other professional fees. A summary of our 2019 Productivity Plan is as follows: Severance and Other Employee Costs Asset Impairments Other Costs Total Liability as of December 28, 2019 $ 128 $ — $ 21 $ 149 2020 restructuring charges 158 33 98 289 Cash payment…"
+   }
+  ]
+ }
+}

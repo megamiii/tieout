@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TSWZDq2Jru1FCaEPl/3oOXEPGtOYSPS8I4zAWlx2V+u8zJJEWlHqcAFjmV2Q3simtwN1814Nlc9yPnSxfGh88qHcFQMcw25Amad+7jZE+xkGWakbHHSEftns="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AXP\",\"concept\":\"DepositsToBankOrCustomerDeposits\",\"fiscal_years\":[2022]}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_557629",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560290,
+  "id": "YQrJatfLI72Axs0Pq5K22QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 6510,
+   "prompt_tokens_details": {
+    "cached_tokens": 4030
+   },
+   "total_tokens": 6551
+  }
+ }
+}

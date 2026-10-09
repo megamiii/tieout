@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Note 21 \\u2013 Legal Proceedings",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_f8fc5ef01eba0774",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 3",
+    "page": 20,
+    "text": "Item 3. Legal Proceedings Currently, we are involved in a number of legal proceedings. For a discussion of contingencies related to legal proceedings, see Note 21 to our Consolidated Financial Statements, which is hereby incorporated by reference."
+   },
+   {
+    "chunk_id": "ch_d0e0dd0f9fe0d943",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 112,
+    "text": "arrangements are uncertain. Items not included in the above disclosures include cash, restricted cash, time deposits and other deposits, commercial paper, money market funds, Accounts receivable, Unbilled receivables, Other current assets, Accounts payable and long-term payables. The carrying values of those items, as reflected in the Consolidated Statements of Financial Position, approximate their fair value at December 31, 2022 and 2021. The fair value of assets and liabilities whose carrying value approximates fair value is determined using Level 2 inputs, with the exception of cash (Level 1). Note 21 – Legal Proceedings Various legal proceedings, claims and investigations related to products, contracts, employment and other matters are pending against us. In addition, we are subject to various U.S. government inquiries and investigations from which civil, criminal or administrative proceedings could result or have resulted in the past. Such proceedings involve or could involve clai…"
+   },
+   {
+    "chunk_id": "ch_fcaa02f30acf2095",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 166,
+    "text": "(D) The Participant disparages or otherwise makes any statements about the Controlled Group, its products, or its employees that could be in any way viewed as negative or critical. Nothing in this paragraph will apply to legally protected communications to government agencies or statements made in the course of sworn testimony in administrative, judicial, or arbitral proceedings. (E) With respect to contributions made to the Plan on and after January 1, 2017, the Participant uses or discloses proprietary or confidential information, including but not limited to trade secrets, of the Controlled Group. Nothing in this paragraph will apply to legally protected communications to government agencies or statements made in the course of sworn testimony in administrative, judicial, or arbitral proceedings. To the extent the Participant has already received or commenced payment of his or her DC SERP Account, the Administrator will be entitled to pursue any and all legal and equitable relief aga…"
+   },
+   {
+    "chunk_id": "ch_87c7e84ed08663db",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 113,
+    "text": "Table of Contents based upon current information, that the outcome of any such legal proceeding, claim, or government dispute and investigation will not have a material effect on our financial position, results of operations or cash flows. Where it is reasonably possible that we will incur losses in excess of recorded amounts in connection with any of the matters set forth below, we will disclose either the amount or range of reasonably possible losses in excess of such amounts or, where no such amount or range can be reasonably estimated, the reasons why no such estimate can be made. Multiple legal actions have been filed against us as a result of the October 29, 2018 accident of Lion Air Flight 610 and the March 10, 2019 accident of Ethiopian Airlines Flight 302. During 2021, we entered into (i) a Deferred Prosecution Agreement with the U.S. Department of Justice that resolved the Department of Justice's previously disclosed investigation into us regarding the evaluation of the 737 M…"
+   },
+   {
+    "chunk_id": "ch_5a28d53243f8965f",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 162,
+    "text": "to any Controlled Group business, regardless of the position or duties the Participant takes, in such a manner that is determined to be detrimental to, prejudicial to or in conflict with the interests of the Controlled Group, all as determined by the Administrator in its sole discretion. (C) The Participant, without the advance approval of The Boeing Company's Senior Vice President of Human Resources (or successor position thereto), induces or attempts to induce, directly or indirectly, any of the Controlled Group's employees, representatives or consultants to terminate, discontinue or cease working with or for the Controlled Group, or to breach any contract with the Controlled Group, in order to work with or for, or enter into a contract with, the Participant or any third party. (D) The Participant disparages or otherwise makes any statements about the Controlled Group, its products, or its employees that could be in any way viewed as negative or critical. Nothing in this paragraph wi…"
+   }
+  ]
+ }
+}

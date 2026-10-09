@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "acquisitions fiscal 2021",
+  "ticker": "BBY",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_fa6319c57c328ba1",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 28,
+    "text": "Represents charges associated with acquisitions, including: (1) the non-cash amortization of definite-lived intangible assets, including customer relationships, tradenames and developed technology; and (2) acquisition-related transaction and due diligence costs, primarily comprised of professional fees. (4) Represents restructuring charges, including: (1) charges in fiscal 2023 associated with an enterprise-wide initiative to better align our spending with critical strategies and operations, as well as to optimize our cost structure; and (2) charges in fiscal 2021 and subsequent adjustments in fiscal 2022 associated with actions taken in the Domestic segment to better align the company's organizational structure with its strategic focus and the exit from operations in Mexico in the International segment. (5) Represents an increase in the fair value of a minority equity investment in fiscal 2021. (6) The non-GAAP adjustments primarily relate to the U.S., Canada and Mexico. As such, the …"
+   },
+   {
+    "chunk_id": "ch_a9dabc57dd7a78f6",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 51,
+    "text": "Comprehensive income (loss) is computed as net earnings plus certain other items that are recorded directly to shareholders' equity. 2. Acquisitions Current Health Ltd. In fiscal 2022, we acquired all of the outstanding shares of Current Health Ltd. (“Current Health”), a care-at-home technology platform, on November 2, 2021, for net cash consideration of $389 million. The acquired assets included $351 million of goodwill that was assigned to our Best Buy Health reporting unit and was deductible for income tax purposes. The acquisition is aligned with our focus in virtual care to enable people in their homes to connect seamlessly with their health care providers and is included in our Domestic reportable segment and Services revenue category. The acquisition was accounted for using the acquisition method of accounting for business combinations and was not material to the results of operations. Two Peaks, LLC d/b/a Yardbird Furniture In fiscal 2022, we acquired all of the outstanding sha…"
+   },
+   {
+    "chunk_id": "ch_a09ef240c494dba8",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 44,
+    "text": "In fiscal 2022, we acquired all of the outstanding shares of Current Health Ltd. (“Current Health”) and Two Peaks, LLC d/b/a Yardbird Furniture (“Yardbird”). Refer to Note 2, Acquisitions, for additional information. Basis of Presentation The consolidated financial statements include the accounts of Best Buy Co., Inc. and its consolidated subsidiaries. All intercompany balances and transactions are eliminated upon consolidation. Use of Estimates in the Preparation of Financial Statements The preparation of financial statements in conformity with accounting principles generally accepted in the U.S. (\"GAAP\") requires us to make estimates and assumptions. These estimates and assumptions affect the reported amounts in the consolidated financial statements, as well as the disclosure of contingent liabilities. Future results could be materially affected if actual results were to differ from these estimates and assumptions. Fiscal Year Our fiscal year ends on the Saturday nearest the end of J…"
+   },
+   {
+    "chunk_id": "ch_cbf1c25957a676e8",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 28,
+    "text": "Additional Consolidated Results Income Tax Expense Income tax expense decreased in fiscal 2023, primarily due to the impact of decreased pre-tax earnings, partially offset by reduced benefits from the resolution of tax matters. Our effective tax rate increased in fiscal 2023, primarily due to reduced tax benefits from the resolution of tax matters, stock-based compensation and federal tax credits, partially offset by the impact of lower pre-tax earnings. Non-GAAP Financial Measures Reconciliations of operating income, effective tax rate and diluted EPS (GAAP financial measures) to non-GAAP operating income, non-GAAP effective tax rate and non-GAAP diluted EPS (non-GAAP financial measures), respectively, were as follows ($ in millions, except per share amounts): 2023 2022 2021 Operating income $ 1,795 $ 3,039 $ 2,391 % of revenue 3.9 % 5.9 % 5.1 % Restructuring - inventory markdowns(1) - (6) 23 Price-fixing settlement(2) - - (21) Intangible asset amortization(3) 86 82 80 Restructuring c…"
+   },
+   {
+    "chunk_id": "ch_80fa3d151b16e59c",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 60,
+    "text": "The following table includes estimated revenue from our contract liability balances expected to be recognized in future periods if performance of the contract is expected to have a duration of more than one year ($ in millions): Fiscal Year Amount Fiscal 2024 $ 25 Fiscal 2025 30 Fiscal 2026 25 Fiscal 2027 24 Fiscal 2028 24 Thereafter 137 See Note 14, Segment and Geographic Information, for information on our revenue by reportable segment and product category. 11. Income Taxes Reconciliations of the federal statutory income tax rate to income tax expense were as follows ($ in millions): 2023 2022 2021 Federal income tax at the statutory rate $ 376 $ 635 $ 499 State income taxes, net of federal benefit 63 88 72 Change in unrecognized tax benefits (45) (88) 20 Expense (benefit) from foreign operations (4) (8) 20 Other (20) (53) (32) Income tax expense $ 370 $ 574 $ 579 Effective income tax rate 20.7 % 19.0 % 24.3 % Earnings before income tax expense and equity in income of affiliates by j…"
+   }
+  ]
+ }
+}

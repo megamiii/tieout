@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "2024 retiree expected future benefit payments",
+  "ticker": "VZ",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_8b9f31edf0a2f0b4",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 94,
+    "text": "fair value is measured using the NAV per share as a practical expedient are not leveled within the fair value hierarchy but are included in total investments. Employer Contributions In 2021, we made no discretionary contribution to our qualified pension plans, $58 million of contributions to our nonqualified pension plans and $885 million of contributions to our other postretirement benefit plans. No qualified pension plans contributions are expected to be made in 2022. Nonqualified pension plans contributions are estimated to be approximately $60 million and contributions to our other postretirement benefit plans are estimated to be approximately $860 million in 2022. Estimated Future Benefit Payments The benefit payments to retirees are expected to be paid as follows: (dollars in millions) Year Pension Benefits Health Care and Life 2022 $ 2,049 $ 906 2023 1,648 883 2024 1,097 862 2025 1,066 850 2026 1,034 840 2027 to 2031 5,097 4,139 Savings Plan and Employee Stock Ownership Plans We…"
+   },
+   {
+    "chunk_id": "ch_7093776bf2532bdd",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 89,
+    "text": "Stock-Based Compensation Expense After-tax compensation expense for stock-based compensation related to RSUs and PSUs described above included in Net income attributable to Verizon was $625 million, $780 million and $872 million for 2021, 2020 and 2019, respectively. Note 11. Employee Benefits We maintain non-contributory defined benefit pension plans for certain employees. In addition, we maintain postretirement health care and life insurance plans for certain retirees and their dependents, which are both contributory and non-contributory, and include a limit on our share of the cost for certain current and future retirees. In accordance with our accounting policy for pension and other postretirement benefits, operating expenses include service costs associated with pension and other postretirement benefits while other credits and/or charges based on actuarial assumptions, including projected discount rates, an estimated return on plan assets, and impact from health care trend rates a…"
+   },
+   {
+    "chunk_id": "ch_314d60b52df5ee0d",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 63,
+    "text": "for assets and liabilities. We record these translation adjustments in Accumulated other comprehensive loss, a separate component of Equity, in our consolidated balance sheets. We record exchange gains and losses resulting from the conversion of transaction currency to functional currency as a component of Other income (expense), net. Employee Benefit Plans Pension and postretirement health care and life insurance benefits earned during the year, as well as interest on projected benefit obligations, are accrued. Prior service costs and credits resulting from changes in plan benefits are generally amortized over the average remaining service period of the employees expected to receive benefits. Expected return on plan assets is determined by applying the return on assets assumption to the actual fair value of plan assets. Actuarial gains and losses are recognized in Other income (expense), net in the year in which they occur. These gains and losses are measured annually as of December 3…"
+   },
+   {
+    "chunk_id": "ch_de344326e126ce0b",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 36,
+    "text": "Operating lease obligations of $31.5 billion and Finance lease obligations of $1.4 billion, of which $4.4 billion and $402 million, respectively, are expected to be due within the next twelve months. In addition, the Company has an obligation of $969 million representing future minimum payments under the sublease arrangement for our cell towers, of which $292 million is expected to be due within the next twelve months. See Note 6 to the consolidated financial statements for additional information. • Unconditional purchase obligations, with terms in excess of one year, amount to $29.8 billion, of which $10.2 billion is expected to be due within the next twelve months. Items included in unconditional purchase obligations are primarily commitments to purchase network equipment, software and services, content, marketing services and other items which will be used or sold in the ordinary course of business. These amounts do not represent our entire anticipated purchases in the future, but r…"
+   },
+   {
+    "chunk_id": "ch_871a29538fc73f4b",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 36,
+    "text": "postretirement benefit payments. These estimated amounts: (1) are subject to change based on changes to assumptions and future plan performance, which could impact the timing and/or amounts of these payments; and (2) exclude expectations beyond 5 years due to uncertainty of the timing and amounts. See Note 11 to the consolidated financial statements for additional information. • We are not able to make a reasonable estimate of when the unrecognized tax benefits balance of $3.1 billion and related interest and penalties will be settled with the respective taxing authorities until the related tax audits are further developed or resolved. See Note 12 to the consolidated financial statements for additional information. Consolidated Financial Condition (dollars in millions) Years Ended December 31, 2021 2020 Cash flows provided by (used in) Operating activities $ 39,539 $ 41,768 Investing activities (67,153) (23,512) Financing activities 8,277 1,325 Increase (decrease) in cash, cash equival…"
+   }
+  ]
+ }
+}

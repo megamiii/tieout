@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Payments to acquire property, plant and equipment",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_03bf61b3eca0bd91",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 105,
+    "text": "Table of Contents Leasehold improvements are depreciated using the straight-line method over the lesser of the remaining term of the leased facility, or the economic life of the improvement, and range from 5 to 10 years. We recognize lease restoration obligations at the fair value of the restoration liabilities when incurred and amortize the restoration assets over the lease term. Leases We have operating leases worldwide for facilities and equipment, which, for those leases with terms greater than 12 months, are recorded as lease-related assets and liabilities. We do not separate lease and non-lease components. Lease-related assets, or right-of-use assets, are recognized at the lease commencement date at amounts equal to the respective lease liabilities, adjusted for prepaid lease payments, initial direct costs and lease incentives. Lease liabilities are recognized at the present value of the contractual fixed lease payments, discounted using our incremental borrowing rate as of the l…"
+   },
+   {
+    "chunk_id": "ch_eff10dd0e23194b0",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 99,
+    "text": "Table of Contents CONSOLIDATED STATEMENTS OF CASH FLOWS Years Ended December 31 (Millions) 2022 2021 2020 Cash Flows from Operating Activities Net income $ 7,514 $ 8,060 $ 3,135 Adjustments to reconcile net income to net cash provided by operating activities: Provisions for credit losses 2,182 (1,419) 4,730 Depreciation and amortization 1,626 1,695 1,543 Stock-based compensation 375 330 249 Deferred taxes (1,189) 294 (939) Other items 365 (772) 683 Originations of loans held-for-sale (277) — — Proceeds from sales of loans held-for-sale 277 — — Changes in operating assets and liabilities, net of effects of acquisitions and dispositions: Other assets 1,391 1,068 (1,785) Accounts payable & other liabilities 8,815 5,389 (2,025) Net cash provided by operating activities 21,079 14,645 5,591 Cash Flows from Investing Activities Sale of investment securities 26 62 69 Maturities and redemptions of investment securities 1,892 20,032 7,159 Purchase of investments (4,175) (1,517) (20,562) Net (inc…"
+   },
+   {
+    "chunk_id": "ch_a44193ac7bbc9b58",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 12,
+    "text": "and web- and mobile-based payment platforms (e.g., Alipay, PayPal and Venmo), as well as regional payment networks (such as the National Payments Corporation of India), carry out some activities similar to those performed by our GMNS business. The principal competitive factors that affect the card-issuing, merchant and network businesses include: • The features, value and quality of the products and services, including customer care, rewards programs, partnerships, travel and lifestyle-related benefits, and digital and mobile services, as well as the costs associated with providing such features and services • Reputation and brand recognition • The number, spending characteristics and credit performance of customers • The quantity, diversity and quality of the establishments where the cards can be used • The attractiveness of the value proposition to card issuers, merchant acquirers, cardholders, corporate clients and merchants (including the relative cost of using or accepting the pro…"
+   },
+   {
+    "chunk_id": "ch_85bef4cb5556eab2",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 4,
+    "text": "For further information about our reportable operating segments, please see “Business Segment Results of Operations” under “MD&A.” Our Integrated Payments Platform Through our general-purpose card-issuing, merchant-acquiring and card network businesses, we are able to connect participants and provide differentiated value across the commerce path. We maintain direct relationships with both our Card Members (as a card issuer) and merchants (as an acquirer), and we handle all key aspects of those relationships. These relationships create a “closed loop” in that we have direct access to information at both ends of the card transaction, which distinguishes our integrated payments platform from the bankcard networks. ® 1"
+   },
+   {
+    "chunk_id": "ch_4afb897aa4902321",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 102,
+    "text": "sized merchants generally have no fixed contractual duration, while those with large merchants are generally for fixed periods, which typically range from three to seven years in duration. Our fixed-period agreements may include auto-renewal features, which may allow the existing terms to continue beyond the stated expiration date until a new agreement is reached. We satisfy our obligations under these agreements over the contract term, often on a daily basis, including through the processing of Card Member transactions and the availability of our payment network. In cases where the merchant acquirer is a third party (which is the case, for example, under our OptBlue program, or with certain of our network partners), we receive a network rate fee in our settlement with the merchant acquirer, which is individually negotiated between us and that merchant acquirer and is recorded as discount revenue at the time the Card Member transaction occurs. Net Card Fees Net card fees represent reve…"
+   }
+  ]
+ }
+}

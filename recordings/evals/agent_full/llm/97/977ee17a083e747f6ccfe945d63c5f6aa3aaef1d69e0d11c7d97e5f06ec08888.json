@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TXgYBGHrNHPmPhBfpyN8OEE1XBUwDxzo1iPLr6S2wtmnL9y827133NF/hV8GMbPqnD7FFfBnJUtukewuqJi+dvN7R24DR6kQXXUbKv/yP1Akj35+++6scgMY="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"PEP\",\"query\":\"Consolidated Statement of Cash Flows operating activities capital spending capital expenditures additions to property\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_251975",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560484,
+  "id": "IwvJarexM7bhvdIPiObDgQY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 3247,
+   "total_tokens": 3293
+  }
+ }
+}

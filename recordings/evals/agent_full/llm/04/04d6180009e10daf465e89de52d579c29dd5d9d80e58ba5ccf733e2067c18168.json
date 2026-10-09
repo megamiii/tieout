@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0To5+YNEO+gc93NUrtaNOcJX0KruFGi2TS/QEpgjC7Q7WYm0a9eVpdvT0nGJ/KeUYEtDRBl6ERLtHiw21aIA81wfF8VMWONjeTHqHztnUKvOcaaqf/4MPbDzk="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"In fiscal year 2019, Best Buy's net cash provided by operating activities was $2,408 million.\",\"rationale\":\"The cash provided by operating activities for fiscal year 2019 is stated as $2,408 million in both the Item 7 MD&A table and Item 8 Consolidated Statements of Cash Flows.\",\"needs_review\":false,\"confidence\":1,\"citations\":[{\"source_id\":\"ch_de534caaedf3498c\",\"quote\":\"$ 2,408\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_975389",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561532,
+  "id": "PA_Jaq_TAq6FxN8PmYbl-QY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 138,
+   "prompt_tokens": 4065,
+   "total_tokens": 4203
+  }
+ }
+}

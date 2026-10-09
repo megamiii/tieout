@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Note 12 Shareholders' Equity dividends per share common stock",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_973e7bf6470f94c3",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 5",
+    "page": 68,
+    "text": "Item 5. Market for Registrant's Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities. Market Information CVS Health Corporation's common stock is listed on the New York Stock Exchange under the symbol “CVS.” Dividends During 2022, 2021 and 2020, the quarterly cash dividend was $0.55, $0.50 and $0.50 per share, respectively. In December 2022, the Board authorized a 10% increase in the quarterly cash dividend to $0.605 per share effective in 2023. CVS Health Corporation has paid cash dividends every quarter since becoming a public company. Future dividends will depend on the Company's earnings, capital requirements, financial condition and other factors considered relevant by the Board. See Note 12 ‘‘Shareholders' Equity'' included in Item 8 of this 10-K for information regarding CVS Health Corporation's dividends. Holders of Common Stock As of February 1, 2023, there were 24,142 registered holders of the registrant's common stock according to the records …"
+   },
+   {
+    "chunk_id": "ch_62c4dde20167d774",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 113,
+    "text": "Index to Consolidated Financial Statements Consolidated Statements of Shareholders' Equity Attributable to CVS Health Number of shares outstanding Common Stock and Capital Surplus Accumulated Other Comprehensive Income (Loss) Total CVS Health Shareholders' Equity Total Shareholders' Equity In millions Common Shares Treasury Shares Treasury Stock Retained Earnings Noncontrolling Interests Balance at December 31, 2019 1,727 (425) $ 45,972 $ (28,235) $ 45,108 $ 1,019 $ 63,864 $ 306 $ 64,170 Adoption of new accounting standard — — — — (3) — (3) — (3) Net income — — — — 7,179 — 7,179 13 7,192 Other comprehensive income (Note 13) — — — — — 395 395 — 395 Stock option activity, stock awards and other 6 — 541 — — — 541 — 541 ESPP issuances, net of purchase of treasury shares — 2 — 57 — — 57 — 57 Common stock dividends — — — — (2,644) — (2,644) — (2,644) Other decreases in noncontrolling interests — — — — — — — (7) (7) Balance at December 31, 2020 1,733 (423) 46,513 (28,178) 49,640 1,414 69,389 …"
+   },
+   {
+    "chunk_id": "ch_1f49a4113c7f13ed",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 5",
+    "page": 70,
+    "text": "Table of Contents Stock Performance Graph The following graph compares the cumulative total shareholder return on CVS Health Corporation's common stock (assuming reinvestment of dividends) with the cumulative total return on the S&P 500 Index, the S&P 500 Food and Staples Retailing Industry Group Index and the S&P 500 Healthcare Sector Group Index from December 31, 2017 through December 31, 2022. The graph assumes a $100 investment in shares of CVS Health Corporation's common stock on December 31, 2017. December 31, 2017 2018 2019 2020 2021 2022 CVS Health Corporation $ 100 $ 93 $ 109 $ 103 $ 160 $ 148 S&P 500 100 96 126 149 191 157 S&P 500 Food & Staples Retailing Group Index 100 101 129 150 187 168 S&P 500 Health Care Group Index 100 106 129 146 184 180 (1) Includes CVS Health Corporation. (2) Includes five companies (COST, KR, SYY, WBA, WMT). (3) Includes 63 companies. The year-ended values of each investment shown in the preceding graph are based on share price appreciation plus di…"
+   },
+   {
+    "chunk_id": "ch_4889fc8f4a94e06e",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 110,
+    "text": "5,087 Other long-term insurance liabilities 6,108 6,402 Other long-term liabilities 6,732 1,904 Total liabilities 156,960 157,618 Commitments and contingencies (Note 16) Shareholders' equity: Preferred stock, par value $0.01: 0.1 shares authorized; none issued or outstanding — — Common stock, par value $0.01: 3,200 shares authorized; 1,758 shares issued and 1,300 shares outstanding at December 31, 2022 and 1,744 shares issued and 1,322 shares outstanding at December 31, 2021 and capital surplus 48,193 47,377 Treasury stock, at cost: 458 and 422 shares at December 31, 2022 and 2021 (31,858) (28,173) Retained earnings 56,145 54,906 Accumulated other comprehensive income (loss) (1,465) 965 Total CVS Health shareholders' equity 71,015 75,075 Noncontrolling interests 300 306 Total shareholders' equity 71,315 75,381 Total liabilities and shareholders' equity $ 228,275 $ 232,999 See accompanying notes to consolidated financial statements. 108"
+   },
+   {
+    "chunk_id": "ch_0548c91a50289cfd",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 12",
+    "page": 185,
+    "text": "Item 12. Security Ownership of Certain Beneficial Owners and Management and Related Stockholder Matters. The sections of the Proxy Statement under the captions “Share Ownership of Directors and Certain Executive Officers” and “Share Ownership of Principal Stockholders” are incorporated herein by reference. Those sections contain information concerning security ownership of certain beneficial owners and management and related stockholder matters. The following table summarizes information about the registrant's common stock that may be issued upon the exercise of options, warrants and rights under all of the Company's equity compensation plans as of December 31, 2022: Number of securities to be issued upon exercise of outstanding options, warrants and rights (a) Weighted average exercise price of outstanding options, warrants and rights (b) Number of securities remaining available for future issuance under equity compensation plans (excluding securities reflected in first column) (c) Eq…"
+   }
+  ]
+ }
+}

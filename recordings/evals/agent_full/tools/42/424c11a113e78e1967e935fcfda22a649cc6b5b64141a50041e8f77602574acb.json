@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "U.S. Government commercial airlines customers",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_daaad77d9d924fb8",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 39,
+    "text": "development, we may experience schedule delays and cost impacts, which could increase our estimated cost to perform the work or reduce our estimated price, either of which could result in a material charge or otherwise adversely affect our financial condition. These programs are ongoing, and while we believe the cost and fee estimates incorporated in the financial statements are appropriate, the technical complexity of these programs creates financial risk as additional completion costs may become necessary or scheduled delivery dates could be extended, which could trigger termination provisions or other financially significant exposure. Risk remains that we may be required to record additional reach-forward losses in future periods. Global Services Business Environment and Trends The aerospace markets we serve include parts distribution, logistics and other inventory services; maintenance, engineering and upgrades; training and professional services; and data analytics and digital ser…"
+   },
+   {
+    "chunk_id": "ch_b3bcf253a0e9c1f3",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Table of Contents as well as any responses from Russia that could affect our supply chain, business partners or customers, for any additional impacts to our business. Segment Results of Operations and Financial Condition Commercial Airplanes Business Environment and Trends Airline Industry Environment See Overview to Management's Discussion and Analysis of Financial Condition and Results of Operations for a discussion of the airline industry environment. Industry Competitiveness The industry continues to recover from the lingering effects of the COVID-19 pandemic. The commercial aircraft market and the airline industry both remain extremely competitive. While the impacts and responses have varied globally, the reduction of demand and disruption in production has adversely impacted most manufacturers in the commercial aircraft industry. Continued access to global markets remains vital to our ability to fully realize our sales potential and long-term investment returns. Approximately 70%…"
+   },
+   {
+    "chunk_id": "ch_558a8b315b07690a",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 19,
+    "text": "Table of Contents weapons, cybersecurity, border security systems, anti-terrorism technologies and/or air traffic management systems may not be insurable on commercially reasonable terms. While some of these products are shielded from liability within the U.S. under the SAFETY Act provisions of the 2002 Homeland Security Act, no such protection is available outside the U.S., potentially resulting in significant liabilities. See Note 21 of the Consolidated Financial Statements for discussion of legal proceedings resulting from the October 29, 2018 accident of Lion Air Flight 610 and the March 10, 2019 accident of Ethiopian Airlines Flight 302. The amount of insurance coverage we maintain may be inadequate to cover these or other claims or liabilities. A significant portion of our customer financing portfolio is concentrated among certain customers and in certain types of Boeing aircraft, which exposes us to concentration risks. A significant portion of our customer financing portfolio i…"
+   },
+   {
+    "chunk_id": "ch_7e0487cb0613fc4c",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 8,
+    "text": "Item 1A. Risk Factors An investment in our common stock or debt securities involves risks and uncertainties and our actual results and future trends may differ materially from our past or projected future performance. We urge investors to consider carefully the risk factors described below in evaluating the information contained in this report. Risks Related to Our Business and Operations We depend heavily on commercial airlines, subjecting us to unique risks. Market conditions have a significant impact on demand for our commercial aircraft and related services. The commercial aircraft market is predominantly driven by long-term trends in airline passenger and cargo traffic. The principal factors underlying long-term traffic growth are sustained economic growth and political stability both in developed and emerging markets. Demand for our commercial aircraft is further influenced by airline profitability, availability of aircraft financing, world trade policies, government-to-governmen…"
+   },
+   {
+    "chunk_id": "ch_594ec8ab69ce3660",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 23,
+    "text": "Table of Contents The long-term outlook for the industry remains positive due to the fundamental drivers of air travel demand: economic growth, increasing propensity to travel due to increased trade, globalization and improved airline services driven by liberalization of air traffic rights between countries. Our Commercial Market Outlook forecast projects a 3.8% growth rate for passenger and cargo traffic over a 20-year period. Based on long-term global economic growth projections of 2.6% in average annual gross domestic product, we project demand for approximately 41,170 new airplanes over the next 20 years. The industry remains vulnerable to exogenous developments including fuel price spikes, credit market shocks, acts of terrorism, natural disasters, conflicts, epidemics, pandemics and increased global environmental regulations. During 2022, commercial services volume at BGS recovered to pre-pandemic levels. We expect BGS commercial revenues to remain strong in future quarters as th…"
+   }
+  ]
+ }
+}

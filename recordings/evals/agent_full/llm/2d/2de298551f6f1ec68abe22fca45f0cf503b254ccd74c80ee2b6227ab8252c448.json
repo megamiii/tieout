@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tx0Lv0Ej7s11qj4J17n9o6cagKbhdt9jS3QjWNX0wb8VT/ozC1/Meh6xGw/EcJZtWKKTg0R21QGWajtYzWETzWCYLBywiRmzh6g1wR7kVr8qwyR7LxWG60B0="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"geography operate segments geographic region United States Japan Europe\",\"ticker\":\"AXP\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_205333",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559811,
+  "id": "ggjJapGnNIqFxN8P1vfl0AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 42,
+   "prompt_tokens": 1854,
+   "total_tokens": 1896
+  }
+ }
+}

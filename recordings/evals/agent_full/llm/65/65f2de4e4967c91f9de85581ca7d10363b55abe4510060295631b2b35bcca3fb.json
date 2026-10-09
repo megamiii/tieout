@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TVxehkboP0sZaeXB8qWByJmtMhFMW8k6xoyko563SRUs5xOvSFKteRi1iUzMaAJnqkEJgDkftyvc6rhGYuxA0J2LGVY1Wuw5PU8GQ0fyuLWett24247g7W/U="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"retention rate cardmembers OR card members OR card-members\",\"fiscal_year\":2022,\"ticker\":\"AXP\"}",
+        "name": "search_filings"
+       },
+       "id": "call_174393",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560300,
+  "id": "awrJauLQBPLQvdIPmrq7kAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 9937,
+   "prompt_tokens_details": {
+    "cached_tokens": 6085
+   },
+   "total_tokens": 9981
+  }
+ }
+}

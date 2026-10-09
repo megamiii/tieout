@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TOIh1M5/lowirSvW0LPRf6Bm4XaYKWgB57sU8oPonC76WPV1SiMRkY83x4LEIa442D7vdYus9LjxB2GMm0AwfmexAZnOf+cDAWpIO/LzJdfZAsYFT4dh3jhI="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"citations\":[{\"quote\":\"Research, development and engineering expenses 1,047 995\",\"source_id\":\"ch_65c317f7079839a6\"},{\"quote\":\"900000000\",\"source_id\":\"xf_11566c298c2fc2f4\"},{\"source_id\":\"xf_32a1a7a6ffddfb9f\",\"quote\":\"800000000\"}],\"rationale\":\"Corning's Consolidated Statements of Income report Research, development and engineering expenses of $995 million for fiscal 2021 and $1,047 million for fiscal 2022, which increased by 5.2%. In the XBRL fact database, the R&D concept is tagged as $800,000,000 in 2021 and $900,000,000 in 2022 (an increase of 12.5%). Both figures are provided for completeness.\",\"answer\":\"Corning's research and development (research, development and engineering) expense changed from $995 million in fiscal year 2021 to $1,047 million in fiscal year 2022, representing an increase of 5.2%. (Using the XBRL tag ResearchAndDevelopmentExpense, the values were $800,000,000 in 2021 and $900,000,000 in 2022, representing an increase of 12.5%).\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_781371",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561746,
+  "id": "ERDJavqPK7Co28oPuPbrgQY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 387,
+   "prompt_tokens": 8783,
+   "total_tokens": 9170
+  }
+ }
+}

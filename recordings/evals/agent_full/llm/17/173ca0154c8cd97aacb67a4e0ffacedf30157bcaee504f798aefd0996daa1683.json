@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TCPYf6GLa7pO4RwarH+YV/5Xp7HFNdxcnLXIPMhch8+EOX+jYx371qRdZyt44vx+rercQT+18EOJIYSlVyzAQ0K84cE8IXmC+9gNAjXcsGbvhV9BhGF9FScQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Operating Income (Loss)\",\"ticker\":\"ADBE\",\"fiscal_years\":[2016]}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_217045",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560845,
+  "id": "jAzJavaCL4HMvdIPyKat4QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 2394,
+   "total_tokens": 2432
+  }
+ }
+}

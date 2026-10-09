@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Operations Net revenue",
+  "ticker": "AMD",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e4ff74e3c786ada0",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 65,
+    "text": "method it will apply. The adoption of this standard will not materially impact the Company's consolidated financial statements. Revenue Recognition. In May 2014, the FASB issued ASU 2014-09, Revenue from Contracts with Customers (Topic 606), which creates a single source of revenue guidance under U.S. GAAP for all companies in all industries. The core principle of ASU 2014-09 is that revenue should be recognized in a manner that depicts the transfer of promised goods or services to customers in an amount that reflects the consideration to which the entity expects to be entitled in exchange for those goods or services. ASU 2014-09 defines a five-step process in order to achieve this core principle, which may require the use of judgment and estimates. ASU 2014-09 also requires expanded qualitative and quantitative disclosures relating to the nature, amount, timing and uncertainty of revenue and cash flows arising from contracts with customers, including significant judgments and estimate…"
+   },
+   {
+    "chunk_id": "ch_c75c8199fc337a2e",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 41,
+    "text": "not consider these expenses and credits in evaluating the performance of the reportable segments. Also included in this category are amortization of acquired intangible assets, employee stock-based compensation expense, restructuring and other special charges, net, technology node transition charge, workforce rebalancing severance charges, goodwill impairment charge, significant or unusual lower of cost or market inventory adjustments and a net gain from licenses and settlement agreements regarding patent- related matters. We also reported the results of former businesses in the All Other category because the operating results were not material. We intend the discussion of our financial condition and results of operations that follows to provide information that will assist you in understanding our financial statements, the changes in certain key items in those financial statements from year to year, the primary factors that resulted in those changes and how certain accounting principl…"
+   },
+   {
+    "chunk_id": "ch_29c728357add8d14",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 83,
+    "text": "NOTE 12: Segment Reporting Management, including the Chief Operating Decision Maker, who is the Company's Chief Executive Officer, reviews and assesses operating performance using segment net revenues and operating income (loss) before interest, other income (expense), net and income taxes. These performance measures include the allocation of expenses to the operating segments based on management's judgment. In connection with the Company's continued strategic transformation, effective July 1, 2014, the Company realigned its organizational structure. As a result of this organizational change, the Company has the following two reportable segments: • the Computing and Graphics segment, which primarily includes desktop and notebook processors and chipsets, discrete graphics processing units (GPUs) and professional graphics; and • the Enterprise, Embedded and Semi-Custom segment, which primarily includes server and embedded processors, semi-custom System-on-Chip (SoC) products, engineering…"
+   },
+   {
+    "chunk_id": "ch_f162657f41ba7e65",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 83,
+    "text": "The following table provides a summary of net revenue and operating income (loss) by segment and income (loss) before income taxes for 2015, 2014 and 2013. The results prior to July 1, 2014 have been recast to reflect the Company's new reportable segments. 2015 2014 2013 (In millions) Net revenue: Computing and Graphics $ 1,805 $ 3,132 $ 3,720 Enterprise, Embedded and Semi-Custom 2,186 2,374 1,577 All Other — — 2 Total net revenue $ 3,991 $ 5,506 $ 5,299 Operating income (loss): Computing and Graphics $ (502) $ (76) $ (101) Enterprise, Embedded and Semi-Custom 215 399 295 All Other (194) (478) (91) Total operating income (loss) $ (481) $ (155) $ 103 Interest expense (160) (177) (177) Other expense, net (5) (66) — Loss before income taxes $ (646) $ (398) $ (74) The Company does not discretely allocate assets to its operating segments, nor does management evaluate operating segments using discrete asset information. The Company's operations outside the United States include research and …"
+   },
+   {
+    "chunk_id": "ch_7b7ad59ac7fd917b",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 61,
+    "text": "Advanced Micro Devices, Inc. Notes to Consolidated Financial Statements December 26, 2015, December 27, 2014 and December 28, 2013 NOTE 1: Nature of Operations Advanced Micro Devices, Inc. is a global semiconductor company. References herein to AMD or the Company mean Advanced Micro Devices, Inc. and its consolidated subsidiaries. The Company primarily offers: (i) x86 microprocessors, as a standalone central processing unit (CPU) or as incorporated into an accelerated processing unit (APU), chipsets, and discrete graphics processing units (GPUs) for the consumer, commercial and professional graphics markets; and (ii) server and embedded CPUs, GPUs and APUs, and semi-custom System-on-Chip (SoC) products and technology for game consoles. NOTE 2: Summary of Significant Accounting Policies Fiscal Year. The Company uses a 52 or 53 week fiscal year ending on the last Saturday in December. Fiscal 2015, 2014 and 2013 ended December 26, 2015, December 27, 2014 and December 28, 2013, respectivel…"
+   }
+  ]
+ }
+}

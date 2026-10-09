@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Operating activities",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_3c1bcb4812059ee7",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 59,
+    "text": "Other 307 304 235 Net cash provided/(used) by operating activities 3,512 (3,416) (18,410) Cash flows – investing activities: Payments to acquire property, plant and equipment (1,222) (980) (1,303) Proceeds from disposals of property, plant and equipment 35 529 296 Acquisitions, net of cash acquired (6) Contributions to investments (5,051) (35,713) (37,616) Proceeds from investments 10,619 45,489 20,275 Other (11) 5 (18) Net cash provided/(used) by investing activities 4,370 9,324 (18,366) Cash flows – financing activities: New borrowings 34 9,795 47,248 Debt repayments (1,310) (15,371) (10,998) Stock options exercised 50 42 36 Employee taxes on certain share-based payment arrangements (40) (66) (173) Dividends paid (1,158) Net cash (used)/provided by financing activities (1,266) (5,600) 34,955 Effect of exchange rate changes on cash and cash equivalents (73) (39) 85 Net increase/(decrease) in cash & cash equivalents, including restricted 6,543 269 (1,736) Cash & cash equivalents, inclu…"
+   },
+   {
+    "chunk_id": "ch_d886796c572c7325",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 70,
+    "text": "Table of Contents liabilities included in Short-term debt and current portion of long-term debt and Long-term debt on the Consolidated Statements of Financial Position. Operating lease assets represent our right to use an underlying asset for the lease term and lease liabilities represent our obligation to make lease payments arising from the lease. Operating lease assets and liabilities are recognized at the lease commencement date based on the estimated present value of lease payments over the lease term. We use our estimated incremental borrowing rate in determining the present value of lease payments. Variable components of the lease payments such as fair market value adjustments, utilities and maintenance costs are expensed as incurred and not included in determining the present value. Our lease terms include options to extend or terminate the lease when it is reasonably certain that we will exercise that option. Lease expense for operating leases is recognized on a straight-line …"
+   },
+   {
+    "chunk_id": "ch_c0ec956f9687e5a4",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 59,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Cash Flows (Dollars in millions) Years ended December 31, 2022 2021 2020 Cash flows – operating activities: Net loss ($5,053) ($4,290) ($11,941) Adjustments to reconcile net loss to net cash used by operating activities: Non-cash items – Share-based plans expense 725 833 250 Treasury shares issued for 401(k) contribution 1,215 1,233 195 Depreciation and amortization 1,979 2,144 2,246 Investment/asset impairment charges, net 112 98 410 Customer financing valuation adjustments 37 12 Gain on dispositions, net (6) (277) (202) 787 and 777X reach-forward losses 3,460 6,493 Other charges and credits, net 364 360 1,462 Changes in assets and liabilities – Accounts receivable 142 (713) 909 Unbilled receivables 6 (586) 919 Advances and progress billings 108 2,505 (1,060) Inventories 420 (1,127) (11,002) Other current assets (591) 345 372 Accounts payable 838 (3,783) (5,363) Accrued liabilities 2,956 (3,687) 1,074 Inc…"
+   },
+   {
+    "chunk_id": "ch_6e51ecb8668b01cb",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 88,
+    "text": "Table of Contents The liabilities recorded represent our best estimate or the low end of a range of reasonably possible costs expected to be incurred to remediate sites, including operation and maintenance over periods of up to 30 years. It is reasonably possible that we may incur charges that exceed these recorded amounts because of regulatory agency orders and directives, changes in laws and/or regulations, higher than expected costs and/or the discovery of new or additional contamination. As part of our estimating process, we develop a range of reasonably possible alternate scenarios that includes the high end of a range of reasonably possible cost estimates for all remediation sites for which we have sufficient information based on our experience and existing laws and regulations. There are some potential remediation obligations where the costs of remediation cannot be reasonably estimated. At December 31, 2022 and 2021, the high end of the estimated range of reasonably possible re…"
+   },
+   {
+    "chunk_id": "ch_a20f09952f9d30f4",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 106,
+    "text": "Table of Contents RSU activity for the year ended December 31, 2022 was as follows: Executive Long- Term Incentive Program Employee Long- Term Incentive Program Other Number of units: Outstanding at beginning of year 2,049,695 4,780,724 698,866 Granted 4,527,189 595,122 Forfeited (282,488) (269,380) (67,441) Distributed (176,496) (137,537) (267,853) Outstanding at end of year 6,117,900 4,373,807 958,694 Undistributed vested units 426,652 1,454,414 18,914 Unrecognized compensation cost $683 $240 $87 Weighted average remaining amortization period (years) 2.1 1.0 2.1 Performance-Based Restricted Stock Units Performance-Based Restricted Stock Units (PBRSUs) are stock units that pay out based on the Company's total shareholder return (TSR) as compared to a group of peer companies over a three-year period. The award payout can range from 0% to 200% of the initial PBRSU grant. The PBRSUs granted under this program will vest at the payout amount and settle in common stock (on a one-for-one bas…"
+   }
+  ]
+ }
+}

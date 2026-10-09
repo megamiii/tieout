@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TBC0EpvgwSHJz7KZJnLadaK5YDXXrUKFaXa1de5GLxIXlCIfVk5GsmKcUXkFM9azBD3MNjO7omMMY+HmwKiF4+QCZVCikrEXrhamNLkQ/5BYSOcUvoBJJcPU="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2021,\"ticker\":\"PEP\",\"query\":\"Net Income PepsiCo 2021 2020\"}",
+        "name": "search_filings"
+       },
+       "id": "call_705489",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561839,
+  "id": "bhDJaqySEfuwxN8PzsWyiA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 2922,
+   "total_tokens": 2967
+  }
+ }
+}

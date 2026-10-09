@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TkXjykDatWYoYTzSAvuzJYpY/b1fxm8m+ksiYLbgE1YHeij+sXcRmAbvXW685b5GHfGZkzqcslPfdJIDHE/L4T6ylTfLz14oXb2vD1tas953EdubtEQw/eC0="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2018,\"ticker\":\"CVS\",\"query\":\"Consolidated Statements of Cash Flows operating activities 2017\"}",
+        "name": "search_filings"
+       },
+       "id": "call_794535",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561593,
+  "id": "eQ_JasjtBtz9vdIPyYeDoQg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 3030,
+   "total_tokens": 3075
+  }
+ }
+}

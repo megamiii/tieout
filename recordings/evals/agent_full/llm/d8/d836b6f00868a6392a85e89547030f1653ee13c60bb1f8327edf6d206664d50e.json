@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TAPxFLCg13HfN78MIfXYLS/I1+LhO48G8/+WtCzA3xOIVpLevHIFzHG//nXhA1CKRELOKCklIY/ICF4S8lh3C7HmXR8ht+09gIPaNXuqG7GhxgxcNdI1StvE="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AMCR\",\"query\":\"research and development\"}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_208049",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561191,
+  "id": "5g3Jao2pJqOFxN8Pu7moiAY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 27,
+   "prompt_tokens": 1927,
+   "total_tokens": 1954
+  }
+ }
+}

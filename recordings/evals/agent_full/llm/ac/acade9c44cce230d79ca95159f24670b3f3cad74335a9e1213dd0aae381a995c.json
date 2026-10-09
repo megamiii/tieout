@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0THC5N3JHLmQ/NyfdhymnitQrLJqSrkcnuujAURpb68igrGqtPBImwQaWbc7aW/y+XrXIMf/s0MHfeMQKgyusRrZFRSDGr2HVRFcey8zREVU254xcYZiP3htM="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"property, plant and equipment\",\"ticker\":\"AXP\"}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_153804",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561404,
+  "id": "rg7Jate_D6yW28oPuqPA8Q4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 29,
+   "prompt_tokens": 1935,
+   "total_tokens": 1964
+  }
+ }
+}

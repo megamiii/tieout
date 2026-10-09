@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TZ2Ff0YUlvUW2CFB93TtjlQ7QGV//5P1O2SLRhdemzKvM+Xq40Tpgj9HjLEVx+yfnZUkmDVCjnay+vUnv5SfJUmZlAhTcbOXdvOaPss23QVw9CkFu8W2Suqg="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Consolidated Statement of Cash Flows Capital spending additions property plant equipment\",\"ticker\":\"PEP\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_198132",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560488,
+  "id": "JwvJarriNa-ixN8PocrwmAs",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 6683,
+   "prompt_tokens_details": {
+    "cached_tokens": 2905
+   },
+   "total_tokens": 6726
+  }
+ }
+}

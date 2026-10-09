@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies that Amcor operates in the packaging industry, which aligns with the gold answer's focus on packaging production.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TUpUnAENLuQ7pw5VOa+mkXqnwcw8rUQkrS8EOjudeckYqxu6a4toDd+0CvBjLqxudJww2Y7UewQtm8RFtCsdkvWvRC3WC5rnd1ZjkT5NPVWkn5Zt/MVyKbAG9vOwLYT+jKJDMKmTx/VBBWThf"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791561015,
+  "id": "HA3JatXfA6Hdxs0PserGuAU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 175,
+   "total_tokens": 213
+  }
+ }
+}

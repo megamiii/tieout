@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TLdxaayWwGTIOVBx6RaG2jOuWib7hyV30ktqEDBcTKHPY83WUbBgEcbuB9Luhmjn8H+zHS301tKTEMvxdrJM969Wc8pdwYGgFHnxh9iGuVF7CSWj/VAsRUtw="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"depreciation and amortization\",\"fiscal_years\":[2015],\"ticker\":\"AMD\"}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_775390",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560420,
+  "id": "4wrJatPvMsfzvdIPicqCwAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 36,
+   "prompt_tokens": 1908,
+   "total_tokens": 1944
+  }
+ }
+}

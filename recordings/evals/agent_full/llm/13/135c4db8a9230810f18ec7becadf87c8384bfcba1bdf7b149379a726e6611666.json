@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T8Xyp7XR3DjVkwxbL7PNq7I8PLn/W/m5yei/8IBnyKcGL1//F6sOBeanBeVpUGLSgOCH9AxRA7d7ult6QqUwjC86TTg5BCW28RHwAh45dStmsKMEVRFWB5d8="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"U.S. Government commercial airlines customers\",\"ticker\":\"BA\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_179979",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560123,
+  "id": "ugnJavXeI8-SvdIPoqWE8QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 3054,
+   "total_tokens": 3093
+  }
+ }
+}

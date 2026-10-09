@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "NKE",
+  "query": "net income",
+  "concept": null,
+  "fiscal_years": [
+   2019
+  ]
+ },
+ "output": {
+  "ticker": "NKE",
+  "concepts": [
+   {
+    "concept": "NetIncomeLoss",
+    "label": "Net Income (Loss) Attributable to Parent",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "2018-06-01..2019-05-31",
+      "value": "4029000000",
+      "fact_id": "xf_fbca8e48f65507dc",
+      "reported_in_10k_filed": "2019-07-23"
+     }
+    ]
+   },
+   {
+    "concept": "InterestIncomeExpenseNonoperatingNet",
+    "label": "Interest Income (Expense), Nonoperating, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "2018-06-01..2019-05-31",
+      "value": "-49000000",
+      "fact_id": "xf_f1c4f93b5cc545a1",
+      "reported_in_10k_filed": "2019-07-23"
+     }
+    ]
+   }
+  ]
+ }
+}

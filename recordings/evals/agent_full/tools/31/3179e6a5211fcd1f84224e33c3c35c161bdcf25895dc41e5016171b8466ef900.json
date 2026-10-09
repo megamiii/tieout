@@ -1,0 +1,80 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "CVS",
+  "query": "Property, Plant and Equipment",
+  "concept": null,
+  "fiscal_years": [
+   2017,
+   2018
+  ]
+ },
+ "output": {
+  "ticker": "CVS",
+  "concepts": [
+   {
+    "concept": "PropertyPlantAndEquipmentNet",
+    "label": "Property, Plant and Equipment, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "as of 2018-12-31",
+      "value": "11349000000",
+      "fact_id": "xf_1da336599da65be9",
+      "reported_in_10k_filed": "2019-02-28"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "as of 2017-12-31",
+      "value": "10292000000",
+      "fact_id": "xf_82d1c76527aac013",
+      "reported_in_10k_filed": "2018-02-14"
+     }
+    ]
+   },
+   {
+    "concept": "PropertyPlantAndEquipmentAdditions",
+    "label": "Property, Plant and Equipment, Additions",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "2018-01-01..2018-12-31",
+      "value": "2123000000",
+      "fact_id": "xf_d1e92922b97f7a6a",
+      "reported_in_10k_filed": "2019-02-28"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "2017-01-01..2017-12-31",
+      "value": "2049000000",
+      "fact_id": "xf_6aa4dc47095331bc",
+      "reported_in_10k_filed": "2018-02-14"
+     }
+    ]
+   },
+   {
+    "concept": "PropertyPlantAndEquipmentGross",
+    "label": "Property, Plant and Equipment, Gross",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "as of 2018-12-31",
+      "value": "26869000000",
+      "fact_id": "xf_0436f8c86ea95f37",
+      "reported_in_10k_filed": "2019-02-28"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "as of 2017-12-31",
+      "value": "24290000000",
+      "fact_id": "xf_4ba7fd6d941d589f",
+      "reported_in_10k_filed": "2018-02-14"
+     }
+    ]
+   }
+  ]
+ }
+}

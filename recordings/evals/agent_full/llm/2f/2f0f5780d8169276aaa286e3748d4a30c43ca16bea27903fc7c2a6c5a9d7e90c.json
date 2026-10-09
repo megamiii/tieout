@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TKQaPvyNim2eITKjwoKvKBMfqkn6s36wc90ovkiYadrxnslZQ3go9JSW0PmIHCOso66iRX8JNxEM5SqXcCA4xODhKIUGalHYZtkK4DTKfxot1jeYcDwPu3dM="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"xf_f4e10c9b37b97842\",\"quote\":\"1587000000\"},{\"quote\":\"1174000000\",\"source_id\":\"xf_a5c8c1cf799d9930\"},{\"quote\":\"7772000000\",\"source_id\":\"xf_1f0992f44deb2b2e\"},{\"source_id\":\"xf_b976f127071d2752\",\"quote\":\"2320000000\"},{\"quote\":\"2438000000\",\"source_id\":\"xf_f9401502e47c5c9a\"}],\"answer\":\"Based on Corning's FY2020 10-K, the components for calculating FY2020 days payable outstanding (DPO) are as follows:\\n- Accounts payable as of December 31, 2019: $1,587 million\\n- Accounts payable as of December 31, 2020: $1,174 million\\n- Average accounts payable between FY2019 and FY2020: $1,380.50 million\\n- FY2020 Cost of Sales (Cost of Revenue): $7,772 million\\n- Inventory as of December 31, 2019: $2,320 million\\n- Inventory as of December 31, 2020: $2,438 million\\n- Change in inventory between FY2019 and FY2020: $118 million\\n- Denominator (FY2020 COGS + change in inventory): $7,890 million\\n\\nUsing the formula:\\n365 * 1380.50 / 7890 = 63.876803548795945 days\\n\\nRounded to two decimal places, Corning's FY2020 DPO is 63.88 days.\",\"needs_review\":false,\"confidence\":1,\"rationale\":\"All numbers used in the explanation and the final result are derived from the tool outputs (or simple arithmetic on them).\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_189781",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560905,
+  "id": "yAzJasj0F4HMvdIPyKat4QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 554,
+   "prompt_tokens": 5069,
+   "total_tokens": 5623
+  }
+ }
+}

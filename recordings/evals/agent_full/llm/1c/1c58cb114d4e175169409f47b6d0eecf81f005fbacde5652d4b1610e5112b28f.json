@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T+J+2vLQx9taGSpITCCKy0I3+l+pYjNmFg13Sq8nfeiP9ao7H7Xi3euTAYY7WCbd4dt2QgKoLCrDrCTOqEhZTyiAh+xfkq7FebHmRuQA18FMMbhd3pSqZ8+8="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BA\",\"query\":\"Multiple legal actions have been filed against us as a result of the October 29, 2018 accident of Lion Air Flight 610\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_878698",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559880,
+  "id": "yAjJaqTWEIHxxN8P4turoAc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 63,
+   "prompt_tokens": 4181,
+   "total_tokens": 4244
+  }
+ }
+}

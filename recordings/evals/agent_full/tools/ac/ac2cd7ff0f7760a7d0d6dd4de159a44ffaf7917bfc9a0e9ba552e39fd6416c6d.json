@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Data Center Client Gaming Embedded net revenue segment",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": "7",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_dc117b15489222bc",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 48,
+    "text": "Table of Contents Results of Operations During the second quarter of fiscal year 2022, we changed our reporting segments to align our financial reporting with how we manage our business in strategic end markets. This is consistent with how our Chief Operating Decision Maker (CODM) assesses our financial performance and allocates resources. As a result, we report our financial performance based on the following four reportable segments: Data Center, Client, Gaming, and Embedded. Additional information on our reportable segments is contained in Note 4 – Segment Reporting of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K). Our operating results tend to vary seasonally. Historically, our net revenue has been generally higher in the second half of the year than in the first half of the year, although market conditions and product transitions could impact these trends. The following table provides a summary of net revenue and operating income (loss) by segment for 2022 …"
+   },
+   {
+    "chunk_id": "ch_191f2bb42773e387",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 43,
+    "text": "acceleration and rapid innovation across a variety of technologies and established AMD in multiple embedded markets where we have traditionally not had a significant presence. We now offer Field Programmable Gate Arrays (FPGAs), Adaptive SoCs, and Adaptive Compute Acceleration Platform (ACAP) products. With the acquisition of Xilinx, we have access to a new set of markets and customers, further strengthening and diversifying our business model. In May 2022, we expanded our data center solutions capabilities with the acquisition of Pensando Systems, Inc. (Pensando). We now offer high-performance data processing units (DPUs) and a software stack that complements our existing products. With the Xilinx and Pensando acquisitions, we are well positioned to provide the industry's broadest set of leadership compute engines and accelerators to help enable best performance, security, flexibility and total cost of ownership for leading-edge data centers. Our 2022 financial results reflect the str…"
+   },
+   {
+    "chunk_id": "ch_82d1f732f8738788",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 48,
+    "text": "Data Center net revenue of $6 billion in 2022 increased by 64%, compared to net revenue of $3.7 billion in 2021. The increase was primarily driven by higher sales of our EPYC server processors. Data Center operating income was $1.8 billion in 2022, compared to operating income of $991 million in 2021. The increase in operating income was primarily driven by higher revenue, partially offset by higher operating expenses. Operating expenses increased for the reasons outlined under “Expenses” below. Client Client net revenue of $6.2 billion in 2022 decreased by 10%, compared to net revenue of $6.9 billion in 2021, primarily driven by a 24% decrease in unit shipment, partially offset by a 19% increase in average selling price. The decrease in unit shipments was due to challenging PC market conditions and significant inventory correction across the PC supply chain experienced during the second half of 2022. The increase in average selling price was primarily driven by a richer mix of Ryzen m…"
+   },
+   {
+    "chunk_id": "ch_476ffee67069ae20",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 49,
+    "text": "Table of Contents Gaming Gaming net revenue of $6.8 billion in 2022 increased by 21%, compared to net revenue of $5.6 billion in 2021. The increase in net revenue was driven by higher semi-custom product sales due to higher demand for gaming console SoCs, partially offset by lower gaming graphics sales due to a decrease in unit shipments driven by soft consumer demand given weakened macroeconomic conditions experienced in the second half of 2022. Gaming operating income was $953 million in 2022, compared to operating income of $934 million in 2021. The increase in operating income was primarily driven by higher revenue, partially offset by higher operating expenses. Operating expenses increased for the reasons outlined under “Expenses” below. Embedded Embedded net revenue of $4.6 billion in 2022 increased significantly, compared to net revenue of $246 million in 2021. The significant increase in net revenue was primarily driven by the inclusion of Xilinx embedded product revenue as a r…"
+   },
+   {
+    "chunk_id": "ch_bffb7c0aab915e49",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 44,
+    "text": "market segments and applications, while helping businesses free data center resources to create additional workload processing and accelerate output. We also unveiled our 3rd Gen AMD EPYC processors with AMD 3D V-Cache technology for leadership performance in technical computing workloads. We introduced the 7 nm Versal™ ACAP VCK5000 development card designed to offer leadership AI inference performance. We announced the availability of the AMD Instinct™ ecosystem, the new AMD Instinct MI210 accelerator and ROCm™ 5 software. Together the AMD Instinct and ROCm ecosystem offers exascale-class technology to a broad base of high performance computing (HPC) and artificial intelligence (AI) customers, designed to address the demand for compute-accelerated data center workloads and reduce the time to insights and discoveries. In the Embedded segment, we introduced the AMD Ryzen™ Embedded R2000 Series, second-generation mid-range system-on-chip processors optimized for a wide range of industria…"
+   }
+  ]
+ }
+}

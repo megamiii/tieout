@@ -1,0 +1,22 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Total revenues",
+  "ticker": "CVS",
+  "fiscal_year": 2018,
+  "section": "7",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_3f81ec6833658f18",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 64,
+    "text": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations The information contained in “Management's Discussion and Analysis of Financial Condition and Results of Operations” in the Annual Report, which includes the “Cautionary Statement Concerning Forward-Looking Statements” at the end of such section, is incorporated by reference herein."
+   }
+  ]
+ }
+}

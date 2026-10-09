@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 7,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TJ0OWoegwZ3zL3llg9PFjR23HG/jWllEFEjtEJ7yMVEp0Woj5Q8H7C+lJtG4oU5/JMol0aC9AuTYtJPfobYaUNnRXmFuhgmoGaYRIqcNBxiJyHCt/sLzPfUQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"NIKE, Inc. STATEMENTS OF INCOME Revenues Cost of sales\",\"section\":\"8\",\"fiscal_year\":2018,\"ticker\":\"NKE\"}",
+        "name": "search_filings"
+       },
+       "id": "call_187550",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560614,
+  "id": "pQvJatLiOv3fxs0Pj4ieiAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 51,
+   "prompt_tokens": 4517,
+   "total_tokens": 4568
+  }
+ }
+}

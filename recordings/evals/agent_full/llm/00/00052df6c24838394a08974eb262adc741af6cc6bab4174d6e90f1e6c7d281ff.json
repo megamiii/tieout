@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TE596mKXdPpLTK3JlFpehx9UGTm+XH75pfeem9L4w5zSmEVD52G4MHCn6Rh4jc09GRPo1MgWOUV0dyv8SEMRBU6jsQ2wcJIB3YqMzGdNv3S7OrZlSyGZi+N4="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BA\",\"query\":\"net cash provided by operating activities\"}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_208959",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561465,
+  "id": "-Q7Jar7QFs-SvdIPoqWE8QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 29,
+   "prompt_tokens": 1876,
+   "total_tokens": 1905
+  }
+ }
+}

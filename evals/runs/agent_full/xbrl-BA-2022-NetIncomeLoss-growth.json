@@ -1,0 +1,201 @@
+{
+ "item_id": "xbrl-BA-2022-NetIncomeLoss-growth",
+ "eval_set": "xbrl_numeric",
+ "experiment": "agent_full",
+ "status": "answered",
+ "answer": "Boeing's net income attributable to Boeing shareholders (net loss) changed by -17.4% from fiscal year 2021 to fiscal year 2022 (increasing in magnitude of loss from -$4,202 million in 2021 to -$4,935 million in 2022). Alternatively, total net loss (including noncontrolling interest) changed by -17.8% from -$4,290 million in 2021 to -$5,053 million in 2022.",
+ "confidence": 1.0,
+ "rationale": "The net loss attributable to Boeing shareholders increased from $4,202 million in FY2021 to $4,935 million in FY2022, representing a -17.4% change. If using total net loss including noncontrolling interest, it changed from $4,290 million to $5,053 million, representing a -17.8% change. Both figures are provided.",
+ "citations": [
+  {
+   "source_id": "ch_5d78669497b1d576",
+   "quote": "Net loss attributable to Boeing Shareholders ($4,935) ($4,202) ($11,873)",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 24,
+   "values": [
+    "31",
+    "2022",
+    "2021",
+    "2020",
+    "66608",
+    "62286",
+    "58158",
+    "3547",
+    "2902",
+    "12767",
+    "5.3",
+    "4.7",
+    "22.0",
+    "0.6",
+    "14.8",
+    "17.5",
+    "4935",
+    "4202",
+    "11873",
+    "8.30",
+    "7.15",
+    "20.88",
+    "4690",
+    "4075",
+    "14150",
+    "7.0",
+    "6.5",
+    "24.3",
+    "11.06",
+    "9.44",
+    "23.25",
+    "45",
+    "47"
+   ]
+  },
+  {
+   "source_id": "ch_1908872c8c93b9bc",
+   "quote": "Net loss ($5,053) ($4,290) ($11,941)",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 56,
+   "values": [
+    "31",
+    "2022",
+    "2021",
+    "2020",
+    "5053",
+    "4290",
+    "11941",
+    "62",
+    "75",
+    "98",
+    "0",
+    "0",
+    "0",
+    "1",
+    "12",
+    "16",
+    "4",
+    "40",
+    "55",
+    "14",
+    "3",
+    "2",
+    "7",
+    "10",
+    "6",
+    "27",
+    "30",
+    "49",
+    "41",
+    "22",
+    "32",
+    "111",
+    "1533",
+    "4262",
+    "1956",
+    "11",
+    "8",
+    "52",
+    "791",
+    "1155",
+    "917"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 7,
+ "prompt_tokens": 38733,
+ "completion_tokens": 592,
+ "latency_ms": 6559.3,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "-17.4% matches -17.4441 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 7,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1911,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"ticker\":\"BA\",\"query\":\"net income\",\"fiscal_years\":[2021,2022]}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 2663,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"query\":\"Consolidated Statements of Operations Net loss\",\"fiscal_year\":2022,\"ticker\":\"BA\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 4515,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"query\":\"Consolidated Statements of Operations Years ended December 31\",\"ticker\":\"BA\",\"fiscal_year\":2022}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 6078,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"query\":\"Consolidated Statements of Operations Revenues Costs and expenses\",\"ticker\":\"BA\",\"fiscal_year\":2022}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "tokens": 7834,
+   "tools": [
+    {
+     "name": "calculate",
+     "arguments": "{\"expression\":\"(-4935 - (-4202)) / abs(-4202) * 100\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 5,
+   "tokens": 7946,
+   "tools": [
+    {
+     "name": "calculate",
+     "arguments": "{\"expression\":\"(-5053 - (-4290)) / abs(-4290) * 100\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 6,
+   "tokens": 8378,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"answer\":\"Boeing's net income attributable to Boeing shareholders (net loss) changed by -17.4% from fiscal year 2021 to fiscal year 2022 (increasing in magnitude of loss from -$4,202 million in 2021 to -$4,935 million in 2022). Alternatively, total net loss (including noncontrolling interest) changed by -17.8% from -$4,290 million in 2021 to -$5,053 million in 2022.\",\"confidence\":1,\"rationale\":\"The net loss attributable to Boeing shareholders increased from $4,202 million in FY2021 to $4,935 million in FY2022, representing a -17.4% change. If using total net loss including noncontrolling interest, it changed from $4,290 million to $5,053 million, representing a -17.8% change. Both figures are provided.\",\"citations\":[{\"source_id\":\"ch_5d78669497b1d576\",\"quote\":\"Net loss attributable to Boeing Shareholders ($4,935) ($4,202) ($11,873)\"},{\"quote\":\"Net loss ($5,053) ($4,290) ($11,941)\",\"source_id\":\"ch_1908872c8c93b9bc\"}],\"needs_review\":false}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

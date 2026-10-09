@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TeoZWP1H+/zsi8EAbMuvjcfiqsgTWqGUKVsDDEroaf6jYclo2myP0eRiFR97PLY/9R9F9MaFzTbIclwQN3pDfLbWBBCw2eYrki6sINzdoK6kCzgXoebR6e0s="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_e8d535624a3d0686\",\"quote\":\"Cash provided (used) by operations 5,841 5,188 6,657\"},{\"source_id\":\"ch_9d125692a0bd2f02\",\"quote\":\"Cash provided (used) by investing activities 564 (1,524) (3,800)\"},{\"quote\":\"Cash provided (used) by financing activities (7,447) (4,836) (1,459)\",\"source_id\":\"ch_9d125692a0bd2f02\"}],\"confidence\":1,\"rationale\":\"The Consolidated Statements of Cash Flows for FY2023 lists Cash provided by operations of 5,841 million, Cash provided by investing activities of 564 million, and Cash provided (used) by financing activities of (7,447) million. Therefore, operating activities brought in the most cash flow.\",\"needs_review\":false,\"answer\":\"For Nike in FY2023, operating activities brought in the most cash flow, providing $5,841 million. Cash provided by operating activities was $5,841 million, cash provided by investing activities was $564 million, and cash used by financing activities was $(7,447) million.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_205920",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559992,
+  "id": "NwnJap-ENJjR28oPlLqWyQ0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 339,
+   "prompt_tokens": 4987,
+   "prompt_tokens_details": {
+    "cached_tokens": 2488
+   },
+   "total_tokens": 5326
+  }
+ }
+}

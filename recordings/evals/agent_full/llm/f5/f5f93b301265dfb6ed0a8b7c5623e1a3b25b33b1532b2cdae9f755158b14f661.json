@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TGXJm0eEreb9iVAoNN5xxnh/kpFL44k0B0PtqdAWCU/WSQhKXlJcxWAWK7PTU6/iqqTNCnUHyL3wbjiR0YrLo5jRK+d79KLdDuLqX+u5zER7FvB+kgCzNRUo="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"In fiscal year 2016, Adobe's capital expenditure (purchases of property and equipment) was $203.8 million ($203,805 thousand).\",\"needs_review\":false,\"rationale\":\"The cash flow statement in Adobe's FY2016 10-K lists purchases of property and equipment as $203,805 thousand ($203.805 million).\",\"citations\":[{\"quote\":\"Purchases of property and equipment (203,805)\",\"source_id\":\"ch_a8c960a6fc9f40d8\"}],\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_910680",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561177,
+  "id": "2A3Jat25DLGIxN8P3dvU-AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 162,
+   "prompt_tokens": 4441,
+   "prompt_tokens_details": {
+    "cached_tokens": 2009
+   },
+   "total_tokens": 4603
+  }
+ }
+}

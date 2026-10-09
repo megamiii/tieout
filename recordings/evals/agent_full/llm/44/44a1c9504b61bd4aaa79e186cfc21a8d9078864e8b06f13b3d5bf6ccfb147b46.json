@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TPL0b3v+ZQEpK1A3EicnUne+SLYvwcwlwaFOvyneh0qxVd9uNrIyJpUFZK5DAzea3K9FfC42QKNJWmSxVhQmqhDr7mtkSGZi3KBg7ZHNdwlIPSm2Pk0aebLU="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AXP\",\"query\":\"GEOGRAPHIC OPERATIONS United States EMEA APAC LACC\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_204487",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559812,
+  "id": "hAjJata8G7eJxN8Pnrbg-QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 4433,
+   "total_tokens": 4474
+  }
+ }
+}

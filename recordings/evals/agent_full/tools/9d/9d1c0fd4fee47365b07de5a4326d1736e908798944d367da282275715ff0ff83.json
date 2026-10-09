@@ -1,0 +1,84 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AXP",
+  "query": "effective tax rate",
+  "concept": null,
+  "fiscal_years": null
+ },
+ "output": {
+  "ticker": "AXP",
+  "concepts": [
+   {
+    "concept": "EffectiveIncomeTaxRateContinuingOperations",
+    "label": "Effective Income Tax Rate Reconciliation, Percent",
+    "unit": "pure",
+    "values": [
+     {
+      "fiscal_year": 2025,
+      "period": "2025-01-01..2025-12-31",
+      "value": "0.215",
+      "fact_id": "xf_2cd35ee01b299205",
+      "reported_in_10k_filed": "2026-02-06"
+     },
+     {
+      "fiscal_year": 2024,
+      "period": "2024-01-01..2024-12-31",
+      "value": "0.215",
+      "fact_id": "xf_253b64653a9fa7d1",
+      "reported_in_10k_filed": "2025-02-07"
+     },
+     {
+      "fiscal_year": 2023,
+      "period": "2023-01-01..2023-12-31",
+      "value": "0.203",
+      "fact_id": "xf_58bf537390f2f669",
+      "reported_in_10k_filed": "2024-02-09"
+     }
+    ]
+   },
+   {
+    "concept": "UnrecognizedTaxBenefitsThatWouldImpactEffectiveTaxRate",
+    "label": "Unrecognized Tax Benefits that Would Impact Effective Tax Rate",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2025,
+      "period": "as of 2025-12-31",
+      "value": "840000000",
+      "fact_id": "xf_7b2dcc44078e8827",
+      "reported_in_10k_filed": "2026-02-06"
+     },
+     {
+      "fiscal_year": 2024,
+      "period": "as of 2024-12-31",
+      "value": "780000000",
+      "fact_id": "xf_466f75735ce77723",
+      "reported_in_10k_filed": "2025-02-07"
+     },
+     {
+      "fiscal_year": 2023,
+      "period": "as of 2023-12-31",
+      "value": "670000000",
+      "fact_id": "xf_3a82c15e3648d604",
+      "reported_in_10k_filed": "2024-02-09"
+     }
+    ]
+   },
+   {
+    "concept": "EffectiveIncomeTaxRateReconciliationTaxCredits",
+    "label": "Effective Income Tax Rate Reconciliation, Tax Credit, Percent",
+    "unit": "pure",
+    "values": [
+     {
+      "fiscal_year": 2025,
+      "period": "2025-01-01..2025-12-31",
+      "value": "0.01",
+      "fact_id": "xf_e0d33d755dc25fa3",
+      "reported_in_10k_filed": "2026-02-06"
+     }
+    ]
+   }
+  ]
+ }
+}

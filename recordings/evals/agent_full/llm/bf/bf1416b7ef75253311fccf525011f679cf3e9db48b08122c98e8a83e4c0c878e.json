@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T4BqIvKyemY/LzcqmcWCGErmZtFzXsMJarC9dF08BRpGI+ewg8kcRU4gwjWIMp2jvMzddQvsGuGWalkv0WzmcM80yur6I94BwoCMy4HzVcQqdnqMniOxezxc="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AMD\",\"fiscal_year\":2015,\"item\":\"8\",\"page\":58}",
+        "name": "read_section"
+       },
+       "id": "call_205040",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560427,
+  "id": "6wrJas_ZBZXuxs0Pz4KZ4AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 36,
+   "prompt_tokens": 5679,
+   "prompt_tokens_details": {
+    "cached_tokens": 2010
+   },
+   "total_tokens": 5715
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tx1wnYSpQZP5/AHJlGOWZqAZZbRuN8Y+VzKyQhqwsIlk0IsoFIRYNAr5vxu4doigeW7TvM81JmQRSpqLeNgDlz+u9X4Gflnm8a604zsl6lqU3glPj3uX+a3I="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2015,\"ticker\":\"ADBE\",\"query\":\"Operating income Fiscal 2015 Fiscal 2014 millions\"}",
+        "name": "search_filings"
+       },
+       "id": "call_175079",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561120,
+  "id": "ng3Jar6ZGeKZ28oP-tHG6Qk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 5623,
+   "prompt_tokens_details": {
+    "cached_tokens": 2013
+   },
+   "total_tokens": 5670
+  }
+ }
+}

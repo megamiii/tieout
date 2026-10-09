@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "NKE",
+  "query": "Net Cash Provided by (Used in) Investing Activities",
+  "concept": null,
+  "fiscal_years": [
+   2023
+  ]
+ },
+ "output": {
+  "ticker": "NKE",
+  "concepts": [
+   {
+    "concept": "NetCashProvidedByUsedInInvestingActivities",
+    "label": "Net Cash Provided by (Used in) Investing Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-06-01..2023-05-31",
+      "value": "564000000",
+      "fact_id": "xf_0cdf38b88ee6a3de",
+      "reported_in_10k_filed": "2023-07-20"
+     }
+    ]
+   },
+   {
+    "concept": "NetCashProvidedByUsedInFinancingActivities",
+    "label": "Net Cash Provided by (Used in) Financing Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-06-01..2023-05-31",
+      "value": "-7447000000",
+      "fact_id": "xf_34d79c5a570a5751",
+      "reported_in_10k_filed": "2023-07-20"
+     }
+    ]
+   },
+   {
+    "concept": "NetCashProvidedByUsedInOperatingActivities",
+    "label": "Net Cash Provided by (Used in) Operating Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-06-01..2023-05-31",
+      "value": "5841000000",
+      "fact_id": "xf_9193bb0cc596258a",
+      "reported_in_10k_filed": "2023-07-20"
+     }
+    ]
+   }
+  ]
+ }
+}

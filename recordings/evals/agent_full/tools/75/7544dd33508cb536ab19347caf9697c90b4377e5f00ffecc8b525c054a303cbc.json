@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "quarterly financial data common stock market price dividends Q2",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_973e7bf6470f94c3",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 5",
+    "page": 68,
+    "text": "Item 5. Market for Registrant's Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities. Market Information CVS Health Corporation's common stock is listed on the New York Stock Exchange under the symbol “CVS.” Dividends During 2022, 2021 and 2020, the quarterly cash dividend was $0.55, $0.50 and $0.50 per share, respectively. In December 2022, the Board authorized a 10% increase in the quarterly cash dividend to $0.605 per share effective in 2023. CVS Health Corporation has paid cash dividends every quarter since becoming a public company. Future dividends will depend on the Company's earnings, capital requirements, financial condition and other factors considered relevant by the Board. See Note 12 ‘‘Shareholders' Equity'' included in Item 8 of this 10-K for information regarding CVS Health Corporation's dividends. Holders of Common Stock As of February 1, 2023, there were 24,142 registered holders of the registrant's common stock according to the records …"
+   },
+   {
+    "chunk_id": "ch_6a418bd3a6253c2a",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 92,
+    "text": "ASR. These shares were placed into treasury stock and the forward contract was reclassified from capital surplus to treasury stock in February 2022. At the time they were received, the initial and final receipt of shares resulted in an immediate reduction of the outstanding shares used to calculate the weighted average common shares outstanding for basic and diluted earnings per share. Dividends During 2022, 2021 and 2020 the quarterly cash dividend was $0.55, $0.50 and $0.50 per share, respectively. In December 2022, the Board authorized a 10% increase in the quarterly cash dividend to $0.605 per share effective in 2023. CVS Health Corporation has paid cash dividends every quarter since becoming a public company. Future dividend payments will depend on the Company's earnings, capital requirements, financial condition and other factors considered relevant by the Board. 90"
+   },
+   {
+    "chunk_id": "ch_92060eb3363f0540",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 168,
+    "text": "20% of the $1.5 billion notional amount of the ASR, thereby concluding the ASR. These shares were placed into treasury stock and the forward contract was reclassified from capital surplus to treasury stock in February 2022. At the time they were received, the initial and final receipt of shares resulted in an immediate reduction of the outstanding shares used to calculate the weighted average common shares outstanding for basic and diluted earnings per share. Dividends The quarterly cash dividend declared by the Board was $0.55 and $0.50 per share in 2022 and 2021, respectively. In December 2022, the Board authorized a 10% increase in the quarterly cash dividend to $0.605 per share effective in 2023. CVS Health Corporation has paid cash dividends every quarter since becoming a public company. Future dividend payments will depend on the Company's earnings, capital requirements, financial condition and other factors considered relevant by the Board. Regulatory Requirements The Company's …"
+   },
+   {
+    "chunk_id": "ch_1f49a4113c7f13ed",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 5",
+    "page": 70,
+    "text": "Table of Contents Stock Performance Graph The following graph compares the cumulative total shareholder return on CVS Health Corporation's common stock (assuming reinvestment of dividends) with the cumulative total return on the S&P 500 Index, the S&P 500 Food and Staples Retailing Industry Group Index and the S&P 500 Healthcare Sector Group Index from December 31, 2017 through December 31, 2022. The graph assumes a $100 investment in shares of CVS Health Corporation's common stock on December 31, 2017. December 31, 2017 2018 2019 2020 2021 2022 CVS Health Corporation $ 100 $ 93 $ 109 $ 103 $ 160 $ 148 S&P 500 100 96 126 149 191 157 S&P 500 Food & Staples Retailing Group Index 100 101 129 150 187 168 S&P 500 Health Care Group Index 100 106 129 146 184 180 (1) Includes CVS Health Corporation. (2) Includes five companies (COST, KR, SYY, WBA, WMT). (3) Includes 63 companies. The year-ended values of each investment shown in the preceding graph are based on share price appreciation plus di…"
+   },
+   {
+    "chunk_id": "ch_17b69171059b4d96",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 113,
+    "text": "— — 864 — 864 ESPP issuances, net of purchase of treasury shares — 1 — 5 — — 5 — 5 Common stock dividends — — — — (2,644) — (2,644) — (2,644) Other increases in noncontrolling interests — — — — — — — 6 6 Balance at December 31, 2021 1,744 (422) 47,377 (28,173) 54,906 965 75,075 306 75,381 Net income — — — — 4,149 — 4,149 16 4,165 Other comprehensive loss (Note 13) — — — — — (2,430) (2,430) — (2,430) Stock option activity, stock awards and other 14 — 816 — — — 816 — 816 Purchase of treasury shares, net of ESPP issuances — (36) — (3,685) — — (3,685) — (3,685) Common stock dividends — — — — (2,910) — (2,910) — (2,910) Other decreases in noncontrolling interests — — — — — — — (22) (22) Balance at December 31, 2022 1,758 (458) $ 48,193 $ (31,858) $ 56,145 $ (1,465) $ 71,015 $ 300 $ 71,315 (1) Treasury shares include 1 million shares held in trust for each of the years ended December 31, 2022, 2021 and 2020. Treasury stock includes $29 million related to shares held in trust for each of the …"
+   }
+  ]
+ }
+}

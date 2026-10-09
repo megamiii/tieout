@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "countries and territories more than 200",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7675130d841f32c8",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 69,
+    "text": "Table of Contents Our Divisions We are organized into seven reportable segments (also referred to as divisions), as follows: 1) Frito-Lay North America (FLNA), which includes our branded convenient food businesses in the United States and Canada; 2) Quaker Foods North America (QFNA), which includes our branded convenient food businesses, such as cereal, rice, pasta and other branded food, in the United States and Canada; 3) PepsiCo Beverages North America (PBNA), which includes our beverage businesses in the United States and Canada; 4) Latin America (LatAm), which includes all of our beverage and convenient food businesses in Latin America; 5) Europe, which includes all of our beverage and convenient food businesses in Europe; 6) Africa, Middle East and South Asia (AMESA), which includes all of our beverage and convenient food businesses in Africa, the Middle East and South Asia; and 7) Asia Pacific, Australia, and New Zealand and China region (APAC), which includes all of our beverag…"
+   },
+   {
+    "chunk_id": "ch_1dc79e85f0e4c835",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 18,
+    "text": "Table of Contents for our products, any of which can adversely affect our business. In addition, political and social conditions in certain cities throughout the U.S. as well as globally have resulted in demonstrations and protests, including in connection with political elections and civil rights and liberties. Our operations or the operations of our business partners, including the distribution of our products and the ingredients or other raw materials used in the production of our products, may be disrupted if such events persist for a prolonged period of time, including due to actions taken by governmental authorities in affected cities and regions, which can adversely affect our business. Our business can be adversely affected if we are unable to grow in developing and emerging markets. Our success depends in part on our ability to grow our business in developing and emerging markets, including Mexico, the Middle East, China, South Africa, Brazil and India. There can be no assuran…"
+   },
+   {
+    "chunk_id": "ch_ab7e43f8e284033b",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 74,
+    "text": "Table of Contents Amortization of intangible assets and depreciation and other amortization of each division are as follows: Amortization of Intangible Assets Depreciation and Other Amortization 2022 2021 2020 2022 2021 2020 FLNA $ 11 $ 11 $ 10 $ 653 $ 594 $ 550 QFNA — — — 47 46 41 PBNA 22 25 28 930 926 899 LatAm 3 4 4 306 283 251 Europe 30 37 40 357 364 350 AMESA 4 5 3 179 181 149 APAC 8 9 5 92 102 91 Total division 78 91 90 2,564 2,496 2,331 Corporate — — — 121 123 127 Total $ 78 $ 91 $ 90 $ 2,685 $ 2,619 $ 2,458 Net revenue and long-lived assets by country are as follows: Net Revenue Long-Lived Assets 2022 2021 2020 2022 2021 United States $ 49,390 $ 44,545 $ 40,800 $ 38,240 $ 36,324 Mexico 5,472 4,580 3,924 1,933 1,720 Russia 4,118 3,426 3,009 2,538 3,751 Canada 3,536 3,405 2,989 2,678 2,846 China 2,752 2,679 1,732 1,517 1,745 United Kingdom 1,844 2,102 1,882 847 906 South Africa 1,837 2,008 1,282 1,327 1,389 All other countries 17,443 16,729 14,754 12,885 13,399 Total $ 86,392 $ 7…"
+   },
+   {
+    "chunk_id": "ch_051e643096c3c557",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 32,
+    "text": "Table of Contents Our discussion and analysis is intended to help the reader understand our results of operations and financial condition and is provided as an addition to, and should be read in connection with, our consolidated financial statements and the accompanying notes. Definitions of key terms can be found in the glossary. Unless otherwise noted, tabular dollars are presented in millions, except per share amounts. All per share amounts reflect common stock per share amounts, assume dilution unless otherwise noted, and are based on unrounded amounts. Percentage changes are based on unrounded amounts. Discussion in this Form 10-K includes results of operations and financial condition for 2022 and 2021 and year-over-year comparisons between 2022 and 2021. For discussion on results of operations and financial condition pertaining to 2020 and year-over-year comparisons between 2021 and 2020, please refer to “Management's Discussion and Analysis of Financial Condition and Results of …"
+   },
+   {
+    "chunk_id": "ch_8f0706912fe9bd36",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 177,
+    "text": "(1) The Member's transfer to employment based in the United States or its territories; (2) The Member's secondment to a work location in the United States or its territories; (3) Any other change in the Member's employment circumstances that will cause the Member to become a U.S. Person. (f) \"Associated Company\" means any company or undertaking which – (i) is directly or indirectly controlled by or associated in business with the Corporation, and (ii) which has agreed, subject to the ongoing consent of the Vice President, to perform and observe the conditions, stipulations and provisions of the DB Program and to be included among the Employers under the DB Program. \"Associated Companies\" means all such companies or undertakings. (g) \"Corporation\" means PepsiCo, Inc., a corporation organized and existing under the laws of the State of North Carolina, or its successor or successors. 3"
+   }
+  ]
+ }
+}

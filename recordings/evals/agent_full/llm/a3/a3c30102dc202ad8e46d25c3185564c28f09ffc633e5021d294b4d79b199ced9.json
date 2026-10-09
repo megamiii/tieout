@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TAm8ylpGWkzy7YejvYWeVf6sHFNNjn0ZSn779+nCHwVDqypcgLr9NZbm2hj7eOSNnh33KOTpcwgboPCgwkRQdol+uJ8XvL9ktZLcx/SlWD/azz59JQ/E2VuA="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BBY\",\"fiscal_year\":2023,\"query\":\"acquisitions fiscal 2021\"}",
+        "name": "search_filings"
+       },
+       "id": "call_752226",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559860,
+  "id": "tAjJavayFKr5xN8P0YO5kAg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 6994,
+   "prompt_tokens_details": {
+    "cached_tokens": 4040
+   },
+   "total_tokens": 7034
+  }
+ }
+}

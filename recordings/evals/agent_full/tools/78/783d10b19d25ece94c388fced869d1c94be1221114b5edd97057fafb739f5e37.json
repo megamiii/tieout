@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Cash Flows Cash flows from operating activities",
+  "ticker": "ADBE",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_b58c214c5b629429",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 63,
+    "text": "63 ADOBE SYSTEMS INCORPORATED CONSOLIDATED STATEMENTS OF CASH FLOWS (In thousands) Years Ended November 27, 2015 November 28, 2014 November 29, 2013 Cash flows from operating activities: Net income..................................................................................................................... $ 629,551 $ 268,395 $ 289,985 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and accretion................................................................. 339,473 313,590 321,227 Stock-based compensation ....................................................................................... 335,859 333,701 328,987"
+   },
+   {
+    "chunk_id": "ch_12168f8ccc611a8c",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 52,
+    "text": "52 Cash Flows from Investing Activities For fiscal 2015, net cash used for investing activities of $1.49 billion was primarily due to purchases of short-term investments and our acquisition of Fotolia. Other uses of cash during fiscal 2015 represented purchases of property and equipment, and long- term investments and other assets. These cash outflows were offset in part by sales and maturities of short-term investments and proceeds received from the sale of certain property assets. See Note 2 and Note 6 of our Consolidated Financial Statements for more detailed information regarding our acquisition of Fotolia and sale of property assets, respectively. For fiscal 2014, net cash used for investing activities of $490.7 million was primarily due to purchases of short-term investments, purchases of property and equipment and a business acquisition. These cash outflows were offset in part by sales and maturities of short-term investments. For fiscal 2013, net cash used for investing activit…"
+   },
+   {
+    "chunk_id": "ch_e4748e8b61b0b49a",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 63,
+    "text": "Purchases of long-term investments, intangibles and other assets ................................ (22,779) (17,572) (67,737) Proceeds from sale of long-term investments................................................................ 4,149 3,532 6,233 Net cash used for investing activities ............................................................... (1,488,358) (490,707) (1,177,803) Cash flows from financing activities: Purchases of treasury stock............................................................................................ (625,000) (600,000) (1,100,000)"
+   },
+   {
+    "chunk_id": "ch_ea6378bb94190539",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 51,
+    "text": "Our primary source of cash is receipts from revenue. The primary uses of cash are payroll related expenses, general operating expenses including marketing, travel and office rent, and cost of revenue. Other sources of cash are proceeds from the exercise of employee options and participation in the employee stock purchase plan. Other uses of cash include our stock repurchase program, which is described below, business acquisitions and purchases of property and equipment. Cash Flows from Operating Activities For fiscal 2015, net cash provided by operating activities of $1.47 billion was primarily comprised of net income plus the net effect of non-cash items. The primary working capital sources of cash were net income coupled with increases in deferred revenue, income taxes payable and trade payables. The increase in deferred revenue is primarily due to increased subscriptions for our team, individual and enterprise Creative Cloud offerings and increases in Digital Marketing hosted servic…"
+   },
+   {
+    "chunk_id": "ch_983043b1a44959b9",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 78,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 78 the intrinsic value of these cash flow hedges in accumulated other comprehensive income in our Consolidated Balance Sheets, until the forecasted transaction occurs. When the forecasted transaction occurs, we reclassify the related gain or loss on the cash flow hedge to revenue. In the event the underlying forecasted transaction does not occur, or it becomes probable that it will not occur, we reclassify the gain or loss on the related cash flow hedge from accumulated other comprehensive income to interest and other income (expense), net in our Consolidated Statements of Income at that time. If we do not elect hedge accounting, or the contract does not qualify for hedge accounting treatment, the changes in fair value from period to period are recorded in interest and other income (expense), net in our Consolidated Statements of Income. In December 2014, prior to issuing new long-term fixed rate debt, we…"
+   }
+  ]
+ }
+}

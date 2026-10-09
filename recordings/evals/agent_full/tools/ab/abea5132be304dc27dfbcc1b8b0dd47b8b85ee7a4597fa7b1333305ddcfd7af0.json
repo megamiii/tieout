@@ -1,0 +1,59 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GLW",
+  "query": "research and development expense",
+  "concept": null,
+  "fiscal_years": [
+   2021,
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "GLW",
+  "concepts": [
+   {
+    "concept": "ResearchAndDevelopmentExpense",
+    "label": "Research and Development Expense",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "900000000",
+      "fact_id": "xf_11566c298c2fc2f4",
+      "reported_in_10k_filed": "2023-02-13"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2021-01-01..2021-12-31",
+      "value": "800000000",
+      "fact_id": "xf_32a1a7a6ffddfb9f",
+      "reported_in_10k_filed": "2022-02-14"
+     }
+    ]
+   },
+   {
+    "concept": "InterestAndDebtExpense",
+    "label": "Interest and Debt Expense",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "292000000",
+      "fact_id": "xf_856c2bd19368cb28",
+      "reported_in_10k_filed": "2023-02-13"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2021-01-01..2021-12-31",
+      "value": "300000000",
+      "fact_id": "xf_b7cbf0a5afebee3f",
+      "reported_in_10k_filed": "2022-02-14"
+     }
+    ]
+   }
+  ]
+ }
+}

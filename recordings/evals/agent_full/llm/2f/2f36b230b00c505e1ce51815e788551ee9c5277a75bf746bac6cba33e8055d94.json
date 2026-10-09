@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T/8JFKSblwDQW9wa/FqlAFwuSMfuvs/ZnKClB+gA3xGWAcCHJuBFUzRvWM4Ui3/jMb/iK9A1TNaY8EoMtbAC6vUf31AJTIWV+9aqPsr1ElXY6QQ5m4EfUjag="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"answer\":\"As of FY22, AMD organizes its major products and services around four reportable segments:\\n\\n1. **Data Center**: Server microprocessors (CPUs, such as AMD EPYC series), graphics processing units (GPUs), data processing units (DPUs), Field Programmable Gate Arrays (FPGAs), Adaptive System-on-Chip (SoC) products, and accelerator cards (such as Alveo).\\n2. **Client**: CPUs, accelerated processing units (APUs) that integrate CPUs and GPUs, and chipsets for desktop and notebook personal computers (such as Ryzen processors).\\n3. **Gaming**: Discrete GPUs, semi-custom SoC products for gaming consoles, and development services (including non-recurring engineering fees for design and development).\\n4. **Embedded**: Embedded CPUs, GPUs, APUs, FPGAs, and Adaptive SoC products catering to markets like automotive, industrial, aerospace, and defense.\\n\\nAdditionally, AMD occasionally sells or licenses portions of its intellectual property (IP) portfolio.\",\"needs_review\":false,\"rationale\":\"Answer details AMD's products and services by segment as reported in Item 1 and Item 7 of the FY2022 10-K, keeping all quotes under 300 characters.\",\"citations\":[{\"source_id\":\"ch_dc117b15489222bc\",\"quote\":\"reportable segments: Data Center, Client, Gaming, and Embedded.\"},{\"source_id\":\"ch_d4166c27e7864922\",\"quote\":\"server microprocessors (CPUs) and graphics processing units (GPUs), data processing units (DPUs), Field Programmable Gate Arrays (FPGAs), and Adaptive System-on-Chip (SoC) products for data centers\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_157384",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559757,
+  "id": "TAjJapPNCemH28oPvLehoA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 403,
+   "prompt_tokens": 8963,
+   "total_tokens": 9366
+  }
+ }
+}

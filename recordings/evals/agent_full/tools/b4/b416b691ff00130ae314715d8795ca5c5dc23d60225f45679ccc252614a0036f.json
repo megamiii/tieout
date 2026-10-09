@@ -1,0 +1,104 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GLW",
+  "query": "accounts payable",
+  "concept": null,
+  "fiscal_years": [
+   2019,
+   2020
+  ]
+ },
+ "output": {
+  "ticker": "GLW",
+  "concepts": [
+   {
+    "concept": "AccountsPayableCurrent",
+    "label": "Accounts Payable, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "as of 2020-12-31",
+      "value": "1174000000",
+      "fact_id": "xf_a5c8c1cf799d9930",
+      "reported_in_10k_filed": "2021-02-12"
+     },
+     {
+      "fiscal_year": 2019,
+      "period": "as of 2019-12-31",
+      "value": "1587000000",
+      "fact_id": "xf_f4e10c9b37b97842",
+      "reported_in_10k_filed": "2020-02-18"
+     }
+    ]
+   },
+   {
+    "concept": "IncreaseDecreaseInAccountsPayableAndAccruedLiabilities",
+    "label": "Increase (Decrease) in Accounts Payable and Accrued Liabilities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2020-01-01..2020-12-31",
+      "value": "57000000",
+      "fact_id": "xf_1501d73ab6081a62",
+      "reported_in_10k_filed": "2021-02-12",
+      "later_restated_to": [
+       {
+        "value": "139000000",
+        "fact_id": "xf_f3b58ddeef8de9d9",
+        "filed": "2022-02-14"
+       },
+       {
+        "value": "190000000",
+        "fact_id": "xf_664021b5e89a524a",
+        "filed": "2023-02-13"
+       }
+      ]
+     },
+     {
+      "fiscal_year": 2019,
+      "period": "2019-01-01..2019-12-31",
+      "value": "36000000",
+      "fact_id": "xf_aab4b7512f26baff",
+      "reported_in_10k_filed": "2020-02-18",
+      "later_restated_to": [
+       {
+        "value": "1000000",
+        "fact_id": "xf_bb6e2af5d87be07d",
+        "filed": "2021-02-12"
+       },
+       {
+        "value": "31000000",
+        "fact_id": "xf_d56e7a1181d251f0",
+        "filed": "2022-02-14"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "concept": "AccountsReceivableNetCurrent",
+    "label": "Accounts Receivable, after Allowance for Credit Loss, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "as of 2020-12-31",
+      "value": "2133000000",
+      "fact_id": "xf_cddc15a50bf0a726",
+      "reported_in_10k_filed": "2021-02-12"
+     },
+     {
+      "fiscal_year": 2019,
+      "period": "as of 2019-12-31",
+      "value": "1836000000",
+      "fact_id": "xf_f2bbacfa5bdabc11",
+      "reported_in_10k_filed": "2020-02-18"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Property, plant and equipment, net",
+  "ticker": "BA",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_b35d35443dbdcda2",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 64,
+    "text": "materialize or we determine the costs are no longer probable of recovery, the capitalized costs would be written off. Property, Plant and Equipment Property, plant and equipment are recorded at cost, including applicable construction-period interest, less accumulated depreciation and are depreciated principally over the following estimated useful lives: new buildings and land improvements, from 10 to 40 years; and new machinery and equipment, from 4 to 20 years. The principal methods of depreciation are as follows: buildings and land improvements, 150% declining balance; and machinery and equipment, sum-of-the-years' digits. Capitalized internal use software is included in Other assets and amortized using the straight line method over 5 years. Capitalized software as a service is included in Other assets and amortized using the straight line method over the term of the hosting arrangement which is typically no greater than 5 years. We periodically evaluate the appropriateness of remain…"
+   },
+   {
+    "chunk_id": "ch_f75374385207e0d0",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 110,
+    "text": "Table of Contents Certain assets have been measured at fair value on a nonrecurring basis using significant unobservable inputs (Level 3). The following table presents the nonrecurring losses recognized for the years ended December 31 due to long-lived asset impairment, and the fair value and asset classification of the related assets as of the impairment date: 2018 2017 Fair Value Total Losses Fair Value Total Losses Investments ($50) $1 ($44) Operating lease equipment $101 (39) 90 ($32) Other assets and Acquired intangible assets 14 (23) Property, plant and equipment 44 (4) 8 (2) Total $145 ($93) $113 ($101) Investments, Acquired intangible assets and Property, plant and equipment were primarily valued using an income approach based on the discounted cash flows associated with the underlying assets. The fair value of the impaired operating lease equipment is derived by calculating a median collateral value from a consistent group of third party aircraft value publications. The values…"
+   },
+   {
+    "chunk_id": "ch_d12498e3370d78f5",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 72,
+    "text": "(201) 656 (810) 76 (734) Other long-term liabilities 94 94 (68) (68) Pension and other postretirement plans (582) (582) 153 153 Customer financing, net 1,017 24 1,041 (696) 34 (662) Other (258) (2) (260) (256) (5) (261) Net cash provided by operating activities 13,344 2 13,346 10,499 (3) 10,496 Cash flows - investing activities: Property, plant and equipment additions (1,739) (1,739) (2,613) (2,613) Property, plant and equipment reductions 92 92 38 38 Acquisitions, net of cash acquired (324) (324) (297) (297) Contributions to investments (3,601) 32 (3,569) (1,719) (1,719) Proceeds from investments 3,639 (32) 3,607 1,209 (3) 1,206 Purchase of distribution rights (131) (131) Other 2 4 6 2 5 7 Net cash used by investing activities (2,062) 4 (2,058) (3,380) 2 (3,378) Cash flows - financing activities: New borrowings 2,077 2,077 1,325 1,325 Debt repayments (953) (953) (1,359) (1,359) Repayments of distribution rights and other asset financing (24) (24) Stock options exercised 311 311 321 32…"
+   },
+   {
+    "chunk_id": "ch_8c200e67f1fb1ae0",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 41,
+    "text": "Table of Contents Purchase Obligations Not Recorded on the Consolidated Statements of Financial Position Purchase obligations not recorded on the Consolidated Statements of Financial Position include agreements for inventory procurement, tooling costs, electricity and natural gas contracts, property, plant and equipment, customer financing equipment, and other miscellaneous production related obligations. The most significant obligation relates to inventory procurement contracts. We have entered into certain significant inventory procurement contracts that specify determinable prices and quantities, and long-term delivery timeframes. In addition, we purchase raw materials on behalf of our suppliers. These agreements require suppliers and vendors to be prepared to build and deliver items in sufficient time to meet our production schedules. The need for such arrangements with suppliers and vendors arises from the extended production planning horizon for many of our products. A significan…"
+   },
+   {
+    "chunk_id": "ch_945d25da45d97670",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 64,
+    "text": "Table of Contents Used aircraft purchased by the Commercial Airplanes segment and general stock materials are stated at cost not in excess of net realizable value. See ‘Aircraft Valuation' within this Note for a discussion of our valuation of used aircraft. Spare parts inventory is stated at lower of average unit cost or net realizable value. We review our commercial spare parts and general stock materials quarterly to identify impaired inventory, including excess or obsolete inventory, based on historical sales trends, expected production usage, and the size and age of the aircraft fleet using the part. Impaired inventories are charged to Cost of products in the period the impairment occurs. Included in inventory for commercial aircraft programs are amounts paid or credited in cash, or other consideration to certain airline customers, that are referred to as early issue sales consideration. Early issue sales consideration is recognized as a reduction to revenue when the delivery of th…"
+   }
+  ]
+ }
+}

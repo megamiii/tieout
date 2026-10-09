@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 15,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T6dOXY1olCt6vRV/FpTNIN/yDY+7ScsIps3Tr44wnxQs1iPQIgE8qLspXO9bcwLOdHrVxHi+1y8tFIOkIb+Cw8e/swgAMnBn5H+grSEjMHey4RfsG5MAyYUk="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"xf_4484e442dd832df3\",\"quote\":\"1469502000\"},{\"source_id\":\"xf_b3d318973b4eb661\",\"quote\":\"2213556000\"}],\"answer\":\"For fiscal year 2015, Adobe's operating cash flow ratio was 0.66, calculated as cash from operations of $1,469,502,000 divided by total current liabilities of $2,213,556,000.\",\"needs_review\":false,\"rationale\":\"Operating cash flow ratio = Cash provided by operating activities ($1,469,502,000) / Total current liabilities ($2,213,556,000) = 0.66386... which rounds to 0.66.\",\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_986193",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560731,
+  "id": "GgzJauzFDq-ixN8PocrwmAs",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 238,
+   "prompt_tokens": 7956,
+   "total_tokens": 8194
+  }
+ }
+}

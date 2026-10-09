@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GIS",
+  "query": "net cash provided by operating activities",
+  "concept": null,
+  "fiscal_years": [
+   2020
+  ]
+ },
+ "output": {
+  "ticker": "GIS",
+  "concepts": [
+   {
+    "concept": "NetCashProvidedByUsedInOperatingActivities",
+    "label": "Net Cash Provided by (Used in) Operating Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2019-05-27..2020-05-31",
+      "value": "3676200000",
+      "fact_id": "xf_ab7a5161bdd81508",
+      "reported_in_10k_filed": "2020-07-02"
+     }
+    ]
+   },
+   {
+    "concept": "NetCashProvidedByUsedInFinancingActivities",
+    "label": "Net Cash Provided by (Used in) Financing Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2019-05-27..2020-05-31",
+      "value": "-1941500000",
+      "fact_id": "xf_f4f063bac150c230",
+      "reported_in_10k_filed": "2020-07-02"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "PEP",
+  "query": "operating income",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "PEP",
+  "concepts": [
+   {
+    "concept": "OperatingIncomeLoss",
+    "label": "Operating Income (Loss)",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-26..2022-12-31",
+      "value": "11512000000",
+      "fact_id": "xf_87999063cfca5dc0",
+      "reported_in_10k_filed": "2023-02-09"
+     }
+    ]
+   },
+   {
+    "concept": "OperatingLeasePayments",
+    "label": "Operating Lease, Payments",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-26..2022-12-31",
+      "value": "573000000",
+      "fact_id": "xf_216c6985a8de3fbb",
+      "reported_in_10k_filed": "2023-02-09"
+     }
+    ]
+   },
+   {
+    "concept": "OperatingLeaseCost",
+    "label": "Operating Lease, Cost",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-26..2022-12-31",
+      "value": "585000000",
+      "fact_id": "xf_cd6b137ef1b7f158",
+      "reported_in_10k_filed": "2023-02-09"
+     }
+    ]
+   }
+  ]
+ }
+}

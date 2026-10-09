@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TnPHp8nBZfGEZB8vCB03pUFNKLWfEjpkuq7q8qaV24td0zcmQN3P04GmYoWdskhsEMY/gsVJ7ceXx9YTy/msCYmgySeRgUpmJKfx3RDgLjYHyuqzEPG6LmOY="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"fiscal_year\":2021,\"query\":\"Capital spending property, plant and equipment additions\",\"ticker\":\"PEP\"}",
+        "name": "search_filings"
+       },
+       "id": "call_161094",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560786,
+  "id": "UgzJat2VE5-VnsEP1ZzCuQY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 3896,
+   "total_tokens": 3941
+  }
+ }
+}

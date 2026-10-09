@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tok2yJeJZruhnENn06j3MGoH7274yXeZGvTMuWOS4ZsQAyBHcMMChp7nFkHeEc58mL9NwA0en30FHj8UBZDFJQ/9Wqw2QjBqm1M7LZbEblGAeRnNm+TT9AjA="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"ticker\":\"CVS\",\"query\":\"Note 12 Shareholders' Equity common stock dividends per share quarterly\"}",
+        "name": "search_filings"
+       },
+       "id": "call_266143",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560059,
+  "id": "ewnJao73CeKvxN8P9oHwgA4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 9201,
+   "prompt_tokens_details": {
+    "cached_tokens": 6080
+   },
+   "total_tokens": 9246
+  }
+ }
+}

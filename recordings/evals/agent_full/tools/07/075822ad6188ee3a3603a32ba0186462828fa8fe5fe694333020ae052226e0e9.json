@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Cash Flows Cash flows from operating activities Purchases of property, plant and equipment",
+  "ticker": "GIS",
+  "fiscal_year": 2020,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_0022ce47fb71fa86",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 52,
+    "text": "52 Consolidated Statements of Cash Flows GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions) Fiscal Year 2020 2019 2018 Cash Flows - Operating Activities Net earnings, including earnings attributable to redeemable and noncontrolling interests $ 2,210.8 $ 1,786.2 $ 2,163.0 Adjustments to reconcile net earnings to net cash provided by operating activities: Depreciation and amortization 594.7 620.1 618.8 After-tax earnings from joint ventures (91.1) (72.0) (84.7) Distributions of earnings from joint ventures 76.5 86.7 113.2 Stock-based compensation 94.9 84.9 77.0 Deferred income taxes (29.6) 93.5 (504.3) Pension and other postretirement benefit plan contributions (31.1) (28.8) (31.8) Pension and other postretirement benefit plan costs (32.3) 6.1 4.6 Divestitures loss - 30.0 - Restructuring, impairment, and other exit costs 43.6 235.7 126.0 Changes in current assets and liabilities, excluding the effects of acquisitions and divestitures 793.9 (7.5) 542.1 Other, net 45.9 (27.9) (182.9) Net c…"
+   },
+   {
+    "chunk_id": "ch_2b951fd2b7c440bd",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 52,
+    "text": "(8,035.8) Investments in affiliates, net (48.0) 0.1 (17.3) Proceeds from disposal of land, buildings, and equipment 1.7 14.3 1.4 Proceeds from divestitures - 26.4 - Other, net 20.9 (59.7) (11.0) Net cash used by investing activities (486.2) (556.5) (8,685.4) Cash Flows - Financing Activities Change in notes payable (1,158.6) (66.3) 327.5 Issuance of long-term debt 1,638.1 339.1 6,550.0 Payment of long-term debt (1,396.7) (1,493.8) (600.1) Proceeds from common stock issued on exercised options 263.4 241.4 99.3 Proceeds from common stock issued - - 969.9 Purchases of common stock for treasury (3.4) (1.1) (601.6) Dividends paid (1,195.8) (1,181.7) (1,139.7) Investments in redeemable interest - 55.7 - Distributions to noncontrolling and redeemable interest holders (72.5) (38.5) (51.8) Other, net (16.0) (31.2) (108.0) Net cash (used) provided by financing activities (1,941.5) (2,176.4) 5,445.5 Effect of exchange rate changes on cash and cash equivalents (20.7) (23.1) 31.8 Increase (decrease…"
+   },
+   {
+    "chunk_id": "ch_83049b65019ce25a",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 95,
+    "text": "Focus 6 platforms. The Focus 6 platforms for the Convenience Stores & Foodservice segment consist of cereal, yogurt, snacks, frozen meals, frozen biscuits, and frozen baked goods. Free cash flow. Net cash provided by operating activities less purchases of land, buildings, and equipment. Free cash flow conversion rate. Free cash flow divided by our net earnings, including earnings attributable to redeemable and noncontrolling interests adjusted for certain items affecting year-to-year comparability. GDP. Gross domestic product."
+   },
+   {
+    "chunk_id": "ch_79ed3e514b7cab5c",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 96,
+    "text": "Net mark-to-market valuation of certain commodity positions. Realized and unrealized gains and losses on derivative contracts that will be allocated to segment operating profit when the exposure we are hedging affects earnings. Net price realization. The impact of list and promoted price changes, net of trade and other price promotion costs. Net realizable value. The estimated selling price in the ordinary course of business, less reasonably predictable costs of completion, disposal, and transportation. Noncontrolling interests. Interests of consolidated subsidiaries held by third parties. Notional principal amount. The principal amount on which fixed-rate or floating-rate interest payments are calculated. OCI. Other comprehensive income (loss). Operating cash flow conversion rate. Net cash provided by operating activities, divided by net earnings, including earnings attributable to redeemable and noncontrolling interests. Operating cash flow to net debt ratio. Net debt divided by cash…"
+   },
+   {
+    "chunk_id": "ch_6de5a5d95387be4a",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 63,
+    "text": "63 Supplemental operating cash flow information and non-cash activity related to our operating leases are as follows: Fiscal Year In Millions 2020 Cash paid for amounts included in the measurement of lease liabilities $ 131.0 Right of use assets obtained in exchange for new lease liabilities $ 46.3 NOTE 8. FINANCIAL INSTRUMENTS, RISK MANAGEMENT ACTIVITIES, AND FAIR VALUES FINANCIAL INSTRUMENTS The carrying values of cash and cash equivalents, receivables, accounts payable, other current liabilities, and notes payable approximate fair value. Marketable securities are carried at fair value. As of May 31, 2020, and May 26, 2019, a comparison of cost and market values of our marketable debt and equity securities is as follows: Cost Fair Value Gross Gains Gross Losses Fiscal Year Fiscal Year Fiscal Year Fiscal Year In Millions 2020 2019 2020 2019 2020 2019 2020 2019 Available for sale debt securities $ 56.7 $ 34.3 $ 56.7 $ 34.3 $ - $ - $ - $ - Equity securities 0.3 0.6 4.9 18.5 4.6 17.9 - -…"
+   }
+  ]
+ }
+}

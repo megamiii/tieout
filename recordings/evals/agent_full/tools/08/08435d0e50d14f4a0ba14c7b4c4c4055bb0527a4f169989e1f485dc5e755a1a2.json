@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Purchases of land, buildings and equipment",
+  "ticker": "GIS",
+  "fiscal_year": 2020,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_2b951fd2b7c440bd",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 52,
+    "text": "(8,035.8) Investments in affiliates, net (48.0) 0.1 (17.3) Proceeds from disposal of land, buildings, and equipment 1.7 14.3 1.4 Proceeds from divestitures - 26.4 - Other, net 20.9 (59.7) (11.0) Net cash used by investing activities (486.2) (556.5) (8,685.4) Cash Flows - Financing Activities Change in notes payable (1,158.6) (66.3) 327.5 Issuance of long-term debt 1,638.1 339.1 6,550.0 Payment of long-term debt (1,396.7) (1,493.8) (600.1) Proceeds from common stock issued on exercised options 263.4 241.4 99.3 Proceeds from common stock issued - - 969.9 Purchases of common stock for treasury (3.4) (1.1) (601.6) Dividends paid (1,195.8) (1,181.7) (1,139.7) Investments in redeemable interest - 55.7 - Distributions to noncontrolling and redeemable interest holders (72.5) (38.5) (51.8) Other, net (16.0) (31.2) (108.0) Net cash (used) provided by financing activities (1,941.5) (2,176.4) 5,445.5 Effect of exchange rate changes on cash and cash equivalents (20.7) (23.1) 31.8 Increase (decrease…"
+   },
+   {
+    "chunk_id": "ch_1324e92e163dc2db",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 92,
+    "text": "92 In Millions May 31, 2020 May 26, 2019 Land, buildings, and equipment: Equipment $ 6,428.0 $ 6,548.3 Buildings 2,412.6 2,477.2 Capitalized software 668.5 631.6 Construction in progress 373.5 343.8 Land 66.1 73.6 Equipment under finance lease 5.8 5.7 Buildings under finance lease 0.3 0.3 Total land, buildings, and equipment 9,954.8 10,080.5 Less accumulated depreciation (6,374.2) (6,293.3) Total $ 3,580.6 $ 3,787.2 In Millions May 31, 2020 May 26, 2019 Other assets: Investments in and advances to joint ventures $ 566.7 $ 452.9 Right of use operating lease assets 365.2 - Pension assets 21.2 323.5 Life insurance 19.5 22.7 Miscellaneous 113.2 175.8 Total $ 1,085.8 $ 974.9 In Millions May 31, 2020 May 26, 2019 Other current liabilities: Accrued trade and consumer promotions $ 550.4 $ 484.4 Accrued payroll 430.4 345.5 Current portion of operating lease liabilities 102.0 - Accrued interest, including interest rate swaps 92.8 92.6 Accrued taxes 80.3 37.5 Derivative payable, primarily commodi…"
+   },
+   {
+    "chunk_id": "ch_7e1cc987d6f82112",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Grain inventories are valued at net realizable value, and all related cash contracts and derivatives are valued at fair value, with all net changes in value recorded in earnings currently. Inventories outside of the United States are generally valued at the lower of cost, using the first-in, first-out (FIFO) method, or net realizable value. Shipping costs associated with the distribution of finished product to our customers are recorded as cost of sales, and are recognized when the related finished product is shipped to and accepted by the customer. Land, Buildings, Equipment, and Depreciation Land is recorded at historical cost. Buildings and equipment, including capitalized interest and internal engineering costs, are recorded at cost and depreciated over estimated useful lives, primarily using the straight-line method. Ordinary maintenance and repairs are charged to cost of sales. Buildings are usually depreciated over 40 years, and equipment, furniture, and software are usually dep…"
+   },
+   {
+    "chunk_id": "ch_50d2dd2067e3eb5a",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 91,
+    "text": "91 The following tables provide financial information by geographic area: Fiscal Year In Millions 2020 2019 2018 Net sales: United States $ 13,364.5 $ 12,462.8 $ 11,115.6 Non-United States 4,262.1 4,402.4 4,624.8 Total $ 17,626.6 $ 16,865.2 $ 15,740.4 In Millions May 31, 2020 May 26, 2019 Cash and cash equivalents: United States $ 1,112.0 $ 51.0 Non-United States 565.8 399.0 Total $ 1,677.8 $ 450.0 In Millions May 31, 2020 May 26, 2019 Land, buildings, and equipment: United States $ 2,761.6 $ 2,872.8 Non-United States 819.0 914.4 Total $ 3,580.6 $ 3,787.2 NOTE 18. SUPPLEMENTAL INFORMATION The components of certain Consolidated Balance Sheet accounts are as follows: In Millions May 31, 2020 May 26, 2019 Receivables: Customers $ 1,648.3 $ 1,708.5 Less allowance for doubtful accounts (33.2) (28.8) Total $ 1,615.1 $ 1,679.7 In Millions May 31, 2020 May 26, 2019 Inventories: Finished goods $ 1,142.6 $ 1,245.9 Raw materials and packaging 392.2 434.9 Grain 93.6 92.0 Excess of FIFO over LIFO c…"
+   },
+   {
+    "chunk_id": "ch_83049b65019ce25a",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 95,
+    "text": "Focus 6 platforms. The Focus 6 platforms for the Convenience Stores & Foodservice segment consist of cereal, yogurt, snacks, frozen meals, frozen biscuits, and frozen baked goods. Free cash flow. Net cash provided by operating activities less purchases of land, buildings, and equipment. Free cash flow conversion rate. Free cash flow divided by our net earnings, including earnings attributable to redeemable and noncontrolling interests adjusted for certain items affecting year-to-year comparability. GDP. Gross domestic product."
+   }
+  ]
+ }
+}

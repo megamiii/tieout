@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TeG3D4qSVsDWN/B+Ez7olDMmc2f0nyDMEfJYjsJR1bpKE+yYpcpzbxihWVkEwG4bg8qf9WTnZXutyq1qX0TMWlU28f6Jq/GMz7MhmFca8z25RtQud5Zy+L6s="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"confidence\":1,\"citations\":[{\"source_id\":\"ch_0efbb9dcb15d473f\",\"quote\":\"Effective tax rate 22.9% 20.2% 17.5%\"}],\"answer\":\"Between FY2021 and FY2022, Corning's effective tax rate increased by 2.7 percentage points, from 20.2% in FY2021 to 22.9% in FY2022.\",\"rationale\":\"The effective tax rate for Corning was 20.2% in FY2021 and 22.9% in FY2022 as reported in Note 7 (Income Taxes) of the 2022 Form 10-K. The difference is 2.7 percentage points (22.9 - 20.2 = 2.7).\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_175788",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560187,
+  "id": "-gnJapzVEoqDxN8Pi_uDgQc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 219,
+   "prompt_tokens": 4377,
+   "prompt_tokens_details": {
+    "cached_tokens": 2300
+   },
+   "total_tokens": 4596
+  }
+ }
+}

@@ -1,0 +1,34 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "Based on PepsiCo’s Consolidated Statement of Income for FY2022, restructuring costs are **not explicitly outlined** (there is no separate line item for restructuring costs or charges on the income statement). Therefore, the quantity is **0**.\n\nAs noted in the financial facts and disclosures, restructuring charges are addressed within footnotes and MD&A rather than as a distinct line item on the income statement.",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TZXvlOJ7rwmnUNJnJSw/59YK+I88+MJYhILu8NxN+e55RkNJhwQwSExHZvpgz+z07gxe7GVb4GpI7A83n+3fKQ61gxdv6jRVo7kAuRzR1XVaQedt3Kvl9W8Y="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791560176,
+  "id": "7wnJatvPFtixvdIP-6WJ0QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 82,
+   "prompt_tokens": 7144,
+   "prompt_tokens_details": {
+    "cached_tokens": 4041
+   },
+   "total_tokens": 7226
+  }
+ }
+}

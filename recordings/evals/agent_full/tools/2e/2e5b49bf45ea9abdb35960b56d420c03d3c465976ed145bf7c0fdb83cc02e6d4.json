@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "industry business operate",
+  "ticker": "AMCR",
+  "fiscal_year": 2023,
+  "section": "1",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_2756ef1525b60afd",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 1",
+    "page": 7,
+    "text": "customers. Our technically trained sales force is supported by product development engineers, design technicians, field service technicians, and customer service teams. We did not have sales to a single customer that exceeded 10% of consolidated net sales in the last three fiscal years. The major markets in which we sell our products historically have been, and continue to be, highly competitive. Areas of competition include service, sustainability, innovation, quality, and price. Competitors include AptarGroup, Inc., Ball Corporation, Berry Global Group, Inc, CCL Industries Inc., Crown Holdings, Inc., Graphic Packaging Holding Company, Huhtamaki Oyj, International Paper Company, Mayr-Melnhof Karton AG, O-I Glass, Inc., Sealed Air Corporation, Silgan Holdings Inc., Sonoco Products Company, and WestRock Company, and a variety of privately held companies. We consider ourselves to be a significant participant in the markets in which we operate; however, due to the diversity of our busines…"
+   },
+   {
+    "chunk_id": "ch_a2c9030346a5c2ec",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 1",
+    "page": 7,
+    "text": "purchased from a variety of global industry sources, and we are not significantly dependent on any one supplier for our raw materials. While we have experienced industry-wide shortages of certain raw materials in the past, we have been able to manage supply disruptions by working closely with our suppliers and customers. Supply shortages, along with other factors, can lead and have in the past led to increased raw material price volatility. Increases in the price of raw materials are generally able to be passed on to customers through contractual price mechanisms over time and other means. We manage the risks associated with our supply chain and have generally been able to maintain adequate raw materials through relationship management, inventory management and evaluation of alternative sources when practical. For more information, see \"Item 1A. 7"
+   },
+   {
+    "chunk_id": "ch_737c515e24d58e7c",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 1",
+    "page": 5,
+    "text": "Differentiated Solutions Our product portfolio is diverse and dynamic due to our constant innovation and close partnerships with our customers. Behind every one of our products stands a unique combination of technical know-how, business experience, and expertise. We work closely with our customers to identify feasible, high-performance, responsible packaging solutions based on their unique needs. Where solutions do not currently exist, we work to innovate new ones. We invest approximately $100 million every year in our industry-leading research and development capabilities, bringing together the best in packaging design, science, manufacturing, and people. Expertise across Packaging Materials We believe that we are uniquely positioned to offer a variety of packaging solutions with a wide, differentiated portfolio of products. Our packaging expertise covers all main packaging materials including paper, metal, plastic, recycled, and bio-based materials and the sustainable use of recyclab…"
+   },
+   {
+    "chunk_id": "ch_a379849b386d1414",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 1",
+    "page": 9,
+    "text": "We believe that our environmental footprint goes well beyond the products we create. We also strive to continuously reduce the environmental impacts of our operations. For more than a decade, our EnviroAction program has helped us significantly improve how we manage energy, water, and waste in every one of our manufacturing locations. In January 2022, we further increased our efforts by committing to set science-based targets to reduce greenhouse gas emissions and achieve net zero emissions by 2050. These new commitments have been recognized by the Science Based Targets initiative (SBTi) and build on years of progress under our EnviroAction program. In June 2023, we took the next step forward in our science-based targets journey by submitting our proposed targets to the SBTi for review. With our global scale, deep industry experience, and strong capabilities, we believe that we are uniquely positioned to lead the way in the design and development of more sustainable packaging, and this…"
+   },
+   {
+    "chunk_id": "ch_7e7d94f646562cab",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 1",
+    "page": 5,
+    "text": "Item 1. - Business The Company Amcor plc (ARBN 630 385 278) is a public limited company incorporated under the Laws of the Bailiwick of Jersey. Our history dates back more than 150 years, with origins in both Australia and the USA. Today, we are a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other products. Our innovation excellence and global packaging expertise enables us to solve packaging challenges around the world every day, producing packaging that is more functional, appealing, and cost effective for our customers and their consumers and importantly, more sustainable for the environment. Sustainability Sustainability is central to our business and one of our most exciting opportunities for growth. Working daily to embed sustainability deeper into everything we do, Amcor has been a leader in the industry in promoting sustainability. We aspire to improve the quality of lives, protect ecosy…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "shareholder derivative litigation securities litigation",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_9b25f691c9bcfc66",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 173,
+    "text": "however, do sometimes occur, which could result in judgments against the Company, entry into settlements or a revision to its expectations regarding the outcome of certain matters, and such developments could have a material adverse effect on its results of operations. In addition, as a result of governmental investigations or proceedings, the Company may be subject to damages, civil or criminal fines or penalties, or other sanctions including possible suspension or loss of licensure and/or exclusion from participating in government programs. The outcome of such governmental investigations of proceedings could be material to the Company. Usual and Customary Pricing Litigation The Company and certain current and former directors and officers are named as a defendant in a number of lawsuits that allege that the Company's retail pharmacies overcharged for prescription drugs by not submitting the correct usual and customary price during the claims adjudication process. These actions are br…"
+   },
+   {
+    "chunk_id": "ch_e0fd274968bf3663",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 177,
+    "text": "on allegations that the defendants made certain omissions and misrepresentations relating to the performance of the Company's LTC business unit. The Company and its current and former officers and directors are defending themselves against these claims. Since filing, several of the cases have been consolidated, and the first-filed federal case, City of Miami Fire Fighters' and Police Officers' Retirement Trust, et al. (formerly known as Anarkat), was dismissed with prejudice in February 2021. Plaintiffs appealed that decision to the First Circuit after their motion for reconsideration was denied, and in August 2022 the First Circuit affirmed the dismissal. In re CVS Health Corp. Securities Act Litigation (formerly known as Waterford) and In re CVS Health Corp. Securities Litigation (formerly known as City of Warren and Freundlich) have been stayed pending the outcome of the First Circuit appeal. Plaintiffs in both cases have since filed amended complaints, which the Company has moved t…"
+   },
+   {
+    "chunk_id": "ch_2f325d3863c52805",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 117,
+    "text": "as a component of net investment income in the consolidated statements of operations. Realized capital gains and losses are determined on a specific identification basis. Purchases and sales of debt and equity securities and alternative investments are reflected on the trade date. Purchases and sales of mortgage loans and investment real estate are reflected on the closing date. Realized capital gains and losses on investments supporting large case pensions' experience-rated products are not included in realized capital gains and losses in the consolidated statements of operations and instead are credited directly to contract holders' accounts. The contract holders' accounts are reflected in policyholders' funds on the consolidated balance sheets. Unrealized capital gains and losses on investments (other than unrealized capital gains and losses on investments supporting experience-rated products) are reflected in shareholders' equity, net of tax, as a component of accumulated other com…"
+   },
+   {
+    "chunk_id": "ch_8e118a8071fb8484",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 178,
+    "text": "these other legal proceedings are or are purported to be class actions or derivative claims. The Company is defending itself against the claims brought in these matters. Awards to the Company and others of certain government contracts, particularly Medicaid contracts and other contracts with government customers in the Company's Health Care Benefits segment, frequently are subject to protests by unsuccessful bidders. These protests may result in awards to the Company being reversed, delayed, or modified. The loss or delay in implementation of any government contract could adversely affect the Company's operating results. The Company will continue to defend contract awards it receives. There also continues to be a heightened level of review and/or audit by regulatory authorities and legislators of, and increased litigation regarding, the Company's and the rest of the health care and related benefits industry's business and reporting practices, including premium rate increases, utilizati…"
+   },
+   {
+    "chunk_id": "ch_1553ad8d94e8ca1d",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 172,
+    "text": "by any significant adverse impact of the COVID-19 pandemic on the solvency of other insurers, including long-term care and life insurers. While historically the Company has ultimately recovered more than half of guaranty fund assessments through statutorily permitted premium tax offsets, significant increases in assessments could lead to legislative and/or regulatory actions that limit future offsets. HMOs in certain states in which the Company does business are subject to assessments, including market stabilization and other risk-sharing pools, for which the Company is assessed charges based on incurred claims, demographic membership mix and other factors. The Company establishes liabilities for these assessments based on applicable laws and regulations. In certain states, the ultimate assessments the Company pays are dependent upon the Company's experience relative to other entities subject to the assessment, and the ultimate liability is not known at the financial statement date. Wh…"
+   }
+  ]
+ }
+}

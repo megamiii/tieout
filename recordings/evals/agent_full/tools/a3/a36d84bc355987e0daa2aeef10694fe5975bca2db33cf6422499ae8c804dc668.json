@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "NKE",
+  "query": "cash provided by operating activities",
+  "concept": null,
+  "fiscal_years": [
+   2023
+  ]
+ },
+ "output": {
+  "ticker": "NKE",
+  "concepts": [
+   {
+    "concept": "NetCashProvidedByUsedInOperatingActivities",
+    "label": "Net Cash Provided by (Used in) Operating Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-06-01..2023-05-31",
+      "value": "5841000000",
+      "fact_id": "xf_9193bb0cc596258a",
+      "reported_in_10k_filed": "2023-07-20"
+     }
+    ]
+   },
+   {
+    "concept": "NetCashProvidedByUsedInFinancingActivities",
+    "label": "Net Cash Provided by (Used in) Financing Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-06-01..2023-05-31",
+      "value": "-7447000000",
+      "fact_id": "xf_34d79c5a570a5751",
+      "reported_in_10k_filed": "2023-07-20"
+     }
+    ]
+   },
+   {
+    "concept": "InterestPaidNet",
+    "label": "Interest Paid, Excluding Capitalized Interest, Operating Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-06-01..2023-05-31",
+      "value": "347000000",
+      "fact_id": "xf_0e7cb8c97d0dd860",
+      "reported_in_10k_filed": "2023-07-20"
+     }
+    ]
+   }
+  ]
+ }
+}

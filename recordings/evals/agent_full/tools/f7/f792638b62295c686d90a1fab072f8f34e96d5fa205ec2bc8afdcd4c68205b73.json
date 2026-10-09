@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GLW",
+  "query": "operating income",
+  "concept": null,
+  "fiscal_years": [
+   2020
+  ]
+ },
+ "output": {
+  "ticker": "GLW",
+  "concepts": [
+   {
+    "concept": "OperatingIncomeLoss",
+    "label": "Operating Income (Loss)",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2020-01-01..2020-12-31",
+      "value": "509000000",
+      "fact_id": "xf_0bf5054eb006c931",
+      "reported_in_10k_filed": "2021-02-12"
+     }
+    ]
+   },
+   {
+    "concept": "OperatingLeasePayments",
+    "label": "Operating Lease, Payments",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2020-01-01..2020-12-31",
+      "value": "121000000",
+      "fact_id": "xf_e3b037b564fddb8e",
+      "reported_in_10k_filed": "2021-02-12"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,44 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "CVS",
+  "query": "net cash provided by operating activities",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "CVS",
+  "concepts": [
+   {
+    "concept": "NetCashProvidedByUsedInOperatingActivities",
+    "label": "Net Cash Provided by (Used in) Operating Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "16177000000",
+      "fact_id": "xf_1b74685e2e5fb001",
+      "reported_in_10k_filed": "2023-02-08"
+     }
+    ]
+   },
+   {
+    "concept": "NetCashProvidedByUsedInInvestingActivities",
+    "label": "Net Cash Provided by (Used in) Investing Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "-5047000000",
+      "fact_id": "xf_98e0df1b003c6b45",
+      "reported_in_10k_filed": "2023-02-08"
+     }
+    ]
+   }
+  ]
+ }
+}

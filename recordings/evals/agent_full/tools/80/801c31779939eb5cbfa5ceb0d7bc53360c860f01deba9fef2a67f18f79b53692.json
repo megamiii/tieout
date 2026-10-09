@@ -1,0 +1,30 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "BA",
+  "query": "operating income",
+  "concept": null,
+  "fiscal_years": [
+   2018
+  ]
+ },
+ "output": {
+  "ticker": "BA",
+  "concepts": [
+   {
+    "concept": "OperatingIncomeLoss",
+    "label": "Operating Income (Loss)",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "2018-01-01..2018-12-31",
+      "value": "11987000000",
+      "fact_id": "xf_ba30ab5b703b1475",
+      "reported_in_10k_filed": "2019-02-08"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "divisions operate in",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7675130d841f32c8",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 69,
+    "text": "Table of Contents Our Divisions We are organized into seven reportable segments (also referred to as divisions), as follows: 1) Frito-Lay North America (FLNA), which includes our branded convenient food businesses in the United States and Canada; 2) Quaker Foods North America (QFNA), which includes our branded convenient food businesses, such as cereal, rice, pasta and other branded food, in the United States and Canada; 3) PepsiCo Beverages North America (PBNA), which includes our beverage businesses in the United States and Canada; 4) Latin America (LatAm), which includes all of our beverage and convenient food businesses in Latin America; 5) Europe, which includes all of our beverage and convenient food businesses in Europe; 6) Africa, Middle East and South Asia (AMESA), which includes all of our beverage and convenient food businesses in Africa, the Middle East and South Asia; and 7) Asia Pacific, Australia, and New Zealand and China region (APAC), which includes all of our beverag…"
+   },
+   {
+    "chunk_id": "ch_f32c82225c44b722",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 69,
+    "text": "Our divisions are held accountable for share-based compensation expense and, therefore, this expense is allocated to our divisions as an incremental employee compensation cost. The allocation of share-based compensation expense of each division is as follows: 2022 2021 2020 FLNA 13 % 13 % 13 % QFNA 1 % 1 % 1 % PBNA 20 % 19 % 18 % LatAm 6 % 5 % 6 % Europe 11 % 13 % 16 % AMESA 5 % 6 % 6 % APAC 3 % 2 % 2 % Corporate unallocated expenses 41 % 41 % 38 % The expense allocated to our divisions excludes any impact of changes in our assumptions during the year which reflect market conditions over which division management has no control. Therefore, any variances between allocated expense and our actual expense are recognized in corporate unallocated expenses. 67"
+   },
+   {
+    "chunk_id": "ch_6b048108e629bbfb",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 70,
+    "text": "Table of Contents Pension and Retiree Medical Expense Pension and retiree medical service costs measured at fixed discount rates are reflected in division results. The variance between the fixed discount rate used to determine the service cost reflected in division results and the discount rate as disclosed in Note 7 is reflected in corporate unallocated expenses. Derivatives We centrally manage commodity derivatives on behalf of our divisions. These commodity derivatives include agricultural products, energy and metals. Commodity derivatives that do not qualify for hedge accounting treatment are marked to market each period with the resulting gains and losses recorded in corporate unallocated expenses as either cost of sales or selling, general and administrative expenses, depending on the underlying commodity. These gains and losses are subsequently reflected in division results when the divisions recognize the cost of the underlying commodity in operating profit. Therefore, the divi…"
+   },
+   {
+    "chunk_id": "ch_a5cca5151d5c0248",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 479,
+    "text": "“PAS Business” means each Employer, division of an Employer or other organizational subdivision of an Employer that the Company classifies as part of the PAS business. (c) “PAS Executive” means an individual who is employed by a PAS Business. (d) “PBG Business” means each Employer, division of an Employer or other organizational subdivision of an Employer that the Company classifies as part of the PBG business. (e) “PBG Executive” means an individual who is employed by a PBG Business. (f) “PepsiCo Business” means each Employer, division of an Employer or other organizational subdivision of an Employer that the Company classifies as part of the PepsiCo business. B.3 Participating Employers. PBG Businesses and PAS Businesses are not Employers under the Plan, except with respect to: (a) Individuals who are hired by a PAS Business or PBG Business and who were Executives immediately before such date of hire; and B-1"
+   },
+   {
+    "chunk_id": "ch_3be4e7884db32edc",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 2",
+    "page": 26,
+    "text": "Item 2. Properties. Our principal executive office located in Purchase, New York and our facilities located in Plano, Texas, all of which we own, are our most significant corporate properties. In connection with making, marketing, distributing and selling our products, each division utilizes manufacturing, processing, bottling and production plants, warehouses, distribution centers, storage facilities, offices, including division headquarters, research and development facilities and other facilities, all of which are either owned or leased. Significant properties by division are as follows: Property Type Location Owned/ Leased FLNA Research and development facility Plano, Texas Owned QFNA Convenient food plant Cedar Rapids, Iowa Owned PBNA Research and development facility Valhalla, New York Owned PBNA Concentrate plant Arlington, Texas Owned LatAm Convenient food plant Celaya, Mexico Owned LatAm Two convenient food plants Vallejo, Mexico Owned Europe Convenient food plant Leicester, U…"
+   }
+  ]
+ }
+}

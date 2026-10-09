@@ -1,0 +1,77 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMCR",
+  "query": "accounts receivable",
+  "concept": null,
+  "fiscal_years": [
+   2020
+  ]
+ },
+ "output": {
+  "ticker": "AMCR",
+  "concepts": [
+   {
+    "concept": "AccountsReceivableNetCurrent",
+    "label": "Accounts Receivable, after Allowance for Credit Loss, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "as of 2020-06-30",
+      "value": "1615900000",
+      "fact_id": "xf_a7fd53ba72ca2b07",
+      "reported_in_10k_filed": "2020-08-27",
+      "later_restated_to": [
+       {
+        "value": "1616000000",
+        "fact_id": "xf_b64769dab5869312",
+        "filed": "2021-08-24"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "concept": "IncreaseDecreaseInAccountsReceivable",
+    "label": "Increase (Decrease) in Accounts Receivable",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2019-07-01..2020-06-30",
+      "value": "-133300000",
+      "fact_id": "xf_d4eac4164e408527",
+      "reported_in_10k_filed": "2020-08-27",
+      "later_restated_to": [
+       {
+        "value": "-133000000",
+        "fact_id": "xf_52f7567efec92f77",
+        "filed": "2021-08-24"
+       },
+       {
+        "value": "-133000000",
+        "fact_id": "xf_85af9950a93f5388",
+        "filed": "2022-08-18"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "concept": "AllowanceForDoubtfulAccountsReceivable",
+    "label": "Accounts Receivable, Allowance for Credit Loss",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "as of 2020-06-30",
+      "value": "35000000",
+      "fact_id": "xf_1a8518d75d7345b0",
+      "reported_in_10k_filed": "2021-08-24"
+     }
+    ]
+   }
+  ]
+ }
+}

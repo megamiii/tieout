@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tqmml6xetA/2zSW6GHEoMZlga/Z17fFsQXL+9UFoJFi6e61D6EezH68SGKIP8CHZsIi3IWZI7bQpa00gfraKzjtCRgqmPZytr2fTgpWS5haDI23BZZwOgiAo="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"rationale\":\"The user requested the FY2022 unadjusted EBITDA % margin for PepsiCo, calculated using unadjusted operating income and D&A from the cash flow statement.\\n- Operating Income (Loss) = $11,512 million\\n- Depreciation, Depletion and Amortization = $2,763 million\\n- Revenues = $86,392 million\\nEBITDA = 11,512 + 2,763 = 14,275 million.\\nEBITDA margin = 14,275 / 86,392 = 16.5222...%\",\"needs_review\":false,\"citations\":[{\"source_id\":\"xf_87999063cfca5dc0\",\"quote\":\"11,512\"},{\"quote\":\"2,763\",\"source_id\":\"xf_44b934424c07aaab\"},{\"quote\":\"86,392\",\"source_id\":\"xf_723e7f18d91a4704\"}],\"answer\":\"For FY2022, PepsiCo's unadjusted operating income was $11,512 million, and total depreciation and amortization from the cash flow statement / financial statements was $2,763 million.\\n- Unadjusted EBITDA = $11,512 million + $2,763 million = $14,275 million.\\n- Revenues = $86,392 million.\\n- Unadjusted EBITDA % margin = $14,275 million / $86,392 million = 16.52% (or 16.5%).\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_303448",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560675,
+  "id": "4gvJapysLIKwvdIPh-HYmQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 410,
+   "prompt_tokens": 5224,
+   "total_tokens": 5634
+  }
+ }
+}

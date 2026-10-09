@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "cards in force retention 2022 new cards acquired",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_aa946ea415b4647d",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 50,
+    "text": "Table of Contents TABLE 5: SELECTED CARD-RELATED STATISTICAL INFORMATION Change Change Years Ended December 31, 2022 2021 2020 2022 vs. 2021 2021 vs. 2020 Network volumes (billions) $ 1,552.8 $ 1,284.2 $ 1,037.8 21 % 24 % Billed business $ 1,338.3 $ 1,089.8 $ 870.7 23 25 Processed volumes $ 214.5 $ 194.4 $ 167.1 10 16 Cards-in-force (millions) 133.3 121.7 112.0 10 9 Proprietary cards-in-force 76.7 71.4 68.9 7 4 Basic cards-in-force (millions) 111.5 100.7 91.3 11 10 Proprietary basic cards-in-force 59.1 54.7 52.7 8 4 Average proprietary basic Card Member spending (dollars) $ 23,496 $ 20,392 $ 16,352 15 25 Average discount rate 2.34 % 2.30 % 2.28 % Average fee per card (dollars) $ 82 $ 74 $ 67 11 % 10 % (a) Average fee per card is computed on an annualized basis based on proprietary Net card fees divided by average proprietary total cards-in-force. TABLE 6: NETWORK VOLUMES-RELATED STATISTICAL INFORMATION 2022 2021 Year over Year Percentage Increase (Decrease) Percentage Increase (Decreas…"
+   },
+   {
+    "chunk_id": "ch_6af1e8c537576e6d",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 5,
+    "text": "Over the last several years, we have focused on broadening the appeal of our products to attract new customers, particularly Millennial and Gen Z customers, as well as expanding our position with small and mid-sized enterprise (SME) customers by providing more ways to help them manage and grow their businesses. We have also introduced new adjacent products that complement our existing products, such as our business checking and consumer rewards checking account products and new digital capabilities, which in part result from our acquisitions of Kabbage, Resy and acompay. Additionally, we have evolved our card issuing businesses by bringing together our consumer, SME and large commercial issuing activities outside of the United States into a new ICS organization to enable a greater focus on local priorities. Jurisdictions that represent a significant portion of our billed business outside of the United States include the United Kingdom (UK), the European Union (EU), Australia, Japan, Ca…"
+   },
+   {
+    "chunk_id": "ch_4c72a547072338f9",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 56,
+    "text": "Table of Contents TABLE 10: USCS SELECTED STATISTICAL INFORMATION As of or for the Years Ended December 31, Change Change (Millions, except percentages and where indicated) 2022 2021 2020 2022 vs. 2021 2021 vs. 2020 Billed business (billions) $ 553.0 $ 444.2 $ 337.6 24 % 32 % Proprietary cards-in-force 41.7 39.0 37.7 7 3 Proprietary basic cards-in-force 29.2 27.3 26.6 7 3 Average proprietary basic Card Member spending (dollars) $ 19,514 $ 16,498 $ 12,641 18 31 Total segment assets (billions) $ 94.4 $ 76.5 $ 65.0 23 18 Card Member loans: Total loans (billions) $ 72.7 $ 59.8 $ 51.4 22 16 Average loans (billions) $ 63.7 $ 52.0 $ 53.0 23 (2) Net write-off rate — principal, interest and fees 1.1 % 1.1 % 2.9 % Net write-off rate — principal only 0.9 % 0.8 % 2.4 % 30+ days past due as a % of total 1.0 % 0.7 % 1.0 % Calculation of Net Interest Yield on Average Card Member Loans: Net interest income $ 7,474 $ 5,933 $ 6,222 Exclude: Interest expense not attributable to our Card Member loan portf…"
+   },
+   {
+    "chunk_id": "ch_fbc48a6f1db5265b",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 62,
+    "text": "Table of Contents TABLE 14: ICS SELECTED STATISTICAL INFORMATION As of or for the Years Ended December 31, Change Change (Millions, except percentages and where indicated) 2022 2021 2020 2022 vs. 2021 2021 vs. 2020 Billed business (billions) $ 281.6 $ 228.2 $ 187.5 23 % 22 % Proprietary cards-in-force 20.1 19.0 18.7 6 2 Proprietary basic cards-in-force 14.9 13.9 13.6 7 2 Average proprietary basic Card Member spending (dollars) $ 19,519 $ 16,689 $ 13,429 17 24 Total segment assets (billions) $ 36.9 $ 32.6 $ 28.2 13 16 Card Member loans - consumer and small business: Total loans (billions) $ 13.8 $ 11.6 $ 9.2 19 26 Average loans (billions) $ 12.3 $ 9.6 $ 9.0 28 7 Net write-off rate — principal, interest and fees 1.4 % 2.1 % 3.7 % Net write-off rate — principal only 1.2 % 1.6 % 3.0 % 30+ days past due as a % of total 1.2 % 0.8 % 1.7 % Calculation of Net Interest Yield on Average Card Member Loans: Net interest income $ 799 $ 674 $ 865 Exclude: Interest expense not attributable to our Card…"
+   },
+   {
+    "chunk_id": "ch_34aa51b51849e844",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 49,
+    "text": "Table of Contents TABLE 4: EXPENSES SUMMARY Years Ended December 31, Change Change (Millions, except percentages) 2022 2021 2020 2022 vs. 2021 2021 vs. 2020 Card Member rewards $ 14,002 $ 11,007 $ 8,041 $ 2,995 27 % $ 2,966 37 % Business development 4,943 3,762 3,051 1,181 31 711 23 Card Member services 2,959 1,993 1,230 966 48 763 62 Marketing 5,458 5,291 3,696 167 3 1,595 43 Salaries and employee benefits 7,252 6,240 5,718 1,012 16 522 9 Other, net 6,481 4,817 5,325 1,664 35 (508) (10) Total expenses $ 41,095 $ 33,110 $ 27,061 $ 7,985 24 % $ 6,049 22 % EXPENSES Card Member rewards expense increased, primarily driven by increases in Membership Rewards and cash back rewards expenses, collectively, of $2.0 billion, and cobrand rewards expense of $1.0 billion, both of which were primarily driven by higher billed business. The increase in Membership Rewards expense was also driven by a larger proportion of spend in categories that earn incremental rewards such as travel and a higher mix o…"
+   }
+  ]
+ }
+}

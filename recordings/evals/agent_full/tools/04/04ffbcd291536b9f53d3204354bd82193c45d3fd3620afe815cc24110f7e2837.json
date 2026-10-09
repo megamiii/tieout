@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GIS",
+  "query": "net income",
+  "concept": null,
+  "fiscal_years": [
+   2019
+  ]
+ },
+ "output": {
+  "ticker": "GIS",
+  "concepts": [
+   {
+    "concept": "NetIncomeLoss",
+    "label": "Net Income (Loss) Attributable to Parent",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "2018-05-28..2019-05-26",
+      "value": "1752700000",
+      "fact_id": "xf_f59a71e79a944267",
+      "reported_in_10k_filed": "2019-06-28"
+     }
+    ]
+   },
+   {
+    "concept": "ProfitLoss",
+    "label": "Net Income (Loss), Including Portion Attributable to Noncontrolling Interest",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "2018-05-28..2019-05-26",
+      "value": "1786200000",
+      "fact_id": "xf_a315347d35de043f",
+      "reported_in_10k_filed": "2019-06-28"
+     }
+    ]
+   },
+   {
+    "concept": "IncomeTaxesPaidNet",
+    "label": "Income Taxes Paid, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "2018-05-28..2019-05-26",
+      "value": "440800000",
+      "fact_id": "xf_180103dc763e3128",
+      "reported_in_10k_filed": "2019-06-28"
+     }
+    ]
+   }
+  ]
+ }
+}

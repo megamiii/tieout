@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T4WnDGIJ5gqMmfZrPP/jpDe72SKJxuVDavdJiI2d9y4K3BnpBY8ff0vfT+hRHbpwsgB2DjvWwUmmC/5fyIRFI26CbHlHYVG0J/0EuSGI4MZewPTIRh8EIVUU="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"CVS\",\"fiscal_year\":2022,\"section\":\"8\",\"query\":\"shareholder derivative litigation securities litigation\"}",
+        "name": "search_filings"
+       },
+       "id": "call_83199",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559933,
+  "id": "_AjJat_TOqKExN8P9PeS6AY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 7060,
+   "prompt_tokens_details": {
+    "cached_tokens": 3696
+   },
+   "total_tokens": 7104
+  }
+ }
+}

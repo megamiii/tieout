@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TdRJLtO0FieLnY/rVW50Zi4PihAYp/zmjYG2/DWEn7MPhKSyd1b/y9Y7X7cIxHG6upZPS5kpz2P4YbM7VUDK3W1dY5Ua09npGoZ15GajrTZI5tQpMGewtcdo="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2021,\"query\":\"Net cash used for investing activities\",\"section\":\"8\",\"ticker\":\"PEP\"}",
+        "name": "search_filings"
+       },
+       "id": "call_157332",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560787,
+  "id": "UwzJaqGDCen9nsEP4LmSiAM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 4044,
+   "total_tokens": 4087
+  }
+ }
+}

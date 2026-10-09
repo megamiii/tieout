@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TfFdMD1tJyo18JoB2Fyi9zUc5rtOobNsE6JtNJZebtvcvLabMY20KRQdOVuHg7jHHXYS0oNo5R8pAOb26RxCLm7sadMpIeD+nLGPitALTmVB9NOnLnIEEwNA="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"segment organic growth 2022 M&A acquisition divestiture\",\"ticker\":\"MMM\",\"fiscal_year\":2022,\"section\":\"7\"}",
+        "name": "search_filings"
+       },
+       "id": "call_221104",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560235,
+  "id": "KwrJapyqCeKs28oPnp6miAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 51,
+   "prompt_tokens": 1865,
+   "total_tokens": 1916
+  }
+ }
+}

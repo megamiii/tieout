@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "CONSOLIDATED BALANCE SHEETS Total current liabilities",
+  "ticker": "ADBE",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_590e4d5b77dbbc29",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 6",
+    "page": 34,
+    "text": "Worldwide employees................................................. 13,893 12,499 11,847 11,144 9,925 _________________________________________ (1) Information associated with our financial position is as of the Friday closest to November 30 for the five fiscal periods through 2015. (2) For fiscal 2015, our working capital includes the effects of the adoption of ASU No. 2015-17, Balance Sheet Classification of Deferred Taxes, requiring all deferred tax assets and liabilities and any related valuation allowance to be classified as non- current on our Consolidated Balance Sheets. Prior periods were not retrospectively adjusted."
+   },
+   {
+    "chunk_id": "ch_983043b1a44959b9",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 78,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 78 the intrinsic value of these cash flow hedges in accumulated other comprehensive income in our Consolidated Balance Sheets, until the forecasted transaction occurs. When the forecasted transaction occurs, we reclassify the related gain or loss on the cash flow hedge to revenue. In the event the underlying forecasted transaction does not occur, or it becomes probable that it will not occur, we reclassify the gain or loss on the related cash flow hedge from accumulated other comprehensive income to interest and other income (expense), net in our Consolidated Statements of Income at that time. If we do not elect hedge accounting, or the contract does not qualify for hedge accounting treatment, the changes in fair value from period to period are recorded in interest and other income (expense), net in our Consolidated Statements of Income. In December 2014, prior to issuing new long-term fixed rate debt, we…"
+   },
+   {
+    "chunk_id": "ch_91c0aac009026029",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 78,
+    "text": "For fiscal 2015, there were no net gains or losses recognized in other income relating to hedges of forecasted transactions that did not occur. In fiscal 2014 and 2013 these net gains or losses were insignificant. Balance Sheet Hedging—Hedges of Foreign Currency Assets and Liabilities We also hedge our net recognized foreign currency denominated assets and liabilities with foreign exchange forward contracts to reduce the risk that the value of these assets and liabilities will be adversely affected by changes in exchange rates. These contracts hedge assets and liabilities that are denominated in foreign currencies and are carried at fair value with changes in the fair value recorded to interest and other income (expense), net in our Consolidated Statements of Income. These contracts do not subject us to material balance sheet risk due to exchange rate movements because gains and losses on these derivatives are intended to offset gains and losses on the assets and liabilities being hedg…"
+   },
+   {
+    "chunk_id": "ch_4d7dbc40a2e6025e",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 38,
+    "text": "Classification of Deferred Taxes, requiring all deferred tax assets and liabilities, and any related valuation allowance, to be classified as non-current on the balance sheet. The classification change for all deferred taxes as non-current simplifies entities' processes as it eliminates the need to separately identify the net current and net non-current deferred tax asset or liability in each jurisdiction and allocate valuation allowances. We elected to prospectively adopt the accounting standard in the beginning of our fourth quarter of fiscal 2015. Prior periods in our Consolidated Financial Statements were not retrospectively adjusted. Recent Accounting Pronouncements Not Yet Effective On May 28, 2014, the FASB issued ASU No. 2014-09, Revenue from Contracts with Customers, requiring an entity to recognize the amount of revenue to which it expects to be entitled for the transfer of promised goods or services to customers. The updated standard will replace most existing revenue recogn…"
+   },
+   {
+    "chunk_id": "ch_49b72aa4b117dfb0",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 78,
+    "text": "The fair value of derivative instruments on our Consolidated Balance Sheets as of November 27, 2015 and November 28, 2014 were as follows (in thousands): 2015 2014 Fair Value Asset Derivatives Fair Value Liability Derivatives Fair Value Asset Derivatives Fair Value Liability Derivatives Derivatives designated as hedging instruments: Foreign exchange option contracts (1)(3) ................... $ 16,979 $ — $ 31,275 $ — Interest rate swap (2) ................................................. 19,821 — 14,268 — Derivatives not designated as hedging instruments: Foreign exchange forward contracts (1).................... 2,147 2,154 1,716 663 Total derivatives .......................................................... $ 38,947 $ 2,154 $ 47,259 $ 663 _________________________________________ (1) Included in prepaid expenses and other current assets and accrued expenses for asset derivatives and liability derivatives, respectively, on our Consolidated Balance Sheets. (2) Included in other asse…"
+   }
+  ]
+ }
+}

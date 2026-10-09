@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T1FsriRnMwxmfyoFmbf2IHHDylb1VWu/Adq3n3P+w9ABz6QuF8g8Yeixewegpf56Klw0Gs7vtVdQCIzDKqN1HO1/NGhcAUn+EYQ0VQO7KbVzrmmGQFtVN9go="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"answer\":\"For fiscal year 2017, Adobe’s operating cash flow ratio was **0.83**.\\n\\n**Components (in thousands):**\\n- **Cash provided by operating activities:** $2,912,853\\n- **Total current liabilities:** $3,527,457\\n\\n**Calculation:**\\n$$\\\\text{Operating cash flow ratio} = \\\\frac{\\\\$2,912,853}{\\\\$3,527,457} \\\\approx 0.8258 \\\\approx 0.83$$\",\"citations\":[{\"quote\":\"$ 2,912,853\",\"source_id\":\"xf_1e3ccea4cf44b0cc\"},{\"source_id\":\"xf_a53539637dedc0b2\",\"quote\":\"$ 3,527,457\"}],\"rationale\":\"Retrieved FY2017 net cash provided by operating activities ($2,912,853,000) and total current liabilities ($3,527,457,000) from Adobe's FY2017 Form 10-K, then computed the ratio as 0.8258, which rounds to 0.83.\",\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_211530",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560538,
+  "id": "WQvJaq7vEOmH28oPvLehoA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 317,
+   "prompt_tokens": 6190,
+   "prompt_tokens_details": {
+    "cached_tokens": 2652
+   },
+   "total_tokens": 6507
+  }
+ }
+}

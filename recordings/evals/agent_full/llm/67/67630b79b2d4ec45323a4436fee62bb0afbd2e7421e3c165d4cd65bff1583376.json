@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TBex9NzdZ/5uPJnVLg+XWkQCxoVRhS5RIh3NKeyAi/p/XWnnZmNiB1rk3GItOdHIrhK4nnk3xj4y3sxDKRGfbViqprZt397LeuaMIeZCGn7CT020MfVjC+Do="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AMCR\",\"fiscal_year\":2023,\"query\":\"industry business operate\",\"section\":\"1\"}",
+        "name": "search_filings"
+       },
+       "id": "call_83312",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559940,
+  "id": "BAnJaobcFK6FxN8P5vjekQI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 1845,
+   "total_tokens": 1886
+  }
+ }
+}

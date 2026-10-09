@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "CVS Health's total assets decreased from **$232,999 million** at December 31, 2021 to **$228,275 million** at December 31, 2022, representing a change of **-2.0%** (or approximately -2.03%).\n\n$$\\frac{228,275 - 232,999}{232,999} \\times 100\\% = -2.027\\%$$",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0ThaFSglHCByi3vKXqhmht8Z3K+vJNeKdsplvjz3OlhPIGy6KLQfKu8V751LrVzs/urOhdQWwbZ0wrBuHbz+MRuWMuR51WtDHGR1052k8I7ihzdmH1ST/tqE8="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791561626,
+  "id": "mQ_JapmUGa6FxN8P947lgQc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 120,
+   "prompt_tokens": 4810,
+   "total_tokens": 4930
+  }
+ }
+}

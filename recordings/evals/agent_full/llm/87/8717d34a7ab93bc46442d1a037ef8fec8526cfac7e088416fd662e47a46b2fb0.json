@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TVMg51hGZKVFv2iL8a9LNAqUmOIkenJrb+1xYM1wKx/Alf2YHBS03LdwvI43xs8EurwjlY3dfIijdTv8oinmFi1UsLyi/sS4Ua/Bh4gIhWmf63Upikkbtg2Q="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The Consolidated Statements of Cash Flows for FY2023 shows Cash provided by operations of $5,841 million, Cash provided by investing activities of $564 million, and Cash used by financing activities of $(7,447) million. Operating activities brought in the most cash flow.\",\"answer\":\"For Nike in FY2023, operating activities brought in the most cash flow, providing $5,841 million. Cash provided by operating activities was $5,841 million, cash provided by investing activities was $564 million, and cash used by financing activities was $(7,447) million.\",\"citations\":[{\"quote\":\"5,841\",\"source_id\":\"ch_9d125692a0bd2f02\"},{\"quote\":\"564\",\"source_id\":\"ch_9d125692a0bd2f02\"},{\"quote\":\"(7,447)\",\"source_id\":\"ch_9d125692a0bd2f02\"}],\"needs_review\":false,\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_212369",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559991,
+  "id": "NgnJarLhJsfzvdIPicqCwAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 268,
+   "prompt_tokens": 4604,
+   "prompt_tokens_details": {
+    "cached_tokens": 2489
+   },
+   "total_tokens": 4872
+  }
+ }
+}

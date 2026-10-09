@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "legal proceedings",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a2576b1a6ca8ff83",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 173,
+    "text": "to be class actions and/or involve parties seeking large and/or indeterminate amounts, including punitive or exemplary damages, and may remain unresolved for several years. The Company also may be named from time to time in qui tam actions initiated by private third parties that could also be separately pursued by a governmental body. The results of legal proceedings, including government investigations, are often uncertain and difficult to predict, and the costs incurred in these matters can be substantial, regardless of the outcome. The Company records accruals for outstanding legal matters when it believes it is probable that a loss will be incurred and the amount can be reasonably estimated. The Company evaluates, on a quarterly basis, developments in legal matters that could affect the amount of any accrual and developments that would make a loss contingency both probable and reasonably estimable. If a loss contingency is not both probable and reasonably estimable, the Company doe…"
+   },
+   {
+    "chunk_id": "ch_1553ad8d94e8ca1d",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 172,
+    "text": "by any significant adverse impact of the COVID-19 pandemic on the solvency of other insurers, including long-term care and life insurers. While historically the Company has ultimately recovered more than half of guaranty fund assessments through statutorily permitted premium tax offsets, significant increases in assessments could lead to legislative and/or regulatory actions that limit future offsets. HMOs in certain states in which the Company does business are subject to assessments, including market stabilization and other risk-sharing pools, for which the Company is assessed charges based on incurred claims, demographic membership mix and other factors. The Company establishes liabilities for these assessments based on applicable laws and regulations. In certain states, the ultimate assessments the Company pays are dependent upon the Company's experience relative to other entities subject to the assessment, and the ultimate liability is not known at the financial statement date. Wh…"
+   },
+   {
+    "chunk_id": "ch_b99cfa2af92b530c",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 177,
+    "text": "investment in company stock between December 3, 2017 and February 20, 2019, claiming losses related to the performance of the Company's LTC business unit. The district court consolidated the actions, and in October 2021, dismissed the consolidated action without prejudice. Plaintiffs filed an amended consolidated complaint, which the Company moved to dismiss. In October 2022, the court granted the Company's motion to dismiss with prejudice. Plaintiffs have appealed this decision to the Second Circuit. The Company also received a related document request pursuant to ERISA § 104(b), to which the Company has responded. The Company and its current and former officers and directors are defending themselves against these claims. In December 2021, the Company received a demand for inspection of books and records pursuant to Delaware Corporation Law Section 220 (the “Demand”). The Demand purports to be related to potential breaches of fiduciary duties by the Board in relation to certain matter…"
+   },
+   {
+    "chunk_id": "ch_9b25f691c9bcfc66",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 173,
+    "text": "however, do sometimes occur, which could result in judgments against the Company, entry into settlements or a revision to its expectations regarding the outcome of certain matters, and such developments could have a material adverse effect on its results of operations. In addition, as a result of governmental investigations or proceedings, the Company may be subject to damages, civil or criminal fines or penalties, or other sanctions including possible suspension or loss of licensure and/or exclusion from participating in government programs. The outcome of such governmental investigations of proceedings could be material to the Company. Usual and Customary Pricing Litigation The Company and certain current and former directors and officers are named as a defendant in a number of lawsuits that allege that the Company's retail pharmacies overcharged for prescription drugs by not submitting the correct usual and customary price during the claims adjudication process. These actions are br…"
+   },
+   {
+    "chunk_id": "ch_8e118a8071fb8484",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 178,
+    "text": "these other legal proceedings are or are purported to be class actions or derivative claims. The Company is defending itself against the claims brought in these matters. Awards to the Company and others of certain government contracts, particularly Medicaid contracts and other contracts with government customers in the Company's Health Care Benefits segment, frequently are subject to protests by unsuccessful bidders. These protests may result in awards to the Company being reversed, delayed, or modified. The loss or delay in implementation of any government contract could adversely affect the Company's operating results. The Company will continue to defend contract awards it receives. There also continues to be a heightened level of review and/or audit by regulatory authorities and legislators of, and increased litigation regarding, the Company's and the rest of the health care and related benefits industry's business and reporting practices, including premium rate increases, utilizati…"
+   }
+  ]
+ }
+}

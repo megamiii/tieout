@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T319+KE6fDzzCGg7m48rgSE91pBwVpd+JfonS22ICOaoWuK0sdXeKpGnWE+wc6+Ad3lvRlzrQruHJ28lxMkoK/L7JOD/nvLQK2elKMRqtyz+Vcm130UjM0Z8="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"Net sales for FY 2020 was $12,467.5 million and for FY 2019 was $9,458.2 million. The percentage change is calculated as ((12,467.5 - 9,458.2) / 9,458.2) * 100 = 31.8168..., which rounds to 31.8%.\",\"citations\":[{\"source_id\":\"ch_4da5a7022574af86\",\"quote\":\"$ 12,467.5\"},{\"quote\":\"$ 9,458.2\",\"source_id\":\"ch_4da5a7022574af86\"}],\"answer\":\"Amcor's total revenue (net sales) increased from $9,458.2 million in fiscal year 2019 to $12,467.5 million in fiscal year 2020, representing a percentage change of 31.8% (rounded to one decimal place).\",\"confidence\":1,\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_224466",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561245,
+  "id": "HA7JarmiM7bhvdIPiObDgQY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 274,
+   "prompt_tokens": 6264,
+   "prompt_tokens_details": {
+    "cached_tokens": 4034
+   },
+   "total_tokens": 6538
+  }
+ }
+}

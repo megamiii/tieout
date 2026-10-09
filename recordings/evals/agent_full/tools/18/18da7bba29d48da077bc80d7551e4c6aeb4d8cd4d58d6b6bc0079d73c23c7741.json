@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Research, development and engineering expenses",
+  "ticker": "GLW",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e29f4ef108ce4b3c",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 72,
+    "text": "Table of Contents 2. Restructuring, Impairment and Other Charges and Credits (Continued) The following tables present the impact and respective location of total restructuring, impairment and other charges and credits in the consolidated statements of income (in millions): Year ended December 31, 2022 Selling, Research, general development and and Gross administrative engineering margin (1) expenses expenses Other Total Severance $ 25 $ 32 $ 13 $ 70 Capacity optimization 215 4 219 Other charges and credits 97 15 3 $ 10 125 Total restructuring, impairment and other charges and credits $ 337 $ 51 $ 16 $ 10 $ 414 Year ended December 31, 2021 Selling, Research, general development and and Gross administrative engineering margin (1) expenses expenses Other Total Severance $ (6) $ (5) $ (2) $ (13) Capacity optimization 36 7 3 46 Other charges and credits 50 (5) $ 32 77 Total restructuring, impairment and other charges and credits $ 80 $ (3) $ 1 $ 32 $ 110 Year ended December 31, 2020 Selling…"
+   },
+   {
+    "chunk_id": "ch_6629d2661a5b7b79",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 25,
+    "text": "related charges of $257 million. In addition, movements in foreign exchange rates had an adverse impact of $422 million on Corning's consolidated gross margin for the year ended December 31, 2022, when compared to the same period in 2021. Selling, General and Administrative Expenses Selling, general and administrative expenses increased by $71 million, or 4%, and were consistent as a percentage of sales when compared to 2021. The types of expenses included in selling, general and administrative expenses are: salaries, wages and benefits; stock-based compensation expense; travel; sales commissions; professional fees; and depreciation and amortization, utilities and rent for administrative facilities. Research, Development and Engineering Expenses Research, development and engineering expenses increased by $52 million, or 5%, and were consistent as a percentage of sales when compared to 2021. 25"
+   },
+   {
+    "chunk_id": "ch_dfefa3afae042acf",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 102,
+    "text": "264 Segment assets (5) $ 3,183 $ 8,672 $ 2,328 $ 2,150 $ 791 $ 2,024 $ 19,148 Capital expenditures $ 301 $ 710 $ 183 $ 228 $ 128 $ 149 $ 1,699 For the year ended December 31, 2020 Segment net sales $ 3,563 $ 3,172 $ 1,884 $ 1,370 $ 998 $ 465 $ 11,452 Depreciation (2) $ 242 $ 548 $ 162 $ 132 $ 50 $ 81 $ 1,215 Research, development and engineering expenses (3) $ 204 $ 99 $ 155 $ 100 $ 26 $ 170 $ 754 Income tax (provision) benefit (4) $ (101) $ (190) $ (113) $ (52) $ (37) $ 58 $ (435) Net income (loss) $ 366 $ 717 $ 423 $ 197 $ 139 $ (214) $ 1,628 Investment in affiliated companies, at equity $ 3 $ 107 $ 4 $ 2 $ 142 $ 258 Segment assets (5) $ 2,868 $ 8,842 $ 2,571 $ 1,986 $ 683 $ 2,157 $ 19,107 Capital expenditures $ 127 $ 311 $ 125 $ 159 $ 83 $ 123 $ 928 (1) Corning obtained a controlling interest in HSG during the third quarter of 2020 and has consolidated results in Hemlock and Emerging Growth Businesses since September 9, 2020. Refer to Note 3 (HSG Transactions and Acquisitions) in th…"
+   },
+   {
+    "chunk_id": "ch_da00a68966a29fd1",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 102,
+    "text": "14,805 Depreciation (2) $ 249 $ 547 $ 155 $ 128 $ 60 $ 146 $ 1,285 Research, development and engineering expenses (3) $ 230 $ 124 $ 222 $ 98 $ 37 $ 163 $ 874 Income tax provision (4) $ (180) $ (203) $ (90) $ (78) $ (40) $ (24) $ (615) Net income $ 661 $ 769 $ 340 $ 292 $ 153 $ 39 $ 2,254 Investment in affiliated companies, at equity $ 3 $ 102 $ 8 $ 4 $ 144 $ 261 Segment assets (5) $ 3,295 $ 8,104 $ 2,419 $ 2,061 $ 862 $ 2,136 $ 18,877 Capital expenditures $ 368 $ 495 $ 306 $ 110 $ 116 $ 218 $ 1,613 For the year ended December 31, 2021 Segment net sales $ 4,349 $ 3,700 $ 2,008 $ 1,586 $ 1,234 $ 1,243 $ 14,120 Depreciation (2) $ 224 $ 605 $ 161 $ 139 $ 52 $ 134 $ 1,315 Research, development and engineering expenses (3) $ 216 $ 110 $ 208 $ 111 $ 33 $ 160 $ 838 Income tax (provision) benefit (4) $ (152) $ (249) $ (99) $ (72) $ (51) $ 11 $ (612) Net income (loss) $ 553 $ 960 $ 371 $ 269 $ 194 $ (51) $ 2,296 Investment in affiliated companies, at equity $ 3 $ 109 $ 6 $ 4 $ 142 $ 264 Segment …"
+   },
+   {
+    "chunk_id": "ch_96fd444ba7c44bc2",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 102,
+    "text": "Table of Contents 19. Reportable Segments (Continued) In addition, certain income and expenses are excluded from segment net income (loss) and included in the unallocated amounts in the reconciliation of reportable segment net income (loss) to consolidated net income. These items are not used by the CODM in allocating resources or evaluating the results of the segments and include the following: the impact of translating the Japanese yen-denominated debt; the impact of the translated earnings contracts; acquisition-related costs; certain discrete tax items and other tax-related adjustments; restructuring, impairment and other charges and credits; certain litigation, regulatory and other legal matters; pension mark-to-market adjustments; and other non-recurring non-operational items. Although these amounts are excluded from segment results, they are included in reported consolidated results. Corning's administrative and staff functions are performed on a centralized basis and such costs…"
+   }
+  ]
+ }
+}

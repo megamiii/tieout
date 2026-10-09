@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net Sales Consolidated Statements of Earnings",
+  "ticker": "GIS",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_ca47e44ccdebe119",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 48,
+    "text": "48 Consolidated Statements of Earnings GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions, Except per Share Data) Fiscal Year 2020 2019 2018 Net sales $ 17,626.6 $ 16,865.2 $ 15,740.4 Cost of sales 11,496.7 11,108.4 10,304.8 Selling, general, and administrative expenses 3,151.6 2,935.8 2,850.1 Divestitures loss - 30.0 - Restructuring, impairment, and other exit costs 24.4 275.1 165.6 Operating profit 2,953.9 2,515.9 2,419.9 Benefit plan non-service income (112.8) (87.9) (89.4) Interest, net 466.5 521.8 373.7 Earnings before income taxes and after-tax earnings from joint ventures 2,600.2 2,082.0 2,135.6 Income taxes 480.5 367.8 57.3 After-tax earnings from joint ventures 91.1 72.0 84.7 Net earnings, including earnings attributable to redeemable and noncontrolling interests 2,210.8 1,786.2 2,163.0 Net earnings attributable to redeemable and noncontrolling interests 29.6 33.5 32.0 Net earnings attributable to General Mills $ 2,181.2 $ 1,752.7 $ 2,131.0 Earnings per share - basic $ 3.59 $ 2…"
+   },
+   {
+    "chunk_id": "ch_54e40252fe6e95eb",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 75,
+    "text": "75 Fiscal 2018 General Mills Noncontrolling Interests Redeemable Interest In Millions Pretax Tax Net Net Net Net earnings, including earnings attributable to redeemable and noncontrolling interests $ 2,131.0 $ 13.4 $ 18.6 Other comprehensive income (loss): Foreign currency translation $ (76.9) $ - (76.9) 13.5 26.4 Net actuarial income 185.5 (45.4) 140.1 - - Other fair value changes: Securities 1.8 (0.6) 1.2 - - Hedge derivatives (64.7) 14.2 (50.5) - (0.3) Reclassification to earnings: Securities (a) (6.6) 1.5 (5.1) - - Hedge derivatives (b) 24.9 (6.4) 18.5 - (1.1) Amortization of losses and prior service costs (c) 176.8 (59.2) 117.6 - - Other comprehensive income 240.8 (95.9) 144.9 13.5 25.0 Total comprehensive income $ 2,275.9 $ 26.9 $ 43.6 (a) Gain reclassified from AOCI into earnings is reported in interest, net for securities. (b) Loss (gain) reclassified from AOCI into earnings is reported in interest, net for interest rate swaps and in cost of sales and SG&A expenses for foreign …"
+   },
+   {
+    "chunk_id": "ch_3c3fbbe07efb4b6e",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 74,
+    "text": "General Mills Noncontrolling Interests Redeemable Interest In Millions Pretax Tax Net Net Net Net earnings, including earnings attributable to redeemable and noncontrolling interests $ 1,752.7 $ 13.9 $ 19.6 Other comprehensive income (loss): Foreign currency translation $ (38.3) $ - (38.3) (13.5) (31.0) Net actuarial loss (325.6) 72.2 (253.4) - - Other fair value changes: Hedge derivatives 15.9 (3.7) 12.2 - (0.1) Reclassification to earnings: Securities (a) (2.6) 0.6 (2.0) - - Hedge derivatives (b) 0.1 0.4 0.5 - 0.4 Amortization of losses and prior service costs (c) 107.5 (22.9) 84.6 - - Other comprehensive loss (243.0) 46.6 (196.4) (13.5) (30.7) Total comprehensive income (loss) $ 1,556.3 $ 0.4 $ (11.1) (a) Gain reclassified from AOCI into earnings is reported in interest, net for securities. (b) Loss reclassified from AOCI into earnings is reported in interest, net for interest rate swaps and in cost of sales and SG&A expenses for foreign exchange contracts. (c) Loss reclassified fro…"
+   },
+   {
+    "chunk_id": "ch_9ae9ff68006e4948",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 37,
+    "text": "37 Free Cash Flow Conversion Rate We believe this measure provides useful information to investors because it is important for assessing our efficiency in converting earnings to cash and returning cash to shareholders. The calculation of free cash flow conversion rate and net cash provided by operating activities conversion rate, its equivalent GAAP measure, follows: In Millions Fiscal 2020 Net earnings, including earnings attributable to redeemable and noncontrolling interests, as reported $2,210.8 Tax item (a) $(53.1) Restructuring charges, net of tax (b) 39.0 Project-related costs, net of tax (b) 1.2 Mark-to-market effects, net of tax (c) 19.0 Product recall, net of tax (d) 17.1 CPW restructuring costs, net of tax (e) 5.0 Investment activity, net, net of tax (f) 3.0 Adjusted net earnings, including earnings attributable to redeemable and noncontrolling interests $2,241.8 Net cash provided by operating activities 3,676.2 Purchases of land, buildings, and equipment (460.8) Free cash f…"
+   },
+   {
+    "chunk_id": "ch_1917f091afdd0d15",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 20,
+    "text": "20 A summary of our consolidated financial results for fiscal 2020 follows: Fiscal 2020 In millions, except per share Fiscal 2020 vs. Fiscal 2019 Percent of Net Sales Constant- Currency Growth (a) Net sales $ 17,626.6 5 % Operating profit 2,953.9 17 % 16.8 % Net earnings attributable to General Mills 2,181.2 24 % Diluted earnings per share $ 3.56 23 % Organic net sales growth rate (a) 4 % Adjusted operating profit (a) 3,058.0 7 % 17.3 % 7 % Adjusted diluted earnings per share (a) $ 3.61 12 % 12 % (a) See the \"Non-GAAP Measures\" section below for our use of measures not defined by GAAP. Consolidated net sales were as follows: Fiscal 2020 Fiscal 2020 vs. Fiscal 2019 Fiscal 2019 Net sales (in millions) $ 17,626.6 5 % $ 16,865.2 Contributions from volume growth (a) 4 pts Net price realization and mix 2 pts Foreign currency exchange (1)pt Note: Table may not foot due to rounding (a) Measured in tons based on the stated weight of our product shipments. The 5 percent increase in net sales in …"
+   }
+  ]
+ }
+}

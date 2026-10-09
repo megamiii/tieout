@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TAVRqRO9i/j2qIocHp7Vafj575Xz517IeWtGJlLeTqcmYx2Ehz1R8sqlYDYVnXoxgLyg9hJXQkvlqDLFHiKzG89OngncRliG5Y6zGM598ymCV/bp4NvdNSNc="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BBY\",\"fiscal_year\":2019,\"query\":\"Consolidated Statements of Earnings Net income\"}",
+        "name": "search_filings"
+       },
+       "id": "call_961075",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561546,
+  "id": "Sg_JavaFD9GG28oPhfnE4QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 2390,
+   "total_tokens": 2429
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T244bX7IN7MUrt2wpNsnFugNquoomDAAOy//0cQaf3oNbWaJ3sUMnIy3yIXrEKT8UoO4LCXr+vpDBFiddjLtGMr6yZv9cZiC1QIvkkb1RGtUDLRlcrhZxm+8="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The Consolidated Statements of Operations in Boeing's 2018 Form 10-K explicitly lists \\\"Earnings from operations\\\" as $11,987 million for the year ended December 31, 2018.\",\"answer\":\"In fiscal year 2018, Boeing's operating income (reported as earnings from operations) was $11,987 million.\",\"needs_review\":false,\"confidence\":1,\"citations\":[{\"source_id\":\"ch_646d7ca0490ce73e\",\"quote\":\"Earnings from operations 11,987 10,344 6,527\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_452094",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561457,
+  "id": "6g7JavDzGJXuxs0PnYKZ4AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 167,
+   "prompt_tokens": 6886,
+   "prompt_tokens_details": {
+    "cached_tokens": 4033
+   },
+   "total_tokens": 7053
+  }
+ }
+}

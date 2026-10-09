@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "property, plant and equipment",
+  "ticker": "ADBE",
+  "fiscal_year": 2015,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_1d56a97319c8f4b7",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 80,
+    "text": "Less accumulated depreciation and amortization ......................................................... (971,195) (914,034) Property and equipment, net....................................................................................... $ 787,421 $ 785,123 Depreciation and amortization expense of property and equipment for fiscal 2015, 2014 and 2013 was $146.3 million, $144.2 million and $144.7 million, respectively. In the second quarter of fiscal 2015, management approved a plan to sell land and an unoccupied building located in San Jose, California. The total carrying value of the property assets was $36.3 million which mostly pertained to the land. The decision to sell these property assets was largely based upon a general lack of operational needs for the building and land, and recent improvements in market conditions for commercial real estate in the area. We began to actively market the assets during the second quarter of fiscal 2015 and finalized the sale of these assets on …"
+   },
+   {
+    "chunk_id": "ch_61e461528da204c1",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 80,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 80 NOTE 6. PROPERTY AND EQUIPMENT Property and equipment, net consisted of the following as of November 27, 2015 and November 28, 2014 (in thousands): 2015 2014 Computers and equipment ............................................................................................ $ 940,057 $ 855,218 Furniture and fixtures.................................................................................................... 89,434 82,385 Server hardware under capital lease.............................................................................. — 25,703"
+   },
+   {
+    "chunk_id": "ch_3d3865ef6aa36fc2",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 67,
+    "text": "7,293 $ 7,867 $ 10,228 ________________________________________ (1) Deductions related to the allowance for doubtful accounts represent amounts written off against the allowance, less recoveries. Property and Equipment We record property and equipment at cost less accumulated depreciation and amortization. Property and equipment are depreciated using the straight-line method over their estimated useful lives ranging from 1 to 5 years for computers and equipment as well as server hardware under capital leases, 1 to 6 years for furniture and fixtures, and up to 40 years for buildings. Leasehold improvements are amortized using the straight-line method over the lesser of the remaining respective lease term or estimated useful lives ranging from 1 to 15 years. Goodwill, Purchased Intangibles and Other Long-Lived Assets Goodwill is assigned to one or more reporting segments on the date of acquisition. We evaluate goodwill for impairment by comparing the fair value of each of our reporting s…"
+   },
+   {
+    "chunk_id": "ch_bc543b86d303ee0c",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 63,
+    "text": "Acquisitions, net of cash acquired ................................................................................. (826,004) (29,802) (704,589) Purchases of property and equipment............................................................................ (184,936) (148,332) (188,358) Proceeds from sale of property ...................................................................................... 57,779 — 24,260 Purchases of long-term investments, intangibles and other assets ................................ (22,779) (17,572) (67,737)"
+   },
+   {
+    "chunk_id": "ch_6b3722c924638362",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 102,
+    "text": "Cost of revenue............................................ 170,788 404,804 10,965 586,557 Gross profit.................................................. $ 2,455,125 $ 824,064 $ 189,494 $ 3,468,683 Gross profit as a percentage of revenue ...... 93% 67% 95% 86% The tables below list our revenue and property and equipment, net, by geographic area for fiscal 2015, 2014 and 2013 (in thousands). With the exception of property and equipment, we do not identify or allocate our assets (including long-lived assets) by geographic area. Revenue 2015 2014 2013 Americas: United States ............................................................................. $ 2,548,024 $ 2,115,148 $ 1,935,429"
+   }
+  ]
+ }
+}

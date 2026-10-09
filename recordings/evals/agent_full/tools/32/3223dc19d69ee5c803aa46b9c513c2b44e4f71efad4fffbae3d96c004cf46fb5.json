@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net income decreased 1,419 2,454",
+  "ticker": "BBY",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_2afad6df6173e082",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 41,
+    "text": "Consolidated Statements of Comprehensive Income $ in millions Fiscal Years Ended January 28, 2023 January 29, 2022 January 30, 2021 Net earnings $ 1,419 $ 2,454 $ 1,798 Foreign currency translation adjustments, net of tax (7) 1 (4) Cash flow hedges - - (2) Reclassification of cumulative translation adjustments into earnings due to exit of business - - 39 Comprehensive income $ 1,412 $ 2,455 $ 1,831 See Notes to Consolidated Financial Statements. 41"
+   },
+   {
+    "chunk_id": "ch_42baadd866fa0665",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 43,
+    "text": "Consolidated Statements of Changes in Shareholders' Equity $ and shares in millions, except per share amounts Common Shares Common Stock Additional Paid-In Capital Retained Earnings Accumulated Other Comprehensive Income (Loss) Total Equity Balances as of February 1, 2020 256.5 $ 26 $ - $ 3,158 $ 295 $ 3,479 Net earnings - - - 1,798 - 1,798 Other comprehensive income (loss): Foreign currency translation adjustments, net of tax - - - - (4) (4) Cash flow hedges - - - - (2) (2) Reclassification of cumulative translation adjustments into earnings due to exit of business - - - - 39 39 Stock-based compensation - - 135 - - 135 Issuance of common stock 3.5 - 28 - - 28 Common stock dividends, $2.20 per share - - 12 (580) - (568) Repurchase of common stock (3.1) - (175) (143) - (318) Balances as of January 30, 2021 256.9 26 - 4,233 328 4,587 Net earnings - - - 2,454 - 2,454 Other comprehensive income: Foreign currency translation adjustments, net of tax - - - - 1 1 Stock-based compensation - - 1…"
+   },
+   {
+    "chunk_id": "ch_6685fd0c6a48ed91",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 25,
+    "text": "Restructuring charges $ 140 $ (39) $ 133 Operating income $ 1,634 $ 2,795 $ 2,348 Operating income as a % of revenue 3.8 % 5.8 % 5.4 % Selected Online Revenue Data Total online revenue $ 14,212 $ 16,430 $ 18,674 Online revenue as a % of total segment revenue 33.2 % 34.4 % 43.1 % Comparable online sales% change(1) (13.5)% (12.0)% 144.4 % (1) Comparable online sales are included in the comparable sales calculation. The decrease in revenue in fiscal 2023 was primarily driven by comparable sales declines across most of our product categories, particularly computing, home theater, mobile phones and appliances. Online revenue of $14.2 billion decreased 13.5% on a comparable basis in fiscal 2023. These decreases in revenue were primarily due to the reasons described within the Consolidated Results section, above. 25"
+   },
+   {
+    "chunk_id": "ch_0e5eb43bfe50acdb",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 26,
+    "text": "(10.3)% 11.0 % Notable comparable sales changes by revenue category were as follows: • Computing and Mobile Phones: The 12.0% comparable sales decline was driven primarily by computing, mobile phones, wearables and tablets. • Consumer Electronics: The 12.2% comparable sales decline was driven primarily by home theater, digital imaging and headphones. • Appliances: The 5.7% comparable sales decline was driven primarily by large appliances. • Entertainment: The 5.5% comparable sales decline was driven primarily by virtual reality and gaming software. • Services: The 2.5% comparable sales decline was driven primarily by the launch of our Best Buy Totaltech membership offering that includes benefits that were previously stand-alone revenue-generating services, such as warranty services. Our gross profit rate decreased in fiscal 2023, primarily due to lower product margin rates, including increased promotions, lower services margin rates, driven by the incremental customer benefits and asso…"
+   },
+   {
+    "chunk_id": "ch_5ca786f6192fc79a",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 25,
+    "text": "Results of Operations Consolidated Results Selected consolidated financial data was as follows ($ in millions, except per share amounts): Consolidated Performance Summary 2023 2022 2021 Revenue $ 46,298 $ 51,761 $ 47,262 Revenue % change (10.6)% 9.5 % 8.3 % Comparable sales % change (9.9)% 10.4 % 9.7 % Gross profit $ 9,912 $ 11,640 $ 10,573 Gross profit as a % of revenue(1) 21.4 % 22.5 % 22.4 % SG&A $ 7,970 $ 8,635 $ 7,928 SG&A as a % of revenue(1) 17.2 % 16.7 % 16.8 % Restructuring charges $ 147 $ (34) $ 254 Operating income $ 1,795 $ 3,039 $ 2,391 Operating income as a % of revenue 3.9 % 5.9 % 5.1 % Net earnings $ 1,419 $ 2,454 $ 1,798 Diluted earnings per share $ 6.29 $ 9.84 $ 6.84 (1) Because retailers vary in how they record costs of operating their supply chain between cost of sales and SG&A, our gross profit rate and SG&A rate may not be comparable to other retailers' corresponding rates. For additional information regarding costs classified in cost of sales and SG&A, refer to N…"
+   }
+  ]
+ }
+}

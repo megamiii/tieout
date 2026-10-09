@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TRCzsycghOI3ODJtfkPjuwTxb/9K+cd6k8xeUThKzsU7pDGwVyRVvNh/BLfBBb/oZYvw4jFA8yxmVX5CBHUAgXaZsKDGlkyMGinqOXo7PVl/oflGM34B50sk="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"total assets\",\"ticker\":\"CVS\",\"fiscal_years\":[2021,2022]}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_166257",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561607,
+  "id": "hw_JasKGBbGIxN8P3dvU-AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 1873,
+   "total_tokens": 1913
+  }
+ }
+}

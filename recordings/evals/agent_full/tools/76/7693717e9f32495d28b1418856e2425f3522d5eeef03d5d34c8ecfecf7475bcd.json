@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "We offer our customers a wide range of products including",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": "1",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_c2f8ae1df90738db",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 11,
+    "text": "online and brick and mortar retailers. Our graphics product customers include the foregoing as well as add-in-board manufacturers (AIBs). Customers of our chipset products consist primarily of PC OEMs, often through ODMs or other contract manufacturers, who build the OEM motherboards, as well as desktop and server motherboard manufacturers who incorporate chipsets into their channel motherboards. Our FPGA and Adaptive SOC products are sold to customers in a very wide range of markets such as Aerospace and Defense, Test and Measurement, Industrial, Automotive, Consumers, Broadcast, Communication Infrastructure and Data Center. For these products we either sell directly to our customers or through a network of distributors and OEM partners. We are also developing a network of Value Added Resellers (VARs) and Integrated Solution Vendors (ISVs) for our Alveo products. We work closely with our customers to define product features, performance and timing of new products so that the products …"
+   },
+   {
+    "chunk_id": "ch_b7008cb44bfb8d02",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 12,
+    "text": "Table of Contents We also work with our customers to create differentiated products that leverage our CPU, GPU and APU technology. Certain customers pay us non-recurring engineering fees for design and development services and a purchase price for the resulting products. One customer accounted for 16% of our consolidated net revenue for the year ended December 31, 2022. Sales to this customer consisted of sales of products from our Gaming segment. A loss of this customer would have a material adverse effect on our business. Original Equipment Manufacturers We focus on three types of OEM partners: multi-nationals, selected regional accounts and selected global and local system integrators, who target commercial and consumer end customers of all sizes. Large multi-nationals and regional accounts are the core of our OEM partners' business; however, we are increasingly focused on the VAR channel which resells OEM systems to the mid-market and the small and medium business (SMB) segments. A…"
+   },
+   {
+    "chunk_id": "ch_a4e079e73217b1b1",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 10,
+    "text": "Table of Contents FPGAs and Adaptive SoCs. Our FPGA products are hardware-customizable devices that can be tailored to meet the specific needs of each customer, enabling them to differentiate their products and accelerate time-to-market. Our FPGA families include UltraScale+™ (based on 16 nm technology), UltraScale™ (20 nm), 7 Series (28 nm) and older series. Adaptive SoC products include the Zynq SoC and UltraScale+ Multi-Processing System on a Chip (MPSoCs) which combine FPGA technology with a heterogeneous processing system, as well as the industry's first RFSoC architecture with integrated radio frequency (RF) data converters. The Versal portfolio is composed of software-programmable Adaptive SoCs, with a heterogeneous compute platform that combines Scalar Engines, Adaptable Engines, and Intelligent Engines to achieve dramatic performance improvements over today's fastest FPGA and accelerate applications in a wide variety of markets, including data center, wired network, 5G wireles…"
+   },
+   {
+    "chunk_id": "ch_e364fdcdb8c096ef",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 12,
+    "text": "instances, our agreements with distributors protect their inventory of our products against price reductions and provide certain return rights with respect to any product that we have removed from our price book or otherwise subject to discontinuation. In addition, some agreements with our distributors may contain standard stock rotation provisions permitting limited product returns. Add-in-Board (AIB) Manufacturers and System Integrators We offer component-level graphics and chipset products to AIB manufacturers who in turn build and sell board-level products using our technology to system integrators (SIs), retail buyers and sub distributors. Our agreements with AIBs protect their inventory of our products against price reductions. We also sell directly to our SI customers. SIs typically sell from positions of regional or product-based strength in the market. They usually operate on short design cycles and can respond quickly with new technologies. SIs often use discrete graphics sol…"
+   },
+   {
+    "chunk_id": "ch_d4d1256e3a73193e",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 7,
+    "text": "Table of Contents Data Center Products Server CPUs. Our CPUs for server platforms currently include the AMD EPYC™ Series processors – AMD EPYC 9004 Series, AMD EPYC 7003 Series and AMD EPYC 7002 Series. Our 4 Gen AMD EPYC 9004 Series processors are built on the “Zen 4” core and are designed to deliver leadership performance and energy efficiency across multiple market segments and workloads. Our 3 Gen AMD EPYC processors include AMD 3D V-Cache™ technology for leadership performance in technical computing workloads. FPGAs and Adaptive SoCs. We offer a wide range of FPGAs, Adaptive SoCs and acceleration cards for the data center. Devices include the Virtex™ and Kintex™ FPGA products, as well as Zynq™, Zynq MPSoC, and Versal™ Adaptive SoC products. Our Alveo™ accelerator cards provide a platform for accelerating workloads in the data center, at the edge or the cloud. To make it accessible for developers, Alveo is available on most major OEM server platforms, as well as a growing presence …"
+   }
+  ]
+ }
+}

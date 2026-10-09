@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TFoHHPRqB0v8SwE8P5S+9ainNnz3JoAkBoD9ELbRkBBIg4N2FzmmdW0FgPAhq7BOyHgn12s9rQWvsOgAEw2CanxDIJDWEp0NgLquBbi90Juo+FhE9uFX/f9A="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"GLW\",\"fiscal_year\":2022,\"query\":\"Research, development and engineering expenses 838 874\"}",
+        "name": "search_filings"
+       },
+       "id": "call_966677",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561724,
+  "id": "-w_JaoK_LJfsxN8PiPXoGQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 4588,
+   "total_tokens": 4634
+  }
+ }
+}

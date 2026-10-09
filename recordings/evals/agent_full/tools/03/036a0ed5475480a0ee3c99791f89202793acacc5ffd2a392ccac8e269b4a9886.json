@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GIS",
+  "query": "Liabilities current",
+  "concept": null,
+  "fiscal_years": [
+   2020
+  ]
+ },
+ "output": {
+  "ticker": "GIS",
+  "concepts": [
+   {
+    "concept": "LiabilitiesCurrent",
+    "label": "Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "as of 2020-05-31",
+      "value": "7491500000",
+      "fact_id": "xf_7970fb94b7f12870",
+      "reported_in_10k_filed": "2020-07-02"
+     }
+    ]
+   },
+   {
+    "concept": "OtherLiabilitiesCurrent",
+    "label": "Other Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "as of 2020-05-31",
+      "value": "1633300000",
+      "fact_id": "xf_54ff5e57ee37481b",
+      "reported_in_10k_filed": "2020-07-02"
+     }
+    ]
+   },
+   {
+    "concept": "OtherSundryLiabilitiesCurrent",
+    "label": "Other Sundry Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "as of 2020-05-31",
+      "value": "298500000",
+      "fact_id": "xf_1ff76d9ff091ba16",
+      "reported_in_10k_filed": "2020-07-02"
+     }
+    ]
+   }
+  ]
+ }
+}

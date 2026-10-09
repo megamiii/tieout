@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T9MBKf5RVPD4pMIIDTsUFp6Jsp5AylyhD4V+zg+i1JKtfZ2TYPo8xksM+BS+2lgcWANXyTispei96Tp2usEWs9Ka4h7ZmigcWBP8ENLOSzbrh3X5VUIX2j5s="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"answer\":\"In fiscal year 2019 (ended May 31, 2019), Nike's net income was $4,029 million.\",\"rationale\":\"Nike's Consolidated Statements of Income in its FY2019 Form 10-K report net income of $4,029 million for the fiscal year ended May 31, 2019.\",\"citations\":[{\"quote\":\"NET INCOME $ 4,029 $ 1,933 $ 4,240\",\"source_id\":\"ch_3585d8ef8beaae62\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_785600",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561836,
+  "id": "axDJar-0FO7Yxs0Ps9X-sAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 159,
+   "prompt_tokens": 8333,
+   "total_tokens": 8492
+  }
+ }
+}

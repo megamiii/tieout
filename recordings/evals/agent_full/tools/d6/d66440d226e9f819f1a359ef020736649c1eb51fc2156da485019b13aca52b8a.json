@@ -1,0 +1,65 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMCR",
+  "query": "research and development expense",
+  "concept": null,
+  "fiscal_years": [
+   2023
+  ]
+ },
+ "output": {
+  "ticker": "AMCR",
+  "concepts": [
+   {
+    "concept": "ResearchAndDevelopmentExpense",
+    "label": "Research and Development Expense",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-07-01..2023-06-30",
+      "value": "101000000",
+      "fact_id": "xf_79ee0e4e8137ef06",
+      "reported_in_10k_filed": "2023-08-17"
+     }
+    ]
+   },
+   {
+    "concept": "SellingGeneralAndAdministrativeExpense",
+    "label": "Selling, General and Administrative Expense",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-07-01..2023-06-30",
+      "value": "1246000000",
+      "fact_id": "xf_c78c178a11e8800a",
+      "reported_in_10k_filed": "2023-08-17",
+      "later_restated_to": [
+       {
+        "value": "1086000000",
+        "fact_id": "xf_89c328852e1fbb10",
+        "filed": "2025-08-15"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "concept": "InterestExpense",
+    "label": "Interest Expense",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-07-01..2023-06-30",
+      "value": "290000000",
+      "fact_id": "xf_a5c1ad89303b36ae",
+      "reported_in_10k_filed": "2023-08-17"
+     }
+    ]
+   }
+  ]
+ }
+}

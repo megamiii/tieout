@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Note 19 Commitments and Contingencies Legal Proceedings",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a2576b1a6ca8ff83",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 173,
+    "text": "to be class actions and/or involve parties seeking large and/or indeterminate amounts, including punitive or exemplary damages, and may remain unresolved for several years. The Company also may be named from time to time in qui tam actions initiated by private third parties that could also be separately pursued by a governmental body. The results of legal proceedings, including government investigations, are often uncertain and difficult to predict, and the costs incurred in these matters can be substantial, regardless of the outcome. The Company records accruals for outstanding legal matters when it believes it is probable that a loss will be incurred and the amount can be reasonably estimated. The Company evaluates, on a quarterly basis, developments in legal matters that could affect the amount of any accrual and developments that would make a loss contingency both probable and reasonably estimable. If a loss contingency is not both probable and reasonably estimable, the Company doe…"
+   },
+   {
+    "chunk_id": "ch_08b15ded2d761453",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 171,
+    "text": "condition primarily will be driven by the geographies impacted and the severity and duration of the pandemic; the pandemic's impact on the U.S. and global economies and consumer behavior and health care utilization patterns; and the timing, scope and impact of legislation as well as other federal, state and local governmental responses to the pandemic. Those primary drivers are beyond the Company's knowledge and control. As a result, the impact COVID-19 will have on the Company's businesses, operating results, cash flows and/or financial condition is uncertain, but the impact could be adverse and material. COVID- 19 also may result in legal and regulatory proceedings, investigations and claims against the Company. Guarantees The Company has the following significant guarantee arrangements at December 31, 2022: • ASC Claim Funding Accounts - The Company has arrangements with certain banks for the processing of claim payments for its ASC customers. The banks maintain accounts to fund cla…"
+   },
+   {
+    "chunk_id": "ch_e746f5ba131e7ef8",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 175,
+    "text": "The Company has concluded that settlement of opioid claims by governmental entities and tribes is probable, and the loss related thereto could be reasonably estimated. As a result of that conclusion, and its assessment of certain other opioid-related claims including those for which the Company reached agreement in August and September 2022, the Company recorded pre-tax charges of $5.2 billion and $99 million during the three months ended September 30, 2022 and the three months ended December 31, 2022, respectively, of which $4.8 billion was recorded in other long-term liabilities on the consolidated balance sheet. In addition, the Company expects the cash impact in 2023 and 2024 to be less than $500 million in each year. Because loss contingencies are inherently unpredictable and unfavorable developments or resolutions can occur, the assessment requires judgments about future events. Moreover, the settlement is in its early phases, and there is no assurance that contingencies will be …"
+   },
+   {
+    "chunk_id": "ch_b99cfa2af92b530c",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 177,
+    "text": "investment in company stock between December 3, 2017 and February 20, 2019, claiming losses related to the performance of the Company's LTC business unit. The district court consolidated the actions, and in October 2021, dismissed the consolidated action without prejudice. Plaintiffs filed an amended consolidated complaint, which the Company moved to dismiss. In October 2022, the court granted the Company's motion to dismiss with prejudice. Plaintiffs have appealed this decision to the Second Circuit. The Company also received a related document request pursuant to ERISA § 104(b), to which the Company has responded. The Company and its current and former officers and directors are defending themselves against these claims. In December 2021, the Company received a demand for inspection of books and records pursuant to Delaware Corporation Law Section 220 (the “Demand”). The Demand purports to be related to potential breaches of fiduciary duties by the Board in relation to certain matter…"
+   },
+   {
+    "chunk_id": "ch_1553ad8d94e8ca1d",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 172,
+    "text": "by any significant adverse impact of the COVID-19 pandemic on the solvency of other insurers, including long-term care and life insurers. While historically the Company has ultimately recovered more than half of guaranty fund assessments through statutorily permitted premium tax offsets, significant increases in assessments could lead to legislative and/or regulatory actions that limit future offsets. HMOs in certain states in which the Company does business are subject to assessments, including market stabilization and other risk-sharing pools, for which the Company is assessed charges based on incurred claims, demographic membership mix and other factors. The Company establishes liabilities for these assessments based on applicable laws and regulations. In certain states, the ultimate assessments the Company pays are dependent upon the Company's experience relative to other entities subject to the assessment, and the ultimate liability is not known at the financial statement date. Wh…"
+   }
+  ]
+ }
+}

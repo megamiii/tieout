@@ -1,0 +1,22 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net sales Pharmacy Services Health Care Benefits Retail/LTC",
+  "ticker": "CVS",
+  "fiscal_year": 2018,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_268deb8252de8eb8",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 64,
+    "text": "Item 8. Financial Statements and Supplementary Data The information contained in “Consolidated Statements of Operations,” “Consolidated Statements of Comprehensive Income (Loss),” “Consolidated Balance Sheets,” “Consolidated Statements of Shareholders' Equity,” “Consolidated Statements of Cash Flows,” “Notes to Consolidated Financial Statements,” and “Report of Independent Registered Public Accounting Firm” in the Annual Report, is incorporated by reference herein."
+   }
+  ]
+ }
+}

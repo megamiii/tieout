@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the primary driver (amortization of acquisition-related intangibles from the Xilinx acquisition) and provides additional relevant context regarding stock-based compensation and acquisition costs.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T5FEQfYWOj5fqyn/6U8Tlg6EqpqAPyCl2cbKBt4HRVg/OM20u12THx2D5LVlqeW2P5o5egu7BJuPBW4Z6kFyMooW4LmuoQVqO5lvV3Z3vyYcOGetaDnhbjHZFS79rNeK7gHb8UA/rss/i351h"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791560922,
+  "id": "2QzJaoTDHZjR28oPlLqWyQ0",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 49,
+   "prompt_tokens": 294,
+   "total_tokens": 343
+  }
+ }
+}

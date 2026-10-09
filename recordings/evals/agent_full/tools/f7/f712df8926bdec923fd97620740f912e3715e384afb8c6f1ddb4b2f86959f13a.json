@@ -1,0 +1,10 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "BA",
+  "fiscal_year": 2018,
+  "item": "8",
+  "page": 48
+ },
+ "error": "Item 8 spans pages 49-121"
+}

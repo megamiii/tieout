@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TzI/0LqdedqSNevcVaupX9j07N/XE5o2jvSUEE6MekB0eU+EKTqvZxzVlQ6eTw7toaiz7RWbeDm4rLNNn6dHDfJP1otjXDEgPRo4m4UzcEv6MxwQhZbqLQ1U="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"Read the Consolidated Balance Sheets on page 98 of AXP's 2022 10-K. Customer deposits is $110,239 million, which is the largest line item under Liabilities (compared to Accounts payable of $12,133 million, Short-term borrowings of $1,348 million, Long-term debt of $42,573 million, and Other liabilities of $37,350 million).\",\"confidence\":1,\"answer\":\"In American Express's Consolidated Balance Sheet for FY2022, the largest liability was **Customer deposits**, reported at **$110,239 million** (or $110.239 billion) as of December 31, 2022.\",\"citations\":[{\"source_id\":\"ch_1ff60ced74aa865f\",\"quote\":\"Customer deposits $ 110,239 $ 84,382\"},{\"source_id\":\"ch_6a05ea70d49e4006\",\"quote\":\"Total liabilities $ 203,643 $ 166,371\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_219141",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560292,
+  "id": "YwrJapHjKq6FxN8P947lgQc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 285,
+   "prompt_tokens": 6586,
+   "total_tokens": 6871
+  }
+ }
+}

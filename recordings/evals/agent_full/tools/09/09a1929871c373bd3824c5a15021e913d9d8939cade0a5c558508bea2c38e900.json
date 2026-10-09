@@ -1,0 +1,85 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "CVS",
+  "query": "revenue",
+  "concept": null,
+  "fiscal_years": [
+   2017,
+   2018
+  ]
+ },
+ "output": {
+  "ticker": "CVS",
+  "concepts": [
+   {
+    "concept": "Revenues",
+    "label": "Revenues",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "2018-01-01..2018-12-31",
+      "value": "194579000000",
+      "fact_id": "xf_cad3b56cd56533a5",
+      "reported_in_10k_filed": "2019-02-28"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "2017-01-01..2017-12-31",
+      "value": "184765000000",
+      "fact_id": "xf_b78c297e288db1a6",
+      "reported_in_10k_filed": "2018-02-14",
+      "later_restated_to": [
+       {
+        "value": "184786000000",
+        "fact_id": "xf_7fa9d90a28342c9b",
+        "filed": "2019-02-28"
+       },
+       {
+        "value": "184786000000",
+        "fact_id": "xf_2fa6f12746ab9e1b",
+        "filed": "2020-02-18"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "2018-01-01..2018-12-31",
+      "value": "193919000000",
+      "fact_id": "xf_0319935ec99b7088",
+      "reported_in_10k_filed": "2019-02-28"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "2017-01-01..2017-12-31",
+      "value": "184765000000",
+      "fact_id": "xf_70aac4a4c2f6c9b1",
+      "reported_in_10k_filed": "2019-02-28"
+     }
+    ]
+   },
+   {
+    "concept": "CostOfRevenue",
+    "label": "Cost of Revenue",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2017,
+      "period": "2017-01-01..2017-12-31",
+      "value": "156220000000",
+      "fact_id": "xf_3cf4e5112e2a15a9",
+      "reported_in_10k_filed": "2018-02-14"
+     }
+    ]
+   }
+  ]
+ }
+}

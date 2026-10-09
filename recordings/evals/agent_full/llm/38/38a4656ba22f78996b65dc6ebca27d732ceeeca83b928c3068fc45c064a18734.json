@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TJT30gv8FUUfAduHNJdcXgT5s4zuCjkLZoUe931pqORlmwmn1mAE3RodQ98563KC110iQi7LzS1o1+rMovmEnKep/Fv6Qc9UqdasU+6329P0XLyYur5sxZNo="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2021,\"ticker\":\"VZ\",\"query\":\"2024 retiree expected future benefit payments\"}",
+        "name": "search_filings"
+       },
+       "id": "call_989567",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560305,
+  "id": "cQrJao3UHqyW28oPpvrGoQc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 1862,
+   "total_tokens": 1902
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TOvtj6VaSYhjtPpM3qKPs3kzF1mOpyAxuIFBVwStwXQpsBANGpKk0ooLmuuoSuWL/kA6kRQqwTs/TVCIWr1G3Axuc39bMu2jT8nUQio8B9HqOLrs3GJvW2Uo="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"answer\":\"General Mills's total revenue (net sales) changed from $16,865.2 million in fiscal year 2019 to $17,626.6 million in fiscal year 2020, representing an increase of 4.5% (or 5% as reported rounded to the nearest integer).\",\"citations\":[{\"source_id\":\"ch_ca47e44ccdebe119\",\"quote\":\"Net sales $ 17,626.6 $ 16,865.2 $ 15,740.4\"},{\"source_id\":\"ch_1917f091afdd0d15\",\"quote\":\"Net sales (in millions) $ 17,626.6 5 % $ 16,865.2\"}],\"confidence\":1,\"rationale\":\"Net sales went from $16,865.2 million in fiscal 2019 to $17,626.6 million in fiscal 2020. The percentage change is 4.5% (4.5146%), while the company reports a 5 percent increase.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_154341",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561701,
+  "id": "5A_JauDBH_LQvdIPmrq7kAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 288,
+   "prompt_tokens": 9751,
+   "total_tokens": 10039
+  }
+ }
+}

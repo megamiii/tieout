@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TmTkHuUAHg/hTjf/hBa1Eu+nQdTJpwjJKxi+RsqbRrXN/1eMKPP/TJltmiwn6tIcLz8xthNoiLu66hfW/VyjScgT8vklNF/tC96JasK2jlxeFHqaKbGEIop0="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Data Center Client Gaming Embedded net revenue segment\",\"section\":\"7\",\"fiscal_year\":2022,\"ticker\":\"AMD\"}",
+        "name": "search_filings"
+       },
+       "id": "call_239706",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559753,
+  "id": "SQjJaquCHaKExN8P9PeS6AY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 7023,
+   "prompt_tokens_details": {
+    "cached_tokens": 3636
+   },
+   "total_tokens": 7068
+  }
+ }
+}

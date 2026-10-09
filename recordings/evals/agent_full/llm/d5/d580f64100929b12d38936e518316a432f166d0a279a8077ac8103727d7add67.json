@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T66Tqvb8uZAXTWO6Xs0Q5q9n4QZeuWJi2m4eclueklLrqNLsv8+cFSaCzAUaXrwm3eoH474MssVSc6iL3tuQwKfI6PD7zA283ZVZfzOx1p8T9yXpCZGLWj1Y="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"The FY2019, FY2020, and FY2021 operating income margins for Corning are 11.4%, 4.5%, and 15.0% respectively, resulting in a 3-year average unadjusted operating income margin of 10.3%.\",\"citations\":[{\"source_id\":\"xf_254c7991d761381c\",\"quote\":\"1306000000\"},{\"source_id\":\"xf_aa0a05cc943750f9\",\"quote\":\"11503000000\"},{\"quote\":\"509000000\",\"source_id\":\"xf_0bf5054eb006c931\"},{\"quote\":\"11303000000\",\"source_id\":\"xf_fc38e2bdc8979bed\"},{\"source_id\":\"xf_d57981876f9c582b\",\"quote\":\"2112000000\"},{\"source_id\":\"xf_45076d3d759a7261\",\"quote\":\"14082000000\"}],\"rationale\":\"Calculated operating income margins for FY2019 (11.35%), FY2020 (4.50%), and FY2021 (15.00%), then averaged them to get 10.28% which rounds to 10.3%.\",\"confidence\":1,\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_188049",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560370,
+  "id": "sQrJaveBD8vavdIPrcC9mQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 398,
+   "prompt_tokens": 4002,
+   "total_tokens": 4400
+  }
+ }
+}

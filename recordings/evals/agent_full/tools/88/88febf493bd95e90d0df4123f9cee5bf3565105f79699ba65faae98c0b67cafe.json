@@ -1,0 +1,81 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GLW",
+  "query": "Cost of sales",
+  "concept": null,
+  "fiscal_years": [
+   2018,
+   2019,
+   2020
+  ]
+ },
+ "output": {
+  "ticker": "GLW",
+  "concepts": [
+   {
+    "concept": "CostOfRevenue",
+    "label": "Cost of Revenue",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2020-01-01..2020-12-31",
+      "value": "7772000000",
+      "fact_id": "xf_1f0992f44deb2b2e",
+      "reported_in_10k_filed": "2021-02-12"
+     },
+     {
+      "fiscal_year": 2019,
+      "period": "2019-01-01..2019-12-31",
+      "value": "7468000000",
+      "fact_id": "xf_3d9f6ed40c124f75",
+      "reported_in_10k_filed": "2020-02-18"
+     },
+     {
+      "fiscal_year": 2018,
+      "period": "2018-01-01..2018-12-31",
+      "value": "6829000000",
+      "fact_id": "xf_0562073936ca6e7a",
+      "reported_in_10k_filed": "2019-02-12"
+     }
+    ]
+   },
+   {
+    "concept": "LeaseCost",
+    "label": "Lease, Cost",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2020-01-01..2020-12-31",
+      "value": "200000000",
+      "fact_id": "xf_8454d7567d068b70",
+      "reported_in_10k_filed": "2021-02-12",
+      "later_restated_to": [
+       {
+        "value": "178000000",
+        "fact_id": "xf_edbe30c228495395",
+        "filed": "2023-02-13"
+       }
+      ]
+     },
+     {
+      "fiscal_year": 2019,
+      "period": "2019-01-01..2019-12-31",
+      "value": "171000000",
+      "fact_id": "xf_07f70392b42c4691",
+      "reported_in_10k_filed": "2020-02-18",
+      "later_restated_to": [
+       {
+        "value": "176000000",
+        "fact_id": "xf_210b704d6de8cddb",
+        "filed": "2021-02-12"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

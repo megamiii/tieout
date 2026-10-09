@@ -1,0 +1,67 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "NKE",
+  "query": "revenue",
+  "concept": null,
+  "fiscal_years": [
+   2016,
+   2017,
+   2018
+  ]
+ },
+ "output": {
+  "ticker": "NKE",
+  "concepts": [
+   {
+    "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "2017-06-01..2018-05-31",
+      "value": "36397000000",
+      "fact_id": "xf_d3c80a1c6794110a",
+      "reported_in_10k_filed": "2019-07-23"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "2016-06-01..2017-05-31",
+      "value": "34350000000",
+      "fact_id": "xf_2f0d9bac3f466e6e",
+      "reported_in_10k_filed": "2019-07-23"
+     }
+    ]
+   },
+   {
+    "concept": "SalesRevenueNet",
+    "label": "Revenue, Net (Deprecated 2018-01-31)",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "2017-06-01..2018-05-31",
+      "value": "36397000000",
+      "fact_id": "xf_fd14c47c7b4f36f5",
+      "reported_in_10k_filed": "2018-07-25"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "2016-06-01..2017-05-31",
+      "value": "34350000000",
+      "fact_id": "xf_46ed47ef259e3d11",
+      "reported_in_10k_filed": "2017-07-20"
+     },
+     {
+      "fiscal_year": 2016,
+      "period": "2015-06-01..2016-05-31",
+      "value": "32376000000",
+      "fact_id": "xf_03214886ba7e3d25",
+      "reported_in_10k_filed": "2016-07-21"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TU5g0UJOFATPd9HuNXZYBUhYmibFV5AJEDFNoaKjU57Rgrj31Q/41oYBO6W6tw8nCfuu9IyiymhcfSZhJ0NC/00tqfL5eP34IA0GMg0CFzu8o0eCS2em9DEg="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Net sales Pharmacy Services Health Care Benefits Retail/LTC\",\"section\":\"8\",\"ticker\":\"CVS\",\"fiscal_year\":2018}",
+        "name": "search_filings"
+       },
+       "id": "call_234989",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560800,
+  "id": "YAzJatnGAtri7M8P9u-OoQY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 49,
+   "prompt_tokens": 3825,
+   "total_tokens": 3874
+  }
+ }
+}

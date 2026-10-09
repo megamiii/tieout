@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TsyGUlYwgwFB5GptiF5k6W4G47b+IS5E+tg6Vx4A6lH2Nyq4qNvBtxQOiz1oVTbvaYsgl7g90VSb7Si/A+qTNhw4boT2S/Cb+Ekmu7vyaVR6UO9FqlOPVkqk="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Operating Income 509\",\"ticker\":\"GLW\",\"fiscal_year\":2020}",
+        "name": "search_filings"
+       },
+       "id": "call_243657",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561712,
+  "id": "7w_JapPCJ_yYvdIP1ZTb6A0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 2168,
+   "total_tokens": 2206
+  }
+ }
+}

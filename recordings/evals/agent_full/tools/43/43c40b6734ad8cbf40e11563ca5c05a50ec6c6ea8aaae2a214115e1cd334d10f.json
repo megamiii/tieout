@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Our products include",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": "1",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_c6af4dcdd9d75f20",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 13,
+    "text": "research and development. We are also actively contributing to numerous industry open-source software initiatives across a broad range of technologies. We conduct product and system research and development activities for our products in the United States with additional design and development engineering teams located in various countries who undertake specific activities at the direction of our U.S. headquarters. Manufacturing Arrangements and Assembly and Test Facilities Third-Party Wafer Foundry Facilities We have foundry arrangements with Taiwan Semiconductor Manufacturing Company Limited (TSMC) for the production of wafers for our HPC, FPGA and Adaptive SoC products. We are also a party to a Wafer Supply Agreement (WSA) with GLOBALFOUNDRIES Inc. (GF), with respect to wafer purchases for our HPC products at the 12 nm and 14 nm technology nodes. 10"
+   },
+   {
+    "chunk_id": "ch_c2f8ae1df90738db",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 11,
+    "text": "online and brick and mortar retailers. Our graphics product customers include the foregoing as well as add-in-board manufacturers (AIBs). Customers of our chipset products consist primarily of PC OEMs, often through ODMs or other contract manufacturers, who build the OEM motherboards, as well as desktop and server motherboard manufacturers who incorporate chipsets into their channel motherboards. Our FPGA and Adaptive SOC products are sold to customers in a very wide range of markets such as Aerospace and Defense, Test and Measurement, Industrial, Automotive, Consumers, Broadcast, Communication Infrastructure and Data Center. For these products we either sell directly to our customers or through a network of distributors and OEM partners. We are also developing a network of Value Added Resellers (VARs) and Integrated Solution Vendors (ISVs) for our Alveo products. We work closely with our customers to define product features, performance and timing of new products so that the products …"
+   },
+   {
+    "chunk_id": "ch_980626d83150f018",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 14,
+    "text": "Table of Contents Additionally, we purchase wafers from United Microelectronics Corporation (UMC) and Samsung Electronics Co., Ltd. Other Third-Party Manufacturers We outsource board-level graphics product manufacturing to third-party manufacturers. Assembly, Test, Mark and Packaging Facilities Wafers for our products are either sorted by the foundry or delivered by the foundry to our assembly, test, mark and packaging (ATMP) partners or subcontractors located in the Asia-Pacific region who package and test our final semiconductor products. We are party to two ATMP joint ventures (collectively, the ATMP JVs) with Tongfu Microelectronics Co., Ltd. The ATMP JVs, Siliconware Precision Industries Ltd. (SPIL) and King Yuan Electronics Company (KYEC) provide ATMP services for our products. Intellectual Property and Licensing We rely on contracts and intellectual property rights to protect our products and technologies from unauthorized third-party copying and use. Intellectual property right…"
+   },
+   {
+    "chunk_id": "ch_3224365182c09ab8",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 14,
+    "text": "and abroad on significant inventions, as we deem appropriate. We do not believe that any individual patent, or the expiration of any patent, is or would be material to our business. As is typical in the semiconductor industry, we have numerous cross-licensing and technology exchange agreements with other companies under which we both transfer and receive technology and intellectual property rights. We have acquired various licenses from external parties to certain technologies that are implemented in our products, including our IP cores and devices. These licenses support our continuing ability to make and sell our products. We have also acquired licenses to certain proprietary software, open-source software, and related technologies, such as compilers, for our design tools. Continued use of such software and technology is important to the operation of the design tools upon which our customers depend. Backlog Sales are made primarily pursuant to purchase orders for current delivery or …"
+   },
+   {
+    "chunk_id": "ch_d0c9d10e6a6de5b1",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 11,
+    "text": "Our FPGA product brands are Virtex-6, Virtex-7, Virtex UltraScale+, Kintex-7, Kintex UltraScale, Kintex UltraScale+, Artix-7, Artix UltraScale+, Spartan-6 and Spartan-7. Our product brands for Adaptive SoCs are Zynq-7000, Zynq UltraScale+ MPSoC, Zynq UltraScale+ RFSoCs, Versal HBM, Versal Premium, Versal Prime, Versal AI Core, Versal AI Edge, Vitis and Vivado. Our compute and network acceleration board products are sold under the Alveo brand. We market our products through direct marketing and co-marketing programs. In addition, we have cooperative advertising and marketing programs with customers and third parties, including market development programs, pursuant to which we may provide product information, training, marketing materials and funds. Under our co-marketing development programs, eligible customers can use market development funds as reimbursement for advertisements and marketing programs related to our products and third-party systems integrating our products, subject to m…"
+   }
+  ]
+ }
+}

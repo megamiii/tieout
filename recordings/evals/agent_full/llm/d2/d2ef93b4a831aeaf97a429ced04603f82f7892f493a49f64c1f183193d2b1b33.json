@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "CVS Health's total assets in fiscal year 2022 were $228,275 million (or $228.275 billion) as of December 31, 2022.\n\n#[cite: xf_cd29bfea0d414de2, \"228275000000\"]\n#[cite: ch_f8a564f1d3487be1, \"Total assets $ 228,275 $ 232,999\"]",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TDb0dEK680pq2DarGy/3HeUKInt1SVLuJj47b0M6+s4Dq+87wuRkiL6AatnzuRFnDDHvsg2AGKaa53oSbKDeStFWT9s2Ub46iOI9C+fHhH+jRSahlFabAjdI="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791561649,
+  "id": "sA_Jao78Bd3txs0Pw9zL4Ak",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 128,
+   "prompt_tokens": 4442,
+   "total_tokens": 4570
+  }
+ }
+}

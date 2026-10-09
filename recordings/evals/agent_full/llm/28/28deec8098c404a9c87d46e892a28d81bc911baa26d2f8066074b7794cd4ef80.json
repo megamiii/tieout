@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T5IiME4rwPAYuqDotm7L373YMfCsEvuXV28XCfS6ScuKTffVHsvWkOEafSK4sFSR9+SMFiOecREOAZteUDd2R6ivb/B5h+ujB7s+l4fK6jlDC+k6yEucQK1A="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"The FY2022 unadjusted EBITDA less capex for PepsiCo is $9,068 million. \\n\\nComponents (from Income Statement and Statement of Cash Flows):\\n- Operating Profit (Operating Income): $11,512 million\\n- Depreciation and Amortization (from Cash Flow Statement): $2,763 million\\n- Unadjusted EBITDA (Operating Profit + D&A): $14,275 million\\n- Capital Spending (Capex): $5,207 million\\n- Unadjusted EBITDA less capex: $9,068 million\",\"rationale\":\"Calculated via explicit tool outputs.\",\"citations\":[{\"quote\":\"Operating Profit 11,512\",\"source_id\":\"ch_7a48f98cd7a1b7a6\"},{\"source_id\":\"ch_54bf5e6b14449e55\",\"quote\":\"Depreciation and amortization 2,763\"},{\"source_id\":\"ch_337f55c422e70ed5\",\"quote\":\"Capital spending (5,207)\"}],\"confidence\":1,\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_937322",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560492,
+  "id": "KwvJaqiNH_3fxs0Pj4ieiAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 283,
+   "prompt_tokens": 8715,
+   "prompt_tokens_details": {
+    "cached_tokens": 4451
+   },
+   "total_tokens": 8998
+  }
+ }
+}

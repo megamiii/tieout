@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income Revenues Cost of sales",
+  "ticker": "NKE",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_1cee10a3de7c255c",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 33,
+    "text": "increased total Converse revenues by approximately 1 percentage point for fiscal 2018. Revenues from comparable licensed markets decreased 14%, reducing total Converse revenues by approximately 1 percentage point, driven by lower revenues in Latin America. Reported EBIT declined 35% for fiscal 2018 driven by lower revenues, higher selling and administrative expense and, to a lesser extent, gross margin contraction. Gross margin decreased 100 basis points as higher full-price ASP was more than offset by higher product costs and the unfavorable impact of lower licensing revenues. Selling and administrative expense increased due to higher operating overhead and demand creation expense. Higher operating overhead expense was due to continued investment in our direct to consumer business and, to a lesser extent, higher wage-related costs, while higher demand creation expense was due to increased marketing support for initiatives to drive growth. Fiscal 2017 Compared to Fiscal 2016 On a curre…"
+   },
+   {
+    "chunk_id": "ch_46cd623ac1c9d41e",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 39,
+    "text": "Table of Contents Critical Accounting Policies Our previous discussion and analysis of our financial condition and results of operations are based upon our Consolidated Financial Statements, which have been prepared in accordance with accounting principles generally accepted in the United States of America. The preparation of these financial statements requires us to make estimates and judgments that affect the reported amounts of assets, liabilities, revenues and expenses and related disclosure of contingent assets and liabilities. Note 1 — Summary of Significant Accounting Policies in the accompanying Notes to the Consolidated Financial Statements describes the significant accounting policies and methods used in the preparation of our Consolidated Financial Statements. We believe the estimates, assumptions and judgments involved in the accounting policies described below have the greatest potential impact on our financial statements, so we consider these to be our critical accounting…"
+   },
+   {
+    "chunk_id": "ch_f2333611059be3fc",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 33,
+    "text": "% Change Excluding Currency Changes Revenues $ 1,886 $ 2,042 -8 % -11 % $ 1,955 4 % 6% Earnings Before Interest and Taxes $ 310 $ 477 -35 % $ 487 -2 % In territories we define as “direct distribution markets,” Converse designs, markets and sells products directly to distributors and wholesale customers, and to consumers through direct to consumer operations. The largest direct distribution markets are the United States, the United Kingdom and China. We do not own the Converse trademarks in Japan and accordingly do not earn revenues in Japan. Territories other than direct distribution markets and Japan are serviced by third-party licensees who pay royalty revenues to Converse for the use of its registered trademarks and other intellectual property rights. Fiscal 2018 Compared to Fiscal 2017 On a currency-neutral basis, revenues for Converse declined 11% for fiscal 2018. Comparable direct distribution markets (i.e., markets served under a direct distribution model for comparable periods …"
+   },
+   {
+    "chunk_id": "ch_25bc697d2249436a",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 52,
+    "text": "the Company has made corresponding revisions of $2.6 billion , $0.1 billion and $0.2 billion for the periods ended May 31, 2015, 2016 and, 2017, respectively. Revenue Recognition Wholesale revenues are recognized when title and the risks and rewards of ownership have passed to the customer, based on the terms of sale. This occurs upon shipment or upon receipt by the customer depending on the country of the sale and the agreement with the customer. Retail store revenues are recorded at the time of sale and digital commerce revenues are recorded upon delivery to the customer. Amounts collected from customers for sales or value added tax are recorded on a net basis. Provisions for post-invoice sales discounts, returns and miscellaneous claims from customers are estimated and recorded as a reduction to revenue at the time of sale. Post-invoice sales discounts consist of contractual programs with certain customers or discretionary discounts expected to be granted to certain customers at a l…"
+   },
+   {
+    "chunk_id": "ch_5ecc48da439e0ccb",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 22,
+    "text": "Income before income taxes decreased 11% for fiscal 2018, in part reflecting the negative impact of weakening foreign currency exchange rates. Revenue growth was more than offset by higher selling and administrative expense, gross margin contraction, and a shift to other expense, net from other income, net for fiscal 2017. NIKE, Inc. gross margin decreased 80 basis points primarily due to foreign currency exchange rate headwinds. Selling and administrative expense was higher as a percent of revenues, reflecting investments in digital capabilities, consumer experiences and product and brand marketing to drive long-term growth under the Consumer Direct Offense. Diluted earnings per common share reflects a 2% decline in the weighted average diluted common shares outstanding, driven by our share repurchase program. While foreign currency markets remain volatile, we continue to see opportunities to drive future growth and profitability, and remain committed to effectively managing our busin…"
+   }
+  ]
+ }
+}

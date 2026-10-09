@@ -1,0 +1,59 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "NKE",
+  "query": "total assets",
+  "concept": null,
+  "fiscal_years": [
+   2017,
+   2018
+  ]
+ },
+ "output": {
+  "ticker": "NKE",
+  "concepts": [
+   {
+    "concept": "Assets",
+    "label": "Assets",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "as of 2018-05-31",
+      "value": "22536000000",
+      "fact_id": "xf_742f84e64490d858",
+      "reported_in_10k_filed": "2018-07-25"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "as of 2017-05-31",
+      "value": "23259000000",
+      "fact_id": "xf_3a305f246428776c",
+      "reported_in_10k_filed": "2017-07-20"
+     }
+    ]
+   },
+   {
+    "concept": "AssetsCurrent",
+    "label": "Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "as of 2018-05-31",
+      "value": "15134000000",
+      "fact_id": "xf_b7260d009ecc53ad",
+      "reported_in_10k_filed": "2018-07-25"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "as of 2017-05-31",
+      "value": "16061000000",
+      "fact_id": "xf_d10b7d7582216a41",
+      "reported_in_10k_filed": "2017-07-20"
+     }
+    ]
+   }
+  ]
+ }
+}

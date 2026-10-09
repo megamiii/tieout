@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "primary customers",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_01815d581e64bfd8",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 66,
+    "text": "Table of Contents Income recognition is generally suspended for customer financing receivables that are uncollectible. We determine that a customer financing receivable is uncollectible when, based on current information and events, it is probable that we will be unable to collect amounts due according to the original contractual terms. We determine a customer financing receivable is past due when cash has not been received upon the due date specified in the contract. We evaluate the collectability of customer financing receivables at commencement and on a recurring basis. If a customer financing receivable is determined to be uncollectible, the customer is categorized as non-accrual status. When a customer is in non-accrual status at commencement, sales-type lease revenue is deferred until substantially all cash has been received or the customer is removed from non-accrual status. If we have a direct finance lease and/or a note receivable with a customer that is in non-accrual status,…"
+   },
+   {
+    "chunk_id": "ch_3c805a25dfb7e3e1",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 65,
+    "text": "recorded at average cost. Payments for commercial spare parts sales are typically received shortly after delivery. Other service revenue contracts Certain contracts at our BGS segment are for sales of services to commercial customers including maintenance, training, data analytics and information-based services. We recognize revenue for these service performance obligations over time as the services are rendered. The method of measuring progress (such as straight-line or billable amount) varies depending upon which method best depicts the transfer of control to the customer based on the type of service performed. Cost of sales is recorded as incurred. Concession sharing arrangements We account for sales concessions to our customers in consideration of their purchase of products and services as a reduction of the transaction price and the revenue that is recognized for the related performance obligations. The sales concessions incurred may be partially reimbursed by certain suppliers in…"
+   },
+   {
+    "chunk_id": "ch_790b51cd1318883a",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 65,
+    "text": "Table of Contents Due to the significance of judgment in the estimation process, changes in underlying assumptions/estimates, internal and supplier performance, inflationary trends, or other circumstances may adversely or positively affect financial performance in future periods. Payments under long-term contracts may be received before or after revenue is recognized. The U.S. government customer typically withholds payment of a small portion of the contract price until contract completion. Therefore, long-term contracts typically generate Unbilled receivables (contract assets) but may generate Advances and progress billings (contract liabilities). Long-term contract Unbilled receivables and Advances and progress billings are not considered a significant financing component because they are intended to protect either the customer or the Company in the event that some or all of the obligations under the contract are not completed. Commercial spare parts contracts Certain contracts at ou…"
+   },
+   {
+    "chunk_id": "ch_77b1a0d0dfd2b4a6",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 72,
+    "text": "Table of Contents Allowances for Losses on Certain Financial Assets We establish allowances for credit losses on accounts receivable, unbilled receivables, customer financing receivables and certain other financial assets. The adequacy of these allowances is assessed quarterly through consideration of factors such as customer credit ratings, bankruptcy filings, published or estimated credit default rates, age of the receivable, expected loss rates and collateral exposures. Collateral exposure is the excess of the carrying value of a financial asset over the fair value of the related collateral. We determine the creditworthiness of our customers by assigning internal credit ratings based upon publicly available information and information obtained directly from the customers. Our rating categories are comparable to those used by major credit rating agencies. Customer financing receivables are collateralized by security in the related asset. We use a median calculated from published coll…"
+   },
+   {
+    "chunk_id": "ch_81aa71ab0d314502",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 118,
+    "text": "and amortization for centrally managed assets are included in segment operating earnings based on usage and occupancy. In 2022, $643 was included in the primary business segments, of which $360, $230 and $53 was included in BCA, BDS and BGS, respectively. In 2021, $668 was included in the primary business segments, of which $386, $222 and $60 was included in BCA, BDS and BGS, respectively. In 2020, $689 was included in the primary business segments, of which $397, $236 and $56 was included in BCA, BDS and BGS, respectively. (1) (1) 114"
+   }
+  ]
+ }
+}

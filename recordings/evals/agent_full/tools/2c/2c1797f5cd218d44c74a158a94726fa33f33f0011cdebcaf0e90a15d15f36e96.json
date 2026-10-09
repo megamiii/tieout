@@ -1,0 +1,71 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "CVS",
+  "query": "net cash provided by operating activities",
+  "concept": null,
+  "fiscal_years": [
+   2017,
+   2018
+  ]
+ },
+ "output": {
+  "ticker": "CVS",
+  "concepts": [
+   {
+    "concept": "NetCashProvidedByUsedInOperatingActivities",
+    "label": "Net Cash Provided by (Used in) Operating Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "2018-01-01..2018-12-31",
+      "value": "8865000000",
+      "fact_id": "xf_999d0b3e3439c0d0",
+      "reported_in_10k_filed": "2019-02-28"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "2017-01-01..2017-12-31",
+      "value": "8007000000",
+      "fact_id": "xf_b0e641b167252418",
+      "reported_in_10k_filed": "2018-02-14"
+     }
+    ]
+   },
+   {
+    "concept": "NetCashProvidedByUsedInInvestingActivities",
+    "label": "Net Cash Provided by (Used in) Investing Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "2018-01-01..2018-12-31",
+      "value": "-43285000000",
+      "fact_id": "xf_f8e795a08283619a",
+      "reported_in_10k_filed": "2019-02-28"
+     },
+     {
+      "fiscal_year": 2017,
+      "period": "2017-01-01..2017-12-31",
+      "value": "-2932000000",
+      "fact_id": "xf_1b1e30e38097e310",
+      "reported_in_10k_filed": "2018-02-14",
+      "later_restated_to": [
+       {
+        "value": "-2877000000",
+        "fact_id": "xf_0bef3c12b7a7c174",
+        "filed": "2019-02-28"
+       },
+       {
+        "value": "-2877000000",
+        "fact_id": "xf_b3ddb06960140232",
+        "filed": "2020-02-18"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

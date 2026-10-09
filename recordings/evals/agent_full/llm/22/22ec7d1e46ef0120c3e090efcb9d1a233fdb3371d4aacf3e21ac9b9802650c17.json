@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TRFrbpqjrnDi5Sv8rtwg8CMUem0afojH6D+wvLcC8ZU3L8trY6ka1c4ep1qoeyLerR/P/Rs1O8i/KO1I75vmR3wGJb49ge1Nl3oFUEZHo76Nem8tmUVx5/qE="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"query\":\"Consolidated Statement of Income PepsiCo operating income\",\"ticker\":\"PEP\"}",
+        "name": "search_filings"
+       },
+       "id": "call_937209",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560487,
+  "id": "JgvJaqmMN8LQ28oP35vpgQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 4906,
+   "total_tokens": 4946
+  }
+ }
+}

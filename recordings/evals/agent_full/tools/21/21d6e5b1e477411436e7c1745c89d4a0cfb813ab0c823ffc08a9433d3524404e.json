@@ -1,0 +1,30 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "ADBE",
+  "query": "Operating Income (Loss)",
+  "concept": null,
+  "fiscal_years": [
+   2016
+  ]
+ },
+ "output": {
+  "ticker": "ADBE",
+  "concepts": [
+   {
+    "concept": "OperatingIncomeLoss",
+    "label": "Operating Income (Loss)",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2016,
+      "period": "2015-11-28..2016-12-02",
+      "value": "1493602000",
+      "fact_id": "xf_ca217ec1aea501b9",
+      "reported_in_10k_filed": "2017-01-20"
+     }
+    ]
+   }
+  ]
+ }
+}

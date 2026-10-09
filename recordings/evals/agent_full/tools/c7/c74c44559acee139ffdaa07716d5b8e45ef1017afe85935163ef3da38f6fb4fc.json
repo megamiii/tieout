@@ -1,0 +1,59 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GIS",
+  "query": "total revenue",
+  "concept": null,
+  "fiscal_years": [
+   2019,
+   2020
+  ]
+ },
+ "output": {
+  "ticker": "GIS",
+  "concepts": [
+   {
+    "concept": "Revenues",
+    "label": "Revenues",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2019-05-27..2020-05-31",
+      "value": "2045600000",
+      "fact_id": "xf_d9d13781f87e2b83",
+      "reported_in_10k_filed": "2021-06-30"
+     },
+     {
+      "fiscal_year": 2019,
+      "period": "2018-05-28..2019-05-26",
+      "value": "2043900000",
+      "fact_id": "xf_9cf30a0bf65b4040",
+      "reported_in_10k_filed": "2021-06-30"
+     }
+    ]
+   },
+   {
+    "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "label": "Revenue from Contract with Customer, Excluding Assessed Tax",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "2019-05-27..2020-05-31",
+      "value": "17626600000",
+      "fact_id": "xf_104cc7ef55744a9c",
+      "reported_in_10k_filed": "2020-07-02"
+     },
+     {
+      "fiscal_year": 2019,
+      "period": "2018-05-28..2019-05-26",
+      "value": "16865200000",
+      "fact_id": "xf_6c444058d4c4635e",
+      "reported_in_10k_filed": "2019-06-28"
+     }
+    ]
+   }
+  ]
+ }
+}

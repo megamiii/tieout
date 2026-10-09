@@ -1,0 +1,59 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "ADBE",
+  "query": "operating income",
+  "concept": null,
+  "fiscal_years": [
+   2015,
+   2016
+  ]
+ },
+ "output": {
+  "ticker": "ADBE",
+  "concepts": [
+   {
+    "concept": "OperatingIncomeLoss",
+    "label": "Operating Income (Loss)",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2016,
+      "period": "2015-11-28..2016-12-02",
+      "value": "1493602000",
+      "fact_id": "xf_ca217ec1aea501b9",
+      "reported_in_10k_filed": "2017-01-20"
+     },
+     {
+      "fiscal_year": 2015,
+      "period": "2014-11-29..2015-11-27",
+      "value": "903095000",
+      "fact_id": "xf_c6a853a12cafa5ad",
+      "reported_in_10k_filed": "2016-01-19"
+     }
+    ]
+   },
+   {
+    "concept": "OperatingExpenses",
+    "label": "Operating Expenses",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2016,
+      "period": "2015-11-28..2016-12-02",
+      "value": "3540920000",
+      "fact_id": "xf_b0575809dd265122",
+      "reported_in_10k_filed": "2017-01-20"
+     },
+     {
+      "fiscal_year": 2015,
+      "period": "2014-11-29..2015-11-27",
+      "value": "3148099000",
+      "fact_id": "xf_dd5e60e41ea6a43b",
+      "reported_in_10k_filed": "2016-01-19"
+     }
+    ]
+   }
+  ]
+ }
+}

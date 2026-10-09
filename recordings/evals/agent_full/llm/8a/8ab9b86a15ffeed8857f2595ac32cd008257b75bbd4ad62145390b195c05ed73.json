@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T//vWcTB8aX/0guadC2cMZNVL6I2bXMWQPScvLyiJ2FlNy07pfu43+yxWan71zq9MfnxiGN8Sdi2F7wH/ucL7rtViaeeiW7b2RCBjHprtrB7adJ1U7eFdmG4="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"7\",\"fiscal_year\":2022,\"query\":\"organic sales 2022 Total Company Safety and Industrial Transportation and Electronics Health Care Consumer\",\"ticker\":\"MMM\"}",
+        "name": "search_filings"
+       },
+       "id": "call_176576",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560238,
+  "id": "LgrJaqOyD--ExN8PlJPFsAY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 55,
+   "prompt_tokens": 5338,
+   "total_tokens": 5393
+  }
+ }
+}

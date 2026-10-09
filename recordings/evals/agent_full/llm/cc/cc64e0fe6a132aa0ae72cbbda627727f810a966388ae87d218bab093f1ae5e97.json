@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tej1WdjVTnh9uZg3IEszgCabroTLrfbg6X46HcskMXK9EBLaCozA3w3MowppV6V1hk1DO2Y2oTahVdqnUArVDnd1JACpYbaSl9T5WmDJALAvTP7kGL2M52ag="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"CVS\",\"query\":\"Note 12 Shareholders' Equity CVS Health dividends per share\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_924928",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560057,
+  "id": "eQnJatuwEZfsxN8PiPXoGQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 7355,
+   "prompt_tokens_details": {
+    "cached_tokens": 4048
+   },
+   "total_tokens": 7399
+  }
+ }
+}

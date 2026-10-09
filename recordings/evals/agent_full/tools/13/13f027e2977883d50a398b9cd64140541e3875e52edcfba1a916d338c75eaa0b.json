@@ -1,0 +1,59 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "NKE",
+  "query": "Inventories",
+  "concept": null,
+  "fiscal_years": [
+   2020,
+   2021
+  ]
+ },
+ "output": {
+  "ticker": "NKE",
+  "concepts": [
+   {
+    "concept": "IncreaseDecreaseInInventories",
+    "label": "Increase (Decrease) in Inventories",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2021,
+      "period": "2020-06-01..2021-05-31",
+      "value": "-507000000",
+      "fact_id": "xf_dba233bfc8fd9acb",
+      "reported_in_10k_filed": "2021-07-20"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "2019-06-01..2020-05-31",
+      "value": "1854000000",
+      "fact_id": "xf_00d281c1e9696f39",
+      "reported_in_10k_filed": "2020-07-24"
+     }
+    ]
+   },
+   {
+    "concept": "DeferredTaxAssetsInventory",
+    "label": "Deferred Tax Assets, Inventory",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2021,
+      "period": "as of 2021-05-31",
+      "value": "78000000",
+      "fact_id": "xf_c712d249f4a0838a",
+      "reported_in_10k_filed": "2021-07-20"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "as of 2020-05-31",
+      "value": "84000000",
+      "fact_id": "xf_e643ca1a638c6bae",
+      "reported_in_10k_filed": "2020-07-24"
+     }
+    ]
+   }
+  ]
+ }
+}

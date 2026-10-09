@@ -1,0 +1,87 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMD",
+  "query": "total assets",
+  "concept": null,
+  "fiscal_years": [
+   2014,
+   2015
+  ]
+ },
+ "output": {
+  "ticker": "AMD",
+  "concepts": [
+   {
+    "concept": "Assets",
+    "label": "Assets",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2015,
+      "period": "as of 2015-12-26",
+      "value": "3109000000",
+      "fact_id": "xf_e8f6295a0a5df7f8",
+      "reported_in_10k_filed": "2016-02-18",
+      "later_restated_to": [
+       {
+        "value": "3084000000",
+        "fact_id": "xf_ce2e1654b1d39d9d",
+        "filed": "2017-02-21"
+       }
+      ]
+     },
+     {
+      "fiscal_year": 2014,
+      "period": "as of 2014-12-27",
+      "value": "3767000000",
+      "fact_id": "xf_ab805bc7c3a43450",
+      "reported_in_10k_filed": "2015-02-19"
+     }
+    ]
+   },
+   {
+    "concept": "OtherAssetsCurrent",
+    "label": "Other Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2015,
+      "period": "as of 2015-12-26",
+      "value": "248000000",
+      "fact_id": "xf_f3a3c64ea23851ea",
+      "reported_in_10k_filed": "2016-02-18"
+     },
+     {
+      "fiscal_year": 2014,
+      "period": "as of 2014-12-27",
+      "value": "48000000",
+      "fact_id": "xf_1f38a84daf2a304a",
+      "reported_in_10k_filed": "2016-02-18"
+     }
+    ]
+   },
+   {
+    "concept": "AssetsCurrent",
+    "label": "Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2015,
+      "period": "as of 2015-12-26",
+      "value": "2320000000",
+      "fact_id": "xf_ec0a8a2660402587",
+      "reported_in_10k_filed": "2016-02-18"
+     },
+     {
+      "fiscal_year": 2014,
+      "period": "as of 2014-12-27",
+      "value": "2736000000",
+      "fact_id": "xf_6211ab30a59d51f3",
+      "reported_in_10k_filed": "2015-02-19"
+     }
+    ]
+   }
+  ]
+ }
+}

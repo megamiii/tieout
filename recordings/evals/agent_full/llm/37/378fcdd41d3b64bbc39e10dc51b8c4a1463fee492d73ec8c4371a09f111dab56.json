@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TRGo3tDb8ROjgfrzQz4KF8wPltuo57sNa4c2gS7ts1NynfzgsLnhi5DT5SzH2HIZmGXDYMRfvtfKXpZzmGeMeW0nqv7oqsRy7PHmwfjVt58Cu3maO9+iuAfY="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"Based on Best Buy's Consolidated Statements of Earnings for FY2015, FY2016, and FY2017, the net profit margins (Net earnings including noncontrolling interests divided by Revenue) are as follows:\\n- **FY2015**: Net earnings including noncontrolling interests of $1,235 million divided by Revenue of $40,339 million = 3.061%\\n- **FY2016**: Net earnings including noncontrolling interests of $897 million divided by Revenue of $39,528 million = 2.269%\\n- **FY2017**: Net earnings including noncontrolling interests of $1,228 million divided by Revenue of $39,403 million = 3.117%\\n\\nThe 3-year average net profit margin is **2.8%**.\",\"confidence\":1,\"citations\":[{\"source_id\":\"ch_66f8fe4224ac405b\",\"quote\":\"Revenue $ 39,403 $ 39,528 $ 40,339\"},{\"quote\":\"Net earnings including noncontrolling interests 1,228 897 1,235\",\"source_id\":\"ch_66f8fe4224ac405b\"}],\"rationale\":\"Calculated using revenue and net earnings including noncontrolling interests from Best Buy's Consolidated Statements of Earnings across FY2015, FY2016, and FY2017.\",\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_187844",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560358,
+  "id": "owrJauWoL8LQ28oP35vpgQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 371,
+   "prompt_tokens": 5908,
+   "total_tokens": 6279
+  }
+ }
+}

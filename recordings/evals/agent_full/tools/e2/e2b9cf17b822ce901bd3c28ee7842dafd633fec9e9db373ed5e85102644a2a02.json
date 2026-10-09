@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Cash Flows Depreciation and amortization",
+  "ticker": "AMD",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_bbd0f6d150f7a1eb",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 60,
+    "text": "Advanced Micro Devices, Inc. Consolidated Statements of Cash Flows Year Ended December 26, 2015 December 27, 2014 December 28, 2013 (In millions) Cash flows from operating activities: Net loss $ (660) $ (403) $ (83) Adjustments to reconcile net loss to net cash used in operating activities: Depreciation and amortization 167 203 236 Net loss on disposal of property, plant and equipment — — 31 Stock-based compensation expense 63 81 91 Non-cash interest expense 11 17 25 Goodwill impairment charge — 233 — Restructuring and other special charges, net 83 14 — Net loss on debt redemptions — 61 1 Other (3) (13) (1) Changes in operating assets and liabilities: Accounts receivable 280 7 (200) Inventories (11) 199 (322) Prepayments and other - GLOBALFOUNDRIES 84 (113) — Prepaid expenses and other assets (111) (7) (103) Accounts payables, accrued liabilities and other (156) (231) 266 Payable to GLOBALFOUNDRIES 27 (146) (89) Net cash used in operating activities (226) (98) (148) Cash flows from inv…"
+   },
+   {
+    "chunk_id": "ch_b470e78876b6c694",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 39,
+    "text": "favorable than our previous estimates, additional inventory write-downs may be required and would be reflected in cost of sales in the period the revision is made. This would have a negative impact on our gross margin in that period. If in any period we are able to sell inventories that were not valued or that had been written down in a previous period, related revenues would be recorded without any offsetting charge to cost of sales, resulting in a net benefit to our gross margin in that period. Goodwill. Goodwill represents the excess of the purchase price over the fair value of net tangible and identifiable intangible assets acquired. Goodwill is not amortized, but rather is tested for impairment at least annually, or more frequently if there are indicators of impairment present. We perform an annual goodwill impairment analysis as of the first day of the fourth quarter of each year. We evaluate whether goodwill has been impaired at the reporting unit level by first determining whet…"
+   },
+   {
+    "chunk_id": "ch_b2105a8648a1ccb5",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 49,
+    "text": "During 2015, 2014 and 2013, we did not realize any excess tax benefit related to stock-based compensation. Therefore, we did not record any effects relating to financing cash flows for these periods. Contractual Obligations The following table summarizes our consolidated principal contractual cash obligations, as of December 26, 2015, and is supplemented by the discussion following the table: Payment due by period (In millions) Total 2016 2017 2018 2019 2020 2021 and thereafter 6.75% Notes $ 600 $ — $ — $ — $ 600 $ — $ — 7.75% Notes 450 — — — — 450 — 7.50% Notes 475 — — — — — 475 7.00% Notes 500 — — — — — 500 Secured Revolving Line of Credit 230 230 — — — — — Other long-term liabilities 42 — 35 5 — — 2 Aggregate interest obligation(1) 889 148 148 148 128 106 211 Operating leases 306 51 50 45 28 26 106 Purchase obligations(2) 319 254 7 32 26 — — Obligations to GF(3) 248 248 — — — — — Total contractual obligations(4) $ 4,059 $ 931 $ 240 $ 230 $ 782 $ 582 $ 1,294 (1) Represents estimated …"
+   },
+   {
+    "chunk_id": "ch_93d41c5fbab239aa",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 70,
+    "text": "Gross Accumulated Amortization Net (In millions, except years) Developed technology $ 258 $ (54) $ (204) $ — 5.15 years $ 258 $ (201) $ 57 In-process research and development 6 (6) — — N/A 6 — 6 Customer relationships 168 (1) (167) — 1.25 years 168 (167) 1 Trademark and trade name 37 (1) (36) — 1.25 years 37 (36) 1 Total $ 469 $ (62) $ (407) $ — 4.56 years $ 469 $ (404) $ 65 The following table summarizes amortization expense associated with acquisition-related intangible assets: 2015 2014 2013 (In millions) Developed technology $ 3 $ 13 $ 13 Customer relationships — 1 1 Trademark and trade name — — 4 Total $ 3 $ 14 $ 18 NOTE 7: Financial Instruments Cash, Cash Equivalents and Marketable Securities Cash and financial instruments measured and recorded at fair value on a recurring basis as of December 26, 2015 and December 27, 2014 are summarized below: 68"
+   },
+   {
+    "chunk_id": "ch_7125f8703a1d2e24",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 63,
+    "text": "consideration all of the Company's consolidated exposures. The Company does not use derivative financial instruments for trading or speculative purposes. In applying its strategy, the Company used foreign currency forward contracts to hedge certain forecasted expenses denominated in foreign currencies. The Company designated these contracts as cash flow hedges of forecasted expenses, to the extent eligible under the accounting rules, and evaluates hedge effectiveness prospectively and retrospectively. As such, the effective portion of the gain or loss on these contracts is reported as a component of accumulated other comprehensive loss and reclassified to earnings in the same line item as the associated forecasted transaction and in the same period during which the hedged transaction affects earnings. Any ineffective portion is immediately recorded in earnings. The Company also uses, from time to time, foreign currency forward contracts to economically hedge recognized foreign currency…"
+   }
+  ]
+ }
+}

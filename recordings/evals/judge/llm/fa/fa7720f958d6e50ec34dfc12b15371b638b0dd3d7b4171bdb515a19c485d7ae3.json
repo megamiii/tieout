@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the two acquisitions mentioned in the gold answer and provides additional accurate context regarding the fiscal years and financial details.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TwguQR0ZZPW/QPDkjLSh8oPB2IGPkuQ1VwGaYfhYV1LD5jBxO4SMP8TVwOCkOkuobiunfGaoTARnMyxUtTBQJ9/hnblaTf6TqnuIB8YKhhqjG2knBEPSkpEhPdYwHnXgoE3Cp/2+m7bbTr/gK"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791560959,
+  "id": "6wzJasLiJ42jvdIP7eGI8QE",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 37,
+   "prompt_tokens": 361,
+   "total_tokens": 398
+  }
+ }
+}

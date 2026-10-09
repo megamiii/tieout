@@ -1,0 +1,59 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "BBY",
+  "query": "net income",
+  "concept": null,
+  "fiscal_years": [
+   2018,
+   2019
+  ]
+ },
+ "output": {
+  "ticker": "BBY",
+  "concepts": [
+   {
+    "concept": "NetIncomeLoss",
+    "label": "Net Income (Loss) Attributable to Parent",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "2018-02-04..2019-02-02",
+      "value": "1464000000",
+      "fact_id": "xf_0daadf2117d1dbcd",
+      "reported_in_10k_filed": "2019-03-28"
+     },
+     {
+      "fiscal_year": 2018,
+      "period": "2017-01-29..2018-02-03",
+      "value": "1000000000",
+      "fact_id": "xf_25cf3b61dca786a8",
+      "reported_in_10k_filed": "2018-04-02"
+     }
+    ]
+   },
+   {
+    "concept": "IncomeTaxesPaidNet",
+    "label": "Income Taxes Paid, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "2018-02-04..2019-02-02",
+      "value": "391000000",
+      "fact_id": "xf_407e76023c2fd775",
+      "reported_in_10k_filed": "2019-03-28"
+     },
+     {
+      "fiscal_year": 2018,
+      "period": "2017-01-29..2018-02-03",
+      "value": "366000000",
+      "fact_id": "xf_1fa348856fc88688",
+      "reported_in_10k_filed": "2018-04-02"
+     }
+    ]
+   }
+  ]
+ }
+}

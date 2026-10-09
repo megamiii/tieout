@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GIS",
+  "query": "Current assets",
+  "concept": null,
+  "fiscal_years": [
+   2020
+  ]
+ },
+ "output": {
+  "ticker": "GIS",
+  "concepts": [
+   {
+    "concept": "AssetsCurrent",
+    "label": "Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "as of 2020-05-31",
+      "value": "5121300000",
+      "fact_id": "xf_aa3b9eeebf2dd9cf",
+      "reported_in_10k_filed": "2020-07-02"
+     }
+    ]
+   },
+   {
+    "concept": "OtherAssetsCurrent",
+    "label": "Other Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "as of 2020-05-31",
+      "value": "402100000",
+      "fact_id": "xf_6f7adebac40f70a0",
+      "reported_in_10k_filed": "2020-07-02"
+     }
+    ]
+   },
+   {
+    "concept": "PrepaidExpenseAndOtherAssetsCurrent",
+    "label": "Prepaid Expense and Other Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "as of 2020-05-31",
+      "value": "402100000",
+      "fact_id": "xf_a078fc4e3284cea7",
+      "reported_in_10k_filed": "2020-07-02"
+     }
+    ]
+   }
+  ]
+ }
+}

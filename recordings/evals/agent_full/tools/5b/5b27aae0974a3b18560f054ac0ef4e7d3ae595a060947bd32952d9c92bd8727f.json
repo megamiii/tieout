@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Balance Sheets Liabilities",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_406aa10dc9be7f2c",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 140,
+    "text": "which are described further below), Travelers Cheques and other prepaid products outstanding, accounts payable, short-term borrowings and certain other liabilities for which the carrying values approximate fair value because they are short term in duration, have no defined maturity or have a market-based interest rate. Financial Liabilities Carried At Other Than Fair Value Certificates of Deposit Certificates of deposit (CDs) are recorded at their historical issuance cost on the Consolidated Balance Sheets. Fair value is estimated using a discounted cash flow methodology based on the future cash flows and the discount rate that reflects the current market rates for similar types of CDs within similar markets. Long-term Debt Long-term debt is recorded at historical issuance cost on the Consolidated Balance Sheets adjusted for (i) unamortized discount and unamortized fees, (ii) the impact of movements in exchange rates on foreign currency denominated debt and (iii) the impact of fair val…"
+   },
+   {
+    "chunk_id": "ch_6bca9207404bc648",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 135,
+    "text": "Table of Contents Our derivatives are carried at fair value on the Consolidated Balance Sheets. The accounting for changes in fair value depends on the instruments' intended use and the resulting hedge designation, if any, as discussed below. Refer to Note 14 for a description of our methodology for determining the fair value of derivatives. The following table summarizes the total fair value, excluding interest accruals, of derivative assets and liabilities as of December 31: Other Assets Fair Value Other Liabilities Fair Value (Millions) 2022 2021 2022 2021 Derivatives designated as hedging instruments: Fair value hedges - Interest rate contracts $ — $ 204 $ 211 $ — Net investment hedges - Foreign exchange contracts 350 219 251 54 Total derivatives designated as hedging instruments 350 423 462 54 Derivatives not designated as hedging instruments: Foreign exchange contracts and other 171 167 339 85 Total derivatives, gross 521 590 801 139 Derivative asset and derivative liability nett…"
+   },
+   {
+    "chunk_id": "ch_67fe08b8539ee583",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 139,
+    "text": "105 — Financial liabilities carried at other than fair value Certificates of deposit 5 5 — 5 — Long-term debt $ 39 $ 40 $ — $ 40 $ — (a) Level 2 fair value amounts reflect time deposits and short-term investments. (b) Balances include Card Member receivables (including fair values of Card Member receivables of $5.2 billion held by a consolidated VIE as of both December 31, 2022 and 2021), other receivables and other miscellaneous assets. (c) Balances include amounts held by a consolidated VIE for which the fair values of Card Member loans were $28.4 billion and $26.7 billion as of December 31, 2022 and 2021, respectively, and the fair values of Long-term debt were $12.3 billion and $13.9 billion as of December 31, 2022 and 2021, respectively. (d) Presented as a component of Customer deposits on the Consolidated Balance Sheets. (a) (b) (c) (d) (c) (a) (b) (c) (d) (c) 136"
+   },
+   {
+    "chunk_id": "ch_1ff60ced74aa865f",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 98,
+    "text": "Table of Contents CONSOLIDATED BALANCE SHEETS December 31 (Millions, except share data) 2022 2021 Assets Cash and cash equivalents Cash and due from banks (includes restricted cash of consolidated variable interest entities: 2022, $5; 2021, $11) $ 5,510 $ 1,292 Interest-bearing deposits in other banks (includes securities purchased under resale agreements: 2022, $318; 2021, $463) 28,097 20,548 Short-term investment securities (includes restricted investments of consolidated variable interest entities: 2022, $54; 2021, $32) 307 188 Total cash and cash equivalents 33,914 22,028 Card Member receivables (includes gross receivables available to settle obligations of a consolidated variable interest entity: 2022, $5,193; 2021, $5,175), less reserves for credit losses: 2022, $229; 2021, $64 57,384 53,581 Card Member loans (includes gross loans available to settle obligations of a consolidated variable interest entity: 2022, $28,461; 2021, $26,587), less reserves for credit losses: 2022, $3,74…"
+   },
+   {
+    "chunk_id": "ch_662a783173fed616",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 104,
+    "text": "Table of Contents BALANCE SHEET Cash and Cash Equivalents Cash and cash equivalents include cash and amounts due from banks, interest-bearing bank balances, including securities purchased under resale agreements, restricted cash, and other highly liquid investments with original maturities of 90 days or less. Restricted cash primarily represents amounts related to Card Member credit balances as well as upcoming debt maturities of consolidated VIEs. Goodwill Goodwill represents the excess of the acquisition cost of an acquired business over the fair value of assets acquired and liabilities assumed. We allocate goodwill to our reporting units for the purpose of impairment testing. A reporting unit is defined as an operating segment, or a business that is one level below an operating segment, for which discrete financial information is regularly reviewed by the operating segment manager. We evaluate goodwill for impairment annually as of June 30, or more frequently if events occur or circ…"
+   }
+  ]
+ }
+}

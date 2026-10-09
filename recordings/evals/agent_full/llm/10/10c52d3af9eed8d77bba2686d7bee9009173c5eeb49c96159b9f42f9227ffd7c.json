@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TelrWuAGplitPz36QKyR67Cvx7sueac5hEQ9hVz5ZXB8ddQFzx3PRCJrNwMbLPefGPi4cMElWyfXSum5kXCBM1OcEsJn0O1vBbNsZnYz08vB0e4pZk++AM6Y="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"Boeing's net income attributable to Boeing shareholders (net loss) changed by -17.4% from fiscal year 2021 to fiscal year 2022 (increasing in magnitude of loss from -$4,202 million in 2021 to -$4,935 million in 2022). Alternatively, total net loss (including noncontrolling interest) changed by -17.8% from -$4,290 million in 2021 to -$5,053 million in 2022.\",\"confidence\":1,\"rationale\":\"The net loss attributable to Boeing shareholders increased from $4,202 million in FY2021 to $4,935 million in FY2022, representing a -17.4% change. If using total net loss including noncontrolling interest, it changed from $4,290 million to $5,053 million, representing a -17.8% change. Both figures are provided.\",\"citations\":[{\"source_id\":\"ch_5d78669497b1d576\",\"quote\":\"Net loss attributable to Boeing Shareholders ($4,935) ($4,202) ($11,873)\"},{\"quote\":\"Net loss ($5,053) ($4,290) ($11,941)\",\"source_id\":\"ch_1908872c8c93b9bc\"}],\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_267701",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561504,
+  "id": "Hg_JavieOpGF28oPzbuX-Ag",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 357,
+   "prompt_tokens": 8021,
+   "total_tokens": 8378
+  }
+ }
+}

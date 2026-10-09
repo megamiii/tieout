@@ -1,0 +1,59 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AXP",
+  "query": "net cash provided by operating activities",
+  "concept": null,
+  "fiscal_years": [
+   2021,
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "AXP",
+  "concepts": [
+   {
+    "concept": "NetCashProvidedByUsedInOperatingActivities",
+    "label": "Net Cash Provided by (Used in) Operating Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "21079000000",
+      "fact_id": "xf_7fd17a04067df92f",
+      "reported_in_10k_filed": "2023-02-10"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2021-01-01..2021-12-31",
+      "value": "14645000000",
+      "fact_id": "xf_952332961bec8afc",
+      "reported_in_10k_filed": "2022-02-11"
+     }
+    ]
+   },
+   {
+    "concept": "NetCashProvidedByUsedInFinancingActivities",
+    "label": "Net Cash Provided by (Used in) Financing Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "24509000000",
+      "fact_id": "xf_7d217d30e51f370c",
+      "reported_in_10k_filed": "2023-02-10"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2021-01-01..2021-12-31",
+      "value": "-14933000000",
+      "fact_id": "xf_ff9520d62b1300f7",
+      "reported_in_10k_filed": "2022-02-11"
+     }
+    ]
+   }
+  ]
+ }
+}

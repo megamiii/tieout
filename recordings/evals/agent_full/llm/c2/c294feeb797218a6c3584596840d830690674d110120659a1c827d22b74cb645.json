@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T9fMy9kBH+/CS0PzTiircaDBtQsJ18Z8k87G2MTTZRh0908xhSd8KredXuwmQnJ4jGkUmjijKLZ8+9n80i3QE6BU7DTgT/P3y4kyWqIc5V18ttNoOffrfvJs="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"needs_review\":false,\"citations\":[{\"quote\":\"1587000000\",\"source_id\":\"xf_f4e10c9b37b97842\"},{\"source_id\":\"xf_a5c8c1cf799d9930\",\"quote\":\"1174000000\"},{\"source_id\":\"xf_1f0992f44deb2b2e\",\"quote\":\"7772000000\"},{\"quote\":\"2320000000\",\"source_id\":\"xf_b976f127071d2752\"},{\"source_id\":\"xf_f9401502e47c5c9a\",\"quote\":\"2438000000\"}],\"answer\":\"Based on Corning's FY2020 10-K, the components for calculating FY2020 days payable outstanding (DPO) are as follows:\\n- Accounts payable as of December 31, 2019: $1,587 million\\n- Accounts payable as of December 31, 2020: $1,174 million\\n- Average accounts payable between FY2019 and FY2020: $1,380.50 million\\n- FY2020 Cost of Sales (Cost of Revenue): $7,772 million\\n- Inventory as of December 31, 2019: $2,320 million\\n- Inventory as of December 31, 2020: $2,438 million\\n- Change in inventory between FY2019 and FY2020: $118 million\\n- Denominator (FY2020 COGS + change in inventory): $7,890 million\\n\\nUsing the formula:\\n365 * $1,380.50 million / $7,890 million = 63.87679... days\\n\\nRounded to two decimal places, Corning's FY2020 DPO is **63.88** days.\",\"rationale\":\"Calculated DPO using the requested formula with exact figures retrieved from Corning's financial facts (accounts payable, cost of revenue/COGS, and inventory for FY2019 and FY2020).\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_758328",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560904,
+  "id": "xgzJavyhIMLQ28oP35vpgQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 571,
+   "prompt_tokens": 4281,
+   "total_tokens": 4852
+  }
+ }
+}

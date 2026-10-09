@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TZvlFtVDJdkZPkHVfp+V5OnmpxhSsjby+XNmN73kYANLXqx+7CQj0hx2so6dJJ/aWLm42CMUIlkD6rqFOlxnu/rLBu2j/DNQbHymk1ddqjX5Jdsmd7KJMUwg="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"ADBE\",\"fiscal_year\":2017,\"query\":\"Consolidated Statements of Cash Flows Cash flows from operating activities\"}",
+        "name": "search_filings"
+       },
+       "id": "call_182335",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560534,
+  "id": "VgvJapX4HaO_vdIP-aSQmQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 2863,
+   "total_tokens": 2906
+  }
+ }
+}

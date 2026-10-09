@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Earnings from operations",
+  "ticker": "BA",
+  "fiscal_year": 2018,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5a0ca2669ca6dc1e",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 77,
+    "text": "Table of Contents Note 5 – Earnings Per Share Basic and diluted earnings per share are computed using the two-class method, which is an earnings allocation method that determines earnings per share for common shares and participating securities. The undistributed earnings are allocated between common shares and participating securities as if all earnings had been distributed during the period. Participating securities and common shares have equal rights to undistributed earnings. Basic earnings per share is calculated by taking net earnings, less earnings available to participating securities, divided by the basic weighted average common shares outstanding. Diluted earnings per share is calculated by taking net earnings, less earnings available to participating securities, divided by the diluted weighted average common shares outstanding. The elements used in the computation of basic and diluted earnings per share were as follows: (In millions - except per share amounts) Years ended De…"
+   },
+   {
+    "chunk_id": "ch_7210dc14ad041e3f",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 66,
+    "text": "Table of Contents Other Equity investments are recorded at fair value, with gains and losses recorded through net earnings. Equity investments without readily determinable fair value are measured at cost, less impairments, plus or minus observable price changes. Equity investments without readily determinable fair value are assessed for impairment quarterly. We classify investment income and loss on our Consolidated Statements of Operations based on whether the investment is operating or non- operating in nature. Operating investments align strategically and are integrated with our operations. Earnings from operating investments, including our share of income or loss from equity method investments, dividend income from other equity investments, and any impairments or gain/loss on the disposition of these investments, are recorded in Income from operating investments, net. Non-operating investments are those we hold for non- strategic purposes. Earnings from non-operating investments, i…"
+   },
+   {
+    "chunk_id": "ch_1606be242f6fa603",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 70,
+    "text": "(76,612) (80,790) 1,764 (79,026) 17,326 67 17,393 13,781 689 14,470 Income from operating investments, net 204 204 303 303 General and administrative expense (4,094) (1) (4,095) (3,616) 3 (3,613) Research and development expense, net (3,179) (3,179) (4,627) 1 (4,626) Gain/(loss) on dispositions, net 21 21 (7) (7) Earnings from operations 10,278 66 10,344 5,834 693 6,527 Other income/(loss), net 129 (6) 123 40 (478) (438) Interest and debt expense (360) (360) (306) (306) Earnings before income taxes 10,047 60 10,107 5,568 215 5,783 Income tax expense (1,850) 201 (1,649) (673) (76) (749) Net earnings $8,197 $261 $8,458 $4,895 $139 $5,034 Basic earnings per share $13.60 $0.43 $14.03 $7.70 $0.22 $7.92 Diluted earnings per share $13.43 $0.42 $13.85 $7.61 $0.22 $7.83 67"
+   },
+   {
+    "chunk_id": "ch_4e812fc57ab9d05a",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 66,
+    "text": "include in earnings the extent to which the hedge is not effective in achieving offsetting changes in fair value. For our cash flow hedges, the effective portion of the derivative's gain or loss is initially reported in comprehensive income and is subsequently reclassified into earnings in the same period or periods during which the hedged forecasted transaction affects earnings. The ineffective portion of the gain or loss of a cash flow hedge is reported in earnings immediately. We have agreements to purchase and sell aluminum to address long-term strategic sourcing objectives and international business requirements. These agreements are derivatives for accounting purposes but are not designated for hedge accounting treatment. We also hold certain derivative instruments for economic purposes that are not designated for hedge accounting treatment. For these aluminum agreements and for other derivative instruments not designated for hedge accounting treatment, the changes in their fair …"
+   },
+   {
+    "chunk_id": "ch_646d7ca0490ce73e",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 50,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Operations (Dollars in millions, except per share data) Years ended December 31, 2018 2017 2016 Sales of products $90,229 $83,740 $83,198 Sales of services 10,898 10,265 10,298 Total revenues 101,127 94,005 93,496 Cost of products (72,922) (68,879) (71,013) Cost of services (8,499) (7,663) (7,954) Boeing Capital interest expense (69) (70) (59) Total costs and expenses (81,490) (76,612) (79,026) 19,637 17,393 14,470 Income from operating investments, net 111 204 303 General and administrative expense (4,567) (4,095) (3,613) Research and development expense, net (3,269) (3,179) (4,626) Gain/(loss) on dispositions, net 75 21 (7) Earnings from operations 11,987 10,344 6,527 Other income/(loss), net 92 123 (438) Interest and debt expense (475) (360) (306) Earnings before income taxes 11,604 10,107 5,783 Income tax expense (1,144) (1,649) (749) Net earnings $10,460 $8,458 $5,034 Basic earnings per share $18.05 $…"
+   }
+  ]
+ }
+}

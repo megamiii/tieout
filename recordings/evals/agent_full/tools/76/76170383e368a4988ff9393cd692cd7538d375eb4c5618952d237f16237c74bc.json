@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "BBY",
+  "query": "cash provided by used in operating investing financing activities",
+  "concept": null,
+  "fiscal_years": [
+   2023
+  ]
+ },
+ "output": {
+  "ticker": "BBY",
+  "concepts": [
+   {
+    "concept": "NetCashProvidedByUsedInInvestingActivities",
+    "label": "Net Cash Provided by (Used in) Investing Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-01-30..2023-01-28",
+      "value": "-962000000",
+      "fact_id": "xf_3e874e8290b1c1f8",
+      "reported_in_10k_filed": "2023-03-17"
+     }
+    ]
+   },
+   {
+    "concept": "NetCashProvidedByUsedInFinancingActivities",
+    "label": "Net Cash Provided by (Used in) Financing Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-01-30..2023-01-28",
+      "value": "-1806000000",
+      "fact_id": "xf_72162e2dd5975fed",
+      "reported_in_10k_filed": "2023-03-17"
+     }
+    ]
+   },
+   {
+    "concept": "NetCashProvidedByUsedInOperatingActivities",
+    "label": "Net Cash Provided by (Used in) Operating Activities",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2023,
+      "period": "2022-01-30..2023-01-28",
+      "value": "1824000000",
+      "fact_id": "xf_9b22d62243770f38",
+      "reported_in_10k_filed": "2023-03-17"
+     }
+    ]
+   }
+  ]
+ }
+}

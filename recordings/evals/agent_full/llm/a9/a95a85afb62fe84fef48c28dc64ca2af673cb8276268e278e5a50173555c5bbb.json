@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 11,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0ThkJYEtdV+ss3O5z+nrWmgpCL282MgaoMN2RB/r35Jqw5zhOP+reVRFjZpGsRevuv70MApztIcSFdHYj6U1mnE5LTbO79bRs8MR4uZcV9ZjPRfueCYhHa9AM="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"percentage change in net income\",\"section\":\"7\",\"ticker\":\"VZ\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_202118",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561899,
+  "id": "qRDJatC2HdGG28oPhfnE4QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 42,
+   "prompt_tokens": 5540,
+   "prompt_tokens_details": {
+    "cached_tokens": 2010
+   },
+   "total_tokens": 5582
+  }
+ }
+}

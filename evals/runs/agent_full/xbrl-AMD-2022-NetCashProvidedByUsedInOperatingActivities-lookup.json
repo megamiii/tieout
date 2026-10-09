@@ -1,0 +1,122 @@
+{
+ "item_id": "xbrl-AMD-2022-NetCashProvidedByUsedInOperatingActivities-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "agent_full",
+ "status": "answered",
+ "answer": "In fiscal year 2022, AMD's net cash provided by operating activities was $3,565 million (or $3.565 billion).",
+ "confidence": 1.0,
+ "rationale": "The net cash provided by operating activities for fiscal year 2022 is explicitly stated as $3,565 million in both the Item 7 Liquidity and Capital Resources table and the XBRL facts (reported as 3,565,000,000 USD).",
+ "citations": [
+  {
+   "source_id": "ch_d47a8b02d8d2e8ce",
+   "quote": "$ 3,565",
+   "kind": "chunk",
+   "ticker": "AMD",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 51,
+   "values": [
+    "31",
+    "2022",
+    "5.9",
+    "3.6",
+    "25",
+    "2021",
+    "2.4",
+    "1.6",
+    "1.0",
+    "3.924",
+    "4.393",
+    "73",
+    "31",
+    "2022",
+    "91",
+    "25",
+    "2021",
+    "2022",
+    "2021",
+    "31",
+    "2022",
+    "25",
+    "2021",
+    "3565",
+    "3521",
+    "1999",
+    "686"
+   ]
+  },
+  {
+   "source_id": "xf_346472e302ce4a6c",
+   "quote": "3565000000",
+   "kind": "fact",
+   "ticker": "AMD",
+   "concept": "NetCashProvidedByUsedInOperatingActivities",
+   "fiscal_year": 2022,
+   "restated": [],
+   "values": [
+    "3565000000"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 4,
+ "prompt_tokens": 10350,
+ "completion_tokens": 314,
+ "latency_ms": 3027.2,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$3,565 matches 3565 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 4,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1899,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"fiscal_years\":[2022],\"query\":\"net cash provided by operating activities\",\"ticker\":\"AMD\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 2230,
+   "tools": [
+    {
+     "name": "calculate",
+     "arguments": "{\"expression\":\"3565000000 / 1000000\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 2311,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"query\":\"Net cash provided by operating activities\",\"ticker\":\"AMD\",\"fiscal_year\":2022}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 4224,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"rationale\":\"The net cash provided by operating activities for fiscal year 2022 is explicitly stated as $3,565 million in both the Item 7 Liquidity and Capital Resources table and the XBRL facts (reported as 3,565,000,000 USD).\",\"answer\":\"In fiscal year 2022, AMD's net cash provided by operating activities was $3,565 million (or $3.565 billion).\",\"citations\":[{\"source_id\":\"ch_d47a8b02d8d2e8ce\",\"quote\":\"$ 3,565\"},{\"quote\":\"3565000000\",\"source_id\":\"xf_346472e302ce4a6c\"}],\"confidence\":1,\"needs_review\":false}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "percentage change in net income",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": "7",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_6fa05ef3f259986a",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 46,
+    "text": "(dollars in millions) Percentage point change Increase/(decrease) at December 31, 2022 Pension plans discount rate +0.50 $ (676) -0.50 740 Rate of return on pension plan assets +1.00 (168) -1.00 168 Postretirement plans discount rate +0.50 (507) -0.50 552 Rate of return on postretirement plan assets +1.00 (5) -1.00 5 In addition to our liability hedging assets, we also employ an interest rate hedging strategy to further minimize the impact of discount rate changes on the funded ratio of the pension plan. While the target hedge ratio varies depending on the funded status of the plan and the level of interest rates, the target hedge ratio was greater than 80% at December 31, 2022, significantly limiting volatility. The annual measurement date for both our pension and other postretirement benefits is December 31. We use the full yield curve approach to estimate the interest cost component of net periodic benefit cost for pension and other postretirement benefits. The full yield curve appr…"
+   },
+   {
+    "chunk_id": "ch_6ec51368fb8eaecf",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 28,
+    "text": "accounts in the period. Wireless retail postpaid service revenue does not include recurring device payment plan billings related to the Verizon device payment program, plan billings related to device warranty and insurance or regulatory fees. Wireless retail postpaid ARPA in each period presented is calculated by dividing retail postpaid service revenue by the average retail postpaid accounts in the period. Wireless retail postpaid accounts are wireless retail customers that are directly served and managed under the Verizon brand and use its services as of the end of the period. Accounts include unlimited plans, shared data plans and corporate accounts, as well as legacy single connection plans and multi-connection family plans. A single account may include monthly wireless services for a variety of connected devices. Wireless retail postpaid accounts are calculated by adding retail postpaid new accounts to the prior period retail postpaid accounts. Wireless retail postpaid connections…"
+   },
+   {
+    "chunk_id": "ch_f8620a82a23a1191",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Other (income) expense, net 1,241 3,541 Net gain from disposition of asset and business Selling, general and administrative expense — (706) Equity in (earnings) losses of unconsolidated businesses — (131) Loss on spectrum licenses Selling, general and administrative expense — 223 Total $ 696 $ 1,351 (1) Certain amounts have been reclassified to conform to the current period presentation. (2) Amounts are included in segment results of operations. The Consolidated Adjusted EBITDA non-GAAP measure presented in the Consolidated Net Income, Consolidated EBITDA and Consolidated Adjusted EBITDA discussion (see \"Consolidated Results of Operations\") excludes all of the amounts included above, as described below. The income and expenses related to special items included in our consolidated results of operations were as follows: (dollars in millions) Years Ended December 31, 2022 2021 Within Total Operating Expenses (1) $ 1,130 $ 320 Within Other (income) expense, net (434) 1,162 Within Equity in…"
+   },
+   {
+    "chunk_id": "ch_f815bb9c44274037",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 26,
+    "text": "Provision for Income Taxes (dollars in millions) Increase/(Decrease) Years Ended December 31, 2022 2021 2022 vs. 2021 Provision for income taxes $ 6,523 $ 6,802 $ (279) (4.1) % Effective income tax rate 23.1 % 23.1 % The effective income tax rate is calculated by dividing the provision for income taxes by income before the provision for income taxes. The effective income tax rate for the year ended December 31, 2022 was comparable to the similar period in 2021. The decrease in the provision for income taxes was primarily due to the decrease in income before income taxes in 2022. A reconciliation of the statutory federal income tax rate to the effective income tax rate for each period is included in Note 12 to the consolidated financial statements. Consolidated Net Income, Consolidated EBITDA and Consolidated Adjusted EBITDA Consolidated earnings before interest, taxes, depreciation and amortization expense (Consolidated EBITDA) and Consolidated Adjusted EBITDA, which are presented belo…"
+   },
+   {
+    "chunk_id": "ch_0221a28aef1fd686",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 34,
+    "text": "• an increase of $73 million in provision for credit losses driven by increased device payment loan volume and an increase in the expected loss rate primarily as a result of the change in device payment plan terms to 36 months. Depreciation and Amortization Expense Depreciation and amortization expense increased during 2022 compared to 2021, driven by the change in the mix of total Verizon depreciable and amortizable assets and Business usage of those assets. Segment Operating Income and EBITDA (dollars in millions) Increase/(Decrease) Years Ended December 31, 2022 2021 2022 vs. 2021 Segment Operating Income Add Depreciation and amortization expense 4,312 4,084 228 5.6 $ 2,631 $ 3,437 $ (806) (23.5) % Segment EBITDA $ 6,943 $ 7,521 $ (578) (7.7) Segment operating income margin Segment EBITDA margin 8.5% 22.3% 11.1% 24.2% The changes in the table above during the periods presented were primarily a result of the factors described in connection with operating revenues and operating expens…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statement of Income Years ended December 31",
+  "ticker": "MMM",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_290e385af049b920",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "front",
+    "page": 3,
+    "text": "Table of Contents Beginning Page ITEM 8 Financial Statements and Supplementary Data (continued) Consolidated Statement of Changes in Equity for the years ended December 31, 2018, 2017 and 2016 59 Consolidated Statement of Cash Flows for the years ended December 31, 2018, 2017 and 2016 60 Notes to Consolidated Financial Statements 61 Note 1. Significant Accounting Policies 61 Note 2. Revenue 71 Note 3. Acquisitions and Divestitures 73 Note 4. Goodwill and Intangible Assets 76 Note 5. Restructuring Actions 78 Note 6. Supplemental Income Statement Information 80 Note 7. Supplemental Balance Sheet Information 81 Note 8. Supplemental Equity and Comprehensive Income Information 82 Note 9. Supplemental Cash Flow Information 83 Note 10. Income Taxes 84 Note 11. Marketable Securities 87 Note 12. Long-Term Debt and Short-Term Borrowings 88 Note 13. Pension and Postretirement Benefit Plans 90 Note 14. Derivatives 99 Note 15. Fair Value Measurements 106 Note 16. Commitments and Contingencies 109 N…"
+   },
+   {
+    "chunk_id": "ch_0c32a4e036a04f13",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 43,
+    "text": "calculated (as defined in the agreement) as the ratio of consolidated total EBITDA for the four consecutive quarters then ended to total interest expense on all funded debt for the same period. At December 31, 2018, this ratio was approximately 25 to 1. Debt covenants do not restrict the payment of dividends. Apart from the committed facilities, an additional $243 million in stand-alone letters of credit and bank guarantees were also issued and outstanding at December 31, 2018. These instruments are utilized in connection with normal business activities. 43"
+   },
+   {
+    "chunk_id": "ch_ccbf611d7b5b950a",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 92,
+    "text": "(163) Ending balance $ 5,222 $ 5,746 $ 1,693 $ 1,680 $ 461 $ 611 The balance of amounts recognized for international plans in accumulated other comprehensive income as of December 31 in the preceding table are presented based on the foreign currency exchange rate on that date. 92"
+   },
+   {
+    "chunk_id": "ch_8bcf204b164172ee",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Statement of Comprehensive Incom e Years ended December 31 (Millions) 2018 2017 2016 Net income including noncontrolling interest $ 5,363 $ 4,869 $ 5,058 Other comprehensive income (loss), net of tax: Cumulative translation adjustment (467) 373 (331) Defined benefit pension and postretirement plans adjustment 444 52 (524) Cash flow hedging instruments, unrealized gain (loss) 176 (203) (33) Total other comprehensive income (loss), net of tax 153 222 (888) Comprehensive income (loss) including noncontrolling interest 5,516 5,091 4,170 Comprehensive (income) loss attributable to noncontrolling interest (8) (14) (6) Comprehensive income (loss) attributable to 3M $ 5,508 $ 5,077 $ 4,164 The accompanying Notes to Consolidated Financial Statements are an integral part of this statement. 57"
+   },
+   {
+    "chunk_id": "ch_f40c073fd7c6104c",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 54,
+    "text": "Table of Contents Report of Independent Registered Public Accounting Firm To the Shareholders and Board of Directors of 3M Company Opinions on the Financial Statements and Internal Control over Financial Reporting We have audited the accompanying consolidated balance sheets of 3M Company and its subsidiaries (the “Company”) as of December 31, 2018 and 2017, and the related consolidated statements of income, comprehensive income, changes in equity and cash flows for each of the three years in the period ended December 31, 2018, including the related notes (collectively referred to as the “consolidated financial statements”). We also have audited the Company's internal control over financial reporting as of December 31, 2018, based on criteria established in Internal Control - Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO). In our opinion, the consolidated financial statements referred to above present fairly, in all mate…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TTOQ6izEOYRx/cqSLwy/lX+2grzZNij99QFGNbycFUhGqVw4JMuEYg4/fXF+EMeT3K7df7z4ajkSaTHh9iXK8Z6qhK5YVJZdiP40PylaCKvLIFltpshdBS/4="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"194579000000\",\"source_id\":\"xf_cad3b56cd56533a5\"},{\"source_id\":\"xf_82d1c76527aac013\",\"quote\":\"10292000000\"},{\"source_id\":\"xf_1da336599da65be9\",\"quote\":\"11349000000\"}],\"needs_review\":false,\"answer\":\"The FY2018 fixed asset turnover ratio for CVS Health is 17.76. This is calculated using FY2018 revenue of $194,579 million divided by the average PP&E between FY2017 ($10,292 million) and FY2018 ($11,349 million), which equals $10,820.5 million.\",\"rationale\":\"...\",\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_884249",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560843,
+  "id": "igzJasaqE7WzxN8Pk7OLiQg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 244,
+   "prompt_tokens": 4694,
+   "total_tokens": 4938
+  }
+ }
+}

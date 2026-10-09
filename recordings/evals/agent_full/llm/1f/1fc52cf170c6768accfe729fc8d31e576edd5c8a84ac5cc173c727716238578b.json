@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TIShrulcTK12mRHRa+QlzJzRfacttCHPgo493DJ5A/RUsQkk0UPm481D13nzAINtq+94NaHHEN+LHQc0IHHhWtJt93MJl+vjAROxhpoOqibkf5LsG6Z9M4Ng="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"In fiscal year 2022, CVS Health's net cash provided by operating activities was $16,177 million ($16.177 billion).\",\"citations\":[{\"source_id\":\"ch_4760e4f5e8db9997\",\"quote\":\"Net cash provided by operating activities 16,177 18,265 15,865\"}],\"rationale\":\"The consolidated statement of cash flows in CVS Health's FY 2022 10-K lists Net cash provided by operating activities as $16,177 million for the year ended December 31, 2022.\",\"needs_review\":false,\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_176017",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561656,
+  "id": "tg_Jaoe9H6O_vdIP-aSQmQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 180,
+   "prompt_tokens": 4028,
+   "total_tokens": 4208
+  }
+ }
+}

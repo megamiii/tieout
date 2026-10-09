@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies all the geographic segments listed in the gold answer and provides additional accurate context regarding the company's reportable segments.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TZLdRvEyEhlbbciHueJYQLlcsgHw0mD6hUfgkUS0FBqLbplGfAewldXN0urZUPEPhW/POYm1mEPwATLC7Lgh6f9rcGCunH/Tz5CTiHahnNVvFCbz9XtpZvjurrQE5W/+OJulAsoeGOuVIS3He"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791560937,
+  "id": "2wzJauSvDoHMvdIPyKat4QU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 312,
+   "total_tokens": 351
+  }
+ }
+}

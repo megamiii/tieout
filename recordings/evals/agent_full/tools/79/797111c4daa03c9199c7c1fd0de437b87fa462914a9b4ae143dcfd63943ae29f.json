@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "MMM",
+  "query": "net income",
+  "concept": null,
+  "fiscal_years": [
+   2018
+  ]
+ },
+ "output": {
+  "ticker": "MMM",
+  "concepts": [
+   {
+    "concept": "NetIncomeLoss",
+    "label": "Net Income (Loss) Attributable to Parent",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "2018-01-01..2018-12-31",
+      "value": "5349000000",
+      "fact_id": "xf_523dba7e3bd020db",
+      "reported_in_10k_filed": "2019-02-07"
+     }
+    ]
+   },
+   {
+    "concept": "ProfitLoss",
+    "label": "Net Income (Loss), Including Portion Attributable to Noncontrolling Interest",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "2018-01-01..2018-12-31",
+      "value": "5363000000",
+      "fact_id": "xf_a0ce7a26c99be1ec",
+      "reported_in_10k_filed": "2019-02-07"
+     }
+    ]
+   },
+   {
+    "concept": "IncomeTaxesPaidNet",
+    "label": "Income Taxes Paid, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "2018-01-01..2018-12-31",
+      "value": "1560000000",
+      "fact_id": "xf_f64e35fba43792fb",
+      "reported_in_10k_filed": "2019-02-07"
+     }
+    ]
+   }
+  ]
+ }
+}

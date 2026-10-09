@@ -1,0 +1,30 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "AMD",
+  "query": "revenue",
+  "concept": null,
+  "fiscal_years": [
+   2015
+  ]
+ },
+ "output": {
+  "ticker": "AMD",
+  "concepts": [
+   {
+    "concept": "SalesRevenueNet",
+    "label": "Revenue, Net (Deprecated 2018-01-31)",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2015,
+      "period": "2014-12-28..2015-12-26",
+      "value": "3991000000",
+      "fact_id": "xf_2d0d482638ed95a2",
+      "reported_in_10k_filed": "2016-02-18"
+     }
+    ]
+   }
+  ]
+ }
+}

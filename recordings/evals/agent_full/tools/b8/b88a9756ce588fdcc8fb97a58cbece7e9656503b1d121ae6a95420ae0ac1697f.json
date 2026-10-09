@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "capital expenditures cash flows",
+  "ticker": "PEP",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_03c4861f86c73176",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 51,
+    "text": "Table of Contents Our Liquidity and Capital Resources We believe that our cash generating capability and financial condition, together with our revolving credit facilities, working capital lines and other available methods of debt financing, such as commercial paper borrowings and long-term debt financing, will be adequate to meet our operating, investing and financing needs, including with respect to our net capital spending plans. Our primary sources of liquidity include cash from operations, pre-tax cash proceeds of approximately $3.5 billion from the Juice Transaction, proceeds obtained from issuances of commercial paper and long-term debt, and cash and cash equivalents. These sources of cash are available to fund cash outflows that have both a short- and long-term component, including debt repayments and related interest payments; payments for acquisitions, including support for socioeconomic programs in South Africa related to our acquisition of Pioneer Foods; operating leases; p…"
+   },
+   {
+    "chunk_id": "ch_2ae54b329c564de6",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 47,
+    "text": "Table of Contents Free cash flow We define free cash flow as net cash provided by operating activities less capital spending, plus sales of property, plant and equipment. Since net capital spending is essential to our product innovation initiatives and maintaining our operational capabilities, we believe that it is a recurring and necessary use of cash. As such, we believe investors should also consider net capital spending when evaluating our cash from operating activities. Free cash flow is used by us primarily for acquisitions and financing activities, including debt repayments, dividends and share repurchases. Free cash flow is not a measure of cash available for discretionary expenditures since we have certain non-discretionary obligations such as debt service that are not deducted from the measure. See “Free Cash Flow” in “Our Liquidity and Capital Resources” for further information. Return on invested capital (ROIC) and net ROIC, excluding items affecting comparability We define…"
+   },
+   {
+    "chunk_id": "ch_f6a97065967eb176",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 52,
+    "text": "Table of Contents outstanding amounts related to suppliers participating in such financing arrangements are recorded within accounts payable and other current liabilities in our consolidated balance sheet. We were informed by the participating financial institutions that as of December 25, 2021 and December 26, 2020, $1.5 billion and $1.2 billion, respectively, of our accounts payable to suppliers who participate in these financing arrangements are outstanding. These supply chain finance arrangements did not have a material impact on our liquidity or capital resources in the periods presented and we do not expect such arrangements to have a material impact on our liquidity or capital resources for the foreseeable future. Furthermore, our cash provided from operating activities is somewhat impacted by seasonality. Working capital needs are impacted by weekly sales, which are generally highest in the third quarter due to seasonal and holiday-related sales patterns and generally lowest in…"
+   },
+   {
+    "chunk_id": "ch_0181d9213f15b935",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 52,
+    "text": "In 2021, net cash provided by operating activities was $11.6 billion, compared to $10.6 billion in the prior year. The increase in operating cash flow primarily reflects favorable working capital comparisons and operating profit performance, partially offset by higher pre-tax pension and retiree medical plan contributions and higher net cash tax payments in the current year. Investing Activities In 2021, net cash used for investing activities was $3.3 billion, primarily reflecting net capital spending of $4.5 billion, partially offset by maturities of short-term investments with maturities greater than three months of $1.1 billion. In 2020, net cash used for investing activities was $11.6 billion, primarily reflecting net cash paid in connection with our acquisitions of Rockstar of $3.85 billion, Pioneer Foods of $1.2 billion and Be & Cheery of $0.7 billion, net capital spending of $4.2 billion, as well as purchases of short-term investments with maturities greater than three months of…"
+   },
+   {
+    "chunk_id": "ch_f476d2e95ae0ff67",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 53,
+    "text": "in June 2022. We expect to return a total of approximately $7.7 billion to shareholders in 2022, comprising dividends of approximately $6.2 billion and share repurchases of approximately $1.5 billion. Free Cash Flow The table below reconciles net cash provided by operating activities, as reflected on our cash flow statement, to our free cash flow. Free cash flow is a non-GAAP financial measure. For further information on free cash flow, see “Non-GAAP Measures.” 2021 2020 Change Net cash provided by operating activities, GAAP measure $ 11,616 $ 10,613 9 % Capital spending (4,625) (4,240) Sales of property, plant and equipment 166 55 Free cash flow, non-GAAP measure $ 7,157 $ 6,428 11 % We use free cash flow primarily for acquisitions and financing activities, including debt repayments, dividends and share repurchases. We expect to continue to return free cash flow to our shareholders primarily through dividends and share repurchases while maintaining Tier 1 commercial paper access, whic…"
+   }
+  ]
+ }
+}

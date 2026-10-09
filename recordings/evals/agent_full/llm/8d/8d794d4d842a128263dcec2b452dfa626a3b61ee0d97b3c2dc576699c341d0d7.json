@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TGupdvExZZsPMJW1Sd6VFFJg+wiAeWODCp729hmAxADcQnsNtykPJmsUF92MVX7o4sSSi9sbccBaCGpYKDugoO8CknlhLUFoKXBN+5T3CpRJb/XcBBEO0Yoc="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"Net income attributable to 3M was $4,858 million in 2017 and $5,349 million in 2018. The percentage change is 10.1% (calculated as (5349 - 4858) / 4858 * 100).\",\"citations\":[{\"quote\":\"5349000000\",\"source_id\":\"xf_523dba7e3bd020db\"},{\"source_id\":\"xf_105f8856657a264c\",\"quote\":\"4858000000\"}],\"answer\":\"3M's net income attributable to 3M changed by 10.1% from fiscal year 2017 to fiscal year 2018 (increasing from $4,858 million in 2017 to $5,349 million in 2018).\",\"confidence\":1,\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_252910",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561774,
+  "id": "LRDJarmtO5WJxN8PiI_O0AQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 249,
+   "prompt_tokens": 8213,
+   "total_tokens": 8462
+  }
+ }
+}

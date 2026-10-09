@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TfnY0TuX9Ko2iWOMjRIRgMHCr2FTVh4SP0qS+wlx++FYu5RU11uqgCD/EXJBCkG0LCA/Za1c3fqvBMC6kwlaztzPKSvvpmUTGE9GdD1BNhzzX6XtM+j2CTew="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"ticker\":\"AMCR\",\"fiscal_year\":2020,\"query\":\"Trade receivables\"}",
+        "name": "search_filings"
+       },
+       "id": "call_1014231",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560542,
+  "id": "XQvJasr1J5fsxN8PiPXoGQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 2496,
+   "total_tokens": 2536
+  }
+ }
+}

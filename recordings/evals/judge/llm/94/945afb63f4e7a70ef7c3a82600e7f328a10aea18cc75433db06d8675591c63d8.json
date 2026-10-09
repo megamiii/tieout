@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies 'Customer deposits' as the largest liability and provides the accurate figure from the 2022 10-K filing.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0Ti9YMdd8sqVKgqWl2/Ob4bESCTEKM4J42Yfox688BNTBp/HLn47MMEgjjZ5GTZjRuc/o1RmzjQJ7q3sj5lMuSZDU0Cx7OXL3U1KwsGGxvoCxaSAxqDSq/eUGo6i+umbBtfbUolU2ud1rONVLN"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791561113,
+  "id": "iA3Jau-EO66FxN8P947lgQc",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 201,
+   "total_tokens": 244
+  }
+ }
+}

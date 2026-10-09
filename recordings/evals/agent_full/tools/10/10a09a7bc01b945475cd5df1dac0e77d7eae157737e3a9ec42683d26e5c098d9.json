@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net cash provided by operating activities",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_d4977d01cee1d51d",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 72,
+    "text": "Table of Contents CASH FLOWS The following table summarizes our cash flow activity, followed by a discussion of the major drivers impacting operating, investing and financing cash flows for the year ended December 31, 2022 compared to the year ended December 31, 2021: TABLE 21: CASH FLOWS (Billions) 2022 2021 2020 Total cash provided by (used in): Operating activities $ 21.1 $ 14.6 $ 5.6 Investing activities (33.7) (10.5) 11.6 Financing activities 24.5 (14.9) (9.1) Effect of foreign currency exchange rates on cash and cash equivalents — (0.1) 0.4 Net increase (decrease) in cash and cash equivalents $ 11.9 $ (10.9) $ 8.5 Cash Flows from Operating Activities Our cash flows from operating activities primarily include net income adjusted for (i) non-cash items included in net income, such as provisions for credit losses, depreciation and amortization, stock-based compensation, deferred taxes and other non-cash items and (ii) changes in the balances of operating assets and liabilities, whic…"
+   },
+   {
+    "chunk_id": "ch_0b15ecfd0bb9b4a8",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 157,
+    "text": "Table of Contents PARENT COMPANY – CONDENSED STATEMENTS OF CASH FLOWS Years Ended December 31 (Millions) 2022 2021 2020 Cash Flows from Operating Activities Net income $ 7,514 $ 8,060 $ 3,135 Adjustments to reconcile net income to cash provided by operating activities: Equity in net income of subsidiaries and affiliates (7,905) (8,560) (3,716) Dividends received from subsidiaries and affiliates 5,549 9,102 2,679 Other operating activities, primarily with subsidiaries and affiliates 160 (305) 732 Net cash provided by operating activities 5,318 8,297 2,830 Cash Flows from Investing Activities (Increase) decrease in loans to subsidiaries and affiliates (4,850) (176) 11,434 Investments in subsidiaries and affiliates (1) (60) (52) Other investing activities — — 74 Net cash (used in) provided by investing activities (4,851) (236) 11,456 Cash Flows from Financing Activities Net decrease in short-term debt from subsidiaries and affiliates (136) (2,636) (3,289) Proceeds from long-term debt 13,2…"
+   },
+   {
+    "chunk_id": "ch_eff10dd0e23194b0",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 99,
+    "text": "Table of Contents CONSOLIDATED STATEMENTS OF CASH FLOWS Years Ended December 31 (Millions) 2022 2021 2020 Cash Flows from Operating Activities Net income $ 7,514 $ 8,060 $ 3,135 Adjustments to reconcile net income to net cash provided by operating activities: Provisions for credit losses 2,182 (1,419) 4,730 Depreciation and amortization 1,626 1,695 1,543 Stock-based compensation 375 330 249 Deferred taxes (1,189) 294 (939) Other items 365 (772) 683 Originations of loans held-for-sale (277) — — Proceeds from sales of loans held-for-sale 277 — — Changes in operating assets and liabilities, net of effects of acquisitions and dispositions: Other assets 1,391 1,068 (1,785) Accounts payable & other liabilities 8,815 5,389 (2,025) Net cash provided by operating activities 21,079 14,645 5,591 Cash Flows from Investing Activities Sale of investment securities 26 62 69 Maturities and redemptions of investment securities 1,892 20,032 7,159 Purchase of investments (4,175) (1,517) (20,562) Net (inc…"
+   },
+   {
+    "chunk_id": "ch_dea8b3df7ecd6850",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 72,
+    "text": "liabilities, resulting from an increase in Membership Rewards liability and higher accounts payable to merchants related to growth in billed business. Cash Flows from Investing Activities Our cash flows from investing activities primarily include changes in Card Member loans and receivables, as well as changes in our available-for-sale investment securities portfolio. In 2022, the net cash used in investing activities was primarily driven by higher Card Member loan and receivable balances, resulting from higher Card Member spending and net purchases of investment securities. In 2021, the net cash used in investing activities was primarily driven by higher Card Member loan and receivable balances, resulting from higher Card Member spending, partially offset by net maturities of our investment securities. Cash Flows from Financing Activities Our cash flows from financing activities primarily include changes in customer deposits, long-term debt and short-term borrowings, as well as divide…"
+   },
+   {
+    "chunk_id": "ch_49613b6f6301fe9f",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 99,
+    "text": "Acquisitions/dispositions, net of cash acquired (15) 1 (597) Other investing activities — — 135 Net cash (used in) provided by investing activities (33,689) (10,529) 11,632 Cash Flows from Financing Activities Net increase (decrease) in customer deposits 25,902 (2,468) 13,542 Net (decrease) increase in short-term borrowings (706) 461 (4,627) Proceeds from long-term debt 23,230 7,788 69 Payments of long-term debt (18,906) (11,662) (15,593) Issuance of American Express preferred shares — 1,584 — Redemption of American Express preferred shares — (1,600) — Issuance of American Express common shares 56 64 44 Repurchase of American Express common shares and other (3,502) (7,652) (1,029) Dividends paid (1,565) (1,448) (1,474) Net cash provided by (used in) financing activities 24,509 (14,933) (9,068) Effect of foreign currency exchange rates on cash and cash equivalents (13) (120) 364 Net increase (decrease) in cash and cash equivalents 11,886 (10,937) 8,519 Cash and cash equivalents at begin…"
+   }
+  ]
+ }
+}

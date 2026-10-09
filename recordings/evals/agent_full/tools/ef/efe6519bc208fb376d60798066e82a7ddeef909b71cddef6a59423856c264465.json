@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Operations Net loss",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_1728f956549691d3",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 25,
+    "text": "** Core operating loss is a non-GAAP measure that excludes the FAS/CAS service cost adjustment. See pages 45 - 47. Loss from operations increased by $645 million in 2022 compared with 2021. BDS had a loss from operations of $3,544 million compared with earnings of $1,544 million during 2021, primarily due to charges on development programs. BCA loss from operations decreased by $4,105 million primarily due to the absence in 2022 of the $3,460 million reach-forward loss taken on the 787 program in 2021, higher 737 deliveries and lower abnormal production costs, partially offset by higher research and development spending, charges related to the war in Ukraine and other period expenses. BGS earnings from operations increased by $710 million in 2022 compared with 2021 primarily due to higher commercial services volume and favorable mix, partially offset by lower government services performance. Loss from operations decreased by $9,865 million in 2021 compared with 2020 primarily due to lo…"
+   },
+   {
+    "chunk_id": "ch_1908872c8c93b9bc",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Comprehensive Income (Dollars in millions) Years ended December 31, 2022 2021 2020 Net loss ($5,053) ($4,290) ($11,941) Other comprehensive income/(loss), net of tax: Currency translation adjustments (62) (75) 98 Unrealized loss on certain investments, net of tax of $0, $0 and $0 (1) Derivative instruments: Unrealized (loss)/gain arising during period, net of tax of $12, ($16) and ($4) (40) 55 14 Reclassification adjustment for loss/(gain) included in net earnings, net of tax of ($3), $2 and ($7) 10 (6) 27 Total unrealized (loss)/gain on derivative instruments, net of tax (30) 49 41 Defined benefit pension plans & other postretirement benefits: Net actuarial gain/(loss) arising during the period, net of tax of ($22), ($32) and $111 1,533 4,262 (1,956) Amortization of actuarial loss included in net periodic pension cost, net of tax of ($11), ($8) and ($52) 791 1,155 917 Settlements included in net (loss)/in…"
+   },
+   {
+    "chunk_id": "ch_49fd0c9dc0574642",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 51,
+    "text": "however, when estimated costs to complete a program plus costs already included in inventory exceed estimated revenues from the program, a loss is recorded in the current period. Reductions to the estimated loss are included in the gross profit margin for undelivered units in the accounting quantity whereas increases to the estimated loss are recorded as an earnings charge in the period in which the loss is determined. The 767, 777X, and 787 programs had near break-even or single digit margins at December 31, 2022. Adverse changes to the revenue and/or cost estimates for these programs could result in earnings charges in future periods. 777X Program The 777X program had near break-even gross margins at December 31, 2022. The level of profitability on the 777X program will be subject to a number of factors. These factors include continued production disruption due to labor instability and supply chain disruption, customer negotiations, further production rate adjustments for the 777X or…"
+   },
+   {
+    "chunk_id": "ch_b475797dfa379d1f",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 49,
+    "text": "Table of Contents Reconciliation of Non-GAAP Measures to GAAP Measures The table below reconciles the non-GAAP financial measures of core operating loss, core operating margins and core loss per share with the most directly comparable GAAP financial measures of loss from operations, operating margins and diluted loss per share. (Dollars in millions, except per share data) Years ended December 31, 2022 2021 2020 Revenues $66,608 $62,286 $58,158 Loss from operations, as reported ($3,547) ($2,902) ($12,767) Operating margins (5.3)% (4.7)% (22.0)% Pension FAS/CAS service cost adjustment ($849) ($882) ($1,024) Postretirement FAS/CAS service cost adjustment (294) (291) (359) FAS/CAS service cost adjustment ($1,143) ($1,173) ($1,383) Core operating loss (non-GAAP) ($4,690) ($4,075) ($14,150) Core operating margins (non-GAAP) (7.0)% (6.5)% (24.3)% Diluted loss per share, as reported ($8.30) ($7.15) ($20.88) Pension FAS/CAS service cost adjustment (1.43) (1.50) (1.80) Postretirement FAS/CAS ser…"
+   },
+   {
+    "chunk_id": "ch_5f825525f8b1584c",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 108,
+    "text": "Table of Contents Accumulated Other Comprehensive Loss Changes in Accumulated other comprehensive loss (AOCI) by component for the years ended December 31, 2022, 2021 and 2020 were as follows: Currency Translation Adjustments Unrealized Gains and Losses on Certain Investments Unrealized Gains and Losses on Derivative Instruments Defined Benefit Pension Plans & Other Postretirement Benefits Total Balance at January 1, 2020 ($128) $1 ($84) ($15,942) ($16,153) Other comprehensive income/(loss) before reclassifications 98 14 (1,929) (1,817) Amounts reclassified from AOCI 27 810 837 Net current period Other comprehensive income/(loss) 98 41 (1,119) (980) Balance at December 31, 2020 ($30) $1 ($43) ($17,061) ($17,133) Other comprehensive (loss)/income before reclassifications (75) 55 4,268 4,248 Amounts reclassified from AOCI (6) 1,232 1,226 Net current period Other comprehensive (loss)/income (75) 49 5,500 5,474 Balance at December 31, 2021 ($105) $1 $6 ($11,561) ($11,659) Other comprehensi…"
+   }
+  ]
+ }
+}

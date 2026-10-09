@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "ADBE",
+  "query": "capital expenditures purchases of property plant and equipment",
+  "concept": null,
+  "fiscal_years": [
+   2015
+  ]
+ },
+ "output": {
+  "ticker": "ADBE",
+  "concepts": [
+   {
+    "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+    "label": "Payments to Acquire Property, Plant, and Equipment",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2015,
+      "period": "2014-11-29..2015-11-27",
+      "value": "184936000",
+      "fact_id": "xf_3e96a99aefc340fc",
+      "reported_in_10k_filed": "2016-01-19"
+     }
+    ]
+   },
+   {
+    "concept": "PropertyPlantAndEquipmentNet",
+    "label": "Property, Plant and Equipment, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2015,
+      "period": "as of 2015-11-27",
+      "value": "787421000",
+      "fact_id": "xf_e55c4566e54b3fc2",
+      "reported_in_10k_filed": "2016-01-19"
+     }
+    ]
+   },
+   {
+    "concept": "PropertyPlantAndEquipmentGross",
+    "label": "Property, Plant and Equipment, Gross",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2015,
+      "period": "as of 2015-11-27",
+      "value": "1758616000",
+      "fact_id": "xf_014bade8855ee430",
+      "reported_in_10k_filed": "2016-01-19"
+     }
+    ]
+   }
+  ]
+ }
+}

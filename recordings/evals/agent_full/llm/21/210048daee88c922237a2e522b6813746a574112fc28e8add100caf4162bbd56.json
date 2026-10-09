@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TAGZLIqHBSNTtg/prKcQPIIoIQ2pC9qxdtzHrE1KBPPsBc+qEOEyF5eZb+1j1zVKgohwMB6ru5LOEs2bmw2XOnDKgDg7K2hdfL+cd6mVen9qGfwn7BqXyBgg="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"answer\":\"In fiscal year 2020, Corning's operating income was $509 million.\",\"citations\":[{\"quote\":\"Operating income 509 1,306 1,575\",\"source_id\":\"ch_007054bfbfeba8c5\"}],\"confidence\":1,\"rationale\":\"The consolidated statements of income report operating income of $509 million for the year ended December 31, 2020.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_183721",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561713,
+  "id": "8A_Jatf_HPSxvdIPrr7q-AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 128,
+   "prompt_tokens": 4368,
+   "total_tokens": 4496
+  }
+ }
+}

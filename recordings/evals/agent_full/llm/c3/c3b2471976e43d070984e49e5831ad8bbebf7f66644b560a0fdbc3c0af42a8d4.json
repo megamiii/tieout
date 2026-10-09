@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TTjAI2kUlw9WacsEpmC7aGZyXRHxQl/uEYsOruRCZLjUQuOq+fcz8lewQ7H5VUy7XgUAkyN9ZZomyOsYBtyHq52s8y4yVrUG+W5loRDLp9J+wM8/fcAGwYc8="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Consolidated Statement of Cash Flows Capital spending property, plant and equipment\",\"fiscal_year\":2021,\"ticker\":\"PEP\",\"section\":\"8\"}",
+        "name": "search_filings"
+       },
+       "id": "call_523211",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560785,
+  "id": "UQzJauaFEYirnsEPgKKp0A8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 50,
+   "prompt_tokens": 3743,
+   "total_tokens": 3793
+  }
+ }
+}

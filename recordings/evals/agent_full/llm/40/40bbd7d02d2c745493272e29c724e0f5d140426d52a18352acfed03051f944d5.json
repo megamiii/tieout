@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T91reiRBc6mdD3L/SMQYrBcHhd8ANdzgkRS6NtdQHo8sFKRN+dDwdTcS1ME+OoasiacW8CKHzpXO5hPW0XBxGth5rHWtd9ubzvL8fXGhK4cTD920KJ9kLhW0="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"section\":\"8\",\"ticker\":\"AXP\",\"query\":\"Consolidated Balance Sheets Liabilities\"}",
+        "name": "search_filings"
+       },
+       "id": "call_168110",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560247,
+  "id": "NwrJao2kGaOFxN8Pu7moiAY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 2266,
+   "total_tokens": 2309
+  }
+ }
+}

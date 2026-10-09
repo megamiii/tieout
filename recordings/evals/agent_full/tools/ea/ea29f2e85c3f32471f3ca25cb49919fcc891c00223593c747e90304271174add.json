@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Cost of sales",
+  "ticker": "NKE",
+  "fiscal_year": 2021,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a993c126b70873e3",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 66,
+    "text": "Table of Contents Estimates of discretionary authorized returns, discounts and claims are based on (1) historical rates, (2) specific identification of outstanding returns not yet received from customers and outstanding discounts and claims and (3) estimated returns, discounts and claims expected but not yet finalized with customers. Actual returns, discounts and claims in any future period are inherently uncertain and thus may differ from estimates recorded. If actual or expected future returns, discounts or claims are significantly greater or lower than the reserves established, a reduction or increase to net Revenues is recorded in the period in which such determination is made. COST OF SALES Cost of sales consists primarily of inventory costs, as well as warehousing costs (including the cost of warehouse labor), third-party royalties, certain foreign currency hedge gains and losses and product design costs. Shipping and handling costs are expensed as incurred and included in Cost o…"
+   },
+   {
+    "chunk_id": "ch_6b517e2fab3f1efb",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 65,
+    "text": "Consideration for trademark licensing contracts is earned through sales-based or usage-based royalty arrangements, and the associated revenues are recognized over the license period. Taxes assessed by governmental authorities that are both imposed on and concurrent with a specific revenue-producing transaction, and are collected by the Company from a customer, are excluded from Revenues and Cost of sales in the Consolidated Statements of Income. Shipping and handling costs associated with outbound freight after control over a product has transferred to a customer are accounted for as fulfillment costs and are included in Cost of sales when the related revenues are recognized. SALES-RELATED RESERVES Consideration promised in the Company's contracts with customers is variable due to anticipated reductions, such as sales returns, discounts and miscellaneous claims from customers. The Company estimates the most likely amount it will be entitled to receive and records an anticipated reducti…"
+   },
+   {
+    "chunk_id": "ch_eb6dded016c8b553",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 66,
+    "text": "Through cooperative advertising programs, the Company reimburses its wholesale customers for certain costs of advertising the Company's products. The Company records these costs in Demand creation expense at the point in time it is obligated to its customers for the costs. This obligation may arise prior to the related advertisement being run. Total advertising and promotion expenses, which the Company refers to as Demand creation expense, were $3,114 million, $3,592 million and $3,753 million for the years ended May 31, 2021, 2020 and 2019, respectively. Prepaid advertising and promotion expenses totaled $630 million and $686 million at May 31, 2021 and 2020, respectively, of which $338 million and $326 million, respectively, were recorded in Prepaid expenses and other current assets, and $292 million and $360 million, respectively, were recorded in Deferred income taxes and other assets, depending on the period to which the prepayment applied. OPERATING OVERHEAD EXPENSE Operating ove…"
+   },
+   {
+    "chunk_id": "ch_5677dbfb80dd10b8",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 67,
+    "text": "Accounts receivable, net consist primarily of amounts due from customers. The Company makes ongoing estimates relating to the collectability of its accounts receivable and maintains an allowance for expected losses resulting from the inability of its customers to make required payments. In addition to judgments about the creditworthiness of significant customers based on ongoing credit evaluations, the Company considers historical levels of credit losses, as well as macroeconomic and industry trends, such as the impacts of COVID–19, to determine the amount of the allowance. Accounts receivable with anticipated collection dates greater than 12 months from the balance sheet date and related allowances are considered non-current and recorded in Deferred income taxes and other assets. The allowance for uncollectible accounts receivable was $93 million and $214 million as of May 31, 2021 and 2020, respectively. INVENTORY VALUATION Inventories are stated at lower of cost and net realizable v…"
+   },
+   {
+    "chunk_id": "ch_8781db962c8d46c5",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 67,
+    "text": "40 years and for machinery and equipment over 2 to 15 years. Depreciation and amortization of assets used in manufacturing, warehousing and product distribution are recorded in Cost of sales. Depreciation and amortization of all other assets are recorded in Operating overhead expense. SOFTWARE DEVELOPMENT COSTS Expenditures for major software purchases and software developed for internal use are capitalized and amortized over a 2- to 12-year period on a straight-line basis. The Company's policy provides for the capitalization of external direct costs associated with developing or obtaining internal use computer software. The Company also capitalizes certain payroll and payroll-related costs for employees who are directly associated with internal use computer software projects. The amount of capitalizable payroll costs with respect to these employees is limited to the time directly spent on such projects. Costs associated with preliminary project stage activities, training, maintenance …"
+   }
+  ]
+ }
+}

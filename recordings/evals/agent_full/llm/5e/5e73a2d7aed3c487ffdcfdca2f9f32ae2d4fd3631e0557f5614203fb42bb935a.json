@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T7uaFfdBwvkt3FDKSJkkRiC5/b5VMe5DbH+Cy0lGS27nPjcLn7B/CYexhncwVSsz01XVUTPNa5j0a/vWchWSmR6IUHKhZAsK5Of99lkYNJDJolzgFPDAW4x8="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"citations\":[{\"source_id\":\"ch_a883629456d85853\",\"quote\":\"serving customers and consumers in more than 200 countries and territories.\"},{\"quote\":\"1) Frito-Lay North America (FLNA), which includes our branded convenient food businesses in the United States and Canada; 2) Quaker Foods North America (QFNA), which includes our branded convenient food businesses... in the United States and Canada; 3) PepsiCo Beverages North America (PBNA), which includes our beverage businesses in the United States and Canada; 4) Latin America (LatAm)... 5) Europe... 6) Africa, Middle East and South Asia (AMESA)... 7) Asia Pacific, Australia, and New Zealand and China region (APAC)\",\"source_id\":\"ch_7675130d841f32c8\"},{\"quote\":\"Our success depends in part on our ability to grow our business in developing and emerging markets, including Mexico, the Middle East, China, South Africa, Brazil and India.\",\"source_id\":\"ch_1dc79e85f0e4c835\"}],\"answer\":\"As of FY2022, PepsiCo serves customers and consumers in more than 200 countries and territories and operates through seven reportable segments:\\n1) Frito-Lay North America (United States and Canada)\\n2) Quaker Foods North America (United States and Canada)\\n3) PepsiCo Beverages North America (United States and Canada)\\n4) Latin America\\n5) Europe\\n6) Africa, Middle East and South Asia\\n7) Asia Pacific, Australia, and New Zealand and China region\\n\\nKey developing and emerging markets include Mexico, the Middle East, China, South Africa, Brazil, and India.\",\"rationale\":\"Shorter quotes satisfy character limits while accurately conveying PepsiCo's operating geographies and reportable segment breakdown.\",\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_926669",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559809,
+  "id": "fwjJauq1NpXuxs0Pz4KZ4AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 445,
+   "prompt_tokens": 8194,
+   "prompt_tokens_details": {
+    "cached_tokens": 6065
+   },
+   "total_tokens": 8639
+  }
+ }
+}

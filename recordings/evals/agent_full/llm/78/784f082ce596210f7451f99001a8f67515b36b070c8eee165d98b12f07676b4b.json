@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TI+uncZbL63/p2Ys/aLLwASDV9t6GHSd4LHSH9SRTx3wYLiz2oZIqNub+6uh7HHgJ6TKNQc1KuKZ0TBzt0pqpwM09qJK9uviMz7DMlKWapvRAbgcsePoaNrY="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"Consolidated Statement of Income PepsiCo, Inc. and Subsidiaries Fiscal years ended December 31, 2022, December 25, 2021 and December 26, 2020 (in millions except per share amounts) 2022 2021 2020 Net Revenue $ 86,392 $ 79,474 $ 70,372 ... Operating Profit 11,512 11,162 10,080\",\"source_id\":\"ch_7a48f98cd7a1b7a6\"},{\"source_id\":\"xf_b28bc21c8b928f0c\",\"quote\":\"Restructuring Charges: 0\"}],\"confidence\":1,\"needs_review\":false,\"answer\":\"Restructuring costs are not explicitly outlined as a separate line item on PepsiCo's Consolidated Statement of Income for FY2022. Therefore, the quantity of restructuring costs directly outlined on the income statements is 0.\",\"rationale\":\"PepsiCo's income statement for FY2022 does not contain a line item for restructuring costs or charges. As such, restructuring costs are not explicitly outlined on the income statement, and the structured financial fact reports 0 for restructuring charges.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_757085",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560177,
+  "id": "8AnJauPhGrGIxN8P3dvU-AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 315,
+   "prompt_tokens": 7249,
+   "prompt_tokens_details": {
+    "cached_tokens": 4038
+   },
+   "total_tokens": 7564
+  }
+ }
+}

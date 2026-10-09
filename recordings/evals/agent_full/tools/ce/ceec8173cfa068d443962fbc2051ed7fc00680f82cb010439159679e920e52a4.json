@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net sales Fiscal 2020 16,865.2",
+  "ticker": "GIS",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_d19654b9ccdde5a3",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 88,
+    "text": "88 Certain Consolidated Statements of Cash Flows amounts are as follows: Fiscal Year In Millions 2022 2021 2020 Cash interest payments $ 357.8 $ 412.5 $ 418.5 Cash paid for income taxes 545.3 636.1 403.3 NOTE 19. QUARTERLY DATA (UNAUDITED) Summarized quarterly data for fiscal 2022 and fiscal 2021 follows: First Quarter Second Quarter Third Quarter Fourth Quarter Fiscal Year Fiscal Year Fiscal Year Fiscal Year In Millions, Except Per Share Amounts 2022 2021 2022 2021 2022 2021 2022 2021 Net sales $ 4,539.9 $ 4,364.0 $ 5,024.0 $ 4,719.4 $ 4,537.7 $ 4,520.0 $ 4,891.2 $ 4,523.6 Gross margin 1,597.4 1,590.4 1,631.2 1,721.1 1,403.7 1,553.9 1,769.9 1,582.9 Net earnings attributable to General Mills 627.0 638.9 597.2 688.4 660.3 595.7 822.8 416.8 EPS: Basic $ 1.03 $ 1.04 $ 0.98 $ 1.12 $ 1.09 $ 0.97 $ 1.36 $ 0.68 Diluted $ 1.02 $ 1.03 $ 0.97 $ 1.11 $ 1.08 $ 0.96 $ 1.35 $ 0.68 In the fourth quarter of fiscal 2022, we recorded an additional gain on the sale of our interests in Yoplait SAS, Yoplai…"
+   },
+   {
+    "chunk_id": "ch_64719ce882bfc62f",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 18,
+    "text": "18 increased 4 percent on a constant-currency basis (See the “Non-GAAP Measures” section below for a description of our use of measures not defined by generally accepted accounting principles (GAAP)). Net cash provided by operations totaled $3.3 billion in fiscal 2022 representing a conversion rate of 121 percent of net earnings, including earnings attributable to redeemable and noncontrolling interests. This cash generation supported capital investments totaling $569 million, and our resulting free cash flow was $2.7 billion at a conversion rate of 113 percent of adjusted net earnings, including earnings attributable to redeemable and noncontrolling interests. We returned cash to shareholders through dividends totaling $1.2 billion and net share repurchases totaling $715 million. Our ratio of net debt-to-operating cash flow was 3.3 in fiscal 2022, and our net debt-to-adjusted earnings before net interest, income taxes, depreciation and amortization (net debt-to-adjusted EBITDA) ratio …"
+   },
+   {
+    "chunk_id": "ch_23f360d92a163d3d",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 25,
+    "text": "In fiscal 2022, unallocated corporate expense increased $191 million to $403 million compared to $212 million last year. In fiscal 2022, we recorded a $133 million net decrease in expense related to mark-to-market valuation of certain commodity positions and grain inventories, compared to a $139 million net decrease in expense in the prior year. In fiscal 2022, we recorded $15 million of net losses related to the sale of corporate investments and valuation adjustments, compared to $76 million of net gains in fiscal 2021. We recorded $22 million of integration costs related to our acquisition of Tyson Foods' pet treats business and $73 million of transaction costs primarily related to the sale of our interests in Yoplait SAS, Yoplait Marques SNC, and Liberté Marques Sàrl, the sale of our European dough businesses, the definitive agreements to sell our Helper main meals and Suddenly Salad side dishes business, and the definitive agreement to acquire TNT Crust in fiscal 2022, compared to …"
+   },
+   {
+    "chunk_id": "ch_31139bcb6a04f5f3",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 57,
+    "text": "$ 648.8 $ 721.6 $ 392.4 $ 14,378.5 The changes in the carrying amount of other intangible assets for fiscal 2020, 2021, and 2022 are as follows: In Millions Total Balance as of May 26, 2019 $ 7,166.8 Other activity, primarily amortization and foreign currency translation (71.0) Balance as of May 31, 2020 7,095.8 Divestiture (5.3) Other activity, primarily amortization and foreign currency translation 60.1 Balance as of May 30, 2021 7,150.6 Acquisition 370.0 Divestitures (621.8) Intellectual property intangible asset 210.4 Other activity, primarily amortization and foreign currency translation (109.3) Balance as of May 29, 2022 $ 6,999.9 Our annual goodwill and indefinite-lived intangible assets impairment test was performed on the first day of the second quarter of fiscal 2022, and we determined there was no impairment of our intangible assets as their related fair values were substantially in excess of the carrying values, except for the Uncle Toby's brand intangible asset. The excess…"
+   },
+   {
+    "chunk_id": "ch_807f1d094ca0ff65",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 85,
+    "text": "85 Net sales for our North America Retail operating units were as follows: Fiscal Year In Millions 2022 2021 2020 U.S. Meals & Baking Solutions $ 4,023.8 $ 4,042.2 $ 3,869.3 U.S. Morning Foods 3,370.9 3,314.0 3,292.0 U.S. Snacks 3,191.4 2,940.5 2,919.7 Canada 985.9 953.3 897.1 Total $ 11,572.0 $ 11,250.0 $ 10,978.1 Net sales by class of similar products were as follows: Fiscal Year In Millions 2022 2021 2020 Snacks $ 3,960.9 $ 3,574.2 $ 3,529.7 Cereal 2,998.1 2,868.9 2,874.1 Convenient meals 2,988.5 3,030.2 2,814.3 Pet 2,260.1 1,732.4 1,694.6 Dough 1,986.3 1,866.1 1,801.1 Baking mixes and ingredients 1,843.6 1,695.5 1,674.2 Yogurt 1,714.9 2,074.8 2,056.6 Super-premium ice cream 782.2 819.7 718.1 Other 458.2 465.2 463.9 Total $ 18,992.8 $ 18,127.0 $ 17,626.6 The following tables provide financial information by geographic area: Fiscal Year In Millions 2022 2021 2020 Net sales: United States $ 14,691.2 $ 13,496.9 $ 13,364.5 Non-United States 4,301.6 4,630.1 4,262.1"
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Ty957PqESj1yhRM2baGyX6YL5zF6CMo5nQH/uO0zfM8pIiCl02e4PLHVEMBS8gW6m9bGI4/E4ne1oJJNu937x2903yWH5vF3H/c5F+iN5nhyoa34AVFfoEkA="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_years\":[2022],\"ticker\":\"GIS\",\"query\":\"Net income attributable to General Mills\"}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_201310",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560909,
+  "id": "zQzJarCQF9z9vdIPyYeDoQg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 4463,
+   "total_tokens": 4501
+  }
+ }
+}

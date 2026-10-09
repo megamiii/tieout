@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TUj97ax4r9HAhKQgA+JyPc0zodhM5t+24Jty289uc0dkoAkRGgDAJ6GOcBVLqFadSbhyLTCPKe6QE3V/yIfY0JX51/571UaMaxSLO8lBa0RNy9dNI8naEaXY="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"rationale\":\"The answer states the operating margin change based on operating income and net revenue figures from the financial statements, and explains the primary drivers (amortization of acquisition-related intangibles and acquisition/stock-based compensation costs from the Xilinx acquisition) cited in the 10-K.\",\"needs_review\":false,\"citations\":[{\"quote\":\"Operating income $ 1,264 $ 3,648\",\"source_id\":\"ch_062d2fbd4a48e1b5\"},{\"source_id\":\"ch_062d2fbd4a48e1b5\",\"quote\":\"Net revenue $ 23,601 $ 16,434\"},{\"source_id\":\"ch_cb587adeacc79358\",\"quote\":\"Amortization of acquisition-related intangibles 3,548 — —\"},{\"source_id\":\"ch_cb587adeacc79358\",\"quote\":\"Total operating loss $ 4,979 $ 409 $ 288\"}],\"answer\":\"In fiscal year 2022, AMD's operating margin decreased to approximately 5.36% ($1,264 million operating income on $23,601 million net revenue) from approximately 22.20% ($3,648 million operating income on $16,434 million net revenue) in fiscal year 2021. This decrease was primarily driven by significant amortization of acquisition-related intangibles ($3,548 million total in 2022, consisting of $1,448 million in cost of sales and $2,100 million in operating expenses) and higher stock-based compensation and acquisition-related costs resulting primarily from the Xilinx acquisition.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_212908",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559747,
+  "id": "QgjJaqu0JLeJxN8Pnrbg-QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 428,
+   "prompt_tokens": 7158,
+   "total_tokens": 7586
+  }
+ }
+}

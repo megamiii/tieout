@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "effective tax rate",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_02143654b91365a3",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 37,
+    "text": "New tax legislation could be enacted in the countries in which we have operations. For example, new guidelines issued by the Organization for Economic Cooperation and Development (OECD) would impact how multinational enterprises (MNEs) are taxed on their global profits. In particular, the OECD's guidelines on a global minimum tax of 15 percent could impact the effective tax rate for many MNEs. A number of countries, including the Member States in the EU, have adopted, or plan to adopt, these minimum tax guidelines starting in 2024, which we expect would impact our effective tax rate when the rules become effective. In addition to legislative changes, actions by tax authorities, including an increase in tax audit activity, could have an adverse impact on our tax liabilities. Credit, Liquidity and Market Risks Our risk management policies and procedures may not be effective. Our risk management framework seeks to identify and mitigate risk and appropriately balance risk and return. Altho…"
+   },
+   {
+    "chunk_id": "ch_d62089b6afec8ae5",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 49,
+    "text": "Business development expense increased, primarily due to increased partner payments and client incentives, both of which were driven by higher network volumes. Card Member services expense increased, primarily due to higher usage of travel-related benefits. Marketing expense increased, primarily due to business investments to drive growth momentum and accelerate new card acquisitions. Salaries and employee benefits expense increased, primarily driven by higher compensation costs, reflecting an increase in our colleague base to support business growth as well as compensation decisions made. Other expenses increased, primarily driven by net losses on Amex Ventures investments in the current year, as compared to net gains in the prior year. INCOME TAXES The effective tax rate was 21.6 percent and 24.6 percent for 2022 and 2021, respectively. The reduction in the effective tax rate primarily reflected discrete tax benefits in the current year related to the resolution of prior-year tax ite…"
+   },
+   {
+    "chunk_id": "ch_5179d977aaadcf0e",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 146,
+    "text": "(0.3) (1.6) Valuation allowances (0.1) — 4.0 Other 0.7 (0.1) 1.6 Actual tax rates 21.6 % 24.6 % 27.0 % (a) Includes the implementation of PAM related to investments in QAH projects for the year ended December 31, 2021. We record a deferred income tax (benefit) provision when there are differences between assets and liabilities measured for financial reporting and for income tax return purposes. These temporary differences result in taxable or deductible amounts in future years and are measured using the tax rates and laws that will be in effect when such differences are expected to reverse. (a) 143"
+   },
+   {
+    "chunk_id": "ch_c55d2bd7a8cc8279",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 148,
+    "text": "Table of Contents The following table presents changes in unrecognized tax benefits: (Millions) 2022 2021 2020 Balance, January 1 $ 1,024 $ 790 $ 726 Increases: Current year tax positions 119 64 57 Tax positions related to prior years 30 225 105 Effects of foreign currency translations — — — Decreases: Tax positions related to prior years (30) (14) (24) Settlements with tax authorities (74) (15) (15) Lapse of statute of limitations (104) (17) (58) Effects of foreign currency translations (3) (9) (1) Balance, December 31 $ 962 $ 1,024 $ 790 Included in the unrecognized tax benefits of $1.0 billion, $1.0 billion and $0.8 billion for December 31, 2022, 2021 and 2020, respectively, are approximately $750 million, $780 million and $580 million, respectively, that, if recognized, would favorably affect the effective tax rate in a future period. We believe it is reasonably possible that our unrecognized tax benefits could decrease within the next twelve months by as much as $150 million, prin…"
+   },
+   {
+    "chunk_id": "ch_11a952202ee40419",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 45,
+    "text": "36 percent year-over-year, driven in part by higher travel-related revenues. Net interest income increased 28 percent versus the prior year, primarily driven by growth in Card Member loans. While the rising interest rate environment had a fairly neutral impact on our results for the full year, rising rates did have a modest negative impact on net interest income towards the end of the year. Card Member loans increased 22 percent year-over-year, with the majority of growth coming from existing Card Members and was driven by ongoing strong growth in billed business, which began to moderate towards the end of the year as we lapped the steep phase of recovery. Provisions for credit losses increased versus the prior year, reflecting a reserve build of $617 million compared with a reserve release of $2.5 billion in the prior year, and are expected to increase in 2023. While delinquency and net write-off rates continued to increase throughout the year, these metrics remain strong, supported b…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,102 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "PEP",
+  "query": "net income",
+  "concept": null,
+  "fiscal_years": [
+   2020,
+   2021,
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "PEP",
+  "concepts": [
+   {
+    "concept": "NetIncomeLoss",
+    "label": "Net Income (Loss) Attributable to Parent",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-26..2022-12-31",
+      "value": "8910000000",
+      "fact_id": "xf_5a9778750411878b",
+      "reported_in_10k_filed": "2023-02-09"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2020-12-27..2021-12-25",
+      "value": "7618000000",
+      "fact_id": "xf_c547b75e5e063ec1",
+      "reported_in_10k_filed": "2022-02-10"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "2019-12-29..2020-12-26",
+      "value": "7120000000",
+      "fact_id": "xf_5706e3873e0a009e",
+      "reported_in_10k_filed": "2021-02-11"
+     }
+    ]
+   },
+   {
+    "concept": "ProfitLoss",
+    "label": "Net Income (Loss), Including Portion Attributable to Noncontrolling Interest",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-26..2022-12-31",
+      "value": "8978000000",
+      "fact_id": "xf_acce447feb257e16",
+      "reported_in_10k_filed": "2023-02-09"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2020-12-27..2021-12-25",
+      "value": "7679000000",
+      "fact_id": "xf_d493b49c7ff9f976",
+      "reported_in_10k_filed": "2022-02-10"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "2019-12-29..2020-12-26",
+      "value": "7175000000",
+      "fact_id": "xf_a5cc3eb7a19ba2f6",
+      "reported_in_10k_filed": "2021-02-11"
+     }
+    ]
+   },
+   {
+    "concept": "IncomeTaxesPaidNet",
+    "label": "Income Taxes Paid, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-12-26..2022-12-31",
+      "value": "2766000000",
+      "fact_id": "xf_55f6bf8c1b1105b5",
+      "reported_in_10k_filed": "2023-02-09"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2020-12-27..2021-12-25",
+      "value": "1933000000",
+      "fact_id": "xf_1028ebc8cdc1b46a",
+      "reported_in_10k_filed": "2022-02-10"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "2019-12-29..2020-12-26",
+      "value": "1770000000",
+      "fact_id": "xf_9f2cafe07cbd5942",
+      "reported_in_10k_filed": "2021-02-11"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 17,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T7yhCkKUcZ1S/GxZ6BuotnC/T40t71iFYzobvBmHUNCtBb187+X230NYLf+QqCDvPWjSf3R/RncJtWI1MjWGce2G/hokIxK5GkhNomCtuU6eIvCI6ClG3KlY="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"Verizon's consolidated net income decreased by 3.8% from $22,618 million in fiscal year 2021 to $21,748 million in fiscal year 2022. Alternatively, net income attributable to Verizon (parent) decreased by 3.7% from $22,065 million in fiscal year 2021 to $21,256 million in fiscal year 2022.\",\"citations\":[{\"source_id\":\"xf_a4a05d3fc56f788d\",\"quote\":\"22618000000\"},{\"quote\":\"21748000000\",\"source_id\":\"xf_68e67f32bf7a1d33\"},{\"quote\":\"22065000000\",\"source_id\":\"xf_b663df542a7540cc\"},{\"quote\":\"21256000000\",\"source_id\":\"xf_bf989d31e25aab8d\"}],\"confidence\":1,\"needs_review\":false,\"rationale\":\"Consolidated net income went from $22,618 million (22,618,000,000) in FY2021 to $21,748 million (21,748,000,000) in FY2022, a 3.8% decrease. Net income attributable to Verizon went from $22,065 million (22,065,000,000) in FY2021 to $21,256 million (21,256,000,000) in FY2022, a 3.7% decrease. Both figures are provided.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_145638",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561916,
+  "id": "uhDJapmcGZXuxs0Pz4KZ4AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 450,
+   "prompt_tokens": 8827,
+   "prompt_tokens_details": {
+    "cached_tokens": 4442
+   },
+   "total_tokens": 9277
+  }
+ }
+}

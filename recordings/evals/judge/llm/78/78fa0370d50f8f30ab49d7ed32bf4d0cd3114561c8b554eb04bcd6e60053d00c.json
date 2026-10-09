@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies all the drivers mentioned in the gold answer and provides additional relevant context regarding the segments and the offsetting decline in the Client segment.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TGHG6XAe8avaMOOy90UfJWjkZNbucm9kdZ/5lL0snsBlt1u/B6Z4144TUjwpyAlDXaOYvudl29QhgImbG8erix8lfWBBG5zcHRBGS3mWJjZ7+jVx5r1Hx/ROdvFX/P5TcU5NVYVC8j1bnnx52"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791561023,
+  "id": "OA3JatSEJtz9vdIPyYeDoQg",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 415,
+   "total_tokens": 456
+  }
+ }
+}

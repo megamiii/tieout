@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TIGtfFU/WBYR5dtJVFjsxzOursIQkGtQMLj5BFsKdVn28p7BiRNx5/lGlb8q7GRnL8bqOgienVJa+keDn+7ZgZc/JsZQICLFNhB/F8SM16Is/SBZJNTVyNEs="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"ticker\":\"MMM\",\"query\":\"Property, plant and equipment, net\",\"fiscal_year\":2018}",
+        "name": "search_filings"
+       },
+       "id": "call_1029485",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560718,
+  "id": "DgzJapfoB_WH28oPhsTn2QM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 2279,
+   "total_tokens": 2323
+  }
+ }
+}

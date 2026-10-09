@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TGrrT8MCq/eNSTWgcLFbuUS9pu9ydajTXg91S4FfVjeZ1cAfV37RpWuHqhX/4ZeGIpdS9YuNuESIfH0F3um11qNaAmeFK8Iz6AX+2BUQQXrE2Fwatg0QkjIY="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"query\":\"Consolidated Statement of Cash Flows Depreciation and amortization\",\"ticker\":\"PEP\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_956601",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560673,
+  "id": "3wvJauDEEo--vdIPkNiC0QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 3129,
+   "total_tokens": 3175
+  }
+ }
+}

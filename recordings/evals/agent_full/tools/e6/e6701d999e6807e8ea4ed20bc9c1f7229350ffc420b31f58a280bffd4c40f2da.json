@@ -1,0 +1,37 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "item": "7",
+  "page": 27
+ },
+ "output": {
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "item": "7",
+  "title": "Management's Discussion and Analysis",
+  "page": 27,
+  "item_pages": [
+   21,
+   48
+  ],
+  "chunks": [
+   {
+    "chunk_id": "ch_5fe0ae06d8a5c498",
+    "page": 27,
+    "text": "(dollars in millions) Years Ended December 31, 2022 2021 Consolidated Net Income $ 21,748 $ 22,618 Add: Provision for income taxes 6,523 6,802 Interest expense 3,613 3,485 Depreciation and amortization expense (1) 17,099 16,206 Consolidated EBITDA $ 48,983 $ 49,111 Add (Less): Other (income) expense, net (2) (3) $ (1,373) $ (312) Equity in earnings of unconsolidated businesses (4) (44) (145) Severance charges 304 209 Loss on spectrum licenses — 223 Net gain from sale of Media — (706) Consolidated Adjusted EBITDA $ 47,870 $ 48,380 (1) Includes Amortization of acquisition-related intangible assets, which were $826 million and $594 million during the years ended December 31, 2022 and 2021, respectively. See \"Special Items\" for additional information. (2) Includes Pension and benefits remeasurement credits of $1.7 billion and $2.4 billion during the years ended December 31, 2022 and 2021, respectively. See \"Special Items\" and \"Other Income (Expense), Net\" for additional information. (3) Includes Early debt redemption costs, which were $1.2 billion and $3.5 billion during the years ended December 31, 2022 and 2021, respectively. See \"Special Items\" for additional information. (4) Includes Net gain from disposition of asset, which was $131 million during the year ended December 31, 2021. See \"Special Items\" for additional information. The changes in Consolidated Net Income, Consolidated EBITDA and Consolidated Adjusted EBITDA in the table above during 2022 compared to 2021, were primarily a result of the factors described in connection with operating revenues and operating expenses. Segment Results of Operations"
+   },
+   {
+    "chunk_id": "ch_3f664e4d3b5e37bd",
+    "page": 27,
+    "text": "Items\" for additional information. The changes in Consolidated Net Income, Consolidated EBITDA and Consolidated Adjusted EBITDA in the table above during 2022 compared to 2021, were primarily a result of the factors described in connection with operating revenues and operating expenses. Segment Results of Operations We have two reportable segments that we operate and manage as strategic business units - Consumer and Business. We measure and evaluate our segments based on segment operating income. The use of segment operating income is consistent with the chief operating decision maker's assessment of segment performance. To aid in the understanding of segment performance as it relates to segment operating income, management uses the following operating statistics to evaluate the overall effectiveness of our segments. We believe these operating statistics are useful to investors and other users of our financial information because they provide additional insight into drivers of our segments' operating results, key trends and performance relative to our peers. These operating statistics may be determined or calculated differently by other companies and may not be directly comparable to those statistics of other companies. Wireless retail connections are retail customer device postpaid and prepaid connections as of the end of the period. Retail connections under an account may include those from smartphones and basic phones (collectively, phones), as well as tablets and other internet devices, including FWA, wearables and retail IoT devices. Wireless retail connections are calculated by adding total retail postpaid and prepaid new connections in the period to prior period retail connections, and subtracting total retail postpaid and prepaid disconnects in the period. Wireless retail postpaid connections are retail postpaid customer device connections as of the end of the period. Retail postpaid connections under an account may include those from phones, as well as tablets and other internet devices, including postpaid FWA, wearables and retail IoT devices. Wireless retail postpaid connections are calculated by adding retail postpaid new"
+   },
+   {
+    "chunk_id": "ch_2abd6b6d1baf6599",
+    "page": 27,
+    "text": "connections under an account may include those from phones, as well as tablets and other internet devices, including postpaid FWA, wearables and retail IoT devices. Wireless retail postpaid connections are calculated by adding retail postpaid new connections in the period to prior period retail postpaid connections, and subtracting retail postpaid disconnects in the period. Wireless retail prepaid connections are retail prepaid customer device connections as of the end of the period. Retail prepaid connections may include those from phones, as well as tablets and other internet devices, including prepaid FWA, and wearables. Wireless retail prepaid connections are calculated by adding retail prepaid new connections in the period to prior period retail prepaid connections, and subtracting retail prepaid disconnects in the period. Fios internet connections are the total number of connections to the internet using Fios internet services as of the end of the period. Fios internet connections are calculated by adding Fios internet new connections in the period to prior period Fios internet connections, and subtracting Fios internet disconnects in the period. 27 Verizon 2022 Annual Report on Form 10-K"
+   }
+  ]
+ }
+}

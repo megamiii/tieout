@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Total assets",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7b37bb2f077ba357",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 121,
+    "text": "Table of Contents NOTE 6 OTHER ASSETS The following is a summary of Other assets as of December 31: (Millions) 2022 2021 Goodwill $ 3,786 $ 3,804 Other intangible assets, at amortized cost 146 201 Other 13,757 13,239 Total $ 17,689 $ 17,244 (a) Primarily includes net deferred tax assets, other receivables net of reserves, investments in non-consolidated entities, prepaid assets, tax credit investments and right-of-use lease assets. GOODWILL The changes in the carrying amount of goodwill reported in our reportable operating segments were as follows: (Millions) USCS CS ICS GMNS Total Balance as of December 31, 2020 $ 369 $ 2,124 $ 799 $ 560 $ 3,852 Acquisitions — — — — — Dispositions — — (3) — (3) Other (1) (1) (43) — (45) Balance as of December 31, 2021 $ 368 $ 2,123 $ 753 $ 560 $ 3,804 Acquisitions 13 — — — 13 Dispositions — — — — — Other (2) (1) (28) — (31) Balance as of December 31, 2022 $ 379 $ 2,122 $ 725 $ 560 $ 3,786 (a) Primarily includes foreign currency translation. During the…"
+   },
+   {
+    "chunk_id": "ch_b09502a18c813fa4",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 137,
+    "text": "The following table summarizes our financial assets and financial liabilities measured at fair value on a recurring basis, categorized by GAAP's fair value hierarchy (as described in the preceding paragraphs), as of December 31: 2022 2021 (Millions) Total Level 1 Level 2 Level 3 Total Level 1 Level 2 Level 3 Assets: Investment securities: Equity securities $ 41 $ 40 $ 1 $ — $ 79 $ 78 $ 1 $ — Debt securities 4,537 — 4,490 47 2,512 — 2,480 32 Derivatives, gross 521 — 494 27 590 — 590 — Total Assets 5,099 40 4,985 74 3,181 78 3,071 32 Liabilities: Derivatives, gross 801 — 801 — 139 — 139 — Total Liabilities $ 801 $ — $ 801 $ — $ 139 $ — $ 139 $ — (a) Refer to Note 4 for the fair values of investment securities and to Note 13 for the fair values of derivative assets and liabilities, on a further disaggregated basis. (b) Level 3 fair value reflects an embedded derivative. Management reviews and applies judgment to the valuation of the embedded derivative that is performed by an independent …"
+   },
+   {
+    "chunk_id": "ch_3f348afebca0266f",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 154,
+    "text": "5,958 2,936 929 1,874 (1,008) 10,689 Total assets (billions) $ 77 $ 45 $ 33 $ 15 $ 19 $ 189 2020 Total non-interest revenues $ 10,125 $ 8,210 $ 5,877 $ 4,209 $ (319) $ 28,102 Revenue from contracts with customers 7,261 7,123 3,663 3,948 (21) 21,974 Interest income 7,009 1,532 1,244 18 280 10,083 Interest expense 787 508 379 (82) 506 2,098 Total revenues net of interest expense 16,347 9,234 6,742 4,309 (545) 36,087 Pretax income (loss) 3,103 1,013 521 1,294 (1,635) 4,296 Total assets (billions) $ 65 $ 35 $ 28 $ 14 $ 49 $ 191 (a) Corporate & Other includes adjustments and eliminations for intersegment activity. (b) Includes discount revenue, certain service fees and other revenue and processed revenues from customers. Total Revenues Net of Interest Expense We allocate discount revenue and certain other revenues among segments using a transfer pricing methodology. Within the USCS, CS and ICS segments, discount revenue generally reflects the issuer component of the overall discount revenue…"
+   },
+   {
+    "chunk_id": "ch_a1574eeb26cfa968",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 121,
+    "text": "as of both December 31, 2022 and 2021. OTHER INTANGIBLE ASSETS Intangible assets are amortized on a straight-line basis over their estimated useful lives of 1 to 22 years. We review long-lived assets and asset groups, including intangible assets, for impairment whenever events and circumstances indicate their carrying amounts may not be recoverable. An impairment is recognized if the carrying amount is not recoverable and exceeds the asset or asset group's fair value. The gross carrying amount for other intangible assets as of December 31, 2022 and 2021 was $720 million and $733 million, respectively, with accumulated amortization of $574 million and $532 million, respectively. Amortization expense was $51 million, $57 million and $54 million for the years ended December 31, 2022, 2021 and 2020, respectively. For other intangible assets on the Consolidated Balance Sheets as of December 31, 2022, amortization expense is expected to be $49 million in 2023, $44 million in 2024, $20 millio…"
+   },
+   {
+    "chunk_id": "ch_6a05ea70d49e4006",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 98,
+    "text": "Other assets, less reserves for credit losses: 2022, $22; 2021, $25 17,689 17,244 Total assets $ 228,354 $ 188,548 Liabilities and Shareholders' Equity Liabilities Customer deposits $ 110,239 $ 84,382 Accounts payable 12,133 10,574 Short-term borrowings 1,348 2,243 Long-term debt (includes debt issued by consolidated variable interest entities: 2022, $12,662; 2021, $13,803) 42,573 38,675 Other liabilities 37,350 30,497 Total liabilities $ 203,643 $ 166,371 Contingencies and Commitments (Note 12) Shareholders' Equity Preferred shares, $1.66 par value, authorized 20 million shares; issued and outstanding 1,600 shares as of December 31, 2022 and 2021 (Note 16) — — Common shares, $0.20 par value, authorized 3.6 billion shares; issued and outstanding 743 million shares as of December 31, 2022 and 761 million shares as of December 31, 2021 149 153 Additional paid-in capital 11,493 11,495 Retained earnings 16,279 13,474 Accumulated other comprehensive income (loss) (3,210) (2,945) Total share…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TYdR2ZpEs5S4T3MmU+Bw+JZ/FH3/nIyWRLOFaick9PMdhrjg57H3hqP/Glm1ioXk/7kAUMaBgbDsS8AIugr7cF4OWQROZ4bQN3PnBE4rLL9asJ3Y/uEF6Kwc="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"answer\":\"For the fiscal years 2016 through 2018, Nike's cost of goods sold (cost of sales) as a percentage of revenue was:\\n- FY2016: 53.8% (Cost of sales of $17,405 million divided by Revenues of $32,376 million)\\n- FY2017: 55.4% (Cost of sales of $19,038 million divided by Revenues of $34,350 million)\\n- FY2018: 56.2% (Cost of sales of $20,441 million divided by Revenues of $36,397 million)\\n\\nThe three-year average of cost of goods sold as a percentage of revenue is 55.1%.\",\"citations\":[{\"source_id\":\"ch_958b2d8c64f9212f\",\"quote\":\"Revenues $ 36,397 $ 34,350 $ 32,376\\nCost of sales 20,441 19,038 17,405\"}],\"rationale\":\"Extracted cost of sales and revenues from Nike's Consolidated Statements of Income for FY2016, FY2017, and FY2018. Calculated the percentage for each year and then computed the three-year average, rounding to one decimal place.\",\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_220213",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560619,
+  "id": "qQvJapGdD-yCxN8PncfE0AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 349,
+   "prompt_tokens": 7277,
+   "prompt_tokens_details": {
+    "cached_tokens": 4020
+   },
+   "total_tokens": 7626
+  }
+ }
+}

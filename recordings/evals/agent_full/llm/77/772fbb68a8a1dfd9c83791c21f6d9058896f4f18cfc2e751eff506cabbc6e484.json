@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TcMMolCtjDWjdu+MKEgyri8f511Bzgh9NZBnGRf2t8TxvBQhOpJZeyM3gEWgOiz6UCYurZgsiVH9nMrC7WuW5kPTQPmpL4PJBZVbz1f/YQpQR4KN0T0yY9xo="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"cash provided by used in operating investing financing activities\",\"fiscal_years\":[2023],\"ticker\":\"BBY\"}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_746685",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560066,
+  "id": "ggnJaueLIZXQvdIPspndmAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 42,
+   "prompt_tokens": 1868,
+   "total_tokens": 1910
+  }
+ }
+}

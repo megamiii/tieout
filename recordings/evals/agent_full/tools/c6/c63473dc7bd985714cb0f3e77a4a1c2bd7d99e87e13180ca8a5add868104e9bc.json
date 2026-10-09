@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income Cost of sales",
+  "ticker": "NKE",
+  "fiscal_year": 2021,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_6b517e2fab3f1efb",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 65,
+    "text": "Consideration for trademark licensing contracts is earned through sales-based or usage-based royalty arrangements, and the associated revenues are recognized over the license period. Taxes assessed by governmental authorities that are both imposed on and concurrent with a specific revenue-producing transaction, and are collected by the Company from a customer, are excluded from Revenues and Cost of sales in the Consolidated Statements of Income. Shipping and handling costs associated with outbound freight after control over a product has transferred to a customer are accounted for as fulfillment costs and are included in Cost of sales when the related revenues are recognized. SALES-RELATED RESERVES Consideration promised in the Company's contracts with customers is variable due to anticipated reductions, such as sales returns, discounts and miscellaneous claims from customers. The Company estimates the most likely amount it will be entitled to receive and records an anticipated reducti…"
+   },
+   {
+    "chunk_id": "ch_29e387f1cf346a87",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 59,
+    "text": "Table of Contents NIKE, INC. CONSOLIDATED STATEMENTS OF INCOME YEAR ENDED MAY 31, (In millions, except per share data) 2021 2020 2019 Revenues $ 44,538 $ 37,403 $ 39,117 Cost of sales 24,576 21,162 21,643 Gross profit 19,962 16,241 17,474 Demand creation expense 3,114 3,592 3,753 Operating overhead expense 9,911 9,534 8,949 Total selling and administrative expense 13,025 13,126 12,702 Interest expense (income), net 262 89 49 Other (income) expense, net 14 139 (78) Income before income taxes 6,661 2,887 4,801 Income tax expense 934 348 772 NET INCOME $ 5,727 $ 2,539 $ 4,029 Earnings per common share: Basic $ 3.64 $ 1.63 $ 2.55 Diluted $ 3.56 $ 1.60 $ 2.49 Weighted average common shares outstanding: Basic 1,573.0 1,558.8 1,579.7 Diluted 1,609.4 1,591.6 1,618.4 The accompanying Notes to the Consolidated Financial Statements are an integral part of this statement. 2021 FORM 10-K 57"
+   },
+   {
+    "chunk_id": "ch_8235b3270cbbe276",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 70,
+    "text": "assessment of realization, which are inherently uncertain and can result in significant variation between estimated and actual results. To the extent the Company believes that recovery is not likely, a valuation allowance is established against the net deferred tax asset, which increases the Company's income tax expense in the period when such determination is made. The Company recognizes a tax benefit from uncertain tax positions in the financial statements only when it is more likely than not the position will be sustained upon examination by relevant tax authorities. The Company recognizes interest and penalties related to income tax matters in Income tax expense. Refer to Note 9 — Income Taxes for further discussion. EARNINGS PER SHARE Basic earnings per common share is calculated by dividing Net income by the weighted average number of common shares outstanding during the year. Diluted earnings per common share is calculated by adjusting weighted average outstanding shares, assumi…"
+   },
+   {
+    "chunk_id": "ch_a993c126b70873e3",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 66,
+    "text": "Table of Contents Estimates of discretionary authorized returns, discounts and claims are based on (1) historical rates, (2) specific identification of outstanding returns not yet received from customers and outstanding discounts and claims and (3) estimated returns, discounts and claims expected but not yet finalized with customers. Actual returns, discounts and claims in any future period are inherently uncertain and thus may differ from estimates recorded. If actual or expected future returns, discounts or claims are significantly greater or lower than the reserves established, a reduction or increase to net Revenues is recorded in the period in which such determination is made. COST OF SALES Cost of sales consists primarily of inventory costs, as well as warehousing costs (including the cost of warehouse labor), third-party royalties, certain foreign currency hedge gains and losses and product design costs. Shipping and handling costs are expensed as incurred and included in Cost o…"
+   },
+   {
+    "chunk_id": "ch_abadcf0e2c82454d",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 57,
+    "text": "As discussed in Note 1 to the consolidated financial statements, the Company changed the manner in which it accounts for leases as of June 1, 2019 and the manner in which it accounts for revenue from contracts with customers and the manner in which it accounts for income taxes related to intra-entity transfers other than inventory as of June 1, 2018. Basis for Opinions The Company's management is responsible for these consolidated financial statements, for maintaining effective internal control over financial reporting, and for its assessment of the effectiveness of internal control over financial reporting, included in the accompanying Management's Annual Report on Internal Control over Financial Reporting. Our responsibility is to express opinions on the Company's consolidated financial statements and on the Company's internal control over financial reporting based on our audits. We are a public accounting firm registered with the Public Company Accounting Oversight Board (United Sta…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TT06OIVoKnSBoFtx1Nd5/Pr0a78OLLfGrlPG7q4CAocol1AFyXao14Q+6P3V48X+/LKZDiuLomWqmnZoDwd6KE+/mwZgZYIYOQDdUt1vfoHnuQ+6mFhszXYY="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"confidence\":1,\"citations\":[{\"quote\":\"reportable segments: Data Center, Client, Gaming, and Embedded.\",\"source_id\":\"ch_dc117b15489222bc\"},{\"source_id\":\"ch_d4166c27e7864922\",\"quote\":\"server microprocessors (CPUs) and graphics processing units (GPUs), data processing units (DPUs), Field Programmable Gate Arrays (FPGAs), and Adaptive System-on-Chip (SoC) products for data centers; \\\\u2022 CPUs, accelerated processing units (APUs) that integrate CPUs and GPUs, and chipsets for desktop and notebook personal computers; \\\\u2022 discrete GPUs, and semi-custom SoC products and development services; and \\\\u2022 embedded CPUs, GPUs, APUs, FPGAs, and Adaptive SoC products. From time to time, we may also sell or license portions of our intellectual property (IP) portfolio.\"}],\"rationale\":\"Identified AMD's reportable segments and major products/services from Item 1 and Item 7 of the FY22 10-K.\",\"answer\":\"As of FY22, AMD organizes its major products and services around four reportable segments:\\n\\n1. **Data Center**: Server microprocessors (CPUs, such as AMD EPYC series), graphics processing units (GPUs), data processing units (DPUs), Field Programmable Gate Arrays (FPGAs), Adaptive System-on-Chip (SoC) products, and accelerator cards (such as Alveo).\\n2. **Client**: CPUs, accelerated processing units (APUs) that integrate CPUs and GPUs, and chipsets for desktop and notebook personal computers (such as Ryzen processors).\\n3. **Gaming**: Discrete GPUs, semi-custom SoC products for gaming consoles, and development services (including non-recurring engineering fees for design and development).\\n4. **Embedded**: Embedded CPUs, GPUs, APUs, FPGAs, and Adaptive SoC products catering to markets like automotive, industrial, aerospace, and defense.\\n\\nAdditionally, AMD occasionally sells or licenses portions of its intellectual property (IP) portfolio.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_761643",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559755,
+  "id": "SgjJar_PEo--vdIPkNiC0QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 488,
+   "prompt_tokens": 8438,
+   "prompt_tokens_details": {
+    "cached_tokens": 5006
+   },
+   "total_tokens": 8926
+  }
+ }
+}

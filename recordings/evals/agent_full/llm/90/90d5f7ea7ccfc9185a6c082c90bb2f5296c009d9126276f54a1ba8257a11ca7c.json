@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TUFrwkTUuxtG+EF+XucC7hRSjxgLJ1zWaiC3hFD7uUBbU0sadlSM7ADvKvEpg5GKUG/04XDR6BXSdd0b4e3xMFVa9npSWFpW1sp4A76jpD5+/Nzd5drGHaDo="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_7e7d94f646562cab\",\"quote\":\"Today, we are a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other products.\"},{\"source_id\":\"ch_350f8e66ac1ab5eb\",\"quote\":\"In applying the criteria set forth in ASC 280, we have determined we have two reportable segments, Flexibles and Rigid Packaging. The reportable segments produce flexible packaging, rigid packaging, specialty cartons, and closure products...\"}],\"confidence\":1,\"answer\":\"Amcor primarily operates in the packaging industry, developing and producing responsible packaging solutions (including flexible and rigid packaging) for food, beverage, pharmaceutical, medical, home and personal-care, and other products.\",\"needs_review\":false,\"rationale\":\"The 10-K explicitly states that Amcor is a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other products, with reportable segments including Flexibles and Rigid Packaging.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_232380",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559942,
+  "id": "BQnJasGINsvavdIPrcC9mQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 260,
+   "prompt_tokens": 4405,
+   "total_tokens": 4665
+  }
+ }
+}

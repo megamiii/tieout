@@ -1,0 +1,59 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "ADBE",
+  "query": "total assets",
+  "concept": null,
+  "fiscal_years": [
+   2021,
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "ADBE",
+  "concepts": [
+   {
+    "concept": "Assets",
+    "label": "Assets",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-02",
+      "value": "27165000000",
+      "fact_id": "xf_4669d18bc922b3e0",
+      "reported_in_10k_filed": "2023-01-17"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "as of 2021-12-03",
+      "value": "27241000000",
+      "fact_id": "xf_5cc1d2b251885cb0",
+      "reported_in_10k_filed": "2022-01-21"
+     }
+    ]
+   },
+   {
+    "concept": "AssetsCurrent",
+    "label": "Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-02",
+      "value": "8996000000",
+      "fact_id": "xf_298ef0268e62a341",
+      "reported_in_10k_filed": "2023-01-17"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "as of 2021-12-03",
+      "value": "8669000000",
+      "fact_id": "xf_8d74e4cca3c50518",
+      "reported_in_10k_filed": "2022-01-21"
+     }
+    ]
+   }
+  ]
+ }
+}

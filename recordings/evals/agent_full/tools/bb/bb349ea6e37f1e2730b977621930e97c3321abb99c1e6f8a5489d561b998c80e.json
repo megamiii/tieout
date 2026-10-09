@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "percent of total revenues U.S. government customer",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a22b6d9c61f38dbf",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 115,
+    "text": "Table of Contents BCA revenues by customer location consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: Asia $4,484 $2,792 $2,679 Europe 4,038 4,334 3,872 Middle East 2,003 1,098 1,647 Other non-U.S. 3,042 1,681 513 Total non-U.S. revenues 13,567 9,905 8,711 United States 12,167 9,472 7,899 Estimated potential concessions and other considerations to 737 MAX customers 16 14 (498) Total revenues from contracts with customers 25,750 19,391 16,112 Intersegment revenues, eliminated on consolidation 117 102 50 Total segment revenues $25,867 $19,493 $16,162 Revenue recognized on fixed-price contracts 100 % 100 % 100 % Revenue recognized at a point in time 100 % 100 % 100 % BDS revenues on contracts with customers, based on the customer's location, consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: U.S. customers $17,144 $19,869 $19,662 Non-U.S. customers 6,018 6,671 6,595 Total segme…"
+   },
+   {
+    "chunk_id": "ch_106a3b3674ea94d5",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 116,
+    "text": "Table of Contents BGS revenues consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: Commercial $9,560 $7,527 $6,936 Government 7,681 8,553 8,368 Total revenues from contracts with customers 17,241 16,080 15,304 Intersegment revenues eliminated on consolidation 370 248 239 Total segment revenues $17,611 $16,328 $15,543 Revenue recognized at a point in time 50 % 45 % 47 % Revenue recognized on fixed-price contracts 88 % 86 % 87 % Revenue from the U.S. government 33 % 40 % 41 % Includes revenues earned from foreign military sales through the U.S. government. Earnings in Equity Method Investments For the year ended December 31, 2022, our share of income from equity method investments was $56, primarily driven by investments held in Unallocated items, eliminations and other. For the years ended December 31, 2021 and 2020, our share of income from equity method investments was $40 and $86, primarily in our BDS segment. Backlog Our total b…"
+   },
+   {
+    "chunk_id": "ch_f0df00981f95173e",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 40,
+    "text": "Table of Contents expect U.S. growth to remain flat and non-U.S. fleets, led by Middle East and Asia Pacific customers, to add rotorcraft and commercial derivative aircraft at faster rates. We expect less than 20 percent of the worldwide fleet of military aircraft to be retired and replaced over the next ten years, driving increased demand for services to maintain aging aircraft and enhance aircraft capability. BGS' major customer, the U.S. government, remains subject to the spending limits and uncertainty described on page 35, which could restrict the execution of certain program activities and delay new programs or competitions. Industry Competitiveness Aviation services is a competitive market with many domestic and international competitors. This market environment has resulted in intense pressures on pricing, and we expect these pressures to continue or intensify in the coming years. Continued access to global markets remains vital to our ability to fully realize our sales growth …"
+   },
+   {
+    "chunk_id": "ch_f4ab865e1b87bcb2",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 114,
+    "text": "Table of Contents While our principal operations are in the United States, Canada and Australia, some key suppliers and subcontractors are located in Europe and Japan. Revenues, including foreign military sales, are reported by customer location and consisted of the following: Years ended December 31, 2022 2021 2020 Asia $8,393 $5,845 $5,931 Europe 7,916 8,967 7,961 Middle East 5,047 4,653 5,308 Canada 1,612 969 1,302 Oceania 1,576 1,147 832 Africa 418 239 114 Latin America, Caribbean and other 2,412 1,376 229 Total non-U.S. revenues 27,374 23,196 21,677 United States 39,218 39,076 36,979 Estimated potential concessions and other considerations to 737 MAX customers 16 14 (498) Total revenues $66,608 $62,286 $58,158 Revenues from the U.S. government (including foreign military sales through the U.S. government), primarily recorded at BDS and BGS, represented 40%, 49% and 51% of consolidated revenues for 2022, 2021 and 2020, respectively. Approximately 4% of operating assets were located…"
+   },
+   {
+    "chunk_id": "ch_8997c73358623f7e",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 64,
+    "text": "control to the customer. For U.S. government contracts, this continuous transfer of control to the customer is supported by clauses in the contract that allow the customer to unilaterally terminate the contract for convenience, pay us for costs incurred plus a reasonable profit and take control of any work in process. Similarly, for non-U.S. government contracts, the customer typically controls the work in process as evidenced either by contractual termination clauses or by our rights to payment of the transaction price associated with work performed to date on products or services that do not have an alternative use to the Company. The accounting for long-term contracts involves a judgmental process of estimating total sales, costs and profit for each performance obligation. Cost of sales is recognized as incurred. The amount reported as revenues is determined by adding a proportionate amount of the estimated profit to the amount reported as cost of sales. Recognizing revenue as costs…"
+   }
+  ]
+ }
+}

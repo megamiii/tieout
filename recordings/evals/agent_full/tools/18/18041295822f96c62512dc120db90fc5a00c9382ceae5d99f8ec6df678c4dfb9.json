@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "CONSOLIDATED STATEMENTS OF INCOME",
+  "ticker": "NKE",
+  "fiscal_year": 2019,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_81de900b4bf86bd3",
+    "ticker": "NKE",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 63,
+    "text": "Table of Contents Consolidated Statements of Cash Flows. For designated net investment hedges, this is within the Cash used by investing activities component of the Consolidated Statements of Cash Flows. For the Company's fair value hedges, which are interest rate swaps used to mitigate the change in fair value of its fixed-rate debt attributable to changes in interest rates, the related cash flows from periodic interest payments are reflected within the Cash provided by operations component of the Consolidated Statements of Cash Flows. Refer to Note 14 — Risk Management and Derivatives for additional information on the Company's risk management program and derivatives. STOCK-BASED COMPENSATION The Company accounts for stock-based compensation by estimating the fair value, net of estimated forfeitures, of equity awards and recognizing the related expense as Cost of sales or Operating overhead expense , as applicable, in the Consolidated Statements of Income on a straight-line basis ove…"
+   },
+   {
+    "chunk_id": "ch_182f3ed986790698",
+    "ticker": "NKE",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 50,
+    "text": "As discussed in Note 1 to the consolidated financial statements, the Company changed the manner in which it accounts for revenue from contracts with customers and the manner in which it accounts for income taxes related to intra-entity transfers other than inventory as of June 1, 2018 and the manner in which it accounts for share-based payment awards to employees as of June 1, 2017. Basis for Opinions The Company's management is responsible for these consolidated financial statements, for maintaining effective internal control over financial reporting, and for its assessment of the effectiveness of internal control over financial reporting, included in the accompanying Management's Annual Report on Internal Control over Financial Reporting. Our responsibility is to express opinions on the Company's consolidated financial statements and on the Company's internal control over financial reporting based on our audits. We are a public accounting firm registered with the Public Company Accou…"
+   },
+   {
+    "chunk_id": "ch_3cb8867a8331e2b2",
+    "ticker": "NKE",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Table of Contents NOTES TO CONSOLIDATED FINANCIAL STATEMENTS Note 1 Summary of Significant Accounting Policies 56 Note 2 Inventories 64 Note 3 Property, Plant and Equipment 64 Note 4 Identifiable Intangible Assets and Goodwill 64 Note 5 Accrued Liabilities 65 Note 6 Fair Value Measurements 65 Note 7 Short-Term Borrowings and Credit Lines 67 Note 8 Long-Term Debt 68 Note 9 Income Taxes 69 Note 10 Redeemable Preferred Stock 71 Note 11 Common Stock and Stock-Based Compensation 72 Note 12 Earnings Per Share 74 Note 13 Benefit Plans 74 Note 14 Risk Management and Derivatives 75 Note 15 Accumulated Other Comprehensive Income (Loss) 78 Note 16 Revenues 80 Note 17 Operating Segments and Related Information 81 Note 18 Commitments and Contingencies 84 2019 FORM 10-K 55"
+   },
+   {
+    "chunk_id": "ch_7e97f56fba9a075d",
+    "ticker": "NKE",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 63,
+    "text": "The Company accounts for income taxes using the asset and liability method. This approach requires the recognition of deferred tax assets and liabilities for the expected future tax consequences of temporary differences between the carrying amounts and the tax basis of assets and liabilities. The Company records a valuation allowance to reduce deferred tax assets to the amount management believes is more likely than not to be realized. The Company recognizes a tax benefit from uncertain tax positions in the financial statements only when it is more likely than not the position will be sustained upon examination by relevant tax authorities. The Company recognizes interest and penalties related to income tax matters in Income tax expense . Refer to Note 9 — Income Taxes for further discussion. EARNINGS PER SHARE Basic earnings per common share is calculated by dividing Net income by the weighted average number of common shares outstanding during the year. Diluted earnings per common shar…"
+   },
+   {
+    "chunk_id": "ch_634ecd0db0854709",
+    "ticker": "NKE",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Table of Contents NIKE, INC. CONSOLIDATED STATEMENTS OF COMPREHENSIVE INCOME YEAR ENDED MAY 31, (Dollars in millions) 2019 2018 2017 Net income $ 4,029 $ 1,933 $ 4,240 Other comprehensive income (loss), net of tax: Change in net foreign currency translation adjustment (173) (6) 16 Change in net gains (losses) on cash flow hedges 503 76 (515) Change in net gains (losses) on other (7) 34 (32) Total other comprehensive income (loss), net of tax 323 104 (531) TOTAL COMPREHENSIVE INCOME $ 4,352 $ 2,037 $ 3,709 The accompanying Notes to the Consolidated Financial Statements are an integral part of this statement. 2019 FORM 10-K 51"
+   }
+  ]
+ }
+}

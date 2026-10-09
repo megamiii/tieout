@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TlQWKQrrMzQZCgFJO9r2NMslJ4a6gjBAVh5wKSZoPTjwxE/pw33OOJLrwXPEisGcr44LooG/UDkSNXjg1W61wC8IFSQxZX5btcZca1Dtphht2INHhFrRo+Xs="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Consolidated Statement of Income Net income attributable to 3M\",\"ticker\":\"MMM\",\"fiscal_year\":2018}",
+        "name": "search_filings"
+       },
+       "id": "call_300114",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561754,
+  "id": "GRDJav-1Ar2Axs0Pq5K22QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 5346,
+   "prompt_tokens_details": {
+    "cached_tokens": 2015
+   },
+   "total_tokens": 5389
+  }
+ }
+}

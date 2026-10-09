@@ -1,0 +1,13 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GIS",
+  "query": null,
+  "concept": null,
+  "fiscal_years": [
+   2018,
+   2019
+  ]
+ },
+ "error": "give a query (line item in words) or an exact concept"
+}

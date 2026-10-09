@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "reportable segments divisions Frito-Lay North America Quaker Foods North America PepsiCo Beverages North America Latin America Europe Africa Middle East and South Asia Asia Pacific Australia and New Zealand and China region",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7675130d841f32c8",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 69,
+    "text": "Table of Contents Our Divisions We are organized into seven reportable segments (also referred to as divisions), as follows: 1) Frito-Lay North America (FLNA), which includes our branded convenient food businesses in the United States and Canada; 2) Quaker Foods North America (QFNA), which includes our branded convenient food businesses, such as cereal, rice, pasta and other branded food, in the United States and Canada; 3) PepsiCo Beverages North America (PBNA), which includes our beverage businesses in the United States and Canada; 4) Latin America (LatAm), which includes all of our beverage and convenient food businesses in Latin America; 5) Europe, which includes all of our beverage and convenient food businesses in Europe; 6) Africa, Middle East and South Asia (AMESA), which includes all of our beverage and convenient food businesses in Africa, the Middle East and South Asia; and 7) Asia Pacific, Australia, and New Zealand and China region (APAC), which includes all of our beverag…"
+   },
+   {
+    "chunk_id": "ch_21190a198f9c9421",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 5,
+    "text": "Table of Contents 6) Africa, Middle East and South Asia (AMESA), which includes all of our beverage and convenient food businesses in Africa, the Middle East and South Asia; and 7) Asia Pacific, Australia and New Zealand and China Region (APAC), which includes all of our beverage and convenient food businesses in Asia Pacific, Australia and New Zealand, and China region. Frito-Lay North America Either independently or in conjunction with third parties, FLNA makes, markets, distributes and sells branded convenient foods. These foods include branded dips, Cheetos cheese-flavored snacks, Doritos tortilla chips, Fritos corn chips, Lay's potato chips, Ruffles potato chips and Tostitos tortilla chips. FLNA's branded products are sold to independent distributors and retailers. In addition, FLNA's joint venture with Strauss Group makes, markets, distributes and sells Sabra refrigerated dips and spreads. Quaker Foods North America Either independently or in conjunction with third parties, QFNA …"
+   },
+   {
+    "chunk_id": "ch_a883629456d85853",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 4,
+    "text": "Item 1. Business. When used in this report, the terms “we,” “us,” “our,” “PepsiCo” and the “Company” mean PepsiCo, Inc. and its consolidated subsidiaries, collectively. Certain terms used in this Annual Report on Form 10-K are defined in the Glossary included in Item 7. of this report. Company Overview We were incorporated in Delaware in 1919 and reincorporated in North Carolina in 1986. We are a leading global beverage and convenient food company with a complementary portfolio of brands, including Lay's, Doritos, Cheetos, Gatorade, Pepsi-Cola, Mountain Dew, Quaker and SodaStream. Through our operations, authorized bottlers, contract manufacturers and other third parties, we make, market, distribute and sell a wide variety of beverages and convenient foods, serving customers and consumers in more than 200 countries and territories. Our Operations We are organized into seven reportable segments (also referred to as divisions), as follows: 1) Frito-Lay North America (FLNA), which include…"
+   },
+   {
+    "chunk_id": "ch_690211a660b2e9cb",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 492,
+    "text": "QTG Services, Inc. United States, Delaware Quadrant - Amroq Beverages S.R.L. Romania Quaker Development B.V. Netherlands Quaker European Beverages, LLC United States, Delaware Quaker European Investments B.V. Netherlands Quaker Global Investments B.V. Netherlands Quaker Holdings (UK) Limited United Kingdom Quaker Manufacturing, LLC United States, Delaware Quaker Oats Asia, Inc. United States, Delaware Quaker Oats Australia Pty Ltd Australia Quaker Oats B.V. Netherlands Quaker Oats Capital Corporation United States, Delaware Quaker Oats Europe LLC United States, Delaware Quaker Oats Europe, Inc. United States, Delaware Quaker Oats Limited United Kingdom Quaker Sales & Distribution, Inc. United States, Delaware Raptas Finance S.à r.l. Luxembourg Rare Fare Foods, LLC United States, Delaware Rare Fare Holdings, Inc. United States, Delaware Reading Industries, Ltd United Kingdom Real Estate Holdings, LLC Puerto Rico Rolling Frito-Lay Sales, LP United States, Delaware Rye Lake Capital Korlát…"
+   },
+   {
+    "chunk_id": "ch_3d9e631ff0c8e3ad",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 6,
+    "text": "noncontrolling interest in TBG, operating across North America and Europe. See Note 13 to our consolidated financial statements for further information. Africa, Middle East and South Asia Either independently or in conjunction with third parties, AMESA makes, markets, distributes and sells a number of convenient food brands including Chipsy, Doritos, Kurkure, Lay's, Sasko, Spekko and White Star, as well as many Quaker-branded convenient foods, through consolidated businesses, as well as through noncontrolled affiliates. AMESA also makes, markets, distributes and sells beverage concentrates, fountain syrups and finished goods under various beverage brands including 7UP, Aquafina, Mirinda, Mountain Dew and Pepsi. These branded products are sold to authorized and independent bottlers, independent distributors and retailers. In certain markets, however, AMESA operates its own bottling plants and distribution facilities. AMESA also, either independently or in conjunction with third parties,…"
+   }
+  ]
+ }
+}

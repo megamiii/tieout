@@ -1,0 +1,27 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "AMCR",
+  "fiscal_year": 2023,
+  "item": "8",
+  "page": 65
+ },
+ "output": {
+  "ticker": "AMCR",
+  "fiscal_year": 2023,
+  "item": "8",
+  "title": "Financial Statements and Supplementary Data",
+  "page": 65,
+  "item_pages": [
+   48,
+   109
+  ],
+  "chunks": [
+   {
+    "chunk_id": "ch_ae319901cf0e6134",
+    "page": 65,
+    "text": "Year ended June 30, 2021 As part of optimizing its portfolio under the 2019 Bemis Integration Plan, the Company completed the disposal of a non-core European hospital supplies business, which was part of the Flexibles reportable segment. The resulting gain from the sale has been recorded in the line restructuring, impairment, and other related activities, net, in the consolidated statements of income. Refer to Note 7, \"Restructuring.\" The Company also completed the disposal of two non-core businesses in India and Argentina in the Flexibles reportable segment during the first quarter of fiscal year 2021, recording a loss on sale of $6 million recorded in the line other income, net, in the consolidated statements of income, which was primarily driven by the reclassification of cumulative translation adjustments through the income statements that had previously been recorded in other comprehensive income/(loss). The Company sold its equity investment in AMVIG Holdings Limited (\"AMVIG\") in the first quarter of fiscal year 2021. Refer to Note 8, \"Equity Method and Other Investments.\" 65"
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly confirms that a dividend was paid in Q2 2022 and matches the specific dividend amount provided in the gold answer.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TDni1EkKQ4eU1SJjdTjtppqtI4qFuI8TV2WryUYMucZu7n30gKezO+7nLDRhowteA5/MZzRWfj5/+oWp9mZ6MbrgAneAOLwSfyRrASFLWTdJ23jTxSdpsuCxAZkPH19hYnyB4rz9g6MEvFvjU"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791561032,
+  "id": "Qw3JaoWbE8KH28oPjvnZsQU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 215,
+   "total_tokens": 256
+  }
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GLW",
+  "query": "Inventory",
+  "concept": null,
+  "fiscal_years": [
+   2019,
+   2020
+  ]
+ },
+ "output": {
+  "ticker": "GLW",
+  "concepts": [
+   {
+    "concept": "InventoryNet",
+    "label": "Inventory, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2020,
+      "period": "as of 2020-12-31",
+      "value": "2438000000",
+      "fact_id": "xf_f9401502e47c5c9a",
+      "reported_in_10k_filed": "2021-02-12"
+     },
+     {
+      "fiscal_year": 2019,
+      "period": "as of 2019-12-31",
+      "value": "2320000000",
+      "fact_id": "xf_b976f127071d2752",
+      "reported_in_10k_filed": "2020-02-18"
+     }
+    ]
+   },
+   {
+    "concept": "InventoryValuationReserves",
+    "label": "Inventory Valuation Reserves",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "as of 2019-12-31",
+      "value": "201000000",
+      "fact_id": "xf_5fc85266355801ae",
+      "reported_in_10k_filed": "2020-02-18"
+     }
+    ]
+   }
+  ]
+ }
+}

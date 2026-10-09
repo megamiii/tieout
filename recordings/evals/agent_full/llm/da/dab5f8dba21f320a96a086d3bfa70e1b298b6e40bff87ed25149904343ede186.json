@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TtvBx+YC+54UF+tr/S6tyAXL4jvx3ocrqiiXANN2ZjfCm+c5vuIoZsek6vjBCTAVj8QWWxA28AuwIxX3nFVv8OCMRqfIhEUggl+kYtk+bDcM+1TDYR356XNc="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Dividends paid common preferred total\",\"section\":\"8\",\"ticker\":\"GIS\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_908243",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560908,
+  "id": "zAzJauulApz-vdIP97e46Ac",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 2684,
+   "total_tokens": 2727
+  }
+ }
+}

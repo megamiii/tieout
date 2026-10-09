@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TCTx88SXIBRmVcOiLzWTfPqL2NVS3ydBtPltMiXJI6kB04k6JXDTr2y9E0+wBVxua5cUY11PcHUVUsSGqUYf3OuDnFP+o99A/ZmkOXwBNQ5AO1d3XtdgyFCw="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":true,\"rationale\":\"Testing submission\",\"confidence\":1,\"answer\":\"The FY2019 cash conversion cycle (CCC) for General Mills is 39.46 days.\",\"citations\":[{\"quote\":\"Inventories 1,559.3 1,642.2\",\"source_id\":\"ch_e9e9605881900e67\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_933006",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560609,
+  "id": "oAvJatyqIImJ28oPvZ_N0AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 110,
+   "prompt_tokens": 7979,
+   "total_tokens": 8089
+  }
+ }
+}

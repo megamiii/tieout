@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T2TiAJWzBV7rLWDlLOUbiRmxLw/jHpvFtz/FwsgJ/DubXA10meDavcDdEOzqQItsedw8Klgj5cRgQvCIdqYxGBld2eFTaRlDdDz3ZJ8HhA8hGT5NvjZH6/nY="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"MMM\",\"query\":\"Net income 5349\",\"fiscal_year\":2018}",
+        "name": "search_filings"
+       },
+       "id": "call_216902",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561777,
+  "id": "MRDJau-YHNGY28oPpcWyoAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 2308,
+   "total_tokens": 2346
+  }
+ }
+}

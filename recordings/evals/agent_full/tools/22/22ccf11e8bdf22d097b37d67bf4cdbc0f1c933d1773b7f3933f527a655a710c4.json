@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GIS",
+  "query": "Net income attributable to General Mills",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "GIS",
+  "concepts": [
+   {
+    "concept": "NetIncomeLoss",
+    "label": "Net Income (Loss) Attributable to Parent",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-05-31..2022-05-29",
+      "value": "2707300000",
+      "fact_id": "xf_e1b1c96f099c8a8b",
+      "reported_in_10k_filed": "2022-06-30"
+     }
+    ]
+   },
+   {
+    "concept": "ProfitLoss",
+    "label": "Net Income (Loss), Including Portion Attributable to Noncontrolling Interest",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-05-31..2022-05-29",
+      "value": "2735000000",
+      "fact_id": "xf_9f73322acdfd680c",
+      "reported_in_10k_filed": "2022-06-30"
+     }
+    ]
+   },
+   {
+    "concept": "NetIncomeLossAttributableToNoncontrollingInterest",
+    "label": "Net Income (Loss) Attributable to Noncontrolling Interest",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2021-05-31..2022-05-29",
+      "value": "27700000",
+      "fact_id": "xf_7bd5db2d870fa8ad",
+      "reported_in_10k_filed": "2022-06-30"
+     }
+    ]
+   }
+  ]
+ }
+}

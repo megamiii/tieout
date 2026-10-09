@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Sales revenue from external customers",
+  "ticker": "AMCR",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_98865594d23ec74b",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 55,
+    "text": "the supplied packaging. Therefore, the Company has concluded that it has one performance obligation to supply packaging to customers. The Company may provide variable consideration in several forms which are determined through its agreements with customers. The Company can offer prompt payment discounts, sales rebates or other incentive payments to customers. Sales rebates and other incentive payments are typically awarded upon achievement of certain performance metrics, including volume. The Company accounts for variable consideration using the most likely amount method. The Company utilizes forecasted sales data and rebate percentages specific to each customer agreement and updates its judgment of the amounts to which the customer is entitled each period. The Company enters into long term agreements with certain customers, under which it is obligated to make various up-front payments for which it expects to receive a benefit in excess of the cost over the term of the contract. These …"
+   },
+   {
+    "chunk_id": "ch_b37ae83d7e1aa038",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 46,
+    "text": "revenue growth, projected operating income growth, terminal values, and discount rates. Evaluating management's assumptions related to revenue growth, projected operating income growth, and terminal values involved evaluating whether the assumptions used by management were reasonable considering (i) the current and past performance of the reporting units, (ii) the consistency with external market and industry data, and (iii) whether these assumptions were consistent with evidence obtained in other areas of the audit. Professionals with specialized skill and knowledge were used to assist in the evaluation of the Company's discounted cash flow models and certain significant assumptions, including the terminal values and discount rates. /s/ PricewaterhouseCoopers AG Zürich, Switzerland August 27, 2020 We have served as the Company's auditor since 2019. 46"
+   },
+   {
+    "chunk_id": "ch_9e0dcad4162d5e1a",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 40,
+    "text": "significant assumptions used in the determination of the estimated fair value of the reporting units are the estimated net sales and earnings before interest, tax, depreciation and amortization, discount rate and terminal values. Our estimates associated with the goodwill impairment tests are considered critical due to the amount of goodwill recorded on our consolidated balance sheet and the judgment required in determining fair value amounts, including undiscounted projected future cash flows. Judgment is used in assessing whether goodwill should be tested more frequently for impairment than annually. Factors such as a significant decrease in expected net earnings, adverse equity market conditions, and other external events, such as the COVID-19 pandemic, may result in the need for more frequent assessments. Intangible assets consist primarily of purchased customer relationships, technology, trademarks and software and are amortized using the straight-line method over their estimated …"
+   },
+   {
+    "chunk_id": "ch_2d41be0021301878",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 34,
+    "text": "(in millions) As of June 30, 2020 Assets Current assets - external $ 899.3 Current assets - due from subsidiaries outside the Obligor Group 136.1 Total current assets 1,035.4 Non-current assets - external 1,002.4 Non-current assets - due from subsidiaries outside the Obligor Group 12,405.0 Total non-current assets 13,407.4 Total assets $ 14,442.8 Liabilities Current liabilities - external $ 1,647.3 Current liabilities - due from subsidiaries outside the Obligor Group 35.6 Total current liabilities 1,682.9 Non-current liabilities - external 6,073.6 Non-current liabilities - due from subsidiaries outside the Obligor Group 11,200.8 Total non-current liabilities 17,274.4 Total liabilities $ 18,957.3 34"
+   },
+   {
+    "chunk_id": "ch_032a4bd693a0243f",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 1A",
+    "page": 17,
+    "text": "discount rate to calculate the present value of the expected future cash flows of our reporting units. Future changes in the cost of capital, expected cash flows, or other factors may cause our goodwill and/or other intangible assets to be impaired, resulting in a non-cash charge against results of operations to write down these assets for the amount of the impairment. In addition, if we make changes in our business strategy or if external conditions, such as the COVID-19 pandemic, adversely affect our business operations we may be required to record an impairment charge for goodwill or intangibles, which would lead to decreased assets and reduced net operating results. If a significant write down is required, the charge would have a material adverse effect on our reported results of operations and net worth. We have identified the valuation of intangible assets and goodwill as a critical accounting estimate. See \"Item 7. - Management's Discussion and Analysis of Financial Condition an…"
+   }
+  ]
+ }
+}

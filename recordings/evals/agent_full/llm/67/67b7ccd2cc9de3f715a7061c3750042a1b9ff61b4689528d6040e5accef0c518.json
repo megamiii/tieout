@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TvTfn0HfkuO03GYC62MMmxWIbZQ4HmnvWIRo8bw4i1UqBTbi1Z1wKanAPaC8W3+z2wRMUCZhha2pSk5OCNqJBSJyOeEqEHATSRIK7SmWpmYXoFhC1jdsGsz0="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"ticker\":\"PEP\",\"query\":\"reportable segments divisions Frito-Lay North America Quaker Foods North America PepsiCo Beverages North America Latin America Europe Africa Middle East and South Asia Asia Pacific Australia and New Zealand and China region\"}",
+        "name": "search_filings"
+       },
+       "id": "call_191064",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559804,
+  "id": "ewjJauK_IpekxN8Pm7K-oAc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 68,
+   "prompt_tokens": 4373,
+   "total_tokens": 4441
+  }
+ }
+}

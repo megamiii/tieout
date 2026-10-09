@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "card member retention 2022 high levels",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e873914450f4bec8",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 29,
+    "text": "cards, our business could suffer. Expanding our service offerings, adding customer acquisition channels and forming new partnerships or renewing current partnerships could have higher costs than our current arrangements, fail to resonate with customers, adversely impact our average discount rate or dilute our brand. Another way we invest in customer value is through our Membership Rewards program, as well as other Card Member benefits. Any significant change in, or failure by management to reasonably estimate, actual redemptions of Membership Rewards points and associated redemption costs could adversely affect our profitability. We rely on third parties for certain redemption options and may not be able to continue to offer such redemption options in the future, which could diminish the value of the program for our Card Members. Our two largest redemption partners are Amazon and Delta. In addition, many credit card issuers have instituted rewards and cobrand programs and may introduce…"
+   },
+   {
+    "chunk_id": "ch_30ceb54d39241c1a",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 38,
+    "text": "Table of Contents current high rates of inflation and economic slowdown. Further, our pricing strategies, particularly for new lending features and non-card lending products, may not offset the negative impact on profitability caused by increases in delinquencies and losses; thus any material increases in delinquencies and losses beyond our current estimates could have a material adverse impact on us. Although we make estimates to provide for credit losses in our outstanding portfolio of loans and receivables, these estimates may not be accurate. In addition, the information we use in managing our credit risk may be inaccurate or incomplete. We have experienced higher delinquency and write-off rates for the year ended December 31, 2022, as compared to the year ended December 31, 2021, and such rates are expected to continue to increase. Rising delinquencies and rising rates of bankruptcy are often precursors of future write-offs and may require us to increase our reserve for credit los…"
+   },
+   {
+    "chunk_id": "ch_75aff9467812215e",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 127,
+    "text": "The Membership Rewards program allows enrolled Card Members to earn points that can be redeemed for a broad variety of rewards including, but not limited to, travel, shopping, gift cards, and covering eligible charges. We record a Membership Rewards liability that represents management's best estimate of the cost of points earned that are expected to be redeemed by Card Members in the future. The weighted average cost (WAC) per point and the Ultimate Redemption Rate (URR) are key assumptions used to estimate the liability. We use statistical and actuarial models to estimate the URR based on redemption trends, card product type, enrollment tenure, card spend levels and credit attributes. The WAC per point assumption is derived from 12 months of redemptions and is adjusted as appropriate for certain changes in redemption costs that are not representative of future cost expectations and expected developments in redemption patterns. The expense for Membership Rewards points is included in …"
+   },
+   {
+    "chunk_id": "ch_bc6879afa6589fb2",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 109,
+    "text": "Table of Contents CARD MEMBER LOANS AND RECEIVABLES AGING Generally, a Card Member account is considered past due if payment due is not received within 30 days after the billing statement date. The following table presents the aging of Card Member loans and receivables as of December 31, 2022 and 2021: 2022 (Millions) Current 30-59 Days Past Due 60-89 Days Past Due 90+ Days Past Due Total Card Member Loans: Consumer $ 84,102 $ 281 $ 198 $ 383 $ 84,964 Small Business 22,731 81 49 86 22,947 Corporate (b) (b) (b) — 53 Card Member Receivables: Consumer 22,634 83 56 112 22,885 Small Business $ 19,330 $ 120 $ 69 $ 110 $ 19,629 Corporate (b) (b) (b) $ 85 $ 15,099 2021 (Millions) Current 30-59 Days Past Due 60-89 Days Past Due 90+ Days Past Due Total Card Member Loans: Consumer $ 69,960 $ 158 $ 112 $ 237 $ 70,467 Small Business 17,950 34 19 37 18,040 Corporate (b) (b) (b) — 55 Card Member Receivables: Consumer 22,279 41 24 48 22,392 Small Business $ 17,846 $ 59 $ 28 $ 44 $ 17,977 Corporate (b)…"
+   },
+   {
+    "chunk_id": "ch_c8322f4af820d3af",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 28,
+    "text": "Table of Contents cobrand partners upon the occurrence of certain triggering events such as a shortfall in certain performance and revenue levels. If we are not able to effectively manage these triggering events, we could unexpectedly have to make payments to these partners, which could have a negative effect on our financial condition and results of operations. See Note 12 to our “Consolidated Financial Statements” for additional information on financial commitments related to agreements with certain cobrand partners. Similarly, we are exposed to risk from bankruptcies, liquidations, insolvencies, financial distress, restructurings, consolidations, operational outages, cyber security incidents and other similar events that may occur in any industry representing a significant portion of our network volumes, which could negatively impact particular card products and services (and volumes generally) and our financial condition and results of operations. We have previously and may in the …"
+   }
+  ]
+ }
+}

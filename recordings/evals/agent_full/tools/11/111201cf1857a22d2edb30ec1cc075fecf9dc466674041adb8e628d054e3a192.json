@@ -1,0 +1,74 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GLW",
+  "query": "revenue",
+  "concept": null,
+  "fiscal_years": [
+   2019,
+   2020,
+   2021
+  ]
+ },
+ "output": {
+  "ticker": "GLW",
+  "concepts": [
+   {
+    "concept": "Revenues",
+    "label": "Revenues",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2021,
+      "period": "2021-01-01..2021-12-31",
+      "value": "14082000000",
+      "fact_id": "xf_45076d3d759a7261",
+      "reported_in_10k_filed": "2022-02-14"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "2020-01-01..2020-12-31",
+      "value": "11303000000",
+      "fact_id": "xf_fc38e2bdc8979bed",
+      "reported_in_10k_filed": "2021-02-12"
+     },
+     {
+      "fiscal_year": 2019,
+      "period": "2019-01-01..2019-12-31",
+      "value": "11503000000",
+      "fact_id": "xf_aa0a05cc943750f9",
+      "reported_in_10k_filed": "2020-02-18"
+     }
+    ]
+   },
+   {
+    "concept": "CostOfRevenue",
+    "label": "Cost of Revenue",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2021,
+      "period": "2021-01-01..2021-12-31",
+      "value": "9019000000",
+      "fact_id": "xf_a3c022f00a8e2c98",
+      "reported_in_10k_filed": "2022-02-14"
+     },
+     {
+      "fiscal_year": 2020,
+      "period": "2020-01-01..2020-12-31",
+      "value": "7772000000",
+      "fact_id": "xf_1f0992f44deb2b2e",
+      "reported_in_10k_filed": "2021-02-12"
+     },
+     {
+      "fiscal_year": 2019,
+      "period": "2019-01-01..2019-12-31",
+      "value": "7468000000",
+      "fact_id": "xf_3d9f6ed40c124f75",
+      "reported_in_10k_filed": "2020-02-18"
+     }
+    ]
+   }
+  ]
+ }
+}

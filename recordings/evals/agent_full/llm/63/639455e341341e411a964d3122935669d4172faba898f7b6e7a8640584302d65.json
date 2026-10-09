@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TdFV9q1Lt6MTaBbXpGzYYT+OT9Sc+VfIXwFy9UXGYC/RvlQ6p2G9wlYSCW7nJ2L0toKnhOhde3dm0wJrMAphQtRxMW+HLDbPk3t8DW+sisO3ENC1bJLV+iK8="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"citations\":[{\"quote\":\"Revenues from the U.S. government (including foreign military sales through the U.S. government), primarily recorded at BDS and BGS, represented 40%, 49% and 51% of consolidated revenues for 2022, 2021 and 2020, respectively.\",\"source_id\":\"ch_f4ab865e1b87bcb2\"},{\"source_id\":\"ch_fb6b1cda9b1186b7\",\"quote\":\"This segment develops, produces and markets commercial jet aircraft principally to the commercial airline industry worldwide.\"}],\"answer\":\"As of FY2022, Boeing's primary customers are commercial airlines worldwide and the U.S. Government (including foreign military sales through the U.S. government). Revenues from the U.S. government represented 40% of Boeing's consolidated revenues for FY2022, while the remainder of its revenue was generated from commercial airlines and other non-U.S. and U.S. commercial/defense customers across its Commercial Airplanes (BCA), Defense, Space & Security (BDS), and Global Services (BGS) segments.\",\"rationale\":\"The primary customers of Boeing as of FY2022 are commercial airlines globally and the U.S. Government (including foreign military sales), with U.S. government-related contracts accounting for 40% of consolidated revenues in FY2022.\",\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_890423",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560167,
+  "id": "5gnJatzAK6O_vdIP-aSQmQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 347,
+   "prompt_tokens": 11182,
+   "total_tokens": 11529
+  }
+ }
+}

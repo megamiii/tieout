@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Operating income",
+  "ticker": "BA",
+  "fiscal_year": 2018,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7210dc14ad041e3f",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 66,
+    "text": "Table of Contents Other Equity investments are recorded at fair value, with gains and losses recorded through net earnings. Equity investments without readily determinable fair value are measured at cost, less impairments, plus or minus observable price changes. Equity investments without readily determinable fair value are assessed for impairment quarterly. We classify investment income and loss on our Consolidated Statements of Operations based on whether the investment is operating or non- operating in nature. Operating investments align strategically and are integrated with our operations. Earnings from operating investments, including our share of income or loss from equity method investments, dividend income from other equity investments, and any impairments or gain/loss on the disposition of these investments, are recorded in Income from operating investments, net. Non-operating investments are those we hold for non- strategic purposes. Earnings from non-operating investments, i…"
+   },
+   {
+    "chunk_id": "ch_1606be242f6fa603",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 70,
+    "text": "(76,612) (80,790) 1,764 (79,026) 17,326 67 17,393 13,781 689 14,470 Income from operating investments, net 204 204 303 303 General and administrative expense (4,094) (1) (4,095) (3,616) 3 (3,613) Research and development expense, net (3,179) (3,179) (4,627) 1 (4,626) Gain/(loss) on dispositions, net 21 21 (7) (7) Earnings from operations 10,278 66 10,344 5,834 693 6,527 Other income/(loss), net 129 (6) 123 40 (478) (438) Interest and debt expense (360) (360) (306) (306) Earnings before income taxes 10,047 60 10,107 5,568 215 5,783 Income tax expense (1,850) 201 (1,649) (673) (76) (749) Net earnings $8,197 $261 $8,458 $4,895 $139 $5,034 Basic earnings per share $13.60 $0.43 $14.03 $7.70 $0.22 $7.92 Diluted earnings per share $13.43 $0.42 $13.85 $7.61 $0.22 $7.83 67"
+   },
+   {
+    "chunk_id": "ch_d7c4d2e6fb1ebf2f",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 67,
+    "text": "Used aircraft acquired by the Commercial Airplanes segment are included in Inventories at the lower of cost or net realizable value as it is our intent to sell these assets. To mitigate costs and enhance marketability, aircraft may be placed on operating lease. While on operating lease, the assets are included in Customer financing. Customer financing Customer financing includes operating lease equipment, notes receivable, and sales-type/finance leases. Sales-type/finance leases are treated as receivables, and allowances for losses are established as necessary. We assess the fair value of the assets we own, including equipment under operating leases, assets held for sale or re-lease, and collateral underlying receivables, to determine if their fair values are less than the related assets' carrying values. Differences between carrying values and fair values of sales-type/finance leases and notes and other receivables, as determined by collateral value, are considered in determining the …"
+   },
+   {
+    "chunk_id": "ch_7e7daf04d52d914a",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 60,
+    "text": "of the leased equipment, and deferred incremental direct costs less unearned income. Income is recognized over the life of the lease to approximate a level rate of return on the net investment. Residual values, which are reviewed periodically, represent the estimated amount we expect to receive at lease termination from the disposition of the leased equipment. Actual residual values realized could differ from these estimates. 57"
+   },
+   {
+    "chunk_id": "ch_9687b98ce70ef051",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 61,
+    "text": "Table of Contents Declines in estimated residual value that are deemed other-than-temporary are recognized in the period in which the declines occur. For operating leases, revenue on leased aircraft and equipment is recorded on a straight-line basis over the term of the lease. Operating lease assets, included in Customer financing, are recorded at cost and depreciated over the period that we project we will hold the asset to an estimated residual value, using the straight-line method. We periodically review our estimates of residual value and recognize forecasted changes by prospectively adjusting depreciation expense. For notes receivable, notes are recorded net of any unamortized discounts and deferred incremental direct costs. Interest income and amortization of any discounts are recorded ratably over the related term of the note. Reinsurance Revenue Our wholly-owned insurance subsidiary, Astro Ltd., participates in a reinsurance pool for workers' compensation. The member agreements…"
+   }
+  ]
+ }
+}

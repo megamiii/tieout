@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TGEoEPDT3OeCwvi3B1xp/7FqfS9x6XPOLfpONYiDbEtPfD7VTg6Gl0fSDhf79lwMbEBFYidqWi3JSWI/c9gmHTECg/rrq4a3bFXPd9rJq2WcdPlCEg0VDd4E="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BA\",\"query\":\"U.S. government consolidated revenues percentage 2022\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_160958",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560130,
+  "id": "wQnJarTKMOqlvdIPy8W1oQY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 9199,
+   "prompt_tokens_details": {
+    "cached_tokens": 6074
+   },
+   "total_tokens": 9243
+  }
+ }
+}

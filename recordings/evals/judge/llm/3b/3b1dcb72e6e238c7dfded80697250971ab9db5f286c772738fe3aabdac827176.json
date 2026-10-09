@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the effective tax rates for both years and accurately calculates the change, aligning with the gold answer's figures.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0Thg0qWoBpFQPdk6gLAxGXqbXOQB1gYlSJovP92DlkAayDCRdd83VZi26TO8l8n1T2w+Yby6Nf/xk1vuJwRjlKnVWnzHoFJnPijQUKZN03aZ8zapIUjWvF6vrtzpd/kZc4GQvxD7VTYWeR52XZ"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791561083,
+  "id": "eg3Jaq3WI6r5xN8P0YO5kAg",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 246,
+   "total_tokens": 284
+  }
+ }
+}

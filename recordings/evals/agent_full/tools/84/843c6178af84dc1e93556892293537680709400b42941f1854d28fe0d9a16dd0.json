@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "card member retain retention 2022",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_492de1f2ebd07b9c",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 27,
+    "text": "our cobrand portfolios accounted for approximately 36 percent of our worldwide Card Member loans as of December 31, 2022. Cobrand arrangements are entered into for a fixed period, generally ranging from five to ten years, and will terminate in accordance with their terms, including at the end of the fixed period unless extended or renewed at the option of the parties, or upon early termination as a result of an event of default or otherwise. We face the risk that we could lose partner relationships, even after we have invested significant resources in the relationships. We may also choose to not renew certain cobrand relationships. Network volumes could decline and Card Member attrition could increase, in each case, significantly as a result of the termination of one or more cobrand partnership relationships. In addition, some of our cobrand arrangements provide that, upon expiration or termination, the cobrand partner may purchase or designate a third party to purchase the loans gener…"
+   },
+   {
+    "chunk_id": "ch_bd4ed9689c4396af",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 108,
+    "text": "Table of Contents CARD MEMBER RECEIVABLES Card Member receivables are recorded at the time a Card Member enters into a point-of-sale transaction with a merchant and represent amounts due on our card products and card-related fees that need to be paid in full on or before the Card Member's payment due date. Charge Card Members generally must pay the full amount billed each month. Card Member receivable balances are presented on the Consolidated Balance Sheets net of reserves for credit losses (refer to Note 3), and include principal and any related accrued fees. Card Member receivables as of December 31, 2022 and 2021 consisted of: (Millions) 2022 2021 Consumer $ 22,885 $ 22,392 Small Business 19,629 17,977 Corporate 15,099 13,276 Card Member receivables 57,613 53,645 Less: Reserves for credit losses 229 64 Card Member receivables, net $ 57,384 $ 53,581 (a) Includes $5.2 billion of gross Card Member receivables available to settle obligations of a consolidated VIE as of both December 31…"
+   },
+   {
+    "chunk_id": "ch_bc6879afa6589fb2",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 109,
+    "text": "Table of Contents CARD MEMBER LOANS AND RECEIVABLES AGING Generally, a Card Member account is considered past due if payment due is not received within 30 days after the billing statement date. The following table presents the aging of Card Member loans and receivables as of December 31, 2022 and 2021: 2022 (Millions) Current 30-59 Days Past Due 60-89 Days Past Due 90+ Days Past Due Total Card Member Loans: Consumer $ 84,102 $ 281 $ 198 $ 383 $ 84,964 Small Business 22,731 81 49 86 22,947 Corporate (b) (b) (b) — 53 Card Member Receivables: Consumer 22,634 83 56 112 22,885 Small Business $ 19,330 $ 120 $ 69 $ 110 $ 19,629 Corporate (b) (b) (b) $ 85 $ 15,099 2021 (Millions) Current 30-59 Days Past Due 60-89 Days Past Due 90+ Days Past Due Total Card Member Loans: Consumer $ 69,960 $ 158 $ 112 $ 237 $ 70,467 Small Business 17,950 34 19 37 18,040 Corporate (b) (b) (b) — 55 Card Member Receivables: Consumer 22,279 41 24 48 22,392 Small Business $ 17,846 $ 59 $ 28 $ 44 $ 17,977 Corporate (b)…"
+   },
+   {
+    "chunk_id": "ch_a631c0500c28b07e",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 117,
+    "text": "Table of Contents CHANGES IN CARD MEMBER RECEIVABLES RESERVE FOR CREDIT LOSSES Card Member receivables reserve for credit losses increased for the year ended December 31, 2022, primarily driven by higher delinquencies and growth in receivables outstanding. Card Member receivables reserve for credit losses decreased for the year ended December 31, 2021, primarily due to improved portfolio quality and macroeconomic forecasts, in large part driven by improvement in unemployment rate projections, partially offset by an increase in receivables outstanding. The following table presents changes in the Card Member receivables reserve for credit losses for the years ended December 31: (Millions) 2022 2021 2020 Beginning Balance $ 64 $ 267 $ 126 Provisions 627 (73) 1,015 Net write-offs (462) (129) (881) Other — (1) 7 Ending Balance $ 229 $ 64 $ 267 (a) Provisions for principal and fee reserve components. Provisions for credit losses includes reserve build (release) and replenishment for net writ…"
+   },
+   {
+    "chunk_id": "ch_34aa51b51849e844",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 49,
+    "text": "Table of Contents TABLE 4: EXPENSES SUMMARY Years Ended December 31, Change Change (Millions, except percentages) 2022 2021 2020 2022 vs. 2021 2021 vs. 2020 Card Member rewards $ 14,002 $ 11,007 $ 8,041 $ 2,995 27 % $ 2,966 37 % Business development 4,943 3,762 3,051 1,181 31 711 23 Card Member services 2,959 1,993 1,230 966 48 763 62 Marketing 5,458 5,291 3,696 167 3 1,595 43 Salaries and employee benefits 7,252 6,240 5,718 1,012 16 522 9 Other, net 6,481 4,817 5,325 1,664 35 (508) (10) Total expenses $ 41,095 $ 33,110 $ 27,061 $ 7,985 24 % $ 6,049 22 % EXPENSES Card Member rewards expense increased, primarily driven by increases in Membership Rewards and cash back rewards expenses, collectively, of $2.0 billion, and cobrand rewards expense of $1.0 billion, both of which were primarily driven by higher billed business. The increase in Membership Rewards expense was also driven by a larger proportion of spend in categories that earn incremental rewards such as travel and a higher mix o…"
+   }
+  ]
+ }
+}

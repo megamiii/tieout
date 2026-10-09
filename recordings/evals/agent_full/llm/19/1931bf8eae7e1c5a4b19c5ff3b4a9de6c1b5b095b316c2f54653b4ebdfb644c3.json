@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TaQHwHEJzU5+hk4wnlDAo8a5j3Kh4rDK5+XVFc+tDv7VmTaCRILyZLNL3HdfXqI/dyDQ1eXnYJPdes8KLOfgygpGD7VHNA3qc4lw3g98L5wIU/EzPyBdq7N0="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The answer explains the operating margin decrease from FY21 to FY22 using exact figures and quotes from the 10-K financial statements and segment disclosures.\",\"confidence\":1,\"citations\":[{\"source_id\":\"ch_062d2fbd4a48e1b5\",\"quote\":\"Operating income 1,264 3,648 1,369\"},{\"source_id\":\"ch_062d2fbd4a48e1b5\",\"quote\":\"Net revenue $ 23,601 $ 16,434 $ 9,763\"},{\"quote\":\"Amortization of acquisition-related intangibles 3,548 — —\",\"source_id\":\"ch_cb587adeacc79358\"},{\"quote\":\"Total operating loss $ 4,979 $ 409 $ 288\",\"source_id\":\"ch_cb587adeacc79358\"}],\"needs_review\":false,\"answer\":\"In fiscal year 2022, AMD's operating margin decreased to approximately 5.36% ($1,264 million operating income on $23,601 million net revenue) from approximately 22.20% ($3,648 million operating income on $16,434 million net revenue) in fiscal year 2021. This decrease was primarily driven by significant amortization of acquisition-related intangibles and higher stock-based compensation and acquisition-related costs resulting from the Xilinx acquisition.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_833092",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791559749,
+  "id": "RAjJauXwEfjbvdIP-avxoAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 373,
+   "prompt_tokens": 7652,
+   "prompt_tokens_details": {
+    "cached_tokens": 4505
+   },
+   "total_tokens": 8025
+  }
+ }
+}

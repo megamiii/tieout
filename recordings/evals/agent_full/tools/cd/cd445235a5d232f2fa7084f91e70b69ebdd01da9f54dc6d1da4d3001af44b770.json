@@ -1,0 +1,98 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GIS",
+  "query": "inventory",
+  "concept": null,
+  "fiscal_years": null
+ },
+ "output": {
+  "ticker": "GIS",
+  "concepts": [
+   {
+    "concept": "InventoryNet",
+    "label": "Inventory, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2026,
+      "period": "as of 2026-05-31",
+      "value": "1917900000",
+      "fact_id": "xf_0c013fe3b5390fa2",
+      "reported_in_10k_filed": "2026-07-01"
+     },
+     {
+      "fiscal_year": 2025,
+      "period": "as of 2025-05-25",
+      "value": "1910800000",
+      "fact_id": "xf_9720364a80da9ee5",
+      "reported_in_10k_filed": "2025-06-26"
+     },
+     {
+      "fiscal_year": 2024,
+      "period": "as of 2024-05-26",
+      "value": "1898200000",
+      "fact_id": "xf_d61d0ba4a92b04b2",
+      "reported_in_10k_filed": "2024-06-26"
+     }
+    ]
+   },
+   {
+    "concept": "InventoryFinishedGoods",
+    "label": "Inventory, Finished Goods, Gross",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2026,
+      "period": "as of 2026-05-31",
+      "value": "1914100000",
+      "fact_id": "xf_a469da6a3e3da30c",
+      "reported_in_10k_filed": "2026-07-01"
+     },
+     {
+      "fiscal_year": 2025,
+      "period": "as of 2025-05-25",
+      "value": "1883900000",
+      "fact_id": "xf_f02603c1d4ea5ce4",
+      "reported_in_10k_filed": "2025-06-26"
+     },
+     {
+      "fiscal_year": 2024,
+      "period": "as of 2024-05-26",
+      "value": "1827700000",
+      "fact_id": "xf_5caa5ae01b48e42c",
+      "reported_in_10k_filed": "2024-06-26"
+     }
+    ]
+   },
+   {
+    "concept": "LIFOInventoryAmount",
+    "label": "LIFO Inventory Amount",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2026,
+      "period": "as of 2026-05-31",
+      "value": "1278300000",
+      "fact_id": "xf_e587f158450925ac",
+      "reported_in_10k_filed": "2026-07-01"
+     },
+     {
+      "fiscal_year": 2025,
+      "period": "as of 2025-05-25",
+      "value": "1305600000",
+      "fact_id": "xf_e950c14aa6e0cf5b",
+      "reported_in_10k_filed": "2025-06-26"
+     },
+     {
+      "fiscal_year": 2024,
+      "period": "as of 2024-05-26",
+      "value": "1135300000",
+      "fact_id": "xf_8a828c03257444b1",
+      "reported_in_10k_filed": "2024-06-26"
+     }
+    ]
+   }
+  ]
+ }
+}

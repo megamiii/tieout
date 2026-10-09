@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tdygu9AQ4KhkpY+xyJLa0rIbHAzexl+t4JUe+arPyMStJII5XRBjBlQQEeDVuNxc4+zC5w+CjCG06eTucdv4dgjGmSi+yR+IYM53FkKsO/KrEuZTfBJD9mws="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"rationale\":\"Retrieved Boeing's net income/loss for fiscal year 2022 from the Consolidated Statements of Operations and related financial statements in the FY 2022 10-K.\",\"citations\":[{\"quote\":\"Net loss attributable to Boeing Shareholders ($4,935)\",\"source_id\":\"ch_24a2ba8ecef95a47\"},{\"source_id\":\"ch_cc19595608c4e1aa\",\"quote\":\"Net loss (5,053)\"}],\"answer\":\"In fiscal year 2022, Boeing reported a net loss attributable to Boeing shareholders of $4,935 million (and a total consolidated net loss of $5,053 million).\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_963399",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561506,
+  "id": "IQ_JatmyMaHdxs0PserGuAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 188,
+   "prompt_tokens": 4124,
+   "total_tokens": 4312
+  }
+ }
+}

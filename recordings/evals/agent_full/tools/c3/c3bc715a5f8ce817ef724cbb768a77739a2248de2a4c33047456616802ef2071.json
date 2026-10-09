@@ -1,0 +1,27 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "NKE",
+  "fiscal_year": 2019,
+  "item": "8",
+  "page": 52
+ },
+ "output": {
+  "ticker": "NKE",
+  "fiscal_year": 2019,
+  "item": "8",
+  "title": "Financial Statements and Supplementary Data",
+  "page": 52,
+  "item_pages": [
+   48,
+   87
+  ],
+  "chunks": [
+   {
+    "chunk_id": "ch_3585d8ef8beaae62",
+    "page": 52,
+    "text": "Table of Contents NIKE, INC. CONSOLIDATED STATEMENTS OF INCOME YEAR ENDED MAY 31, (In millions, except per share data) 2019 2018 2017 Revenues $ 39,117 $ 36,397 $ 34,350 Cost of sales 21,643 20,441 19,038 Gross profit 17,474 15,956 15,312 Demand creation expense 3,753 3,577 3,341 Operating overhead expense 8,949 7,934 7,222 Total selling and administrative expense 12,702 11,511 10,563 Interest expense (income), net 49 54 59 Other (income) expense, net (78) 66 (196) Income before income taxes 4,801 4,325 4,886 Income tax expense 772 2,392 646 NET INCOME $ 4,029 $ 1,933 $ 4,240 Earnings per common share: Basic $ 2.55 $ 1.19 $ 2.56 Diluted $ 2.49 $ 1.17 $ 2.51 Weighted average common shares outstanding: Basic 1,579.7 1,623.8 1,657.8 Diluted 1,618.4 1,659.1 1,692.0 The accompanying Notes to the Consolidated Financial Statements are an integral part of this statement. 50 NIKE, INC."
+   }
+  ]
+ }
+}

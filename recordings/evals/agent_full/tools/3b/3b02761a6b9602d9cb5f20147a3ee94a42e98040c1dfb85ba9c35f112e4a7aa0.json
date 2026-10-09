@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Operations",
+  "ticker": "BA",
+  "fiscal_year": 2018,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_d0fe84b804832852",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Notes to the Consolidated Financial Statements Years ended December 31, 2018, 2017 and 2016 (Dollars in millions, except per share data) Note 1 – Summary of Significant Accounting Policies Principles of Consolidation and Basis of Presentation The Consolidated Financial Statements included in this report have been prepared by management of The Boeing Company (herein referred to as “Boeing,” the “Company,” “we,” “us,” or “our”). These statements include the accounts of all majority-owned subsidiaries and variable interest entities that are required to be consolidated. All significant intercompany accounts and transactions have been eliminated. As described in Note 23 , effective July 1, 2017, we now operate in four reportable segments: Commercial Airplanes (BCA); Defense, Space & Security (BDS), Global Services (BGS), and Boeing Capital (BCC). Amounts in prior periods have been reclassified to conform to the current year presentation.…"
+   },
+   {
+    "chunk_id": "ch_9f6c9474c3364027",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 72,
+    "text": "Table of Contents Consolidated Statements of Cash Flows Years ended December 31 2017 2016 (Dollars in millions) Reported Impact of New Standards Restated Reported Impact of New Standards Restated Cash flows - operating activities: Net earnings $8,197 $261 $8,458 $4,895 $139 $5,034 Adjustments to reconcile net earnings to net cash provided by operating activities: Non-cash items - Share-based plans expense 202 202 190 190 Depreciation and amortization 2,069 (22) 2,047 1,910 (21) 1,889 Investment/asset impairment charges, net 113 113 90 90 Customer financing valuation expense/(benefit) 2 2 (7) (7) (Gain)/loss on dispositions, net (21) (21) 7 7 Other charges and credits, net 287 6 293 369 2 371 Changes in assets and liabilities - Accounts receivable (1,821) 981 (840) 112 214 326 Unbilled receivables (1,600) (1,600) 792 792 Advances and progress billings 4,700 4,700 (1,362) (1,362) Inventories (1,085) (318) (1,403) 3,755 249 4,004 Other current assets (19) (19) (200) (200) Accounts payable…"
+   },
+   {
+    "chunk_id": "ch_db81dbe55ebb59bf",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 49,
+    "text": "Item 8. Financial Statements and Supplementary Data Index to the Consolidated Financial Statements Page Consolidated Statements of Operations 48 Consolidated Statements of Comprehensive Income 49 Consolidated Statements of Financial Position 50 Consolidated Statements of Cash Flows 51 Consolidated Statements of Equity 52 Summary of Business Segment Data 53 Note 1 – Summary of Significant Accounting Policies 54 Note 2 - Impact of Adoption of New Standards 67 Note 3 - Acquisitions and Joint Ventures 71 Note 4 - Goodwill and Acquired Intangibles 72 Note 5 - Earnings Per Share 73 Note 6 - Income Taxes 74 Note 7 - Accounts Receivable 77 Note 8 - Inventories 77 Note 9 - Contracts with Customers 78 Note 10 - Customer Financing 78 Note 11 - Property, Plant and Equipment 81 Note 12 - Investments 82 Note 13 - Other Assets 82 Note 14 - Liabilities, Commitments and Contingencies 83 Note 15 - Arrangements with Off-Balance Sheet Risk 86 Note 16 - Debt 88 Note 17 - Postretirement Plans 89 Note 18 - S…"
+   },
+   {
+    "chunk_id": "ch_2b6fcfab27e48773",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Cash Flows (Dollars in millions) Years ended December 31, 2018 2017 2016 Cash flows – operating activities: Net earnings $10,460 $8,458 $5,034 Adjustments to reconcile net earnings to net cash provided by operating activities: Non-cash items – Share-based plans expense 202 202 190 Depreciation and amortization 2,114 2,047 1,889 Investment/asset impairment charges, net 93 113 90 Customer financing valuation (benefit)/expense (3) 2 (7) (Gain)/loss on dispositions, net (75) (21) 7 Other charges and credits, net 247 293 371 Changes in assets and liabilities – Accounts receivable (795) (840) 326 Unbilled receivables (1,826) (1,600) 792 Advances and progress billings 2,636 4,700 (1,362) Inventories 568 (1,403) 4,004 Other current assets 98 (19) (200) Accounts payable 2 130 622 Accrued liabilities 1,117 335 312 Income taxes receivable, payable and deferred (180) 656 (734) Other long-term liabilities 87 94 (68) Pe…"
+   },
+   {
+    "chunk_id": "ch_d47b9aec6b02687d",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 54,
+    "text": "See Notes to the Consolidated Financial Statements on pages 54 – 113 . 51"
+   }
+  ]
+ }
+}

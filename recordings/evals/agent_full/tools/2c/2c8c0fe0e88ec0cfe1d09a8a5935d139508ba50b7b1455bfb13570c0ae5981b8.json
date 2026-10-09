@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Note 5 - Acquisitions and Divestitures Year ended June 30, 2022",
+  "ticker": "AMCR",
+  "fiscal_year": 2023,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a1adac249f0de09a",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 64,
+    "text": "Note 5 - Acquisitions and Divestitures Year ended June 30, 2023 Acquisitions On August 1, 2022, the Company completed the acquisition of 100% equity interest in a Czech Republic company that operates a world-class flexible packaging manufacturing plant. The purchase consideration of $59 million included a deferred portion of $5 million that was paid in the first quarter of fiscal year 2024. The acquisition is part of the Company's Flexibles reportable segment and resulted in the recognition of acquired identifiable net assets of $36 million and goodwill of $23 million. Goodwill is not deductible for tax purposes. The fair values of the identifiable net assets acquired and goodwill are based on the Company's best estimate as of June 30, 2023. On March 17, 2023, the Company completed the acquisition of 100% equity interest in a medical device packaging manufacturing site in Shanghai, China. The purchase consideration of $60 million is subject to customary post-closing adjustments. The co…"
+   },
+   {
+    "chunk_id": "ch_3f43ad9dd61bc70e",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 72,
+    "text": "Note 10 - Goodwill and Other Intangible Assets Changes in the carrying amount of goodwill attributable to each reportable segment were as follows: ($ in millions) Flexibles Segment Rigid Packaging Segment Total Balance as of June 30, 2021 $ 4,437 $ 982 $ 5,419 Held for sale reclassification (1) (16) — (16) Foreign currency translation (114) (4) (118) Balance as of June 30, 2022 4,307 978 5,285 Acquisitions and acquisition adjustments (2) 98 — 98 Disposals (1) (30) — (30) Foreign currency translation 16 (3) 13 Balance as of June 30, 2023 $ 4,391 $ 975 $ 5,366 (1) As of June 30, 2022, $16 million of goodwill attributable to the Russian business was classified as assets held for sale, net. When the business was disposed on December 23, 2022, an additional $30 million of goodwill was allocated and disposed of. For further information, refer to Note 5, \"Acquisitions and Divestitures,\" and Note 6, \"Held for Sale.\" (2) Acquisitions and acquisition adjustments are detailed in Note 5, \"Acquisit…"
+   },
+   {
+    "chunk_id": "ch_a25955eb11fb304e",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 81,
+    "text": "Changes in benefit obligations and plan assets were as follows: ($ in millions) June 30, 2023 June 30, 2022 Change in benefit obligation: Benefit obligation at the beginning of the year $ 1,314 $ 2,022 Service cost 13 24 Interest cost 49 39 Participant contributions 6 6 Actuarial gain (90) (341) Settlements (27) (244) Benefits paid (62) (70) Administrative expenses (4) (6) Plan amendments (4) 1 Divestitures — (4) Other (2) — Foreign currency translation 31 (113) Benefit obligation at the end of the year $ 1,224 $ 1,314 Accumulated benefit obligation at the end of the year $ 1,186 $ 1,269 Change in plan assets: Fair value of plan assets at the beginning of the year $ 1,195 $ 1,759 Actual return on plan assets (100) (189) Employer contributions 26 35 Participant contributions 6 6 Benefits paid (62) (70) Settlements (27) (244) Administrative expenses (4) (6) Foreign currency translation 27 (96) Fair value of plan assets at the end of the year $ 1,061 $ 1,195 Funded status at the end of th…"
+   },
+   {
+    "chunk_id": "ch_a5391c4a4f91781a",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 92,
+    "text": "disposal of AMVIG and other non-core businesses. Upon completion of the transactions, $26 million of accumulated foreign currency translation was transferred from accumulated other comprehensive loss to earnings. Refer to Note 5, \"Acquisitions and Divestitures,\" and Note 8, \"Equity Method and Other Investments,\" for further information. Forward contracts to purchase own shares The Company's employee share plans require the delivery of shares to employees in the future when rights vest or vested options are exercised. The Company currently acquires shares on the open market to deliver shares to employees to satisfy vesting or exercising commitments. This exposes the Company to market price risk. To manage the market price risk, the Company has entered into forward contracts for the purchase of its ordinary shares. As of June 30, 2023, the Company has entered into forward contracts that mature between September 2023 and November 2023 to purchase 9 million shares at a weighted average pri…"
+   },
+   {
+    "chunk_id": "ch_fb7329770034d18a",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 102,
+    "text": "The tables below present additional financial information by reportable segments: Capital expenditures for the acquisition of long-lived assets by reportable segment were: Years ended June 30, ($ in millions) 2023 2022 2021 Flexibles $ 384 $ 376 $ 336 Rigid Packaging 133 136 127 Other 9 15 5 Total capital expenditures for the acquisition of long-lived assets $ 526 $ 527 $ 468 Depreciation and amortization by reportable segment were: Years ended June 30, ($ in millions) 2023 2022 2021 Flexibles $ 436 $ 450 $ 447 Rigid Packaging 125 120 115 Other 8 9 10 Total depreciation and amortization $ 569 $ 579 $ 572 Total assets by segment is not disclosed as the Company's Chief Operating Decision Maker does not use total assets by segment to evaluate segment performance or allocate resources and capital. The Company did not have sales to a single customer that exceeded 10% of consolidated net sales for the fiscal years ended June 30, 2023, 2022, and 2021, respectively. Sales by major product were…"
+   }
+  ]
+ }
+}

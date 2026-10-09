@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TVYFUKffTdXs6RcXoWGptD3USbsYCxGUQRcWoSfmWWpOIOjMyHArqqmiHD5kzlVqufK67jCLOsApefPuifym2CnmgW3JujplpWod1oRa3fKweekhS9Yxd4nE="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"confidence\":1,\"answer\":\"General Mills's FY2020 working capital ratio is 0.68. This is calculated using total current assets of $5,121.3 million divided by total current liabilities of $7,491.5 million as reported on the Consolidated Balance Sheets as of May 31, 2020.\",\"rationale\":\"Total current assets ($5,121.3 million) divided by total current liabilities ($7,491.5 million) gives 0.6836, which rounds to 0.68.\",\"citations\":[{\"quote\":\"Total current assets 5,121.3\",\"source_id\":\"ch_63241075a35e108d\"},{\"source_id\":\"ch_63241075a35e108d\",\"quote\":\"Total current liabilities 7,491.5\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_159111",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560474,
+  "id": "GQvJapxVtuG90g-I5sOBBg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 233,
+   "prompt_tokens": 4937,
+   "prompt_tokens_details": {
+    "cached_tokens": 2826
+   },
+   "total_tokens": 5170
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Our reportable segments are",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": "7",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_dc117b15489222bc",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 48,
+    "text": "Table of Contents Results of Operations During the second quarter of fiscal year 2022, we changed our reporting segments to align our financial reporting with how we manage our business in strategic end markets. This is consistent with how our Chief Operating Decision Maker (CODM) assesses our financial performance and allocates resources. As a result, we report our financial performance based on the following four reportable segments: Data Center, Client, Gaming, and Embedded. Additional information on our reportable segments is contained in Note 4 – Segment Reporting of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K). Our operating results tend to vary seasonally. Historically, our net revenue has been generally higher in the second half of the year than in the first half of the year, although market conditions and product transitions could impact these trends. The following table provides a summary of net revenue and operating income (loss) by segment for 2022 …"
+   },
+   {
+    "chunk_id": "ch_60e00a8400dea5a4",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 44,
+    "text": "Table of Contents We also entered into a revolving credit agreement in June 2022. The agreement provides for a five-year unsecured revolving credit facility in the aggregate principal amount of $3.0 billion. There were no funds drawn from this facility during the year ended December 31, 2022. In November 2022, we established a new commercial paper program, under which we may issue unsecured commercial paper notes up to a maximum principal amount outstanding at any time of $3.0 billion with a maturity of up to 397 days from the date of issue. The commercial paper will be sold at a discount from par or, alternatively, will be sold at par and bear interest at rates that will vary based on market conditions at the time of issuance. As of December 31, 2022, we had no commercial paper outstanding. During the twelve months ended December 31, 2022, we returned a total of $3.7 billion to shareholders through the repurchase of 36.3 million shares of common stock under our stock repurchase progra…"
+   },
+   {
+    "chunk_id": "ch_191f2bb42773e387",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 43,
+    "text": "acceleration and rapid innovation across a variety of technologies and established AMD in multiple embedded markets where we have traditionally not had a significant presence. We now offer Field Programmable Gate Arrays (FPGAs), Adaptive SoCs, and Adaptive Compute Acceleration Platform (ACAP) products. With the acquisition of Xilinx, we have access to a new set of markets and customers, further strengthening and diversifying our business model. In May 2022, we expanded our data center solutions capabilities with the acquisition of Pensando Systems, Inc. (Pensando). We now offer high-performance data processing units (DPUs) and a software stack that complements our existing products. With the Xilinx and Pensando acquisitions, we are well positioned to provide the industry's broadest set of leadership compute engines and accelerators to help enable best performance, security, flexibility and total cost of ownership for leading-edge data centers. Our 2022 financial results reflect the str…"
+   },
+   {
+    "chunk_id": "ch_b8be86fcee47284d",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 50,
+    "text": "Table of Contents Expenses Research and Development Expenses Research and development expenses of $5.0 billion in 2022 increased by $2.2 billion, or 76%, compared to $2.8 billion in 2021. The increase was primarily driven by strategic investments across all of our segments, including an increase in headcount through acquisitions and organic growth. Marketing, General and Administrative Expenses Marketing, general and administrative expenses of $2.3 billion in 2022 increased by $888 million, or 61%, compared to $1.4 billion in 2021. The increase was primarily due to an increase in headcount through acquisitions and organic growth, go-to-market activities, and acquisition-related costs. Amortization of Acquisition-Related Intangibles In 2022, cost of sales and operating expense included $1.4 billion and $2.1 billion, respectively, of amortization expense from intangible assets acquired as a result of the acquisitions of Xilinx and Pensando. Licensing Gain During 2022, we recognized $102 …"
+   },
+   {
+    "chunk_id": "ch_2f2a3901eadffc88",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 46,
+    "text": "based on their estimated fair values. The excess of the fair value of purchase consideration over the fair values of these identifiable assets and liabilities is recorded as goodwill. Such valuations require management to make significant estimates and assumptions, especially with respect to intangible assets. Significant estimates in valuing developed technology, in-process research and development, customer relationships and other identifiable intangible assets include, but are not limited to, expected future revenue growth rates and margins, future changes in technology, time to recreate customer relationships, useful lives, and discount rates. Management's estimates of fair value are based upon assumptions believed to be reasonable, but which are inherently uncertain and unpredictable and, as a result, actual results may differ from estimates. Allocation of purchase consideration to identifiable assets and liabilities affects our amortization expense, as acquired finite-lived intan…"
+   }
+  ]
+ }
+}

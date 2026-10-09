@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "NKE",
+  "query": "total current assets",
+  "concept": null,
+  "fiscal_years": [
+   2019
+  ]
+ },
+ "output": {
+  "ticker": "NKE",
+  "concepts": [
+   {
+    "concept": "AssetsCurrent",
+    "label": "Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "as of 2019-05-31",
+      "value": "16525000000",
+      "fact_id": "xf_0636078c6c1f3c69",
+      "reported_in_10k_filed": "2019-07-23"
+     }
+    ]
+   },
+   {
+    "concept": "PrepaidExpenseAndOtherAssetsCurrent",
+    "label": "Prepaid Expense and Other Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "as of 2019-05-31",
+      "value": "1968000000",
+      "fact_id": "xf_3c825babe95bf1f0",
+      "reported_in_10k_filed": "2019-07-23"
+     }
+    ]
+   },
+   {
+    "concept": "Assets",
+    "label": "Assets",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2019,
+      "period": "as of 2019-05-31",
+      "value": "23717000000",
+      "fact_id": "xf_466546c19018fb67",
+      "reported_in_10k_filed": "2019-07-23"
+     }
+    ]
+   }
+  ]
+ }
+}

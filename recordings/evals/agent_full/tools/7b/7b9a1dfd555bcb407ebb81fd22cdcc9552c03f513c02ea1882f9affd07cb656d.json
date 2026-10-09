@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "BA",
+  "query": "property, plant and equipment",
+  "concept": null,
+  "fiscal_years": [
+   2018
+  ]
+ },
+ "output": {
+  "ticker": "BA",
+  "concepts": [
+   {
+    "concept": "PropertyPlantAndEquipmentNet",
+    "label": "Property, Plant and Equipment, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "as of 2018-12-31",
+      "value": "12645000000",
+      "fact_id": "xf_e96669146568c68c",
+      "reported_in_10k_filed": "2019-02-08"
+     }
+    ]
+   },
+   {
+    "concept": "PropertyPlantAndEquipmentGross",
+    "label": "Property, Plant and Equipment, Gross",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "as of 2018-12-31",
+      "value": "31213000000",
+      "fact_id": "xf_58bd55fb6b36923c",
+      "reported_in_10k_filed": "2019-02-08"
+     }
+    ]
+   },
+   {
+    "concept": "ProceedsFromSaleOfPropertyPlantAndEquipment",
+    "label": "Proceeds from Sale of Property, Plant, and Equipment",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2018,
+      "period": "2018-01-01..2018-12-31",
+      "value": "120000000",
+      "fact_id": "xf_ae125d82ebb76699",
+      "reported_in_10k_filed": "2019-02-08"
+     }
+    ]
+   }
+  ]
+ }
+}

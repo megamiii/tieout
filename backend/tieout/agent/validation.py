@@ -79,8 +79,19 @@ def numbers_in(text: str) -> list[Decimal]:
     return out
 
 
+# A number right after a month or a reference word is a date or a label
+# ("December 31", "Note 21", "Item 7A"), not a financial figure.
+LABEL_BEFORE_RE = re.compile(
+    r"(?:\b(?:jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|june?|july?|aug(?:ust)?"
+    r"|sep(?:t(?:ember)?)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?"
+    r"|notes?|items?|part|section|page|exhibit|schedule))\.?\s*$",
+    re.IGNORECASE,
+)
+
+
 def figures_in_answer(text: str) -> list[tuple[str, Decimal]]:
-    """Numbers in an answer that must be supported: not years, not small counts."""
+    """Numbers in an answer that must be supported: not years, small counts,
+    dates or labels."""
     out = []
     for m in NUMBER_RE.finditer(text):
         token = m.group(0)
@@ -90,7 +101,8 @@ def figures_in_answer(text: str) -> list[tuple[str, Decimal]]:
         plain = token.strip("()$%-")
         is_year = re.fullmatch(r"(19|20)\d\d", plain) is not None
         is_small_count = "." not in plain and abs(d) <= SMALL_INT_MAX and "%" not in token
-        if not is_year and not is_small_count:
+        is_label = "$" not in token and LABEL_BEFORE_RE.search(text[: m.start()]) is not None
+        if not (is_year or is_small_count or is_label):
             out.append((token, d))
     return out
 

@@ -143,3 +143,12 @@ def test_figures_from_the_question_are_allowed() -> None:
     assert any("20%" in p for p in validate_submission(args, ledger()))
     question = "Does any segment represent more than 20% of revenue?"
     assert validate_submission(args, ledger(), question=question) == []
+
+
+def test_dates_and_references_are_not_figures() -> None:
+    # Regression: "December 31" and "Note 21" were treated as unsupported figures.
+    text = (
+        "Accounts payable as of December 31, 2019 were $1,380.5 million (see Note 21 and "
+        "Item 7). Revenue was 31 million units in Dec. 31 quarter."
+    )
+    assert [t for t, _ in figures_in_answer(text)] == ["$1,380.5", "31"]

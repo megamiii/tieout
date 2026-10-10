@@ -1,0 +1,132 @@
+{
+ "item_id": "xbrl-AMCR-2020-OperatingIncomeLoss-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "agent_full",
+ "status": "answered",
+ "answer": "In fiscal year 2020 (for the year ended June 30, 2020), Amcor's operating income was $994.0 million.",
+ "confidence": 1.0,
+ "rationale": "The Consolidated Statement of Income in Amcor's FY 2020 Form 10-K explicitly reports operating income as $994.0 million for the year ended June 30, 2020.",
+ "citations": [
+  {
+   "source_id": "ch_4da5a7022574af86",
+   "quote": "Operating income 994.0",
+   "kind": "chunk",
+   "ticker": "AMCR",
+   "fiscal_year": 2020,
+   "section": "Item 8",
+   "page": 48,
+   "values": [
+    "30",
+    "2020",
+    "2019",
+    "2018",
+    "12467.5",
+    "9458.2",
+    "9319.1",
+    "9932.0",
+    "7659.1",
+    "7462.3",
+    "2535.5",
+    "1799.1",
+    "1856.8",
+    "1384.8",
+    "999.0",
+    "793.2",
+    "97.3",
+    "64.0",
+    "72.7",
+    "115.1",
+    "130.8",
+    "40.2",
+    "55.7",
+    "186.4",
+    "43.2",
+    "994.0",
+    "791.7",
+    "993.9",
+    "22.2",
+    "16.8",
+    "13.1",
+    "206.9",
+    "207.9",
+    "210.0",
+    "15.9",
+    "3.5",
+    "74.1",
+    "825.2",
+    "604.1",
+    "722.9",
+    "186.9",
+    "171.5",
+    "118.8",
+    "14.0",
+    "4.1",
+    "17.5",
+    "624.3",
+    "436.7",
+    "586.6"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 4,
+ "prompt_tokens": 14361,
+ "completion_tokens": 270,
+ "latency_ms": null,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$994.0 matches 994 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 4,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1893,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"fiscal_years\":[2020],\"query\":\"operating income\",\"ticker\":\"AMCR\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 2439,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"fiscal_year\":2020,\"query\":\"operating income 994\",\"ticker\":\"AMCR\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 4260,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"fiscal_year\":2020,\"ticker\":\"AMCR\",\"query\":\"Consolidated Statements of Income Operating income\",\"section\":\"8\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 6039,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"confidence\":1,\"answer\":\"In fiscal year 2020 (for the year ended June 30, 2020), Amcor's operating income was $994.0 million.\",\"rationale\":\"The Consolidated Statement of Income in Amcor's FY 2020 Form 10-K explicitly reports operating income as $994.0 million for the year ended June 30, 2020.\",\"citations\":[{\"quote\":\"Operating income 994.0\",\"source_id\":\"ch_4da5a7022574af86\"}]}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

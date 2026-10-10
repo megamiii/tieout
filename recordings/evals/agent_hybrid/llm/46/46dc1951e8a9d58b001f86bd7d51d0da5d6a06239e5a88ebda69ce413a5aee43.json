@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T+lEDaXLihHaQpdtiXOW0KTAsH7vnhv4emW8dMjUQDJp4BMGKT6e9CzgJ5dNdWuWlcp2qs7IuCxWy/XmhBn3EzTju4/c05AFYnBgSlUbEfPAiDeJEqVoue34="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"capital expenditures property plant equipment purchases ADBE\",\"fiscal_year\":2015,\"ticker\":\"ADBE\"}",
+        "name": "search_filings"
+       },
+       "id": "call_48580",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791624056,
+  "id": "eAPKaquNG8jOvdIPytLNqAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 1593,
+   "total_tokens": 1633
+  }
+ }
+}

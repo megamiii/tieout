@@ -1,0 +1,106 @@
+{
+ "item_id": "xbrl-ADBE-2015-PaymentsToAcquirePropertyPlantAndEquipment-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "agent_full",
+ "status": "answered",
+ "answer": "In fiscal year 2015, Adobe's capital expenditure (purchases of property and equipment) was $184.9 million ($184,936 thousand).",
+ "confidence": 1.0,
+ "rationale": "Adobe reported purchases of property and equipment of $184,936 thousand (or $184.9 million) in its Consolidated Statements of Cash Flows for fiscal year 2015.",
+ "citations": [
+  {
+   "source_id": "ch_bc543b86d303ee0c",
+   "quote": "Purchases of property and equipment............................................................................ (184,936)",
+   "kind": "chunk",
+   "ticker": "ADBE",
+   "fiscal_year": 2015,
+   "section": "Item 8",
+   "page": 63,
+   "values": [
+    "826004",
+    "29802",
+    "704589",
+    "184936",
+    "148332",
+    "188358",
+    "57779",
+    "24260",
+    "22779",
+    "17572",
+    "67737"
+   ]
+  },
+  {
+   "source_id": "xf_3e96a99aefc340fc",
+   "quote": "184936000",
+   "kind": "fact",
+   "ticker": "ADBE",
+   "concept": "PaymentsToAcquirePropertyPlantAndEquipment",
+   "fiscal_year": 2015,
+   "restated": [],
+   "values": [
+    "184936000"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 4,
+ "prompt_tokens": 11505,
+ "completion_tokens": 311,
+ "latency_ms": null,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$184.9 matches 184.936 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 4,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1908,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"query\":\"capital expenditures purchases of property plant and equipment\",\"fiscal_years\":[2015],\"ticker\":\"ADBE\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 2354,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"section\":\"8\",\"ticker\":\"ADBE\",\"fiscal_year\":2015,\"query\":\"property, plant and equipment\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 3656,
+   "tools": [
+    {
+     "name": "calculate",
+     "arguments": "{\"expression\":\"184936 / 1000\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 3898,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"answer\":\"In fiscal year 2015, Adobe's capital expenditure (purchases of property and equipment) was $184.9 million ($184,936 thousand).\",\"needs_review\":false,\"confidence\":1,\"rationale\":\"Adobe reported purchases of property and equipment of $184,936 thousand (or $184.9 million) in its Consolidated Statements of Cash Flows for fiscal year 2015.\",\"citations\":[{\"source_id\":\"ch_bc543b86d303ee0c\",\"quote\":\"Purchases of property and equipment............................................................................ (184,936)\"},{\"quote\":\"184936000\",\"source_id\":\"xf_3e96a99aefc340fc\"}]}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

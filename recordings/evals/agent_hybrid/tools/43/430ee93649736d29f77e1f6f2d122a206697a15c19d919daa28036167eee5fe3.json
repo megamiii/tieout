@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "net revenue of $23,576",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_58ea377b420505c5",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 49,
+    "text": "up adjustment, and depreciation related to the Xilinx fixed assets fair value step-up adjustment, certain compensation charges related to the acquisitions of Xilinx and Pensando, and licensing gain. All Other operating loss of $409 million in 2021 primarily consisted of $379 million of stock-based compensation expense and $42 million of acquisition-related costs. Comparison of Gross Margin, Expenses, Licensing Gain, Interest Expense, Other Income (Expense) and Income Taxes The following is a summary of certain consolidated statement of operations data for 2022 and 2021: December 31, 2022 December 25, 2021 (In millions, except for percentages) Net revenue $ 23,601 $ 16,434 Cost of sales 11,550 8,505 Amortization of acquisition-related intangibles 1,448 — Gross profit 10,603 7,929 Gross margin 45 % 48 % Research and development 5,005 2,845 Marketing, general and administrative 2,336 1,448 Amortization of acquisition-related intangibles 2,100 — Licensing gain (102) (12) Interest expense (…"
+   },
+   {
+    "chunk_id": "ch_cb587adeacc79358",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 68,
+    "text": "Table of Contents The following table provides a summary of net revenue and operating income (loss) by segment for 2022, 2021 and 2020. Year Ended December 31, 2022 December 25, 2021 December 26, 2020 (In millions) Net revenue: Data Center $ 6,043 $ 3,694 $ 1,685 Client 6,201 6,887 5,189 Gaming 6,805 5,607 2,746 Embedded 4,552 246 143 Total net revenue $ 23,601 $ 16,434 $ 9,763 Operating income (loss): Data Center $ 1,848 $ 991 $ 198 Client 1,190 2,088 1,608 Gaming 953 934 (138) Embedded 2,252 44 (11) All Other (4,979) (409) (288) Total operating income (loss) $ 1,264 $ 3,648 $ 1,369 The following table provides items included in All Other category: Year Ended December 31, 2022 December 25, 2021 December 26, 2020 (In millions) Operating loss: Stock-based compensation expense $ 1,081 $ 379 $ 274 Acquisition-related costs 452 42 14 Amortization of acquisition-related intangibles 3,548 — — Licensing gain (102) (12) — Total operating loss $ 4,979 $ 409 $ 288 The Company does not discretely…"
+   },
+   {
+    "chunk_id": "ch_dc117b15489222bc",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 48,
+    "text": "Table of Contents Results of Operations During the second quarter of fiscal year 2022, we changed our reporting segments to align our financial reporting with how we manage our business in strategic end markets. This is consistent with how our Chief Operating Decision Maker (CODM) assesses our financial performance and allocates resources. As a result, we report our financial performance based on the following four reportable segments: Data Center, Client, Gaming, and Embedded. Additional information on our reportable segments is contained in Note 4 – Segment Reporting of the Notes to Financial Statements (Part II, Item 8 of this Form 10-K). Our operating results tend to vary seasonally. Historically, our net revenue has been generally higher in the second half of the year than in the first half of the year, although market conditions and product transitions could impact these trends. The following table provides a summary of net revenue and operating income (loss) by segment for 2022 …"
+   },
+   {
+    "chunk_id": "ch_ffdf02ee54c499db",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 67,
+    "text": "Table of Contents Accrued Liabilities December 31, 2022 December 25, 2021 (In millions) Accrued marketing programs $ 876 $ 933 Accrued compensation and benefits 701 705 Customer program liabilities 859 314 Other accrued and current liabilities 641 472 Total accrued liabilities $ 3,077 $ 2,424 Revenue Revenue allocated to remaining performance obligations that are unsatisfied (or partially unsatisfied) include amounts received from customers and amounts that will be invoiced and recognized as revenue in future periods for development services, IP licensing and product revenue. As of December 31, 2022, the aggregate transaction price allocated to remaining performance obligations under contracts with an original expected duration of more than one year was $247 million, of which $213 million is expected to be recognized in the next 12 months. The revenue allocated to remaining performance obligations does not include amounts which have an original expected duration of one year or less. Re…"
+   },
+   {
+    "chunk_id": "ch_ef2b256052680315",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 87,
+    "text": "Table of Contents The movement in the deferred tax valuation allowance was as follows: December 31, 2022 December 25, 2021 December 26, 2020 (In millions) Balance at beginning of year $ 1,735 $ 1,576 $ 2,867 Charges (reductions) to income tax expense and other accounts* 112 3 (1,301) Acquisition-related 231 — — Net recoveries — 156 10 Balance at end of year $ 2,078 $ 1,735 $ 1,576 * Amounts recorded in 2020 reflect release of valuation allowances. + The net recoveries for all were primarily related to net originating deferred tax assets and newly generated tax credits. Under current U.S. tax law, the impact of future distributions of undistributed earnings that are indefinitely reinvested are anticipated to be subject to withholding taxes from local jurisdictions and non-conforming U.S. state jurisdictions. The amount of cumulative undistributed earnings that are permanently reinvested that could be subject to withholding taxes are $460 million as of December 31, 2022. Through the end …"
+   }
+  ]
+ }
+}

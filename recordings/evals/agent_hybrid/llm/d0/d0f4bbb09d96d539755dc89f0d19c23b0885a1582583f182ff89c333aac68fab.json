@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T7ppk69rcFQI6ZC7UMyL59NyZ/Jj+ZIZUCR9vbZzxQzVB5bfZ4UJl402lDtq9HgQYjuQfyIgCoZNGknlZF4fFzK3XuzK0tFnAtl7U7E2IDiJIYC0MX1vP7Rw="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2021,\"query\":\"Cross Currency Swaps At December 31, 2021, the total notional amount of the cross currency swaps was\",\"ticker\":\"VZ\"}",
+        "name": "search_filings"
+       },
+       "id": "call_71131",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622354,
+  "id": "0fzJatbiBbWzxN8Pk7OLiQg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 58,
+   "prompt_tokens": 8065,
+   "prompt_tokens_details": {
+    "cached_tokens": 4051
+   },
+   "total_tokens": 8123
+  }
+ }
+}

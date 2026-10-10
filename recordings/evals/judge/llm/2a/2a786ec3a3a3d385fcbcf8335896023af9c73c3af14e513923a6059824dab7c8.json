@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer accurately captures all the product categories mentioned in the gold answer while providing additional context by organizing them into AMD's reportable segments, which is factually consistent with the FY22 10-K.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T/zLuYb68aE7LPfCack3Hsg4DZOTeYR1jGP/FsNJcLvzxc313P8TjwN1QvhPy7YKYuPfb6yG9JoHWpzDn82+i96/OIpeiWhjrsYBEx5/3kDSm2vhMwYYLeY2Fu2YsU9AWZ/qCESHtTbKtOFnl"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623892,
+  "id": "wgLKav2WMIqFxN8P1vfl0AU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 56,
+   "prompt_tokens": 410,
+   "total_tokens": 466
+  }
+ }
+}

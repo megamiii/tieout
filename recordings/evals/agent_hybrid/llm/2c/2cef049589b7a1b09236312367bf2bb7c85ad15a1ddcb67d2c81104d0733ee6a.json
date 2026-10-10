@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TwNA5GGq66GHvwq9vv+CB1J/oM57X0CS2jfWR27MHlirhDuDqNm9oUMECwlz3CrHyi1uBX4yrdFUjb+D/UN22XDCPXxvTOm+tk/eDv7Wu4yDoSsT8jr1S9Xo="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Operating activities Cash flows from operating activities\",\"ticker\":\"ADBE\",\"fiscal_year\":2017}",
+        "name": "search_filings"
+       },
+       "id": "call_99143",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623176,
+  "id": "AgDKap2iL6n6vdIP4o6M2A4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 1616,
+   "total_tokens": 1655
+  }
+ }
+}

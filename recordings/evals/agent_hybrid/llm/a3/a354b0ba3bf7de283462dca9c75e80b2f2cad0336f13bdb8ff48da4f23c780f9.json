@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T1taMdx4FlOQ5JIr15QC7azLFMBMYdnQUZhY866ZsDP9MjmMgMsn70SSy1qx31zR4aKRkFJSU5K6d8lbULjmJ3wwGoaiOCcl/o/24TUa5a8vtF3MZem+vROE="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BBY\",\"query\":\"inventories balance sheet December 28 2019\",\"fiscal_year\":2019}",
+        "name": "search_filings"
+       },
+       "id": "call_101701",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623320,
+  "id": "lwDKaqXLNbiVxN8P0qON8QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 1598,
+   "total_tokens": 1643
+  }
+ }
+}

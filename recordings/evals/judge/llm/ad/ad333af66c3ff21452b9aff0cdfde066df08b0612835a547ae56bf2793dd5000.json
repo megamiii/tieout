@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the customer concentration figure of 16% mentioned in the gold answer and provides additional accurate context from the 10-K filing.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TbIY7NqK7vNzqxvqBjH2H5psLI2n6obr4PSZad6lCcXj/jBq8WhRFkE06EHmPyP3uHwNs9WiEYmozYc323wjlOfZyPrADa3vZUCiQ+g3fJSKDglb3czBeUGbZjhzT03dskw5NHWmrTRUqFFQn"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623835,
+  "id": "lgLKary7CJXQvdIPspndmAU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 288,
+   "total_tokens": 332
+  }
+ }
+}

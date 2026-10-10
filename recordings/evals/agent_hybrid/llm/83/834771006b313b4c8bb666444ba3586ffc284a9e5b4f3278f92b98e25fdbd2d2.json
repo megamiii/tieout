@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T//PeTLz0zeo9dOorux9H5cz4ohh4PfeNpoKAlaqmz5YeEoTGdrPacRcbC/O6xyI3zvTI0NDcS2quuSc0WImoHWaakfmcPFtzY1IOIA3qBscpUi8WTkCjr5E="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2015,\"ticker\":\"AMD\",\"query\":\"Advanced Micro Devices, Inc. Consolidated Statements of Operations Year Ended December 26, 2015\"}",
+        "name": "search_filings"
+       },
+       "id": "call_73387",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623091,
+  "id": "sv_Jau64MPLQvdIPmrq7kAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 53,
+   "prompt_tokens": 7917,
+   "prompt_tokens_details": {
+    "cached_tokens": 4045
+   },
+   "total_tokens": 7970
+  }
+ }
+}

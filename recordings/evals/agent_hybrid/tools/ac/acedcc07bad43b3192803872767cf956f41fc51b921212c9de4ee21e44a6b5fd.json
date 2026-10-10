@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Operating income 2022 2021 2020 revenue",
+  "ticker": "ADBE",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_ca2a937396a5f5c8",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 65,
+    "text": "Our segment revenue and results for fiscal 2022, 2021 and 2020 were as follows: (dollars in millions) Digital Media Digital Experience Publishing and Advertising Total Fiscal 2022 Revenue $ 12,842 $ 4,422 $ 342 $ 17,606 Cost of revenue 561 1,502 102 2,165 Gross profit $ 12,281 $ 2,920 $ 240 $ 15,441 Gross profit as a percentage of revenue 96 % 66 % 70 % 88 % Fiscal 2021 Revenue $ 11,520 $ 3,867 $ 398 $ 15,785 Cost of revenue 429 1,321 115 1,865 Gross profit $ 11,091 $ 2,546 $ 283 $ 13,920 Gross profit as a percentage of revenue 96 % 66 % 71 % 88 % Fiscal 2020 Revenue $ 9,233 $ 3,125 $ 510 $ 12,868 Cost of revenue 352 1,126 244 1,722 Gross profit $ 8,881 $ 1,999 $ 266 $ 11,146 Gross profit as a percentage of revenue 96 % 64 % 52 % 87 % We generally categorize revenue by geographic area based on where the customer manages their utilization of our offerings. Revenue by geographic area for fiscal 2022, 2021 and 2020 were as follows: (in millions) 2022 2021 2020 Americas: United States $ 9,…"
+   },
+   {
+    "chunk_id": "ch_028b2b68207c1c1a",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 77,
+    "text": "NOTE 10. INCOME TAXES Income before income taxes for fiscal 2022, 2021 and 2020 consisted of the following: (in millions) 2022 2021 2020 Domestic $ 1,958 $ 1,736 $ 1,090 Foreign 4,050 3,969 3,086 Income before income taxes $ 6,008 $ 5,705 $ 4,176 The provision for (benefit from) income taxes for fiscal 2022, 2021 and 2020 consisted of the following: (in millions) 2022 2021 2020 Current: United States federal $ 465 $ 391 $ 119 Foreign 329 197 222 State and local 132 103 79 Total current 926 691 420 Deferred: United States federal (45) (148) (123) Foreign 360 359 (1,313) State and local 11 (19) (68) Total deferred 326 192 (1,504) Provision for (benefit from) income taxes $ 1,252 $ 883 $ (1,084) Intra-Entity Transfers of Certain Intellectual Property Rights (“IP rights”) During fiscal 2020, we completed intra-entity transfers of certain IP rights to our Irish subsidiary in order to better align the ownership of these rights with how our business operates. The transfers did not result in t…"
+   },
+   {
+    "chunk_id": "ch_408bef7129ca6774",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 65,
+    "text": "12,868 Revenue by major offerings in our Digital Media reportable segment for fiscal 2022, 2021 and 2020 were as follows: (in millions) 2022 2021 2020 Creative Cloud $ 10,459 $ 9,546 $ 7,736 Document Cloud 2,383 1,974 1,497 Total Digital Media revenue $ 12,842 $ 11,520 $ 9,233 Subscription revenue by segment for fiscal 2022, 2021 and 2020 were as follows: (in millions) 2022 2021 2020 Digital Media $ 12,385 $ 11,048 $ 8,813 Digital Experience 3,880 3,379 2,660 Publishing and Advertising 123 146 153 Total subscription revenue $ 16,388 $ 14,573 $ 11,626 Table of Contents ADOBE INC. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 65"
+   },
+   {
+    "chunk_id": "ch_a0e79e1ea285785a",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 88,
+    "text": "NOTE 18. LEASES We lease certain facilities and data centers under non-cancellable operating lease arrangements that expire at various dates through 2032. We also have one land lease that expires in 2091. Our lease agreements do not contain any material residual value guarantees, material variable payment provisions or material restrictive covenants. Operating lease expense was $121 million for fiscal 2022 and $119 million for both fiscal 2021 and 2020. We recognized operating lease expense in cost of revenue and operating expenses in our Consolidated Statements of Income. Our operating lease expense includes variable lease costs and is net of sublease income, both of which are not material. Supplemental cash flow information for fiscal 2022, 2021 and 2020 related to operating leases was as follows: (in millions) 2022 2021 2020 Cash paid for amounts included in the measurement of operating lease liabilities $ 107 $ 116 $ 99 Right-of-use assets obtained in exchange for operating lease l…"
+   },
+   {
+    "chunk_id": "ch_f7df9093a7ed09c5",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 83,
+    "text": "As of December 2, 2022, there was $2.83 billion of unrecognized compensation cost, adjusted for estimated forfeitures, related to non-vested stock-based awards and purchase rights which will be recognized over a weighted average period of 2.29 years. Total unrecognized compensation cost will be adjusted for future changes in estimated forfeitures. Total stock-based compensation costs included in our Consolidated Statements of Income for fiscal 2022, 2021 and 2020 were as follows: (in millions) 2022 2021 2020 Cost of revenue $ 97 $ 70 $ 61 Research and development 726 549 467 Sales and marketing 417 307 261 General and administrative 200 164 120 Total (1) $ 1,440 $ 1,090 $ 909 _________________________________________ (1) During fiscal 2022, 2021 and 2020, we recorded tax benefits related to stock-based compensation costs of $291 million, $395 million and $352 million, respectively. NOTE 13. ACCUMULATED OTHER COMPREHENSIVE INCOME (LOSS) The components of accumulated other comprehensive …"
+   }
+  ]
+ }
+}

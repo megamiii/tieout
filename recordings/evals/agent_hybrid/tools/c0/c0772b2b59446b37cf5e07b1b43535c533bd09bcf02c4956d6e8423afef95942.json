@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "conversion",
+  "ticker": "ADBE",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_b85eb043f15ffd87",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7A",
+    "page": 51,
+    "text": "operating expenses, as applicable. In the event the underlying forecasted transaction does not occur, or it becomes probable that it will not occur, we reclassify the gain or loss on the related cash flow hedge from accumulated other comprehensive income (loss) to revenue or operating expenses, as applicable. For the fiscal year ended December 2, 2022, there were no net gains or losses recognized in revenue or operating expenses relating to hedges of forecasted transactions that did not occur. Non-Designated Hedges of Foreign Currency Assets and Liabilities Our derivatives not designated as hedging instruments consist of foreign currency forward contracts that we primarily use to hedge monetary assets and liabilities denominated in non-functional currencies to reduce the risk that our earnings and cash flows will be adversely affected by changes in foreign currency exchange rates. These foreign exchange contracts are carried at fair value with changes in fair value of these contracts r…"
+   },
+   {
+    "chunk_id": "ch_6e5fe0b78cd396fb",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7A",
+    "page": 51,
+    "text": "that would result from an immediate parallel shift in the yield curve. A 150 basis point increase in interest rates would lead to a $20 million decrease in the market value of our short-term investments. Conversely, a 150 basis point decrease in interest rates would lead to a $20 million increase in the market value of our short-term investments. Senior Notes As of December 2, 2022, we had $4.15 billion of senior notes outstanding which bear interest at fixed rates, and therefore do not subject us to financial statement risk associated with changes in interest rates. As of December 2, 2022, the total carrying amount of our senior notes was $4.13 billion and the related fair value based on observable market prices in less active markets was $3.88 billion. See Note 17 of our Notes to Consolidated Financial Statements for information regarding our senior notes. Table of Contents 51"
+   },
+   {
+    "chunk_id": "ch_1fe2ef2f5d3bb371",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 17,
+    "text": "global wellbeing days for employees to take a break from work and take care of themselves. Additionally, we introduced “Let's Talk” and healing sessions to support employees facing challenging circumstances. Future of Work Digital transformation and the COVID-19 pandemic have fundamentally changed how people work, and we are leaning into digital-first workflows, tools and resources to enable us to be productive, wherever we are. We also believe in the value of people being together—fostering trust, relationships and collaboration and innovation. Over the past year, we have been evolving to a hybrid model, in which employees who are assigned to an office can divide their work between the office and home about half the time. We are actively piloting, testing and iterating our approach to support new ways of working and evolving the employee experience. Growth and Development At Adobe, employees are given the opportunity to drive their own careers. The Global Talent Development team creat…"
+   },
+   {
+    "chunk_id": "ch_989810c59a59b0bb",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 63,
+    "text": "Taxes Collected from Customers We net taxes collected from customers against those remitted to government authorities in our financial statements. Accordingly, taxes collected from customers are not reported as revenue. Treasury Stock Prepayments made for repurchases of our common stock are classified as treasury stock on our Consolidated Balance Sheets and only shares physically delivered to us at period ends are excluded from the computation of earnings per share. We account for treasury stock under the cost method. When treasury stock is re-issued at a price higher than its cost, the difference is recorded as a component of additional paid-in-capital in our Consolidated Balance Sheets. When treasury stock is re-issued at a price lower than its cost, the difference is recorded as a component of additional paid-in-capital to the extent that there are previously recorded gains to offset the losses. If there are no treasury stock gains in additional paid-in-capital, the losses upon re-i…"
+   },
+   {
+    "chunk_id": "ch_5a7326ede5f3999b",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 63,
+    "text": "We translate assets and liabilities of foreign subsidiaries, whose functional currency is their local currency, at exchange rates in effect at the balance sheet date. We translate revenue and expenses at the monthly average exchange rates. We include accumulated net translation adjustments in stockholders' equity as a component of accumulated other comprehensive income (loss). Derivative Financial Instruments In countries outside the United States, we transact business in U.S. Dollars and in various other currencies. We may use foreign exchange option contracts or forward contracts to hedge a portion of our forecasted foreign currency denominated revenue and expenses primarily in Euros, British Pounds, Japanese Yen, Australian Dollars and Indian Rupees. Additionally, we hedge our net recognized foreign currency monetary assets and liabilities with foreign exchange forward contracts to reduce the risk that our earnings and cash flows will be adversely affected by changes in exchange rat…"
+   }
+  ]
+ }
+}

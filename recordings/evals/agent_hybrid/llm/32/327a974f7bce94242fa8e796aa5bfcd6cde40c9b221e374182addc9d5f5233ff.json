@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TL72XKj+duuN9h1fhjOT83E19wsKFDjFtte6eFn45OOS2QheUZ+8XugQ7IKZ7v9H7qhxIEU2SwXu9hSCTtEZmNHxxB8fEvxn6vpCZxVFv1HJUGGu6Bg9jfZs="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"PepsiCo's Item 3 disclosures in both the FY2021 and FY2022 10-K filings state that although they are party to various legal proceedings, management believes the outcomes will not have a material adverse effect on their financial condition, results of operations, or cash flows.\",\"answer\":\"In both FY2021 and FY2022, PepsiCo reported that while it and its subsidiaries are party to a variety of litigation, claims, legal or regulatory proceedings, inquiries, and investigations, management believes that the final outcome will not have a material adverse effect on the company's financial condition, results of operations, or cash flows.\",\"confidence\":1,\"citations\":[{\"quote\":\"management believes that the final outcome of the foregoing will not have a material adverse effect on our financial condition, results of operations or cash flows.\",\"source_id\":\"ch_3829c9d1997f0b3d\"},{\"source_id\":\"ch_b5b1ca2910f1a712\",\"quote\":\"management believes that the final outcome of the foregoing will not have a material adverse effect on our financial condition, results of operations or cash flows.\"}],\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_80399",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622235,
+  "id": "WvzJau7lDPrpvdIP8NaAqQo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 285,
+   "prompt_tokens": 4255,
+   "total_tokens": 4540
+  }
+ }
+}

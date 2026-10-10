@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TO9ra0I0EU8l5shzWHWtXld/QDIa77mT7dsD9yoH/AQHCGOF9YOox/RFkhBpBusda0k+yUEjjp0D0Hc1Wq7PMOL8ls609qYxBTXI3EykZfnb4E1bh/1nGwmo="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"ADBE\",\"fiscal_year\":2022,\"query\":\"Operating income operating margin revenue 2022 2021 2020\",\"section\":\"7\"}",
+        "name": "search_filings"
+       },
+       "id": "call_73898",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621845,
+  "id": "1PrJasXgNMWY3boPuNGwkAM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 58,
+   "prompt_tokens": 2910,
+   "total_tokens": 2968
+  }
+ }
+}

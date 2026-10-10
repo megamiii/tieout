@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TKBb6W/PKZFRtactG6uumXUWCUqHFTFLml3ZOaLWhfD6E7NIyVvXmoPEjSnF8n6gGNsLgtMeX+n6CqiB2M/UdkrOfov33o8lcB649DGSfJXcfvD9hajTx+eU="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Consolidated Statements of Operations Net revenue Cost of sales Research and development\",\"fiscal_year\":2015,\"ticker\":\"AMD\"}",
+        "name": "search_filings"
+       },
+       "id": "call_106489",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623090,
+  "id": "sf_Jap2uMdz9vdIPyYeDoQg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 6225,
+   "prompt_tokens_details": {
+    "cached_tokens": 4038
+   },
+   "total_tokens": 6269
+  }
+ }
+}

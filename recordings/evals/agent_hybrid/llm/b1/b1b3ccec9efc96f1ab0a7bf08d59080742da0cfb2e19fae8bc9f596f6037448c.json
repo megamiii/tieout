@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TpsKfq0Z9wangqFIHHvUko/xxv1JLjHiNe76PCZrsuViFWymKp2b9R1SN1tOZ1AFV0INoS2ttEeWH6R+rkAHk39jeO8sTusWhpamHq/MWdMSYz5e59eCsCbo="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BA\",\"fiscal_year\":2022,\"query\":\"primary customers Boeing\"}",
+        "name": "search_filings"
+       },
+       "id": "call_27736",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622767,
+  "id": "bv7JavnZKv3fxs0PkPSdiAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 34,
+   "prompt_tokens": 1511,
+   "total_tokens": 1545
+  }
+ }
+}

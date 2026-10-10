@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income Operating revenues",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_3c12292136175f82",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 102,
+    "text": "Years Ended December 31, 2022 2021 2020 Consumer $ 11,622 $ 11,558 $ 11,082 Business 1,201 1,136 1,057 Total Fios revenue $ 12,823 $ 12,694 $ 12,139 The following table provides Wireless service revenue for our reportable segments and includes intersegment activity: (dollars in millions) Years Ended December 31, 2022 2021 2020 Consumer $ 61,509 $ 56,103 $ 53,605 Business 12,845 12,366 11,805 Total Wireless service revenue $ 74,354 $ 68,469 $ 65,410 Reconciliation to Consolidated Financial Information The reconciliation of segment operating revenues and expenses to consolidated operating revenues and operating income below includes the effects of special items that the chief operating decision maker does not consider in assessing segment performance, primarily because of their nature. A reconciliation of the reportable segment operating revenues to consolidated operating revenues is as follows: (dollars in millions) Years Ended December 31, 2022 2021 2020 Operating Revenues Total report…"
+   },
+   {
+    "chunk_id": "ch_255f4059fad1e4a6",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 101,
+    "text": "The following tables provides operating financial information for our two reportable segments: (dollars in millions) 2022 Consumer Business Total Reportable Segments External Operating Revenues Service $ 73,139 $ — $ 73,139 Wireless equipment 23,168 — 23,168 Other(1) 6,996 — 6,996 Small and Medium Business — 12,595 12,595 Global Enterprise — 9,733 9,733 Public Sector and Other — 6,117 6,117 Wholesale — 2,584 2,584 Intersegment revenues 203 43 246 Total Operating Revenues(2) 103,506 31,072 134,578 Cost of services 17,746 10,483 28,229 Cost of wireless equipment 25,134 5,362 30,496 Selling, general and administrative expense 19,064 8,284 27,348 Depreciation and amortization expense 12,716 4,312 17,028 Total Operating Expenses 74,660 28,441 103,101 Operating Income $ 28,846 $ 2,631 $ 31,477 (1) Other revenue includes fees that partially recover the direct and indirect costs of complying with regulatory and industry obligations and programs, revenues associated with certain products includ…"
+   },
+   {
+    "chunk_id": "ch_da663d36ff3cb831",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 102,
+    "text": "(dollars in millions) 2020 Consumer Business Total Reportable Segments External Operating Revenues Service $ 64,884 $ — $ 64,884 Wireless equipment 15,492 — 15,492 Other(1) 7,916 — 7,916 Small and Medium Business — 11,112 11,112 Global Enterprise — 10,405 10,405 Public Sector and Other — 6,362 6,362 Wholesale — 3,013 3,013 Intersegment revenues 241 70 311 Total Operating Revenues(2) 88,533 30,962 119,495 Cost of services 15,610 10,659 26,269 Cost of wireless equipment 15,736 4,064 19,800 Selling, general and administrative expense 16,936 8,380 25,316 Depreciation and amortization expense 11,395 4,086 15,481 Total Operating Expenses 59,677 27,189 86,866 Operating Income $ 28,856 $ 3,773 $ 32,629 (1) Other revenue includes fees that partially recover the direct and indirect costs of complying with regulatory and industry obligations and programs, revenues associated with certain products included in our device protection offerings, leasing and interest when equipment is sold to the custo…"
+   },
+   {
+    "chunk_id": "ch_5eda612e7f1ecdbd",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 67,
+    "text": "operations through voting rights, do not have the obligation to absorb the expected losses, or do not have the right to receive the residual returns of the entity. We consolidate the assets and liabilities of VIEs when we are deemed to be the primary beneficiary. The primary beneficiary is the party that has the power to make the decisions that most significantly affect the economic performance of the VIE and has the obligation to absorb losses or the right to receive benefits that could potentially be significant to the VIE. Recently Adopted Accounting Standards On January 1, 2020, we adopted ASU 2016-13, Financial Instruments - Credit Losses (Topic 326) using the modified retrospective approach. The cumulative after-tax effect of the changes made to our consolidated financial statements for the adoption of Topic 326 was as follows: (dollars in millions) At December 31, 2019 Adjustments due to Topic 326 At January 1, 2020 Retained earnings $ 53,147 $ (200) $ 52,947 See Note 8 for addi…"
+   },
+   {
+    "chunk_id": "ch_e128c9d3d7199637",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 54,
+    "text": "Consolidated Statements of Income Verizon Communications Inc. and Subsidiaries (dollars in millions, except per share amounts) Years Ended December 31, 2022 2021 2020 Operating Revenues Service revenues and other $ 109,625 $ 110,449 $ 109,872 Wireless equipment revenues 27,210 23,164 18,420 Total Operating Revenues 136,835 133,613 128,292 Operating Expenses Cost of services (exclusive of items shown below) 28,637 31,234 31,401 Cost of wireless equipment 30,496 25,067 19,800 Selling, general and administrative expense 30,136 28,658 31,573 Depreciation and amortization expense 17,099 16,206 16,720 Total Operating Expenses 106,368 101,165 99,494 Operating Income 30,467 32,448 28,798 Equity in earnings (losses) of unconsolidated businesses 44 145 (45) Other income (expense), net 1,373 312 (539) Interest expense (3,613) (3,485) (4,247) Income Before Provision For Income Taxes 28,271 29,420 23,967 Provision for income taxes (6,523) (6,802) (5,619) Net Income $ 21,748 $ 22,618 $ 18,348 Net in…"
+   }
+  ]
+ }
+}

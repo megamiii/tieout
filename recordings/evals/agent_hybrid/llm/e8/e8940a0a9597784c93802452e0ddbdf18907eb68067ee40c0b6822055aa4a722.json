@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TjT2sKaFcoxTlb8ZH84qiLY2vJHI9cSxZu7ZAlJLhXl+Vv9tVCz6z4nTwXx4uedQu7kT/QXVmzESXEjfX4fluw+OpYDU40FOPLNVpUdgOvmRb4w1FV+i+Ohg="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Consolidated Statements of Operations depreciation amortization\",\"ticker\":\"AMD\",\"fiscal_year\":2015}",
+        "name": "search_filings"
+       },
+       "id": "call_32631",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623085,
+  "id": "rP_JatmUNJz-vdIP97e46Ac",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 1633,
+   "total_tokens": 1671
+  }
+ }
+}

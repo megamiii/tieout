@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Balance Sheets Total assets",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_cf7adac4def57f70",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 81,
+    "text": "the advances at any time without penalty, but in certain cases, with breakage costs. Subject to certain conditions, we may also remove receivables from the applicable ABS Entity. In October 2022, we borrowed $2.0 billion under the loan agreement entered into in connection with the 2022 ABS Financing Facility. The aggregate outstanding balance under the 2022 ABS Financing Facility was $2.0 billion as of December 31, 2022. Variable Interest Entities The ABS Entities meet the definition of a VIE for which we have determined that we are the primary beneficiary as we have both the power to direct the activities of the entity that most significantly impact the entity's performance and the obligation to absorb losses or the right to receive benefits of the entity. Therefore, the assets, liabilities and activities of the ABS Entities are consolidated in our financial results and are included in amounts presented on the face of our consolidated balance sheets. The assets and liabilities related…"
+   },
+   {
+    "chunk_id": "ch_d9e3cb3e5f7d2f2e",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 79,
+    "text": "agreement, the Company has agreed to guarantee certain of the payment obligations of Cellco and the Originators to the ABS Entities. Cash collections on the receivables collateralizing our asset-backed debt securities are required at certain specified times to be placed into segregated accounts. Deposits to the segregated accounts are considered restricted cash and are included in Prepaid expenses and other and Other assets in our consolidated balance sheets. Proceeds from our asset-backed debt transactions are reflected in Cash flows from financing activities in our consolidated statements of cash flows. The asset-backed debt issued is included in Debt maturing within one year and Long-term debt in our consolidated balance sheets. 79 Verizon 2022 Annual Report on Form 10-K"
+   },
+   {
+    "chunk_id": "ch_893b1455f30d1984",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 41,
+    "text": "agreement, the Company has agreed to guarantee certain of the payment obligations of Cellco and the Originators to the ABS Entities. Cash collections on the receivables collateralizing our asset-backed debt securities are required at certain specified times to be placed into segregated accounts. Deposits to the segregated accounts are considered restricted cash and are included in Prepaid expenses and other and Other assets in our consolidated balance sheets. Proceeds from our asset-backed debt transactions are reflected in Cash flows from financing activities in our consolidated statements of cash flows. The asset-backed debt issued is included in Debt maturing within one year and Long-term debt in our consolidated balance sheets. See Note 7 to the consolidated financial statements for additional information. Long-Term Credit Facilities At December 31, 2022 (dollars in millions) Maturities Facility Capacity Unused Capacity Principal Amount Outstanding Verizon revolving credit facility…"
+   },
+   {
+    "chunk_id": "ch_54dcad0b04037d12",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Consolidated Balance Sheets Verizon Communications Inc. and Subsidiaries (dollars in millions, except per share amounts) At December 31, 2022 2021 Assets Current assets Cash and cash equivalents $ 2,605 $ 2,921 Accounts receivable 25,332 24,742 Less Allowance for credit losses 826 896 Accounts receivable, net 24,506 23,846 Inventories 2,388 3,055 Prepaid expenses and other 8,358 6,906 Total current assets 37,857 36,728 Property, plant and equipment 307,689 289,897 Less Accumulated depreciation 200,255 190,201 Property, plant and equipment, net 107,434 99,696 Investments in unconsolidated businesses 1,071 1,061 Wireless licenses 149,796 147,619 Goodwill 28,671 28,603 Other intangible assets, net 11,461 11,677 Operating lease right-of-use assets 26,130 27,883 Other assets 17,260 13,329 Total assets $ 379,680 $ 366,596 Liabilities and Equity Current liabilities Debt maturing within one year $ 9,963 $ 7,443 Accounts payable and accrued liabilities 23,977 24,833 Current operating lease liab…"
+   },
+   {
+    "chunk_id": "ch_16de055f14aeee6f",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 62,
+    "text": "Other assets 163 146 17 Cash, cash equivalents and restricted cash $ 4,111 $ 4,161 $ (50) Investments in Debt and Equity Securities Investments in equity securities that are not accounted for under equity method accounting or result in consolidation are to be measured at fair value. For investments in equity securities without readily determinable fair values, Verizon elects the measurement alternative permitted under GAAP to measure these investments at cost, less any impairment, plus or minus changes resulting from observable price changes in orderly transactions for an identical or similar investment of the same issuer. For investments in debt securities without quoted prices, Verizon uses an alternative matrix pricing method. Investments in equity securities that do not result in consolidation of the investee are included in Investments in unconsolidated businesses and debt securities are included in Other assets in our consolidated balance sheets. Allowance for Credit Losses Accou…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net Income attributable to Verizon",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5ea45714c88ebbe3",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 54,
+    "text": "Basic Earnings Per Common Share Net income attributable to Verizon $ 5.06 $ 5.32 $ 4.30 Weighted-average shares outstanding (in millions) 4,202 4,148 4,140 Diluted Earnings Per Common Share Net income attributable to Verizon $ 5.06 $ 5.32 $ 4.30 Weighted-average shares outstanding (in millions) 4,204 4,150 4,142 See Notes to Consolidated Financial Statements Verizon 2022 Annual Report on Form 10-K 54"
+   },
+   {
+    "chunk_id": "ch_42b6c533c68a7967",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Consolidated Statements of Comprehensive Income Verizon Communications Inc. and Subsidiaries (dollars in millions) Years Ended December 31, 2022 2021 2020 Net Income $ 21,748 $ 22,618 $ 18,348 Other Comprehensive Loss, Net of Tax (Expense) Benefit Foreign currency translation adjustments, net of tax of $(13), $(17) and $19 (153) (141) 180 Unrealized gain (loss) on cash flow hedges, net of tax of $(111), $30 and $197 322 (85) (571) Unrealized loss on fair value hedges, net of tax of $148, $0 and $0 (431) — — Unrealized loss on marketable securities, net of tax of $8, $3 and $(2) (25) (9) (2) Defined benefit pension and postretirement plans, net of tax of $221, $205 and $221 (651) (621) (676) Other comprehensive loss attributable to Verizon (938) (856) (1,069) Total Comprehensive Income $ 20,810 $ 21,762 $ 17,279 Comprehensive income attributable to noncontrolling interests $ 492 $ 553 $ 547 Comprehensive income attributable to Verizon 20,318 21,209 16,732 Total Comprehensive Income $ 20…"
+   },
+   {
+    "chunk_id": "ch_e128c9d3d7199637",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 54,
+    "text": "Consolidated Statements of Income Verizon Communications Inc. and Subsidiaries (dollars in millions, except per share amounts) Years Ended December 31, 2022 2021 2020 Operating Revenues Service revenues and other $ 109,625 $ 110,449 $ 109,872 Wireless equipment revenues 27,210 23,164 18,420 Total Operating Revenues 136,835 133,613 128,292 Operating Expenses Cost of services (exclusive of items shown below) 28,637 31,234 31,401 Cost of wireless equipment 30,496 25,067 19,800 Selling, general and administrative expense 30,136 28,658 31,573 Depreciation and amortization expense 17,099 16,206 16,720 Total Operating Expenses 106,368 101,165 99,494 Operating Income 30,467 32,448 28,798 Equity in earnings (losses) of unconsolidated businesses 44 145 (45) Other income (expense), net 1,373 312 (539) Interest expense (3,613) (3,485) (4,247) Income Before Provision For Income Taxes 28,271 29,420 23,967 Provision for income taxes (6,523) (6,802) (5,619) Net Income $ 21,748 $ 22,618 $ 18,348 Net in…"
+   },
+   {
+    "chunk_id": "ch_ea0920e289967f57",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 58,
+    "text": "Consolidated Statements of Changes in Equity Verizon Communications Inc. and Subsidiaries (dollars in millions, except per share amounts, and shares in thousands) Years Ended December 31, 2022 2021 2020 Shares Amount Shares Amount Shares Amount Common Stock Balance at beginning of year 4,291,434 $ 429 4,291,434 $ 429 4,291,434 $ 429 Balance at end of year 4,291,434 429 4,291,434 429 4,291,434 429 Additional Paid In Capital Balance at beginning of year 13,861 13,404 13,419 Other (Note 14) (441) 457 (15) Balance at end of year 13,420 13,861 13,404 Retained Earnings Balance at beginning of year 71,993 60,464 53,147 Opening balance sheet adjustment (Note 1) — — (200) Adjusted opening balance 71,993 60,464 52,947 Net income attributable to Verizon 21,256 22,065 17,801 Dividends declared ($2.585, $2.535, $2.485 per share) (10,860) (10,532) (10,284) Other (9) (4) — Balance at end of year 82,380 71,993 60,464 Accumulated Other Comprehensive Income (Loss) Balance at beginning of year attributab…"
+   },
+   {
+    "chunk_id": "ch_905ae6d10f740c04",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 91,
+    "text": "After-tax compensation expense for stock-based compensation related to RSUs and PSUs described above included in Net income attributable to Verizon was $609 million, $625 million and $780 million for 2022, 2021 and 2020, respectively. 91 Verizon 2022 Annual Report on Form 10-K"
+   }
+  ]
+ }
+}

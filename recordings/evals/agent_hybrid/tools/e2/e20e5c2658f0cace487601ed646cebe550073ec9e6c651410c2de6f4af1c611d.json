@@ -1,0 +1,37 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "ADBE",
+  "fiscal_year": 2017,
+  "item": "8",
+  "page": 62
+ },
+ "output": {
+  "ticker": "ADBE",
+  "fiscal_year": 2017,
+  "item": "8",
+  "title": "Financial Statements and Supplementary Data",
+  "page": 62,
+  "item_pages": [
+   56,
+   98
+  ],
+  "chunks": [
+   {
+    "chunk_id": "ch_9cca13c635d9b3c8",
+    "page": 62,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS 62 NOTE 1. BASIS OF PRESENTATION AND SIGNIFICANT ACCOUNTING POLICIES Operations Founded in 1982, Adobe Systems Incorporated is one of the largest and most diversified software companies in the world. We offer a line of products and services used by creative professionals, marketers, knowledge workers, application developers, enterprises and consumers for creating, managing, delivering, measuring, optimizing and engaging with compelling content and experiences across personal computers, devices and media. We market and license our products and services directly to enterprise customers through our sales force and to end users through app stores and our own website at www.adobe.com. We offer many of our products via a Software-as-a-Service (“SaaS”) model or a managed services model (both of which are referred to as a hosted or cloud-based) as well as through term subscription and pay-per-use models. We also distribute certain products and services through a network of distributors, value-added resellers (“VARs”), systems integrators (“SIs”), independent software vendors (“ISVs”), retailers, software developers and original equipment manufacturers (“OEMs”). In addition, we license our technology to hardware manufacturers, software developers and service providers for use in their products and solutions. Our products run on personal and server-based computers, as well as on smartphones, tablets and other devices, depending on the product. We have operations in the Americas, Europe, Middle East and Africa (“EMEA”) and Asia-Pacific (“APAC”). Basis of Presentation The accompanying Consolidated Financial Statements include those of Adobe and its subsidiaries, after elimination of all intercompany accounts and transactions. We have prepared the accompanying Consolidated Financial Statements in accordance with accounting principles generally accepted in the United States of America (“GAAP”) and pursuant to the rules and regulations"
+   },
+   {
+    "chunk_id": "ch_5e691f0ef48dae33",
+    "page": 62,
+    "text": "The accompanying Consolidated Financial Statements include those of Adobe and its subsidiaries, after elimination of all intercompany accounts and transactions. We have prepared the accompanying Consolidated Financial Statements in accordance with accounting principles generally accepted in the United States of America (“GAAP”) and pursuant to the rules and regulations of the United States Securities and Exchange Commission (the “SEC”). Use of Estimates In preparing Consolidated Financial Statements and related disclosures in conformity with GAAP and pursuant to the rules and regulations of the SEC, we must make estimates and judgments that affect the amounts reported in the Consolidated Financial Statements and accompanying notes. Estimates are used for, but not limited to, sales allowances and programs, bad debts, stock- based compensation, determining the fair value of acquired assets and assumed liabilities, excess inventory and purchase commitments, facilities lease losses, impairment of goodwill and intangible assets, litigation, income taxes and investments. Actual results may differ materially from these estimates. Fiscal Year Our fiscal year is a 52- or 53-week year that ends on the Friday closest to November 30. Our financial results for fiscal 2016 benefited from an extra week in the first quarter of fiscal 2016 due to our 52/53 week financial calendar whereby fiscal 2016 was a 53-week fiscal year compared with fiscal 2017 and 2015 which were 52-week fiscal years. Reclassifications Certain immaterial prior year amounts have been reclassified to conform to current year presentation in the Consolidated Balance Sheets, Consolidated Statements of Income and Consolidated Statements of Cash Flows. Significant Accounting Policies Revenue Recognition Our revenue is derived from the subscription, non-software related hosted services, term-based and perpetual licensing of software products, associated software maintenance and support plans, consulting services, training, and technical support. Most of our enterprise customer arrangements are complex, involving multiple solutions and various license rights, bundled with post- contract customer support and other meaningful rights that together provide a complete end-to-end solution to the customer."
+   },
+   {
+    "chunk_id": "ch_2bb805fc81984fb5",
+    "page": 62,
+    "text": "software products, associated software maintenance and support plans, consulting services, training, and technical support. Most of our enterprise customer arrangements are complex, involving multiple solutions and various license rights, bundled with post- contract customer support and other meaningful rights that together provide a complete end-to-end solution to the customer. We recognize revenue when all four revenue recognition criteria have been met: persuasive evidence of an arrangement exists, we have delivered the product or performed the service, the fee is fixed or determinable and collection is probable."
+   }
+  ]
+ }
+}

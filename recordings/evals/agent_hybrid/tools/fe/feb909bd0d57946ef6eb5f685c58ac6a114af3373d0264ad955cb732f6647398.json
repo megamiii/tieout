@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "737 production rate 2023",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_905a96bd7d7c6098",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 34,
+    "text": "737-10 aircraft in inventory and 236 737-7 and 720 737-10 aircraft in backlog and have delivered a total of 1,033 737 MAX aircraft. If we experience delays in achieving certification and/or incorporating safety enhancements, future revenues, cash flows and results of operations could be adversely impacted. See further discussion of the 737 MAX in Note 7 and Note 13 to our Consolidated Financial Statements. 747 Program We completed production of the 747 in the fourth quarter of 2022 and delivery of the last aircraft is expected to occur in early 2023. Ending production of the 747 did not have a material impact on our financial position, results of operations or cash flows. 767 Program The accounting quantity for the 767 program increased by 24 units during 2022 due to the program's normal progress of obtaining additional orders and delivering airplanes. The 767 assembly line includes the commercial program and a derivative to support the KC-46A Tanker program. The commercial program has…"
+   },
+   {
+    "chunk_id": "ch_fbe39bf0fbfa90e4",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 33,
+    "text": "We increased the production rate to 31 per month in 2022, and expect to implement further gradual production rate increases based on market demand and supply chain capacity. We expensed abnormal production costs of $188 million and $1,887 million during the years ended December 31, 2022 and 2021. Over 190 countries have approved the resumption of 737 MAX operations. The first 737 MAX passenger flight in China since 2019 occurred on January 13, 2023. There is uncertainty regarding timing of resumption of deliveries in China, which are still subject to final regulatory approvals. We continue to work with a small number of customers who have requested to defer deliveries or to cancel orders for 737 MAX aircraft, and we are remarketing and/or delaying deliveries of certain aircraft included within inventory. We have approximately 250 aircraft in inventory as of December 31, 2022, including approximately 140 aircraft in inventory that are designated for customers in China. We are remarketin…"
+   },
+   {
+    "chunk_id": "ch_dacec146e187d286",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 9,
+    "text": "having the right to terminate orders, be compensated for late deliveries and/or substitute orders for other Boeing aircraft. We must minimize disruption caused by production changes, achieve operational stability and implement productivity improvements in order to meet customer demand and maintain our profitability. We have previously announced plans to adjust production rates on several of our commercial aircraft programs. The 787 program is currently producing at low rates and we expect to gradually increase to 5 per month in 2023. Production of the 777X is currently paused and is expected to resume in 2023. The 737 program has experienced operational and supply chain challenges stabilizing production at 31 per month. We plan to gradually increase 737 production rates based on market demand and supply chain capacity. In addition, we continue to seek opportunities to reduce the costs of building our aircraft, including working with our suppliers to reduce supplier costs, identifying a…"
+   },
+   {
+    "chunk_id": "ch_74faf997a6de6765",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 36,
+    "text": "Table of Contents Program Development The following chart summarizes the time horizon between go-ahead and planned initial delivery for major Commercial Airplanes derivatives and programs. Go-ahead and Initial Delivery 737-7 2011 2023 737-10 2017 2024 777X-9 2013 2025 777X-8F 2022 2027 Reflects models in development during 2022 The development schedules shown above are subject to a number of uncertainties, including changes in certification requirements. The timing of certifications will ultimately be determined by the regulators. Additional Considerations The development and ongoing production of commercial aircraft is extremely complex, involving extensive coordination and integration with suppliers and highly-skilled labor from employees and other partners. Meeting or exceeding our performance and reliability standards, as well as those of customers and regulators, can be costly and technologically challenging, such as the 787 production issues and associated rework. In addition, th…"
+   },
+   {
+    "chunk_id": "ch_a4672aa6d775175e",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 80,
+    "text": "The decrease in commercial aircraft programs inventory during 2022 reflects a decrease in 737 and 787 inventory, offset by growth in 777X inventory. Commercial aircraft programs inventory includes approximately 250 737 aircraft and 100 787 aircraft at December 31, 2022 as compared with 335 737 aircraft and 110 787 aircraft at December 31, 2021. At December 31, 2022 and 2021, commercial aircraft programs inventory included the following amounts related to the 737 program: deferred production costs of $2,955 and $1,296 and unamortized tooling and other non-recurring costs of $626 and $617. At December 31, 2022, $3,555 of 737 deferred production costs, unamortized tooling and other non-recurring costs are expected to be recovered from units included in the program accounting quantity that have firm orders, and $26 is expected to be recovered from units included in the program accounting quantity that represent expected future orders. At December 31, 2022 and 2021, commercial aircraft prog…"
+   }
+  ]
+ }
+}

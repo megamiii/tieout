@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "1,959 1097 862 estimated future benefit payments pension health care and life",
+  "ticker": "VZ",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7093776bf2532bdd",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 89,
+    "text": "Stock-Based Compensation Expense After-tax compensation expense for stock-based compensation related to RSUs and PSUs described above included in Net income attributable to Verizon was $625 million, $780 million and $872 million for 2021, 2020 and 2019, respectively. Note 11. Employee Benefits We maintain non-contributory defined benefit pension plans for certain employees. In addition, we maintain postretirement health care and life insurance plans for certain retirees and their dependents, which are both contributory and non-contributory, and include a limit on our share of the cost for certain current and future retirees. In accordance with our accounting policy for pension and other postretirement benefits, operating expenses include service costs associated with pension and other postretirement benefits while other credits and/or charges based on actuarial assumptions, including projected discount rates, an estimated return on plan assets, and impact from health care trend rates a…"
+   },
+   {
+    "chunk_id": "ch_65bbf3bdaf73a0a8",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 89,
+    "text": "summarize benefit costs, as well as the benefit obligations, plan assets, funded status and rate assumptions associated with pension and postretirement health care and life insurance benefit plans. Obligations and Funded Status (dollars in millions) Pension Health Care and Life At December 31, 2021 2020 2021 2020 Change in Benefit Obligations Beginning of year $ 22,236 $ 21,248 $ 16,168 $ 15,669 Service cost 282 305 112 110 Interest cost 394 505 289 429 Actuarial (gain) loss, net (605) 2,308 (930) 887 Benefits paid (816) (842) (929) (927) Curtailment and termination benefits 6 — — — Settlements paid (1,330) (1,288) — — End of year 20,167 22,236 14,710 16,168 Change in Plan Assets Beginning of year 20,128 19,451 572 743 Actual return on plan assets 2,049 2,750 53 47 Company contributions 56 57 885 709 Benefits paid (816) (842) (929) (927) Settlements paid (1,330) (1,288) — — End of year 20,087 20,128 581 572 Funded Status - End of year $ (80) $ (2,108) $ (14,129) $ (15,596) (dollars in …"
+   },
+   {
+    "chunk_id": "ch_6ed5190f04508b91",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 91,
+    "text": "Other pre-tax changes in plan assets and benefit obligations recognized in Other comprehensive (income) loss are as follows: (dollars in millions) Pension Health Care and Life At December 31, 2021 2020 2019 2021 2020 2019 Prior service cost (benefit) $ — $ — $ — $ — $ — $ (22) Reversal of amortization items Prior service cost (benefit) (61) (61) (61) 894 966 971 Total recognized in Other comprehensive loss (income) (pre-tax) $ (61) $ (61) $ (61) $ 894 $ 966 $ 949 Assumptions The weighted-average assumptions used in determining benefit obligations follow: Pension Health Care and Life At December 31, 2021 2020 2021 2020 Discount Rate 3.00% 2.60% 2.90% 2.50% Rate of compensation increases 3.00% 3.00% N/A N/A N/A - not applicable The weighted-average assumptions used in determining net periodic cost follow: Pension Health Care and Life At December 31, 2021 2020 2019 2021 2020 2019 Discount rate in effect for determining service cost 3.20% 3.30% 4.60% 3.00% 3.50% 4.60% Discount rate in effe…"
+   },
+   {
+    "chunk_id": "ch_8b9f31edf0a2f0b4",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 94,
+    "text": "fair value is measured using the NAV per share as a practical expedient are not leveled within the fair value hierarchy but are included in total investments. Employer Contributions In 2021, we made no discretionary contribution to our qualified pension plans, $58 million of contributions to our nonqualified pension plans and $885 million of contributions to our other postretirement benefit plans. No qualified pension plans contributions are expected to be made in 2022. Nonqualified pension plans contributions are estimated to be approximately $60 million and contributions to our other postretirement benefit plans are estimated to be approximately $860 million in 2022. Estimated Future Benefit Payments The benefit payments to retirees are expected to be paid as follows: (dollars in millions) Year Pension Benefits Health Care and Life 2022 $ 2,049 $ 906 2023 1,648 883 2024 1,097 862 2025 1,066 850 2026 1,034 840 2027 to 2031 5,097 4,139 Savings Plan and Employee Stock Ownership Plans We…"
+   },
+   {
+    "chunk_id": "ch_49df130afa83186c",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 91,
+    "text": "In determining our pension and other postretirement benefit obligations, we used a weighted-average discount rate of 2.9% in 2021. The rates were selected to approximate the composite interest rates available on a selection of high-quality bonds available in the market at December 31, 2021. The bonds selected had maturities that coincided with the time periods during which benefits payments are expected to occur, were non-callable and available in sufficient quantities to ensure marketability (at least $300 million par outstanding). In order to project the long-term target investment return for the total portfolio, estimates are prepared for the total return of each major asset class over the subsequent 10-year period. Those estimates are based on a combination of factors including the current market interest rates and valuation levels, consensus earnings expectations and historical long-term risk premiums. To determine the aggregate return for the pension trust, the projected return o…"
+   }
+  ]
+ }
+}

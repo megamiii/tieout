@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0ThTbf5DTvHsWB3T7F/JaHee20B3wbvkLEAO1f24SFPD1DMNRvCwn97/GYkeFk+WxV3UriS4v0oK5mBv5Uv8JFWeAPgxY67e1rJ6zRWBeSLxpWtVNTeF5y2ws="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"answer\":\"To determine the FY2021 inventory turnover ratio for Nike, we use the following values from the financial statements:\\n- FY2021 Cost of Sales (COGS): $24,576 million\\n- FY2020 Ending / FY2021 Beginning Inventory (May 31, 2020): $7,367 million\\n- FY2021 Ending Inventory (May 31, 2021): $6,854 million\\n\\nAverage inventory between FY2020 and FY2021 = ($7,367 + $6,854) / 2 = $7,110.5 million.\\nInventory turnover ratio = $24,576 / $7,110.5 = 3.46.\\n\\nRounded to two decimal places, Nike's FY2021 inventory turnover ratio is 3.46.\",\"citations\":[{\"quote\":\"Cost of sales 24,576\",\"source_id\":\"ch_29e387f1cf346a87\"},{\"source_id\":\"ch_80bf156ef544ecbf\",\"quote\":\"Inventories 6,854 7,367\"}],\"confidence\":1,\"rationale\":\"Calculated COGS divided by average inventory using figures directly from Nike's FY2021 10-K Consolidated Statements of Income and Consolidated Balance Sheets.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_50593",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623245,
+  "id": "RwDKauWSCNejxN8P0Mu3yQ4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 353,
+   "prompt_tokens": 8066,
+   "total_tokens": 8419
+  }
+ }
+}

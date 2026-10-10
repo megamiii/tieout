@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies cross currency swaps as having the highest notional value and provides figures that align with the gold answer, accounting for minor rounding.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TJnR0BNWG39F2vLmhLqqym7FyjnqHyNjhGJ02j05eB66ZBpy8Hv17t+CbiocHgZMJDw7gbEtqv4fLGr1FRXcWs+GtT2RGEi5B29nPxBx/owI9YvOU6h6MCBiwN36uucsF8caLUN1P2/FaVCMs"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623862,
+  "id": "tgLKar6MB_yYvdIPtbqYyQk",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 323,
+   "total_tokens": 364
+  }
+ }
+}

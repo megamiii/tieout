@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "operating income not meaningful",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5772574933334dce",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 84,
+    "text": "Table of Contents Our methodology for conducting the quantitative goodwill impairment testing is fundamentally based on the measurement of fair value for our reporting units, which inherently entails the use of significant management judgment. For valuation, we use a combination of the income approach (discounted cash flows) and market approach (market multiples) in estimating the fair value of our reporting units. When preparing discounted cash flow models under the income approach, we estimate future cash flows using the reporting unit's internal multi-year forecast, and a terminal value calculated using a growth rate that we believe is appropriate in light of current and expected future economic conditions. To discount these cash flows we use our expected cost of equity, determined using a capital asset pricing model. When using the market method under the market approach, we apply comparable publicly traded companies' multiples (e.g., earnings, revenues) to our reporting units' ope…"
+   },
+   {
+    "chunk_id": "ch_6e49ca12c8792d84",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 7,
+    "text": "Our brand and its attributes—trust, security and service—are key assets. We invest heavily in managing, marketing, promoting and protecting our brand, including through the delivery of our products and services in a manner consistent with our brand promise. The American Express brand is ranked among the most valuable brands in the world. We place significant importance on trademarks, service marks and patents, and seek to secure our intellectual property rights around the world. We aim to provide the world's best customer experience every day and our reputation for world-class service has been recognized by numerous awards over the years. Our customer care professionals, travel consultants and partners treat servicing interactions as an opportunity to bring the brand to life for our customers, add meaningful value and deepen relationships. 4"
+   },
+   {
+    "chunk_id": "ch_5179d977aaadcf0e",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 146,
+    "text": "(0.3) (1.6) Valuation allowances (0.1) — 4.0 Other 0.7 (0.1) 1.6 Actual tax rates 21.6 % 24.6 % 27.0 % (a) Includes the implementation of PAM related to investments in QAH projects for the year ended December 31, 2021. We record a deferred income tax (benefit) provision when there are differences between assets and liabilities measured for financial reporting and for income tax return purposes. These temporary differences result in taxable or deductible amounts in future years and are measured using the tax rates and laws that will be in effect when such differences are expected to reverse. (a) 143"
+   },
+   {
+    "chunk_id": "ch_89bcc3c1ae692c89",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 80,
+    "text": "We define climate-related risk as: (1) risks related to the transition to a low-carbon economy, which may include extensive changes pertaining to policy, legal, technology, market and reputational risks, and (2) risks related to the physical impacts of climate change, typically driven by acute physical risk such as increased severity of extreme weather events (e.g., cyclones, hurricanes, floods) and chronic physical risk which are longer-term shifts in climate patterns (e.g., sea level rise, chronic heat waves). Such transition and physical risk events driven by climate change can have broad impact on our customers, operations, suppliers and business. Climate-related risk is interconnected and overarching across all risk types as it may manifest as credit risk, operational risk, market risk, liquidity risk or other risk types. We continue to enhance our focus on climate-related risk within our risk governance framework. We are currently performing a risk identification process for clim…"
+   },
+   {
+    "chunk_id": "ch_662a783173fed616",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 104,
+    "text": "Table of Contents BALANCE SHEET Cash and Cash Equivalents Cash and cash equivalents include cash and amounts due from banks, interest-bearing bank balances, including securities purchased under resale agreements, restricted cash, and other highly liquid investments with original maturities of 90 days or less. Restricted cash primarily represents amounts related to Card Member credit balances as well as upcoming debt maturities of consolidated VIEs. Goodwill Goodwill represents the excess of the acquisition cost of an acquired business over the fair value of assets acquired and liabilities assumed. We allocate goodwill to our reporting units for the purpose of impairment testing. A reporting unit is defined as an operating segment, or a business that is one level below an operating segment, for which discrete financial information is regularly reviewed by the operating segment manager. We evaluate goodwill for impairment annually as of June 30, or more frequently if events occur or circ…"
+   }
+  ]
+ }
+}

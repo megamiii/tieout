@@ -1,0 +1,22 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Restructuring and impairment charges",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_b95bff829ba44347",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 118,
+    "text": "Item 8. Financial Statements and Supplementary Data. See “Item 15. Exhibits and Financial Statement Schedules.”"
+   }
+  ]
+ }
+}

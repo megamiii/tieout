@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TBvflwy79JdJc5m5KKfAr7Irwo78l4vjvgttcKFPB6SJAaEBgvmRA8mbX2Fn9gW8hJuIFVP3AXugpqmC5kXsgNDvTqSm3FSpVn2GXhMklyR13VCWe5cfkNbQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AMD\",\"fiscal_year\":2022,\"query\":\"Operating income operating margin 2022 percentage\"}",
+        "name": "search_filings"
+       },
+       "id": "call_91571",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622396,
+  "id": "-_zJapXDB-mH28oPvLehoA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 7985,
+   "prompt_tokens_details": {
+    "cached_tokens": 4051
+   },
+   "total_tokens": 8026
+  }
+ }
+}

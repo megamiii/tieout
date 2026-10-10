@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T0PBD41wTQI1qEUXCYsfDdhQbHL7njn/zFrCccEH+vWr+3oXXN/OPw81FdynmzLPGzvNL73XLI+tvZ9Qq0OzCxtYkO+mIFdcE0g/CklqeH6OOjDVJrlzNi/I="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The exact figure for Property, plant and equipment — net as of December 31, 2018 is $8,738 million ($8.738 billion), reported in 3M's Consolidated Balance Sheet in Item 8 of the FY2018 10-K.\",\"confidence\":1,\"answer\":\"For fiscal year 2018 (at December 31, 2018), 3M's property, plant and equipment — net (net PP&E) was $8,738 million, or approximately $8.74 billion, as shown on the consolidated balance sheet.\",\"citations\":[{\"source_id\":\"ch_788c54576b42a952\",\"quote\":\"Property, plant and equipment — net 8,738\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_69120",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623379,
+  "id": "0wDKao2VDO-ExN8PjpPFsAY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 202,
+   "prompt_tokens": 5087,
+   "prompt_tokens_details": {
+    "cached_tokens": 2013
+   },
+   "total_tokens": 5289
+  }
+ }
+}

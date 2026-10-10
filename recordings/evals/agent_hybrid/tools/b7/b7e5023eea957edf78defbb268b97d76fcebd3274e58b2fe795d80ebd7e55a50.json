@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income",
+  "ticker": "ADBE",
+  "fiscal_year": 2016,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a0e064be71f8cce8",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 66,
+    "text": "The accompanying Consolidated Financial Statements include those of Adobe and its subsidiaries, after elimination of all intercompany accounts and transactions. We have prepared the accompanying Consolidated Financial Statements in accordance with accounting principles generally accepted in the United States of America (“GAAP”) and pursuant to the rules and regulations of the United States Securities and Exchange Commission (the “SEC”). Use of Estimates In preparing Consolidated Financial Statements and related disclosures in conformity with GAAP and pursuant to the rules and regulations of the SEC, we must make estimates and judgments that affect the amounts reported in the Consolidated Financial Statements and accompanying notes. Estimates are used for, but not limited to, sales allowances and programs, bad debts, stock- based compensation, determining the fair value of acquired assets and assumed liabilities, excess inventory and purchase commitments, restructuring charges, faciliti…"
+   },
+   {
+    "chunk_id": "ch_d0667846878e1634",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 60,
+    "text": "ITEM 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA INDEX TO CONSOLIDATED FINANCIAL STATEMENTS Page No. Consolidated Balance Sheets Consolidated Statements of Income Consolidated Statements of Comprehensive Income Consolidated Statements of Stockholders' Equity Consolidated Statements of Cash Flows Notes to Consolidated Financial Statements Report of KPMG LLP, Independent Registered Public Accounting Firm All financial statement schedules have been omitted, since the required information is not applicable or is not present in amounts sufficient to require submission of the schedule, or because the information required is included in the Consolidated Financial Statements and Notes thereto. 61 62 63 64 65 66 102"
+   },
+   {
+    "chunk_id": "ch_dd997f8849b23c8b",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 62,
+    "text": "Interest and other income (expense), net 13,548 33,909 7,267 Interest expense (70,442) (64,184) (59,732) Investment gains (losses), net (1,570) 961 1,156 Total non-operating income (expense), net (58,464) (29,314) (51,309) Income before income taxes 1,435,138 873,781 361,376 Provision for income taxes 266,356 244,230 92,981 Net income $ 1,168,782 $ 629,551 $ 268,395 Basic net income per share $ 2.35 $ 1.26 $ 0.54 Shares used to compute basic net income per share 498,345 498,764 497,867 Diluted net income per share $ 2.32 $ 1.24 $ 0.53 Shares used to compute diluted net income per share 504,299 507,164 508,480 See accompanying Notes to Consolidated Financial Statements."
+   },
+   {
+    "chunk_id": "ch_37aceb00caa1b67b",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 102,
+    "text": "Table of Contents 102 REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM The Board of Directors and Stockholders Adobe Systems Incorporated: We have audited the accompanying consolidated balance sheets of Adobe Systems Incorporated and subsidiaries as of December 2, 2016 and November 27, 2015, and the related consolidated statements of income, comprehensive income, stockholders' equity, and cash flows for each of the years in the three-year period ended December 2, 2016. We also have audited Adobe Systems Incorporated's internal control over financial reporting as of December 2, 2016, based on criteria established in Internal Control - Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO). Adobe Systems Incorporated's management is responsible for these consolidated financial statements, for maintaining effective internal control over financial reporting, and for its assessment of the effectiveness of internal control ove…"
+   },
+   {
+    "chunk_id": "ch_d4b4dba7f84b6c75",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 61,
+    "text": "184,381 256,129 Deferred income taxes 217,660 208,209 Other liabilities 97,404 88,673 Total liabilities 5,282,279 4,724,892 Commitments and contingencies Stockholders' equity: Preferred stock, $0.0001 par value; 2,000 shares authorized; none issued — — Common stock, $0.0001 par value; 900,000 shares authorized; 600,834 shares issued; 494,254 and 497,809 shares outstanding, respectively 61 61 Additional paid-in-capital 4,616,331 4,184,883 Retained earnings 8,114,517 7,253,431 Accumulated other comprehensive income (loss) (173,602) (169,080) Treasury stock, at cost (106,580 and 103,025 shares, respectively), net of reissuances (5,132,472) (4,267,715) Total stockholders' equity 7,424,835 7,001,580 Total liabilities and stockholders' equity $ 12,707,114 $ 11,726,472 See accompanying Notes to Consolidated Financial Statements."
+   }
+  ]
+ }
+}

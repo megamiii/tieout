@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TU1G4WI/Rb1FtLVQQhGpDIk2n3DmTac8QvSnp9EDU7D7i/h0dm6WaN9un7Zb213Enbl9QMeaVqZe4m/XCz8irM1YF0Tj43OzR8kAKOXR0vRva/0Sh2MEwcmo="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BBY\",\"fiscal_year\":2023,\"query\":\"Total cash used in investing activities\"}",
+        "name": "search_filings"
+       },
+       "id": "call_89492",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622719,
+  "id": "Pv7JauCfOqHdxs0PserGuAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 6590,
+   "prompt_tokens_details": {
+    "cached_tokens": 4042
+   },
+   "total_tokens": 6628
+  }
+ }
+}

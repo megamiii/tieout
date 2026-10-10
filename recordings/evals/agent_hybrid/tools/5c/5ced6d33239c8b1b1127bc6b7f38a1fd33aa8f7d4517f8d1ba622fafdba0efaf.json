@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "capital expenditures property plant and equipment",
+  "ticker": "ADBE",
+  "fiscal_year": 2016,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_72b9fcba57d88c38",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 7",
+    "page": 53,
+    "text": "Table of Contents 53 LIQUIDITY AND CAPITAL RESOURCES This data should be read in conjunction with our Consolidated Statements of Cash Flows. As of (in millions) December 2, 2016 November 27, 2015 Cash and cash equivalents $ 1,011.3 $ 876.6 Short-term investments $ 3,750.0 $ 3,111.5 Working capital $ 3,028.1 $ 2,608.3 Stockholders' equity $ 7,424.8 $ 7,001.6 A summary of our cash flows is as follows: (in millions) Fiscal 2016 Fiscal 2015 Fiscal 2014 Net cash provided by operating activities $ 2,199.7 $ 1,469.5 $ 1,287.5 Net cash used for investing activities (960.0) (1,488.4) (490.7) Net cash used for financing activities (1,090.7) (200.7) (507.3) Effect of foreign currency exchange rates on cash and cash equivalents (14.2) (21.2) (6.7) Net increase (decrease) in cash and cash equivalents $ 134.8 $ (240.8) $ 282.8 Our primary source of cash is receipts from revenue. The primary uses of cash are payroll related expenses, general operating expenses including marketing, travel and office r…"
+   },
+   {
+    "chunk_id": "ch_a8c960a6fc9f40d8",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 65,
+    "text": "Net cash provided by operating activities 2,199,728 1,469,502 1,287,482 Cash flows from investing activities: Purchases of short-term investments (2,285,222) (2,064,833) (2,014,186) Maturities of short-term investments 769,228 371,790 272,076 Proceeds from sales of short-term investments 860,849 1,176,476 1,443,577 Acquisitions, net of cash acquired (48,427) (826,004) (29,802) Purchases of property and equipment (203,805) (184,936) (148,332) Proceeds from sale of property — 57,779 — Purchases of long-term investments, intangibles and other assets (58,433) (22,779) (17,572) Proceeds from sale of long-term investments 5,777 4,149 3,532 Net cash used for investing activities (960,033) (1,488,358) (490,707) Cash flows from financing activities: Purchases of treasury stock (1,075,000) (625,000) (600,000) Proceeds from issuance of treasury stock 145,697 164,270 227,841 Cost of issuance of treasury stock (236,400) (186,373) (173,675) Excess tax benefits from stock-based compensation 75,105 68…"
+   },
+   {
+    "chunk_id": "ch_1e50b1fe94159a93",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 100,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 100 The tables below list our revenue and property and equipment, net, by geographic area for fiscal 2016, 2015 and 2014 (in thousands). With the exception of property and equipment, we do not identify or allocate our assets (including long-lived assets) by geographic area. Revenue 2016 2015 2014 Americas: United States $ 3,087,764 $ 2,548,024 $ 2,115,148 Other 312,371 240,020 199,221 Total Americas 3,400,135 2,788,044 2,314,369 EMEA 1,619,153 1,336,448 1,179,864 APAC: Japan 401,205 347,740 365,570 Other 433,937 323,279 287,262 Total APAC 835,142 671,019 652,832 Revenue $ 5,854,430 $ 4,795,511 $ 4,147,065 Property and Equipment 2016 2015 Americas: United States $ 642,823 $ 621,122 Other 559 427 Total Americas 643,382 621,549 EMEA 48,662 43,943 APAC: India 106,322 111,662 Other 17,898 10,267 Total APAC 124,220 121,929 Property and equipment, net $ 816,264 $ 787,421 Significant Customers F…"
+   },
+   {
+    "chunk_id": "ch_2fbcc79fb6acd9f7",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 82,
+    "text": "149,220 Total 1,926,212 1,758,616 Less accumulated depreciation and amortization (1,109,948) (971,195) Property and equipment, net $ 816,264 $ 787,421 As of December 2, 2016, building improvements were presented separately in the above table as these were previously misclassified as leasehold improvements. Prior year amounts have also been classified as building improvements to the extent they related to owned buildings. There was no impact to the Consolidated Financial Statements resulting from the change in classification. Depreciation and amortization expense of property and equipment for fiscal 2016, 2015 and 2014 was $157.6 million, $146.3 million and $144.2 million, respectively. In the second quarter of fiscal 2015, management approved a plan to sell land and an unoccupied building located in San Jose, California. The total carrying value of the property assets was $36.3 million which mostly pertained to the land. The decision to sell these property assets was largely based upon…"
+   },
+   {
+    "chunk_id": "ch_73562c3c90512ce0",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 7",
+    "page": 54,
+    "text": "Table of Contents 54 Cash Flows from Investing Activities For fiscal 2016, net cash used for investing activities of $960.0 million was primarily due to purchases of short-term investments. Other uses of cash represented purchases of property and equipment, purchases of long-term investments and other assets, and an immaterial acquisition. These cash outflows were offset in part by sales and maturities of short-term investments. For fiscal 2015, net cash used for investing activities of $1.49 billion was primarily due to purchases of short-term investments and our acquisition of Fotolia. Other uses of cash during fiscal 2015 represented purchases of property and equipment, and long- term investments and other assets. These cash outflows were offset in part by sales and maturities of short-term investments and proceeds received from the sale of certain property assets. See Note 2 and Note 6 of our Consolidated Financial Statements for more detailed information regarding our acquisition …"
+   }
+  ]
+ }
+}

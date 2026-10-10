@@ -1,0 +1,67 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TSzEevD+n+VyruzAUeEOK2+Buo2g76rMFYCKws+ql5jOcABhFlmIkRI/mqOdb+Ik1iQaabQVFHmf2ul95j45G9iVluBTHGmQR6qmieNQbmzbP3M23QQwrHFE="
+        }
+       },
+       "function": {
+        "arguments": "{\"expression\":\"(1559.3 + 1642.2) / 2\"}",
+        "name": "calculate"
+       },
+       "id": "call_56472",
+       "type": "function"
+      },
+      {
+       "function": {
+        "arguments": "{\"expression\":\"(1679.7 + 1684.2) / 2\"}",
+        "name": "calculate"
+       },
+       "id": "call_56473",
+       "type": "function"
+      },
+      {
+       "function": {
+        "arguments": "{\"expression\":\"(2854.1 + 2746.2) / 2\"}",
+        "name": "calculate"
+       },
+       "id": "call_56474",
+       "type": "function"
+      },
+      {
+       "function": {
+        "arguments": "{\"expression\":\"1559.3 - 1642.2\"}",
+        "name": "calculate"
+       },
+       "id": "call_56475",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623267,
+  "id": "YgDKapzIJpfsxN8PiPXoGQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 123,
+   "prompt_tokens": 6829,
+   "prompt_tokens_details": {
+    "cached_tokens": 4043
+   },
+   "total_tokens": 6952
+  }
+ }
+}

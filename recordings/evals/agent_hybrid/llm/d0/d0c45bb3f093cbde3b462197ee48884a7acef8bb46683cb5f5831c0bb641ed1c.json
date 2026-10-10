@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TOaBQLd26QRvEKFxx/3IIeClap7PVOT6IE3y3h6eofdEa6IAqUOgUv4qO1Q3YNeJIPISo4pTbkmg5ev1iemBYDJBEw1ByKS+wsUvnTxsaf2rz+Yns0EqTb/s="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"PEP\",\"fiscal_year\":2021,\"query\":\"legal proceedings\"}",
+        "name": "search_filings"
+       },
+       "id": "call_48001",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622231,
+  "id": "V_zJatu5HvyYvdIPtbqYyQk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 33,
+   "prompt_tokens": 2655,
+   "total_tokens": 2688
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Statements of Income operating income",
+  "ticker": "ADBE",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_6c78fb382def2c0b",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 6",
+    "page": 34,
+    "text": "ITEM 6. SELECTED FINANCIAL DATA The following selected consolidated financial data (presented in thousands, except per share amounts and employee data) is derived from our Consolidated Financial Statements. As our operating results are not necessarily indicative of future operating results, this data should be read in conjunction with the Consolidated Financial Statements and notes thereto, and with Item 7, Management's Discussion and Analysis of Financial Condition and Results of Operations. Fiscal Years 2015 2014 2013 2012 2011 Operations: Revenue ...................................................................... $ 4,795,511 $ 4,147,065 $ 4,055,240 $ 4,403,677 $4,216,258 Gross profit................................................................. $ 4,051,194 $ 3,524,985 $ 3,468,683 $ 3,919,895 $3,778,385 Income before income taxes....................................... $ 873,781 $ 361,376 $ 356,141 $ 1,118,794 $1,035,230"
+   },
+   {
+    "chunk_id": "ch_08443c3994c23582",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 60,
+    "text": "Amortization of purchased intangibles..................................................... 68,649 52,424 52,254 Total operating expenses...................................................................... 3,148,099 3,112,300 3,045,960 Operating income........................................................................................ 903,095 412,685 422,723 Non-operating income (expense): Interest and other income (expense), net.................................................. 33,909 7,267 4,941"
+   },
+   {
+    "chunk_id": "ch_1bd7adae4028fd38",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 60,
+    "text": "Total non-operating income (expense), net.......................................... (29,314) (51,309) (66,582) Income before income taxes ....................................................................... 873,781 361,376 356,141 Provision for income taxes.......................................................................... 244,230 92,981 66,156 Net income .................................................................................................. $ 629,551 $ 268,395 $ 289,985"
+   },
+   {
+    "chunk_id": "ch_d523510e15f95025",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 60,
+    "text": "0.56 Shares used to compute diluted net income per share................................. 507,164 508,480 513,476 See accompanying Notes to Consolidated Financial Statements."
+   },
+   {
+    "chunk_id": "ch_16f34cf84e575866",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 101,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 101 NOTE 17. NON-OPERATING INCOME (EXPENSE) Non-operating income (expense) for fiscal 2015, 2014 and 2013 included the following (in thousands): 2015 2014 2013 Interest and other income (expense), net: Interest income...................................................................................... $ 28,759 $ 21,355 $ 21,887 Foreign exchange gains (losses) ........................................................... (20,130) (18,840) (21,001) Realized gains on fixed income investment.......................................... 3,309 4,024 4,090 Realized losses on fixed income investment......................................... (354) (97) (1,077)"
+   }
+  ]
+ }
+}

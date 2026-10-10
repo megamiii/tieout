@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TH1vDnIlLXYJWQeBPlJC2Whz68yBgoZRj0KcYhySvFq/tvNcKzzQmqd6YK/TCqtePZ7uqEejXenMTc4OA7M5BFSl/T2E07PShL8p8I7p1clNPulz58lsbhQg="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_7675130d841f32c8\",\"quote\":\"We are organized into seven reportable segments (also referred to as divisions), as follows: 1) Frito-Lay North America (FLNA), which includes our branded convenient food businesses in the United States and Canada; 2) Quaker Foods North America (QFNA), which includes our branded convenient food businesses, such as cereal, rice, pasta and other branded food, in the United States and Canada; 3) PepsiCo Beverages North America (PBNA), which includes our beverage businesses in the United States and Canada; 4) Latin America (LatAm), which includes all of our beverage and convenient food businesses in Latin America; 5) Europe, which includes all of our beverage and convenient food businesses in Europe; 6) Africa, Middle East and South Asia (AMESA), which includes all of our beverage and convenient food businesses in Africa, the Middle East and South Asia; and 7) Asia Pacific, Australia, and New Zealand and China region (APAC), which includes all of our beverag…\"}],\"answer\":\"As of FY2022, PepsiCo is organized into seven reportable segments (divisions) corresponding to its primary operating geographies:\\n1. Frito-Lay North America (FLNA) — United States and Canada\\n2. Quaker Foods North America (QFNA) — United States and Canada\\n3. PepsiCo Beverages North America (PBNA) — United States and Canada\\n4. Latin America (LatAm) — Latin America\\n5. Europe — Europe\\n6. Africa, Middle East and South Asia (AMESA) — Africa, the Middle East and South Asia\\n7. Asia Pacific, Australia, New Zealand and China region (APAC) — Asia Pacific, Australia, New Zealand, and China region\",\"confidence\":1,\"rationale\":\"The 10-K explicitly lists PepsiCo's seven reportable segments and their geographic coverage.\",\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_64861",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622456,
+  "id": "N_3Jap7KBLbhvdIPiObDgQY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 441,
+   "prompt_tokens": 5657,
+   "prompt_tokens_details": {
+    "cached_tokens": 2020
+   },
+   "total_tokens": 6098
+  }
+ }
+}

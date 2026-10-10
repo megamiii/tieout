@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TdjrwtFalEEk2OdJgHCdygnhCAoMqcIDuF9ZP2bbP6mjf0IuZKTgqoy4CiN5e6SW9bWA0P6e3bpGpavRwzOujLyYfd0vqiIALCkIjxwQsUX+dLD94cD+znJw="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"VZ\",\"query\":\"Liabilities and Equity Current liabilities Debt maturing within one year Long-term debt\",\"fiscal_year\":2022,\"section\":\"8\"}",
+        "name": "search_filings"
+       },
+       "id": "call_56920",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622047,
+  "id": "n_vJat6oCMjOvdIPytLNqAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 52,
+   "prompt_tokens": 4315,
+   "total_tokens": 4367
+  }
+ }
+}

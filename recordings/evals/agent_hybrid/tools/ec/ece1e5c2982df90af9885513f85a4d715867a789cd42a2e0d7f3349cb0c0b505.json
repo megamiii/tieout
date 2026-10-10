@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Balance Sheets current assets current liabilities",
+  "ticker": "GIS",
+  "fiscal_year": 2020,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_63241075a35e108d",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 50,
+    "text": "50 Consolidated Balance Sheets GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions, Except Par Value) May 31, 2020 May 26, 2019 ASSETS Current assets: Cash and cash equivalents $ 1,677.8 $ 450.0 Receivables 1,615.1 1,679.7 Inventories 1,426.3 1,559.3 Prepaid expenses and other current assets 402.1 497.5 Total current assets 5,121.3 4,186.5 Land, buildings, and equipment 3,580.6 3,787.2 Goodwill 13,923.2 13,995.8 Other intangible assets 7,095.8 7,166.8 Other assets 1,085.8 974.9 Total assets $ 30,806.7 $ 30,111.2 LIABILITIES AND EQUITY Current liabilities: Accounts payable $ 3,247.7 $ 2,854.1 Current portion of long-term debt 2,331.5 1,396.5 Notes payable 279.0 1,468.7 Other current liabilities 1,633.3 1,367.8 Total current liabilities 7,491.5 7,087.1 Long-term debt 10,929.0 11,624.8 Deferred income taxes 1,947.1 2,031.0 Other liabilities 1,545.0 1,448.9 Total liabilities 21,912.6 22,191.8 Redeemable interest 544.6 551.7 Stockholders' equity: Common stock, 754.6 shares issued, $0.10 par v…"
+   },
+   {
+    "chunk_id": "ch_5742d91c01891117",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 67,
+    "text": "- Total assets, liabilities, and derivative positions recorded at fair value $ 19.9 $ 80.5 $ 330.0 $ 430.4 $ (4.4) $ (12.9) $ - $ (17.3) (a) These contracts and investments are recorded as prepaid expenses and other current assets, other assets, other current liabilities or other liabilities, as appropriate, based on whether in a gain or loss position. Certain marketable investments are recorded as cash and cash equivalents. (b) Based on LIBOR and swap rates. As of May 26, 2019, the carrying amount of hedged debt designated as the hedged item in a fair value hedge was $493.3 million and was classified on the Consolidated Balance Sheet within the current portion of long-term debt. As of May 26, 2019, the cumulative amount of fair value hedging basis adjustments was $6.7 million. (c) Based on observable market transactions of spot currency rates and forward currency prices. (d) Based on prices of futures exchanges and recently reported transactions in the marketplace. (e) Based on prices…"
+   },
+   {
+    "chunk_id": "ch_9cc08a2f15f621f7",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 69,
+    "text": "69 The following tables reconcile the net fair values of assets and liabilities subject to offsetting arrangements that are recorded in our Consolidated Balance Sheets to the net fair values that could be reported in our Consolidated Balance Sheets: May 31, 2020 Assets Liabilities Gross Amounts Not Offset in the Balance Sheet (e) Gross Amounts Not Offset in the Balance Sheet (e) In Millions Gross Amounts of Recognized Assets Gross Liabilities Offset in the Balance Sheet (a) Net Amounts of Assets (b) Financial Instruments Cash Collateral Received Net Amount (c) Gross Amounts of Recognized Liabilities Gross Assets Offset in the Balance Sheet (a) Net Amounts of Liabilities (b) Financial Instruments Cash Collateral Pledged Net Amount (d) Commodity contracts $6.2 $ - $6.2 $(4.2)$ - $2.0 $(30.1)$ - $(30.1) $4.2 $ 15.9 $(10.0) Interest rate contracts 6.0 - 6.0 (0.8) - 5.2 (8.0) - (8.0) 0.8 - (7.2) Foreign exchange contracts 38.6 - 38.6 (3.7) - 34.9 (4.0) - (4.0) 3.7 - (0.3) Equity contracts 8…"
+   },
+   {
+    "chunk_id": "ch_0cd503ae5c1d5f64",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 69,
+    "text": "Gross Amounts Not Offset in the Balance Sheet (e) Gross Amounts Not Offset in the Balance Sheet (e) In Millions Gross Amounts of Recognized Assets Gross Liabilities Offset in the Balance Sheet (a) Net Amounts of Assets (b) Financial Instruments Cash Collateral Received Net Amount (c) Gross Amounts of Recognized Liabilities Gross Assets Offset in the Balance Sheet (a) Net Amounts of Liabilities (b) Financial Instruments Cash Collateral Pledged Net Amount (d) Commodity contracts $6.6 $ - $6.6 $(4.9)$ - $1.7 $(7.9)$ - $(7.9) $4.9 $ - $(3.0) Interest rate contracts - - - - - - (2.2) - (2.2) - - (2.2) Foreign exchange contracts 15.3 - 15.3 (5.1) - 10.2 (5.2) - (5.2) 5.1 - (0.1) Equity contracts 0.7 - 0.7 (0.7) - - (5.8) - (5.8) 0.7 - (5.1) Total $22.6 $ - $22.6 $(10.7)$ - $11.9 $(21.1)$ - $(21.1) $10.7 $ - $(10.4) (a) Includes related collateral offset in our Consolidated Balance Sheets. (b) Net fair value as recorded in our Consolidated Balance Sheets. (c) Fair value of assets that could b…"
+   },
+   {
+    "chunk_id": "ch_46a5602931397b64",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 60,
+    "text": "60 Joint venture related balance sheet activity is as follows: In Millions May 31, 2020 May 26, 2019 Cumulative investments $ 481.4 $ 452.9 Goodwill and other intangibles 460.5 472.1 Aggregate advances included in cumulative investments 279.5 249.0 Joint venture earnings and cash flow activity is as follows: Fiscal Year In Millions 2020 2019 2018 Sales to joint ventures $ 5.9 $ 4.2 $ 7.4 Net advances (repayments) 48.0 (0.1) 17.3 Dividends received 76.5 86.7 113.2 Summary combined financial information for the joint ventures on a 100 percent basis is as follows: Fiscal Year In Millions 2020 2019 2018 Net sales: CPW $ 1,654.3 $ 1,647.7 $ 1,734.0 HDJ 391.3 396.2 430.4 Total net sales 2,045.6 2,043.9 2,164.4 Gross margin 785.3 744.4 853.6 Earnings before income taxes 214.0 155.4 216.2 Earnings after income taxes 176.5 111.9 176.7 In Millions May 31, 2020 May 26, 2019 Current assets $ 870.0 $ 895.6 Noncurrent assets 781.4 839.2 Current liabilities 1,365.6 1,517.3 Noncurrent liabilities 104.…"
+   }
+  ]
+ }
+}

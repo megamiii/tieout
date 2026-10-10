@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "major products and services",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_07685cdb84671c0f",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 60,
+    "text": "Non-custom products The Company transfers control and recognizes revenue when non-custom products are shipped to customers, which includes original equipment manufacturers (OEM) and distributors, in accordance with the shipping terms of the sale. Non-custom product arrangements generally comprise a single performance obligation. Certain OEMs may be entitled to rights of return and rebates under OEM agreements. The Company also sells to distributors under terms allowing the majority of distributors certain rights of return and price protection on unsold merchandise held by them. The Company estimates the amount of variable consideration under OEM and distributor arrangements and, accordingly, records a provision for product returns, allowances for price protection and rebates based on actual historical experience and any known events. 57"
+   },
+   {
+    "chunk_id": "ch_38ebe4d89e09b3ea",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 38,
+    "text": "customers. For example, our Santa Clara and San Jose operations are located near major earthquake fault lines in California. Also, we have operations and employees in regions that have experienced extreme weather such as prolonged heat waves, wildfires and freezing. Extreme weather events can also disrupt the ability of our suppliers to deliver expected manufacturing parts and/or services for periods of time. There may be conflict or uncertainty in the countries in which we operate, including public health issues (for example, an outbreak of a contagious disease such as COVID-19, avian influenza, measles or Ebola), safety issues, natural disasters, fire, disruptions of service from utilities, nuclear power plant accidents or general economic or political factors. For example, governments worldwide have implemented, and continue to implement, measures to slow down the outbreak of COVID-19. We have experienced, and will continue to experience, disruptions to our business as these measure…"
+   },
+   {
+    "chunk_id": "ch_1f109af9f66d9776",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 69,
+    "text": "Table of Contents The following table summarizes sales to major customers that accounted for at least 10% of the Company's consolidated net revenue for the respective years: Year Ended December 31, 2022 December 25, 2021 December 26, 2020 Customer A 16 % 14 % * Customer B * 11 % * Less than 10% Sales to customers A and B consisted of sales of products from the Gaming and Client segments, respectively. The following table summarizes Property and equipment, net by geographic areas: December 31, 2022 December 25, 2021 (In millions) United States $ 1,102 $ 486 Canada 80 105 China 42 35 Singapore 132 35 India 67 11 Ireland 48 — Other countries 42 30 Total property and equipment, net $ 1,513 $ 702 NOTE 5 – Business Combinations Pensando Acquisition On May 26, 2022, the Company completed the acquisition of all issued and outstanding shares of Pensando, a leader in next-generation distributed computing, for a transaction valued at approximately $1.9 billion. The recorded purchase consideration…"
+   },
+   {
+    "chunk_id": "ch_5dd527c4c337853d",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 38,
+    "text": "Table of Contents The political, legal and economic risks associated with our operations in foreign countries include, without limitation: expropriation; changes in a specific country's or region's political or economic conditions; changes in tax laws, trade protection measures and import or export licensing requirements and restrictions; difficulties in protecting our intellectual property; difficulties in managing staffing and exposure to different employment practices and labor laws; changes in foreign currency exchange rates; restrictions on transfers of funds and other assets of our subsidiaries between jurisdictions; changes in freight rates; changes to macroeconomic conditions, including interest rates, inflation and recession; disruption in air transportation between the United States and our overseas facilities; loss or modification of exemptions for taxes and tariffs; and compliance with United States laws and regulations related to international operations, including export …"
+   },
+   {
+    "chunk_id": "ch_1809ba7601572e18",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 24,
+    "text": "We are party to two ATMP joint ventures (collectively, the ATMP JVs) with affiliates of Tongfu Microelectronics Co., Ltd. The majority of our ATMP services are provided by the ATMP JVs and there is no guarantee that the ATMP JVs will be able to fulfill our long-term ATMP requirements. If we are unable to meet customer demand due to fluctuating or late supply from the ATMP JVs, it could result in lost sales and have a material adverse effect on our business. If essential equipment, materials, substrates or manufacturing processes are not available to manufacture our products, we could be materially adversely affected. We may purchase equipment, materials and substrates for use by our back-end manufacturing service providers from a number of suppliers and our operations depend upon obtaining deliveries of adequate supplies of equipment and materials on a timely basis. Our third-party suppliers also depend on the same timely delivery of adequate quantities of equipment and materials in th…"
+   }
+  ]
+ }
+}

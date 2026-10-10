@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TDh3oKo93ImggbDo8rxh33JEsgAirmLSirF6S/V+CHZXt4nj3xr5UcCuGytKnLnLx4ihPo3r+OvXV9zq4DWADzrF1ZtiGKlkwOMJ/+PVUkVZyHpkR/ISyef0="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"ticker\":\"AXP\",\"query\":\"Actual tax rates 21.6 24.6\"}",
+        "name": "search_filings"
+       },
+       "id": "call_57887",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622848,
+  "id": "wP7Javb5FKO_vdIP-aSQmQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 3055,
+   "total_tokens": 3100
+  }
+ }
+}

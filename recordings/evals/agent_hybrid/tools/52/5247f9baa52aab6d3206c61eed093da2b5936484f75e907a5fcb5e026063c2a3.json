@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "inventories balance sheet December 28 2019",
+  "ticker": "BBY",
+  "fiscal_year": 2019,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_8168b6b422ae3513",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 52,
+    "text": "Table of Contents Consolidated Balance Sheets $ in millions, except per share and share amounts February 2, 2019 February 3, 2018 Assets Current assets Cash and cash equivalents $ 1,980 $ 1,101 Short-term investments — 2,032 Receivables, net 1,015 1,049 Merchandise inventories 5,409 5,209 Other current assets 466 438 Total current assets 8,870 9,829 Property and equipment Land and buildings 637 623 Leasehold improvements 2,119 2,327 Fixtures and equipment 5,865 5,410 Property under capital and financing leases 579 340 Gross property and equipment 9,200 8,700 Less accumulated depreciation 6,690 6,279 Net property and equipment 2,510 2,421 Goodwill 915 425 Other assets 606 374 Total assets $ 12,901 $ 13,049 Liabilities and equity Current liabilities Accounts payable $ 5,257 $ 4,873 Unredeemed gift card liabilities 290 385 Deferred revenue 446 453 Accrued compensation and related expenses 482 561 Accrued liabilities 982 1,001 Current portion of long-term debt 56 544 Total current liabilit…"
+   },
+   {
+    "chunk_id": "ch_74558190d0e24532",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 15",
+    "page": 96,
+    "text": "fiscal 2019, filed with the SEC on March 28, 2019, formatted in Extensible Business Reporting Language (XBRL): (i) the consolidated balance sheets at February 2, 2019, and February 3, 2018, (ii) the consolidated statements of earnings for the years ended February 2, 2019, February 3, 2018, and January 28, 2017, (iii) the consolidated statements of comprehensive income for the years ended February 2, 2019, February 3, 2018, and January 28, 2017, (iv) the consolidated statements of cash flows for the years ended February 2, 2019, February 3, 2018, and January 28, 2017, (v) the consolidated statements of changes in shareholders' equity for the years ended February 2, 2019, February 3, 2018, and January 28, 2017, and (vi) the Notes to Consolidated Financial Statements. * Management contracts or compensatory plans or arrangements required to be filed as exhibits pursuant to Item 15(b) of Form 10-K. 94"
+   },
+   {
+    "chunk_id": "ch_6b9d26e33d281c15",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 86,
+    "text": "Table of Contents Deferred taxes are the result of differences between the bases of assets and liabilities for financial reporting and income tax purposes. Deferred tax assets and liabilities were comprised of the following ($ in millions): February 2, 2019 February 3, 2018 Accrued property expenses $ 46 $ 52 Other accrued expenses 40 43 Deferred revenue 52 69 Compensation and benefits 74 32 Stock-based compensation 35 32 Goodwill and intangibles — 102 Loss and credit carryforwards 134 120 Other 38 38 Total deferred tax assets 419 488 Valuation allowance (91) (99) Total deferred tax assets after valuation allowance 328 389 Property and equipment (184) (163) Goodwill and intangibles (12) — Inventory (61) (47) Other (16) (20) Total deferred tax liabilities (273) (230) Net deferred tax assets $ 55 $ 159 Net deferred tax assets are included on our Consolidated Balance Sheets as Other assets as of February 2, 2019, and February 3, 2018. At February 2, 2019 , we had deferred tax assets for n…"
+   },
+   {
+    "chunk_id": "ch_468a0c65de58edaa",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Table of Contents Consolidated Statements of Cash Flows $ in millions Fiscal Years Ended February 2, 2019 February 3, 2018 January 28, 2017 Operating activities Net earnings $ 1,464 $ 1,000 $ 1,228 Adjustments to reconcile net earnings to total cash provided by operating activities: Depreciation and amortization 770 683 654 Restructuring charges 46 10 39 Stock-based compensation 123 129 108 Deferred income taxes 10 162 201 Other, net (25) (13) (17) Changes in operating assets and liabilities, net of acquired assets and liabilities: Receivables 28 315 (193) Merchandise inventories (194) (335) 199 Other assets (34) (21) 10 Accounts payable 432 (196) 518 Other liabilities (234) 117 23 Income taxes 22 290 (213) Total cash provided by operating activities 2,408 2,141 2,557 Investing activities Additions to property and equipment, net of $53, $123 and $48, respectively, of non-cash capital expenditures (819) (688) (580) Purchases of investments — (4,325) (3,045) Sales of investments 2,098 4,…"
+   },
+   {
+    "chunk_id": "ch_f29a2282ebb66b54",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 62,
+    "text": "At February 2, 2019 , and February 3, 2018 , deferred rent included in Accrued liabilities on our Consolidated Balance Sheets was $28 million and $30 million , respectively, and deferred rent included in Long-term liabilities on our Consolidated Balance Sheets was $99 million and $107 million , respectively. In addition, we have financing leases for agreements when we are deemed the owner of the leased buildings, typically due to significant involvement during the construction period, and do not qualify for sales recognition under the sale-leaseback accounting guidance. We record the cost of the building in property and equipment, with the related short-term liability recorded in current portion of long-term debt and the long-term liability recorded in long-term debt. At February 2, 2019 , and February 3, 2018 , we had $181 million and $191 million , respectively, outstanding under financing lease obligations. Refer to Note 10, Leases , for maturity details. Assets acquired under capit…"
+   }
+  ]
+ }
+}

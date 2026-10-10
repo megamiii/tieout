@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "organic sales total company 2022 3M",
+  "ticker": "MMM",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a8983ddbac25f0bc",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 26,
+    "text": "Table of Contents Additional information beyond what is included in the preceding tables is as follows: • For the full year 2022, in the Americas geographic area, U.S. total sales were flat which included increased organic sales of 1 percent. Total sales in Mexico increased 8 percent which included increased organic sales of 12 percent. In Canada, total sales increased 9 percent which included increased organic sales of 13 percent. In Brazil, total sales increased 15 percent which included increased organic sales of 12 percent. In the Asia Pacific geographic area, China total sales decreased 6 percent which included decreased organic sales of 3 percent. In Japan, total sales decreased 12 percent which included increased organic sales of 2 percent. • For the full year 2021, in the Americas geographic area, U.S. total sales increased 8 percent which included increased organic sales of 8 percent. Total sales in Mexico increased 18 percent which included increased organic sales of 16 perce…"
+   },
+   {
+    "chunk_id": "ch_59afedc10674107d",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 32,
+    "text": "Table of Contents Health Care Business (24.6% of consolidated sales): 2022 2021 Sales (millions) $ 8,421 $ 8,597 Sales change analysis: Organic sales 3.2 % 10.2 % Divestitures (1.4) (2.0) Translation (3.8) 1.6 Total sales change (2.0) % 9.8 % Business segment operating income (millions) $ 1,815 $ 2,037 Percent change (10.9) % 22.5 % Percent of sales 21.6 % 23.7 % Year 2022 results: Sales in Health Care were down 2.0 percent in U.S. dollars. On an organic sales basis: • Sales increased in separation and purification, health information systems, food safety and medical solutions, and was flat in oral care. • Growth continues to be impacted by COVID-related trends on elective procedure volumes and ongoing inflationary pressures. Divestitures: • Divestiture impact relates to the lost sales year-on-year from the divestiture from the Food Safety Division split-off transaction and combination with Neogen completed in the third quarter of 2022. Business segment operating income margins decreas…"
+   },
+   {
+    "chunk_id": "ch_0bb4f0b249b776d2",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 33,
+    "text": "Table of Contents Consumer Business (15.5% of consolidated sales): 2022 2021 Sales (millions) $ 5,298 $ 5,513 Sales change analysis: Organic sales (0.9) % 9.8 % Divestitures (0.4) — Translation (2.6) 1.0 Total sales change (3.9) % 10.8 % Business segment operating income (millions) $ 994 $ 1,162 Percent change (14.4) % 3.8 % Percent of sales 18.8 % 21.1 % Year 2022 results: Sales in Consumer were down 3.9 percent in U.S. dollars. On an organic sales basis: • Sales increased in stationery and office and home care, was flat in consumer health and safety, and decreased in home improvement. • Growth was impacted by softening trends in the Consumer retail business as consumers pulled back on discretionary spending and retailers took actions to reduce their inventories. These impacts were partially offset by demand for Scotch Blue painter's tape, Scotch-Brite , and Post-it®-solutions. Business segment operating income margins decreased year-on-year as a result of increased raw materials, log…"
+   },
+   {
+    "chunk_id": "ch_a5461922f5fce0ac",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 21,
+    "text": "Table of Contents Organic growth/productivity and other: • In 2022, the following components impacted operating margins and earnings per diluted share year-on-year: • Declines in disposable respirator demand year-on-year negatively impacted operating margins by 0.3 percent and earnings per share by $0.29. • Remaining organic growth/productivity and other impacts resulted in a net year-on-year benefit $0.85 to earnings per share and 1.3 percent to operating margins which was impacted by the following: ◦ Benefits from strong pricing, spending discipline and 2021 restructuring actions ◦ Manufacturing headwinds from global supply chain challenges; geopolitical impacts due to the Russia/Ukraine conflict as well as ongoing COVID- related challenges in China ◦ Second quarter of 2021 benefit of $91 million pre-tax ($0.12 per share after tax) from the impact of the favorable decision of the Brazilian Supreme Court regarding the calculation of past social taxes ◦ Increased investments in growth,…"
+   },
+   {
+    "chunk_id": "ch_735f1406e81e233f",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 32,
+    "text": "As discussed in Note 3, in July 2022, 3M announced its intention to spin off the Health Care business as a separate public company. 3M expects to initially retain a 19.9% ownership position in the Health Care business. Year 2021 results: Sales in Health Care were up 9.8 percent in U.S. dollars. On an organic sales basis: • Sales increased in oral care, separation and purification, food safety, health information systems and medical solutions. • Growth benefited from higher year-on-year dental procedures, continued high demand for biopharma filtration solutions for COVID-related vaccine and therapeutic development and manufacturing, rising elective procedure volumes in the first six months of 2021 and due to improving hospital information technology investments. Divestitures: • In May 2020, 3M completed the sale of substantially all of its drug delivery business. Business segment operating income margins increased year-on-year due to sales growth leverage and benefits from restructuring…"
+   }
+  ]
+ }
+}

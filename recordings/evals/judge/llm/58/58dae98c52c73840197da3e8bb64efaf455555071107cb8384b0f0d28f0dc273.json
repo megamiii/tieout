@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The gold answer identifies $411 million in restructuring costs for FY2022, while the provided answer states 0, which is factually incorrect based on the 10-K filing.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TRaXa6kECZqOPprXqM7cRO/izf8mlmpcmk/clZBN3fbXt7M2A1Ybwv5GzPiXf5xchF0DgSQxem/MZsiSomVrYV1b8OB1j4t40kyP2uwqUk5KYl3agtIaAITgTGQeFC5M9FaXw1ZId8spQLIl/"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791624024,
+  "id": "TAPKaunAKumH28oPvLehoA0",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 54,
+   "prompt_tokens": 178,
+   "total_tokens": 232
+  }
+ }
+}

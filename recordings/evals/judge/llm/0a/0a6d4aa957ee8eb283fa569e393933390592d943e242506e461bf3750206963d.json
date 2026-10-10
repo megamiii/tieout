@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer reaches the same correct conclusion as the gold answer and provides a valid calculation based on the total current assets and liabilities reported in the 10-K, which is a standard and acceptable way to calculate working capital.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T3pz803sO1x5Ydhn2qD0pLNAooJcINHuoZC+pkc746G+MI1BDuCZbkTfGbjFVG/8aPF57xlPLakAJtAlwPIIXrFGpDGt2IfERvh3ah6G3+Yzw9G1r/m84WY5eWMge7UmaXIE/YaDpuUmICaN6"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623585,
+  "id": "lQHKapX9BKr5xN8P0YO5kAg",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 57,
+   "prompt_tokens": 327,
+   "total_tokens": 384
+  }
+ }
+}

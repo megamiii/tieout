@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TElnlTa8/f3SfbkvtqkeSTpT927IRqEUEVw5g2DEBMrVvq926vUEBZ5otxZ1Csez8reRe7lDRF+/FmC5sckDn/iKDRkEY9EQhjVlCUr7NevwDULzeY86HGBU="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"disaggregated revenue product service 2022 Boeing Note\",\"fiscal_year\":2022,\"ticker\":\"BA\"}",
+        "name": "search_filings"
+       },
+       "id": "call_46602",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621987,
+  "id": "Y_vJat2yCtixvdIP-6WJ0QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 3323,
+   "total_tokens": 3366
+  }
+ }
+}

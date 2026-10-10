@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TW4rjfpixGqT1KRy4INyLhVz2BvpWSJqledZMOKiX+kWZd+4E5jmUsg0WrD4y9Dp9pjNOvTci3i9GHyvT06GmRZQiYmtZ8dzijSpKEMsGHUw24mcO+maEkBQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"VZ\",\"fiscal_year\":2022,\"query\":\"Capital expenditures (including capitalized software)\"}",
+        "name": "search_filings"
+       },
+       "id": "call_54669",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621742,
+  "id": "bvrJaqrzAc-SvdIPoqWE8QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 2918,
+   "total_tokens": 2956
+  }
+ }
+}

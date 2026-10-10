@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Operations Revenues",
+  "ticker": "CVS",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_9e3343d7d00e60c7",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 267,
+    "text": "1,305 24.5 % Commentary - 2018 compared to 2017 Revenues • Total revenues increased $9.8 billion or 5.3% in 2018 compared to 2017 . The increase in total revenues was due to a 2.7% increase in Pharmacy Services segment revenue, a 5.8% increase in Retail/LTC segment revenue and the impact of the Aetna Acquisition (primarily reflected in the Health Care Benefits segment) which occurred in November 2018. • Please see “Segment Analysis” later in this document for additional information about the revenues of the Company's segments. Operating expenses (including goodwill impairments) • Operating expenses increased $8.5 billion or 44.9% in 2018 compared to 2017 . The increase in operating expenses was primarily due to higher operating expenses in the Retail/LTC segment including increased goodwill impairment charges in 2018, the impact of the Aetna Acquisition and an increase in acquisition-related transaction and integration costs. The increase was partially offset by a lack of charges assoc…"
+   },
+   {
+    "chunk_id": "ch_8312978bbf8b32f9",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 371,
+    "text": "Pharmacy Retail/ Health Care Corporate/ Intersegment Consolidated In millions Services (1)(2) LTC (2) Benefits (2) Other Eliminations (2) Totals 2018: Revenues from customers $ 134,115 $ 83,989 $ 5,504 $ 4 $ (29,693) $ 193,919 Net investment income (3) 13 — 45 602 — 660 Total revenues 134,128 83,989 5,549 606 (29,693) 194,579 Operating income (loss) (4)(5) 4,699 620 276 (805) (769) 4,021 Depreciation and amortization 712 1,698 170 138 — 2,718 Additions to property and equipment 326 1,350 46 401 — 2,123 2017: Revenues from customers 130,596 79,398 — — (25,229) 184,765 Net investment income 5 — — 16 — 21 Total revenues (7) 130,601 79,398 — 16 (25,229) 184,786 Operating income (loss) (4)(5)(7) 4,657 6,558 — (936) (741) 9,538 Depreciation and amortization 712 1,651 — 116 — 2,479 Additions to property and equipment 311 1,398 — 340 — 2,049 2016: Revenues from customers 119,963 81,100 — — (23,537) 177,526 Net investment income 2 — — 18 — 20 Total revenues (7) 119,965 81,100 — 18 (23,537) 177,…"
+   },
+   {
+    "chunk_id": "ch_68eff09e3c42ddee",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 327,
+    "text": "The following tables compare the reported consolidated balance sheet, statements of operations, and statement of cash flows amounts to the pro forma amounts had the previous revenue accounting guidance remained in effect: Impact of Change in Accounting Policy As Reported Balances As of/For the Without Year Ended Adoption of In millions December 31, 2018 Adjustments Topic 606 Consolidated Statement of Operations: Revenues: Products $ 183,910 $ 3 $ 183,913 Total revenues 194,579 3 194,582 Operating costs: Cost of products sold 156,447 2 156,449 Total operating costs 190,558 2 190,560 Operating income 4,021 1 4,022 Income before income tax provision 1,406 1 1,407 Income tax provision 2,002 — 2,002 Loss from continuing operations (596) 1 (595) Net loss (596) 1 (595) Net loss attributable to CVS Health (594) 1 (593) Consolidated Balance Sheet: Accrued expenses 10,711 (18) 10,693 Total current liabilities 44,009 (18) 43,991 Deferred income taxes 7,677 4 7,681 Total liabilities 137,913 (14) 1…"
+   },
+   {
+    "chunk_id": "ch_35d02b4fe73f7053",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 271,
+    "text": "Segment Analysis The Company has three operating segments, Pharmacy Services, Retail/LTC and Health Care Benefits, as well as a Corporate/Other segment. The Company evaluates the performance of its operating segments based on operating income (loss) and operating income (loss) before the effect of (i) nonrecurring charges or gains and (ii) certain intersegment activities. The following is a reconciliation of the Company's segments total revenues and operating income (loss) to the consolidated financial statements: In millions Pharmacy Services (1)(2) Retail/LTC (2) Health Care Benefits (2) Corporate/ Other Intersegment Eliminations (2) Consolidated Totals 2018 Total revenues (3) $ 134,128 $ 83,989 $ 5,549 $ 606 $ (29,693) $ 194,579 Operating income (loss) (4)(5) 4,699 620 276 (805) (769) 4,021 2017 Total revenues (7) 130,601 79,398 — 16 (25,229) 184,786 Operating income (loss) (4)(5(7) 4,657 6,558 — (936) (741) 9,538 2016 Total revenues (7) 119,965 81,100 — 18 (23,537) 177,546 Operatin…"
+   },
+   {
+    "chunk_id": "ch_51ae832a65979766",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 373,
+    "text": "Year Ended December 31, 2016 Pharmacy Retail/ Corporate/ Intersegment Consolidated In millions Services LTC Other Eliminations Totals Revenues, as previously reported $ 119,963 $ 81,100 $ — $ (23,537) $ 177,526 Adjustments 2 — 18 — 20 Revenues, as adjusted $ 119,965 $ 81,100 $ 18 $ (23,537) $ 177,546 Cost of products sold (1) $ 111,883 $ 57,362 $ — $ (22,755) $ 146,490 Adjustments 66 (23) — — 43 Cost of products sold $ 111,949 $ 57,339 $ — $ (22,755) $ 146,533 Benefit costs (1) $ 2,179 $ — $ — $ — $ 2,179 Adjustments — — — — — Benefit costs $ 2,179 $ — $ — $ — $ 2,179 Operating expenses, as previously reported $ 1,225 $ 16,436 $ 891 $ (61) $ 18,491 Adjustments 42 (112) 27 — (43) Operating expenses, as adjusted $ 1,267 $ 16,324 $ 918 $ (61) $ 18,448 Operating income (loss), as previously reported $ 4,676 $ 7,302 $ (891) $ (721) $ 10,366 Adjustments (106) 135 (9) — 20 Operating income (loss), as adjusted $ 4,570 $ 7,437 $ (900) $ (721) $ 10,386 ___________________________________________…"
+   }
+  ]
+ }
+}

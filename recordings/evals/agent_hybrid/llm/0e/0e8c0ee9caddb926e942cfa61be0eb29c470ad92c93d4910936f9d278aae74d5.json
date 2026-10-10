@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TIJoLytD/OEePVeAmS+nC3AvcQBrDCZ3vR71gkd9hL+lxQxLHPb+01j6PPzmc9dKpH/WXH03HwFjtAUwq1n4xFlJaWwhK4ToNau/rVUcvBDD6YaJJ30BbCSo="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"GLW\",\"query\":\"Effective tax rate Core non-GAAP FY2021 FY2022 Corning\",\"fiscal_year\":2022,\"section\":\"7\"}",
+        "name": "search_filings"
+       },
+       "id": "call_45573",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622844,
+  "id": "uv7Jar_FIc71xN8P4enT8A4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 56,
+   "prompt_tokens": 8314,
+   "prompt_tokens_details": {
+    "cached_tokens": 4507
+   },
+   "total_tokens": 8370
+  }
+ }
+}

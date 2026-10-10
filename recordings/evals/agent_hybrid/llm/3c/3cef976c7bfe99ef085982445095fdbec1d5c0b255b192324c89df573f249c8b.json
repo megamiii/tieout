@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TDcjOzLCYotmgSFWQl7wXp2eRI5NGXXNS0uGqj6GkYNmtZ5iPU3++DtNbJGoVuMSx5JpVy4GX3vkH28keF9XSMzQLOPikttRfago3xmmC8CzjFl+oWGnFEZg="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Consolidated Statements of Cash Flows dividends paid net income\",\"ticker\":\"GIS\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_49219",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623562,
+  "id": "igHKase-GoHzvdIPyvDPgAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 1629,
+   "total_tokens": 1670
+  }
+ }
+}

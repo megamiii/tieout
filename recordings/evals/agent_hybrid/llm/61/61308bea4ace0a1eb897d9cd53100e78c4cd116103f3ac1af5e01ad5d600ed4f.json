@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T2qyFpvllPF2KHCK388fUSx8lYWIDCM4IPOTuATvd1NAFHYyZSm+0bL6rg86OhI99HXLaGhlBIf/Jw6hTClReEReA38SSUKRQE1UPc9vz58ruhUunKGQMUsE="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Net cash provided by operating activities $\",\"fiscal_year\":2020,\"ticker\":\"GIS\"}",
+        "name": "search_filings"
+       },
+       "id": "call_132160",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623438,
+  "id": "DQHKarL9H8vavdIPrcC9mQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 7956,
+   "prompt_tokens_details": {
+    "cached_tokens": 4014
+   },
+   "total_tokens": 7994
+  }
+ }
+}

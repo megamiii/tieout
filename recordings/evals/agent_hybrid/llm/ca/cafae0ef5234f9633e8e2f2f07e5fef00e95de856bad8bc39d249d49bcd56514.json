@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tc7oyXLhmFjihuXd88x62TFiPwNaSUrCSpmhDHQSCtV9zR6K4G9xxFPml2dNaAB8dQc8ENYgzRAfRNwpp6MTUCb93pDCERimdwvbQzijOV/rT6bZ6rvbmJ8s="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_54aaca8411e8a11d\",\"quote\":\"Total revenues $66,608 $62,286 $58,158\"},{\"quote\":\"Commercial Airplanes $25,867 $19,493 $16,162\",\"source_id\":\"ch_54aaca8411e8a11d\"},{\"source_id\":\"ch_54aaca8411e8a11d\",\"quote\":\"Defense, Space & Security 23,162 26,540 26,257\"},{\"source_id\":\"ch_54aaca8411e8a11d\",\"quote\":\"Global Services 17,611 16,328 15,543\"},{\"quote\":\"Revenues from the U.S. government (including foreign military sales through the U.S. government), primarily recorded at BDS and BGS, represented 40%, 49% and 51% of consolidated revenues for 2022, 2021 and 2020, respectively.\",\"source_id\":\"ch_f4ab865e1b87bcb2\"}],\"needs_review\":false,\"rationale\":\"All three major operating segments (Commercial Airplanes, Defense, Space & Security, and Global Services) as well as U.S. government revenue exceed 20% of Boeing's total revenue of $66,608 million in FY2022.\",\"confidence\":1,\"answer\":\"Yes, Boeing has product and service categories that represent more than 20% of its total revenue for FY2022 ($66,608 million):\\n\\n1. **Commercial Airplanes (BCA)** segment revenues were **$25,867 million**, representing approximately **38.84%** of total revenue.\\n2. **Defense, Space & Security (BDS)** segment revenues were **$23,162 million**, representing approximately **34.77%** of total revenue.\\n3. **Global Services (BGS)** segment revenues were **$17,611 million**, representing approximately **26.44%** of total revenue.\\n\\nAdditionally, revenues from the **U.S. Government** (including foreign military sales through the U.S. government) were **40%** of consolidated revenues ($26,643 million equivalent).\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_21209",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621994,
+  "id": "afvJatPWDYHMvdIPyKat4QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 588,
+   "prompt_tokens": 9762,
+   "total_tokens": 10350
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TjTVVTU4qh04QZdt12vHKqW6geR7ZIP7EgoeMqIcQRANIb5qW65YfVvpM2RMIeCVN2KRq3sJWzYjM/Aq6HbfGsGEavOuoRkBkJMFW/Cbp5fA9eRHRwGv6vi0="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"Cost of sales as a % of Revenues 94.7 % 95.2 % (0.5)% 95.2 % 109.8 % (14.6)%\",\"source_id\":\"ch_515291f695fac5af\"},{\"source_id\":\"ch_515291f695fac5af\",\"quote\":\"Cost of sales $63,106 $59,269 $3,837 $59,269 $63,843 ($4,574)\"},{\"source_id\":\"ch_515291f695fac5af\",\"quote\":\"Revenues $66,608 $62,286 $58,158\"}],\"confidence\":0.9,\"answer\":\"As of FY2022, Boeing's cost of sales as a percentage of revenues was 94.7% compared with 95.2% in FY2021 and 109.8% in FY2020. This indicates a largely consistent to slightly improving gross margin profile (calculated as 100% minus cost of sales as a percentage of revenues, yielding approximately 5.3% in FY2022, 4.8% in FY2021, and (9.8)% in FY2020). Gross margin remains a useful metric for evaluating Boeing's profitability on products and services, though the company relies heavily on program accounting and long-term contract estimates to recognize revenue and margins over time.\",\"needs_review\":false,\"rationale\":\"Boeing reports Cost of sales as a % of Revenues as 94.7% in 2022 and 95.2% in 2021, indicating an improving margin profile from prior years.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_45604",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622117,
+  "id": "4_vJavDSLreJxN8Pnrbg-QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 437,
+   "prompt_tokens": 9673,
+   "total_tokens": 10110
+  }
+ }
+}

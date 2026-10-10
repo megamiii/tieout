@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T7GCZy76gGjSJjiCaDtkFOc6zgEws/rgKqc/owzPSaOlVpNf+/bYCDM0o1Oius6ACo7irq/fe7CzSSimEvWv2tgO4k7MDGtlkyT+QLlFXf0jn5MvLNYBil2U="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The geographic regions of operations for American Express are explicitly listed in Note 24 (Reportable Operating Segments and Geographic Operations) of the 2022 10-K, covering the United States, EMEA, APAC, and LACC.\",\"answer\":\"As of 2022, American Express primarily operates in the following geographic regions:\\n1. United States\\n2. EMEA (Europe, the Middle East and Africa)\\n3. APAC (Asia Pacific, Australia and New Zealand)\\n4. LACC (Latin America, Canada and the Caribbean)\",\"needs_review\":false,\"citations\":[{\"quote\":\"United States EMEA APAC LACC Other Unallocated Consolidated\",\"source_id\":\"ch_e09711461c8cf119\"},{\"source_id\":\"ch_85ff4bb7fd20bae5\",\"quote\":\"EMEA represents Europe, the Middle East and Africa; APAC represents Asia Pacific, Australia and New Zealand; and LACC represents Latin America, Canada and the Caribbean.\"}],\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_126305",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622470,
+  "id": "Rf3JapK2KYHzvdIPyvDPgAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 246,
+   "prompt_tokens": 4333,
+   "total_tokens": 4579
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TqbkDupXbxho4uwhG4/Nk0+LVf78esG+wM6erzEt46HfExQ+OVF2AIxa+EM5ZMtNt1jSaQXR0BsLypbt9W1PvCOPh5hvq1Rg/5ZW1EOHJd2tlJXmmzRa6/bI="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AMD\",\"fiscal_year\":2022,\"query\":\"Data Center net revenue 2022 increased by 2021\"}",
+        "name": "search_filings"
+       },
+       "id": "call_71820",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622029,
+  "id": "jfvJauOqA4qFxN8P1vfl0AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 4896,
+   "total_tokens": 4943
+  }
+ }
+}

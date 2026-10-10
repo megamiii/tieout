@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net cash (used in) provided by financing activities 3,264",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_2c1d85b51acacf48",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 58,
+    "text": "(2,667) (2,056) (850) Proceeds from maturity of short-term investments 4,310 1,678 192 Cash received from acquisition of Xilinx 2,366 — — Acquisition of Pensando, net of cash acquired (1,544) — — Other (16) (7) — Net cash provided by (used in) investing activities 1,999 (686) (952) Cash flows from financing activities: Proceeds from debt, net of issuance costs 991 — 200 Repayment of debt (312) — (200) Proceeds from sales of common stock through employee equity plans 167 104 85 Repurchases of common stock (3,702) (1,762) — Common stock repurchases for tax withholding on employee equity plans (406) (237) (78) Other (2) — (1) Net cash (used in) provided by financing activities (3,264) (1,895) 6 Net increase in cash and cash equivalents 2,300 940 125 Cash and cash equivalents at beginning of year 2,535 1,595 1,470 Cash and cash equivalents at end of year $ 4,835 $ 2,535 $ 1,595 55"
+   },
+   {
+    "chunk_id": "ch_d47a8b02d8d2e8ce",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 51,
+    "text": "Table of Contents FINANCIAL CONDITION Liquidity and Capital Resources As of December 31, 2022, our cash, cash equivalents and short-term investments were $5.9 billion compared to $3.6 billion as of December 25, 2021. The increase in cash, cash equivalents and short-term investments was primarily driven by the $2.4 billion of cash and $1.6 billion of short-term investments acquired from the Xilinx acquisition, $1.0 billion from the debt issuance of our 3.924% Notes and 4.393% Notes, and cash flows from operations, partially offset by stock repurchases and cash paid for the acquisition of Pensando. The percentage of cash and cash equivalents held domestically was 73% as of December 31, 2022, and 91% as of December 25, 2021. Our operating, investing and financing cash flow activities for 2022 and 2021 were as follows: December 31, 2022 December 25, 2021 (In millions) Net cash provided by (used in): Operating activities $ 3,565 $ 3,521 Investing activities 1,999 (686) Financing activities …"
+   },
+   {
+    "chunk_id": "ch_95b7e894da658887",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 52,
+    "text": "2021 compared to the fourth quarter of 2020, a $556 million increase in inventories driven by our continued increase in product build in support of customer demand, and a $920 million increase in prepaid expenses and other assets due primarily to prepayments under long-term supply agreements in 2021, offset by an $801 million increase in accounts payable primarily due to timing of payments to our suppliers, and a $526 million increase in accrued liabilities and other, both of which were driven mainly by higher marketing accruals, and higher accrued annual employee incentives due to improved financial performance. Investing Activities Net cash provided by investing activities was $2 billion in 2022, which primarily consisted of higher cash provided by maturities of short-term investments of $4.3 billion and cash acquired as part of the acquisition of Xilinx of $2.4 billion, partially offset by higher cash used for purchases of short-term investments of $2.7 billion, cash used in the acq…"
+   },
+   {
+    "chunk_id": "ch_ba24d997272c2316",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 64,
+    "text": "Table of Contents Level 3 — Unobservable inputs to the valuation methodology that are supported by little or no market activity and that are significant to the measurement of the fair value of the assets or liabilities. Level 3 assets and liabilities include those whose fair value measurements are determined using pricing models, discounted cash flow methodologies or similar valuation techniques, as well as significant management judgment or estimation. Property and Equipment Property and equipment are stated at cost. Depreciation and amortization are provided on a straight-line basis over the estimated useful lives of one to 15 years for equipment, 34 to 44 years for buildings, and leasehold improvements are measured by the shorter of the remaining terms of the leases or the estimated useful economic lives of the improvements. Leases Operating and finance leases are recorded as right-of-use (ROU) assets and lease liabilities on the Company's balance sheet. ROU assets represent the Com…"
+   },
+   {
+    "chunk_id": "ch_c765321d0b21b263",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 52,
+    "text": "Program, higher repurchases to cover tax withholding on employee equity plans of $406 million and repayment of debt of $312 million, partially offset by proceeds from the issuance of debt of $991 million and higher proceeds from the issuance of common stock under our employee equity plans of $167 million. Net cash used in financing activities was $1.9 billion in 2021, which primarily consisted of common stock repurchases of $1.8 billion under the Repurchase Program and higher repurchases to cover tax withholding on employee equity plans of $237 million, partially offset by higher proceeds from the issuance of common stock under our employee equity plans of $104 million. Off-Balance Sheet Arrangements As of December 31, 2022, we had no off-balance sheet arrangements. 49"
+   }
+  ]
+ }
+}

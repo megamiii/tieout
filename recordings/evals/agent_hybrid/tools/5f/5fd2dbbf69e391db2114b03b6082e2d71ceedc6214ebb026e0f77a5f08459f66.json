@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Cash Flows Capital expenditures",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_00ab123007ef7cb3",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 146,
+    "text": "Separate Accounts Measured at Fair Value on the Consolidated Balance Sheets Separate Accounts assets relate to the Company's large case pensions products which represent funds maintained to meet specific objectives of contract holders. Since contract holders bear the investment risk of these assets, a corresponding Separate Accounts liability has been established equal to the assets. These assets and liabilities are carried at fair value. Net investment income and capital gains and losses on Separate Accounts assets accrue directly to such contract holders. The assets of each account are legally segregated and are not subject to claims arising from the Company's other businesses. Deposits, withdrawals, net investment income and realized and unrealized capital gains and losses on Separate Accounts assets are not reflected in the consolidated statements of operations, shareholders' equity or cash flows. Separate Accounts assets include debt and equity securities. The valuation methodolog…"
+   },
+   {
+    "chunk_id": "ch_92280dad2ceb5001",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 121,
+    "text": "income approach. If the carrying value of the asset exceeds its estimated fair value, an impairment loss is recognized, and the asset is written down to its estimated fair value. There were no impairment losses recognized on indefinite-lived intangible assets in any of the years ended December 31, 2022, 2021 or 2020. Separate Accounts Separate Accounts assets and liabilities related to large case pensions products represent funds maintained to meet specific objectives of contract holders who bear the investment risk. These assets and liabilities are carried at fair value. Net investment income (including net realized capital gains and losses) accrue directly to such contract holders. The assets of each account are legally segregated and are not subject to claims arising from the Company's other businesses. Deposits, withdrawals and net investment income (including net realized and net unrealized capital gains and losses) on Separate Accounts assets are not reflected in the consolidated…"
+   },
+   {
+    "chunk_id": "ch_2f325d3863c52805",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 117,
+    "text": "as a component of net investment income in the consolidated statements of operations. Realized capital gains and losses are determined on a specific identification basis. Purchases and sales of debt and equity securities and alternative investments are reflected on the trade date. Purchases and sales of mortgage loans and investment real estate are reflected on the closing date. Realized capital gains and losses on investments supporting large case pensions' experience-rated products are not included in realized capital gains and losses in the consolidated statements of operations and instead are credited directly to contract holders' accounts. The contract holders' accounts are reflected in policyholders' funds on the consolidated balance sheets. Unrealized capital gains and losses on investments (other than unrealized capital gains and losses on investments supporting experience-rated products) are reflected in shareholders' equity, net of tax, as a component of accumulated other com…"
+   },
+   {
+    "chunk_id": "ch_ab061807f7368254",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 117,
+    "text": "of the sale, the difference between the sales price and the carrying value is recorded as a realized capital gain or loss. • Privately-placed equity securities, which are carried on the consolidated balance sheets at cost less impairments, plus or minus subsequent adjustments for observable price changes. Additionally, as a member of the Federal Home Loan Bank of Boston (“FHLBB”), a subsidiary of the Company is required to purchase and hold shares of the FHLBB. These shares are restricted and carried at cost. Net Investment Income Net investment income on the Company's investments is recorded when earned and is reflected in the Company's net income (other than net investment income on assets supporting experience-rated products). Experience-rated products are products in the large case pensions business where the contract holder, not the Company, assumes investment and other risks, subject to, among other things, minimum guarantees provided by the Company. The effect of investment perf…"
+   },
+   {
+    "chunk_id": "ch_4760e4f5e8db9997",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 111,
+    "text": "Index to Consolidated Financial Statements Consolidated Statements of Cash Flows For the Years Ended December 31, In millions 2022 2021 2020 Cash flows from operating activities: Cash receipts from customers $ 313,662 $ 284,219 $ 264,327 Cash paid for inventory and prescriptions dispensed by retail network pharmacies (189,766) (165,783) (158,636) Insurance benefits paid (69,728) (63,598) (55,124) Cash paid to other suppliers and employees (32,662) (31,652) (29,763) Interest and investment income received 1,026 743 894 Interest paid (2,239) (2,469) (2,904) Income taxes paid (4,116) (3,195) (2,929) Net cash provided by operating activities 16,177 18,265 15,865 Cash flows from investing activities: Proceeds from sales and maturities of investments 6,729 7,246 6,467 Purchases of investments (7,746) (9,963) (9,639) Purchases of property and equipment (2,727) (2,520) (2,437) Proceeds from sale-leaseback transactions — — 101 Acquisitions (net of cash acquired) (139) (146) (866) Proceeds from …"
+   }
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Note 5 - Acquisitions",
+  "ticker": "AMCR",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [],
+  "note": "no passages matched; try other words or filters"
+ }
+}

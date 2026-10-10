@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TE+KQrR5nQ6YcE68PhjuaHQAaqjYAxy1W86bW1z81ld4OnUR/UqkcTDWgw2MCNWPnM7m1FuvMo2BqFtB0uXj7n0zzOjj4KBa1VbmSFk0GrRe0iYOucJhE8FE="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"ticker\":\"CVS\",\"fiscal_year\":2022,\"query\":\"Property and equipment, net\"}",
+        "name": "search_filings"
+       },
+       "id": "call_78593",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622288,
+  "id": "j_zJar_hO8rtxs0P3bLjkAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 2964,
+   "total_tokens": 3007
+  }
+ }
+}

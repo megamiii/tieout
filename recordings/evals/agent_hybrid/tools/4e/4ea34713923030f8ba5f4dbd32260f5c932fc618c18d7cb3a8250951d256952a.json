@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Operating income margin and earnings per share attributable to 3M common shareholders Foreign exchange",
+  "ticker": "MMM",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_843268dd64aa394e",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 20,
+    "text": "on 3M's consolidated results of operations or financial condition. Relevant risk factors can be found in Item 1A “Risk Factors” in this Annual Report on Form 10-K. Operating income margin and earnings per share attributable to 3M common shareholders – diluted: The following table provides the increases (decreases) in operating income margins and diluted earnings per share. Year ended December 31, 2022 2021 Percent of net sales Earnings per diluted share Percent of net sales Earnings per diluted share Same period last year 20.8 % $ 10.12 22.3 % $ 9.36 Net costs for significant litigation 1.4 0.61 1.0 0.37 Gain on business divestitures — — (1.2) (0.52) Divestiture-related restructuring actions — — 0.2 0.08 Total special items 1.4 0.61 — (0.07) Same period last year, excluding special items 22.2 10.73 22.3 9.29 Increase/(decrease) due to: Total organic growth/productivity and other 1.0 0.56 0.7 1.07 Raw material impact (2.4) (1.13) (0.8) (0.27) Divestitures — (0.05) — (0.05) Foreign excha…"
+   },
+   {
+    "chunk_id": "ch_734e854ad91485cf",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 48,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Statement of Income Years ended December 31 (Millions, except per share amounts) 2022 2021 2020 Net sales $ 34,229 $ 35,355 $ 32,184 Operating expenses Cost of sales 19,232 18,795 16,605 Selling, general and administrative expenses 9,049 7,197 6,929 Research, development and related expenses 1,862 1,994 1,878 Gain on business divestitures (2,724) — (389) Goodwill impairment expense 271 — — Total operating expenses 27,690 27,986 25,023 Operating income 6,539 7,369 7,161 Other expense (income), net 147 165 366 Income before income taxes 6,392 7,204 6,795 Provision for income taxes 612 1,285 1,337 Income of consolidated group 5,780 5,919 5,458 Income (loss) from unconsolidated subsidiaries, net of taxes 11 10 (5) Net income including noncontrolling interest 5,791 5,929 5,453 Less: Net income (loss) attributable to noncontrolling interest 14 8 4 Net income attributable to 3M $ 5,777 $ 5,921 $ 5,449 Weighted average 3M common shares…"
+   },
+   {
+    "chunk_id": "ch_063f9f7ae8631494",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Table of Contents Earnings per share: The difference in the weighted average 3M shares outstanding for calculating basic and diluted earnings per share attributable to 3M common shareholders is the result of the dilution associated with the Company's stock-based compensation plans. Certain options outstanding under these stock-based compensation plans during the years 2022, 2021 and 2020 were not included in the computation of diluted earnings per share attributable to 3M common shareholders because they would have had an anti- dilutive effect (30.3 million average options for 2022, 7.8 million average options for 2021, and 18.1 million average options for 2020). The computations for basic and diluted earnings per share follow: Earnings Per Share Computations (Amounts in millions, except per share amounts) 2022 2021 2020 Numerator: Net income attributable to 3M $ 5,777 $ 5,921 $ 5,449 Denominator: Denominator for weighted average 3M common shares outstanding – basic 566.0 579.0 577.6 D…"
+   },
+   {
+    "chunk_id": "ch_31e0aa43e1352879",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 24,
+    "text": "Table of Contents Operating Income (Loss) (Dollars in millions, except per share amounts) Safety and Industrial Safety and Industrial Margin Transportation and Electronics Transportation and Electronics Margin Total Company Total Company Margin Income Before Taxes Provision for Income Taxes Effective Tax Rate Net Income Attributable to 3M Earnings per Diluted Share Earnings per diluted share percent change Year ended December 31, 2020 GAAP $ 2,588 23.6% $ 1,701 20.2% $ 7,161 22.3 % $ 6,795 $ 1,337 19.7 % $ 5,449 $ 9.36 Adjustments for special items: Net costs for significant litigation 205 — 353 353 136 217 0.37 Gain on business divestitures — — (389) (389) (86) (303) (0.52) Divestiture-related restructuring actions — — 55 55 9 46 0.08 Total special items 205 — 19 19 59 (40) (0.07) Year ended December 31, 2020 adjusted amounts (non-GAAP measures) $ 2,793 25.5% $ 1,701 20.2% $ 7,180 22.3 % $ 6,814 $ 1,396 20.5 % $ 5,409 $ 9.29 Year ended December 31, 2021 GAAP $ 2,466 20.6% $ 1,880 20.3…"
+   },
+   {
+    "chunk_id": "ch_5583138c6d32df03",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 51,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Statement of Changes in Equity Years ended December 31 3M Company Shareholders (Dollars in millions, except per share amounts) Total Common Stock and Additional Paid-in Capital Retained Earnings Treasury Stock Accumulated Other Comprehensive Income (Loss) Non-controlling Interest Balance at December 31, 2019 $ 10,126 $ 5,916 $ 42,130 $ (29,849) $ (8,134) $ 63 Net income 5,453 5,449 4 Other comprehensive income (loss), net of tax: Cumulative translation adjustment 447 449 (2) Defined benefit pension and post-retirement plans adjustment 106 106 Cash flow hedging instruments - unrealized gain (loss) (142) (142) Total other comprehensive income (loss), net of tax 411 Dividends declared ($5.88 per share, Note 8) (3,388) (3,388) Purchase of non-controlling interest (1) (1) Stock-based compensation 255 255 Reacquired stock (358) (358) Issuances pursuant to stock options and benefit plans 433 (370) 803 Balance at December 31, 2020 12,9…"
+   }
+  ]
+ }
+}

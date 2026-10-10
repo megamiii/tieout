@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TodWS7mHXxFKa2mNlj/U9+8ojJs4EHdQVxYh+obd4xSZcEkNgd7xvL2xa4pY98mrkr8DXZGjWVum3X2b+dK/nYekJOqeIx0pu44yA2k9jYvUnMWoJgXRP7uo="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Operating income 2022 2021 consolidated statement of operations\",\"ticker\":\"AMD\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_97431",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622396,
+  "id": "_PzJaobAIYKwvdIPh-HYmQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 9532,
+   "prompt_tokens_details": {
+    "cached_tokens": 6081
+   },
+   "total_tokens": 9579
+  }
+ }
+}

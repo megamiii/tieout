@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0THTYirOzNNZZdEWw76bPdkUTOkxNO1N7cOtVgLSvvPCbsXh5ef9EY4V6/cBUs7veV5xBFd5R4HEl3KqLb0xAO7NMtEsRKRVUzA9mGdtGN1YH36ddX/CkoVRc="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Total cash provided by operating Total cash used in investing Total cash used in financing\",\"fiscal_year\":2023,\"ticker\":\"BBY\"}",
+        "name": "search_filings"
+       },
+       "id": "call_103061",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622717,
+  "id": "Pf7JaoCkBqP_vdIPkd7h4QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 3333,
+   "total_tokens": 3380
+  }
+ }
+}

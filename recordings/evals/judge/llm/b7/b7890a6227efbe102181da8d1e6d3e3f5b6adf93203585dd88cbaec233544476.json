@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly confirms that American Express retained card members and provides accurate supporting data from the 2022 10-K filing.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TSYgSTlwd5Fs+k9VlzA2XXdHdHwe6HOGSNiJMkPeLbgSnpUCB+iIWPXP8702McPkrJuCgNxfqjd3m48bsfUyVGEVdnihJcx2ZpCHYuAnQSu/hDQKG8M/hxxt5J7Jh7Kw0Bx0QrHAOC++Ehyar"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791624047,
+  "id": "bAPKavWPMc-SvdIPoqWE8QU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 246,
+   "total_tokens": 287
+  }
+ }
+}

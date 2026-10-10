@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T32YPU5f7GAdzhMFOsUmrozmNlj0PYEjKTpnOM4BQbkwjcrZ8kzHckjKeI+ViB8e1F6Yzr+RUoxIe/3CBNTjPU/9NIInQ/MNohLtp3XDv3aWYXhjZbXFmTh4="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"fiscal_year\":2018,\"ticker\":\"MMM\",\"query\":\"capital expenditures cash flows\"}",
+        "name": "search_filings"
+       },
+       "id": "call_72411",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623035,
+  "id": "ev_JasCHNvbAxN8Plb2NoAc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 1535,
+   "total_tokens": 1576
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "gross profit margin percentage",
+  "ticker": "BBY",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_77beb7de7827d1f4",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 27,
+    "text": "Excludes stores that were temporarily closed as a result of the COVID-19 pandemic. International segment revenue mix percentages and comparable sales percentage changes by revenue category were as follows: Revenue Mix Summary Comparable Sales Summary 2023 2022 2023 2022 Computing and Mobile Phones 45 % 45 % (6.1)% 1.6 % Consumer Electronics 30 % 30 % (6.2)% 4.0 % Appliances 10 % 10 % 0.3 % 6.2 % Entertainment 8 % 8 % (8.6)% 3.5 % Services 5 % 5 % (2.1)% 7.9 % Other 2 % 2 % 1.1 % 8.8 % Total 100 % 100 % (5.4)% 3.3 % Notable comparable sales changes by revenue category were as follows: • Computing and Mobile Phones: The 6.1% comparable sales decline was driven primarily by computing and tablets, partially offset by comparable sales growth in mobile phones. • Consumer Electronics: The 6.2% comparable sales decline was driven primarily by home theater and health and fitness. • Appliances: The 0.3% comparable sales growth was driven by small appliances. • Entertainment: The 8.6% comparable …"
+   },
+   {
+    "chunk_id": "ch_5ca786f6192fc79a",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 25,
+    "text": "Results of Operations Consolidated Results Selected consolidated financial data was as follows ($ in millions, except per share amounts): Consolidated Performance Summary 2023 2022 2021 Revenue $ 46,298 $ 51,761 $ 47,262 Revenue % change (10.6)% 9.5 % 8.3 % Comparable sales % change (9.9)% 10.4 % 9.7 % Gross profit $ 9,912 $ 11,640 $ 10,573 Gross profit as a % of revenue(1) 21.4 % 22.5 % 22.4 % SG&A $ 7,970 $ 8,635 $ 7,928 SG&A as a % of revenue(1) 17.2 % 16.7 % 16.8 % Restructuring charges $ 147 $ (34) $ 254 Operating income $ 1,795 $ 3,039 $ 2,391 Operating income as a % of revenue 3.9 % 5.9 % 5.1 % Net earnings $ 1,419 $ 2,454 $ 1,798 Diluted earnings per share $ 6.29 $ 9.84 $ 6.84 (1) Because retailers vary in how they record costs of operating their supply chain between cost of sales and SG&A, our gross profit rate and SG&A rate may not be comparable to other retailers' corresponding rates. For additional information regarding costs classified in cost of sales and SG&A, refer to N…"
+   },
+   {
+    "chunk_id": "ch_47bb73bb244b2319",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 40,
+    "text": "Consolidated Statements of Earnings $ and shares in millions, except per share amounts Fiscal Years Ended January 28, 2023 January 29, 2022 January 30, 2021 Revenue $ 46,298 $ 51,761 $ 47,262 Cost of sales 36,386 40,121 36,689 Gross profit 9,912 11,640 10,573 Selling, general and administrative expenses 7,970 8,635 7,928 Restructuring charges 147 (34) 254 Operating income 1,795 3,039 2,391 Other income (expense): Investment income and other 28 10 38 Interest expense (35) (25) (52) Earnings before income tax expense and equity in income of affiliates 1,788 3,024 2,377 Income tax expense 370 574 579 Equity in income of affiliates 1 4 - Net earnings $ 1,419 $ 2,454 $ 1,798 Basic earnings per share $ 6.31 $ 9.94 $ 6.93 Diluted earnings per share $ 6.29 $ 9.84 $ 6.84 Weighted-average common shares outstanding: Basic 224.8 246.8 259.6 Diluted 225.7 249.3 263.0 See Notes to Consolidated Financial Statements. 40"
+   },
+   {
+    "chunk_id": "ch_3097b2dfd9de314e",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 25,
+    "text": "Statements, included in Item 8, Financial Statements and Supplementary Data, of this Annual Report on Form 10-K. In fiscal 2023, we generated $46.3 billion in revenue and our comparable sales declined 9.9%. Our comparable sales decline was due to multiple factors, including the following: (1) the lapping of strong sales in fiscal 2022 and fiscal 2021 that were driven by heightened demand during the pandemic for stay-at- home focused purchases and the benefit of government stimulus payments; (2) the shift of consumer spending back into service areas such as travel and entertainment and away from durable goods; and (3) macroeconomic pressures, including high inflation, that resulted in overall softness in customer demand within the consumer electronics industry. Revenue, gross profit rate, SG&A and operating income rate changes in fiscal 2023 were primarily driven by our Domestic segment. For further discussion of each segment's rate changes, see Segment Performance Summary, below. Segme…"
+   },
+   {
+    "chunk_id": "ch_0e5eb43bfe50acdb",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 26,
+    "text": "(10.3)% 11.0 % Notable comparable sales changes by revenue category were as follows: • Computing and Mobile Phones: The 12.0% comparable sales decline was driven primarily by computing, mobile phones, wearables and tablets. • Consumer Electronics: The 12.2% comparable sales decline was driven primarily by home theater, digital imaging and headphones. • Appliances: The 5.7% comparable sales decline was driven primarily by large appliances. • Entertainment: The 5.5% comparable sales decline was driven primarily by virtual reality and gaming software. • Services: The 2.5% comparable sales decline was driven primarily by the launch of our Best Buy Totaltech membership offering that includes benefits that were previously stand-alone revenue-generating services, such as warranty services. Our gross profit rate decreased in fiscal 2023, primarily due to lower product margin rates, including increased promotions, lower services margin rates, driven by the incremental customer benefits and asso…"
+   }
+  ]
+ }
+}

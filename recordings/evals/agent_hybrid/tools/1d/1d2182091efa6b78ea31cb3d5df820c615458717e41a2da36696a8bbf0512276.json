@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Operating Profit 11,512",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_95ec65159221ee4c",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 40,
+    "text": "Table of Contents Consolidated Net Revenue and Operating Profit 2022 2021 Change Net revenue $ 86,392 $ 79,474 9 % Operating profit $ 11,512 $ 11,162 3 % Operating margin 13.3 % 14.0 % (0.7) See “Results of Operations – Division Review” for a tabular presentation and discussion of key drivers of net revenue. Operating profit grew 3% while operating margin declined 0.7 percentage points. Operating profit growth was primarily driven by net revenue growth and productivity savings, partially offset by certain operating cost increases and a 42-percentage-point impact of higher commodity costs. The loss of net revenue due to the Juice Transaction reduced operating profit growth by 3 percentage points and was partially offset by a 1-percentage-point contribution from the 53 reporting week. Operating profit growth also reflects a 13-percentage-point unfavorable impact of impairment charges related to certain indefinite-lived intangible assets due to an increase in the weighted-average cost of …"
+   },
+   {
+    "chunk_id": "ch_52ad2e58a33fc431",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 42,
+    "text": "Table of Contents Operating Profit/(Loss), Operating Profit/(Loss) Adjusted for Items Affecting Comparability and Operating Profit/(Loss) Performance Adjusted for Items Affecting Comparability on a Constant Currency Basis Operating profit/(loss) adjusted for items affecting comparability and operating profit/(loss) performance adjusted for items affecting comparability on a constant currency basis are both non-GAAP financial measures. For further information on these measures, see “Non-GAAP Measures” and “Items Affecting Comparability.” Operating Profit/(Loss) and Operating Profit/(Loss) Adjusted for Items Affecting Comparability 2022 Items Affecting Comparability Reported, GAAP Measure Mark-to- market net impact Restructuring and impairment charges Acquisition and divestiture- related charges Gain associated with the Juice Transaction Impairment and other charges Core, Non-GAAP Measure FLNA $ 6,135 $ — $ 46 $ — $ — $ 88 $ 6,269 QFNA 604 — 7 — — — 611 PBNA 5,426 — 68 51 (3,029) 160 2,6…"
+   },
+   {
+    "chunk_id": "ch_6b048108e629bbfb",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 70,
+    "text": "Table of Contents Pension and Retiree Medical Expense Pension and retiree medical service costs measured at fixed discount rates are reflected in division results. The variance between the fixed discount rate used to determine the service cost reflected in division results and the discount rate as disclosed in Note 7 is reflected in corporate unallocated expenses. Derivatives We centrally manage commodity derivatives on behalf of our divisions. These commodity derivatives include agricultural products, energy and metals. Commodity derivatives that do not qualify for hedge accounting treatment are marked to market each period with the resulting gains and losses recorded in corporate unallocated expenses as either cost of sales or selling, general and administrative expenses, depending on the underlying commodity. These gains and losses are subsequently reflected in division results when the divisions recognize the cost of the underlying commodity in operating profit. Therefore, the divi…"
+   },
+   {
+    "chunk_id": "ch_f3a07fa2fa463d16",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 43,
+    "text": "Table of Contents Operating Profit/(Loss) Performance and Operating Profit/(Loss) Performance Adjusted for Items Affecting Comparability on a Constant Currency Basis 2022 Impact of Items Affecting Comparability Impact of Reported % Change, GAAP Measure Mark-to- market net impact Restructuring and impairment charges Acquisition and divestiture- related charges Gain associated with the Juice Transaction Impairment and other charges Core % Change, Non-GAAP Measure Foreign exchange translation Core Constant Currency % Change, Non- GAAP Measure FLNA 9 % — — — — 1.5 11 % — 11 % QFNA 4.5 % — 1 — — — 6 % — 6 % PBNA 122 % — 2 2 (124) 7 8 % — 9 % LatAm 19 % — — — — 4.5 23 % — 23 % Europe (207)% — 2 0.5 (23) 228 — % 7 7 % AMESA (22)% — — (1) — 23 (1)% 9 7 % APAC (20)% — 1 (0.5) — 26 7 % 4 11 % Corporate unallocated expenses 25 % (2.5) (2) (2.5) — — 18 % — 18 % Total 3 % — 1 1 (29) 31 8 % 2 10 % (a) See “Items Affecting Comparability.” (b) Amounts may not sum due to rounding. FLNA Net revenue grew…"
+   },
+   {
+    "chunk_id": "ch_3d7355e3bb16aa7a",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 70,
+    "text": "Europe 12,724 13,038 11,922 (1,380) 1,292 1,353 AMESA 6,438 6,078 4,573 666 858 600 APAC 4,787 4,615 3,445 537 673 590 Total division 86,392 79,474 70,372 13,615 12,845 11,522 Corporate unallocated expenses — — — (2,103) (1,683) (1,442) Total $ 86,392 $ 79,474 $ 70,372 $ 11,512 $ 11,162 $ 10,080 (a) See below for impairment and other charges taken related to the Russia-Ukraine conflict, brand portfolio impairment and other impairment. (b) In 2022, we recorded a gain of $3,029 million and $292 million in our PBNA and Europe divisions, respectively, associated with the Juice Transaction. The total after- tax amount was $2,888 million or $2.08 per share. See Note 13 for further information. (c) In 2021, the increase in net revenue in our AMESA and APAC divisions reflect our acquisitions of Pioneer Foods and Be & Cheery, respectively. See Note 13 for further information. (a) (b) (b) (c) (c) 68"
+   }
+  ]
+ }
+}

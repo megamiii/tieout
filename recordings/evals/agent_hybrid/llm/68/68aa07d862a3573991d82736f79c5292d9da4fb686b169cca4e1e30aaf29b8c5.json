@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TJpDf9ST71XG1mH4rgRm5o4dgkU00Br7qmnA5VQKaC91eZTJ6RLKBGaKHw7dq/EFhU52TS9GljWIvc4Yeiur82jwdGXjxGBdXmSej4o9nHocVrg5VZpd8FxM="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"Yes, Corning has positive working capital based on FY2022 data. As of December 31, 2022, Corning reported Total Current Assets of $7,453 million and Total Current Liabilities of $5,175 million, resulting in positive working capital of $2,278 million ($7,453 million minus $5,175 million).\",\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_bd1f1e1075307850\",\"quote\":\"Total current assets 7,453\"},{\"quote\":\"Total current liabilities 5,175\",\"source_id\":\"ch_bd1f1e1075307850\"}],\"rationale\":\"Total current assets of $7,453 million exceed total current liabilities of $5,175 million, resulting in positive working capital of $2,278 million for FY2022.\",\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_30509",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621740,
+  "id": "a_rJaonfF6-YvdIP17HGsAY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 238,
+   "prompt_tokens": 4922,
+   "prompt_tokens_details": {
+    "cached_tokens": 2012
+   },
+   "total_tokens": 5160
+  }
+ }
+}

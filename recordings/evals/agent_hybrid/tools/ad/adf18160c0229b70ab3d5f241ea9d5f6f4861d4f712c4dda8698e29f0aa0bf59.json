@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Cash provided (used) by operations 5,841",
+  "ticker": "NKE",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e8d535624a3d0686",
+    "ticker": "NKE",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 62,
+    "text": "NIKE, INC. CONSOLIDATED STATEMENTS OF CASH FLOWS YEAR ENDED MAY 31, (Dollars in millions) 2023 2022 2021 Cash provided (used) by operations: Net income $ 5,070 $ 6,046 $ 5,727 Adjustments to reconcile net income to net cash provided (used) by operations: Depreciation 703 717 744 Deferred income taxes (117) (650) (385) Stock-based compensation 755 638 611 Amortization, impairment and other 156 123 53 Net foreign currency adjustments (213) (26) (138) Changes in certain working capital components and other assets and liabilities: (Increase) decrease in accounts receivable 489 (504) (1,606) (Increase) decrease in inventories (133) (1,676) 507 (Increase) decrease in prepaid expenses, operating lease right-of-use assets and other current and non-current assets (644) (845) (182) Increase (decrease) in accounts payable, accrued liabilities, operating lease liabilities and other current and non-current liabilities (225) 1,365 1,326 Cash provided (used) by operations 5,841 5,188 6,657 Cash provi…"
+   },
+   {
+    "chunk_id": "ch_a66f55032220b941",
+    "ticker": "NKE",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 35,
+    "text": "RESULTS OF OPERATIONS (Dollars in millions, except per share data) FISCAL 2023 FISCAL 2022 % CHANGE FISCAL 2021 % CHANGE Revenues $ 51,217 $ 46,710 10 % $ 44,538 5 % Cost of sales 28,925 25,231 15 % 24,576 3 % Gross profit 22,292 21,479 4 % 19,962 8 % Gross margin 43.5 % 46.0 % 44.8 % Demand creation expense 4,060 3,850 5 % 3,114 24 % Operating overhead expense 12,317 10,954 12 % 9,911 11 % Total selling and administrative expense 16,377 14,804 11 % 13,025 14 % % of revenues 32.0 % 31.7 % 29.2 % Interest expense (income), net (6) 205 — 262 — Other (income) expense, net (280) (181) — 14 — Income before income taxes 6,201 6,651 -7 % 6,661 0 % Income tax expense 1,131 605 87 % 934 -35 % Effective tax rate 18.2 % 9.1 % 14.0 % NET INCOME $ 5,070 $ 6,046 -16 % $ 5,727 6 % Diluted earnings per common share $ 3.23 $ 3.75 -14 % $ 3.56 5 % 2023 FORM 10-K 31"
+   },
+   {
+    "chunk_id": "ch_481f71fde8a56cef",
+    "ticker": "NKE",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 48,
+    "text": "impact of approximately $1,023 million and a favorable impact of approximately $132 million and $19 million on our Income before income taxes for the years ended May 31, 2023, 2022 and 2021, respectively. NET INVESTMENTS IN FOREIGN SUBSIDIARIES We are also exposed to the impact of foreign exchange fluctuations on our investments in wholly-owned foreign subsidiaries denominated in a currency other than the U.S. Dollar, which could adversely impact the U.S. Dollar value of these investments and therefore the value of future repatriated earnings. We have, in the past, hedged and may, in the future, hedge net investment positions in certain foreign subsidiaries to mitigate the effects of foreign exchange fluctuations on these net investments. These hedges are accounted for as net investment hedges in accordance with U.S. GAAP. There were no outstanding net investment hedges as of May 31, 2023 and 2022. There were no cash flows from net investment hedge settlements for the years ended May 3…"
+   },
+   {
+    "chunk_id": "ch_f97c3735d79a5484",
+    "ticker": "NKE",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 83,
+    "text": "The following tables present the amounts affecting the Consolidated Statements of Income for the years ended May 31, 2023, 2022 and 2021: (Dollars in millions) AMOUNT OF GAIN (LOSS) RECOGNIZED IN OTHER COMPREHENSIVE INCOME (LOSS) ON DERIVATIVES (1) AMOUNT OF GAIN (LOSS) RECLASSIFIED FROM ACCUMULATED OTHER COMPREHENSIVE INCOME (LOSS) INTO INCOME (1) YEAR ENDED MAY 31, LOCATION OF GAIN (LOSS) RECLASSIFIED FROM ACCUMULATED OTHER COMPREHENSIVE INCOME (LOSS) INTO INCOME YEAR ENDED MAY 31, 2023 2022 2021 2023 2022 2021 Derivatives designated as cash flow hedges: Foreign exchange forwards and options $ 16 $ (39) $ (61) Revenues $ 26 $ (82) $ 45 Foreign exchange forwards and options 305 889 (563) Cost of sales 581 (23) 51 Foreign exchange forwards and options (1) (6) 5 Demand creation expense (5) 1 3 Foreign exchange forwards and options 207 492 (163) Other (income) expense, net 338 130 (47) Interest rate swaps(2) — — — Interest expense (income), net (8) (7) (7) Total designated cash flow hedg…"
+   },
+   {
+    "chunk_id": "ch_73b62975b358a1ad",
+    "ticker": "NKE",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Return on Invested Capital (\"ROIC\"): Represents a performance measure that management believes is useful information in understanding the Company's ability to effectively manage invested capital. Our ROIC calculation as of May 31, 2023 and 2022 is as follows: FOR THE TRAILING FOUR QUARTERS ENDED (Dollars in millions) MAY 31, 2023 MAY 31, 2022 Numerator Net income $ 5,070 $ 6,046 Add: Interest expense (income), net (6) 205 Add: Income tax expense 1,131 605 Earnings before interest and taxes 6,195 6,856 Income tax adjustment(1) (1,130) (624) Earnings before interest and after taxes $ 5,065 $ 6,232 AVERAGE FOR THE TRAILING FIVE QUARTERS ENDED MAY 31, 2023 MAY 31, 2022 Denominator Total debt(2) $ 12,491 $ 12,722 Add: Shareholders' equity 14,982 14,425 Less: Cash and equivalents and Short-term investments 11,394 13,748 Total invested capital $ 16,079 $ 13,399 RETURN ON INVESTED CAPITAL 31.5 % 46.5 % (1) Equals Earnings before interest and taxes multiplied by the effective tax rate as of the…"
+   }
+  ]
+ }
+}

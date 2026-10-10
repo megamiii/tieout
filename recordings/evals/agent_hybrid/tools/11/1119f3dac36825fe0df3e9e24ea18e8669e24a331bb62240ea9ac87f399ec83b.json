@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "effective tax rate",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_cf88f8fbe6d9652d",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 79,
+    "text": "affect the effective tax rate, if recognized. As of December 31, 2022, these amounts are primarily associated with the amount of research tax credits claimed and various other matters. Federal income tax audits have been settled for all years prior to 2018. The Internal Revenue Service (IRS) began the 2018-2019 federal tax audit in the first quarter of 2021 and added tax year 2020 to the audit in the fourth quarter of 2021. We are also subject to examination in major state and international jurisdictions for the 2008-2021 tax years. We believe appropriate provisions for all outstanding tax issues have been made for all jurisdictions and all open years. Note 5 – Accounts Receivable, net Accounts receivable at December 31 consisted of the following: 2022 2021 U.S. government contracts $800 $1,180 Commercial Airplanes 293 279 Global Services 1,390 1,456 Defense, Space, & Security 145 111 Other 5 5 Less valuation allowance (116) (390) Total $2,517 $2,641 Includes foreign military sales thr…"
+   },
+   {
+    "chunk_id": "ch_8235cd5783697122",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 77,
+    "text": "Table of Contents The following is a reconciliation of the U.S. federal statutory tax to actual income tax (benefit)/expense: Years ended December 31, 2022 2021 2020 Amount Rate Amount Rate Amount Rate U.S. federal statutory tax ($1,054) 21.0 % ($1,057) 21.0 % ($3,039) 21.0 % Valuation allowance 1,199 (23.9) 512 (10.2) 2,603 (18.0) Research and development credits (204) 4.1 (189) 3.8 (284) 2.0 State income tax provision, net of effects on U.S. federal tax (90) 1.8 (94) 1.9 (168) 1.2 Tax on non-U.S. activities 64 (1.3) 47 (0.9) 7 (0.1) Impact of CARES Act (5) 0.1 3 (0.1) (1,175) 8.1 Other provision adjustments 121 (2.4) 35 (0.8) 108 (0.8) Audit settlements (587) 4.1 Income tax expense/(benefit) $31 (0.6)% ($743) 14.7 % ($2,535) 17.5 % On March 27, 2020, the CARES Act was enacted, which includes a five year net operating loss (NOL) carryback provision which enabled us to benefit from the 2020 U.S. federal tax NOL at the former federal tax rate of 35%. In 2022, 2021, and 2020, we recorded…"
+   },
+   {
+    "chunk_id": "ch_e2549631ee08829e",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 79,
+    "text": "Table of Contents The Tax Cuts and Jobs Act (TCJA) one-time repatriation tax and Global Intangible Low Tax Income liabilities effectively taxed the undistributed earnings previously deferred from U.S. income taxes. We have not provided for deferred income taxes on the undistributed earnings from certain non-U.S. subsidiaries because such earnings are considered to be indefinitely reinvested. If such earnings were to be distributed, any deferred income taxes would not be significant. As of December 31, 2022 and 2021, the amounts accrued for the payment of income tax-related interest and penalties included in the Consolidated Statements of Financial Position were not significant. The amounts of interest included in the Consolidated Statements of Operations were not significant for 2022, 2021 and 2020. A reconciliation of the beginning and ending amount of unrecognized tax benefits is as follows: 2022 2021 2020 Unrecognized tax benefits – January 1 $858 $966 $1,476 Gross increases – tax p…"
+   },
+   {
+    "chunk_id": "ch_efb8499eaa421a84",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 108,
+    "text": "($167) ($24) ($9,359) ($9,550) Net of tax. Primarily related to remeasurement of assets and benefit obligations related to the Company's pension and other postretirement benefit plans resulting in an actuarial gain/(loss) of $1,533, $4,262 and ($1,956) (net of tax of ($22), ($32) and $111) for the years ended December 31, 2022, 2021 and 2020. See Note 16. Primarily related to amortization of actuarial losses for the years ended December 31, 2022, 2021 and 2020 totaling $791, $1,155 and $917 (net of tax of ($11), ($8) and ($52)), respectively. These are included in the net periodic pension cost. See Note 16. Included losses of $39 (net of tax of ($11)) from cash flow hedges reclassified to Other income, net because the forecasted transactions are probable of not occurring. Note 19 – Derivative Financial Instruments Cash Flow Hedges Our cash flow hedges include foreign currency forward contracts, commodity swaps and commodity purchase contracts. We use foreign currency forward contracts …"
+   },
+   {
+    "chunk_id": "ch_82e33b5cae6ee32b",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 52,
+    "text": "offset deferred income tax assets and result in higher taxable income in future years and increase income taxes payable. Tax law determines whether future reversals of temporary differences will result in taxable and deductible amounts that offset each other in future years. The particular years in which temporary differences result in taxable or deductible amounts generally are determined by the timing of the recovery of the related asset or settlement of the related liability. On a quarterly basis, we assess the likelihood that we will be able to recover our deferred tax assets against future sources of taxable income and reduce the carrying amounts of deferred tax assets by recording a valuation allowance if, based on the available evidence, it is more likely than not (defined as a likelihood of more than 50%) that all or a portion of such assets will not be realized. This assessment takes into account both positive and negative evidence. A recent history of financial reporting loss…"
+   }
+  ]
+ }
+}

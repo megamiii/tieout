@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Current liabilities Debt maturing within one year",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_384e304b22770353",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 77,
+    "text": "Long-term debt maturing within one year $ 9,813 $ 7,443 Add commercial paper 150 — Debt maturing within one year 9,963 7,443 Add long-term debt 140,676 143,425 Total debt $ 150,639 $ 150,868 (1) The debt obligations bore interest at a floating rate based on the Compounded Secured Overnight Financing Rate (SOFR) for the interest period or the London Interbank Offered Rate (LIBOR) plus an applicable interest margin per annum, as applicable. Compounded SOFR is calculated using the SOFR Index published by the Federal Reserve Bank of New York in accordance with the formula set forth in the terms of the notes. The Compounded SOFR for the interest period ending in December 2022 was 3.450%. The one-month and three-month LIBOR at December 31, 2022 was 4.392% and 4.767%, respectively. (2) The debt obligations bore interest at floating rates, including floating rates associated with SOFR for the interest period, or LIBOR plus an applicable interest margin per annum, as applicable. Floating rates …"
+   },
+   {
+    "chunk_id": "ch_1392c9ec3215c080",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 77,
+    "text": "Note 7. Debt Outstanding long-term debt obligations as of December 31, 2022 and 2021 are as follows: (dollars in millions) At December 31, Maturities Interest Rates % 2022 2021 Verizon Communications < 5 Years 0.75 - 5.82 $ 23,929 $ 18,406 5-10 Years 1.50 - 7.88 42,637 43,225 > 10 Years 1.13 - 8.95 60,134 73,520 < 5 Years Floating (1) 2,992 4,086 5-10 Years Floating (1) 3,029 824 Alltel Corporation 5-10 Years 6.80 - 7.88 94 38 > 10 Years N/A N/A 58 Operating telephone company subsidiaries—debentures < 5 Years N/A N/A 141 5-10 Years 6.00 - 8.75 475 375 > 10 Years 5.13 - 7.38 139 250 Other subsidiaries—asset-backed debt < 5 Years 0.41 - 5.72 9,767 9,620 < 5 Years Floating (2) 10,271 4,610 Finance lease obligations (average rate of 2.5% and 2.2% in 2022 and 2021, respectively) 1,732 1,325 Unamortized discount, net of premium (4,039) (4,922) Unamortized debt issuance costs (671) (688) Total long-term debt, including current maturities 150,489 150,868 Less long-term debt maturing within one…"
+   },
+   {
+    "chunk_id": "ch_a96e1f9efa7e6ae2",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 38,
+    "text": "Long-term debt, including current maturities, commitments of $149.4 billion, of which $9.3 billion are expected to be due within the next twelve months. Related interest payments are $73.6 billion, of which $5.6 billion, are expected to be due within the next twelve months. Items included in long-term debt with variable coupon rates exclude unamortized debt issuance costs, and are described in Note 7 to the consolidated financial statements. • Operating lease obligations of $29.8 billion and Finance lease obligations of $1.8 billion, of which $4.6 billion and $586 million, respectively, are expected to be due within the next twelve months. In addition, Verizon has an obligation of $675 million representing future minimum payments under the sublease arrangement for our cell towers, of which $297 million is expected to be due within the next twelve months. See Note 6 to the consolidated financial statements for additional information. • Unconditional purchase obligations, with terms in e…"
+   },
+   {
+    "chunk_id": "ch_df1e0ef4d4efd2c9",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 82,
+    "text": "network equipment. As of December 31, 2022 and 2021, $1.7 billion and $1.3 billion, respectively, relating to these financing arrangements, including those entered into in prior years and liabilities assumed through acquisitions, remained outstanding. These purchases are non-cash financing activities and therefore are not reflected within Capital expenditures in our consolidated statements of cash flows. Net Debt Extinguishment Losses During the years ended December 31, 2022, 2021 and 2020, we recorded net debt extinguishment losses of $1.1 billion, $3.6 billion and $121 million, respectively. The net losses are recorded in Other income (expense), net in our consolidated statements of income. The total losses are reflected within Other, net cash flow from operating activities and the portion of the losses representing cash payments are reflected within Other, net cash flow from financing activities in our consolidated statements of cash flows. Guarantees We guarantee the debentures of …"
+   },
+   {
+    "chunk_id": "ch_cf7adac4def57f70",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 81,
+    "text": "the advances at any time without penalty, but in certain cases, with breakage costs. Subject to certain conditions, we may also remove receivables from the applicable ABS Entity. In October 2022, we borrowed $2.0 billion under the loan agreement entered into in connection with the 2022 ABS Financing Facility. The aggregate outstanding balance under the 2022 ABS Financing Facility was $2.0 billion as of December 31, 2022. Variable Interest Entities The ABS Entities meet the definition of a VIE for which we have determined that we are the primary beneficiary as we have both the power to direct the activities of the entity that most significantly impact the entity's performance and the obligation to absorb losses or the right to receive benefits of the entity. Therefore, the assets, liabilities and activities of the ABS Entities are consolidated in our financial results and are included in amounts presented on the face of our consolidated balance sheets. The assets and liabilities related…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TP52j9el5vKstX9gGkha1GszCnchWYORuBdV5EtNGTsOpTjV3oBagouWd8tleHGsTUTrqiSAD/UB6VFoyY8AMHb7t8Qr7YvRBp3XiwubiR84uf3b7iVL5Rp8="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"citations\":[{\"source_id\":\"ch_7675130d841f32c8\",\"quote\":\"1) Frito-Lay North America (FLNA), which includes our branded convenient food businesses in the United States and Canada;\"},{\"source_id\":\"ch_7675130d841f32c8\",\"quote\":\"4) Latin America (LatAm), which includes all of our beverage and convenient food businesses in Latin America;\"},{\"quote\":\"5) Europe, which includes all of our beverage and convenient food businesses in Europe;\",\"source_id\":\"ch_7675130d841f32c8\"}],\"needs_review\":false,\"answer\":\"As of FY2022, PepsiCo is organized into seven reportable segments (divisions) corresponding to its primary operating geographies:\\n1. Frito-Lay North America (FLNA) — United States and Canada\\n2. Quaker Foods North America (QFNA) — United States and Canada\\n3. PepsiCo Beverages North America (PBNA) — United States and Canada\\n4. Latin America (LatAm) — Latin America\\n5. Europe — Europe\\n6. Africa, Middle East and South Asia (AMESA) — Africa, the Middle East and South Asia\\n7. Asia Pacific, Australia, New Zealand and China region (APAC) — Asia Pacific, Australia, New Zealand, and China region\",\"rationale\":\"The 10-K explicitly lists PepsiCo's seven reportable segments and their geographic coverage.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_72682",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622459,
+  "id": "Ov3JauaxF9z9vdIPyYeDoQg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 357,
+   "prompt_tokens": 6551,
+   "prompt_tokens_details": {
+    "cached_tokens": 4035
+   },
+   "total_tokens": 6908
+  }
+ }
+}

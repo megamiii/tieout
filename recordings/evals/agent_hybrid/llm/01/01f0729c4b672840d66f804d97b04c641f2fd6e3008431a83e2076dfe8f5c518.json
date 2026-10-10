@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T/NF5bseMs1P3bWbFHavT+s2neXbFyTYbma1S/9RtTZ9iLHvpBHKr0Iepw48J/hdEnnftBdUyZ6isl0YYZzqk1JZ3usH9OdKLwaOWhUnxPm7mIT/T0uuINSI="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The statistics in Table 5 (Selected Card-Related Statistical Information) show that total cards-in-force and basic cards-in-force both increased significantly from 2021 to 2022, demonstrating that American Express not only retained existing card members but also grew its card base.\",\"answer\":\"Yes, American Express successfully retained and grew its card member base during 2022. Total cards-in-force increased to 133.3 million as of December 31, 2022, compared to 121.7 million at the end of 2021, representing a 10 percent increase. Basic cards-in-force also rose from 100.7 million in 2021 to 111.5 million in 2022.\",\"citations\":[{\"quote\":\"Cards-in-force (millions) 133.3 121.7 112.0 10 9\",\"source_id\":\"ch_aa946ea415b4647d\"},{\"quote\":\"Basic cards-in-force (millions) 111.5 100.7 91.3 11 10\",\"source_id\":\"ch_aa946ea415b4647d\"}],\"confidence\":1,\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_103330",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622966,
+  "id": "NP_JapWhKJXQvdIPspndmAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 328,
+   "prompt_tokens": 10503,
+   "prompt_tokens_details": {
+    "cached_tokens": 6359
+   },
+   "total_tokens": 10831
+  }
+ }
+}

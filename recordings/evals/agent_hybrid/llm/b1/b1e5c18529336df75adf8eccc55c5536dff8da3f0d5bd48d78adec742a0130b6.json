@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TLpkRni1yvawzkoBmG6uFswlqg9vBRq1kx5O+Q89z1GEw1hny7taEz692mJpJMjwyb/mMJyDSVPlcifYiZm7GUji1EbrD+0RagAUfNJQ8QQGDMMDMkGIYOkw="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"PEP\",\"fiscal_year\":2022,\"query\":\"Restructuring and impairment charges\",\"section\":\"8\"}",
+        "name": "search_filings"
+       },
+       "id": "call_95619",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622787,
+  "id": "g_7Jaq7rF6m9vdIPmI7toQk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 42,
+   "prompt_tokens": 2020,
+   "total_tokens": 2062
+  }
+ }
+}

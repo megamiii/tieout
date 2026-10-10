@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Yardbird Furniture",
+  "ticker": "BBY",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a9dabc57dd7a78f6",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 51,
+    "text": "Comprehensive income (loss) is computed as net earnings plus certain other items that are recorded directly to shareholders' equity. 2. Acquisitions Current Health Ltd. In fiscal 2022, we acquired all of the outstanding shares of Current Health Ltd. (“Current Health”), a care-at-home technology platform, on November 2, 2021, for net cash consideration of $389 million. The acquired assets included $351 million of goodwill that was assigned to our Best Buy Health reporting unit and was deductible for income tax purposes. The acquisition is aligned with our focus in virtual care to enable people in their homes to connect seamlessly with their health care providers and is included in our Domestic reportable segment and Services revenue category. The acquisition was accounted for using the acquisition method of accounting for business combinations and was not material to the results of operations. Two Peaks, LLC d/b/a Yardbird Furniture In fiscal 2022, we acquired all of the outstanding sha…"
+   },
+   {
+    "chunk_id": "ch_4b38abf43bad9461",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 1",
+    "page": 4,
+    "text": "Item 1. Business. Unless the context otherwise requires, the terms “we,” “us” and “our” in this Annual Report on Form 10-K refer to Best Buy Co., Inc. and, as applicable, its consolidated subsidiaries. Any references to our website addresses do not constitute incorporation by reference of the information contained on the websites. Description of Business We were incorporated in the state of Minnesota in 1966. We are driven by our purpose to enrich lives through technology and our vision to personalize and humanize technology solutions for every stage of life. We accomplish this by leveraging our combination of technology and a human touch to meet our customers' everyday needs, whether they come to us online, visit our stores or invite us into their homes. We have operations in the U.S. and Canada. Segments and Geographic Areas We have two reportable segments: Domestic and International. The Domestic segment is comprised of our operations in all states, districts and territories of the …"
+   },
+   {
+    "chunk_id": "ch_0297b8573ac4387d",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 23,
+    "text": "take delivery direct to their homes. Revenue from acquisitions is included in comparable sales beginning with the first full quarter following the first anniversary of the date of the acquisition. Comparable sales also includes credit card revenue, gift card breakage, commercial sales and sales of merchandise to wholesalers and dealers, as applicable. Revenue from stores closed more than 14 days, including but not limited to relocated, remodeled, expanded and downsized stores, or stores impacted by natural disasters, is excluded from comparable sales until at least 14 full months after reopening. Comparable sales excludes the impact of revenue from discontinued operations, the impact of profit-share revenue from our services plan portfolio and the effect of fluctuations in foreign currency exchange rates (applicable to our International segment only). All periods presented apply this methodology consistently. On November 2, 2021, we acquired all outstanding shares of Current Health Ltd…"
+   },
+   {
+    "chunk_id": "ch_7bb388a0f6e76660",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 44,
+    "text": "Notes to Consolidated Financial Statements 1. Summary of Significant Accounting Policies Unless the context otherwise requires, the use of the terms “Best Buy,” “we,” “us” and “our” in these Notes to Consolidated Financial Statements refers to Best Buy Co., Inc. and, as applicable, its consolidated subsidiaries. Description of Business We are driven by our purpose to enrich lives through technology and our vision to personalize and humanize technology solutions for every stage of life. We accomplish this by leveraging our combination of technology and a human touch to meet our customers' everyday needs, whether they come to us online, visit our stores or invite us into their homes. We have operations in the U.S. and Canada. We have two reportable segments: Domestic and International. The Domestic segment is comprised of our operations in all states, districts and territories of the U.S. and our Best Buy Health business, and includes the brand names Best Buy, Best Buy Ads, Best Buy Busi…"
+   },
+   {
+    "chunk_id": "ch_93a784c7e4427c7b",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 1",
+    "page": 4,
+    "text": "segment is comprised of all operations in Canada under the brand names Best Buy, Best Buy Mobile and Geek Squad and the domain name bestbuy.ca. In fiscal 2022, we acquired all of the outstanding shares of Current Health Ltd. (“Current Health”) and Two Peaks, LLC d/b/a Yardbird Furniture (“Yardbird”). Operations Our Domestic and International segments are managed by leadership teams responsible for all areas of the business. Both segments operate an omnichannel platform that allows customers to come to us online, visit our stores or invite us into their homes. Development of merchandise and service offerings, pricing and promotions, procurement and supply chain, online and mobile application operations, marketing and advertising and labor deployment across all channels are centrally managed. In addition, support capabilities (for example, human resources, finance, information technology and real estate management) operate from our corporate headquarters. We also have field operations th…"
+   }
+  ]
+ }
+}

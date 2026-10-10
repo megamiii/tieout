@@ -1,0 +1,143 @@
+{
+ "item_id": "financebench_id_04672",
+ "eval_set": "financebench",
+ "experiment": "agent_full",
+ "status": "answered",
+ "answer": "At year-end FY2018 (December 31, 2018), 3M's net property, plant and equipment (PP&E) was $8.738 billion ($8,738 million).",
+ "confidence": 1.0,
+ "rationale": "The year-end FY2018 net PP&E for 3M is reported as $8,738 million (or $8.738 billion) on the Consolidated Balance Sheet in 3M's FY2018 Form 10-K.",
+ "citations": [
+  {
+   "source_id": "ch_788c54576b42a952",
+   "quote": "Property, plant and equipment — net 8,738 8,866",
+   "kind": "chunk",
+   "ticker": "MMM",
+   "fiscal_year": 2018,
+   "section": "Item 8",
+   "page": 58,
+   "values": [
+    "31",
+    "31",
+    "31",
+    "2018",
+    "2017",
+    "2853",
+    "3053",
+    "380",
+    "1076",
+    "95",
+    "103",
+    "5020",
+    "4911",
+    "2120",
+    "1915",
+    "1292",
+    "1218",
+    "954",
+    "901",
+    "4366",
+    "4034",
+    "741",
+    "937",
+    "349",
+    "266",
+    "13709",
+    "14277",
+    "24873",
+    "24914",
+    "16135",
+    "16048",
+    "8738",
+    "8866",
+    "10051",
+    "10513",
+    "2657",
+    "2936",
+    "1345",
+    "1395",
+    "36500",
+    "37987",
+    "1211",
+    "1853",
+    "2266",
+    "1945",
+    "749",
+    "870",
+    "243"
+   ]
+  },
+  {
+   "source_id": "xf_1543b9dce1a72359",
+   "quote": "8738000000",
+   "kind": "fact",
+   "ticker": "MMM",
+   "concept": "PropertyPlantAndEquipmentNet",
+   "fiscal_year": 2018,
+   "restated": [],
+   "values": [
+    "8738000000"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 4,
+ "prompt_tokens": 10346,
+ "completion_tokens": 353,
+ "latency_ms": null,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$8.738 matches 8.70 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 4,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1923,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"query\":\"Property, Plant and Equipment, Net\",\"ticker\":\"MMM\",\"fiscal_years\":[2018]}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 2231,
+   "tools": [
+    {
+     "name": "calculate",
+     "arguments": "{\"expression\":\"8738000000 / 1000000000\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 2323,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"section\":\"8\",\"ticker\":\"MMM\",\"query\":\"Property, plant and equipment, net\",\"fiscal_year\":2018}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 4222,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"rationale\":\"The year-end FY2018 net PP&E for 3M is reported as $8,738 million (or $8.738 billion) on the Consolidated Balance Sheet in 3M's FY2018 Form 10-K.\",\"answer\":\"At year-end FY2018 (December 31, 2018), 3M's net property, plant and equipment (PP&E) was $8.738 billion ($8,738 million).\",\"needs_review\":false,\"confidence\":1,\"citations\":[{\"source_id\":\"ch_788c54576b42a952\",\"quote\":\"Property, plant and equipment — net 8,738 8,866\"},{\"quote\":\"8738000000\",\"source_id\":\"xf_1543b9dce1a72359\"}]}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "M&A acquisitions divestitures segment organic growth 2022",
+  "ticker": "MMM",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_59afedc10674107d",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 32,
+    "text": "Table of Contents Health Care Business (24.6% of consolidated sales): 2022 2021 Sales (millions) $ 8,421 $ 8,597 Sales change analysis: Organic sales 3.2 % 10.2 % Divestitures (1.4) (2.0) Translation (3.8) 1.6 Total sales change (2.0) % 9.8 % Business segment operating income (millions) $ 1,815 $ 2,037 Percent change (10.9) % 22.5 % Percent of sales 21.6 % 23.7 % Year 2022 results: Sales in Health Care were down 2.0 percent in U.S. dollars. On an organic sales basis: • Sales increased in separation and purification, health information systems, food safety and medical solutions, and was flat in oral care. • Growth continues to be impacted by COVID-related trends on elective procedure volumes and ongoing inflationary pressures. Divestitures: • Divestiture impact relates to the lost sales year-on-year from the divestiture from the Food Safety Division split-off transaction and combination with Neogen completed in the third quarter of 2022. Business segment operating income margins decreas…"
+   },
+   {
+    "chunk_id": "ch_d21331ee8360a3c7",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 31,
+    "text": "Table of Contents Transportation and Electronics Business (26.0% of consolidated sales): 2022 2021 Sales (millions) $ 8,902 $ 9,262 Sales change analysis: Organic sales 1.2 % 8.7 % Divestitures (0.5) — Translation (4.6) 1.5 Total sales change (3.9) % 10.2 % Business segment operating income (millions) $ 1,012 $ 1,880 Percent change (46.2) % 10.6 % Percent of sales 11.4 % 20.3 % Adjusted business segment operating income (millions) (non-GAAP measure) $ 1,812 $ 1,880 Percent change (3.6) % 10.6 % Percent of sales 20.4 % 20.3 % The preceding table also displays business segment operating income (loss) information adjusted for special items. For Transportation and Electronics these adjustments include PFAS manufacturing exit costs. Refer to the Certain amounts adjusted for special items - (non-GAAP measures) section for additional details. Year 2022 results: Sales in Transportation and Electronics were down 3.9 percent in U.S. dollars. On an organic sales basis: • Sales increased in automo…"
+   },
+   {
+    "chunk_id": "ch_5a9e75da9a3ba62d",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 61,
+    "text": "Table of Contents NOTE 3. Acquisitions and Divestitures Acquisitions: 3M makes acquisitions of certain businesses from time to time that are aligned with its strategic intent with respect to, among other factors, growth markets and adjacent product lines or technologies. Goodwill resulting from business combinations is largely attributable to the existing workforce of the acquired businesses and synergies expected to arise after 3M's acquisition of these businesses. 2022 acquisitions: There were no acquisitions that closed during the year ended December 31, 2022. 2021 acquisitions: There were no acquisitions that closed during the year ended December 31, 2021. 2020 acquisitions: There were no acquisitions that closed during the year ended December 31, 2020. Divestitures: 3M may divest certain businesses from time to time based upon review of the Company's portfolio considering, among other items, factors relative to the extent of strategic and technological alignment and optimization o…"
+   },
+   {
+    "chunk_id": "ch_0bb4f0b249b776d2",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 33,
+    "text": "Table of Contents Consumer Business (15.5% of consolidated sales): 2022 2021 Sales (millions) $ 5,298 $ 5,513 Sales change analysis: Organic sales (0.9) % 9.8 % Divestitures (0.4) — Translation (2.6) 1.0 Total sales change (3.9) % 10.8 % Business segment operating income (millions) $ 994 $ 1,162 Percent change (14.4) % 3.8 % Percent of sales 18.8 % 21.1 % Year 2022 results: Sales in Consumer were down 3.9 percent in U.S. dollars. On an organic sales basis: • Sales increased in stationery and office and home care, was flat in consumer health and safety, and decreased in home improvement. • Growth was impacted by softening trends in the Consumer retail business as consumers pulled back on discretionary spending and retailers took actions to reduce their inventories. These impacts were partially offset by demand for Scotch Blue painter's tape, Scotch-Brite , and Post-it®-solutions. Business segment operating income margins decreased year-on-year as a result of increased raw materials, log…"
+   },
+   {
+    "chunk_id": "ch_735f1406e81e233f",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 32,
+    "text": "As discussed in Note 3, in July 2022, 3M announced its intention to spin off the Health Care business as a separate public company. 3M expects to initially retain a 19.9% ownership position in the Health Care business. Year 2021 results: Sales in Health Care were up 9.8 percent in U.S. dollars. On an organic sales basis: • Sales increased in oral care, separation and purification, food safety, health information systems and medical solutions. • Growth benefited from higher year-on-year dental procedures, continued high demand for biopharma filtration solutions for COVID-related vaccine and therapeutic development and manufacturing, rising elective procedure volumes in the first six months of 2021 and due to improving hospital information technology investments. Divestitures: • In May 2020, 3M completed the sale of substantially all of its drug delivery business. Business segment operating income margins increased year-on-year due to sales growth leverage and benefits from restructuring…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "CONSOLIDATED BALANCE SHEETS",
+  "ticker": "ADBE",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_983043b1a44959b9",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 78,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 78 the intrinsic value of these cash flow hedges in accumulated other comprehensive income in our Consolidated Balance Sheets, until the forecasted transaction occurs. When the forecasted transaction occurs, we reclassify the related gain or loss on the cash flow hedge to revenue. In the event the underlying forecasted transaction does not occur, or it becomes probable that it will not occur, we reclassify the gain or loss on the related cash flow hedge from accumulated other comprehensive income to interest and other income (expense), net in our Consolidated Statements of Income at that time. If we do not elect hedge accounting, or the contract does not qualify for hedge accounting treatment, the changes in fair value from period to period are recorded in interest and other income (expense), net in our Consolidated Statements of Income. In December 2014, prior to issuing new long-term fixed rate debt, we…"
+   },
+   {
+    "chunk_id": "ch_590e4d5b77dbbc29",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 6",
+    "page": 34,
+    "text": "Worldwide employees................................................. 13,893 12,499 11,847 11,144 9,925 _________________________________________ (1) Information associated with our financial position is as of the Friday closest to November 30 for the five fiscal periods through 2015. (2) For fiscal 2015, our working capital includes the effects of the adoption of ASU No. 2015-17, Balance Sheet Classification of Deferred Taxes, requiring all deferred tax assets and liabilities and any related valuation allowance to be classified as non- current on our Consolidated Balance Sheets. Prior periods were not retrospectively adjusted."
+   },
+   {
+    "chunk_id": "ch_91c0aac009026029",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 78,
+    "text": "For fiscal 2015, there were no net gains or losses recognized in other income relating to hedges of forecasted transactions that did not occur. In fiscal 2014 and 2013 these net gains or losses were insignificant. Balance Sheet Hedging—Hedges of Foreign Currency Assets and Liabilities We also hedge our net recognized foreign currency denominated assets and liabilities with foreign exchange forward contracts to reduce the risk that the value of these assets and liabilities will be adversely affected by changes in exchange rates. These contracts hedge assets and liabilities that are denominated in foreign currencies and are carried at fair value with changes in the fair value recorded to interest and other income (expense), net in our Consolidated Statements of Income. These contracts do not subject us to material balance sheet risk due to exchange rate movements because gains and losses on these derivatives are intended to offset gains and losses on the assets and liabilities being hedg…"
+   },
+   {
+    "chunk_id": "ch_e7c69e444c03eb88",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 58,
+    "text": "ITEM 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA INDEX TO CONSOLIDATED FINANCIAL STATEMENTS Page No. Consolidated Balance Sheets ....................................................................................................................................... Consolidated Statements of Income............................................................................................................................. Consolidated Statements of Comprehensive Income..................................................................................................."
+   },
+   {
+    "chunk_id": "ch_c50d2aa87b023528",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 79,
+    "text": "_________________________________________ (1) Net change in the fair value of the effective portion classified in other comprehensive income. (2) Effective portion classified as revenue. (3) Ineffective portion and amount excluded from effectiveness testing classified in interest and other income (expense), net. (4) Classified in interest and other income (expense), net. Net gains (losses) recognized in interest and other income (expense), net relating to balance sheet hedging for fiscal 2015, 2014 and 2013 were as follows (in thousands): 2015 2014 2013 Gain (loss) on foreign currency assets and liabilities: Net realized gain (loss) recognized in other income.............................................. $ (10,952) $ (21,559) $ (4,783) Net unrealized gain (loss) recognized in other income.......................................... 3,815 17,217 2,751 (7,137) (4,342) (2,032) Gain (loss) on hedges of foreign currency assets and liabilities: Net realized gain recognized in other income.....…"
+   }
+  ]
+ }
+}

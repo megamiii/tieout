@@ -1,0 +1,319 @@
+{
+ "item_id": "financebench_id_01198",
+ "eval_set": "financebench",
+ "experiment": "agent_hybrid",
+ "status": "answered",
+ "answer": "In FY 2022, AMD's net revenue increased to $23,601 million from $16,434 million in FY 2021. This growth was primarily driven by:\n1. Significant revenue increase in the Embedded segment to $4,552 million (compared to $246 million in 2021), mainly driven by the inclusion of Xilinx embedded product revenue.\n2. Growth in the Data Center segment to $6,043 million (an increase of 64%), driven by higher sales of EPYC server processors.\n3. Growth in the Gaming segment to $6,805 million (an increase of 21%), driven by higher semi-custom product sales due to higher demand for gaming console SoCs.\nThese increases were partially offset by a 10% decrease in the Client segment revenue down to $6,201 million, due to lower processor shipments from a weak PC market and inventory corrections.",
+ "confidence": 1.0,
+ "rationale": "The answer details the breakdown of revenue change in FY2022 for AMD, citing specific segment numbers and drivers from the filing.",
+ "citations": [
+  {
+   "source_id": "ch_58ea377b420505c5",
+   "quote": "Net revenue $ 23,601 $ 16,434",
+   "kind": "chunk",
+   "ticker": "AMD",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 49,
+   "values": [
+    "409",
+    "2021",
+    "379",
+    "42",
+    "2022",
+    "2021",
+    "31",
+    "2022",
+    "25",
+    "2021",
+    "23601",
+    "16434",
+    "11550",
+    "8505",
+    "1448",
+    "10603",
+    "7929",
+    "45",
+    "48",
+    "5005",
+    "2845",
+    "2336",
+    "1448",
+    "2100",
+    "102",
+    "12"
+   ]
+  },
+  {
+   "source_id": "ch_cb587adeacc79358",
+   "quote": "Data Center $ 6,043 $ 3,694 $ 1,685 Client 6,201 6,887 5,189 Gaming 6,805 5,607 2,746 Embedded 4,552 246 143 Total net revenue $ 23,601 $ 16,434 $ 9,763",
+   "kind": "chunk",
+   "ticker": "AMD",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 68,
+   "values": [
+    "2022",
+    "2021",
+    "2020",
+    "31",
+    "2022",
+    "25",
+    "2021",
+    "26",
+    "2020",
+    "6043",
+    "3694",
+    "1685",
+    "6201",
+    "6887",
+    "5189",
+    "6805",
+    "5607",
+    "2746",
+    "4552",
+    "246",
+    "143",
+    "23601",
+    "16434",
+    "9763",
+    "1848",
+    "991",
+    "198",
+    "1190",
+    "2088",
+    "1608",
+    "953",
+    "934",
+    "138",
+    "2252",
+    "44",
+    "11",
+    "4979",
+    "409",
+    "288",
+    "1264",
+    "3648",
+    "1369",
+    "31",
+    "2022",
+    "25",
+    "2021",
+    "26",
+    "2020",
+    "1081",
+    "379",
+    "274",
+    "452",
+    "42",
+    "14",
+    "3548",
+    "102",
+    "12",
+    "4979",
+    "409",
+    "288"
+   ]
+  },
+  {
+   "source_id": "ch_82d1f732f8738788",
+   "quote": "Data Center net revenue of $6 billion in 2022 increased by 64%, compared to net revenue of $3.7 billion in 2021. The increase was primarily driven by higher sales of our EPYC server processors.",
+   "kind": "chunk",
+   "ticker": "AMD",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 48,
+   "values": [
+    "6",
+    "2022",
+    "64",
+    "3.7",
+    "2021",
+    "1.8",
+    "2022",
+    "991",
+    "2021",
+    "6.2",
+    "2022",
+    "10",
+    "6.9",
+    "2021",
+    "24",
+    "19",
+    "2022"
+   ]
+  },
+  {
+   "source_id": "ch_476ffee67069ae20",
+   "quote": "Gaming net revenue of $6.8 billion in 2022 increased by 21%, compared to net revenue of $5.6 billion in 2021. The increase in net revenue was driven by higher semi-custom product sales due to higher demand for gaming console SoCs",
+   "kind": "chunk",
+   "ticker": "AMD",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 49,
+   "values": [
+    "6.8",
+    "2022",
+    "21",
+    "5.6",
+    "2021",
+    "2022",
+    "953",
+    "2022",
+    "934",
+    "2021",
+    "4.6",
+    "2022",
+    "246",
+    "2021"
+   ]
+  },
+  {
+   "source_id": "ch_476ffee67069ae20",
+   "quote": "Embedded net revenue of $4.6 billion in 2022 increased significantly, compared to net revenue of $246 million in 2021. The significant increase in net revenue was primarily driven by the inclusion of Xilinx embedded product revenue",
+   "kind": "chunk",
+   "ticker": "AMD",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 49,
+   "values": [
+    "6.8",
+    "2022",
+    "21",
+    "5.6",
+    "2021",
+    "2022",
+    "953",
+    "2022",
+    "934",
+    "2021",
+    "4.6",
+    "2022",
+    "246",
+    "2021"
+   ]
+  },
+  {
+   "source_id": "ch_82d1f732f8738788",
+   "quote": "Client net revenue of $6.2 billion in 2022 decreased by 10%, compared to net revenue of $6.9 billion in 2021, primarily driven by a 24% decrease in unit shipment",
+   "kind": "chunk",
+   "ticker": "AMD",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 48,
+   "values": [
+    "6",
+    "2022",
+    "64",
+    "3.7",
+    "2021",
+    "1.8",
+    "2022",
+    "991",
+    "2021",
+    "6.2",
+    "2022",
+    "10",
+    "6.9",
+    "2021",
+    "24",
+    "19",
+    "2022"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 7,
+ "prompt_tokens": 44517,
+ "completion_tokens": 1026,
+ "latency_ms": 9088.0,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer correctly identifies all the drivers mentioned in the gold answer and provides additional relevant context regarding the segments and the offsetting factors.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 7,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1544,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"query\":\"revenue increased driven by\",\"ticker\":\"AMD\",\"fiscal_year\":2022}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 2978,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"query\":\"net revenue of $23.6 billion\",\"fiscal_year\":2022,\"ticker\":\"AMD\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 4427,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"ticker\":\"AMD\",\"query\":\"net revenue of $23,576\",\"fiscal_year\":2022}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 6212,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"query\":\"Net revenue was $23,601 million\",\"fiscal_year\":2022,\"ticker\":\"AMD\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "tokens": 8144,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"fiscal_year\":2022,\"query\":\"net revenue of $23,601 million increased by\",\"ticker\":\"AMD\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 5,
+   "tokens": 9879,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"ticker\":\"AMD\",\"query\":\"Net revenue was $23,601 million, an increase of\",\"fiscal_year\":2022}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 6,
+   "tokens": 12359,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"confidence\":1,\"answer\":\"In FY 2022, AMD's net revenue increased to $23,601 million from $16,434 million in FY 2021. This growth was primarily driven by:\\n1. Significant revenue increase in the Embedded segment to $4,552 million (compared to $246 million in 2021), mainly driven by the inclusion of Xilinx embedded product revenue.\\n2. Growth in the Data Center segment to $6,043 million (an increase of 64%), driven by higher sales of EPYC server processors.\\n3. Growth in the Gaming segment to $6,805 million (an increase of 21%), driven by higher semi-custom product sales due to higher demand for gaming console SoCs.\\nThese increases were partially offset by a 10% decrease in the Client segment revenue down to $6,201 million, due to lower processor shipments from a weak PC market and inventory corrections.\",\"citations\":[{\"source_id\":\"ch_58ea377b420505c5\",\"quote\":\"Net revenue $ 23,601 $ 16,434\"},{\"quote\":\"Data Center $ 6,043 $ 3,694 $ 1,685 Client 6,201 6,887 5,189 Gaming 6,805 5,607 2,746 Embedded 4,552 246 143 Total net revenue $ 23,601 $ 16,434 $ 9,763\",\"source_id\":\"ch_cb587adeacc79358\"},{\"quote\":\"Data Center net revenue of $6 billion in 2022 increased by 64%, compared to net revenue of $3.7 billion in 2021. The increase was primarily driven by higher sales of our EPYC server processors.\",\"source_id\":\"ch_82d1f732f8738788\"},{\"source_id\":\"ch_476ffee67069ae20\",\"quote\":\"Gaming net revenue of $6.8 billion in 2022 increased by 21%, compared to net revenue of $5.6 billion in 2021. The increase in net revenue was driven by higher semi-custom product sales due to higher demand for gaming console SoCs\"},{\"quote\":\"Embedded net revenue of $4.6 billion in 2022 increased significantly, compared to net revenue of $246 million in 2021. The significant increase in net revenue was primarily driven by the inclusion of Xilinx embedded product revenue\",\"source_id\":\"ch_476ffee67069ae20\"},{\"quote\":\"Client net revenue of $6.2 billion in 2022 decreased by 10%, compared to net revenue of $6.9 billion in 2021, primarily driven by a 24% decrease in unit shipment\",\"source_id\":\"ch_82d1f732f8738788\"}],\"rationale\":\"The answer details the breakdown of revenue change in FY2022 for AMD, citing specific segment numbers and drivers from the filing.\",\"needs_review\":false}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TybJYQjbuxjBITJ7uPFA71JcyCLPPqtSsbHFOVD2WdJL/6jIHuR9RvTLlBENGiLccqrz6wQUmYO76e6CMw3ERWrY8fRoDuniniXVoZnRWyPC9K2mqJvw1ft0="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"Amcor primarily operates in the packaging industry, developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other products through its reportable segments, Flexibles and Rigid Packaging.\",\"rationale\":\"Amcor states in its 10-K that it is a global leader in developing and producing responsible packaging and organizes its business into Flexibles and Rigid Packaging segments.\",\"citations\":[{\"source_id\":\"ch_7e7d94f646562cab\",\"quote\":\"Today, we are a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other products.\"},{\"quote\":\"The Company's business is organized and presented in the two reportable segments outlined below: Flexibles: Consists of operations that manufacture flexible and film packaging in the food and beverage, medical and pharmaceutical, fresh produce, snack food, personal care, and other industries. Rigid Packaging: Consists of operations that manufacture rigid containers for a broad range of predominantly beverage and food products...\",\"source_id\":\"ch_4244c10fced21b62\"}],\"needs_review\":false,\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_85150",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622592,
+  "id": "v_3JatOcOZXQvdIPspndmAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 276,
+   "prompt_tokens": 3990,
+   "total_tokens": 4266
+  }
+ }
+}

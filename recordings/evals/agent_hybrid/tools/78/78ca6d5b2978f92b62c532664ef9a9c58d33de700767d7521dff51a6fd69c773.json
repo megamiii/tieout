@@ -1,0 +1,10 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "item": "front",
+  "page": 1
+ },
+ "error": "no Item FRONT in this filing; items: ['1', '14', '16', '1A', '1B', '2', '3', '4', '5', '6', '7', '7A', '8', '9', '9A', '9B', '9C', 'front']"
+}

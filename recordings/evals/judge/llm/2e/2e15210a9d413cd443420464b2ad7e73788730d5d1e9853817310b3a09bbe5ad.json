@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies that the total debt decreased and provides the exact figures used in the gold justification to support the conclusion.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TwTZfpkhxMmvX4VijESk8MyFMmQzz2VkRiPepEc74yEUev9hS1/c7P2Ve4lJDKTry/tcRuqc1GW7SjXFfo234T9gwdYexhbT1ZPi4bqW1H8kn+yFEW1G+ShL5GyC7Zw6eEj+vAio7y+biyD3u"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623726,
+  "id": "IgLKauLlCZXuxs0PnYKZ4AU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 36,
+   "prompt_tokens": 313,
+   "total_tokens": 349
+  }
+ }
+}

@@ -1,0 +1,64 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T0ItafpZ+pHzFbVbeGyi8UvKeVpMtkumq4t2kyJbePsX8my/7dxtZUBrE5pSM7yzp2LQXJx0ciAUVc+/7F624p/ndbaDu41Qu/M3gM1J2sig6JsJ0cdeFUQk="
+        }
+       },
+       "function": {
+        "arguments": "{\"expression\":\"1228 / 39403 * 100\"}",
+        "name": "calculate"
+       },
+       "id": "call_71152",
+       "type": "function"
+      },
+      {
+       "function": {
+        "arguments": "{\"expression\":\"897 / 39528 * 100\"}",
+        "name": "calculate"
+       },
+       "id": "call_71153",
+       "type": "function"
+      },
+      {
+       "function": {
+        "arguments": "{\"expression\":\"1233 / 40339 * 100\"}",
+        "name": "calculate"
+       },
+       "id": "call_71154",
+       "type": "function"
+      },
+      {
+       "function": {
+        "arguments": "{\"expression\":\"(3.116514224805218 + 2.269277474195507 + 3.0565953543716998) / 3\"}",
+        "name": "calculate"
+       },
+       "id": "call_71155",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623007,
+  "id": "X__JarObBMjOvdIPytLNqAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 160,
+   "prompt_tokens": 6815,
+   "total_tokens": 6975
+  }
+ }
+}

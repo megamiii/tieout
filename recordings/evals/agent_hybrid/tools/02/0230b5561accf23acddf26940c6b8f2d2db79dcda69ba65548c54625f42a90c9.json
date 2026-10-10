@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Advanced Micro Devices, Inc. Consolidated Statements of Operations Year Ended December 26, 2015",
+  "ticker": "AMD",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7b7ad59ac7fd917b",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 61,
+    "text": "Advanced Micro Devices, Inc. Notes to Consolidated Financial Statements December 26, 2015, December 27, 2014 and December 28, 2013 NOTE 1: Nature of Operations Advanced Micro Devices, Inc. is a global semiconductor company. References herein to AMD or the Company mean Advanced Micro Devices, Inc. and its consolidated subsidiaries. The Company primarily offers: (i) x86 microprocessors, as a standalone central processing unit (CPU) or as incorporated into an accelerated processing unit (APU), chipsets, and discrete graphics processing units (GPUs) for the consumer, commercial and professional graphics markets; and (ii) server and embedded CPUs, GPUs and APUs, and semi-custom System-on-Chip (SoC) products and technology for game consoles. NOTE 2: Summary of Significant Accounting Policies Fiscal Year. The Company uses a 52 or 53 week fiscal year ending on the last Saturday in December. Fiscal 2015, 2014 and 2013 ended December 26, 2015, December 27, 2014 and December 28, 2013, respectivel…"
+   },
+   {
+    "chunk_id": "ch_3ca5652885ce4288",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 92,
+    "text": "Report of Independent Registered Public Accounting Firm The Board of Directors and Stockholders of Advanced Micro Devices, Inc. We have audited the accompanying consolidated balance sheets of Advanced Micro Devices, Inc. as of December 26, 2015 and December 27, 2014, and the related consolidated statements of operations, comprehensive loss, stockholders' equity (deficit), and cash flows for each of the three years in the period ended December 26, 2015. Our audits also included the financial statement schedule listed in the Index at Item 15 (1). These financial statements and schedule are the responsibility of the Company's management. Our responsibility is to express an opinion on these financial statements and schedule based on our audits. We conducted our audits in accordance with the standards of the Public Company Accounting Oversight Board (United States). Those standards require that we plan and perform the audit to obtain reasonable assurance about whether the financial statemen…"
+   },
+   {
+    "chunk_id": "ch_66a8ae2ad83a54f1",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 15",
+    "page": 208,
+    "text": "Exhibit 23 • Registration Statement on Form S-8 (No. 333- 190039) pertaining to the Advanced Micro Devices, Inc. 2004 Equity Incentive Plan. • Registration Statement on Form S-8 (No. 333-195984) pertaining to the Advanced Micro Devices, Inc. 2004 Equity Incentive Plan • Registration Statement on Form S-8 (No. 333- 204166) pertaining to the Advanced Micro Devices, Inc. 2004 Equity Incentive Plan • Registration Statement on Form S-4 (No. 333-197806) pertaining to senior notes issued by Advanced Micro Devices, Inc. of our reports dated February 18, 2016 with respect to the consolidated financial statements and schedule of Advanced Micro Devices, Inc. and the effectiveness of internal control over financial reporting of Advanced Micro Devices, Inc. included in this Annual Report (Form 10-K) for the year ended December 26, 2015. /s/ Ernst & Young LLP Redwood City, California February 18, 2016"
+   },
+   {
+    "chunk_id": "ch_09bec6e2e4aa68dd",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 58,
+    "text": "Advanced Micro Devices, Inc. Consolidated Balance Sheets December 26, 2015 December 27, 2014 (In millions, except par value amounts) ASSETS Current assets: Cash and cash equivalents $ 785 $ 805 Marketable securities — 235 Accounts receivable, net 533 818 Inventories, net 678 685 Prepayments and other - GLOBALFOUNDRIES 33 113 Prepaid expenses 43 32 Other current assets 248 48 Total current assets 2,320 2,736 Property, plant and equipment, net 188 302 Acquisition related intangible assets, net — 65 Goodwill 278 320 Other assets 323 344 Total assets $ 3,109 $ 3,767 LIABILITIES AND STOCKHOLDERS' EQUITY (DEFICIT) Current liabilities: Short-term debt $ 230 $ 177 Accounts payable 279 415 Payable to GLOBALFOUNDRIES 245 218 Accrued liabilities 472 518 Other current liabilities 124 40 Deferred income on shipments to distributors 53 72 Total current liabilities 1,403 1,440 Long-term debt 2,032 2,035 Other long-term liabilities 86 105 Commitments and contingencies (see Notes 15 and 16) Stockholder…"
+   },
+   {
+    "chunk_id": "ch_7401ade5a984bd6a",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 56,
+    "text": "ITEM 8. FINANCIAL STATEMENTS AND SUPPLEMENTARY DATA Advanced Micro Devices, Inc. Consolidated Statements of Operations Year Ended December 26, 2015 December 27, 2014 December 28, 2013 (In millions, except per share amounts) Net revenue $ 3,991 $ 5,506 $ 5,299 Cost of sales 2,911 3,667 3,321 Gross margin 1,080 1,839 1,978 Research and development 947 1,072 1,201 Marketing, general and administrative 482 604 674 Amortization of acquired intangible assets 3 14 18 Restructuring and other special charges, net 129 71 30 Goodwill impairment charge — 233 — Legal settlements, net — — (48) Operating income (loss) (481) (155) 103 Interest expense (160) (177) (177) Other expense, net (5) (66) — Loss before income taxes (646) (398) (74) Provision for income taxes 14 5 9 Net loss $ (660) $ (403) $ (83) Net loss per share Basic $ (0.84) $ (0.53) $ (0.11) Diluted $ (0.84) $ (0.53) $ (0.11) Shares used in per share calculation Basic 783 768 754 Diluted 783 768 754 See accompanying notes to consolidated…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statement of Cash Flows Capital spending property, plant and equipment",
+  "ticker": "PEP",
+  "fiscal_year": 2021,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_94e807d07fae8f19",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 116,
+    "text": "Item 8. Financial Statements and Supplementary Data. See “Item 15. Exhibits and Financial Statement Schedules.”"
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the Data Center segment as having the highest proportional increase and provides accurate calculations that align with the gold answer.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0Tn6FGq7bLGEpGVzWJMjG9pwvDeuEAS+2YUOzJrL19wdQaGzFMvs++xU6PCApBuaCOtyfDsNL33iQaxKUnvEF4EdXiOdbagG2jyGBjKQBk07+KhHRROvFvZZYvdQgG/W8DvSBoppdP7eQ15kIx"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623713,
+  "id": "EALKas-WJ4qDxN8Pi_uDgQc",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 37,
+   "prompt_tokens": 452,
+   "total_tokens": 489
+  }
+ }
+}

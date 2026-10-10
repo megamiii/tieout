@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tef/1rrbsiQfAvdjOYxbbxCKhStokgiLa4f8U7Q9XwAXoUJ6D6f5NYet1G+2iXG5zGsd9zXyPsuNc6weVBE6h3+Ye9ijN1JRrxLU+SkWq78hqxM0Pw5AEdEg="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_290f30a8f788565c\",\"quote\":\"Total revenues net of interest expense $ 52,862 $ 42,380 $ 36,087 $ 10,482 25 % $ 6,293 17 %\"},{\"source_id\":\"ch_290f30a8f788565c\",\"quote\":\"Pretax income 9,585 10,689 4,296 (1,104) (10) 6,393 #\"},{\"quote\":\"Net income 7,514 8,060 3,135 (546) (7) 4,925 #\",\"source_id\":\"ch_290f30a8f788565c\"}],\"answer\":\"For American Express (AMEX), a standard operating margin is not a useful or traditionally reported metric because, as a financial institution, its business model involves significant interest expense and credit loss provisions that are not categorized as operating expenses in the manner of non-financial corporations. Instead, AMEX's financial performance is evaluated using metrics like total revenues net of interest expense ($52,862 million for FY 2022), pretax income ($9,585 million for FY 2022), and net income ($7,514 million for FY 2022) [ch_290f30a8f788565c].\",\"rationale\":\"Explains why operating margin is not a useful metric for financial institutions like AMEX and provides exact quotes and figures from Table 1 for FY 2022.\",\"confidence\":1,\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_39850",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622230,
+  "id": "VfzJaoanDYu8xN8P89mF0Ag",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 430,
+   "prompt_tokens": 10097,
+   "prompt_tokens_details": {
+    "cached_tokens": 6368
+   },
+   "total_tokens": 10527
+  }
+ }
+}

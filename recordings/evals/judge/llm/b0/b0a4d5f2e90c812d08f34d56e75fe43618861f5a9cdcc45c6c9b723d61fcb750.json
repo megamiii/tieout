@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer provides a more detailed and accurate breakdown of the drivers behind the operating margin change, while remaining consistent with the gold answer's conclusion regarding the decrease in margin due to litigation, PFAS, and restructuring/divestiture impacts.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0Tvcbdk8sohiGRmt9YxgdPolnGXhf1NegZISfNXeSRqS+IBlPagIMQlKY1L4KyU2N8GRP213s/axOM0ok84Z4ONtTeprBFga3SHVCn+cvpye1LRRrOAl9RGmsZNrPl7dkczIKHX3MfU0GP2RGB"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623997,
+  "id": "OAPKateVJ5ekxN8Pm7K-oAc",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 59,
+   "prompt_tokens": 435,
+   "total_tokens": 494
+  }
+ }
+}

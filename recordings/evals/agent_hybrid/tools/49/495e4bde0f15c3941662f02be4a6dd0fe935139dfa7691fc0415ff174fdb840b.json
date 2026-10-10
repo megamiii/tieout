@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "notional value foreign currency interest rate derivative instruments",
+  "ticker": "VZ",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_2691b34389591d62",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 87,
+    "text": "Treasury Rate Locks We enter into treasury rate locks to mitigate our interest rate risk. We recognize gains and losses resulting from interest rate movements in Other comprehensive income (loss). Net Investment Hedges We have designated certain foreign currency debt instruments as net investment hedges to mitigate foreign exchange exposure related to non- U.S. dollar net investments in certain foreign subsidiaries against changes in foreign exchange rates. In March 2021, we de-designated the existing net investment hedge and designated a new net investment hedge using a different Euro-denominated note. The notional amount of Euro-denominated debt designated as a net investment hedge was €750 million as of both December 31, 2021 and 2020. Undesignated Derivatives We also have the following derivative contracts which we use as economic hedges but for which we have elected not to apply hedge accounting. The following table summarizes the activity of our derivatives not designated in hedg…"
+   },
+   {
+    "chunk_id": "ch_9a5ef4bd8c32d0eb",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 85,
+    "text": "Derivative contracts are valued using models based on readily observable market parameters for all substantial terms of our derivative contracts and thus are classified within Level 2. We use mid-market pricing for fair value measurements of our derivative instruments. Our derivative instruments are recorded on a gross basis. We recognize transfers between levels of the fair value hierarchy as of the end of the reporting period. Fair Value of Short-term and Long-term Debt The fair value of our debt is determined using various methods, including quoted prices for identical debt instruments, which is a Level 1 measurement, as well as quoted prices for similar debt instruments with comparable terms and maturities, which is a Level 2 measurement. The fair value of our short-term and long-term debt, excluding finance leases, was as follows: Fair Value (dollars in millions) Carrying Amount Level 1 Level 2 Level 3 Total At December 31, 2020 $ 127,778 $ 103,967 $ 52,785 $ — $ 156,752 At Decemb…"
+   },
+   {
+    "chunk_id": "ch_28224598a5b7f0df",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 86,
+    "text": "The following tables summarize the activities of our designated derivatives: (dollars in millions) At December 31, 2021 2020 Interest Rate Swaps: Notional value entered into $ 6,050 $ 10,168 Notional value settled 4,018 9,488 Ineffective portion gain recognized in Interest expense 2 46 Cross Currency Swaps: Notional value entered into 6,214 4,817 Notional value settled — 1,600 Pre-tax gain (loss) recognized in Other comprehensive loss Forward Starting Interest Rate Swaps: (2,285) 1,810 Notional value entered into — — Notional value settled 1,000 1,000 Pre-tax gain (loss) recognized in Other comprehensive loss 258 (486) Treasury Rate Locks: Notional value entered into 4,650 5,500 Notional value settled 4,650 5,500 Pre-tax gain (loss) recognized in Other comprehensive loss 251 (41) (dollars in millions) At December 31, 2021 2020 Other, net Cash Flows from Operating Activities: Cash received for settlement of interest rate swaps $ 107 $ 764 Cash paid for settlement of forward starting int…"
+   },
+   {
+    "chunk_id": "ch_5bc41c36d5460ebd",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 63,
+    "text": "derivatives for trading purposes. We measure all derivatives at fair value and recognize them as either assets or liabilities in our consolidated balance sheets. Our derivative instruments are valued primarily using models based on readily observable market parameters for all substantial terms of our derivative contracts and thus are classified as Level 2. Changes in the fair values of derivative instruments applied as economic hedges are recognized in earnings in the current period. For fair value hedges, the change in the fair value of the derivative instruments is recognized in earnings, along with the change in the fair value of the hedged item. For cash flow hedges, the change in the fair value of the derivative instruments is reported in Other comprehensive income (loss) and recognized in earnings when the hedged item is recognized in earnings. For net investment hedges of certain of our foreign operations, the change in the fair value of the hedging instruments is reported in Ot…"
+   },
+   {
+    "chunk_id": "ch_cde5ffe540b277e5",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 87,
+    "text": "We enter into British Pound Sterling and Euro foreign exchange forwards to mitigate our foreign exchange rate risk related to non-functional currency denominated monetary assets and liabilities of international subsidiaries. Treasury Rate Locks We enter into treasury rate locks to mitigate our interest rate risk. Swaptions We enter into swaptions to achieve a targeted mix of fixed and variable rate debt. In January 2022, we sold payer swaptions with a notional amount of $1.0 billion to enter into future pay-floating interest rate swaps indexed to SOFR that were not designated in hedging relationships. Concentrations of Credit Risk Financial instruments that subject us to concentrations of credit risk consist primarily of temporary cash investments, short-term and long- term investments, trade receivables, including device payment plan agreement receivables, certain notes receivable, including lease receivables, and derivative contracts. Counterparties to our derivative contracts are ma…"
+   }
+  ]
+ }
+}

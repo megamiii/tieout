@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net income Best Buy consolidated statements of earnings",
+  "ticker": "BBY",
+  "fiscal_year": 2017,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_66f8fe4224ac405b",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Table of Contents Consolidated Statements of Earnings $ and shares in millions, except per share amounts Fiscal Years Ended January 28, 2017 January 30, 2016 January 31, 2015 Revenue $ 39,403 $ 39,528 $ 40,339 Cost of goods sold 29,963 30,334 31,292 Restructuring charges — cost of goods sold — 3 — Gross profit 9,440 9,191 9,047 Selling, general and administrative expenses 7,547 7,618 7,592 Restructuring charges 39 198 5 Operating income 1,854 1,375 1,450 Other income (expense) Gain on sale of investments 3 2 13 Investment income and other 31 13 14 Interest expense (72) (80) (90) Earnings from continuing operations before income tax expense 1,816 1,310 1,387 Income tax expense 609 503 141 Net earnings from continuing operations 1,207 807 1,246 Gain (loss) from discontinued operations (Note 2), net of tax expense of $7, $1 and $0 21 90 (11) Net earnings including noncontrolling interests 1,228 897 1,235 Net earnings from discontinued operations attributable to noncontrolling interests — …"
+   },
+   {
+    "chunk_id": "ch_2dacb6c7aaf85cb3",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 91,
+    "text": "$ 2,112 $ 2,951 $ 9,191 Operating income (6) 86 288 230 771 1,375 Net earnings from continuing operations 37 164 129 477 807 Gain (loss) from discontinued operations, net of tax 92 — (4) 2 90 Net earnings attributable to Best Buy Co., Inc. shareholders 129 164 125 479 897 Diluted earnings (loss) per share (4) Continuing operations $ 0.10 $ 0.46 $ 0.37 $ 1.39 $ 2.30 Discontinued operations 0.26 — (0.01) 0.01 0.26 Diluted earnings per share $ 0.36 $ 0.46 $ 0.36 $ 1.40 $ 2.56 (1) Our comparable sales calculation compares revenue from stores, websites and call centers operating for at least 14 full months, as well as revenue related to certain other comparable sales channels for a particular period to the corresponding period in the prior year. Relocated stores, as well as remodeled, expanded and downsized stores closed more than 14 days, are excluded from our comparable sales calculation until at least 14 full months after reopening. Acquisitions are included in the comparable sales calcu…"
+   },
+   {
+    "chunk_id": "ch_90e7b87c0cfe0fd4",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Table of Contents REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM To the Board of Directors and Shareholders of Best Buy Co., Inc. Richfield, Minnesota We have audited the accompanying consolidated balance sheets of Best Buy Co., Inc. and subsidiaries (the “Company”) as of January 28, 2017 and January 30, 2016, and the related consolidated statements of earnings, comprehensive income, changes in shareholders' equity, and cash flows for each of the three years in the period ended January 28, 2017. Our audits also included the financial statement schedule listed in the Index at Item 15. These financial statements and financial statement schedule are the responsibility of the Company's management. Our responsibility is to express an opinion on the financial statements and financial statement schedule based on our audits. We conducted our audits in accordance with the standards of the Public Company Accounting Oversight Board (United States). Those standards require that we plan an…"
+   },
+   {
+    "chunk_id": "ch_91fd0f5fa5b00127",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Table of Contents Consolidated Statements of Comprehensive Income $ in millions Fiscal Years Ended January 28, 2017 January 30, 2016 January 31, 2015 Net earnings including noncontrolling interests $ 1,228 $ 897 $ 1,235 Foreign currency translation adjustments 10 (44) (103) Unrealized loss on available-for-sale investments — — (3) Reclassification of foreign currency translations adjustments into earnings due to sale of business (2) (67) — Reclassification of gains on available-for-sale investments into earnings — — (4) Comprehensive income including noncontrolling interests 1,236 786 1,125 Comprehensive income attributable to noncontrolling interests — — (2) Comprehensive income attributable to Best Buy Co., Inc. shareholders $ 1,236 $ 786 $ 1,123 See Notes to Consolidated Financial Statements. 55"
+   },
+   {
+    "chunk_id": "ch_3014450f8386f4ba",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 59,
+    "text": "Table of Contents Consolidated Statements of Changes in Shareholders' Equity $ and shares in millions, except per share amounts Common Shares Common Stock Prepaid Share Repurchase Additional Paid-In Capital Retained Earnings Accumulated Other Comprehensive Income (Loss) Total Best Buy Co., Inc. Shareholders' Equity Non controlling Interests Total Equity Balances at February 1, 2014 347 35 — 300 3,159 492 3,986 3 3,989 Net earnings — — — — 1,233 — 1,233 2 1,235 Other comprehensive loss, net of tax: Foreign currency translation adjustments — — — — — (103) (103) — (103) Unrealized losses on available-for-sale investments — — — — — (3) (3) — (3) Reclassification of gains on available- for-sale investments into earnings — — — — — (4) (4) — (4) Issuance of common stock under employee stock purchase plan — — — 8 — — 8 — 8 Stock-based compensation — — — 87 — — 87 — 87 Restricted stock vested and stock options exercised 5 — — 42 — — 42 — 42 Common stock dividends, $0.72 per share — — — — (251) …"
+   }
+  ]
+ }
+}

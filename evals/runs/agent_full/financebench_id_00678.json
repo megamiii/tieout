@@ -1,0 +1,178 @@
+{
+ "item_id": "financebench_id_00678",
+ "eval_set": "financebench",
+ "experiment": "agent_full",
+ "status": "answered",
+ "answer": "As of FY2022, Boeing shows a modestly improving GAAP gross margin profile, with gross profit increasing from $3,017 million (4.84% of revenue) in FY2021 to $3,502 million (5.26% of revenue) in FY2022. However, due to the long-term, complex nature of its contracts, Boeing relies heavily on program accounting and estimates of margins at completion over the life of multi-year production programs, rather than simple point-of-sale gross margins.",
+ "confidence": 0.95,
+ "rationale": "Boeing's GAAP gross profit and revenues were obtained from reported facts, yielding a gross margin of 4.84% in 2021 and 5.26% in 2022. Program accounting details from Item 7 explain why gross margin metrics are evaluated in the context of long-term program estimates.",
+ "citations": [
+  {
+   "source_id": "xf_7ab1a5616652c01f",
+   "quote": "3502000000",
+   "kind": "fact",
+   "ticker": "BA",
+   "concept": "GrossProfit",
+   "fiscal_year": 2022,
+   "restated": [
+    {
+     "value": "3530000000",
+     "fact_id": "xf_cf746c2b44d2b02b",
+     "filed": "2024-01-31"
+    },
+    {
+     "value": "3530000000",
+     "fact_id": "xf_3d5e632d2493a6cc",
+     "filed": "2025-02-03"
+    }
+   ],
+   "values": [
+    "3502000000"
+   ]
+  },
+  {
+   "source_id": "xf_1a73650d37effa98",
+   "quote": "66608000000",
+   "kind": "fact",
+   "ticker": "BA",
+   "concept": "Revenues",
+   "fiscal_year": 2022,
+   "restated": [],
+   "values": [
+    "66608000000"
+   ]
+  },
+  {
+   "source_id": "xf_3adce0a81b1d82ff",
+   "quote": "3017000000",
+   "kind": "fact",
+   "ticker": "BA",
+   "concept": "GrossProfit",
+   "fiscal_year": 2021,
+   "restated": [
+    {
+     "value": "3049000000",
+     "fact_id": "xf_da82ec648d5e4b6d",
+     "filed": "2024-01-31"
+    }
+   ],
+   "values": [
+    "3017000000"
+   ]
+  },
+  {
+   "source_id": "xf_6532ea43c2756739",
+   "quote": "62286000000",
+   "kind": "fact",
+   "ticker": "BA",
+   "concept": "Revenues",
+   "fiscal_year": 2021,
+   "restated": [],
+   "values": [
+    "62286000000"
+   ]
+  },
+  {
+   "source_id": "ch_3742073db84b4e2a",
+   "quote": "Program accounting requires the demonstrated ability to reliably estimate revenues, costs and gross profit margin for the defined program accounting quantity.",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 50,
+   "values": [
+    "1",
+    "2022",
+    "300",
+    "48"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [
+  "xf_7ab1a5616652c01f (FY2022) was later reported as 3530000000 in a 10-K filed 2024-01-31",
+  "xf_7ab1a5616652c01f (FY2022) was later reported as 3530000000 in a 10-K filed 2025-02-03",
+  "xf_3adce0a81b1d82ff (FY2021) was later reported as 3049000000 in a 10-K filed 2024-01-31"
+ ],
+ "requests": 6,
+ "prompt_tokens": 22249,
+ "completion_tokens": 622,
+ "latency_ms": null,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer correctly identifies the improving gross margin trend and provides the same accurate figures as the gold answer, while also adding relevant context regarding Boeing's accounting practices.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 6,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1917,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"fiscal_years\":[2020,2021,2022],\"ticker\":\"BA\",\"query\":\"gross profit\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 2689,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"query\":\"revenue\",\"ticker\":\"BA\",\"fiscal_years\":[2021,2022]}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 3376,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"ticker\":\"BA\",\"query\":\"gross margin\",\"fiscal_year\":2022}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 4716,
+   "tools": [
+    {
+     "name": "calculate",
+     "arguments": "{\"expression\":\"3502000000 / 66608000000 * 100\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "tokens": 4835,
+   "tools": [
+    {
+     "name": "calculate",
+     "arguments": "{\"expression\":\"3017000000 / 62286000000 * 100\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 5,
+   "tokens": 5338,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"rationale\":\"Boeing's GAAP gross profit and revenues were obtained from reported facts, yielding a gross margin of 4.84% in 2021 and 5.26% in 2022. Program accounting details from Item 7 explain why gross margin metrics are evaluated in the context of long-term program estimates.\",\"citations\":[{\"source_id\":\"xf_7ab1a5616652c01f\",\"quote\":\"3502000000\"},{\"source_id\":\"xf_1a73650d37effa98\",\"quote\":\"66608000000\"},{\"source_id\":\"xf_3adce0a81b1d82ff\",\"quote\":\"3017000000\"},{\"quote\":\"62286000000\",\"source_id\":\"xf_6532ea43c2756739\"},{\"source_id\":\"ch_3742073db84b4e2a\",\"quote\":\"Program accounting requires the demonstrated ability to reliably estimate revenues, costs and gross profit margin for the defined program accounting quantity.\"}],\"answer\":\"As of FY2022, Boeing shows a modestly improving GAAP gross margin profile, with gross profit increasing from $3,017 million (4.84% of revenue) in FY2021 to $3,502 million (5.26% of revenue) in FY2022. However, due to the long-term, complex nature of its contracts, Boeing relies heavily on program accounting and estimates of margins at completion over the life of multi-year production programs, rather than simple point-of-sale gross margins.\",\"confidence\":0.95}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0ThNgFozzdfM9le0w8D4ZZ4oMYOz/cfX9smq1Djw0DSGa5pJKeSXBjwR//r442i5WGFRh+cJmKFE9gyldTPZhqneOEgQ7NL/rY7bQqUSJS2aL2t2cwKUZv1FA="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2021,\"ticker\":\"VZ\",\"query\":\"Cross Currency Swaps We have entered into cross currency swaps designated as cash flow or fair value hedges\"}",
+        "name": "search_filings"
+       },
+       "id": "call_53714",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622356,
+  "id": "0_zJatOeLMHbvdIPx42vgA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 50,
+   "prompt_tokens": 9746,
+   "prompt_tokens_details": {
+    "cached_tokens": 6082
+   },
+   "total_tokens": 9796
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "accounts receivable balance sheet",
+  "ticker": "AMCR",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5ce4b90c3702c213",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 56,
+    "text": "and $34.4 million recorded at June 30, 2020 and 2019, respectively, in trade receivables, net, on the consolidated balance sheet. The current year expense to adjust the allowance for doubtful accounts is recorded within selling, general and administrative expenses in the consolidated statement of income. The Company enters into factoring arrangements from time to time to sell trade receivables to third-party financial institutions. Sales of receivables are accounted for in accordance with Financial Accounting Standards Board (\"FASB\") Accounting Standards Codification (\"ASC\") Topic 860, Transfers and Servicing (\"ASC 860\"). Agreements which result in true sales of the transferred receivables, as defined in ASC 860, which occur when receivables are transferred without recourse to the Company, are reflected as a reduction of trade receivables, net on the consolidated balance sheets and the proceeds are included in the cash flows from operating activities in the consolidated statements of c…"
+   },
+   {
+    "chunk_id": "ch_892a33310620ee8d",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 56,
+    "text": "practice or established local practice, liabilities for severance are recognized when incurred. If fixed assets are to be disposed of as a result of the Company's restructuring efforts, the assets are written off when the Company commits to dispose of them and they are no longer in use. Depreciation is accelerated on fixed assets for the period of time the asset continues to be used until the asset ceases to be used. Other restructuring costs, including costs to relocate equipment, are generally recorded as the cost is incurred or the service is provided. See Note 6, \"Restructuring Plans,\" for more information on the Company's restructuring plans. Cash and Cash Equivalents: The Company considers all highly liquid temporary investments with a maturity of three months or less when purchased to be cash equivalents. Cash equivalents include certificates of deposit that can be readily liquidated without penalty at the Company's option. Cash equivalents are carried at cost which approximates…"
+   },
+   {
+    "chunk_id": "ch_6210b0fbb4d68020",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 111,
+    "text": "Deed of Cross Guarantee Balance Sheet (in millions) As of June 30, 2020 2019 Assets Current assets: Cash and cash equivalents $ 37.2 $ 52.3 Trade receivables, net 787.2 801.5 Inventories 57.5 65.5 Prepaid expenses and other current assets 13.7 14.3 Total current assets 895.6 933.6 Non-current assets: Property, plant and equipment, net 76.8 82.0 Deferred tax assets 23.3 53.0 Other intangible assets, net 10.4 9.6 Goodwill 91.2 93.1 Other non-current assets 12,454.6 10,417.7 Total non-current assets 12,656.3 10,655.4 Total assets $ 13,551.9 $ 11,589.0 Liabilities Current liabilities: Short-term debt 507.3 155.3 Trade payables 143.3 190.8 Accrued employee costs 17.8 19.0 Other current liabilities 40.7 66.7 Total current liabilities 709.1 431.8 Non-current liabilities: Long-term debt, less current portion 355.8 1,587.7 Other non-current liabilities 2.9 3.3 Total liabilities 1,067.8 2,022.8 Shareholders' Equity Issued 15.7 16.3 Additional paid-in capital 5,500.9 6,030.8 Retained earnings 5,9…"
+   },
+   {
+    "chunk_id": "ch_a7d1bf6fde6472bf",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 88,
+    "text": "June 30, (in millions) 2020 2019 Bank loans 184.2 533.6 Secured borrowings — 152.7 Bank overdrafts 11.0 102.5 Total short-term debt $ 195.2 $ 788.8 As of June 30, 2020, the Company paid a weighted-average interest rate of 2.97% per annum, payable at maturity. As of June 30, 2019, the Company paid a weighted-average interest rate of 1.61% per annum, payable at maturity. The Company enters into factoring arrangements from time to time to sell trade receivables to third-party financial institutions. Agreements that do not qualify as true sales, as defined in ASC 860, are accounted for as secured borrowings and recorded in the consolidated balance sheet within short-term debt. The secured borrowings at June 30, 2019 reflect agreements that do not qualify as true sales. 88"
+   },
+   {
+    "chunk_id": "ch_b6bc70d65fa17954",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 54,
+    "text": "other than the entity's functional currency are remeasured at the exchange rate as of the balance sheet date to the entity's functional currency. Foreign currency transaction gains and losses related to short-term and long-term debt are recorded in other non-operating income (loss), net, in the consolidated statement of income. The Company recorded such foreign currency transaction net loss of $0.4 million, net gain of $1.1 million and net loss of $82.7 million during the fiscal years ended June 30, 2020, 2019 and 2018, respectively. All other foreign currency transaction gains and losses are recorded in other income, net in the consolidated statement of income. These foreign currency transaction net gains amounted to $21.4 million, $8.9 million and $1.0 million during the fiscal years ended June 30, 2020, 2019 and 2018, respectively. Upon consolidation, the results of operations of subsidiaries whose functional currency is other than the reporting currency of the Company are translate…"
+   }
+  ]
+ }
+}

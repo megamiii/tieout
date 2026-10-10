@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Balance Sheets receivables Amcor",
+  "ticker": "AMCR",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5ce4b90c3702c213",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 56,
+    "text": "and $34.4 million recorded at June 30, 2020 and 2019, respectively, in trade receivables, net, on the consolidated balance sheet. The current year expense to adjust the allowance for doubtful accounts is recorded within selling, general and administrative expenses in the consolidated statement of income. The Company enters into factoring arrangements from time to time to sell trade receivables to third-party financial institutions. Sales of receivables are accounted for in accordance with Financial Accounting Standards Board (\"FASB\") Accounting Standards Codification (\"ASC\") Topic 860, Transfers and Servicing (\"ASC 860\"). Agreements which result in true sales of the transferred receivables, as defined in ASC 860, which occur when receivables are transferred without recourse to the Company, are reflected as a reduction of trade receivables, net on the consolidated balance sheets and the proceeds are included in the cash flows from operating activities in the consolidated statements of c…"
+   },
+   {
+    "chunk_id": "ch_ac076d241cac257d",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 50,
+    "text": "Amcor plc and Subsidiaries Consolidated Balance Sheet (in millions) As of June 30, 2020 2019 Assets Current assets: Cash and cash equivalents $ 742.6 $ 601.6 Trade receivables, net 1,615.9 1,864.3 Inventories, net 1,831.9 1,953.8 Prepaid expenses and other current assets 344.3 374.3 Assets held for sale — 416.1 Total current assets 4,534.7 5,210.1 Non-current assets: Investments in affiliated companies 77.7 98.9 Property, plant and equipment, net 3,614.8 3,975.0 Operating lease assets 525.3 — Deferred tax assets 135.4 190.9 Other intangible assets, net 1,994.3 2,306.8 Goodwill 5,339.3 5,156.0 Employee benefit assets 43.4 40.2 Other non-current assets 177.2 187.1 Total non-current assets 11,907.4 11,954.9 Total assets $ 16,442.1 $ 17,165.0 Liabilities Current liabilities: Current portion of long-term debt $ 11.1 $ 5.4 Short-term debt 195.2 788.8 Trade payables 2,170.8 2,303.4 Accrued employee costs 476.5 378.4 Other current liabilities 1,120.0 1,044.9 Liabilities held for sale — 20.9 To…"
+   },
+   {
+    "chunk_id": "ch_6210b0fbb4d68020",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 111,
+    "text": "Deed of Cross Guarantee Balance Sheet (in millions) As of June 30, 2020 2019 Assets Current assets: Cash and cash equivalents $ 37.2 $ 52.3 Trade receivables, net 787.2 801.5 Inventories 57.5 65.5 Prepaid expenses and other current assets 13.7 14.3 Total current assets 895.6 933.6 Non-current assets: Property, plant and equipment, net 76.8 82.0 Deferred tax assets 23.3 53.0 Other intangible assets, net 10.4 9.6 Goodwill 91.2 93.1 Other non-current assets 12,454.6 10,417.7 Total non-current assets 12,656.3 10,655.4 Total assets $ 13,551.9 $ 11,589.0 Liabilities Current liabilities: Short-term debt 507.3 155.3 Trade payables 143.3 190.8 Accrued employee costs 17.8 19.0 Other current liabilities 40.7 66.7 Total current liabilities 709.1 431.8 Non-current liabilities: Long-term debt, less current portion 355.8 1,587.7 Other non-current liabilities 2.9 3.3 Total liabilities 1,067.8 2,022.8 Shareholders' Equity Issued 15.7 16.3 Additional paid-in capital 5,500.9 6,030.8 Retained earnings 5,9…"
+   },
+   {
+    "chunk_id": "ch_6a1c4af300d21fbe",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 146,
+    "text": "ordinarily take major business actions without the prior approval of such Person or one or more of its Subsidiaries). Unless the context otherwise clearly requires, any reference to a \"Subsidiary\" is a reference to a Subsidiary of Amcor. • \"Substitute Rating Agency\" means a \"nationally recognized statistical rating organization\" within the meaning of the Exchange Act engaged by Amcor to provide a rating of the Notes in the event that Moody's, S&P or Fitch, or any other Substitute Rating Agency, has ceased to provide a rating of the Notes for any reason other than as a result of any action or inaction by Amcor, and as a result thereof there are no longer two Rating Agencies providing ratings of the Notes. • \"Total Tangible Assets\" means, as of any date, (a) the aggregate amount of the assets (other than intangible assets, goodwill and deferred tax assets) of the Group, as disclosed on the consolidated statement of financial position in the most recent Accounts of the Group, minus (b) th…"
+   },
+   {
+    "chunk_id": "ch_a7d1bf6fde6472bf",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 88,
+    "text": "June 30, (in millions) 2020 2019 Bank loans 184.2 533.6 Secured borrowings — 152.7 Bank overdrafts 11.0 102.5 Total short-term debt $ 195.2 $ 788.8 As of June 30, 2020, the Company paid a weighted-average interest rate of 2.97% per annum, payable at maturity. As of June 30, 2019, the Company paid a weighted-average interest rate of 1.61% per annum, payable at maturity. The Company enters into factoring arrangements from time to time to sell trade receivables to third-party financial institutions. Agreements that do not qualify as true sales, as defined in ASC 860, are accounted for as secured borrowings and recorded in the consolidated balance sheet within short-term debt. The secured borrowings at June 30, 2019 reflect agreements that do not qualify as true sales. 88"
+   }
+  ]
+ }
+}

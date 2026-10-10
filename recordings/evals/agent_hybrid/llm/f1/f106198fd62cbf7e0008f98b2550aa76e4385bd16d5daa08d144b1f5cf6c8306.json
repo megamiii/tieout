@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TyjPnGig9zjx5Yxhbbq0rz7cqr+eLaUnM5ijMJWgZtHMTF74CTgv6/FVWO7TXj4VRg87AbsZ5aHoG6c8FUutvkrduoECoiKWLRHe2tX7bF2ubiktHpOpoDBY="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"Consolidated Statement of Comprehensive Income PepsiCo, Inc. and Subsidiaries Fiscal years ended December 31, 2022, December 25, 2021 and December 26, 2020 (in millions) 2022 2021 2020 Net income $ 8,978 $ 7,679 $ 7,175\",\"source_id\":\"ch_34840c001eadbe76\"}],\"confidence\":0.9,\"rationale\":\"Restructuring costs are not explicitly outlined as a line item on PepsiCo's income statements for FY2022.\",\"review_reason\":null,\"answer\":\"0\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_23035",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622824,
+  "id": "p_7JapidFPWH28oPhsTn2QM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 180,
+   "prompt_tokens": 3588,
+   "total_tokens": 3768
+  }
+ }
+}

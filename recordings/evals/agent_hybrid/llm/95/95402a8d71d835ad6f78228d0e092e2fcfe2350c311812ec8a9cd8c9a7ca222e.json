@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TFkUzh8u0Eq3LDbVbTdJS00qgDWjai6CUULWBn6NzsQX7Cyak2SShEZWM+2AoFBCT4d0twjrc7uBbEPjPghcRBME1tAQgCfeI+y5l9IXnyJXs+SrO+BLa5zs="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"CVS\",\"fiscal_year\":2022,\"query\":\"dividends common Q2 2022 OR quarterly dividends per share\"}",
+        "name": "search_filings"
+       },
+       "id": "call_57865",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622664,
+  "id": "B_7JaoOrPJXuxs0PnYKZ4AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 1514,
+   "total_tokens": 1561
+  }
+ }
+}

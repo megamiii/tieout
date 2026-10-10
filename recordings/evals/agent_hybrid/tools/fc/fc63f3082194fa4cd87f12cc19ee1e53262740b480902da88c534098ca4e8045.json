@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statement of Income PepsiCo Net Revenue Operating profit 2022",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7a48f98cd7a1b7a6",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 62,
+    "text": "Table of Contents Consolidated Statement of Income PepsiCo, Inc. and Subsidiaries Fiscal years ended December 31, 2022, December 25, 2021 and December 26, 2020 (in millions except per share amounts) 2022 2021 2020 Net Revenue $ 86,392 $ 79,474 $ 70,372 Cost of sales 40,576 37,075 31,797 Gross profit 45,816 42,399 38,575 Selling, general and administrative expenses 34,459 31,237 28,453 Gain associated with the Juice Transaction (see Note 13) (3,321) — — Impairment of intangible assets (see Notes 1 and 4) 3,166 — 42 Operating Profit 11,512 11,162 10,080 Other pension and retiree medical benefits income 132 522 117 Net interest expense and other (939) (1,863) (1,128) Income before income taxes 10,705 9,821 9,069 Provision for income taxes 1,727 2,142 1,894 Net income 8,978 7,679 7,175 Less: Net income attributable to noncontrolling interests 68 61 55 Net Income Attributable to PepsiCo $ 8,910 $ 7,618 $ 7,120 Net Income Attributable to PepsiCo per Common Share Basic $ 6.45 $ 5.51 $ 5.14 Di…"
+   },
+   {
+    "chunk_id": "ch_95ec65159221ee4c",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 40,
+    "text": "Table of Contents Consolidated Net Revenue and Operating Profit 2022 2021 Change Net revenue $ 86,392 $ 79,474 9 % Operating profit $ 11,512 $ 11,162 3 % Operating margin 13.3 % 14.0 % (0.7) See “Results of Operations – Division Review” for a tabular presentation and discussion of key drivers of net revenue. Operating profit grew 3% while operating margin declined 0.7 percentage points. Operating profit growth was primarily driven by net revenue growth and productivity savings, partially offset by certain operating cost increases and a 42-percentage-point impact of higher commodity costs. The loss of net revenue due to the Juice Transaction reduced operating profit growth by 3 percentage points and was partially offset by a 1-percentage-point contribution from the 53 reporting week. Operating profit growth also reflects a 13-percentage-point unfavorable impact of impairment charges related to certain indefinite-lived intangible assets due to an increase in the weighted-average cost of …"
+   },
+   {
+    "chunk_id": "ch_9b2fd1bf8006a3d4",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 71,
+    "text": "Table of Contents Disaggregation of Net Revenue Our primary performance obligation is the distribution and sales of beverage and convenient food products to our customers. The following table reflects the approximate percentage of net revenue generated between our beverage business and our convenient food business for each of our international divisions, as well as our consolidated net revenue: 2022 2021 2020 Beverages Convenient Foods Beverages Convenient Foods Beverages Convenient Foods LatAm 10 % 90 % 10 % 90 % 10 % 90 % Europe 50 % 50 % 55 % 45 % 55 % 45 % AMESA 30 % 70 % 30 % 70 % 30 % 70 % APAC 25 % 75 % 20 % 80 % 25 % 75 % PepsiCo 40 % 60 % 45 % 55 % 45 % 55 % (a) Beverage revenue from company-owned bottlers, which primarily includes our consolidated bottling operations in our PBNA and Europe divisions, is approximately 35% of our consolidated net revenue in 2022 and approximately 40% of our consolidated net revenue in 2021 and 2020. Generally, our finished goods beverage operat…"
+   },
+   {
+    "chunk_id": "ch_f3a07fa2fa463d16",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 43,
+    "text": "Table of Contents Operating Profit/(Loss) Performance and Operating Profit/(Loss) Performance Adjusted for Items Affecting Comparability on a Constant Currency Basis 2022 Impact of Items Affecting Comparability Impact of Reported % Change, GAAP Measure Mark-to- market net impact Restructuring and impairment charges Acquisition and divestiture- related charges Gain associated with the Juice Transaction Impairment and other charges Core % Change, Non-GAAP Measure Foreign exchange translation Core Constant Currency % Change, Non- GAAP Measure FLNA 9 % — — — — 1.5 11 % — 11 % QFNA 4.5 % — 1 — — — 6 % — 6 % PBNA 122 % — 2 2 (124) 7 8 % — 9 % LatAm 19 % — — — — 4.5 23 % — 23 % Europe (207)% — 2 0.5 (23) 228 — % 7 7 % AMESA (22)% — — (1) — 23 (1)% 9 7 % APAC (20)% — 1 (0.5) — 26 7 % 4 11 % Corporate unallocated expenses 25 % (2.5) (2) (2.5) — — 18 % — 18 % Total 3 % — 1 1 (29) 31 8 % 2 10 % (a) See “Items Affecting Comparability.” (b) Amounts may not sum due to rounding. FLNA Net revenue grew…"
+   },
+   {
+    "chunk_id": "ch_fe2e4f04df28e8fa",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 49,
+    "text": "Table of Contents 2021 Cost of sales Gross profit Selling, general and administrative expenses Operating profit Other pension and retiree medical benefits income Net interest expense and other Provision for income taxes Net income attributable to noncontrolling interests Net income attributable to PepsiCo Reported, GAAP Measure $ 37,075 $ 42,399 $ 31,237 $ 11,162 $ 522 $ (1,863) $ 2,142 $ 61 $ 7,618 Items Affecting Comparability Mark-to-market net impact (39) 39 20 19 — — 5 — 14 Restructuring and impairment charges (29) 29 (208) 237 10 — 41 1 205 Acquisition and divestiture-related charges (1) 1 5 (4) — — 23 — (27) Pension and retiree medical-related impact — — — — 12 — 1 — 11 Charge related to cash tender offers — — — — — 842 165 — 677 Tax expense related to the TCJ Act — — — — — — (190) — 190 Core, Non-GAAP Measure $ 37,006 $ 42,468 $ 31,054 $ 11,414 $ 544 $ (1,021) $ 2,187 $ 62 $ 8,688 (a) Provision for income taxes is the expected tax charge/benefit on the underlying item based on …"
+   }
+  ]
+ }
+}

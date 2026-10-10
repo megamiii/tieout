@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Operating income operating margin 2022 percentage",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_58ea377b420505c5",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 49,
+    "text": "up adjustment, and depreciation related to the Xilinx fixed assets fair value step-up adjustment, certain compensation charges related to the acquisitions of Xilinx and Pensando, and licensing gain. All Other operating loss of $409 million in 2021 primarily consisted of $379 million of stock-based compensation expense and $42 million of acquisition-related costs. Comparison of Gross Margin, Expenses, Licensing Gain, Interest Expense, Other Income (Expense) and Income Taxes The following is a summary of certain consolidated statement of operations data for 2022 and 2021: December 31, 2022 December 25, 2021 (In millions, except for percentages) Net revenue $ 23,601 $ 16,434 Cost of sales 11,550 8,505 Amortization of acquisition-related intangibles 1,448 — Gross profit 10,603 7,929 Gross margin 45 % 48 % Research and development 5,005 2,845 Marketing, general and administrative 2,336 1,448 Amortization of acquisition-related intangibles 2,100 — Licensing gain (102) (12) Interest expense (…"
+   },
+   {
+    "chunk_id": "ch_e1eba8bcf52174b5",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 43,
+    "text": "of Xilinx embedded product sales. This growth was partially offset by a 10% decrease in Client segment revenue primarily due to lower processor shipments driven by a weak PC market and significant inventory correction actions across the PC supply chain. Gross margin, as a percentage of net revenue for 2022, was 45%, compared to 48% in 2021. The decrease in gross margin was primarily due to amortization of intangible assets associated with the Xilinx acquisition. Operating income for 2022 was $1.3 billion compared to operating income of $3.6 billion for 2021. The decrease in operating income was primarily driven by amortization of intangible assets associated with the Xilinx acquisition. Net income for 2022 was $1.3 billion compared to $3.2 billion in the prior year. The decrease in net income was primarily driven by lower operating income. Cash, cash equivalents and short-term investments as of December 31, 2022 were $5.9 billion, compared to $3.6 billion at the end of 2021. Our aggreg…"
+   },
+   {
+    "chunk_id": "ch_5dd1b881a503684a",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 50,
+    "text": "Notes due 2024 and the 2.375% Senior Notes due 2030 (together, the Assumed Xilinx Notes) and the 3.924% Notes and 4.393% Notes issued in 2022. Other Income (Expense), net Other income (expense), net is primarily comprised of interest income from short-term investments, changes in valuation of equity investments and foreign currency transaction gains and losses. Other income, net was $8 million in 2022 compared to $55 million of Other income, net in 2021. The change was primarily due to a $62 million decrease in the fair value of equity investments in 2022 compared to an increase in fair value of $56 million from equity investments in 2021, partially offset by $65 million of interest income driven mainly by rising interest rates in 2022 compared to losses from conversion of our convertible debt of $7 million in 2021. Income Tax Provision (Benefit) We recorded an income tax benefit of $122 million in 2022 and an income tax provision of $513 million in 2021, representing effective tax rat…"
+   },
+   {
+    "chunk_id": "ch_c7d6fa7431c470f0",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 50,
+    "text": "dual consolidated loss rules. Certain state and foreign valuation allowance maintained is due to lack of sufficient sources of future taxable income. International Sales International sales as a percentage of net revenue were 66% in 2022 and 72% in 2021. We expect that international sales will continue to be a significant portion of total sales in the foreseeable future. Substantially all of our sales transactions are denominated in U.S. dollars. 47"
+   },
+   {
+    "chunk_id": "ch_d47a8b02d8d2e8ce",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 51,
+    "text": "Table of Contents FINANCIAL CONDITION Liquidity and Capital Resources As of December 31, 2022, our cash, cash equivalents and short-term investments were $5.9 billion compared to $3.6 billion as of December 25, 2021. The increase in cash, cash equivalents and short-term investments was primarily driven by the $2.4 billion of cash and $1.6 billion of short-term investments acquired from the Xilinx acquisition, $1.0 billion from the debt issuance of our 3.924% Notes and 4.393% Notes, and cash flows from operations, partially offset by stock repurchases and cash paid for the acquisition of Pensando. The percentage of cash and cash equivalents held domestically was 73% as of December 31, 2022, and 91% as of December 25, 2021. Our operating, investing and financing cash flow activities for 2022 and 2021 were as follows: December 31, 2022 December 25, 2021 (In millions) Net cash provided by (used in): Operating activities $ 3,565 $ 3,521 Investing activities 1,999 (686) Financing activities …"
+   }
+  ]
+ }
+}

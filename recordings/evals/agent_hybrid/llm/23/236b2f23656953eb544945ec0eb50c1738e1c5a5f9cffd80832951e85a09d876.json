@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Td2An9UBQLR9RlCDZImdHHaQ9gGPDgtFQkTH9rZtrpR1WbU/5ce0bb7XGjROS2UAO5S0aIv1kU57TMVlp4uBH+0T5R189sNMKpVuANLok0irkNP1pyDKRbMc="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BBY\",\"fiscal_year\":2019,\"query\":\"Gross profit as a % of revenue\"}",
+        "name": "search_filings"
+       },
+       "id": "call_64007",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622168,
+  "id": "GPzJarKwFoKwvdIPh-HYmQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 3437,
+   "total_tokens": 3476
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TT3WsyLEqq9fwV0LpWf7I4c0HxQxLa3lq/cC3gnC57FQT+VXkdNpxpDMZR9h5pPwZRO98DYffQPgG+RKr7R3IROjGtpIoGNR6i6kSSmGJjTTtfC2exUeKhiw="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"PEP\",\"query\":\"Capital spending Cash flows from investing activities\",\"fiscal_year\":2021,\"section\":\"8\"}",
+        "name": "search_filings"
+       },
+       "id": "call_68660",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623448,
+  "id": "GAHKaoSIC_WH28oPhsTn2QM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 3289,
+   "total_tokens": 3333
+  }
+ }
+}

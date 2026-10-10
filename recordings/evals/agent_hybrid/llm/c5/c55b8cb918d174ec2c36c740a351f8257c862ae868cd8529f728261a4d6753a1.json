@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TgoNpjQcj2kS5vdok1R6B1/+a5Vmh734Ola6d4i1CIZOCb8Ac3dyZCJTWjM3PhOzPJJv/w10V0aWK6lQBuySg8MMTk0fNy6HUEn7OYyASq02hPiLPrmHCus0="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_e64d7dca6930b4b6\",\"quote\":\"Total cash provided by operating activities 1,824\"},{\"source_id\":\"ch_c0661c4d35a137b0\",\"quote\":\"Total cash used in financing activities (1,806)\"},{\"quote\":\"Investing activities Additions to property and equipment, net of $35, $46 and $32, respectively, of non-cash capital expenditures (930) (737) (713) Purchases of investments (46) (233) (620) Sales of investments 7 66 546 Acquisitions, …\",\"source_id\":\"ch_e64d7dca6930b4b6\"},{\"source_id\":\"ch_cc021f0f811f8a0b\",\"quote\":\"Total cash used in investing activities (972)\"}],\"rationale\":\"Operating activities brought in $1,824 million, investing activities used $972 million (lost $972 million), and financing activities used $1,806 million (lost $1,806 million). Therefore, operating activities brought in the most cash flow.\",\"confidence\":1,\"needs_review\":false,\"answer\":\"For Best Buy in FY2023, operating activities brought in the most cash flow ($1,824 million provided), followed by investing activities (which lost $972 million), and financing activities (which lost $1,806 million).\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_78411",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622722,
+  "id": "QP7JarHiPJyAxs0Phb3owQk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 379,
+   "prompt_tokens": 8484,
+   "total_tokens": 8863
+  }
+ }
+}

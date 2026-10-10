@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer reaches the same conclusion as the gold answer, provides the correct figures, and includes relevant context regarding the company's accounting methods.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TLVSjXFXp/vcU+U6PcoR+cQm5qHbPRRvDZ5GhfHbCGhKDsW+LX9jeeSK+GR0zlLKUlSGYQgkIIWLv+I0WQqIYQg0HAFNJh3gMeQTMk//dWMBWUp1ReygRWBEtofcd1RS+6QsGlg7dsuxo3jap"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623764,
+  "id": "RwLKauf4JLqsnsEPyea1uQ8",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 463,
+   "total_tokens": 503
+  }
+ }
+}

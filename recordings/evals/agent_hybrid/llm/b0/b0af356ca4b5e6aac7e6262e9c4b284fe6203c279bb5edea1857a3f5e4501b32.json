@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tpa/x/9MGnP/DjAloxpWBJpFQwbx66EL8Yy6GM+bN1o+YiYPRuRA58GQiQKfxC3jdNb7jjbCrj7FX/cDXNwSCboizO+anTYqGo47I7pMEM20qXfzGF/9QjOc="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"fiscal_year\":2022,\"ticker\":\"BA\",\"query\":\"Note 21 – Legal Proceedings\"}",
+        "name": "search_filings"
+       },
+       "id": "call_125586",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622534,
+  "id": "hv3JaqzHDuKs28oPnp6miAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 2811,
+   "total_tokens": 2855
+  }
+ }
+}

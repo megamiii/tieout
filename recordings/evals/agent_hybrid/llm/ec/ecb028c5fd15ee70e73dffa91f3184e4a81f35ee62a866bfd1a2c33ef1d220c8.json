@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TBWCMIrg82EBKQdsPz/jRRbfrqKXum3aLPJpKzwfmCV+TKiku+bO9JT0K0oIpZfoTXOKgPkL9kwLk7QhiQKMoh6ruQiv7rEhFMFwFIxFVDABnzymBXFsXjWs="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"PEP\",\"fiscal_year\":2022,\"query\":\"Consolidated Statement of Cash Flows PepsiCo\"}",
+        "name": "search_filings"
+       },
+       "id": "call_46003",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623148,
+  "id": "7P_JatvpA7eJxN8Pnrbg-QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 3220,
+   "total_tokens": 3259
+  }
+ }
+}

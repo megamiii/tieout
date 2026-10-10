@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T+PFbZkKkhFb0Nlwy5eNKsBs60Q+sfRgMiwo2/3ac53bX+Z00nnm2USvUk0o86GsIz0FS7CslbGPv52B7LMENJyFknZHvUKUmvgdJ8+3ZtMVdg4LRvb+CDc4="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2018,\"query\":\"Cost of sales Revenues percentage three year average\",\"ticker\":\"NKE\"}",
+        "name": "search_filings"
+       },
+       "id": "call_124679",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623281,
+  "id": "cQDKaszVBa6FxN8P947lgQc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 1571,
+   "total_tokens": 1611
+  }
+ }
+}

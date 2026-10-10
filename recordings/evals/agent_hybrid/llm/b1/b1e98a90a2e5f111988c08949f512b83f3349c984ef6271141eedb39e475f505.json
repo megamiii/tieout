@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tuv7Sb0CltUopObNA2mRNh7d3Q0IFllOIyIA8Td4zP8MG0oP0c7VNCM9wWR9NtDj5SCjbMSd9prHyZcPuzpzqmwH2um07jAl4X4h4Catp3Na/4eGm023u4Yc="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The cover page of American Express's 2022 Form 10-K lists Common Shares as the only security registered pursuant to Section 12(b) and explicitly states \\\"None\\\" under Section 12(g), confirming no debt securities are registered on a national exchange.\",\"citations\":[{\"source_id\":\"ch_be2977e23ffce4f4\",\"quote\":\"Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading Symbol(s) Name of each exchange on which registered Common Shares (par value $0.20 per Share) AXP New York Stock Exchange Securities registered pursuant to section 12(g) of the Act: None\"}],\"answer\":\"As of December 31, 2022, American Express Company did not have any debt securities registered to trade on a national securities exchange under its name. Its only class of securities registered pursuant to Section 12(b) of the Act is its Common Shares (par value $0.20 per share), which trade on the New York Stock Exchange under the symbol AXP. Under Section 12(g) of the Act, the title of class is \\\"None.\\\"\",\"needs_review\":false,\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_62685",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621922,
+  "id": "IPvJapyXMqj7xN8Pi_aswQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 290,
+   "prompt_tokens": 8074,
+   "prompt_tokens_details": {
+    "cached_tokens": 4046
+   },
+   "total_tokens": 8364
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Capital expenditures were",
+  "ticker": "ADBE",
+  "fiscal_year": 2016,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_39eb09bdceb1a12b",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 71,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 71 Internal Use Software We capitalize costs associated with customized internal-use software systems that have reached the application development stage. Such capitalized costs include external direct costs utilized in developing or obtaining the applications and payroll and payroll-related expenses for employees who are directly associated with the development of the applications. Capitalization of such costs begins when the preliminary project stage is complete and ceases at the point in which the project is substantially complete and is ready for its intended purpose. Income Taxes We use the asset and liability method of accounting for income taxes. Under this method, income tax expense is recognized for the amount of taxes payable or refundable for the current year. In addition, deferred tax assets and liabilities are recognized for expected future tax consequences of temporary diff…"
+   },
+   {
+    "chunk_id": "ch_72b9fcba57d88c38",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 7",
+    "page": 53,
+    "text": "Table of Contents 53 LIQUIDITY AND CAPITAL RESOURCES This data should be read in conjunction with our Consolidated Statements of Cash Flows. As of (in millions) December 2, 2016 November 27, 2015 Cash and cash equivalents $ 1,011.3 $ 876.6 Short-term investments $ 3,750.0 $ 3,111.5 Working capital $ 3,028.1 $ 2,608.3 Stockholders' equity $ 7,424.8 $ 7,001.6 A summary of our cash flows is as follows: (in millions) Fiscal 2016 Fiscal 2015 Fiscal 2014 Net cash provided by operating activities $ 2,199.7 $ 1,469.5 $ 1,287.5 Net cash used for investing activities (960.0) (1,488.4) (490.7) Net cash used for financing activities (1,090.7) (200.7) (507.3) Effect of foreign currency exchange rates on cash and cash equivalents (14.2) (21.2) (6.7) Net increase (decrease) in cash and cash equivalents $ 134.8 $ (240.8) $ 282.8 Our primary source of cash is receipts from revenue. The primary uses of cash are payroll related expenses, general operating expenses including marketing, travel and office r…"
+   },
+   {
+    "chunk_id": "ch_b8ad3b583222ead0",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 7",
+    "page": 53,
+    "text": "Cash Flows from Operating Activities For fiscal 2016, net cash provided by operating activities of $2.20 billion was primarily comprised of net income plus the net effect of non-cash items. The primary working capital sources of cash were net income coupled with increases in deferred revenue and accrued expenses. The increase in deferred revenue was primarily due to increased subscriptions for our Creative Cloud offerings and increases in Digital Marketing hosted services. The increase in accrued expenses is primarily due to the increase in accruals for compensation costs and employee benefits driven by the increase in headcount. The primary working capital uses of cash were increases in trade receivables, prepaid expenses and other current assets, and a decrease in income taxes payable. Trade receivables increased primarily due to higher revenue levels. Prepaid expenses and other current assets increased primarily due to advanced tax payments made in the fourth quarter of fiscal 2016.…"
+   },
+   {
+    "chunk_id": "ch_d57c4732d6041ffc",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 7",
+    "page": 53,
+    "text": "in income taxes payable was primarily due to higher taxable income levels during fiscal 2015. Trade payables increased primarily due to the timing of payments to web services vendors as certain invoices were received in the final weeks of fiscal 2015. The primary working capital uses of cash were increases in trade receivables which were principally due to higher revenue levels. For fiscal 2014, net cash provided by operating activities of $1.29 billion was primarily comprised of net income plus the net effect of non-cash items. The primary working capital sources of cash were net income coupled with increases in deferred revenue and accrued expenses. The increase in deferred revenue was primarily due to increased subscription and ETLA activity for our individual, team and enterprise Creative Cloud offerings and increases in Digital Marketing and Digital Publishing hosted services, offset in part by decreases in billings for our maintenance and Creative product software upgrade plans w…"
+   },
+   {
+    "chunk_id": "ch_01ce8aab65b4d693",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 7",
+    "page": 54,
+    "text": "We expect to continue our investing activities, including short-term and long-term investments, venture capital, facilities expansion and purchases of computer systems for research and development, sales and marketing, product support and administrative staff. Furthermore, cash reserves may be used to repurchase stock under our stock repurchase program and to strategically acquire companies, products or technologies that are complementary to our business. Other Liquidity and Capital Resources Considerations Our existing cash, cash equivalents and investment balances may fluctuate during fiscal 2017 due to changes in our planned cash outlay, including changes in incremental costs such as direct and integration costs related to our acquisitions. Our cash and investments totaled $4.76 billion as of December 2, 2016. Of this amount, approximately 83% was held by our foreign subsidiaries and subject to material repatriation tax effects. Our intent is to permanently reinvest a significant po…"
+   }
+  ]
+ }
+}

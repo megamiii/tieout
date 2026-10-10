@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TYgv7r/4hsn8o7TFPgIx7UuSR5vRSpfv96BkmRHTCeRbhQy9/qZkYd5yxcVIC+aNp79K7K/17Di6Zh3e7tIXeW6zjR5Pn+3DNB366QZ+7ss3hKaCiQleTjjM="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Safety and Industrial Organic sales 2022\",\"fiscal_year\":2022,\"ticker\":\"MMM\"}",
+        "name": "search_filings"
+       },
+       "id": "call_58968",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622884,
+  "id": "5P7JapP0JbbhvdIPiObDgQY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 3175,
+   "total_tokens": 3216
+  }
+ }
+}

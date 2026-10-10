@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TX8TePtyaeo4BPfK1vyFsDpgem2OFmIFnDqWThgxLC8UnGpDMrX0jc+lWOI4+hoJsp7T7J1M5c2mSo2gFpSGCWRWgEdGJxGTbwxJXj/RJV7o8TFO2086eNJk="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"rationale\":\"The percentage change in R&D expense is explicitly stated in the 10-K as an increase of 52.0% (from $64.0 million in FY2019 to $97.3 million in FY2020).\",\"answer\":\"Amcor's research and development expenses increased by 52.0% from fiscal year 2019 to fiscal year 2020. Specifically, research and development expenses were $64.0 million in fiscal year 2019 and increased by $33.3 million to $97.3 million in fiscal year 2020.\",\"citations\":[{\"quote\":\"Research and development costs increased by $33.3 million, or 52.0%, to $97.3 million for fiscal year 2020, from $64.0 million for fiscal year 2019.\",\"source_id\":\"ch_9cc5bf16c10372cf\"},{\"source_id\":\"ch_4da5a7022574af86\",\"quote\":\"Research and development expenses (97.3) (64.0) (72.7)\"}],\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_132867",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791624175,
+  "id": "7gPKatW9CvrpvdIP8NaAqQo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 298,
+   "prompt_tokens": 5156,
+   "total_tokens": 5454
+  }
+ }
+}

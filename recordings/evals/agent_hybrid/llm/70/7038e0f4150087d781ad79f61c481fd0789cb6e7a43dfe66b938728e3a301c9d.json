@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TgT8lKwxskhD4ygAhfO6N80rUHSXyf1iQ/mo3Knge/iI3uIQ5t8x1fga6t7cL7yE/O2RITqfS4kiVVtoPX3qwJMdB/vEsebs61pYZF1sUHqM1Nec7veQCBes="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"query\":\"debt securities registered to trade on a national securities exchange\",\"ticker\":\"AXP\"}",
+        "name": "search_filings"
+       },
+       "id": "call_30904",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621905,
+  "id": "EfvJavb4BJfsxN8PiPXoGQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 42,
+   "prompt_tokens": 1521,
+   "total_tokens": 1563
+  }
+ }
+}

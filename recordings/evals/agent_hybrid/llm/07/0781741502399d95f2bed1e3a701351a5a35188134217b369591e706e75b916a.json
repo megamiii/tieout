@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TeQ5vdOm6IuFYDB5uckXp6ej7Um72Z1b9210xmwBdPAV4LNANWWI5KVB47GGmZbRPrLPL6Y3OOfMMLjPEwc861nVFI+AmLUHwWCCtvr6gLhB4H78sfhnHudQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"In both FY2021 and FY2022, PepsiCo reported that while it and its subsidiaries are party to a variety of litigation, claims, legal or regulatory proceedings, inquiries, and investigations, management believes that the final outcome will not have a material adverse effect on the company's financial condition, results of operations, or cash flows.\",\"confidence\":1,\"citations\":[{\"source_id\":\"ch_3829c9d1997f0b3d\",\"quote\":\"While the results of such litigation, claims, legal or regulatory proceedings, inquiries and investigations cannot be predicted with certainty, management believes that the final outcome of the foregoing will not have a material adverse effect on our financial condition, results of operations or cash flows.\"},{\"source_id\":\"ch_b5b1ca2910f1a712\",\"quote\":\"While the results of such litigation, claims, legal or regulatory proceedings, inquiries and investigations cannot be predicted with certainty, management believes that the final outcome of the foregoing will not have a material adverse effect on our financial condition, results of operations or cash flows.\"}],\"rationale\":\"PepsiCo's Item 3 disclosures in both the FY2021 and FY2022 10-K filings state that although they are party to various legal proceedings, management believes the outcomes will not have a material adverse effect on their financial condition, results of operations, or cash flows.\",\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_50629",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622233,
+  "id": "WPzJary1O8vavdIPrcC9mQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 331,
+   "prompt_tokens": 3870,
+   "total_tokens": 4201
+  }
+ }
+}

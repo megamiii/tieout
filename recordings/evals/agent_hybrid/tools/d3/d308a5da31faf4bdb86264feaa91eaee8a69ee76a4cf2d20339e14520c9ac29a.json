@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income",
+  "ticker": "MMM",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_734e854ad91485cf",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 48,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Statement of Income Years ended December 31 (Millions, except per share amounts) 2022 2021 2020 Net sales $ 34,229 $ 35,355 $ 32,184 Operating expenses Cost of sales 19,232 18,795 16,605 Selling, general and administrative expenses 9,049 7,197 6,929 Research, development and related expenses 1,862 1,994 1,878 Gain on business divestitures (2,724) — (389) Goodwill impairment expense 271 — — Total operating expenses 27,690 27,986 25,023 Operating income 6,539 7,369 7,161 Other expense (income), net 147 165 366 Income before income taxes 6,392 7,204 6,795 Provision for income taxes 612 1,285 1,337 Income of consolidated group 5,780 5,919 5,458 Income (loss) from unconsolidated subsidiaries, net of taxes 11 10 (5) Net income including noncontrolling interest 5,791 5,929 5,453 Less: Net income (loss) attributable to noncontrolling interest 14 8 4 Net income attributable to 3M $ 5,777 $ 5,921 $ 5,449 Weighted average 3M common shares…"
+   },
+   {
+    "chunk_id": "ch_39aefca95dda09d0",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 70,
+    "text": "Table of Contents Reclassifications out of Accumulated Other Comprehensive Income Attributable to 3M Details about Accumulated Other Comprehensive Income Components Amount Reclassified from Accumulated Other Comprehensive Income Location on Income Statement Year ended December 31, (Millions) 2022 2021 2020 Defined benefit pension and postretirement plans adjustments Gains (losses) associated with defined benefit pension and postretirement plans amortization Transition asset $ (2) $ (2) $ (2) Other (expense) income, net Prior service benefit 55 60 62 Other (expense) income, net Net actuarial loss (493) (689) (659) Other (expense) income, net Curtailments/Settlements (18) (27) (20) Other (expense) income, net Total before tax (458) (658) (619) Tax effect 108 160 148 Provision for income taxes Net of tax (350) (498) (471) Cash flow hedging instruments gains (losses) Foreign currency forward/option contracts 107 (38) 80 Cost of sales Interest rate contracts (9) (9) (9) Interest expense Tot…"
+   },
+   {
+    "chunk_id": "ch_ca89924fcf705a6c",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 49,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Statement of Comprehensive Income (Loss) Years ended December 31 (Millions) 2022 2021 2020 Net income including noncontrolling interest $ 5,791 $ 5,929 $ 5,453 Other comprehensive income (loss), net of tax: Cumulative translation adjustment (893) (494) 447 Defined benefit pension and postretirement plans adjustment 915 1,345 106 Cash flow hedging instruments 47 119 (142) Total other comprehensive income (loss), net of tax 69 970 411 Comprehensive income (loss) including noncontrolling interest 5,860 6,899 5,864 Comprehensive (income) loss attributable to noncontrolling interest (6) (7) (2) Comprehensive income (loss) attributable to 3M $ 5,854 $ 6,892 $ 5,862 The accompanying Notes to Consolidated Financial Statements are an integral part of this statement. 49"
+   },
+   {
+    "chunk_id": "ch_bba823abc67304a5",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 43,
+    "text": "Item 8. Financial Statements and Supplementary Data. Report of Independent Registered Public Accounting Firm (PCAOB ID 238) Consolidated Financial Statements Index to Financial Statements A complete summary of Form 10-K content, including the index to financial statements, is found at the beginning of this document. 43"
+   },
+   {
+    "chunk_id": "ch_37b342c2cb0f2a60",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 52,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Statement of Cash Flows Years ended December 31 (Millions) 2022 2021 2020 Cash Flows from Operating Activities Net income including noncontrolling interest $ 5,791 $ 5,929 $ 5,453 Adjustments to reconcile net income including noncontrolling interest to net cash provided by operating activities Depreciation and amortization 1,831 1,915 1,911 Long-lived and indefinite-lived asset impairment expense 618 — 6 Goodwill impairment expense 271 — — Company pension and postretirement contributions (158) (180) (156) Company pension and postretirement expense 178 206 322 Stock-based compensation expense 263 274 262 Gain on business divestitures (2,724) — (389) Deferred income taxes (663) (166) (165) Changes in assets and liabilities Accounts receivable (105) (122) 165 Inventories (629) (903) (91) Accounts payable 111 518 252 Accrued income taxes (current and long-term) (47) (244) 132 Other — net 854 227 411 Net cash provided by (used in) o…"
+   }
+  ]
+ }
+}

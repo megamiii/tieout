@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TxTuoXK16bZdb1F8GCqSTGYJOK7IcZO3QX9Dfxy/wUNbwD6ioHy8NO2t52asg33SYTraDmou1aWEr1JDJ89cXBaQtpalyi+6PGfYu+oXdFufShDvYvQmsSJQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_e8d535624a3d0686\",\"quote\":\"Cash provided (used) by operations 5,841\"},{\"quote\":\"Cash provided (used) by investing activities 564 (1,524) (3,800)\",\"source_id\":\"ch_9d125692a0bd2f02\"},{\"source_id\":\"ch_9d125692a0bd2f02\",\"quote\":\"Cash provided (used) by financing activities (7,447) (4,836) (1,459)\"}],\"answer\":\"For fiscal 2023, operating activities brought in the most cash flow for Nike, with cash provided by operations of $5,841 million. In comparison, investing activities provided $564 million, while financing activities used $7,447 million.\",\"rationale\":\"The user asks which of operations, investing, and financing activities brought in the most (or lost the least) cash flow for Nike in FY2023. According to Nike's Consolidated Statement of Cash Flows for the year ended May 31, 2023, Cash provided by operations was $5,841 million, Cash provided by investing activities was $564 million, and Cash provided (used) by financing activities was $(7,447) million. Thus, operating activities brought in the most cash flow.\",\"confidence\":1,\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_111725",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622606,
+  "id": "zf3JaqPZEe-ExN8PjpPFsAY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 360,
+   "prompt_tokens": 10403,
+   "total_tokens": 10763
+  }
+ }
+}

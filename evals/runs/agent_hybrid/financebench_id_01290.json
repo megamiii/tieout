@@ -1,0 +1,161 @@
+{
+ "item_id": "financebench_id_01290",
+ "eval_set": "financebench",
+ "experiment": "agent_hybrid",
+ "status": "answered",
+ "answer": "As of FY2022, Boeing's primary customers are commercial airlines worldwide and the U.S. government (including foreign military sales through the U.S. government). \n\nRevenues from the U.S. government represented 40% of Boeing's consolidated revenues in FY2022. Commercial customers make up the remainder across commercial jetliners, defense, and global services.",
+ "confidence": 1.0,
+ "rationale": "The filing clearly specifies that Boeing's primary customers include commercial airlines worldwide (served by BCA and BGS) and the U.S. government (served by BDS and BGS, representing 40% of consolidated revenues in 2022).",
+ "citations": [
+  {
+   "source_id": "ch_f4ab865e1b87bcb2",
+   "quote": "Revenues from the U.S. government (including foreign military sales through the U.S. government), primarily recorded at BDS and BGS, represented 40%, 49% and 51% of consolidated revenues for 2022, 2021 and 2020, respectively.",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 114,
+   "values": [
+    "31",
+    "2022",
+    "2021",
+    "2020",
+    "8393",
+    "5845",
+    "5931",
+    "7916",
+    "8967",
+    "7961",
+    "5047",
+    "4653",
+    "5308",
+    "1612",
+    "969",
+    "1302",
+    "1576",
+    "1147",
+    "832",
+    "418",
+    "239",
+    "114",
+    "2412",
+    "1376",
+    "229",
+    "27374",
+    "23196",
+    "21677",
+    "39218",
+    "39076",
+    "36979",
+    "737",
+    "16",
+    "14",
+    "498",
+    "66608",
+    "62286",
+    "58158",
+    "40",
+    "49",
+    "51",
+    "2022",
+    "2021",
+    "2020",
+    "4"
+   ]
+  },
+  {
+   "source_id": "ch_fb6b1cda9b1186b7",
+   "quote": "Commercial Airplanes Segment This segment develops, produces and markets commercial jet aircraft principally to the commercial airline industry worldwide.",
+   "kind": "chunk",
+   "ticker": "BA",
+   "fiscal_year": 2022,
+   "section": "Item 1",
+   "page": 3,
+   "values": [
+    "1",
+    "737",
+    "767",
+    "777",
+    "787",
+    "747",
+    "2022",
+    "737",
+    "7",
+    "737",
+    "10"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 5,
+ "prompt_tokens": 22575,
+ "completion_tokens": 471,
+ "latency_ms": 4938.2,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer correctly identifies the primary customers and includes the specific revenue percentage for the U.S. government, matching the gold answer's key information.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 5,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1545,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"ticker\":\"BA\",\"fiscal_year\":2022,\"query\":\"primary customers Boeing\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 3219,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"ticker\":\"BA\",\"fiscal_year\":2022,\"query\":\"customers U.S. Government commercial airlines\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 4497,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"ticker\":\"BA\",\"query\":\"U.S. government customers defense space security\",\"fiscal_year\":2022}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 5814,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"ticker\":\"BA\",\"fiscal_year\":2022,\"query\":\"U.S. government percentage revenue 2022 Boeing\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "tokens": 7971,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"rationale\":\"The filing clearly specifies that Boeing's primary customers include commercial airlines worldwide (served by BCA and BGS) and the U.S. government (served by BDS and BGS, representing 40% of consolidated revenues in 2022).\",\"citations\":[{\"source_id\":\"ch_f4ab865e1b87bcb2\",\"quote\":\"Revenues from the U.S. government (including foreign military sales through the U.S. government), primarily recorded at BDS and BGS, represented 40%, 49% and 51% of consolidated revenues for 2022, 2021 and 2020, respectively.\"},{\"quote\":\"Commercial Airplanes Segment This segment develops, produces and markets commercial jet aircraft principally to the commercial airline industry worldwide.\",\"source_id\":\"ch_fb6b1cda9b1186b7\"}],\"answer\":\"As of FY2022, Boeing's primary customers are commercial airlines worldwide and the U.S. government (including foreign military sales through the U.S. government). \\n\\nRevenues from the U.S. government represented 40% of Boeing's consolidated revenues in FY2022. Commercial customers make up the remainder across commercial jetliners, defense, and global services.\",\"needs_review\":false,\"confidence\":1}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Gaming segment Client segment Embedded segment",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": "1",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_6f009cf4c0feb7d3",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 9,
+    "text": "Design™ Framework is a collaboration with our global PC partners, delivering high-performance gaming notebooks by combining our AMD Radeon RX series mobile graphics, AMD Software: Adrenalin Edition, AMD Ryzen series mobile processors and utilizing AMD smart technologies to provide best-in-class gaming experiences. AMD RDNA 3 gaming architecture is included in our newer AMD Radeon RX graphics cards giving process optimizations plus firmware and software enhancements and high-bandwidth, low-latency AMD Infinity Cache technology and GDDR6 memory at up to 20Gbps. Professional GPUs. Our AMD Radeon PRO family of professional graphics products includes multi-view graphics cards and GPUs designed for integration in mobile and desktop workstations. AMD Radeon PRO graphics cards are designed for demanding use cases such as design and manufacturing for CAD, and media and entertainment for broadcast and animation pipelines. AMD Radeon PRO supports end users utilizing GPU accelerated visualization …"
+   },
+   {
+    "chunk_id": "ch_4627843238794e5a",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 13,
+    "text": "Table of Contents Competition in Gaming Segment In the graphics market, our principal competitor in the supply of discrete graphics is NVIDIA who is the market share leader. Intel also manufactures and sells embedded graphics processors and integrated graphics processor (IGP) chipsets. Also, Intel has developed their own gaming-focused discrete GPUs and has entered the market. Other competitors include suppliers of discrete graphics and integrated graphics processor (IGP) chipsets. Some of our competitors are smaller companies, which may have greater flexibility to address specific market needs, but less financial resources to address the growing complexity of graphics processors and the associated research and development costs. With respect to integrated graphics, higher unit shipments of our APUs and Intel's integrated graphics may drive computer manufacturers to reduce the number of systems they build paired with discrete graphics components, particularly for notebooks, because the…"
+   },
+   {
+    "chunk_id": "ch_9321416dd5ddbc9a",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 6,
+    "text": "now offer the industry's strongest portfolio of data center computing solutions based on our CPUs, high-performance GPUs, DPUs, FPGAs, and Adaptive SoCs. We have a broad technology roadmap and products targeting AI training and inference spanning cloud, edge and intelligent endpoints. We achieve this through our family of CPUs, GPUs, FPGAs, and Adaptive SoCs. We develop world-class software platforms that are used to enable our high-performance products. Our software platforms include development tools, compilers, and drivers for our CPUs, GPUs and FPGAs. We work closely with our customers to define and develop customized solutions to precisely match their requirements. We enable this by combining our broad portfolio of high-performance IP with our leadership design and packaging to deliver world-class customized solutions to our customers. We invest in innovative technology and solutions such as our custom-ready chiplet platform and AMD Infinity Architecture to maintain our leadership…"
+   },
+   {
+    "chunk_id": "ch_f48e7728395225ba",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 7,
+    "text": "intensive tasks more efficiently, which we believe provides a superior application experience to the end user. Moreover, heterogeneous computing allows for the elevation of the GPU to the same level as the CPU for memory access, queuing, and execution. Client Segment Client Market Our CPUs are incorporated into computing platforms, which are a collection of technologies that are designed to work together to provide a more complete computing solution. We believe that integrated, balanced computing platforms consisting of CPUs, chipsets and GPUs (either as discrete GPUs or integrated into an APU or SoC) that work together at the system level bring end users improved system stability, increased performance and enhanced power efficiency. In addition, we believe customers also benefit from an all-AMD platform (consisting of an APU or CPU, a discrete GPU, and a chipset when needed), as we are able to optimize interoperability, provide our customers a single point of contact for the key platf…"
+   },
+   {
+    "chunk_id": "ch_3fb87b615ebce2bd",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 9,
+    "text": "needs in automotive, industrial, test, measurement, emulation, medical, multimedia, aerospace, defense, communications, networking, security, and storage markets as well as thin clients, which are computers that serve as an access device on a network. Typically, our embedded products are used in applications that require varying levels of performance, where key features may include relatively low power, small form factors, and 24x7 operations. High-performance graphics are important in some embedded systems. Support for Linux , Windows and other operating systems as well as for increasingly sophisticated applications are also critical for some customers. Other requirements may include meeting rigid specifications for industrial temperatures, shock, vibration and reliability. The embedded market has moved from developing proprietary, custom designs to leveraging industry-standard instruction set architectures and processors as a way to help reduce costs and speed time to market. Embedde…"
+   }
+  ]
+ }
+}

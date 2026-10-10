@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Statement of Cash Flows",
+  "ticker": "GIS",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_0022ce47fb71fa86",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 52,
+    "text": "52 Consolidated Statements of Cash Flows GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions) Fiscal Year 2020 2019 2018 Cash Flows - Operating Activities Net earnings, including earnings attributable to redeemable and noncontrolling interests $ 2,210.8 $ 1,786.2 $ 2,163.0 Adjustments to reconcile net earnings to net cash provided by operating activities: Depreciation and amortization 594.7 620.1 618.8 After-tax earnings from joint ventures (91.1) (72.0) (84.7) Distributions of earnings from joint ventures 76.5 86.7 113.2 Stock-based compensation 94.9 84.9 77.0 Deferred income taxes (29.6) 93.5 (504.3) Pension and other postretirement benefit plan contributions (31.1) (28.8) (31.8) Pension and other postretirement benefit plan costs (32.3) 6.1 4.6 Divestitures loss - 30.0 - Restructuring, impairment, and other exit costs 43.6 235.7 126.0 Changes in current assets and liabilities, excluding the effects of acquisitions and divestitures 793.9 (7.5) 542.1 Other, net 45.9 (27.9) (182.9) Net c…"
+   },
+   {
+    "chunk_id": "ch_9ae9ff68006e4948",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 37,
+    "text": "37 Free Cash Flow Conversion Rate We believe this measure provides useful information to investors because it is important for assessing our efficiency in converting earnings to cash and returning cash to shareholders. The calculation of free cash flow conversion rate and net cash provided by operating activities conversion rate, its equivalent GAAP measure, follows: In Millions Fiscal 2020 Net earnings, including earnings attributable to redeemable and noncontrolling interests, as reported $2,210.8 Tax item (a) $(53.1) Restructuring charges, net of tax (b) 39.0 Project-related costs, net of tax (b) 1.2 Mark-to-market effects, net of tax (c) 19.0 Product recall, net of tax (d) 17.1 CPW restructuring costs, net of tax (e) 5.0 Investment activity, net, net of tax (f) 3.0 Adjusted net earnings, including earnings attributable to redeemable and noncontrolling interests $2,241.8 Net cash provided by operating activities 3,676.2 Purchases of land, buildings, and equipment (460.8) Free cash f…"
+   },
+   {
+    "chunk_id": "ch_83049b65019ce25a",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 95,
+    "text": "Focus 6 platforms. The Focus 6 platforms for the Convenience Stores & Foodservice segment consist of cereal, yogurt, snacks, frozen meals, frozen biscuits, and frozen baked goods. Free cash flow. Net cash provided by operating activities less purchases of land, buildings, and equipment. Free cash flow conversion rate. Free cash flow divided by our net earnings, including earnings attributable to redeemable and noncontrolling interests adjusted for certain items affecting year-to-year comparability. GDP. Gross domestic product."
+   },
+   {
+    "chunk_id": "ch_03787de16e918f81",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 57,
+    "text": "exceeded the newly enacted federal corporate tax rate. The new accounting requirements allowed for adjustments to reclassification amounts in subsequent periods as a result of changes to the provisional amounts recorded. In the first quarter of fiscal 2018, we adopted new requirements for the accounting and presentation of stock-based payments. The adoption of this guidance resulted in the prospective recognition of realized windfall and shortfall tax benefits related to the exercise or vesting of stock-based awards in our Consolidated Statements of Earnings instead of additional paid-in capital within our Consolidated Balance Sheets. We retrospectively adopted the guidance related to reclassification of realized windfall tax benefits, which resulted in reclassifications of cash provided by financing activities to operating activities in our Consolidated Statements of Cash Flows. Additionally, we retrospectively adopted the guidance related to reclassification of employee tax withholdi…"
+   },
+   {
+    "chunk_id": "ch_17d289fc5a1511af",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 27,
+    "text": "27 from a legal recovery related to our Yoplait SAS subsidiary and $26 million of integration costs related to our acquisition of Blue Buffalo. In addition, we recorded a $3 million loss related to the impact of hyperinflationary accounting for our Argentina subsidiary in fiscal 2019. IMPACT OF INFLATION We experienced input cost inflation of 4 percent in fiscal 2020 and 4 percent in fiscal 2019, primarily on commodity inputs. We expect input cost inflation of approximately 3 percent in fiscal 2021. We attempt to minimize the effects of inflation through HMM, planning, and operating practices. Our risk management practices are discussed in Item 7A of this report. LIQUIDITY The primary source of our liquidity is cash flow from operations. Over the most recent two-year period, our operations have generated $6.5 billion in cash. A substantial portion of this operating cash flow has been returned to shareholders through dividends. We also use cash from operations to fund our capital expend…"
+   }
+  ]
+ }
+}

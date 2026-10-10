@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Financial Position",
+  "ticker": "BA",
+  "fiscal_year": 2018,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_041ef198a011bae6",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 118,
+    "text": "Table of Contents REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM To the shareholders and the Board of Directors of The Boeing Company Opinion on the Financial Statements We have audited the accompanying consolidated statements of financial position of The Boeing Company and subsidiaries (the “Company”) as of December 31, 2018 and 2017 , the related consolidated statements of operations, comprehensive income, equity, and cash flows, for each of the three years in the period ended December 31, 2018 , and the related notes (collectively referred to as the “financial statements”). In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of December 31, 2018 and 2017 , and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2018 , in conformity with accounting principles generally accepted in the United States of America. We have also audited, in accordance w…"
+   },
+   {
+    "chunk_id": "ch_38ef1a38a399384d",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 62,
+    "text": "Table of Contents Income Taxes Provisions for U.S. federal, state and local, and non-U.S. income taxes are calculated on reported Earnings before income taxes based on current tax law and also include, in the current period, the cumulative effect of any changes in tax rates from those used previously in determining deferred tax assets and liabilities. Such provisions differ from the amounts currently receivable or payable because certain items of income and expense are recognized in different time periods for financial reporting purposes than for income tax purposes. Significant judgment is required in determining income tax provisions and evaluating tax positions. The accounting for uncertainty in income taxes requires a more-likely-than-not threshold for financial statement recognition and measurement of tax positions taken or expected to be taken in a tax return. We record a liability for the difference between the benefit recognized and measured for financial statement purposes and…"
+   },
+   {
+    "chunk_id": "ch_6d071eb860d4022b",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 71,
+    "text": "Table of Contents Consolidated Statement of Financial Position (Dollars in millions) December 31, 2017 Assets Reported Impact of New Standards Restated Cash and cash equivalents $8,813 $8,813 Short-term and other investments 1,179 1,179 Accounts receivable, net 10,516 ($7,622) 2,894 Unbilled receivables, net 8,194 8,194 Current portion of customer financing, net 309 309 Inventories 44,344 17,044 61,388 Other current assets 2,417 2,417 Total current assets 65,161 20,033 85,194 Customer financing, net 2,740 16 2,756 Property, plant and equipment, net 12,672 12,672 Goodwill 5,559 5,559 Acquired intangible assets, net 2,573 2,573 Deferred income taxes 341 (20) 321 Investments 1,260 1,260 Other assets, net of accumulated amortization 2,027 2,027 Total assets $92,333 $20,029 $112,362 Liabilities and equity Accounts payable $12,202 $12,202 Accrued liabilities 15,292 ($2,223) 13,069 Advances and billings in excess of related costs 27,440 (27,440) Advances and progress billings 48,042 48,042 Sh…"
+   },
+   {
+    "chunk_id": "ch_d2ab0b1165b3f841",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 52,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Financial Position (Dollars in millions, except per share data) December 31, 2018 2017 Assets Cash and cash equivalents $7,637 $8,813 Short-term and other investments 927 1,179 Accounts receivable, net 3,879 2,894 Unbilled receivables, net 10,025 8,194 Current portion of customer financing, net 460 309 Inventories 62,567 61,388 Other current assets 2,335 2,417 Total current assets 87,830 85,194 Customer financing, net 2,418 2,756 Property, plant and equipment, net 12,645 12,672 Goodwill 7,840 5,559 Acquired intangible assets, net 3,429 2,573 Deferred income taxes 284 321 Investments 1,087 1,260 Other assets, net of accumulated amortization of $503 and $482 1,826 2,027 Total assets $117,359 $112,362 Liabilities and equity Accounts payable $12,916 $12,202 Accrued liabilities 14,808 13,069 Advances and progress billings 50,676 48,042 Short-term debt and current portion of long-term debt 3,190 1,335 Total curr…"
+   },
+   {
+    "chunk_id": "ch_db81dbe55ebb59bf",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 49,
+    "text": "Item 8. Financial Statements and Supplementary Data Index to the Consolidated Financial Statements Page Consolidated Statements of Operations 48 Consolidated Statements of Comprehensive Income 49 Consolidated Statements of Financial Position 50 Consolidated Statements of Cash Flows 51 Consolidated Statements of Equity 52 Summary of Business Segment Data 53 Note 1 – Summary of Significant Accounting Policies 54 Note 2 - Impact of Adoption of New Standards 67 Note 3 - Acquisitions and Joint Ventures 71 Note 4 - Goodwill and Acquired Intangibles 72 Note 5 - Earnings Per Share 73 Note 6 - Income Taxes 74 Note 7 - Accounts Receivable 77 Note 8 - Inventories 77 Note 9 - Contracts with Customers 78 Note 10 - Customer Financing 78 Note 11 - Property, Plant and Equipment 81 Note 12 - Investments 82 Note 13 - Other Assets 82 Note 14 - Liabilities, Commitments and Contingencies 83 Note 15 - Arrangements with Off-Balance Sheet Risk 86 Note 16 - Debt 88 Note 17 - Postretirement Plans 89 Note 18 - S…"
+   }
+  ]
+ }
+}

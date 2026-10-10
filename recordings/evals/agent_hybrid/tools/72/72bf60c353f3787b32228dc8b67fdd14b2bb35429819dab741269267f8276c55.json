@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "packaging industry operating segment principal activities",
+  "ticker": "AMCR",
+  "fiscal_year": null,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_4244c10fced21b62",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 100,
+    "text": "Note 21 - Segments The Company's business is organized and presented in the two reportable segments outlined below: Flexibles: Consists of operations that manufacture flexible and film packaging in the food and beverage, medical and pharmaceutical, fresh produce, snack food, personal care, and other industries. The Russian business results through the date of disposal are included in the Flexibles reportable segment. Rigid Packaging: Consists of operations that manufacture rigid containers for a broad range of predominantly beverage and food products, including carbonated soft drinks, water, juices, sports drinks, milk-based beverages, spirits and beer, sauces, dressings, spreads and personal care items, and plastic caps for a wide variety of applications. Other consists of the Company's undistributed corporate expenses including executive and functional compensation costs, equity method and other investments, intercompany eliminations, and other business activities. Operating segments…"
+   },
+   {
+    "chunk_id": "ch_b2cf4c9e4c24d51d",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 104,
+    "text": "Note 20 - Segments The Company's business is organized and presented in the two reportable segments outlined below: Flexibles: Consists of operations that manufacture flexible and film packaging in the food and beverage, medical and pharmaceutical, fresh produce, snack food, personal care, and other industries. Rigid Packaging: Consists of operations that manufacture rigid plastic containers for a broad range of predominantly beverage and food products, including carbonated soft drinks, water, juices, sports drinks, milk-based beverages, spirits and beer, sauces, dressings, spreads and personal care items and plastic caps for a wide variety of applications. Other consists of the Company's equity method investments, including AMVIG, undistributed corporate expenses, intercompany eliminations and other business activities. Operating segments are organized along the Company's product lines and geographical areas. In conjunction with the acquisition of Bemis, the Company reassessed its seg…"
+   },
+   {
+    "chunk_id": "ch_5602bcb99356a1ee",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 1",
+    "page": 7,
+    "text": "Segment Information Accounting Standards Codification (\"ASC\") 280, \"Segment Reporting,\" establishes the standards for reporting information about segments in financial statements. In applying the criteria set forth in ASC 280, the Company has determined it has two reporting segments, Flexibles and Rigid Packaging. The reporting segments produce flexible packaging, rigid packaging, specialty cartons, and closure products, which are sold to customers participating in a range of attractive end use areas throughout Europe, North America, Latin America, Africa and the Asia Pacific regions. Refer to Note 20, \"Segments,\" of the notes to consolidated financial statements for financial information about reporting segments. Flexibles Segment The Flexibles Segment develops and supplies flexible packaging globally. With approximately 40,000 employees at 181 principal manufacturing facilities in 39 countries as of June 30, 2020, the Flexibles Segment is one of the world's largest suppliers of plast…"
+   },
+   {
+    "chunk_id": "ch_fa1db824a1f2d65d",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 1",
+    "page": 8,
+    "text": "Intellectual Property We are the owner or licensee of a number of United States and other country patents and patent applications that relate to our products, manufacturing processes, and equipment. We have a number of trademarks and trademark registrations in the United States and in other countries. We also keep certain technology and processes as trade secrets. Our patents, licenses, and trademarks collectively provide a competitive advantage. However, the loss of any single patent or license alone would not have a material adverse effect on our results of operations as a whole or those of our reporting segments. Patents, patent applications and license agreements will expire or terminate over time by operation of law, in accordance with their terms or otherwise. Sustainability, Innovation and Environmental Laws and Regulations We believe there will always be a role for the primary packages made by Amcor. Packaging protects and preserves food and healthcare products, and reduces the…"
+   },
+   {
+    "chunk_id": "ch_287aaecae1b46d9a",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 1",
+    "page": 8,
+    "text": "We are highly regarded for our innovation capabilities and we have thousands of active patents. We collaborate with customers, suppliers, and innovators to create industry-leading solutions, and with stakeholders to increase available infrastructure for waste collection, sorting and recycling and to inform consumers about the environmental implications of their packaging. We are uniquely positioned to lead the way in the development of more sustainable or environmentally friendly packaging. Addressing the need for and increasing the supply of responsible packaging is one of the most important growth opportunities for Amcor. Our operations and the real property we own or lease are subject to broad environmental laws and regulations by multiple jurisdictions. These laws and regulations pertain to the discharge of certain materials into the environment, handling and disposition of waste, and cleanup of contaminated soil and ground water as well as various other protections of the environm…"
+   }
+  ]
+ }
+}

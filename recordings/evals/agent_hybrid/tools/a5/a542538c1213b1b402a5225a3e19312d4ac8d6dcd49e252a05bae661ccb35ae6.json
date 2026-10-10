@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "cyclical cyclicality cycle Boeing defense commercial",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_cbcee2216d47b49c",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 63,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Notes to the Consolidated Financial Statements Years ended December 31, 2022, 2021 and 2020 (Dollars in millions, except otherwise stated) Note 1 – Summary of Significant Accounting Policies Principles of Consolidation and Basis of Presentation The Consolidated Financial Statements included in this report have been prepared by management of The Boeing Company (herein referred to as “Boeing,” the “Company,” “we,” “us” or “our”). These statements include the accounts of all majority-owned subsidiaries and variable interest entities that are required to be consolidated. All significant intercompany accounts and transactions have been eliminated. As described in Note 22, we operate in four reportable segments: Commercial Airplanes (BCA), Defense, Space & Security (BDS), Global Services (BGS) and Boeing Capital (BCC). Use of Estimates The preparation of financial statements in conformity with U.S. generally accepted accounting principles…"
+   },
+   {
+    "chunk_id": "ch_25d897fca5835b04",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 22,
+    "text": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations Consolidated Results of Operations and Financial Condition Overview We are a global market leader in the design, development, manufacture, sale, service and support of commercial jetliners, military aircraft, satellites, missile defense, human space flight and launch systems and services. We are one of the two major manufacturers of 100+ seat airplanes for the worldwide commercial airline industry and one of the largest defense contractors in the U.S. While our principal operations are in the U.S., we conduct operations in an expanding number of countries and rely on an extensive network of non-U.S. partners, key suppliers and subcontractors. Our strategy is centered on successful execution in healthy core businesses – Commercial Airplanes (BCA), Defense, Space & Security (BDS) and Global Services (BGS) – supplemented and supported by Boeing Capital (BCC). Taken together, these core businesses…"
+   },
+   {
+    "chunk_id": "ch_fb6b1cda9b1186b7",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 3,
+    "text": "Item 1. Business The Boeing Company, together with its subsidiaries (herein referred to as “Boeing,” the “Company,” “we,” “us,” “our”), is one of the world's major aerospace firms. We are organized based on the products and services we offer. We operate in four reportable segments: • Commercial Airplanes (BCA); • Defense, Space & Security (BDS); • Global Services (BGS); • Boeing Capital (BCC). Commercial Airplanes Segment This segment develops, produces and markets commercial jet aircraft principally to the commercial airline industry worldwide. We are a leading producer of commercial aircraft and offer a family of commercial jetliners designed to meet a broad spectrum of global passenger and cargo requirements of airlines. This family of commercial jet aircraft in production includes the 737 narrow-body model and the 767, 777 and 787 wide- body models. We ended production of the 747 wide-body model in 2022. Development continues on the 777X program and the 737-7 and 737- 10 derivative…"
+   },
+   {
+    "chunk_id": "ch_7e0487cb0613fc4c",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 8,
+    "text": "Item 1A. Risk Factors An investment in our common stock or debt securities involves risks and uncertainties and our actual results and future trends may differ materially from our past or projected future performance. We urge investors to consider carefully the risk factors described below in evaluating the information contained in this report. Risks Related to Our Business and Operations We depend heavily on commercial airlines, subjecting us to unique risks. Market conditions have a significant impact on demand for our commercial aircraft and related services. The commercial aircraft market is predominantly driven by long-term trends in airline passenger and cargo traffic. The principal factors underlying long-term traffic growth are sustained economic growth and political stability both in developed and emerging markets. Demand for our commercial aircraft is further influenced by airline profitability, availability of aircraft financing, world trade policies, government-to-governmen…"
+   },
+   {
+    "chunk_id": "ch_bf63099a126702b7",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 10,
+    "text": "Table of Contents commercial aircraft assembly facilities are delayed or create significant disruption to our production system, or if our suppliers cannot timely deliver components to us at the cost and rates necessary to achieve our targets, we may be unable to meet delivery schedules and/or the financial performance of one or more of our programs may suffer. Operational challenges impacting the production system for one or more of our commercial aircraft programs could result in additional production delays and/or failure to meet customer demand for new aircraft, either of which would negatively impact our revenues and operating margins. Our commercial aircraft production system is extremely complex. Operational issues, including delays or defects in supplier components, failure to meet internal performance plans, or delays or failures to achieve required regulatory approval, could result in additional out-of-sequence work and increased production costs, as well as delayed deliverie…"
+   }
+  ]
+ }
+}

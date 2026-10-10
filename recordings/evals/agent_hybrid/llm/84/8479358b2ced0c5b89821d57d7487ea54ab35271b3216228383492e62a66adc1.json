@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 17,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TnYL23mOPnx9NseZiDzVuTFotOg8mkXOZqBKVwT7P0odUhR9dRUE/DpxfXFE5jh2VOyb+45dxRVaA7ucu/KVPav0yEJt6ZuURFgsBXCbljhV3WPJDe1QTg8s="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"answer\":\"For Best Buy in FY2015, FY2016, and FY2017, the net profit margins (net earnings attributable to Best Buy Co., Inc. shareholders divided by revenue) are as follows:\\n- FY2015: Net earnings of $1,233 million / Revenue of $40,339 million = 3.06% (or 3.1% using net earnings including noncontrolling interests of $1,235 million = 3.06%)\\n- FY2016: Net earnings of $897 million / Revenue of $39,528 million = 2.27%\\n- FY2017: Net earnings of $1,228 million / Revenue of $39,403 million = 3.12%\\n\\nUsing net earnings attributable to Best Buy Co., Inc. shareholders, the 3-year average net profit margin is 2.8% (specifically, approximately 2.82%). Using total net earnings including noncontrolling interests ($1,235 million for FY2015, $897 million for FY2016, $1,228 million for FY2017), the margins are 3.06%, 2.27%, and 3.12% respectively, resulting in a 3-year average net profit margin of 2.8% (specifically, approximately 2.82%).\",\"citations\":[{\"source_id\":\"ch_66f8fe4224ac405b\",\"quote\":\"Revenue $ 39,403 $ 39,528 $ 40,339\"},{\"source_id\":\"ch_66f8fe4224ac405b\",\"quote\":\"Net earnings attributable to Best Buy Co., Inc. shareholders $ 1,228 $ 897 $ 1,233\"},{\"source_id\":\"ch_66f8fe4224ac405b\",\"quote\":\"Net earnings including noncontrolling interests $ 1,228 $ 897 $ 1,235\"}],\"rationale\":\"Extracted revenue and net earnings for FY2015, FY2016, and FY2017 from Best Buy's Consolidated Statements of Earnings, computed the net profit margins for each year, and averaged them to get 2.8%.\",\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_97748",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623010,
+  "id": "Yf_Jao_0BvaExN8Po6nO4AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 572,
+   "prompt_tokens": 7128,
+   "total_tokens": 7700
+  }
+ }
+}

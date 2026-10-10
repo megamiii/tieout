@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Operating income Net sales",
+  "ticker": "GLW",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_fca817c2a6ac599d",
+    "ticker": "GLW",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 26,
+    "text": "Table of Contents RESULTS OF OPERATIONS Selected highlights from our operations follow (in millions): Year ended December 31, % change 2021 2020 2019 21 vs. 20 20 vs. 19 Net sales $ 14,082 $ 11,303 $ 11,503 25 (2) Gross margin $ 5,063 $ 3,531 $ 4,035 43 (12) (gross margin %) 36% 31% 35% Selling, general and administrative expenses $ 1,827 $ 1,747 $ 1,585 5 10 (as a % of net sales) 13% 15% 14% Research, development and engineering expenses $ 995 $ 1,154 $ 1,031 (14) 12 (as a % of net sales) 7% 10% 9% Equity in earnings (losses) of affiliated companies $ 35 $ (25) $ 17 * * (as a % of net sales) 0% (0)% 0% Translated earnings contract gain (loss), net $ 354 $ (38) $ 248 * * (as a % of net sales) 3% (0)% 2% Transaction-related gain, net $ 498 * * (as a % of net sales) 4% Income before income taxes $ 2,397 $ 623 $ 1,216 285 (49) (as a % of net sales) 17% 6% 11% Provision for income taxes $ (491) $ (111) $ (256) (342) 57 (as a % of net sales) (3)% (1)% (2)% Net income attributable to Corning…"
+   },
+   {
+    "chunk_id": "ch_aba81bdcdc6a98e5",
+    "ticker": "GLW",
+    "fiscal_year": 2021,
+    "section": "Item 16",
+    "page": 115,
+    "text": "Table of Contents 20. Reportable Segments (Continued) Earnings of equity affiliates that are closely associated with the reportable segments are included in the respective segment's net income (loss). Certain common expenses among reportable segments have been allocated differently than they would for stand-alone financial information. Segment net income (loss) may not be consistent with measures used by other companies. The following provides historical segment information as described above: Segment Information (in millions) Display Technologies Optical Communications Specialty Materials Environmental Technologies Life Sciences All Other Total For the year ended December 31, 2021 Segment net sales $ 3,700 $ 4,349 $ 2,008 $ 1,586 $ 1,234 $ 1,243 $ 14,120 Depreciation (1) $ 605 $ 224 $ 161 $ 139 $ 52 $ 134 $ 1,315 Research, development and engineering expenses (2) $ 110 $ 216 $ 208 $ 111 $ 33 $ 160 $ 838 Income tax (provision) benefit (3) $ (249) $ (152) $ (99) $ (72) $ (51) $ 11 $ (61…"
+   },
+   {
+    "chunk_id": "ch_60cd32fb25301098",
+    "ticker": "GLW",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Table of Contents See “Items Excluded from GAAP Measures” for the descriptions of the footnoted reconciling items. Year ended December 31, 2020 Net sales Equity (losses) earnings Income before income taxes Net income Effective tax rate (a) Earnings per share As reported $ 11,303 $ (25) $ 623 $ 512 17.8% $ 0.54 Constant-currency adjustment (1) 44 22 17 0.02 Translation loss on Japanese yen-denominated debt (2) 86 67 0.09 Translated earnings contract loss, net (3) 46 36 0.05 Acquisition-related costs (4) 156 114 0.15 Discrete tax items and other tax-related adjustments (5) (24) (0.03) Pension mark-to-market adjustment (6) 31 24 0.03 Restructuring, impairment and other charges and credits (7) 827 621 0.80 Litigation, regulatory and other legal matters (8) 144 120 0.16 Bond redemption loss (10) 22 17 0.02 Gain on investment (11) (107) (83) (0.11) Equity in losses of affiliated companies (13) 111 111 98 0.13 Transaction-related gain, net (14) (498) (387) (0.50) Cumulative adjustment related…"
+   },
+   {
+    "chunk_id": "ch_11843090a84760ef",
+    "ticker": "GLW",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 37,
+    "text": "Table of Contents Optical Communications The following table provides net sales and net income for the Optical Communications segment (in millions): Year ended December 31, % change % change 2021 2020 2019 21 vs. 20 20 vs. 19 Segment net sales $ 4,349 $ 3,563 $ 4,064 22% (12%) Segment net income $ 553 $ 366 $ 489 51% (25%) Net sales increased by $786 million, or 22%, in the year ended December 31, 2021, when compared to the same period in 2020, primarily due to higher sales in carrier products and enterprise products, up $588 million and $198 million, respectively, primarily driven by strong growth of 5G, broadband and cloud computing. Net income in the year ended December 31, 2021 increased by $187 million, or 51%, primarily driven by the changes in sales, outlined above, partially offset by increased raw material, freight and logistics costs. Movements in foreign currency exchange rates did not materially impact net income in this segment in the year ended December 31, 2021 when comp…"
+   },
+   {
+    "chunk_id": "ch_0f9515910da70969",
+    "ticker": "GLW",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 31,
+    "text": "not possible to provide reconciliations for these non-GAAP measures because the Company does not forecast the movement of foreign currencies against the U.S. dollar, or other items that do not reflect ongoing operations, nor does it forecast items that have not yet occurred or are out of the Company's control. As a result, the Company is unable to provide outlook information on a GAAP basis. For a reconciliation of non-GAAP performance measures to their most directly comparable GAAP financial measure, please see “Reconciliation of Non-GAAP Measures”. RESULTS OF OPERATIONS – CORE PERFORMANCE MEASURES Selected highlights from our continuing operations, excluding certain items, follow (in millions): Year ended December 31, % change 2021 2020 2019 21 vs. 20 20 vs. 19 Core net sales $ 14,120 $ 11,452 $ 11,656 23% (2)% Core equity in earnings of affiliated companies $ 38 $ 86 $ 237 (56)% (64)% Core net income $ 1,811 $ 1,237 $ 1,578 46% (22)% Core Net Sales Core net sales are consistent with…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TPINEdKA2+V74+EwDq2Pxc4KPJXfcGPKaK4JE1CPJ2feu1HU/DVZmMOWIXNAmsk/we1nLlnUpEUYA55MlxVPFXdBgYloPqYrh2Hy9VuTOzD67U6vDm7uU2eo="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"answer\":\"As of FY22, AMD operates and sells products across four primary reportable segments:\\n1. **Data Center Segment**: Server CPUs, GPUs, DPUs, FPGAs, and Adaptive SoC products designed for data center, cloud, and supercomputing workloads.\\n2. **Client Segment**: Microprocessor units (CPUs), accelerated processing units (APUs), chipsets, and computing platforms for desktop and notebook personal computers.\\n3. **Gaming Segment**: Discrete graphics processors (GPUs), semi-custom SoC products (such as those used in major game consoles like Sony PlayStation 5 and Microsoft Xbox Series X/S), and professional graphics products.\\n4. **Embedded Segment**: Embedded processors, FPGAs, and Adaptive SoCs targeting markets such as automotive, industrial, communications, networking, aerospace, defense, and medical.\",\"citations\":[{\"source_id\":\"ch_e9f26cbe40d7744b\",\"quote\":\"Data Center segment primarily includes server CPUs, GPUs, DPUs, FPGAs, and Adaptive SoC products.\"},{\"quote\":\"Client Segment Client Market Our CPUs are incorporated into computing platforms...\",\"source_id\":\"ch_f48e7728395225ba\"},{\"quote\":\"Gaming Segment Gaming Market Graphics processing is a fundamental component across many of our products and can be found in an APU, GPU, SoC or a combination of a discrete GPU with one of the other foregoi...\",\"source_id\":\"ch_552b4c4c9930715b\"},{\"quote\":\"needs in automotive, industrial, test, measurement, emulation, medical, multimedia, aerospace, defense, communications, networking, security, and storage markets...\",\"source_id\":\"ch_3fb87b615ebce2bd\"}],\"rationale\":\"The answer correctly lists AMD's major product and service offerings categorized by its reportable segments for FY22 based directly on Item 1 of the 10-K.\",\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_77098",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622418,
+  "id": "EP3JavrpH-mH28oPy7mhoA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 460,
+   "prompt_tokens": 9084,
+   "total_tokens": 9544
+  }
+ }
+}

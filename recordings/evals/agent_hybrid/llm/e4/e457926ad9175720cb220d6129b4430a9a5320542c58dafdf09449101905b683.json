@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TEUQhAAsCxpAT59zYFiGpa1DWly++B/O+ArSITIf9ea3lNW8GYONYyeRUCA2T8WZDiqaSITO0rdfpP0h0iK2n4tijGwhJ0m6FQnFsnksWdqj8ClPbAkPpyRU="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":0.9,\"rationale\":\"Restructuring costs are not explicitly outlined as a line item on PepsiCo's Consolidated Statement of Income for FY2022.\",\"citations\":[],\"answer\":\"0\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_65050",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622790,
+  "id": "hf7Jaur_MZfsxN8PiPXoGQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 59,
+   "prompt_tokens": 3493,
+   "total_tokens": 3552
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 18,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TQgQ6/NsUasmW6FbKzu2hcDQzxPhT152zNX0EmOfPZBSUohjXlbW49U0MIe9aO0pJzDhtMv+b76r/Lb4VMcFgoJ8ThJBvKYzNgQW7n9TlYIHZZ9n43utuSUo="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"On August 1, 2022, the Company completed the acquisition of 100% equity interest in a Czech Republic company that operates a world-class flexible packaging manufacturing plant. The purchase consideration of $59 million\",\"source_id\":\"ch_a1adac249f0de09a\"},{\"quote\":\"On March 17, 2023, the Company completed the acquisition of 100% equity interest in a medical device packaging manufacturing site in Shanghai, China. The purchase consideration of $60 million\",\"source_id\":\"ch_a1adac249f0de09a\"},{\"source_id\":\"ch_cdca9b379a363798\",\"quote\":\"On May 31, 2023, the Company completed the acquisition of a New Zealand based leading manufacturer of state-of-the-art, automated protein packaging machines. The purchase consideration of $45 million\"}],\"answer\":\"For fiscal year 2023, Amcor completed the following acquisitions (all within the Flexibles reportable segment):\\n1. On August 1, 2022, 100% equity interest in a Czech Republic company operating a flexible packaging manufacturing plant, with a purchase consideration of $59 million.\\n2. On March 17, 2023, 100% equity interest in a medical device packaging manufacturing site in Shanghai, China, with a purchase consideration of $60 million.\\n3. On May 31, 2023, a New Zealand-based manufacturer of automated protein packaging machines, with a purchase consideration of $45 million.\\n\\nFor fiscal years 2022 and 2021, Amcor's 10-K notes do not report any major business acquisitions under Note 5 (Acquisitions and Divestitures), focusing instead on divestitures, portfolio optimization, and restructuring activities.\",\"needs_review\":false,\"rationale\":\"Provides the three acquisitions made in FY2023 along with their dates, targets, and purchase considerations as disclosed in Note 5, and notes the absence of material acquisitions in FY2022 and FY2021.\",\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_114835",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622533,
+  "id": "g_3JaoGUM6qMvdIPn4ufwAw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 510,
+   "prompt_tokens": 11957,
+   "prompt_tokens_details": {
+    "cached_tokens": 8433
+   },
+   "total_tokens": 12467
+  }
+ }
+}

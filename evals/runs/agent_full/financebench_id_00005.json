@@ -1,0 +1,225 @@
+{
+ "item_id": "financebench_id_00005",
+ "eval_set": "financebench",
+ "experiment": "agent_full",
+ "status": "answered",
+ "answer": "Based on FY2022 data, Corning has positive working capital. \n\nAs of December 31, 2022, Corning reported:\n- **Total current assets:** $7,453 million\n- **Total current liabilities:** $5,175 million\n\nWorking capital (Current Assets – Current Liabilities) is **$2,278 million**.",
+ "confidence": 1.0,
+ "rationale": "The user asked whether Corning has positive working capital based on FY2022 data. Using Corning's Consolidated Balance Sheets from the FY2022 10-K, Total Current Assets were $7,453 million and Total Current Liabilities were $5,175 million. Subtracting current liabilities from current assets gives positive working capital of $2,278 million.",
+ "citations": [
+  {
+   "source_id": "ch_bd1f1e1075307850",
+   "quote": "Total current assets 7,453 7,659",
+   "kind": "chunk",
+   "ticker": "GLW",
+   "fiscal_year": 2022,
+   "section": "Item 16",
+   "page": 60,
+   "values": [
+    "31",
+    "2022",
+    "2021",
+    "1671",
+    "2148",
+    "40",
+    "42",
+    "1721",
+    "2004",
+    "5",
+    "2904",
+    "2481",
+    "10",
+    "14",
+    "1157",
+    "1026",
+    "7453",
+    "7659",
+    "14147",
+    "13969",
+    "8",
+    "15371",
+    "15804",
+    "9",
+    "2394",
+    "2421",
+    "9",
+    "1029",
+    "1148",
+    "7",
+    "1073",
+    "1066",
+    "10",
+    "14",
+    "2179",
+    "2056",
+    "29499",
+    "30154",
+    "11",
+    "224",
+    "55",
+    "1804",
+    "1612",
+    "10",
+    "13",
+    "3147",
+    "3139",
+    "5175",
+    "4806"
+   ]
+  },
+  {
+   "source_id": "ch_bd1f1e1075307850",
+   "quote": "Total current liabilities 5,175 4,806",
+   "kind": "chunk",
+   "ticker": "GLW",
+   "fiscal_year": 2022,
+   "section": "Item 16",
+   "page": 60,
+   "values": [
+    "31",
+    "2022",
+    "2021",
+    "1671",
+    "2148",
+    "40",
+    "42",
+    "1721",
+    "2004",
+    "5",
+    "2904",
+    "2481",
+    "10",
+    "14",
+    "1157",
+    "1026",
+    "7453",
+    "7659",
+    "14147",
+    "13969",
+    "8",
+    "15371",
+    "15804",
+    "9",
+    "2394",
+    "2421",
+    "9",
+    "1029",
+    "1148",
+    "7",
+    "1073",
+    "1066",
+    "10",
+    "14",
+    "2179",
+    "2056",
+    "29499",
+    "30154",
+    "11",
+    "224",
+    "55",
+    "1804",
+    "1612",
+    "10",
+    "13",
+    "3147",
+    "3139",
+    "5175",
+    "4806"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 7,
+ "prompt_tokens": 24062,
+ "completion_tokens": 497,
+ "latency_ms": null,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer reaches the same correct conclusion as the gold answer and provides the standard calculation for working capital, which is acceptable even though the gold answer used a more granular operating-only approach.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 7,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1908,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"fiscal_years\":[2022],\"ticker\":\"GLW\",\"query\":\"working capital\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 2352,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"ticker\":\"GLW\",\"query\":\"current assets\",\"fiscal_years\":[2022]}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 2765,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"fiscal_years\":[2022],\"query\":\"current liabilities\",\"ticker\":\"GLW\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 3191,
+   "tools": [
+    {
+     "name": "calculate",
+     "arguments": "{\"expression\":\"7453000000 - 5175000000\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "tokens": 3278,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"query\":\"working capital\",\"ticker\":\"GLW\",\"fiscal_year\":2022}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 5,
+   "tokens": 4611,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"fiscal_year\":2022,\"query\":\"Consolidated Balance Sheets Corning Incorporated\",\"ticker\":\"GLW\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 6,
+   "tokens": 6454,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"citations\":[{\"quote\":\"Total current assets 7,453 7,659\",\"source_id\":\"ch_bd1f1e1075307850\"},{\"source_id\":\"ch_bd1f1e1075307850\",\"quote\":\"Total current liabilities 5,175 4,806\"}],\"rationale\":\"The user asked whether Corning has positive working capital based on FY2022 data. Using Corning's Consolidated Balance Sheets from the FY2022 10-K, Total Current Assets were $7,453 million and Total Current Liabilities were $5,175 million. Subtracting current liabilities from current assets gives positive working capital of $2,278 million.\",\"needs_review\":false,\"confidence\":1,\"answer\":\"Based on FY2022 data, Corning has positive working capital. \\n\\nAs of December 31, 2022, Corning reported:\\n- **Total current assets:** $7,453 million\\n- **Total current liabilities:** $5,175 million\\n\\nWorking capital (Current Assets – Current Liabilities) is **$2,278 million**.\"}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

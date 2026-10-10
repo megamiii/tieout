@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "effective tax rate FY2021 FY2022 Corning",
+  "ticker": "GLW",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_3cf44d38d5d7bde2",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 79,
+    "text": "It is possible that the amount of unrecognized tax benefits will change due to one or more of the following events during the next twelve months: audit activity, tax payments, or final decisions in matters that are the subject of controversy in various jurisdictions. The Company believes that adequate tax reserves are provided for these matters. However, if upon conclusion of these matters, the ultimate determination of taxes owed is for an amount materially different than the current reserves, the Company's overall tax expense and effective tax rate could be materially impacted in the period of adjustment. As of December 31, 2022, the Company is not expecting any significant movements in the uncertain tax benefits in the next twelve months. Corning Incorporated, as the common parent company, and all 80%-or-more-owned of its U.S. subsidiaries join in the filing of consolidated U.S. federal income tax returns. The statute of limitations is closed for all periods ending through December …"
+   },
+   {
+    "chunk_id": "ch_8bd47a6a219621af",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 71,
+    "text": "Table of Contents 2. Restructuring, Impairment and Other Charges and Credits The following table presents the restructuring, impairment and other charges and credits (in millions): Year ended December 31, 2022 2021 2020 Severance $ 70 $ (13) $ 148 Asset impairment 217 Capacity optimization 219 46 304 Other charges and credits 125 77 158 Total restructuring, impairment and other charges and credits $ 414 $ 110 $ 827 Corning periodically assesses the operating efficiency and cost structure of the Company's asset base and global workforce and takes appropriate actions to align corporate resources with the business environment. 2022 Corning recorded $414 million in severance, accelerated depreciation, asset write-offs and other related charges for the year ended December 31, 2022. Capacity optimization charges include accelerated depreciation and asset write-offs associated with the exit of certain facilities, product lines and other exit activities primarily within Display Technologies, S…"
+   },
+   {
+    "chunk_id": "ch_3c35ec7262d86933",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 91,
+    "text": "into accumulated other comprehensive loss on the consolidated balance sheets until the hedged item impacts earnings. As of December 31, 2022, the amount expected to be reclassified into earnings within the next 12 months is a pre-tax gain of $20 million. Corning has entered into leases of precious metals, with maturities through 2025. To offset the risk of changes in the fair value of the Company's separate accounting pool of leased precious metals due to adverse changes in the respective market prices, Corning designated the bifurcated embedded derivatives included in these leases as fair value hedges. The gain or loss on the derivatives, as well as the offsetting loss or gain on the hedged item attributable to the hedged risk, are recognized in current earnings. The amounts representing the time value component of the derivatives are excluded from the assessment of effectiveness and amortized in earnings. The impact of the excluded component on Corning's other comprehensive income an…"
+   },
+   {
+    "chunk_id": "ch_d07190c561101de2",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 73,
+    "text": "significant assumptions such as projected revenue and discount rate. The Company used a discount rate of 16.5% and terminal growth rate of zero. As no net-cash consideration was transferred, the fair value of Corning's previously held equity interest in HSG was used to measure the goodwill resulting from the Redemption and the Company's controlling interest after the Redemption. Corning recognized a pre-tax gain of $498 million on its previously held equity investment in HSG as a result of the consolidation resulting from the Redemption. The gain was calculated based on the difference between the fair value and carrying value of the equity method investment immediately preceding the Redemption and included within the transaction-related gain, net in the consolidated statements of income for the year ended December 31, 2020. The following table presents the calculation of the gain on previously owned equity (in millions): Fair value of previously held equity investment $ 250 Equity inve…"
+   },
+   {
+    "chunk_id": "ch_a1ed310e9aea5ad8",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 9A",
+    "page": 45,
+    "text": "preparation of financial statements for external purposes in accordance with accounting principles generally accepted in the U.S. Corning's internal control over financial reporting includes those policies and procedures that (i) pertain to the maintenance of records that, in reasonable detail, accurately and fairly reflect the transactions and dispositions of Corning's assets; (ii) provide reasonable assurance that transactions are recorded as necessary to permit preparation of financial statements in accordance with accounting principles generally accepted in the U.S., and that Corning's receipts and expenditures are being made only in accordance with authorizations of Corning's management and directors; and (iii) provide reasonable assurance regarding prevention or timely detection of unauthorized acquisition, use, or disposition of Corning's assets that could have a material effect on the financial statements. Because of its inherent limitations, internal control over financial rep…"
+   }
+  ]
+ }
+}

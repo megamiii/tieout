@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T/Vs37mk8xhqtUniqdImoQ3sYUXf7frAV0C5BllQU9ICUvBhhvfx4KQhCqBTANS1SsgkrykjkDiwzNOBosC0Jl7vddWOK7gmuSAelfOCtSpByV98OF5NovaY="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"answer\":\"According to General Mills' FY2020 10-K, net cash provided by operating activities was $3,676.2 million and purchases of land, buildings, and equipment (capex) was $460.8 million. \\n\\nFree Cash Flow (FCF) = $3,676.2 million - $460.8 million = $3,215.4 million.\",\"rationale\":\"Calculated using net cash provided by operating activities minus purchases of land, buildings, and equipment (capex) for FY2020 as reported in General Mills' 10-K.\",\"citations\":[{\"source_id\":\"ch_9ae9ff68006e4948\",\"quote\":\"Net cash provided by operating activities 3,676.2\"},{\"quote\":\"Purchases of land, buildings, and equipment (460.8)\",\"source_id\":\"ch_9ae9ff68006e4948\"}],\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_86935",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623441,
+  "id": "EAHKar2hE6r5xN8P0YO5kAg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 254,
+   "prompt_tokens": 9803,
+   "total_tokens": 10057
+  }
+ }
+}

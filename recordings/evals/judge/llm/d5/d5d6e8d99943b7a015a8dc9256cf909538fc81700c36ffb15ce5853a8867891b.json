@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer provides a more detailed and accurate breakdown of PepsiCo's reportable segments, which encompass all the geographies mentioned in the gold answer.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0Tq8+X+DB1/7551NQxA0yET6IRkCeLx/vGRUXhLfxZmxtO/ETC8ZBGp4TraUqeyU0ZpJuNcZ49EeB1UL5KD80HY91qMX3g9Gfdkvic5zEel8IxLsWuyf30T6f/0qkdTmPtEL2B/l8CzEQMfJe3"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623894,
+  "id": "1ALKatemE-7Yxs0Ps9X-sAU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 329,
+   "total_tokens": 370
+  }
+ }
+}

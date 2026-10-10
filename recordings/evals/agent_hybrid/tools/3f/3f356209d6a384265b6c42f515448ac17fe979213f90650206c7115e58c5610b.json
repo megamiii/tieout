@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "EMEA APAC LACC",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_85ff4bb7fd20bae5",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 155,
+    "text": "EMEA represents Europe, the Middle East and Africa; APAC represents Asia Pacific, Australia and New Zealand; and LACC represents Latin America, Canada and the Caribbean. (b) Other Unallocated includes net costs which are not directly allocated to specific geographic regions, including costs related to the net negative interest spread on excess liquidity funding and executive office operations expenses. (a) (a) (a) (b) 152"
+   },
+   {
+    "chunk_id": "ch_e09711461c8cf119",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 155,
+    "text": "Table of Contents GEOGRAPHIC OPERATIONS The following table presents our total revenues net of interest expense and pretax income (loss) from continuing operations in different geographic regions based, in part, upon internal allocations, which necessarily involve management's judgment. Effective for the first quarter of 2022, we changed the way in which we allocate certain overhead expenses by geographic region. As a result, prior period pretax income (loss) from continuing operations by geography has been recast to conform to current period presentation; there was no impact at a consolidated level. (Millions) United States EMEA APAC LACC Other Unallocated Consolidated 2022 Total revenues net of interest expense $ 41,396 $ 4,871 $ 3,835 $ 2,917 $ (157) $ 52,862 Pretax income (loss) from continuing operations 10,383 550 376 500 (2,224) 9,585 2021 Total revenues net of interest expense $ 33,103 $ 3,643 $ 3,418 $ 2,238 $ (22) $ 42,380 Pretax income (loss) from continuing operations 10,32…"
+   },
+   {
+    "chunk_id": "ch_520aa9eddac76e4b",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 74,
+    "text": "Table of Contents There are several internal management committees, including the Enterprise Risk Management Committee (ERMC), chaired by our Chief Risk Officer. The ERMC is the highest-level management committee to oversee all firm-wide risks and is responsible for risk governance, risk oversight and risk appetite. It maintains the enterprise-wide risk appetite framework and monitors compliance with limits and escalations defined in it. The ERMC oversees implementation of risk policies company-wide. The ERMC reviews key risk exposures, trends and concentrations, significant compliance matters, and provides guidance on the steps to monitor, control and report major risks. In addition, the Asset Liability Committee, chaired by our Chief Financial Officer, is responsible for managing our capital, funding and liquidity, investment, market risk and asset/liability activities in accordance with our policies and in compliance with applicable regulatory requirements. As defined in the ERM pol…"
+   },
+   {
+    "chunk_id": "ch_882e91fbd3fcc0e3",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 10,
+    "text": "Ms. Herena (51) has been Chief Colleague Experience Officer since April 2019. Ms. Herena joined American Express from BNY Mellon, where she served as the Chief Human Resources Officer and Senior Executive Vice President, Human Resources, Marketing and Communications since 2014. RAYMOND JOABAR — Group President, Global Merchant and Network Services Mr. Joabar (57) has been Group President, Global Merchant and Network Services since April 2021. Prior thereto, he had been President, Global Risk and Compliance and Chief Risk Officer since September 2019. He also served as President of International Consumer Services and Global Travel and Lifestyle Services from February 2018 to September 2019 and as Executive Vice President, Global Servicing Network from February 2016 to February 2018. RAFAEL MARQUEZ— President, International Card Services Mr. Marquez (51) has been President, International Card Services since May 2022. Prior thereto, he had been President, International Consumer Services a…"
+   },
+   {
+    "chunk_id": "ch_be73b6e96a08e24e",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 144,
+    "text": "Table of Contents NOTE 17 CHANGES IN ACCUMULATED OTHER COMPREHENSIVE INCOME (LOSS) AOCI is a balance sheet item in Shareholders' equity on the Consolidated Balance Sheets. It is comprised of items that have not been recognized in earnings but may be recognized in earnings in the future when certain events occur. Changes in each component for the three years ended December 31 were as follows: (Millions), net of tax Net Unrealized Gains (Losses) on Debt Securities Foreign Currency Translation Adjustment Gains (Losses), Net of Hedges Net Unrealized Pension and Other Postretirement Benefit Gains (Losses) Accumulated Other Comprehensive Income (Loss) Balances as of December 31, 2019 $ 33 $ (2,189) $ (581) $ (2,737) Net change 32 (40) (150) (158) Balances as of December 31, 2020 65 (2,229) (731) (2,895) Net change (42) (163) 155 (50) Balances as of December 31, 2021 23 (2,392) (576) (2,945) Net change (87) (230) 52 (265) Balances as of December 31, 2022 $ (64) $ (2,622) $ (524) $ (3,210) (a)…"
+   }
+  ]
+ }
+}

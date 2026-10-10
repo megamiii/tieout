@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TsQ0Lw7jYGXq2lC3B/ey87pwYpaE5k94mC03/VV4KuS8tDE6TWHQnSx+KXlfFQZBbWj1xsD+CEuU4vFxr1QSVBPNPx4Oxhtn2iBeGqBGBOnmIacUhVEu20Go="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"fiscal_year\":2019,\"ticker\":\"GIS\",\"query\":\"Consolidated Balance Sheets Receivables Inventories Accounts payable\"}",
+        "name": "search_filings"
+       },
+       "id": "call_45591",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623266,
+  "id": "YQDKaryyLIX-vdIP39GJ-QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 5028,
+   "total_tokens": 5075
+  }
+ }
+}

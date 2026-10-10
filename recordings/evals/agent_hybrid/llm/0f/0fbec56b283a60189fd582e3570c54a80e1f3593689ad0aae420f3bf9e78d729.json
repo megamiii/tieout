@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TnD74Z6DoO2I6FdHQeK+/oxAOqxrgeYxAhf+gUd2Fy8xj9Dcr2jN4e8tN6oHrkT7AXRRb24nihDT4OY5WTcSb8Ksrq3w1iLv73k3GAOFCDAy6ARhnUlSnokc="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"ticker\":\"CVS\",\"query\":\"Note 12 Shareholders' Equity common stock dividends per share declared record payment date 2022\"}",
+        "name": "search_filings"
+       },
+       "id": "call_64986",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622668,
+  "id": "DP7Jas_YCNz9vdIPyYeDoQg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 53,
+   "prompt_tokens": 6821,
+   "prompt_tokens_details": {
+    "cached_tokens": 4049
+   },
+   "total_tokens": 6874
+  }
+ }
+}

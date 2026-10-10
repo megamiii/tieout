@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income Millions except per share data",
+  "ticker": "NKE",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_fe8dbdda04d91e51",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 63,
+    "text": "Table of Contents NIKE, INC. CONSOLIDATED STATEMENTS OF SHAREHOLDERS' EQUITY COMMON STOCK CAPITAL IN EXCESS OF STATED VALUE ACCUMULATED OTHER COMPREHENSIVE INCOME (LOSS) RETAINED EARNINGS (DEFICIT) TOTAL CLASS A CLASS B (In millions, except per share data) SHARES AMOUNT SHARES AMOUNT Balance at May 31, 2018 329 $ — 1,272 $ 3 $ 6,384 $ (92) $ 3,517 $ 9,812 Stock options exercised 18 539 539 Conversion to Class B Common Stock (14) 14 — Repurchase of Class B Common Stock (54) (227) (4,056) (4,283) Dividends on common stock ($0.86 per share) and preferred stock ($0.10 per share) (1,360) (1,360) Issuance of shares to employees, net of shares withheld for employee taxes 3 142 (3) 139 Stock-based compensation 325 325 Net income 4,029 4,029 Other comprehensive income (loss) 323 323 Adoption of ASU 2016-16 (Note 1) (507) (507) Adoption of ASC Topic 606 (Note 1) 23 23 Balance at May 31, 2019 315 $ — 1,253 $ 3 $ 7,163 $ 231 $ 1,643 $ 9,040 Stock options exercised 20 703 703 Repurchase of Class B …"
+   },
+   {
+    "chunk_id": "ch_8235b3270cbbe276",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 70,
+    "text": "assessment of realization, which are inherently uncertain and can result in significant variation between estimated and actual results. To the extent the Company believes that recovery is not likely, a valuation allowance is established against the net deferred tax asset, which increases the Company's income tax expense in the period when such determination is made. The Company recognizes a tax benefit from uncertain tax positions in the financial statements only when it is more likely than not the position will be sustained upon examination by relevant tax authorities. The Company recognizes interest and penalties related to income tax matters in Income tax expense. Refer to Note 9 — Income Taxes for further discussion. EARNINGS PER SHARE Basic earnings per common share is calculated by dividing Net income by the weighted average number of common shares outstanding during the year. Diluted earnings per common share is calculated by adjusting weighted average outstanding shares, assumi…"
+   },
+   {
+    "chunk_id": "ch_29e387f1cf346a87",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 59,
+    "text": "Table of Contents NIKE, INC. CONSOLIDATED STATEMENTS OF INCOME YEAR ENDED MAY 31, (In millions, except per share data) 2021 2020 2019 Revenues $ 44,538 $ 37,403 $ 39,117 Cost of sales 24,576 21,162 21,643 Gross profit 19,962 16,241 17,474 Demand creation expense 3,114 3,592 3,753 Operating overhead expense 9,911 9,534 8,949 Total selling and administrative expense 13,025 13,126 12,702 Interest expense (income), net 262 89 49 Other (income) expense, net 14 139 (78) Income before income taxes 6,661 2,887 4,801 Income tax expense 934 348 772 NET INCOME $ 5,727 $ 2,539 $ 4,029 Earnings per common share: Basic $ 3.64 $ 1.63 $ 2.55 Diluted $ 3.56 $ 1.60 $ 2.49 Weighted average common shares outstanding: Basic 1,573.0 1,558.8 1,579.7 Diluted 1,609.4 1,591.6 1,618.4 The accompanying Notes to the Consolidated Financial Statements are an integral part of this statement. 2021 FORM 10-K 57"
+   },
+   {
+    "chunk_id": "ch_bbd56572a2b6d82b",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 63,
+    "text": "Issuance of shares to employees, net of shares withheld for employee taxes 4 165 (9) 156 Stock-based compensation 429 429 Net income 2,539 2,539 Other comprehensive income (loss) (287) (287) Adoption of ASC Topic 842 (Note 1) (1) (1) Balance at May 31, 2020 315 $ — 1,243 $ 3 $ 8,299 $ (56) $ (191) $ 8,055 Stock options exercised 21 954 954 Conversion to Class B Common Stock (10) 10 — Repurchase of Class B Common Stock (5) (28) (622) (650) Dividends on common stock ($1.070 per share) and preferred stock ($0.10 per share) (1,692) (1,692) Issuance of shares to employees, net of shares withheld for employee taxes 4 129 (43) 86 Stock-based compensation 611 611 Net income 5,727 5,727 Other comprehensive income (loss) (324) (324) Balance at May 31, 2021 305 $ — 1,273 $ 3 $ 9,965 $ (380) $ 3,179 $ 12,767 The accompanying Notes to the Consolidated Financial Statements are an integral part of this statement. 2021 FORM 10-K 61"
+   },
+   {
+    "chunk_id": "ch_0bfd35a3960ddce5",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 81,
+    "text": "for the fiscal years ended May 31, 2021, 2020 and 2019, respectively, because the awards were anti-dilutive. YEAR ENDED MAY 31, (In millions, except per share data) 2021 2020 2019 Net income available to common stockholders $ 5,727 $ 2,539 $ 4,029 Determination of shares: Weighted average common shares outstanding 1,573.0 1,558.8 1,579.7 Assumed conversion of dilutive stock options and awards 36.4 32.8 38.7 DILUTED WEIGHTED AVERAGE COMMON SHARES OUTSTANDING 1,609.4 1,591.6 1,618.4 Earnings per common share: Basic $ 3.64 $ 1.63 $ 2.55 Diluted $ 3.56 $ 1.60 $ 2.49 NOTE 13 — BENEFIT PLANS The Company has a qualified 401(k) Savings and Profit Sharing Plan, in which all U.S. employees are able to participate. The Company matches a portion of employee contributions to the savings plan. Company contributions to the savings plan were $110 million, $107 million and $90 million and included in Cost of sales or Operating overhead expense, as applicable, for the years ended May 31, 2021, 2020 and …"
+   }
+  ]
+ }
+}

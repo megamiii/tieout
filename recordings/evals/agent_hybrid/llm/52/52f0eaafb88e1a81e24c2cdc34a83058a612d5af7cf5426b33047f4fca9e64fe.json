@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TT/Kk1P2/8zJx5H7Xn3b8zOkjhzWsZ13iUvYe2yZYtMaCDD+x5HUUhRMkS0kwlCslUYbXmChQLqziF3e0TYr2BCp/ljbM174yuqdOYfkXexZEjD/QjQvkKx0="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"GLW\",\"fiscal_year\":2022,\"query\":\"effective tax rate FY2021 FY2022 Corning\"}",
+        "name": "search_filings"
+       },
+       "id": "call_75536",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622824,
+  "id": "qP7JaoPmDP3fxs0Pj4ieiAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 1519,
+   "total_tokens": 1565
+  }
+ }
+}

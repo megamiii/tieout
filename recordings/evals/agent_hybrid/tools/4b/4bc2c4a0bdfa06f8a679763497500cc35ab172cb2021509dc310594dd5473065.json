@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Operating profit depreciation amortization statement of cash flows revenue",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_ab7e43f8e284033b",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 74,
+    "text": "Table of Contents Amortization of intangible assets and depreciation and other amortization of each division are as follows: Amortization of Intangible Assets Depreciation and Other Amortization 2022 2021 2020 2022 2021 2020 FLNA $ 11 $ 11 $ 10 $ 653 $ 594 $ 550 QFNA — — — 47 46 41 PBNA 22 25 28 930 926 899 LatAm 3 4 4 306 283 251 Europe 30 37 40 357 364 350 AMESA 4 5 3 179 181 149 APAC 8 9 5 92 102 91 Total division 78 91 90 2,564 2,496 2,331 Corporate — — — 121 123 127 Total $ 78 $ 91 $ 90 $ 2,685 $ 2,619 $ 2,458 Net revenue and long-lived assets by country are as follows: Net Revenue Long-Lived Assets 2022 2021 2020 2022 2021 United States $ 49,390 $ 44,545 $ 40,800 $ 38,240 $ 36,324 Mexico 5,472 4,580 3,924 1,933 1,720 Russia 4,118 3,426 3,009 2,538 3,751 Canada 3,536 3,405 2,989 2,678 2,846 China 2,752 2,679 1,732 1,517 1,745 United Kingdom 1,844 2,102 1,882 847 906 South Africa 1,837 2,008 1,282 1,327 1,389 All other countries 17,443 16,729 14,754 12,885 13,399 Total $ 86,392 $ 7…"
+   },
+   {
+    "chunk_id": "ch_b6b877558a560ac9",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 80,
+    "text": "Table of Contents We regularly evaluate different productivity initiatives beyond the productivity plan and other initiatives described above. For information on additional impairment charges, see Notes 1 and 4 for brand portfolio impairment charges, other impairment charges and Russia-Ukraine conflict charges. Note 4 — Intangible Assets A summary of our amortizable intangible assets is as follows: 2022 2021 2020 Average Useful Life (Years) Gross Accumulated Amortization Net Gross Accumulated Amortization Net Acquired franchise rights 56 – 60 $ 837 $ (200) $ 637 $ 976 $ (187) $ 789 Customer relationships 10 – 24 571 (237) 334 623 (227) 396 Brands 20 – 40 1,097 (973) 124 1,151 (989) 162 Other identifiable intangibles 10 – 24 447 (265) 182 451 (260) 191 Total $ 2,952 $ (1,675) $ 1,277 $ 3,201 $ (1,663) $ 1,538 Amortization expense $ 78 $ 91 $ 90 (a) Decrease is primarily due to the write-off of our distribution rights for Bang energy drinks. See Note 1 for further information. Amortizati…"
+   },
+   {
+    "chunk_id": "ch_3fafd9c510e1e77d",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 80,
+    "text": "64 Depreciable and amortizable assets are evaluated for impairment upon a significant change in the operating or macroeconomic environment. In these circumstances, if an evaluation of the undiscounted cash flows indicates impairment, the asset is written down to its estimated fair value, which is based on discounted future cash flows. Useful lives are periodically evaluated to determine whether events or circumstances have occurred which indicate the need for revision. Indefinite-Lived Intangible Assets In the first quarter of 2022, we discontinued or repositioned certain juice and dairy brands in Russia in our Europe division. As a result, we recognized pre-tax impairment charges (included in brand portfolio impairment charges) of $241 million ($193 million after-tax or $0.14 per share) in impairment of intangible assets, primarily related to indefinite-lived intangible assets in the year ended December 31, 2022. See Note 1 for further information. (a) 78"
+   },
+   {
+    "chunk_id": "ch_d8d72bb0f7a16fd9",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 114,
+    "text": "The following are the primary procedures we performed to address this critical audit matter. We evaluated the design and tested the operating effectiveness of certain internal controls related to the indefinite-lived assets impairment process, including controls related to the development of forecasted revenue, profitability levels, and expected long-term growth rates and select the discount rates to be applied to the projected cash flows. We also evaluated the sensitivity of the Company's conclusion to changes in assumptions, including the assessment of changes in assumptions from prior periods. To assess the Company's ability to accurately forecast, we compared the Company's historical forecasted results to actual results. We compared the cash flow projections used in the impairment tests with available external industry data and other internal information. We involved valuation professionals with specialized skills and knowledge who assisted in evaluating (1) the long-term growth ra…"
+   },
+   {
+    "chunk_id": "ch_05a2ace217b15b4c",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 77,
+    "text": "Our other significant accounting policies are disclosed as follows: • Basis of Presentation – Note 1 includes a description of our policies regarding use of estimates, basis of presentation and consolidation. • Income Taxes – Note 5. • Share-Based Compensation – Note 6. • Pension, Retiree Medical and Savings Plans – Note 7. • Financial Instruments – Note 9. • Cash Equivalents – Cash equivalents are highly liquid investments with original maturities of three months or less. • Inventories – Note 14. Inventories are valued at the lower of cost or net realizable value. Cost is determined using the average; first-in, first-out (FIFO); or, in limited instances, last-in, first-out (LIFO) methods. • Property, Plant and Equipment – Note 14. Property, plant and equipment is recorded at historical cost. Depreciation is recognized on a straight-line basis over an asset's estimated useful life. Construction in progress is not depreciated until ready for service. • Translation of Financial Statement…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies Verizon as capital intensive and provides accurate supporting data from the 10-K, including the total assets and revenue figures used in the gold answer's calculation.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TOQtnrshcrxtln+R8ab84RoaYAw34WgqdaDdCerHX+3mU1XG76jemzGDyeD2bDu2Ege6VYSvlFedbhl5EEvrE4xHVYWgjgAkIwwtsrdebdjHAACOeXFY2gVENujlWjwmXQ7s/Sg2KcJOdIXli"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623599,
+  "id": "pQHKavq-EJjR28oPlLqWyQ0",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 49,
+   "prompt_tokens": 398,
+   "total_tokens": 447
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statement of Cash Flows PepsiCo",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_db34ff1120ea3f2b",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 112,
+    "text": "Table of Contents Report of Independent Registered Public Accounting Firm To the Shareholders and Board of Directors PepsiCo, Inc.: Opinions on the Consolidated Financial Statements and Internal Control Over Financial Reporting We have audited the accompanying Consolidated Balance Sheet of PepsiCo, Inc. and Subsidiaries (the Company) as of December 31, 2022 and December 25, 2021, the related Consolidated Statements of Income, Comprehensive Income, Cash Flows, and Equity for each of the fiscal years in the three-year period ended December 31, 2022, and the related notes (collectively, the consolidated financial statements). We also have audited the Company's internal control over financial reporting as of December 31, 2022, based on criteria established in Internal Control – Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission. In our opinion, the consolidated financial statements referred to above present fairly, in all material res…"
+   },
+   {
+    "chunk_id": "ch_d66af1f692631321",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 54,
+    "text": "Table of Contents Free Cash Flow The table below reconciles net cash provided by operating activities, as reflected on our cash flow statement, to our free cash flow. Free cash flow is a non-GAAP financial measure. For further information on free cash flow, see “Non-GAAP Measures.” 2022 2021 Change Net cash provided by operating activities, GAAP measure $ 10,811 $ 11,616 (7)% Capital spending (5,207) (4,625) Sales of property, plant and equipment 251 166 Free cash flow, non-GAAP measure $ 5,855 $ 7,157 (18)% We use free cash flow primarily for acquisitions and financing activities, including debt repayments, dividends and share repurchases. We expect to continue to return free cash flow to our shareholders primarily through dividends and share repurchases while maintaining Tier 1 commercial paper access, which we believe will facilitate appropriate financial flexibility and ready access to global capital and credit markets at favorable interest rates. However, see “Item 1A. Risk Factor…"
+   },
+   {
+    "chunk_id": "ch_0b81063c98c426ec",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 65,
+    "text": "Table of Contents Consolidated Statement of Cash Flows (continued) PepsiCo, Inc. and Subsidiaries Fiscal years ended December 31, 2022, December 25, 2021 and December 26, 2020 (in millions) 2022 2021 2020 Financing Activities Proceeds from issuances of long-term debt $ 3,377 $ 4,122 $ 13,809 Payments of long-term debt (2,458) (3,455) (1,830) Debt redemptions/cash tender offers (1,716) (4,844) (1,100) Short-term borrowings, by original maturity: More than three months - proceeds 1,969 8 4,077 More than three months - payments (1,951) (397) (3,554) Three months or less, net (31) 434 (109) Payments of acquisition-related contingent consideration — (773) — Cash dividends paid (6,172) (5,815) (5,509) Share repurchases - common (1,500) (106) (2,000) Proceeds from exercises of stock options 138 185 179 Withholding tax payments on restricted stock units (RSUs) and performance stock units (PSUs) converted (107) (92) (96) Other financing (72) (47) (48) Net Cash (Used for)/Provided by Financing A…"
+   },
+   {
+    "chunk_id": "ch_34840c001eadbe76",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 63,
+    "text": "Table of Contents Consolidated Statement of Comprehensive Income PepsiCo, Inc. and Subsidiaries Fiscal years ended December 31, 2022, December 25, 2021 and December 26, 2020 (in millions) 2022 2021 2020 Net income $ 8,978 $ 7,679 $ 7,175 Other comprehensive (loss)/income, net of taxes: Net currency translation adjustment (643) (369) (650) Net change on cash flow hedges (158) 155 7 Net pension and retiree medical adjustments 389 770 (532) Other 4 22 (1) (408) 578 (1,176) Comprehensive income 8,570 8,257 5,999 Less: Comprehensive income attributable to noncontrolling interests 64 61 55 Comprehensive Income Attributable to PepsiCo $ 8,506 $ 8,196 $ 5,944 See accompanying notes to the consolidated financial statements. 61"
+   },
+   {
+    "chunk_id": "ch_54bf5e6b14449e55",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 64,
+    "text": "Table of Contents Consolidated Statement of Cash Flows PepsiCo, Inc. and Subsidiaries Fiscal years ended December 31, 2022, December 25, 2021 and December 26, 2020 (in millions) 2022 2021 2020 Operating Activities Net income $ 8,978 $ 7,679 $ 7,175 Depreciation and amortization 2,763 2,710 2,548 Gain associated with the Juice Transaction (3,321) — — Impairment and other charges 3,618 — — Operating lease right-of-use asset amortization 517 505 478 Share-based compensation expense 343 301 264 Restructuring and impairment charges 411 247 289 Cash payments for restructuring charges (224) (256) (255) Acquisition and divestiture-related charges 80 (4) 255 Cash payments for acquisition and divestiture-related charges (46) (176) (131) Pension and retiree medical plan expenses 419 123 408 Pension and retiree medical plan contributions (384) (785) (562) Deferred income taxes and other tax charges and credits (873) 298 361 Tax expense related to the TCJ Act 86 190 — Tax payments related to the TC…"
+   }
+  ]
+ }
+}

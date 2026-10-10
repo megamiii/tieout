@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "working capital",
+  "ticker": "GLW",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_b938af896677441d",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Table of Contents LIQUIDITY AND CAPITAL RESOURCES Our financial condition and liquidity are strong. We are not aware of any known trends, demands, commitments, events or uncertainties that will result in or that are reasonably likely to result in a material decrease in our liquidity. In addition, other than items discussed, there are no known material trends, favorable or unfavorable, in our capital resources and no expected material changes in the mix of such resources. Our major source of funding for 2023 and beyond will be our operating cash flow, our existing balances of cash and cash equivalents and proceeds from any issuances of debt. We believe we have sufficient liquidity to fund operations, acquisitions, capital expenditures, scheduled debt repayments, dividend payments and share repurchase programs through 2023. We will continue to generate cash from operations and maintain access to our revolving credit facilities and commercial paper programs as discussed in more detail bel…"
+   },
+   {
+    "chunk_id": "ch_8d262c4878ef5e8f",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 66,
+    "text": "purchased, are considered cash equivalents. The carrying amount of these securities approximates fair value because of the short-term maturity of these instruments. The following table presents supplemental disclosures of cash flow information (in millions): Year ended December 31, 2022 2021 2020 Non-cash transactions: Accruals for capital expenditures $ 414 $ 357 $ 231 Cash paid for interest and income taxes: Interest (1) $ 275 $ 287 $ 298 Income taxes, net of refunds received $ 426 $ 377 $ 220 (1) Includes approximately $48 million, $36 million and $58 million of interest costs that were capitalized as part of property, plant and equipment during the year ended December 31, 2022, 2021 and 2020, respectively. Trade Accounts Receivable, net of Doubtful Accounts The allowance for doubtful accounts is based on the best estimate of the amount of probable lifetime credit losses in existing accounts receivable. The Company determines the allowance based on historical write-off experience an…"
+   },
+   {
+    "chunk_id": "ch_7a8e621e8942a1db",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 66,
+    "text": "straight-line method. The estimated useful lives generally range from 10 to 40 years for buildings and improvements and 2 to 20 years for equipment, excluding precious metals as discussed below. Interest on borrowings is capitalized during the active construction period of major capital projects, added to the cost of the underlying assets and amortized over the useful lives of the assets. 66"
+   },
+   {
+    "chunk_id": "ch_53559aab51a86631",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 37,
+    "text": "Capital expenditures were $1.6 billion, $1.6 billion and $1.4 billion during the years ended December 31, 2022, 2021 and 2020, respectively. We continue to invest in capacity expansions and new product lines across our businesses. We expect our 2023 capital expenditures to be consistent with 2022. Current Maturities of Short and Long-Term Debt As of December 31, 2022, we had $224 million of short-term borrowings that mature in less than one year. The maturity schedule of our existing long-term debt does not require significant cash outflows, with approximately $1.1 billion due over the next five years. Defined Benefit Pension Plans Our global pension plans, including our unfunded and non-qualified plans, were 82% funded as of December 31, 2022. Our largest single pension plan is our U.S. qualified plan, which accounted for 77% of our consolidated defined benefit pension plans' projected benefit obligation, was 93% funded as of December 31, 2022. The funded status of our pension plans i…"
+   },
+   {
+    "chunk_id": "ch_1970d9601902e5b1",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 88,
+    "text": "Table of Contents 12. Employee Retirement Plans (Continued) Plan Assets The Company's primary objective is to ensure the plan has sufficient return on assets to fund the plan's current and future obligations as they become due. Investments are primarily made in public securities to ensure adequate liquidity to support benefit payments. Domestic and international stocks provide diversification to the portfolio. The target allocation range equity investment is 40% which includes large, mid and small-cap companies and investments in both developed and emerging markets. The target allocation for bond investments is 60%, which predominately includes corporate bonds. Long-duration fixed income assets are utilized to mitigate the sensitivity of funding ratios to changes in interest rates. The following table presents the fair values of domestic defined benefit and post-retirement benefit plan assets, by asset category (in millions): December 31, 2022 December 31, 2021 Total Level 1 Level 2 Le…"
+   }
+  ]
+ }
+}

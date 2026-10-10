@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TYA08cEtn04nx9Vvd8FyUVQZPc6vS5FDAFWh2oG1qxRtDwQCH7dFIqGuKzEpNdwUvnnfYn9x2Ji78il7JVR/CT4hS6HT7ZNpi5mN5CEoE8vG97imYWX/NhVM="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"VZ\",\"fiscal_year\":2021,\"query\":\"1,959 1097 862 estimated future benefit payments pension health care and life\"}",
+        "name": "search_filings"
+       },
+       "id": "call_136847",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622969,
+  "id": "OP_JatvyJLGexN8P1OWrmQc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 54,
+   "prompt_tokens": 2947,
+   "total_tokens": 3001
+  }
+ }
+}

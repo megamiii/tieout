@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Note 8 Contracts with Customers disaggregated revenue product service Boeing 2022",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a22b6d9c61f38dbf",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 115,
+    "text": "Table of Contents BCA revenues by customer location consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: Asia $4,484 $2,792 $2,679 Europe 4,038 4,334 3,872 Middle East 2,003 1,098 1,647 Other non-U.S. 3,042 1,681 513 Total non-U.S. revenues 13,567 9,905 8,711 United States 12,167 9,472 7,899 Estimated potential concessions and other considerations to 737 MAX customers 16 14 (498) Total revenues from contracts with customers 25,750 19,391 16,112 Intersegment revenues, eliminated on consolidation 117 102 50 Total segment revenues $25,867 $19,493 $16,162 Revenue recognized on fixed-price contracts 100 % 100 % 100 % Revenue recognized at a point in time 100 % 100 % 100 % BDS revenues on contracts with customers, based on the customer's location, consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: U.S. customers $17,144 $19,869 $19,662 Non-U.S. customers 6,018 6,671 6,595 Total segme…"
+   },
+   {
+    "chunk_id": "ch_106a3b3674ea94d5",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 116,
+    "text": "Table of Contents BGS revenues consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: Commercial $9,560 $7,527 $6,936 Government 7,681 8,553 8,368 Total revenues from contracts with customers 17,241 16,080 15,304 Intersegment revenues eliminated on consolidation 370 248 239 Total segment revenues $17,611 $16,328 $15,543 Revenue recognized at a point in time 50 % 45 % 47 % Revenue recognized on fixed-price contracts 88 % 86 % 87 % Revenue from the U.S. government 33 % 40 % 41 % Includes revenues earned from foreign military sales through the U.S. government. Earnings in Equity Method Investments For the year ended December 31, 2022, our share of income from equity method investments was $56, primarily driven by investments held in Unallocated items, eliminations and other. For the years ended December 31, 2021 and 2020, our share of income from equity method investments was $40 and $86, primarily in our BDS segment. Backlog Our total b…"
+   },
+   {
+    "chunk_id": "ch_546f4f782dfeda1d",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 81,
+    "text": "recovered from units included in the program accounting quantity that represent expected future orders. We are currently producing at abnormally low rates resulting in abnormal production costs that are being expensed as incurred. We expensed abnormal production costs of $1,240 and $468 during the years ended December 31, 2022 and 2021. Commercial aircraft programs inventory included amounts credited in cash or other consideration (early issue sales consideration) to airline customers totaling $3,586 and $3,290 at December 31, 2022 and 2021. Note 8 – Contracts with Customers Unbilled receivables increased from $8,620 at December 31, 2021 to $8,634 at December 31, 2022, primarily driven by revenue recognized in excess of billings at BGS, partially offset by billings in excess of revenue recognized at BDS. Advances and progress billings increased from $52,980 at December 31, 2021 to $53,081 at December 31, 2022, primarily driven by advances on orders received at BCA, partially offset by …"
+   },
+   {
+    "chunk_id": "ch_da8398480128bdc0",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 64,
+    "text": "long-term contracts including the impact to Loss from operations from increases in estimated losses on unexercised options for the years ended December 31: 2022 2021 2020 Decrease to Revenue ($2,335) ($379) ($359) Increase to Loss from operations ($5,253) ($880) ($942) Decrease to Diluted EPS ($8.88) ($1.28) ($1.37) Significant adjustments during the three years ended December 31, 2022 included losses on VC-25B, KC-46A Tanker, MQ-25, Commercial Crew and T-7A Red Hawk programs. 60"
+   },
+   {
+    "chunk_id": "ch_ac04fe9c8014c63a",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 87,
+    "text": "Table of Contents Note 13 – Liabilities, Commitments and Contingencies Accrued Liabilities Accrued liabilities at December 31 consisted of the following: 2022 2021 Accrued compensation and employee benefit costs $6,351 $6,037 737 MAX grounding customer concessions and other considerations 1,864 2,940 Other customer concessions and considerations 1,102 240 Environmental 752 605 Product warranties 2,275 1,900 Forward loss recognition 4,060 2,014 Accrued interest payable 599 641 Current portion of lease liabilities 276 268 Current portion of retiree healthcare and pension liabilities 494 536 Other 3,808 3,274 Total $21,581 $18,455 737 MAX Grounding The following table summarizes changes in the 737 MAX customer concessions and other considerations liability during 2022 and 2021. 2022 2021 Beginning balance – January 1 $2,940 $5,537 Reductions for payments made (1,031) (2,535) Reductions for concessions and other in-kind considerations (29) (48) Changes in estimates (16) (14) Ending balance…"
+   }
+  ]
+ }
+}

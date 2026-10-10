@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TjKmnnMLibwwxwd9t7UtsxjkfGfjRYS28hAc6qk9cNWlIQcLczPj2wrbZJrDivJJt4vDJ+2bo6S6dWwqRRM786NB9WniWzlzcSKTI4ZpuKE+HAYO5bzF8sNw="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"answer\":\"In FY2022, Boeing's effective tax rate was (0.6)%, compared to 14.7% in FY2021.\",\"confidence\":1,\"citations\":[{\"quote\":\"Income tax expense/(benefit) $31 (0.6)% ($743) 14.7 %\",\"source_id\":\"ch_8235cd5783697122\"}],\"rationale\":\"The effective tax rates for 2022 and 2021 are explicitly given in the income tax reconciliation table in Note 4 (Income Taxes) of Boeing's FY2022 10-K.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_26271",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622088,
+  "id": "x_vJav2gG6uO28oPk8fdwAM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 171,
+   "prompt_tokens": 3347,
+   "total_tokens": 3518
+  }
+ }
+}

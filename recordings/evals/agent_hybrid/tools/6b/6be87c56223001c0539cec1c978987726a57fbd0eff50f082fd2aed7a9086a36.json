@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Performance Summary",
+  "ticker": "BBY",
+  "fiscal_year": 2019,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_c4a22e2b1caf3de1",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 77,
+    "text": "At February 2, 2019 , there was $102 million of unrecognized compensation expense related to nonvested time-based share awards that we expect to recognize over a weighted-average period of 1.8 years. Performance-Based Share Awards The fair value of performance-based share awards is determined based on the closing market price of our stock on the date of grant. This value is reduced by the present value of expected dividends during vesting when the employee is not entitled to dividends. A summary of the status of our nonvested performance-based share awards at February 2, 2019 , and changes during fiscal 2019 , were as follows: Performance-Based Share Awards Shares Weighted-Average Fair Value per Share Outstanding at February 3, 2018 685,000 $ 37.04 Granted 354,000 $ 72.11 Vested (217,000) $ 34.15 Forfeited/canceled (3,000) $ 72.05 Outstanding at February 2, 2019 819,000 $ 52.78 At February 2, 2019 , there was $21 million of unrecognized compensation expense related to nonvested perform…"
+   },
+   {
+    "chunk_id": "ch_4c466e4ff5bc2fc2",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 47,
+    "text": "Table of Contents Service Revenue Description We sell customers support plans as part of a bundled service offer which may include items such as technical support, extended warranty, anti-virus software and one-time service repairs. We allocate the transaction price to all performance obligations identified in the contract based on their relative fair value. For technical support membership contracts, we typically recognize revenue over time on a usage basis, an input method of measuring progress over the related contract term. This method is based on historical utilization patterns. Judgments and uncertainties involved in the estimate There is judgment in (1) determining the level at which we apply a portfolio approach to these contracts; and, (2) measuring the relative standalone selling price for performance obligations within these contracts to the extent that they are only bundled and sold to customers with other performance obligations, or alternatively, using a cost-plus margin …"
+   },
+   {
+    "chunk_id": "ch_9f430978c3f4c864",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 65,
+    "text": "measuring progress over the related contract term. This method is based on historical utilization patterns as this depicts when customers use the services and discounts provided and, accordingly, when delivery of the performance obligation occurs. There is judgment in (1) determining the level at which we apply a portfolio approach to these contracts; (2) measuring the relative standalone selling price for performance obligations within these contracts to the extent that they are only bundled and sold to customers with other performance obligations, or alternatively, using a cost-plus margin approach; and, (3) assessing the pattern of delivery across multiple portfolios of customers, including estimating current and future usage patterns. When insufficient history of usage is available, we generally recognize revenue ratably over the life of the contract. Services - When we are the agent We sell various hardware protection plans to customers that provide extended warranty coverage on t…"
+   },
+   {
+    "chunk_id": "ch_1c407f1f4f314a2b",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Table of Contents Consolidated Results The following table presents selected consolidated financial data for each of the past three fiscal years ($ in millions, except per share amounts): Consolidated Performance Summary 2019 2018 2017 Revenue $ 42,879 $ 42,151 $ 39,403 Revenue % increase (decrease) 1.7% 7.0% (0.3)% Comparable sales growth (1) 4.8% 5.6% 0.3 % Gross profit $ 9,961 $ 9,876 $ 9,440 Gross profit as a % of revenue (2) 23.2% 23.4% 24.0 % SG&A $ 8,015 $ 8,023 $ 7,547 SG&A as a % of revenue 18.7% 19.0% 19.2 % Restructuring charges $ 46 $ 10 $ 39 Operating income $ 1,900 $ 1,843 $ 1,854 Operating income as a % of revenue 4.4% 4.4% 4.7 % Net earnings from continuing operations $ 1,464 $ 999 $ 1,207 Gain from discontinued operations (3) $ — $ 1 $ 21 Net earnings $ 1,464 $ 1,000 $ 1,228 Diluted earnings per share from continuing operations $ 5.20 $ 3.26 $ 3.74 Diluted earnings per share $ 5.20 $ 3.26 $ 3.81 (1) The Canadian brand consolidation, which included the permanent closure…"
+   },
+   {
+    "chunk_id": "ch_1786f9b1e2e38025",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 78,
+    "text": "Table of Contents Earnings per Share We compute our basic earnings per share based on the weighted-average number of common shares outstanding, and our diluted earnings per share based on the weighted-average number of common shares outstanding adjusted by the number of additional shares that would have been outstanding had the potentially dilutive common shares been issued. Potentially dilutive securities include stock options, nonvested share awards and shares issuable under our employee stock purchase plan. Nonvested market-based share awards and nonvested performance-based share awards are included in the average diluted shares outstanding each period if established market or performance criteria have been met at the end of the respective periods. At February 2, 2019 , options to purchase 2.4 million shares of common stock were outstanding as follows (shares in millions): Exercisable Unexercisable Total Shares % Weighted- Average Price per Share Shares % Weighted- Average Price per…"
+   }
+  ]
+ }
+}

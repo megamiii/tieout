@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TzyL4aOlmKlqZLUTZYURFjQTJHSJNrqnladbLnN3GD4to/KvT63sXP/CwtxIEIi3vHQKdINkUBEc3gNcw7JmjiswtUkAuQ4wQai3zSiz49k6zsiKkkLdyQrE="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Consolidated Balance Sheets receivables Amcor\",\"fiscal_year\":2020,\"ticker\":\"AMCR\"}",
+        "name": "search_filings"
+       },
+       "id": "call_101547",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623209,
+  "id": "KADKatyJMIuJvdIPn8K22Ak",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 3223,
+   "total_tokens": 3262
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TpAS4i3soRNLbZwFRxWO18wUaTR1wwe53UcauENO1yvdaThnn0x5TlZZGAQDDM9VWQh86EMin6//Nkzfiz/BqL6X7V7K5vVjQyyA8OCqxcwFou36jjhz5UMg="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The answer details all production rate forecasts and changes mentioned in Boeing's FY2022 Form 10-K for FY2023 across the 787, 777X, 737, and 747 programs.\",\"citations\":[{\"quote\":\"The 787 program is currently producing at low rates and we expect to gradually increase to 5 per month in 2023.\",\"source_id\":\"ch_dacec146e187d286\"},{\"source_id\":\"ch_0a25c7e82e5729d4\",\"quote\":\"In April 2022, we decided to pause production of the 777X-9 during 2022 and 2023. The production pause is resulting in abnormal production costs that are being expensed as incurred until 777X-9 production resumes.\"},{\"source_id\":\"ch_dacec146e187d286\",\"quote\":\"Production of the 777X is currently paused and is expected to resume in 2023.\"},{\"source_id\":\"ch_fbe39bf0fbfa90e4\",\"quote\":\"We increased the production rate to 31 per month in 2022, and expect to implement further gradual production rate increases based on market demand and supply chain capacity.\"},{\"source_id\":\"ch_905a96bd7d7c6098\",\"quote\":\"We completed production of the 747 in the fourth quarter of 2022 and delivery of the last aircraft is expected to occur in early 2023.\"}],\"confidence\":1,\"answer\":\"For FY2023, Boeing forecasted the following production rate changes and plans across its commercial aircraft programs:\\n- **787 Program:** Expected to gradually increase production to 5 per month in 2023.\\n- **777X Program:** Production of the 777X-9, which was paused in April 2022, is expected to resume in 2023.\\n- **737 Program:** Having reached 31 per month in 2022, Boeing plans to implement further gradual production rate increases based on market demand and supply chain capacity.\\n- **747 Program:** Production was completed in the fourth quarter of 2022, with delivery of the final aircraft expected in early 2023.\",\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_53620",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621932,
+  "id": "K_vJapqJDrKIvdIP2PGL2QM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 585,
+   "prompt_tokens": 11561,
+   "total_tokens": 12146
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tip4+faFLIfIOizK/qvw8cw3h9KjcTAd39lQF/ASxrYSlldq58BfUdgpcnuxCVe+vhw9RcgUuaNdIXl99kMIgivm6vFUttmwbwVk7wL03MbNiYmHxWZgXMcY="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"Retrieved total current assets ($5,121.3 million) and total current liabilities ($7,491.5 million) as of May 31, 2020 from General Mills's Consolidated Balance Sheets. Dividing current assets by current liabilities yields 5,121.3 / 7,491.5 = 0.6836, which rounds to 0.68.\",\"answer\":\"For fiscal year 2020 (as of May 31, 2020), General Mills reported total current assets of $5,121.3 million and total current liabilities of $7,491.5 million. Dividing total current assets by total current liabilities gives a working capital ratio of 0.68.\",\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_63241075a35e108d\",\"quote\":\"Total current assets 5,121.3\"},{\"quote\":\"Total current liabilities 7,491.5\",\"source_id\":\"ch_63241075a35e108d\"}],\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_117091",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623103,
+  "id": "vv_Jav2LJPSxvdIPrr7q-AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 281,
+   "prompt_tokens": 3964,
+   "total_tokens": 4245
+  }
+ }
+}

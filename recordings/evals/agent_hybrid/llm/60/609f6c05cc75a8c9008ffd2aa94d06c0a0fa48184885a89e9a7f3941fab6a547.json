@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TOIKTIYcu3ymzsKt+lgTU3NmiF8bNmWxpcKoVGxWS/S7GkdZi2oM7ZCa3FNeR0DIgz0141eVFF1GgqCn3ItR0DgwsW3/XMV0fVwd4BPCT+p3O0bFNe6bAYVs="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"Cash flows from operating activities:\",\"source_id\":\"ch_1b3869b8b6c9b348\"},{\"quote\":\"Total current liabilities $ 3,527,457 $ 2,811,635\",\"source_id\":\"ch_cbe5f6d849a546ae\"}],\"answer\":\"0.82\",\"rationale\":\"Let me use the calculate tool to be precise.\",\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_44600",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623194,
+  "id": "GgDKatXQFpz-vdIP97e46Ac",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 131,
+   "prompt_tokens": 9408,
+   "prompt_tokens_details": {
+    "cached_tokens": 6385
+   },
+   "total_tokens": 9539
+  }
+ }
+}

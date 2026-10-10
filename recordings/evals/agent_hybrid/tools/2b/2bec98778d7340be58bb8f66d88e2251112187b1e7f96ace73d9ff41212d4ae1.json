@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Balance Sheets Verizon Communications Inc. and Subsidiaries",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_ea0920e289967f57",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 58,
+    "text": "Consolidated Statements of Changes in Equity Verizon Communications Inc. and Subsidiaries (dollars in millions, except per share amounts, and shares in thousands) Years Ended December 31, 2022 2021 2020 Shares Amount Shares Amount Shares Amount Common Stock Balance at beginning of year 4,291,434 $ 429 4,291,434 $ 429 4,291,434 $ 429 Balance at end of year 4,291,434 429 4,291,434 429 4,291,434 429 Additional Paid In Capital Balance at beginning of year 13,861 13,404 13,419 Other (Note 14) (441) 457 (15) Balance at end of year 13,420 13,861 13,404 Retained Earnings Balance at beginning of year 71,993 60,464 53,147 Opening balance sheet adjustment (Note 1) — — (200) Adjusted opening balance 71,993 60,464 52,947 Net income attributable to Verizon 21,256 22,065 17,801 Dividends declared ($2.585, $2.535, $2.485 per share) (10,860) (10,532) (10,284) Other (9) (4) — Balance at end of year 82,380 71,993 60,464 Accumulated Other Comprehensive Income (Loss) Balance at beginning of year attributab…"
+   },
+   {
+    "chunk_id": "ch_54dcad0b04037d12",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Consolidated Balance Sheets Verizon Communications Inc. and Subsidiaries (dollars in millions, except per share amounts) At December 31, 2022 2021 Assets Current assets Cash and cash equivalents $ 2,605 $ 2,921 Accounts receivable 25,332 24,742 Less Allowance for credit losses 826 896 Accounts receivable, net 24,506 23,846 Inventories 2,388 3,055 Prepaid expenses and other 8,358 6,906 Total current assets 37,857 36,728 Property, plant and equipment 307,689 289,897 Less Accumulated depreciation 200,255 190,201 Property, plant and equipment, net 107,434 99,696 Investments in unconsolidated businesses 1,071 1,061 Wireless licenses 149,796 147,619 Goodwill 28,671 28,603 Other intangible assets, net 11,461 11,677 Operating lease right-of-use assets 26,130 27,883 Other assets 17,260 13,329 Total assets $ 379,680 $ 366,596 Liabilities and Equity Current liabilities Debt maturing within one year $ 9,963 $ 7,443 Accounts payable and accrued liabilities 23,977 24,833 Current operating lease liab…"
+   },
+   {
+    "chunk_id": "ch_ead02b5c693a4080",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 52,
+    "text": "Report of Independent Registered Public Accounting Firm To the Shareholders and the Board of Directors of Verizon Communications Inc.: Opinion on the Financial Statements We have audited the accompanying consolidated balance sheets of Verizon Communications Inc. and subsidiaries (Verizon or the Company) as of December 31, 2022 and 2021, the related consolidated statements of income, comprehensive income, cash flows, and changes in equity for each of the three years in the period ended December 31, 2022, and the related notes and the financial statement schedule listed in the Index at Item 15(a) (collectively referred to as the \"consolidated financial statements\"). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of Verizon at December 31, 2022 and 2021, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2022, in conformity with U.S. generally accepted acc…"
+   },
+   {
+    "chunk_id": "ch_c59f8e387d40178e",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 51,
+    "text": "Item 8. Financial Statements and Supplementary Data Report of Independent Registered Public Accounting Firm To the Shareholders and the Board of Directors of Verizon Communications Inc.: Opinion on Internal Control Over Financial Reporting We have audited Verizon Communications Inc. and subsidiaries' (Verizon) internal control over financial reporting as of December 31, 2022, based on criteria established in Internal Control – Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission (2013 framework) (the COSO criteria). In our opinion, Verizon maintained, in all material respects, effective internal control over financial reporting as of December 31, 2022, based on the COSO criteria. We also have audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB), the consolidated balance sheets of Verizon as of December 31, 2022 and 2021, the related consolidated statements of income, comprehensi…"
+   },
+   {
+    "chunk_id": "ch_cbacdb0a61125bcd",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 59,
+    "text": "Notes to Consolidated Financial Statements Verizon Communications Inc. and Subsidiaries Note 1. Description of Business and Summary of Significant Accounting Policies Description of Business Verizon Communications Inc. (the Company) is a holding company that, acting through its subsidiaries (together with the Company, collectively, Verizon), is one of the world's leading providers of communications, technology, information and entertainment products and services to consumers, businesses and government entities. With a presence around the world, we offer data, video and voice services and solutions on our networks and platforms that are designed to meet customers' demand for mobility, reliable network connectivity, security and control. We have two reportable segments that we operate and manage as strategic business units - Verizon Consumer Group (Consumer) and Verizon Business Group (Business). Our Consumer segment provides consumer-focused wireless and wireline communications services…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T5iJh2EL0vQozOxmIiyvkd09spkDNTrYKuK2gLOv3ZFUdyo94AVJHcdpJoMPHuMn6OLgMk8JMukPKQExj4JgXUZt4kHqW0pEESvGs0p4yuBX789QyDEa0prU="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BA\",\"query\":\"U.S. government customers defense space security\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_50823",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622778,
+  "id": "ev7JatvDA871xN8P4enT8A4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 4457,
+   "total_tokens": 4497
+  }
+ }
+}

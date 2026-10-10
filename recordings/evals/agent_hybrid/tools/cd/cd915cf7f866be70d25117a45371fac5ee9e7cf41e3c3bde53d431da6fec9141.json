@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Current liabilities Trade payables Current portion of long-term debt Short-term debt",
+  "ticker": "AMCR",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a8fa4b05a386f97a",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 74,
+    "text": "Note 11 - Fair Value Measurements The fair values of the Company's financial assets and financial liabilities listed below reflect the amounts that would be received to sell the assets or paid to transfer the liabilities in an orderly transaction between market participants at the measurement date (exit price). The Company's non-derivative financial instruments primarily include cash and cash equivalents, trade receivables, trade payables, short-term debt, and long-term debt. At June 30, 2023, and 2022, the carrying value of these financial instruments, excluding long-term debt, approximated fair value because of the short-term nature of these instruments. Fair value disclosures are classified based on the fair value hierarchy. See Note 2, \"Significant Accounting Policies,\" for information about the Company's fair value hierarchy. The carrying value of long-term debt with variable interest rates approximates its fair value. The fair value of the Company's long-term debt with fixed inte…"
+   },
+   {
+    "chunk_id": "ch_2adfc64d2809a426",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 87,
+    "text": "Short-Term Debt Short-term debt is generally used to fund working capital requirements. The Company has classified commercial paper as long-term as of June 30, 2023, in accordance with the Company's ability and intent to refinance such obligations on a long-term basis. The following table summarizes the carrying value of short-term debt as of June 30, 2023, and 2022, respectively: June 30, ($ in millions) 2023 2022 Bank loans $ 13 $ 32 Bank overdrafts 67 104 Total short-term debt $ 80 $ 136 As of June 30, 2023, the Company paid a weighted-average interest rate of 3.98% per annum on short-term debt, payable at maturity. As of June 30, 2022, the Company paid a weighted-average interest rate of 1.40% per annum, payable at maturity. 87"
+   },
+   {
+    "chunk_id": "ch_5c7a21a19635b979",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 85,
+    "text": "$ 6,653 $ 6,340 (1) Indicates debt which has been classified as long-term liabilities in accordance with the Company's ability and intent to refinance such obligations on a long-term basis. (2) Includes other loans of $12 million and nil for June 30, 2023, and 2022, respectively, which have been classified as long-term liabilities in accordance with the Company's ability and intent to refinance such obligations on a long-term basis. (3) On March 22, 2023, the Company redeemed Euro bonds of €300 million at maturity. The redemption was funded with commercial paper. (4) On May 26, 2023, the Company issued U.S. dollar notes with an aggregate principal amount of $500 million and a contractual maturity in May 2033. The notes pay a coupon of 5.63% per annum, payable semi-annually in arrears. The notes are unsecured senior obligations of the Company and are fully and unconditionally guaranteed by the Company and certain of its subsidiaries. (5) Relates to fair value hedge basis adjustments rel…"
+   },
+   {
+    "chunk_id": "ch_9ee1a91248dedfa8",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 85,
+    "text": "Note 14 - Debt Long-Term Debt The following table summarizes the carrying value of long-term debt as of June 30, 2023, and 2022, respectively: June 30, ($ in millions) Maturities Interest rates 2023 2022 Term debt Euro bonds, €300 million (1)(3) Mar 2023 2.75 % $ — $ 313 U.S. dollar notes, $500 million May 2025 4.00 % 500 500 U.S. dollar notes, $600 million Apr 2026 3.63 % 600 600 U.S. dollar notes, $300 million Sep 2026 3.10 % 300 300 Euro bonds, €500 million Jun 2027 1.13 % 543 522 U.S. dollar notes, $500 million May 2028 4.50 % 500 500 U.S. dollar notes, $500 million Jun 2030 2.63 % 500 500 U.S. dollar notes, $800 million May 2031 2.69 % 800 800 U.S. dollar notes, $500 million (4) May 2033 5.63 % 500 — Total term debt 4,243 4,035 Bank loans 22 22 Commercial paper (1) 2,445 2,310 Other loans (2) 33 18 Finance lease obligations 50 62 Fair value hedge accounting adjustments (5) (96) (69) Unamortized discounts and debt issuance costs (31) (24) Total debt 6,666 6,354 Less: current portio…"
+   },
+   {
+    "chunk_id": "ch_0844fc67e3d39a4b",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 107,
+    "text": "Deed of Cross Guarantee Consolidated Balance Sheets ($ in millions) As of June 30, 2023 2022 Assets Current assets: Cash and cash equivalents $ 54 $ 68 Receivables, net 342 662 Inventories 60 71 Prepaid expenses and other current assets 21 19 Total current assets 477 820 Non-current assets: Property, plant, and equipment, net 60 63 Deferred tax assets 6 26 Other intangible assets, net 13 12 Goodwill 88 91 Other non-current assets 13,308 14,039 Total non-current assets 13,475 14,231 Total assets $ 13,952 $ 15,051 Liabilities Current liabilities: Short-term debt $ 826 $ 901 Payables 153 162 Accrued employee costs 23 21 Other current liabilities 143 191 Total current liabilities 1,145 1,275 Non-current liabilities: Long-term debt, less current portion — 319 Other non-current liabilities 2 2 Total liabilities 1,147 1,596 Shareholders' Equity Issued capital 14 15 Additional paid-in capital 4,829 5,239 Retained earnings 6,937 7,167 Accumulated other comprehensive income 1,025 1,034 Total sha…"
+   }
+  ]
+ }
+}

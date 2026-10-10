@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Cash Flows dividends paid net income",
+  "ticker": "GIS",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_29eaf1f1d6233ca9",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 27,
+    "text": "$74 million in fiscal 2021. During fiscal 2022, we repurchased 14 million shares of our common stock for $877 million. During fiscal 2021, we repurchased 5 million shares of our common stock for $301 million. Dividends paid in fiscal 2022 totaled $1,244 million, or $2.04 per share. Dividends paid in fiscal 2021 totaled $1,246 million, or $2.02 per share. Selected Cash Flows from Joint Ventures Selected cash flows from our joint ventures are set forth in the following table: Fiscal Year Inflow (Outflow), in Millions 2022 2021 Investments in affiliates, net $ 15.4 $ 15.5 Dividends received 107.5 95.2 The following table details the fee-paid committed and uncommitted credit lines we had available as of May 29, 2022: In Billions Facility Amount Borrowed Amount Credit facility expiring: April 2026 $ 2.7 $ - Total committed credit facilities 2.7 - Uncommitted credit facilities 0.6 0.1 Total committed and uncommitted credit facilities $ 3.3 $ 0.1 To ensure availability of funds, we maintain b…"
+   },
+   {
+    "chunk_id": "ch_0bb9df12ce938cb2",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 27,
+    "text": "27 Cash Flows from Financing Activities Fiscal Year In Millions 2022 2021 Change in notes payable $ 551.4 $ 71.7 Issuance of long-term debt 2,203.7 1,576.5 Payment of long-term debt (3,140.9) (2,609.0) Debt exchange participation incentive cash payment - (201.4) Proceeds from common stock issued on exercised options 161.7 74.3 Purchases of common stock for treasury (876.8) (301.4) Dividends paid (1,244.5) (1,246.4) Distributions to redeemable and noncontrolling interest holders (129.8) (48.9) Other, net (28.0) (30.9) Net cash used by financing activities $ (2,503.2) $ (2,715.5) Financing activities used $2.5 billion of cash in fiscal 2022 compared to $2.7 billion in fiscal 2021. We had $386 million of net debt repayments in fiscal 2022 compared to $961 million of net debt repayments in fiscal 2021. In addition, we paid a participation incentive of $201 million related to a debt exchange in fiscal 2021. For more information on our debt issuances and payments, please refer to Note 9 to t…"
+   },
+   {
+    "chunk_id": "ch_3c0994512dfabf7d",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 49,
+    "text": "(460.8) Acquisition (1,201.3) - - Investments in affiliates, net 15.4 15.5 (48.0) Proceeds from disposal of land, buildings, and equipment 3.3 2.7 1.7 Proceeds from divestitures, net of cash divested 74.1 2.9 - Other, net (13.5) (3.1) 20.9 Net cash used by investing activities (1,690.7) (512.8) (486.2) Cash Flows - Financing Activities Change in notes payable 551.4 71.7 (1,158.6) Issuance of long-term debt 2,203.7 1,576.5 1,638.1 Payment of long-term debt (3,140.9) (2,609.0) (1,396.7) Debt exchange participation incentive cash payment - (201.4) - Proceeds from common stock issued on exercised options 161.7 74.3 263.4 Purchases of common stock for treasury (876.8) (301.4) (3.4) Dividends paid (1,244.5) (1,246.4) (1,195.8) Distributions to noncontrolling and redeemable interest holders (129.8) (48.9) (72.5) Other, net (28.0) (30.9) (16.0) Net cash used by financing activities (2,503.2) (2,715.5) (1,941.5) Effect of exchange rate changes on cash and cash equivalents (58.0) 72.5 (20.7) (De…"
+   },
+   {
+    "chunk_id": "ch_64719ce882bfc62f",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 18,
+    "text": "18 increased 4 percent on a constant-currency basis (See the “Non-GAAP Measures” section below for a description of our use of measures not defined by generally accepted accounting principles (GAAP)). Net cash provided by operations totaled $3.3 billion in fiscal 2022 representing a conversion rate of 121 percent of net earnings, including earnings attributable to redeemable and noncontrolling interests. This cash generation supported capital investments totaling $569 million, and our resulting free cash flow was $2.7 billion at a conversion rate of 113 percent of adjusted net earnings, including earnings attributable to redeemable and noncontrolling interests. We returned cash to shareholders through dividends totaling $1.2 billion and net share repurchases totaling $715 million. Our ratio of net debt-to-operating cash flow was 3.3 in fiscal 2022, and our net debt-to-adjusted earnings before net interest, income taxes, depreciation and amortization (net debt-to-adjusted EBITDA) ratio …"
+   },
+   {
+    "chunk_id": "ch_d19654b9ccdde5a3",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 88,
+    "text": "88 Certain Consolidated Statements of Cash Flows amounts are as follows: Fiscal Year In Millions 2022 2021 2020 Cash interest payments $ 357.8 $ 412.5 $ 418.5 Cash paid for income taxes 545.3 636.1 403.3 NOTE 19. QUARTERLY DATA (UNAUDITED) Summarized quarterly data for fiscal 2022 and fiscal 2021 follows: First Quarter Second Quarter Third Quarter Fourth Quarter Fiscal Year Fiscal Year Fiscal Year Fiscal Year In Millions, Except Per Share Amounts 2022 2021 2022 2021 2022 2021 2022 2021 Net sales $ 4,539.9 $ 4,364.0 $ 5,024.0 $ 4,719.4 $ 4,537.7 $ 4,520.0 $ 4,891.2 $ 4,523.6 Gross margin 1,597.4 1,590.4 1,631.2 1,721.1 1,403.7 1,553.9 1,769.9 1,582.9 Net earnings attributable to General Mills 627.0 638.9 597.2 688.4 660.3 595.7 822.8 416.8 EPS: Basic $ 1.03 $ 1.04 $ 0.98 $ 1.12 $ 1.09 $ 0.97 $ 1.36 $ 0.68 Diluted $ 1.02 $ 1.03 $ 0.97 $ 1.11 $ 1.08 $ 0.96 $ 1.35 $ 0.68 In the fourth quarter of fiscal 2022, we recorded an additional gain on the sale of our interests in Yoplait SAS, Yoplai…"
+   }
+  ]
+ }
+}

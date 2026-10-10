@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TUpA9XRaKcMLaEaJdrtGKI7TNTv1vpcoY6KttFSxNN2hNJu0L4WqLXhFQfonccErlyeDKuz4hWv8iLwkDXyeU6UmVm9bPrKwrGliG27W652WT96b6E0YTUeg="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"citations\":[{\"quote\":\"Market conditions have a significant impact on demand for our commercial aircraft and related services. The commercial aircraft market is predominantly driven by long-term trends in airline passenger and cargo traffic.\",\"source_id\":\"ch_7e0487cb0613fc4c\"},{\"quote\":\"In order to help account for economic fluctuations between the contract date and delivery date, aircraft pricing generally consists of a fixed amount as modified by price escalation formulas derived from labor, commodity and other price indices.\",\"source_id\":\"ch_e0c1aff98930524a\"},{\"source_id\":\"ch_594ec8ab69ce3660\",\"quote\":\"The industry remains vulnerable to exogenous developments including fuel price spikes, credit market shocks, acts of terrorism, natural disasters, conflicts, epidemics, pandemics and increased global environmental regulations.\"}],\"confidence\":1,\"rationale\":\"Boeing's 10-K explicitly details the vulnerability of its commercial business to economic fluctuations, market conditions, and exogenous shocks.\",\"answer\":\"Yes, Boeing's business—particularly its Commercial Airplanes segment—is subject to market conditions, economic fluctuations, and cyclical trends. Demand for commercial aircraft depends heavily on long-term passenger and cargo traffic growth, sustained economic growth, airline profitability, and aircraft financing availability, which experience cyclical downturns and vulnerability to exogenous shocks like pandemics, fuel price spikes, and credit shocks.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_30220",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621904,
+  "id": "D_vJaryXLbCo28oPuPbrgQY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 330,
+   "prompt_tokens": 8621,
+   "prompt_tokens_details": {
+    "cached_tokens": 6408
+   },
+   "total_tokens": 8951
+  }
+ }
+}

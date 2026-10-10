@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_b06f4175b6f62447",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 105,
+    "text": "Note 15. Additional Financial Information The following tables provide additional financial information related to our consolidated financial statements: Income Statement Information (dollars in millions) Years Ended December 31, 2022 2021 2020 Depreciation expense $ 14,592 $ 14,119 $ 14,275 Interest costs on debt balances 5,429 5,148 4,632 Net amortization of debt discount 214 178 170 Capitalized interest costs (2,030) (1,841) (555) Advertising expense 3,556 3,394 3,107 (dollars in millions) Years Ended December 31, 2022 2021 2020 Other income (expense), net Interest income $ 146 $ 48 $ 65 Other components of net periodic benefit (cost) income 2,386 3,785 (425) Net debt extinguishment losses (1,077) (3,541) (129) Other, net (82) 20 (50) $ 1,373 $ 312 $ (539) Balance Sheet Information (dollars in millions) At December 31, 2022 2021 Prepaid expenses and other Prepaid taxes $ 167 $ 1,093 Deferred contract costs 2,629 2,432 Collateral payments related to derivative contracts 2,286 21 Rest…"
+   },
+   {
+    "chunk_id": "ch_2a911876e5ee5747",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 104,
+    "text": "(431) (25) (651) (938) Balance at December 31, 2022 $ (698) $ (1,150) $ (431) $ (9) $ 423 $ (1,865) The amounts presented above in Net other comprehensive income (loss) are net of taxes. The amounts reclassified to net income related to unrealized gain (loss) on cash flow hedges and unrealized loss on fair value hedges in the table above are included in Other income (expense), net and Interest expense in our consolidated statements of income. See Note 9 for additional information. The amounts reclassified to net income related to unrealized gain (loss) on marketable securities in the table above are included in Other income (expense), net in our consolidated statements of income. The amounts reclassified to net income related to defined benefit pension and postretirement plans in the table above are included in Other income (expense), net in our consolidated statements of income. See Note 11 for additional information. Verizon 2022 Annual Report on Form 10-K 104"
+   },
+   {
+    "chunk_id": "ch_ead02b5c693a4080",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 52,
+    "text": "Report of Independent Registered Public Accounting Firm To the Shareholders and the Board of Directors of Verizon Communications Inc.: Opinion on the Financial Statements We have audited the accompanying consolidated balance sheets of Verizon Communications Inc. and subsidiaries (Verizon or the Company) as of December 31, 2022 and 2021, the related consolidated statements of income, comprehensive income, cash flows, and changes in equity for each of the three years in the period ended December 31, 2022, and the related notes and the financial statement schedule listed in the Index at Item 15(a) (collectively referred to as the \"consolidated financial statements\"). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of Verizon at December 31, 2022 and 2021, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2022, in conformity with U.S. generally accepted acc…"
+   },
+   {
+    "chunk_id": "ch_8e941954398ae4ce",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 104,
+    "text": "The changes in the balances of Accumulated other comprehensive income (loss) by component are as follows: (dollars in millions) Foreign currency translation adjustments Unrealized gain (loss) on cash flow hedges Unrealized loss on fair value hedges Unrealized gain (loss) on marketable securities Defined benefit pension and postretirement plans Total Balance at January 1, 2020 $ (584) $ (816) $ — $ 27 $ 2,371 $ 998 Other comprehensive income 180 953 — 7 — 1,140 Amounts reclassified to net income — (1,524) — (9) (676) (2,209) Net other comprehensive income (loss) 180 (571) — (2) (676) (1,069) Balance at December 31, 2020 (404) (1,387) — 25 1,695 (71) Other comprehensive loss (141) (1,318) — (8) — (1,467) Amounts reclassified to net income — 1,233 — (1) (621) 611 Net other comprehensive income (loss) (141) (85) — (9) (621) (856) Balance at December 31, 2021 (545) (1,472) — 16 1,074 (927) Excluded components recognized in other comprehensive income — — (371) — — (371) Other comprehensive l…"
+   },
+   {
+    "chunk_id": "ch_c0e9b038152c4eef",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 62,
+    "text": "Advertising Costs Costs for advertising products and services, as well as other promotional and sponsorship costs, are charged to Selling, general and administrative expense in the periods in which they are incurred. See Note 15 for additional information. Earnings Per Common Share Basic earnings per common share are based on the weighted-average number of shares outstanding during the period. Where appropriate, diluted earnings per common share include the dilutive effect of shares issuable under our stock-based compensation plans. There were a total of approximately 1.9 million, 1.7 million and 2.0 million outstanding dilutive securities, primarily consisting of restricted stock units, included in the computation of diluted earnings per common share for the years ended December 31, 2022, 2021, and 2020, respectively. Cash, Cash Equivalents and Restricted Cash We consider all highly liquid investments with an original maturity of 90 days or less when purchased to be cash equivalents. …"
+   }
+  ]
+ }
+}

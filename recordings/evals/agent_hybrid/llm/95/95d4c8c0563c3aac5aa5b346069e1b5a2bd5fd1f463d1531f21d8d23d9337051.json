@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TWKGj8kr47isf9s3YO5qKA9/m1uxvQQM7L7yvpErzAo4/zTpfQjqmc9WRcyTW6LuvNWSt5xf+c2iOfKWdt4E1d5BI+0VGB1oceSH3cM05eBzQLpU81EgDI9E="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BBY\",\"query\":\"gross profit margin percentage\",\"fiscal_year\":2023}",
+        "name": "search_filings"
+       },
+       "id": "call_55818",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622165,
+  "id": "FfzJas7lHpz-vdIP97e46Ac",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 36,
+   "prompt_tokens": 1605,
+   "total_tokens": 1641
+  }
+ }
+}

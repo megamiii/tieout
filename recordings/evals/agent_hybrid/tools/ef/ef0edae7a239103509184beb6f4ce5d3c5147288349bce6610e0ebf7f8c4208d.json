@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Year ended June 30, 2022",
+  "ticker": "AMCR",
+  "fiscal_year": 2023,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a25955eb11fb304e",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 81,
+    "text": "Changes in benefit obligations and plan assets were as follows: ($ in millions) June 30, 2023 June 30, 2022 Change in benefit obligation: Benefit obligation at the beginning of the year $ 1,314 $ 2,022 Service cost 13 24 Interest cost 49 39 Participant contributions 6 6 Actuarial gain (90) (341) Settlements (27) (244) Benefits paid (62) (70) Administrative expenses (4) (6) Plan amendments (4) 1 Divestitures — (4) Other (2) — Foreign currency translation 31 (113) Benefit obligation at the end of the year $ 1,224 $ 1,314 Accumulated benefit obligation at the end of the year $ 1,186 $ 1,269 Change in plan assets: Fair value of plan assets at the beginning of the year $ 1,195 $ 1,759 Actual return on plan assets (100) (189) Employer contributions 26 35 Participant contributions 6 6 Benefits paid (62) (70) Settlements (27) (244) Administrative expenses (4) (6) Foreign currency translation 27 (96) Fair value of plan assets at the end of the year $ 1,061 $ 1,195 Funded status at the end of th…"
+   },
+   {
+    "chunk_id": "ch_fb7329770034d18a",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 102,
+    "text": "The tables below present additional financial information by reportable segments: Capital expenditures for the acquisition of long-lived assets by reportable segment were: Years ended June 30, ($ in millions) 2023 2022 2021 Flexibles $ 384 $ 376 $ 336 Rigid Packaging 133 136 127 Other 9 15 5 Total capital expenditures for the acquisition of long-lived assets $ 526 $ 527 $ 468 Depreciation and amortization by reportable segment were: Years ended June 30, ($ in millions) 2023 2022 2021 Flexibles $ 436 $ 450 $ 447 Rigid Packaging 125 120 115 Other 8 9 10 Total depreciation and amortization $ 569 $ 579 $ 572 Total assets by segment is not disclosed as the Company's Chief Operating Decision Maker does not use total assets by segment to evaluate segment performance or allocate resources and capital. The Company did not have sales to a single customer that exceeded 10% of consolidated net sales for the fiscal years ended June 30, 2023, 2022, and 2021, respectively. Sales by major product were…"
+   },
+   {
+    "chunk_id": "ch_108ee5ffc2ded41e",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 91,
+    "text": "The changes in the components of accumulated other comprehensive loss during the fiscal years ended June 30, 2023, 2022, and 2021 were as follows: Foreign Currency Translation Net Investment Hedge Pension Effective Derivatives Total Accumulated Other Comprehensive Loss ($ in millions) (Net of Tax) (Net of Tax) (Net of Tax) (Net of Tax) Balance as of June 30, 2020 $ (896) $ (13) $ (106) $ (34) $ (1,049) Other comprehensive income before reclassifications 179 — 44 25 248 Amounts reclassified from accumulated other comprehensive loss 26 — 8 1 35 Net current period other comprehensive income 205 — 52 26 283 Balance as of June 30, 2021 (691) (13) (54) (8) (766) Other comprehensive income / (loss) before reclassifications (220) — 85 6 (129) Amounts reclassified from accumulated other comprehensive loss 19 — 9 (13) 15 Net current period other comprehensive income / (loss) (201) — 94 (7) (114) Balance as of June 30, 2022 (892) (13) 40 (15) (880) Other comprehensive loss before reclassification…"
+   },
+   {
+    "chunk_id": "ch_01940dd6717f0a03",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 82,
+    "text": "The following table provides information as to how the funded status is recognized in the consolidated balance sheets: ($ in millions) June 30, 2023 June 30, 2022 Non-current assets - Employee benefit assets $ 67 $ 89 Current liabilities - Other current liabilities (6) (7) Non-current liabilities - Employee benefit obligations (224) (201) Funded status $ (163) $ (119) Amounts recognized in other comprehensive (income)/loss for the fiscal years ended are as follows: Years ended June 30, ($ in millions) 2023 2022 2021 Changes in plan assets and benefit obligations recognized in other comprehensive (income)/loss: Net actuarial loss/(gain) occurring during the year $ 65 $ (91) $ (58) Net prior service loss/(gain) occurring during the year (4) 1 (16) Amortization of actuarial loss (2) (5) (8) Gain recognized due to settlement/curtailment (4) (8) (2) Amortization of prior service credit 3 3 2 Acquisition/disposal loss — (1) — Foreign currency translation 3 (14) 16 Tax effect (11) 21 14 Total…"
+   },
+   {
+    "chunk_id": "ch_23f2e82694d1d13d",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 97,
+    "text": "Outstanding at June 30, 2022 1 $ 11.41 11 $ 7.79 4 $ 10.90 Granted 1 11.91 4 8.18 2 10.90 Exercised (1) 11.16 (3) 6.65 (2) 10.26 Forfeited — — (1) 7.46 — — Outstanding at June 30, 2023 1 $ 11.67 11 $ 8.20 4 $ 11.22 Fair value vested ($ in millions) Restricted share units Performance rights/shares Share rights Year Ended June 30, 2023 $ 2 $ 16 $ 20 Year Ended June 30, 2022 3 8 7 Year Ended June 30, 2021 3 3 5 97"
+   }
+  ]
+ }
+}

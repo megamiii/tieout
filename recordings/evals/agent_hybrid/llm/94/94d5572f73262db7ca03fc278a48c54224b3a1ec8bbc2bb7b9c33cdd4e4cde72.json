@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T854wv16boq9NScF1UpGGMZJv6hbhQUOJwVEtlSSk9kubOBRvOMWgH0YTBHmPDDoWsPkSIXN+rCqCPleBcMKMxIiGtot+cIc6JhOlmlGdOMMBhkjPWiNYW+Q="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"CVS\",\"fiscal_year\":2022,\"query\":\"Note 12 Shareholders' Equity CVS Health Corporation common stock dividends\"}",
+        "name": "search_filings"
+       },
+       "id": "call_131492",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622702,
+  "id": "Lv7Jarf0DOmH28oPvLehoA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 10278,
+   "prompt_tokens_details": {
+    "cached_tokens": 8114
+   },
+   "total_tokens": 10323
+  }
+ }
+}

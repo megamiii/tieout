@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Operations CVS Health Corporation",
+  "ticker": "CVS",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_48ce69d3c574d90d",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 308,
+    "text": "Notes to Consolidated Financial Statements 1. Significant Accounting Policies Description of business CVS Health Corporation, together with its subsidiaries (collectively, “CVS Health,” the “Company,” “we,” “our” or “us”), is the nation's premier health innovation company helping people on their path to better health. Whether in one of its pharmacies or through its health services and plans, CVS Health is pioneering a bold new approach to total health by making quality care more affordable, accessible, simple and seamless. CVS Health is community-based and locally focused, engaging consumers with the care they need when and where they need it. The Company has more than 9,900 retail locations, approximately 1,100 walk-in medical clinics, a leading pharmacy benefits manager with approximately 92 million plan members, a dedicated senior pharmacy care business serving more than one million patients per year, expanding specialty pharmacy services, and a leading stand-alone Medicare Part D p…"
+   },
+   {
+    "chunk_id": "ch_2adc5144fa70cd1e",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 265,
+    "text": "Exhibit 13.1 Management's Discussion and Analysis of Financial Condition and Results of Operations The following discussion and analysis should be read in conjunction with the audited consolidated financial statements and Cautionary Statement Concerning Forward-Looking Statements that are included in this Annual Report. Overview of Business CVS Health Corporation, together with its subsidiaries (collectively, “CVS Health,” the “Company,” “we,” “our” or “us”), is the nation's premier health innovation company helping people on their path to better health. Whether in one of its pharmacies or through its health services and plans, CVS Health is pioneering a bold new approach to total health by making quality care more affordable, accessible, simple and seamless. CVS Health is community-based and locally focused, engaging consumers with the care they need when and where they need it. The Company has more than 9,900 retail locations, approximately 1,100 walk-in medical clinics, a leading ph…"
+   },
+   {
+    "chunk_id": "ch_246a6db1546189c4",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 377,
+    "text": "Report of Independent Registered Public Accounting Firm To the Shareholders and the Board of Directors of CVS Health Corporation Opinion on the Financial Statements We have audited the accompanying consolidated balance sheets of CVS Health Corporation (the Company) as of December 31, 2018 and 2017, the related consolidated statements of operations, comprehensive income (loss), shareholders' equity and cash flows for each of the three years in the period ended December 31, 2018, and the related notes (collectively referred to as the “consolidated financial statements”). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of the Company at December 31, 2018 and 2017, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2018, in conformity with U.S. generally accepted accounting principles. We also have audited, in accordance with the standards of the Public Comp…"
+   },
+   {
+    "chunk_id": "ch_a9f8dde844739041",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 301,
+    "text": "Report of Independent Registered Public Accounting Firm To the Shareholders and the Board of Directors of CVS Health Corporation Opinion on Internal Control over Financial Reporting We have audited CVS Health Corporation's internal control over financial reporting as of December 31, 2018, based on criteria established in Internal Control- Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission (2013 framework) (the COSO criteria). In our opinion, CVS Health Corporation (the Company) maintained, in all material respects, effective internal control over financial reporting as of December 31, 2018, based on the COSO criteria. As indicated in the accompanying Management's Report on Internal Control Over Financial Reporting, management's assessment of and conclusion on the effectiveness of internal control over financial reporting did not include the internal controls of Aetna Inc., which is included in the 2018 consolidated financial statements o…"
+   },
+   {
+    "chunk_id": "ch_36da4d0d5a11b9bd",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 6",
+    "page": 64,
+    "text": "Item 6. Selected Financial Data The selected consolidated financial data of CVS Health Corporation as of and for the periods indicated in the five-year period ended December 31, 2018 , have been derived from the consolidated financial statements of CVS Health Corporation and is incorporated herein by reference to the information contained in the Annual Report under the heading “Five-Year Financial Summary.” The selected consolidated financial data should be read in conjunction with the consolidated financial statements and the audit reports of Ernst & Young LLP, which are incorporated by reference elsewhere in this Annual Report on Form 10-K."
+   }
+  ]
+ }
+}

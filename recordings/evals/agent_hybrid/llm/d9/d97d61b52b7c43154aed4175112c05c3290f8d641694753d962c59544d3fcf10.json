@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T2h04CnVbwuWwF5eP/IF/C1SsZZeHbeRA2qHPQkVbVISxnx0Gg2KqNnmHmLPB9BPWozk42KJhAAEl7Jpw5PEd1k+8J2QbLcB7MAfyH+BgSDQ02vkhSzvPqeo="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_82d1f732f8738788\",\"quote\":\"Data Center net revenue of $6 billion in 2022 increased by 64%, compared to net revenue of $3.7 billion in 2021.\"},{\"source_id\":\"ch_476ffee67069ae20\",\"quote\":\"Gaming net revenue of $6.8 billion in 2022 increased by 21%, compared to net revenue of $5.6 billion in 2021.\"},{\"source_id\":\"ch_82d1f732f8738788\",\"quote\":\"Client net revenue of $6.2 billion in 2022 decreased by 10%, compared to net revenue of $6.9 billion in 2021,\"},{\"quote\":\"Data Center $ 6,043 $ 3,694\",\"source_id\":\"ch_cb587adeacc79358\"}],\"rationale\":\"Data Center grew by 64%, Gaming grew by 21%, and Client decreased by 10%. Data Center thus increased the most proportionally among non-Embedded segments.\",\"confidence\":1,\"answer\":\"From FY2021 to FY2022, excluding Embedded, sales proportionally increased the most in the **Data Center** segment, which grew by **64%** (from $3,694 million in FY2021 to $6,043 million in FY2022). \\n\\nFor comparison, the other segments changed as follows:\\n- **Gaming**: Increased by **21%** (from $5,607 million in FY2021 to $6,805 million in FY2022).\\n- **Client**: Decreased by **10%** (from $6,887 million in FY2021 to $6,201 million in FY2022).\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_58690",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622042,
+  "id": "mfvJaue-Lar5xN8P0YO5kAg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 474,
+   "prompt_tokens": 7158,
+   "prompt_tokens_details": {
+    "cached_tokens": 4032
+   },
+   "total_tokens": 7632
+  }
+ }
+}

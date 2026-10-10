@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Customer deposits long-term debt other liabilities 110239 42573 37350",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_67fe08b8539ee583",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 139,
+    "text": "105 — Financial liabilities carried at other than fair value Certificates of deposit 5 5 — 5 — Long-term debt $ 39 $ 40 $ — $ 40 $ — (a) Level 2 fair value amounts reflect time deposits and short-term investments. (b) Balances include Card Member receivables (including fair values of Card Member receivables of $5.2 billion held by a consolidated VIE as of both December 31, 2022 and 2021), other receivables and other miscellaneous assets. (c) Balances include amounts held by a consolidated VIE for which the fair values of Card Member loans were $28.4 billion and $26.7 billion as of December 31, 2022 and 2021, respectively, and the fair values of Long-term debt were $12.3 billion and $13.9 billion as of December 31, 2022 and 2021, respectively. (d) Presented as a component of Customer deposits on the Consolidated Balance Sheets. (a) (b) (c) (d) (c) (a) (b) (c) (d) (c) 136"
+   },
+   {
+    "chunk_id": "ch_6a05ea70d49e4006",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 98,
+    "text": "Other assets, less reserves for credit losses: 2022, $22; 2021, $25 17,689 17,244 Total assets $ 228,354 $ 188,548 Liabilities and Shareholders' Equity Liabilities Customer deposits $ 110,239 $ 84,382 Accounts payable 12,133 10,574 Short-term borrowings 1,348 2,243 Long-term debt (includes debt issued by consolidated variable interest entities: 2022, $12,662; 2021, $13,803) 42,573 38,675 Other liabilities 37,350 30,497 Total liabilities $ 203,643 $ 166,371 Contingencies and Commitments (Note 12) Shareholders' Equity Preferred shares, $1.66 par value, authorized 20 million shares; issued and outstanding 1,600 shares as of December 31, 2022 and 2021 (Note 16) — — Common shares, $0.20 par value, authorized 3.6 billion shares; issued and outstanding 743 million shares as of December 31, 2022 and 761 million shares as of December 31, 2021 149 153 Additional paid-in capital 11,493 11,495 Retained earnings 16,279 13,474 Accumulated other comprehensive income (loss) (3,210) (2,945) Total share…"
+   },
+   {
+    "chunk_id": "ch_406aa10dc9be7f2c",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 140,
+    "text": "which are described further below), Travelers Cheques and other prepaid products outstanding, accounts payable, short-term borrowings and certain other liabilities for which the carrying values approximate fair value because they are short term in duration, have no defined maturity or have a market-based interest rate. Financial Liabilities Carried At Other Than Fair Value Certificates of Deposit Certificates of deposit (CDs) are recorded at their historical issuance cost on the Consolidated Balance Sheets. Fair value is estimated using a discounted cash flow methodology based on the future cash flows and the discount rate that reflects the current market rates for similar types of CDs within similar markets. Long-term Debt Long-term debt is recorded at historical issuance cost on the Consolidated Balance Sheets adjusted for (i) unamortized discount and unamortized fees, (ii) the impact of movements in exchange rates on foreign currency denominated debt and (iii) the impact of fair val…"
+   },
+   {
+    "chunk_id": "ch_34ad3c1481cd894c",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 156,
+    "text": "443 Debt with subsidiaries and affiliates — 136 Long-term debt 29,432 22,314 Total liabilities 32,335 25,000 Shareholders' Equity Total shareholders' equity 24,711 22,177 Total liabilities and shareholders' equity $ 57,046 $ 47,177 153"
+   },
+   {
+    "chunk_id": "ch_56c868fb4ce695f8",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 126,
+    "text": "December 31, 2022 and 2021, we were in compliance with the covenants contained in the credit facility. Additionally, we maintained a three-year committed, revolving, secured borrowing facility that gives us the right to sell up to $3.0 billion face amount of eligible notes issued from the Charge Trust at any time through July 15, 2024. As of December 31, 2022 and 2021, nil and $2.0 billion were outstanding on this facility, respectively. We paid $14.1 million and $15.7 million in fees to maintain these lines in 2022 and 2021, respectively. These committed facilities do not contain material adverse change clauses, which might otherwise preclude borrowing under the credit facilities, nor are they dependent on our credit rating. We paid total interest, primarily related to short- and long-term debt, corresponding interest rate swaps and customer deposits, of $2.2 billion, $1.1 billion and $2.0 billion in 2022, 2021 and 2020, respectively. 123"
+   }
+  ]
+ }
+}

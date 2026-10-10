@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income Operating income 2015 2014",
+  "ticker": "ADBE",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_ae5c0d56c3cb5e44",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 90,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 90 Summary of Performance Shares As of November 27, 2015, the shares awarded under our 2015, 2014 and 2013 Performance Share Programs are yet to be achieved.The following table sets forth the summary of performance share activity under our 2015, 2014 and 2013 Performance Share Programs for the fiscal year ended November 27, 2015 (in thousands): 2015 2014 2013 Shares Granted Maximum Shares Eligible to Receive Shares Granted Maximum Shares Eligible to Receive Shares Granted Maximum Shares Eligible to Receive Beginning outstanding balance.................................. 1,517 3,034 854 1,707 — — Awarded..................................................................... 671 1,342 709 1,417 946 1,891 Forfeited..................................................................... (248) (495) (46) (90) (92) (184) Ending outstanding balance....................................... 1,940 3,881 1,517 3,034 854 1,7…"
+   },
+   {
+    "chunk_id": "ch_9f4b45eb9a92f5d5",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 95,
+    "text": "discount. During fiscal 2015, we repurchased approximately 8.1 million shares at an average price of $77.38 through structured repurchase agreements entered into during fiscal 2015 and fiscal 2014. During fiscal 2014, we repurchased approximately 10.9 million shares at an average price of $63.48 through structured repurchase agreements entered into during fiscal 2014 and fiscal 2013. During fiscal 2013, we repurchased approximately 21.6 million shares at an average price per share of $46.47 through structured repurchase agreements entered into during fiscal 2013 and fiscal 2012. For fiscal 2015, 2014 and 2013, the prepayments were classified as treasury stock on our Consolidated Balance Sheets at the payment date, though only shares physically delivered to us by November 27, 2015, November 28, 2014 and November 29, 2013 were excluded from the computation of earnings per share. As of November 27, 2015, $38.2 million of prepayments remained under the agreement. Subsequent to November 27,…"
+   },
+   {
+    "chunk_id": "ch_1048c185145df3bd",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 93,
+    "text": "Total stock-based compensation costs that have been included in our Consolidated Statements of Income for fiscal 2015, 2014 and 2013 were as follows (in thousands): Income Statement Classifications Cost of Revenue– Subscription Cost of Revenue– Services and Support Research and Development Sales and Marketing General and Administrative Total(1) Option Grants and Stock Purchase Rights 2015................................................... $ 1,449 $ 5,185 $ 14,082 $ 18,360 $ 4,790 $ 43,866 2014................................................... $ 1,855 $ 4,000 $ 15,125 $ 17,706 $ 6,476 $ 45,162 2013................................................... $ 2,059 $ 3,413 $ 18,188 $ 21,283 $ 8,410 $ 53,353 Restricted Stock and Performance Share Awards 2015................................................... $ 6,481 $ 6,446 $ 104,624 $ 109,908 $ 66,709 $ 294,168"
+   },
+   {
+    "chunk_id": "ch_80f8f547b4448b12",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 89,
+    "text": "Ending outstanding balance....................................................................................... 10,069 13,564 17,948 The weighted average grant date fair values of restricted stock units granted during fiscal 2015, 2014 and 2013 were $75.47, $61.16 and $39.87, respectively. The total fair value of restricted stock units vested during fiscal 2015, 2014 and 2013 was $495.1 million, $457.3 million and $249.5 million, respectively. Information regarding restricted stock units outstanding at November 27, 2015, November 28, 2014 and November 29, 2013 is summarized below: Number of Shares (thousands) Weighted Average Remaining Contractual Life (years) Aggregate Intrinsic Value(*) (millions) 2015 Restricted stock units outstanding............................................................. 10,069 0.93 $ 928.0 Restricted stock units vested and expected to vest ................................... 9,267 0.86 $ 842.9 2014"
+   },
+   {
+    "chunk_id": "ch_8f890353cac488eb",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 85,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 85 As of November 27, 2015, a valuation allowance of $21.3 million has been established for certain deferred tax assets related to the impairment of investments and certain state and foreign assets. For fiscal 2015, the total change in the valuation allowance was immaterial. Accounting for Uncertainty in Income Taxes During fiscal 2015 and 2014, our aggregate changes in our total gross amount of unrecognized tax benefits are summarized as follows (in thousands): 2015 2014 Beginning balance ............................................................................................................................ $ 148,848 $ 136,098 Gross increases in unrecognized tax benefits – prior year tax positions........................................ 3,784 144 Gross increases in unrecognized tax benefits – current year tax positions .................................... 129,358 18,877"
+   }
+  ]
+ }
+}

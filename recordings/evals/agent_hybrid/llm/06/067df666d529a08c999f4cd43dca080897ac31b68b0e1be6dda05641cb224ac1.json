@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0ThfGYzW9vv704JGWweJ/cko2kEbQUIyE5NLwPSmCmw/9+TC5cQY3CWscvky4L2qt0VXJv16Ef5oiVeoEKcmfWjX5lMWji+UZauPQTbAXsyX58j5N4WLV5VfA="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BA\",\"fiscal_year\":2022,\"query\":\"cyclical commercial aircraft market airline profitability economic fluctuations\"}",
+        "name": "search_filings"
+       },
+       "id": "call_34662",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621867,
+  "id": "6_rJare-C6yW28oP-v3GqQc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 6570,
+   "prompt_tokens_details": {
+    "cached_tokens": 4041
+   },
+   "total_tokens": 6610
+  }
+ }
+}

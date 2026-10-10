@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TY3ZROSAqfW7t6pjGUlyCKsSEtwdrco2dVxPvZMHRUeWCb2pr1gVPRgOY+aZdkOefEFtdILwi27GQGr54kSxSI0PcpKyIAh/429AJ2+tIhqQjLwWeEivOLo0="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The effective tax rates for FY2021 (20.2%) and FY2022 (22.9%) are directly retrieved from the GAAP reconciliation tables in Item 7 of Corning's FY2022 10-K. The difference is 2.7 percentage points.\",\"answer\":\"Corning's GAAP effective tax rate changed from 20.2% for the year ended December 31, 2021, to 22.9% for the year ended December 31, 2022, representing an increase of 2.7 percentage points.\",\"confidence\":1,\"citations\":[{\"source_id\":\"ch_f14c36911f1c0d9c\",\"quote\":\"As reported - GAAP $ 14,082 $ 2,426 $ 1,906 20.2%\"},{\"quote\":\"As reported - GAAP $ 14,189 $ 1,797 $ 1,316 22.9%\",\"source_id\":\"ch_3f935f65bc98dffb\"}],\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_51563",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622845,
+  "id": "vP7JaojAGpuIxN8PwNP6mAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 285,
+   "prompt_tokens": 9944,
+   "total_tokens": 10229
+  }
+ }
+}

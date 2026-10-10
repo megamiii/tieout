@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TpzYp1NRP/0RJ1SUqfnWZkM5v/MQpbcOnZEsd4jZBsjXiyTHiN+I2LXtsPbEi0nl1CAJcyxWjMMNkF1SUn1lCgJ0CSmy+8xBHMVMJmMUmdgT3W9R++OAwKQQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The filing clearly specifies that Boeing's primary customers include commercial airlines worldwide (served by BCA and BGS) and the U.S. government (served by BDS and BGS, representing 40% of consolidated revenues in 2022).\",\"citations\":[{\"source_id\":\"ch_f4ab865e1b87bcb2\",\"quote\":\"Revenues from the U.S. government (including foreign military sales through the U.S. government), primarily recorded at BDS and BGS, represented 40%, 49% and 51% of consolidated revenues for 2022, 2021 and 2020, respectively.\"},{\"quote\":\"Commercial Airplanes Segment This segment develops, produces and markets commercial jet aircraft principally to the commercial airline industry worldwide.\",\"source_id\":\"ch_fb6b1cda9b1186b7\"}],\"answer\":\"As of FY2022, Boeing's primary customers are commercial airlines worldwide and the U.S. government (including foreign military sales through the U.S. government). \\n\\nRevenues from the U.S. government represented 40% of Boeing's consolidated revenues in FY2022. Commercial customers make up the remainder across commercial jetliners, defense, and global services.\",\"needs_review\":false,\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_104293",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622781,
+  "id": "e_7JapbmN4mJ28oPvZ_N0AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 314,
+   "prompt_tokens": 7657,
+   "prompt_tokens_details": {
+    "cached_tokens": 4049
+   },
+   "total_tokens": 7971
+  }
+ }
+}

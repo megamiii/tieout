@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "gross margin",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_3742073db84b4e2a",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 50,
+    "text": "combined gross margins for our profitable long-term contracts had been estimated to be higher or lower by 1% during 2022, it would have increased or decreased pre-tax income for the year by approximately $300 million. Program Accounting Program accounting requires the demonstrated ability to reliably estimate revenues, costs and gross profit margin for the defined program accounting quantity. A program consists of the estimated number of units (accounting quantity) of a product to be produced in a continuing, long- term production effort for 48"
+   },
+   {
+    "chunk_id": "ch_49fd0c9dc0574642",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 51,
+    "text": "however, when estimated costs to complete a program plus costs already included in inventory exceed estimated revenues from the program, a loss is recorded in the current period. Reductions to the estimated loss are included in the gross profit margin for undelivered units in the accounting quantity whereas increases to the estimated loss are recorded as an earnings charge in the period in which the loss is determined. The 767, 777X, and 787 programs had near break-even or single digit margins at December 31, 2022. Adverse changes to the revenue and/or cost estimates for these programs could result in earnings charges in future periods. 777X Program The 777X program had near break-even gross margins at December 31, 2022. The level of profitability on the 777X program will be subject to a number of factors. These factors include continued production disruption due to labor instability and supply chain disruption, customer negotiations, further production rate adjustments for the 777X or…"
+   },
+   {
+    "chunk_id": "ch_4d26e5f05510cad3",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 32,
+    "text": "revenue and cost of existing and anticipated contracts. It is a key determinant of the gross margins we recognize on sales of individual airplanes throughout a program's life. Estimation of each program's accounting quantity takes into account several factors that are indicative of the demand for that program, including firm orders, letters of intent from prospective customers and market studies. We review our program accounting quantities quarterly. The accounting quantity for each program may include units that have been delivered, undelivered units under contract and units anticipated to be under contract in the reasonable future (anticipated orders). In developing total program estimates, all of these items within the accounting quantity must be considered. 30"
+   },
+   {
+    "chunk_id": "ch_b475797dfa379d1f",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 49,
+    "text": "Table of Contents Reconciliation of Non-GAAP Measures to GAAP Measures The table below reconciles the non-GAAP financial measures of core operating loss, core operating margins and core loss per share with the most directly comparable GAAP financial measures of loss from operations, operating margins and diluted loss per share. (Dollars in millions, except per share data) Years ended December 31, 2022 2021 2020 Revenues $66,608 $62,286 $58,158 Loss from operations, as reported ($3,547) ($2,902) ($12,767) Operating margins (5.3)% (4.7)% (22.0)% Pension FAS/CAS service cost adjustment ($849) ($882) ($1,024) Postretirement FAS/CAS service cost adjustment (294) (291) (359) FAS/CAS service cost adjustment ($1,143) ($1,173) ($1,383) Core operating loss (non-GAAP) ($4,690) ($4,075) ($14,150) Core operating margins (non-GAAP) (7.0)% (6.5)% (24.3)% Diluted loss per share, as reported ($8.30) ($7.15) ($20.88) Pension FAS/CAS service cost adjustment (1.43) (1.50) (1.80) Postretirement FAS/CAS ser…"
+   },
+   {
+    "chunk_id": "ch_1f09a6c7f8a1765e",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 120,
+    "text": "Table of Contents Cost Estimates for Fixed-Price Development Contracts — Refer to Notes 1 and 13 to the financial statements Critical Audit Matter Description As more fully described in Notes 1 and 13 to the consolidated financial statements, the Company recognizes revenue over time for long-term contracts as goods are produced or services are rendered. The Company uses costs incurred as the method for determining progress, and revenue is recognized based on costs incurred to date plus an estimate of margin at completion. The process of estimating margin at completion involves estimating the costs to complete production of goods or rendering of services and comparing those costs to the estimated final revenue amount. Margins on fixed-price development contracts are inherently uncertain in that revenue is fixed while the estimates of costs required to complete these contracts are subject to significant variability. The operational and technical complexities of fixed-price development co…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,32 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "item": "8",
+  "page": 58
+ },
+ "output": {
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "item": "8",
+  "title": "Financial Statements and Supplementary Data",
+  "page": 58,
+  "item_pages": [
+   51,
+   107
+  ],
+  "chunks": [
+   {
+    "chunk_id": "ch_ea0920e289967f57",
+    "page": 58,
+    "text": "Consolidated Statements of Changes in Equity Verizon Communications Inc. and Subsidiaries (dollars in millions, except per share amounts, and shares in thousands) Years Ended December 31, 2022 2021 2020 Shares Amount Shares Amount Shares Amount Common Stock Balance at beginning of year 4,291,434 $ 429 4,291,434 $ 429 4,291,434 $ 429 Balance at end of year 4,291,434 429 4,291,434 429 4,291,434 429 Additional Paid In Capital Balance at beginning of year 13,861 13,404 13,419 Other (Note 14) (441) 457 (15) Balance at end of year 13,420 13,861 13,404 Retained Earnings Balance at beginning of year 71,993 60,464 53,147 Opening balance sheet adjustment (Note 1) — — (200) Adjusted opening balance 71,993 60,464 52,947 Net income attributable to Verizon 21,256 22,065 17,801 Dividends declared ($2.585, $2.535, $2.485 per share) (10,860) (10,532) (10,284) Other (9) (4) — Balance at end of year 82,380 71,993 60,464 Accumulated Other Comprehensive Income (Loss) Balance at beginning of year attributable to Verizon (927) (71) 998 Foreign currency translation adjustments (153) (141) 180 Unrealized gain (loss) on cash flow hedges 322 (85) (571) Unrealized loss on fair value hedges (431) — — Unrealized loss on marketable securities (25) (9) (2) Defined benefit pension and postretirement plans (651) (621) (676)"
+   },
+   {
+    "chunk_id": "ch_1c92386e30571c92",
+    "page": 58,
+    "text": "Unrealized loss on fair value hedges (431) — — Unrealized loss on marketable securities (25) (9) (2) Defined benefit pension and postretirement plans (651) (621) (676) Other comprehensive loss (938) (856) (1,069) Balance at end of year attributable to Verizon (1,865) (927) (71) Treasury Stock Balance at beginning of year (93,635) (4,104) (153,304) (6,719) (155,606) (6,820) Employee plans (Note 14) 2,048 90 2,057 90 2,298 101 Shareholder plans (Note 14) 15 1 15 1 4 — Acquisitions (Note 3) — — 57,597 2,524 — — Balance at end of year (91,572) (4,013) (93,635) (4,104) (153,304) (6,719) Deferred Compensation-ESOPs and Other Balance at beginning of year 538 335 222 Restricted stock equity grant 423 369 275 Amortization (168) (166) (162) Balance at end of year 793 538 335 Noncontrolling Interests Balance at beginning of year 1,410 1,430 1,440 Total comprehensive income 492 553 547 Distributions and other (Note 14) (583) (573) (557) Balance at end of year 1,319 1,410 1,430 Total Equity $ 92,463 $ 83,200 $ 69,272 See Notes to Consolidated Financial Statements Verizon 2022 Annual Report on Form 10-K 58"
+   }
+  ]
+ }
+}

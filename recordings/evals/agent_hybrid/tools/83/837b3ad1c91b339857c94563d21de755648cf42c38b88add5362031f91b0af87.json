@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "operating income operating margin percentage",
+  "ticker": "ADBE",
+  "fiscal_year": 2022,
+  "section": "7",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_2a5c979a414adfe2",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 45,
+    "text": "Non-Operating Income (Expense), Net (dollars in millions) 2022 2021 2020 % Change 2022-2021 Interest expense $ (112) $ (113) $ (116) (1) % Percentage of total revenue (1) % (1) % (1) % Investment gains (losses), net (19) 16 13 ** Percentage of total revenue * * * Other income (expense), net 41 — 42 ** Percentage of total revenue * * * Total non-operating income (expense), net $ (90) $ (97) $ (61) (7) % _________________________________________ (*) Percentage is less than 1%. (**) Percentage is not meaningful. Interest Expense Interest expense represents interest associated with our debt instruments. Interest on our senior notes is payable semi- annually, in arrears, on February 1 and August 1. Investment Gains (Losses), Net Investment gains (losses), net consists principally of unrealized holding gains and losses associated with our deferred compensation plan assets, and gains and losses associated with our direct and indirect investments in privately held companies. Other Income (Expe…"
+   },
+   {
+    "chunk_id": "ch_56d22f52dfb5f9be",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 43,
+    "text": "7 % 8 % Amortization of intangibles 169 172 162 (2) % Percentage of total revenue 1 % 1 % 1 % Total operating expenses $ 9,343 $ 8,118 $ 6,909 15 % Research and Development Research and development expenses consist primarily of compensation and contracted costs associated with software development, third-party hosting services and data center costs, related facilities costs and expenses associated with computer equipment and software used in development activities. Table of Contents 43"
+   },
+   {
+    "chunk_id": "ch_cf5c8c8074fffffa",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 37,
+    "text": "• historical and expected customer attrition rates and anticipated growth in revenue from acquired customers; • the acquired company's trade name and trademarks as well as assumptions about the period of time the acquired trade name and trademarks will continue to be used in the combined company's product portfolio; • the expected use of the acquired assets; and • discount rates. In connection with the purchase price allocations for our acquisitions, we estimate the fair value of the deferred revenue obligations assumed. The estimated fair value of these obligations is determined utilizing a cost build-up approach. The cost build-up approach determines fair value by estimating the costs related to fulfilling the obligations plus a normal profit margin. Unanticipated events and circumstances may occur which may affect the accuracy or validity of such assumptions, estimates or actual results. Accounting for Income Taxes We use the asset and liability method of accounting for income taxes…"
+   },
+   {
+    "chunk_id": "ch_abda1249ac764b51",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 42,
+    "text": "increases in Digital Media revenue and, to a lesser extent, increases in Digital Experience revenue. Within each geographic region, the fluctuations in revenue by reportable segment were attributable to the factors noted in the segment information above. Included in the overall change in revenue for fiscal 2022 as compared to fiscal 2021 were impacts associated with foreign currency which were mitigated in part by our foreign currency hedging program. During fiscal 2022, the U.S. Dollar primarily strengthened against EMEA and APAC foreign currencies as compared to fiscal 2021, which decreased revenue in U.S. Dollar equivalents by approximately $486 million. During fiscal 2022, the foreign currency impacts to revenue were offset in part by net hedging gains from our cash flow hedging program of $176 million. See Note 2 of our Notes to Consolidated Financial Statements for additional details of revenue by geography. Cost of Revenue (dollars in millions) 2022 2021 2020 % Change 2022-2021 …"
+   },
+   {
+    "chunk_id": "ch_88cae4bdb8b5a1b4",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 43,
+    "text": "Subscription Cost of subscription revenue consists of third-party hosting services and data center costs, including expenses related to operating our network infrastructure. Cost of subscription revenue also includes compensation costs associated with network operations, implementation, account management and technical support personnel, royalty fees, software costs and amortization of certain intangible assets. Cost of subscription revenue increased due to the following: Components of % Change 2022-2021 Hosting services and data center costs 9 % Amortization of intangibles 4 Base compensation and related benefits 3 Incentive compensation, cash and stock-based 1 Royalty costs 2 Various individually insignificant items 1 Total change 20 % Product Cost of product revenue is primarily comprised of third-party royalties, localization costs and the costs associated with the manufacturing of our products. Services and Other Cost of services and other revenue is primarily comprised of compens…"
+   }
+  ]
+ }
+}

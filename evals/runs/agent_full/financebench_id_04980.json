@@ -1,0 +1,146 @@
+{
+ "item_id": "financebench_id_04980",
+ "eval_set": "financebench",
+ "experiment": "agent_full",
+ "status": "answered",
+ "answer": "For FY2021, PepsiCo reported capital spending (or payments to acquire productive assets) of $4.625 billion in its statement of cash flows.",
+ "confidence": 1.0,
+ "rationale": "The XBRL facts and the cash flow reconciliation / statement disclosures in PepsiCo's FY2021 10-K show capital spending / payments to acquire productive assets of $4,625 million, which equals $4.625 billion.",
+ "citations": [
+  {
+   "source_id": "xf_d9750ce2b8c6246b",
+   "quote": "4625000000",
+   "kind": "fact",
+   "ticker": "PEP",
+   "concept": "PaymentsToAcquireProductiveAssets",
+   "fiscal_year": 2021,
+   "restated": [],
+   "values": [
+    "4625000000"
+   ]
+  },
+  {
+   "source_id": "ch_f476d2e95ae0ff67",
+   "quote": "Capital spending (4,625)",
+   "kind": "chunk",
+   "ticker": "PEP",
+   "fiscal_year": 2021,
+   "section": "Item 7",
+   "page": 53,
+   "values": [
+    "2022",
+    "7.7",
+    "2022",
+    "6.2",
+    "1.5",
+    "2021",
+    "2020",
+    "11616",
+    "10613",
+    "9",
+    "4625",
+    "4240",
+    "166",
+    "55",
+    "7157",
+    "6428",
+    "11",
+    "1"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 7,
+ "prompt_tokens": 24469,
+ "completion_tokens": 452,
+ "latency_ms": null,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$4.625 matches 4.60 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 7,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1916,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"query\":\"capital expenditures\",\"fiscal_years\":[2021],\"ticker\":\"PEP\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 2411,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"ticker\":\"PEP\",\"query\":\"capital expenditures cash flows\",\"fiscal_year\":2021}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 3793,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"query\":\"Consolidated Statement of Cash Flows Capital spending property, plant and equipment\",\"fiscal_year\":2021,\"ticker\":\"PEP\",\"section\":\"8\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 3941,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"section\":\"8\",\"fiscal_year\":2021,\"query\":\"Capital spending property, plant and equipment additions\",\"ticker\":\"PEP\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "tokens": 4087,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"fiscal_year\":2021,\"query\":\"Net cash used for investing activities\",\"section\":\"8\",\"ticker\":\"PEP\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 5,
+   "tokens": 4235,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"fiscal_year\":2021,\"ticker\":\"PEP\",\"query\":\"CONSOLIDATED STATEMENT OF CASH FLOWS\",\"section\":\"8\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 6,
+   "tokens": 4538,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"rationale\":\"The XBRL facts and the cash flow reconciliation / statement disclosures in PepsiCo's FY2021 10-K show capital spending / payments to acquire productive assets of $4,625 million, which equals $4.625 billion.\",\"answer\":\"For FY2021, PepsiCo reported capital spending (or payments to acquire productive assets) of $4.625 billion in its statement of cash flows.\",\"needs_review\":false,\"confidence\":1,\"citations\":[{\"source_id\":\"xf_d9750ce2b8c6246b\",\"quote\":\"4625000000\"},{\"source_id\":\"ch_f476d2e95ae0ff67\",\"quote\":\"Capital spending (4,625)\"}]}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

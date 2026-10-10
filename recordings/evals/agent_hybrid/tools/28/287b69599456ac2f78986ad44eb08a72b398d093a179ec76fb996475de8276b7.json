@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income Cost of sales Inventories",
+  "ticker": "NKE",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5677dbfb80dd10b8",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 67,
+    "text": "Accounts receivable, net consist primarily of amounts due from customers. The Company makes ongoing estimates relating to the collectability of its accounts receivable and maintains an allowance for expected losses resulting from the inability of its customers to make required payments. In addition to judgments about the creditworthiness of significant customers based on ongoing credit evaluations, the Company considers historical levels of credit losses, as well as macroeconomic and industry trends, such as the impacts of COVID–19, to determine the amount of the allowance. Accounts receivable with anticipated collection dates greater than 12 months from the balance sheet date and related allowances are considered non-current and recorded in Deferred income taxes and other assets. The allowance for uncollectible accounts receivable was $93 million and $214 million as of May 31, 2021 and 2020, respectively. INVENTORY VALUATION Inventories are stated at lower of cost and net realizable v…"
+   },
+   {
+    "chunk_id": "ch_6b517e2fab3f1efb",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 65,
+    "text": "Consideration for trademark licensing contracts is earned through sales-based or usage-based royalty arrangements, and the associated revenues are recognized over the license period. Taxes assessed by governmental authorities that are both imposed on and concurrent with a specific revenue-producing transaction, and are collected by the Company from a customer, are excluded from Revenues and Cost of sales in the Consolidated Statements of Income. Shipping and handling costs associated with outbound freight after control over a product has transferred to a customer are accounted for as fulfillment costs and are included in Cost of sales when the related revenues are recognized. SALES-RELATED RESERVES Consideration promised in the Company's contracts with customers is variable due to anticipated reductions, such as sales returns, discounts and miscellaneous claims from customers. The Company estimates the most likely amount it will be entitled to receive and records an anticipated reducti…"
+   },
+   {
+    "chunk_id": "ch_b1b932a7c16e2095",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 50,
+    "text": "claims in any future period are inherently uncertain and may differ from estimates recorded. If actual or expected future returns, discounts or claims were significantly different than reserves established, a reduction or increase to net revenues would be recorded in the period in which such determination was made. Refer also to Note 1 — Summary of Significant Accounting Policies and Note 16 — Revenues for additional information in the accompanying Notes to the Consolidated Financial Statements. INVENTORY RESERVES We make ongoing estimates relating to the net realizable value of inventories based upon our assumptions about future demand and market conditions. If we estimate the net realizable value of our inventory is less than the cost of the inventory recorded on our books, we record a reserve equal to the difference between the cost of the inventory and the estimated net realizable value. This reserve is recorded as a charge to Cost of sales. If changes in market conditions result i…"
+   },
+   {
+    "chunk_id": "ch_1888687a74b967ac",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 64,
+    "text": "Table of Contents NOTES TO CONSOLIDATED FINANCIAL STATEMENTS Note 1 Summary of Significant Accounting Policies 63 Note 2 Inventories 69 Note 3 Property, Plant and Equipment 69 Note 4 Identifiable Intangible Assets and Goodwill 70 Note 5 Accrued Liabilities 70 Note 6 Fair Value Measurements 70 Note 7 Short-Term Borrowings and Credit Lines 72 Note 8 Long-Term Debt 73 Note 9 Income Taxes 74 Note 10 Redeemable Preferred Stock 77 Note 11 Common Stock and Stock-Based Compensation 77 Note 12 Earnings Per Share 79 Note 13 Benefit Plans 79 Note 14 Risk Management and Derivatives 80 Note 15 Accumulated Other Comprehensive Income (Loss) 84 Note 16 Revenues 86 Note 17 Operating Segments and Related Information 87 Note 18 Commitments and Contingencies 91 Note 19 Leases 91 Note 20 Acquisitions and Divestitures 92 Note 21 Restructuring 93 2021 FORM 10-K 62"
+   },
+   {
+    "chunk_id": "ch_a993c126b70873e3",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 66,
+    "text": "Table of Contents Estimates of discretionary authorized returns, discounts and claims are based on (1) historical rates, (2) specific identification of outstanding returns not yet received from customers and outstanding discounts and claims and (3) estimated returns, discounts and claims expected but not yet finalized with customers. Actual returns, discounts and claims in any future period are inherently uncertain and thus may differ from estimates recorded. If actual or expected future returns, discounts or claims are significantly greater or lower than the reserves established, a reduction or increase to net Revenues is recorded in the period in which such determination is made. COST OF SALES Cost of sales consists primarily of inventory costs, as well as warehousing costs (including the cost of warehouse labor), third-party royalties, certain foreign currency hedge gains and losses and product design costs. Shipping and handling costs are expensed as incurred and included in Cost o…"
+   }
+  ]
+ }
+}

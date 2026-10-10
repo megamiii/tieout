@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Operations Net sales Net revenue Cost of sales gross profit",
+  "ticker": "AMD",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_002a467906a83ab4",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 43,
+    "text": "2015 2014 2013 (In millions, except for percentages) Cost of sales $ 2,911 $ 3,667 $ 3,321 Gross margin 1,080 1,839 1,978 Gross margin percentage 27% 33% 37% Research and development 947 1,072 1,201 Marketing, general and administrative 482 604 674 Amortization of acquired intangible assets 3 14 18 Restructuring and other special charges, net 129 71 30 Goodwill impairment charge — 233 — Legal settlements, net — — (48) Interest expense (160) (177) (177) Other expense, net (5) (66) — Provision (benefit) for income taxes $ 14 $ 5 $ 9 Gross Margin Gross margin as a percentage of net revenue was 27% in 2015 compared to 33% in 2014. Gross margin in 2015 was adversely impacted by an inventory write-down of $65 million, which was primarily the result of lower anticipated demand for older-generation APUs and a technology node transition charge of $33 million. The impact of the write-down accounted for approximately two gross margin percentage points and the technology node transition charge acc…"
+   },
+   {
+    "chunk_id": "ch_b470e78876b6c694",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 39,
+    "text": "favorable than our previous estimates, additional inventory write-downs may be required and would be reflected in cost of sales in the period the revision is made. This would have a negative impact on our gross margin in that period. If in any period we are able to sell inventories that were not valued or that had been written down in a previous period, related revenues would be recorded without any offsetting charge to cost of sales, resulting in a net benefit to our gross margin in that period. Goodwill. Goodwill represents the excess of the purchase price over the fair value of net tangible and identifiable intangible assets acquired. Goodwill is not amortized, but rather is tested for impairment at least annually, or more frequently if there are indicators of impairment present. We perform an annual goodwill impairment analysis as of the first day of the fourth quarter of each year. We evaluate whether goodwill has been impaired at the reporting unit level by first determining whet…"
+   },
+   {
+    "chunk_id": "ch_e5c1bc0fcd95e544",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 61,
+    "text": "differences may be material to the financial statements. Areas where management uses subjective judgment include, but are not limited to, revenue allowances, inventory valuation, valuation and impairment of goodwill, valuation of investments in marketable securities, deferred income taxes and restructuring charges. Revenue Recognition. The Company recognizes revenue from products sold directly to customers, including original equipment manufacturers (OEMs), when persuasive evidence of an arrangement exists, the price is fixed or determinable, delivery has occurred and collectability is reasonably assured. Estimates of product returns, allowances and future price reductions, based on actual historical experience and other known or anticipated trends and factors, are recorded at the time revenue is recognized. The Company sells to distributors under terms allowing the majority of distributors certain rights of return and price protection on unsold merchandise held by them. The distributo…"
+   },
+   {
+    "chunk_id": "ch_c24a89ac2043d4c2",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 42,
+    "text": "semi-custom SoC products in 2014 compared to 2013. In addition, operating income in 2014 included an $8 million benefit from technology license revenue. Research and development expenses and marketing, general and administrative expenses increased for the reasons set forth under “Expenses” below. All Other All Other revenue pertains to results from former businesses, which were immaterial in 2015, 2014 and 2013. All Other operating loss of $194 million in 2015 primarily included restructuring and other special charges, net of $129 million and stock-based compensation expense of $63 million. Restructuring and other special charges, net of $129 million included $76 million related to our decision to exit from the dense server systems business, $37 million related to our 2015 Restructuring Plan and $16 million related to our 2014 Restructuring Plan. All Other operating loss of $478 million in 2014 included a goodwill impairment charge of $233 million, stock-based compensation expense of $…"
+   },
+   {
+    "chunk_id": "ch_45c29c89506dec17",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 39,
+    "text": "reasonably consistent with management's expectations, the actual results may differ from these estimates or our estimates may be affected by different assumptions or conditions. Management believes the following critical accounting estimates are the most significant to the presentation of our financial statements and require the most difficult, subjective and complex judgments. Revenue Allowances. We record a provision for estimated sales returns and allowances on product sales for estimated future price reductions and other customer incentives in the same period that the related revenues are recorded. We base these estimates on actual historical sales returns, historical allowances, historical price reductions, market activity and other known or anticipated trends and factors. These estimates are subject to management's judgment and actual provisions could be different from our estimates and current provisions, resulting in future adjustments to our revenue and operating results. Inve…"
+   }
+  ]
+ }
+}

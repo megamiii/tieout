@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "CONSOLIDATED STATEMENTS OF EARNINGS Net sales Cost of sales",
+  "ticker": "GIS",
+  "fiscal_year": 2019,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5500f4d811242893",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Table of Contents Consolidated Statements of Earnings GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions, Except per Share Data) Fiscal Year 2019 2018 2017 Net sales $ 16,865.2 $ 15,740.4 $ 15,619.8 Cost of sales 11,108.4 10,304.8 10,052.0 Selling, general, and administrative expenses 2,935.8 2,850.1 2,888.8 Divestitures loss 30.0 - 6.5 Restructuring, impairment, and other exit costs 275.1 165.6 180.4 Operating profit 2,515.9 2,419.9 2,492.1 Benefit plan non-service income (87.9) (89.4) (74.3) Interest, net 521.8 373.7 295.1 Earnings before income taxes and after-tax earnings from joint ventures 2,082.0 2,135.6 2,271.3 Income taxes 367.8 57.3 655.2 After-tax earnings from joint ventures 72.0 84.7 85.0 Net earnings, including earnings attributable to redeemable and noncontrolling interests 1,786.2 2,163.0 1,701.1 Net earnings attributable to redeemable and noncontrolling interests 33.5 32.0 43.6 Net earnings attributable to General Mills $ 1,752.7 $ 2,131.0 $ 1,657.5 Earnings per share -…"
+   },
+   {
+    "chunk_id": "ch_b12322fb9ece1e56",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Table of Contents Consolidated Statements of Cash Flows GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions) Fiscal Year 2019 2018 2017 Cash Flows - Operating Activities Net earnings, including earnings attributable to redeemable and noncontrolling interests $ 1,786.2 $ 2,163.0 $ 1,701.1 Adjustments to reconcile net earnings to net cash provided by operating activities: Depreciation and amortization 620.1 618.8 603.6 After-tax earnings from joint ventures (72.0) (84.7) (85.0) Distributions of earnings from joint ventures 86.7 113.2 75.6 Stock-based compensation 84.9 77.0 95.7 Deferred income taxes 93.5 (504.3) 183.9 Pension and other postretirement benefit plan contributions (28.8) (31.8) (45.4) Pension and other postretirement benefit plan costs 6.1 4.6 35.7 Divestitures loss 30.0 - 13.5 Restructuring, impairment, and other exit costs 235.7 126.0 117.0 Changes in current assets and liabilities, excluding the effects of acquisitions and divestitures (7.5) 542.1 (194.2) Other, net (27.9) …"
+   },
+   {
+    "chunk_id": "ch_cc4b386f94c13e29",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 84,
+    "text": "Noncontrolling Interests Redeemable Interest In Millions Pretax Tax Net Net Net Net earnings, including earnings attributable to redeemable and noncontrolling interests $ 1,657.5 $ 11.3 $ 32.3 Other comprehensive income (loss): Foreign currency translation $ 19.5 $ - 19.5 2.5 (15.7) Net actuarial income 307.3 (109.4) 197.9 - - Other fair value changes: Securities 1.3 (0.5) 0.8 - - Hedge derivatives 65.9 (16.1) 49.8 - 3.5 Reclassification to earnings: Hedge derivatives (a) (25.2) 2.4 (22.8) - (2.9) Amortization of losses and prior service costs (b) 197.2 (74.7) 122.5 - - Other comprehensive income (loss) 566.0 (198.3) 367.7 2.5 (15.1) Total comprehensive income $ 2,025.2 $ 13.8 $ 17.2 (a) Gain reclassified from AOCI into earnings is reported in interest, net for interest rate swaps and in cost of sales and SG&A expenses for foreign exchange contracts. (b) Loss reclassified from AOCI into earnings is reported in benefit plan non-service income. Please refer to Note 2. In fiscal 2019, 201…"
+   },
+   {
+    "chunk_id": "ch_3db9c7f411b58908",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 54,
+    "text": "Table of Contents Consolidated Statements of Comprehensive Income GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions) Fiscal Year 2019 2018 2017 Net earnings, including earnings attributable to redeemable and noncontrolling interests $ 1,786.2 $ 2,163.0 $ 1,701.1 Other comprehensive income (loss), net of tax: Foreign currency translation (82.8) (37.0) 6.3 Net actuarial (loss) income (253.4) 140.1 197.9 Other fair value changes: Securities - 1.2 0.8 Hedge derivatives 12.1 (50.8) 53.3 Reclassification to earnings: Securities (2.0) (5.1) - Hedge derivatives 0.9 17.4 (25.7) Amortization of losses and prior service costs 84.6 117.6 122.5 Other comprehensive (loss) income, net of tax (240.6) 183.4 355.1 Total comprehensive income 1,545.6 2,346.4 2,056.2 Comprehensive (loss) income attributable to redeemable and noncontrolling interests (10.7) 70.5 31.0 Comprehensive income attributable to General Mills $ 1,556.3 $ 2,275.9 $ 2,025.2 See accompanying notes to consolidated financial statements. …"
+   },
+   {
+    "chunk_id": "ch_18778dbc508df233",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 62,
+    "text": "statements, and the reported amounts of revenues and expenses during the reporting period. These estimates include our accounting for promotional expenditures, valuation of long-lived assets, intangible assets, redeemable interest, stock-based compensation, income taxes, and defined benefit pension, other postretirement benefit and postemployment benefit plans. Actual results could differ from our estimates. New Accounting Standards In the first quarter of fiscal 2019, we adopted new accounting requirements related to the presentation of net periodic defined benefit pension expense, net periodic postretirement benefit expense, and net periodic postemployment benefit expense (collectively “net periodic benefit expense”). The new standard requires the service cost component of net periodic benefit expense to be recorded in the same line items as other employee compensation costs within our Consolidated Statements of Earnings. Other components of net periodic benefit expense must be prese…"
+   }
+  ]
+ }
+}

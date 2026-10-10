@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TZRepVajxa7/r/1RMj5MUeq28IRRf2e/QwE3NDG3lJF9wqbsrFnHVGe3Bxh4eeWp9QHE+8+e5NCwwl1WwNzdGtkNEbDW51xsH1ESPwoUAAwn/nk/1cZ3pKRE="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Depreciation and amortization 2763 PepsiCo statement of cash flows\",\"ticker\":\"PEP\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_50041",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623343,
+  "id": "rgDKaqu1NouJvdIPn8K22Ak",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 7816,
+   "prompt_tokens_details": {
+    "cached_tokens": 4045
+   },
+   "total_tokens": 7862
+  }
+ }
+}

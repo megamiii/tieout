@@ -1,0 +1,32 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "ADBE",
+  "fiscal_year": 2016,
+  "item": "8",
+  "page": 61
+ },
+ "output": {
+  "ticker": "ADBE",
+  "fiscal_year": 2016,
+  "item": "8",
+  "title": "Financial Statements and Supplementary Data",
+  "page": 61,
+  "item_pages": [
+   60,
+   103
+  ],
+  "chunks": [
+   {
+    "chunk_id": "ch_c931f8b5b9838abd",
+    "page": 61,
+    "text": "Table of Contents 61 ADOBE SYSTEMS INCORPORATED CONSOLIDATED BALANCE SHEETS (In thousands, except par value) December 2, 2016 November 27, 2015 ASSETS Current assets: Cash and cash equivalents $ 1,011,315 $ 876,560 Short-term investments 3,749,985 3,111,524 Trade receivables, net of allowances for doubtful accounts of $6,214 and $7,293, respectively 833,033 672,006 Prepaid expenses and other current assets 245,441 161,802 Total current assets 5,839,774 4,821,892 Property and equipment, net 816,264 787,421 Goodwill 5,406,474 5,366,881 Purchased and other intangibles, net 414,405 510,007 Investment in lease receivable 80,439 80,439 Other assets 149,758 159,832 Total assets $ 12,707,114 $ 11,726,472 LIABILITIES AND STOCKHOLDERS' EQUITY Current liabilities: Trade payables $ 88,024 $ 93,307 Accrued expenses 739,630 679,884 Income taxes payable 38,362 6,165 Deferred revenue 1,945,619 1,434,200 Total current liabilities 2,811,635 2,213,556 Long-term liabilities: Debt and capital lease obligations 1,902,068 1,907,231 Deferred revenue 69,131 51,094 Income taxes payable 184,381 256,129 Deferred income taxes 217,660 208,209 Other liabilities 97,404 88,673 Total liabilities 5,282,279 4,724,892 Commitments and contingencies Stockholders' equity:"
+   },
+   {
+    "chunk_id": "ch_d4b4dba7f84b6c75",
+    "page": 61,
+    "text": "184,381 256,129 Deferred income taxes 217,660 208,209 Other liabilities 97,404 88,673 Total liabilities 5,282,279 4,724,892 Commitments and contingencies Stockholders' equity: Preferred stock, $0.0001 par value; 2,000 shares authorized; none issued — — Common stock, $0.0001 par value; 900,000 shares authorized; 600,834 shares issued; 494,254 and 497,809 shares outstanding, respectively 61 61 Additional paid-in-capital 4,616,331 4,184,883 Retained earnings 8,114,517 7,253,431 Accumulated other comprehensive income (loss) (173,602) (169,080) Treasury stock, at cost (106,580 and 103,025 shares, respectively), net of reissuances (5,132,472) (4,267,715) Total stockholders' equity 7,424,835 7,001,580 Total liabilities and stockholders' equity $ 12,707,114 $ 11,726,472 See accompanying Notes to Consolidated Financial Statements."
+   }
+  ]
+ }
+}

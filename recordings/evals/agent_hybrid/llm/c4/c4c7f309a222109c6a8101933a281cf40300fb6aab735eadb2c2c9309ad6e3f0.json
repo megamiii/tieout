@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TYQmc3XAA1nRVnT26sYShm7MyZVIzDp6lnlVrBcQUw4zC1xcWS6seNy6XfAa+wfm68GZ1Fa3AJbj3DVpneZxzBPwPyHaRzTnhkqlHQFElvtou6+0DlyLeqic="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"ticker\":\"CVS\",\"query\":\"Note 19 Commitments and Contingencies Legal Proceedings\",\"section\":\"8\"}",
+        "name": "search_filings"
+       },
+       "id": "call_76676",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622543,
+  "id": "j_3Jas2bGoqFxN8P1vfl0AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 49,
+   "prompt_tokens": 2790,
+   "total_tokens": 2839
+  }
+ }
+}

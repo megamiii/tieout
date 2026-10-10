@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Ty+aJBkJaPEoNt7EMk5h8TCdMswmaWWUmtqL1/l+SCziND5DdaGZbIyqKzzfrby6A3nBBfPB4/kMT7sNwJ8k+vcNCpq5YT/CzXuQGM+PFqfNEyaJEIYvUpHk="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[],\"needs_review\":true,\"review_reason\":\"The concept of Free Cash Flow conversion is not explicitly discussed or calculated in Adobe's FY2022 Form 10-K.\",\"rationale\":\"The filing does not mention free cash flow conversion.\",\"confidence\":1,\"answer\":\"Based on Adobe's FY2022 Form 10-K, Adobe does not explicitly define, calculate, or discuss a \\\"Free Cash Flow conversion\\\" metric for FY2022. Therefore, the 10-K does not provide evidence of an improving Free cash flow conversion as of FY2022.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_61192",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622108,
+  "id": "2_vJav7CCvWH28oPhsTn2QM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 149,
+   "prompt_tokens": 9029,
+   "total_tokens": 9178
+  }
+ }
+}

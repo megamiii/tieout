@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Operations net revenue net sales",
+  "ticker": "AMD",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e5c1bc0fcd95e544",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 61,
+    "text": "differences may be material to the financial statements. Areas where management uses subjective judgment include, but are not limited to, revenue allowances, inventory valuation, valuation and impairment of goodwill, valuation of investments in marketable securities, deferred income taxes and restructuring charges. Revenue Recognition. The Company recognizes revenue from products sold directly to customers, including original equipment manufacturers (OEMs), when persuasive evidence of an arrangement exists, the price is fixed or determinable, delivery has occurred and collectability is reasonably assured. Estimates of product returns, allowances and future price reductions, based on actual historical experience and other known or anticipated trends and factors, are recorded at the time revenue is recognized. The Company sells to distributors under terms allowing the majority of distributors certain rights of return and price protection on unsold merchandise held by them. The distributo…"
+   },
+   {
+    "chunk_id": "ch_c75c8199fc337a2e",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 41,
+    "text": "not consider these expenses and credits in evaluating the performance of the reportable segments. Also included in this category are amortization of acquired intangible assets, employee stock-based compensation expense, restructuring and other special charges, net, technology node transition charge, workforce rebalancing severance charges, goodwill impairment charge, significant or unusual lower of cost or market inventory adjustments and a net gain from licenses and settlement agreements regarding patent- related matters. We also reported the results of former businesses in the All Other category because the operating results were not material. We intend the discussion of our financial condition and results of operations that follows to provide information that will assist you in understanding our financial statements, the changes in certain key items in those financial statements from year to year, the primary factors that resulted in those changes and how certain accounting principl…"
+   },
+   {
+    "chunk_id": "ch_e4ff74e3c786ada0",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 65,
+    "text": "method it will apply. The adoption of this standard will not materially impact the Company's consolidated financial statements. Revenue Recognition. In May 2014, the FASB issued ASU 2014-09, Revenue from Contracts with Customers (Topic 606), which creates a single source of revenue guidance under U.S. GAAP for all companies in all industries. The core principle of ASU 2014-09 is that revenue should be recognized in a manner that depicts the transfer of promised goods or services to customers in an amount that reflects the consideration to which the entity expects to be entitled in exchange for those goods or services. ASU 2014-09 defines a five-step process in order to achieve this core principle, which may require the use of judgment and estimates. ASU 2014-09 also requires expanded qualitative and quantitative disclosures relating to the nature, amount, timing and uncertainty of revenue and cash flows arising from contracts with customers, including significant judgments and estimate…"
+   },
+   {
+    "chunk_id": "ch_f162657f41ba7e65",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 83,
+    "text": "The following table provides a summary of net revenue and operating income (loss) by segment and income (loss) before income taxes for 2015, 2014 and 2013. The results prior to July 1, 2014 have been recast to reflect the Company's new reportable segments. 2015 2014 2013 (In millions) Net revenue: Computing and Graphics $ 1,805 $ 3,132 $ 3,720 Enterprise, Embedded and Semi-Custom 2,186 2,374 1,577 All Other — — 2 Total net revenue $ 3,991 $ 5,506 $ 5,299 Operating income (loss): Computing and Graphics $ (502) $ (76) $ (101) Enterprise, Embedded and Semi-Custom 215 399 295 All Other (194) (478) (91) Total operating income (loss) $ (481) $ (155) $ 103 Interest expense (160) (177) (177) Other expense, net (5) (66) — Loss before income taxes $ (646) $ (398) $ (74) The Company does not discretely allocate assets to its operating segments, nor does management evaluate operating segments using discrete asset information. The Company's operations outside the United States include research and …"
+   },
+   {
+    "chunk_id": "ch_a4680637b8cab0ba",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 84,
+    "text": "2015 2014 2013 (In millions) United States $ 984 $ 1,030 $ 801 Europe 168 325 460 China 1,145 2,324 2,519 Singapore 356 371 610 Japan 1,254 1,324 710 Other countries 84 132 199 Total sales to external customers $ 3,991 $ 5,506 $ 5,299 The Company had two customers that accounted for more than 10% of the Company's consolidated net revenue in 2015. The Company had three customers that accounted for more than 10% of the Company's consolidated net revenue in 2014 and 2013. Net sales to these customers were approximately 31% and 18% of consolidated net revenue in 2015, 23%, 13% and 13% of consolidated net revenue in 2014 and 17%, 11% and 10% of consolidated net revenue in 2013. The majority of the revenue from these customers was related to products from the Enterprise, Embedded and Semi-Custom segment. The following table summarizes long-lived assets by geographic areas: 2015 2014 (In millions) United States $ 123 $ 149 Malaysia 11 57 China 5 45 Singapore 25 17 Other countries 24 34 Total …"
+   }
+  ]
+ }
+}

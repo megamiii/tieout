@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Thy7WIBH1SsWgM/m5UNr3+vX1UQgTQXXygkmOMoMjm6CXk9dQWcp1GCey6CL5nezIR50fzRt3UTvgDphkqS1LA4OIJtqNVFaAlMtr+vSQcL30mmmIPoF08qA="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_01a1954f662f77a4\",\"quote\":\"Total revenues net of interest expense $ 52,862 $ 42,380 $ 36,087\"},{\"source_id\":\"ch_01a1954f662f77a4\",\"quote\":\"Pretax income 9,585 10,689 4,296\"},{\"quote\":\"Net income $ 7,514 $ 8,060 $ 3,135\",\"source_id\":\"ch_01a1954f662f77a4\"}],\"confidence\":1,\"needs_review\":false,\"rationale\":\"Explains why operating margin is not a standard or useful metric for financial institutions like AMEX, and provides the actual financial metrics used instead (total revenues net of interest expense, pretax income, and net income for FY 2022).\",\"answer\":\"For American Express (AMEX), standard operating margin is not a useful or traditionally reported metric because, as a financial institution, it does not separate operating expenses from interest expense or provisions for credit losses in a manner typical of non-financial corporations. Instead, AMEX reports metrics such as total revenues net of interest expense ($52,862 million in FY 2022) [ch_01a1954f662f77a4], pretax income ($9,585 million in FY 2022) [ch_01a1954f662f77a4], and net income ($7,514 million in FY 2022) [ch_01a1954f662f77a4].\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_106490",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622227,
+  "id": "UvzJapTfEZWJxN8PiI_O0AQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 424,
+   "prompt_tokens": 9485,
+   "total_tokens": 9909
+  }
+ }
+}

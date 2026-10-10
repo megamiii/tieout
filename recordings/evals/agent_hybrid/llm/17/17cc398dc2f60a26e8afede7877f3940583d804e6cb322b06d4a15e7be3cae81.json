@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tm8nrJc6UcrFStTDxtnyJp96wg6oB/cLQRWF36PgUX1FWyRRZ59XS6AdWGD9pzEMYnG1lQ0gx2rGRE9XIe5ExNIBUNvfvdB907JKG+wZI7bBPhu+aRKCO9dc="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"ticker\":\"GIS\",\"query\":\"Consolidated Balance Sheets current assets current liabilities\",\"fiscal_year\":2020}",
+        "name": "search_filings"
+       },
+       "id": "call_21383",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623100,
+  "id": "t__JasP7I5uIxN8PwNP6mAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 1613,
+   "total_tokens": 1658
+  }
+ }
+}

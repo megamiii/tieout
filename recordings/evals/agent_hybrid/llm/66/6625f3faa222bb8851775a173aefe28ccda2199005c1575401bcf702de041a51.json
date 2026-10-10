@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TWEhbAC19eem+7115cjZ/Rdsoim3Tljb/1TehPiYveHuivmA6kVHA7AJ4ba84WmLPUgO+JF0znBjjGA4zh8aCLQNzLZTYRw+iT8aEYs7L6yi1OE7bwggMRog="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"Boeing's net property, plant, and equipment as of December 31, 2018 (FY2018) was $12,645 million.\",\"rationale\":\"The Consolidated Statement of Financial Position for the year ended December 31, 2018 lists Property, plant and equipment, net as $12,645 million (in USD millions).\",\"needs_review\":false,\"citations\":[{\"quote\":\"Property, plant and equipment, net 12,645 12,672\",\"source_id\":\"ch_d2ab0b1165b3f841\"}],\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_66479",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623572,
+  "id": "lAHKaqyyC6ia28oPzJW1kAs",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 166,
+   "prompt_tokens": 5240,
+   "prompt_tokens_details": {
+    "cached_tokens": 2017
+   },
+   "total_tokens": 5406
+  }
+ }
+}

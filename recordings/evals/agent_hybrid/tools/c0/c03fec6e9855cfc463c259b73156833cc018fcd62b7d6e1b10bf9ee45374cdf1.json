@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Our Divisions We are organized into seven reportable segments",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7675130d841f32c8",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 69,
+    "text": "Table of Contents Our Divisions We are organized into seven reportable segments (also referred to as divisions), as follows: 1) Frito-Lay North America (FLNA), which includes our branded convenient food businesses in the United States and Canada; 2) Quaker Foods North America (QFNA), which includes our branded convenient food businesses, such as cereal, rice, pasta and other branded food, in the United States and Canada; 3) PepsiCo Beverages North America (PBNA), which includes our beverage businesses in the United States and Canada; 4) Latin America (LatAm), which includes all of our beverage and convenient food businesses in Latin America; 5) Europe, which includes all of our beverage and convenient food businesses in Europe; 6) Africa, Middle East and South Asia (AMESA), which includes all of our beverage and convenient food businesses in Africa, the Middle East and South Asia; and 7) Asia Pacific, Australia, and New Zealand and China region (APAC), which includes all of our beverag…"
+   },
+   {
+    "chunk_id": "ch_a883629456d85853",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 4,
+    "text": "Item 1. Business. When used in this report, the terms “we,” “us,” “our,” “PepsiCo” and the “Company” mean PepsiCo, Inc. and its consolidated subsidiaries, collectively. Certain terms used in this Annual Report on Form 10-K are defined in the Glossary included in Item 7. of this report. Company Overview We were incorporated in Delaware in 1919 and reincorporated in North Carolina in 1986. We are a leading global beverage and convenient food company with a complementary portfolio of brands, including Lay's, Doritos, Cheetos, Gatorade, Pepsi-Cola, Mountain Dew, Quaker and SodaStream. Through our operations, authorized bottlers, contract manufacturers and other third parties, we make, market, distribute and sell a wide variety of beverages and convenient foods, serving customers and consumers in more than 200 countries and territories. Our Operations We are organized into seven reportable segments (also referred to as divisions), as follows: 1) Frito-Lay North America (FLNA), which include…"
+   },
+   {
+    "chunk_id": "ch_84ef4e58229cb33f",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 47,
+    "text": "Table of Contents comprised of Russia-Ukraine conflict charges, brand portfolio impairment charges and other impairment charges, the impact of settlement and curtailment gains and losses related to pension and retiree medical plans, a charge related to cash tender offers, tax benefit related to the IRS audit and tax expense related to the Tax Cuts and Jobs Act (TCJ Act) (see “Items Affecting Comparability” for a detailed description of each of these items). We also evaluate performance on operating profit and net income attributable to PepsiCo per common share – diluted, each adjusted for items affecting comparability, on a constant currency basis, which measure our financial results assuming constant foreign currency exchange rates used for translation based on the rates in effect for the comparable prior-year period. In order to compute our constant currency results, we multiply or divide, as appropriate, our current-year U.S. dollar results by the current-year average foreign exchan…"
+   },
+   {
+    "chunk_id": "ch_b92c869720c61256",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 31,
+    "text": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations. OUR BUSINESS Executive Overview 30 Our Operations 31 Other Relationships 31 Our Business Risks 31 OUR FINANCIAL RESULTS Results of Operations – Consolidated Review 37 Results of Operations – Division Review 39 FLNA 41 QFNA 41 PBNA 42 LatAm 42 Europe 42 AMESA 43 APAC 43 Non-GAAP Measures 44 Items Affecting Comparability 46 Our Liquidity and Capital Resources 49 Material Changes in Line Items in Our Consolidated Financial Statements 52 Return on Invested Capital 54 OUR CRITICAL ACCOUNTING POLICIES AND ESTIMATES Revenue Recognition 55 Goodwill and Other Intangible Assets 56 Income Tax Expense and Accruals 57 Pension and Retiree Medical Plans 58 CONSOLIDATED STATEMENT OF INCOME 60 CONSOLIDATED STATEMENT OF COMPREHENSIVE INCOME 61 CONSOLIDATED STATEMENT OF CASH FLOWS 62 CONSOLIDATED BALANCE SHEET 64 CONSOLIDATED STATEMENT OF EQUITY 65 NOTES TO THE CONSOLIDATED FINANCIAL STATEMENTS Note 1 – Basis o…"
+   },
+   {
+    "chunk_id": "ch_f7df7ac8c36905d4",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 41,
+    "text": "Table of Contents The reported tax rate decreased 5.7 percentage points, primarily reflecting the impact of the Juice Transaction and adjustments to reserves for uncertain tax positions as a result of the Internal Revenue Service (IRS) audit. Results of Operations — Division Review See “Our Business Risks,” “Non-GAAP Measures” and “Items Affecting Comparability” for a discussion of items to consider when evaluating our results and related information regarding measures not in accordance with U.S. Generally Accepted Accounting Principles (GAAP). In the discussions of net revenue and operating profit below, “effective net pricing” reflects the year-over-year impact of discrete pricing actions, sales incentive activities and mix resulting from selling varying products in different package sizes and in different countries. Additionally, “acquisitions and divestitures” reflect mergers and acquisitions activity, as well as divestitures and other structural changes, including changes in owner…"
+   }
+  ]
+ }
+}

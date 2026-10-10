@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies that operating margin is not a standard or useful metric for American Express due to its nature as a financial institution, aligning with the gold answer's conclusion and justification.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TMQxk1Si2LLuXQbiOVBibzkyRmQxQfz4tYVq73KMbSpkkBGaftXlgcRS5ZaXvIwNcCLsXccleyEGJ9187tMeuI0m18kfA+6UbkbAMRKSsKIfpDnG/W1n9zlW7rVvq31VJrRbzS/DxyMTUXPpy"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623813,
+  "id": "eQLKauqfJ6n6vdIP4o6M2A4",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 49,
+   "prompt_tokens": 322,
+   "total_tokens": 371
+  }
+ }
+}

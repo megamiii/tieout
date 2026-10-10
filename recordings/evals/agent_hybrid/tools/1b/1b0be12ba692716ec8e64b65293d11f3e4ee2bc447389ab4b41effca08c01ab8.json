@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Capital expenditures (including capitalized software)",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e45545bb88293d76",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 42,
+    "text": "measure of cash flow since capital expenditures are necessary for ongoing operations. Free cash flow has limitations due to the fact that it does not represent the residual cash flow available for discretionary expenditures. For example, free cash flow does not incorporate payments made on finance lease obligations or cash payments for business acquisitions or wireless licenses. Therefore, we believe it is important to view free cash flow as a complement to our entire consolidated statements of cash flows. The following table reconciles net cash provided by operating activities to free cash flow: (dollars in millions) Years Ended December 31, 2022 2021 Net cash provided by operating activities $ 37,141 $ 39,539 Less Capital expenditures (including capitalized software) 23,087 20,286 Free cash flow $ 14,054 $ 19,253 The decrease in free cash flow during 2022 is a reflection of the decrease in operating cash flows, as well as the increase in capital expenditures, both of which are discus…"
+   },
+   {
+    "chunk_id": "ch_452bb2db6809a9c4",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 39,
+    "text": "Cash Flows Provided By Operating Activities Our primary source of funds continues to be cash generated from operations. Net cash provided by operating activities decreased by $2.4 billion during 2022 compared to 2021, primarily driven by higher device payment receivables as our device payment portfolio increased over the comparative period, which was partially due to the change in device payment plan terms to 36 months. This decrease was further driven by a decrease in earnings. We expect to make approximately $200 million of discretionary pension contributions in 2023. Additionally, we expect that there will be no required pension funding through 2026, subject to changes in market conditions. Cash Flows Used In Investing Activities Capital Expenditures Capital expenditures continue to relate primarily to the use of capital resources to increase the operating efficiency and productivity of our networks, maintain our existing infrastructure, facilitate the introduction of new products a…"
+   },
+   {
+    "chunk_id": "ch_463fac52635f0f96",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 38,
+    "text": "We expect that our capital spending requirements will continue to be financed primarily through internally generated funds. Debt or equity financing may be needed to fund additional investments or development activities, or to maintain an appropriate capital structure to ensure our financial flexibility. Our external financing arrangements include credit facilities and other bank lines of credit, an active commercial paper program, vendor financing arrangements, issuances of registered debt or equity securities, U.S. retail medium-term notes and other securities that are privately-placed or offered overseas. In addition, we monetize certain receivables through asset-backed debt transactions. Capital Expenditures Our 2023 capital program includes capital to fund advanced networks and services, including expanding our core networks, adding capacity and density to our 5G network in order to stay ahead of our customers' increasing data demands and deploying C-Band, transforming our structu…"
+   },
+   {
+    "chunk_id": "ch_327a223e3d86c70e",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 63,
+    "text": "When depreciable assets are retired or otherwise disposed of, the related cost and accumulated depreciation are deducted from the property, plant and equipment accounts and any gains or losses on disposition are recognized in Selling, general and administrative expense. We capitalize and depreciate network software purchased or developed within property, plant and equipment assets. We also capitalize interest associated with the acquisition or construction of network-related assets. Capitalized interest is reported as a reduction in interest expense and depreciated as part of the cost of the network-related assets. Computer Software and Cloud Computing Costs We capitalize the cost of internal-use network and non-network software and defer the costs associated with cloud computing arrangements that have a useful life and term in excess of one year. Subsequent additions, modifications or upgrades to internal- use network and non-network software are capitalized only to the extent that th…"
+   },
+   {
+    "chunk_id": "ch_da3f1899b8e87f33",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 23,
+    "text": "benefit related costs and interest and financing expenses. Corporate and other also includes the historical results of divested businesses, including Verizon Media Group (Verizon Media) divested in September 2021, and other adjustments and gains and losses that are not allocated in assessing segment performance due to their nature. Although such transactions are excluded from the business segment results, they are included in reported consolidated earnings. Gains and losses from these transactions that are not individually significant are included in segment results as these items are included in the chief operating decision maker's assessment of segment performance. See \"Consolidated Results of Operations\" for additional information regarding Corporate and other results. Capital Expenditures and Investments We continue to invest in our wireless networks, high-speed fiber and other advanced technologies to position ourselves at the center of growth trends for the future. During the yea…"
+   }
+  ]
+ }
+}

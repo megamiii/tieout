@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TN9Im5xnagq53DJfJSvB1lQejoomb2S+ji60AeUjQQuJ6HYFdXj6cnEQQr92+bJ68CixJD1TJSvJWh1uiJ6nQFRpXwhdrxJ8eXF5jg23ViuPhKC7Hz2pzGrU="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"query\":\"free cash flow\",\"ticker\":\"ADBE\"}",
+        "name": "search_filings"
+       },
+       "id": "call_72280",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622089,
+  "id": "yfvJav2lB_LQvdIPmrq7kAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 35,
+   "prompt_tokens": 3113,
+   "total_tokens": 3148
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Earnings inventory accounts receivable accounts payable cost of sales",
+  "ticker": "GIS",
+  "fiscal_year": 2019,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e083bee20c02eaa4",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 109,
+    "text": "Table of Contents Operating cash flow conversion rate. Net cash provided by operating activities, divided by net earnings, including earnings attributable to redeemable and noncontrolling interests. Operating cash flow to net debt ratio. Net Debt divided by cash provided by operating activities. Organic net sales growth. Net sales growth adjusted for foreign currency translation, as well as acquisitions, divestitures, and a 53 rd week impact, when applicable. Project-related costs. Costs incurred related to our restructuring initiatives not included in restructuring charges. Redeemable interest. Interest of consolidated subsidiaries held by a third party that can be redeemed outside of our control and therefore cannot be classified as a noncontrolling interest in equity. Reporting unit. An operating segment or a business one level below an operating segment. Strategic Revenue Management (SRM). A company-wide capability focused on generating sustainable benefits from net price realizati…"
+   },
+   {
+    "chunk_id": "ch_d933ac2902790805",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 107,
+    "text": "Core working capital. Accounts receivable plus inventories less accounts payable, all as of the last day of our fiscal year. Derivatives. Financial instruments such as futures, swaps, options, and forward contracts that we use to manage our risk arising from changes in commodity prices, interest rates, foreign exchange rates, and equity prices. Earnings before interest, taxes, depreciation and amortization (EBITDA). The calculation of earnings before income taxes and after-tax earnings from joint ventures, net interest, depreciation and amortization. Euribor. European Interbank Offered Rate. Fair value hierarchy. For purposes of fair value measurement, we categorize assets and liabilities into one of three levels based on the assumptions (inputs) used in valuing the asset or liability. Level 1 provides the most reliable measure of fair value, while Level 3 generally requires significant management judgment. The three levels are defined as follows: Level 1: Unadjusted quoted prices in a…"
+   },
+   {
+    "chunk_id": "ch_353e64c4f45a7884",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 58,
+    "text": "Table of Contents Notes to Consolidated Financial Statements GENERAL MILLS, INC. AND SUBSIDIARIES NOTE 1. BASIS OF PRESENTATION AND RECLASSIFICATIONS Basis of Presentation Our Consolidated Financial Statements include the accounts of General Mills, Inc. and all subsidiaries in which we have a controlling financial interest. Intercompany transactions and accounts, including any noncontrolling and redeemable interests' share of those transactions, are eliminated in consolidation. Our fiscal year ends on the last Sunday in May. Certain reclassifications to our previously reported financial information have been made to conform to the current period presentation. See Note 2 for additional information. Change in Reporting Period As part of a long-term plan to conform the fiscal year ends of all our operations, in fiscal 2017 we changed the reporting period of General Mills Brasil Alimentos Ltda (Yoki) within our Asia & Latin America segment from an April fiscal year-end to a May fiscal year…"
+   },
+   {
+    "chunk_id": "ch_c9dfdc9fe8a961b9",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 58,
+    "text": "are valued at net realizable value, and all related cash contracts and derivatives are valued at fair value, with all net changes in value recorded in earnings currently. Inventories outside of the United States are generally valued at the lower of cost, using the first-in, first-out (FIFO) method, or net realizable value. Shipping costs associated with the distribution of finished product to our customers are recorded as cost of sales, and are recognized when the related finished product is shipped to and accepted by the customer. Land, Buildings, Equipment, and Depreciation Land is recorded at historical cost. Buildings and equipment, including capitalized interest and internal engineering costs, are recorded at cost and depreciated over estimated useful lives, primarily using the straight-line method. Ordinary maintenance and repairs are charged to cost of sales. Buildings are usually depreciated over 40 years, and equipment, furniture, and software are usually depreciated over 3 to…"
+   },
+   {
+    "chunk_id": "ch_ac5b7185bac869e0",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 107,
+    "text": "Table of Contents Glossary Accelerated depreciation associated with restructured assets. The increase in depreciation expense caused by updating the salvage value and shortening the useful life of depreciable fixed assets to coincide with the end of production under an approved restructuring plan, but only if impairment is not present. AOCI . Accumulated other comprehensive income (loss). Adjusted diluted EPS. Diluted EPS adjusted for certain items affecting year-to-year comparability. Adjusted EBITDA. The calculation of earnings before income taxes and after-tax earnings from joint ventures, net interest, and depreciation and amortization adjusted for certain items affecting year-to-year comparability. Adjusted operating profit. Operating profit adjusted for certain items affecting year-to-year comparability. Adjusted operating profit margin. Operating profit adjusted for certain items affecting year-to-year comparability, divided by net sales. Constant currency. Financial results tra…"
+   }
+  ]
+ }
+}

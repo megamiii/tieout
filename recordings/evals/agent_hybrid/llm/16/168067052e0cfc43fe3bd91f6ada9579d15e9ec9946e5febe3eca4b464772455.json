@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TPUqYERQWt0Khr4wPbxjbiA+4bHuwHHdhMO8GvUW4R1L6+Zn3DvI/Jt86bnTQo9YneobGbeLx1ZIgDBSf3tDf5FyIZqA4AanVlck6DhDqTeDo5uySZOyZIDY="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Statement of Cash Flows\",\"fiscal_year\":2020,\"ticker\":\"GIS\"}",
+        "name": "search_filings"
+       },
+       "id": "call_50605",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623404,
+  "id": "7ADKaurBBtz9vdIPyYeDoQg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 35,
+   "prompt_tokens": 1547,
+   "total_tokens": 1582
+  }
+ }
+}

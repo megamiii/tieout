@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TOntLHMhxPDbf0yVmJ4zMrY4Ugc7TLWdDAZqj9V54ZCGcg78EAewVjNi7H+ryCo8AzrJ+z5dUsWrD9qqjCA9wPkD2Vr54LzQC+3+CIxkXAhvByPZLpnFDsAk="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"query\":\"capital expenditures\",\"ticker\":\"ADBE\"}",
+        "name": "search_filings"
+       },
+       "id": "call_79608",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622105,
+  "id": "2PvJasiNMY--vdIPkdiC0QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 34,
+   "prompt_tokens": 7552,
+   "prompt_tokens_details": {
+    "cached_tokens": 4043
+   },
+   "total_tokens": 7586
+  }
+ }
+}

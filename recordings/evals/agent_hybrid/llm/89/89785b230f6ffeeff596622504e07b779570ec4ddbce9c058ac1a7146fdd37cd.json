@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TgltRCHL839J7wgUlDTehHanN9KAn3WfdjdCrLVamhhslm1idcCgTsGlRiUL9hq9EQ9Q2jLZu4Ztp1oXjYoEF/EjsINzXO2JorKG4wIwaw4uneosWb9SPCs0="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"answer\":\"As of June 30, 2020 (fiscal year end 2020), Amcor's net accounts receivable (reported as trade receivables, net) was $1,615.9 million on the consolidated balance sheet.\",\"citations\":[{\"source_id\":\"ch_ac076d241cac257d\",\"quote\":\"Trade receivables, net 1,615.9 1,864.3\"}],\"nutshell\":\"Amcor's net accounts receivable was $1,615.9 million at fiscal year end 2020.\",\"rationale\":\"The consolidated balance sheet reports 'Trade receivables, net' of $1,615.9 million as of June 30, 2020.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_82774",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623217,
+  "id": "KgDKaoCmGK6FxN8P5vjekQI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 195,
+   "prompt_tokens": 5066,
+   "total_tokens": 5261
+  }
+ }
+}

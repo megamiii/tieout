@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T4SE13eyngddfq5PD3Rk4ED10L1izQ/ZTzou67N3yVuYGjjMPF29c59OzhqVpLtf1BF3hA4liujOslj+GJs5DmCIN5WiUhOL+eJBmzkgByDaS/zJHPJBcDwg="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"query\":\"Capital spending property plant and equipment investing activities\",\"ticker\":\"PEP\"}",
+        "name": "search_filings"
+       },
+       "id": "call_62080",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623150,
+  "id": "7f_JarL5IID7vdIP76S1sAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 5008,
+   "total_tokens": 5047
+  }
+ }
+}

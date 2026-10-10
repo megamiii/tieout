@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer reaches the same conclusion as the gold answer and provides accurate supporting metrics that align with the gold answer's figures.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TfiYtbI/wj7HJhUaUGl5u4+ohhhHG9Q1JlBVouzri8xyA0eilJhKzX6sTX0t/qfGG8VoKJ9+yYFT7eTSkrrhIWwsFCwZP53HMhUyuKCblxelqf6Sen5cEMY63ysT5YXSH3DO62qCMcvPfJMP8"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623683,
+  "id": "-AHKauTQJZyAxs0Phb3owQk",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 37,
+   "prompt_tokens": 313,
+   "total_tokens": 350
+  }
+ }
+}

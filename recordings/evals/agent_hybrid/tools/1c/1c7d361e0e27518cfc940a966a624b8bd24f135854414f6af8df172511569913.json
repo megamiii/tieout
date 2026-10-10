@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Purchases of land, buildings, and equipment",
+  "ticker": "GIS",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_64e42fbe9399cfd3",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 28,
+    "text": "28 Cash Flows from Investing Activities Fiscal Year In Millions 2020 2019 Purchases of land, buildings, and equipment $ (460.8) $ (537.6) Investments in affiliates, net (48.0) 0.1 Proceeds from disposal of land, buildings, and equipment 1.7 14.3 Proceeds from divestitures - 26.4 Other, net 20.9 (59.7) Net cash used by investing activities $ (486.2) $ (556.5) In fiscal 2020, we used $486 million of cash through investing activities compared to $556 million in fiscal 2019. We invested $461 million in land, buildings, and equipment in fiscal 2020, $77 million less than fiscal 2019. We expect capital expenditures to be approximately 3.5 percent of reported net sales in fiscal 2021. These expenditures will fund initiatives that are expected to fuel growth, support innovative products, and continue HMM initiatives throughout the supply chain. Cash Flows from Financing Activities Fiscal Year In Millions 2020 2019 Change in notes payable $ (1,158.6) $ (66.3) Issuance of long-term debt 1,638.1 …"
+   },
+   {
+    "chunk_id": "ch_1324e92e163dc2db",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 92,
+    "text": "92 In Millions May 31, 2020 May 26, 2019 Land, buildings, and equipment: Equipment $ 6,428.0 $ 6,548.3 Buildings 2,412.6 2,477.2 Capitalized software 668.5 631.6 Construction in progress 373.5 343.8 Land 66.1 73.6 Equipment under finance lease 5.8 5.7 Buildings under finance lease 0.3 0.3 Total land, buildings, and equipment 9,954.8 10,080.5 Less accumulated depreciation (6,374.2) (6,293.3) Total $ 3,580.6 $ 3,787.2 In Millions May 31, 2020 May 26, 2019 Other assets: Investments in and advances to joint ventures $ 566.7 $ 452.9 Right of use operating lease assets 365.2 - Pension assets 21.2 323.5 Life insurance 19.5 22.7 Miscellaneous 113.2 175.8 Total $ 1,085.8 $ 974.9 In Millions May 31, 2020 May 26, 2019 Other current liabilities: Accrued trade and consumer promotions $ 550.4 $ 484.4 Accrued payroll 430.4 345.5 Current portion of operating lease liabilities 102.0 - Accrued interest, including interest rate swaps 92.8 92.6 Accrued taxes 80.3 37.5 Derivative payable, primarily commodi…"
+   },
+   {
+    "chunk_id": "ch_2b951fd2b7c440bd",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 52,
+    "text": "(8,035.8) Investments in affiliates, net (48.0) 0.1 (17.3) Proceeds from disposal of land, buildings, and equipment 1.7 14.3 1.4 Proceeds from divestitures - 26.4 - Other, net 20.9 (59.7) (11.0) Net cash used by investing activities (486.2) (556.5) (8,685.4) Cash Flows - Financing Activities Change in notes payable (1,158.6) (66.3) 327.5 Issuance of long-term debt 1,638.1 339.1 6,550.0 Payment of long-term debt (1,396.7) (1,493.8) (600.1) Proceeds from common stock issued on exercised options 263.4 241.4 99.3 Proceeds from common stock issued - - 969.9 Purchases of common stock for treasury (3.4) (1.1) (601.6) Dividends paid (1,195.8) (1,181.7) (1,139.7) Investments in redeemable interest - 55.7 - Distributions to noncontrolling and redeemable interest holders (72.5) (38.5) (51.8) Other, net (16.0) (31.2) (108.0) Net cash (used) provided by financing activities (1,941.5) (2,176.4) 5,445.5 Effect of exchange rate changes on cash and cash equivalents (20.7) (23.1) 31.8 Increase (decrease…"
+   },
+   {
+    "chunk_id": "ch_7e1cc987d6f82112",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Grain inventories are valued at net realizable value, and all related cash contracts and derivatives are valued at fair value, with all net changes in value recorded in earnings currently. Inventories outside of the United States are generally valued at the lower of cost, using the first-in, first-out (FIFO) method, or net realizable value. Shipping costs associated with the distribution of finished product to our customers are recorded as cost of sales, and are recognized when the related finished product is shipped to and accepted by the customer. Land, Buildings, Equipment, and Depreciation Land is recorded at historical cost. Buildings and equipment, including capitalized interest and internal engineering costs, are recorded at cost and depreciated over estimated useful lives, primarily using the straight-line method. Ordinary maintenance and repairs are charged to cost of sales. Buildings are usually depreciated over 40 years, and equipment, furniture, and software are usually dep…"
+   },
+   {
+    "chunk_id": "ch_2e96b060a6eae062",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 30,
+    "text": "(a) Amounts represent the expected cash payments of our long-term debt and do not include $0.2 million for finance leases or $58.4 million for net unamortized debt issuance costs, premiums and discounts, and fair value adjustments. (b) See Note 7 to the Consolidated Financial Statements in Item 8 of this report for more information on our lease arrangements. (c) The majority of the purchase obligations represent commitments for raw material and packaging to be utilized in the normal course of business and for consumer marketing spending commitments that support our brands. For purposes of this table, arrangements are considered purchase obligations if a contract specifies all significant terms, including fixed or minimum quantities to be purchased, a pricing structure, and approximate timing of the transaction. Most arrangements are cancelable without a significant penalty and with short notice (usually 30 days). Any amounts reflected on the Consolidated Balance Sheets as accounts paya…"
+   }
+  ]
+ }
+}

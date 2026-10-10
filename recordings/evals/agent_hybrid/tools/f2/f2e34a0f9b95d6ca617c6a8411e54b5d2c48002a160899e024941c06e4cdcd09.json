@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Cash provided (used) by operations Cash provided (used) by investing activities Cash provided (used) by financing activities",
+  "ticker": "NKE",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_9d125692a0bd2f02",
+    "ticker": "NKE",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 62,
+    "text": "Other investing activities 52 (19) 171 Cash provided (used) by investing activities 564 (1,524) (3,800) Cash provided (used) by financing activities: Increase (decrease) in notes payable, net (4) 15 (52) Repayment of borrowings (500) — (197) Proceeds from exercise of stock options and other stock issuances 651 1,151 1,172 Repurchase of common stock (5,480) (4,014) (608) Dividends — common and preferred (2,012) (1,837) (1,638) Other financing activities (102) (151) (136) Cash provided (used) by financing activities (7,447) (4,836) (1,459) Effect of exchange rate changes on cash and equivalents (91) (143) 143 Net increase (decrease) in cash and equivalents (1,133) (1,315) 1,541 Cash and equivalents, beginning of year 8,574 9,889 8,348 CASH AND EQUIVALENTS, END OF YEAR $ 7,441 $ 8,574 $ 9,889 Supplemental disclosure of cash flow information: Cash paid during the year for: Interest, net of capitalized interest $ 347 $ 290 $ 293 Income taxes 1,517 1,231 1,177 Non-cash additions to property,…"
+   },
+   {
+    "chunk_id": "ch_e8d535624a3d0686",
+    "ticker": "NKE",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 62,
+    "text": "NIKE, INC. CONSOLIDATED STATEMENTS OF CASH FLOWS YEAR ENDED MAY 31, (Dollars in millions) 2023 2022 2021 Cash provided (used) by operations: Net income $ 5,070 $ 6,046 $ 5,727 Adjustments to reconcile net income to net cash provided (used) by operations: Depreciation 703 717 744 Deferred income taxes (117) (650) (385) Stock-based compensation 755 638 611 Amortization, impairment and other 156 123 53 Net foreign currency adjustments (213) (26) (138) Changes in certain working capital components and other assets and liabilities: (Increase) decrease in accounts receivable 489 (504) (1,606) (Increase) decrease in inventories (133) (1,676) 507 (Increase) decrease in prepaid expenses, operating lease right-of-use assets and other current and non-current assets (644) (845) (182) Increase (decrease) in accounts payable, accrued liabilities, operating lease liabilities and other current and non-current liabilities (225) 1,365 1,326 Cash provided (used) by operations 5,841 5,188 6,657 Cash provi…"
+   },
+   {
+    "chunk_id": "ch_b3338fabb05b85f8",
+    "ticker": "NKE",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 69,
+    "text": "Adjustments resulting from translating foreign functional currency financial statements into U.S. Dollars are included in the foreign currency translation adjustment, a component of Accumulated other comprehensive income (loss). The Company's global subsidiaries have various monetary assets and liabilities, primarily receivables and payables, which are denominated in currencies other than their functional currency. These balance sheet items are subject to remeasurement, the impact of which is recorded in Other (income) expense, net, within the Consolidated Statements of Income. ACCOUNTING FOR DERIVATIVES AND HEDGING ACTIVITIES The Company uses derivative financial instruments to reduce its exposure to changes in foreign currency exchange rates and interest rates. All derivatives are recorded at fair value on the Consolidated Balance Sheets and changes in the fair value of derivative financial instruments are either recognized in Accumulated other comprehensive income (loss), Long-term …"
+   },
+   {
+    "chunk_id": "ch_cb1690da04de7b3f",
+    "ticker": "NKE",
+    "fiscal_year": 2023,
+    "section": "Item 7A",
+    "page": 53,
+    "text": "ITEM 7A. QUANTITATIVE AND QUALITATIVE DISCLOSURES ABOUT MARKET RISK In the normal course of business and consistent with established policies and procedures, we employ a variety of financial instruments to manage exposure to fluctuations in the value of foreign currencies and interest rates. It is our policy to utilize these financial instruments only where necessary to finance our business and manage such exposures; we do not enter into these transactions for trading or speculative purposes. We are exposed to foreign currency fluctuations, primarily as a result of our international sales, product sourcing and funding activities. Our foreign exchange risk management program is intended to lessen both the positive and negative effects of currency fluctuations on our consolidated results of operations, financial position and cash flows. We use forward and option contracts to hedge certain anticipated, but not yet firmly committed, transactions as well as certain firm commitments and the …"
+   },
+   {
+    "chunk_id": "ch_96c82839a25a7d16",
+    "ticker": "NKE",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 48,
+    "text": "(used) by operations of $513 million for fiscal 2023 compared to a decrease of $1,660 million for fiscal 2022. For fiscal 2023, the net change in working capital compared to the prior year was impacted by unfavorable changes in Accounts payable, offset by favorable impacts from Inventories and Accounts receivable. These changes were, in part, due to reduced inventory purchases in the current period and timing of wholesale shipments. Further impacting these changes was a lower available supply of inventory in the prior year due to supply chain constraints. Cash provided (used) by investing activities was an inflow of $564 million for fiscal 2023, compared to an outflow of $1,524 million for fiscal 2022, primarily driven by the net change in short-term investments. For fiscal 2023, the net change in short-term NIKE, INC. 44"
+   }
+  ]
+ }
+}

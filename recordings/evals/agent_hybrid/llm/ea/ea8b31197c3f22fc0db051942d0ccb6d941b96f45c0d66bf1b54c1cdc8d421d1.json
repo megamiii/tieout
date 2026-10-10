@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TVthoQRlx3Z4kzOojCIZHkshjJ2+rS5ayn++RGib1jOviYciDttgX3qqJL4ghJFKA/du8avd5fPUIaRi9TNvKb81fB8NgFDOAOj7EoYCAjwc+C1Y9BLaNQFQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"section\":\"7\",\"query\":\"effective tax rate 20.2 22.9\",\"ticker\":\"GLW\"}",
+        "name": "search_filings"
+       },
+       "id": "call_26783",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622839,
+  "id": "s_7JauK7POyCxN8PncfE0AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 51,
+   "prompt_tokens": 4733,
+   "prompt_tokens_details": {
+    "cached_tokens": 2645
+   },
+   "total_tokens": 4784
+  }
+ }
+}

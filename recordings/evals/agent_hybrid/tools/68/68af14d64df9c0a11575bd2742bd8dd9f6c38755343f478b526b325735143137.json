@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "CONSOLIDATED BALANCE SHEETS",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_3789d040056f0b7c",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 64,
+    "text": "Lease expense for operating lease payments is recognized on a straight-line basis over the lease term. The Company has elected the accounting policy to not recognize ROU assets and lease liabilities that arise from short-term (12 months or less) leases for any class of underlying asset. Operating leases are included in operating lease ROU assets, other current liabilities, and long-term operating lease liabilities on the Company's consolidated balance sheets. The Company's finance leases are immaterial. Foreign Currency Translation/Transactions The functional currency of the majority of the Company's foreign subsidiaries is the U.S. dollar. For certain foreign subsidiaries where the local currency is the functional currency, assets and liabilities are translated from foreign currencies into U.S. dollars. Gains or losses arising from translation of foreign currency denominated assets and liabilities (i.e., cumulative translation adjustment) are included as a component of accumulated oth…"
+   },
+   {
+    "chunk_id": "ch_91aaadb2e3bf22cb",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Table of Contents Advanced Micro Devices, Inc. Consolidated Balance Sheets December 31, 2022 December 25, 2021 (In millions, except par value amounts) ASSETS Current assets: Cash and cash equivalents $ 4,835 $ 2,535 Short-term investments 1,020 1,073 Accounts receivable, net 4,126 2,706 Inventories 3,771 1,955 Receivables from related parties 2 2 Prepaid expenses and other current assets 1,265 312 Total current assets 15,019 8,583 Property and equipment, net 1,513 702 Operating lease right-of-use assets 460 367 Goodwill 24,177 289 Acquisition-related intangibles 24,118 — Investment: equity method 83 69 Deferred tax assets 58 931 Other non-current assets 2,152 1,478 Total assets $ 67,580 $ 12,419 LIABILITIES AND STOCKHOLDERS' EQUITY Current liabilities: Accounts payable $ 2,493 $ 1,321 Payables to related parties 463 85 Accrued liabilities 3,077 2,424 Current portion of long-term debt, net — 312 Other current liabilities 336 98 Total current liabilities 6,369 4,240 Long-term debt, net o…"
+   },
+   {
+    "chunk_id": "ch_59be67205a6c6b7c",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Table of Contents Advanced Micro Devices, Inc. Consolidated Statements of Stockholders' Equity Year Ended December 31, 2022 December 25, 2021 December 26, 2020 (In millions) Capital stock Common stock Balance, beginning of period $ 12 $ 12 $ 12 Issuance of common stock as consideration for acquisition 4 — — Balance, end of period $ 16 $ 12 $ 12 Additional paid-in capital Balance, beginning of period $ 11,069 $ 10,544 $ 9,963 Common stock issued under employee equity plans 167 104 85 Stock-based compensation 1,080 379 274 Issuance of common stock to settle convertible debt — 25 217 Issuance of common stock as consideration for acquisition 45,372 — — Fair value of replacement share-based awards related to acquisition 275 — — Issuance of common stock warrants 42 17 5 Balance, end of period $ 58,005 $ 11,069 $ 10,544 Treasury stock Balance, beginning of period $ (2,130) $ (131) $ (53) Repurchases of common stock (3,702) (1,762) — Reissuance of treasury stock as consideration for acquisitio…"
+   },
+   {
+    "chunk_id": "ch_c765321d0b21b263",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 52,
+    "text": "Program, higher repurchases to cover tax withholding on employee equity plans of $406 million and repayment of debt of $312 million, partially offset by proceeds from the issuance of debt of $991 million and higher proceeds from the issuance of common stock under our employee equity plans of $167 million. Net cash used in financing activities was $1.9 billion in 2021, which primarily consisted of common stock repurchases of $1.8 billion under the Repurchase Program and higher repurchases to cover tax withholding on employee equity plans of $237 million, partially offset by higher proceeds from the issuance of common stock under our employee equity plans of $104 million. Off-Balance Sheet Arrangements As of December 31, 2022, we had no off-balance sheet arrangements. 49"
+   },
+   {
+    "chunk_id": "ch_2b8f50cf3961562a",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 93,
+    "text": "Table of Contents Report of Independent Registered Public Accounting Firm To the Stockholders and the Board of Directors of Advanced Micro Devices, Inc. Opinion on the Financial Statements We have audited the accompanying consolidated balance sheets of Advanced Micro Devices, Inc. (the Company) as of December 31, 2022 and December 25, 2021, the related consolidated statements of operations, comprehensive income, stockholders' equity and cash flows for each of the three years in the period ended December 31, 2022, and the related notes (collectively referred to as the “consolidated financial statements”). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of the Company as of December 31, 2022 and December 25, 2021, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2022, in conformity with U.S. generally accepted accounting principles. We also have audited,…"
+   }
+  ]
+ }
+}

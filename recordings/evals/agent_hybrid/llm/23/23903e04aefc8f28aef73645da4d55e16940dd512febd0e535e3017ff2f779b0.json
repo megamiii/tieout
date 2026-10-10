@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tqs9TgHp70OzKnahDPftzHjNY4pOUWHsvu6r8+ZWdlXLhFLncNJWbC+/m1m6FodZlA7KBcYMmwyiPME7Ks7kLu1FEJGCcypXenXRTme4DejTHLmU0Ruz0Sds="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"Adobe's operating income was $903,095 thousand for FY2015 and $1,493,602 thousand for FY2016, resulting in a year-over-year increase of 65.4%.\",\"needs_review\":false,\"rationale\":\"Retrieved operating income figures for FY2015 ($903,095 thousand) and FY2016 ($1,493,602 thousand) from the Consolidated Statements of Income in Adobe's FY2016 10-K, and computed the percentage change: (1,493,602 - 903,095) / 903,095 * 100 = 65.389% -\\u003e 65.4%.\",\"citations\":[{\"source_id\":\"ch_e777950bf9252d3b\",\"quote\":\"Operating income 1,493,602 903,095 412,685\"}],\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_96663",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623510,
+  "id": "VQHKarKVOYX-vdIP39GJ-QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 263,
+   "prompt_tokens": 7401,
+   "total_tokens": 7664
+  }
+ }
+}

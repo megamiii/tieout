@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "capital expenditures",
+  "ticker": "ADBE",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_19b98a4c29ffe7b2",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 47,
+    "text": "adjusted for the net effect of non-cash items. The primary working capital sources of cash were increases in deferred revenue driven by Digital Media and Digital Experience offerings, partially offset by increases in trade receivables attributable to the timing of billings. Cash Flows from Investing Activities For fiscal 2022, net cash used for investing activities of $570 million was primarily due to ongoing capital expenditures and business acquisitions. See Note 3 of our Notes to Consolidated Financial Statements for further information regarding these acquisitions. Cash Flows from Financing Activities For fiscal 2022, net cash used for financing activities of $6.83 billion was primarily due to payments for our common stock repurchases and taxes paid related to the net share settlement of equity awards, offset in part by proceeds from re-issuance of treasury stock mainly for our employee stock purchase plan. See the section titled “Stock Repurchase Program” below. Liquidity and Capi…"
+   },
+   {
+    "chunk_id": "ch_7b3c6fcd78e6eaed",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 47,
+    "text": "LIQUIDITY AND CAPITAL RESOURCES Cash Flows This data should be read in conjunction with our Consolidated Statements of Cash Flows. As of (in millions) December 2, 2022 December 3, 2021 Cash and cash equivalents $ 4,236 $ 3,844 Short-term investments $ 1,860 $ 1,954 Working capital $ 868 $ 1,737 Stockholders' equity $ 14,051 $ 14,797 A summary of our cash flows for fiscal 2022, 2021 and 2020 is as follows: (in millions) 2022 2021 2020 Net cash provided by operating activities $ 7,838 $ 7,230 $ 5,727 Net cash used for investing activities (570) (3,537) (414) Net cash used for financing activities (6,825) (4,301) (3,488) Effect of foreign currency exchange rates on cash and cash equivalents (51) (26) 3 Net change in cash and cash equivalents $ 392 $ (634) $ 1,828 Our primary source of cash is receipts from revenue. Our primary uses of cash are our stock repurchase program as described below and general business expenses including payroll, marketing and third-party hosting services. Other …"
+   },
+   {
+    "chunk_id": "ch_943dd2d02e470381",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 67,
+    "text": "We recognize an asset for the incremental costs of obtaining a contract with a customer if we expect the benefit of those costs to be longer than one year. We have determined that certain sales incentive programs meet the requirements to be capitalized. The costs capitalized are primarily sales commissions paid to our sales force personnel. Capitalized costs may also include portions of fringe benefits and payroll taxes associated with compensation for incremental costs to acquire customer contracts and incentive payments to partners. Capitalized costs to obtain a contract are amortized over the expected period of benefit, which we have determined, based on analysis, to be 5 years. Amortization of capitalized costs are included in sales and marketing expense in our Consolidated Statements of Income. During fiscal 2022, 2021 and 2020, we amortized $238 million, $212 million and $186 million of capitalized contract acquisition costs into sales and marketing expense, respectively. We did …"
+   },
+   {
+    "chunk_id": "ch_989810c59a59b0bb",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 63,
+    "text": "Taxes Collected from Customers We net taxes collected from customers against those remitted to government authorities in our financial statements. Accordingly, taxes collected from customers are not reported as revenue. Treasury Stock Prepayments made for repurchases of our common stock are classified as treasury stock on our Consolidated Balance Sheets and only shares physically delivered to us at period ends are excluded from the computation of earnings per share. We account for treasury stock under the cost method. When treasury stock is re-issued at a price higher than its cost, the difference is recorded as a component of additional paid-in-capital in our Consolidated Balance Sheets. When treasury stock is re-issued at a price lower than its cost, the difference is recorded as a component of additional paid-in-capital to the extent that there are previously recorded gains to offset the losses. If there are no treasury stock gains in additional paid-in-capital, the losses upon re-i…"
+   },
+   {
+    "chunk_id": "ch_75d9de2e42d2689a",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 48,
+    "text": "Consolidated Balance Sheets. As of December 2, 2022, the carrying value of our current debt was $500 million, net of the related discount and issuance costs. We intend to repay the current portion of our debt on or before the due date. Contractual Obligations Our purchase obligations consist of agreements to purchase goods and services entered into in the ordinary course of business. As of December 2, 2022, the value of our non-cancellable unconditional purchase obligations was $6.09 billion, primarily relating to contracts with vendors for third-party hosting and data center services. See Note 16 of our Notes to Consolidated Financial Statements for additional information regarding our purchase obligations. We lease certain facilities and data centers under non-cancellable operating lease arrangements that expire at various dates through 2032. As of December 2, 2022, the value of our obligations under operating leases was $548 million. See Note 18 of our Notes to Consolidated Financia…"
+   }
+  ]
+ }
+}

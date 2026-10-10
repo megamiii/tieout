@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "organic sales total company 2022 3M percentage",
+  "ticker": "MMM",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_ccd0374d2a09aa14",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Sales in Safety and Industrial were down 3.2 percent in U.S. dollars. On an organic sales basis: • Sales increased in electrical markets, abrasives, automotive aftermarket, roofing granules, closure and masking systems, and industrial adhesives and tapes and decreased in personal safety. • Growth from continued improving general industrial manufacturing activity and other end-market demand was partially offset by the disposable respirator sales decline within personal safety, which negatively impacted year-on-year organic growth by 4.5 percentage points. Business segment operating income margins decreased year-on-year due to special item costs for significant litigation primarily related to steps toward resolving Combat Arms Earplugs litigation (discussed in Note 16) resulting in a 2022 second quarter pre-tax charge of approximately $1.2 billion. Margins were also impacted by increased raw materials and logistics costs, manufacturing productivity headwinds, partially offset by selling …"
+   },
+   {
+    "chunk_id": "ch_a8983ddbac25f0bc",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 26,
+    "text": "Table of Contents Additional information beyond what is included in the preceding tables is as follows: • For the full year 2022, in the Americas geographic area, U.S. total sales were flat which included increased organic sales of 1 percent. Total sales in Mexico increased 8 percent which included increased organic sales of 12 percent. In Canada, total sales increased 9 percent which included increased organic sales of 13 percent. In Brazil, total sales increased 15 percent which included increased organic sales of 12 percent. In the Asia Pacific geographic area, China total sales decreased 6 percent which included decreased organic sales of 3 percent. In Japan, total sales decreased 12 percent which included increased organic sales of 2 percent. • For the full year 2021, in the Americas geographic area, U.S. total sales increased 8 percent which included increased organic sales of 8 percent. Total sales in Mexico increased 18 percent which included increased organic sales of 16 perce…"
+   },
+   {
+    "chunk_id": "ch_59afedc10674107d",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 32,
+    "text": "Table of Contents Health Care Business (24.6% of consolidated sales): 2022 2021 Sales (millions) $ 8,421 $ 8,597 Sales change analysis: Organic sales 3.2 % 10.2 % Divestitures (1.4) (2.0) Translation (3.8) 1.6 Total sales change (2.0) % 9.8 % Business segment operating income (millions) $ 1,815 $ 2,037 Percent change (10.9) % 22.5 % Percent of sales 21.6 % 23.7 % Year 2022 results: Sales in Health Care were down 2.0 percent in U.S. dollars. On an organic sales basis: • Sales increased in separation and purification, health information systems, food safety and medical solutions, and was flat in oral care. • Growth continues to be impacted by COVID-related trends on elective procedure volumes and ongoing inflationary pressures. Divestitures: • Divestiture impact relates to the lost sales year-on-year from the divestiture from the Food Safety Division split-off transaction and combination with Neogen completed in the third quarter of 2022. Business segment operating income margins decreas…"
+   },
+   {
+    "chunk_id": "ch_0bb4f0b249b776d2",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 33,
+    "text": "Table of Contents Consumer Business (15.5% of consolidated sales): 2022 2021 Sales (millions) $ 5,298 $ 5,513 Sales change analysis: Organic sales (0.9) % 9.8 % Divestitures (0.4) — Translation (2.6) 1.0 Total sales change (3.9) % 10.8 % Business segment operating income (millions) $ 994 $ 1,162 Percent change (14.4) % 3.8 % Percent of sales 18.8 % 21.1 % Year 2022 results: Sales in Consumer were down 3.9 percent in U.S. dollars. On an organic sales basis: • Sales increased in stationery and office and home care, was flat in consumer health and safety, and decreased in home improvement. • Growth was impacted by softening trends in the Consumer retail business as consumers pulled back on discretionary spending and retailers took actions to reduce their inventories. These impacts were partially offset by demand for Scotch Blue painter's tape, Scotch-Brite , and Post-it®-solutions. Business segment operating income margins decreased year-on-year as a result of increased raw materials, log…"
+   },
+   {
+    "chunk_id": "ch_ec068974309e597f",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 26,
+    "text": "to $2.2 billion of stock purchases in 2021. As of December 31, 2022, approximately $4.2 billion remained available under the authorization. In February 2023, 3M's Board of Directors declared a first-quarter 2023 dividend of $1.50 per share, an increase of 1 percent. This marked the 65th consecutive year of dividend increases for 3M. Raw materials: Refer to the section entitled “Raw materials” in Item 1 for discussion of 3M's sources and availability of raw materials in 2022. Pension and postretirement defined benefit/contribution plans: On a worldwide basis, 3M's pension and postretirement plans were 96 percent funded at year-end 2022. The primary U.S. qualified pension plan, which is approximately 70 percent of the worldwide pension obligation, was 97 percent funded and the international pension plans were 116 percent funded. The U.S. non-qualified pension plan is not funded due to tax considerations and other factors. Asset returns in 2022 for the primary U.S. qualified pension plan …"
+   }
+  ]
+ }
+}

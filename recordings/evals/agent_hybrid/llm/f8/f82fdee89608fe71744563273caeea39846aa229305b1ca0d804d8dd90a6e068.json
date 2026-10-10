@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TgQ+g5X5xJqUR21ArbjAv8DJS54KfqKIlQ+4z7+RVC5iXGUzkK/i9oPRh5A/HzUguTJa7k0XwogSKSO/2AyMcQqyxUHbXcXGMPFHkGArzLRIdtjt3PHcyGOs="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"query\":\"Operating income margin and earnings per share attributable to 3M common shareholders Foreign exchange\",\"ticker\":\"MMM\"}",
+        "name": "search_filings"
+       },
+       "id": "call_78385",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622658,
+  "id": "Av7JaoGkIZuIxN8PwNP6mAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 5181,
+   "total_tokens": 5228
+  }
+ }
+}

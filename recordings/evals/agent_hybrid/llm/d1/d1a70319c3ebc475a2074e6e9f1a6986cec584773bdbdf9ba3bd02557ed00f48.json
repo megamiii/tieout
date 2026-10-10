@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Ti8FK9jgXuFWsCeWsQtlmy/yBwvpzr6SffacMFX9layHlax7k0zk6N1cSfLuC2Qr5QNDDqPsFTbBDlpuOnO6Q2bsyRHkgBShywKGdT3aumCEJeLjL5GMjrWA="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"rationale\":\"The consolidated balance sheet in Best Buy's FY2019 10-K shows merchandise inventories of $5,409 million as of February 2, 2019 (end of fiscal 2019) and $5,209 million as of February 3, 2018.\",\"citations\":[{\"quote\":\"Merchandise inventories 5,409 5,209\",\"source_id\":\"ch_8168b6b422ae3513\"}],\"answer\":\"Best Buy's total merchandise inventories at the end of fiscal 2019 (as of February 2, 2019) were $5,409 million.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_94075",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623325,
+  "id": "nADKarC2MLzFvdIPqtGnmQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 182,
+   "prompt_tokens": 3494,
+   "total_tokens": 3676
+  }
+ }
+}

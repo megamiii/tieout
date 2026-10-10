@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TuL+fAkKff3uO+lAfMy8569ij6EnH8xmh5sAOz/oWaOmIrWTwBmdHn7lJ35M31ajucD7fXb0m4CW7dFnWUd2rSyQFfXnHh5njUF21T5jE26FCSWiOAoHI9/I="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"MMM\",\"fiscal_year\":2022,\"query\":\"Organic sales total company 2022 Performance Summary\"}",
+        "name": "search_filings"
+       },
+       "id": "call_70724",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622901,
+  "id": "9P7JauODAqHdxs0PserGuAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 42,
+   "prompt_tokens": 9754,
+   "prompt_tokens_details": {
+    "cached_tokens": 6082
+   },
+   "total_tokens": 9796
+  }
+ }
+}

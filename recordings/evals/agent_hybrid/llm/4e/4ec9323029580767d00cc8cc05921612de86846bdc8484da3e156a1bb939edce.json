@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "For fiscal year 2020 (as of May 31, 2020), General Mills's statement of financial position reports:\n- Total current assets: $5,121.3 million\n- Total current liabilities: $7,491.5 million\n\nDividing total current assets by total current liabilities gives a working capital ratio of **0.68**.\n\n***\n\n*Calculation details:*\n$$\\frac{5,121.3}{7,491.5} \\approx 0.6836$$",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tmo7cCgSByhM41/eEXEG9AkqVnRiVtC5MT+CnfsOQ1CBgTl4jwAvHY+2vtINkrqEFz8ToBuAyUK4ajkvs63CrgOgkR0aAbHjkQqN0iBerJMjeKttxeIWCuxw="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623102,
+  "id": "vf_JasGdJcrtxs0P3bLjkAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 121,
+   "prompt_tokens": 3820,
+   "total_tokens": 3941
+  }
+ }
+}

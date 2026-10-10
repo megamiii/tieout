@@ -1,0 +1,48 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TZl0wIdsManUcd1t1xQ7wG0NNIZVJcmgk1Ogmd/9dXEYLQzS0qPf8UEDLdWii9xgcaLI5fRZzSzes2zldMEmKV5KjHZOob40SrTLc5PXppRglU65VcH+gRsk="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BA\",\"fiscal_year\":2022,\"query\":\"Cost of products sales\"}",
+        "name": "search_filings"
+       },
+       "id": "call_92266",
+       "type": "function"
+      },
+      {
+       "function": {
+        "arguments": "{\"query\":\"Consolidated Statements of Operations\",\"ticker\":\"BA\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_92267",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622109,
+  "id": "3fvJaqKTGZXuxs0PnYKZ4AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 71,
+   "prompt_tokens": 2865,
+   "total_tokens": 2936
+  }
+ }
+}

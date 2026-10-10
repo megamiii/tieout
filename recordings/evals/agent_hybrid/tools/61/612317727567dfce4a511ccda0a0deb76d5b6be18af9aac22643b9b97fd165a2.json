@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "geographies primarily operates in",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e4a3e7c37b20f11c",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 25,
+    "text": "geographies in which we operate in very different ways. Our business is subject to the effects of geopolitical conditions, weather, natural disasters and other catastrophic events. Geopolitical conditions, terrorist attacks, natural disasters, severe weather, widespread health emergencies or pandemics, information or cyber security incidents (including intrusion into or degradation or unavailability of systems or technology by cyberattacks), operational incidents, and other catastrophic events can have a material adverse effect on our business. Political and social conditions, including actions aimed at upending geopolitical stability, fiscal and monetary policies (including developments related to the U.S. federal debt ceiling), trade wars and tariffs, labor shortages, prolonged or recurring government shutdowns, regional or domestic hostilities, economic sanctions and the prospect or occurrence of more widespread conflicts could also negatively affect our business, operations and par…"
+   },
+   {
+    "chunk_id": "ch_65e639c056f479dd",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 25,
+    "text": "bankruptcies, geopolitical instability (including the ongoing military conflict in Ukraine), public policy decisions, government spending, international trade relationships, interest rates, taxes, inflation and deflation (including the effects of related governmental responses), energy costs, availability of capital and credit and the continuing impacts of the COVID-19 pandemic all affect the economic environment and, ultimately, our profitability. Recently, levels of inflation have been significantly elevated. Sustained periods of high inflation may, among other things, increase certain of our expenses and erode consumer purchasing power, confidence and spending. An economic downturn or recession may result in higher unemployment and lower household income, consumer spending, corporate earnings and business investment, which may negatively impact spending on our cards and demand for our products, and increase delinquencies and write-off rates. Travel and entertainment (T&E) expenditur…"
+   },
+   {
+    "chunk_id": "ch_e09711461c8cf119",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 155,
+    "text": "Table of Contents GEOGRAPHIC OPERATIONS The following table presents our total revenues net of interest expense and pretax income (loss) from continuing operations in different geographic regions based, in part, upon internal allocations, which necessarily involve management's judgment. Effective for the first quarter of 2022, we changed the way in which we allocate certain overhead expenses by geographic region. As a result, prior period pretax income (loss) from continuing operations by geography has been recast to conform to current period presentation; there was no impact at a consolidated level. (Millions) United States EMEA APAC LACC Other Unallocated Consolidated 2022 Total revenues net of interest expense $ 41,396 $ 4,871 $ 3,835 $ 2,917 $ (157) $ 52,862 Pretax income (loss) from continuing operations 10,383 550 376 500 (2,224) 9,585 2021 Total revenues net of interest expense $ 33,103 $ 3,643 $ 3,418 $ 2,238 $ (22) $ 42,380 Pretax income (loss) from continuing operations 10,32…"
+   },
+   {
+    "chunk_id": "ch_18e0db3e648881b4",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 153,
+    "text": "Table of Contents NOTE 24 REPORTABLE OPERATING SEGMENTS AND GEOGRAPHIC OPERATIONS REPORTABLE OPERATING SEGMENTS We consider a combination of factors when evaluating the composition of our reportable operating segments, including the results reviewed by the chief operating decision maker, economic characteristics, products and services offered, classes of customers, product distribution channels, geographic considerations (primarily United States versus outside the United States), and regulatory environment considerations. Effective for the first quarter of 2022, we updated the methodology used to allocate certain revenues; prior period amounts have been recast to conform to current period presentation. Effective for the third quarter of 2022, we realigned our reportable segments to reflect organizational changes announced during the second quarter of 2022. Prior periods have been recast to conform to the new reportable operating segments. The following is a brief description of the pri…"
+   },
+   {
+    "chunk_id": "ch_8b1d78216d04677f",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 53,
+    "text": "Net card fees, processed revenue and certain other revenues are directly attributable to the segment in which they are reported. Interest and fees on loans and certain investment income is directly attributable to the segment in which it is reported. Interest expense represents an allocated funding cost based on a combination of segment funding requirements and internal funding rates. PROVISIONS FOR CREDIT LOSSES The provisions for credit losses are directly attributable to the segment in which they are reported. EXPENSES Card Member rewards and Card Member services expenses are included in each segment based on the actual expenses incurred. Business development and Marketing expenses are included in each segment based on the actual expenses incurred. Global brand advertising is primarily allocated to the segments based on the relative levels of revenue. Salaries and employee benefits and other expenses reflect both costs incurred directly within each segment, as well as allocated expe…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TBWLzb0ZfvdGMq+eMRGCBjMbu4lH+URkjrsH3mEv2Cyd9kxmBKjDyphexRNgllPTaaa0UYrwhTCiPy5QM0Aglm7AjtC/MHogXrqerrlxr9bC6pAxOZYc95QU="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"rationale\":\"The cover page of the 2022 Form 10-K lists Common Shares as the only security registered under Section 12(b) and \\\"None\\\" under Section 12(g), confirming there are no registered debt securities.\",\"needs_review\":false,\"answer\":\"As of December 31, 2022, American Express Company did not have any debt securities registered to trade on a national securities exchange under its name. Its only registered class of securities under Section 12(b) of the Act consisted of its Common Shares, and no securities were registered pursuant to Section 12(g).\",\"citations\":[{\"source_id\":\"ch_be2977e23ffce4f4\",\"quote\":\"Securities registered pursuant to Section 12(b) of the Act:\\nTitle of each class\\nTrading Symbol(s)\\nName of each exchange on which registered\\nCommon Shares (par value $0.20 per Share)\\nAXP\\nNew York Stock Exchange\\nSecurities registered pursuant to section 12(g) of the Act:\\nNone\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_84044",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621924,
+  "id": "I_vJarvWL_LQvdIPmrq7kAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 260,
+   "prompt_tokens": 8479,
+   "total_tokens": 8739
+  }
+ }
+}

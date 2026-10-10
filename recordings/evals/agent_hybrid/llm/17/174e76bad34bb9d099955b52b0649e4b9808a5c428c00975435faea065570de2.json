@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TfcHIX98KpMvDV4ooHD4xY9+nMqT9T3XTsWFscvlO0P83m5F0yITdPdI1pGAsxTFpbYEnZ2Ekzr0mnRhiTm1z4vIrBTbpS97vZGBLpNMt6/2XJmb5Zv9bN6U="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Gross profit as a percentage of net sales\",\"fiscal_year\":2020,\"ticker\":\"AMCR\"}",
+        "name": "search_filings"
+       },
+       "id": "call_19928",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622151,
+  "id": "BvzJatiDNpuIxN8PwNP6mAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 3136,
+   "total_tokens": 3176
+  }
+ }
+}

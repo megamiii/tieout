@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies all the drivers mentioned in the gold answer and provides additional relevant context regarding the segments and the offsetting factors.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0Tt6pZ3nfdNrDW6hZIiNYeggdPjLj2wPZaWE7xPZ6Tz9w1lVWEm0TiEKFHVYGnGsbYpzv2SPSSvpXqk98+1lTalT/WDgNPHbkDueMDLAAeTpEiFHYDBoiW+c+i3DojSfLzncfmYgENAUub4ysD"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623992,
+  "id": "JAPKaqb3N-Ks28oPnp6miAk",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 37,
+   "prompt_tokens": 381,
+   "total_tokens": 418
+  }
+ }
+}

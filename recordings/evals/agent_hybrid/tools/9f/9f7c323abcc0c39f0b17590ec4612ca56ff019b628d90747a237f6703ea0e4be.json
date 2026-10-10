@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "products and services segments",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": "1",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e9f26cbe40d7744b",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 6,
+    "text": "In addition to these reportable segments, we have an All Other category, which is not a reportable segment. Data Center Segment Data Center Market The Data Center segment primarily includes server CPUs, GPUs, DPUs, FPGAs, and Adaptive SoC products. We leverage our technology to address the computational and visual data processing needs in the data center market. Modern data centers require high performance, energy efficient, scalable and adaptable compute engines to meet the demand driven by the growing amount of data that needs to be stored, accessed, analyzed and managed. Different combinations of CPUs, GPUs, DPUs, FPGAs, and Adaptive SoCs enable the optimization of performance and power for a diverse set of workloads. 3"
+   },
+   {
+    "chunk_id": "ch_9321416dd5ddbc9a",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 6,
+    "text": "now offer the industry's strongest portfolio of data center computing solutions based on our CPUs, high-performance GPUs, DPUs, FPGAs, and Adaptive SoCs. We have a broad technology roadmap and products targeting AI training and inference spanning cloud, edge and intelligent endpoints. We achieve this through our family of CPUs, GPUs, FPGAs, and Adaptive SoCs. We develop world-class software platforms that are used to enable our high-performance products. Our software platforms include development tools, compilers, and drivers for our CPUs, GPUs and FPGAs. We work closely with our customers to define and develop customized solutions to precisely match their requirements. We enable this by combining our broad portfolio of high-performance IP with our leadership design and packaging to deliver world-class customized solutions to our customers. We invest in innovative technology and solutions such as our custom-ready chiplet platform and AMD Infinity Architecture to maintain our leadership…"
+   },
+   {
+    "chunk_id": "ch_b7008cb44bfb8d02",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 12,
+    "text": "Table of Contents We also work with our customers to create differentiated products that leverage our CPU, GPU and APU technology. Certain customers pay us non-recurring engineering fees for design and development services and a purchase price for the resulting products. One customer accounted for 16% of our consolidated net revenue for the year ended December 31, 2022. Sales to this customer consisted of sales of products from our Gaming segment. A loss of this customer would have a material adverse effect on our business. Original Equipment Manufacturers We focus on three types of OEM partners: multi-nationals, selected regional accounts and selected global and local system integrators, who target commercial and consumer end customers of all sizes. Large multi-nationals and regional accounts are the core of our OEM partners' business; however, we are increasingly focused on the VAR channel which resells OEM systems to the mid-market and the small and medium business (SMB) segments. A…"
+   },
+   {
+    "chunk_id": "ch_e364fdcdb8c096ef",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 12,
+    "text": "instances, our agreements with distributors protect their inventory of our products against price reductions and provide certain return rights with respect to any product that we have removed from our price book or otherwise subject to discontinuation. In addition, some agreements with our distributors may contain standard stock rotation provisions permitting limited product returns. Add-in-Board (AIB) Manufacturers and System Integrators We offer component-level graphics and chipset products to AIB manufacturers who in turn build and sell board-level products using our technology to system integrators (SIs), retail buyers and sub distributors. Our agreements with AIBs protect their inventory of our products against price reductions. We also sell directly to our SI customers. SIs typically sell from positions of regional or product-based strength in the market. They usually operate on short design cycles and can respond quickly with new technologies. SIs often use discrete graphics sol…"
+   },
+   {
+    "chunk_id": "ch_4627843238794e5a",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 13,
+    "text": "Table of Contents Competition in Gaming Segment In the graphics market, our principal competitor in the supply of discrete graphics is NVIDIA who is the market share leader. Intel also manufactures and sells embedded graphics processors and integrated graphics processor (IGP) chipsets. Also, Intel has developed their own gaming-focused discrete GPUs and has entered the market. Other competitors include suppliers of discrete graphics and integrated graphics processor (IGP) chipsets. Some of our competitors are smaller companies, which may have greater flexibility to address specific market needs, but less financial resources to address the growing complexity of graphics processors and the associated research and development costs. With respect to integrated graphics, higher unit shipments of our APUs and Intel's integrated graphics may drive computer manufacturers to reduce the number of systems they build paired with discrete graphics components, particularly for notebooks, because the…"
+   }
+  ]
+ }
+}

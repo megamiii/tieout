@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TCgxLJpJZFVKhfKSYd5PRjVoy16rW96XxFzAsr7WRz7CdYNH+ZJXf/gbH3+AD8slHlAdvPXM8yTGM7ATZK9QJ/Um6Ptx1FaaRMdHYohxBlJYmFdIU0DiILoU="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_c0b687348702b7d5\",\"quote\":\"Gross profit as a percentage of net sales 18.5 % 19.4 %\"},{\"source_id\":\"ch_c0b687348702b7d5\",\"quote\":\"Gross profit $ 2,725 $ 2,820\"}],\"confidence\":1,\"needs_review\":false,\"answer\":\"As of FY2023, Amcor does not have an improving gross margin profile. Consolidated gross profit as a percentage of net sales decreased from 19.4% in FY2022 to 18.5% in FY2023. Gross profit itself decreased by $95 million (or 3%) from $2,820 million in FY2022 to $2,725 million in FY2023.\",\"rationale\":\"The gross profit percentage dropped from 19.4% in FY2022 to 18.5% in FY2023, and total gross profit decreased by $95 million, indicating a declining rather than improving gross margin profile.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_71748",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622164,
+  "id": "E_zJasGZFqO_vdIP-aSQmQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 282,
+   "prompt_tokens": 7115,
+   "prompt_tokens_details": {
+    "cached_tokens": 4051
+   },
+   "total_tokens": 7397
+  }
+ }
+}

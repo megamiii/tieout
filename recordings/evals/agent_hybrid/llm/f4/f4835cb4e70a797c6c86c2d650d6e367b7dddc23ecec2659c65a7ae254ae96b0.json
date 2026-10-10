@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0THpB2jJ5VN3leP0Uy6nPIs+nkcU2UvWg/zmcRLIRRiS7wFKHoh2zbdx8s5xomWVioINIjqosI0j1hCEw4DokAN0gZP/95sA/0qmy0ghfG4UHkzABENQlBxI0="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_6a05ea70d49e4006\",\"quote\":\"Customer deposits $ 110,239 $ 84,382\"}],\"answer\":\"In fiscal year 2022, the largest liability on American Express's Consolidated Balance Sheets was Customer deposits, which totaled $110,239 million as of December 31, 2022.\",\"confidence\":1,\"rationale\":\"Checked the Consolidated Balance Sheets in Item 8 of the 2022 10-K, where Customer deposits is reported at $110,239 million, making it the largest liability item listed.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_56115",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622913,
+  "id": "AP_JasTZFrWzxN8Pk7OLiQg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 170,
+   "prompt_tokens": 9237,
+   "total_tokens": 9407
+  }
+ }
+}

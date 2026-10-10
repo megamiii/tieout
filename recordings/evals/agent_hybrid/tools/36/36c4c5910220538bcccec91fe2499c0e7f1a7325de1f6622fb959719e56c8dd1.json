@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Cost of sales as a % of Revenues",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_106a3b3674ea94d5",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 116,
+    "text": "Table of Contents BGS revenues consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: Commercial $9,560 $7,527 $6,936 Government 7,681 8,553 8,368 Total revenues from contracts with customers 17,241 16,080 15,304 Intersegment revenues eliminated on consolidation 370 248 239 Total segment revenues $17,611 $16,328 $15,543 Revenue recognized at a point in time 50 % 45 % 47 % Revenue recognized on fixed-price contracts 88 % 86 % 87 % Revenue from the U.S. government 33 % 40 % 41 % Includes revenues earned from foreign military sales through the U.S. government. Earnings in Equity Method Investments For the year ended December 31, 2022, our share of income from equity method investments was $56, primarily driven by investments held in Unallocated items, eliminations and other. For the years ended December 31, 2021 and 2020, our share of income from equity method investments was $40 and $86, primarily in our BDS segment. Backlog Our total b…"
+   },
+   {
+    "chunk_id": "ch_515291f695fac5af",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 28,
+    "text": "Table of Contents The following table summarizes cost of sales: (Dollars in millions) Years ended December 31 2022 2021 Change 2021 2020 Change Cost of sales $63,106 $59,269 $3,837 $59,269 $63,843 ($4,574) Cost of sales as a % of Revenues 94.7 % 95.2 % (0.5)% 95.2 % 109.8 % (14.6)% Cost of sales increased by $3,837 million in 2022 compared with 2021, primarily due to charges recorded at BDS and higher revenues at BCA. Cost of sales as a percentage of Revenues remained largely consistent in 2022 compared to 2021. Cost of sales decreased by $4,574 million in 2021 compared with 2020, primarily due to higher earnings charges at BCA, BDS and BGS in 2020, partially offset by higher costs as a result of higher revenues in 2021 and the reach-forward loss on the 787 program. Cost of sales as a percentage of Revenues decreased in 2021 compared to 2020 primarily due to higher earnings charges at BCA and BGS in 2020 and higher revenues in 2021. Research and Development The following table summariz…"
+   },
+   {
+    "chunk_id": "ch_8997c73358623f7e",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 64,
+    "text": "control to the customer. For U.S. government contracts, this continuous transfer of control to the customer is supported by clauses in the contract that allow the customer to unilaterally terminate the contract for convenience, pay us for costs incurred plus a reasonable profit and take control of any work in process. Similarly, for non-U.S. government contracts, the customer typically controls the work in process as evidenced either by contractual termination clauses or by our rights to payment of the transaction price associated with work performed to date on products or services that do not have an alternative use to the Company. The accounting for long-term contracts involves a judgmental process of estimating total sales, costs and profit for each performance obligation. Cost of sales is recognized as incurred. The amount reported as revenues is determined by adding a proportionate amount of the estimated profit to the amount reported as cost of sales. Recognizing revenue as costs…"
+   },
+   {
+    "chunk_id": "ch_3c805a25dfb7e3e1",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 65,
+    "text": "recorded at average cost. Payments for commercial spare parts sales are typically received shortly after delivery. Other service revenue contracts Certain contracts at our BGS segment are for sales of services to commercial customers including maintenance, training, data analytics and information-based services. We recognize revenue for these service performance obligations over time as the services are rendered. The method of measuring progress (such as straight-line or billable amount) varies depending upon which method best depicts the transfer of control to the customer based on the type of service performed. Cost of sales is recorded as incurred. Concession sharing arrangements We account for sales concessions to our customers in consideration of their purchase of products and services as a reduction of the transaction price and the revenue that is recognized for the related performance obligations. The sales concessions incurred may be partially reimbursed by certain suppliers in…"
+   },
+   {
+    "chunk_id": "ch_a22b6d9c61f38dbf",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 115,
+    "text": "Table of Contents BCA revenues by customer location consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: Asia $4,484 $2,792 $2,679 Europe 4,038 4,334 3,872 Middle East 2,003 1,098 1,647 Other non-U.S. 3,042 1,681 513 Total non-U.S. revenues 13,567 9,905 8,711 United States 12,167 9,472 7,899 Estimated potential concessions and other considerations to 737 MAX customers 16 14 (498) Total revenues from contracts with customers 25,750 19,391 16,112 Intersegment revenues, eliminated on consolidation 117 102 50 Total segment revenues $25,867 $19,493 $16,162 Revenue recognized on fixed-price contracts 100 % 100 % 100 % Revenue recognized at a point in time 100 % 100 % 100 % BDS revenues on contracts with customers, based on the customer's location, consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: U.S. customers $17,144 $19,869 $19,662 Non-U.S. customers 6,018 6,671 6,595 Total segme…"
+   }
+  ]
+ }
+}

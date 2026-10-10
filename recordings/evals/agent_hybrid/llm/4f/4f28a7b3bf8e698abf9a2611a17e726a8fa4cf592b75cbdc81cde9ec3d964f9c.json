@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tv4K9wLBnj+DvYBRC3pg+EGz85cTcnNN6bfwcnOT3ZEDjWJjbGNwjsGsFPXoTisj5A3XLc9ARDjIFHMQmj3SMb/FmiGgJPBIWoiaXsGofBhjgaD8TbuL6Ph0="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_7e7d94f646562cab\",\"quote\":\"Today, we are a global leader in developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other products.\"},{\"source_id\":\"ch_4244c10fced21b62\",\"quote\":\"The Company's business is organized and presented in the two reportable segments outlined below: Flexibles: Consists of operations that manufacture flexible and film packaging in the food and beverage, medical and pharmaceutical, fresh produce, snack food, personal care, and other industries.\"}],\"answer\":\"Amcor primarily operates in the packaging industry, developing and producing responsible packaging for food, beverage, pharmaceutical, medical, home and personal-care, and other products through its reportable segments, Flexibles and Rigid Packaging.\",\"needs_review\":false,\"rationale\":\"Amcor operates in the packaging industry as a global leader in developing and producing responsible packaging, with segments in Flexibles and Rigid Packaging.\",\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_41186",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622595,
+  "id": "wv3Jaq7KJ6yW28oPpvrGoQc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 247,
+   "prompt_tokens": 4600,
+   "prompt_tokens_details": {
+    "cached_tokens": 2009
+   },
+   "total_tokens": 4847
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Operating income operating margin revenue 2022 2021 2020",
+  "ticker": "ADBE",
+  "fiscal_year": 2022,
+  "section": "7",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_f40214fbebdb5d7b",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 40,
+    "text": "Cost of revenue of $2.17 billion increased by $300 million, or 16%, during fiscal 2022, from $1.87 billion in fiscal 2021 primarily due to increases in hosting services and data center costs, as well as increases in base and incentive compensation and related benefits costs. • Operating expenses of $9.34 billion increased by $1.23 billion, or 15%, during fiscal 2022, from $8.12 billion in fiscal 2021 primarily due to increases in base and incentive compensation and related benefits costs, as well as increased marketing spend. • Cash flows from operations of $7.84 billion during fiscal 2022 increased by $608 million, or 8%, from $7.23 billion in fiscal 2021 primarily due to higher net income after adjustment for non-cash items. Revenue Revenue for fiscal 2021 benefited from an extra week in the first quarter of fiscal 2021 due to our 52/53 week financial calendar whereby fiscal 2021 was a 53-week year compared with fiscal 2022 and 2020 which were 52-week years. (dollars in millions) 202…"
+   },
+   {
+    "chunk_id": "ch_0d56ba5f431131db",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 42,
+    "text": "Digital Media Revenue by major offerings in our Digital Media reportable segment for fiscal 2022, 2021 and 2020 were as follows: (dollars in millions) 2022 2021 2020 % Change 2022-2021 Creative Cloud $ 10,459 $ 9,546 $ 7,736 10 % Document Cloud 2,383 1,974 1,497 21 % Total Digital Media revenue $ 12,842 $ 11,520 $ 9,233 11 % Revenue from Digital Media increased $1.32 billion during fiscal 2022 as compared to fiscal 2021, driven by increases in revenue associated with our Creative and Document Cloud subscription offerings due to continued demand amid an increasingly digital environment and strong customer acquisition and engagement, partially offset by the impact of foreign currency exchange rate fluctuations. Digital Experience Revenue from Digital Experience increased $555 million during fiscal 2022 as compared to fiscal 2021 primarily due to net new additions across our subscription offerings, partially offset by the impact of foreign currency exchange rate fluctuations. Geographical…"
+   },
+   {
+    "chunk_id": "ch_2a5c979a414adfe2",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 45,
+    "text": "Non-Operating Income (Expense), Net (dollars in millions) 2022 2021 2020 % Change 2022-2021 Interest expense $ (112) $ (113) $ (116) (1) % Percentage of total revenue (1) % (1) % (1) % Investment gains (losses), net (19) 16 13 ** Percentage of total revenue * * * Other income (expense), net 41 — 42 ** Percentage of total revenue * * * Total non-operating income (expense), net $ (90) $ (97) $ (61) (7) % _________________________________________ (*) Percentage is less than 1%. (**) Percentage is not meaningful. Interest Expense Interest expense represents interest associated with our debt instruments. Interest on our senior notes is payable semi- annually, in arrears, on February 1 and August 1. Investment Gains (Losses), Net Investment gains (losses), net consists principally of unrealized holding gains and losses associated with our deferred compensation plan assets, and gains and losses associated with our direct and indirect investments in privately held companies. Other Income (Expe…"
+   },
+   {
+    "chunk_id": "ch_abda1249ac764b51",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 42,
+    "text": "increases in Digital Media revenue and, to a lesser extent, increases in Digital Experience revenue. Within each geographic region, the fluctuations in revenue by reportable segment were attributable to the factors noted in the segment information above. Included in the overall change in revenue for fiscal 2022 as compared to fiscal 2021 were impacts associated with foreign currency which were mitigated in part by our foreign currency hedging program. During fiscal 2022, the U.S. Dollar primarily strengthened against EMEA and APAC foreign currencies as compared to fiscal 2021, which decreased revenue in U.S. Dollar equivalents by approximately $486 million. During fiscal 2022, the foreign currency impacts to revenue were offset in part by net hedging gains from our cash flow hedging program of $176 million. See Note 2 of our Notes to Consolidated Financial Statements for additional details of revenue by geography. Cost of Revenue (dollars in millions) 2022 2021 2020 % Change 2022-2021 …"
+   },
+   {
+    "chunk_id": "ch_8d88b9dd54569cba",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 45,
+    "text": "average interest rates. Provision for (Benefit from) Income Taxes (dollars in millions) 2022 2021 2020 % Change 2022-2021 Provision for (benefit from) income taxes $ 1,252 $ 883 $ (1,084) 42 % Percentage of total revenue 7 % 6 % (8) % Effective tax rate 21 % 15 % (26) % Our effective tax rate increased by approximately six percentage points during fiscal 2022 as compared to fiscal 2021, primarily due to lower tax benefits related to stock-based compensation in fiscal 2022. Our effective tax rate for fiscal 2022 was the same as the U.S. federal statutory tax rate primarily due to the impact of the U.S. federal research tax credit, largely offset by state taxes. During fiscal 2020, we completed intra-entity transfers of certain IP rights to our Irish subsidiary in order to better align the ownership of these rights with how our business operates. The transfers did not result in taxable gains; however, our Irish subsidiary recognized deferred tax assets for the book and tax basis differen…"
+   }
+  ]
+ }
+}

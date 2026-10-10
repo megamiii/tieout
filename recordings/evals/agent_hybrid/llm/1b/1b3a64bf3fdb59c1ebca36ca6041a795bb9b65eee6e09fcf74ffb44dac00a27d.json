@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T8qre53Muyc/Hejs1eBsZNIJ7DgtWPAwsTepXSh5FwDshE9zWeCLGbLUYvx7eGWX1mNZuelmxsW8tx0OD/kgvREU7M6S1waZPposbQRE9OLVMwJtnqRwBGvg="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"Cash and cash equivalents $ 4,835\",\"source_id\":\"ch_91aaadb2e3bf22cb\"},{\"quote\":\"Short-term investments 1,020\",\"source_id\":\"ch_91aaadb2e3bf22cb\"},{\"source_id\":\"ch_91aaadb2e3bf22cb\",\"quote\":\"Accounts receivable, net 4,126\"},{\"source_id\":\"ch_91aaadb2e3bf22cb\",\"quote\":\"Total current liabilities 6,369\"}],\"needs_review\":false,\"answer\":\"AMD does not explicitly discuss or rely on a \\\"quick ratio\\\" in its FY2022 Form 10-K to measure its liquidity profile. Instead, AMD evaluates its liquidity and capital resources through cash, cash equivalents, short-term investments, and operating cash flows (e.g., holding $5.9 billion in cash, cash equivalents, and short-term investments as of December 31, 2022). \\n\\nHowever, using the balance sheet data as of December 31, 2022 (in millions):\\n- Cash and cash equivalents: $4,835\\n- Short-term investments: $1,020\\n- Accounts receivable, net: $4,126\\n- Total quick assets (Cash + Short-term investments + Accounts receivable): $9,981\\n- Total current liabilities: $6,369\\n\\nThis yields a quick ratio of approximately 1.57 ($9,981 million / $6,369 million), indicating a reasonably healthy liquidity profile where quick assets comfortably exceed current liabilities.\",\"rationale\":\"The company does not mention the term quick ratio in its 10-K, but standard financial analysis allows computing it from the balance sheet components provided. All numbers are directly sourced from the FY2022 10-K.\",\"confidence\":0.95}",
+        "name": "submit_answer"
+       },
+       "id": "call_46177",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621843,
+  "id": "0frJarj0LoLjnsEP-eGkqQo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 458,
+   "prompt_tokens": 7241,
+   "total_tokens": 7699
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies operating activities as the primary source of cash flow and provides the specific figure, which aligns with the gold answer.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T98egwE7pxZ92MJZLtHmxDZLyx1FRkMkKxwMWIa6V6hMTlXl/Gj6tbd96aW9SLvTtZCyVCgjzGXF1l4qBcUdt8Lp7MhyY+jDhdeBMnxJefTS/vQQY9VTdQbhWwV34CGZ2bjQChFXjHiFVYZAM"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791624000,
+  "id": "PwPKaoWDJoHMvdIPyKat4QU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 228,
+   "total_tokens": 266
+  }
+ }
+}

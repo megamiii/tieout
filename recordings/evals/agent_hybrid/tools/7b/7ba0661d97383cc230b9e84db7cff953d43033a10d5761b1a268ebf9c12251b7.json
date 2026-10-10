@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "CONSOLIDATED BALANCE SHEETS December 31 Liabilities",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_1ff60ced74aa865f",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 98,
+    "text": "Table of Contents CONSOLIDATED BALANCE SHEETS December 31 (Millions, except share data) 2022 2021 Assets Cash and cash equivalents Cash and due from banks (includes restricted cash of consolidated variable interest entities: 2022, $5; 2021, $11) $ 5,510 $ 1,292 Interest-bearing deposits in other banks (includes securities purchased under resale agreements: 2022, $318; 2021, $463) 28,097 20,548 Short-term investment securities (includes restricted investments of consolidated variable interest entities: 2022, $54; 2021, $32) 307 188 Total cash and cash equivalents 33,914 22,028 Card Member receivables (includes gross receivables available to settle obligations of a consolidated variable interest entity: 2022, $5,193; 2021, $5,175), less reserves for credit losses: 2022, $229; 2021, $64 57,384 53,581 Card Member loans (includes gross loans available to settle obligations of a consolidated variable interest entity: 2022, $28,461; 2021, $26,587), less reserves for credit losses: 2022, $3,74…"
+   },
+   {
+    "chunk_id": "ch_f0885a17240d2858",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 95,
+    "text": "Table of Contents INDEX TO CONSOLIDATED FINANCIAL STATEMENTS CONSOLIDATED FINANCIAL STATEMENTS PAGE Consolidated Statements of Income – For the Years Ended December 31, 2022, 2021 and 2020 93 Consolidated Statements of Comprehensive Income – For the Years Ended December 31, 2022, 2021 and 2020 94 Consolidated Balance Sheets – December 31, 2022 and 2021 95 Consolidated Statements of Cash Flows – For the Years Ended December 31, 2022, 2021 and 2020 96 Consolidated Statements of Shareholders' Equity – For the Years Ended December 31, 2022, 2021 and 2020 97 NOTES TO CONSOLIDATED FINANCIAL STATEMENTS 98 Note 1 – Summary of Significant Accounting Policies 98 Note 2 – Loans and Card Member Receivables 104 Note 3 – Reserves for Credit Losses 112 Note 4 – Investment Securities 115 Note 5 – Asset Securitizations 117 Note 6 – Other Assets 118 Note 7 – Customer Deposits 120 Note 8 – Debt 121 Note 9 – Other Liabilities 124 Note 10 – Stock-Based Compensation 125 Note 11 – Retirement Plans 127 Note 1…"
+   },
+   {
+    "chunk_id": "ch_67fe08b8539ee583",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 139,
+    "text": "105 — Financial liabilities carried at other than fair value Certificates of deposit 5 5 — 5 — Long-term debt $ 39 $ 40 $ — $ 40 $ — (a) Level 2 fair value amounts reflect time deposits and short-term investments. (b) Balances include Card Member receivables (including fair values of Card Member receivables of $5.2 billion held by a consolidated VIE as of both December 31, 2022 and 2021), other receivables and other miscellaneous assets. (c) Balances include amounts held by a consolidated VIE for which the fair values of Card Member loans were $28.4 billion and $26.7 billion as of December 31, 2022 and 2021, respectively, and the fair values of Long-term debt were $12.3 billion and $13.9 billion as of December 31, 2022 and 2021, respectively. (d) Presented as a component of Customer deposits on the Consolidated Balance Sheets. (a) (b) (c) (d) (c) (a) (b) (c) (d) (c) 136"
+   },
+   {
+    "chunk_id": "ch_be73b6e96a08e24e",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 144,
+    "text": "Table of Contents NOTE 17 CHANGES IN ACCUMULATED OTHER COMPREHENSIVE INCOME (LOSS) AOCI is a balance sheet item in Shareholders' equity on the Consolidated Balance Sheets. It is comprised of items that have not been recognized in earnings but may be recognized in earnings in the future when certain events occur. Changes in each component for the three years ended December 31 were as follows: (Millions), net of tax Net Unrealized Gains (Losses) on Debt Securities Foreign Currency Translation Adjustment Gains (Losses), Net of Hedges Net Unrealized Pension and Other Postretirement Benefit Gains (Losses) Accumulated Other Comprehensive Income (Loss) Balances as of December 31, 2019 $ 33 $ (2,189) $ (581) $ (2,737) Net change 32 (40) (150) (158) Balances as of December 31, 2020 65 (2,229) (731) (2,895) Net change (42) (163) 155 (50) Balances as of December 31, 2021 23 (2,392) (576) (2,945) Net change (87) (230) 52 (265) Balances as of December 31, 2022 $ (64) $ (2,622) $ (524) $ (3,210) (a)…"
+   },
+   {
+    "chunk_id": "ch_6bca9207404bc648",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 135,
+    "text": "Table of Contents Our derivatives are carried at fair value on the Consolidated Balance Sheets. The accounting for changes in fair value depends on the instruments' intended use and the resulting hedge designation, if any, as discussed below. Refer to Note 14 for a description of our methodology for determining the fair value of derivatives. The following table summarizes the total fair value, excluding interest accruals, of derivative assets and liabilities as of December 31: Other Assets Fair Value Other Liabilities Fair Value (Millions) 2022 2021 2022 2021 Derivatives designated as hedging instruments: Fair value hedges - Interest rate contracts $ — $ 204 $ 211 $ — Net investment hedges - Foreign exchange contracts 350 219 251 54 Total derivatives designated as hedging instruments 350 423 462 54 Derivatives not designated as hedging instruments: Foreign exchange contracts and other 171 167 339 85 Total derivatives, gross 521 590 801 139 Derivative asset and derivative liability nett…"
+   }
+  ]
+ }
+}

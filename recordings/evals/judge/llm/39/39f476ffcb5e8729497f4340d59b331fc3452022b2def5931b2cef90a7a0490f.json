@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies that the gross margin profile is not improving and provides accurate supporting figures that align with the gold answer's data.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TzifFnJyfdQMmqrzpoliYOl0hqEonAmxK3o4XKGX1plGhqu7s67uE1YpZbEJzQvv272xyLAO7GizkRHQ7QpadL1BbcMwc1ZxF86Bzk9HNlNX8j9ZTfAHhrC3BU48eZEkKuNmwSNqh9T2wz6aO"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623777,
+  "id": "VALKarnkIaia28oPzJW1kAs",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 300,
+   "total_tokens": 339
+  }
+ }
+}

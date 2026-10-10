@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TMn02iEN/3rNcnjDrUxcIQlL5FJzfUytAdqnhBvJjq0UDUvLG6Uv+pNjXIc3kcSFj1sG/2skgwDr35coN+YtoGt37Jz4fhLkxDsRMLQfIeJWxjLupGsyWO3U="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"ticker\":\"PEP\",\"query\":\"Our Divisions We are organized into seven reportable segments\"}",
+        "name": "search_filings"
+       },
+       "id": "call_38835",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622421,
+  "id": "Ff3JaujcIo--vdIPkdiC0QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 2886,
+   "total_tokens": 2927
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "item": "8",
+  "page": 114
+ },
+ "output": {
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "item": "8",
+  "title": "Financial Statements and Supplementary Data",
+  "page": 114,
+  "item_pages": [
+   54,
+   126
+  ],
+  "chunks": [
+   {
+    "chunk_id": "ch_f4ab865e1b87bcb2",
+    "page": 114,
+    "text": "Table of Contents While our principal operations are in the United States, Canada and Australia, some key suppliers and subcontractors are located in Europe and Japan. Revenues, including foreign military sales, are reported by customer location and consisted of the following: Years ended December 31, 2022 2021 2020 Asia $8,393 $5,845 $5,931 Europe 7,916 8,967 7,961 Middle East 5,047 4,653 5,308 Canada 1,612 969 1,302 Oceania 1,576 1,147 832 Africa 418 239 114 Latin America, Caribbean and other 2,412 1,376 229 Total non-U.S. revenues 27,374 23,196 21,677 United States 39,218 39,076 36,979 Estimated potential concessions and other considerations to 737 MAX customers 16 14 (498) Total revenues $66,608 $62,286 $58,158 Revenues from the U.S. government (including foreign military sales through the U.S. government), primarily recorded at BDS and BGS, represented 40%, 49% and 51% of consolidated revenues for 2022, 2021 and 2020, respectively. Approximately 4% of operating assets were located outside the United States as of December 31, 2022 and 2021. The following tables present BCA, BDS and BGS revenues from contracts with customers disaggregated in a number of ways, such as geographic location, contract type and the method of revenue recognition. We believe these best depict how the nature, amount, timing and uncertainty of our revenues and cash flows are affected by economic factors. 110"
+   }
+  ]
+ }
+}

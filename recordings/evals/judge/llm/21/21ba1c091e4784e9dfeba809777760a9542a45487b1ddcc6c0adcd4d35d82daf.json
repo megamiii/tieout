@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer provides the same figures as the gold answer and correctly calculates the total, accurately reflecting the information from the 10-K filing.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TE5RKo3t4wwlMzFJ/7oXJRQ7Qth2PO7z0ryPFybt9ZT3mUCyhNVuHtURF4VKqPpg+X+olaJaaxV77+GCeAteqBhoXOX3Ojz1g4KAf1wIDhpgtL6u48L2P7wfjWOSDn+agPy8iUV3Gz81bTWHd"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791624049,
+  "id": "bwPKarzeF7Co28oPuPbrgQY",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 231,
+   "total_tokens": 272
+  }
+ }
+}

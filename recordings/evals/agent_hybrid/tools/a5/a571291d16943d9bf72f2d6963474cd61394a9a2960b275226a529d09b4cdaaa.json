@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "gross margin",
+  "ticker": "AMCR",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_c0b687348702b7d5",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 33,
+    "text": "for the fiscal year 2023 was a decrease of $91 million, or (3%), reflecting price/mix benefits of approximately 1%, offset by unfavorable volumes (4%). Adjusted EBIT decreased by $24 million, or 8%, in fiscal year 2023, compared to fiscal year 2022. Excluding negative currency impacts of $2 million, the remaining variation in adjusted EBIT for the fiscal year 2023 was a decrease of $22 million, or 8%, with favorable price/mix of 20%, more than offset by unfavorable volumes of (12%), unfavorable plant costs of (11%) and unfavorable SG&A and other costs of (5%), all largely impacted by inflationary pressures. Consolidated Gross Profit ($ in millions) 2023 2022 Gross profit $ 2,725 $ 2,820 Gross profit as a percentage of net sales 18.5 % 19.4 % Gross profit decreased by $95 million, or 3%, in fiscal year 2023, compared to fiscal year 2022. Excluding negative currency impacts of $78 million, the negative impact from disposed and ceased operations of $73 million, the remaining variation in …"
+   },
+   {
+    "chunk_id": "ch_4ca0c63a73ba29ad",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 60,
+    "text": "multiples, terminal values, and discount rates. Sensitivity analyses are performed around certain of these assumptions to assess the reasonableness of the assumptions and the resulting estimated fair values. If current expectations of future growth rates and margins are not met, or if market factors beyond the Company's control, such as factors impacting the applicable discount rate or economic or political conditions in key markets change significantly, then goodwill allocated to one or more reporting units may be impaired. In fiscal year 2023, the Company performed quantitative impairment tests for all of its reporting units and the Company concluded that goodwill was not impaired as the fair values of the reporting units substantially exceeded their carrying values. Other Intangible Assets, Net: Contractual or separable intangible assets that have finite useful lives are amortized against income using the straight-line method over their estimated useful lives, which range from 1 to …"
+   },
+   {
+    "chunk_id": "ch_a2337739eb6ad065",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 38,
+    "text": "Basis of Preparation The following summarized financial information is presented for the parent, issuer, and guarantor subsidiaries (\"Obligor Group\") on a combined basis after elimination of intercompany transactions between entities in the combined group and amounts related to investments in any subsidiary that is a non-guarantor. This information is not intended to present the financial position or results of operations of the combined group of companies in accordance with U.S. GAAP. Statement of Income for Obligor Group (in millions) For the year ended June 30, 2023 Net sales - external $ 1,065 Net sales - to subsidiaries outside the Obligor Group 6 Total net sales $ 1,071 Gross profit 187 Net income (1) $ 1,583 Net income attributable to non-controlling interests — Net income attributable to Obligor Group $ 1,583 (1) Includes $1,993 million net intercompany income from Amcor entities from outside the Obligor Group, mainly attributable to intercompany dividends and intercompany inte…"
+   },
+   {
+    "chunk_id": "ch_2bba86d92f1fb602",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 50,
+    "text": "Amcor plc and Subsidiaries Consolidated Statements of Income ($ in millions, except per share data) For the years ended June 30, 2023 2022 2021 Net sales $ 14,694 $ 14,544 $ 12,861 Cost of sales (11,969) (11,724) (10,129) Gross profit 2,725 2,820 2,732 Selling, general, and administrative expenses (1,246) (1,284) (1,292) Research and development expenses (101) (96) (100) Restructuring, impairment, and other related activities, net 104 (234) (94) Other income, net 26 33 75 Operating income 1,508 1,239 1,321 Interest income 31 24 14 Interest expense (290) (159) (153) Other non-operating income, net 2 11 11 Income before income taxes and equity in income of affiliated companies 1,251 1,115 1,193 Income tax expense (193) (300) (261) Equity in income of affiliated companies, net of tax — — 19 Net income $ 1,058 $ 815 $ 951 Net income attributable to non-controlling interests (10) (10) (12) Net income attributable to Amcor plc $ 1,048 $ 805 $ 939 Basic earnings per share: Basic earnings per …"
+   },
+   {
+    "chunk_id": "ch_ad8395ae2e248943",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 105,
+    "text": "Deed of Cross Guarantee Consolidated Statements of Income ($ in millions) For the years ended June 30, 2023 2022 Net sales $ 377 $ 391 Cost of sales (319) (337) Gross profit 58 54 Operating expenses (1,125) (1,251) Other income, net 1,599 2,355 Operating income 532 1,158 Interest income 15 12 Interest expense (38) (14) Other non-operating income, net — 1 Income before income taxes 509 1,157 Income tax expense (22) (4) Net income $ 487 $ 1,153 105"
+   }
+  ]
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net sales operating income Consolidated Statements of Income",
+  "ticker": "GLW",
+  "fiscal_year": 2021,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_3667817a65a71c16",
+    "ticker": "GLW",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 50,
+    "text": "Item 8. Financial Statements and Supplementary Data The response to this Item 8 is included in our audited Consolidated Financial Statements and Notes to Consolidated Financial Statements, which are contained in Part IV, Item 15 of this Form 10-K."
+   }
+  ]
+ }
+}

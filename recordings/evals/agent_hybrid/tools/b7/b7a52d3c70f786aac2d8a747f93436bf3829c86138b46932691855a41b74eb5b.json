@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "primary customers Boeing",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_81aa71ab0d314502",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 118,
+    "text": "and amortization for centrally managed assets are included in segment operating earnings based on usage and occupancy. In 2022, $643 was included in the primary business segments, of which $360, $230 and $53 was included in BCA, BDS and BGS, respectively. In 2021, $668 was included in the primary business segments, of which $386, $222 and $60 was included in BCA, BDS and BGS, respectively. In 2020, $689 was included in the primary business segments, of which $397, $236 and $56 was included in BCA, BDS and BGS, respectively. (1) (1) 114"
+   },
+   {
+    "chunk_id": "ch_a22b6d9c61f38dbf",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 115,
+    "text": "Table of Contents BCA revenues by customer location consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: Asia $4,484 $2,792 $2,679 Europe 4,038 4,334 3,872 Middle East 2,003 1,098 1,647 Other non-U.S. 3,042 1,681 513 Total non-U.S. revenues 13,567 9,905 8,711 United States 12,167 9,472 7,899 Estimated potential concessions and other considerations to 737 MAX customers 16 14 (498) Total revenues from contracts with customers 25,750 19,391 16,112 Intersegment revenues, eliminated on consolidation 117 102 50 Total segment revenues $25,867 $19,493 $16,162 Revenue recognized on fixed-price contracts 100 % 100 % 100 % Revenue recognized at a point in time 100 % 100 % 100 % BDS revenues on contracts with customers, based on the customer's location, consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: U.S. customers $17,144 $19,869 $19,662 Non-U.S. customers 6,018 6,671 6,595 Total segme…"
+   },
+   {
+    "chunk_id": "ch_242ce481a1eca4e5",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 83,
+    "text": "Table of Contents Our financing receivable balances at December 31, 2022 by internal credit rating category and year of origination consisted of the following: Rating categories Current 2021 2020 2019 2018 Prior Total BBB $68 $68 BB $35 $218 $112 $39 $12 63 479 B 35 218 253 CCC 19 370 389 Total carrying value of financing receivables $35 $253 $112 $58 $12 $719 $1,189 At December 31, 2022, our allowance for losses related to receivables with ratings of CCC, B, BB and BBB. We applied default rates that averaged 100.0%, 31.5%, 2.9% and 0.1%, respectively, to the exposure associated with those receivables. Customer Financing Exposure The majority of our customer financing portfolio is concentrated in the following aircraft models at December 31: 2022 2021 717 Aircraft ($45 and $62 accounted for as operating leases) $563 $603 747-8 Aircraft (Accounted for as sales-type/finance leases) 394 435 737 Aircraft ($174 and $145 accounted for as operating leases) 186 163 777 Aircraft ($209 and $225 …"
+   },
+   {
+    "chunk_id": "ch_558a8b315b07690a",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 19,
+    "text": "Table of Contents weapons, cybersecurity, border security systems, anti-terrorism technologies and/or air traffic management systems may not be insurable on commercially reasonable terms. While some of these products are shielded from liability within the U.S. under the SAFETY Act provisions of the 2002 Homeland Security Act, no such protection is available outside the U.S., potentially resulting in significant liabilities. See Note 21 of the Consolidated Financial Statements for discussion of legal proceedings resulting from the October 29, 2018 accident of Lion Air Flight 610 and the March 10, 2019 accident of Ethiopian Airlines Flight 302. The amount of insurance coverage we maintain may be inadequate to cover these or other claims or liabilities. A significant portion of our customer financing portfolio is concentrated among certain customers and in certain types of Boeing aircraft, which exposes us to concentration risks. A significant portion of our customer financing portfolio i…"
+   },
+   {
+    "chunk_id": "ch_25d897fca5835b04",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 22,
+    "text": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations Consolidated Results of Operations and Financial Condition Overview We are a global market leader in the design, development, manufacture, sale, service and support of commercial jetliners, military aircraft, satellites, missile defense, human space flight and launch systems and services. We are one of the two major manufacturers of 100+ seat airplanes for the worldwide commercial airline industry and one of the largest defense contractors in the U.S. While our principal operations are in the U.S., we conduct operations in an expanding number of countries and rely on an extensive network of non-U.S. partners, key suppliers and subcontractors. Our strategy is centered on successful execution in healthy core businesses – Commercial Airplanes (BCA), Defense, Space & Security (BDS) and Global Services (BGS) – supplemented and supported by Boeing Capital (BCC). Taken together, these core businesses…"
+   }
+  ]
+ }
+}

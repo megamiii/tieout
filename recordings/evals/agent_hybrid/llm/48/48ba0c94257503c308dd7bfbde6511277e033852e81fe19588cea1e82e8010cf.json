@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TrU4KlDnkAhkEzvvJX18IpK/JWWfJKmAQXKlThj3Fk5D/nYDv1jx6mLM7vIMVXP/C/zYrQMkP9RveqUxRpr9OLc2Kn2h3IxE+anPJW1awhsSMkcTofprSH6Q="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AXP\",\"query\":\"effective tax rate\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_42319",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622847,
+  "id": "vv7Jarm6OO7Yxs0Ps9X-sAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 35,
+   "prompt_tokens": 1586,
+   "total_tokens": 1621
+  }
+ }
+}

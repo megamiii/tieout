@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Balance Sheets",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_d9e3cb3e5f7d2f2e",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 79,
+    "text": "agreement, the Company has agreed to guarantee certain of the payment obligations of Cellco and the Originators to the ABS Entities. Cash collections on the receivables collateralizing our asset-backed debt securities are required at certain specified times to be placed into segregated accounts. Deposits to the segregated accounts are considered restricted cash and are included in Prepaid expenses and other and Other assets in our consolidated balance sheets. Proceeds from our asset-backed debt transactions are reflected in Cash flows from financing activities in our consolidated statements of cash flows. The asset-backed debt issued is included in Debt maturing within one year and Long-term debt in our consolidated balance sheets. 79 Verizon 2022 Annual Report on Form 10-K"
+   },
+   {
+    "chunk_id": "ch_893b1455f30d1984",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 41,
+    "text": "agreement, the Company has agreed to guarantee certain of the payment obligations of Cellco and the Originators to the ABS Entities. Cash collections on the receivables collateralizing our asset-backed debt securities are required at certain specified times to be placed into segregated accounts. Deposits to the segregated accounts are considered restricted cash and are included in Prepaid expenses and other and Other assets in our consolidated balance sheets. Proceeds from our asset-backed debt transactions are reflected in Cash flows from financing activities in our consolidated statements of cash flows. The asset-backed debt issued is included in Debt maturing within one year and Long-term debt in our consolidated balance sheets. See Note 7 to the consolidated financial statements for additional information. Long-Term Credit Facilities At December 31, 2022 (dollars in millions) Maturities Facility Capacity Unused Capacity Principal Amount Outstanding Verizon revolving credit facility…"
+   },
+   {
+    "chunk_id": "ch_cf7adac4def57f70",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 81,
+    "text": "the advances at any time without penalty, but in certain cases, with breakage costs. Subject to certain conditions, we may also remove receivables from the applicable ABS Entity. In October 2022, we borrowed $2.0 billion under the loan agreement entered into in connection with the 2022 ABS Financing Facility. The aggregate outstanding balance under the 2022 ABS Financing Facility was $2.0 billion as of December 31, 2022. Variable Interest Entities The ABS Entities meet the definition of a VIE for which we have determined that we are the primary beneficiary as we have both the power to direct the activities of the entity that most significantly impact the entity's performance and the obligation to absorb losses or the right to receive benefits of the entity. Therefore, the assets, liabilities and activities of the ABS Entities are consolidated in our financial results and are included in amounts presented on the face of our consolidated balance sheets. The assets and liabilities related…"
+   },
+   {
+    "chunk_id": "ch_b06f4175b6f62447",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 105,
+    "text": "Note 15. Additional Financial Information The following tables provide additional financial information related to our consolidated financial statements: Income Statement Information (dollars in millions) Years Ended December 31, 2022 2021 2020 Depreciation expense $ 14,592 $ 14,119 $ 14,275 Interest costs on debt balances 5,429 5,148 4,632 Net amortization of debt discount 214 178 170 Capitalized interest costs (2,030) (1,841) (555) Advertising expense 3,556 3,394 3,107 (dollars in millions) Years Ended December 31, 2022 2021 2020 Other income (expense), net Interest income $ 146 $ 48 $ 65 Other components of net periodic benefit (cost) income 2,386 3,785 (425) Net debt extinguishment losses (1,077) (3,541) (129) Other, net (82) 20 (50) $ 1,373 $ 312 $ (539) Balance Sheet Information (dollars in millions) At December 31, 2022 2021 Prepaid expenses and other Prepaid taxes $ 167 $ 1,093 Deferred contract costs 2,629 2,432 Collateral payments related to derivative contracts 2,286 21 Rest…"
+   },
+   {
+    "chunk_id": "ch_1d64c32f4dab28f9",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 59,
+    "text": "wireline products and services are available to our retail customers, as well as resellers that purchase wireless network access from us on a wholesale basis. Our Business segment provides wireless and wireline communications services and products, including data, video and conferencing services, corporate networking solutions, security and managed network services, local and long distance voice services and network access to deliver various Internet of Things (IoT) services and products. We also provide FWA broadband through our wireless networks. We provide these products and services to businesses, government customers and wireless and wireline carriers across the U.S. and select products and services to customers around the world. Consolidation The method of accounting applied to investments, whether consolidated or equity, involves an evaluation of all significant terms of the investments that explicitly grant or suggest evidence of control or influence over the operations of the …"
+   }
+  ]
+ }
+}

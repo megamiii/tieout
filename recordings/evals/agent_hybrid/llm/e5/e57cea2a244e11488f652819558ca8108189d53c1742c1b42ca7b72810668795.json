@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TR5MA5pjzBGGAzDv//sn79b33lbb4HEl21K9CxGc4uRxrCNkxqdt82j+ertL7/9fM7R+4XehB5Cg51bHFm0Knnp34ZiOiq1++LtT4BfdM0v/4cXD3orn5axI="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"geographies operate primary reportable segments international\",\"fiscal_year\":2022,\"ticker\":\"PEP\"}",
+        "name": "search_filings"
+       },
+       "id": "call_30075",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622421,
+  "id": "FP3JauvsKdGY28oPpcWyoAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 1515,
+   "total_tokens": 1554
+  }
+ }
+}

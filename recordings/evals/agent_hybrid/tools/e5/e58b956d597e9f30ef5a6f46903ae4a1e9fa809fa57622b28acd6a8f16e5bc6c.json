@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "U.S. government customers defense space security",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_d1744f094fc2ed7e",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 37,
+    "text": "Table of Contents Defense, Space & Security Business Environment and Trends United States Government Defense Environment Overview The Consolidated Appropriations Act, 2023, enacted in December 2022, provided fiscal year 2023 (FY23) appropriations for government departments and agencies, including $817 billion for the U.S. DoD and $25.4 billion for NASA. The enacted FY23 appropriations included funding for Boeing's major programs, including the F/A-18 Super Hornet, F-15EX, CH-47 Chinook, AH-64 Apache, V-22 Osprey, KC-46A Tanker, MQ-25, and the Space Launch System. The FY23 appropriations support F/A-18 production further into calendar year 2025. The FY23 appropriations did not include funding for additional P-8 aircraft. The P-8 program continues to pursue additional sales opportunities to extend production beyond 2024. There is ongoing uncertainty with respect to program-level appropriations for the U.S. DoD, NASA and other government agencies for fiscal year 2024 and beyond. U.S. gove…"
+   },
+   {
+    "chunk_id": "ch_5c69613c569da40f",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 10,
+    "text": "and technologically challenging. These challenges are particularly significant with newer aircraft programs. Any failure of any Boeing aircraft to satisfy performance or reliability requirements could result in disruption to our operations, higher costs and/or lower revenues. Changes in levels of U.S. government defense spending or acquisition priorities could negatively impact our financial position and results of operations. We derive a substantial portion of our revenue from the U.S. government, primarily from defense related programs with the United States Department of Defense (U.S. DoD). Levels of U.S. defense spending are very difficult to predict and may be impacted by numerous factors such as the evolving nature of the national security threat environment, U.S. national security strategy, U.S. foreign policy, the domestic political environment, macroeconomic conditions and the ability of the U.S. government to enact relevant legislation such as authorization and appropriations…"
+   },
+   {
+    "chunk_id": "ch_ff715d761ee4c009",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 3,
+    "text": "and defense systems, command, control, communications, computers, intelligence, surveillance and reconnaissance (C4ISR), cyber and information solutions, and intelligence systems, satellite systems, including government and commercial satellites and space exploration. Global Services Segment This segment provides services to our commercial and defense customers worldwide. BGS sustains aerospace platforms and systems with a full spectrum of products and services, including supply chain and logistics management, engineering, maintenance and modifications, upgrades and conversions, spare parts, pilot and maintenance training systems and services, technical and maintenance documents, and data analytics and digital services. Boeing Capital Segment BCC seeks to ensure that Boeing customers have the financing they need to buy and take delivery of their Boeing product, while managing overall financing exposure. BCC's portfolio consists of equipment under operating leases, sales-type/finance le…"
+   },
+   {
+    "chunk_id": "ch_25d897fca5835b04",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 22,
+    "text": "Item 7. Management's Discussion and Analysis of Financial Condition and Results of Operations Consolidated Results of Operations and Financial Condition Overview We are a global market leader in the design, development, manufacture, sale, service and support of commercial jetliners, military aircraft, satellites, missile defense, human space flight and launch systems and services. We are one of the two major manufacturers of 100+ seat airplanes for the worldwide commercial airline industry and one of the largest defense contractors in the U.S. While our principal operations are in the U.S., we conduct operations in an expanding number of countries and rely on an extensive network of non-U.S. partners, key suppliers and subcontractors. Our strategy is centered on successful execution in healthy core businesses – Commercial Airplanes (BCA), Defense, Space & Security (BDS) and Global Services (BGS) – supplemented and supported by Boeing Capital (BCC). Taken together, these core businesses…"
+   },
+   {
+    "chunk_id": "ch_ddd4a9e4b16b4df6",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 11,
+    "text": "Table of Contents In addition, as a result of the significant ongoing uncertainty with respect to both U.S. defense spending and the evolving nature of the national security threat environment, we also expect the U.S. DoD to continue to emphasize affordability, innovation, cybersecurity and delivery of technical data and software in its procurement processes, including the implementation of cybersecurity compliance requirements on the Defense Industrial Base, for which the supply chain may not be fully prepared. We and our suppliers will need to continue to adjust successfully to these changing acquisition priorities and policies or our revenues and market share could be impacted. Our ability to deliver products and services that satisfy customer requirements is heavily dependent on the performance and financial stability of our subcontractors and suppliers, as well as on the availability of highly skilled labor, raw materials and other components. We rely on other companies, including…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TsqE6VXsffYm+dHMX6SUwqM5y2wYpOa45lNZC0UbIBcUDKfD69qfQXxk5FqsAWQXiFsvLqlbWIYDjGYyNKBR8gdvtqq1s/ISpapDZBTjZbROQ/+kOWaRsbcs="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"confidence\":1,\"citations\":[{\"source_id\":\"ch_87c7e84ed08663db\",\"quote\":\"Multiple legal actions have been filed against us as a result of the October 29, 2018 accident of Lion Air Flight 610 and the March 10, 2019 accident of Ethiopian Airlines Flight 302.\"},{\"source_id\":\"ch_abda6cab788d1e7b\",\"quote\":\"Embraer has disputed our right to terminate the agreements, and the dispute is currently in arbitration. We cannot reasonably estimate a range of loss, if any, that may result from the arbitration, which we currently expect to be completed in late 2023 or early 2024.\"}],\"answer\":\"Yes. Boeing reported multiple ongoing legal proceedings and investigations in FY2022, notably including multiple legal actions resulting from the October 29, 2018 Lion Air Flight 610 and March 10, 2019 Ethiopian Airlines Flight 302 accidents (Note 21 – Legal Proceedings). Additionally, Boeing disclosed an ongoing arbitration with Embraer S.A. regarding the termination of joint venture agreements, for which the company stated it cannot reasonably estimate a range of loss.\",\"rationale\":\"Boeing's Note 21 (Legal Proceedings) in FY2022 details ongoing matters such as the 737 MAX accident lawsuits and the Embraer arbitration.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_23700",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622540,
+  "id": "i_3JaqO6IfjbvdIP-avxoAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 348,
+   "prompt_tokens": 7491,
+   "total_tokens": 7839
+  }
+ }
+}

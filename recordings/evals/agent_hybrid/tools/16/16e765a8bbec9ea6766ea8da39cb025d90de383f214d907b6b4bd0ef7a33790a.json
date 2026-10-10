@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "767 production rate 2023",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_905a96bd7d7c6098",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 34,
+    "text": "737-10 aircraft in inventory and 236 737-7 and 720 737-10 aircraft in backlog and have delivered a total of 1,033 737 MAX aircraft. If we experience delays in achieving certification and/or incorporating safety enhancements, future revenues, cash flows and results of operations could be adversely impacted. See further discussion of the 737 MAX in Note 7 and Note 13 to our Consolidated Financial Statements. 747 Program We completed production of the 747 in the fourth quarter of 2022 and delivery of the last aircraft is expected to occur in early 2023. Ending production of the 747 did not have a material impact on our financial position, results of operations or cash flows. 767 Program The accounting quantity for the 767 program increased by 24 units during 2022 due to the program's normal progress of obtaining additional orders and delivering airplanes. The 767 assembly line includes the commercial program and a derivative to support the KC-46A Tanker program. The commercial program has…"
+   },
+   {
+    "chunk_id": "ch_49fd0c9dc0574642",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 51,
+    "text": "however, when estimated costs to complete a program plus costs already included in inventory exceed estimated revenues from the program, a loss is recorded in the current period. Reductions to the estimated loss are included in the gross profit margin for undelivered units in the accounting quantity whereas increases to the estimated loss are recorded as an earnings charge in the period in which the loss is determined. The 767, 777X, and 787 programs had near break-even or single digit margins at December 31, 2022. Adverse changes to the revenue and/or cost estimates for these programs could result in earnings charges in future periods. 777X Program The 777X program had near break-even gross margins at December 31, 2022. The level of profitability on the 777X program will be subject to a number of factors. These factors include continued production disruption due to labor instability and supply chain disruption, customer negotiations, further production rate adjustments for the 777X or…"
+   },
+   {
+    "chunk_id": "ch_8f70480d12e20cc2",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 35,
+    "text": "We are currently producing at low rates and expect to gradually return to 5 per month in 2023. In the third quarter of 2021, we determined that production rates below 5 per month represented abnormally low production rates and result in abnormal production costs. We also determined that the inspections and rework costs on inventoried aircraft are excessive and should also be accounted for as abnormal production costs that are required to be expensed as incurred. Cumulative abnormal costs recorded through December 31, 2022 totaled $1.7 billion. During the fourth quarter of 2022 we adjusted the total estimate of abnormal production costs up to $2.8 billion with most being incurred by the end of 2023. At December 31, 2021, we were expecting to incur approximately $2 billion of abnormal production costs on a cumulative basis. The increase was primarily driven by a decision in the fourth quarter of 2022 to slow down near-term production due to supply chain constraints and increased inspecti…"
+   },
+   {
+    "chunk_id": "ch_aa67774e3bce602f",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 33,
+    "text": "Table of Contents The following table provides details of the accounting quantities and firm orders by program as of December 31. Cumulative firm orders represent the cumulative number of commercial jet aircraft deliveries plus undelivered firm orders. Firm orders include military derivative aircraft that are not included in program accounting quantities. All revenues and costs associated with military derivative aircraft production are reported in the BDS segment. Program 737 747 767 777 777X 787 † 2022 Program accounting quantities 10,800 1,574 1,267 1,790 400 1,600 Undelivered units under firm orders 3,653 1 106 69 244 505 (8) Cumulative firm orders 11,785 1,573 1,377 1,770 244 1,542 2021 Program accounting quantities 10,400 1,574 1,243 1,750 350 1,500 Undelivered units under firm orders 3,414 6 108 58 253 411 (14) Cumulative firm orders 11,159 1,573 1,346 1,735 253 1,417 2020 Program accounting quantities 10,000 1,574 1,207 1,700 350 1,500 Undelivered units under firm orders 3,282 …"
+   },
+   {
+    "chunk_id": "ch_0a25c7e82e5729d4",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 81,
+    "text": "Table of Contents deferred production costs, and $3,774 and $3,521 of unamortized tooling and other non-recurring costs. In April 2022, we decided to pause production of the 777X-9 during 2022 and 2023. The production pause is resulting in abnormal production costs that are being expensed as incurred until 777X-9 production resumes. We expensed abnormal production costs of $325 during the year ended December 31, 2022. The 777X program has near break-even margins at December 31, 2022. During the fourth quarter of 2021, we determined that estimated costs to complete the 787 program plus costs already included in 787 inventory exceed estimated revenues from the program. The resulting reach-forward loss of $3,460 was recorded as a reduction to deferred production costs. At December 31, 2022 and 2021, commercial aircraft programs inventory included the following amounts related to the 787 program: deferred production costs of $12,689 and $11,693, $1,831 and $1,907 of supplier advances, and …"
+   }
+  ]
+ }
+}

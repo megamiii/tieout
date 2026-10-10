@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TGbHuqYCBeQchEVfAmC/KvGt4GTCwra8c9t8pjOe1+lU/yJ3xGyT8Lr3pt5mMWSCVAcFMgiN3zQh22cCYB6EEV0zSC9eEN4mazZRIFOJd1jqOOvhGcd4omH0="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"query\":\"Net income Best Buy consolidated statements of earnings\",\"fiscal_year\":2017,\"ticker\":\"BBY\"}",
+        "name": "search_filings"
+       },
+       "id": "call_115097",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622972,
+  "id": "PP_Jas7gCYu8xN8P89mF0Ag",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 1548,
+   "total_tokens": 1594
+  }
+ }
+}

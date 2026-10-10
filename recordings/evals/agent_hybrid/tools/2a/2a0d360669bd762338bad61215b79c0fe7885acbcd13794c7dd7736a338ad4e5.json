@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Earnings Net earnings attributable to General Mills",
+  "ticker": "GIS",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a5dae1b662ae1a10",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 45,
+    "text": "45 Consolidated Statements of Earnings GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions, Except per Share Data) Fiscal Year 2022 2021 2020 Net sales $ 18,992.8 $ 18,127.0 $ 17,626.6 Cost of sales 12,590.6 11,678.7 11,496.7 Selling, general, and administrative expenses 3,147.0 3,079.6 3,151.6 Divestitures (gain) loss (194.1) 53.5 - Restructuring, impairment, and other exit (recoveries) costs (26.5) 170.4 24.4 Operating profit 3,475.8 3,144.8 2,953.9 Benefit plan non-service income (113.4) (132.9) (112.8) Interest, net 379.6 420.3 466.5 Earnings before income taxes and after-tax earnings from joint ventures 3,209.6 2,857.4 2,600.2 Income taxes 586.3 629.1 480.5 After-tax earnings from joint ventures 111.7 117.7 91.1 Net earnings, including earnings attributable to redeemable and noncontrolling interests 2,735.0 2,346.0 2,210.8 Net earnings attributable to redeemable and noncontrolling interests 27.7 6.2 29.6 Net earnings attributable to General Mills $ 2,707.3 $ 2,339.8 $ 2,181.2 Earnin…"
+   },
+   {
+    "chunk_id": "ch_04183db19c83a255",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 46,
+    "text": "46 Consolidated Statements of Comprehensive Income GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions) Fiscal Year 2022 2021 2020 Net earnings, including earnings attributable to redeemable and noncontrolling interests $ 2,735.0 $ 2,346.0 $ 2,210.8 Other comprehensive income (loss), net of tax: Foreign currency translation (175.9) 175.1 (169.1) Net actuarial income (loss) 101.6 353.4 (224.6) Other fair value changes: Hedge derivatives 7.0 (20.7) 3.2 Reclassification to earnings: Foreign currency translation 342.2 - - Hedge derivatives 35.1 13.5 4.1 Amortization of losses and prior service costs 75.8 78.9 77.9 Other comprehensive income (loss), net of tax 385.8 600.2 (308.5) Total comprehensive income 3,120.8 2,946.2 1,902.3 Comprehensive (loss) income attributable to redeemable and noncontrolling interests (45.2) 121.2 10.1 Comprehensive income attributable to General Mills $ 3,166.0 $ 2,825.0 $ 1,892.2 See accompanying notes to consolidated financial statements."
+   },
+   {
+    "chunk_id": "ch_61717727f18c18a9",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 49,
+    "text": "49 Consolidated Statements of Cash Flows GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions) Fiscal Year 2022 2021 2020 Cash Flows - Operating Activities Net earnings, including earnings attributable to redeemable and noncontrolling interests $ 2,735.0 $ 2,346.0 $ 2,210.8 Adjustments to reconcile net earnings to net cash provided by operating activities: Depreciation and amortization 570.3 601.3 594.7 After-tax earnings from joint ventures (111.7) (117.7) (91.1) Distributions of earnings from joint ventures 107.5 95.2 76.5 Stock-based compensation 98.7 89.9 94.9 Deferred income taxes 62.2 118.8 (29.6) Pension and other postretirement benefit plan contributions (31.3) (33.4) (31.1) Pension and other postretirement benefit plan costs (30.1) (33.6) (32.3) Divestitures (gain) loss (194.1) 53.5 - Restructuring, impairment, and other exit (recoveries) costs (117.1) 150.9 43.6 Changes in current assets and liabilities, excluding the effects of acquisition and divestitures 277.4 (155.9) 793.9 O…"
+   },
+   {
+    "chunk_id": "ch_66021d27c73a6bef",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 36,
+    "text": "36 Net Debt-to-Adjusted Earnings before Net Interest, Income Taxes, Depreciation and Amortization (EBITDA) Ratio We believe that this measure provides useful information to investors because it is an indicator of our ability to incur additional debt and to service our existing debt. The reconciliation of adjusted EBITDA to net earnings, including earnings attributable to redeemable and noncontrolling interests, its GAAP equivalent, as well as the calculation of the net debt-to-adjusted EBITDA ratio are as follows: Fiscal Year In Millions 2022 2021 Total debt (a) $ 11,620.4 $ 12,612.0 Cash 569.4 1,505.2 Net debt $ 11,051.0 $ 11,106.8 Net earnings, including earnings attributable to redeemable and noncontrolling interests, as reported $ 2,735.0 $ 2,346.0 Income taxes 586.3 629.1 Interest, net 379.6 420.3 Depreciation and amortization 570.3 601.3 EBITDA 4,271.2 3,996.8 After-tax earnings from joint ventures (111.7) (117.7) Divestitures (gain) loss (194.1) 53.5 Mark-to-market effects (133.…"
+   },
+   {
+    "chunk_id": "ch_b9c60cb78f7a7bc2",
+    "ticker": "GIS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 73,
+    "text": "our Consolidated Statements of Earnings includes amounts recognized in restructuring, impairment, and other exit costs for fiscal 2022. NOTE 13. EARNINGS PER SHARE Basic and diluted EPS were calculated using the following: Fiscal Year In Millions, Except per Share Data 2022 2021 2020 Net earnings attributable to General Mills $ 2,707.3 $ 2,339.8 $ 2,181.2 Average number of common shares - basic EPS 607.5 614.1 608.1 Incremental share effect from: (a) Stock options 2.5 2.5 2.7 Restricted stock units and performance share units 2.6 2.5 2.5 Average number of common shares - diluted EPS 612.6 619.1 613.3 Earnings per share — basic $ 4.46 $ 3.81 $ 3.59 Earnings per share — diluted $ 4.42 $ 3.78 $ 3.56 a) Incremental shares from stock options, restricted stock units, and performance share units are computed by the treasury stock method. Stock options, restricted stock units, and performance share units excluded from our computation of diluted EPS because they were not dilutive were as follow…"
+   }
+  ]
+ }
+}

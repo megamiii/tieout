@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TTf98juM+n0oEBMXrnAGQsetEPbVNbRWLJNLEsVl3FRJQq1Z1fMRuxW5oiF5Ewrb1LL5VFwWMm19RnlbUM3ILnNMnqFEguMoU/sFBEuQbxbZlp9Xg0pqug6Y="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"GIS\",\"fiscal_year\":2020,\"query\":\"Purchases of land, buildings, and equipment\"}",
+        "name": "search_filings"
+       },
+       "id": "call_40173",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623419,
+  "id": "-gDKarLYK_3fxs0Pj4ieiAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 4159,
+   "total_tokens": 4199
+  }
+ }
+}

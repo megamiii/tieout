@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Property and equipment, net",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_8a362200b44284f9",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 119,
+    "text": "building improvements and leasehold improvements and 3 to 10 years for fixtures, equipment and internally developed software. Repair and maintenance costs are charged directly to expense as incurred. Major renewals or replacements that substantially extend the useful life of an asset are capitalized and depreciated. Application development stage costs for significant internally developed software projects are capitalized and depreciated. Property and equipment consisted of the following at December 31, 2022 and 2021: In millions 2022 2021 Land $ 1,996 $ 2,038 Building and improvements 4,545 4,225 Fixtures and equipment 12,978 13,619 Leasehold improvements 6,238 6,242 Software 8,843 7,426 Total property and equipment 34,600 33,550 Accumulated depreciation and amortization (21,483) (20,654) Property and equipment, net $ 13,117 $ 12,896 (1) Includes property and equipment of $244 million which have been accounted for as assets held for sale and are included in assets held for sale on the …"
+   },
+   {
+    "chunk_id": "ch_fe916af4b7d5377b",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 151,
+    "text": "Sale-Leaseback Transactions The Company finances a portion of its store development program through sale-leaseback transactions. The properties are generally sold at net book value, which generally approximates fair value, and the resulting leases generally qualify and are accounted for as operating leases. The operating leases that resulted from these transactions are included in the tables above. The Company does not have any retained or contingent interests in the stores and does not provide any guarantees, other than a guarantee of lease payments, in connection with the sale-leaseback transactions. There were no sale-leaseback transactions in 2022 or 2021. Proceeds from sale-leaseback transactions totaled $101 million in the year ended December 31, 2020. Gains from sale-leaseback transactions totaled $3 million in the year ended December 31, 2020. Office Real Estate Optimization Charges During the fourth quarter of 2022, the Company undertook an initiative to evaluate its corporate…"
+   },
+   {
+    "chunk_id": "ch_a356654942c94d1e",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 120,
+    "text": "separate tests described below, whenever events or changes in circumstances indicate that the carrying value of such asset may not be recoverable. The Company groups and evaluates these long-lived assets for impairment at the lowest level at which individual cash flows can be identified. If indicators of impairment are present, the Company first compares the carrying amount of the asset group to the estimated future cash flows associated with the asset group (undiscounted). If the estimated future cash flows used in this analysis are less than the carrying amount of the asset group, an impairment loss calculation is prepared. The impairment loss calculation compares the carrying amount of the asset group to the asset group's estimated future cash flows (discounted). If required, an impairment loss is recorded for the portion of the asset group's carrying value that exceeds the asset group's estimated future cash flows (discounted). During the year ended December 31, 2022, the Company r…"
+   },
+   {
+    "chunk_id": "ch_dba5a81bfedc3c04",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 118,
+    "text": "Acquisition costs related to prepaid health care and health indemnity contracts are generally expensed as incurred. Acquisition costs for certain long-duration insurance contracts are deferred and are recorded as other current assets or other assets on the consolidated balance sheets and are amortized over the estimated life of the contracts. The amortization of deferred acquisition costs is recorded in operating expenses in the consolidated statements of operations. At December 31, 2022 and 2021, the balance of deferred acquisition costs was $1.2 billion and $895 million, respectively, comprised primarily of commissions paid on Medicare Supplement products within the Health Care Benefits segment. Property and Equipment Property and equipment is reported at historical cost, net of accumulated depreciation. Property, equipment and improvements to leased premises are depreciated using the straight-line method over the estimated useful lives of the assets, or when applicable, the term of …"
+   },
+   {
+    "chunk_id": "ch_ce24bf98af9e1214",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 158,
+    "text": "The Company's pension plan assets primarily include debt and equity securities held in separate accounts, common/collective trusts and real estate investments. The valuation methodologies used to value these debt and equity securities and common/collective trusts are similar to the methodologies described in Note 4 “Fair Value.” Pension plan assets also include investments in other assets that are carried at fair value. The following is a description of the valuation methodologies used to value real estate investments and these additional investments, including the general classification pursuant to the fair value hierarchy. Real Estate - Real estate investments are valued by independent third party appraisers. The appraisals comply with the Uniform Standards of Professional Appraisal Practice, which include, among other things, the income, cost, and sales comparison approaches to estimating property value. Therefore, these investments are classified in Level 3. Private equity and hedg…"
+   }
+  ]
+ }
+}

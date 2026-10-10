@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "property, plant and equipment",
+  "ticker": "MMM",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_08f0e4e6bdba8e26",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 54,
+    "text": "Table of Contents Other assets: Other assets include deferred income taxes, product and other insurance receivables, the cash surrender value of life insurance policies, medical equipment in rental arrangements utilized primarily by hospitals and other medical clinics, prepaid pension and postretirement and other long-term assets. Investments in life insurance policies are reported at the amount that could be realized under contract at the balance sheet date, with any changes in cash surrender value or contract value during the period accounted for as an adjustment of premiums paid. Cash outflows and inflows associated with life insurance activity are included in “Purchases of marketable securities and investments” and “Proceeds from maturities and sale of marketable securities and investments,” respectively. Inventories: Inventories are stated at the lower of cost or net realizable value (NRV), which is defined as estimated selling prices in the ordinary course of business, less reaso…"
+   },
+   {
+    "chunk_id": "ch_9bccc4b94a5a1e17",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 68,
+    "text": "Table of Contents NOTE 7. Supplemental Balance Sheet Information Additional supplemental balance sheet information is provided in the table that follows. (Millions) 2022 2021 Other current assets Derivative assets-current $ 162 $ 78 Insurance related (receivables, prepaid expenses and other) 103 110 Other 191 151 Total other current assets $ 456 $ 339 Property, plant and equipment - at cost Land $ 255 $ 312 Buildings and leasehold improvements 7,560 8,086 Machinery and equipment 16,455 17,305 Construction in progress 1,728 1,510 Gross property, plant and equipment 25,998 27,213 Accumulated depreciation (16,820) (17,784) Property, plant and equipment - net $ 9,178 $ 9,429 Other assets Deferred income taxes $ 959 $ 581 Prepaid pension and post retirement 1,225 943 Insurance related receivables and other 73 51 Cash surrender value of life insurance policies 265 261 Equity method investments 81 129 Equity and other investments 886 133 Other 782 510 Total other assets $ 4,271 $ 2,608 Other …"
+   },
+   {
+    "chunk_id": "ch_30ba824f89f32561",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 47,
+    "text": "Table of Contents Property, Plant and Equipment and Goodwill Impairment Assessments for the Advanced Materials Division As described in Notes 1, 4, and 15 to the consolidated financial statements, the Company's consolidated property, plant and equipment balance was $9.2 billion and goodwill balance was $12.8 billion as of December 31, 2022, and the Advanced Materials Division makes up a portion of these balances. Management tests property, plant and equipment for impairment whenever events or changes in circumstances indicate that the carrying amount of an asset (asset group) may not be recoverable. An impairment loss is recognized when the carrying amount of an asset exceeds the estimated undiscounted future cash flows expected to result from the use of the asset and its eventual disposition. The amount of the impairment loss recorded is calculated by the excess of the asset's carrying value over its fair value. Management also tests goodwill for impairment annually in the fourth quar…"
+   },
+   {
+    "chunk_id": "ch_603f938240ed72a9",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 54,
+    "text": "property, plant and equipment and accumulated depreciation accounts until disposal. Upon disposal, assets and related accumulated depreciation are removed from the accounts and the net amount, less proceeds from disposal, is charged or credited to operations. Property, plant and equipment amounts are reviewed for impairment whenever events or changes in circumstances indicate that the carrying amount of an asset (asset group) may not be recoverable. An impairment loss is recognized when the carrying amount of an asset exceeds the estimated undiscounted future cash flows expected to result from the use of the asset and its eventual disposition. The amount of the impairment loss recorded is calculated by the excess of the asset's carrying value over its fair value. Fair value is generally determined using a discounted cash flow analysis. 3M records capital-related government grants earned as reductions to the cost of property, plant and equipment; and associated unpaid liabilities and gr…"
+   },
+   {
+    "chunk_id": "ch_dff0efc868f9aa8b",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 124,
+    "text": "generally reported within the geographic area where the final sales to 3M customers are made. Refer to Note 2 for geographic net sales. Property, Plant and Equipment - net (Millions) 2022 2021 Americas $ 6,066 $ 5,864 Asia Pacific 1,389 1,582 Europe, Middle East and Africa 1,723 1,983 Total Company $ 9,178 $ 9,429 United States net property, plant and equipment (PP&E) was $5,662 million and $5,484 million at December 31, 2022 and 2021, respectively. China/Hong Kong net property, plant and equipment (PP&E) was $518 million and $578 million at December 31, 2022 and 2021, respectively. 124"
+   }
+  ]
+ }
+}

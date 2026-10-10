@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TzmngL9x3aBWDrbCS5jimw7TRAQOjYpd0o05JBdIo35UO7LiFKCyLt5fbhT2IyRD5x/GcEcX2sHjMFu9Hm16hhyIpe9ZRJRMREEb0JcdAyH+vdj0ig/D7+R4="
+        }
+       },
+       "function": {
+        "arguments": "{\"page\":54,\"fiscal_year\":2022,\"ticker\":\"VZ\",\"item\":\"8\"}",
+        "name": "read_section"
+       },
+       "id": "call_37812",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621730,
+  "id": "YvrJaoKQF93txs0Pw9zL4Ak",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 36,
+   "prompt_tokens": 6004,
+   "prompt_tokens_details": {
+    "cached_tokens": 2019
+   },
+   "total_tokens": 6040
+  }
+ }
+}

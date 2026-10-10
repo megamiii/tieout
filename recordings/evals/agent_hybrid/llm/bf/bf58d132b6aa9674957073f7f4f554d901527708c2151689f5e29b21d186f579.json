@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TL9m2/PVCdIyzYqwVEj7fb4WNPiL/0ps8axyTpHiYP9c1zlUIifOiDxv90K9vw+Q09o6wmeg/1eLzgh1kx4LLdrOA6Ay2m9a/yizlGd+acp7nQzShchyX8cg="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"ticker\":\"AXP\",\"fiscal_year\":2022,\"query\":\"Customer deposits long-term debt other liabilities 110239 42573 37350\"}",
+        "name": "search_filings"
+       },
+       "id": "call_71865",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622911,
+  "id": "_v7JapbZGeKZ28oP-tHG6Qk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 65,
+   "prompt_tokens": 7647,
+   "total_tokens": 7712
+  }
+ }
+}

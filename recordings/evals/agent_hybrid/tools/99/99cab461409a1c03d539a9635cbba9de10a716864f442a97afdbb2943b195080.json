@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Operating cash flows",
+  "ticker": "ADBE",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_12168f8ccc611a8c",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 52,
+    "text": "52 Cash Flows from Investing Activities For fiscal 2015, net cash used for investing activities of $1.49 billion was primarily due to purchases of short-term investments and our acquisition of Fotolia. Other uses of cash during fiscal 2015 represented purchases of property and equipment, and long- term investments and other assets. These cash outflows were offset in part by sales and maturities of short-term investments and proceeds received from the sale of certain property assets. See Note 2 and Note 6 of our Consolidated Financial Statements for more detailed information regarding our acquisition of Fotolia and sale of property assets, respectively. For fiscal 2014, net cash used for investing activities of $490.7 million was primarily due to purchases of short-term investments, purchases of property and equipment and a business acquisition. These cash outflows were offset in part by sales and maturities of short-term investments. For fiscal 2013, net cash used for investing activit…"
+   },
+   {
+    "chunk_id": "ch_983043b1a44959b9",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 78,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 78 the intrinsic value of these cash flow hedges in accumulated other comprehensive income in our Consolidated Balance Sheets, until the forecasted transaction occurs. When the forecasted transaction occurs, we reclassify the related gain or loss on the cash flow hedge to revenue. In the event the underlying forecasted transaction does not occur, or it becomes probable that it will not occur, we reclassify the gain or loss on the related cash flow hedge from accumulated other comprehensive income to interest and other income (expense), net in our Consolidated Statements of Income at that time. If we do not elect hedge accounting, or the contract does not qualify for hedge accounting treatment, the changes in fair value from period to period are recorded in interest and other income (expense), net in our Consolidated Statements of Income. In December 2014, prior to issuing new long-term fixed rate debt, we…"
+   },
+   {
+    "chunk_id": "ch_5ee97bff06e94ea7",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 68,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 68 expected future cash flows. If the future undiscounted cash flows are less than the carrying amount of these assets, we recognize an impairment loss based on any excess of the carrying amount over the fair value of the assets. We did not recognize any intangible asset impairment charges in fiscal 2015, 2014 or 2013. During fiscal 2015, our intangible assets were amortized over their estimated useful lives ranging from 1 to 14 years. Amortization is based on the pattern in which the economic benefits of the intangible asset will be consumed or on a straight-line basis when the consumption pattern is not apparent. The weighted average useful lives of our intangible assets were as follows: Weighted Average Useful Life (years) Purchased technology ............................................................................................................................................ 6"
+   },
+   {
+    "chunk_id": "ch_b58c214c5b629429",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 63,
+    "text": "63 ADOBE SYSTEMS INCORPORATED CONSOLIDATED STATEMENTS OF CASH FLOWS (In thousands) Years Ended November 27, 2015 November 28, 2014 November 29, 2013 Cash flows from operating activities: Net income..................................................................................................................... $ 629,551 $ 268,395 $ 289,985 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and accretion................................................................. 339,473 313,590 321,227 Stock-based compensation ....................................................................................... 335,859 333,701 328,987"
+   },
+   {
+    "chunk_id": "ch_797db3748a5d3b40",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7A",
+    "page": 56,
+    "text": "We may use foreign exchange purchased options or forward contracts to hedge foreign currency revenue denominated in Euros, British Pounds and Yen. We hedge these cash flow exposures to reduce the risk that our earnings and cash flows will be adversely affected by changes in exchange rates. These foreign exchange contracts, carried at fair value, may have maturities between one and twelve months. We enter into these foreign exchange contracts to hedge forecasted revenue in the normal course of business and accordingly, they are not speculative in nature. We record changes in the intrinsic value of these cash flow hedges in accumulated other comprehensive income until the forecasted transaction occurs. When the forecasted transaction occurs, we reclassify the related gain or loss on the cash flow hedge to revenue. In the event the underlying forecasted transaction does not occur, or it becomes probable that it will not occur, we reclassify the gain or loss on the related cash flow hedge …"
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Gaming segment includes discrete graphics semi-custom",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": "1",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_676cafaf03dafc0e",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 8,
+    "text": "We have developed AMD RDNA™ 3, a high performing and power efficient graphics architecture, which is the foundation for next-generation PC gaming graphics. Additionally, our RDNA 2 architecture supports advanced graphics features such as ray tracing, AMD Infinity Cache™ and variable rate shading. The Sony PlayStation 5 and Microsoft Xbox Series S™ and X™ game consoles also feature our RDNA graphics architecture. Our APUs deliver visual processing functionality for value and mainstream PCs by integrating a CPU and a GPU on a single chip, while discrete GPUs (which are also known as dGPUs) offer high-performance graphics processing across all platforms. We leverage our core IP, including our graphics and processing technologies to develop semi- custom solutions. Here, semiconductor suppliers work alongside system designers and manufacturers to enhance the performance and overall user experience for semi-custom customers. We have used this collaborative co-development approach with many o…"
+   },
+   {
+    "chunk_id": "ch_4627843238794e5a",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 13,
+    "text": "Table of Contents Competition in Gaming Segment In the graphics market, our principal competitor in the supply of discrete graphics is NVIDIA who is the market share leader. Intel also manufactures and sells embedded graphics processors and integrated graphics processor (IGP) chipsets. Also, Intel has developed their own gaming-focused discrete GPUs and has entered the market. Other competitors include suppliers of discrete graphics and integrated graphics processor (IGP) chipsets. Some of our competitors are smaller companies, which may have greater flexibility to address specific market needs, but less financial resources to address the growing complexity of graphics processors and the associated research and development costs. With respect to integrated graphics, higher unit shipments of our APUs and Intel's integrated graphics may drive computer manufacturers to reduce the number of systems they build paired with discrete graphics components, particularly for notebooks, because the…"
+   },
+   {
+    "chunk_id": "ch_9321416dd5ddbc9a",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 6,
+    "text": "now offer the industry's strongest portfolio of data center computing solutions based on our CPUs, high-performance GPUs, DPUs, FPGAs, and Adaptive SoCs. We have a broad technology roadmap and products targeting AI training and inference spanning cloud, edge and intelligent endpoints. We achieve this through our family of CPUs, GPUs, FPGAs, and Adaptive SoCs. We develop world-class software platforms that are used to enable our high-performance products. Our software platforms include development tools, compilers, and drivers for our CPUs, GPUs and FPGAs. We work closely with our customers to define and develop customized solutions to precisely match their requirements. We enable this by combining our broad portfolio of high-performance IP with our leadership design and packaging to deliver world-class customized solutions to our customers. We invest in innovative technology and solutions such as our custom-ready chiplet platform and AMD Infinity Architecture to maintain our leadership…"
+   },
+   {
+    "chunk_id": "ch_51f92c149e0c277f",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 9,
+    "text": "Table of Contents Discrete Desktop and Notebook GPUs. Our AMD Radeon series discrete GPU processors for desktop and notebook PCs support current generation application program interfaces (APIs) like DirectX® 12 Ultimate and Vulkan , support high-refresh rate displays using AMD FreeSync™, AMD FreeSync Premium, and AMD FreeSync Premium Pro technologies, and are designed to support VR in PC platforms. Our AMD Radeon Software expands remote gaming functionality and enables new features and customization capabilities. In addition, we also offer tools for game developers such as our AMD FidelityFX™ open-source image quality software toolkit that helps deliver improved visual quality with minimal performance overhead. FidelityFX Super Resolution (FSR) uses upscaling technologies to help boost frame rates in games. Our FSR 2.0 technology uses temporal data and optimized anti-aliasing to boost frame rates in supported games while delivering similar or better image quality than native resolution…"
+   },
+   {
+    "chunk_id": "ch_552b4c4c9930715b",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 8,
+    "text": "5.0 (fifth generation Peripheral Component Interconnect Express motherboard interface) designed for enthusiast desktop platforms. In the AM5 platform we also offer B650 chipsets to enable a broader range of solutions in the market. In the AM4 ecosystem for 5000-series processors and prior, we offer the X570, B550 and A520 chipsets for socket AM4 for 3 Gen AMD Ryzen desktop processors and 5000 processors. In addition, we continue to offer the B450 and A320 chipsets that are combined with AMD Ryzen processors for the AM4 desktop platform for the performance and affordable mainstream platforms segments. In the High-End Desktop (HEDT) and Workstation segments, we offer the WRX80 chipsets to support the 3 Gen Ryzen Threadripper PRO platforms offering high speed I/O and platform bandwidth. Gaming Segment Gaming Market Graphics processing is a fundamental component across many of our products and can be found in an APU, GPU, SoC or a combination of a discrete GPU with one of the other foregoi…"
+   }
+  ]
+ }
+}

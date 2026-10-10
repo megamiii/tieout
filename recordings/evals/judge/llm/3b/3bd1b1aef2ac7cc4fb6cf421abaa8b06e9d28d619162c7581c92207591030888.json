@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the production rate increases for the 737, 777X, and 787 programs, aligning with the gold answer while providing additional accurate context.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T87X6DxAXdHes4xeunROBAWvCAfpf+GcTsL5p4vhqUW4iGkk/ofKGOrFISc3NJJr3pFeMDPeQ0+xTPlRY8hqfgpFXTJASlR+GsBWVUq9/kf/uNdJJX/GSVPCZwB30/q40N7/mqpdo2w8r+a3+"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623672,
+  "id": "6QHKar6ELPbAxN8Plb2NoAc",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 51,
+   "prompt_tokens": 359,
+   "total_tokens": 410
+  }
+ }
+}

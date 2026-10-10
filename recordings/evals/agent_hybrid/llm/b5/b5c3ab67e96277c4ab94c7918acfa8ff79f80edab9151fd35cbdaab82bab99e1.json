@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T8flnrpsN9K3hs7WTS/SXbKyqsA7aD7/h8lTCuxDwgBr0lnJoQirH1DyD7HWOYZjWFR+C9d31jM6r+aXbMN3Bln1s+6yDoZLmDCPo1qaofzkyGCHow63kUys="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BA\",\"query\":\"cycle cyclical economic downturn demand volatility commercial airplanes\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_81131",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621866,
+  "id": "6vrJaoO9B6uO28oPk8fdwAM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 5329,
+   "prompt_tokens_details": {
+    "cached_tokens": 2018
+   },
+   "total_tokens": 5368
+  }
+ }
+}

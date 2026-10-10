@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Opioid Litigation",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_9abdf33074129ca6",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 174,
+    "text": "Controlled Substances Litigation, Audits and Subpoenas In December 2017, the U.S. Judicial Panel on Multidistrict Litigation consolidated numerous cases filed against various defendants by plaintiffs such as counties, cities, hospitals, Indian tribes and third-party payors, alleging claims beginning as far back as the early 2000s generally concerning the impacts of widespread prescription opioid abuse. The consolidated multidistrict litigation captioned In re National Prescription Opiate Litigation (MDL No. 2804) is pending in the U.S. District Court for the Northern District of Ohio. This multidistrict litigation presumptively includes hundreds of relevant federal court cases that name the Company as a defendant. A significant number of similar cases that name the Company as a defendant in some capacity are pending in state courts. In addition, the Company has been named as a defendant in similar cases brought by certain state Attorneys General. The Company is defending itself against…"
+   },
+   {
+    "chunk_id": "ch_e746f5ba131e7ef8",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 175,
+    "text": "The Company has concluded that settlement of opioid claims by governmental entities and tribes is probable, and the loss related thereto could be reasonably estimated. As a result of that conclusion, and its assessment of certain other opioid-related claims including those for which the Company reached agreement in August and September 2022, the Company recorded pre-tax charges of $5.2 billion and $99 million during the three months ended September 30, 2022 and the three months ended December 31, 2022, respectively, of which $4.8 billion was recorded in other long-term liabilities on the consolidated balance sheet. In addition, the Company expects the cash impact in 2023 and 2024 to be less than $500 million in each year. Because loss contingencies are inherently unpredictable and unfavorable developments or resolutions can occur, the assessment requires judgments about future events. Moreover, the settlement is in its early phases, and there is no assurance that contingencies will be …"
+   },
+   {
+    "chunk_id": "ch_bbd5f86703831ef3",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 174,
+    "text": "opioid claims against Company entities by states and political subdivisions, but not private plaintiffs. The maximum amount payable by the Company under the settlement would be approximately $4.3 billion in opioid remediation and $625 million in attorneys' fees and costs and additional remediation. The amounts would be payable over 10 years, beginning in 2023. The agreement also contains injunctive terms relating to the dispensing of opioid medications. The settlement agreement is available at nationalopioidsettlement.com. Under the settlement agreement, before the Company determines whether to enter into any final settlement, it will assess the number and identities of the governmental entities that will participate in any such settlement. The settlement agreement contemplates that if certain governmental entities do not agree to the settlement, but the Company nonetheless concludes that there is sufficient participation to warrant going forward with the settlement, there would be a c…"
+   },
+   {
+    "chunk_id": "ch_fc9ff90d9808369f",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 175,
+    "text": "In January 2020, the DOJ served the Company with a DEA administrative subpoena. The subpoena seeks documents relating to practices with respect to prescription opioids and other controlled substances at CVS pharmacy locations concerning potential violations of the federal Controlled Substances Act and the federal False Claims Act. In January 2022, the DOJ served the Company with a CID regarding similar subjects, and the Company is providing documents and information in response to these matters. Prescription Processing Litigation and Investigations The Company is named as a defendant in a number of lawsuits and is subject to a number of investigations concerning its prescription processing practices, including the following: U.S. ex rel. Bassan et al. v. Omnicare, Inc. and CVS Health Corp. (U.S. District Court for the Southern District of New York). In December 2019, the U.S. Attorney's Office for the Southern District of New York (the “SDNY”) filed a complaint-in-intervention in this …"
+   },
+   {
+    "chunk_id": "ch_30db9a0ed990580b",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 174,
+    "text": "appealing the judgment and has not accrued a liability for this matter. In March 2022, CVS Health Corporation and CVS Pharmacy, Inc. entered into a settlement agreement with the State of Florida to resolve claims related to opioid medications dating back more than a decade. Under the terms of the settlement agreement, CVS Health Corporation settled all opioid claims against it and its subsidiaries by the State of Florida for $484 million, which is to be paid over a period of 18 years. During the three months ended March 31, 2022, the Company recorded a $484 million liability associated with this legal settlement. In August 2022, CVS Pharmacy, Inc. entered into an agreement with the State of New Mexico to settle all opioid claims against it and its parents and subsidiaries by the State of New Mexico and participating subdivisions. In September 2022, CVS Pharmacy, Inc. entered into an agreement with the State of West Virginia to settle all opioid claims against it and its parents and sub…"
+   }
+  ]
+ }
+}

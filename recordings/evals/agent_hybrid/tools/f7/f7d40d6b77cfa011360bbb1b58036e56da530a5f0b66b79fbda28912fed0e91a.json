@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "53.76 55.42 56.16",
+  "ticker": "NKE",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_01fda39be544ed5a",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 61,
+    "text": "Income before income taxes is as follows: Year Ended May 31, (In millions) 2018 2017 2016 Income before income taxes: United States $ 744 $ 1,240 $ 956 Foreign 3,581 3,646 3,667 TOTAL INCOME BEFORE INCOME TAXES $ 4,325 $ 4,886 $ 4,623 59"
+   },
+   {
+    "chunk_id": "ch_e3937c22134f47ed",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 7A",
+    "page": 43,
+    "text": "Table of Contents Expected Maturity Date Year Ending May 31, (Dollars in millions) 2019 2020 2021 2022 2023 Thereafter Total Fair Value Foreign Exchange Risk Japanese Yen Functional Currency Long-term Japanese Yen debt — Fixed rate Principal payments $ 6 $ 6 $ 3 $ — $ — $ — $ 15 $ 16 Average interest rate 2.4% 2.4% 2.4% 0.0% 0.0% 0.0% 2.4% Interest Rate Risk Japanese Yen Functional Currency Long-term Japanese Yen debt — Fixed rate Principal payments $ 6 $ 6 $ 3 $ — $ — $ — $ 15 $ 16 Average interest rate 2.4% 2.4% 2.4% 0.0% 0.0% 0.0% 2.4% U.S. Dollar Functional Currency Long-term U.S. Dollar debt — Fixed rate Principal payments $ — $ — $ — $ — $ 500 $ 3,000 $ 3,500 $ 3,279 Average interest rate 0.0% 0.0% 0.0% 0.0% 2.3% 3.3% 3.1% The fixed interest rate Japanese Yen denominated debt instruments were issued by and are accounted for by one of our Japanese subsidiaries. Accordingly, the monthly translation of these instruments, which varies due to changes in foreign exchange rates, is reco…"
+   },
+   {
+    "chunk_id": "ch_b221cbec0d47af83",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 7A",
+    "page": 42,
+    "text": "The estimated maximum one-day loss in fair value on our foreign currency sensitive derivative financial instruments, derived using the VaR model, was $93 million and $97 million at May 31, 2018 and 2017, respectively. The VAR decreased year-over-year as a result of a decrease in foreign currency volatilities at May 31, 2018. Such a hypothetical loss in the fair value of our derivatives would be offset by increases in the value of the underlying transactions being hedged. The average monthly change in the fair values of foreign currency forward and foreign currency option derivative instruments was $260 million and $161 million during fiscal 2018 and fiscal 2017, respectively. The instruments not included in the VaR are intercompany loans denominated in non-functional currencies, fixed interest rate Japanese Yen denominated debt, fixed interest rate U.S. Dollar denominated debt and interest rate swaps. Intercompany loans and related interest amounts are eliminated in consolidation. Furt…"
+   },
+   {
+    "chunk_id": "ch_5c054225557cc657",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 36,
+    "text": "Table of Contents Translational Exposures Many of our foreign subsidiaries operate in functional currencies other than the U.S. Dollar. Fluctuations in currency exchange rates create volatility in our reported results as we are required to translate the balance sheets, operational results and cash flows of these subsidiaries into U.S. Dollars for consolidated reporting. The translation of foreign subsidiaries' non-U.S. Dollar denominated balance sheets into U.S. Dollars for consolidated reporting results in a cumulative translation adjustment to Accumulated other comprehensive income within the Consolidated Statements of Shareholders' Equity. In the translation of our Consolidated Statements of Income, a weaker U.S. Dollar in relation to foreign functional currencies benefits our consolidated earnings whereas a stronger U.S. Dollar reduces our consolidated earnings. The impact of foreign exchange rate fluctuations on the translation of our consolidated Revenues was a benefit of approxi…"
+   },
+   {
+    "chunk_id": "ch_506c8b2295abaa55",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 72,
+    "text": "Table of Contents The primary financial measure used by the Company to evaluate performance of individual operating segments is earnings before interest and taxes (commonly referred to as “EBIT”), which represents Net income before Interest expense (income), net and Income tax expense in the Consolidated Statements of Income. As part of the Company's centrally managed foreign exchange risk management program, standard foreign currency rates are assigned twice per year to each NIKE Brand entity in the Company's geographic operating segments and to Converse. These rates are set approximately nine and twelve months in advance of the future selling seasons to which they relate (specifically, for each currency, one standard rate applies to the fall and holiday selling seasons and one standard rate applies to the spring and summer selling seasons) based on average market spot rates in the calendar month preceding the date they are established. Inventories and Cost of sales for geographic ope…"
+   }
+  ]
+ }
+}

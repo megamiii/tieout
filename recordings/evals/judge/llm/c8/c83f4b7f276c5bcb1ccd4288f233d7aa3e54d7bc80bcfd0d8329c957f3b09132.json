@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies that management does not expect any ongoing legal proceedings to have a material adverse effect, which aligns with the gold answer's conclusion.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TZXtdK3FyoPxFvHK+o9nFWr73SISjc+2A1sS2FPZhqrAxh3quDExTt5Sd+jXW3i65G01qriL3wicBo1GYK3Hr4p9WyNIM1QRauquA0U5Ua1tz/Mj8iurlwIfsJFOiwFuOD3D7Gb8uMvfx3RVe"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623829,
+  "id": "hQLKaoWnLOKvxN8P9oHwgA4",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 42,
+   "prompt_tokens": 241,
+   "total_tokens": 283
+  }
+ }
+}

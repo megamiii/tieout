@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tg7U8Gr4LcWtHPzET+0rom8+MIhSwoFJURslCY7dF8e36YaOZ9ROzy/HGJdQ/9myzII0fz2CyK82hQYb6G/2PJekMok8eriv/UboJcRGWsVBkUVmcV3HY5+o="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"For fiscal year 2022, PepsiCo reported net revenue of $86,392 million, operating profit of $11,512 million, and depreciation and amortization of $2,763 million from the statement of cash flows. Unadjusted EBITDA is calculated as operating profit plus depreciation and amortization ($11,512 million + $2,763 million = $14,275 million). The resulting unadjusted EBITDA % margin is 16.52% ($14,275 million / $86,392 million).\",\"rationale\":\"All numbers (Net Revenue, Operating Profit, and Depreciation and Amortization) are retrieved directly from the PepsiCo FY2022 10-K financial statements. EBITDA is correctly computed as Operating Profit plus Depreciation and Amortization, and the EBITDA margin is computed by dividing EBITDA by Net Revenue.\",\"citations\":[{\"quote\":\"Net Revenue $ 86,392\",\"source_id\":\"ch_7a48f98cd7a1b7a6\"},{\"quote\":\"Operating Profit 11,512\",\"source_id\":\"ch_7a48f98cd7a1b7a6\"},{\"source_id\":\"ch_54bf5e6b14449e55\",\"quote\":\"Depreciation and amortization 2,763\"}],\"confidence\":1,\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_110342",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623349,
+  "id": "tADKaru5Ma-YvdIP17HGsAY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 339,
+   "prompt_tokens": 10144,
+   "total_tokens": 10483
+  }
+ }
+}

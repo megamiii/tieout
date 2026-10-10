@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TrRCR7d7uCVl6r/yWU9aKcaUmJlDPY9mA+hVkyrh2J8ly9DHeg9bTXshkRwgDbC2DcWyXoqfex7jLaadRAbTO7Yajzs0mZcJ4xEAVoHGL8+91s8ptXuSKRwg="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"citations\":[{\"source_id\":\"ch_08443c3994c23582\",\"quote\":\"Operating income........................................................................................ 903,095 412,685 422,723\"}],\"answer\":\"Adobe's operating income changed by 118.8% from fiscal year 2014 to fiscal year 2015. Operating income was $412,685 thousand in fiscal year 2014 and $903,095 thousand in fiscal year 2015.\",\"rationale\":\"The operating income figures for Adobe are $412,685 thousand in FY2014 and $903,095 thousand in FY2015 (from Item 8, page 60 of the FY2015 10-K). The percentage change is (903,095 - 412,685) / 412,685 = 118.8%.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_98257",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791624055,
+  "id": "dgPKaoHsJtyjxN8PneSUwAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 261,
+   "prompt_tokens": 7653,
+   "total_tokens": 7914
+  }
+ }
+}

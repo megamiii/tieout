@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "dividends common Q2 2022 OR quarterly dividends per share",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_92060eb3363f0540",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 168,
+    "text": "20% of the $1.5 billion notional amount of the ASR, thereby concluding the ASR. These shares were placed into treasury stock and the forward contract was reclassified from capital surplus to treasury stock in February 2022. At the time they were received, the initial and final receipt of shares resulted in an immediate reduction of the outstanding shares used to calculate the weighted average common shares outstanding for basic and diluted earnings per share. Dividends The quarterly cash dividend declared by the Board was $0.55 and $0.50 per share in 2022 and 2021, respectively. In December 2022, the Board authorized a 10% increase in the quarterly cash dividend to $0.605 per share effective in 2023. CVS Health Corporation has paid cash dividends every quarter since becoming a public company. Future dividend payments will depend on the Company's earnings, capital requirements, financial condition and other factors considered relevant by the Board. Regulatory Requirements The Company's …"
+   },
+   {
+    "chunk_id": "ch_6a418bd3a6253c2a",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 92,
+    "text": "ASR. These shares were placed into treasury stock and the forward contract was reclassified from capital surplus to treasury stock in February 2022. At the time they were received, the initial and final receipt of shares resulted in an immediate reduction of the outstanding shares used to calculate the weighted average common shares outstanding for basic and diluted earnings per share. Dividends During 2022, 2021 and 2020 the quarterly cash dividend was $0.55, $0.50 and $0.50 per share, respectively. In December 2022, the Board authorized a 10% increase in the quarterly cash dividend to $0.605 per share effective in 2023. CVS Health Corporation has paid cash dividends every quarter since becoming a public company. Future dividend payments will depend on the Company's earnings, capital requirements, financial condition and other factors considered relevant by the Board. 90"
+   },
+   {
+    "chunk_id": "ch_973e7bf6470f94c3",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 5",
+    "page": 68,
+    "text": "Item 5. Market for Registrant's Common Equity, Related Stockholder Matters and Issuer Purchases of Equity Securities. Market Information CVS Health Corporation's common stock is listed on the New York Stock Exchange under the symbol “CVS.” Dividends During 2022, 2021 and 2020, the quarterly cash dividend was $0.55, $0.50 and $0.50 per share, respectively. In December 2022, the Board authorized a 10% increase in the quarterly cash dividend to $0.605 per share effective in 2023. CVS Health Corporation has paid cash dividends every quarter since becoming a public company. Future dividends will depend on the Company's earnings, capital requirements, financial condition and other factors considered relevant by the Board. See Note 12 ‘‘Shareholders' Equity'' included in Item 8 of this 10-K for information regarding CVS Health Corporation's dividends. Holders of Common Stock As of February 1, 2023, there were 24,142 registered holders of the registrant's common stock according to the records …"
+   },
+   {
+    "chunk_id": "ch_d47bfd19a4f5f950",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 92,
+    "text": "notional amount. The ultimate number of shares the Company may receive will depend on the daily volume-weighted average price of the Company's stock over an averaging period, less a discount. It is also possible, depending on such weighted average price, that the Company will have an obligation to Citibank which, at the Company's option, could be settled in additional cash or by issuing shares. Under the terms of the ASR, the maximum number of shares that could be delivered to the Company is 43.4 million. Pursuant to the authorization under the 2021 Repurchase Program, the Company entered into a $1.5 billion fixed dollar ASR with Barclays Bank PLC. Upon payment of the $1.5 billion purchase price on January 4, 2022, the Company received a number of shares of CVS Health Corporation's common stock equal to 80% of the $1.5 billion notional amount of the ASR or approximately 11.6 million shares at a price of $103.34 per share, which were placed into treasury stock in January 2022. The ASR w…"
+   },
+   {
+    "chunk_id": "ch_17b69171059b4d96",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 113,
+    "text": "— — 864 — 864 ESPP issuances, net of purchase of treasury shares — 1 — 5 — — 5 — 5 Common stock dividends — — — — (2,644) — (2,644) — (2,644) Other increases in noncontrolling interests — — — — — — — 6 6 Balance at December 31, 2021 1,744 (422) 47,377 (28,173) 54,906 965 75,075 306 75,381 Net income — — — — 4,149 — 4,149 16 4,165 Other comprehensive loss (Note 13) — — — — — (2,430) (2,430) — (2,430) Stock option activity, stock awards and other 14 — 816 — — — 816 — 816 Purchase of treasury shares, net of ESPP issuances — (36) — (3,685) — — (3,685) — (3,685) Common stock dividends — — — — (2,910) — (2,910) — (2,910) Other decreases in noncontrolling interests — — — — — — — (22) (22) Balance at December 31, 2022 1,758 (458) $ 48,193 $ (31,858) $ 56,145 $ (1,465) $ 71,015 $ 300 $ 71,315 (1) Treasury shares include 1 million shares held in trust for each of the years ended December 31, 2022, 2021 and 2020. Treasury stock includes $29 million related to shares held in trust for each of the …"
+   }
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TTN2KugWBu1IXYwLgWLb8JDoUw/epfLXr2qJ1YVZs/93Tg4Y9jPbxQweQMXRrhUbqjPDw8O70pLO49EIxGavZ9Pda+ZGX0cgg9WRLKrBv3U99hZbIUzdzeu0="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BA\",\"fiscal_year\":2022,\"query\":\"U.S. government percentage revenue 2022 Boeing\"}",
+        "name": "search_filings"
+       },
+       "id": "call_70069",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622779,
+  "id": "ev7JauHrNK6FxN8P5vjekQI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 5770,
+   "prompt_tokens_details": {
+    "cached_tokens": 2020
+   },
+   "total_tokens": 5814
+  }
+ }
+}

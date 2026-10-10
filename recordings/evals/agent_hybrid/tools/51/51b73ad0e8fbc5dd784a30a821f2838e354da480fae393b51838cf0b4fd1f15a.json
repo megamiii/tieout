@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "disaggregated revenue product service 2022 Boeing Note",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_106a3b3674ea94d5",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 116,
+    "text": "Table of Contents BGS revenues consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: Commercial $9,560 $7,527 $6,936 Government 7,681 8,553 8,368 Total revenues from contracts with customers 17,241 16,080 15,304 Intersegment revenues eliminated on consolidation 370 248 239 Total segment revenues $17,611 $16,328 $15,543 Revenue recognized at a point in time 50 % 45 % 47 % Revenue recognized on fixed-price contracts 88 % 86 % 87 % Revenue from the U.S. government 33 % 40 % 41 % Includes revenues earned from foreign military sales through the U.S. government. Earnings in Equity Method Investments For the year ended December 31, 2022, our share of income from equity method investments was $56, primarily driven by investments held in Unallocated items, eliminations and other. For the years ended December 31, 2021 and 2020, our share of income from equity method investments was $40 and $86, primarily in our BDS segment. Backlog Our total b…"
+   },
+   {
+    "chunk_id": "ch_b47e3f2e76b67ee3",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 38,
+    "text": "Table of Contents Deliveries of new-build production units, including remanufactures and modifications, were as follows: Years ended December 31, 2022 2021 2020 F/A-18 Models 14 21 20 F-15 Models 12 16 4 CH-47 Chinook (New) 19 15 27 CH-47 Chinook (Renewed) 9 5 3 AH-64 Apache (New) 25 27 19 AH-64 Apache (Remanufactured) 50 56 52 MH-139 Grey Wolf 4 KC-46 Tanker 15 13 14 P-8 Models 12 16 15 Commercial Satellites 4 Military Satellites 1 Total 165 169 154 Revenues BDS revenues in 2022 decreased by $3,378 million compared with 2021 primarily due to charges on development programs. Unfavorable performance across other defense programs and lower P-8 and weapons volume also contributed to the decrease in revenue. Cumulative contract catch-up adjustments in 2022 were $1,858 million more unfavorable than the prior year largely due to charges on development programs. BDS revenues in 2021 increased by $283 million compared with 2020 primarily due to higher revenue on the KC-46A Tanker program due t…"
+   },
+   {
+    "chunk_id": "ch_21e6157101359e44",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 83,
+    "text": "Impairment charges related to customer financing operating lease assets for the years ended December 31 were as follows: 2022 2021 2020 Boeing Capital $2 $23 $32 Other Boeing 5 8 (8) Total $7 $31 $24 Lease income recorded in Revenue on the Consolidated Statements of Operations for the years ended December 31, 2022 and 2021 included $69 and $54 from sales-type/finance leases, and $65 and $68 from operating leases. Profit at the commencement of sales-type leases was recorded in revenue for the years ended December 31, 2022 and 2021 in the amount of $28 and $78. 79"
+   },
+   {
+    "chunk_id": "ch_a22b6d9c61f38dbf",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 115,
+    "text": "Table of Contents BCA revenues by customer location consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: Asia $4,484 $2,792 $2,679 Europe 4,038 4,334 3,872 Middle East 2,003 1,098 1,647 Other non-U.S. 3,042 1,681 513 Total non-U.S. revenues 13,567 9,905 8,711 United States 12,167 9,472 7,899 Estimated potential concessions and other considerations to 737 MAX customers 16 14 (498) Total revenues from contracts with customers 25,750 19,391 16,112 Intersegment revenues, eliminated on consolidation 117 102 50 Total segment revenues $25,867 $19,493 $16,162 Revenue recognized on fixed-price contracts 100 % 100 % 100 % Revenue recognized at a point in time 100 % 100 % 100 % BDS revenues on contracts with customers, based on the customer's location, consisted of the following: Years ended December 31, 2022 2021 2020 Revenue from contracts with customers: U.S. customers $17,144 $19,869 $19,662 Non-U.S. customers 6,018 6,671 6,595 Total segme…"
+   },
+   {
+    "chunk_id": "ch_546f4f782dfeda1d",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 81,
+    "text": "recovered from units included in the program accounting quantity that represent expected future orders. We are currently producing at abnormally low rates resulting in abnormal production costs that are being expensed as incurred. We expensed abnormal production costs of $1,240 and $468 during the years ended December 31, 2022 and 2021. Commercial aircraft programs inventory included amounts credited in cash or other consideration (early issue sales consideration) to airline customers totaling $3,586 and $3,290 at December 31, 2022 and 2021. Note 8 – Contracts with Customers Unbilled receivables increased from $8,620 at December 31, 2021 to $8,634 at December 31, 2022, primarily driven by revenue recognized in excess of billings at BGS, partially offset by billings in excess of revenue recognized at BDS. Advances and progress billings increased from $52,980 at December 31, 2021 to $53,081 at December 31, 2022, primarily driven by advances on orders received at BCA, partially offset by …"
+   }
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TwRmmf44pZeKmjYcGoCP1ja0Qgd8JtfDsvxn8tGDWgn6rNUWNyI+r5eZm2xVtgs6AhO4KRFdzmpDjViYB30iM+9c1IlWkIKaynRtMKPlZZp9laPQne1UTY+Y="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Two Peaks, LLC d/b/a Yardbird Furniture\",\"ticker\":\"BBY\",\"fiscal_year\":2023}",
+        "name": "search_filings"
+       },
+       "id": "call_49780",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622475,
+  "id": "S_3JasXzFu7Yxs0Ps9X-sAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 5344,
+   "prompt_tokens_details": {
+    "cached_tokens": 2018
+   },
+   "total_tokens": 5388
+  }
+ }
+}

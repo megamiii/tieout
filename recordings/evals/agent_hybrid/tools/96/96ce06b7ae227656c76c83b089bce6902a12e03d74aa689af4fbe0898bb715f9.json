@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Gross profit as a percentage of net sales 2022",
+  "ticker": "AMCR",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_fc9e367f171e55ec",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 32,
+    "text": "Results of Operations Consolidated Results of Operations ($ in millions, except per share data) 2023 2022 Net sales $ 14,694 $ 14,544 Operating income 1,508 1,239 Operating income as a percentage of net sales 10.3 % 8.5 % Net income attributable to Amcor plc $ 1,048 $ 805 Diluted Earnings Per Share $ 0.705 $ 0.529 Net sales increased by $150 million, or 1%, in fiscal year 2023, compared to fiscal year 2022. Excluding the pass-through of raw material costs of $776 million, negative currency impacts of $426 million, and the negative impact of disposed and ceased operations of $207 million, the remaining variation in net sales for the fiscal year 2023 was an increase of $7 million, or 0%, reflecting price/mix benefits of 3% and unfavorable volumes of (3%). Net income attributable to Amcor plc increased by $243 million, or 30%, in fiscal year 2023, compared to fiscal year 2022, mainly as a result of a pre-tax net gain of $215 million on the disposal of the Russian business in fiscal year 2…"
+   },
+   {
+    "chunk_id": "ch_c0b687348702b7d5",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 33,
+    "text": "for the fiscal year 2023 was a decrease of $91 million, or (3%), reflecting price/mix benefits of approximately 1%, offset by unfavorable volumes (4%). Adjusted EBIT decreased by $24 million, or 8%, in fiscal year 2023, compared to fiscal year 2022. Excluding negative currency impacts of $2 million, the remaining variation in adjusted EBIT for the fiscal year 2023 was a decrease of $22 million, or 8%, with favorable price/mix of 20%, more than offset by unfavorable volumes of (12%), unfavorable plant costs of (11%) and unfavorable SG&A and other costs of (5%), all largely impacted by inflationary pressures. Consolidated Gross Profit ($ in millions) 2023 2022 Gross profit $ 2,725 $ 2,820 Gross profit as a percentage of net sales 18.5 % 19.4 % Gross profit decreased by $95 million, or 3%, in fiscal year 2023, compared to fiscal year 2022. Excluding negative currency impacts of $78 million, the negative impact from disposed and ceased operations of $73 million, the remaining variation in …"
+   },
+   {
+    "chunk_id": "ch_2bba86d92f1fb602",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 50,
+    "text": "Amcor plc and Subsidiaries Consolidated Statements of Income ($ in millions, except per share data) For the years ended June 30, 2023 2022 2021 Net sales $ 14,694 $ 14,544 $ 12,861 Cost of sales (11,969) (11,724) (10,129) Gross profit 2,725 2,820 2,732 Selling, general, and administrative expenses (1,246) (1,284) (1,292) Research and development expenses (101) (96) (100) Restructuring, impairment, and other related activities, net 104 (234) (94) Other income, net 26 33 75 Operating income 1,508 1,239 1,321 Interest income 31 24 14 Interest expense (290) (159) (153) Other non-operating income, net 2 11 11 Income before income taxes and equity in income of affiliated companies 1,251 1,115 1,193 Income tax expense (193) (300) (261) Equity in income of affiliated companies, net of tax — — 19 Net income $ 1,058 $ 815 $ 951 Net income attributable to non-controlling interests (10) (10) (12) Net income attributable to Amcor plc $ 1,048 $ 805 $ 939 Basic earnings per share: Basic earnings per …"
+   },
+   {
+    "chunk_id": "ch_7b5333b484216c90",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 33,
+    "text": "Consolidated Selling, General, and Administrative (\"SG&A\") Expenses ($ in millions) 2023 2022 SG&A expenses $ (1,246) $ (1,284) SG&A expenses as a percentage of net sales (8.5)% (8.8)% SG&A decreased by $38 million, or 3%, in fiscal year 2023, compared to fiscal year 2022. The decrease was primarily driven by exchange rate movements. Consolidated Restructuring, Impairment and Other Related Activities, Net ($ in millions) 2023 2022 Restructuring, impairment, and other related activities, net $ 104 $ (234) Restructuring, impairment, and other related activities, net, as a percentage of net sales 0.7 % (1.6)% Restructuring, impairment, and other related activities, net decreased by $338 million, or 144%, in fiscal year 2023, compared to fiscal year 2022. The decrease in net expense was mainly a result of a pre-tax net gain of $215 million on the disposal of the Russian business in fiscal year 2023, and the non-recurrence of impairment expenses of $138 million related to the Russia-Ukraine…"
+   },
+   {
+    "chunk_id": "ch_ad8395ae2e248943",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 105,
+    "text": "Deed of Cross Guarantee Consolidated Statements of Income ($ in millions) For the years ended June 30, 2023 2022 Net sales $ 377 $ 391 Cost of sales (319) (337) Gross profit 58 54 Operating expenses (1,125) (1,251) Other income, net 1,599 2,355 Operating income 532 1,158 Interest income 15 12 Interest expense (38) (14) Other non-operating income, net — 1 Income before income taxes 509 1,157 Income tax expense (22) (4) Net income $ 487 $ 1,153 105"
+   }
+  ]
+ }
+}

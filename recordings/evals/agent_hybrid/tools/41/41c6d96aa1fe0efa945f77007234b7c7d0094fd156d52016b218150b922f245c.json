@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Gross profit as a % of revenue",
+  "ticker": "BBY",
+  "fiscal_year": 2019,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_bf3df9b153a3c310",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 31,
+    "text": "Table of Contents Our operating income increased $57 million and our operating income as a percent of revenue remained flat in fiscal 2019 compared to fiscal 2018, primarily due to a decrease in gross profit rate offset by a lower SG&A rate. Fiscal 2018 Results Compared With Fiscal 2017 Consolidated revenue of $42.2 billion in fiscal 2018 increased 7.0% compared to fiscal 2017. Fiscal 2018 includes approximately $760 million of revenue from the extra week. The components of the 7.0% revenue increase in fiscal 2018 were as follows: Comparable sales impact 5.3% Non-comparable sales impact (1) 1.5% Impact of foreign currency exchange rate fluctuations 0.2% Total revenue increase 7.0% (1) Non-comparable sales reflect the impact of net store opening and closing activity, the impact of the extra week in fiscal 2018, as well as the impact of revenue streams not included within our comparable sales calculation, such as profit-share revenue, certain credit card revenue, gift card breakage, comm…"
+   },
+   {
+    "chunk_id": "ch_c96970bc3b084a55",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Table of Contents (1) Non-comparable sales reflect the impact of the extra week in fiscal 2018, as well as the impact of revenue streams not included within our comparable sales calculation, such as profit-share revenue, certain credit card revenue, gift card breakage, commercial sales and sales of merchandise to wholesalers and dealers, as applicable. Non-comparable sales also reflect the impact of net store opening and closing activity of (0.7)% in fiscal 2018. The profit-share revenue included in our non-comparable sales relates to our extended warranty protection plans that are managed by a third-party underwriter. We may be eligible to receive profit-sharing payments, depending on the performance of the portfolio. When performance of the portfolio is strong and the claims cost to the third-party underwriter declines, we are entitled to share in the excess premiums. In fiscal 2018, we recognized $59 million of such profit-share revenue, with an equal impact to gross profit and oper…"
+   },
+   {
+    "chunk_id": "ch_938a0b91d061c4fb",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 32,
+    "text": "from the extra week. The components of the 1.7% revenue increase in the Domestic segment in fiscal 2019 were as follows: Comparable sales impact 4.4 % Non-comparable sales impact (1) (2.7)% Total revenue increase 1.7 % (1) Non-comparable sales reflect the impact of the extra week in fiscal 2018, the results of GreatCall, as well as the impact of revenue streams not included within our comparable sales calculation, such as profit-share revenue, certain credit card revenue, gift card breakage, commercial sales and sales of merchandise to wholesalers and dealers, as applicable. Non- comparable sales also reflect the impact of net store opening and closing activity of (1.3)% in fiscal 2019. The profit-share revenue included in our non-comparable sales relates to our extended warranty protection plans that are managed by a third-party underwriter. We may be eligible to receive profit-sharing payments, depending on the performance of the portfolio. When performance of the portfolio is above …"
+   },
+   {
+    "chunk_id": "ch_b7a0536d66c510f5",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 36,
+    "text": "Our International segment gross profit increased $6 million in fiscal 2019 compared to fiscal 2018 . However, the gross profit rate decreased to 22.9% in fiscal 2019 from 23.2% in fiscal 2018. The decrease in gross profit rate in fiscal 2019 was primarily due to the unfavorable impact of foreign exchange rates, partially offset by increased revenue in the higher-margin services category. Our International segment's SG&A decreased $4 million in fiscal 2019 compared to fiscal 2018, and the SG&A rate decreased to 20.0% in fiscal 2019 from 20.6% in fiscal 2018. The decrease in SG&A in fiscal 2019 was primarily driven by the absence of the extra week, the favorable impact of foreign exchange rates and the absence of a one-time employee bonus expense related to tax reform. These decreases were partially offset by higher variable costs associated with increased revenue. Our International segment recorded a restructuring benefit of $1 million and restructuring charges of $1 million in fiscal 2…"
+   },
+   {
+    "chunk_id": "ch_96cef93c8345cee8",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 33,
+    "text": "higher supply chain costs, including investments and higher transportation costs, and a decrease in our periodic profit-share revenue as described above. These decreases were partially offset by improved product margin rates, which included the benefit of gross profit optimization initiatives, and the higher gross profit rate of GreatCall. Our Domestic segment SG&A decreased $4 million and the rate decreased to 18.6% of revenue in fiscal 2019 compared to 18.9% of revenue in fiscal 2018. The decrease was primarily due to cost reductions, the absence of the extra week in fiscal 2019 and one-time expenses related to tax reform recorded in fiscal 2018. These decreases were partially offset by increases in growth investments, higher variable costs associated with increased revenue and increases as a result of the acquisition of GreatCall. Our Domestic segment incurred $47 million of restructuring charges in fiscal 2019 and $9 million of restructuring charges in fiscal 2018 . The restructuri…"
+   }
+  ]
+ }
+}

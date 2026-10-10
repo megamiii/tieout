@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies that gross margins are consistent and provides accurate supporting data that aligns with the gold answer's conclusion regarding the minor fluctuations.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T0dqDyxzaRL2c5pPxK+Hd51/56d4Dlwr0G5+0OybwopJgkW3hMRLLsl9FX3qOc8FHnIP/dgyoAubF71nUCcZO2WOlGuUXd9+DmqeGEfCbEzoMsxuZrS+Ws3tYk2g4YwwjIO4N/qGi9Wh/O09F"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623788,
+  "id": "YgLKapn3B4uJvdIPn8K22Ak",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 381,
+   "total_tokens": 421
+  }
+ }
+}

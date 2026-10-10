@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "capital expenditures cash flows",
+  "ticker": "MMM",
+  "fiscal_year": 2018,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_2bcff00a16601ad1",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 94,
+    "text": "expected cash flows from the plan either to a portfolio of bonds that generate sufficient cash flow or a notional yield curve generated from available bond information. In countries that do not have a deep market in corporate bonds, government bonds are considered with a risk premium to approximate corporate bond yields. The Company measures service cost and interest cost separately using the spot yield curve approach applied to each corresponding obligation. Service costs are determined based on duration-specific spot rates applied to the service cost cash flows. The interest cost calculation is determined by applying duration- specific spot rates to the year-by-year projected benefit payments. The spot yield curve approach does not affect the measurement of the total benefit obligations as the change in service and interest costs offset in the actuarial gains and losses recorded in other comprehensive income. For the primary U.S. qualified pension plan, the Company's assumption for t…"
+   },
+   {
+    "chunk_id": "ch_a6b70aadba9bab98",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 83,
+    "text": "Table of Contents Reclassifications out of Accumulated Other Comprehensive Income Attributable to 3M Amounts Reclassified from Details about Accumulated Other Accumulated Other Comprehensive Income Comprehensive Income Components Year ended December 31, Location on Income (Millions) 2018 2017 2016 Statement Gains (losses) associated with defined benefit pension and postretirement plans amortization Transition asset $ — $ — $ 1 See Note 13 Prior service benefit 76 89 92 See Note 13 Net actuarial loss (678) (570) (506) See Note 13 Curtailments/Settlements (4) (2) (8) See Note 13 Total before tax (606) (483) (421) Tax effect 145 116 148 Provision for income taxes Net of tax $ (461) $ (367) $ (273) Cash flow hedging instruments gains (losses) Foreign currency forward/option contracts $ (95) $ 8 $ 110 Cost of sales Interest rate swap contracts (1) (1) (1) Interest expense Total before tax (96) 7 109 Tax effect 19 (3) (39) Provision for income taxes Net of tax $ (77) $ 4 $ 70 Total reclassif…"
+   },
+   {
+    "chunk_id": "ch_6b2a38e2ec2d6aac",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 83,
+    "text": "discounts/premiums, payment of debt issue costs, as well as net interest payments/receipts associated with interest rate swap contracts. Cash interest payments exclude the cash paid for early debt extinguishment costs. Additional details are described in Note 12. Individual amounts in the Consolidated Statement of Cash Flows exclude the impacts of acquisitions, divestitures and exchange rate impacts, which are presented separately. Transactions related to investing and financing activities with significant non-cash components are as follows: · 3M sold and leased-back, under capital leases, certain recently constructed machinery and equipment in return for municipal securities with certain cities in the United States. In aggregate, the values totaled approximately $13 million in 2018, $13 million in 2017, and $12 million in 2016, as of the transaction date. 83"
+   },
+   {
+    "chunk_id": "ch_3277eb151208f434",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 65,
+    "text": "Table of Contents Research, development and related expenses: These costs are charged to operations in the period incurred and are shown on a separate line of the Consolidated Statement of Income. Research, development and related expenses totaled $1.821 billion in 2018, $1.870 billion in 2017 and $1.764 billion in 2016. Research and development expenses, covering basic scientific research and the application of scientific advances in the development of new and improved products and their uses, totaled $1.253 billion in 2018, $1.352 billion in 2017 and $1.248 billion in 2016. Related expenses primarily include technical support; internally developed patent costs, which include costs and fees incurred to prepare, file, secure and maintain patents; amortization of externally acquired patents and externally acquired in-process research and development; and gains/losses associated with certain corporate approved investments in R&D-related ventures, such as equity method effects and impairm…"
+   },
+   {
+    "chunk_id": "ch_d17578d986cf6480",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 65,
+    "text": "expensed. Reserves for liabilities related to anticipated remediation costs are recorded on an undiscounted basis when they are probable and reasonably estimable, generally no later than the completion of feasibility studies, the Company's commitment to a plan of action, or approval by regulatory agencies. Environmental expenditures for capital projects that contribute to current or future operations generally are capitalized and depreciated over their estimated useful lives. Income taxes: The provision for income taxes is determined using the asset and liability approach. Under this approach, deferred income taxes represent the expected future tax consequences of temporary differences between the carrying amounts and tax basis of assets and liabilities. The Company records a valuation allowance to reduce its deferred tax assets when uncertainty regarding their realizability exists. As of December 31, 2018 and 2017, the Company had valuation allowances of $67 million and $81 million on…"
+   }
+  ]
+ }
+}

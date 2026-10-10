@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "27,241",
+  "ticker": "ADBE",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_ba86cb8b05aa25cb",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 56,
+    "text": "ADOBE INC. CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY (In millions) Common Stock Additional Paid-In Capital Retained Earnings Accumulated Other Comprehensive Income (Loss) Treasury Stock Shares Amount Shares Amount Total Balances at November 29, 2019 601 $ — $ 6,504 $ 14,829 $ (188) (118) $ (10,615) $ 10,530 Net income — — — 5,260 — — — 5,260 Other comprehensive income (loss), net of taxes — — — — 30 — — 30 Re-issuance of treasury stock under stock compensation plans — — (56) (478) — 4 123 (411) Repurchases of common stock — — — — — (8) (3,050) (3,050) Stock-based compensation — — 909 — — — — 909 Value of shares in deferred compensation plan — — — — — — (4) (4) Balances at November 27, 2020 601 $ — $ 7,357 $ 19,611 $ (158) (122) $ (13,546) $ 13,264 Net income — — — 4,822 — — — 4,822 Other comprehensive income (loss), net of taxes — — — — 21 — — 21 Re-issuance of treasury stock under stock compensation plans — — — (528) — 3 100 (428) Repurchases of common stock — — — — — (7) (3,950…"
+   },
+   {
+    "chunk_id": "ch_76414535f94d238a",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 53,
+    "text": "ADOBE INC. CONSOLIDATED BALANCE SHEETS (In millions, except par value) December 2, 2022 December 3, 2021 ASSETS Current assets: Cash and cash equivalents $ 4,236 $ 3,844 Short-term investments 1,860 1,954 Trade receivables, net of allowances for doubtful accounts of $23 and of $16, respectively 2,065 1,878 Prepaid expenses and other current assets 835 993 Total current assets 8,996 8,669 Property and equipment, net 1,908 1,673 Operating lease right-of-use assets, net 407 443 Goodwill 12,787 12,668 Other intangibles, net 1,449 1,820 Deferred income taxes 777 1,085 Other assets 841 883 Total assets $ 27,165 $ 27,241 LIABILITIES AND STOCKHOLDERS' EQUITY Current liabilities: Trade payables $ 379 $ 312 Accrued expenses 1,790 1,736 Debt 500 — Deferred revenue 5,297 4,733 Income taxes payable 75 54 Operating lease liabilities 87 97 Total current liabilities 8,128 6,932 Long-term liabilities: Debt 3,629 4,123 Deferred revenue 117 145 Income taxes payable 530 534 Operating lease liabilities 417…"
+   },
+   {
+    "chunk_id": "ch_0afc35dc9a8dec04",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 84,
+    "text": "on the total notional amount of the contracts, the number of trading days in the intervals and the VWAP of our stock during the intervals less an agreed upon discount. We enter into these agreements in order to take advantage of repurchasing shares at a guaranteed discount to the VWAP of our common stock over a specified period of time. We only enter into such transactions when the discount that we receive is expected to be higher than the foregone return on our cash prepayments to the financial institutions. There were no explicit commissions or fees on these structured repurchases. Under the terms of the agreements, there is no requirement for the financial institutions to return any portion of the prepayment to us. During fiscal 2022, we repurchased a total of 15.7 million shares, including approximately 10.4 million shares at an average price of $375.03 through structured repurchase agreements, as well as 5.3 million shares at an average purchase price of $451.55 through the ASR de…"
+   },
+   {
+    "chunk_id": "ch_86b959891fd329ad",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Common stock, $0.0001 par value; 900 shares authorized; 601 shares issued; 462 and 475 shares outstanding, respectively — — Additional paid-in-capital 9,868 8,428 Retained earnings 28,319 23,905 Accumulated other comprehensive income (loss) (293) (137) Treasury stock, at cost (139 and 126 shares, respectively) (23,843) (17,399) Total stockholders' equity 14,051 14,797 Total liabilities and stockholders' equity $ 27,165 $ 27,241 See accompanying Notes to Consolidated Financial Statements. Table of Contents 53"
+   },
+   {
+    "chunk_id": "ch_5dcfa601d7a829f6",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 57,
+    "text": "ADOBE INC. CONSOLIDATED STATEMENTS OF CASH FLOWS (In millions) Years Ended December 2, 2022 December 3, 2021 November 27, 2020 Cash flows from operating activities: Net income $ 4,756 $ 4,822 $ 5,260 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and accretion 856 788 757 Stock-based compensation 1,440 1,069 909 Reduction of operating lease right-of-use assets 83 73 87 Deferred income taxes 328 183 (1,501) Unrealized losses (gains) on investments, net 29 (4) (11) Other non-cash items 10 7 40 Changes in operating assets and liabilities, net of acquired assets and assumed liabilities: Trade receivables, net (198) (430) 106 Prepaid expenses and other assets (94) (475) (288) Trade payables 66 (20) 96 Accrued expenses and other liabilities 7 162 86 Income taxes payable 19 2 (72) Deferred revenue 536 1,053 258 Net cash provided by operating activities 7,838 7,230 5,727 Cash flows from investing activities: Purchases of short-term …"
+   }
+  ]
+ }
+}

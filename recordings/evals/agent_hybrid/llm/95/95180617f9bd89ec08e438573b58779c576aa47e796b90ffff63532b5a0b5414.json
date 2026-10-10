@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0ThBJ0/UIRBfitwMzFEXkO9jf+nAoDa1sWTMRyZryIGnUlQt8WOixkUeZzGTyy7lP6vbjaCybezCS6+XWkcqoxRN9bzZskmwgUmcsL4qR+YTSlOPulH5OZOew="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"rationale\":\"Retrieved accounts payable for 2019 and 2020 from the balance sheet, inventories for 2019 and 2020 from the balance sheet, and cost of sales for 2020 from the statement of income, then applied the provided formula.\",\"confidence\":1,\"answer\":\"Based on Corning's FY2020 10-K, the components are as follows:\\n- Accounts payable as of December 31, 2020: $1,174 million\\n- Accounts payable as of December 31, 2019: $1,587 million\\n- Average accounts payable between FY2019 and FY2020: $(1174 + 1587) / 2 = 1,380.50$ million\\n- Inventories, net as of December 31, 2020: $2,438 million\\n- Inventories, net as of December 31, 2019: $2,320 million\\n- Change in inventory between FY2019 and FY2020: $2438 - 2320 = 118$ million\\n- FY2020 Cost of sales (COGS): $7,772 million\\n- FY2020 denominator (COGS + change in inventory): $7772 + 118 = 7,890$ million\\n- FY2020 DPO: $365 \\\\times 1380.50 / 7890 \\\\approx 63.87$ days.\",\"citations\":[{\"quote\":\"Accounts payable 1,174 1,587\",\"source_id\":\"ch_d1257e6e3df4b8fa\"},{\"source_id\":\"ch_d1257e6e3df4b8fa\",\"quote\":\"Inventories, net (Note 6) 2,438 2,320\"},{\"quote\":\"Cost of sales 7,772 7,468 6,829\",\"source_id\":\"ch_007054bfbfeba8c5\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_37148",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623551,
+  "id": "fQHKatCtN93txs0Pw9zL4Ak",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 533,
+   "prompt_tokens": 6835,
+   "total_tokens": 7368
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TcUGRol/vmjSCQro0hx7sNHeAQolHR7D6aaDMbxqno0GQ3Kn2O7m25KfvwOkconWq8A4n+Jv2g5Zb0lvhPFuOeqkcFwV/ZCc0unBub4Hq06xVfflbbEXnlaU="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"Operating income for 2022 was $1.3 billion compared to operating income of $3.6 billion for 2021. The decrease in operating income was primarily driven by amortization of intangible assets associated with the Xilinx acquisition.\",\"source_id\":\"ch_e1eba8bcf52174b5\"}],\"answer\":\"In FY2022, AMD's operating income decreased to $1.3 billion compared to $3.6 billion in FY2021. The decrease in operating income and operating margin was primarily driven by the amortization of intangible assets associated with the Xilinx acquisition.\",\"rationale\":\"The filing explicitly states the drivers of operating income change in FY2022 compared to FY2021.\",\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_44434",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622399,
+  "id": "_vzJao3lMaP_vdIPkd7h4QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 190,
+   "prompt_tokens": 11089,
+   "total_tokens": 11279
+  }
+ }
+}

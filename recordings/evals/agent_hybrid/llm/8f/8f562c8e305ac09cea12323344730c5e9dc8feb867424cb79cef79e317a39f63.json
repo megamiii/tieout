@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TN/egaQsRe6m0SYv8b4uw8mNm6AjesnOFDsYsQWwmc/2zfAdAvbUO3kwcZFJ0MGShvFQCtqQBKI6TJLaWHqvtPmx62AkZFVHxNR0Df4haRPKZ7YgRjt4UoWA="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AMCR\",\"fiscal_year\":2023,\"query\":\"Current liabilities Trade payables Current portion of long-term debt Short-term debt\"}",
+        "name": "search_filings"
+       },
+       "id": "call_39149",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622334,
+  "id": "vfzJauiUMayjxN8Pz_qfoAc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 48,
+   "prompt_tokens": 5965,
+   "prompt_tokens_details": {
+    "cached_tokens": 2324
+   },
+   "total_tokens": 6013
+  }
+ }
+}

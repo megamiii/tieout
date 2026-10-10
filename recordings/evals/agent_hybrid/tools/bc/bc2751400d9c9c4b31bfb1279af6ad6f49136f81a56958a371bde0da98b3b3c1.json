@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "2024 expected future benefit payments retirees pensions other postretirement benefits",
+  "ticker": "VZ",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_8b9f31edf0a2f0b4",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 94,
+    "text": "fair value is measured using the NAV per share as a practical expedient are not leveled within the fair value hierarchy but are included in total investments. Employer Contributions In 2021, we made no discretionary contribution to our qualified pension plans, $58 million of contributions to our nonqualified pension plans and $885 million of contributions to our other postretirement benefit plans. No qualified pension plans contributions are expected to be made in 2022. Nonqualified pension plans contributions are estimated to be approximately $60 million and contributions to our other postretirement benefit plans are estimated to be approximately $860 million in 2022. Estimated Future Benefit Payments The benefit payments to retirees are expected to be paid as follows: (dollars in millions) Year Pension Benefits Health Care and Life 2022 $ 2,049 $ 906 2023 1,648 883 2024 1,097 862 2025 1,066 850 2026 1,034 840 2027 to 2031 5,097 4,139 Savings Plan and Employee Stock Ownership Plans We…"
+   },
+   {
+    "chunk_id": "ch_7093776bf2532bdd",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 89,
+    "text": "Stock-Based Compensation Expense After-tax compensation expense for stock-based compensation related to RSUs and PSUs described above included in Net income attributable to Verizon was $625 million, $780 million and $872 million for 2021, 2020 and 2019, respectively. Note 11. Employee Benefits We maintain non-contributory defined benefit pension plans for certain employees. In addition, we maintain postretirement health care and life insurance plans for certain retirees and their dependents, which are both contributory and non-contributory, and include a limit on our share of the cost for certain current and future retirees. In accordance with our accounting policy for pension and other postretirement benefits, operating expenses include service costs associated with pension and other postretirement benefits while other credits and/or charges based on actuarial assumptions, including projected discount rates, an estimated return on plan assets, and impact from health care trend rates a…"
+   },
+   {
+    "chunk_id": "ch_39831eb0f2802fef",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 43,
+    "text": "reporting units during the fourth quarter of 2020. Our qualitative assessments indicated that it was more likely than not that the fair values of our Consumer and Business reporting units exceeded their respective carrying values and, therefore, did not result in an impairment. Pension and Other Postretirement Benefit Plans We maintain benefit plans for most of our employees, including, for certain employees, pension and other postretirement benefit plans. Benefit plan assumptions, including the discount rate used, the long-term rate of return on plan assets, the determination of the substantive plan and health care trend rates are periodically updated and impact the amount of benefit plan income, expense, assets and obligations. Changes to one or more of these assumptions could significantly impact our accounting for pension and other postretirement benefits. In determining pension and other postretirement obligations, the weighted-average discount rate was selected to approximate the…"
+   },
+   {
+    "chunk_id": "ch_53c5ae7eddc2897c",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 41,
+    "text": "Contributions to our other postretirement benefit plans generally relate to payments for benefits on an as-incurred basis since these other postretirement benefit plans do not have funding requirements similar to the pension plans. We contributed $885 million and $709 million to our other postretirement benefit plans in 2021 and 2020, respectively. Contributions to our other postretirement benefit plans are estimated to be approximately $860 million in 2022. Leasing Arrangements See Note 6 to the consolidated financial statements for additional information related to leasing arrangements. Guarantees We guarantee the debentures of our operating telephone company subsidiaries. See Note 7 to the consolidated financial statements for additional information. In connection with the execution of agreements for the sale of businesses and investments, Verizon ordinarily provides representations and warranties to the purchasers pertaining to a variety of nonfinancial matters, such as ownership o…"
+   },
+   {
+    "chunk_id": "ch_314d60b52df5ee0d",
+    "ticker": "VZ",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 63,
+    "text": "for assets and liabilities. We record these translation adjustments in Accumulated other comprehensive loss, a separate component of Equity, in our consolidated balance sheets. We record exchange gains and losses resulting from the conversion of transaction currency to functional currency as a component of Other income (expense), net. Employee Benefit Plans Pension and postretirement health care and life insurance benefits earned during the year, as well as interest on projected benefit obligations, are accrued. Prior service costs and credits resulting from changes in plan benefits are generally amortized over the average remaining service period of the employees expected to receive benefits. Expected return on plan assets is determined by applying the return on assets assumption to the actual fair value of plan assets. Actuarial gains and losses are recognized in Other income (expense), net in the year in which they occur. These gains and losses are measured annually as of December 3…"
+   }
+  ]
+ }
+}

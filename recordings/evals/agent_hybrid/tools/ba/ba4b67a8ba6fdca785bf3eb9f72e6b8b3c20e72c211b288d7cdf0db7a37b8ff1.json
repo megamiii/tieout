@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Balance Sheets Receivables Inventories Accounts payable",
+  "ticker": "GIS",
+  "fiscal_year": 2019,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e9e9605881900e67",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Table of Contents Consolidated Balance Sheets GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions, Except Par Value) May 26, 2019 May 27, 2018 ASSETS Current assets: Cash and cash equivalents $ 450.0 $ 399.0 Receivables 1,679.7 1,684.2 Inventories 1,559.3 1,642.2 Prepaid expenses and other current assets 497.5 398.3 Total current assets 4,186.5 4,123.7 Land, buildings, and equipment 3,787.2 4,047.2 Goodwill 13,995.8 14,065.0 Other intangible assets 7,166.8 7,445.1 Other assets 974.9 943.0 Total assets $ 30,111.2 $ 30,624.0 LIABILITIES AND EQUITY Current liabilities: Accounts payable $ 2,854.1 $ 2,746.2 Current portion of long-term debt 1,396.5 1,600.1 Notes payable 1,468.7 1,549.8 Other current liabilities 1,367.8 1,445.8 Total current liabilities 7,087.1 7,341.9 Long-term debt 11,624.8 12,668.7 Deferred income taxes 2,031.0 2,003.8 Other liabilities 1,448.9 1,341.0 Total liabilities 22,191.8 23,355.4 Redeemable interest 551.7 776.2 Stockholders' equity: Common stock, 754.6 shares issued…"
+   },
+   {
+    "chunk_id": "ch_e43e9b399850198f",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 77,
+    "text": "Table of Contents The following tables reconcile the net fair values of assets and liabilities subject to offsetting arrangements that are recorded in our Consolidated Balance Sheets to the net fair values that could be reported in our Consolidated Balance Sheets: May 26, 2019 Assets Liabilities Gross Amounts Not Offset in the Balance Sheet (e) Gross Amounts Not Offset in the Balance Sheet (e) In Millions Gross Amounts of Recognized Assets Gross Liabilities Offset in the Balance Sheet (a) Net Amounts of Assets (b) Financial Instruments Cash Collateral Received Net Amount (c) Gross Amounts of Recognized Liabilities Gross Assets Offset in the Balance Sheet (a) Net Amounts of Liabilities (b) Financial Instruments Cash Collateral Pledged Net Amount (d) Commodity contracts $ 6.6 $ - $ 6.6 $ (4.9) $ - $ 1.7 $ (7.9) $ - $ (7.9) $ 4.9 $ - $ (3.0) Interest rate contracts - - - - - - (2.2) - (2.2) - - (2.2) Foreign exchange contracts 15.3 - 15.3 (5.1) - 10.2 (5.2) - (5.2) 5.1 - (0.1) Equity cont…"
+   },
+   {
+    "chunk_id": "ch_a16a8e752cc8888b",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 77,
+    "text": "Gross Amounts Not Offset in the Balance Sheet (e) Gross Amounts Not Offset in the Balance Sheet (e) In Millions Gross Amounts of Recognized Assets Gross Liabilities Offset in the Balance Sheet (a) Net Amounts of Assets (b) Financial Instruments Cash Collateral Received Net Amount (c) Gross Amounts of Recognized Liabilities Gross Assets Offset in the Balance Sheet (a) Net Amounts of Liabilities (b) Financial Instruments Cash Collateral Pledged Net Amount (d) Commodity contracts $ 27.7 $ - $ 27.7 $ (1.1) $ - $ 26.6 $ (1.1) $ - $ (1.1) $ 1.1 $ - $ - Interest rate contracts - - - - - - (6.9) - (6.9) - - (6.9) Foreign exchange contracts 11.8 - 11.8 (5.7) - 6.1 (7.2) - (7.2) 5.7 - (1.5) Equity contracts 3.9 - 3.9 (0.4) - 3.5 (0.4) - (0.4) 0.4 - - Total $ 43.4 $ - $ 43.4 $ (7.2) $ - $ 36.2 $ (15.6) $ - $ (15.6) $ 7.2 $ - $ (8.4) (a) Includes related collateral offset in our Consolidated Balance Sheets. (b) Net fair value as recorded in our Consolidated Balance Sheets. (c) Fair value of assets…"
+   },
+   {
+    "chunk_id": "ch_d933ac2902790805",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 107,
+    "text": "Core working capital. Accounts receivable plus inventories less accounts payable, all as of the last day of our fiscal year. Derivatives. Financial instruments such as futures, swaps, options, and forward contracts that we use to manage our risk arising from changes in commodity prices, interest rates, foreign exchange rates, and equity prices. Earnings before interest, taxes, depreciation and amortization (EBITDA). The calculation of earnings before income taxes and after-tax earnings from joint ventures, net interest, depreciation and amortization. Euribor. European Interbank Offered Rate. Fair value hierarchy. For purposes of fair value measurement, we categorize assets and liabilities into one of three levels based on the assumptions (inputs) used in valuing the asset or liability. Level 1 provides the most reliable measure of fair value, while Level 3 generally requires significant management judgment. The three levels are defined as follows: Level 1: Unadjusted quoted prices in a…"
+   },
+   {
+    "chunk_id": "ch_ac5b7185bac869e0",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 107,
+    "text": "Table of Contents Glossary Accelerated depreciation associated with restructured assets. The increase in depreciation expense caused by updating the salvage value and shortening the useful life of depreciable fixed assets to coincide with the end of production under an approved restructuring plan, but only if impairment is not present. AOCI . Accumulated other comprehensive income (loss). Adjusted diluted EPS. Diluted EPS adjusted for certain items affecting year-to-year comparability. Adjusted EBITDA. The calculation of earnings before income taxes and after-tax earnings from joint ventures, net interest, and depreciation and amortization adjusted for certain items affecting year-to-year comparability. Adjusted operating profit. Operating profit adjusted for certain items affecting year-to-year comparability. Adjusted operating profit margin. Operating profit adjusted for certain items affecting year-to-year comparability, divided by net sales. Constant currency. Financial results tra…"
+   }
+  ]
+ }
+}

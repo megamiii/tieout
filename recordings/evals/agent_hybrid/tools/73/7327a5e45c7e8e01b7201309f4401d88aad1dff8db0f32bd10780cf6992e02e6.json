@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Safety and Industrial Organic sales 2022",
+  "ticker": "MMM",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7f89f6f9151a245d",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Table of Contents Safety and Industrial Business (33.9% of consolidated sales): 2022 2021 Sales (millions) $ 11,604 $ 11,981 Sales change analysis: Organic sales 1.0 % 7.3 % Translation (4.2) 1.9 Total sales change (3.2 %) 9.2 % Business segment operating income (loss) (millions) $ 1,199 $ 2,466 Percent change (51.4 %) (4.7 %) Percent of sales 10.3 % 20.6 % Adjusted business segment operating income (millions) (non-GAAP measure) $ 2,613 $ 2,715 Percent change (3.7) % (2.8) % Percent of sales 22.5 % 22.7 % The preceding table also displays business segment operating income (loss) information adjusted for special items. For Safety and Industrial these adjustments include net costs for respirator mask/asbestos (Aearo-related and non-Aearo related) and Combat Arms Earplugs litigation matters. During the Aearo chapter 11 bankruptcy period (which began in July 2022 — see Note 16), net costs related to Combat Arms Earplugs and Aearo-respirator mask/asbestos matters are reflected as corporate …"
+   },
+   {
+    "chunk_id": "ch_ccd0374d2a09aa14",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Sales in Safety and Industrial were down 3.2 percent in U.S. dollars. On an organic sales basis: • Sales increased in electrical markets, abrasives, automotive aftermarket, roofing granules, closure and masking systems, and industrial adhesives and tapes and decreased in personal safety. • Growth from continued improving general industrial manufacturing activity and other end-market demand was partially offset by the disposable respirator sales decline within personal safety, which negatively impacted year-on-year organic growth by 4.5 percentage points. Business segment operating income margins decreased year-on-year due to special item costs for significant litigation primarily related to steps toward resolving Combat Arms Earplugs litigation (discussed in Note 16) resulting in a 2022 second quarter pre-tax charge of approximately $1.2 billion. Margins were also impacted by increased raw materials and logistics costs, manufacturing productivity headwinds, partially offset by selling …"
+   },
+   {
+    "chunk_id": "ch_59afedc10674107d",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 32,
+    "text": "Table of Contents Health Care Business (24.6% of consolidated sales): 2022 2021 Sales (millions) $ 8,421 $ 8,597 Sales change analysis: Organic sales 3.2 % 10.2 % Divestitures (1.4) (2.0) Translation (3.8) 1.6 Total sales change (2.0) % 9.8 % Business segment operating income (millions) $ 1,815 $ 2,037 Percent change (10.9) % 22.5 % Percent of sales 21.6 % 23.7 % Year 2022 results: Sales in Health Care were down 2.0 percent in U.S. dollars. On an organic sales basis: • Sales increased in separation and purification, health information systems, food safety and medical solutions, and was flat in oral care. • Growth continues to be impacted by COVID-related trends on elective procedure volumes and ongoing inflationary pressures. Divestitures: • Divestiture impact relates to the lost sales year-on-year from the divestiture from the Food Safety Division split-off transaction and combination with Neogen completed in the third quarter of 2022. Business segment operating income margins decreas…"
+   },
+   {
+    "chunk_id": "ch_fbf81d039003fae7",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 25,
+    "text": "Table of Contents Sales and operating income (loss) by business segment: The following tables contain sales and operating income (loss) results by business segment for the years ended December 31, 2022 and 2021. Refer to the section entitled “Performance by Business Segment” later in MD&A for additional discussion concerning 2022 versus 2021 results, including Corporate and Unallocated. Refer to Note 19 for additional information on business segments. 2022 2021 % change (Dollars in millions) Net Sales % of Total Operating Income (Loss) Net Sales % of Total Operating Income (Loss) Net Sales Operating Income (Loss) Business Segments Safety and Industrial $ 11,604 33.9 % $ 1,199 $ 11,981 33.9 % $ 2,466 (3.2)% (51.4)% Transportation and Electronics 8,902 26.0 1,012 9,262 26.2 1,880 (3.9) (46.2) Health Care 8,421 24.6 1,815 8,597 24.3 2,037 (2.0) (10.9) Consumer 5,298 15.5 994 5,513 15.6 1,162 (3.9) (14.4) Corporate and Unallocated 4 — 1,519 2 — (176) Total Company $ 34,229 100.0 % $ 6,539 …"
+   },
+   {
+    "chunk_id": "ch_0bb4f0b249b776d2",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 33,
+    "text": "Table of Contents Consumer Business (15.5% of consolidated sales): 2022 2021 Sales (millions) $ 5,298 $ 5,513 Sales change analysis: Organic sales (0.9) % 9.8 % Divestitures (0.4) — Translation (2.6) 1.0 Total sales change (3.9) % 10.8 % Business segment operating income (millions) $ 994 $ 1,162 Percent change (14.4) % 3.8 % Percent of sales 18.8 % 21.1 % Year 2022 results: Sales in Consumer were down 3.9 percent in U.S. dollars. On an organic sales basis: • Sales increased in stationery and office and home care, was flat in consumer health and safety, and decreased in home improvement. • Growth was impacted by softening trends in the Consumer retail business as consumers pulled back on discretionary spending and retailers took actions to reduce their inventories. These impacts were partially offset by demand for Scotch Blue painter's tape, Scotch-Brite , and Post-it®-solutions. Business segment operating income margins decreased year-on-year as a result of increased raw materials, log…"
+   }
+  ]
+ }
+}

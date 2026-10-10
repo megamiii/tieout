@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "CONSOLIDATED BALANCE SHEETS Total current liabilities",
+  "ticker": "ADBE",
+  "fiscal_year": 2017,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_cbe5f6d849a546ae",
+    "ticker": "ADBE",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Table of Contents 57 ADOBE SYSTEMS INCORPORATED CONSOLIDATED BALANCE SHEETS (In thousands, except par value) December 1, 2017 December 2, 2016 ASSETS Current assets: Cash and cash equivalents $ 2,306,072 $ 1,011,315 Short-term investments 3,513,702 3,749,985 Trade receivables, net of allowances for doubtful accounts of $9,151 and $6,214, respectively 1,217,968 833,033 Prepaid expenses and other current assets 210,071 245,441 Total current assets 7,247,813 5,839,774 Property and equipment, net 936,976 816,264 Goodwill 5,821,561 5,406,474 Purchased and other intangibles, net 385,658 414,405 Investment in lease receivable — 80,439 Other assets 143,548 139,890 Total assets $ 14,535,556 $ 12,697,246 LIABILITIES AND STOCKHOLDERS' EQUITY Current liabilities: Trade payables $ 113,538 $ 88,024 Accrued expenses 993,773 739,630 Income taxes payable 14,196 38,362 Deferred revenue 2,405,950 1,945,619 Total current liabilities 3,527,457 2,811,635 Long-term liabilities: Debt and capital lease obligat…"
+   },
+   {
+    "chunk_id": "ch_5e691f0ef48dae33",
+    "ticker": "ADBE",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 62,
+    "text": "The accompanying Consolidated Financial Statements include those of Adobe and its subsidiaries, after elimination of all intercompany accounts and transactions. We have prepared the accompanying Consolidated Financial Statements in accordance with accounting principles generally accepted in the United States of America (“GAAP”) and pursuant to the rules and regulations of the United States Securities and Exchange Commission (the “SEC”). Use of Estimates In preparing Consolidated Financial Statements and related disclosures in conformity with GAAP and pursuant to the rules and regulations of the SEC, we must make estimates and judgments that affect the amounts reported in the Consolidated Financial Statements and accompanying notes. Estimates are used for, but not limited to, sales allowances and programs, bad debts, stock- based compensation, determining the fair value of acquired assets and assumed liabilities, excess inventory and purchase commitments, facilities lease losses, impair…"
+   },
+   {
+    "chunk_id": "ch_9174ff89c72b375a",
+    "ticker": "ADBE",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 73,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 73 to interest and other income, net in our Consolidated Statements of Income. Any portion not related to credit loss would be recorded to accumulated other comprehensive income (loss), which is reflected as a separate component of stockholders' equity in our Consolidated Balance Sheets. For equity securities, the write-down would be recorded to investment gains (losses), net in our Consolidated Statements of Income. During fiscal 2017 and 2015, we did not consider any of our investments to be other-than- temporarily impaired. During fiscal 2016, we recorded immaterial other-than-temporary impairment losses associated with certain of our fixed income securities and wrote down the securities to fair value. NOTE 4. FAIR VALUE MEASUREMENTS Assets and Liabilities Measured and Recorded at Fair Value on a Recurring Basis We measure certain financial assets and liabilities at fair value on a re…"
+   },
+   {
+    "chunk_id": "ch_2fd0f3590e425cd8",
+    "ticker": "ADBE",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 77,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 77 _________________________________________ (1) Included in prepaid expenses and other current assets and accrued expenses for asset derivatives and liability derivatives, respectively, on our Consolidated Balance Sheets. (2) Hedging effectiveness expected to be recognized to income within the next twelve months. (3) Included in other liabilities and other assets in fiscal 2017 and 2016, respectively, on our Consolidated Balance Sheets. The effect of foreign currency derivative instruments designated as cash flow hedges and of foreign currency derivative instruments not designated as hedges in our Consolidated Statements of Income for fiscal 2017, 2016 and 2015 were as follows (in thousands): 2017 2016 2015 Foreign Exchange Option Contracts Foreign Exchange Forward Contracts Foreign Exchange Option Contracts Foreign Exchange Forward Contracts Foreign Exchange Option Contracts Foreign Ex…"
+   },
+   {
+    "chunk_id": "ch_8e228809dd861ac7",
+    "ticker": "ADBE",
+    "fiscal_year": 2017,
+    "section": "Item 8",
+    "page": 67,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 67 Income Taxes We use the asset and liability method of accounting for income taxes. Under this method, income tax expense is recognized for the amount of taxes payable or refundable for the current year. In addition, deferred tax assets and liabilities are recognized for expected future tax consequences of temporary differences between the financial reporting and tax bases of assets and liabilities, and for operating losses and tax credit carryforwards. We record a valuation allowance to reduce deferred tax assets to an amount for which realization is more likely than not. Taxes Collected from Customers We net taxes collected from customers against those remitted to government authorities in our financial statements. Accordingly, taxes collected from customers are not reported as revenue. Treasury Stock We account for treasury stock under the cost method. When treasury stock is re-issu…"
+   }
+  ]
+ }
+}

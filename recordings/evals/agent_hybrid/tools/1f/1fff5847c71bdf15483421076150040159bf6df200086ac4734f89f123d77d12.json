@@ -1,0 +1,27 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "BBY",
+  "fiscal_year": 2023,
+  "item": "8",
+  "page": 41
+ },
+ "output": {
+  "ticker": "BBY",
+  "fiscal_year": 2023,
+  "item": "8",
+  "title": "Financial Statements and Supplementary Data",
+  "page": 41,
+  "item_pages": [
+   35,
+   63
+  ],
+  "chunks": [
+   {
+    "chunk_id": "ch_2afad6df6173e082",
+    "page": 41,
+    "text": "Consolidated Statements of Comprehensive Income $ in millions Fiscal Years Ended January 28, 2023 January 29, 2022 January 30, 2021 Net earnings $ 1,419 $ 2,454 $ 1,798 Foreign currency translation adjustments, net of tax (7) 1 (4) Cash flow hedges - - (2) Reclassification of cumulative translation adjustments into earnings due to exit of business - - 39 Comprehensive income $ 1,412 $ 2,455 $ 1,831 See Notes to Consolidated Financial Statements. 41"
+   }
+  ]
+ }
+}

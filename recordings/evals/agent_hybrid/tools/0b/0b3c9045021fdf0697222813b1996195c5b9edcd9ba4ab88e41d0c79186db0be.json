@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Depreciation and amortization 2763 PepsiCo statement of cash flows",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_54bf5e6b14449e55",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 64,
+    "text": "Table of Contents Consolidated Statement of Cash Flows PepsiCo, Inc. and Subsidiaries Fiscal years ended December 31, 2022, December 25, 2021 and December 26, 2020 (in millions) 2022 2021 2020 Operating Activities Net income $ 8,978 $ 7,679 $ 7,175 Depreciation and amortization 2,763 2,710 2,548 Gain associated with the Juice Transaction (3,321) — — Impairment and other charges 3,618 — — Operating lease right-of-use asset amortization 517 505 478 Share-based compensation expense 343 301 264 Restructuring and impairment charges 411 247 289 Cash payments for restructuring charges (224) (256) (255) Acquisition and divestiture-related charges 80 (4) 255 Cash payments for acquisition and divestiture-related charges (46) (176) (131) Pension and retiree medical plan expenses 419 123 408 Pension and retiree medical plan contributions (384) (785) (562) Deferred income taxes and other tax charges and credits (873) 298 361 Tax expense related to the TCJ Act 86 190 — Tax payments related to the TC…"
+   },
+   {
+    "chunk_id": "ch_ab7e43f8e284033b",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 74,
+    "text": "Table of Contents Amortization of intangible assets and depreciation and other amortization of each division are as follows: Amortization of Intangible Assets Depreciation and Other Amortization 2022 2021 2020 2022 2021 2020 FLNA $ 11 $ 11 $ 10 $ 653 $ 594 $ 550 QFNA — — — 47 46 41 PBNA 22 25 28 930 926 899 LatAm 3 4 4 306 283 251 Europe 30 37 40 357 364 350 AMESA 4 5 3 179 181 149 APAC 8 9 5 92 102 91 Total division 78 91 90 2,564 2,496 2,331 Corporate — — — 121 123 127 Total $ 78 $ 91 $ 90 $ 2,685 $ 2,619 $ 2,458 Net revenue and long-lived assets by country are as follows: Net Revenue Long-Lived Assets 2022 2021 2020 2022 2021 United States $ 49,390 $ 44,545 $ 40,800 $ 38,240 $ 36,324 Mexico 5,472 4,580 3,924 1,933 1,720 Russia 4,118 3,426 3,009 2,538 3,751 Canada 3,536 3,405 2,989 2,678 2,846 China 2,752 2,679 1,732 1,517 1,745 United Kingdom 1,844 2,102 1,882 847 906 South Africa 1,837 2,008 1,282 1,327 1,389 All other countries 17,443 16,729 14,754 12,885 13,399 Total $ 86,392 $ 7…"
+   },
+   {
+    "chunk_id": "ch_b6b877558a560ac9",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 80,
+    "text": "Table of Contents We regularly evaluate different productivity initiatives beyond the productivity plan and other initiatives described above. For information on additional impairment charges, see Notes 1 and 4 for brand portfolio impairment charges, other impairment charges and Russia-Ukraine conflict charges. Note 4 — Intangible Assets A summary of our amortizable intangible assets is as follows: 2022 2021 2020 Average Useful Life (Years) Gross Accumulated Amortization Net Gross Accumulated Amortization Net Acquired franchise rights 56 – 60 $ 837 $ (200) $ 637 $ 976 $ (187) $ 789 Customer relationships 10 – 24 571 (237) 334 623 (227) 396 Brands 20 – 40 1,097 (973) 124 1,151 (989) 162 Other identifiable intangibles 10 – 24 447 (265) 182 451 (260) 191 Total $ 2,952 $ (1,675) $ 1,277 $ 3,201 $ (1,663) $ 1,538 Amortization expense $ 78 $ 91 $ 90 (a) Decrease is primarily due to the write-off of our distribution rights for Bang energy drinks. See Note 1 for further information. Amortizati…"
+   },
+   {
+    "chunk_id": "ch_4097b96be6d8cb5c",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 55,
+    "text": "Table of Contents Material changes in line items in our consolidated balance sheet are discussed below: 2022 Change Decrease in cash and cash equivalents $ (0.6) Increase in accounts and notes receivable, net $ 1.5 Increase in inventories $ 0.9 Decrease in assets held for sale $ (1.8) Increase in property, plant and equipment, net $ 1.9 Decrease in other indefinite-lived intangible assets $ (2.8) Increase in investments in noncontrolled affiliates $ 0.7 Increase in other assets $ 0.8 Decrease in short-term debt obligations $ (0.9) Increase in accounts payable and other current liabilities $ 2.2 Decrease in liabilities held for sale $ (0.8) Decrease in deferred income taxes $ (0.7) Decrease in other liabilities $ (0.8) (a) In billions. (b) See consolidated statement of cash flows. (c) Primarily reflects strong revenue performance across much of our portfolio in 2022. See Note 14 to our consolidated financial statements for further information. (d) Primarily reflects higher commodity cos…"
+   },
+   {
+    "chunk_id": "ch_3566b5ff4c8d999c",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 110,
+    "text": "Table of Contents Note 14 — Supplemental Financial Information Balance Sheet 2022 2021 2020 Accounts and notes receivable Trade receivables $ 8,192 $ 7,172 Other receivables 2,121 1,655 Total 10,313 8,827 Allowance, beginning of year 147 201 $ 105 Cumulative effect of accounting change — — 44 Net amounts charged to expense 21 (19) 79 Deductions (12) (25) (32) Other (6) (10) 5 Allowance, end of year 150 147 $ 201 Net receivables $ 10,163 $ 8,680 Inventories Raw materials and packaging $ 2,366 $ 1,898 Work-in-process 114 151 Finished goods 2,742 2,298 Total $ 5,222 $ 4,347 Property, plant and equipment, net Average Useful Life (Years) Land $ 1,142 $ 1,123 Buildings and improvements 15 - 44 10,816 10,279 Machinery and equipment, including fleet and software 5 - 15 33,335 31,486 Construction in progress 4,491 3,940 49,784 46,828 Accumulated depreciation (25,493) (24,421) Total $ 24,291 $ 22,407 Depreciation expense $ 2,523 $ 2,484 $ 2,335 Other assets Noncurrent notes and accounts receivab…"
+   }
+  ]
+ }
+}

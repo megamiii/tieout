@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Property, plant and equipment — net",
+  "ticker": "MMM",
+  "fiscal_year": 2018,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5de3f8443ab59f3a",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 62,
+    "text": "investments that do not have readily determinable fair values and measures these investments at cost less impairment plus or minus observable price changes in orderly transactions. The balance of these securities is disclosed in Note 7. Other assets: Other assets include deferred income taxes, product and other insurance receivables, the cash surrender value of life insurance policies, and other long-term assets. Investments in life insurance are reported at the amount that could be realized under contract at the balance sheet date, with any changes in cash surrender value or contract value during the period accounted for as an adjustment of premiums paid. Cash outflows and inflows associated with life insurance activity are included in “Purchases of marketable securities and investments” and “Proceeds from maturities and sale of marketable securities and investments,” respectively. Inventories: Inventories are stated at the lower of cost or net realizable value (NRV), which is defined…"
+   },
+   {
+    "chunk_id": "ch_1d1412f5457201d0",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 127,
+    "text": "Table of Contents NOTE 19. Geographic Areas Geographic area information is used by the Company as a secondary performance measure to manage its businesses. Export sales and certain income and expense items are generally reported within the geographic area where the final sales to 3M customers are made. Property, Plant and Net Sales Equipment - net (Millions) 2018 2017 2016 2018 2017 United States $ 12,840 $ 12,372 $ 12,188 $ 4,915 $ 4,891 Asia Pacific 10,254 9,809 8,847 1,624 1,672 Europe, Middle East and Africa 6,654 6,456 6,163 1,751 1,798 Latin America and Canada 3,024 3,033 2,901 448 505 Other Unallocated (7) (13) 10 — — Total Company $ 32,765 $ 31,657 $ 30,109 $ 8,738 $ 8,866 Asia Pacific included China/Hong Kong net sales to customers of $3.574 billion, $3.255 billion and $2.799 billion in 2018, 2017, and 2016, respectively. China/Hong Kong net property, plant and equipment (PP&E) was $542 million and $541 million at December 31, 2018 and 2017, respectively. NOTE 20. Quarterly Da…"
+   },
+   {
+    "chunk_id": "ch_927e4b89aa55cb07",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 62,
+    "text": "depreciated assets other than capitalized internally developed software are retained in property, plant and equipment and accumulated depreciation accounts until disposal. Upon disposal, assets and related accumulated depreciation are removed from the accounts and the net amount, less proceeds from disposal, is charged or credited to operations. Property, plant and equipment amounts are reviewed for impairment whenever events or changes in circumstances indicate that the carrying amount of an asset (asset group) may not be recoverable. An impairment loss would be recognized when the carrying amount of an asset exceeds the estimated undiscounted future cash flows expected to result from the use of the asset and its eventual disposition. The amount of the impairment loss recorded is calculated by the excess of the asset's carrying value over its fair value. Fair value is generally determined using a discounted cash flow analysis. Conditional asset retirement obligations: A liability is i…"
+   },
+   {
+    "chunk_id": "ch_788c54576b42a952",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 58,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Balance Shee t At December 31 December 31, December 31, (Dollars in millions, except per share amount) 2018 2017 Assets Current assets Cash and cash equivalents $ 2,853 $ 3,053 Marketable securities — current 380 1,076 Accounts receivable — net of allowances of $95 and $103 5,020 4,911 Inventories Finished goods 2,120 1,915 Work in process 1,292 1,218 Raw materials and supplies 954 901 Total inventories 4,366 4,034 Prepaids 741 937 Other current assets 349 266 Total current assets 13,709 14,277 Property, plant and equipment 24,873 24,914 Less: Accumulated depreciation (16,135) (16,048) Property, plant and equipment — net 8,738 8,866 Goodwill 10,051 10,513 Intangible assets — net 2,657 2,936 Other assets 1,345 1,395 Total assets $ 36,500 $ 37,987 Liabilities Current liabilities Short-term borrowings and current portion of long-term debt $ 1,211 $ 1,853 Accounts payable 2,266 1,945 Accrued payroll 749 870 Accrued income taxes 243…"
+   },
+   {
+    "chunk_id": "ch_d04f0e5380d80b5c",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 74,
+    "text": "related and contingent liabilities, and resolution of certain acquired working capital and other purchase price adjustments with the seller. The change to provisional amounts did not result in material impacts to results of operations in 2018 or any portion related to earlier quarters in the measurement period. The allocation of purchase consideration related to Scott Safety was completed in the third quarter of 2018. Pro forma information related to acquisitions has not been included because the impact on the Company's consolidated results of operations was not considered material. The following table shows the impact on the consolidated balance sheet of the purchase price allocations related to 2017 acquisitions and assigned finite-lived intangible asset weighted-average lives. 2017 Acquisition Activity Finite-Lived Intangible-Asset (Millions) Scott Weighted-Average Asset (Liability) Safety Other Total Lives (Years) Accounts receivable $ 100 $ — $ 100 Inventory 79 — 79 Other current …"
+   }
+  ]
+ }
+}

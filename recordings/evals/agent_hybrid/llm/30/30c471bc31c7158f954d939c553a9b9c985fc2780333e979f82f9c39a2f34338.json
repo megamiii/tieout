@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TjS4vvhYEidcNtCAk4ujo9syFv7MyPrSG6asoEaKx10EJJr5Rn7Marq94EDaoHfnesPQagJwzwpWmXcDivz4iYgw2uESZdy+Ci4fk2YVtDkSNBom7y9qIZ7s="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The response uses exact quotes from the 10-K to back up the capex, total revenues, and net property and equipment figures for FY2022.\",\"needs_review\":false,\"confidence\":0.95,\"answer\":\"Based on FY2022 data, CVS Health is not typically classified as a capital-intensive business. For the fiscal year ended December 31, 2022, CVS Health reported purchases of property and equipment of $2,727 million [ch_4760e4f5e8db9997] and total revenues of $322,467 million [ch_539146bb4b2ae0e4], meaning capital expenditures represented less than 1% of total revenues. Additionally, net property and equipment was $13,117 million [ch_8a362200b44284f9].\",\"citations\":[{\"source_id\":\"ch_4760e4f5e8db9997\",\"quote\":\"Purchases of property and equipment (2,727)\"},{\"source_id\":\"ch_539146bb4b2ae0e4\",\"quote\":\"Total revenues 91,409 169,236 106,594 530 (45,302) 322,467\"},{\"source_id\":\"ch_8a362200b44284f9\",\"quote\":\"Property and equipment, net $ 13,117\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_62599",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622296,
+  "id": "l_zJavvdL4HzvdIPyvDPgAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 382,
+   "prompt_tokens": 9660,
+   "total_tokens": 10042
+  }
+ }
+}

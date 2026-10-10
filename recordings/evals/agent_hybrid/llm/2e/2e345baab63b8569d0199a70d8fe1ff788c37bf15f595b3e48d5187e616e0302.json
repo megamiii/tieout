@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TlGrs3TlfMR2ZB5i+aDbIadNpXyEX/FfeRMnDS5o77d96GoYhyBdselDG3Ky9R69lYp878NEyW6grWat6gr0VmQV1jO0XKPoJhb6jhlgoK44u2KmRlC5tFHA="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"PEP\",\"fiscal_year\":2022,\"query\":\"Asia Pacific, Australia, and New Zealand and China region\"}",
+        "name": "search_filings"
+       },
+       "id": "call_88482",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622422,
+  "id": "Fv3JauvkEvrpvdIP8NaAqQo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 42,
+   "prompt_tokens": 4307,
+   "total_tokens": 4349
+  }
+ }
+}

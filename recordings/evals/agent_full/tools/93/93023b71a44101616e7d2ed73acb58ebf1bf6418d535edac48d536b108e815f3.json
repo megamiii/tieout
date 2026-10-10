@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "VZ",
+  "query": "net income",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "VZ",
+  "concepts": [
+   {
+    "concept": "NetIncomeLoss",
+    "label": "Net Income (Loss) Attributable to Parent",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "21256000000",
+      "fact_id": "xf_bf989d31e25aab8d",
+      "reported_in_10k_filed": "2023-02-10"
+     }
+    ]
+   },
+   {
+    "concept": "ProfitLoss",
+    "label": "Net Income (Loss), Including Portion Attributable to Noncontrolling Interest",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "21748000000",
+      "fact_id": "xf_68e67f32bf7a1d33",
+      "reported_in_10k_filed": "2023-02-10"
+     }
+    ]
+   },
+   {
+    "concept": "IncomeTaxesPaidNet",
+    "label": "Income Taxes Paid, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "2736000000",
+      "fact_id": "xf_ed0440d087088941",
+      "reported_in_10k_filed": "2023-02-10"
+     }
+    ]
+   }
+  ]
+ }
+}

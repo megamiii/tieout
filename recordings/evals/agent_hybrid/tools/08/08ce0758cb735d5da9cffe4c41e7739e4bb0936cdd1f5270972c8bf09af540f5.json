@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Operations Net revenue Cost of sales Research and development",
+  "ticker": "AMD",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_590937f92d4fbc50",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 42,
+    "text": "Operating loss in 2014 included a $19 million benefit from technology licensing revenue. Research and development expenses and marketing, general and administrative expenses decreased for the reasons set forth under “Expenses,” below. Computing and Graphics operating loss was $76 million in 2014 compared to an operating loss of $101 million in 2013. The improvement in operating results was primarily due to a $323 million decrease in cost of sales, a $201 million decrease in research and development expenses and an $89 million decrease in marketing, general and administrative expenses, partially offset by the decrease in net revenue referenced above. Cost of sales decreased primarily due to lower unit shipments in 2014 compared to 2013. Operating loss in 2014 included a $19 million benefit from technology licensing revenue. In addition, operating loss in 2013 included a $57 million benefit from sales of inventory that had been previously reserved in the third quarter of 2012, as compare…"
+   },
+   {
+    "chunk_id": "ch_5a9d6cfc33627efb",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 43,
+    "text": "lower of cost or market inventory adjustment, which accounted for one gross margin percentage point, and a $27 million benefit from technology licensing revenue, which accounted for less than one gross margin percentage point. Gross margin as a percentage of net revenue was 33% in 2014 compared to 37% in 2013. Gross margin in 2014 included a $58 million lower of cost or market inventory adjustment, which accounted for one gross margin percentage point, and a $27 million benefit from technology licensing revenue, which accounted for less than one gross margin percentage point. Gross margin in 2013 included a $57 million benefit from sales of inventory that was previously reserved in the third quarter of 2012, which accounted for one gross margin percentage point as compared to $8 million in 2014 which had a less than one percentage point impact. Gross margin in 2014 was adversely impacted by lower average gross margins in our Enterprise, Embedded and Semi-Custom segment driven by increa…"
+   },
+   {
+    "chunk_id": "ch_002a467906a83ab4",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 43,
+    "text": "2015 2014 2013 (In millions, except for percentages) Cost of sales $ 2,911 $ 3,667 $ 3,321 Gross margin 1,080 1,839 1,978 Gross margin percentage 27% 33% 37% Research and development 947 1,072 1,201 Marketing, general and administrative 482 604 674 Amortization of acquired intangible assets 3 14 18 Restructuring and other special charges, net 129 71 30 Goodwill impairment charge — 233 — Legal settlements, net — — (48) Interest expense (160) (177) (177) Other expense, net (5) (66) — Provision (benefit) for income taxes $ 14 $ 5 $ 9 Gross Margin Gross margin as a percentage of net revenue was 27% in 2015 compared to 33% in 2014. Gross margin in 2015 was adversely impacted by an inventory write-down of $65 million, which was primarily the result of lower anticipated demand for older-generation APUs and a technology node transition charge of $33 million. The impact of the write-down accounted for approximately two gross margin percentage points and the technology node transition charge acc…"
+   },
+   {
+    "chunk_id": "ch_f162657f41ba7e65",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 83,
+    "text": "The following table provides a summary of net revenue and operating income (loss) by segment and income (loss) before income taxes for 2015, 2014 and 2013. The results prior to July 1, 2014 have been recast to reflect the Company's new reportable segments. 2015 2014 2013 (In millions) Net revenue: Computing and Graphics $ 1,805 $ 3,132 $ 3,720 Enterprise, Embedded and Semi-Custom 2,186 2,374 1,577 All Other — — 2 Total net revenue $ 3,991 $ 5,506 $ 5,299 Operating income (loss): Computing and Graphics $ (502) $ (76) $ (101) Enterprise, Embedded and Semi-Custom 215 399 295 All Other (194) (478) (91) Total operating income (loss) $ (481) $ (155) $ 103 Interest expense (160) (177) (177) Other expense, net (5) (66) — Loss before income taxes $ (646) $ (398) $ (74) The Company does not discretely allocate assets to its operating segments, nor does management evaluate operating segments using discrete asset information. The Company's operations outside the United States include research and …"
+   },
+   {
+    "chunk_id": "ch_53b0f94ed94174db",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 42,
+    "text": "revenue was partially offset by an increase in net revenue received in connection with higher unit shipments of our semi-custom SoC products. Enterprise, Embedded and Semi-Custom net revenue of $2.4 billion in 2014 increased by 51% compared to net revenue of $1.6 billion in 2013. The increase was primarily due to an increase in net revenue received in connection with higher unit shipments of our semi-custom SoC products, which we began shipping in the second quarter of 2013. Enterprise, Embedded and Semi-Custom operating income was $215 million in 2015 compared to $399 million in 2014. The decline in operating results was primarily due to the decrease in net revenue referenced above and a $16 million increase in research and development expenses, partially offset by a $19 million decrease in marketing, general and administrative expenses and a $2 million decrease in cost of sales. The decrease in cost of sales was primarily due to a decrease in unit shipments of our server and embedded…"
+   }
+  ]
+ }
+}

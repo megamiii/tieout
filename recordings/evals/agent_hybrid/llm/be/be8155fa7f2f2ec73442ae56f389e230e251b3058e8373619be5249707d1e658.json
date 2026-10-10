@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TYmfummMJuks+23/bab0QyAbAngpVg34wInlfGxMNXa1Y5l2j/3gzZ8n05gQhTm1Zwo0p/cjUxJAIDQ4tBsiTsR4n4fepxR9LKf/3WwA85+1FeLjSlWQnoPw="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"VZ\",\"query\":\"Consolidated Balance Sheets\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_72535",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621782,
+  "id": "lvrJavyVCsKH28oPjvnZsQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 35,
+   "prompt_tokens": 3032,
+   "total_tokens": 3067
+  }
+ }
+}

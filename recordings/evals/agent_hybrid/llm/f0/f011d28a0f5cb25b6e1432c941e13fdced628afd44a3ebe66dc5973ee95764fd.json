@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T/ItxPEzWE5VGAUy9HK2qSMd6+LT7CuL230Kcd+vhKks86WXjxtFV1FGzpyXYRzscjs0L4PhnFRW8eCBXl11x04TBzyooP6ONrDTSBuBT9fQemVbkdYCqlT4="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"rationale\":\"Net income attributable to shareholders is $2,707.3 million and total cash dividends paid is $1,244.5 million. Retention ratio = (2,707.3 - 1,244.5) / 2,707.3 = 1,462.8 / 2,707.3 = 0.5403... or 54.02%.\",\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_a5dae1b662ae1a10\",\"quote\":\"Net earnings attributable to General Mills $ 2,707.3\"},{\"source_id\":\"ch_3c0994512dfabf7d\",\"quote\":\"Dividends paid (1,244.5)\"}],\"answer\":\"For FY2022, General Mills reported net earnings attributable to General Mills of $2,707.3 million and total cash dividends paid of $1,244.5 million. The retention ratio, calculated as (Net income attributable to shareholders - Dividends paid) / Net income attributable to shareholders, is 0.54 (or 54.02%).\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_65349",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623569,
+  "id": "kAHKaoz4EZfsxN8PiPXoGQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 294,
+   "prompt_tokens": 5941,
+   "prompt_tokens_details": {
+    "cached_tokens": 2018
+   },
+   "total_tokens": 6235
+  }
+ }
+}

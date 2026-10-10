@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TdTDlT61ga7W2kn8N3jYc0ThBRu8exQef4KisurWMk62zUSq1verZ3AnrtR54u/q2mW0GnrblpH7LShJ03umLW+qi0SXEz6PkFoRlb9LFiVaVS56zTq2VMJM="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"query\":\"cyclicality cyclical commercial airplanes airline\",\"ticker\":\"BA\"}",
+        "name": "search_filings"
+       },
+       "id": "call_75369",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621864,
+  "id": "5_rJaoysK_rpvdIP8NaAqQo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 1506,
+   "total_tokens": 1544
+  }
+ }
+}

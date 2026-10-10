@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TN6L7+vB3BeDtegy6t6hBkEMIuj3yq7tVa0IJORk3UVdxIXyoDJWVVXs4Im13p22dRoskIFgJoVw0TUQQbzN76pTlyHBsJRJBEObVvAN3lMtsfgvSwjLZQNE="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"answer\":\"For fiscal year 2022 (FY22), operating activities brought in the most cash flow for AMD, with net cash provided by operating activities of $3,565 million ($3.565 billion). \\n\\nComparison of cash flows for FY22:\\n- **Operating activities:** $3,565 million provided\\n- **Investing activities:** $1,999 million provided\\n- **Financing activities:** $(3,264) million used (lost)\",\"rationale\":\"The question asks which of the three cash flow categories brought in the most (or lost the least) cash flow for AMD in FY22. From the Consolidated Statements of Cash Flows and Liquidity section: Operating activities provided $3,565 million, Investing activities provided $1,999 million, and Financing activities used $3,264 million. Thus, Operating activities brought in the most cash flow.\",\"citations\":[{\"quote\":\"Operating activities $ 3,565 $ 3,521\",\"source_id\":\"ch_d47a8b02d8d2e8ce\"},{\"quote\":\"Net cash provided by (used in) investing activities 1,999 (686) (952)\",\"source_id\":\"ch_2c1d85b51acacf48\"},{\"quote\":\"Net cash (used in) provided by financing activities (3,264) (1,895) 6\",\"source_id\":\"ch_2c1d85b51acacf48\"}],\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_64366",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622766,
+  "id": "bf7JaraZDYD7vdIP76S1sAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 376,
+   "prompt_tokens": 9235,
+   "total_tokens": 9611
+  }
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "item_id": "xbrl-GLW-2020-OperatingIncomeLoss-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "agent_full",
+ "status": "answered",
+ "answer": "In fiscal year 2020, Corning's operating income was $509 million.",
+ "confidence": 1.0,
+ "rationale": "The consolidated statements of income report operating income of $509 million for the year ended December 31, 2020.",
+ "citations": [
+  {
+   "source_id": "ch_007054bfbfeba8c5",
+   "quote": "Operating income 509 1,306 1,575",
+   "kind": "chunk",
+   "ticker": "GLW",
+   "fiscal_year": 2020,
+   "section": "Item 16",
+   "page": 70,
+   "values": [
+    "31",
+    "2020",
+    "2019",
+    "2018",
+    "11303",
+    "11503",
+    "11290",
+    "7772",
+    "7468",
+    "6829",
+    "3531",
+    "4035",
+    "4461",
+    "1747",
+    "1585",
+    "1799",
+    "1154",
+    "1031",
+    "993",
+    "121",
+    "113",
+    "94",
+    "509",
+    "1306",
+    "1575",
+    "3",
+    "25",
+    "17",
+    "390",
+    "15",
+    "21",
+    "38",
+    "276",
+    "221",
+    "191",
+    "15",
+    "38",
+    "248",
+    "93",
+    "4",
+    "498",
+    "60",
+    "155",
+    "216",
+    "623",
+    "1216",
+    "1503",
+    "8",
+    "111",
+    "256",
+    "437",
+    "512",
+    "960",
+    "1066"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 3,
+ "prompt_tokens": 8393,
+ "completion_tokens": 201,
+ "latency_ms": null,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$509 matches 509 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 3,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1892,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"query\":\"operating income\",\"ticker\":\"GLW\",\"fiscal_years\":[2020]}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 2206,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"query\":\"Operating Income 509\",\"ticker\":\"GLW\",\"fiscal_year\":2020}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 4496,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"needs_review\":false,\"answer\":\"In fiscal year 2020, Corning's operating income was $509 million.\",\"citations\":[{\"quote\":\"Operating income 509 1,306 1,575\",\"source_id\":\"ch_007054bfbfeba8c5\"}],\"confidence\":1,\"rationale\":\"The consolidated statements of income report operating income of $509 million for the year ended December 31, 2020.\"}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TNqOFt7A01Kf8LhpucgUA/wSZOmPwKlxNmOwz6WlK3cm83i/oha70Qlm7BwX3puWhfuiKIS0FAAAmzmjrpZwPyOdD5OIgIi2aHWJQUJi6UOE1528zCecKEz0="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"CONSOLIDATED BALANCE SHEETS\",\"ticker\":\"ADBE\",\"fiscal_year\":2015}",
+        "name": "search_filings"
+       },
+       "id": "call_42481",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623386,
+  "id": "2QDKarHyOdyjxN8PneSUwAk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 2959,
+   "total_tokens": 2997
+  }
+ }
+}

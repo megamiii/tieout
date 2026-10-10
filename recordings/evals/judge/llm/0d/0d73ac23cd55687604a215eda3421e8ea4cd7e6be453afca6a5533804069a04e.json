@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the FY2022 operating margin figure but contradicts the gold answer's conclusion by claiming the profile is 'improving' despite the year-over-year decline.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0Ti5UVLCgcB6JeN/WIBW1p84yPm25Ck+q4ffxDJXxDdbSd8yjrPwp9rpFjhewbC/+eeasjcZ+A6HWbBw/jJxBFHIlH//SgPpVKJG0gfqgCI5/quV1gYcAh+/KjD/WcVCz1JeHr/7851QGfHFpu"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623629,
+  "id": "wgHKarC2N6Hdxs0PserGuAU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 51,
+   "prompt_tokens": 465,
+   "total_tokens": 516
+  }
+ }
+}

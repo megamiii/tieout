@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income accounts payable inventory",
+  "ticker": "GLW",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_4d7425c381620770",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 66,
+    "text": "Index Corning Incorporated 2020 Annual Report Index to Financial Statements and Financial Statement Schedule Page Report of Independent Registered Public Accounting Firm 67 Consolidated Statements of Income 70 Consolidated Statements of Comprehensive Income 71 Consolidated Balance Sheets 72 Consolidated Statements of Cash Flows 73 Consolidated Statements of Changes in Shareholders' Equity 74 Notes to Consolidated Financial Statements 1. Summary of Significant Accounting Policies 75 2. Restructuring, Impairment and Other Charges and Credits 81 3. Investments 84 4. HSG Transactions and Acquisitions 86 5. Revenue 89 6. Inventories, Net 91 7. Leases 92 8. Income Taxes 93 9. Property, Plant and Equipment, Net of Accumulated Depreciation 97 10. Goodwill and Other Intangible Assets 97 11. Other Assets and Other Liabilities 99 12. Debt 101 13 Employee Retirement Plans 103 14. Commitments, Contingencies and Guarantees 111 15. Hedging Activities 113 16. Fair Value Measurements 115 17. Shareholde…"
+   },
+   {
+    "chunk_id": "ch_9c25dd52b2d60e40",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 90,
+    "text": "balance as a reduction to revenue over the remainder of the current year. Due to the one-time nature of this cumulative adjustment, it has been excluded from segment results. However, it is included in the reconciliation from segment net income (loss) to consolidated net income. Refer to Note 20 (Reportable Segments) to the consolidated financial statements for additional information. Contract Assets and Liabilities Contract assets, such as incremental costs to obtain or fulfill contracts, are an insignificant component of Corning's revenue recognition process. Most of Corning's cost of fulfillment as a manufacturer of products is classified as inventory, fixed assets and intangible assets, which are accounted for under the respective guidance for those asset types. Other costs of contract fulfillment are immaterial due to the nature of the products and their respective manufacturing processes. Contract liabilities include deferred revenue, other advanced payments and customer deposits…"
+   },
+   {
+    "chunk_id": "ch_dbb0bc4b811dfda8",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 73,
+    "text": "Index Consolidated Statements of Cash Flows Corning Incorporated and Subsidiary Companies Year ended December 31, (In millions) 2020 2019 2018 Cash Flows from Operating Activities: Net income $ 512 $ 960 $ 1,066 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation 1,399 1,390 1,199 Amortization of purchased intangibles 121 113 94 Loss on disposal of assets 138 123 43 Severance charges 148 63 16 Severance payments (147) (28) (3) Share-based compensation expense 207 56 51 Equity in losses (earnings) of affiliated companies 25 (17) (390) Dividends received from affiliated companies 1 106 241 Deferred tax benefit (20) (191) (38) Customer incentives and deposits, net 221 142 700 Pension plan contributions (221) (2) (117) Translated earnings contract loss (gain) 38 (248) 93 Unrealized translation (gain) loss on transactions (133) 33 55 Asbestos claim payments (130) (50) (35) Tax assessment refunds 101 Asset impairment 217 Transaction-related gain, ne…"
+   },
+   {
+    "chunk_id": "ch_6eec5bc71a6702d8",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 46,
+    "text": "Index ENVIRONMENT Refer to Item 3. Legal Proceedings or Note 14 (Commitments, Contingencies and Guarantees) to the consolidated financial statements for information. CRITICAL ACCOUNTING ESTIMATES The preparation of financial statements requires us to make estimates and assumptions that affect amounts reported therein. The estimates that required us to make difficult, subjective or complex judgments, including future projections of performance and relevant discount rates, are set forth below. Valuation of the Previously Held Equity Interest from the Consolidation of HSG We account for the change in controlling interest using the acquisition method of accounting, which requires us to estimate the fair values of the assets and liabilities recorded. Assets recorded include intangible assets such as developed technologies and know-how, tradenames and customer-related intangibles, fixed assets and inventories. Liabilities recorded include contract liabilities such as customer deposits and de…"
+   },
+   {
+    "chunk_id": "ch_f21bdc2631de8a51",
+    "ticker": "GLW",
+    "fiscal_year": 2020,
+    "section": "Item 16",
+    "page": 76,
+    "text": "Index Use of Estimates The preparation of financial statements, in conformity with GAAP, requires management to make estimates and assumptions affecting reported amounts of assets, liabilities, revenue, expenses and the disclosure of contingent assets and liabilities in the consolidated financial statements and related notes. Significant estimates and assumptions in these consolidated financial statements include estimates associated with revenue recognition, restructuring charges, goodwill and long-lived asset impairment tests, estimates of acquired assets and liabilities, estimates of fair value of investments, equity interests, environmental and legal liabilities, income taxes and deferred tax valuation allowances, assumptions used in calculating pension and other postretirement employee benefit expenses and the fair value of share-based compensation. Due to the inherent uncertainty involved in making estimates, actual results reported in future periods may be different from these e…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TTGBPqHtsSgJDcKVbojbtAuPc5oLY5qZ9R2U+8yJihp19nGwqyF5cZ2wC+UYB0ujDtJlScEplCJ6cxuRYo7PLLihIKv3pplhvgTbLtARuzRQ54nNH85eHbC4="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"PEP\",\"query\":\"Operating profit depreciation amortization statement of cash flows revenue\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_72703",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623326,
+  "id": "ngDKar7XG8KH28oPjvnZsQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 1631,
+   "total_tokens": 1671
+  }
+ }
+}

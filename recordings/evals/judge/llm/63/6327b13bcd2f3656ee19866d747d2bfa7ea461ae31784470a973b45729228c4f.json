@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the primary driver of the operating margin change as the amortization of intangible assets from the Xilinx acquisition, matching the gold answer.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T1tYFiultS59CUVG2220CsTSmYbqaWL1z7rE/Ef2CTUNz0pr32QFDn/+Dlt2Wnld3gIPb2+l/EONnT+k99Py9HLRSQlWgmsd7wrB6u5ves4N6AzMSbn5q9i57ZVexT314X33Mc5A+t3bYzagh"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623874,
+  "id": "tgLKau2eO_SxvdIPrr7q-AU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 42,
+   "prompt_tokens": 236,
+   "total_tokens": 278
+  }
+ }
+}

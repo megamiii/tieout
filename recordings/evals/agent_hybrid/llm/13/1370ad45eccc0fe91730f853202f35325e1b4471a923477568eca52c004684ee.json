@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TKyCCCIY2wLjm4qeOchHwIoPOPmqsDnsFH4M4GH7m7k5UiI8V3jnD4dkREe/SUhN112y7mXX0tEW35JdKUTQlg8ab6LIpcIZocm639NS6EL6HfeMqeGzfeF0="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2020,\"query\":\"Consolidated Statements of Income Corning Incorporated Year ended December 31\",\"ticker\":\"GLW\"}",
+        "name": "search_filings"
+       },
+       "id": "call_59350",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623532,
+  "id": "awHKapzxNvWH28oPhsTn2QM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 3174,
+   "total_tokens": 3219
+  }
+ }
+}

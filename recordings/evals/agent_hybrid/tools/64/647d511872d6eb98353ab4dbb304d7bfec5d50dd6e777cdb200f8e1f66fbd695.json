@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "acquisition",
+  "ticker": "AMCR",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_05634c6d3a36acad",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 1A",
+    "page": 15,
+    "text": "Additionally, over the past decade, we have pursued growth through acquisitions, and there can be no assurance that we will be able to identify suitable acquisition targets in the right geographic regions and with the right participation strategy in the future, or to complete such acquisitions on acceptable terms or at all. If we are unable to identify acquisition targets that meet our investment criteria and close such transactions on acceptable terms, our potential for growth by way of acquisition may be restricted, which could have a material adverse effect on the achievement of our strategy and the resulting expected financial benefits. We have also invested in companies which we do not control through our corporate venturing function. Our investment partners or other parties that hold the remaining ownership interests in companies we do not control may not have interests that are aligned with our goals. We have recognized impairment losses in the past in connection with our invest…"
+   },
+   {
+    "chunk_id": "ch_a1adac249f0de09a",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 64,
+    "text": "Note 5 - Acquisitions and Divestitures Year ended June 30, 2023 Acquisitions On August 1, 2022, the Company completed the acquisition of 100% equity interest in a Czech Republic company that operates a world-class flexible packaging manufacturing plant. The purchase consideration of $59 million included a deferred portion of $5 million that was paid in the first quarter of fiscal year 2024. The acquisition is part of the Company's Flexibles reportable segment and resulted in the recognition of acquired identifiable net assets of $36 million and goodwill of $23 million. Goodwill is not deductible for tax purposes. The fair values of the identifiable net assets acquired and goodwill are based on the Company's best estimate as of June 30, 2023. On March 17, 2023, the Company completed the acquisition of 100% equity interest in a medical device packaging manufacturing site in Shanghai, China. The purchase consideration of $60 million is subject to customary post-closing adjustments. The co…"
+   },
+   {
+    "chunk_id": "ch_6bf4cb818f2f5a9d",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Note 2 - Significant Accounting Policies Basis of Presentation and Principles of Consolidation: The consolidated financial statements include the accounts of the Company and its subsidiaries, for which the Company has a controlling financial interest. All significant intercompany transactions and balances have been eliminated. The consolidated financial statements are prepared in accordance with accounting principles generally accepted in the United States of America (\"U.S. GAAP\"). The Company reclassified prior year inventory comparatives in the condensed consolidated balance sheets to conform to the current year's presentation which provides the breakdown of inventory. This change in presentation did not have an impact on the Company's financial condition or operating results. Certain amounts in the Company's notes to consolidated financial statements may not add up or recalculate due to rounding. Business Combinations: The Company uses the acquisition method of accounting, which req…"
+   },
+   {
+    "chunk_id": "ch_cdca9b379a363798",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 64,
+    "text": "On May 31, 2023, the Company completed the acquisition of a New Zealand based leading manufacturer of state-of-the-art, automated protein packaging machines. The purchase consideration of $45 million is subject to customary post-closing adjustments. The consideration includes contingent consideration of $13 million, to be earned and paid in cash over the two years following the acquisition date, subject to meeting certain performance targets. The acquisition is part of the Company's Flexibles reportable segment and resulted in the recognition of acquired identifiable net assets of $9 million and goodwill of $36 million. Goodwill is deductible for tax purposes. The fair values of the contingent consideration, identifiable net assets acquired, and goodwill are based on the Company's best estimate as of June 30, 2023, and are considered preliminary. The Company aims to complete the purchase price allocation as soon as practicable but no later than one year from the date of the acquisition…"
+   },
+   {
+    "chunk_id": "ch_de8611b8862879af",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 1A",
+    "page": 15,
+    "text": "The loss of business from our larger customers, or the renewal of business on less favorable terms, may have a significant impact on our operating results. Additionally, our competitors may develop disruptive technologies or other technological innovations that could increase their ability to compete for our current or potential customers. We cannot guarantee that the actions of established or potential competitors will not materially adversely affect our ability to implement our plans and our business, financial condition, results of operations, or cash flows. Expanding Our Current Business — We may be unable to expand our current business effectively through either organic growth, including product innovation, investments, or acquisitions. Our business strategy includes both organic expansion of our existing operations, particularly through efforts to strengthen and expand relationships with customers in emerging markets, product innovation (including to address changes in the indust…"
+   }
+  ]
+ }
+}

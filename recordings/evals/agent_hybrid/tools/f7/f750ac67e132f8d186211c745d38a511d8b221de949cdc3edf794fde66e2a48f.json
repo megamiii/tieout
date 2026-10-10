@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Gross margin 43.8% 44.6% 46.2%",
+  "ticker": "NKE",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_94ca2353f7d66d90",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 26,
+    "text": "Table of Contents Gross Margin (Dollars in millions) Fiscal 2018 Fiscal 2017 % Change Fiscal 2016 % Change Gross profit $ 15,956 $ 15,312 4% $ 14,971 2% Gross margin 43.8% 44.6% (80) bps 46.2% (160 ) bps Fiscal 2018 Compared to Fiscal 2017 For fiscal 2018, our consolidated gross margin was 80 basis points lower than fiscal 2017, primarily reflecting the following factors: • Unfavorable changes in net foreign currency exchange rates, including hedges (decreasing gross margin approximately 90 basis points); • Lower NIKE Direct margin (decreasing gross margin approximately 10 basis points) reflecting higher mix of off-price sales in the first half of fiscal 2018, which was partially offset by margin expansion in the second half of fiscal 2018; • NIKE Brand full-price ASP, net of discounts, on a wholesale equivalent basis, which was flat for fiscal 2018 as higher discounts in the first half of fiscal 2018 were offset by higher full-price ASP in the second half of the year; and • NIKE Brand…"
+   },
+   {
+    "chunk_id": "ch_a1aed41d6218f4b1",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Table of Contents Reported EBIT declined 2% for fiscal 2017 as revenue growth and lower selling and administrative expense were more than offset by gross margin contraction. Gross margin decreased 300 basis points as higher full-price ASP was more than offset by unfavorable standard foreign currency exchange rates and higher product costs, primarily due to a shift in mix to lower margin products. Gross margin also contracted due to the unfavorable impact of lower licensing revenues, primarily due to market transitions. Selling and administrative expense decreased due to lower demand creation expense, primarily as a result of lower retail brand presentation costs, partially offset by higher advertising expense. Operating overhead increased as higher wage-related expenses were only partially offset by lower administrative costs. Corporate (Dollars in millions) Fiscal 2018 Fiscal 2017 % Change Fiscal 2016 % Change Revenues $ 26 $ 75 — $ (86) — (Loss) Before Interest and Taxes $ (1,456) $ …"
+   },
+   {
+    "chunk_id": "ch_afc444ce4c2901a3",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 6",
+    "page": 21,
+    "text": "Table of Contents Selected Quarterly Financial Data (Unaudited) (In millions, except per share data) 1st Quarter 2nd Quarter 3rd Quarter 4th Quarter 2018 2017 2018 2017 2018 (1) 2017 2018 2017 Revenues $ 9,070 $ 9,061 $ 8,554 $ 8,180 $ 8,984 $ 8,432 $ 9,789 $ 8,677 Gross profit 3,962 4,123 3,678 3,616 3,938 3,750 4,378 3,823 Gross margin 43.7% 45.5% 43.0% 44.2% 43.8% 44.5% 44.7% 44.1% Net income (loss) 950 1,249 767 842 (921) 1,141 1,137 1,008 Earnings (loss) per common share: Basic 0.58 0.75 0.47 0.51 (0.57) 0.69 0.71 0.61 Diluted 0.57 0.73 0.46 0.50 (0.57) 0.68 0.69 0.60 Weighted average common shares outstanding 1,639.1 1,672.0 1,627.0 1,659.1 1,623.5 1,653.1 1,605.7 1,646.9 Diluted weighted average common shares outstanding 1,676.9 1,708.9 1,660.9 1,693.2 1,623.5 1,686.3 1,641.2 1,678.6 Cash dividends declared per common share 0.18 0.16 0.20 0.18 0.20 0.18 0.20 0.18 Price range of common stock: High 60.53 60.33 61.21 59.18 70.25 58.42"
+   },
+   {
+    "chunk_id": "ch_dd106f4b5390e3f0",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 23,
+    "text": "Table of Contents Results of Operations (Dollars in millions, except per share data) Fiscal 2018 Fiscal 2017 % Change Fiscal 2016 % Change Revenues $ 36,397 $ 34,350 6 % $ 32,376 6 % Cost of sales 20,441 19,038 7 % 17,405 9 % Gross profit 15,956 15,312 4 % 14,971 2 % Gross margin 43.8% 44.6% 46.2% Demand creation expense 3,577 3,341 7 % 3,278 2 % Operating overhead expense 7,934 7,222 10 % 7,191 0 % Total selling and administrative expense 11,511 10,563 9 % 10,469 1 % % of revenues 31.6% 30.8% 32.3% Interest expense (income), net 54 59 — 19 — Other expense (income), net 66 (196) — (140) — Income before income taxes 4,325 4,886 -11 % 4,623 6 % Income tax expense 2,392 646 270 % 863 -25 % Effective tax rate 55.3% 13.2% 18.7% NET INCOME $ 1,933 $ 4,240 -54 % $ 3,760 13 % Diluted earnings per common share $ 1.17 $ 2.51 -53 % $ 2.16 16 % 21"
+   },
+   {
+    "chunk_id": "ch_aa1707e00ea93391",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 6",
+    "page": 20,
+    "text": "ITEM 6. Selected Financial Data All share and per share amounts are reflective of the two-for-one stock split that began trading at the split-adjusted price on December 24, 2015. (In millions, except per share data and financial ratios) Financial History 2018 2017 2016 2015 2014 Year Ended May 31, Revenues $ 36,397 $ 34,350 $ 32,376 $ 30,601 $ 27,799 Gross profit 15,956 15,312 14,971 14,067 12,446 Gross margin 43.8% 44.6% 46.2% 46.0% 44.8% Net income 1,933 4,240 3,760 3,273 2,693 Earnings per common share: Basic 1.19 2.56 2.21 1.90 1.52 Diluted 1.17 2.51 2.16 1.85 1.49 Weighted average common shares outstanding 1,623.8 1,657.8 1,697.9 1,723.5 1,766.7 Diluted weighted average common shares outstanding 1,659.1 1,692.0 1,742.5 1,768.8 1,811.6 Cash dividends declared per common share 0.78 0.70 0.62 0.54 0.47 Cash flow from operations (1) 4,955 3,846 3,399 4,906 3,158 Price range of common stock: High 73.49 60.33 68.19 52.75 40.13 Low 50.35 49.01 47.25 36.57 29.56 At May 31, Cash and equiva…"
+   }
+  ]
+ }
+}

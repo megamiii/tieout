@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TJP770pQ9jebm19ki2qlW6yfLdWC93bjSKMqsgmRTKwh1SEMAh1fZCJu2CUtkm7chAbhG0Kyh2jsMST9z0gheMvL+iQytcHRBW34oIhFC2tri/0/pOk0dRfk="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"fiscal_year\":2017,\"ticker\":\"BBY\",\"query\":\"Net earnings attributable to Best Buy Co., Inc. shareholders\"}",
+        "name": "search_filings"
+       },
+       "id": "call_80748",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622975,
+  "id": "Pf_JaquMH4D7vdIP76S1sAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 49,
+   "prompt_tokens": 3327,
+   "total_tokens": 3376
+  }
+ }
+}

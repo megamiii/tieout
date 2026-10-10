@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TwUvfI69EQ3m9BbpZ+MmU+/WE3Hdz+y9+anUW1ujH40jbbiQV727rclsVIyqwkxM+ky5dEqT3GvBAAVnX+AwK2UBqSMyUVWZXRjcBnyUelk+a4tR1ptGI6Ts="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"ticker\":\"VZ\",\"line_items\":[\"PropertyPlantAndEquipmentNet\",\"CapitalExpendituresIncurredNotInvoiced\",\"PaymentsToAcquireProductiveAssets\"]}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_22845",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621741,
+  "id": "bfrJav-FEs71xN8P4enT8A4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 60,
+   "prompt_tokens": 2811,
+   "total_tokens": 2871
+  }
+ }
+}

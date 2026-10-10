@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the primary customers and includes the specific revenue percentage for the U.S. government, matching the gold answer's key information.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0Tmg+pYdY0AYudY0XQg0khxIUPec7NixZWwnIxCSda+XYE3KZIYu/qSl5GR70cIhmMupZ5lvbRE0HnZPWM19XjSCiuXNTaSAgBWH2PYFuXF09dD2eypT1BgiR1jY0BJSZx+4siTJUlYhgQ1HPi"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791624012,
+  "id": "RAPKateWLo--vdIPkdiC0QU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 42,
+   "prompt_tokens": 263,
+   "total_tokens": 305
+  }
+ }
+}

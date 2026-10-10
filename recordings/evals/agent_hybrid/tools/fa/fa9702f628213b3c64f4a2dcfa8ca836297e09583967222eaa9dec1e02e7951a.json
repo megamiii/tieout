@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Operating income Fiscal 2015 Fiscal 2014",
+  "ticker": "ADBE",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_2881456ad64a5f53",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 50,
+    "text": "50 Provision for Income Taxes (dollars in millions) Fiscal 2015 Fiscal 2014 Fiscal 2013 % Change 2015-2014 % Change 2014-2013 Provision ..................................................................... $ 244.2 $ 93.0 $ 66.2 163% 40% Percentage of total revenue....................................... 5% 2% 2% Effective tax rate....................................................... 28% 26% 19% Our effective tax rate increased by approximately two percentage points during fiscal 2015 as compared to fiscal 2014. The increase was primarily due to tax costs associated with licensing acquired company assets to Adobe's trading companies. The increase was partially offset by tax benefits related to the reinstatement of the federal research and development tax credit in December 2014. The reinstatement of the credit was retroactive to January 1, 2014. Our effective tax rate increased by approximately seven percentage points during fiscal 2014 as compared to fiscal 2013. The increase was prim…"
+   },
+   {
+    "chunk_id": "ch_ed392b8b5382b12d",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 40,
+    "text": "Cost of revenue of $744.3 million increased by $122.2 million, or 20%, during fiscal 2015, from $622.1 million in fiscal 2014. The increases were primarily due to increases in costs associated with compensation and related benefits driven by additional headcount and costs of professional services driven by the increase in our professional services business. • Operating expenses of $3.15 billion increased by $35.8 million during fiscal 2015, from $3.11 billion in fiscal 2014. The increase is due to higher costs associated with compensation and related benefits driven by additional headcount and amortization of intangibles from the Fotolia acquisition in fiscal 2015. • Net income of $629.6 million increased by $361.2 million, or 135%, during fiscal 2015 from $268.4 million in fiscal 2014 primarily due to revenue growth. • Net cash flow from operations of $1.47 billion during fiscal 2015 increased by $182.0 million, or 14%, from $1.29 billion during fiscal 2014 primarily due to higher net…"
+   },
+   {
+    "chunk_id": "ch_a5cf13fac934eab0",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 85,
+    "text": "subject to the continual examination of our income tax returns by the IRS and other domestic and foreign tax authorities. Our major tax jurisdictions are Ireland, California and the United States. For Ireland, California and the United States, the earliest fiscal years open for examination are 2008, 2010 and 2010, respectively. We regularly assess the likelihood of outcomes resulting from these examinations to determine the adequacy of our provision for income taxes and have reserved for potential adjustments that may result from the current examinations. We believe such estimates to be reasonable; however, there can be no assurance that the final determination of any of these examinations will not have an adverse effect on our operating results and financial position. The timing of the resolution of income tax examinations is highly uncertain as are the amounts and timing of tax payments that are part of any audit settlement process. These events could cause large fluctuations in the …"
+   },
+   {
+    "chunk_id": "ch_efe4b2d5edc9e24e",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 47,
+    "text": "47 Research and Development, Sales and Marketing and General and Administrative Expenses Research and development and sales and marketing expenses increased slightly during fiscal 2015 as compared to fiscal 2014 primarily due to increases in compensation and related benefits associated with headcount. General and administrative expenses decreased slightly during fiscal 2015 as compared to fiscal 2014 primarily due to the reversal of a previously anticipated loss associated with the HTEAL proceedings, offset in part by increases in compensation and related benefits associated with headcount. The increase in research and development and general and administrative expenses during fiscal 2014 as compared to fiscal 2013 was primarily due to increases in cash incentive and stock-based compensation. The increase in stock-based compensation was driven by a change in the vesting term for stock awards granted as part of our annual review process beginning in fiscal 2013, which decreased the term…"
+   },
+   {
+    "chunk_id": "ch_149a051b7a7f803d",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 40,
+    "text": "40 Total Creative ARR exiting fiscal 2015 was $2.60 billion, up from $1.61 billion at the end of fiscal 2014. We exited fiscal 2015 with 6.167 million paid Creative Cloud subscriptions, up 78% from 3.458 million at the end of fiscal 2014. Our Digital Media segment also includes our Document Cloud products and solutions, including our newly released Acrobat DC product which helped grow Document Cloud ARR to $397 million exiting fiscal 2015, up from $265 million at the end of fiscal 2014. Total Digital Media ARR grew to approximately $3.00 billion at the end of fiscal 2015, up from $1.88 billion at the end of fiscal 2014, demonstrating the progress we have made with the transformation of our business to a more recurring, ratable and predictable revenue model. Our reported ARR results in fiscal 2015 are based on currency rates set at the start of fiscal 2015 and held constant throughout the year. Revaluing our ending ARR for fiscal 2015 using currency rates at the beginning of fiscal 2016…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TRfXFL9HpAIMr2usbo/qRbTjOx4t79zHrh+8sU/ucVFxUe45m0Pmvha2bmhWs6AceB+hcvfMp8khfSxcRQ+VrEzsyx3l9qUlszprdiWT4J+2eD4qhvmB/HIc="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"For Best Buy in FY2023, operating activities brought in the most cash flow ($1,824 million provided), followed by investing activities (which lost $972 million), and financing activities (which lost $1,806 million).\",\"rationale\":\"Operating activities brought in $1,824 million, investing activities lost $972 million, and financing activities lost $1,806 million. Therefore, operating activities brought in the most cash flow.\",\"citations\":[{\"source_id\":\"ch_e64d7dca6930b4b6\",\"quote\":\"Total cash provided by operating activities 1,824\"},{\"quote\":\"Total cash used in financing activities (1,806)\",\"source_id\":\"ch_c0661c4d35a137b0\"},{\"quote\":\"(1,372) (788)\",\"source_id\":\"ch_cc021f0f811f8a0b\"}],\"needs_review\":false,\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_73539",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622725,
+  "id": "RP7JauShAZyAxs0Phb3owQk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 257,
+   "prompt_tokens": 8923,
+   "prompt_tokens_details": {
+    "cached_tokens": 6399
+   },
+   "total_tokens": 9180
+  }
+ }
+}

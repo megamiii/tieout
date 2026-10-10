@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies all four geographic regions listed in the gold answer and provides the full names for the acronyms, which is accurate.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0Tpk78prMCGMoq5xiW71i52OolArQ863rvw3HVoR4NHhyrzSUZtVzRo3mP5POF3IGyPvdC7/JvThwnoMuC46VHVfarITcaeFhDzfbls7eIySre4M6e1SImHn2FRACw4U6su7D5GZzlrPnVsDqn"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623912,
+  "id": "1gLKatO_LaP_vdIPkd7h4QU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 210,
+   "total_tokens": 249
+  }
+ }
+}

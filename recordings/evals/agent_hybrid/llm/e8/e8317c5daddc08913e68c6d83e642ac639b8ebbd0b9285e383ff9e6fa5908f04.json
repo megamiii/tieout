@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tl15PJ+4uRoYEpY62BeCY0q7eyfMAn5eNCZhj4BtCm4UjVUUxMoE56SQZFjSmfv4e3vADFJ3jX06IMTpUPEEXYExxn8TXTIwcbm8ykslpxL6sfWT0g0XHC4w="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"Based on FY2022 data, 3M Company has net property, plant, and equipment of $9,178 million, total assets of $46,455 million, and net sales of $34,229 million. Net PP&E represents approximately 19.8% of total assets, indicating that while 3M invests significantly in manufacturing and production facilities, it operates as a diversified technology and manufacturing enterprise rather than an extremely capital-intensive business (such as utilities or telecommunications).\",\"confidence\":0.9,\"needs_review\":false,\"citations\":[{\"quote\":\"Property, plant and equipment \\\\u2014 net $ 9,178 $ 9,429\",\"source_id\":\"ch_007dbcf117aed57c\"},{\"source_id\":\"ch_007dbcf117aed57c\",\"quote\":\"Total assets $ 46,455 $ 47,072\"},{\"quote\":\"Net sales $ 34,229 $ 35,355 $ 32,184\",\"source_id\":\"ch_734e854ad91485cf\"}],\"rationale\":\"The answer uses FY2022 balance sheet and income statement figures for 3M to evaluate its capital intensity by comparing property, plant, and equipment to total assets and net sales.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_38719",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621983,
+  "id": "XvvJavbSJLCo28oPuPbrgQY",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 336,
+   "prompt_tokens": 8064,
+   "total_tokens": 8400
+  }
+ }
+}

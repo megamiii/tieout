@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Cost of sales 17,405 19,038 20,441",
+  "ticker": "NKE",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_dd106f4b5390e3f0",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 23,
+    "text": "Table of Contents Results of Operations (Dollars in millions, except per share data) Fiscal 2018 Fiscal 2017 % Change Fiscal 2016 % Change Revenues $ 36,397 $ 34,350 6 % $ 32,376 6 % Cost of sales 20,441 19,038 7 % 17,405 9 % Gross profit 15,956 15,312 4 % 14,971 2 % Gross margin 43.8% 44.6% 46.2% Demand creation expense 3,577 3,341 7 % 3,278 2 % Operating overhead expense 7,934 7,222 10 % 7,191 0 % Total selling and administrative expense 11,511 10,563 9 % 10,469 1 % % of revenues 31.6% 30.8% 32.3% Interest expense (income), net 54 59 — 19 — Other expense (income), net 66 (196) — (140) — Income before income taxes 4,325 4,886 -11 % 4,623 6 % Income tax expense 2,392 646 270 % 863 -25 % Effective tax rate 55.3% 13.2% 18.7% NET INCOME $ 1,933 $ 4,240 -54 % $ 3,760 13 % Diluted earnings per common share $ 1.17 $ 2.51 -53 % $ 2.16 16 % 21"
+   },
+   {
+    "chunk_id": "ch_958b2d8c64f9212f",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 46,
+    "text": "Table of Contents NIKE, Inc. Consolidated Statements of Income Year Ended May 31, (In millions, except per share data) 2018 2017 2016 Revenues $ 36,397 $ 34,350 $ 32,376 Cost of sales 20,441 19,038 17,405 Gross profit 15,956 15,312 14,971 Demand creation expense 3,577 3,341 3,278 Operating overhead expense 7,934 7,222 7,191 Total selling and administrative expense 11,511 10,563 10,469 Interest expense (income), net 54 59 19 Other expense (income), net 66 (196) (140) Income before income taxes 4,325 4,886 4,623 Income tax expense 2,392 646 863 NET INCOME $ 1,933 $ 4,240 $ 3,760 Earnings per common share: Basic $ 1.19 $ 2.56 $ 2.21 Diluted $ 1.17 $ 2.51 $ 2.16 Dividends declared per common share $ 0.78 $ 0.70 $ 0.62 The accompanying Notes to the Consolidated Financial Statements are an integral part of this statement. 44"
+   },
+   {
+    "chunk_id": "ch_a2532ca3ae9fa116",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 15",
+    "page": 79,
+    "text": "Table of Contents SCHEDULE II — Valuation and Qualifying Accounts (In millions) Balance at Beginning of Period Charged to Costs and Expenses Charged to Other Accounts (1) Write-Offs, Net Balance at End of Period Sales returns reserve For the year ended May 31, 2016 $ 379 $ 788 $ (15) $ (708) $ 444 For the year ended May 31, 2017 444 696 3 (800) 343 For the year ended May 31, 2018 343 640 5 (658) 330 Allowance for doubtful accounts (2) For the year ended May 31, 2016 $ 78 $ 52 $ (2) $ (85) $ 43 For the year ended May 31, 2017 43 16 — (40) 19 For the year ended May 31, 2018 19 19 — (8) 30 (1) Amounts included in this column primarily relate to foreign currency translation. (2) Includes both current and non-current portions of the allowance for doubtful accounts. The non-current portion is included in Deferred income taxes and other assets on the Consolidated Balance Sheets. 77"
+   },
+   {
+    "chunk_id": "ch_e854ecaf81988cd0",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 53,
+    "text": "receivable with anticipated collection dates greater than 12 months from the balance sheet date and related allowances are considered non-current and recorded in Deferred income taxes and other assets . The allowance for uncollectible accounts receivable was $30 million and $19 million at May 31, 2018 and 2017 , respectively. Inventory Valuation Inventories are stated at lower of cost and net realizable value, and valued on either an average or a specific identification cost basis. In some instances, we ship product directly from our supplier to the customer, with the related inventory and cost of sales recognized on a specific identification basis. Inventory costs primarily consist of product cost from the Company's suppliers, as well as inbound freight, import duties, taxes, insurance and logistics and other handling fees. Property, Plant and Equipment and Depreciation Property, plant and equipment are recorded at cost. Depreciation is determined on a straight-line basis for land imp…"
+   },
+   {
+    "chunk_id": "ch_96dbc5b769a82939",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Inventory balances of $5,261 million and $5,055 million at May 31, 2018 and 2017 , respectively, were substantially all finished goods. NOTE 3 — Property, Plant and Equipment Property, plant and equipment, net included the following: As of May 31, (In millions) 2018 2017 Land and improvements $ 331 $ 285 Buildings 2,195 1,564 Machinery, equipment and internal-use software 4,230 3,867 Leasehold improvements 1,494 1,484 Construction in process 641 758 Total property, plant and equipment, gross 8,891 7,958 Less accumulated depreciation 4,437 3,969 TOTAL PROPERTY, PLANT AND EQUIPMENT, NET $ 4,454 $ 3,989 Capitalized interest was not material for the years ended May 31, 2018 , 2017 and 2016 . NOTE 4 — Identifiable Intangible Assets and Goodwill Identifiable intangible assets, net consist of indefinite-lived trademarks, which are not subject to amortization, and acquired trademarks and other intangible assets, which are subject to amortization. The following table summarizes the Company's Id…"
+   }
+  ]
+ }
+}

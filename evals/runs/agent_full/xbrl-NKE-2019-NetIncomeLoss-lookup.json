@@ -1,0 +1,163 @@
+{
+ "item_id": "xbrl-NKE-2019-NetIncomeLoss-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "agent_full",
+ "status": "answered",
+ "answer": "In fiscal year 2019 (ended May 31, 2019), Nike's net income was $4,029 million.",
+ "confidence": 1.0,
+ "rationale": "Nike's Consolidated Statements of Income in its FY2019 Form 10-K report net income of $4,029 million for the fiscal year ended May 31, 2019.",
+ "citations": [
+  {
+   "source_id": "ch_3585d8ef8beaae62",
+   "quote": "NET INCOME $ 4,029 $ 1,933 $ 4,240",
+   "kind": "chunk",
+   "page": 52,
+   "values": [
+    "31",
+    "2019",
+    "2018",
+    "2017",
+    "39117",
+    "36397",
+    "34350",
+    "21643",
+    "20441",
+    "19038",
+    "17474",
+    "15956",
+    "15312",
+    "3753",
+    "3577",
+    "3341",
+    "8949",
+    "7934",
+    "7222",
+    "12702",
+    "11511",
+    "10563",
+    "49",
+    "54",
+    "59",
+    "78",
+    "66",
+    "196",
+    "4801",
+    "4325",
+    "4886",
+    "772",
+    "2392",
+    "646",
+    "4029",
+    "1933",
+    "4240",
+    "2.55",
+    "1.19",
+    "2.56",
+    "2.49",
+    "1.17",
+    "2.51",
+    "1579.7",
+    "1623.8",
+    "1657.8",
+    "1618.4",
+    "1659.1",
+    "1692.0",
+    "50"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 7,
+ "prompt_tokens": 35484,
+ "completion_tokens": 406,
+ "latency_ms": null,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$4,029 matches 4029 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 7,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1892,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"query\":\"net income\",\"fiscal_years\":[2019],\"ticker\":\"NKE\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 2220,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"section\":\"8\",\"ticker\":\"NKE\",\"query\":\"Net income\",\"fiscal_year\":2019}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 3815,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"fiscal_year\":2019,\"section\":\"8\",\"query\":\"CONSOLIDATED STATEMENTS OF INCOME\",\"ticker\":\"NKE\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 5154,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"query\":\"CONSOLIDATED STATEMENTS OF INCOME\",\"fiscal_year\":2019,\"ticker\":\"NKE\",\"section\":\"8\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "tokens": 6493,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"section\":\"8\",\"query\":\"CONSOLIDATED STATEMENTS OF INCOME\",\"fiscal_year\":2019,\"ticker\":\"NKE\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 5,
+   "tokens": 7824,
+   "tools": [
+    {
+     "name": "read_section",
+     "arguments": "{\"item\":\"8\",\"ticker\":\"NKE\",\"page\":52,\"fiscal_year\":2019}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 6,
+   "tokens": 8492,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"confidence\":1,\"answer\":\"In fiscal year 2019 (ended May 31, 2019), Nike's net income was $4,029 million.\",\"rationale\":\"Nike's Consolidated Statements of Income in its FY2019 Form 10-K report net income of $4,029 million for the fiscal year ended May 31, 2019.\",\"citations\":[{\"quote\":\"NET INCOME $ 4,029 $ 1,933 $ 4,240\",\"source_id\":\"ch_3585d8ef8beaae62\"}]}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Capital spending property plant and equipment investing activities",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_337f55c422e70ed5",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 64,
+    "text": "(359) 375 164 Net Cash Provided by Operating Activities 10,811 11,616 10,613 Investing Activities Capital spending (5,207) (4,625) (4,240) Sales of property, plant and equipment 251 166 55 Acquisitions, net of cash acquired, investments in noncontrolled affiliates and purchases of intangible and other assets (873) (61) (6,372) Proceeds associated with the Juice Transaction 3,456 — — Other divestitures, sales of investments in noncontrolled affiliates and other assets 49 169 6 Short-term investments, by original maturity: More than three months - purchases (291) — (1,135) More than three months - maturities 150 1,135 — Three months or less, net 24 (58) 27 Other investing, net 11 5 40 Net Cash Used for Investing Activities (2,430) (3,269) (11,619) (Continued on following page) 62"
+   },
+   {
+    "chunk_id": "ch_99fbdc46d7670476",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 47,
+    "text": "2021 of an extra month of net revenue for our acquisitions of Pioneer Foods in our AMESA division and Be & Cheery in our APAC division as we aligned the reporting calendars of these acquisitions with those of our divisions, as well as divestitures and other structural changes, including changes in ownership or control in consolidated subsidiaries and nonconsolidated equity investees. We believe organic revenue growth provides useful information in evaluating the results of our business because it excludes items that we believe are not indicative of ongoing performance or that we believe impact comparability with the prior year. See “Net Revenue and Organic Revenue Growth” in “Results of Operations – Division Review” for further information. Free cash flow We define free cash flow as net cash provided by operating activities less capital spending, plus sales of property, plant and equipment. Since net capital spending is essential to our product innovation initiatives and maintaining ou…"
+   },
+   {
+    "chunk_id": "ch_cfe4eff491630d5d",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 74,
+    "text": "All other countries 17,443 16,729 14,754 12,885 13,399 Total $ 86,392 $ 79,474 $ 70,372 $ 61,965 $ 62,080 (a) Long-lived assets represent property, plant and equipment, indefinite-lived intangible assets, amortizable intangible assets, investments in noncontrolled affiliates and other investments included in other assets. See Notes 2 and 14 for further information on property, plant and equipment. See Notes 2 and 4 for further information on goodwill and other intangible assets. See Note 14 for further information on other assets. Investments in noncontrolled affiliates are evaluated for impairment upon a significant change in the operating or macroeconomic environment. These assets are reported in the country where they are primarily used. (b) In 2021, the increase in net revenue reflects our acquisition of Be & Cheery. See Note 13 for further information. (c) In 2021, the increase in net revenue reflects our acquisition of Pioneer Foods. See Note 13 for further information. Note 2 — …"
+   },
+   {
+    "chunk_id": "ch_0a8886b0300b7224",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 76,
+    "text": "in property, plant and equipment on our balance sheet and amortized on a straight-line basis when placed into service over the estimated useful lives of the software, which approximate five to 10 years. Software amortization totaled $123 million in 2022, $135 million in 2021 and $152 million in 2020. Net capitalized software and development costs were $1.1 billion and $0.8 billion as of December 31, 2022 and December 25, 2021, respectively. Commitments and Contingencies We are subject to various claims and contingencies related to lawsuits, certain taxes and environmental matters, as well as commitments under contractual and other commercial obligations. We recognize liabilities for contingencies and commitments when a loss is probable and estimable. Research and Development We engage in a variety of research and development activities and continue to invest to accelerate growth and to drive innovation globally. Consumer research is excluded from research and development costs and incl…"
+   },
+   {
+    "chunk_id": "ch_971b4d9af753c9e5",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 53,
+    "text": "Table of Contents The table below summarizes our cash activity: 2022 2021 Net cash provided by operating activities $ 10,811 $ 11,616 Net cash used for investing activities $ (2,430) $ (3,269) Net cash used for financing activities $ (8,523) $ (10,780) Operating Activities In 2022, net cash provided by operating activities was $10.8 billion, compared to $11.6 billion in the prior year. The decrease in operating cash flow primarily reflects unfavorable working capital comparisons and higher net cash tax payments, partially offset by favorable operating profit performance and lower pre-tax pension and retiree medical plan contributions in the current year. Investing Activities In 2022, net cash used for investing activities was $2.4 billion, primarily reflecting net capital spending of $5.0 billion and our investment in Celsius Holdings, Inc. (Celsius) convertible preferred stock and agreement to distribute Celsius energy drinks of $0.8 billion, partially offset by proceeds associated wi…"
+   }
+  ]
+ }
+}

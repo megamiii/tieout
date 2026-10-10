@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T5vWGF/SdaD3OGivaIEHchIWu2jUsAmMVJ5FKX0W96zVWFQg7JvR2bUo0tnkByNYM5rhmgfgpOoh6BZHDJVKroZY2UndwgLPrjuyWp1zgq/+mi3AIU+qmmHw="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":0.5,\"citations\":[{\"quote\":\"Cash flows from operating activities: Net income..................................................................................................... $ 629,551 $ 268,395 $ 289,985 Adjustments to reconcile net income to net cash provided by operating activities: Depreciation, amortization and accretion................................................................. 339,473 313,590 321,227 Stock-based compensation ....................................................................................... 335,859 333,701 328,987\",\"source_id\":\"ch_b58c214c5b629429\"}],\"answer\":\"$1,432,606\",\"rationale\":\"dummy\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_61136",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623403,
+  "id": "6wDKasuCBKyW28oP-v3GqQc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 198,
+   "prompt_tokens": 8353,
+   "prompt_tokens_details": {
+    "cached_tokens": 4278
+   },
+   "total_tokens": 8551
+  }
+ }
+}

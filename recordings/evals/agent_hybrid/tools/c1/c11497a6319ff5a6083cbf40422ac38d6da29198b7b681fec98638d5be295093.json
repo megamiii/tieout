@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "debt securities registered to trade on a national securities exchange",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_be100a0df7bbbe13",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 118,
+    "text": "Unrealized Losses Estimated Fair Value Available-for-sale debt securities: State and municipal obligations $ 64 $ — $ (10) $ 54 $ 106 $ 5 $ — $ 111 U.S. Government agency obligations 5 — — 5 6 — — 6 U.S. Government treasury obligations 3,859 — (73) 3,786 1,680 25 (1) 1,704 Mortgage-backed securities 13 — — 13 17 1 — 18 Foreign government bonds and obligations 633 — (1) 632 630 — — 630 Other 47 — — 47 43 — — 43 Equity securities 50 — (9) 41 66 17 (4) 79 Total $ 4,671 $ — $ (93) $ 4,578 $ 2,548 $ 48 $ (5) $ 2,591 (a) Represents mortgage-backed securities guaranteed by Fannie Mae, Freddie Mac or Ginnie Mae. (b) Represents investments in debt securities issued by Community Development Financial Institutions. Investments as of December 31, 2021 also include corporate debt securities. (c) Equity securities comprise investments in common stock, exchange-traded funds and mutual funds. The following table provides information about our available-for-sale debt securities with gross unrealized lo…"
+   },
+   {
+    "chunk_id": "ch_be2977e23ffce4f4",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "front",
+    "page": 1,
+    "text": "UNITED STATES SECURITIES AND EXCHANGE COMMISSION Washington, D.C. 20549 Form 10-K ☑ ANNUAL REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the fiscal year ended December 31, 2022 OR ☐ TRANSITION REPORT PURSUANT TO SECTION 13 OR 15(d) OF THE SECURITIES EXCHANGE ACT OF 1934 For the transition period from to Commission File No. 1-7657 American Express Company (Exact name of registrant as specified in its charter) New York 13-4922250 (State or other jurisdiction of incorporation or organization) (I.R.S. Employer Identification No.) 200 Vesey Street New York, New York 10285 (Address of principal executive offices) (Zip Code) Registrant's telephone number, including area code: (212) 640-2000 Securities registered pursuant to Section 12(b) of the Act: Title of each class Trading Symbol(s) Name of each exchange on which registered Common Shares (par value $0.20 per Share) AXP New York Stock Exchange Securities registered pursuant to section 12(g) of the Act: N…"
+   },
+   {
+    "chunk_id": "ch_88c09e0b331a39df",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "front",
+    "page": 1,
+    "text": "Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports) and (2) has been subject to such filing requirements for the past 90 days. Yes þ No o Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§ 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). Yes þ No o Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company” and “emerging growth company” in Rule 12b-…"
+   },
+   {
+    "chunk_id": "ch_c9c74847235c67c8",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 118,
+    "text": "Table of Contents NOTE 4 INVESTMENT SECURITIES Investment securities principally include available-for-sale debt securities carried at fair value on the Consolidated Balance Sheets. The methodology for estimating credit losses for available for sale debt securities requires us to estimate lifetime credit losses for all available-for-sale debt securities in an unrealized loss position. When estimating a security's probability of default and the recovery rate, we assess the security's credit indicators, including credit ratings. If our assessment indicates that an estimated credit loss exists, we determine the portion of the unrealized loss attributable to credit deterioration and record a reserve for the estimated credit loss through the Consolidated Statements of Income in Other loans Provision for credit losses. Unrealized gains and any portion of a security's unrealized loss attributable to non-credit losses are recorded in the Consolidated Statements of Comprehensive Income, net of …"
+   },
+   {
+    "chunk_id": "ch_9a158aadda1e89c8",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 136,
+    "text": "Table of Contents The following table presents the gains and losses recognized in Interest expense on the Consolidated Statements of Income associated with the fair value hedges of our fixed-rate long-term debt for the years ended December 31: Gains (losses) (Millions) 2022 2021 2020 Fixed-rate long-term debt $ 473 $ 385 $ (405) Derivatives designated as hedging instruments (476) (385) 409 Total $ (3) $ — $ 4 The carrying values of the hedged liabilities, recorded within Long-term debt on the Consolidated Balance Sheets, were $7.8 billion and $13.1 billion as of December 31, 2022 and 2021, respectively, including the cumulative amount of fair value hedging adjustments of $(236) million and $237 million for the respective periods. We recognized in Interest expense on Long-term debt a net decrease of $57 million for the year ended December 31, 2022 and net decreases of $256 million for both the years ended December 31, 2021 and 2020. These were primarily related to the net settlements in…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net sales Total revenues December 31, 2018",
+  "ticker": "CVS",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_9e3343d7d00e60c7",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 267,
+    "text": "1,305 24.5 % Commentary - 2018 compared to 2017 Revenues • Total revenues increased $9.8 billion or 5.3% in 2018 compared to 2017 . The increase in total revenues was due to a 2.7% increase in Pharmacy Services segment revenue, a 5.8% increase in Retail/LTC segment revenue and the impact of the Aetna Acquisition (primarily reflected in the Health Care Benefits segment) which occurred in November 2018. • Please see “Segment Analysis” later in this document for additional information about the revenues of the Company's segments. Operating expenses (including goodwill impairments) • Operating expenses increased $8.5 billion or 44.9% in 2018 compared to 2017 . The increase in operating expenses was primarily due to higher operating expenses in the Retail/LTC segment including increased goodwill impairment charges in 2018, the impact of the Aetna Acquisition and an increase in acquisition-related transaction and integration costs. The increase was partially offset by a lack of charges assoc…"
+   },
+   {
+    "chunk_id": "ch_03bb3948d30bc79b",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 332,
+    "text": "The Company's consolidated results of operations for the year ended December 31, 2018 , include $5.6 billion of revenues and $146 million of income before income tax provision associated with the results of operations of Aetna from the Aetna Acquisition Date to December 31, 2018 . During the year ended December 31, 2018 and 2017 , the Company incurred transaction costs of $147 million and $34 million , respectively, associated with the Aetna Acquisition that were recorded within operating expenses. Unaudited pro forma financial information The following unaudited pro forma information presents a summary of the Company's combined results of operations for the years ended December 31, 2018 and 2017 as if the Aetna acquisition and the related financing transactions had occurred on January 1, 2017 . The following pro forma financial information is not necessarily indicative of the results of operations as they would have been had the acquisition been effected on the assumed date, nor is it…"
+   },
+   {
+    "chunk_id": "ch_8312978bbf8b32f9",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 371,
+    "text": "Pharmacy Retail/ Health Care Corporate/ Intersegment Consolidated In millions Services (1)(2) LTC (2) Benefits (2) Other Eliminations (2) Totals 2018: Revenues from customers $ 134,115 $ 83,989 $ 5,504 $ 4 $ (29,693) $ 193,919 Net investment income (3) 13 — 45 602 — 660 Total revenues 134,128 83,989 5,549 606 (29,693) 194,579 Operating income (loss) (4)(5) 4,699 620 276 (805) (769) 4,021 Depreciation and amortization 712 1,698 170 138 — 2,718 Additions to property and equipment 326 1,350 46 401 — 2,123 2017: Revenues from customers 130,596 79,398 — — (25,229) 184,765 Net investment income 5 — — 16 — 21 Total revenues (7) 130,601 79,398 — 16 (25,229) 184,786 Operating income (loss) (4)(5)(7) 4,657 6,558 — (936) (741) 9,538 Depreciation and amortization 712 1,651 — 116 — 2,479 Additions to property and equipment 311 1,398 — 340 — 2,049 2016: Revenues from customers 119,963 81,100 — — (23,537) 177,526 Net investment income 2 — — 18 — 20 Total revenues (7) 119,965 81,100 — 18 (23,537) 177,…"
+   },
+   {
+    "chunk_id": "ch_8329ecc3054be0bc",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 275,
+    "text": "Retail/LTC Segment The following table summarizes the Retail/LTC segment's performance for the respective periods: Change Year Ended December 31, 2018 vs. 2017 2017 vs. 2016 In millions 2018 2017 2016 $ % $ % Revenues Products $ 83,175 $ 78,522 $ 80,275 $ 4,653 5.9 % $ (1,753) (2.2)% Services 814 876 825 (62) (7.1)% 51 6.2 % Total revenues 83,989 79,398 81,100 4,591 5.8 % (1,702) (2.1)% Cost of products sold (1) 59,906 56,066 57,339 3,840 6.8 % (1,273) (2.2)% Operating expenses (2)(3)(4)(5)(6) 23,463 16,774 16,324 6,689 39.9 % 450 2.8 % Operating expenses % of revenues 27.9% 21.1 % 20.1 % Operating income (1)(2)(3)(4)(5)(6) $ 620 $ 6,558 $ 7,437 $ (5,938) (90.5)% $ (879) (11.8)% Operating income % of revenues 0.7% 8.3 % 9.2 % Revenues (by major goods/service line): Pharmacy $ 64,179 $ 59,528 $ 60,838 $ 4,651 7.8 % $ (1,310) (2.2)% Front Store 19,055 18,769 19,123 286 1.5 % (354) (1.9)% Other 755 1,101 1,139 (346) (31.4)%"
+   },
+   {
+    "chunk_id": "ch_1801a23bead74948",
+    "ticker": "CVS",
+    "fiscal_year": 2018,
+    "section": "Item 16",
+    "page": 276,
+    "text": "Commentary - 2018 compared to 2017 Revenues • Total revenues increased approximately $4.6 billion , or 5.8% , to $84.0 billion in 2018 compared to 2017 . The increase was primarily driven by increased prescription volume and brand name drug price inflation, partially offset by continued reimbursement pressure and the impact of recent generic introductions. • As you review the Retail/LTC segment's performance in this area, you should consider the following important information about the business: • Front store same store sales increased 0.5% in 2018 compared to 2017 . Front store sales in 2018 continued to benefit from increases in health product sales. • Pharmacy same store sales increased 7.9% in 2018 compared to 2017 . The increase was driven by the 9.1% increase in pharmacy same store prescription volumes on a 30-day equivalent basis due to (i) continued adoption of patient care programs, (ii) collaborations with PBMs, and (iii) the Company's preferred status in a number of Medicar…"
+   }
+  ]
+ }
+}

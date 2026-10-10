@@ -1,0 +1,37 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "ADBE",
+  "fiscal_year": 2017,
+  "item": "8",
+  "page": 60
+ },
+ "output": {
+  "ticker": "ADBE",
+  "fiscal_year": 2017,
+  "item": "8",
+  "title": "Financial Statements and Supplementary Data",
+  "page": 60,
+  "item_pages": [
+   56,
+   98
+  ],
+  "chunks": [
+   {
+    "chunk_id": "ch_db3a3b92916659c2",
+    "page": 60,
+    "text": "Table of Contents 60 ADOBE SYSTEMS INCORPORATED CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY (In thousands) Common Stock Additional Paid-In Capital Retained Earnings Accumulated Other Comprehensive Income (Loss) Treasury Stock Shares Amount Shares Amount Total Balances at November 28, 2014 600,834 $ 61 $ 3,778,495 $ 6,924,294 $ (8,094) (103,350) $(3,918,851) $ 6,775,905 Net income — — — 629,551 — — — 629,551 Other comprehensive income (losses), net of taxes — — — — (160,986) — — (160,986) Re-issuance of treasury stock under stock compensation plans — — — (300,414) — 8,429 278,311 (22,103) Tax benefit from employee stock plans — — 68,133 — — — — 68,133 Purchase of treasury stock — — — — — (8,104) (625,000) (625,000) Equity awards assumed for acquisition — — 677 — — — — 677 Stock-based compensation — — 337,578 — — — — 337,578 Value of shares in deferred compensation plan — — — — — — (2,175) (2,175) Balances at November 27, 2015 600,834 $ 61 $ 4,184,883 $ 7,253,431 $ (169,080) (103,025) $(4,267,715) $ 7,001,580 Net income — — — 1,168,782 — — — 1,168,782 Other comprehensive income (losses), net of taxes — — — — (4,522) — — (4,522) Re-issuance of treasury stock under stock compensation plans — — 7,365"
+   },
+   {
+    "chunk_id": "ch_856092fe6f5fec9e",
+    "page": 60,
+    "text": "1,168,782 Other comprehensive income (losses), net of taxes — — — — (4,522) — — (4,522) Re-issuance of treasury stock under stock compensation plans — — 7,365 (307,696) — 6,872 209,628 (90,703) Tax benefit from employee stock plans — — 75,102 — — — — 75,102 Purchase of treasury stock — — — — — (10,427) (1,075,000) (1,075,000) Stock-based compensation — — 348,981 — — — — 348,981 Value of shares in deferred compensation plan — — — — — — 615 615 Balances at December 2, 2016 600,834 $ 61 $ 4,616,331 $ 8,114,517 $ (173,602) (106,580) $(5,132,472) $ 7,424,835 Net income — — — 1,693,954 — — — 1,693,954 Other comprehensive income (losses), net of taxes — — — — 61,781 — — 61,781 Re-issuance of treasury stock under stock compensation plans — — 1,768 (234,601) — 5,194 151,058 (81,775) Purchase of treasury stock — — — — — (8,186) (1,100,000) (1,100,000) Equity awards assumed for acquisition — — 10,348 — — — — 10,348 Stock-based compensation — — 453,748 — — — — 453,748 Value of shares in deferred compensation plan — — — — — — (3,022) (3,022) Balances at December 1, 2017"
+   },
+   {
+    "chunk_id": "ch_d9b8b9fd5bf0a3cb",
+    "page": 60,
+    "text": "— — 453,748 — — — — 453,748 Value of shares in deferred compensation plan — — — — — — (3,022) (3,022) Balances at December 1, 2017 600,834 $ 61 $ 5,082,195 $ 9,573,870 $ (111,821) (109,572) $(6,084,436) $ 8,459,869 See accompanying Notes to Consolidated Financial Statements."
+   }
+  ]
+ }
+}

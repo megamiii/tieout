@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer is incorrect because it claims the information is unavailable, whereas the gold answer demonstrates that the metric can be derived from the 10-K data and shows an improvement.\", \"verdict\": \"incorrect\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0T7StjZG4x5Z97/m6BugCmaxpJHrHwQxMDLwsPEux2j1IZK24yrg0hQnWtGdKF5sEb5o4+WboOQB8MuZ2eOVmGCRN0aaBNd3Lyes4ZYQwSp9iFkyXMWE/6e7iF0T6zUOitZKabzaNjsjOkgl+W"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623751,
+  "id": "OwLKatHhIaKExN8P9PeS6AY",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 48,
+   "prompt_tokens": 299,
+   "total_tokens": 347
+  }
+ }
+}

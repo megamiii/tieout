@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "retention rate",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7e1351d9f434c397",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 9,
+    "text": "Throughout 2022, we launched Amex Flex across our offices, where, depending on role and business needs, colleagues can work in the office, at home or take a hybrid approach that combines both. This approach is designed to enable us to both broaden the talent pool from which we can attract candidates and increase colleague retention. We conduct an annual Colleague Experience Survey to better understand our colleagues' needs and overall experience at American Express and in 2022, 92 percent of colleagues who participated in the survey said they would recommend American Express as a great place to work. Our 2022 annual company scorecard included talent retention, colleague engagement and diversity representation goals. As of December 31, 2022, women represented 53.7 percent of our global workforce and Asian, Black/African American and Hispanic/Latinx people represented 18.7 percent, 17.9 percent and 14.2 percent, respectively, of our U.S. workforce based on preliminary data for our 2022 U…"
+   },
+   {
+    "chunk_id": "ch_c943c1a6484429a4",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 45,
+    "text": "in our Commercial Services segment grew by 21 percent on a year-over-year basis, reflecting continued growth from U.S. small and mid-sized enterprise customers, as well as continued steady recovery in spending by our U.S. large and global corporate clients. International billed business grew by 23 percent year-over-year (36 percent on an FX-adjusted basis ), driven by a strong recovery in spend across both consumer and commercial customers. T&E spending momentum remained strong throughout the year, while year-over-year Goods & Services spending growth slowed towards the end of the year following the large pandemic recovery growth rates experienced earlier in the year. Inflation was a modest contributor to our strong billed business growth, while the continuing strengthening of the U.S. dollar, relative to the prior year, against most major currencies in which we operate, had a negative impact on our international billings. Total revenues net of interest expense increased 25 percent yea…"
+   },
+   {
+    "chunk_id": "ch_36c0393273246771",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 115,
+    "text": "collection efforts. Future recoveries are estimated taking into consideration the time of default, time elapsed since default and macroeconomic conditions. We also estimate the likelihood and magnitude of recovery of previously written off accounts considering how long ago the account was written off and future economic conditions, even if such expected recoveries exceed expected losses. Our models are developed using historical loss experience covering the economic cycle and consider the impact of account characteristics on expected losses. Future economic conditions that are incorporated over the R&S Period include multiple macroeconomic scenarios provided to us by an independent third party. Management reviews these economic scenarios each period and applies judgment to weight them in order to reflect the uncertainty surrounding these scenarios. These macroeconomic scenarios contain certain variables, including unemployment rates and real gross domestic product (GDP), that are signi…"
+   },
+   {
+    "chunk_id": "ch_329ff24701788679",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 9,
+    "text": "Table of Contents Our Colleagues We are focused on our culture built on supportive relationships and an inclusive workplace, where colleagues can feel welcome and heard, and are provided with opportunities to grow and thrive. As a result, we believe our colleagues are more engaged, committed, creative and effective in driving results. At the heart of our culture is what we call our Blue Box Values – a set of guiding principles that serve as the foundation for how we operate: We Do What's Right We Embrace Diversity We Back Our Customers We Stand for Equity and Inclusion We Make It Great We Win as A Team We Respect People We Support Communities As of December 31, 2022, we employed approximately 77,300 people, whom we refer to as colleagues, with approximately 26,000 colleagues in the United States and approximately 51,300 colleagues outside the United States. We added colleagues in 2022 to support our strong business growth. To attract and retain the best talent, we strive to offer a com…"
+   },
+   {
+    "chunk_id": "ch_6925f042ce9c16ef",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 48,
+    "text": "$ 3,601 # % $ (6,149) # % # Denotes a variance of 100 percent or more (a) Refer to the “Glossary of Selected Terminology” for a definition of reserve build (release). (b) Relates to Other loans of $5.4 billion, $2.9 billion and $2.9 billion less reserves of $59 million, $52 million and $238 million, as of December 31, 2022, 2021 and 2020, respectively. (c) Relates to Other receivables included in Other assets on the Consolidated Balance Sheets of $3.1 billion, $2.7 billion and $3.0 billion, less reserves of $22 million, $25 million and $85 million as of December 31, 2022, 2021 and 2020, respectively. PROVISIONS FOR CREDIT LOSSES Card Member loans and receivables provisions for credit losses increased, primarily due to reserve builds in the current year, versus reserve releases in the prior year. The reserve builds in the current year were primarily driven by increases in loans and receivables outstanding, higher delinquencies and changes in macroeconomic forecasts, partially offset by …"
+   }
+  ]
+ }
+}

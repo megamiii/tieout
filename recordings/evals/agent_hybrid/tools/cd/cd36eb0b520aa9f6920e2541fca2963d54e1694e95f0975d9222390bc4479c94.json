@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "major customer",
+  "ticker": "AMD",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_1f109af9f66d9776",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 69,
+    "text": "Table of Contents The following table summarizes sales to major customers that accounted for at least 10% of the Company's consolidated net revenue for the respective years: Year Ended December 31, 2022 December 25, 2021 December 26, 2020 Customer A 16 % 14 % * Customer B * 11 % * Less than 10% Sales to customers A and B consisted of sales of products from the Gaming and Client segments, respectively. The following table summarizes Property and equipment, net by geographic areas: December 31, 2022 December 25, 2021 (In millions) United States $ 1,102 $ 486 Canada 80 105 China 42 35 Singapore 132 35 India 67 11 Ireland 48 — Other countries 42 30 Total property and equipment, net $ 1,513 $ 702 NOTE 5 – Business Combinations Pensando Acquisition On May 26, 2022, the Company completed the acquisition of all issued and outstanding shares of Pensando, a leader in next-generation distributed computing, for a transaction valued at approximately $1.9 billion. The recorded purchase consideration…"
+   },
+   {
+    "chunk_id": "ch_38ebe4d89e09b3ea",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 38,
+    "text": "customers. For example, our Santa Clara and San Jose operations are located near major earthquake fault lines in California. Also, we have operations and employees in regions that have experienced extreme weather such as prolonged heat waves, wildfires and freezing. Extreme weather events can also disrupt the ability of our suppliers to deliver expected manufacturing parts and/or services for periods of time. There may be conflict or uncertainty in the countries in which we operate, including public health issues (for example, an outbreak of a contagious disease such as COVID-19, avian influenza, measles or Ebola), safety issues, natural disasters, fire, disruptions of service from utilities, nuclear power plant accidents or general economic or political factors. For example, governments worldwide have implemented, and continue to implement, measures to slow down the outbreak of COVID-19. We have experienced, and will continue to experience, disruptions to our business as these measure…"
+   },
+   {
+    "chunk_id": "ch_07685cdb84671c0f",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 60,
+    "text": "Non-custom products The Company transfers control and recognizes revenue when non-custom products are shipped to customers, which includes original equipment manufacturers (OEM) and distributors, in accordance with the shipping terms of the sale. Non-custom product arrangements generally comprise a single performance obligation. Certain OEMs may be entitled to rights of return and rebates under OEM agreements. The Company also sells to distributors under terms allowing the majority of distributors certain rights of return and price protection on unsold merchandise held by them. The Company estimates the amount of variable consideration under OEM and distributor arrangements and, accordingly, records a provision for product returns, allowances for price protection and rebates based on actual historical experience and any known events. 57"
+   },
+   {
+    "chunk_id": "ch_b7008cb44bfb8d02",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 12,
+    "text": "Table of Contents We also work with our customers to create differentiated products that leverage our CPU, GPU and APU technology. Certain customers pay us non-recurring engineering fees for design and development services and a purchase price for the resulting products. One customer accounted for 16% of our consolidated net revenue for the year ended December 31, 2022. Sales to this customer consisted of sales of products from our Gaming segment. A loss of this customer would have a material adverse effect on our business. Original Equipment Manufacturers We focus on three types of OEM partners: multi-nationals, selected regional accounts and selected global and local system integrators, who target commercial and consumer end customers of all sizes. Large multi-nationals and regional accounts are the core of our OEM partners' business; however, we are increasingly focused on the VAR channel which resells OEM systems to the mid-market and the small and medium business (SMB) segments. A…"
+   },
+   {
+    "chunk_id": "ch_c2f8ae1df90738db",
+    "ticker": "AMD",
+    "fiscal_year": 2022,
+    "section": "Item 1",
+    "page": 11,
+    "text": "online and brick and mortar retailers. Our graphics product customers include the foregoing as well as add-in-board manufacturers (AIBs). Customers of our chipset products consist primarily of PC OEMs, often through ODMs or other contract manufacturers, who build the OEM motherboards, as well as desktop and server motherboard manufacturers who incorporate chipsets into their channel motherboards. Our FPGA and Adaptive SOC products are sold to customers in a very wide range of markets such as Aerospace and Defense, Test and Measurement, Industrial, Automotive, Consumers, Broadcast, Communication Infrastructure and Data Center. For these products we either sell directly to our customers or through a network of distributors and OEM partners. We are also developing a network of Value Added Resellers (VARs) and Integrated Solution Vendors (ISVs) for our Alveo products. We work closely with our customers to define product features, performance and timing of new products so that the products …"
+   }
+  ]
+ }
+}

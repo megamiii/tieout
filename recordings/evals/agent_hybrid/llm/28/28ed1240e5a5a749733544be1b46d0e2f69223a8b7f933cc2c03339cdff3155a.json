@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TBytxtzPProFARYYhDsTifcym6t95vCoVwhkBZXAFpbRXLYSvfEmEXdPv0qFpiJ2npInI+1jqTgwQjf2pd7lE6EUDKNAmOaj4Gd/Poc0MiRoIhobnfxoDu2s="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"confidence\":1,\"rationale\":\"Used Adobe's Consolidated Statements of Income for FY2020, FY2021, and FY2022 to compute operating margins (Operating Income divided by Total Revenue). The profile shows overall improvement from 2020 to 2022.\",\"answer\":\"Adobe does have a useful and improving operating margin profile as of FY2022. \\n\\nBased on Adobe's Consolidated Statements of Income:\\n- **FY2020:** Operating Income of $4,237 million on Total Revenue of $12,868 million gives an operating margin of **32.93%**.\\n- **FY2021:** Operating Income of $5,802 million on Total Revenue of $15,785 million gives an operating margin of **36.76%**.\\n- **FY2022:** Operating Income of $6,098 million on Total Revenue of $17,606 million gives an operating margin of **34.64%** (or **34.6%**).\\n\\nWhile the operating margin dipped slightly from FY2021 to FY2022, the multi-year trend shows significant improvement from FY2020 to FY2022. Operating margin is a very useful and standard metric for software companies like Adobe because it measures the profitability of core business operations relative to total revenues.\",\"citations\":[{\"source_id\":\"ch_ee934cda3730c264\",\"quote\":\"Operating income 6,098 5,802 4,237\"},{\"source_id\":\"ch_ee934cda3730c264\",\"quote\":\"Total revenue 17,606 15,785 12,868\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_58170",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621863,
+  "id": "5frJaqLrOpyAxs0Phb3owQk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 433,
+   "prompt_tokens": 10430,
+   "total_tokens": 10863
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies that no debt securities were registered under Section 12(b) and provides additional context that aligns with the gold answer's conclusion.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TnTZl7OlT75ETgmYid+q27KgkrxA20cn9Gef41XWNTUtpfiBq8vNjUy8IqSbvz1DgOf4rZweRlqXBfQbqJIyM7q/cqSRo19IJ73zS5ZVlbpmOI1tlxkiaf5smYi3pkxIwcmldSvWJ4+tJT+It"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623657,
+  "id": "3gHKauq2NO-FxN8PttHmmAU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 242,
+   "total_tokens": 286
+  }
+ }
+}

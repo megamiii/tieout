@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "capital expenditures property plant equipment purchases ADBE",
+  "ticker": "ADBE",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_61e461528da204c1",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 80,
+    "text": "ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 80 NOTE 6. PROPERTY AND EQUIPMENT Property and equipment, net consisted of the following as of November 27, 2015 and November 28, 2014 (in thousands): 2015 2014 Computers and equipment ............................................................................................ $ 940,057 $ 855,218 Furniture and fixtures.................................................................................................... 89,434 82,385 Server hardware under capital lease.............................................................................. — 25,703"
+   },
+   {
+    "chunk_id": "ch_6e31e82b88826f46",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 80,
+    "text": "on the sale of the property assets was included in interest and other income (expense), net in our Consolidated Statements of Income. In August 2014, we exercised our option to purchase the East and West Towers of our corporate headquarter offices for a total purchase price of $143.2 million. We capitalized the East and West Towers as property and equipment on our Consolidated Balance Sheets at $144.1 million, the lesser of cost or fair value, which represented the total purchase price plus other direct costs associated with the purchase. These buildings are depreciated over their useful life of 40 years on a straight-line basis. NOTE 7. GOODWILL AND PURCHASED AND OTHER INTANGIBLES Goodwill by reportable segment and activity for the years ended November 27, 2015 and November 28, 2014 was as follows (in thousands): 2013 Acquisitions Other(1) 2014 Acquisitions Other(1) 2015 Digital Media....................... $2,049,726 $ 12,510 $ (4,838) $2,057,398 $ 747,964 $ (9,060) $2,796,302 Digita…"
+   },
+   {
+    "chunk_id": "ch_bc543b86d303ee0c",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 63,
+    "text": "Acquisitions, net of cash acquired ................................................................................. (826,004) (29,802) (704,589) Purchases of property and equipment............................................................................ (184,936) (148,332) (188,358) Proceeds from sale of property ...................................................................................... 57,779 — 24,260 Purchases of long-term investments, intangibles and other assets ................................ (22,779) (17,572) (67,737)"
+   },
+   {
+    "chunk_id": "ch_1d56a97319c8f4b7",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 80,
+    "text": "Less accumulated depreciation and amortization ......................................................... (971,195) (914,034) Property and equipment, net....................................................................................... $ 787,421 $ 785,123 Depreciation and amortization expense of property and equipment for fiscal 2015, 2014 and 2013 was $146.3 million, $144.2 million and $144.7 million, respectively. In the second quarter of fiscal 2015, management approved a plan to sell land and an unoccupied building located in San Jose, California. The total carrying value of the property assets was $36.3 million which mostly pertained to the land. The decision to sell these property assets was largely based upon a general lack of operational needs for the building and land, and recent improvements in market conditions for commercial real estate in the area. We began to actively market the assets during the second quarter of fiscal 2015 and finalized the sale of these assets on …"
+   },
+   {
+    "chunk_id": "ch_12168f8ccc611a8c",
+    "ticker": "ADBE",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 52,
+    "text": "52 Cash Flows from Investing Activities For fiscal 2015, net cash used for investing activities of $1.49 billion was primarily due to purchases of short-term investments and our acquisition of Fotolia. Other uses of cash during fiscal 2015 represented purchases of property and equipment, and long- term investments and other assets. These cash outflows were offset in part by sales and maturities of short-term investments and proceeds received from the sale of certain property assets. See Note 2 and Note 6 of our Consolidated Financial Statements for more detailed information regarding our acquisition of Fotolia and sale of property assets, respectively. For fiscal 2014, net cash used for investing activities of $490.7 million was primarily due to purchases of short-term investments, purchases of property and equipment and a business acquisition. These cash outflows were offset in part by sales and maturities of short-term investments. For fiscal 2013, net cash used for investing activit…"
+   }
+  ]
+ }
+}

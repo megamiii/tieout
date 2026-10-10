@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Research and Development (in millions) 2020 2019",
+  "ticker": "AMCR",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_8c49cc35a8103680",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 29,
+    "text": "0.9%, favorable volumes of 0.4%, and unfavorable price/mix of 7.7%. Consolidated Gross Profit (in millions) 2020 2019 Gross profit $ 2,535.5 $ 1,799.1 Gross profit as a percentage of net sales 20.3 % 19.0 % Gross profit increased by $736.4 million, or 40.9%, to $2,535.5 million for fiscal year 2020, from $1,799.1 million for fiscal year 2019. The increase was primarily in the Flexibles reporting segment driven by the Bemis acquisition. Consolidated Selling, General and Administrative (\"SG&A\") Expense (in millions) 2020 2019 SG&A expenses $ (1,384.8) $ (999.0) SG&A expenses as a percentage of net sales (11.1)% (10.6)% SG&A increased by $385.8 million, or 38.6%, to $1,384.8 million for fiscal year 2020, from $999.0 million for fiscal year 2019. The increase was primarily in the Flexibles reporting segment and Other driven by the Bemis acquisition, including related transaction and integration cost impacts. Consolidated Research and Development (\"R&D\") Expense (in millions) 2020 2019 R&D …"
+   },
+   {
+    "chunk_id": "ch_9cc5bf16c10372cf",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 29,
+    "text": "Research and development costs increased by $33.3 million, or 52.0%, to $97.3 million for fiscal year 2020, from $64.0 million for fiscal year 2019. The increase was primarily driven by the addition of the Bemis cost base and timing of project costs. Consolidated Restructuring and Related Expense (in millions) 2020 2019 Restructuring and related expenses $ (115.1) $ (130.8) Restructuring and related expenses as a percentage of net sales (0.9)% (1.4)% Restructuring and related costs decreased by $15.7 million to $115.1 million for fiscal year 2020, from $130.8 million for fiscal year 2019. The decrease was primarily driven by a reduction in restructuring activities in connection with the 2018 Rigid Packaging Restructuring Plan. 29"
+   },
+   {
+    "chunk_id": "ch_4da5a7022574af86",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 48,
+    "text": "Amcor plc and Subsidiaries Consolidated Statement of Income (in millions, except per share data) For the years ended June 30, 2020 2019 2018 Net sales $ 12,467.5 $ 9,458.2 $ 9,319.1 Cost of sales (9,932.0) (7,659.1) (7,462.3) Gross profit 2,535.5 1,799.1 1,856.8 Operating expenses: Selling, general, and administrative expenses (1,384.8) (999.0) (793.2) Research and development expenses (97.3) (64.0) (72.7) Restructuring and related expenses (115.1) (130.8) (40.2) Other income, net 55.7 186.4 43.2 Operating income 994.0 791.7 993.9 Interest income 22.2 16.8 13.1 Interest expense (206.9) (207.9) (210.0) Other non-operating income (loss), net 15.9 3.5 (74.1) Income from continuing operations before income taxes and equity in income (loss) of affiliated companies 825.2 604.1 722.9 Income tax expense (186.9) (171.5) (118.8) Equity in income (loss) of affiliated companies, net of tax (14.0) 4.1 (17.5) Income from continuing operations 624.3 436.7 586.6 Income (loss) from discontinued operati…"
+   },
+   {
+    "chunk_id": "ch_167519ca8a884d81",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Consolidated Other Income, Net (in millions) 2020 2019 Other income, net $ 55.7 $ 186.4 Other income, net, as a percentage of net sales 0.4 % 2.0 % Other income, net decreased by $130.7 million to $55.7 million for fiscal year 2020, from $186.4 million for fiscal year 2019. The decrease was mainly driven by nonrecurrence of remedy disposal related gains in the fiscal year 2019. Consolidated Interest Income (in millions) 2020 2019 Interest income $ 22.2 $ 16.8 Interest income as a percentage of net sales 0.2 % 0.2 % Interest income increased by $5.4 million, or 32.1%, to $22.2 million for fiscal year 2020, from $16.8 million for fiscal year 2019, mainly driven by higher cash balances during the period and negative interest rates on a portion of Euro denominated borrowings. Consolidated Interest Expense (in millions) 2020 2019 Interest expense $ (206.9) $ (207.9) Interest expense as a percentage of net sales (1.7)% (2.2)% Interest expense remained relatively stable at $206.9 million for …"
+   },
+   {
+    "chunk_id": "ch_9b379c8f6c60a41d",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 54,
+    "text": "amounts of assets and liabilities at the date of the consolidated financial statements and the reported amounts of revenues and expenses during the reporting periods. These estimates are based on historical experience and various assumptions believed to be reasonable under the circumstances. Management evaluates these estimates on an ongoing basis and adjusts or revises the estimates as circumstances change. As future events and their impacts cannot be determined with precision, actual results may differ from these estimates. In the opinion of management, the consolidated financial statements reflect all adjustments necessary to fairly present the results of the periods presented. The impact that the 2019 Novel Coronavirus (\"COVID-19\") pandemic will have on the Company's consolidated operations is uncertain. The Company has considered the potential impacts of the COVID-19 pandemic when developing the Company's estimates and judgements as of June 30, 2020, and will continue to evaluate …"
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tje9W3Svhz5R7W5vl+/JFs5SaqKM7KhhmBBSUz41y+oxSL0AGaycX2akIcCuRmq4/S7JDzOwxvn63/30+ZmQ1D2/y7ktPvu5msIllVzces+PfiW/UINgGt8g="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"GLW\",\"fiscal_year\":2020,\"query\":\"Consolidated Balance Sheets Corning Incorporated December 31 accounts payable inventories\"}",
+        "name": "search_filings"
+       },
+       "id": "call_70099",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623540,
+  "id": "dAHKap_RHZGF28oPzbuX-Ag",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 4961,
+   "total_tokens": 5006
+  }
+ }
+}

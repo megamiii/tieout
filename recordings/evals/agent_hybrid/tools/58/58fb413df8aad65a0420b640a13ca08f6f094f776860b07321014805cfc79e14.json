@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "legal proceedings",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_3829c9d1997f0b3d",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 3",
+    "page": 26,
+    "text": "Item 3. Legal Proceedings. We and our subsidiaries are party to a variety of litigation, claims, legal or regulatory proceedings, inquiries and investigations. While the results of such litigation, claims, legal or regulatory proceedings, inquiries and investigations cannot be predicted with certainty, management believes that the final outcome of the foregoing will not have a material adverse effect on our financial condition, results of operations or cash flows. See also “Item 1. Business – Regulatory Matters” and “Item 1A. Risk Factors.”"
+   },
+   {
+    "chunk_id": "ch_a2695b054fd7dd9d",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 25,
+    "text": "purporting to assess the health implications of consumption of certain ingredients or substances present in certain of our products or packaging materials have resulted in and could continue to result in our being subject to new taxes and regulations or lawsuits that can adversely affect our business. Potential liabilities and costs from litigation, claims, legal or regulatory proceedings, inquiries or investigations can have an adverse impact on our business. We and our subsidiaries are party to a variety of litigation, claims, legal or regulatory proceedings, inquiries and investigations, including but not limited to matters related to our advertising, marketing or commercial practices, product labels, claims and ingredients, personal injury and property damage, intellectual property rights, privacy, employment, tax and insurance matters, environmental, social and governance matters and matters relating to our compliance with applicable laws and regulations. These matters are inheren…"
+   },
+   {
+    "chunk_id": "ch_9436ae0e562cb406",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 443,
+    "text": "Participant's employment with the Company, nothing shall prohibit the Participant from, without notice to the Company, communicating with government agencies, providing information to government agencies, participating in government agency investigations, filing a complaint with government agencies, or testifying in government agency proceedings concerning any possible legal violations or from receiving any monetary award for information provided to a government agency. The Company nonetheless asserts and does not waive its attorney-client privilege over any information appropriately protected by the privilege. Further, notwithstanding any confidentiality provision to which the Participant may be subject, the Participant is hereby advised as follows pursuant to the Defend Trade Secrets Act: “An individual shall not be held criminally or civilly liable under any Federal or State trade secret law for the disclosure of a trade secret that (A) is made (i) in confidence to a Federal, State,…"
+   },
+   {
+    "chunk_id": "ch_1d76d4d3247e0039",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 267,
+    "text": "Notwithstanding the foregoing and for the avoidance of doubt, nothing in this Plan shall prohibit the Participant from communicating with government authorities concerning any possible legal violations without notice to the Company, participating in government investigations, and/or receiving any applicable award for providing information to government authorities. The Company nonetheless asserts and does not waive its attorney- client privilege over any information appropriately protected by the privilege. Further, pursuant to the Defend Trade Secrets Act, an individual shall not be held criminally or civilly liable under any federal or state trade secret law for the disclosure of a trade secret that (A) is made (i) in confidence to a federal, state, or local government official, either directly or indirectly, or to an attorney; and (ii) solely for the purpose of reporting or investigating a suspected violation of law; or (B) is made in a complaint or other document filed in a lawsuit…"
+   },
+   {
+    "chunk_id": "ch_ba68e92b2671486b",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 134,
+    "text": "In addition, we have entered into indemnification agreements with each of our independent directors, pursuant to which we have agreed to indemnify and hold harmless, to the full extent permitted by law, each director against any and all liabilities and assessments (including attorneys' fees and other costs, expenses and obligations) arising out of or related to any threatened, pending or completed action, suit, proceeding, inquiry or investigation, whether civil, criminal, administrative, or other, including, but not limited to, judgments, fines, penalties and amounts paid in settlement (whether with or without court approval), and any interest, assessments, excise taxes or other charges paid or payable in connection with or in respect of any of the foregoing, incurred by the independent director and arising out of his status as a director or 4"
+   }
+  ]
+ }
+}

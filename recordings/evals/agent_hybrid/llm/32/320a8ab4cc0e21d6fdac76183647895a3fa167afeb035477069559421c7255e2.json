@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TnqbXNEgVlZONtcUo1PC+iF53K0+lvJdqaLoJjgEQnihN3Lap+ScDVLmvQqfCCuixRq4MUPXSKEiEaJbiJc9KwJ1qjaBO0gtRW1Y2caGBkPPvOFeHNB7JCaM="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The 10-K for GLW FY2021 states that Item 8 financial statements are in Part IV, Item 15, which is not searchable or fully accessible via search_filings for complete income statements.\",\"confidence\":0,\"citations\":[],\"needs_review\":true,\"answer\":\"The question cannot be answered because Corning's audited Consolidated Statements of Income are not included in Item 8 of the Form 10-K (they are incorporated by reference into Part IV, Item 15), and the tool set does not provide direct access to the full financial statements or operating income figures for FY2019, FY2020, and FY2021.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_98711",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623032,
+  "id": "d__JavqQL5XQvdIPspndmAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 166,
+   "prompt_tokens": 4362,
+   "total_tokens": 4528
+  }
+ }
+}

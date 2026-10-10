@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TsGqhQ0lEhM6+wRaXD95/Yr1OURqpkUl4qbtYi6HasNJ8g7Xgl0god/Dfn9op5mqaGWKMCqEcGw4er2cPc6fmxsa9fcE0u+qCTf8n/2TUhBIkptEWAjC/45w="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"effective tax rate\",\"fiscal_year\":2022,\"ticker\":\"BA\"}",
+        "name": "search_filings"
+       },
+       "id": "call_43863",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622052,
+  "id": "pPvJaor_IMvavdIPrcC9mQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 34,
+   "prompt_tokens": 1518,
+   "total_tokens": 1552
+  }
+ }
+}

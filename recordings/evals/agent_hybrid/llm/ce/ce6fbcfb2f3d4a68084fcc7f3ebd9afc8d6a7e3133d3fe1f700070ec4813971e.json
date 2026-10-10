@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T3sCHfmQnMAi4bNOassCMLdy30xkNA/gaDG0tB03j0RzOVZnAalQD83njTiTEkzRqjtd4x8XI4LsnfInlbvmYxbWHBPxnljpkUx7IMf1xCH30e8ZNkOZHCc4="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"confidence\":1,\"citations\":[{\"source_id\":\"ch_7675130d841f32c8\",\"quote\":\"1) Frito-Lay North America (FLNA), which includes our branded convenient food businesses in the United States and Canada; 2) Quaker Foods North America (QFNA), which includes our branded convenient food businesses... in the United States and Canada; 3) PepsiCo Beverages North America (PBNA)... in the United States and Canada; 4) Latin America (LatAm)... in Latin America; 5) Europe... in Europe; 6) Africa, Middle East and South Asia (AMESA)... in Africa, the Middle East and South Asia; and 7) Asia Pacific, Australia, and New Zealand and China region (APAC)... in Asia Pacific, Australia and New Zealand, and China region.\"}],\"answer\":\"As of FY2022, PepsiCo is organized into seven reportable segments (divisions) corresponding to its primary operating geographies:\\n1. Frito-Lay North America (FLNA) — United States and Canada\\n2. Quaker Foods North America (QFNA) — United States and Canada\\n3. PepsiCo Beverages North America (PBNA) — United States and Canada\\n4. Latin America (LatAm) — Latin America\\n5. Europe — Europe\\n6. Africa, Middle East and South Asia (AMESA) — Africa, the Middle East and South Asia\\n7. Asia Pacific, Australia, New Zealand and China region (APAC) — Asia Pacific, Australia, New Zealand, and China region\",\"rationale\":\"The 10-K explicitly lists PepsiCo's seven reportable segments and their geographic coverage.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_25660",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622458,
+  "id": "Of3JapL0BOKvxN8P9oHwgA4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 379,
+   "prompt_tokens": 6135,
+   "prompt_tokens_details": {
+    "cached_tokens": 4038
+   },
+   "total_tokens": 6514
+  }
+ }
+}

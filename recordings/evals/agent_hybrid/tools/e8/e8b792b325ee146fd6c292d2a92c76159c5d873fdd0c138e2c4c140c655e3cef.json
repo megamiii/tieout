@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "capital intensive",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_ac73c2206aba9d51",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 89,
+    "text": "Liquidity and Capital Resources Cash Flows The Company maintains a level of liquidity sufficient to allow it to meet its cash needs in the short-term. Over the long term, the Company manages its cash and capital structure to maximize shareholder return, maintain its financial condition and maintain flexibility for future strategic initiatives. The Company continuously assesses its regulatory capital requirements, working capital needs, debt and leverage levels, debt maturity schedule, capital expenditure requirements, dividend payouts, potential share repurchases and future investments or acquisitions. The Company believes its operating cash flows, commercial paper program, credit facilities, as well as any potential future borrowings, will be sufficient to fund these future payments and long-term initiatives. As of December 31, 2022, the Company had approximately $12.9 billion in cash and cash equivalents, approximately $5.4 billion of which was held by the parent company or nonrestri…"
+   },
+   {
+    "chunk_id": "ch_ab061807f7368254",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 117,
+    "text": "of the sale, the difference between the sales price and the carrying value is recorded as a realized capital gain or loss. • Privately-placed equity securities, which are carried on the consolidated balance sheets at cost less impairments, plus or minus subsequent adjustments for observable price changes. Additionally, as a member of the Federal Home Loan Bank of Boston (“FHLBB”), a subsidiary of the Company is required to purchase and hold shares of the FHLBB. These shares are restricted and carried at cost. Net Investment Income Net investment income on the Company's investments is recorded when earned and is reflected in the Company's net income (other than net investment income on assets supporting experience-rated products). Experience-rated products are products in the large case pensions business where the contract holder, not the Company, assumes investment and other risks, subject to, among other things, minimum guarantees provided by the Company. The effect of investment perf…"
+   },
+   {
+    "chunk_id": "ch_2f325d3863c52805",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 117,
+    "text": "as a component of net investment income in the consolidated statements of operations. Realized capital gains and losses are determined on a specific identification basis. Purchases and sales of debt and equity securities and alternative investments are reflected on the trade date. Purchases and sales of mortgage loans and investment real estate are reflected on the closing date. Realized capital gains and losses on investments supporting large case pensions' experience-rated products are not included in realized capital gains and losses in the consolidated statements of operations and instead are credited directly to contract holders' accounts. The contract holders' accounts are reflected in policyholders' funds on the consolidated balance sheets. Unrealized capital gains and losses on investments (other than unrealized capital gains and losses on investments supporting experience-rated products) are reflected in shareholders' equity, net of tax, as a component of accumulated other com…"
+   },
+   {
+    "chunk_id": "ch_845b4f7c8c862986",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 145,
+    "text": "The changes in the balances of Level 3 financial assets during the year ended December 31, 2022 were as follows: In millions States, municipalities and political subdivisions U.S. corporate securities Foreign securities Other asset- backed securities Equity securities Total Beginning balance $ 5 $ 38 $ 10 $ 3 $ 55 $ 111 Net realized and unrealized capital losses: Included in earnings — (8) — — (1) (9) Included in other comprehensive loss — (5) (2) (2) — (9) Purchases — 36 — 30 29 95 Sales (5) — — (2) (23) (30) Settlements — — — — — — Transfers out of Level 3, net — — — (29) — (29) Ending balance $ — $ 61 $ 8 $ — $ 60 $ 129 The change in net unrealized capital losses included in other comprehensive loss associated with Level 3 financial assets which were held as of December 31, 2022 was $9 million during the year ended December 31, 2022. The changes in the balances of Level 3 financial assets during the year ended December 31, 2021 were as follows: In millions States, municipalities and…"
+   },
+   {
+    "chunk_id": "ch_cba3cbb84e85fd49",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 62,
+    "text": "The global capital markets, including credit markets, continue to experience volatility and uncertainty. As an insurer, we have a substantial investment portfolio that supports our policy liabilities and surplus and is comprised largely of debt securities of issuers located in the U.S. As a result, the income we earn from our investment portfolio is largely driven by the level of interest rates in the U.S., and to a lesser extent the international financial markets; and volatility, uncertainty and/or disruptions in the global capital markets, particularly the U.S. credit markets, and governments' monetary policy, particularly U.S. monetary policy, can significantly and adversely affect the value of our investment portfolio, our operating results and/or our financial condition by: • significantly reducing the value and/or liquidity of the debt securities we hold in our investment portfolio and creating realized capital losses that reduce our operating results and/or unrealized capital l…"
+   }
+  ]
+ }
+}

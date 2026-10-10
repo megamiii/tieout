@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tmp/GcJMu2VLGbRlwuOyCIyUTD6uj581pS9EV9Z01LOeMIJ2bsod5GDjl0VTbN8rg+vbPCB8ro3JAJRh/7YffrqkwWuYZGIHPc7CGG0bgxw2XdNJbNad9hII="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Capital expenditures for fiscal 2016\",\"ticker\":\"ADBE\",\"fiscal_year\":2016}",
+        "name": "search_filings"
+       },
+       "id": "call_85908",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791624061,
+  "id": "fQPKapiEDJekxN8Pm7K-oAc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 5776,
+   "total_tokens": 5817
+  }
+ }
+}

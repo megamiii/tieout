@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Revenues Total assets",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_539146bb4b2ae0e4",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 179,
+    "text": "The following is a reconciliation of financial measures of the Company's segments to the consolidated totals: In millions Health Care Benefits Pharmacy Services Retail/ LTC Corporate/ Other Intersegment Eliminations Consolidated Totals 2022: Revenues from external customers $ 90,844 $ 157,787 $ 72,874 $ 124 $ — $ 321,629 Intersegment revenues 89 11,449 33,764 — (45,302) — Net investment income (loss) 476 — (44) 406 — 838 Total revenues 91,409 169,236 106,594 530 (45,302) 322,467 Adjusted operating income (loss) 5,984 7,356 6,705 (1,785) (728) 17,532 Depreciation and amortization 1,629 567 1,813 238 — 4,247 2021: Revenues from external customers 81,515 143,194 66,078 125 — 290,912 Intersegment revenues 85 9,828 34,010 — (43,923) — Net investment income 586 — 17 596 — 1,199 Total revenues 82,186 153,022 100,105 721 (43,923) 292,111 Adjusted operating income (loss) 5,012 6,859 7,623 (1,471) (711) 17,312 Depreciation and amortization 1,837 576 1,884 215 — 4,512 2020: Revenues from external…"
+   },
+   {
+    "chunk_id": "ch_246961cb1ccbdb1a",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 125,
+    "text": "The Company recognizes revenue using the gross method at the contract price negotiated with its clients when the Company has concluded it controls the prescription drug before it is transferred to the client plan members. The Company controls prescriptions dispensed indirectly through its retail pharmacy network because it has separate contractual arrangements with those pharmacies, has discretion in setting the price for the transaction and assumes primary responsibility for fulfilling the promise to provide prescription drugs to its client plan members while also performing the related PBM services. Revenues include (i) the portion of the price the client pays directly to the Company, net of any discounts earned on brand name drugs or other discounts and refunds paid back to the client (see “Drug Discounts” and “Guarantees” below), (ii) the price paid to the Company by client plan members for mail order prescriptions and the price paid to retail network pharmacies by client plan memb…"
+   },
+   {
+    "chunk_id": "ch_dc0b0cb5715e383a",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 179,
+    "text": "58 9,275 30,990 — (40,323) — Net investment income 483 — — 315 — 798 Total revenues 75,467 141,938 91,198 426 (40,323) 268,706 Adjusted operating income (loss) 6,188 5,688 6,146 (1,306) (708) 16,008 Depreciation and amortization 1,832 612 1,801 196 — 4,441 (1) Total revenues of the Pharmacy Services segment include approximately $12.6 billion, $11.6 billion and $10.9 billion of retail co-payments for 2022, 2021 and 2020, respectively. See Note 1 ‘‘Significant Accounting Policies'' for additional information about retail co-payments. (2) Intersegment revenue eliminations relate to intersegment revenue generating activities that occur between the Health Care Benefits segment, the Pharmacy Services segment, and/or the Retail/LTC segment. Intersegment adjusted operating income eliminations occur when members of Pharmacy Services segment clients enrolled in Maintenance Choice elect to pick up maintenance prescriptions at one of the Company's retail pharmacies instead of receiving them throu…"
+   },
+   {
+    "chunk_id": "ch_d1757a21583b238c",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 124,
+    "text": "Services Revenue Services revenue relates to contracts that can include various combinations of services or series of services which generally are capable of being distinct and accounted for as separate performance obligations. The Health Care Benefits segment's services revenue primarily consists of ASC fees received in exchange for performing certain claim processing and member services for ASC members. ASC fee revenue is recognized over the period the service is provided. Some of the Company's administrative services contracts include guarantees with respect to certain functions, such as customer service response time, claim processing accuracy and claim processing turnaround time, as well as certain guarantees that a plan sponsor's benefit claim experience will fall within a certain range. With any of these guarantees, the Company is financially at risk if the conditions of the arrangements are not met, although the maximum amount at risk typically is limited to a percentage of the…"
+   },
+   {
+    "chunk_id": "ch_479445d034704b88",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 180,
+    "text": "The following is a reconciliation of consolidated operating income to adjusted operating income for the years ended December 31, 2022, 2021 and 2020: In millions 2022 2021 2020 Operating income (GAAP measure) $ 7,746 $ 13,193 $ 13,911 Amortization of intangible assets 1,808 2,259 2,341 Office real estate optimization charges 117 — — Gain on divestiture of subsidiaries (475) — (269) Opioid litigation charges 5,803 — — Loss on assets held for sale 2,533 — — Acquisition-related integration costs — 132 332 Store impairments — 1,358 — Goodwill impairment — 431 — Acquisition purchase price adjustment outside of measurement period — (61) — Receipt of fully reserved ACA risk corridor receivable — — (307) Adjusted operating income $ 17,532 $ 17,312 $ 16,008 (1) The Company's acquisition activities have resulted in the recognition of intangible assets as required under the acquisition method of accounting which consist primarily of trademarks, customer contracts/relationships, covenants not to c…"
+   }
+  ]
+ }
+}

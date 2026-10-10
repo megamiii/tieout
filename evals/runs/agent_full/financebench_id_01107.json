@@ -1,0 +1,198 @@
+{
+ "item_id": "financebench_id_01107",
+ "eval_set": "financebench",
+ "experiment": "agent_full",
+ "status": "answered",
+ "answer": "Yes, CVS Health reported multiple materially important ongoing legal matters and investigations in its Form 10-K filings. Key matters include:\n\n1. **Opioid Litigation and Investigations**: Extensive multidistrict litigation and other claims concerning prescription opioid abuse. CVS recorded major pre-tax charges ($5.2 billion and $99 million) during 2022 to settle opioid claims by governmental entities and tribes, including settlements with Florida ($484 million), New Mexico, and West Virginia. Additionally, the DOJ served CVS with a DEA administrative subpoena in January 2020 and a Civil Investigative Demand (CID) in January 2022 regarding controlled substances.\n\n2. **Securities and ERISA Litigation**: Actions related to the performance of the company's Long-Term Care business unit, including federal class actions, appeals, and records demands.\n\n3. **PBM Pricing and Rebate Investigations**: Lawsuits and investigations by the FTC and state Attorneys General concerning PBM practices, pricing, and rebate arrangements.",
+ "confidence": 1.0,
+ "rationale": "All numbers and claims are directly supported by exact quotes from the retrieved CVS 2022 10-K filing chunks.",
+ "citations": [
+  {
+   "source_id": "ch_e746f5ba131e7ef8",
+   "quote": "the Company recorded pre-tax charges of $5.2 billion and $99 million during the three months ended September 30, 2022 and the three months ended December 31, 2022, respectively",
+   "kind": "chunk",
+   "ticker": "CVS",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 175,
+   "values": [
+    "2022",
+    "5.2",
+    "99",
+    "30",
+    "2022",
+    "31",
+    "2022",
+    "4.8",
+    "2023",
+    "2024",
+    "500"
+   ]
+  },
+  {
+   "source_id": "ch_fc9ff90d9808369f",
+   "quote": "In January 2020, the DOJ served the Company with a DEA administrative subpoena.",
+   "kind": "chunk",
+   "ticker": "CVS",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 175,
+   "values": [
+    "2020",
+    "2022",
+    "2019"
+   ]
+  },
+  {
+   "source_id": "ch_fc9ff90d9808369f",
+   "quote": "In January 2022, the DOJ served the Company with a CID regarding similar subjects",
+   "kind": "chunk",
+   "ticker": "CVS",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 175,
+   "values": [
+    "2020",
+    "2022",
+    "2019"
+   ]
+  },
+  {
+   "source_id": "ch_30db9a0ed990580b",
+   "quote": "settled all opioid claims against it and its subsidiaries by the State of Florida for $484 million",
+   "kind": "chunk",
+   "ticker": "CVS",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 174,
+   "values": [
+    "2022",
+    "484",
+    "18",
+    "31",
+    "2022",
+    "484",
+    "2022",
+    "2022"
+   ]
+  },
+  {
+   "source_id": "ch_4cb9aa97d8077259",
+   "quote": "is being investigated by, the FTC and Attorneys General of several states and the District of Columbia regarding its PBM practices, including pricing and rebates.",
+   "kind": "chunk",
+   "ticker": "CVS",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 173,
+   "values": [
+    "2018",
+    "2014"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 8,
+ "prompt_tokens": 49433,
+ "completion_tokens": 2085,
+ "latency_ms": null,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer correctly identifies the main legal categories mentioned in the gold answer (opioids and PBM litigation) while providing additional accurate context and specific financial figures that align with the company's 10-K filings.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 8,
+ "rejections": 1,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1905,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"section\":\"8\",\"ticker\":\"CVS\",\"query\":\"legal proceedings\",\"fiscal_year\":2022}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 3179,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"ticker\":\"CVS\",\"section\":\"8\",\"query\":\"Note 19 Commitments and Contingencies Legal Proceedings\",\"fiscal_year\":2022}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 4508,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"query\":\"opioid claims\",\"section\":\"8\",\"fiscal_year\":2022,\"ticker\":\"CVS\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 5759,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"query\":\"Controlled Substances Litigation, Audits and Subpoenas\",\"fiscal_year\":2022,\"section\":\"8\",\"ticker\":\"CVS\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "tokens": 7104,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"ticker\":\"CVS\",\"fiscal_year\":2022,\"section\":\"8\",\"query\":\"shareholder derivative litigation securities litigation\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 5,
+   "tokens": 9034,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_e746f5ba131e7ef8\",\"quote\":\"As a result of that conclusion, and its assessment of certain other opioid-related claims including those for which the Company reached agreement in August and September 2022, the Company recorded pre-tax charges of $5.2 billion and $99 million during the three months ended September 30, 2022 and the three months ended December 31, 2022, respectively...\"},{\"quote\":\"In January 2020, the DOJ served the Company with a DEA administrative subpoena... In January 2022, the DOJ served the Company with a CID regarding similar subjects...\",\"source_id\":\"ch_fc9ff90d9808369f\"},{\"quote\":\"The Company has also received subpoenas, civil investigative demands (“CIDs”), and other requests for documents and information from, and is being investigated by, the FTC and Attorneys General of several states and the District of Columbia regarding its PBM practices, including pricing and rebates.\",\"source_id\":\"ch_4cb9aa97d8077259\"}],\"rationale\":\"The 10-K filings for CVS Health explicitly detail material ongoing legal proceedings, government investigations, and massive opioid-related settlement accruals spanning 2020, 2021, and 2022.\",\"confidence\":1,\"answer\":\"Yes, CVS Health reported multiple materially important ongoing legal matters and investigations in its 2022, 2021, and 2020 Form 10-K filings (Note 19, Commitments and Contingencies). Key matters include:\\n\\n1. **Opioid Litigation and Investigations**: Extensive multidistrict litigation (MDL No. 2804, *In re National Prescription Opiate Litigation*) and other state/local claims concerning prescription opioid abuse dating back to the early 2000s. CVS recorded major pre-tax charges (including $5.2 billion in Q3 2022 and $99 million in Q4 2022) to settle substantially all opioid claims by governmental entities and tribes, reaching settlement agreements with Florida ($484 million), New Mexico, and West Virginia, and working toward a nationwide settlement structure totaling approximately $5 billion in remediation and legal costs. Additionally, the DOJ served CVS with a DEA administrative subpoena in January 2020 and a Civil Investigative Demand (CID) in January 2022 regarding prescription opioid and controlled substance practices under the Controlled Substances Act and False Claims Act.\\n\\n2. **Securities and ERISA Litigation**: Actions related to the performance of the company's Long-Term Care (LTC) business unit. Although some federal actions were dismissed or appealed (with the First Circuit affirming dismissal in August 2022 and the Second Circuit receiving an appeal following an October 2022 dismissal with prejudice), related securities, ERISA, and Delaware Section 220 books-and-records demands persisted across these fiscal years.\\n\\n3. **PBM Pricing and Rebate Investigations**: Lawsuits and investigations by the FTC and several state Attorneys General concerning pharmacy benefit manager (PBM) practices, pricing, and drug manufacturer rebate arrangements.\"}",
+     "error": "invalid arguments: citations.0.quote: String should have at most 300 characters"
+    }
+   ]
+  },
+  {
+   "step": 6,
+   "tokens": 9655,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"needs_review\":false,\"answer\":\"Yes, CVS Health reported multiple materially important ongoing legal matters and investigations in its Form 10-K filings (Note 19, Commitments and Contingencies). Key matters include:\\n\\n1. **Opioid Litigation and Investigations**: Extensive multidistrict litigation (*In re National Prescription Opiate Litigation*) and other claims concerning prescription opioid abuse. CVS recorded major pre-tax charges ($5.2 billion in Q3 2022 and $99 million in Q4 2022) to settle opioid claims by governmental entities and tribes, including settlements with Florida ($484 million), New Mexico, and West Virginia, totaling roughly $5 billion in remediation and fees. Additionally, the DOJ served CVS with a DEA administrative subpoena in January 2020 and a Civil Investigative Demand (CID) in January 2022 regarding controlled substances.\\n\\n2. **Securities and ERISA Litigation**: Actions related to the performance of the company's Long-Term Care (LTC) business unit. These included various federal class actions, appeals (with dismissals affirmed or appealed across 2021 and 2022), ERISA claims, and Delaware Section 220 demands.\\n\\n3. **PBM Pricing and Rebate Investigations**: Lawsuits and investigations by the FTC and state Attorneys General concerning PBM practices, pricing, and drug manufacturer rebate arrangements.\",\"citations\":[{\"source_id\":\"ch_e746f5ba131e7ef8\",\"quote\":\"the Company recorded pre-tax charges of $5.2 billion and $99 million during the three months ended September 30, 2022 and the three months ended December 31, 2022, respectively\"},{\"quote\":\"In January 2020, the DOJ served the Company with a DEA administrative subpoena... In January 2022, the DOJ served the Company with a CID regarding similar subjects\",\"source_id\":\"ch_fc9ff90d9808369f\"},{\"source_id\":\"ch_4cb9aa97d8077259\",\"quote\":\"The Company has also received subpoenas, civil investigative demands (“CIDs”), and other requests for documents and information from, and is being investigated by, the FTC and Attorneys General of several states and the District of Columbia regarding its PBM practices\"}],\"rationale\":\"The 10-K filings for CVS Health detail material ongoing legal proceedings, government investigations, and massive opioid settlement accruals across 2020, 2021, and 2022.\",\"confidence\":1}",
+     "error": "answer rejected: quote 'In January 2020, the DOJ served the Company with a DEA administrative subpoena... In January 2022, the DOJ served the Company with a CID regarding similar subjects' does not appear in ch_fc9ff90d9808369f; quote the source exactly | the number 19 is not in any cited source or calculate result; cite its source, or compute it with the calculate tool | the number ($484 is not in any cited source or calculate result; cite its source, or compute it with the calculate tool | the number 220 is not in any cited source or calculate result; cite its source, or compute it with the calculate tool"
+    }
+   ]
+  },
+  {
+   "step": 7,
+   "tokens": 10374,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"citations\":[{\"source_id\":\"ch_e746f5ba131e7ef8\",\"quote\":\"the Company recorded pre-tax charges of $5.2 billion and $99 million during the three months ended September 30, 2022 and the three months ended December 31, 2022, respectively\"},{\"source_id\":\"ch_fc9ff90d9808369f\",\"quote\":\"In January 2020, the DOJ served the Company with a DEA administrative subpoena.\"},{\"quote\":\"In January 2022, the DOJ served the Company with a CID regarding similar subjects\",\"source_id\":\"ch_fc9ff90d9808369f\"},{\"quote\":\"settled all opioid claims against it and its subsidiaries by the State of Florida for $484 million\",\"source_id\":\"ch_30db9a0ed990580b\"},{\"source_id\":\"ch_4cb9aa97d8077259\",\"quote\":\"is being investigated by, the FTC and Attorneys General of several states and the District of Columbia regarding its PBM practices, including pricing and rebates.\"}],\"needs_review\":false,\"rationale\":\"All numbers and claims are directly supported by exact quotes from the retrieved CVS 2022 10-K filing chunks.\",\"answer\":\"Yes, CVS Health reported multiple materially important ongoing legal matters and investigations in its Form 10-K filings. Key matters include:\\n\\n1. **Opioid Litigation and Investigations**: Extensive multidistrict litigation and other claims concerning prescription opioid abuse. CVS recorded major pre-tax charges ($5.2 billion and $99 million) during 2022 to settle opioid claims by governmental entities and tribes, including settlements with Florida ($484 million), New Mexico, and West Virginia. Additionally, the DOJ served CVS with a DEA administrative subpoena in January 2020 and a Civil Investigative Demand (CID) in January 2022 regarding controlled substances.\\n\\n2. **Securities and ERISA Litigation**: Actions related to the performance of the company's Long-Term Care business unit, including federal class actions, appeals, and records demands.\\n\\n3. **PBM Pricing and Rebate Investigations**: Lawsuits and investigations by the FTC and state Attorneys General concerning PBM practices, pricing, and rebate arrangements.\",\"confidence\":1}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

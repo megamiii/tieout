@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income Adobe revenue operating income 2022 2021 2020",
+  "ticker": "ADBE",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_ca2a937396a5f5c8",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 65,
+    "text": "Our segment revenue and results for fiscal 2022, 2021 and 2020 were as follows: (dollars in millions) Digital Media Digital Experience Publishing and Advertising Total Fiscal 2022 Revenue $ 12,842 $ 4,422 $ 342 $ 17,606 Cost of revenue 561 1,502 102 2,165 Gross profit $ 12,281 $ 2,920 $ 240 $ 15,441 Gross profit as a percentage of revenue 96 % 66 % 70 % 88 % Fiscal 2021 Revenue $ 11,520 $ 3,867 $ 398 $ 15,785 Cost of revenue 429 1,321 115 1,865 Gross profit $ 11,091 $ 2,546 $ 283 $ 13,920 Gross profit as a percentage of revenue 96 % 66 % 71 % 88 % Fiscal 2020 Revenue $ 9,233 $ 3,125 $ 510 $ 12,868 Cost of revenue 352 1,126 244 1,722 Gross profit $ 8,881 $ 1,999 $ 266 $ 11,146 Gross profit as a percentage of revenue 96 % 64 % 52 % 87 % We generally categorize revenue by geographic area based on where the customer manages their utilization of our offerings. Revenue by geographic area for fiscal 2022, 2021 and 2020 were as follows: (in millions) 2022 2021 2020 Americas: United States $ 9,…"
+   },
+   {
+    "chunk_id": "ch_408bef7129ca6774",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 65,
+    "text": "12,868 Revenue by major offerings in our Digital Media reportable segment for fiscal 2022, 2021 and 2020 were as follows: (in millions) 2022 2021 2020 Creative Cloud $ 10,459 $ 9,546 $ 7,736 Document Cloud 2,383 1,974 1,497 Total Digital Media revenue $ 12,842 $ 11,520 $ 9,233 Subscription revenue by segment for fiscal 2022, 2021 and 2020 were as follows: (in millions) 2022 2021 2020 Digital Media $ 12,385 $ 11,048 $ 8,813 Digital Experience 3,880 3,379 2,660 Publishing and Advertising 123 146 153 Total subscription revenue $ 16,388 $ 14,573 $ 11,626 Table of Contents ADOBE INC. NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 65"
+   },
+   {
+    "chunk_id": "ch_ee934cda3730c264",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 54,
+    "text": "ADOBE INC. CONSOLIDATED STATEMENTS OF INCOME (In millions, except per share data) Years Ended December 2, 2022 December 3, 2021 November 27, 2020 Revenue: Subscription $ 16,388 $ 14,573 $ 11,626 Product 532 555 507 Services and other 686 657 735 Total revenue 17,606 15,785 12,868 Cost of revenue: Subscription 1,646 1,374 1,108 Product 35 41 36 Services and other 484 450 578 Total cost of revenue 2,165 1,865 1,722 Gross profit 15,441 13,920 11,146 Operating expenses: Research and development 2,987 2,540 2,188 Sales and marketing 4,968 4,321 3,591 General and administrative 1,219 1,085 968 Amortization of intangibles 169 172 162 Total operating expenses 9,343 8,118 6,909 Operating income 6,098 5,802 4,237 Non-operating income (expense): Interest expense (112) (113) (116) Investment gains (losses), net (19) 16 13 Other income (expense), net 41 — 42 Total non-operating income (expense), net (90) (97) (61) Income before income taxes 6,008 5,705 4,176 Provision for (benefit from) income taxe…"
+   },
+   {
+    "chunk_id": "ch_fcbc2dc4a010cdc8",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 58,
+    "text": "in the Americas; Europe, Middle East and Africa (“EMEA”); and Asia-Pacific (“APAC”). Basis of Presentation The accompanying Consolidated Financial Statements include those of Adobe and its subsidiaries, after elimination of all intercompany accounts and transactions. We have prepared the accompanying Consolidated Financial Statements in accordance with accounting principles generally accepted in the United States of America (“GAAP”) and pursuant to the rules and regulations of the United States Securities and Exchange Commission (the “SEC”). Use of Estimates In preparing Consolidated Financial Statements and related disclosures in conformity with GAAP and pursuant to the rules and regulations of the SEC, we must make estimates and judgments that affect the amounts reported in the Consolidated Financial Statements and accompanying Notes. Estimates are used for, but not limited to, sales allowances and programs, bad debts, stock-based compensation, determining the fair value of acquired …"
+   },
+   {
+    "chunk_id": "ch_028b2b68207c1c1a",
+    "ticker": "ADBE",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 77,
+    "text": "NOTE 10. INCOME TAXES Income before income taxes for fiscal 2022, 2021 and 2020 consisted of the following: (in millions) 2022 2021 2020 Domestic $ 1,958 $ 1,736 $ 1,090 Foreign 4,050 3,969 3,086 Income before income taxes $ 6,008 $ 5,705 $ 4,176 The provision for (benefit from) income taxes for fiscal 2022, 2021 and 2020 consisted of the following: (in millions) 2022 2021 2020 Current: United States federal $ 465 $ 391 $ 119 Foreign 329 197 222 State and local 132 103 79 Total current 926 691 420 Deferred: United States federal (45) (148) (123) Foreign 360 359 (1,313) State and local 11 (19) (68) Total deferred 326 192 (1,504) Provision for (benefit from) income taxes $ 1,252 $ 883 $ (1,084) Intra-Entity Transfers of Certain Intellectual Property Rights (“IP rights”) During fiscal 2020, we completed intra-entity transfers of certain IP rights to our Irish subsidiary in order to better align the ownership of these rights with how our business operates. The transfers did not result in t…"
+   }
+  ]
+ }
+}

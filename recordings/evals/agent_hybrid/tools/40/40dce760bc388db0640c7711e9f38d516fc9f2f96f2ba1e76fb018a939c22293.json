@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "debt securities registered",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_c9c74847235c67c8",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 118,
+    "text": "Table of Contents NOTE 4 INVESTMENT SECURITIES Investment securities principally include available-for-sale debt securities carried at fair value on the Consolidated Balance Sheets. The methodology for estimating credit losses for available for sale debt securities requires us to estimate lifetime credit losses for all available-for-sale debt securities in an unrealized loss position. When estimating a security's probability of default and the recovery rate, we assess the security's credit indicators, including credit ratings. If our assessment indicates that an estimated credit loss exists, we determine the portion of the unrealized loss attributable to credit deterioration and record a reserve for the estimated credit loss through the Consolidated Statements of Income in Other loans Provision for credit losses. Unrealized gains and any portion of a security's unrealized loss attributable to non-credit losses are recorded in the Consolidated Statements of Comprehensive Income, net of …"
+   },
+   {
+    "chunk_id": "ch_be100a0df7bbbe13",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 118,
+    "text": "Unrealized Losses Estimated Fair Value Available-for-sale debt securities: State and municipal obligations $ 64 $ — $ (10) $ 54 $ 106 $ 5 $ — $ 111 U.S. Government agency obligations 5 — — 5 6 — — 6 U.S. Government treasury obligations 3,859 — (73) 3,786 1,680 25 (1) 1,704 Mortgage-backed securities 13 — — 13 17 1 — 18 Foreign government bonds and obligations 633 — (1) 632 630 — — 630 Other 47 — — 47 43 — — 43 Equity securities 50 — (9) 41 66 17 (4) 79 Total $ 4,671 $ — $ (93) $ 4,578 $ 2,548 $ 48 $ (5) $ 2,591 (a) Represents mortgage-backed securities guaranteed by Fannie Mae, Freddie Mac or Ginnie Mae. (b) Represents investments in debt securities issued by Community Development Financial Institutions. Investments as of December 31, 2021 also include corporate debt securities. (c) Equity securities comprise investments in common stock, exchange-traded funds and mutual funds. The following table provides information about our available-for-sale debt securities with gross unrealized lo…"
+   },
+   {
+    "chunk_id": "ch_88c09e0b331a39df",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "front",
+    "page": 1,
+    "text": "Indicate by check mark whether the registrant (1) has filed all reports required to be filed by Section 13 or 15(d) of the Securities Exchange Act of 1934 during the preceding 12 months (or for such shorter period that the registrant was required to file such reports) and (2) has been subject to such filing requirements for the past 90 days. Yes þ No o Indicate by check mark whether the registrant has submitted electronically every Interactive Data File required to be submitted pursuant to Rule 405 of Regulation S-T (§ 232.405 of this chapter) during the preceding 12 months (or for such shorter period that the registrant was required to submit such files). Yes þ No o Indicate by check mark whether the registrant is a large accelerated filer, an accelerated filer, a non-accelerated filer, a smaller reporting company, or an emerging growth company. See the definitions of “large accelerated filer,” “accelerated filer,” “smaller reporting company” and “emerging growth company” in Rule 12b-…"
+   },
+   {
+    "chunk_id": "ch_21734483a04c9d35",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "front",
+    "page": 1,
+    "text": "Indicate by check mark whether the registrant has filed a report on and attestation to its management's assessment of the effectiveness of its internal control over financial reporting under section 404(b) of the Sarbanes-Oxley Act (15 U.S.C. 7262(b)) by the registered public accounting firm that prepared or issued its audit report. þ If securities are registered pursuant to Section 12(b) of the Act, indicate by check mark whether the financial statements of the registrant included in the filing reflect the correction of an error to previously issued financial statements. o Indicate by check mark whether any of those error corrections are restatements that required a recovery analysis of incentive-based compensation received by any of the registrant's executive officers during the relevant recovery period pursuant to § 240.10D-1(b). o Indicate by check mark whether the registrant is a shell company (as defined in Rule 12b-2 of the Act). Yes ☐ No þ As of June 30, 2022, the aggregate mar…"
+   },
+   {
+    "chunk_id": "ch_4039dbfdd7b65c70",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 120,
+    "text": "Trust. Based on these considerations, we are the primary beneficiary of the Trusts and therefore consolidate the Trusts. The debt securities issued by the Trusts are non-recourse to us. The securitized Card Member loans and receivables held by the Lending Trust and the Charge Trust, respectively, are available only for payment of the debt securities or other obligations issued or arising in the securitization transactions (refer to Note 2). The long-term debt of each Trust is payable only out of collections on their respective underlying securitized assets (refer to Note 8). Restricted cash and cash equivalents held by the Lending Trust was $59 million and $42 million as of December 31, 2022 and 2021, respectively, and by the Charge Trust was nil and $1 million as of December 31, 2022 and 2021, respectively. These amounts relate to collections of Card Member loans and receivables to be used by the Trusts to fund future expenses and obligations, including interest on debt securities, cr…"
+   }
+  ]
+ }
+}

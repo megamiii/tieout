@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TaKvCHtyHOrY7eFdGiKGwYT+1SMFqS3bOJQhAfGxLylEvdytmbu1y7G/o0P1pQebagEo45SnT7brG97KSIoovXOv+WTUFErj7MZQBQxuvH0yJUTo4cNjDiZ8="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2015,\"ticker\":\"ADBE\",\"query\":\"Operating cash flows\"}",
+        "name": "search_filings"
+       },
+       "id": "call_111778",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623380,
+  "id": "1ADKaoG8E4fQvdIPiu-joA4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 35,
+   "prompt_tokens": 1573,
+   "total_tokens": 1608
+  }
+ }
+}

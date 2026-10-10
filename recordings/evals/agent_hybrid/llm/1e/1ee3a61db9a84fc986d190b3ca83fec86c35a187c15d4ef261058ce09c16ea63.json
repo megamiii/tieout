@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TBAOiPzB31AhjRqzYbrkhBBmItzFdgnwX/tXL9yrXbAly7pU6RSC+3Oh87l3jyuL1r14DEkVZM48r5HzpN3/fJhPcvLoRZjP38oNOh/eaYh+6IXPzgs4pO10="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2015,\"query\":\"Consolidated Statements of Income Operating income 2015 2014\",\"ticker\":\"ADBE\"}",
+        "name": "search_filings"
+       },
+       "id": "call_64639",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791624053,
+  "id": "dAPKaqmXLqyW28oPuqPA8Q4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 49,
+   "prompt_tokens": 5848,
+   "total_tokens": 5897
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T8cHwxJvo37rSHwgrSDLRje221VPbSxB2trwe6WkLiXq9NLkdGrZvUiIxChr7ftaEQuIdxZRKulR46tuNH4WAdS58XMOCq/UXwW2GAIFRInjyT9FG+Aa6OCQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"citations\":[{\"source_id\":\"ch_be9a964b06a211ba\",\"quote\":\"Purchases of property, plant and equipment (1,577)\"}],\"needs_review\":false,\"rationale\":\"The Consolidated Statement of Cash Flows shows 'Purchases of property, plant and equipment' of $(1,577) million for the year ended December 31, 2018.\",\"answer\":\"For fiscal year 2018, 3M's capital expenditures (represented as \\\"Purchases of property, plant and equipment\\\") were $1,577 million, as reported in the Consolidated Statement of Cash Flows.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_60760",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623069,
+  "id": "nP_Jas3REbzFvdIPqtGnmQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 166,
+   "prompt_tokens": 7252,
+   "prompt_tokens_details": {
+    "cached_tokens": 4041
+   },
+   "total_tokens": 7418
+  }
+ }
+}

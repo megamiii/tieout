@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Capital expenditures for fiscal 2016",
+  "ticker": "ADBE",
+  "fiscal_year": 2016,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_b8ad3b583222ead0",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 7",
+    "page": 53,
+    "text": "Cash Flows from Operating Activities For fiscal 2016, net cash provided by operating activities of $2.20 billion was primarily comprised of net income plus the net effect of non-cash items. The primary working capital sources of cash were net income coupled with increases in deferred revenue and accrued expenses. The increase in deferred revenue was primarily due to increased subscriptions for our Creative Cloud offerings and increases in Digital Marketing hosted services. The increase in accrued expenses is primarily due to the increase in accruals for compensation costs and employee benefits driven by the increase in headcount. The primary working capital uses of cash were increases in trade receivables, prepaid expenses and other current assets, and a decrease in income taxes payable. Trade receivables increased primarily due to higher revenue levels. Prepaid expenses and other current assets increased primarily due to advanced tax payments made in the fourth quarter of fiscal 2016.…"
+   },
+   {
+    "chunk_id": "ch_72b9fcba57d88c38",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 7",
+    "page": 53,
+    "text": "Table of Contents 53 LIQUIDITY AND CAPITAL RESOURCES This data should be read in conjunction with our Consolidated Statements of Cash Flows. As of (in millions) December 2, 2016 November 27, 2015 Cash and cash equivalents $ 1,011.3 $ 876.6 Short-term investments $ 3,750.0 $ 3,111.5 Working capital $ 3,028.1 $ 2,608.3 Stockholders' equity $ 7,424.8 $ 7,001.6 A summary of our cash flows is as follows: (in millions) Fiscal 2016 Fiscal 2015 Fiscal 2014 Net cash provided by operating activities $ 2,199.7 $ 1,469.5 $ 1,287.5 Net cash used for investing activities (960.0) (1,488.4) (490.7) Net cash used for financing activities (1,090.7) (200.7) (507.3) Effect of foreign currency exchange rates on cash and cash equivalents (14.2) (21.2) (6.7) Net increase (decrease) in cash and cash equivalents $ 134.8 $ (240.8) $ 282.8 Our primary source of cash is receipts from revenue. The primary uses of cash are payroll related expenses, general operating expenses including marketing, travel and office r…"
+   },
+   {
+    "chunk_id": "ch_7c8d74f82a6e2f6c",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 6",
+    "page": 36,
+    "text": "502,721 Cash dividends declared per common share $ — $ — $ — $ — $ — Financial position:(1) Cash, cash equivalents and short-term investments $ 4,761,300 $ 3,988,084 $ 3,739,491 $ 3,173,752 $ 3,538,353 Working capital(2) $ 3,028,139 $ 2,608,336 $ 2,107,893 $ 2,520,281 $ 3,125,314 Total assets $ 12,707,114 $ 11,726,472 $ 10,785,829 $ 10,380,298 $ 10,040,229 Debt and capital lease obligations, non- current $ 1,902,068 $ 1,907,231 $ 911,086 $ 1,499,297 $ 1,496,938 Stockholders' equity $ 7,424,835 $ 7,001,580 $ 6,775,905 $ 6,724,634 $ 6,665,182 Additional data: Worldwide employees 15,706 13,893 12,499 11,847 11,144 _________________________________________ (1) Information associated with our financial position is as of the Friday closest to November 30 for the five fiscal periods through 2016. (2) For fiscal 2014 and prior, our working capital does not include the effects of the adoption of ASU No. 2015-17, Balance Sheet Classification of Deferred Taxes, which required all deferred tax ass…"
+   },
+   {
+    "chunk_id": "ch_023e97cdeef49e9d",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 86,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 86 Deferred Tax Assets and Liabilities The tax effects of the temporary differences that gave rise to significant portions of the deferred tax assets and liabilities as of December 2, 2016 and November 27, 2015 are presented below (in thousands): 2016 2015 Deferred tax assets: Acquired technology $ 7,421 $ 9,071 Reserves and accruals 35,440 33,251 Deferred revenue 21,039 17,110 Unrealized losses on investments 2,391 5,505 Stock-based compensation 56,353 59,103 Net operating loss carryforwards of acquired companies 31,305 20,877 Credit carryforwards 63,315 57,568 Capitalized expenses 15,571 17,566 Benefits relating to tax positions 39,492 43,095 Other 26,439 20,648 Total gross deferred tax assets 298,766 283,794 Deferred tax asset valuation allowance (24,265) (21,286) Total deferred tax assets 274,501 262,508 Deferred tax liabilities: Depreciation and amortization 78,619 62,143 Undistribu…"
+   },
+   {
+    "chunk_id": "ch_7776f7e0ebfb6257",
+    "ticker": "ADBE",
+    "fiscal_year": 2016,
+    "section": "Item 8",
+    "page": 82,
+    "text": "Table of Contents ADOBE SYSTEMS INCORPORATED NOTES TO CONSOLIDATED FINANCIAL STATEMENTS (Continued) 82 Net gains (losses) recognized in interest and other income (expense), net relating to balance sheet hedging for fiscal 2016, 2015 and 2014 were as follows (in thousands): 2016 2015 2014 Gain (loss) on foreign currency assets and liabilities: Net realized gain (loss) recognized in other income $ 832 $ (10,952) $ (21,559) Net unrealized gain (loss) recognized in other income (6,070) 3,815 17,217 (5,238) (7,137) (4,342) Gain (loss) on hedges of foreign currency assets and liabilities: Net realized gain recognized in other income 174 5,490 1,324 Net unrealized gain (loss) recognized in other income (1,482) (1,060) (858) (1,308) 4,430 466 Net gain (loss) recognized in interest and other income (expense), net $ (6,546) $ (2,707) $ (3,876) NOTE 6. PROPERTY AND EQUIPMENT Property and equipment, net consisted of the following as of December 2, 2016 and November 27, 2015 (in thousands): 2016 20…"
+   }
+  ]
+ }
+}

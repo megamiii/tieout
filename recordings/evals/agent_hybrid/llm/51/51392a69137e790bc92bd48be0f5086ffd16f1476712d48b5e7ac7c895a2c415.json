@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0THFgYYvpRiTHtJy4nbPepfD9PvSI/ZKGTqv9yN+Kv2jIncz9TkZNpLuOMu3J+esh4IKZAOahuG5h0jqvZN+QnlzRytjKH4BH1rbAXdvH8er0uCjFBqYAH/UE="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Operating Profit 11,512\",\"ticker\":\"PEP\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_44970",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623153,
+  "id": "7__JarfcM5fsxN8PiPXoGQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 6584,
+   "prompt_tokens_details": {
+    "cached_tokens": 4035
+   },
+   "total_tokens": 6624
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T+a51uB+3BDC9wugbRv2ilh4NEKh3GmU0bTLTAGqxei8+1cCTWLAoN+VbCMKvWbtZeS0om0QnkarjRlSV5pHwyM8oSjR75P3YVfbiioQN8chl96YudmevbXg="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AMD\",\"query\":\"Net revenue was $23,601 million, an increase of\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_59262",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622653,
+  "id": "_f3JasXKELzFvdIPqtGnmQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 9833,
+   "prompt_tokens_details": {
+    "cached_tokens": 6077
+   },
+   "total_tokens": 9879
+  }
+ }
+}

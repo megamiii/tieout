@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TYBoqDpAYLpVzBdOFvBdeRKKd2cp8QAfR6Sl9LBsTbMiA66LPu6aNaAmyP4my7zbTpjYHt5bvUKOVoQzo7Iu6kGWEMs0aW3SD9Qc7JMJA0SHIoElYYVt2qik="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"Based on FY 2022 data, Verizon is a capital-intensive business. In FY 2022, Verizon reported capital expenditures (including capitalized software) of $23,087 million ($23.087 billion) against total operating revenues of $136,835 million ($136.835 billion) and net cash provided by operating activities of $37,141 million ($37.141 billion). Furthermore, Verizon held $107,434 million ($107.434 billion) in net property, plant and equipment out of $379,680 million ($379.680 billion) in total assets, and explicitly stated in its disclosures that it requires a significant amount of capital to operate and grow its business.\",\"rationale\":\"Verizon's high capital expenditures ($23,087 million), substantial net PP&E ($107,434 million) relative to assets ($379,680 million), and explicit disclosures confirm that Verizon is a capital-intensive business in FY 2022.\",\"confidence\":1,\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_e45545bb88293d76\",\"quote\":\"Capital expenditures (including capitalized software) 23,087\"},{\"quote\":\"Total Operating Revenues 136,835\",\"source_id\":\"ch_e128c9d3d7199637\"},{\"quote\":\"Net cash provided by operating activities $ 37,141\",\"source_id\":\"ch_e45545bb88293d76\"},{\"source_id\":\"ch_54dcad0b04037d12\",\"quote\":\"Property, plant and equipment, net 107,434\"},{\"source_id\":\"ch_54dcad0b04037d12\",\"quote\":\"Total assets $ 379,680\"},{\"quote\":\"We require a significant amount of capital to operate and grow our business.\",\"source_id\":\"ch_b93cb7bf5b3409c2\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_59766",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791621781,
+  "id": "k_rJasXPKs-SvdIPoqWE8QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 528,
+   "prompt_tokens": 9766,
+   "total_tokens": 10294
+  }
+ }
+}

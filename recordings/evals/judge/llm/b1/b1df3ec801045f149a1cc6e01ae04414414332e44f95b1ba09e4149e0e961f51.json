@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly calculates the quick ratio as 1.57, matches the gold answer's conclusion, and provides helpful context regarding how the company discusses its own liquidity.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0Ta3Toah3/hHT7xnlArZm84RUpWnf/EfGf1mW1gH2MsiGJKP5YRBeM0z+3MI0TqtfTcqAF9S09JL9YxYOhoF8rBRsUOKcO6Q5UfwDsgTyQnWK7+Rtk8a8TU04Q5kZ+0RDVhCPs9/aidW/9F6Pg"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623618,
+  "id": "ugHKarKjIqm9vdIPmI7toQk",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 426,
+   "total_tokens": 473
+  }
+ }
+}

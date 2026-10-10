@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "geographies operate primary reportable segments international",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_d8d72bb0f7a16fd9",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 114,
+    "text": "The following are the primary procedures we performed to address this critical audit matter. We evaluated the design and tested the operating effectiveness of certain internal controls related to the indefinite-lived assets impairment process, including controls related to the development of forecasted revenue, profitability levels, and expected long-term growth rates and select the discount rates to be applied to the projected cash flows. We also evaluated the sensitivity of the Company's conclusion to changes in assumptions, including the assessment of changes in assumptions from prior periods. To assess the Company's ability to accurately forecast, we compared the Company's historical forecasted results to actual results. We compared the cash flow projections used in the impairment tests with available external industry data and other internal information. We involved valuation professionals with specialized skills and knowledge who assisted in evaluating (1) the long-term growth ra…"
+   },
+   {
+    "chunk_id": "ch_de3f39e141ad94da",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 57,
+    "text": "Table of Contents Our critical accounting policies and estimates are: • revenue recognition; • goodwill and other intangible assets; • income tax expense and accruals; and • pension and retiree medical plans. Revenue Recognition We recognize revenue when our performance obligation is satisfied. Our primary performance obligation (the distribution and sales of beverage and convenient food products) is satisfied upon the shipment or delivery of products to our customers, which is also when control is transferred. The transfer of control of products to our customers is typically based on written sales terms that do not allow for a right of return. However, our policy for DSD, including certain chilled products, is to remove and replace damaged and out-of-date products from store shelves to ensure that consumers receive the product quality and freshness they expect. Similarly, our policy for certain warehouse-distributed products is to replace damaged and out-of-date products. As a result,…"
+   },
+   {
+    "chunk_id": "ch_7675130d841f32c8",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 69,
+    "text": "Table of Contents Our Divisions We are organized into seven reportable segments (also referred to as divisions), as follows: 1) Frito-Lay North America (FLNA), which includes our branded convenient food businesses in the United States and Canada; 2) Quaker Foods North America (QFNA), which includes our branded convenient food businesses, such as cereal, rice, pasta and other branded food, in the United States and Canada; 3) PepsiCo Beverages North America (PBNA), which includes our beverage businesses in the United States and Canada; 4) Latin America (LatAm), which includes all of our beverage and convenient food businesses in Latin America; 5) Europe, which includes all of our beverage and convenient food businesses in Europe; 6) Africa, Middle East and South Asia (AMESA), which includes all of our beverage and convenient food businesses in Africa, the Middle East and South Asia; and 7) Asia Pacific, Australia, and New Zealand and China region (APAC), which includes all of our beverag…"
+   },
+   {
+    "chunk_id": "ch_cfe4eff491630d5d",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 74,
+    "text": "All other countries 17,443 16,729 14,754 12,885 13,399 Total $ 86,392 $ 79,474 $ 70,372 $ 61,965 $ 62,080 (a) Long-lived assets represent property, plant and equipment, indefinite-lived intangible assets, amortizable intangible assets, investments in noncontrolled affiliates and other investments included in other assets. See Notes 2 and 14 for further information on property, plant and equipment. See Notes 2 and 4 for further information on goodwill and other intangible assets. See Note 14 for further information on other assets. Investments in noncontrolled affiliates are evaluated for impairment upon a significant change in the operating or macroeconomic environment. These assets are reported in the country where they are primarily used. (b) In 2021, the increase in net revenue reflects our acquisition of Be & Cheery. See Note 13 for further information. (c) In 2021, the increase in net revenue reflects our acquisition of Pioneer Foods. See Note 13 for further information. Note 2 — …"
+   },
+   {
+    "chunk_id": "ch_83b2bb55124b8a34",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 9A",
+    "page": 118,
+    "text": "the Treadway Commission. Based on that evaluation, our management concluded that our internal control over financial reporting was effective as of December 31, 2022. Attestation Report of the Registered Public Accounting Firm. KPMG LLP, an independent registered public accounting firm, has audited the consolidated financial statements included in this Annual Report on Form 10-K and, as part of their audit, has issued their report, included herein, on the effectiveness of our internal control over financial reporting. (c) Changes in Internal Control over Financial Reporting. During our fourth quarter of 2022, we continued migrating certain of our financial processing systems to an Enterprise Resource Planning (ERP) solution. These systems implementations are part of our ongoing global business transformation initiative, and we plan to continue implementing such systems throughout other parts of our businesses in phases over the next several years. In connection with these ERP implementa…"
+   }
+  ]
+ }
+}

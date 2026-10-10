@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tt2fMq0K+Ap/1FfyrfBzRrtXBSSHzMJvZ7dmOTbbboJnaV1AONCH+GD04da2oiaAgy53adTNOSS/V5pxVTa+Hx6AjQqgKEAP9mh/C1IdRoosIsHNrrMYA91M="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AMD\",\"fiscal_year\":2022,\"query\":\"18% of the total consolidated accounts receivable\"}",
+        "name": "search_filings"
+       },
+       "id": "call_53841",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622273,
+  "id": "gPzJarTDLsKH28oPjvnZsQU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 6250,
+   "prompt_tokens_details": {
+    "cached_tokens": 4039
+   },
+   "total_tokens": 6290
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "CONSOLIDATED BALANCE SHEETS Inventories May 31",
+  "ticker": "NKE",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_a7bb332a2ac639dc",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 15",
+    "page": 101,
+    "text": "Table of Contents SCHEDULE II — VALUATION AND QUALIFYING ACCOUNTS (Dollars in millions) BALANCE AT BEGINNING OF PERIOD CHARGED TO COSTS AND EXPENSES CHARGED TO OTHER ACCOUNTS WRITE-OFFS, NET BALANCE AT END OF PERIOD Sales returns reserve For the fiscal year ended May 31, 2019 $ 734 $ 2,209 $ (30) $ (2,070) $ 843 For the fiscal year ended May 31, 2020 843 2,227 (31) (2,357) 682 For the fiscal year ended May 31, 2021 682 2,571 41 (2,699) 595 (1) Amounts included in this column primarily relate to foreign currency translation. (2) As a result of the adoption of ASC Topic 606 during the first quarter of fiscal 2019, an asset for the estimated cost of inventory for expected product returns is now recognized separately from the liability for sales returns reserves, which is presented above. (3) During the fourth quarter of fiscal 2021, management identified misstatements related to the amounts disclosed within Charged to Costs and Expenses and Write-offs, net. Specifically, Charged to Costs …"
+   },
+   {
+    "chunk_id": "ch_858aafa6e8d6a6ff",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 71,
+    "text": "Table of Contents expenses and other current assets of $507 million, $422 million and $45 million, respectively, and an increase in Deferred income taxes and other liabilities of $40 million on the Consolidated Balance Sheets. NOTE 2 — INVENTORIES Inventory balances of $6,854 million and $7,367 million as of May 31, 2021 and 2020, respectively, were substantially all finished goods. NOTE 3 — PROPERTY, PLANT AND EQUIPMENT Property, plant and equipment, net included the following: MAY 31, (Dollars in millions) 2021 2020 Land and improvements $ 363 $ 345 Buildings 3,365 2,442 Machinery and equipment 3,023 2,751 Internal-use software 1,391 1,483 Leasehold improvements 1,608 1,554 Construction in process 311 1,086 Total property, plant and equipment, gross 10,061 9,661 Less accumulated depreciation 5,157 4,795 TOTAL PROPERTY, PLANT AND EQUIPMENT, NET $ 4,904 $ 4,866 Capitalized interest was not material for the years ended May 31, 2021, 2020 and 2019. NOTE 4 — IDENTIFIABLE INTANGIBLE ASSETS…"
+   },
+   {
+    "chunk_id": "ch_4d42a45ae70ca9b3",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 83,
+    "text": "Table of Contents The following tables present the fair values of derivative instruments included within the Consolidated Balance Sheets: DERIVATIVE ASSETS BALANCE SHEET LOCATION MAY 31, (Dollars in millions) 2021 2020 Derivatives formally designated as hedging instruments: Foreign exchange forwards and options Prepaid expenses and other current assets $ 42 $ 43 Foreign exchange forwards and options Deferred income taxes and other assets 16 1 Total derivatives formally designated as hedging instruments 58 44 Derivatives not designated as hedging instruments: Foreign exchange forwards and options Prepaid expenses and other current assets 34 48 Embedded derivatives Prepaid expenses and other current assets — 1 Foreign exchange forwards and options Deferred income taxes and other assets — 2 Total derivatives not designated as hedging instruments 34 51 TOTAL DERIVATIVE ASSETS $ 92 $ 95 DERIVATIVE LIABILITIES BALANCE SHEET LOCATION MAY 31, (Dollars in millions) 2021 2020 Derivatives formall…"
+   },
+   {
+    "chunk_id": "ch_fcf523fdfc3113c1",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 73,
+    "text": "Table of Contents The Company records the assets and liabilities of its derivative financial instruments on a gross basis on the Consolidated Balance Sheets. The Company's derivative financial instruments are subject to master netting arrangements that allow for the offset of assets and liabilities in the event of default or early termination of the contract. Any amounts of cash collateral received related to these instruments associated with the Company's credit-related contingent features are recorded in Cash and equivalents and Accrued liabilities, the latter of which would further offset against the Company's derivative asset balance. Any amounts of cash collateral posted related to these instruments associated with the Company's credit-related contingent features are recorded in Prepaid expenses and other current assets, which would further offset against the Company's derivative liability balance. Cash collateral received or posted related to the Company's credit-related continge…"
+   },
+   {
+    "chunk_id": "ch_80bf156ef544ecbf",
+    "ticker": "NKE",
+    "fiscal_year": 2021,
+    "section": "Item 8",
+    "page": 61,
+    "text": "Table of Contents NIKE, INC. CONSOLIDATED BALANCE SHEETS MAY 31, (In millions) 2021 2020 ASSETS Current assets: Cash and equivalents $ 9,889 $ 8,348 Short-term investments 3,587 439 Accounts receivable, net 4,463 2,749 Inventories 6,854 7,367 Prepaid expenses and other current assets 1,498 1,653 Total current assets 26,291 20,556 Property, plant and equipment, net 4,904 4,866 Operating lease right-of-use assets, net 3,113 3,097 Identifiable intangible assets, net 269 274 Goodwill 242 223 Deferred income taxes and other assets 2,921 2,326 TOTAL ASSETS $ 37,740 $ 31,342 LIABILITIES AND SHAREHOLDERS' EQUITY Current liabilities: Current portion of long-term debt $ — $ 3 Notes payable 2 248 Accounts payable 2,836 2,248 Current portion of operating lease liabilities 467 445 Accrued liabilities 6,063 5,184 Income taxes payable 306 156 Total current liabilities 9,674 8,284 Long-term debt 9,413 9,406 Operating lease liabilities 2,931 2,913 Deferred income taxes and other liabilities 2,955 2,684…"
+   }
+  ]
+ }
+}

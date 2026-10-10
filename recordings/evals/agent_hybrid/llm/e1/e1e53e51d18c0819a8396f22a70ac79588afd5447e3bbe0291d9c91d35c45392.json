@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 18,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TGxhukdsawZ9/eBMdLIoLd4m3DQssHdWxHW5GYEa8FZoDqyJNebaUPmX+HHsJWZM3WWVDC5YgJhzs1dQD0ZIWLusF5zyl/mFiRqPrPB44gdSwkwqjheS2vh4="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"Boeing reports Cost of sales as a % of Revenues in its Item 7 discussion, showing 94.7% for 2022 and 95.2% for 2021.\",\"needs_review\":false,\"confidence\":0.9,\"answer\":\"As of FY2022, Boeing's cost of sales as a percentage of revenues was 94.7% compared with 95.2% in FY2021 and 109.8% in FY2020. This indicates a largely consistent to slightly improving gross margin profile (calculated as 100% minus cost of sales as a percentage of revenues, yielding approximately 5.3% in FY2022, 4.8% in FY2021, and (9.8)% in FY2020). Gross margin remains a useful metric for evaluating Boeing's profitability on products and services, though the company relies heavily on program accounting and long-term contract estimates to recognize revenue and margins over time.\",\"citations\":[{\"quote\":\"Cost of sales as a % of Revenues 94.7 % 95.2 % (0.5)% 95.2 % 109.8 % (14.6)%\",\"source_id\":\"ch_515291f695fac5af\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_55529",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622149,
+  "id": "BPzJasHmMfbAxN8Plb2NoAc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 314,
+   "prompt_tokens": 10181,
+   "total_tokens": 10495
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Cost of sales Revenues percentage three year average",
+  "ticker": "NKE",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_1cee10a3de7c255c",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 33,
+    "text": "increased total Converse revenues by approximately 1 percentage point for fiscal 2018. Revenues from comparable licensed markets decreased 14%, reducing total Converse revenues by approximately 1 percentage point, driven by lower revenues in Latin America. Reported EBIT declined 35% for fiscal 2018 driven by lower revenues, higher selling and administrative expense and, to a lesser extent, gross margin contraction. Gross margin decreased 100 basis points as higher full-price ASP was more than offset by higher product costs and the unfavorable impact of lower licensing revenues. Selling and administrative expense increased due to higher operating overhead and demand creation expense. Higher operating overhead expense was due to continued investment in our direct to consumer business and, to a lesser extent, higher wage-related costs, while higher demand creation expense was due to increased marketing support for initiatives to drive growth. Fiscal 2017 Compared to Fiscal 2016 On a curre…"
+   },
+   {
+    "chunk_id": "ch_f2333611059be3fc",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 33,
+    "text": "% Change Excluding Currency Changes Revenues $ 1,886 $ 2,042 -8 % -11 % $ 1,955 4 % 6% Earnings Before Interest and Taxes $ 310 $ 477 -35 % $ 487 -2 % In territories we define as “direct distribution markets,” Converse designs, markets and sells products directly to distributors and wholesale customers, and to consumers through direct to consumer operations. The largest direct distribution markets are the United States, the United Kingdom and China. We do not own the Converse trademarks in Japan and accordingly do not earn revenues in Japan. Territories other than direct distribution markets and Japan are serviced by third-party licensees who pay royalty revenues to Converse for the use of its registered trademarks and other intellectual property rights. Fiscal 2018 Compared to Fiscal 2017 On a currency-neutral basis, revenues for Converse declined 11% for fiscal 2018. Comparable direct distribution markets (i.e., markets served under a direct distribution model for comparable periods …"
+   },
+   {
+    "chunk_id": "ch_9b0bc194091f966e",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 32,
+    "text": "The 9% increase in currency-neutral footwear revenues for fiscal 2018 was attributable to growth in every key category, led by Sportswear and Running. Unit sales of footwear increased 5% and higher ASP per pair contributed approximately 4 percentage points of footwear revenue growth, driven by higher full-price, off-price and NIKE Direct ASPs. Currency-neutral apparel revenues grew 15% for fiscal 2018, driven by higher revenues in every key category, most notably Sportswear and, to a lesser extent, Football (Soccer), Training and NIKE Basketball. Unit sales of apparel increased 11% and higher ASP per unit contributed approximately 4 percentage points of apparel revenue growth. The increase in ASP per unit was primarily driven by higher full-price ASP and, to a lesser extent, favorable off-price mix and higher off-price ASP. Reported EBIT increased 21% due to revenue growth, strong selling and administrative expense leverage and gross margin expansion. Gross margin increased 90 basis po…"
+   },
+   {
+    "chunk_id": "ch_ce0af68863990e0a",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 22,
+    "text": "and growing our direct connections with consumers. As a result of the execution of this strategy, our long-term financial goals through fiscal 2023, on average, per year, are as follows: • High single-digit revenue growth; • Gross margin expansion of as much as 50 basis points ; • Slight selling and administrative expense leverage; • Mid-teens earnings per share growth; and • Low-thirties percentage rate of return on invested capital. Over the past ten years, we have achieved strong growth in many of these metrics. During this time, revenues for NIKE, Inc. have grown 7% on an annual compounded basis, annual gross margin has ranged from 43.5% to 46.4%, diluted earnings per common share has grown steadily and our return on invested capital has been as high as 34.7%. Our fiscal 2018 results demonstrated the power of the NIKE, Inc. portfolio to generate revenue growth, while investing in capabilities in support of our Triple Double strategy to fuel our next phase of long-term growth and pr…"
+   },
+   {
+    "chunk_id": "ch_97398b9c8cef3d75",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 31,
+    "text": "Currency-neutral footwear revenues increased 16% for fiscal 2018, driven by growth in nearly all key categories, most notably Running and the Jordan Brand. Unit sales of footwear increased 19%, while lower ASP per pair reduced footwear revenue growth by approximately 3 percentage points, driven by lower full-price ASP resulting from product mix, as well as unfavorable off-price mix. The currency-neutral apparel revenue growth of 23% for fiscal 2018 was fueled by higher revenues in all key categories, most notably Sportswear and, to a lesser extent, NIKE Basketball, the Jordan Brand and Running. Unit sales of apparel increased 20% and higher ASP per unit increased apparel revenue growth by approximately 3 percentage points. The increase in ASP per unit was attributable to higher full-price, off-price and NIKE Direct ASPs. Reported EBIT increased 20% for fiscal 2018, driven by higher revenues and selling and administrative expense leverage, partially offset by lower gross margin. Gross m…"
+   }
+  ]
+ }
+}

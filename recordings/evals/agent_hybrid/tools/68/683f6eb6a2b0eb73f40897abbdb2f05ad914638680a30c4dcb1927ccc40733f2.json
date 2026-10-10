@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statement of Cash Flows Purchases of property, plant and equipment",
+  "ticker": "MMM",
+  "fiscal_year": 2018,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_be9a964b06a211ba",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 60,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Statement of Cash Flow s Years ended December 31 (Millions) 2018 2017 2016 Cash Flows from Operating Activities Net income including noncontrolling interest $ 5,363 $ 4,869 $ 5,058 Adjustments to reconcile net income including noncontrolling interest to net cash provided by operating activities Depreciation and amortization 1,488 1,544 1,474 Company pension and postretirement contributions (370) (967) (383) Company pension and postretirement expense 410 334 250 Stock-based compensation expense 302 324 298 Gain on sale of businesses (545) (586) (111) Deferred income taxes (57) 107 7 Changes in assets and liabilities Accounts receivable (305) (245) (313) Inventories (509) (387) 57 Accounts payable 408 24 148 Accrued income taxes (current and long-term) 134 967 101 Other — net 120 256 76 Net cash provided by (used in) operating activities 6,439 6,240 6,662 Cash Flows from Investing Activities Purchases of property, plant and equip…"
+   },
+   {
+    "chunk_id": "ch_5de3f8443ab59f3a",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 62,
+    "text": "investments that do not have readily determinable fair values and measures these investments at cost less impairment plus or minus observable price changes in orderly transactions. The balance of these securities is disclosed in Note 7. Other assets: Other assets include deferred income taxes, product and other insurance receivables, the cash surrender value of life insurance policies, and other long-term assets. Investments in life insurance are reported at the amount that could be realized under contract at the balance sheet date, with any changes in cash surrender value or contract value during the period accounted for as an adjustment of premiums paid. Cash outflows and inflows associated with life insurance activity are included in “Purchases of marketable securities and investments” and “Proceeds from maturities and sale of marketable securities and investments,” respectively. Inventories: Inventories are stated at the lower of cost or net realizable value (NRV), which is defined…"
+   },
+   {
+    "chunk_id": "ch_559f65ef7718abfd",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 81,
+    "text": "Table of Contents NOTE 7. Supplemental Balance Sheet Information Accounts payable (included as a separate line item in the Consolidated Balance Sheet) includes drafts payable on demand of $104 million at December 31, 2018, and $74 million at December 31, 2017. Accumulated depreciation for capital leases totaled $54 million and $48 million as of December 31, 2018, and 2017, respectively. Additional supplemental balance sheet information is provided in the table that follows. (Millions) 2018 2017 Other current assets Derivative assets-current $ 88 $ 37 Insurance related (receivables, prepaid expenses and other) 103 71 Other 158 158 Total other current assets $ 349 $ 266 Property, plant and equipment - at cost Land $ 340 $ 348 Buildings and leasehold improvements 7,517 7,681 Machinery and equipment 15,680 15,907 Construction in progress 1,193 843 Capital leases 143 135 Gross property, plant and equipment 24,873 24,914 Accumulated depreciation (16,135) (16,048) Property, plant and equipmen…"
+   },
+   {
+    "chunk_id": "ch_788c54576b42a952",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 58,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Balance Shee t At December 31 December 31, December 31, (Dollars in millions, except per share amount) 2018 2017 Assets Current assets Cash and cash equivalents $ 2,853 $ 3,053 Marketable securities — current 380 1,076 Accounts receivable — net of allowances of $95 and $103 5,020 4,911 Inventories Finished goods 2,120 1,915 Work in process 1,292 1,218 Raw materials and supplies 954 901 Total inventories 4,366 4,034 Prepaids 741 937 Other current assets 349 266 Total current assets 13,709 14,277 Property, plant and equipment 24,873 24,914 Less: Accumulated depreciation (16,135) (16,048) Property, plant and equipment — net 8,738 8,866 Goodwill 10,051 10,513 Intangible assets — net 2,657 2,936 Other assets 1,345 1,395 Total assets $ 36,500 $ 37,987 Liabilities Current liabilities Short-term borrowings and current portion of long-term debt $ 1,211 $ 1,853 Accounts payable 2,266 1,945 Accrued payroll 749 870 Accrued income taxes 243…"
+   },
+   {
+    "chunk_id": "ch_d04f0e5380d80b5c",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 74,
+    "text": "related and contingent liabilities, and resolution of certain acquired working capital and other purchase price adjustments with the seller. The change to provisional amounts did not result in material impacts to results of operations in 2018 or any portion related to earlier quarters in the measurement period. The allocation of purchase consideration related to Scott Safety was completed in the third quarter of 2018. Pro forma information related to acquisitions has not been included because the impact on the Company's consolidated results of operations was not considered material. The following table shows the impact on the consolidated balance sheet of the purchase price allocations related to 2017 acquisitions and assigned finite-lived intangible asset weighted-average lives. 2017 Acquisition Activity Finite-Lived Intangible-Asset (Millions) Scott Weighted-Average Asset (Liability) Safety Other Total Lives (Years) Accounts receivable $ 100 $ — $ 100 Inventory 79 — 79 Other current …"
+   }
+  ]
+ }
+}

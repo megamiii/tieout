@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 16,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TIb7exz38Hl+bQk881KlO1eVEfF72KmfBxf3ylokSFrDW5S2yegLGC80BaBGbpGWm8ig2V+r6AXIC1XTSVfAlhL7tsY/yxp3JYH24sd1YS23CqhAe80ZKmNU="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_a1adac249f0de09a\",\"quote\":\"On August 1, 2022, the Company completed the acquisition of 100% equity interest in a Czech Republic company that operates a world-class flexible packaging manufacturing plant. The purchase consideration of $59 million included a deferred portion of $5 million that was paid in the first quarter of fiscal year 2024. The acquisition is part of the Company's Flexibles reportable segment\"},{\"quote\":\"On March 17, 2023, the Company completed the acquisition of 100% equity interest in a medical device packaging manufacturing site in Shanghai, China. The purchase consideration of $60 million is subject to customary post-closing adjustments.\",\"source_id\":\"ch_a1adac249f0de09a\"},{\"source_id\":\"ch_cdca9b379a363798\",\"quote\":\"On May 31, 2023, the Company completed the acquisition of a New Zealand based leading manufacturer of state-of-the-art, automated protein packaging machines. The purchase consideration of $45 million is subject to customary post-closing adjustments. ... The acquisition is part of the Company's Flexibles reportable segment\"}],\"rationale\":\"The 10-K for FY2023 clearly details three acquisitions completed in FY2023 under Note 5. No material business acquisitions are reported for FY2022 or FY2021 in Note 5.\",\"answer\":\"For fiscal year 2023, Amcor completed the following acquisitions (all within the Flexibles reportable segment):\\n1. On August 1, 2022, 100% equity interest in a Czech Republic company operating a flexible packaging manufacturing plant, with a purchase consideration of $59 million.\\n2. On March 17, 2023, 100% equity interest in a medical device packaging manufacturing site in Shanghai, China, with a purchase consideration of $60 million.\\n3. On May 31, 2023, a New Zealand-based manufacturer of automated protein packaging machines, with a purchase consideration of $45 million.\\n\\nFor fiscal years 2022 and 2021, Amcor's 10-K notes do not report any major business acquisitions under Note 5 (Acquisitions and Divestitures), focusing instead on divestitures, portfolio optimization, and restructuring activities (such as the disposal of non-core businesses in India and Argentina and the sale of the AMVIG equity investment in FY2021).\",\"needs_review\":false,\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_24382",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622531,
+  "id": "gf3JaqOGMfyYvdIPtbqYyQk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 614,
+   "prompt_tokens": 11289,
+   "total_tokens": 11903
+  }
+ }
+}

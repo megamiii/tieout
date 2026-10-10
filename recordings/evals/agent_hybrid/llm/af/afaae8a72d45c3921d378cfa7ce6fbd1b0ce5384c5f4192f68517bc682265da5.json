@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TaOi3nRwDnyZBs0y2RVpuPilTbCpC1+2uCsBN6wkzHr4clp5vS3XYmiHpQIIB0hmOqyM/eP7n6K6qZ8WcaQbRVdIZuuXZIuHfU1MKr5hirSWTXyw8EoJGv0E="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"Adobe's total assets changed from $27,241 million at the end of fiscal year 2021 (December 3, 2021) to $27,165 million at the end of fiscal year 2022 (December 2, 2022). This represents a decrease of approximately 0.3% (-0.28%).\",\"citations\":[{\"source_id\":\"ch_76414535f94d238a\",\"quote\":\"Total assets $ 27,165 $ 27,241\"}],\"rationale\":\"Total assets for fiscal year 2021 and 2022 were obtained from Adobe's Consolidated Balance Sheets. The percentage change was calculated as (27,165 - 27,241) / 27,241 * 100 = -0.27898%, which rounds to -0.3%.\",\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_81880",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791624120,
+  "id": "tgPKavfFJLGIxN8P3dvU-AU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 240,
+   "prompt_tokens": 9533,
+   "total_tokens": 9773
+  }
+ }
+}

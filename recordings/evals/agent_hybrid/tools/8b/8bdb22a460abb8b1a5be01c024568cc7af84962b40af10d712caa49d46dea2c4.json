@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Balance Sheets Current Assets Current Liabilities",
+  "ticker": "GLW",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_bd1f1e1075307850",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 60,
+    "text": "Table of Contents Consolidated Balance Sheets Corning Incorporated and Subsidiary Companies December 31, (in millions, except share and per share amounts) 2022 2021 Assets Current assets: Cash and cash equivalents $ 1,671 $ 2,148 Trade accounts receivable, net of doubtful accounts - $40 and $42 1,721 2,004 Inventories (Note 5) 2,904 2,481 Other current assets (Notes 10 and 14) 1,157 1,026 Total current assets 7,453 7,659 Property, plant and equipment, net of accumulated depreciation - $14,147 and $13,969 (Note 8) 15,371 15,804 Goodwill, net (Note 9) 2,394 2,421 Other intangible assets, net (Note 9) 1,029 1,148 Deferred income taxes (Note 7) 1,073 1,066 Other assets (Notes 10 and 14) 2,179 2,056 Total Assets $ 29,499 $ 30,154 Liabilities and Equity Current liabilities: Current portion of long-term debt and short-term borrowings (Note 11) $ 224 $ 55 Accounts payable 1,804 1,612 Other accrued liabilities (Notes 10 and 13) 3,147 3,139 Total current liabilities 5,175 4,806 Long-term debt (N…"
+   },
+   {
+    "chunk_id": "ch_6209a39df12ccd4a",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 85,
+    "text": "3,598 $ 381 $ 584 $ 5 $ 9 Benefit obligations (3,182) (4,075) (549) (736) (434) (654) Funded status of plans $ (499) $ (477) $ (168) $ (152) $ (429) $ (645) Amounts recognized in the consolidated balance sheets consist of: Noncurrent asset $ 26 $ 100 Current liability $ (18) $ (15) (7) (7) $ (22) $ (23) Noncurrent liability (481) (462) (187) (245) (407) (622) Recognized liability $ (499) $ (477) $ (168) $ (152) $ (429) $ (645) Amounts recognized in accumulated other comprehensive loss consist of: Net actuarial loss (gain) $ 259 $ 272 $ (2) $ (3) $ (226) $ (22) Prior service cost (credit) 44 22 (1) 1 (15) (20) Amounts recognized at end of year $ 303 $ 294 $ (3) $ (2) $ (241) $ (42) 85"
+   },
+   {
+    "chunk_id": "ch_6877773c6fd7c8ae",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 78,
+    "text": "Table of Contents 7. Income Taxes (Continued) The following table presents the tax effects of temporary differences and carryforwards that gave rise to significant portions of the deferred tax assets and liabilities (in millions): December 31, 2022 2021 Loss and tax credit carryforwards $ 281 $ 375 Other assets 232 200 Research and development capitalization 280 81 Asset impairments and restructuring reserves 41 30 Postretirement medical and life benefits 102 154 Other accrued liabilities 311 354 Other employee benefits 346 329 Gross deferred tax assets 1,593 1,523 Valuation allowances (166) (138) Total deferred tax assets 1,427 1,385 Intangible and other assets (108) (103) Fixed assets (289) (300) Finance leases (200) (174) Total deferred tax liabilities (597) (577) Net deferred tax assets $ 830 $ 808 Net deferred tax assets on the consolidated balance sheets consisted of the following (in millions): December 31, 2022 2021 Deferred tax assets $ 1,073 $ 1,066 Other liabilities (243) (2…"
+   },
+   {
+    "chunk_id": "ch_b938af896677441d",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Table of Contents LIQUIDITY AND CAPITAL RESOURCES Our financial condition and liquidity are strong. We are not aware of any known trends, demands, commitments, events or uncertainties that will result in or that are reasonably likely to result in a material decrease in our liquidity. In addition, other than items discussed, there are no known material trends, favorable or unfavorable, in our capital resources and no expected material changes in the mix of such resources. Our major source of funding for 2023 and beyond will be our operating cash flow, our existing balances of cash and cash equivalents and proceeds from any issuances of debt. We believe we have sufficient liquidity to fund operations, acquisitions, capital expenditures, scheduled debt repayments, dividend payments and share repurchase programs through 2023. We will continue to generate cash from operations and maintain access to our revolving credit facilities and commercial paper programs as discussed in more detail bel…"
+   },
+   {
+    "chunk_id": "ch_534ed6e3040b9559",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 82,
+    "text": "Table of Contents 10. Other Assets and Other Liabilities (Continued) Other liabilities consisted of the following (in millions): December 31, 2022 2021 Current liabilities: Wages and employee benefits $ 727 $ 824 Income taxes (Note 7) 127 196 Derivative instruments (Note 14) 174 144 Deferred revenue (Note 4) 144 148 Customer deposits (Note 4) 132 223 Share repurchase liability (Note 16) 506 506 Short-term leases (Note 6) 111 94 Other current liabilities 1,226 1,004 Other accrued liabilities $ 3,147 $ 3,139 Non-current liabilities: Defined benefit pension plan liabilities (Note 12) $ 668 $ 707 Derivative instruments (Note 14) 17 49 Deferred revenue (Note 4) 725 764 Customer deposits (Note 4) 1,137 1,072 Share repurchase liability (Note 16) 17 517 Deferred tax liabilities (Note 7) 243 258 Long-term leases (Note 6) 795 691 Other non-current liabilities 1,353 1,134 Other liabilities $ 4,955 $ 5,192 82"
+   }
+  ]
+ }
+}

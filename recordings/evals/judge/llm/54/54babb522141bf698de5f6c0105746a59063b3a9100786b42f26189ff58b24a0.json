@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the Consumer segment as the one that dragged down growth and matches the gold answer's figure of -0.9%.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TAK5I3iWQN8/T+LCuXWRfjdJJMh70v8YQuQamzTat1oVMwVYyJhavvxbiJ/oNTFxgZZkVqQdzPUjwGwA5d0+FOJVoZ+pqDS/73npeDxkSrmonD16BTVv3wPjaxo6GY1cNbPjKXKtf/lO63LEL"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791624040,
+  "id": "YgPKavb2E4HzvdIPyvDPgAU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 271,
+   "total_tokens": 312
+  }
+ }
+}

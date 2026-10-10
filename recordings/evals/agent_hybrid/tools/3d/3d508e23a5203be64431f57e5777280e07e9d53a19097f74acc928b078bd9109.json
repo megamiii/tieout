@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "cyclical commercial aircraft market airline profitability economic fluctuations",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7e0487cb0613fc4c",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 8,
+    "text": "Item 1A. Risk Factors An investment in our common stock or debt securities involves risks and uncertainties and our actual results and future trends may differ materially from our past or projected future performance. We urge investors to consider carefully the risk factors described below in evaluating the information contained in this report. Risks Related to Our Business and Operations We depend heavily on commercial airlines, subjecting us to unique risks. Market conditions have a significant impact on demand for our commercial aircraft and related services. The commercial aircraft market is predominantly driven by long-term trends in airline passenger and cargo traffic. The principal factors underlying long-term traffic growth are sustained economic growth and political stability both in developed and emerging markets. Demand for our commercial aircraft is further influenced by airline profitability, availability of aircraft financing, world trade policies, government-to-governmen…"
+   },
+   {
+    "chunk_id": "ch_e0c1aff98930524a",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 8,
+    "text": "We enter into firm fixed-price aircraft sales contracts with indexed price escalation clauses, which could subject us to losses if we have cost overruns or if increases in our costs exceed the applicable escalation rate. Commercial aircraft sales contracts are often entered into years before the aircraft are delivered. In order to help account for economic fluctuations between the contract date and delivery date, aircraft pricing generally consists of a fixed amount as modified by price escalation formulas derived from labor, commodity and other price indices. Our revenue estimates are based on current expectations with respect to these escalation formulas, but the actual escalation amounts are outside of our control. Escalation factors can fluctuate significantly from period to period. Changes in escalation amounts can significantly impact revenues and operating margins in our Commercial Airplanes business. We derive a significant portion of our revenues from a limited number of comme…"
+   },
+   {
+    "chunk_id": "ch_b3bcf253a0e9c1f3",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Table of Contents as well as any responses from Russia that could affect our supply chain, business partners or customers, for any additional impacts to our business. Segment Results of Operations and Financial Condition Commercial Airplanes Business Environment and Trends Airline Industry Environment See Overview to Management's Discussion and Analysis of Financial Condition and Results of Operations for a discussion of the airline industry environment. Industry Competitiveness The industry continues to recover from the lingering effects of the COVID-19 pandemic. The commercial aircraft market and the airline industry both remain extremely competitive. While the impacts and responses have varied globally, the reduction of demand and disruption in production has adversely impacted most manufacturers in the commercial aircraft industry. Continued access to global markets remains vital to our ability to fully realize our sales potential and long-term investment returns. Approximately 70%…"
+   },
+   {
+    "chunk_id": "ch_d9dc572ae456eecb",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 69,
+    "text": "Table of Contents the estimate to complete exceed total estimated contract revenues, a loss provision is recorded. The determination of net realizable value of commercial aircraft program costs is based upon quarterly program reviews that estimate revenue and cost to be incurred to complete the program accounting quantity. When estimated costs to complete exceed estimated program revenues to go, a program loss provision is recorded in the current period for the estimated loss on all undelivered units in the accounting quantity. Used aircraft purchased by the Commercial Airplanes segment and general stock materials are stated at cost not in excess of net realizable value. Spare parts inventory is stated at lower of average unit cost or net realizable value. We review our commercial spare parts and general stock materials quarterly to identify impaired inventory, including excess or obsolete inventory, based on historical sales trends, expected production usage, and the size and age of t…"
+   },
+   {
+    "chunk_id": "ch_594ec8ab69ce3660",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 23,
+    "text": "Table of Contents The long-term outlook for the industry remains positive due to the fundamental drivers of air travel demand: economic growth, increasing propensity to travel due to increased trade, globalization and improved airline services driven by liberalization of air traffic rights between countries. Our Commercial Market Outlook forecast projects a 3.8% growth rate for passenger and cargo traffic over a 20-year period. Based on long-term global economic growth projections of 2.6% in average annual gross domestic product, we project demand for approximately 41,170 new airplanes over the next 20 years. The industry remains vulnerable to exogenous developments including fuel price spikes, credit market shocks, acts of terrorism, natural disasters, conflicts, epidemics, pandemics and increased global environmental regulations. During 2022, commercial services volume at BGS recovered to pre-pandemic levels. We expect BGS commercial revenues to remain strong in future quarters as th…"
+   }
+  ]
+ }
+}

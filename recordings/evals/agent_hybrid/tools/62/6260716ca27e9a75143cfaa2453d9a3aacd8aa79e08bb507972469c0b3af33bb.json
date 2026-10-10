@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Balance Sheet",
+  "ticker": "MMM",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5baf18741bfe3d33",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 79,
+    "text": "Table of Contents Amounts recognized in the Consolidated Balance Sheet as of December 31, (Millions) Qualified and Non-qualified Pension Benefits Postretirement Benefits United States International 2022 2021 2022 2021 2022 2021 Non-current assets $ — $ — $ 1,225 $ 943 $ — $ — Accrued benefit cost Current liabilities (52) (59) (14) (14) (11) (5) Non-current liabilities (805) (1,092) (392) (855) (769) (923) Ending balance $ (857) $ (1,151) $ 819 $ 74 $ (780) $ (928) Amounts recognized in accumulated other comprehensive income as of December 31, (Millions) Qualified and Non-qualified Pension Benefits Postretirement Benefits United States International 2022 2021 2022 2021 2022 2021 Net transition obligation (asset) $ — $ — $ 4 $ 6 $ — $ — Net actuarial loss (gain) 4,616 4,991 157 960 332 538 Prior service cost (credit) (56) (80) 10 3 (166) (197) Ending balance $ 4,560 $ 4,911 $ 171 $ 969 $ 166 $ 341 The balance of amounts recognized for international plans in accumulated other comprehensiv…"
+   },
+   {
+    "chunk_id": "ch_72062bffeb43567f",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 78,
+    "text": "sheet). The expense impact of this re-measurement was immaterial for the second quarter of 2020 and subsequent periods. The following tables include a reconciliation of the beginning and ending balances of the benefit obligation and the fair value of plan assets as well as a summary of the related amounts recognized in the Company's consolidated balance sheet as of December 31 of the respective years. 3M also has certain non-qualified unfunded pension and postretirement benefit plans, inclusive of plans related to supplement/excess benefits for employees impacted by particular relocations and other matters, that individually and in the aggregate are not significant and which are not included in the tables that follow. The obligations for these plans are included within other liabilities in the Company's consolidated balance sheet and aggregated to less than $51 million as of December 31, 2022 and 2021. Qualified and Non-Pension Benefits Postretirement Benefits United States Internation…"
+   },
+   {
+    "chunk_id": "ch_007dbcf117aed57c",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 50,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Balance Sheet At December 31 (Dollars in millions, except per share amount) 2022 2021 Assets Current assets Cash and cash equivalents $ 3,655 $ 4,564 Marketable securities — current 238 201 Accounts receivable — net of allowances of $174 and $189 4,532 4,660 Inventories Finished goods 2,497 2,196 Work in process 1,606 1,577 Raw materials and supplies 1,269 1,212 Total inventories 5,372 4,985 Prepaids 435 654 Other current assets 456 339 Total current assets 14,688 15,403 Property, plant and equipment 25,998 27,213 Less: Accumulated depreciation (16,820) (17,784) Property, plant and equipment — net 9,178 9,429 Operating lease right of use assets 829 858 Goodwill 12,790 13,486 Intangible assets — net 4,699 5,288 Other assets 4,271 2,608 Total assets $ 46,455 $ 47,072 Liabilities Current liabilities Short-term borrowings and current portion of long-term debt $ 1,938 $ 1,307 Accounts payable 3,183 2,994 Accrued payroll 692 1,020 Ac…"
+   },
+   {
+    "chunk_id": "ch_3d3b71c136478974",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 74,
+    "text": "Table of Contents The total amount of UTB, if recognized, would affect the effective tax rate by $965 million as of December 31, 2022, $1,112 million as of December 31, 2021, and $1,145 million as of December 31, 2020. The ending net UTB results from adjusting the gross balance for deferred items, interest and penalties, and deductible taxes. The net UTB is included as components of Other Assets, Accrued Income Taxes, and Other Liabilities within the Consolidated Balance Sheet. The Company recognizes interest and penalties accrued related to unrecognized tax benefits in tax expense. The Company recognized in the consolidated statement of income on a gross basis approximately $1 million of expense, $14 million of expense, and $21 million of expense in 2022, 2021, and 2020, respectively. The amount of interest and penalties recognized may be an expense or benefit due to new or remeasured unrecognized tax benefit accruals. At December 31, 2022, and December 31, 2021, accrued interest and …"
+   },
+   {
+    "chunk_id": "ch_d3b05d67d1cb5406",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 45,
+    "text": "Table of Contents Report of Independent Registered Public Accounting Firm To the Board of Directors and Shareholders of 3M Company Opinions on the Financial Statements and Internal Control over Financial Reporting We have audited the accompanying consolidated balance sheet of 3M Company and its subsidiaries (the “Company”) as of December 31, 2022 and 2021, and the related consolidated statements of income, of comprehensive income (loss), of changes in equity and of cash flows for each of the three years in the period ended December 31, 2022, including the related notes (collectively referred to as the “consolidated financial statements”). We also have audited the Company's internal control over financial reporting as of December 31, 2022, based on criteria established in Internal Control - Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO). In our opinion, the consolidated financial statements referred to above present fair…"
+   }
+  ]
+ }
+}

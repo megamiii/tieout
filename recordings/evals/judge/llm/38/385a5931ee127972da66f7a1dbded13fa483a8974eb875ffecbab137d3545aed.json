@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies that the quick ratio is not a standard measure for this industry and provides the necessary data to calculate it, leading to a similar conclusion regarding liquidity constraints.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TY+yOWmEYKW/EYCYFMTnzj0fhsCZacl5mF5YBffKOEA2zTVWJq98uNUhpIO7fsM5yIC8iNfQrtiJ2/MokWAR5q9N7dr1yfjK+cEX8MhoES90FMxJrLQYJ4tint1/aFENw14EsWOXjMvq9nUN5"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623610,
+  "id": "rwHKapTvHPSxvdIPrr7q-AU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 418,
+   "total_tokens": 464
+  }
+ }
+}

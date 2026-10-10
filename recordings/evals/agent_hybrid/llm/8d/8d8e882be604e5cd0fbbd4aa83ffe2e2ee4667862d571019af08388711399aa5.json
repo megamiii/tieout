@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TtI49jOEY5IqZwcbu/OlQgp9WN9zvUKB4pNF48avZt+A6RgA0E5RFEJK9/nJTgcHurGVnYWfCaflgCVZOCiEOr4uFkaaqBtpbSDsXo+If/T0U5CbMfo4CD4A="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Gross profit as a percentage of net sales 2022\",\"fiscal_year\":2023,\"ticker\":\"AMCR\"}",
+        "name": "search_filings"
+       },
+       "id": "call_49400",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622152,
+  "id": "B_zJaoSmJoHzvdIPyvDPgAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 5303,
+   "total_tokens": 5348
+  }
+ }
+}

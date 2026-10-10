@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "capital-intensive",
+  "ticker": "MMM",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e8eaa998b1bc16ef",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 38,
+    "text": "(1,424) Less: Cash, cash equivalents and marketable securities 3,916 4,792 (876) Net debt (non-GAAP measure) $ 12,023 $ 12,571 $ (548) Refer to the preceding “Total Debt” and “Cash, Cash Equivalents and Marketable Securities” sections for additional details. Balance Sheet: 3M's strong balance sheet and liquidity provide the Company with significant flexibility to fund its numerous opportunities going forward. The Company will continue to invest in its operations to drive growth, including continual review of acquisition opportunities. The Company uses working capital measures that place emphasis and focus on certain working capital assets, such as accounts receivable and inventory activity. Working capital (non-GAAP measure): December 31, (Millions) 2022 2021 Change Current assets $ 14,688 $ 15,403 $ (715) Less: Current liabilities 9,523 9,035 488 Working capital (non-GAAP measure) $ 5,165 $ 6,368 $ (1,203) Various assets and liabilities, including cash and short-term debt, can fluctua…"
+   },
+   {
+    "chunk_id": "ch_e93625b3e41f5140",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 37,
+    "text": "Table of Contents FINANCIAL CONDITION AND LIQUIDITY The strength and stability of 3M's business model and strong free cash flow capability, together with proven capital markets access, provide financial flexibility to deploy capital in accordance with the Company's stated priorities and meet needs associated with contractual commitments and other obligations. Investing in 3M's business to drive organic growth and deliver strong returns on invested capital remains the first priority for capital deployment. This includes research and development, capital expenditures, and commercialization capability. The Company also continues to actively manage its portfolio through acquisitions and divestitures to maximize value for shareholders. 3M expects to continue returning cash to shareholders through dividends and share repurchases. To fund cash needs in the United States, the Company relies on ongoing cash flow from U.S. operations, access to capital markets and repatriation of the earnings of…"
+   },
+   {
+    "chunk_id": "ch_43b034ee28278bf3",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Table of Contents Geographic Area Supplemental Information Employees as of December 31, Capital Spending Property, Plant and Equipment - net as of December 31, (Millions, except Employees) 2022 2021 2022 2021 2022 2021 Americas 54,000 56,000 $ 1,321 $ 1,046 $ 6,066 $ 5,864 Asia Pacific 18,000 18,000 182 216 1,389 1,582 Europe, Middle East and Africa 20,000 21,000 246 341 1,723 1,983 Total Company 92,000 95,000 $ 1,749 $ 1,603 $ 9,178 $ 9,429 Employment: Employment decreased in 2022 when compared to 2021. The above table includes the impact of acquisitions, net of divestitures and other actions. Capital Spending/Net Property, Plant and Equipment: Investments in property, plant and equipment enable growth across many diverse markets, helping to meet product demand and increasing manufacturing efficiency. 3M is increasing its investment in manufacturing and sourcing capability in order to more closely align its product capability with its sales in major geographic areas in order to best s…"
+   },
+   {
+    "chunk_id": "ch_b65eedcaa995ecb0",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 38,
+    "text": "Working capital decreased $1.2 billion compared with December 31, 2021. Balance changes in current assets decreased working capital by $0.7 billion, driven largely by decreases in cash and cash equivalents. Balance changes in current liabilities decreased working capital by $0.5 billion, primarily due to increases in short-term borrowings and current-portion of long-term debt offset by decreases in accrued payroll. Inventory increased $387 million from December 31, 2021, primarily as a result of increased underlying operating activity partially offset by foreign currency translation impacts. Current portion of long-term debt increased as upcoming debt maturities now considered current were partially offset by the bond maturities in 2022, while accounts payable also increased as a result of increased sequential operating activity partially offset by foreign currency translation impacts. 38"
+   },
+   {
+    "chunk_id": "ch_015f189b3daba80a",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 156,
+    "text": "ISRAEL Terms and Conditions The following provisions apply to Participants who are or are deemed to be residents of the State of Israel for tax purposes or are otherwise subject to taxation in Israel with respect to the Performance Shares on the Grant Date. Capitalized terms used but not defined in these provisions or the Plan or the Agreement shall have the meanings ascribed to them in the Israeli Sub-Plan to the Plan (the “Israeli Sub-Plan”). Trust Arrangement. The Performance Shares are offered to Participant subject to, and in accordance with, the terms of the Plan, the Israeli Sub-Plan, this Agreement and the Trust Agreement. The Performance Shares are intended to be 102 Capital Gains Track Grants and qualify for 102 Capital Gains Track tax treatment. Certain events may affect the status of the Performance Shares and the Shares subject to the Performance Shares as qualified under Section 102 and the Performance Shares and the Shares subject to the Performance Shares may be disqual…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "1,559.3 1,642.2 1,679.7 1,684.2 2,854.1 2,746.2",
+  "ticker": "GIS",
+  "fiscal_year": 2019,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_35a340c732fa146d",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 103,
+    "text": "Table of Contents The following table provides financial information by geographic area: Fiscal Year In Millions 2019 2018 2017 Net sales: United States $ 12,462.8 $ 11,115.6 $ 11,160.9 Non-United States 4,402.4 4,624.8 4,458.9 Total $ 16,865.2 $ 15,740.4 $ 15,619.8 In Millions May 26, 2019 May 27, 2018 Cash and cash equivalents: United States $ 51.0 $ 15.7 Non-United States 399.0 383.3 Total $ 450.0 $ 399.0 In Millions May 26, 2019 May 27, 2018 Land, buildings, and equipment: United States $2,872.8 $3,031.7 Non-United States 914.4 1,015.5 Total $3,787.2 $4,047.2 NOTE 17. SUPPLEMENTAL INFORMATION The components of certain Consolidated Balance Sheet accounts are as follows: In Millions May 26, 2019 May 27, 2018 Receivables: Customers $ 1,708.5 $ 1,712.6 Less allowance for doubtful accounts (28.8) (28.4) Total $ 1,679.7 $ 1,684.2 In Millions May 26, 2019 May 27, 2018 Inventories: Raw materials and packaging $ 434.9 $ 400.0 Finished goods 1,245.9 1,364.2 Grain 92.0 91.2 Excess of FIFO ove…"
+   },
+   {
+    "chunk_id": "ch_2507f8f307b4df48",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 103,
+    "text": "$ 1,559.3 $ 1,642.2 (a)Inventories of $974.8 million as of May 26, 2019, and $832.2 million as of May 27, 2018, were valued at LIFO. The difference between replacement cost and the stated LIFO inventory value is not materially different from the reserve for the LIFO valuation method. 103"
+   },
+   {
+    "chunk_id": "ch_e9e9605881900e67",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Table of Contents Consolidated Balance Sheets GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions, Except Par Value) May 26, 2019 May 27, 2018 ASSETS Current assets: Cash and cash equivalents $ 450.0 $ 399.0 Receivables 1,679.7 1,684.2 Inventories 1,559.3 1,642.2 Prepaid expenses and other current assets 497.5 398.3 Total current assets 4,186.5 4,123.7 Land, buildings, and equipment 3,787.2 4,047.2 Goodwill 13,995.8 14,065.0 Other intangible assets 7,166.8 7,445.1 Other assets 974.9 943.0 Total assets $ 30,111.2 $ 30,624.0 LIABILITIES AND EQUITY Current liabilities: Accounts payable $ 2,854.1 $ 2,746.2 Current portion of long-term debt 1,396.5 1,600.1 Notes payable 1,468.7 1,549.8 Other current liabilities 1,367.8 1,445.8 Total current liabilities 7,087.1 7,341.9 Long-term debt 11,624.8 12,668.7 Deferred income taxes 2,031.0 2,003.8 Other liabilities 1,448.9 1,341.0 Total liabilities 22,191.8 23,355.4 Redeemable interest 551.7 776.2 Stockholders' equity: Common stock, 754.6 shares issued…"
+   },
+   {
+    "chunk_id": "ch_b10e83b6adda8f5c",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 81,
+    "text": "Table of Contents A summary of our long-term debt is as follows: In Millions May 26, 2019 May 27, 2018 4.2% notes due April 17, 2028 $ 1,400.0 $ 1,400.0 5.65% notes due February 15, 2019 - 1,150.0 3.15% notes due December 15, 2021 1,000.0 1,000.0 3.7% notes due October 17, 2023 850.0 850.0 Floating-rate notes due April 16, 2021 850.0 850.0 4.0% notes due April 17, 2025 800.0 800.0 3.2% notes due February 10, 2027 750.0 750.0 4.7% notes due April 17, 2048 650.0 650.0 3.2% notes due April 16, 2021 600.0 600.0 Euro-denominated 2.1% notes due November 16, 2020 560.1 582.6 Euro-denominated 1.0% notes due April 27, 2023 560.1 582.6 Euro-denominated floating-rate notes due January 15, 2020 560.1 582.6 4.55% notes due April 17, 2038 500.0 500.0 2.6% notes due October 12, 2022 500.0 500.0 5.4% notes due June 15, 2040 500.0 500.0 4.15% notes due February 15, 2043 500.0 500.0 3.65% notes due February 15, 2024 500.0 500.0 2.2% notes due October 21, 2019 500.0 500.0 Euro-denominated 1.5% notes due …"
+   },
+   {
+    "chunk_id": "ch_89e8456b89114f07",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 72,
+    "text": "remaining term of the related underlying debt, follows: In Millions Gain/(Loss) 3.15% notes due December 15, 2021 $ (25.3) 2.6% notes due October 12, 2022 2.5 1.0% notes due April 27, 2023 (0.9) 3.7% notes due October 17, 2023 (1.5) 3.65% notes due February 15, 2024 8.4 4.0% notes due April 17, 2025 (3.4) 3.2% notes due February 10, 2027 13.2 1.5% notes due April 27, 2027 (2.6) 4.2% notes due April 17, 2028 (9.1) 4.55% notes due April 17, 2038 (10.3) 5.4% notes due June 15, 2040 (11.8) 4.15% notes due February 15, 2043 9.3 4.7% notes due April 17, 2048 (13.7) Net pre-tax hedge loss in AOCI $ (45.2) The following table summarizes the notional amounts and weighted-average interest rates of our interest rate derivatives. Average floating rates are based on rates as of the end of the reporting period. In Millions May 26, 2019 May 27, 2018 Pay-floating swaps - notional amount $ 500.0 $ 500.0 Average receive rate 2.2% 2.2% Average pay rate 3.1% 2.9% The swap contracts outstanding as of May 2…"
+   }
+  ]
+ }
+}

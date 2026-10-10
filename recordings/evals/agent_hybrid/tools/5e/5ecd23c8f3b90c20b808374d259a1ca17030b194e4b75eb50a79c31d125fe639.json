@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "operating income",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_b60a8b89eb43d8e9",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 53,
+    "text": "Table of Contents BUSINESS SEGMENT RESULTS OF OPERATIONS We consider a combination of factors when evaluating the composition of our reportable operating segments, including the results reviewed by the chief operating decision maker, economic characteristics, products and services offered, classes of customers, product distribution channels, geographic considerations (primarily United States versus outside the United States) and regulatory considerations. Refer to Note 24 to the “Consolidated Financial Statements” and Part I, Item 1. “Business” for additional discussion of products and services that comprise each segment. Effective for the third quarter of 2022, we realigned our reportable segments to reflect organizational changes announced during the second quarter of 2022. Prior periods presented herein have been recast to conform to the new reportable operating segments, which are: USCS, CS, ICS and GMNS, with corporate functions and certain other businesses and operations included…"
+   },
+   {
+    "chunk_id": "ch_d4977d01cee1d51d",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 72,
+    "text": "Table of Contents CASH FLOWS The following table summarizes our cash flow activity, followed by a discussion of the major drivers impacting operating, investing and financing cash flows for the year ended December 31, 2022 compared to the year ended December 31, 2021: TABLE 21: CASH FLOWS (Billions) 2022 2021 2020 Total cash provided by (used in): Operating activities $ 21.1 $ 14.6 $ 5.6 Investing activities (33.7) (10.5) 11.6 Financing activities 24.5 (14.9) (9.1) Effect of foreign currency exchange rates on cash and cash equivalents — (0.1) 0.4 Net increase (decrease) in cash and cash equivalents $ 11.9 $ (10.9) $ 8.5 Cash Flows from Operating Activities Our cash flows from operating activities primarily include net income adjusted for (i) non-cash items included in net income, such as provisions for credit losses, depreciation and amortization, stock-based compensation, deferred taxes and other non-cash items and (ii) changes in the balances of operating assets and liabilities, whic…"
+   },
+   {
+    "chunk_id": "ch_eff10dd0e23194b0",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 99,
+    "text": "Table of Contents CONSOLIDATED STATEMENTS OF CASH FLOWS Years Ended December 31 (Millions) 2022 2021 2020 Cash Flows from Operating Activities Net income $ 7,514 $ 8,060 $ 3,135 Adjustments to reconcile net income to net cash provided by operating activities: Provisions for credit losses 2,182 (1,419) 4,730 Depreciation and amortization 1,626 1,695 1,543 Stock-based compensation 375 330 249 Deferred taxes (1,189) 294 (939) Other items 365 (772) 683 Originations of loans held-for-sale (277) — — Proceeds from sales of loans held-for-sale 277 — — Changes in operating assets and liabilities, net of effects of acquisitions and dispositions: Other assets 1,391 1,068 (1,785) Accounts payable & other liabilities 8,815 5,389 (2,025) Net cash provided by operating activities 21,079 14,645 5,591 Cash Flows from Investing Activities Sale of investment securities 26 62 69 Maturities and redemptions of investment securities 1,892 20,032 7,159 Purchase of investments (4,175) (1,517) (20,562) Net (inc…"
+   },
+   {
+    "chunk_id": "ch_0b15ecfd0bb9b4a8",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 157,
+    "text": "Table of Contents PARENT COMPANY – CONDENSED STATEMENTS OF CASH FLOWS Years Ended December 31 (Millions) 2022 2021 2020 Cash Flows from Operating Activities Net income $ 7,514 $ 8,060 $ 3,135 Adjustments to reconcile net income to cash provided by operating activities: Equity in net income of subsidiaries and affiliates (7,905) (8,560) (3,716) Dividends received from subsidiaries and affiliates 5,549 9,102 2,679 Other operating activities, primarily with subsidiaries and affiliates 160 (305) 732 Net cash provided by operating activities 5,318 8,297 2,830 Cash Flows from Investing Activities (Increase) decrease in loans to subsidiaries and affiliates (4,850) (176) 11,434 Investments in subsidiaries and affiliates (1) (60) (52) Other investing activities — — 74 Net cash (used in) provided by investing activities (4,851) (236) 11,456 Cash Flows from Financing Activities Net decrease in short-term debt from subsidiaries and affiliates (136) (2,636) (3,289) Proceeds from long-term debt 13,2…"
+   },
+   {
+    "chunk_id": "ch_03bf61b3eca0bd91",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 105,
+    "text": "Table of Contents Leasehold improvements are depreciated using the straight-line method over the lesser of the remaining term of the leased facility, or the economic life of the improvement, and range from 5 to 10 years. We recognize lease restoration obligations at the fair value of the restoration liabilities when incurred and amortize the restoration assets over the lease term. Leases We have operating leases worldwide for facilities and equipment, which, for those leases with terms greater than 12 months, are recorded as lease-related assets and liabilities. We do not separate lease and non-lease components. Lease-related assets, or right-of-use assets, are recognized at the lease commencement date at amounts equal to the respective lease liabilities, adjusted for prepaid lease payments, initial direct costs and lease incentives. Lease liabilities are recognized at the present value of the contractual fixed lease payments, discounted using our incremental borrowing rate as of the l…"
+   }
+  ]
+ }
+}

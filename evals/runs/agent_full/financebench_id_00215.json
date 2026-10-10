@@ -1,0 +1,149 @@
+{
+ "item_id": "financebench_id_00215",
+ "eval_set": "financebench",
+ "experiment": "agent_full",
+ "status": "answered",
+ "answer": "Yes, Verizon is a capital-intensive business based on FY 2022 data. In its FY 2022 10-K, Verizon explicitly states under Risk Factors that \"We require a significant amount of capital to operate and grow our business.\" In FY 2022, Verizon had capital expenditures (including capitalized software) of $23,087 million, which represents approximately 16.87% of its total operating revenues ($136,835 million). Additionally, as of December 31, 2022, the company reported net property, plant and equipment of $107,434 million.",
+ "confidence": 1.0,
+ "rationale": "The company explicitly notes in Item 1A that it requires a significant amount of capital to operate and grow. Quantitative metrics confirm this: capital expenditures were $23,087 million (approx. 16.9% of revenues of $136,835 million) and net property, plant and equipment was $107,434 million at year-end 2022.",
+ "citations": [
+  {
+   "source_id": "ch_b93cb7bf5b3409c2",
+   "quote": "We require a significant amount of capital to operate and grow our business.",
+   "kind": "chunk",
+   "ticker": "VZ",
+   "fiscal_year": 2022,
+   "section": "Item 1A",
+   "page": 18,
+   "values": []
+  },
+  {
+   "source_id": "ch_e45545bb88293d76",
+   "quote": "Less Capital expenditures (including capitalized software) 23,087",
+   "kind": "chunk",
+   "ticker": "VZ",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 42,
+   "values": [
+    "31",
+    "2022",
+    "2021",
+    "37141",
+    "39539",
+    "23087",
+    "20286",
+    "14054",
+    "19253",
+    "2022"
+   ]
+  },
+  {
+   "source_id": "xf_39deba555a2ae5be",
+   "quote": "136835000000",
+   "kind": "fact",
+   "ticker": "VZ",
+   "concept": "Revenues",
+   "fiscal_year": 2022,
+   "restated": [],
+   "values": [
+    "136835000000"
+   ]
+  },
+  {
+   "source_id": "xf_fa57b922b803aa34",
+   "quote": "107434000000",
+   "kind": "fact",
+   "ticker": "VZ",
+   "concept": "PropertyPlantAndEquipmentNet",
+   "fiscal_year": 2022,
+   "restated": [],
+   "values": [
+    "107434000000"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 6,
+ "prompt_tokens": 20546,
+ "completion_tokens": 596,
+ "latency_ms": null,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer reaches the correct conclusion and provides valid supporting evidence from the 10-K, even though it uses a different financial metric (capital expenditure ratio) than the gold answer's asset-to-revenue ratio.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 6,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1885,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"ticker\":\"VZ\",\"query\":\"capital intensive\",\"fiscal_year\":2022}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 3185,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"query\":\"capital expenditures\",\"fiscal_years\":[2022],\"ticker\":\"VZ\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 3513,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"fiscal_years\":[2022],\"ticker\":\"VZ\",\"query\":\"property, plant and equipment\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 3820,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"fiscal_years\":[2022],\"query\":\"operating revenue\",\"ticker\":\"VZ\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "tokens": 4122,
+   "tools": [
+    {
+     "name": "calculate",
+     "arguments": "{\"expression\":\"23087 / 136835 * 100\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 5,
+   "tokens": 4617,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"confidence\":1,\"answer\":\"Yes, Verizon is a capital-intensive business based on FY 2022 data. In its FY 2022 10-K, Verizon explicitly states under Risk Factors that \\\"We require a significant amount of capital to operate and grow our business.\\\" In FY 2022, Verizon had capital expenditures (including capitalized software) of $23,087 million, which represents approximately 16.87% of its total operating revenues ($136,835 million). Additionally, as of December 31, 2022, the company reported net property, plant and equipment of $107,434 million.\",\"needs_review\":false,\"citations\":[{\"quote\":\"We require a significant amount of capital to operate and grow our business.\",\"source_id\":\"ch_b93cb7bf5b3409c2\"},{\"source_id\":\"ch_e45545bb88293d76\",\"quote\":\"Less Capital expenditures (including capitalized software) 23,087\"},{\"source_id\":\"xf_39deba555a2ae5be\",\"quote\":\"136835000000\"},{\"quote\":\"107434000000\",\"source_id\":\"xf_fa57b922b803aa34\"}],\"rationale\":\"The company explicitly notes in Item 1A that it requires a significant amount of capital to operate and grow. Quantitative metrics confirm this: capital expenditures were $23,087 million (approx. 16.9% of revenues of $136,835 million) and net property, plant and equipment was $107,434 million at year-end 2022.\"}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

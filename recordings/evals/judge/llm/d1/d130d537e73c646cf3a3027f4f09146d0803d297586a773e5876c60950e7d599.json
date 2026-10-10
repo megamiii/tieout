@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the three segments that exceed 20% of revenue and provides accurate figures that align with the gold answer, including minor rounding differences.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0THFx+VDvRmtZ464EFE2lYMokqRt3y0yj3w70uLeTCkbyVfZhfnBdFLxMsZv5+j2Fj9e44ccCRvuxtO15zDHEmlimTPJJmfZTr0d+aqit17nZxHjPPjrW+GH58spHseidBZxt+Sos2W0UglnUh"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791621717,
+  "id": "R_rJaqGNNIm5vdIPtfC0sAY",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 435,
+   "total_tokens": 478
+  }
+ }
+}

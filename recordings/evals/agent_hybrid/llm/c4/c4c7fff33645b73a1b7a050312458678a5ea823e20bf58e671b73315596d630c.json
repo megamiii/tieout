@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 19,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0ThZ+Pir08YGsuNMPxhufQim7zhDA+znf7mK0Y9o/ZmCU6aodjEV25AjmA0KKZjkTOYTnoMD7Oy4igL38olJygfZhMcuFQvOcCB2OunILkQz94kl0LLBK39sM="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"For Best Buy in FY2015, FY2016, and FY2017, the net profit margins (net earnings attributable to Best Buy Co., Inc. shareholders divided by revenue) are as follows:\\n- FY2015: Net earnings attributable to Best Buy Co., Inc. shareholders of $1,233 million / Revenue of $40,339 million = 3.06%\\n- FY2016: Net earnings attributable to Best Buy Co., Inc. shareholders of $897 million / Revenue of $39,528 million = 2.27%\\n- FY2017: Net earnings attributable to Best Buy Co., Inc. shareholders of $1,228 million / Revenue of $39,403 million = 3.12%\\n\\nThe 3-year average net profit margin is 2.8%.\",\"citations\":[{\"quote\":\"Revenue $ 39,403 $ 39,528 $ 40,339\",\"source_id\":\"ch_66f8fe4224ac405b\"},{\"source_id\":\"ch_66f8fe4224ac405b\",\"quote\":\"Net earnings attributable to Best Buy Co., Inc. shareholders $ 1,228 $ 897 $ 1,233\"}],\"confidence\":1,\"needs_review\":false,\"rationale\":\"Extracted revenue and net earnings attributable to Best Buy Co., Inc. shareholders for FY2015, FY2016, and FY2017 from the income statement, calculated the annual net profit margins, and averaged them to arrive at 2.8%.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_45588",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791623012,
+  "id": "Y__JaobsAumH28oPy7mhoA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 398,
+   "prompt_tokens": 7774,
+   "prompt_tokens_details": {
+    "cached_tokens": 4280
+   },
+   "total_tokens": 8172
+  }
+ }
+}

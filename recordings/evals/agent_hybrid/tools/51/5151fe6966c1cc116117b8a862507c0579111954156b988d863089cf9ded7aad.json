@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "At December 31, 2022",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_1524c1508cd21460",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 80,
+    "text": "ABS Notes During the year ended December 31, 2022, we completed the following ABS Notes transactions: (dollars in millions) Interest Rates % Expected Weighted-average Life to Maturity (in years) Principal Amount Issued January 2022 Series 2022-1 A Senior class notes 1.040 1.49 $ 799 B Junior class notes 1.270 1.49 64 C Junior class notes 1.390 1.49 37 Series 2022-2 A Senior class notes 1.530 2.99 710 B Junior class notes 1.830 2.99 57 C Junior class notes 2.010 2.99 33 January 2022 total 1,700 May 2022 Series 2022-3 A Senior class notes 3.010 1.49 400 B Junior class notes 3.250 1.49 — C Junior class notes 3.500 1.49 16 Series 2022-4 A Senior class notes 3.400 2.99 488 B Junior class notes 3.640 2.99 42 C Junior class notes 3.890 2.99 20 May 2022 total 966 August 2022 Series 2022-5 A-1a Senior fixed rate class notes 3.720 1.44 351 A-1b Senior floating rate class notes Compounded SOFR + 0.620 1.44 57 B Junior class notes 3.960 1.44 — C Junior class notes 4.210 1.44 — Series 2022-6 A Seni…"
+   },
+   {
+    "chunk_id": "ch_51b1063608ec3840",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 94,
+    "text": "Other pre-tax changes in plan assets and benefit obligations recognized in Other comprehensive (income) loss are as follows: (dollars in millions) Pension Health Care and Life At December 31, 2022 2021 2020 2022 2021 2020 Reversal of amortization items Prior service cost (benefit) $ (82) $ (61) $ (61) $ 530 $ 894 $ 966 Total recognized in Other comprehensive loss (income) (pre-tax) $ (82) $ (61) $ (61) $ 530 $ 894 $ 966 Assumptions The weighted-average assumptions used in determining benefit obligations follow: Pension Health Care and Life At December 31, 2022 2021 2022 2021 Discount Rate 5.20% 3.00% 5.20% 2.90% Rate of compensation increases 3.00% 3.00% N/A N/A N/A - not applicable The weighted-average assumptions used in determining net periodic cost follow: Pension Health Care and Life At December 31, 2022 2021 2020 2022 2021 2020 Discount rate in effect for determining service cost 3.80% 3.20% 3.30% 3.20% 3.00% 3.50% Discount rate in effect for determining interest cost 3.20 1.90 2…"
+   },
+   {
+    "chunk_id": "ch_c5af95318cbbb2e9",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 81,
+    "text": "In January 2023, we issued $932 million aggregate principal amount of ABS Notes, with a blended interest rate of approximately 4.511%, through an ABS Entity. ABS Financing Facilities Under the two loan agreements in connection with the ABS Financing Facility entered into in December 2021 (2021 ABS Financing Facility), we prepaid an aggregate of $515 million in January 2022, borrowed an additional $1.9 billion in March 2022, prepaid an aggregate of $130 million in May 2022 and borrowed an additional $545 million in June 2022. In December 2022, we renewed the loan agreements in connection with the 2021 ABS Financing Facility which reset the revolving period of one or two years, as applicable, and we borrowed an additional $1.9 billion. The aggregate outstanding balance under the 2021 ABS Financing Facility was $7.9 billion as of December 31, 2022. In October 2022, we entered into an ABS financing facility with a financial institution (2022 ABS Financing Facility). Under the terms of the …"
+   },
+   {
+    "chunk_id": "ch_06c1977ed8ac8ffa",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 99,
+    "text": "result, we have not provided U.S. deferred taxes on these undistributed earnings because we intend that they will remain indefinitely reinvested outside of the U.S. and, therefore unavailable for use in funding U.S. operations. Determination of the amount of unrecognized deferred taxes related to these undistributed earnings is not practicable. At December 31, 2022, we had net after-tax loss, credit, and other carry forwards for income tax purposes of approximately $1.9 billion that relate to federal, state and foreign taxes. Of these net after-tax loss, credit, and other carry forwards, approximately $1.2 billion will expire between 2023 and 2042 and approximately $732 million may be carried forward indefinitely. During 2022, the valuation allowance decreased approximately $227 million. The $1.3 billion valuation allowance at December 31, 2022, as well as the 2022 activity is primarily related to state and foreign taxes. Unrecognized Tax Benefits A reconciliation of the beginning and …"
+   },
+   {
+    "chunk_id": "ch_bbb26027fd2bdf0f",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 78,
+    "text": "(2) During 2022, we recorded net gains of $119 million in connection with the open market repurchases, which were reflected within Other income (expense), net in our consolidated statements of income. Issuances (dollars in millions) Principal Amount Issued Net Proceeds (1) Verizon 3.875% notes due 2052 (2) $ 1,000 $ 982 Verizon 4.100% notes due 2055 655 650 Verizon 4.250% notes due 2030 (3) € 1,250 1,227 Verizon 4.750% notes due 2034 (3) € 1,250 1,231 Total $ 4,090 (1) Net proceeds were net of underwriting discounts and other issuance costs. In addition, for securities denominated in a currency other than the U.S. dollar, net proceeds are shown on a U.S. dollar equivalent basis. (2) An amount equal to the net proceeds from this green bond is expected to be used to fund, in whole or in part, certain renewable energy projects, including new and existing investments made by us during the period from December 1, 2021 through the maturity date of the green bond. (3) See Note 9 for additiona…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "revenue by product service category percentage 20 percent Boeing 2022",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_f0df00981f95173e",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 40,
+    "text": "Table of Contents expect U.S. growth to remain flat and non-U.S. fleets, led by Middle East and Asia Pacific customers, to add rotorcraft and commercial derivative aircraft at faster rates. We expect less than 20 percent of the worldwide fleet of military aircraft to be retired and replaced over the next ten years, driving increased demand for services to maintain aging aircraft and enhance aircraft capability. BGS' major customer, the U.S. government, remains subject to the spending limits and uncertainty described on page 35, which could restrict the execution of certain program activities and delay new programs or competitions. Industry Competitiveness Aviation services is a competitive market with many domestic and international competitors. This market environment has resulted in intense pressures on pricing, and we expect these pressures to continue or intensify in the coming years. Continued access to global markets remains vital to our ability to fully realize our sales growth …"
+   },
+   {
+    "chunk_id": "ch_242ce481a1eca4e5",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 83,
+    "text": "Table of Contents Our financing receivable balances at December 31, 2022 by internal credit rating category and year of origination consisted of the following: Rating categories Current 2021 2020 2019 2018 Prior Total BBB $68 $68 BB $35 $218 $112 $39 $12 63 479 B 35 218 253 CCC 19 370 389 Total carrying value of financing receivables $35 $253 $112 $58 $12 $719 $1,189 At December 31, 2022, our allowance for losses related to receivables with ratings of CCC, B, BB and BBB. We applied default rates that averaged 100.0%, 31.5%, 2.9% and 0.1%, respectively, to the exposure associated with those receivables. Customer Financing Exposure The majority of our customer financing portfolio is concentrated in the following aircraft models at December 31: 2022 2021 717 Aircraft ($45 and $62 accounted for as operating leases) $563 $603 747-8 Aircraft (Accounted for as sales-type/finance leases) 394 435 737 Aircraft ($174 and $145 accounted for as operating leases) 186 163 777 Aircraft ($209 and $225 …"
+   },
+   {
+    "chunk_id": "ch_b47e3f2e76b67ee3",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 38,
+    "text": "Table of Contents Deliveries of new-build production units, including remanufactures and modifications, were as follows: Years ended December 31, 2022 2021 2020 F/A-18 Models 14 21 20 F-15 Models 12 16 4 CH-47 Chinook (New) 19 15 27 CH-47 Chinook (Renewed) 9 5 3 AH-64 Apache (New) 25 27 19 AH-64 Apache (Remanufactured) 50 56 52 MH-139 Grey Wolf 4 KC-46 Tanker 15 13 14 P-8 Models 12 16 15 Commercial Satellites 4 Military Satellites 1 Total 165 169 154 Revenues BDS revenues in 2022 decreased by $3,378 million compared with 2021 primarily due to charges on development programs. Unfavorable performance across other defense programs and lower P-8 and weapons volume also contributed to the decrease in revenue. Cumulative contract catch-up adjustments in 2022 were $1,858 million more unfavorable than the prior year largely due to charges on development programs. BDS revenues in 2021 increased by $283 million compared with 2020 primarily due to higher revenue on the KC-46A Tanker program due t…"
+   },
+   {
+    "chunk_id": "ch_515291f695fac5af",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 28,
+    "text": "Table of Contents The following table summarizes cost of sales: (Dollars in millions) Years ended December 31 2022 2021 Change 2021 2020 Change Cost of sales $63,106 $59,269 $3,837 $59,269 $63,843 ($4,574) Cost of sales as a % of Revenues 94.7 % 95.2 % (0.5)% 95.2 % 109.8 % (14.6)% Cost of sales increased by $3,837 million in 2022 compared with 2021, primarily due to charges recorded at BDS and higher revenues at BCA. Cost of sales as a percentage of Revenues remained largely consistent in 2022 compared to 2021. Cost of sales decreased by $4,574 million in 2021 compared with 2020, primarily due to higher earnings charges at BCA, BDS and BGS in 2020, partially offset by higher costs as a result of higher revenues in 2021 and the reach-forward loss on the 787 program. Cost of sales as a percentage of Revenues decreased in 2021 compared to 2020 primarily due to higher earnings charges at BCA and BGS in 2020 and higher revenues in 2021. Research and Development The following table summariz…"
+   },
+   {
+    "chunk_id": "ch_2d77f8b3f6dc55d8",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 27,
+    "text": "expense of $16 million in 2020. The increased income in 2022 and 2021 was due to lower amortization of net actuarial losses. Interest and debt expense decreased by $149 million in 2022 primarily due to lower average debt balances and increased by $526 million in 2021 as a result of higher average debt balances. In August 2022, the President signed into law the Inflation Reduction Act of 2022, which contained provisions effective January 1, 2023, including a 15% corporate minimum tax and a 1% excise tax on stock buybacks, both of which we do not expect to have a material impact on our results of operations, financial condition or cash flows. For additional discussion related to Income Taxes, see Note 4 to our Consolidated Financial Statements. Total Costs and Expenses (“Cost of Sales”) Cost of sales, for both products and services, consists primarily of raw materials, parts, sub-assemblies, labor, overhead and subcontracting costs. Our BCA segment predominantly uses program accounting t…"
+   }
+  ]
+ }
+}

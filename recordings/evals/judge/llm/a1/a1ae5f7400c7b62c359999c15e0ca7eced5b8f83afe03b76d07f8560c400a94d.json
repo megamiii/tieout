@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.1-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"reasoning\": \"The answer correctly identifies the same key legal issues as the gold answer (opioids, usual and customary pricing, and PBM/prescription investigations) and provides accurate, specific financial context regarding the opioid settlements.\", \"verdict\": \"correct\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EnMKcQFpFH0TsQc41UFIes4M+EglA5AHfHFLXqUfM9NuZTnsZjg9n8o+9wX1qAS4tqAeM25xqwTzn6N2OMhcb0Ms5QKlwCl0bvxDtYisK2zYd3ZPOhPI3I81gvk22MgFQInuuyfqMVyPnB9xDbQwYObwkpNS"
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791623964,
+  "id": "EAPKavaFHYHzvdIPyvDPgAU",
+  "model": "gemini-3.1-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 53,
+   "prompt_tokens": 416,
+   "total_tokens": 469
+  }
+ }
+}

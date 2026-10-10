@@ -1,0 +1,321 @@
+{
+ "item_id": "financebench_id_00215",
+ "eval_set": "financebench",
+ "experiment": "agent_hybrid",
+ "status": "answered",
+ "answer": "Based on FY 2022 data, Verizon is a capital-intensive business. In FY 2022, Verizon reported capital expenditures (including capitalized software) of $23,087 million ($23.087 billion) against total operating revenues of $136,835 million ($136.835 billion) and net cash provided by operating activities of $37,141 million ($37.141 billion). Furthermore, Verizon held $107,434 million ($107.434 billion) in net property, plant and equipment out of $379,680 million ($379.680 billion) in total assets, and explicitly stated in its disclosures that it requires a significant amount of capital to operate and grow its business.",
+ "confidence": 1.0,
+ "rationale": "Verizon's high capital expenditures ($23,087 million), substantial net PP&E ($107,434 million) relative to assets ($379,680 million), and explicit disclosures confirm that Verizon is a capital-intensive business in FY 2022.",
+ "citations": [
+  {
+   "source_id": "ch_e45545bb88293d76",
+   "quote": "Capital expenditures (including capitalized software) 23,087",
+   "kind": "chunk",
+   "ticker": "VZ",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 42,
+   "values": [
+    "31",
+    "2022",
+    "2021",
+    "37141",
+    "39539",
+    "23087",
+    "20286",
+    "14054",
+    "19253",
+    "2022"
+   ]
+  },
+  {
+   "source_id": "ch_e128c9d3d7199637",
+   "quote": "Total Operating Revenues 136,835",
+   "kind": "chunk",
+   "ticker": "VZ",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 54,
+   "values": [
+    "31",
+    "2022",
+    "2021",
+    "2020",
+    "109625",
+    "110449",
+    "109872",
+    "27210",
+    "23164",
+    "18420",
+    "136835",
+    "133613",
+    "128292",
+    "28637",
+    "31234",
+    "31401",
+    "30496",
+    "25067",
+    "19800",
+    "30136",
+    "28658",
+    "31573",
+    "17099",
+    "16206",
+    "16720",
+    "106368",
+    "101165",
+    "99494",
+    "30467",
+    "32448",
+    "28798",
+    "44",
+    "145",
+    "45",
+    "1373",
+    "312",
+    "539",
+    "3613",
+    "3485",
+    "4247",
+    "28271",
+    "29420",
+    "23967",
+    "6523",
+    "6802",
+    "5619",
+    "21748",
+    "22618",
+    "18348"
+   ]
+  },
+  {
+   "source_id": "ch_e45545bb88293d76",
+   "quote": "Net cash provided by operating activities $ 37,141",
+   "kind": "chunk",
+   "ticker": "VZ",
+   "fiscal_year": 2022,
+   "section": "Item 7",
+   "page": 42,
+   "values": [
+    "31",
+    "2022",
+    "2021",
+    "37141",
+    "39539",
+    "23087",
+    "20286",
+    "14054",
+    "19253",
+    "2022"
+   ]
+  },
+  {
+   "source_id": "ch_54dcad0b04037d12",
+   "quote": "Property, plant and equipment, net 107,434",
+   "kind": "chunk",
+   "ticker": "VZ",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 56,
+   "values": [
+    "31",
+    "2022",
+    "2021",
+    "2605",
+    "2921",
+    "25332",
+    "24742",
+    "826",
+    "896",
+    "24506",
+    "23846",
+    "2388",
+    "3055",
+    "8358",
+    "6906",
+    "37857",
+    "36728",
+    "307689",
+    "289897",
+    "200255",
+    "190201",
+    "107434",
+    "99696",
+    "1071",
+    "1061",
+    "149796",
+    "147619",
+    "28671",
+    "28603",
+    "11461",
+    "11677",
+    "26130",
+    "27883",
+    "17260",
+    "13329",
+    "379680",
+    "366596",
+    "9963",
+    "7443",
+    "23977",
+    "24833"
+   ]
+  },
+  {
+   "source_id": "ch_54dcad0b04037d12",
+   "quote": "Total assets $ 379,680",
+   "kind": "chunk",
+   "ticker": "VZ",
+   "fiscal_year": 2022,
+   "section": "Item 8",
+   "page": 56,
+   "values": [
+    "31",
+    "2022",
+    "2021",
+    "2605",
+    "2921",
+    "25332",
+    "24742",
+    "826",
+    "896",
+    "24506",
+    "23846",
+    "2388",
+    "3055",
+    "8358",
+    "6906",
+    "37857",
+    "36728",
+    "307689",
+    "289897",
+    "200255",
+    "190201",
+    "107434",
+    "99696",
+    "1071",
+    "1061",
+    "149796",
+    "147619",
+    "28671",
+    "28603",
+    "11461",
+    "11677",
+    "26130",
+    "27883",
+    "17260",
+    "13329",
+    "379680",
+    "366596",
+    "9963",
+    "7443",
+    "23977",
+    "24833"
+   ]
+  },
+  {
+   "source_id": "ch_b93cb7bf5b3409c2",
+   "quote": "We require a significant amount of capital to operate and grow our business.",
+   "kind": "chunk",
+   "ticker": "VZ",
+   "fiscal_year": 2022,
+   "section": "Item 1A",
+   "page": 18,
+   "values": []
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 7,
+ "prompt_tokens": 35747,
+ "completion_tokens": 770,
+ "latency_ms": 40786.0,
+ "grade": {
+  "correct": true,
+  "method": "judge",
+  "detail": "The answer correctly identifies Verizon as capital intensive and provides accurate supporting data from the 10-K, including the total assets and revenue figures used in the gold answer's calculation.",
+  "judge_model": "gemini-3.1-flash-lite"
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 7,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1545,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"fiscal_year\":2022,\"ticker\":\"VZ\",\"query\":\"capital intensive\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 2871,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"fiscal_year\":2022,\"ticker\":\"VZ\",\"line_items\":[\"PropertyPlantAndEquipmentNet\",\"CapitalExpendituresIncurredNotInvoiced\",\"PaymentsToAcquireProductiveAssets\"]}",
+     "error": "unknown tool 'get_financial_facts'; available: ['read_section', 'search_filings', 'submit_answer']"
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 2956,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"ticker\":\"VZ\",\"fiscal_year\":2022,\"query\":\"Capital expenditures (including capitalized software)\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 4232,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"query\":\"operating revenues total operating revenues\",\"fiscal_year\":2022,\"ticker\":\"VZ\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "tokens": 6264,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"fiscal_year\":2022,\"query\":\"Consolidated Statements of Income Operating revenues\",\"ticker\":\"VZ\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 5,
+   "tokens": 8355,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"query\":\"Consolidated Balance Sheets Total assets\",\"fiscal_year\":2022,\"ticker\":\"VZ\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 6,
+   "tokens": 10294,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"answer\":\"Based on FY 2022 data, Verizon is a capital-intensive business. In FY 2022, Verizon reported capital expenditures (including capitalized software) of $23,087 million ($23.087 billion) against total operating revenues of $136,835 million ($136.835 billion) and net cash provided by operating activities of $37,141 million ($37.141 billion). Furthermore, Verizon held $107,434 million ($107.434 billion) in net property, plant and equipment out of $379,680 million ($379.680 billion) in total assets, and explicitly stated in its disclosures that it requires a significant amount of capital to operate and grow its business.\",\"rationale\":\"Verizon's high capital expenditures ($23,087 million), substantial net PP&E ($107,434 million) relative to assets ($379,680 million), and explicit disclosures confirm that Verizon is a capital-intensive business in FY 2022.\",\"confidence\":1,\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_e45545bb88293d76\",\"quote\":\"Capital expenditures (including capitalized software) 23,087\"},{\"quote\":\"Total Operating Revenues 136,835\",\"source_id\":\"ch_e128c9d3d7199637\"},{\"quote\":\"Net cash provided by operating activities $ 37,141\",\"source_id\":\"ch_e45545bb88293d76\"},{\"source_id\":\"ch_54dcad0b04037d12\",\"quote\":\"Property, plant and equipment, net 107,434\"},{\"source_id\":\"ch_54dcad0b04037d12\",\"quote\":\"Total assets $ 379,680\"},{\"quote\":\"We require a significant amount of capital to operate and grow our business.\",\"source_id\":\"ch_b93cb7bf5b3409c2\"}]}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

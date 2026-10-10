@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TiW6TpDVcbd2AxI8bIeYfI26GoenJeiToT5QeOi+R6H3oII4KGigorAQl3JO4d8+ucgmudXglUDWALp50UfP6i76v6+DMrBoP1KaccWujQZkZZhGyVTHcozk="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"query\":\"Consolidated Balance Sheets Total assets\",\"section\":\"8\",\"ticker\":\"CVS\"}",
+        "name": "search_filings"
+       },
+       "id": "call_45277",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791622292,
+  "id": "lPzJas_UEs-SvdIPoqWE8QU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 7625,
+   "prompt_tokens_details": {
+    "cached_tokens": 4044
+   },
+   "total_tokens": 7669
+  }
+ }
+}

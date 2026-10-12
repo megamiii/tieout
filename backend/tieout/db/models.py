@@ -195,3 +195,19 @@ class ReviewDecision(Base):
     final_answer: Mapped[str] = mapped_column(Text)
     note: Mapped[str] = mapped_column(Text)
     reviewer: Mapped[str] = mapped_column(String(100))
+
+
+class WorkflowRun(Base):
+    """A tie-out or analytical review of one filing (summary + items as JSON)."""
+
+    __tablename__ = "workflow_runs"
+
+    id: Mapped[str] = mapped_column(String(36), primary_key=True)
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    kind: Mapped[str] = mapped_column(String(32), index=True)  # tieout | analytical_review
+    ticker: Mapped[str] = mapped_column(String(16))
+    fiscal_year: Mapped[int] = mapped_column(Integer)
+    doc_name: Mapped[str] = mapped_column(String(100))
+    model: Mapped[str] = mapped_column(String(64))
+    summary: Mapped[dict[str, Any]] = mapped_column(JSONB)
+    items: Mapped[list[dict[str, Any]]] = mapped_column(JSONB)

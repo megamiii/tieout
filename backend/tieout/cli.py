@@ -1,5 +1,6 @@
 """Command-line entry point: `tieout --help`."""
 
+import json
 from datetime import date
 from pathlib import Path
 from typing import Annotated, Any
@@ -24,12 +25,13 @@ from tieout.evals.sets import (
 )
 from tieout.financebench.dataset import load_documents, load_questions
 from tieout.indexing import run_concepts, run_index
-from tieout.llm.client import configured_limits, quota_timezone
+from tieout.llm.client import configured_limits, make_llm_client, quota_timezone
 from tieout.llm.limits import FreeTierLimits, UsageLedger, limits_for, quota_day
 from tieout.retrieval.chunking import MAX_TOKENS, OVERLAP_TOKENS
 from tieout.retrieval.embeddings import get_embedder
 from tieout.retrieval.search import RRF_K, SearchFilters, search
 from tieout.runs import import_eval_results
+from tieout.workflows.service import run_analytical_review, run_tieout, save_workflow
 
 app = typer.Typer(
     no_args_is_help=True,
@@ -269,6 +271,59 @@ def runs_import_evals(
     with get_sessionmaker()() as session, session.begin():
         n = import_eval_results(session, experiment, RUNS_DIR, items, settings.llm_model)
     typer.echo(f"imported {n} runs from evals/runs/{experiment}")
+
+
+wf_app = typer.Typer(no_args_is_help=True, help="Audit workflows on one filing.")
+app.add_typer(wf_app, name="workflow")
+
+
+def _print_workflow(report: dict[str, Any]) -> None:
+    typer.echo(
+        f"{report['kind']} {report['ticker']} FY{report['fiscal_year']}: {report['summary']}"
+    )
+
+
+@wf_app.command("tieout")
+def wf_tieout(
+    ticker: str,
+    fiscal_year: int,
+    llm: Annotated[bool, typer.Option(help="adjudicate possible mismatches with the LLM")] = True,
+    save: Annotated[bool, typer.Option(help="store the run for the UI")] = True,
+    out: Annotated[Path | None, typer.Option(help="also write the report as JSON")] = None,
+) -> None:
+    """Tie out MD&A dollar claims against the filing's XBRL facts."""
+    settings = get_settings()
+    embedder = get_embedder(settings.data_path / "models")
+    client = make_llm_client(settings) if llm else None
+    init_db()
+    with get_sessionmaker()() as session, session.begin():
+        report = run_tieout(session, embedder, client, ticker, fiscal_year)
+        if save:
+            report["id"] = save_workflow(session, report, client.model if client else "none")
+    _print_workflow(report)
+    if out:
+        out.write_text(json.dumps(report, indent=1, default=str) + "\n", encoding="utf-8")
+
+
+@wf_app.command("review")
+def wf_review(
+    ticker: str,
+    fiscal_year: int,
+    save: Annotated[bool, typer.Option(help="store the run for the UI")] = True,
+    out: Annotated[Path | None, typer.Option(help="also write the report as JSON")] = None,
+) -> None:
+    """Analytical review: material YoY changes and management's explanation."""
+    settings = get_settings()
+    embedder = get_embedder(settings.data_path / "models")
+    client = make_llm_client(settings)
+    init_db()
+    with get_sessionmaker()() as session, session.begin():
+        report = run_analytical_review(session, embedder, client, ticker, fiscal_year)
+        if save:
+            report["id"] = save_workflow(session, report, client.model)
+    _print_workflow(report)
+    if out:
+        out.write_text(json.dumps(report, indent=1, default=str) + "\n", encoding="utf-8")
 
 
 @app.command("serve")

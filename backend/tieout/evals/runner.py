@@ -322,6 +322,19 @@ def run_grading(
 
 # --- reproducibility check (CI) -------------------------------------------------
 
+# The configuration the eval recordings were made with. Request hashes cover
+# the provider URL, the model and the request options, and the agent limits
+# change what is sent (the forced submit near the last step), so a replay must
+# use exactly these settings, whatever the local .env says.
+RECORDED_WITH: dict[str, Any] = {
+    "llm_provider": "gemini",
+    "llm_model": "gemini-3.5-flash-lite",
+    "llm_base_url": "",
+    "llm_reasoning_effort": "",
+    "agent_max_steps": 8,
+    "agent_max_tokens_per_run": 60_000,
+}
+
 # What must match for a replayed answer to count as reproduced. Latency and
 # token counts are excluded: replays are served from the cache.
 COMPARED = ("status", "answer", "stop_reason")
@@ -346,7 +359,8 @@ def verify_replay(
     from tieout.agent.recording import ToolReplayMiss
     from tieout.llm.types import LLMCacheMiss
 
-    answer, _ = make_answerer(experiment, settings, companies, offline=True)
+    recorded = settings.model_copy(update=RECORDED_WITH)
+    answer, _ = make_answerer(experiment, recorded, companies, offline=True)
     out: list[Replay] = []
     for item in items:
         committed = load_result(experiment, item.id)

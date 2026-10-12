@@ -47,3 +47,26 @@ def test_verify_reports_changed_and_unrecorded_answers(monkeypatch: pytest.Monke
         ("missing", "no_result"),
     ]
     assert replays[1].detail == "answer"
+
+
+def test_replay_uses_the_recorded_configuration(monkeypatch: pytest.MonkeyPatch) -> None:
+    seen: list[Settings] = []
+
+    def capture(experiment: str, settings: Settings, *a: Any, **k: Any) -> Any:
+        seen.append(settings)
+        return fake_answer, None
+
+    monkeypatch.setattr(runner, "make_answerer", capture)
+    monkeypatch.setattr(runner, "load_result", lambda exp, item_id: None)
+    local = Settings(llm_provider="groq", llm_model="openai/gpt-oss-20b", agent_max_steps=5)
+    runner.verify_replay("agent_full", [item("x")], local, [])
+    assert seen[0].llm_provider == "gemini" and seen[0].agent_max_steps == 8
+
+
+def test_recorded_configuration_matches_the_eval_report() -> None:
+    import json
+
+    from tieout.config import REPO_ROOT
+
+    report = json.loads((REPO_ROOT / "evals" / "reports" / "eval.json").read_text("utf-8"))
+    assert report["meta"]["agent_model"] == runner.RECORDED_WITH["llm_model"]

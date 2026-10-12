@@ -127,6 +127,16 @@ Web UI and review queue (milestone 6):
 - **Model output is rendered as Markdown, safely:** the model writes Markdown; the UI renders it with `react-markdown`, which never renders raw HTML. The prompt was not changed mid-eval to avoid Markdown, since that would mix two agent versions within one experiment.
 - **Frontend stack:** React 19 + TypeScript (strict) with Vite, ESLint (`typescript-eslint` strict) and plain CSS with light and dark themes; three views (ask, review queue, eval dashboard) with a tiny hash router instead of a router dependency. Vite is pinned to 6 because Vite 8 requires Node ≥ 20.19.
 
+Tie-out and analytical review (milestone 7):
+
+- **Mostly deterministic, LLM only where text must be interpreted:** claim extraction, matching, material-change selection and quote verification are code with unit tests; the LLM is used for one judgment per item. A tie-out of a whole 10-K costs 3–24 LLM requests and an analytical review 8, which fits the free tier.
+- **Claims keep their written precision:** only dollar amounts with an explicit scale in MD&A prose are claims ("$1.6 billion", "$1,577 million"). "$1.6 billion" may be anything from 1.55 to 1.65 billion, while "$1,577 million" must be within half a million, so matching allows exactly the rounding the author used. Each claim also records the fiscal year it refers to ("$21.3 billion in fiscal 2023"; "…for 2022, 2021 and 2020, respectively") and whether it is quarterly or a non-GAAP / adjusted figure. Quarterly amounts and amounts rounded too coarsely to tie out (where the rounding exceeds 5%, as in "$0.1 billion") are reported as out of scope.
+- **A match needs value, year and meaning:** a fact matches if it equals the claim within its rounding, for that fiscal year, and its concept ranks in the top 15 of the filing's concepts by embedding similarity to the sentence. Value alone is not enough: "$8 million" lies within rounding of several unrelated facts. In a hand check of 20 random matches, 19 were the right line item and year (one was a year-assignment coincidence).
+- **Exceptions are identified by a value-blind LLM, and code compares the numbers:** when no related fact has the value but a closely related concept has a close one (within ±20%), the LLM is shown the sentence with the figure replaced by `[AMOUNT]` and the candidate line items *without values*, and names the line item [AMOUNT] reports (same measure, scope and period) or none. Code then compares the values. The first version showed the LLM both numbers, and it reasoned "the text says $2.523 billion whereas XBRL says $2.803 billion, so these are different quantities": a different value was taken as evidence of a different quantity, so real discrepancies could never be flagged. Without any LLM check, embedding similarity raised 79 candidate exceptions in five filings, and a spot check of 25 found almost all were different quantities ("Health Care segment sales" vs total SG&A).
+- **Detection is measured with planted errors (mutation testing):** audited 10-Ks rarely contain real discrepancies, so "no exceptions found" says nothing about whether the check works. 40 claims that tie out were altered by 5–10% (beyond their rounding) and run through the tie-out: the value-aware adjudicator caught **2 of 40**, the value-blind one **30 of 40**, and **28 of 40 (70%)** after adjusted / non-GAAP figures were excluded from exceptions by design (two planted errors sat in "adjusted" sentences). None was flagged against the wrong fact. Report: [evals/reports/tieout_mutation.json](evals/reports/tieout_mutation.json).
+- **What reviewers see on real filings:** on five 10-Ks (3M FY2018, Nike FY2023, AMD FY2022, Boeing FY2022, General Mills FY2022), 751 claims: 139 matched, 11 exceptions, 474 not in XBRL (segment figures, non-GAAP measures, amounts not tagged in the statements) and 127 out of scope. All exceptions were checked by hand (14 before the non-GAAP rule) and none was a real discrepancy: they were segment vs company totals ("BDS loss from operations" vs Boeing's total), net vs gross repurchases, a component vs its line item (accrued trade promotions vs accrued marketing), balance-sheet vs cash-flow changes, cumulative program vs annual amounts, and a few year-assignment errors in truncated sentences. So at 70% detection of planted errors, a reviewer currently clears about two false exceptions per filing; exceptions are review items, not findings.
+- **Analytical review:** line items that changed at least 20% year over year and are at least 1% of revenue (total assets if there is no revenue concept), largest dollar changes first, at most 8. For each, MD&A (Item 7) is searched with the line item's plain name plus its two figures, which MD&A sentences usually restate, and the LLM must quote management's explanation from those passages; the quote is verified against the cited chunk. On 3M FY2018, Nike FY2023 and AMD FY2022 the first version explained 4 of 24 changes: it picked redundant totals (one acquisition moved AMD's assets, liabilities-and-equity, equity and paid-in capital) and searched the whole filing with XBRL label jargon. Skipping balance-sheet identities and equity / comprehensive-income components, merging identical movements and searching MD&A with the figures raised this to **11 of 24**; by hand, 10 of the 11 quotes do explain the change (one quotes the definition of goodwill rather than why it changed). "No explanation found" is itself an audit observation, but some of the 13 are retrieval misses (AMD's cost of sales).
+
 ## Data
 
 All data is public:
@@ -252,6 +262,9 @@ tieout ask "What was 3M's FY2018 capital expenditure?"   # needs GROQ_API_KEY or
 tieout ask "..." --recording recordings/demo1             # record LLM + tool calls
 tieout ask "..." --recording recordings/demo1 --offline   # replay: no key, DB or model
 tieout usage                    # today's tokens vs the free-tier daily limits
+tieout workflow tieout MMM 2018 # tie-out MD&A figures against XBRL
+tieout workflow review MMM 2018 # analytical review of material changes
+tieout eval tieout              # mutation test: planted errors in tied-out claims
 pytest -q
 ```
 
@@ -288,7 +301,7 @@ _TODO: add the MCP client config snippet._
 - [x] 4. All tools + answer validation (first live run recorded on Gemini; see below)
 - [x] 5. Evals
 - [x] 6. UI + review queue
-- [ ] 7. Tie-out + analytical review
+- [x] 7. Tie-out + analytical review
 - [ ] 8. Tracing
 - [ ] 9. MCP server
 - [ ] 10. Demo mode + deployment
@@ -313,6 +326,7 @@ tieout/
 │   ├── agent/            # agent loop, tools, calculator, answer validation, recording
 │   ├── evals/            # eval sets, graders, runner, metrics, retrieval eval
 │   ├── api/              # FastAPI app
+│   ├── workflows/        # tie-out (claims, matching, adjudication), analytical review
 │   ├── runs.py           # persisted runs, review decisions, citation views
 │   ├── highlight.py      # quote highlighting in cited passages
 │   ├── ingest.py         # select → download → load pipeline

@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { api, type Company, type RunDetail } from '../api'
 import { RunView } from '../components/RunView'
 import { useConfig } from '../config'
+import { hashParams, replaceHash } from '../route'
 
 const EXAMPLES = [
   "What was 3M's FY2018 capital expenditure in USD millions?",
@@ -22,10 +23,21 @@ export function AskView() {
     api.companies().then(setCompanies, () => setCompanies([]))
   }, [])
 
+  // Open a linked recorded question (#/ask?q=<id>) once the config is known.
+  const linked = config?.demo_questions.find((d) => d.id === hashParams().get('q'))
+  useEffect(() => {
+    if (linked) void submit(linked.question)
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- run once per linked question
+  }, [linked?.id])
+
   async function submit(q: string) {
+    setQuestion(q)
     setLoading(true)
     setError(null)
     setRun(null)
+    // A recorded question gets a shareable address: #/ask?q=<id>.
+    const recorded = config?.demo_questions.find((d) => d.question === q)
+    replaceHash('ask', recorded ? { q: recorded.id } : {})
     try {
       setRun(await api.ask(q))
     } catch (e) {
@@ -55,10 +67,7 @@ export function AskView() {
                 type="button"
                 className="demo-question"
                 disabled={loading}
-                onClick={() => {
-                  setQuestion(q.question)
-                  void submit(q.question)
-                }}
+                onClick={() => void submit(q.question)}
               >
                 <span>{q.question}</span>
                 <span className="small muted">{q.shows}</span>

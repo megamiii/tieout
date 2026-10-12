@@ -1,6 +1,10 @@
 import { useEffect, useState } from 'react'
 import { api, type EvalMetrics, type EvalReport } from '../api'
 
+// Archived experiments are kept for comparison and never resumed.
+const isArchived = (labels: Record<string, string>, experiment: string) =>
+  (labels[experiment] ?? '').includes('(archived)')
+
 const pct = (x: number | null) => (x === null ? '–' : `${(x * 100).toFixed(1)}%`)
 const num = (x: number | null, digits = 0) => (x === null ? '–' : x.toLocaleString(undefined, { maximumFractionDigits: digits }))
 
@@ -32,7 +36,11 @@ function Table({ rows, labels }: { rows: EvalMetrics[]; labels: Record<string, s
             <tr key={m.experiment} className={m.graded < m.n ? 'partial' : ''}>
               <td>
                 {labels[m.experiment] ?? m.experiment}
-                {m.graded < m.n && <span className="badge pending" style={{ marginLeft: 8 }}>in progress</span>}
+                {m.graded < m.n && (
+                  <span className="badge pending" style={{ marginLeft: 8 }}>
+                    {isArchived(labels, m.experiment) ? 'incomplete' : 'in progress'}
+                  </span>
+                )}
               </td>
               <td>
                 {m.graded}/{m.n}
@@ -71,13 +79,18 @@ export function EvalView() {
   if (!report) return <p className="muted">Loading…</p>
 
   const sets = [...new Set(report.metrics.map((m) => m.eval_set))]
+  const partial = report.metrics.some(
+    (m) => m.graded < m.n && !isArchived(report.experiments, m.experiment),
+  )
   return (
     <div className="stack">
       <div>
         <h1>Evaluation</h1>
         <p className="muted">
-          Agent model {report.meta.agent_model} · judge {report.meta.judge_model} · report of {report.meta.date}. Rows
-          marked “in progress” are partial: the free tier allows 500 agent requests a day, so runs continue across days.
+          Agent model {report.meta.agent_model} · judge {report.meta.judge_model} · report of {report.meta.date}.
+          {partial
+            ? ' Rows marked “in progress” are partial: the free tier allows 500 agent requests a day, so runs continue across days.'
+            : ' Every question was answered and graded; CI replays all answers from the recordings on each push.'}
         </p>
       </div>
       {sets.map((s) => (

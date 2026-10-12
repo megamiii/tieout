@@ -10,6 +10,7 @@ import {
 } from '../api'
 import { TraceView } from '../components/TraceView'
 import { useConfig } from '../config'
+import { hashParams, replaceHash } from '../route'
 
 const money = (v: string) => {
   const n = Math.abs(Number(v))
@@ -152,6 +153,25 @@ export function WorkflowView({ kind }: { kind: WorkflowKind }) {
   }, [loadRuns])
 
   const years = useMemo(() => companies.find((c) => c.ticker === ticker)?.fiscal_years ?? [], [companies, ticker])
+
+  // Linked run (#/tieout?ticker=MMM&year=2018): open the latest stored run for that filing.
+  useEffect(() => {
+    const params = hashParams()
+    const hit = runs.find(
+      (r) => r.ticker === params.get('ticker') && r.fiscal_year === Number(params.get('year')),
+    )
+    if (hit && !current) workflows.get(hit.id).then(setCurrent, (e: unknown) => setError(String(e)))
+  }, [runs, current])
+
+  // Keep the address shareable for the run on screen.
+  useEffect(() => {
+    if (current) {
+      replaceHash(kind === 'tieout' ? 'tieout' : 'analytical', {
+        ticker: current.ticker,
+        year: String(current.fiscal_year),
+      })
+    }
+  }, [current, kind])
 
   async function run() {
     if (!ticker || !year) return

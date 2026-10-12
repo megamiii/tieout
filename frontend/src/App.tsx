@@ -19,15 +19,20 @@ const ROUTES = {
 type Route = keyof typeof ROUTES
 
 function currentRoute(): Route {
-  const hash = window.location.hash.replace('#/', '')
+  const hash = window.location.hash.replace('#/', '').split('?')[0]
   return hash in ROUTES ? (hash as Route) : 'ask'
 }
 
 export default function App() {
   const [route, setRoute] = useState<Route>(currentRoute)
+  // The full hash, so following a link (#/ask?q=...) re-opens the view with it.
+  const [hash, setHash] = useState(window.location.hash)
 
   useEffect(() => {
-    const onHash = () => setRoute(currentRoute())
+    const onHash = () => {
+      setRoute(currentRoute())
+      setHash(window.location.hash)
+    }
     window.addEventListener('hashchange', onHash)
     return () => window.removeEventListener('hashchange', onHash)
   }, [])
@@ -57,7 +62,7 @@ export default function App() {
         </div>
       )}
       <main>
-        <View />
+        <View key={hash} />
       </main>
     </>
   )

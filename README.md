@@ -1,22 +1,29 @@
 # tieout
 
+[![CI](https://github.com/megamiii/tieout/actions/workflows/ci.yml/badge.svg)](https://github.com/megamiii/tieout/actions/workflows/ci.yml) [![Pages](https://github.com/megamiii/tieout/actions/workflows/pages.yml/badge.svg)](https://github.com/megamiii/tieout/actions/workflows/pages.yml)
+
 An AI agent that answers audit-style questions about public companies' SEC filings, cites every source, and checks that the numbers in a filing actually tie out.
 
 **[Live demo](https://megamiii.github.io/tieout/)** · replays recorded runs, so it needs no API key and costs nothing
 
 In auditing, a *tie-out* is the check that every number stated in a document matches the underlying financial records. tieout automates a first pass of that work on real 10-K filings. An agent searches the filing text, pulls structured financial data from the SEC's XBRL API, does arithmetic with a real calculator instead of the LLM, and returns an answer with citations and a confidence score. When the evidence is missing or contradictory, it flags the question for human review instead of guessing.
 
-<!-- TODO: add a GIF of the demo: question → agent steps → cited answer -->
+[![A recorded answer in the demo: what drove 3M's FY2022 operating margin, with the cited MD&A table and the quoted figures highlighted](docs/answer.png)](https://megamiii.github.io/tieout/#/ask?q=3m-operating-margin-drivers)
 
 ## What you can try in the demo
 
 The public demo replays recorded runs, so it needs no API key and costs nothing (see the milestone 10 design notes under [Architecture](#architecture)).
 
-- **Ask a question:** six recorded FinanceBench questions, for example 3M's FY2018 capital expenditure (XBRL value cross-checked against the cash flow statement), Boeing's net income change (computed with the calculator), what drove 3M's operating margin (quotes from the MD&A), and an AMD liquidity question the agent routed to human review
-- **Run a tie-out:** five 10-Ks (3M FY2018, Nike FY2023, AMD FY2022, Boeing FY2022, General Mills FY2022): every dollar figure in the MD&A is checked against the filing's XBRL data, with exceptions flagged
-- **Analytical review:** line items with large year-over-year changes, and the MD&A passage that explains each one (3M FY2018, Nike FY2023, AMD FY2022)
-- **Inspect the trace:** every LLM call, tool call and retrieval ranking, with tokens, latency and cache hits
-- **Review queue:** accept or override the answers the agent sent to review, as a human reviewer would
+- **Ask a question:** six recorded FinanceBench questions, for example [3M's FY2018 capital expenditure](https://megamiii.github.io/tieout/#/ask?q=3m-capex-2018) (XBRL value cross-checked against the cash flow statement), [Boeing's net income change](https://megamiii.github.io/tieout/#/ask?q=boeing-net-income-growth) (computed with the calculator), [what drove 3M's operating margin](https://megamiii.github.io/tieout/#/ask?q=3m-operating-margin-drivers) (quotes from the MD&A), and [an AMD liquidity question](https://megamiii.github.io/tieout/#/ask?q=amd-quick-ratio-review) the agent routed to human review
+- **Run a tie-out:** five 10-Ks (3M FY2018, Nike FY2023, AMD FY2022, Boeing FY2022, General Mills FY2022): every dollar figure in the MD&A is checked against the filing's XBRL data, with exceptions flagged ([3M FY2018](https://megamiii.github.io/tieout/#/tieout?ticker=MMM&year=2018))
+- **Analytical review:** line items with large year-over-year changes, and the MD&A passage that explains each one ([Nike FY2023](https://megamiii.github.io/tieout/#/analytical?ticker=NKE&year=2023); also 3M FY2018 and AMD FY2022)
+- **Inspect the trace:** every LLM call, tool call and retrieval ranking, with tokens, latency and cache hits (below every answer and workflow)
+- **[Review queue](https://megamiii.github.io/tieout/#/review):** accept or override the answers the agent sent to review, as a human reviewer would
+- **[Evaluation](https://megamiii.github.io/tieout/#/eval):** accuracy, citation precision and abstention quality for the three configurations
+
+| Trace of a recorded answer | Tie-out of 3M's FY2018 10-K |
+|---|---|
+| [![The trace waterfall: seven agent steps, each an LLM call and a tool call, all served from the recording](docs/trace.png)](https://megamiii.github.io/tieout/#/ask?q=3m-operating-margin-drivers) | [![Tie-out exceptions: two MD&A figures that differ from the XBRL line item, with the value-blind LLM's reasoning](docs/tieout.png)](https://megamiii.github.io/tieout/#/tieout?ticker=MMM&year=2018) |
 
 ## Features
 
@@ -30,50 +37,49 @@ The public demo replays recorded runs, so it needs no API key and costs nothing 
   - `submit_answer`: schema-validated answer with citations
 - **Grounded, explainable answers:** every claim links to the exact passage or XBRL fact it came from; answers with invalid citations are rejected and retried
 - **Human-in-the-loop:** low-confidence or conflicting answers go to a review queue, and reviewer decisions are saved
-- **Evaluation harness:** tested on the FinanceBench open-source benchmark plus numeric questions with ground truth from XBRL, run in CI
+- **Evaluation harness:** tested on the FinanceBench open-source benchmark plus numeric questions with ground truth from XBRL; CI replays every committed eval answer on each push
 - **Observability:** a span-level trace of every agent run and workflow (LLM calls, tool calls, retrieval rankings, validation), with timings, tokens and cache hits, shown as a waterfall in the UI
 - **MCP server:** the filing search and financial data tools are also exposed through the Model Context Protocol for AI assistants and IDEs that support it
-- **Demo mode:** curated questions replay recorded agent runs, so anyone can try the demo for free; live mode uses a rate-limited, budget-capped API key
+- **Demo mode:** curated questions replay recorded agent runs, so anyone can try the public demo for free; running locally with your own free API key answers any question
 
 ## Architecture
 
-<!-- TODO: replace with the final diagram -->
-
 ```
-            ┌──────────────────────────── Web UI (React + TypeScript) ────────────────────────────┐
-            │  ask · tie-out · analytical review · agent trace · review queue · eval dashboard    │
-            └──────────────────────────────────────┬──────────────────────────────────────────────┘
-                                                   │ REST API
-                        ┌──────────────────────────▼──────────────────────────┐
-                        │ FastAPI backend                                      │
-                        │   Agent loop ──► LLM API (Groq / Gemini / Ollama)    │
-                        │     ├─ search_filings ──► hybrid RAG                 │
-                        │     ├─ read_section                                  │
-                        │     ├─ get_financial_facts ──► SEC EDGAR XBRL (cache)│
-                        │     ├─ calculate                                     │
-                        │     └─ submit_answer (schema + citation checks)      │
-                        │   Demo mode (recorded runs) · tracing · cost limits  │
-                        └──────────────────────────┬──────────────────────────┘
+        ┌─────────────────────────── Web UI (React + TypeScript) ────────────────────────────┐
+        │ ask · tie-out · analytical review · trace waterfall · review queue · evaluation    │
+        └──────────────────────────────────────────┬─────────────────────────────────────────┘
+                                                   │ REST API (the static demo reads a JSON snapshot of it)
+                     ┌─────────────────────────────▼────────────────────────────┐
+                     │ FastAPI backend                                          │
+                     │   Agent loop ──► LLM API (Gemini / Groq / Ollama)        │
+                     │     ├─ search_filings ──► hybrid RAG                     │
+                     │     ├─ read_section                                      │
+                     │     ├─ get_financial_facts ──► XBRL facts                │
+                     │     ├─ calculate                                         │
+                     │     └─ submit_answer ──► validator (citations, figures)  │
+                     │   Workflows: tie-out · analytical review                 │
+                     │   Tracing · response cache = recordings · demo mode      │
+                     └─────────────────────────────┬────────────────────────────┘
                                                    │
-                        ┌──────────────────────────▼──────────────────────────┐
-                        │ Postgres + pgvector                                  │
-                        │ filings · chunks · XBRL facts · answers · traces     │
-                        └──────────────────────────▲──────────────────────────┘
+                     ┌─────────────────────────────▼────────────────────────────┐
+                     │ Postgres + pgvector                                      │
+                     │ filings · chunks · XBRL facts · runs · reviews · traces  │
+                     └─────────────────────────────▲────────────────────────────┘
                                                    │
-                        ┌──────────────────────────┴──────────────────────────┐
-                        │ MCP server (same tools, for external assistants)     │
-                        └─────────────────────────────────────────────────────┘
+                     ┌─────────────────────────────┴────────────────────────────┐
+                     │ MCP server (the same tools, for AI assistants and IDEs)  │
+                     └──────────────────────────────────────────────────────────┘
 ```
 
 **Design decisions**
 
-<!-- TODO: fill in as you build. Explain each choice in your own words. -->
+The key choices, with what was measured (details per milestone below):
 
-- **Why a calculator tool:** _LLMs make arithmetic mistakes; financial answers must be computed_
-- **Text plus XBRL:** _why combining unstructured filing text with structured financial data gives better answers than either alone_
-- **Hybrid retrieval:** _why keyword search matters for line-item names, fiscal years and exact figures_
-- **When to abstain:** _how confidence is estimated, and why "needs review" beats a wrong answer in audit work_
-- **Demo mode:** _how recorded runs keep the public demo free and reliable_
+- **Numbers are computed, not generated:** every figure in an answer must appear in a cited source or a `calculate` result, or the validator rejects the answer and tells the model why. This costs coverage: the full agent answers 80.0% of FinanceBench questions, against 87.1% for the agent without the rule, and when the correct answers sent to review were inspected (validator v2), 6 of 10 contained arithmetic the model did in its head. In audit work an unverifiable figure is worse than a referral to a reviewer.
+- **Text plus XBRL:** filing text explains, XBRL states exact values. Dense financial tables retrieve poorly (3M's FY2018 cash flow statement is not in the top 10 of any retriever for "capital expenditure"), while `get_financial_facts` returns the line item with a fact ID to cite. Adding XBRL and the calculator raised FinanceBench numeric accuracy from 78.3% to 87.0% and citation precision from 63.6% to 71.9%; the overall accuracy difference (84.3% → 85.7%) is within the noise of a 70-question set.
+- **Hybrid retrieval, measured rather than assumed:** keyword search was expected to help with line-item names and exact figures, but on raw FinanceBench questions vector search alone retrieved better (hit@10 68.6% vs 54.3%), because questions and filings use different words. The agent writes its own queries and searches hybrid; a vector-only agent was not run, so whether hybrid helps the agent is untested.
+- **Abstain instead of guessing:** an answer goes to the review queue when the model flags missing or conflicting evidence, its confidence is below 0.7, it fails validation twice, or the run hits its step or token limit. On FinanceBench, 35.7% of the answers sent to review were actually wrong, and half of all wrong answers were sent to review.
+- **A demo that costs nothing and can't drift:** every LLM response is cached by request hash, so a run replays exactly. The public demo replays recorded runs as a static site, and CI replays all 330 committed eval answers on every push and fails if any changes.
 
 Data layer (milestone 1):
 
@@ -343,8 +349,18 @@ NEON_DATABASE_URL='postgresql://USER:PASSWORD@HOST/neondb?sslmode=require' sh de
 
 ```bash
 tieout eval retrieval           # retrieval hit@k / MRR -> evals/reports/retrieval.{md,json}
-make eval                       # (milestone 5) runs the agent on the eval set and writes a report
+tieout eval run agent_full      # answer + grade (resumable; needs a free API key)
+tieout eval report              # evals/reports/eval.{md,json}
+tieout eval verify              # replay every committed answer offline; fails if any differs
 ```
+
+### Tests and CI
+
+`pytest -q` runs 204 tests; the 20 database tests need Postgres (`docker compose up -d`) and are skipped, after one 3-second connection check, when it isn't running. [CI](.github/workflows/ci.yml) runs on every push and pull request, with no API key:
+
+- **Backend:** ruff, mypy (strict) and the full test suite against a fresh pgvector Postgres service, so the database tests run.
+- **Eval replay:** `tieout eval verify` re-answers all 330 committed eval items (3 configurations × 110 questions) from `recordings/evals/` with no key, database or embedding model, and fails if any answer, status or citation differs from `evals/runs/` or needs a request that was never recorded. Locally this takes about 8 seconds. It also confirmed that the validator fix committed after the full agent's final run changed none of its answers.
+- **Frontend:** ESLint, TypeScript, and both builds (the app and the static demo).
 
 ### Use the MCP server
 
@@ -376,20 +392,16 @@ Tools: `search_filings`, `read_section`, `get_financial_facts`, `calculate`. The
 - [x] 1. Data + caching: FinanceBench sample, company selection, EDGAR filings + XBRL facts, cached downloads, Postgres load
 - [x] 2. Parsing (10-K sections with page numbers) + hybrid retrieval, with a retrieval eval
 - [x] 3. Agent loop with one tool
-- [x] 4. All tools + answer validation (first live run recorded on Gemini; see below)
+- [x] 4. All tools + answer validation (first live run on Gemini)
 - [x] 5. Evals
 - [x] 6. UI + review queue
 - [x] 7. Tie-out + analytical review
 - [x] 8. Tracing
 - [x] 9. MCP server
 - [x] 10. Demo mode + deployment (static demo on GitHub Pages)
-- [ ] 11. CI + README polish
+- [x] 11. CI + README polish
 
 ## Project structure
-
-<!-- TODO: update to match the final layout -->
-
-Current layout:
 
 ```
 tieout/
@@ -412,6 +424,7 @@ tieout/
 │   ├── ingest.py         # select → download → load pipeline
 │   ├── indexing.py       # parse → chunk → embed (cached) → index pipeline
 │   ├── demo_recordings.py # assemble recordings/demo from traces
+│   ├── demo_static.py    # export the demo API as JSON for the static site
 │   └── cli.py            # `tieout` command line
 ├── frontend/             # React + TypeScript UI (Vite); demo-data/ is the static demo snapshot
 ├── config/               # selected companies and filings, curated demo questions
@@ -419,27 +432,10 @@ tieout/
 ├── recordings/           # recorded LLM + tool outputs: eval runs and the public demo
 ├── deploy/               # copy the database to a hosted Postgres (self-hosting)
 ├── tests/                # unit tests + DB tests (skipped without Postgres)
+├── docs/                 # README screenshots, taken from the static demo
 ├── Dockerfile            # one image for self-hosting the demo server
-├── .github/workflows/    # GitHub Pages deployment of the static demo
+├── .github/workflows/    # CI, and the GitHub Pages deployment of the static demo
 └── docker-compose.yml    # Postgres 16 + pgvector
-```
-
-Planned final layout:
-
-```
-tieout/
-├── backend/
-│   ├── agent/            # agent loop, tools, prompts, guardrails
-│   ├── retrieval/        # ingestion, chunking, embeddings, hybrid search
-│   ├── edgar/            # SEC EDGAR client, XBRL facts, caching
-│   ├── api/              # FastAPI routes, demo mode
-│   ├── tracing/          # span tree per run (contextvar tracer), stored in Postgres
-│   └── mcp_server/       # MCP server over stdio (the agent's data tools)
-├── frontend/             # React + TypeScript UI
-├── evals/                # eval sets, graders, reports
-├── tests/                # unit and integration tests
-├── Dockerfile            # single image for deployment
-└── .github/workflows/    # CI
 ```
 
 ## Roadmap

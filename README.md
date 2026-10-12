@@ -29,7 +29,7 @@ In auditing, a *tie-out* is the check that every number stated in a document mat
 - **Grounded, explainable answers:** every claim links to the exact passage or XBRL fact it came from; answers with invalid citations are rejected and retried
 - **Human-in-the-loop:** low-confidence or conflicting answers go to a review queue, and reviewer decisions are saved
 - **Evaluation harness:** tested on the FinanceBench open-source benchmark plus numeric questions with ground truth from XBRL, run in CI
-- **Observability:** a full trace of every agent run
+- **Observability:** a span-level trace of every agent run and workflow (LLM calls, tool calls, retrieval rankings, validation), with timings, tokens and cache hits, shown as a waterfall in the UI
 - **MCP server:** the filing search and financial data tools are also exposed through the Model Context Protocol for AI assistants and IDEs that support it
 - **Demo mode:** curated questions replay recorded agent runs, so anyone can try the demo for free; live mode uses a rate-limited, budget-capped API key
 
@@ -136,6 +136,16 @@ Tie-out and analytical review (milestone 7):
 - **Detection is measured with planted errors (mutation testing):** audited 10-Ks rarely contain real discrepancies, so "no exceptions found" says nothing about whether the check works. 40 claims that tie out were altered by 5–10% (beyond their rounding) and run through the tie-out: the value-aware adjudicator caught **2 of 40**, the value-blind one **30 of 40**, and **28 of 40 (70%)** after adjusted / non-GAAP figures were excluded from exceptions by design (two planted errors sat in "adjusted" sentences). None was flagged against the wrong fact. Report: [evals/reports/tieout_mutation.json](evals/reports/tieout_mutation.json).
 - **What reviewers see on real filings:** on five 10-Ks (3M FY2018, Nike FY2023, AMD FY2022, Boeing FY2022, General Mills FY2022), 751 claims: 139 matched, 11 exceptions, 474 not in XBRL (segment figures, non-GAAP measures, amounts not tagged in the statements) and 127 out of scope. All exceptions were checked by hand (14 before the non-GAAP rule) and none was a real discrepancy: they were segment vs company totals ("BDS loss from operations" vs Boeing's total), net vs gross repurchases, a component vs its line item (accrued trade promotions vs accrued marketing), balance-sheet vs cash-flow changes, cumulative program vs annual amounts, and a few year-assignment errors in truncated sentences. So at 70% detection of planted errors, a reviewer currently clears about two false exceptions per filing; exceptions are review items, not findings.
 - **Analytical review:** line items that changed at least 20% year over year and are at least 1% of revenue (total assets if there is no revenue concept), largest dollar changes first, at most 8. For each, MD&A (Item 7) is searched with the line item's plain name plus its two figures, which MD&A sentences usually restate, and the LLM must quote management's explanation from those passages; the quote is verified against the cited chunk. On 3M FY2018, Nike FY2023 and AMD FY2022 the first version explained 4 of 24 changes: it picked redundant totals (one acquisition moved AMD's assets, liabilities-and-equity, equity and paid-in capital) and searched the whole filing with XBRL label jargon. Skipping balance-sheet identities and equity / comprehensive-income components, merging identical movements and searching MD&A with the figures raised this to **11 of 24**; by hand, 10 of the 11 quotes do explain the change (one quotes the definition of goodwill rather than why it changed). "No explanation found" is itself an audit observation, but some of the 13 are retrieval misses (AMD's cost of sales).
+
+Tracing (milestone 8):
+
+- **A span tree, not a log:** each agent run or workflow records a tree of spans: `agent` → `step` → `llm` / `tool` → `retrieval`, plus `validation` (with the problems sent back to the model), `adjudication` (tie-out) and `explain` (analytical review). Each span has its start offset, duration, input, output, error, tokens and whether it was served from the cache. The UI shows it as a waterfall under every run in the review queue and every tie-out or analytical review; clicking a span shows its input, output and metadata.
+- **No tracing library, and no changes to function signatures:** the active tracer lives in a Python `contextvar`, so the LLM client, the tools, search and the validator call `with span(...)` without a tracer being passed through the call chain. With no active tracer (unit tests, evals), `span` is a no-op. FastAPI runs each request in its own context, so concurrent requests never write to the same trace. The tracer and its store are about 250 lines (`backend/tieout/tracing/`).
+- **LLM spans store only what is new:** the agent resends the whole conversation on every step, so storing each request in full would repeat the system prompt and every earlier tool result. Each `llm` span stores only the messages added since the previous call, plus the offset in the conversation; the UI says how many earlier messages it doesn't repeat. On the AMD quick-ratio run (8 LLM calls) this stores 22K characters instead of 126K (5.7× smaller). The full request is still recoverable from the response cache by the request hash kept in the span's metadata.
+- **Retrieval spans show why a passage was found:** each hit records its vector rank, keyword rank and fused RRF score, and the span records how many candidates each retriever returned, so a reviewer can see whether a citation came from semantic or keyword search.
+- **Cost is reported in free-tier units:** the trace totals count LLM requests and tokens only for calls that reached the provider; cached calls are counted separately. The project uses only free tiers, so the dollar cost is always $0 and the meaningful budget is requests and tokens per day (see `tieout usage`).
+- **Saved with the run, in the same transaction:** a trace (`traces` + `spans` tables) is written in the same database transaction as the agent run or workflow it belongs to, so there is never a run without its trace or the reverse. `tieout ask --save` and `tieout workflow … --save` store traces from the CLI too.
+- **Replays show what was cached:** a replayed run marks every LLM span `cached`, so the trace of a recorded demo answer reads "0 LLM requests (+8 from cache)". This also exposed a stale recording: `recordings/live-3m-capex-fy2018/` no longer replays because the system prompt changed after it was recorded, so the request hashes differ. Demo recordings will be regenerated in milestone 10.
 
 ## Data
 
@@ -302,7 +312,7 @@ _TODO: add the MCP client config snippet._
 - [x] 5. Evals
 - [x] 6. UI + review queue
 - [x] 7. Tie-out + analytical review
-- [ ] 8. Tracing
+- [x] 8. Tracing
 - [ ] 9. MCP server
 - [ ] 10. Demo mode + deployment
 - [ ] 11. CI + README polish
@@ -348,7 +358,7 @@ tieout/
 │   ├── retrieval/        # ingestion, chunking, embeddings, hybrid search
 │   ├── edgar/            # SEC EDGAR client, XBRL facts, caching
 │   ├── api/              # FastAPI routes, demo mode
-│   ├── tracing/          # step traces, token and cost tracking
+│   ├── tracing/          # span tree per run (contextvar tracer), stored in Postgres
 │   └── mcp_server/       # MCP tools
 ├── frontend/             # React + TypeScript UI
 ├── evals/                # eval sets, graders, reports

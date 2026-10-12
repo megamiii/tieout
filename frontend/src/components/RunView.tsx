@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react'
 import Markdown from 'react-markdown'
 import type { Citation, RunDetail, Segment, TraceStep } from '../api'
+import { TraceView } from './TraceView'
 
 export function StatusBadge({ status }: { status: string }) {
   const label = status === 'needs_review' ? 'needs review' : status
@@ -176,7 +177,7 @@ export function RunView({ run }: { run: RunDetail }) {
 
       <section className="card">
         <h3>Agent trace</h3>
-        <Trace steps={run.trace} />
+        {run.trace_id ? <TraceView traceId={run.trace_id} /> : <Trace steps={run.trace} />}
         <p className="small muted">
           Model {run.model} · stop reason: {run.stop_reason}
         </p>

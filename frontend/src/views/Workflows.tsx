@@ -8,6 +8,7 @@ import {
   type WorkflowKind,
   type WorkflowRun,
 } from '../api'
+import { TraceView } from '../components/TraceView'
 
 const money = (v: string) => {
   const n = Math.abs(Number(v))
@@ -231,6 +232,16 @@ export function WorkflowView({ kind }: { kind: WorkflowKind }) {
             <ReviewTable items={(current.items ?? []) as ReviewItem[]} />
           )}
         </section>
+      )}
+      {current?.trace_id && (
+        <details className="card">
+          <summary>
+            <strong>Trace</strong> <span className="small muted">every LLM call, search and check in this run</span>
+          </summary>
+          <div style={{ marginTop: 12 }}>
+            <TraceView traceId={current.trace_id} />
+          </div>
+        </details>
       )}
     </div>
   )

@@ -103,6 +103,7 @@ export interface RunDetail extends RunSummary {
   citations: Citation[]
   trace: TraceStep[]
   decisions: ReviewRecord[]
+  trace_id?: string | null
 }
 
 export interface Company {
@@ -240,6 +241,7 @@ export interface WorkflowRun<T = TieoutItem | ReviewItem> {
   model: string
   summary: Record<string, number | string | null | Record<string, number>>
   items: T[] | null
+  trace_id?: string | null
 }
 
 export const workflows = {
@@ -250,4 +252,39 @@ export const workflows = {
       method: 'POST',
       body: JSON.stringify({ ticker, fiscal_year }),
     }),
+}
+
+// --- traces -----------------------------------------------------------------------
+
+export interface TraceSpan {
+  span_id: string
+  parent_id: string | null
+  seq: number
+  type: string
+  name: string
+  start_ms: number
+  duration_ms: number
+  input: unknown
+  output: unknown
+  error: string | null
+  prompt_tokens: number
+  completion_tokens: number
+  cached: boolean
+  meta: Record<string, unknown>
+}
+
+export interface Trace {
+  trace_id: string
+  kind: string
+  name: string
+  ref_id: string | null
+  started_at: string
+  duration_ms: number
+  model: string
+  totals: Record<string, number>
+  spans: TraceSpan[]
+}
+
+export const traces = {
+  get: (id: string) => request<Trace>(`/api/traces/${encodeURIComponent(id)}`),
 }

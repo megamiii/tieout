@@ -345,7 +345,7 @@ mark {
 
 .split {
   display: grid;
-  grid-template-columns: minmax(280px, 380px) 1fr;
+  grid-template-columns: minmax(280px, 380px) minmax(0, 1fr);
   gap: 16px;
   align-items: start;
 }
@@ -435,5 +435,99 @@ th {
 
   .queue {
     max-height: 260px;
+  }
+}
+
+/* --- trace waterfall ------------------------------------------------------------ */
+
+.trace-grid {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.trace-row {
+  display: grid;
+  /* Fixed fractions so every row's timeline track lines up. */
+  grid-template-columns: minmax(0, 2fr) minmax(0, 3fr) 130px;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+  padding: 5px 10px;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  text-align: left;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.trace-row:hover,
+.trace-row[aria-expanded='true'] {
+  background: var(--surface-2);
+}
+
+.trace-name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+}
+
+.trace-label {
+  min-width: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.trace-name .badge {
+  flex-shrink: 0;
+}
+
+.trace-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  flex-shrink: 0;
+  border-radius: 50%;
+}
+
+.trace-track {
+  position: relative;
+  height: 10px;
+  background: var(--surface-2);
+  border-radius: 3px;
+}
+
+.trace-bar {
+  position: absolute;
+  top: 0;
+  height: 10px;
+  border-radius: 3px;
+  opacity: 0.85;
+}
+
+.trace-meta {
+  text-align: right;
+  white-space: nowrap;
+  color: var(--muted);
+}
+
+.trace-detail {
+  min-width: 0;
+  overflow-wrap: anywhere;
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-2);
+}
+
+@media (max-width: 760px) {
+  .trace-row {
+    grid-template-columns: 1fr auto;
+  }
+
+  .trace-track {
+    display: none;
   }
 }

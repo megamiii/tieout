@@ -238,6 +238,38 @@ def eval_run(
                 return
 
 
+@eval_app.command("verify")
+def eval_verify(
+    experiments: Annotated[
+        list[str] | None, typer.Argument(help="default: all experiments")
+    ] = None,
+    eval_set: Annotated[
+        str, typer.Option("--set", help="financebench | xbrl_numeric | all")
+    ] = "all",
+) -> None:
+    """Replay committed eval runs offline and check the answers reproduce (CI)."""
+    from collections import Counter
+
+    from tieout.evals.runner import verify_replay
+
+    settings = get_settings()
+    companies = ingest.load_selected()
+    failed = False
+    for experiment in experiments or list(EXPERIMENTS):
+        if experiment not in EXPERIMENTS:
+            raise typer.BadParameter(f"choose from {list(EXPERIMENTS)}")
+        items = [i for group in _load_sets(eval_set).values() for i in group]
+        replays = verify_replay(experiment, items, settings, companies)
+        counts = Counter(r.outcome for r in replays)
+        typer.echo(f"{experiment}: {dict(sorted(counts.items()))} of {len(replays)}")
+        for r in replays:
+            if r.outcome in ("different", "not_recorded"):
+                typer.echo(f"  {r.item_id}: {r.outcome} {r.detail}")
+        failed |= counts["different"] > 0 or counts["not_recorded"] > 0
+    if failed:
+        raise typer.Exit(1)
+
+
 TIEOUT_EVAL_FILINGS = [("MMM", 2018), ("NKE", 2023), ("AMD", 2022), ("BA", 2022), ("GIS", 2022)]
 
 

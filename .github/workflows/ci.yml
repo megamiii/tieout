@@ -1,0 +1,82 @@
+# Checks on every push and pull request. Nothing here needs an API key: the
+# eval job replays the committed recordings, so CI costs nothing.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  backend:
+    name: Backend (lint, types, tests)
+    runs-on: ubuntu-latest
+    services:
+      # A real pgvector database, so the DB tests run instead of being skipped.
+      # They create their own rows and roll them back.
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: tieout
+          POSTGRES_PASSWORD: tieout
+          POSTGRES_DB: tieout
+        ports: ["5432:5432"]
+        options: >-
+          --health-cmd "pg_isready -U tieout"
+          --health-interval 2s
+          --health-timeout 3s
+          --health-retries 30
+    env:
+      DATABASE_URL: postgresql+psycopg://tieout:tieout@localhost:5432/tieout
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e ".[dev]"
+      - run: ruff check .
+      - run: ruff format --check .
+      - run: mypy
+      - run: pytest -q -rs
+
+  eval-replay:
+    name: Eval replay (answers reproduce offline)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -e .
+      # Re-answers all 330 committed eval items (3 experiments x 110) from
+      # recordings/evals with no key, database or embedding model, and fails
+      # if any answer differs from evals/runs or needs an unrecorded request.
+      - run: tieout eval verify
+
+  frontend:
+    name: Frontend (lint, types, builds)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run build
+      - run: npm run build:static

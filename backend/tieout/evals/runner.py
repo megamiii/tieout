@@ -318,3 +318,49 @@ def run_grading(
         save_result(experiment, item.id, data)
         summary.done += 1
     return summary
+
+
+# --- reproducibility check (CI) -------------------------------------------------
+
+# What must match for a replayed answer to count as reproduced. Latency and
+# token counts are excluded: replays are served from the cache.
+COMPARED = ("status", "answer", "stop_reason")
+
+
+@dataclass
+class Replay:
+    item_id: str
+    outcome: Literal["same", "different", "not_recorded", "no_result"]
+    detail: str = ""
+
+
+def verify_replay(
+    experiment: Experiment,
+    items: list[EvalItem],
+    settings: Settings,
+    companies: list[CompanyConfig],
+) -> list[Replay]:
+    """Re-answer every item offline from the recordings and compare with the
+    committed result. Nothing is written. A request the recordings don't hold
+    (because the code now asks something different) is reported, not fatal."""
+    from tieout.agent.recording import ToolReplayMiss
+    from tieout.llm.types import LLMCacheMiss
+
+    answer, _ = make_answerer(experiment, settings, companies, offline=True)
+    out: list[Replay] = []
+    for item in items:
+        committed = load_result(experiment, item.id)
+        if committed is None or committed.get("error"):
+            out.append(Replay(item.id, "no_result"))
+            continue
+        try:
+            fresh = answer(item)
+        except (LLMCacheMiss, ToolReplayMiss) as err:
+            out.append(Replay(item.id, "not_recorded", str(err)[:200]))
+            continue
+        diffs = [k for k in COMPARED if fresh.get(k) != committed.get(k)]
+        cited = [c["source_id"] for c in fresh.get("citations", [])]
+        if cited != [c["source_id"] for c in committed.get("citations", [])]:
+            diffs.append("citations")
+        out.append(Replay(item.id, "different" if diffs else "same", ", ".join(diffs)))
+    return out

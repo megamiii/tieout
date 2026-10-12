@@ -168,7 +168,20 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
   return (await res.json()) as T
 }
 
+export interface DemoQuestion {
+  id: string
+  question: string
+  shows: string
+}
+
+export interface UiConfig {
+  demo_mode: boolean
+  demo_questions: DemoQuestion[]
+  model: string
+}
+
 export const api = {
+  config: () => request<UiConfig>('/api/config'),
   companies: () => request<Company[]>('/api/companies'),
   ask: (question: string) =>
     request<RunDetail>('/api/ask', { method: 'POST', body: JSON.stringify({ question }) }),

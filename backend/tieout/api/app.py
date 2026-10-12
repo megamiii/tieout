@@ -5,7 +5,7 @@ from collections.abc import Iterator
 from functools import lru_cache
 from typing import Annotated, Any, Literal
 
-from fastapi import Depends, FastAPI, HTTPException
+from fastapi import Depends, FastAPI, HTTPException, Request
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
 from sqlalchemy import select
@@ -13,13 +13,15 @@ from sqlalchemy.orm import Session
 
 from tieout import runs
 from tieout.agent.factory import Agent, build_agent
+from tieout.agent.recording import ToolReplayMiss
+from tieout.api.demo import NOT_RECORDED, WriteLimiter, client_key, load_demo_questions
 from tieout.config import REPO_ROOT, get_settings
-from tieout.db.models import WorkflowRun
+from tieout.db.models import AgentRun, WorkflowRun
 from tieout.db.session import get_sessionmaker
 from tieout.evals.runner import ARCHIVED, EXPERIMENTS
 from tieout.financebench.selection import CompanyConfig
 from tieout.ingest import load_selected
-from tieout.llm.types import LLMError
+from tieout.llm.types import LLMCacheMiss, LLMError
 from tieout.net.retry import RetryableError
 from tieout.retrieval.embeddings import Embedder, get_embedder
 from tieout.tracing.store import get_trace, save_trace, trace_for
@@ -52,7 +54,19 @@ def companies() -> list[CompanyConfig]:
 
 @lru_cache
 def agent() -> Agent:
-    return build_agent(get_settings(), companies())
+    settings = get_settings()
+    if settings.demo_mode:
+        # Replay only: LLM responses and tool outputs come from the demo recording.
+        return build_agent(settings, companies(), offline=True, recording_dir=settings.demo_path)
+    return build_agent(settings, companies())
+
+
+@lru_cache
+def write_limiter() -> WriteLimiter:
+    return WriteLimiter(get_settings().demo_writes_per_hour)
+
+
+NOT_RECORDED_ERRORS = (LLMCacheMiss, ToolReplayMiss)
 
 
 class AskRequest(BaseModel):
@@ -71,6 +85,18 @@ def health() -> dict[str, str]:
     return {"status": "ok"}
 
 
+@app.get("/api/config")
+def ui_config() -> dict[str, Any]:
+    settings = get_settings()
+    return {
+        "demo_mode": settings.demo_mode,
+        "demo_questions": [q.model_dump() for q in load_demo_questions(settings.demo_path)]
+        if settings.demo_mode
+        else [],
+        "model": settings.llm_model,
+    }
+
+
 @app.get("/api/companies")
 def list_companies() -> list[dict[str, Any]]:
     return [
@@ -86,14 +112,32 @@ def list_companies() -> list[dict[str, Any]]:
 
 @app.post("/api/ask")
 def ask(req: AskRequest, session: SessionDep) -> dict[str, Any]:
+    demo = get_settings().demo_mode
+    if demo:
+        # A recorded question replays identically, so it is stored once and
+        # served from then on: public clicks don't grow the database.
+        existing = session.scalar(
+            select(AgentRun.id)
+            .where(AgentRun.source == "demo", AgentRun.question == req.question)
+            .order_by(AgentRun.created_at.desc())
+            .limit(1)
+        )
+        if existing:
+            detail = runs.run_detail(session, existing)
+            assert detail is not None
+            return detail
     try:
         with tracing("agent", req.question[:200]) as tracer:
             result = agent().ask(req.question)
+    except NOT_RECORDED_ERRORS as err:
+        raise HTTPException(403, NOT_RECORDED) from err
     except RetryableError as err:
         raise HTTPException(429, f"The LLM provider is rate-limiting: {err}") from err
     except LLMError as err:
         raise HTTPException(502, f"LLM error: {err}") from err
-    run_id = runs.save_live_run(session, result, model=agent().llm.model)
+    run_id = runs.save_live_run(
+        session, result, model=agent().llm.model, source="demo" if demo else "live"
+    )
     save_trace(session, tracer, run_id, agent().llm.model)
     session.commit()
     detail = runs.run_detail(session, run_id)
@@ -119,7 +163,11 @@ def get_run(run_id: str, session: SessionDep) -> dict[str, Any]:
 
 
 @app.post("/api/runs/{run_id}/review")
-def review(run_id: str, req: ReviewRequest, session: SessionDep) -> dict[str, Any]:
+def review(
+    run_id: str, req: ReviewRequest, request: Request, session: SessionDep
+) -> dict[str, Any]:
+    if get_settings().demo_mode and not write_limiter().allow(client_key(request)):
+        raise HTTPException(429, "Too many review decisions from this address; try later.")
     try:
         runs.add_decision(
             session, run_id, req.decision, req.note, req.reviewer, req.override_answer
@@ -147,6 +195,20 @@ def embedder() -> Embedder:
 def _run_workflow(kind: str, req: WorkflowRequest, session: Session) -> dict[str, Any]:
     llm = agent().llm
     name = f"{kind} {req.ticker.upper()} FY{req.fiscal_year}"
+    if get_settings().demo_mode:
+        # Same rule as questions: a recorded workflow is stored once, then served.
+        existing = session.scalar(
+            select(WorkflowRun)
+            .where(
+                WorkflowRun.kind == kind,
+                WorkflowRun.ticker == req.ticker.upper(),
+                WorkflowRun.fiscal_year == req.fiscal_year,
+            )
+            .order_by(WorkflowRun.created_at.desc())
+            .limit(1)
+        )
+        if existing:
+            return {**workflow_dict(existing), "trace_id": trace_for(session, existing.id)}
     try:
         with tracing(kind, name) as tracer, span("workflow", name):
             if kind == "tieout":
@@ -157,6 +219,8 @@ def _run_workflow(kind: str, req: WorkflowRequest, session: Session) -> dict[str
                 )
     except KeyError as err:
         raise HTTPException(404, str(err)) from err
+    except NOT_RECORDED_ERRORS as err:
+        raise HTTPException(403, NOT_RECORDED) from err
     except RetryableError as err:
         raise HTTPException(429, f"The LLM provider is rate-limiting: {err}") from err
     except LLMError as err:

@@ -50,6 +50,18 @@ class Settings(BaseSettings):
     agent_max_steps: int = Field(default=8, ge=2, le=20)
     agent_max_tokens_per_run: int = Field(default=60_000, gt=0)
 
+    # Public demo: the LLM and the database tools only replay recordings in
+    # `demo_recording_dir`, so the demo needs no API key and uses no quota.
+    demo_mode: bool = False
+    demo_recording_dir: Path = Path("recordings/demo")
+    # Per-client limit on writes (review decisions) in demo mode.
+    demo_writes_per_hour: int = Field(default=30, ge=0)
+
+    @property
+    def demo_path(self) -> Path:
+        d = self.demo_recording_dir
+        return d if d.is_absolute() else REPO_ROOT / d
+
     @property
     def data_path(self) -> Path:
         path = self.data_dir if self.data_dir.is_absolute() else REPO_ROOT / self.data_dir

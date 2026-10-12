@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { api, type Company, type RunDetail } from '../api'
 import { RunView } from '../components/RunView'
+import { useConfig } from '../config'
 
 const EXAMPLES = [
   "What was 3M's FY2018 capital expenditure in USD millions?",
@@ -14,6 +15,8 @@ export function AskView() {
   const [error, setError] = useState<string | null>(null)
   const [loading, setLoading] = useState(false)
   const [companies, setCompanies] = useState<Company[]>([])
+  const config = useConfig()
+  const demo = config?.demo_mode ?? false
 
   useEffect(() => {
     api.companies().then(setCompanies, () => setCompanies([]))
@@ -42,6 +45,29 @@ export function AskView() {
         </p>
       </div>
 
+      {demo && config && config.demo_questions.length > 0 && (
+        <section className="card stack">
+          <h3 style={{ margin: 0 }}>Recorded questions</h3>
+          <div className="demo-questions">
+            {config.demo_questions.map((q) => (
+              <button
+                key={q.id}
+                type="button"
+                className="demo-question"
+                disabled={loading}
+                onClick={() => {
+                  setQuestion(q.question)
+                  void submit(q.question)
+                }}
+              >
+                <span>{q.question}</span>
+                <span className="small muted">{q.shows}</span>
+              </button>
+            ))}
+          </div>
+        </section>
+      )}
+
       <form
         className="card stack"
         onSubmit={(e) => {
@@ -59,14 +85,14 @@ export function AskView() {
         />
         <div className="row" style={{ justifyContent: 'space-between' }}>
           <div className="row small">
-            {EXAMPLES.map((ex) => (
+            {(demo ? [] : EXAMPLES).map((ex) => (
               <button type="button" key={ex} className="btn small" onClick={() => setQuestion(ex)}>
                 {ex.length > 48 ? `${ex.slice(0, 48)}…` : ex}
               </button>
             ))}
           </div>
           <button className="btn primary" type="submit" disabled={loading || question.trim().length < 5}>
-            {loading ? 'Working… (up to a minute)' : 'Ask'}
+            {loading ? (demo ? 'Replaying…' : 'Working… (up to a minute)') : 'Ask'}
           </button>
         </div>
         {companies.length > 0 && (

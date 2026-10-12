@@ -531,3 +531,40 @@ th {
     display: none;
   }
 }
+
+/* --- demo mode ----------------------------------------------------------------- */
+
+.demo-banner {
+  padding: 8px 24px;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface-2);
+}
+
+.demo-questions {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 10px;
+}
+
+.demo-question {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.demo-question:hover:not(:disabled) {
+  border-color: var(--accent);
+}
+
+.demo-question:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}

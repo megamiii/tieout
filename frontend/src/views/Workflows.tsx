@@ -9,6 +9,7 @@ import {
   type WorkflowRun,
 } from '../api'
 import { TraceView } from '../components/TraceView'
+import { useConfig } from '../config'
 
 const money = (v: string) => {
   const n = Math.abs(Number(v))
@@ -167,6 +168,8 @@ export function WorkflowView({ kind }: { kind: WorkflowKind }) {
   }
 
   const s = current?.summary
+  const demo = useConfig()?.demo_mode ?? false
+  const recorded = [...new Set(runs.map((r) => `${r.ticker} FY${r.fiscal_year}`))].sort()
   return (
     <div className="stack">
       <div>
@@ -214,6 +217,11 @@ export function WorkflowView({ kind }: { kind: WorkflowKind }) {
           </select>
         )}
       </div>
+      {demo && recorded.length > 0 && (
+        <p className="small muted" style={{ margin: 0 }}>
+          Recorded in this demo: {recorded.join(' · ')}. Other filings need a local install with a free API key.
+        </p>
+      )}
       {error && <div className="error">{error}</div>}
       {current && s && (
         <section className="card stack">

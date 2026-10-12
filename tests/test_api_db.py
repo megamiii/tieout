@@ -4,8 +4,10 @@ Every request runs in one connection whose transaction is rolled back at the
 end, so the tests never change the real database. The agent is not called.
 """
 
+import json
 from collections.abc import Iterator
 from datetime import UTC, datetime
+from pathlib import Path
 
 import pytest
 from fastapi.testclient import TestClient
@@ -196,3 +198,109 @@ def test_trace_is_saved_with_the_run_and_served(client: TestClient, session: Ses
     assert trace["spans"][1]["parent_id"] == trace["spans"][0]["span_id"]
     assert trace["spans"][1]["output"] == {"hits": 1}
     assert client.get("/api/traces/nope").status_code == 404
+
+
+# --- demo mode -------------------------------------------------------------------
+
+
+@pytest.fixture
+def demo(monkeypatch: pytest.MonkeyPatch, tmp_path: Path) -> Path:
+    from tieout.api import app as app_module
+    from tieout.config import Settings
+
+    settings = Settings(demo_mode=True, demo_recording_dir=tmp_path)
+    monkeypatch.setattr(app_module, "get_settings", lambda: settings)
+    return tmp_path
+
+
+def test_demo_config_lists_the_recorded_questions(client: TestClient, demo: Path) -> None:
+    (demo / "questions.json").write_text(
+        json.dumps([{"id": "capex", "question": "What was 3M's capex?", "shows": "XBRL"}]),
+        encoding="utf-8",
+    )
+    config = client.get("/api/config").json()
+    assert config["demo_mode"] is True
+    assert [q["id"] for q in config["demo_questions"]] == ["capex"]
+
+
+def test_demo_question_is_replayed_once_then_served_from_the_database(
+    client: TestClient, demo: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    from test_agent_loop import SEARCH, ScriptedLLM, StubSearch, resp, submit
+    from tieout.agent.factory import Agent
+    from tieout.agent.finance_tools import SubmitAnswerTool
+    from tieout.agent.loop import AgentLimits
+    from tieout.api import app as app_module
+
+    # Exactly one run's worth of responses: a second agent run would fail.
+    llm = ScriptedLLM([resp(SEARCH), resp(submit("3M's FY2018 capex was $1,577 million."))])
+    stub = Agent(llm, [StubSearch(), SubmitAnswerTool()], "sys", AgentLimits())
+    monkeypatch.setattr(app_module, "agent", lambda: stub)
+
+    q = {"question": "What was 3M's FY2018 capex? (demo test)"}
+    first = client.post("/api/ask", json=q).json()
+    assert first["source"] == "demo"
+    second = client.post("/api/ask", json=q).json()
+    assert second["id"] == first["id"]
+
+
+def test_demo_refuses_what_was_not_recorded(
+    client: TestClient, demo: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    from tieout.api import app as app_module
+    from tieout.llm.types import LLMCacheMiss
+
+    class Unrecorded:
+        llm = type("L", (), {"model": "stub"})()
+
+        def ask(self, question: str) -> None:
+            raise LLMCacheMiss("request abc not in recorded cache")
+
+    monkeypatch.setattr(app_module, "agent", lambda: Unrecorded())
+    r = client.post("/api/ask", json={"question": "Something nobody recorded?"})
+    assert r.status_code == 403
+    assert "only replays recorded runs" in r.json()["detail"]
+
+
+def test_demo_workflow_is_stored_once(
+    client: TestClient, demo: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    from tieout.api import app as app_module
+
+    calls: list[str] = []
+
+    def fake_tieout(*args: object, **kwargs: object) -> dict[str, object]:
+        calls.append("run")
+        return {
+            "kind": "tieout",
+            "ticker": "ZZZ",
+            "fiscal_year": 2099,
+            "doc_name": "ZZZ_2099_10K",
+            "summary": {"claims": 0},
+            "items": [],
+        }
+
+    class StubAgent:
+        llm = type("L", (), {"model": "stub"})()
+
+    monkeypatch.setattr(app_module, "agent", lambda: StubAgent())
+    monkeypatch.setattr(app_module, "embedder", lambda: None)
+    monkeypatch.setattr(app_module, "run_tieout", fake_tieout)
+    body = {"ticker": "ZZZ", "fiscal_year": 2099}
+    first = client.post("/api/workflows/tieout", json=body).json()
+    second = client.post("/api/workflows/tieout", json=body).json()
+    assert second["id"] == first["id"] and calls == ["run"]
+
+
+def test_demo_limits_review_writes_per_client(
+    client: TestClient, session: Session, demo: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    from tieout.api import app as app_module
+    from tieout.api.demo import WriteLimiter
+
+    limiter = WriteLimiter(1)
+    monkeypatch.setattr(app_module, "write_limiter", lambda: limiter)
+    add_run(session, "test-run-6", "needs_review")
+    body = {"decision": "accept", "reviewer": "demo", "note": ""}
+    assert client.post("/api/runs/test-run-6/review", json=body).status_code == 200
+    assert client.post("/api/runs/test-run-6/review", json=body).status_code == 429

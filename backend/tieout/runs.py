@@ -60,7 +60,7 @@ def trace_of(result: AgentResult) -> list[dict[str, Any]]:
     return steps
 
 
-def save_live_run(session: Session, result: AgentResult, model: str) -> str:
+def save_live_run(session: Session, result: AgentResult, model: str, source: str = "live") -> str:
     f = result.final
     run_id = str(uuid.uuid4())
     responses = [s.response for s in result.steps]
@@ -72,7 +72,7 @@ def save_live_run(session: Session, result: AgentResult, model: str) -> str:
         AgentRun(
             id=run_id,
             created_at=_now(),
-            source="live",
+            source=source,
             question=result.question,
             status=f.status,
             answer=f.answer,

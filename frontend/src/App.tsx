@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useConfig } from './config'
 import { AskView } from './views/Ask'
 import { EvalView } from './views/Eval'
 import { ReviewView } from './views/Review'
@@ -31,6 +32,7 @@ export default function App() {
     return () => window.removeEventListener('hashchange', onHash)
   }, [])
 
+  const config = useConfig()
   const View = ROUTES[route].view
   return (
     <>
@@ -46,6 +48,13 @@ export default function App() {
           ))}
         </div>
       </nav>
+      {config?.demo_mode && (
+        <div className="demo-banner small">
+          <strong>Demo mode.</strong> Answers, tie-outs and reviews here are recorded runs replayed
+          without an API key, so the demo is free and always works. To ask your own questions, run
+          tieout locally with a free Gemini or Groq key.
+        </div>
+      )}
       <main>
         <View />
       </main>

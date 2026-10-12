@@ -10,11 +10,13 @@ In auditing, a *tie-out* is the check that every number stated in a document mat
 
 ## What you can try in the demo
 
-- **Ask a question:** "What was 3M's FY2022 capital expenditure, and how did it compare to FY2021?"
-- **Run a tie-out:** pick a filing, and the agent extracts numbers from the MD&A section and checks each one against the XBRL financial data, flagging mismatches
-- **Analytical review:** the agent finds line items with large year-over-year changes and searches the filing for management's explanation
-- **Inspect the trace:** see every tool call, retrieved passage, token count, cost and latency
-- **Review queue:** accept or override low-confidence answers, as a human reviewer would
+The public demo replays recorded runs, so it needs no API key and costs nothing (see the milestone 10 design notes under [Architecture](#architecture)).
+
+- **Ask a question:** six recorded FinanceBench questions, for example 3M's FY2018 capital expenditure (XBRL value cross-checked against the cash flow statement), Boeing's net income change (computed with the calculator), what drove 3M's operating margin (quotes from the MD&A), and an AMD liquidity question the agent routed to human review
+- **Run a tie-out:** five 10-Ks (3M FY2018, Nike FY2023, AMD FY2022, Boeing FY2022, General Mills FY2022): every dollar figure in the MD&A is checked against the filing's XBRL data, with exceptions flagged
+- **Analytical review:** line items with large year-over-year changes, and the MD&A passage that explains each one (3M FY2018, Nike FY2023, AMD FY2022)
+- **Inspect the trace:** every LLM call, tool call and retrieval ranking, with tokens, latency and cache hits
+- **Review queue:** accept or override the answers the agent sent to review, as a human reviewer would
 
 ## Features
 
@@ -157,6 +159,16 @@ MCP server (milestone 9):
 - **Costs nothing to run:** there is no LLM inside the server, so it uses no API quota. It runs over stdio only, for local clients; serving it over HTTP from the deployed demo would be a separate step.
 - **Tested in-process and over stdio:** unit tests use the SDK's in-process client (tool listing, schemas, structured results, error results). An end-to-end check launched `tieout mcp` as a subprocess against the local database: the client connected in 2.9 s, `get_financial_facts` returned 3M's FY2018 capital expenditure ($1,577 million, with its fact ID) in 1.6 s on the first call (the embedding model loads lazily), and `search_filings` answered in 0.1 s. Logs go to stderr, since stdout carries the protocol.
 
+Demo mode and deployment (milestone 10):
+
+- **One replay mechanism, no special cases:** with `DEMO_MODE=true` the LLM client and the database tools run offline against `recordings/demo/`. A recorded question replays exactly; anything else misses the recording and gets a clear message ("this public demo only replays recorded runs…") instead of an error. There is no list of allowed questions in the code: the curated questions are simply the ones that were recorded, and the container has no API key at all.
+- **Recordings are assembled from traces, at zero cost:** a trace names every recording file its run used (the request hash on LLM spans and, since this milestone, the recording hash on tool spans). `tieout demo build` replays six curated eval questions from the eval recordings and the eight stored workflows from the local LLM cache, copies exactly the files their traces name into `recordings/demo/` (776 KB, 166 files), and then replays each one from that directory alone to prove the copy is complete. Building the demo made no LLM requests, and the rebuilt workflows reproduce the published results exactly (751 claims, 139 matched, 11 exceptions; 11 of 24 changes explained). The curated list, with what each question demonstrates, is `config/demo_questions.json`.
+- **A public database that doesn't grow:** a replayed question is stored once (as a `demo` run) and served from the database afterwards, so repeated clicks return the same run in milliseconds. Workflows are served from the runs stored with the database, and an unrecorded filing is refused before any work: the first version ran 7.3 s of claim extraction before its first LLM call missed the recording; refusing up front takes under 0.2 s. Review decisions, the one remaining public write, are limited to 30 per client per hour.
+- **Hash inputs are pinned in the image:** a request hash covers the provider URL and the model, so the Dockerfile sets `LLM_PROVIDER=gemini` and `LLM_MODEL=gemini-3.5-flash-lite`, the values the recordings were made with. Changing either would turn every replay into a cache miss.
+- **One image, free hosting:** a multi-stage Dockerfile builds the UI with Node, then installs the API on `python:3.12-slim` with the demo recordings, the eval reports and the quantized embedding model (65 MB) baked in, and serves both on port 7860 as uid 1000, as Hugging Face Spaces expects. The image is 855 MB. `.dockerignore` keeps `.env`, `data/` and the eval recordings out of it.
+- **Neon for the database:** `deploy/seed-neon.sh` copies the local database with `pg_dump | psql`, both run inside the local Postgres container, so the host needs no Postgres client. A fresh copy is 160 MB (13,003 chunks, 135,144 XBRL facts, the review queue and the stored workflows), within Neon's 0.5 GB free tier. Neon hands out `postgresql://` URLs, which SQLAlchemy would map to the psycopg2 driver, so the engine rewrites them to psycopg 3.
+- **Tested before any account exists:** the image ran locally in demo mode against the local database standing in for Neon, with no API key in the container: recorded questions replayed in 0.1 s with "0 LLM requests (+7 from cache)" in the trace, unrecorded questions and filings were refused, and every page fit a 375 px phone screen (the nav tabs now scroll instead of widening the page). The seed script was tested by restoring into a scratch database, twice, to check that re-seeding replaces rather than fails.
+
 ## Data
 
 All data is public:
@@ -278,9 +290,9 @@ pip install -e ".[dev]"
 docker compose up -d --wait     # Postgres + pgvector
 tieout data all                 # select, download (cached), load XBRL, concept catalog, parse + chunk + embed + index
 tieout search "capital expenditures" --ticker MMM --year 2018
-tieout ask "What was 3M's FY2018 capital expenditure?"   # needs GROQ_API_KEY or Ollama
-tieout ask "..." --recording recordings/demo1             # record LLM + tool calls
-tieout ask "..." --recording recordings/demo1 --offline   # replay: no key, DB or model
+tieout ask "What was 3M's FY2018 capital expenditure?"   # needs a free Gemini or Groq key, or Ollama
+tieout ask "..." --recording recordings/my-run            # record LLM + tool calls
+tieout ask "..." --recording recordings/my-run --offline  # replay: no key, DB or model
 tieout usage                    # today's tokens vs the free-tier daily limits
 tieout workflow tieout MMM 2018 # tie-out MD&A figures against XBRL
 tieout workflow review MMM 2018 # analytical review of material changes
@@ -297,6 +309,28 @@ tieout runs import-evals agent_full   # optional: fill the review queue from eva
 ```
 
 The first `tieout data all` embeds 13,003 chunks on the CPU (about 70 minutes on a 15 W laptop CPU); later runs reuse the embedding cache and finish in a few minutes. `make ingest`, `make test` and `make lint` wrap the same commands. See [Build progress](#build-progress).
+
+### Run the demo image locally
+
+```bash
+docker build -t tieout:demo .
+docker run -p 7860:7860 -e DATABASE_URL=postgresql://tieout:tieout@host.docker.internal:5432/tieout tieout:demo
+```
+
+Open http://localhost:7860. To rebuild the demo recordings after changing the curated questions in `config/demo_questions.json`, run `tieout demo build`.
+
+### Deploy for free (Neon + Hugging Face Spaces)
+
+1. **Database:** create a free project at [Neon](https://neon.tech), copy its connection string, and copy the local database into it:
+   ```bash
+   NEON_DATABASE_URL='postgresql://USER:PASSWORD@HOST/neondb?sslmode=require' sh deploy/seed-neon.sh
+   ```
+2. **Space:** create a [Hugging Face Space](https://huggingface.co/new-space) with the Docker SDK (blank template, free CPU). In its settings, add a secret `DATABASE_URL` with the Neon connection string. No LLM key is needed.
+3. **Push** (Git asks for your Hugging Face username and an access token with write permission):
+   ```bash
+   HF_SPACE=your-username/tieout sh deploy/push-space.sh
+   ```
+   The Space builds the Dockerfile and serves the demo on port 7860. The script pushes from a temporary worktree whose README is `deploy/huggingface/README.md`, which holds the Space's settings.
 
 ### Evaluate
 
@@ -341,7 +375,7 @@ Tools: `search_filings`, `read_section`, `get_financial_facts`, `calculate`. The
 - [x] 7. Tie-out + analytical review
 - [x] 8. Tracing
 - [x] 9. MCP server
-- [ ] 10. Demo mode + deployment
+- [ ] 10. Demo mode + deployment: demo mode, recordings, Docker image and Neon seeding are done and tested locally; the public deployment waits for Neon and Hugging Face accounts
 - [ ] 11. CI + README polish
 
 ## Project structure
@@ -362,17 +396,23 @@ tieout/
 │   ├── llm/              # OpenAI-compatible client, response cache, rate limits, usage ledger
 │   ├── agent/            # agent loop, tools, calculator, answer validation, recording
 │   ├── evals/            # eval sets, graders, runner, metrics, retrieval eval
-│   ├── api/              # FastAPI app
+│   ├── api/              # FastAPI app, demo mode
+│   ├── tracing/          # span tree per run (contextvar tracer), stored in Postgres
+│   ├── mcp_server/       # MCP server over stdio (the agent's data tools)
 │   ├── workflows/        # tie-out (claims, matching, adjudication), analytical review
 │   ├── runs.py           # persisted runs, review decisions, citation views
 │   ├── highlight.py      # quote highlighting in cited passages
 │   ├── ingest.py         # select → download → load pipeline
 │   ├── indexing.py       # parse → chunk → embed (cached) → index pipeline
+│   ├── demo_recordings.py # assemble recordings/demo from traces
 │   └── cli.py            # `tieout` command line
 ├── frontend/             # React + TypeScript UI (Vite)
-├── config/companies.json # selected companies, filings and accession numbers
-├── evals/reports/        # eval reports (Markdown + JSON)
+├── config/               # selected companies and filings, curated demo questions
+├── evals/                # eval sets, per-question results, reports
+├── recordings/           # recorded LLM + tool outputs: eval runs and the public demo
+├── deploy/               # Neon seeding, Hugging Face Space push
 ├── tests/                # unit tests + DB tests (skipped without Postgres)
+├── Dockerfile            # one image for the public demo
 └── docker-compose.yml    # Postgres 16 + pgvector
 ```
 

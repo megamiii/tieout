@@ -24,6 +24,7 @@ from typing import Any, Literal, Protocol
 from tieout.agent.tools import Tool, ToolOutcome, execute_tool_call
 from tieout.agent.validation import EvidenceLedger, SubmitAnswerArgs, validate_submission
 from tieout.llm.types import ChatResponse, Message, Usage
+from tieout.tracing.tracer import span
 
 SUBMIT = "submit_answer"
 FORCE_SUBMIT = {"type": "function", "function": {"name": SUBMIT}}
@@ -145,6 +146,26 @@ def run_agent(
     limits: AgentLimits = DEFAULT_LIMITS,
     extra: dict[str, Any] | None = None,
 ) -> AgentResult:
+    """Run the agent; recorded as an `agent` span (with `step` children) when tracing is on."""
+    with span("agent", "agent run", input={"question": question}) as s:
+        result = _run_agent(llm, tools, system_prompt, question, limits, extra)
+        s.output = {
+            "status": result.final.status,
+            "answer": result.final.answer,
+            "stop_reason": result.stop_reason,
+            "review_reasons": result.final.review_reasons,
+        }
+    return result
+
+
+def _run_agent(
+    llm: ChatModel,
+    tools: list[Tool],
+    system_prompt: str,
+    question: str,
+    limits: AgentLimits = DEFAULT_LIMITS,
+    extra: dict[str, Any] | None = None,
+) -> AgentResult:
     registry = {t.name: t for t in tools}
     if SUBMIT not in registry:
         raise ValueError("the agent needs a submit_answer tool")
@@ -163,60 +184,68 @@ def run_agent(
     rejections = 0
 
     for i in range(limits.max_steps):
-        # Force submit_answer for the last `submit_window` steps, so a rejected
-        # submission still has a step left to be fixed.
-        last = i >= limits.max_steps - limits.submit_window
-        response = llm.chat(
-            messages,
-            tools=schemas,
-            tool_choice=FORCE_SUBMIT if last else "auto",
-            max_tokens=limits.max_tokens_per_response,
-            extra=extra,
-        )
-        # Counted for cached responses too, so a replay stops where the live run did.
-        usage = usage + response.usage
-        step = AgentStep(index=i, response=response, forced_submit=last)
-        steps.append(step)
-        messages.append(response.assistant_message())
+        with span("step", f"step {i + 1}"):
+            # Force submit_answer for the last `submit_window` steps, so a rejected
+            # submission still has a step left to be fixed.
+            last = i >= limits.max_steps - limits.submit_window
+            response = llm.chat(
+                messages,
+                tools=schemas,
+                tool_choice=FORCE_SUBMIT if last else "auto",
+                max_tokens=limits.max_tokens_per_response,
+                extra=extra,
+            )
+            # Counted for cached responses too, so a replay stops where the live run did.
+            usage = usage + response.usage
+            step = AgentStep(index=i, response=response, forced_submit=last)
+            steps.append(step)
+            messages.append(response.assistant_message())
 
-        if not response.tool_calls:
-            step.nudged = True
-            messages.append({"role": "user", "content": NUDGE})
-        for call in response.tool_calls:
-            outcome = execute_tool_call(registry, call)
-            step.tool_outcomes.append(outcome)
-            if call.name == SUBMIT and outcome.error is None:
-                args = SubmitAnswerArgs.model_validate(outcome.arguments)
-                problems = validate_submission(
-                    args, ledger, check_figures=check_figures, question=question
+            if not response.tool_calls:
+                step.nudged = True
+                messages.append({"role": "user", "content": NUDGE})
+            for call in response.tool_calls:
+                outcome = execute_tool_call(registry, call)
+                step.tool_outcomes.append(outcome)
+                if call.name == SUBMIT and outcome.error is None:
+                    args = SubmitAnswerArgs.model_validate(outcome.arguments)
+                    with span("validation", "validate submit_answer", input=args.model_dump()) as v:
+                        problems = validate_submission(
+                            args, ledger, check_figures=check_figures, question=question
+                        )
+                        v.output = {"accepted": not problems, "problems": problems}
+                    if not problems:
+                        final = finalize(args, ledger, limits)
+                        stop = "submitted"
+                        break
+                    rejections += 1
+                    outcome.output = None
+                    outcome.error = "answer rejected: " + " | ".join(problems)
+                    if rejections >= limits.max_rejections:
+                        final = FinalAnswer(
+                            status="needs_review",
+                            answer=args.answer,
+                            confidence=args.confidence,
+                            rationale=args.rationale,
+                            citations=[c.model_dump() for c in args.citations],
+                            review_reasons=[
+                                f"answer failed validation {rejections} times",
+                                *problems,
+                            ],
+                        )
+                        stop = "validation_failed"
+                        break
+                else:
+                    for ev in outcome.evidence:
+                        ledger.add(ev)
+                messages.append(
+                    {"role": "tool", "tool_call_id": call.id, "content": outcome.content}
                 )
-                if not problems:
-                    final = finalize(args, ledger, limits)
-                    stop = "submitted"
-                    break
-                rejections += 1
-                outcome.output = None
-                outcome.error = "answer rejected: " + " | ".join(problems)
-                if rejections >= limits.max_rejections:
-                    final = FinalAnswer(
-                        status="needs_review",
-                        answer=args.answer,
-                        confidence=args.confidence,
-                        rationale=args.rationale,
-                        citations=[c.model_dump() for c in args.citations],
-                        review_reasons=[f"answer failed validation {rejections} times", *problems],
-                    )
-                    stop = "validation_failed"
-                    break
-            else:
-                for ev in outcome.evidence:
-                    ledger.add(ev)
-            messages.append({"role": "tool", "tool_call_id": call.id, "content": outcome.content})
-        if final is not None:
-            break
-        if usage.total_tokens >= limits.max_tokens_per_run:
-            stop = "token_budget"
-            break
+            if final is not None:
+                break
+            if usage.total_tokens >= limits.max_tokens_per_run:
+                stop = "token_budget"
+                break
 
     if final is None:
         final = FinalAnswer(

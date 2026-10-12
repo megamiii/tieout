@@ -177,3 +177,22 @@ def test_workflow_endpoints_store_and_list_runs(
         client.get(f"/api/workflows/{run['id']}").json()["items"][0]["amount"] == "$1,577 million"
     )
     assert client.get("/api/workflows/nope").status_code == 404
+
+
+def test_trace_is_saved_with_the_run_and_served(client: TestClient, session: Session) -> None:
+    from tieout.tracing.store import save_trace
+    from tieout.tracing.tracer import span, tracing
+
+    add_run(session, "test-run-5", "answered")
+    with tracing("agent", "Q?") as tr, span("agent", "agent run"), span("tool", "search") as s:
+        s.output = {"hits": 1}
+    trace_id = save_trace(session, tr, "test-run-5", "m")
+    session.flush()
+
+    detail = client.get("/api/runs/test-run-5").json()
+    assert detail["trace_id"] == trace_id
+    trace = client.get(f"/api/traces/{trace_id}").json()
+    assert [s["type"] for s in trace["spans"]] == ["agent", "tool"]
+    assert trace["spans"][1]["parent_id"] == trace["spans"][0]["span_id"]
+    assert trace["spans"][1]["output"] == {"hits": 1}
+    assert client.get("/api/traces/nope").status_code == 404

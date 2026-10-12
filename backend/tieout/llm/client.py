@@ -42,6 +42,7 @@ from tieout.llm.types import (
     Usage,
 )
 from tieout.net.retry import RetryableError, retry_call
+from tieout.tracing.tracer import current_tracer, span
 
 PROVIDER_URLS = {
     "groq": "https://api.groq.com/openai/v1",
@@ -148,6 +149,64 @@ class LLMClient:
         return self.cache_dir / h[:2] / f"{h}.json"
 
     def chat(
+        self,
+        messages: list[Message],
+        *,
+        tools: list[dict[str, Any]] | None = None,
+        tool_choice: str | dict[str, Any] | None = None,
+        temperature: float = 0.0,
+        max_tokens: int = 1024,
+        extra: dict[str, Any] | None = None,
+    ) -> ChatResponse:
+        """One chat completion, recorded as an `llm` span when tracing is on.
+
+        The span stores only the messages added since the previous call in the
+        same conversation (an agent resends the whole history each step), so
+        concatenating spans reproduces the conversation without quadratic storage.
+        """
+        tracer = current_tracer()
+        span_input: dict[str, Any] | None = None
+        if tracer is not None:
+            seen = tracer.llm_messages_seen
+            continuing = 0 < seen <= len(messages)
+            # Copy: the agent keeps appending to `messages` after this call.
+            new = list(messages[seen:] if continuing else messages)
+            tracer.llm_messages_seen = len(messages)
+            span_input = {
+                "new_messages": new,
+                "conversation_offset": seen if continuing else 0,
+                "tools": [t["function"]["name"] for t in tools or []],
+                "tool_choice": tool_choice,
+            }
+        with span("llm", self.model, input=span_input) as s:
+            resp = self._chat(
+                messages,
+                tools=tools,
+                tool_choice=tool_choice,
+                temperature=temperature,
+                max_tokens=max_tokens,
+                extra=extra,
+            )
+            s.output = {
+                "content": resp.content,
+                "tool_calls": [
+                    {"name": tc.name, "arguments": tc.arguments} for tc in resp.tool_calls
+                ],
+                "finish_reason": resp.finish_reason,
+            }
+            s.prompt_tokens = resp.usage.prompt_tokens
+            s.completion_tokens = resp.usage.completion_tokens
+            s.cached = resp.cached
+            s.meta = {
+                "request_hash": resp.request_hash,
+                "api_latency_ms": round(resp.latency_ms, 1),
+            }
+        if tracer is not None:
+            # The assistant reply is part of the conversation the next call resends.
+            tracer.llm_messages_seen += 1
+        return resp
+
+    def _chat(
         self,
         messages: list[Message],
         *,

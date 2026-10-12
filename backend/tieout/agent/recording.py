@@ -14,6 +14,7 @@ from typing import Any
 
 from tieout.agent.tools import Tool, ToolInputError
 from tieout.agent.validation import Evidence
+from tieout.tracing.tracer import annotate
 
 
 class ToolReplayMiss(Exception):
@@ -39,6 +40,7 @@ class RecordedTool(Tool):
         h = tool_call_hash(self.name, arguments)
         path = self.cache_dir / h[:2] / f"{h}.json"
         if path.exists():
+            annotate(cached=True)
             record = json.loads(path.read_text(encoding="utf-8"))
             if "error" in record:
                 raise ToolInputError(record["error"])

@@ -21,6 +21,7 @@ from tieout.financebench.selection import CompanyConfig
 from tieout.llm.types import ToolCall
 from tieout.retrieval.embeddings import Embedder
 from tieout.retrieval.search import Mode, SearchFilters, search
+from tieout.tracing.tracer import span
 
 SNIPPET_CHARS = 1000  # ~250 tokens per hit: free-tier tokens/min are tight
 
@@ -94,6 +95,16 @@ class ToolOutcome:
 
 
 def execute_tool_call(tools: dict[str, Tool], call: ToolCall) -> ToolOutcome:
+    """Run one tool call, recorded as a `tool` span when tracing is on."""
+    with span("tool", call.name, input={"arguments": call.arguments}) as s:
+        result = _execute_tool_call(tools, call)
+        s.output = result.output
+        s.error = result.error
+        s.meta.update({"sources": [e.source_id for e in result.evidence]})
+    return result
+
+
+def _execute_tool_call(tools: dict[str, Tool], call: ToolCall) -> ToolOutcome:
     start = time.perf_counter()
 
     def outcome(args: dict[str, Any] | None, output: Any, error: str | None) -> ToolOutcome:

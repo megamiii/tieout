@@ -18,6 +18,7 @@ from sqlalchemy.orm import Session
 
 from tieout.db.models import TOTAL_KEY, ChunkRow, LexemeStat
 from tieout.retrieval.embeddings import Embedder
+from tieout.tracing.tracer import annotate, span
 
 RRF_K = 60
 Mode = Literal["hybrid", "vector", "keyword"]
@@ -203,7 +204,41 @@ def search(
     candidates: int = 50,
     keyword_scoring: KeywordScoring = "idf",
 ) -> list[SearchHit]:
+    """Hybrid search, recorded as a `retrieval` span (both rankings and the fused
+    score of each hit) when tracing is on."""
     filters = filters or SearchFilters()
+    span_input = {
+        "query": query,
+        "filters": {k_: v for k_, v in vars(filters).items() if v is not None},
+        "mode": mode,
+        "k": k,
+    }
+    with span("retrieval", f"{mode} search", input=span_input) as s:
+        hits = _search(session, embedder, query, filters, k, mode, candidates, keyword_scoring)
+        s.output = [
+            {
+                "chunk_id": h.chunk_id,
+                "page": h.page,
+                "section": h.section,
+                "rrf_score": round(h.score, 5),
+                "vector_rank": h.vector_rank,
+                "keyword_rank": h.keyword_rank,
+            }
+            for h in hits
+        ]
+    return hits
+
+
+def _search(
+    session: Session,
+    embedder: Embedder,
+    query: str,
+    filters: SearchFilters,
+    k: int,
+    mode: Mode,
+    candidates: int,
+    keyword_scoring: KeywordScoring,
+) -> list[SearchHit]:
     vec_ids: list[str] = []
     kw_ids: list[str] = []
     if mode in ("hybrid", "vector"):
@@ -211,6 +246,7 @@ def search(
     if mode in ("hybrid", "keyword"):
         kw_ids = keyword_ids(session, query, filters, candidates, keyword_scoring)
 
+    annotate(vector_candidates=len(vec_ids), keyword_candidates=len(kw_ids))
     fused = rrf([r for r in (vec_ids, kw_ids) if r])[:k]
     if not fused:
         return []

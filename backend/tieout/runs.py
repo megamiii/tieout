@@ -21,6 +21,7 @@ from tieout.db.models import (
 )
 from tieout.evals.sets import EvalItem
 from tieout.highlight import highlight_all
+from tieout.tracing.store import trace_for
 
 Decision = Literal["accept", "override"]
 QueueFilter = Literal["pending", "reviewed", "all"]
@@ -293,6 +294,7 @@ def run_detail(session: Session, run_id: str) -> dict[str, Any] | None:
             "citations": grouped_citations(session, run.citations),
             "trace": run.trace,
             "decisions": [_decision_dict(d) for d in decisions],
+            "trace_id": trace_for(session, run_id),
         }
     )
     return detail

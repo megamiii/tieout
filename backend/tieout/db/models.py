@@ -7,6 +7,7 @@ from typing import Any
 from pgvector.sqlalchemy import Vector
 from sqlalchemy import (
     BigInteger,
+    Boolean,
     Computed,
     Date,
     DateTime,
@@ -211,3 +212,41 @@ class WorkflowRun(Base):
     model: Mapped[str] = mapped_column(String(64))
     summary: Mapped[dict[str, Any]] = mapped_column(JSONB)
     items: Mapped[list[dict[str, Any]]] = mapped_column(JSONB)
+
+
+class TraceRow(Base):
+    """One traced agent run or workflow; spans hold the step-by-step detail."""
+
+    __tablename__ = "traces"
+
+    trace_id: Mapped[str] = mapped_column(String(36), primary_key=True)
+    kind: Mapped[str] = mapped_column(String(32))  # agent | tieout | analytical_review
+    name: Mapped[str] = mapped_column(Text)
+    ref_id: Mapped[str | None] = mapped_column(String(36), index=True)  # run / workflow id
+    started_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    duration_ms: Mapped[float] = mapped_column(Float)
+    model: Mapped[str] = mapped_column(String(64))
+    totals: Mapped[dict[str, Any]] = mapped_column(JSONB)
+
+
+class SpanRow(Base):
+    __tablename__ = "spans"
+
+    trace_id: Mapped[str] = mapped_column(
+        ForeignKey("traces.trace_id", ondelete="CASCADE"), primary_key=True
+    )
+    span_id: Mapped[str] = mapped_column(String(16), primary_key=True)
+    parent_id: Mapped[str | None] = mapped_column(String(16))
+    seq: Mapped[int] = mapped_column(Integer)
+    type: Mapped[str] = mapped_column(String(16))
+    name: Mapped[str] = mapped_column(Text)
+    started_at: Mapped[datetime] = mapped_column(DateTime(timezone=True))
+    start_ms: Mapped[float] = mapped_column(Float)
+    duration_ms: Mapped[float] = mapped_column(Float)
+    input: Mapped[Any] = mapped_column(JSONB, nullable=True)
+    output: Mapped[Any] = mapped_column(JSONB, nullable=True)
+    error: Mapped[str | None] = mapped_column(Text)
+    prompt_tokens: Mapped[int] = mapped_column(Integer)
+    completion_tokens: Mapped[int] = mapped_column(Integer)
+    cached: Mapped[bool] = mapped_column(Boolean)
+    meta: Mapped[dict[str, Any]] = mapped_column(JSONB)

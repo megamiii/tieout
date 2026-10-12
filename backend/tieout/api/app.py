@@ -22,6 +22,8 @@ from tieout.ingest import load_selected
 from tieout.llm.types import LLMError
 from tieout.net.retry import RetryableError
 from tieout.retrieval.embeddings import Embedder, get_embedder
+from tieout.tracing.store import get_trace, save_trace, trace_for
+from tieout.tracing.tracer import span, tracing
 from tieout.workflows.service import (
     run_analytical_review,
     run_tieout,
@@ -85,12 +87,14 @@ def list_companies() -> list[dict[str, Any]]:
 @app.post("/api/ask")
 def ask(req: AskRequest, session: SessionDep) -> dict[str, Any]:
     try:
-        result = agent().ask(req.question)
+        with tracing("agent", req.question[:200]) as tracer:
+            result = agent().ask(req.question)
     except RetryableError as err:
         raise HTTPException(429, f"The LLM provider is rate-limiting: {err}") from err
     except LLMError as err:
         raise HTTPException(502, f"LLM error: {err}") from err
     run_id = runs.save_live_run(session, result, model=agent().llm.model)
+    save_trace(session, tracer, run_id, agent().llm.model)
     session.commit()
     detail = runs.run_detail(session, run_id)
     assert detail is not None
@@ -142,11 +146,15 @@ def embedder() -> Embedder:
 
 def _run_workflow(kind: str, req: WorkflowRequest, session: Session) -> dict[str, Any]:
     llm = agent().llm
+    name = f"{kind} {req.ticker.upper()} FY{req.fiscal_year}"
     try:
-        if kind == "tieout":
-            report = run_tieout(session, embedder(), llm, req.ticker, req.fiscal_year)
-        else:
-            report = run_analytical_review(session, embedder(), llm, req.ticker, req.fiscal_year)
+        with tracing(kind, name) as tracer, span("workflow", name):
+            if kind == "tieout":
+                report = run_tieout(session, embedder(), llm, req.ticker, req.fiscal_year)
+            else:
+                report = run_analytical_review(
+                    session, embedder(), llm, req.ticker, req.fiscal_year
+                )
     except KeyError as err:
         raise HTTPException(404, str(err)) from err
     except RetryableError as err:
@@ -154,10 +162,11 @@ def _run_workflow(kind: str, req: WorkflowRequest, session: Session) -> dict[str
     except LLMError as err:
         raise HTTPException(502, f"LLM error: {err}") from err
     run_id = save_workflow(session, report, llm.model)
+    trace_id = save_trace(session, tracer, run_id, llm.model)
     session.commit()
     run = session.get(WorkflowRun, run_id)
     assert run is not None
-    return workflow_dict(run)
+    return {**workflow_dict(run), "trace_id": trace_id}
 
 
 @app.post("/api/workflows/tieout")
@@ -185,7 +194,15 @@ def get_workflow(run_id: str, session: SessionDep) -> dict[str, Any]:
     run = session.get(WorkflowRun, run_id)
     if run is None:
         raise HTTPException(404, "workflow run not found")
-    return workflow_dict(run)
+    return {**workflow_dict(run), "trace_id": trace_for(session, run_id)}
+
+
+@app.get("/api/traces/{trace_id}")
+def get_trace_detail(trace_id: str, session: SessionDep) -> dict[str, Any]:
+    trace = get_trace(session, trace_id)
+    if trace is None:
+        raise HTTPException(404, "trace not found")
+    return trace
 
 
 @app.get("/api/eval")

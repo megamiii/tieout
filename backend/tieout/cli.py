@@ -31,7 +31,9 @@ from tieout.llm.limits import FreeTierLimits, UsageLedger, limits_for, quota_day
 from tieout.retrieval.chunking import MAX_TOKENS, OVERLAP_TOKENS
 from tieout.retrieval.embeddings import get_embedder
 from tieout.retrieval.search import RRF_K, SearchFilters, search
-from tieout.runs import import_eval_results
+from tieout.runs import import_eval_results, save_live_run
+from tieout.tracing.store import save_trace
+from tieout.tracing.tracer import span, tracing
 from tieout.workflows.service import run_analytical_review, run_tieout, save_workflow
 
 app = typer.Typer(
@@ -317,10 +319,14 @@ def wf_tieout(
     embedder = get_embedder(settings.data_path / "models")
     client = make_llm_client(settings) if llm else None
     init_db()
+    model = client.model if client else "none"
+    name = f"tieout {ticker.upper()} FY{fiscal_year}"
     with get_sessionmaker()() as session, session.begin():
-        report = run_tieout(session, embedder, client, ticker, fiscal_year)
+        with tracing("tieout", name) as tracer, span("workflow", name):
+            report = run_tieout(session, embedder, client, ticker, fiscal_year)
         if save:
-            report["id"] = save_workflow(session, report, client.model if client else "none")
+            report["id"] = save_workflow(session, report, model)
+            report["trace_id"] = save_trace(session, tracer, report["id"], model)
     _print_workflow(report)
     if out:
         out.write_text(json.dumps(report, indent=1, default=str) + "\n", encoding="utf-8")
@@ -338,10 +344,13 @@ def wf_review(
     embedder = get_embedder(settings.data_path / "models")
     client = make_llm_client(settings)
     init_db()
+    name = f"analytical_review {ticker.upper()} FY{fiscal_year}"
     with get_sessionmaker()() as session, session.begin():
-        report = run_analytical_review(session, embedder, client, ticker, fiscal_year)
+        with tracing("analytical_review", name) as tracer, span("workflow", name):
+            report = run_analytical_review(session, embedder, client, ticker, fiscal_year)
         if save:
             report["id"] = save_workflow(session, report, client.model)
+            report["trace_id"] = save_trace(session, tracer, report["id"], client.model)
     _print_workflow(report)
     if out:
         out.write_text(json.dumps(report, indent=1, default=str) + "\n", encoding="utf-8")
@@ -368,6 +377,7 @@ def ask_cmd(
     recording: Annotated[
         Path | None, typer.Option(help="recording dir (llm/ + tools/) to fill or replay")
     ] = None,
+    save: Annotated[bool, typer.Option(help="store the run and its trace for the UI")] = False,
 ) -> None:
     """Ask the agent a question about the supported 10-K filings."""
     settings = get_settings()
@@ -378,7 +388,14 @@ def ask_cmd(
         offline=offline,
         recording_dir=recording,
     )
-    result = agent.ask(question)
+    with tracing("agent", question[:200]) as tracer:
+        result = agent.ask(question)
+    if save:
+        init_db()
+        with get_sessionmaker()() as session, session.begin():
+            run_id = save_live_run(session, result, model=agent.llm.model)
+            save_trace(session, tracer, run_id, agent.llm.model)
+        typer.echo(f"saved run {run_id} with trace {tracer.trace_id}")
     for step in result.steps:
         r = step.response
         src = "cache" if r.cached else f"{r.latency_ms:.0f} ms"

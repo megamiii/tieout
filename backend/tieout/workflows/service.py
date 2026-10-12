@@ -14,6 +14,7 @@ from tieout.evals.grading import ChatModel
 from tieout.llm.types import ChatResponse, Message
 from tieout.retrieval.embeddings import Embedder
 from tieout.retrieval.search import SearchFilters, search
+from tieout.tracing.tracer import span
 from tieout.workflows.analytical import explain, explanation_query, material_changes
 from tieout.workflows.claims import Claim, dedupe, extract_claims
 from tieout.workflows.tieout import (
@@ -146,7 +147,23 @@ def run_tieout(
     )
     for claim, vec in zip(claims, vectors, strict=True):
         result = classify(claim, facts, concept_ranking(vec, concepts, cvecs))
-        results.append(resolve(result, counter))
+        if result.status == "candidate_mismatch":
+            span_input = {
+                "amount": claim.amount_text,
+                "year": claim.year,
+                "sentence": claim.sentence,
+                "candidates": [f.concept for f in result.candidates],
+            }
+            with span(
+                "adjudication", f"{claim.amount_text} p.{claim.page}", input=span_input
+            ) as sp:
+                result = resolve(result, counter)
+                sp.output = {
+                    "status": result.status,
+                    "note": result.note,
+                    "reasoning": result.adjudication,
+                }
+        results.append(result)
     summary: dict[str, Any] = {**summarize(results)}
     summary.update(
         {
@@ -178,27 +195,34 @@ def run_analytical_review(
     counter = CountingLLM(llm)
     items: list[dict[str, Any]] = []
     for ch in changes:
-        # Explanations live in MD&A (Item 7); fall back to the whole filing for
-        # filings whose MD&A sits elsewhere (e.g. an appended annual report).
-        query = explanation_query(ch)
-        hits = search(
-            session,
-            embedder,
-            query,
-            SearchFilters(accession=filing.accession, section="7"),
-            k=PASSAGES_PER_CHANGE,
-        ) or search(
-            session,
-            embedder,
-            query,
-            SearchFilters(accession=filing.accession),
-            k=PASSAGES_PER_CHANGE,
-        )
-        passages = [
-            {"chunk_id": h.chunk_id, "text": h.text, "section": f"Item {h.section}", "page": h.page}
-            for h in hits
-        ]
-        exp = explain(counter, ch, passages, fiscal_year)
+        with span("explain", ch.concept, input={"label": ch.label, "pct": str(ch.pct)}) as sp:
+            # Explanations live in MD&A (Item 7); fall back to the whole filing for
+            # filings whose MD&A sits elsewhere (e.g. an appended annual report).
+            query = explanation_query(ch)
+            hits = search(
+                session,
+                embedder,
+                query,
+                SearchFilters(accession=filing.accession, section="7"),
+                k=PASSAGES_PER_CHANGE,
+            ) or search(
+                session,
+                embedder,
+                query,
+                SearchFilters(accession=filing.accession),
+                k=PASSAGES_PER_CHANGE,
+            )
+            passages = [
+                {
+                    "chunk_id": h.chunk_id,
+                    "text": h.text,
+                    "section": f"Item {h.section}",
+                    "page": h.page,
+                }
+                for h in hits
+            ]
+            exp = explain(counter, ch, passages, fiscal_year)
+            sp.output = {"status": exp.status, "quote": exp.quote, "chunk_id": exp.chunk_id}
         page = next((p["page"] for p in passages if p["chunk_id"] == exp.chunk_id), None)
         items.append(
             {

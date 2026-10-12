@@ -145,3 +145,35 @@ def test_ask_persists_the_run(client: TestClient, monkeypatch: pytest.MonkeyPatc
     assert run["usage"]["requests"] == 2
     assert [s["tools"][0]["name"] for s in run["trace"]] == ["search_filings", "submit_answer"]
     assert client.get(f"/api/runs/{run['id']}").json()["answer"] == run["answer"]
+
+
+def test_workflow_endpoints_store_and_list_runs(
+    client: TestClient, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    from tieout.api import app as app_module
+
+    report = {
+        "kind": "tieout",
+        "ticker": "MMM",
+        "fiscal_year": 2018,
+        "doc_name": "3M_2018_10K",
+        "summary": {"claims": 1, "matched": 1, "mismatched": 0, "unmatched": 0},
+        "items": [{"status": "matched", "amount": "$1,577 million"}],
+    }
+
+    class StubAgent:
+        llm = type("L", (), {"model": "stub"})()
+
+    monkeypatch.setattr(app_module, "agent", lambda: StubAgent())
+    monkeypatch.setattr(app_module, "embedder", lambda: None)
+    monkeypatch.setattr(app_module, "run_tieout", lambda *a, **k: report)
+
+    run = client.post("/api/workflows/tieout", json={"ticker": "MMM", "fiscal_year": 2018}).json()
+    assert run["summary"]["matched"] == 1 and run["model"] == "stub"
+    listed = client.get("/api/workflows", params={"kind": "tieout"}).json()
+    assert run["id"] in [r["id"] for r in listed]
+    assert all(r["items"] is None for r in listed)  # list view stays light
+    assert (
+        client.get(f"/api/workflows/{run['id']}").json()["items"][0]["amount"] == "$1,577 million"
+    )
+    assert client.get("/api/workflows/nope").status_code == 404

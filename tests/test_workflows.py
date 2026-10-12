@@ -73,15 +73,17 @@ def test_close_related_value_becomes_candidate_then_adjudicated() -> None:
     r = classify(planted, FACTS, RANK)
     assert r.status == "candidate_mismatch" and r.candidates[0].concept == "NetIncomeLoss"
 
-    llm = Scripted('{"same_quantity_fact": 1, "reasoning": "Both are 2022 net income."}')
+    llm = Scripted('{"line_item": 1, "reasoning": "Both are 2022 net income."}')
     resolved = resolve(r, llm)
     assert resolved.status == "mismatched" and "differs by -249,000,000" in resolved.note
-    assert "Net income was $5.1 billion" in llm.prompts[0]
+    # Value-blind: neither the claimed amount nor the XBRL value is shown.
+    assert "Net income was [AMOUNT] in 2022" in llm.prompts[0]
+    assert "5.1" not in llm.prompts[0] and "5,349" not in llm.prompts[0]
 
 
 def test_adjudicator_can_reject_a_candidate() -> None:
     r = classify(claim("Segment net income was $5.1 billion in 2022."), FACTS, RANK)
-    llm = Scripted('{"same_quantity_fact": null, "reasoning": "A segment, not the company."}')
+    llm = Scripted('{"line_item": null, "reasoning": "A segment, not the company."}')
     resolved = resolve(r, llm)
     assert resolved.status == "unmatched" and resolved.adjudication == "A segment, not the company."
 
@@ -152,3 +154,55 @@ def test_explanation_quote_is_verified() -> None:
 def test_no_explanation() -> None:
     none = Scripted('{"explained": false, "explanation": "", "chunk_id": null, "quote": null}')
     assert explain(none, CHANGE, PASSAGES, 2022).status == "not_explained"
+
+
+def test_mutate_keeps_style_and_precision() -> None:
+    from tieout.evals.tieout_eval import mutate
+
+    c = claim("Net income was $5.349 billion in 2022.")
+    m = mutate(c, Decimal("1.10"))
+    assert m.amount_text == "$5.884 billion" and m.value == Decimal("5884000000")
+    assert m.sentence == "Net income was $5.884 billion in 2022."
+    c2 = claim("Cash from operations was $5,841 million in 2022.")
+    assert mutate(c2, Decimal("0.90")).amount_text == "$5,257 million"
+    planted = mutate(c, Decimal("0.95"))
+    assert classify(planted, FACTS, RANK).status == "candidate_mismatch"
+
+
+def test_adjusted_figures_are_never_mismatches() -> None:
+    # Regression: "Adjusting for ..., net income was $6.295 billion" was flagged.
+    c = claim("Adjusting for the TCJA, net income was $5.1 billion in 2022.")
+    assert c.non_gaap
+    r = classify(c, FACTS, RANK)
+    assert r.status == "unmatched" and r.note == "non-GAAP / adjusted measure"
+
+
+def test_identities_and_equity_components_are_skipped_and_duplicates_merged() -> None:
+    facts = [
+        fact("Revenues", 10_000_000_000),
+        fact("Revenues", 9_500_000_000, FY_PRIOR),
+        fact("Assets", 60_000_000_000, (None, date(2022, 12, 31))),  # type: ignore[arg-type]
+        fact("Assets", 12_000_000_000, (None, date(2021, 12, 31))),  # type: ignore[arg-type]
+        fact("LiabilitiesAndStockholdersEquity", 60_000_000_000, (None, date(2022, 12, 31))),  # type: ignore[arg-type]
+        fact("LiabilitiesAndStockholdersEquity", 12_000_000_000, (None, date(2021, 12, 31))),  # type: ignore[arg-type]
+        fact("AssetsAlias", 60_000_000_000, (None, date(2022, 12, 31))),  # type: ignore[arg-type]
+        fact("AssetsAlias", 12_000_000_000, (None, date(2021, 12, 31))),  # type: ignore[arg-type]
+        fact("RetainedEarningsAccumulatedDeficit", 9_000_000_000),
+        fact("RetainedEarningsAccumulatedDeficit", 3_000_000_000, FY_PRIOR),
+    ]
+    changes, _ = material_changes(facts, 2022)
+    assert [c.concept for c in changes] == ["Assets"]  # alias with identical values merged
+
+
+def test_explanation_query_uses_plain_label_and_figures() -> None:
+    ch = Change(
+        "RevenueFromContractWithCustomerExcludingAssessedTax",
+        "Revenue from Contract with Customer, Excluding Assessed Tax",
+        fact("R", 23_601_000_000),
+        fact("R", 16_434_000_000, FY_PRIOR),
+    )
+    from tieout.workflows.analytical import explanation_query
+
+    q = explanation_query(ch)
+    assert "Excluding Assessed Tax" not in q
+    assert "$23.6 billion" in q and "$16.4 billion" in q

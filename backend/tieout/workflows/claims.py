@@ -22,7 +22,7 @@ YEAR_RE = re.compile(r"(?<!\d)(?:fiscal\s+(?:year\s+)?)?((?:19|20)\d\d)(?!\d)", 
 SENTENCE_END_RE = re.compile(r"(?<=[.;!?])\s+(?=[A-Z(\u2022\u25cf\u2013-])")
 QUARTER_RE = re.compile(r"\b(?:quarter|three months|six months|nine months|Q[1-4])\b", re.I)
 NON_GAAP_RE = re.compile(
-    r"\b(?:non-GAAP|adjusted|organic|currency-neutral|constant currency)\b", re.I
+    r"\b(?:non-GAAP|adjust(?:ed|ing)|organic|currency-neutral|constant currency)\b", re.I
 )
 CONTEXT_CHARS = 120
 

@@ -184,3 +184,70 @@ export const api = {
     }),
   evalReport: () => request<EvalReport>('/api/eval'),
 }
+
+// --- audit workflows ------------------------------------------------------------
+
+export type WorkflowKind = 'tieout' | 'analytical_review'
+
+export interface FactRef {
+  fact_id: string
+  concept: string
+  label: string
+  value: string
+  period: string
+  fiscal_year: number
+}
+
+export interface TieoutItem {
+  status: 'matched' | 'mismatched' | 'unmatched' | 'out_of_scope'
+  amount: string
+  value: string
+  year: number | null
+  chunk_id: string
+  page: number
+  sentence: string
+  quarterly: boolean
+  non_gaap: boolean
+  note: string
+  fact: FactRef | null
+  concept_rank: number | null
+  adjudication: string
+}
+
+export interface ReviewItem {
+  concept: string
+  label: string
+  current: FactRef
+  prior: FactRef
+  delta: string
+  pct: string
+  explanation: {
+    status: 'explained' | 'not_explained' | 'unverified'
+    summary: string
+    chunk_id: string | null
+    quote: string | null
+    page: number | null
+  }
+}
+
+export interface WorkflowRun<T = TieoutItem | ReviewItem> {
+  id: string
+  created_at: string
+  kind: WorkflowKind
+  ticker: string
+  fiscal_year: number
+  doc_name: string
+  model: string
+  summary: Record<string, number | string | null | Record<string, number>>
+  items: T[] | null
+}
+
+export const workflows = {
+  list: (kind: WorkflowKind) => request<WorkflowRun[]>(`/api/workflows?kind=${kind}`),
+  get: (id: string) => request<WorkflowRun>(`/api/workflows/${encodeURIComponent(id)}`),
+  run: (kind: WorkflowKind, ticker: string, fiscal_year: number) =>
+    request<WorkflowRun>(kind === 'tieout' ? '/api/workflows/tieout' : '/api/workflows/review', {
+      method: 'POST',
+      body: JSON.stringify({ ticker, fiscal_year }),
+    }),
+}

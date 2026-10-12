@@ -2,9 +2,15 @@ import { useEffect, useState } from 'react'
 import { AskView } from './views/Ask'
 import { EvalView } from './views/Eval'
 import { ReviewView } from './views/Review'
+import { WorkflowView } from './views/Workflows'
+
+const TieoutView = () => <WorkflowView kind="tieout" />
+const AnalyticalView = () => <WorkflowView kind="analytical_review" />
 
 const ROUTES = {
   ask: { label: 'Ask', view: AskView },
+  tieout: { label: 'Tie-out', view: TieoutView },
+  analytical: { label: 'Analytical review', view: AnalyticalView },
   review: { label: 'Review queue', view: ReviewView },
   eval: { label: 'Evaluation', view: EvalView },
 } as const

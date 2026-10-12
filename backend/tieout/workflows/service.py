@@ -14,7 +14,7 @@ from tieout.evals.grading import ChatModel
 from tieout.llm.types import ChatResponse, Message
 from tieout.retrieval.embeddings import Embedder
 from tieout.retrieval.search import SearchFilters, search
-from tieout.workflows.analytical import explain, material_changes
+from tieout.workflows.analytical import explain, explanation_query, material_changes
 from tieout.workflows.claims import Claim, dedupe, extract_claims
 from tieout.workflows.tieout import (
     ClaimResult,
@@ -178,8 +178,16 @@ def run_analytical_review(
     counter = CountingLLM(llm)
     items: list[dict[str, Any]] = []
     for ch in changes:
-        query = f"{ch.label} increased decreased compared to prior year primarily due to"
+        # Explanations live in MD&A (Item 7); fall back to the whole filing for
+        # filings whose MD&A sits elsewhere (e.g. an appended annual report).
+        query = explanation_query(ch)
         hits = search(
+            session,
+            embedder,
+            query,
+            SearchFilters(accession=filing.accession, section="7"),
+            k=PASSAGES_PER_CHANGE,
+        ) or search(
             session,
             embedder,
             query,

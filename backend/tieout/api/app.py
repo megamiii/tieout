@@ -8,17 +8,26 @@ from typing import Annotated, Any, Literal
 from fastapi import Depends, FastAPI, HTTPException
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field
+from sqlalchemy import select
 from sqlalchemy.orm import Session
 
 from tieout import runs
 from tieout.agent.factory import Agent, build_agent
 from tieout.config import REPO_ROOT, get_settings
+from tieout.db.models import WorkflowRun
 from tieout.db.session import get_sessionmaker
 from tieout.evals.runner import ARCHIVED, EXPERIMENTS
 from tieout.financebench.selection import CompanyConfig
 from tieout.ingest import load_selected
 from tieout.llm.types import LLMError
 from tieout.net.retry import RetryableError
+from tieout.retrieval.embeddings import Embedder, get_embedder
+from tieout.workflows.service import (
+    run_analytical_review,
+    run_tieout,
+    save_workflow,
+    workflow_dict,
+)
 
 FRONTEND_DIST = REPO_ROOT / "frontend" / "dist"
 EVAL_REPORT = REPO_ROOT / "evals" / "reports" / "eval.json"
@@ -119,6 +128,64 @@ def review(run_id: str, req: ReviewRequest, session: SessionDep) -> dict[str, An
     detail = runs.run_detail(session, run_id)
     assert detail is not None
     return detail
+
+
+class WorkflowRequest(BaseModel):
+    ticker: str = Field(min_length=1, max_length=10)
+    fiscal_year: int = Field(ge=2000, le=2100)
+
+
+@lru_cache
+def embedder() -> Embedder:
+    return get_embedder(get_settings().data_path / "models")
+
+
+def _run_workflow(kind: str, req: WorkflowRequest, session: Session) -> dict[str, Any]:
+    llm = agent().llm
+    try:
+        if kind == "tieout":
+            report = run_tieout(session, embedder(), llm, req.ticker, req.fiscal_year)
+        else:
+            report = run_analytical_review(session, embedder(), llm, req.ticker, req.fiscal_year)
+    except KeyError as err:
+        raise HTTPException(404, str(err)) from err
+    except RetryableError as err:
+        raise HTTPException(429, f"The LLM provider is rate-limiting: {err}") from err
+    except LLMError as err:
+        raise HTTPException(502, f"LLM error: {err}") from err
+    run_id = save_workflow(session, report, llm.model)
+    session.commit()
+    run = session.get(WorkflowRun, run_id)
+    assert run is not None
+    return workflow_dict(run)
+
+
+@app.post("/api/workflows/tieout")
+def tieout(req: WorkflowRequest, session: SessionDep) -> dict[str, Any]:
+    return _run_workflow("tieout", req, session)
+
+
+@app.post("/api/workflows/review")
+def analytical_review(req: WorkflowRequest, session: SessionDep) -> dict[str, Any]:
+    return _run_workflow("analytical_review", req, session)
+
+
+@app.get("/api/workflows")
+def list_workflows(
+    session: SessionDep, kind: Literal["tieout", "analytical_review"] | None = None
+) -> list[dict[str, Any]]:
+    stmt = select(WorkflowRun).order_by(WorkflowRun.created_at.desc())
+    if kind:
+        stmt = stmt.where(WorkflowRun.kind == kind)
+    return [{**workflow_dict(r), "items": None} for r in session.scalars(stmt)]
+
+
+@app.get("/api/workflows/{run_id}")
+def get_workflow(run_id: str, session: SessionDep) -> dict[str, Any]:
+    run = session.get(WorkflowRun, run_id)
+    if run is None:
+        raise HTTPException(404, "workflow run not found")
+    return workflow_dict(run)
 
 
 @app.get("/api/eval")

@@ -31,8 +31,23 @@ REVENUE_CONCEPTS = (
     "SalesRevenueNet",
     "RevenuesNetOfInterestExpense",
 )
-# Cash-flow "change in X" lines restate balance-sheet movements; skip them.
-SKIP_PREFIXES = ("IncreaseDecrease",)
+# Skipped line items: cash-flow "change in X" lines restate balance-sheet
+# movements; balance-sheet identities and equity / comprehensive-income
+# components move with other items (one acquisition moved AMD's assets, total
+# liabilities and equity, equity and paid-in capital) and are rarely explained
+# on their own.
+SKIP_PREFIXES = (
+    "IncreaseDecrease",
+    "LiabilitiesAndStockholdersEquity",
+    "StockholdersEquity",
+    "AdditionalPaidInCapital",
+    "RetainedEarnings",
+    "TreasuryStock",
+    "ComprehensiveIncome",
+    "OtherComprehensiveIncome",
+    "AccumulatedOtherComprehensiveIncome",
+    "CommonStockValue",
+)
 
 
 @dataclass
@@ -89,7 +104,26 @@ def material_changes(
         if size >= threshold and abs(change.pct) >= MIN_CHANGE * 100:
             changes.append(change)
     changes.sort(key=lambda c: (-abs(c.delta), c.concept))
-    return changes[:max_items], base_concept
+    # Two concepts with identical values for both years are the same movement.
+    unique: list[Change] = []
+    seen: set[tuple[Decimal, Decimal]] = set()
+    for c in changes:
+        key = (c.current.value, c.prior.value)
+        if key not in seen:
+            seen.add(key)
+            unique.append(c)
+    return unique[:max_items], base_concept
+
+
+def explanation_query(change: Change) -> str:
+    """Search query: the line item in plain words plus the figures, which MD&A
+    explanations usually restate ("net revenue of $23.6 billion increased 44%")."""
+    label = re.sub(r"\s*\([^)]*\)", "", change.label)
+    label = re.sub(r",?\s*(Excluding Assessed Tax|Net of Tax|Attributable to Parent)", "", label)
+    figures = []
+    for v in (abs(change.current.value), abs(change.prior.value)):
+        figures.append(f"${v / 10**9:.1f} billion" if v >= 10**9 else f"${v / 10**6:,.0f} million")
+    return f"{label} increased decreased primarily due to {' '.join(figures)}"
 
 
 EXPLAIN_PROMPT = """\

@@ -120,7 +120,9 @@ def classify(claim: Claim, facts: Sequence[FactLite], ranking: list[str]) -> Cla
         and f.value != 0
         and MISMATCH_RATIO[0] <= claim.value / abs(f.value) <= MISMATCH_RATIO[1]
     ]
-    if close:
+    # An adjusted / non-GAAP figure differs from the GAAP line item by design:
+    # never report it as a mismatch (it can still match, if it happens to be equal).
+    if close and not claim.non_gaap:
         close.sort(key=lambda f: (rank_of[f.concept], f.fact_id))
         return ClaimResult(claim, "candidate_mismatch", candidates=close)
 
@@ -137,33 +139,43 @@ def classify(claim: Claim, facts: Sequence[FactLite], ranking: list[str]) -> Cla
 
 
 ADJUDICATION_PROMPT = """\
-You check a 10-K's MD&A text against the company's XBRL financial data.
+You map a figure in a 10-K's MD&A text to the company's XBRL financial data.
 
-Sentence (fiscal year {year}): "{sentence}"
-Amount in question: {amount}
+Sentence (fiscal year {year}), with the figure replaced by [AMOUNT]:
+"{sentence}"
 
-XBRL facts reported in the same 10-K:
+XBRL line items reported in the same 10-K (values hidden):
 {facts}
 
-Does the amount {amount} in the sentence state the same financial quantity as one \
-of these facts: the same measure, the same scope (whole company, not a segment, \
-product line or sub-component) and the same period? A change, difference, \
-subtotal or related-but-different measure is not the same quantity.
+Which line item does [AMOUNT] report: the same measure, the same scope (whole \
+company, not a segment, product line or sub-component) and the same period? \
+A change in, difference between, or part of a line item is not that line \
+item. Answer null if none of them is what [AMOUNT] reports.
 
-Reply with only a JSON object: {{"same_quantity_fact": <fact number or null>, \
+Reply with only a JSON object: {{"line_item": <number or null>, \
 "reasoning": "<one sentence>"}}"""
+
+
+def masked_sentence(claim: Claim) -> str:
+    end = claim.start + len(claim.amount_text)
+    return claim.sentence[: claim.start] + "[AMOUNT]" + claim.sentence[end:]
 
 
 def adjudicate(
     llm: ChatModel, claim: Claim, candidates: Sequence[FactLite]
 ) -> tuple[int | None, str]:
-    """Index of the candidate that measures the same quantity, or None, plus reasoning."""
+    """Which candidate the claim's amount reports, or None, plus reasoning.
+
+    Value-blind on purpose: the figure in the sentence and the facts' values are
+    hidden. Shown both, the model treated a different value as evidence of a
+    different quantity, so planted errors were almost never flagged (2 of 40).
+    The model identifies the quantity; code compares the values.
+    """
     facts = "\n".join(
-        f"{i + 1}. {f.label} ({f.concept}), {f.period}: {abs(f.value):,.0f} USD"
-        for i, f in enumerate(candidates)
+        f"{i + 1}. {f.label} ({f.concept}), {f.period}" for i, f in enumerate(candidates)
     )
     prompt = ADJUDICATION_PROMPT.format(
-        year=claim.year or "unknown", sentence=claim.sentence, amount=claim.amount_text, facts=facts
+        year=claim.year or "unknown", sentence=masked_sentence(claim), facts=facts
     )
     resp = llm.chat([{"role": "user", "content": prompt}], max_tokens=300)
     text = resp.content or ""
@@ -173,7 +185,7 @@ def adjudicate(
     except json.JSONDecodeError:
         data = {}
     reasoning = str(data.get("reasoning") or text[:300])
-    choice = data.get("same_quantity_fact")
+    choice = data.get("line_item")
     if isinstance(choice, int) and 1 <= choice <= len(candidates):
         return choice - 1, reasoning
     return None, reasoning

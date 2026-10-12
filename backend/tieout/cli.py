@@ -23,6 +23,7 @@ from tieout.evals.sets import (
     read_set,
     write_set,
 )
+from tieout.evals.tieout_eval import run_mutation_eval
 from tieout.financebench.dataset import load_documents, load_questions
 from tieout.indexing import run_concepts, run_index
 from tieout.llm.client import configured_limits, make_llm_client, quota_timezone
@@ -233,6 +234,26 @@ def eval_run(
             if stop:
                 typer.echo(f"  stopped: {stop}")
                 return
+
+
+TIEOUT_EVAL_FILINGS = [("MMM", 2018), ("NKE", 2023), ("AMD", 2022), ("BA", 2022), ("GIS", 2022)]
+
+
+@eval_app.command("tieout")
+def eval_tieout(per_filing: int = 8) -> None:
+    """Mutation test: plant 5-10% errors in matched MD&A claims; are they caught?"""
+    settings = get_settings()
+    embedder = get_embedder(settings.data_path / "models")
+    client = make_llm_client(settings)
+    with get_sessionmaker()() as session:
+        result = run_mutation_eval(session, embedder, client, TIEOUT_EVAL_FILINGS, per_filing)
+    out = REPO_ROOT / "evals" / "reports" / "tieout_mutation.json"
+    out.write_text(json.dumps(result, indent=1, default=str) + "\n", encoding="utf-8")
+    typer.echo(
+        f"planted {result['planted']}, detected {result['detected']} "
+        f"({result['detection_rate']:.1%}), flagged against a different fact "
+        f"{result['flagged_wrong_fact']}, outcomes {result['outcomes']}"
+    )
 
 
 @eval_app.command("report")

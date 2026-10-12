@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence discusses a change in non-cash items driving a reduction between years, which does not correspond to the reported balance sheet figure for Noncurrent Other Assets.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TWY531XhC2fCKHuEf86BLjhNMbEBzy7FDIdPkkqq3QBgheUWxcpWfWHjWz//IHiTpWNbFJGn9HInngNMR9gdVkg1N7m/4JZOzbwSvTCDdFH3/J9ufvwGch8A="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835414,
+  "id": "FT3Nau-LOfG-1e8Pq_SSyQw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 50,
+   "prompt_tokens": 237,
+   "total_tokens": 287
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"[AMOUNT] represents abnormal production costs related to the 777X program, which is a specific product line/program component and does not correspond to any reported whole-company XBRL financial statement line item.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tzeu7bCrrBYVCjcY8v5fnLvE6Io4Dc8qhrUtlm9C7Kp4DTTYoPj1YAxRExcWArhdH2PxwDmZcvWlxac+wK/fGzZYxdGO0H80wAOrhhzem1ji5ghAdy9K7wrQ="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835357,
+  "id": "3TzNatCmBtCy2roPvfmGuAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 60,
+   "prompt_tokens": 274,
+   "total_tokens": 334
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"explained\": true, \"explanation\": \"Management explains the decrease in the effective income tax rate and mentions the enactment of the Tax Cuts and Jobs Act (TCJA) as a key impact on tax rates between years.\", \"chunk_id\": \"ch_90602b15da77880c\", \"quote\": \"The changes in the tax rates between years were impacted by many factors, including the enactment of the Tax Cuts and Jobs Act (TCJA) in December 2017\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TSfm4oh4WWc0+/vlIwYyno/2vvbuINAzxj77l2yysanXHtRzqSB5wBcCCh9QAjCgr2H82M4q1wruuBE+/7khkh0WdLgt07YKcL5HYMpzaZkl1g+Jp3LmT4K4="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835891,
+  "id": "8j7NavTLLp-z2roPoJDhyQo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 113,
+   "prompt_tokens": 2542,
+   "total_tokens": 2655
+  }
+ }
+}

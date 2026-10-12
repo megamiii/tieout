@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence discusses BDS (Boeing Defense, Space & Security) segment revenues, whereas the provided XBRL line item represents a cash flow adjustment for operating assets and liabilities, not segment revenue.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TQBXolpDMTC2wltesRUtpsA4117SVsuXFA63cFTf6LoRnOa3CnZkrHhhf3nBPJaU6DLNUIhEFTGmCE38L2NMDFKuTA6OnFpMsIIQOx/dahdXD3e4d1t6y1Ms="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835350,
+  "id": "1TzNatrbFL3lrfcPz97V8Ao",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 56,
+   "prompt_tokens": 234,
+   "total_tokens": 290
+  }
+ }
+}

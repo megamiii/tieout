@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents a specific measurement period adjustment to tax expense related to the TCJA, which is not equivalent to the net change in total cash and cash equivalents reported in the provided XBRL line item.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TdJGFwnVWLrxyjeNf99170CjQqvz5suNjzE1pkTpxaxe7m45SZDiINAfWEgBAcSFCmqYZahqaIvf5qr+APgFUASpmQ09+jYR72U4jbFn/aEtt0KNsT0ZdF6c="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835249,
+  "id": "cDzNapHBBd_t2roPobOAqA4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 58,
+   "prompt_tokens": 333,
+   "total_tokens": 391
+  }
+ }
+}

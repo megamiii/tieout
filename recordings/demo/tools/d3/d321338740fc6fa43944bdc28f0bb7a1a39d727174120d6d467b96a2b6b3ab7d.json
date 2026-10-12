@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GLW",
+  "query": "current assets",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "GLW",
+  "concepts": [
+   {
+    "concept": "AssetsCurrent",
+    "label": "Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "7453000000",
+      "fact_id": "xf_6a90b7a1ca0e0455",
+      "reported_in_10k_filed": "2023-02-13"
+     }
+    ]
+   },
+   {
+    "concept": "OtherAssetsCurrent",
+    "label": "Other Assets, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "1157000000",
+      "fact_id": "xf_eb2af152c672d16f",
+      "reported_in_10k_filed": "2023-02-13"
+     }
+    ]
+   },
+   {
+    "concept": "OtherAssetsMiscellaneousCurrent",
+    "label": "Other Assets, Miscellaneous, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "703000000",
+      "fact_id": "xf_232ad0fde99f9e92",
+      "reported_in_10k_filed": "2023-02-13"
+     }
+    ]
+   }
+  ]
+ }
+}

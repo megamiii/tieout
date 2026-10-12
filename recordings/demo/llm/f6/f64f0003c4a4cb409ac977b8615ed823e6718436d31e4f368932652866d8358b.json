@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence discusses an increase in revenues for a specific segment or product line (BGS) for the year 2021, whereas the available XBRL line item represents the increase or decrease in accounts receivable for the company as a whole for the year 2020.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T/33a2ZWRDW8wFz3fAzfgMDnSUnD48dP3Ed3usOfln9yHP6JLlZoLMVat1+a+joRKkZPozMBhYgJ5j+W9mqDRzk42LDWzS/zUkkmIomhI0Tf5qiiRqp3ngb4="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835411,
+  "id": "Ez3Natf-DvvY9tMP4LnekAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 75,
+   "prompt_tokens": 234,
+   "total_tokens": 309
+  }
+ }
+}

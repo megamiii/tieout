@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Operations Years ended December 31",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_cbcee2216d47b49c",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 63,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Notes to the Consolidated Financial Statements Years ended December 31, 2022, 2021 and 2020 (Dollars in millions, except otherwise stated) Note 1 – Summary of Significant Accounting Policies Principles of Consolidation and Basis of Presentation The Consolidated Financial Statements included in this report have been prepared by management of The Boeing Company (herein referred to as “Boeing,” the “Company,” “we,” “us” or “our”). These statements include the accounts of all majority-owned subsidiaries and variable interest entities that are required to be consolidated. All significant intercompany accounts and transactions have been eliminated. As described in Note 22, we operate in four reportable segments: Commercial Airplanes (BCA), Defense, Space & Security (BDS), Global Services (BGS) and Boeing Capital (BCC). Use of Estimates The preparation of financial statements in conformity with U.S. generally accepted accounting principles…"
+   },
+   {
+    "chunk_id": "ch_6acac840694fe0ee",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 119,
+    "text": "Table of Contents REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM To the shareholders and the Board of Directors of The Boeing Company Opinion on the Financial Statements We have audited the accompanying consolidated statements of financial position of The Boeing Company and subsidiaries (the \"Company\") as of December 31, 2022 and 2021, the related consolidated statements of operations, comprehensive income, equity, and cash flows, for each of the three years in the period ended December 31, 2022, and the related notes (collectively referred to as the \"financial statements\"). In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of December 31, 2022 and 2021, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2022, in conformity with accounting principles generally accepted in the United States of America. We have also audited, in accordance with …"
+   },
+   {
+    "chunk_id": "ch_10a832d1cef931f6",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 96,
+    "text": "($2,838) ($3,920) Amounts recognized in Accumulated other comprehensive loss at December 31 were as follows: Pension Other Postretirement Benefits 2022 2021 2022 2021 Net actuarial loss/(gain) $17,448 $19,031 ($1,862) ($1,092) Prior service credits (1,224) (1,306) (41) (76) Total recognized in Accumulated other comprehensive loss $16,224 $17,725 ($1,903) ($1,168) 92"
+   },
+   {
+    "chunk_id": "ch_fa21a0c4c813ddb9",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 80,
+    "text": "Table of Contents Note 6 – Allowances for Losses on Financial Assets The change in allowances for expected credit losses for the years ended December 31, 2022 and 2021 consisted of the following: Accounts receivable Unbilled receivables Other Current Assets Customer financing Other Assets Total Balance at January 1, 2021 ($444) ($129) ($72) ($17) ($140) ($802) Changes in estimates (24) (11) 6 (1) (59) (89) Write-offs 77 49 4 13 143 Recoveries 1 1 Balance at December 31, 2021 (390) (91) (62) (18) (186) (747) Balance at January 1, 2022 (390) (91) (62) (18) (186) (747) Changes in estimates 2 21 (27) (37) (35) (76) Write-offs 260 47 4 133 444 Recoveries 12 12 Balance at December 31, 2022 ($116) ($23) ($85) ($55) ($88) ($367) Note 7 – Inventories Inventories at December 31 consisted of the following: 2022 2021 Long-term contracts in progress $582 $872 Commercial aircraft programs 67,702 68,106 Capitalized precontract costs 794 648 Commercial spare parts, used aircraft, general stock materia…"
+   },
+   {
+    "chunk_id": "ch_610ef588d37b6bb1",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 93,
+    "text": "under credit line agreements. We continue to be in full compliance with all covenants contained in our debt or credit facility agreements. Interest incurred, including amounts capitalized, was $2,650, $2,790 and $2,280 for the years ended December 31, 2022, 2021 and 2020, respectively. Interest expense recorded by BCC is reflected as Boeing Capital interest expense on our Consolidated Statements of Operations. Total Company interest payments were $2,572, $2,583 and $1,925 for the years ended December 31, 2022, 2021 and 2020, respectively. Short-term debt and current portion of long-term debt at December 31 consisted of the following: 2022 2021 Unsecured debt $5,103 $1,155 Finance lease obligations 65 61 Other notes 22 80 Total $5,190 $1,296 89"
+   }
+  ]
+ }
+}

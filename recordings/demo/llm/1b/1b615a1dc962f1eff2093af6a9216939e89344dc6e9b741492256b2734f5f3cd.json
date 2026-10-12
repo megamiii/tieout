@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents cash acquired as part of the acquisition of Xilinx, which is a component of cash flows from investing activities but does not correspond to payments to acquire short-term investments.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TlcP967GlNAtTFtviyoQzwpyaJKXrem3hisE6JyizXSVPT1nom2viuLNVD2g4BUdMiHyjDLDc4VKpf+Sepm/y8GHKxyFs8kmkehX13kExoAZWHz8+xtoLHAc="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835322,
+  "id": "ujzNapCnFPK11e8Px7SoMA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 56,
+   "prompt_tokens": 308,
+   "total_tokens": 364
+  }
+ }
+}

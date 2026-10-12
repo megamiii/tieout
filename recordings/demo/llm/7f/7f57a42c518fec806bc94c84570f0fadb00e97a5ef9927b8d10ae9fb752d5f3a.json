@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"explained\": true, \"explanation\": \"Management explains that the increased financing cash outflow was driven by higher share repurchases, the repayment of senior notes, and lower proceeds from stock option exercises.\", \"chunk_id\": \"ch_763be03a42eb9ab7\", \"quote\": \"The increased outflow in fiscal 2023 was driven by higher share repurchases of $5,480 million for fiscal 2023 compared to $4,014 million for fiscal 2022, the repayment of $500 million of senior notes that matured in fiscal 2023, as well as lower proceeds from stock option exercises, which resulted in a cash inflow of $651 million in fiscal 2023 compared to $1,151 million in fiscal 2022.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TeaRAE6GZF7pMnJQaAlx9cy17O1Oi+H4ol83XlLYh07hxFy5ModOXV1aAb1DQu4QtjmS9xwZ+W4C2r+R66mg89YoPY/FHs5c17E9duDNNONlGOrP+E4nFdVU="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835900,
+  "id": "-z7NasjNB4j91e8Pr8CG6A0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 189,
+   "prompt_tokens": 2370,
+   "total_tokens": 2559
+  }
+ }
+}

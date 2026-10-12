@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents 737NG frame fitting component repair costs, which is a specific expense component and does not correspond to the reported XBRL line item for capital expenditures.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0ThE3B6WHsfcZTdhk3mPxaRZZCDIqlPwP1lXWekFAMcLv3gKVNdhH02qiMliIT6SbYv017dTLiUbGpb/xUFe5i2x8jgpGQ1Iyib7n/N4FYSsfdS/5OzHD2q5o="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835359,
+  "id": "3jzNat_gJJm42roPqaKXmAM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 53,
+   "prompt_tokens": 314,
+   "total_tokens": 367
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount in the text refers to cash acquired from an acquisition, whereas the XBRL line item measures payments made to acquire short-term investments.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Thdfak0Vy/givvIyTTkKIJ/2oCdfJ+/2bIQI4JRuHlSt++tLc/UfPGWUJUua1gA2kLxYpaSMPPZmrxjE2kvPlr0/Hx4+9Elt5t6tTbz+uBaonOx807NUUkTA="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835321,
+  "id": "uDzNasvsK9fB1e8PveihiAE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 299,
+   "total_tokens": 346
+  }
+ }
+}

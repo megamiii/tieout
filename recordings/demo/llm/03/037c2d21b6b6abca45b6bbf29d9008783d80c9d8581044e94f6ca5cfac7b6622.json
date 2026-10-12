@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": 1, \"reasoning\": \"The sentence discusses a change in receivables for fiscal year 2022, which directly corresponds to the reported cash flow line item 'Increase (Decrease) in Accounts Receivable' for the period from 2021-05-31 to 2022-05-29.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T4wc/ozdVGHUMWjmtrcG1XgVD3Y31b2zdolGc6PnK4PYmGSMHyf1a9As4xjofJcgvW0gvaY5NLGNpVQy0MaK9pFYUITVQ/92QtTdRTngVZ+p5fwbEHR7282Y="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835438,
+  "id": "LT3NapCON8nZ9tMPx_CyYA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 82,
+   "prompt_tokens": 217,
+   "total_tokens": 299
+  }
+ }
+}

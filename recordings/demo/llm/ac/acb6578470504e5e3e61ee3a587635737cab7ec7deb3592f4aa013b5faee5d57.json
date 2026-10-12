@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": 1, \"reasoning\": \"The sentence refers to accrued trade and coupon promotion liabilities as of May 30, 2021, which directly corresponds to the XBRL line item Accrued Marketing Costs, Current for the same date.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TZv8KLWdUuncLQgFmHb8DWSY8NDT97kitAeg7Wus/nxRrQ507R4BGHjUgj09d4k0TjsR/Ueqd0DR031bGWbEBjBaZbWy+nST+wJL0OtgkLb+x3xVWnCL07iA="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835440,
+  "id": "MD3NauO7GbTR1e8P9LW2-Ak",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 63,
+   "prompt_tokens": 237,
+   "total_tokens": 300
+  }
+ }
+}

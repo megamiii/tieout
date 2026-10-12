@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Operating income margin decreased",
+  "ticker": "MMM",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_514192bc4b5f1151",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 31,
+    "text": "Business segment operating income margins decreased year-on-year due to special item charges for PFAS manufacturing exit costs related to asset impairments (discussed in Note 15) resulting in a 2022 fourth quarter pre-tax charge of $0.8 billion. Margins were also impacted by increased raw materials and logistics costs, manufacturing productivity headwinds which were further magnified by the shutdown of certain operations in Belgium and investments in auto electrification, partially offset by selling price actions, strong spending discipline and restructuring actions. Adjusting for special item PFAS manufacturing exit costs (non-GAAP measure), business segment operating income margins increased year-on-year as displayed above. Year 2021 results: Sales in Transportation and Electronics were up 10.2 percent in U.S. dollars. On an organic sales basis: • Sales increased in advanced materials, commercial solutions, automotive and aerospace, electronics and transportation safety. • Growth ben…"
+   },
+   {
+    "chunk_id": "ch_f1824e9c87b0c3f4",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Business segment operating income margins decreased year-on-year due to increases in raw materials, logistics and special item costs for significant litigation; lower gain on sale of properties; and manufacturing productivity impacts that were partially offset by sales growth leverage, and benefits from restructuring actions and lower related charges. Adjusting for special item costs for significant litigation (non-GAAP measure), business segment operating income margins decreased year-on-year as displayed above. 30"
+   },
+   {
+    "chunk_id": "ch_843268dd64aa394e",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 20,
+    "text": "on 3M's consolidated results of operations or financial condition. Relevant risk factors can be found in Item 1A “Risk Factors” in this Annual Report on Form 10-K. Operating income margin and earnings per share attributable to 3M common shareholders – diluted: The following table provides the increases (decreases) in operating income margins and diluted earnings per share. Year ended December 31, 2022 2021 Percent of net sales Earnings per diluted share Percent of net sales Earnings per diluted share Same period last year 20.8 % $ 10.12 22.3 % $ 9.36 Net costs for significant litigation 1.4 0.61 1.0 0.37 Gain on business divestitures — — (1.2) (0.52) Divestiture-related restructuring actions — — 0.2 0.08 Total special items 1.4 0.61 — (0.07) Same period last year, excluding special items 22.2 10.73 22.3 9.29 Increase/(decrease) due to: Total organic growth/productivity and other 1.0 0.56 0.7 1.07 Raw material impact (2.4) (1.13) (0.8) (0.27) Divestitures — (0.05) — (0.05) Foreign excha…"
+   },
+   {
+    "chunk_id": "ch_ccd0374d2a09aa14",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Sales in Safety and Industrial were down 3.2 percent in U.S. dollars. On an organic sales basis: • Sales increased in electrical markets, abrasives, automotive aftermarket, roofing granules, closure and masking systems, and industrial adhesives and tapes and decreased in personal safety. • Growth from continued improving general industrial manufacturing activity and other end-market demand was partially offset by the disposable respirator sales decline within personal safety, which negatively impacted year-on-year organic growth by 4.5 percentage points. Business segment operating income margins decreased year-on-year due to special item costs for significant litigation primarily related to steps toward resolving Combat Arms Earplugs litigation (discussed in Note 16) resulting in a 2022 second quarter pre-tax charge of approximately $1.2 billion. Margins were also impacted by increased raw materials and logistics costs, manufacturing productivity headwinds, partially offset by selling …"
+   },
+   {
+    "chunk_id": "ch_31e0aa43e1352879",
+    "ticker": "MMM",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 24,
+    "text": "Table of Contents Operating Income (Loss) (Dollars in millions, except per share amounts) Safety and Industrial Safety and Industrial Margin Transportation and Electronics Transportation and Electronics Margin Total Company Total Company Margin Income Before Taxes Provision for Income Taxes Effective Tax Rate Net Income Attributable to 3M Earnings per Diluted Share Earnings per diluted share percent change Year ended December 31, 2020 GAAP $ 2,588 23.6% $ 1,701 20.2% $ 7,161 22.3 % $ 6,795 $ 1,337 19.7 % $ 5,449 $ 9.36 Adjustments for special items: Net costs for significant litigation 205 — 353 353 136 217 0.37 Gain on business divestitures — — (389) (389) (86) (303) (0.52) Divestiture-related restructuring actions — — 55 55 9 46 0.08 Total special items 205 — 19 19 59 (40) (0.07) Year ended December 31, 2020 adjusted amounts (non-GAAP measures) $ 2,793 25.5% $ 1,701 20.2% $ 7,180 22.3 % $ 6,814 $ 1,396 20.5 % $ 5,409 $ 9.29 Year ended December 31, 2021 GAAP $ 2,466 20.6% $ 1,880 20.3…"
+   }
+  ]
+ }
+}

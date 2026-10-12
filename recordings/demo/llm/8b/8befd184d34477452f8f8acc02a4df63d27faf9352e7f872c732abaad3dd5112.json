@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TEJAcDAHykfwSFrsMr1Fb8dZxvWp0iyLpRKefGfRKmJ55HO1fWhNbTO6v3lVUrAebUwO46/auBWE69hFXhbMIZn4u30suIj8lFQR1Ec/NOTkahCDnGM0YaE4="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"query\":\"Consolidated Balance Sheets Corning Incorporated\",\"ticker\":\"GLW\"}",
+        "name": "search_filings"
+       },
+       "id": "call_882765",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494552,
+  "id": "lwnIatbeO9T_vdIPgtHUoAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 4573,
+   "total_tokens": 4611
+  }
+ }
+}

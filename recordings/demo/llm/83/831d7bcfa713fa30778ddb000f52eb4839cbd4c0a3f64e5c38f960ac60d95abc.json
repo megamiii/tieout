@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TA61m8I/hSrbfkGHDpUlvtRPmnIqgrUjwuo1Q0fBzgAnsjrS9efaSO0MJmpVVZ5UKbcaf5/hzjAXzz4roUzd8qbTgLY/V6JGBtDIY81/9+xIzTvndpj3FXBc="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"ticker\":\"MMM\",\"query\":\"Operating income margin for the years ended December 31, 2022 and 2021 was\"}",
+        "name": "search_filings"
+       },
+       "id": "call_954380",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560050,
+  "id": "cQnJasvyK_rpvdIP8NaAqQo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 55,
+   "prompt_tokens": 8421,
+   "prompt_tokens_details": {
+    "cached_tokens": 6074
+   },
+   "total_tokens": 8476
+  }
+ }
+}

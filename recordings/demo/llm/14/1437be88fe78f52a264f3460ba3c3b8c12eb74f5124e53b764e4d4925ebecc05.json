@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence discusses the change in working capital driven by accounts receivable, inventories, and accounts payable, which does not correspond to the increase or decrease in income taxes payable reported in the candidate line item.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TH7qGIWJM5vkxKV2aBXn9KF8yJqdX97QacmvAT5+wMGgalMvYcaamQO3JfV8GQ0BzslubX0l0sZhmcvgWWgls2Y29asp8o8W634wYEFBFJGv3pKKR3dUTA6M="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835243,
+  "id": "azzNauWYDdCy2roPvfmGuAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 57,
+   "prompt_tokens": 252,
+   "total_tokens": 309
+  }
+ }
+}

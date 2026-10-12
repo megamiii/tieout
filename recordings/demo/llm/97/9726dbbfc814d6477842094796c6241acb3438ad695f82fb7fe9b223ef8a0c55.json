@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence refers to 'Gaming operating income', which is a segment or sub-component metric, whereas the XBRL line item represents the whole company's income before taxes and equity method investments.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T2rQx8sItTbkWppP9bJ8LyWvh+oT0QrwNfIACo+rB11BmTBESN6wg7xBhMuegv2H1MeOS63+2x7jIE/9aVsU6nYj+KkLHnaaXFE5dSGmgtp7AXHEuDLhKhbw="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835273,
+  "id": "iDzNasfNKofwrfcP1e6DkAI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 57,
+   "prompt_tokens": 260,
+   "total_tokens": 317
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence refers to purchase obligations payable within the next 12 months, which are off-balance-sheet commitments and not reported on the balance sheet as 'Other Accrued Liabilities, Current'.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TylaLpgK0YJaTtiawlvOpgUjio9YWjw6gtDeTxpXHe1WlwMhUSDcQuxVaF+bV9GJ5gILougSrQotrh2Y/W/WIPbBwqfz0y7bOnFrivlfK2H0xQqH8Ywhbcdw="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835261,
+  "id": "fDzNauf8Lp_krfcPpOLj8Qo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 58,
+   "prompt_tokens": 238,
+   "total_tokens": 296
+  }
+ }
+}

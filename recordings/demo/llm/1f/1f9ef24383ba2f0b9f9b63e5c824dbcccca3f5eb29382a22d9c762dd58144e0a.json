@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence discusses a divestitures gain, whereas the provided XBRL line item represents goodwill written off related to the sale of a business unit, which are distinct financial measures.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TRT3xjr4I8xHb8QN58qA+ekX7OmS75a7QyVrHmZqXfM/e1aOZ1vevnmYgwKgvpcntvbX5jtNKi/lKkHzzytjWV0bB1wOBLqXf//BcS3zGJuh4C+45+PyAd3Q="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835433,
+  "id": "KD3NapbqJavb9tMPtrzDIQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 52,
+   "prompt_tokens": 282,
+   "total_tokens": 334
+  }
+ }
+}

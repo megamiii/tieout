@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": 1, \"reasoning\": \"The amount represents the BDS loss from operations for the full year 2022, which matches the company's total Operating Income (Loss) for the fiscal year 2022 period in the XBRL data.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TquXEfZ1S54m3juGRbwfoDOYp/XDnM4m7PQfq83Op+1r5EVycbVvjlCpuDLfhllaGWvI6qkBzt6zXZHwvH+qbWLd3mbOCVep9sipDm2sIFA4BHGTG1iOT1oQ="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835381,
+  "id": "9TzNat2KHZO11e8PrIOdaQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 65,
+   "prompt_tokens": 280,
+   "total_tokens": 345
+  }
+ }
+}

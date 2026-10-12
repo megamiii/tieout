@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents pension and postretirement benefit plan income, whereas the listed XBRL item represents cash contributions/payments made to the plans.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TumxG4lTb6cjKiKZdAIw0IJiBv/Bm/+P50cttLCavYySayf7D2xxiUUjDmTUtses95k3Zqj+pItpn5EcJM6UBcKqF3FbhslwJ+8s9e7QJ8SpTEYaOsA20Ms4="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835441,
+  "id": "MT3Nao3QErTR1e8P9LW2-Ak",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 267,
+   "total_tokens": 312
+  }
+ }
+}

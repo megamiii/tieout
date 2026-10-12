@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence discusses a mark-to-market valuation adjustment for commodity positions and grain inventories, which does not correspond to the provided XBRL line item for net periodic defined benefits expense.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TEMKiUI5+7cAD4zr99vTguGbI1Er/qUZeZqkLvkNfIgu6aHb5Jc2IQtccfusleK3YUHRHnI9eNbfJvwb8saHXVXJZg7TTh9EtsAgZUQWVvFEafg3ocQ0P9c0="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835435,
+  "id": "Kz3NauWsIJrEvr0Pn-rbyAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 54,
+   "prompt_tokens": 271,
+   "total_tokens": 325
+  }
+ }
+}

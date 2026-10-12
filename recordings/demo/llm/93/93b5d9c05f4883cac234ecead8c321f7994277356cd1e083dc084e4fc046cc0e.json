@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"explained\": false, \"explanation\": \"None of the provided passages explain the change in the Other Depreciation and Amortization line item.\", \"chunk_id\": null, \"quote\": null}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TNAS3sZll6kTB/+KRdWeLIFU69QcT9fnEvmR9DdljxmgW6mmDhyqsag6HsIMEUR0EBVRBYU+N6HCRNaH7mWRRmkbAoViNdjjo3A3mM/8OYwW1QMUY5U8Gf/M="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835918,
+  "id": "DT_NavG5JuyM1e8PkqvR-AI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 2583,
+   "total_tokens": 2628
+  }
+ }
+}

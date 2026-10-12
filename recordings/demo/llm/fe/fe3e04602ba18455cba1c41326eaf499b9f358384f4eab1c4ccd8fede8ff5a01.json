@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents commercial paper outstanding at year end 2018, which corresponds to Short-term Debt or Commercial Paper, a liability line item not present in the provided list.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TtNSWz07qJtOZ4PEGzrAl08sH0crZuC55dmYKnfAIbBeL83jqJVYADG+LQbsa+1yP16LH3FP/bfhvOrIGyX52+lZO9p3FJPwelHbWqdH63vBlXLzRwUEgdCw="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835186,
+  "id": "MTzNauqzOLLYrfcPurHQ4A8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 55,
+   "prompt_tokens": 266,
+   "total_tokens": 321
+  }
+ }
+}

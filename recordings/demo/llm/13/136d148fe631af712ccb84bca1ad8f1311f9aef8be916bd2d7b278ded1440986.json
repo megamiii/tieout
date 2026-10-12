@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents cash, cash equivalents, and marketable securities held by foreign subsidiaries, which does not correspond to the company's total dividends paid on common stock.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tuc/1SE2Cpg2HTF0pglKdT2+Wcx6NcSkV6kp+XTgE54TlRkBAq2c8kJJdvSOzY5c1EFu1i0tP3900vgi1U8MgNmnJubxFHJFQbsvyCCAgOwEN7R8GNDWtQVs="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835191,
+  "id": "NzzNaqPPB_aN0-kP3-6joQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 50,
+   "prompt_tokens": 275,
+   "total_tokens": 325
+  }
+ }
+}

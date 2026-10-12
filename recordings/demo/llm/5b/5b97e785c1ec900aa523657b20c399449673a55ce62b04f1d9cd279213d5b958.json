@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"explained\": false, \"explanation\": \"None of the provided passages explain the specific reason for the massive increase in Gross Deferred Tax Liabilities from 2021 to 2022.\", \"chunk_id\": null, \"quote\": null}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TQkj4sZXNz52NoI1WLP2jyNNhzMwvYheOrN5+C9H5IaSGiKiGIi0ga1mcVXRlJF8iT+n4rpAVJ+iwv+3XuIarbBoGVXaUKYDEJE+r1tXyIWAOCrQrYobbivY="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835917,
+  "id": "DD_NatWyIO6Nvr0PjOCEYA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 57,
+   "prompt_tokens": 2354,
+   "total_tokens": 2411
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents a specific product line charge (VC-25B) for a past year, which is a sub-component and does not correspond to the company-wide operating lease liability payments due next rolling twelve months.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TSwF+c50UyEiAireZBvQLYe8vDo8bz3zDmPXJhhI1nJGZRTEGrxcdrxn+Wbhzu4Sdm7nHa3iRjjMAHfmUURm2UhEivCZ6qN8jGKigw87l3P8msJBrxWm+Jjc="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835381,
+  "id": "9DzNauX9KIH81e8P9uaaqQE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 63,
+   "prompt_tokens": 253,
+   "total_tokens": 316
+  }
+ }
+}

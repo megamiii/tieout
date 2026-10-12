@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount in the text represents the combined net working capital impact of accounts receivable, inventories, and accounts payable, whereas the XBRL line item only reports the change in accounts payable alone.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TPSWnadMcRwcQQmxTXxDlUFnc1B7wUUqCBdf2wOIVuIIZEG2iAOQDfwXP0+aHALww4gOrufhA1bqBzRVY98rP9O+0W+40/JkTq5BDLF/SOWbUADbOQB7efPg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835242,
+  "id": "aTzNaq6HH4_grfcPuJTmwA4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 55,
+   "prompt_tokens": 247,
+   "total_tokens": 302
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T0RnkjC/fyXJ123Z9B7ZH1aauPhSMynkF4TCE7S42/XAeZ5/qPkbtbte+u9zKIyurEQFQ7DMOsqIePHSinw+a9U6mXWrKL36viwjdmWYpfSF4uNvBAf4n+xU="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"query\":\"Operating income margin and earnings per share attributable to 3M common shareholders – diluted: The following table provides the increases (decreases) in operating income margins\",\"ticker\":\"MMM\"}",
+        "name": "search_filings"
+       },
+       "id": "call_473706",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791560007,
+  "id": "RwnJau3fGJrAxN8PktmhyAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 62,
+   "prompt_tokens": 3450,
+   "total_tokens": 3512
+  }
+ }
+}

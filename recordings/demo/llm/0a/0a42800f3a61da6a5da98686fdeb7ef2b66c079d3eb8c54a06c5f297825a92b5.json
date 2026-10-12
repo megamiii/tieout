@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence discusses sales in Health Care, whereas the available XBRL line item is Selling, General and Administrative Expense.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TInblHgLqoPT/U7zmahT4mmUaN0d2iDhiBNuRDGVDTpRMObqGTlw4PXvmPmbU9Vx5UPqKhlGQofZxCs0mRZMj4dtEVLj4RKWXcL1/lAq5JXE1wO1ZBog2nrk="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835183,
+  "id": "LzzNapqaAfCB0-kP6cGSuQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 231,
+   "total_tokens": 272
+  }
+ }
+}

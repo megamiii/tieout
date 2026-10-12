@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents the increase in loss before interest and taxes (EBIT loss), which does not correspond to the change in prepaid expenses and other assets.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T4M9YQUnjR1NMN2UnrwXKiR2hkuITAoeELcRiVz0vPhGsd+hNR33C9xDKZnd9eY4mslwJcXJztFQOJ/JkRiPHN5B/dLyCE1Sv+E6ciVzsI/LFIF4UtC1dscU="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835258,
+  "id": "ejzNavOQC9jerfcPhaeZ8Qo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 48,
+   "prompt_tokens": 286,
+   "total_tokens": 334
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T6Haib2ytdyq5ZOO5j9f+Q9y0Yu3sxzKDVxvkzfS/eatztrkRAorc7kerl7zCyU0RBVM6YawB+4ceFUXdr+f/GAJgV1FDGOdrk0SxBm10BjEDXmahGyUDlTU="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Consolidated Statements of Operations Revenues Costs and expenses\",\"ticker\":\"BA\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_177502",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561485,
+  "id": "DQ_JavK3FrKIxN8Pqt-PsA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 6038,
+   "prompt_tokens_details": {
+    "cached_tokens": 2019
+   },
+   "total_tokens": 6078
+  }
+ }
+}

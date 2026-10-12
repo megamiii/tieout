@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents integration costs for a specific acquisition (Tyson Foods' pet treats business), which is a component of operating expenses not reported as a separate standalone line item in the provided XBRL data.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TVeoTR0x4bp45yvENDfHDCusBWaJlF8G82AqIqOuYYEXI53DAWVfzSuyzR7OO8tB7Hx4xPIhM+NfV2GoxP7KhOuA5hep65xhluS3wDNZPdBOrzCrvxk8mbwM="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835435,
+  "id": "Kj3Nau_RB-mi9tMPz9SA4Q8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 58,
+   "prompt_tokens": 322,
+   "total_tokens": 380
+  }
+ }
+}

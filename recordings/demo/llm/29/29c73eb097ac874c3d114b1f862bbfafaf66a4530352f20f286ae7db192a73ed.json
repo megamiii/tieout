@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"explained\": true, \"explanation\": \"Management explains that the increase in net revenue was primarily driven by higher sales of EPYC server processors in the Data Center segment.\", \"chunk_id\": \"ch_82d1f732f8738788\", \"quote\": \"Data Center net revenue of $6 billion in 2022 increased by 64%, compared to net revenue of $3.7 billion in 2021. The increase was primarily driven by higher sales of our EPYC server processors.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TqzwL28BmtBcXQ3iIbXNIpCEOltAqUbfPBE/aalrRCdojjtuxg7RwpS3yJpqfTEPUG4j1bhS1ciampW5Tvjpd3S9V3+L4eWMqFrJzF4yVm9d28anEa5zkpdk="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835914,
+  "id": "CT_NasK2Ib_01e8PwbXk4QI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 123,
+   "prompt_tokens": 2413,
+   "total_tokens": 2536
+  }
+ }
+}

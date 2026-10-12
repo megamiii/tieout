@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents a specific sub-component of debt (medium-term notes program Series F) rather than the total Long-term Debt reported on the balance sheet.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T3FKNRe4h89vAg8SlrbuynF5XCAkCiJW98acbSzFTgkLoHcCIZquzqFWgQyNCQxNzYKF6Cc0mR6UAWgXlzq29MdMyvTg0vaC8YcgXL5n0NEqIM7Ej3JkDeuU="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835187,
+  "id": "MzzNap_iBqDkrfcPjKmTSQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 51,
+   "prompt_tokens": 295,
+   "total_tokens": 346
+  }
+ }
+}

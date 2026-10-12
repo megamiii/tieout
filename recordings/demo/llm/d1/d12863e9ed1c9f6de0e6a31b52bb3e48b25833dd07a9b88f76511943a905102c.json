@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence discusses interest income for fiscal year 2022, whereas the provided XBRL line item corresponds to changes in equity securities for fiscal year 2021 and does not measure interest income.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tg/3iAdZgmQ4RDzXUp2wdBUjaWu1s8loPimitXKIhxGWk7fWmKqSDHUUGPTolC0GbjfbNEk6B6D13qRZ20oVYA6IvLSkkvnYuiK4M0ZtIjt6pBYEbxxrBYWc="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835276,
+  "id": "izzNaq3qHu3q2roPpumz2QM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 60,
+   "prompt_tokens": 299,
+   "total_tokens": 359
+  }
+ }
+}

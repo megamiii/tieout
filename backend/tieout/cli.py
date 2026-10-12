@@ -11,7 +11,7 @@ from sqlalchemy import func, select
 from tieout import ingest
 from tieout.agent.factory import build_agent
 from tieout.config import REPO_ROOT, get_settings
-from tieout.db.models import ChunkRow
+from tieout.db.models import ChunkRow, WorkflowRun
 from tieout.db.session import get_sessionmaker, init_db
 from tieout.evals.metrics import compute, write_report
 from tieout.evals.retrieval_eval import run_retrieval_eval, write_reports
@@ -424,6 +424,60 @@ def ask_cmd(
         typer.echo(f"  review: {reason}")
     for warning in f.warnings:
         typer.echo(f"  warning: {warning}")
+
+
+demo_app = typer.Typer(no_args_is_help=True, help="Public demo recordings.")
+app.add_typer(demo_app, name="demo")
+
+
+@demo_app.command("build")
+def demo_build(
+    workflows: Annotated[bool, typer.Option(help="also rebuild the stored workflows")] = True,
+) -> None:
+    """Assemble recordings/demo from recorded eval runs and cached workflows (no LLM requests)."""
+    from tieout.api.demo import DemoQuestion
+    from tieout.demo_recordings import (
+        CURATED_PATH,
+        CuratedQuestion,
+        build_question,
+        rebuild_workflow,
+        write_questions,
+    )
+
+    settings = get_settings()
+    companies = ingest.load_selected()
+    demo_dir = settings.demo_path
+    sets = _load_sets("all")
+    questions = {i.id: i.question for items in sets.values() for i in items}
+    curated = [
+        CuratedQuestion.model_validate(q)
+        for q in json.loads(CURATED_PATH.read_text(encoding="utf-8"))
+    ]
+    out: list[DemoQuestion] = []
+    for c in curated:
+        question = questions[c.eval_item]
+        info = build_question(settings, companies, c, question, demo_dir)
+        typer.echo(json.dumps(info))
+        out.append(DemoQuestion(id=c.id, question=question, shows=c.shows))
+    write_questions(demo_dir, out)
+
+    if not workflows:
+        return
+    init_db()
+    embedder = get_embedder(settings.data_path / "models")
+    with get_sessionmaker()() as session:
+        stored = session.execute(
+            select(WorkflowRun.kind, WorkflowRun.ticker, WorkflowRun.fiscal_year).distinct()
+        ).all()
+    for kind, ticker, year in sorted(stored):
+        with get_sessionmaker()() as session, session.begin():
+            report, tracer, info = rebuild_workflow(
+                session, settings, embedder, kind, ticker, year, demo_dir
+            )
+            model = settings.llm_model
+            run_id = save_workflow(session, report, model)
+            save_trace(session, tracer, run_id, model)
+        typer.echo(json.dumps(info))
 
 
 @app.command("mcp")

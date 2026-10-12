@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"[AMOUNT] represents the year-over-year change in the pension FAS/CAS service cost adjustment between 2020 and 2021, which does not correspond to an XBRL balance or flow line item.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TfxMT+6H1+xnZqiVRpYWipuVhd3m8ZoW05ylFjeD3LHpCSl4Vb8A/zulKzeqldXutSZ3R2hiHUOiPFA9nkJ2RXy/tVHKOisNOJiO0wjWdR6r2bSw4bDUirDQ="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835354,
+  "id": "2jzNatO5GN_t2roPobOAqA4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 64,
+   "prompt_tokens": 410,
+   "total_tokens": 474
+  }
+ }
+}

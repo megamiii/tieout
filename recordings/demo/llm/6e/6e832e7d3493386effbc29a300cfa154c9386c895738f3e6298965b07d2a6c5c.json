@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": 2, \"reasoning\": \"The amount represents cash dividends paid on common stock for the fiscal year 2017, corresponding directly to the payments of ordinary dividends on common stock.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TZHLKQF1ml5bjm0WOtDjnUo6C7n/JbFidAOI3gkX6dErmoZG5kadlGM/kLMjPtDa+SCCRO3Zbg8Srhe0QdNVKcroRq3AfH/GHr+/tamBOdvIqCOkWPzU6JN0="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835245,
+  "id": "bTzNasIK8t6t9w_wiOhA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 50,
+   "prompt_tokens": 312,
+   "total_tokens": 362
+  }
+ }
+}

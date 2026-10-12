@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statement of Cash Flows",
+  "ticker": "MMM",
+  "fiscal_year": 2018,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_be9a964b06a211ba",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 60,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Statement of Cash Flow s Years ended December 31 (Millions) 2018 2017 2016 Cash Flows from Operating Activities Net income including noncontrolling interest $ 5,363 $ 4,869 $ 5,058 Adjustments to reconcile net income including noncontrolling interest to net cash provided by operating activities Depreciation and amortization 1,488 1,544 1,474 Company pension and postretirement contributions (370) (967) (383) Company pension and postretirement expense 410 334 250 Stock-based compensation expense 302 324 298 Gain on sale of businesses (545) (586) (111) Deferred income taxes (57) 107 7 Changes in assets and liabilities Accounts receivable (305) (245) (313) Inventories (509) (387) 57 Accounts payable 408 24 148 Accrued income taxes (current and long-term) 134 967 101 Other — net 120 256 76 Net cash provided by (used in) operating activities 6,439 6,240 6,662 Cash Flows from Investing Activities Purchases of property, plant and equip…"
+   },
+   {
+    "chunk_id": "ch_a6b70aadba9bab98",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 83,
+    "text": "Table of Contents Reclassifications out of Accumulated Other Comprehensive Income Attributable to 3M Amounts Reclassified from Details about Accumulated Other Accumulated Other Comprehensive Income Comprehensive Income Components Year ended December 31, Location on Income (Millions) 2018 2017 2016 Statement Gains (losses) associated with defined benefit pension and postretirement plans amortization Transition asset $ — $ — $ 1 See Note 13 Prior service benefit 76 89 92 See Note 13 Net actuarial loss (678) (570) (506) See Note 13 Curtailments/Settlements (4) (2) (8) See Note 13 Total before tax (606) (483) (421) Tax effect 145 116 148 Provision for income taxes Net of tax $ (461) $ (367) $ (273) Cash flow hedging instruments gains (losses) Foreign currency forward/option contracts $ (95) $ 8 $ 110 Cost of sales Interest rate swap contracts (1) (1) (1) Interest expense Total before tax (96) 7 109 Tax effect 19 (3) (39) Provision for income taxes Net of tax $ (77) $ 4 $ 70 Total reclassif…"
+   },
+   {
+    "chunk_id": "ch_881e901c81140673",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 99,
+    "text": "against the effect of exchange rate fluctuations on cash flows denominated in foreign currencies. These transactions are designated as cash flow hedges. The settlement or extension of these derivatives will result in reclassifications (from accumulated other comprehensive income) to earnings in the period during which the hedged transactions affect earnings. 3M may dedesignate these cash flow hedge relationships in advance of the occurrence of the forecasted transaction. The portion of gains or losses on the derivative instrument previously included in accumulated other comprehensive income for dedesignated hedges remains in accumulated other comprehensive income until the forecasted transaction occurs or becomes probable of not occurring. Changes in 99"
+   },
+   {
+    "chunk_id": "ch_1db1139b119703fc",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 100,
+    "text": "impact offset by earnings/losses from underlying hedged items). The location in the consolidated statements of income and comprehensive income and amounts of gains and losses related to derivative instruments designated as cash flow hedges are provided in the following table. Reclassifications of amounts from accumulated other comprehensive income into income include accumulated gains (losses) on dedesignated hedges at the time earnings are impacted by the forecasted transaction. 100"
+   },
+   {
+    "chunk_id": "ch_f40c073fd7c6104c",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 54,
+    "text": "Table of Contents Report of Independent Registered Public Accounting Firm To the Shareholders and Board of Directors of 3M Company Opinions on the Financial Statements and Internal Control over Financial Reporting We have audited the accompanying consolidated balance sheets of 3M Company and its subsidiaries (the “Company”) as of December 31, 2018 and 2017, and the related consolidated statements of income, comprehensive income, changes in equity and cash flows for each of the three years in the period ended December 31, 2018, including the related notes (collectively referred to as the “consolidated financial statements”). We also have audited the Company's internal control over financial reporting as of December 31, 2018, based on criteria established in Internal Control - Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO). In our opinion, the consolidated financial statements referred to above present fairly, in all mate…"
+   }
+  ]
+ }
+}

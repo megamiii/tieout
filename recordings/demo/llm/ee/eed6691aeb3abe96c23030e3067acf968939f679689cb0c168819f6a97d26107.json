@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"explained\": true, \"explanation\": \"Management explains that the change in short-term debt is largely driven by net commercial paper issuances and repayments, alongside borrowings by international subsidiaries.\", \"chunk_id\": \"ch_0570ca41019f098e\", \"quote\": \"Net commercial paper issuances and repayments and borrowings by international subsidiaries are largely reflected in \\u201cChange in short-term debt \\u2013 net\\u201d in the preceding table.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tyt/6mTYGh6MMX5ylGBMX93cMGLgDFP3LRGySvIw2tgYwhgAcGntVfVYuv4RVtul64XkgugmDqAZkxT8+Yjs5ULUsg7ibHDaa5C43scayp8HP62DBNoJboRI="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835892,
+  "id": "8z7NasDoNK_H0-kPhsHyyAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 117,
+   "prompt_tokens": 2645,
+   "total_tokens": 2762
+  }
+ }
+}

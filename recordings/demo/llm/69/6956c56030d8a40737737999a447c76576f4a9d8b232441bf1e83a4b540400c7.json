@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence refers to income tax refunds received, whereas the XBRL line item is 'Income Taxes Paid, Net', which measures net cash outflows for taxes rather than specific refund amounts.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TQkSTTdZd6GfLCoMMC+qkM8cy3/CwuURHdHPVCd88Txo+kUxm7d+cZPu7+QDuZ3l2UJuGEAbU89eqDDUIu/0vlEScSRd4KAcIFJxaf6B4r08Nbj5w1gSSJ2s="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835416,
+  "id": "Fz3NaojHG6ir1e8P9I_nuAI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 54,
+   "prompt_tokens": 230,
+   "total_tokens": 284
+  }
+ }
+}

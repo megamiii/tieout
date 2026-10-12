@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents a component (amortization of acquisition-related intangibles) specific to the 'All Other' operating segment, whereas the XBRL line item represents total depreciation and amortization for the whole company and does not match the specific segment scope and sub-component nature.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tv2wIPo78smsbiGiSnOXnF1IS36nBxedzBj2CXLZYXtKWTsGz0C78E9zJAblvHOa7R02CkPHZLXtl9CcIbAnJwt7vgYz9yWRF7N6hAhk3NxjrSy6HxgINn8g="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835274,
+  "id": "iTzNao6wHoim2roP_t7X-AM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 72,
+   "prompt_tokens": 316,
+   "total_tokens": 388
+  }
+ }
+}

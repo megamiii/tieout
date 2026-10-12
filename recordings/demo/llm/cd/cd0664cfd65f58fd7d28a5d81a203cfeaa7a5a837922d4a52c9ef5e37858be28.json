@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\n  \"explained\": true,\n  \"explanation\": \"Management explains that the purchases and proceeds from marketable securities and investments are primarily attributable to asset-backed securities, certificates of deposit/time deposits, commercial paper, and other securities classified as available-for-sale.\",\n  \"chunk_id\": \"ch_90c6dbee02204c54\",\n  \"quote\": \"Purchases of marketable securities and investments and proceeds from maturities and sale of marketable securities and investments are primarily attributable to asset-backed securities, certificates of deposit/time deposits, commercial paper, and other securities, which are classified as available-for-sale.\"\n}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T+CrK6lAIaPCeWf0Xp9wc62ozTGZLbm1ETlju7t2t55DSySGld5DNvsKKVH6Iy7jzqaJYqFA4jrdkg+e2rb3eX+r8BZN9jpbcA3YRO/qE/Gfwse2zNA9Aho0="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835890,
+  "id": "8D7NapbmJumi9tMPz9SA4Q8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 145,
+   "prompt_tokens": 2784,
+   "total_tokens": 2929
+  }
+ }
+}

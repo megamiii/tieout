@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"line_item\": null, \"reasoning\": \"The amount [AMOUNT] refers to the value of Capital Safety's tradenames specifically at the acquisition date in the past, whereas the XBRL line item reports the indefinite-lived trade names as of the balance sheet date (2018-12-31).\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tbb8b/At+3TIt42fTHrZjus0pxhxorTrmP1NfoBWPJqW07ejg9KyfmY6WGJRxcmUQbPn8kDIH2tgItSNu9gbQGNe6os43qr3AbtFdBYuLadN56GzV6siJ4zU="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835184,
+  "id": "MDzNasT9Ad_mrfcP-7DgUQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 69,
+   "prompt_tokens": 256,
+   "total_tokens": 325
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tzz3m+Hkw8PiqgiVT+fNPH+fGUV8Jp84viP+q+NNEaCmLPAgv3uYGQWhOgjaIx39dD4w7+EIjGowjr2fXpCIO6P0RmkLFzHRYO4yyoF/2sWDNhiYjjDrgG60="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The answer cites Boeing's explicit statements regarding production rate changes and plans for FY2023 across its major commercial aircraft programs (787, 777X, 737, and 747) as reported in the FY2022 Form 10-K.\",\"citations\":[{\"quote\":\"expect to gradually increase to 5 per month in 2023. Production of the 777X is currently paused and is expected to resume in 2023. The 737 program has experienced operational and supply chain challenges stabilizing production at 31 per month. We plan to gradually increase 737 production rates based on market demand and supply chain capacity.\",\"source_id\":\"ch_dacec146e187d286\"},{\"quote\":\"We completed production of the 747 in the fourth quarter of 2022 and delivery of the last aircraft is expected to occur in early 2023.\",\"source_id\":\"ch_905a96bd7d7c6098\"}],\"needs_review\":false,\"answer\":\"For FY2023, Boeing forecasts the following commercial aircraft production rate changes:\\n- **787 Program:** Expected to gradually increase to 5 per month in 2023.\\n- **777X Program:** Production, which was paused, is expected to resume in 2023.\\n- **737 Program:** Following stabilization at 31 per month, Boeing plans to gradually increase rates based on market demand and supply chain capacity.\\n- **747 Program:** Production was completed in Q4 2022, with the final delivery expected in early 2023.\",\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_958790",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791494790,
+  "id": "hQrIauPaAfjRxN8P3-GpwAU",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 405,
+   "prompt_tokens": 7144,
+   "prompt_tokens_details": {
+    "cached_tokens": 4037
+   },
+   "total_tokens": 7549
+  }
+ }
+}

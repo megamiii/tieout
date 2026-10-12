@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents expected cash contributions to pension and postretirement plans in 2019, which is a future cash flow expectation and does not correspond to the reported stock of plan assets or intangible amortization expense.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TL/fw/4KHH7qmDdc/e/ILutWmU8ReSDFmGQPKaUzs66OZtZgA8+AqpQA2RziMc5LMbSbErAc339PK7rS2nfL1+ACL5LFhWOW1fSvwvZo5FZqIe20HhRVvlQ4="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835182,
+  "id": "LjzNavyKDbParfcP0vK6yA8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 60,
+   "prompt_tokens": 307,
+   "total_tokens": 367
+  }
+ }
+}

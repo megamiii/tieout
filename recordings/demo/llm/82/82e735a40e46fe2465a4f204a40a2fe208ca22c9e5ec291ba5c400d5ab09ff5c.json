@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents the total balance of cash, cash equivalents and marketable securities at a specific date, whereas the provided XBRL line item is for common stock cash dividends paid over a period.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TFM3unDOiKw7ZZX1VaBk5p84eW0/VhsJSXXm8Nbbx6fluzU7hsuOheai6rf74NRXuENz0Q+Ha9PvrFG8SzZ4wKhis/pru0fQ59N/xRrLQDqi+TmtmjlWhz6M="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835190,
+  "id": "NjzNapXaGcrjrfcPnpb_8Ao",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 55,
+   "prompt_tokens": 275,
+   "total_tokens": 330
+  }
+ }
+}

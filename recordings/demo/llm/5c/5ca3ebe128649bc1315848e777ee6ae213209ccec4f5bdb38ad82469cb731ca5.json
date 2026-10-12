@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": 1, \"reasoning\": \"The sentence describes the inventory increase from December 31, 2017, which directly corresponds to the annual Increase (Decrease) in Inventories XBRL line item for the fiscal year 2017.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T2JevabGosNzI+wZB71X6sjXR+6rm99cFlFFtYnYWNCpFplVh+U312JVc1OCR6hBGCtGpyxU2UvPYFxD8ANZKvRof2yOSVAiVGAVTIeCW8sh1pEODD1VyfWI="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835189,
+  "id": "NDzNat2WOLflrfcP09urUA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 64,
+   "prompt_tokens": 231,
+   "total_tokens": 295
+  }
+ }
+}

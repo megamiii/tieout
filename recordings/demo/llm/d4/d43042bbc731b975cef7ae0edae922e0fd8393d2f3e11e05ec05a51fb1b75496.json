@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence discusses income tax refunds received, whereas the provided XBRL line item reports net income taxes paid.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T3a2BMMTWGbUM967n3DNFFtEnfzozKpIDvmgwqCCDotzEYFTTY1xM3RfWsGoQeSXQ0zF58LDsrOrbMiFkO0N5E9iPTRFCWQWP9lHDjLn6FFt2Qlww2lnz0Qo="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835413,
+  "id": "FT3Naon1B76j9tMP4rHg6Qk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 219,
+   "total_tokens": 258
+  }
+ }
+}

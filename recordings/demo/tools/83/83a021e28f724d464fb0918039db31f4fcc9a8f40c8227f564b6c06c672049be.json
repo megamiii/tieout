@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "purchases of property, plant and equipment",
+  "ticker": "MMM",
+  "fiscal_year": 2018,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5de3f8443ab59f3a",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 62,
+    "text": "investments that do not have readily determinable fair values and measures these investments at cost less impairment plus or minus observable price changes in orderly transactions. The balance of these securities is disclosed in Note 7. Other assets: Other assets include deferred income taxes, product and other insurance receivables, the cash surrender value of life insurance policies, and other long-term assets. Investments in life insurance are reported at the amount that could be realized under contract at the balance sheet date, with any changes in cash surrender value or contract value during the period accounted for as an adjustment of premiums paid. Cash outflows and inflows associated with life insurance activity are included in “Purchases of marketable securities and investments” and “Proceeds from maturities and sale of marketable securities and investments,” respectively. Inventories: Inventories are stated at the lower of cost or net realizable value (NRV), which is defined…"
+   },
+   {
+    "chunk_id": "ch_d04f0e5380d80b5c",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 74,
+    "text": "related and contingent liabilities, and resolution of certain acquired working capital and other purchase price adjustments with the seller. The change to provisional amounts did not result in material impacts to results of operations in 2018 or any portion related to earlier quarters in the measurement period. The allocation of purchase consideration related to Scott Safety was completed in the third quarter of 2018. Pro forma information related to acquisitions has not been included because the impact on the Company's consolidated results of operations was not considered material. The following table shows the impact on the consolidated balance sheet of the purchase price allocations related to 2017 acquisitions and assigned finite-lived intangible asset weighted-average lives. 2017 Acquisition Activity Finite-Lived Intangible-Asset (Millions) Scott Weighted-Average Asset (Liability) Safety Other Total Lives (Years) Accounts receivable $ 100 $ — $ 100 Inventory 79 — 79 Other current …"
+   },
+   {
+    "chunk_id": "ch_1d1412f5457201d0",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 127,
+    "text": "Table of Contents NOTE 19. Geographic Areas Geographic area information is used by the Company as a secondary performance measure to manage its businesses. Export sales and certain income and expense items are generally reported within the geographic area where the final sales to 3M customers are made. Property, Plant and Net Sales Equipment - net (Millions) 2018 2017 2016 2018 2017 United States $ 12,840 $ 12,372 $ 12,188 $ 4,915 $ 4,891 Asia Pacific 10,254 9,809 8,847 1,624 1,672 Europe, Middle East and Africa 6,654 6,456 6,163 1,751 1,798 Latin America and Canada 3,024 3,033 2,901 448 505 Other Unallocated (7) (13) 10 — — Total Company $ 32,765 $ 31,657 $ 30,109 $ 8,738 $ 8,866 Asia Pacific included China/Hong Kong net sales to customers of $3.574 billion, $3.255 billion and $2.799 billion in 2018, 2017, and 2016, respectively. China/Hong Kong net property, plant and equipment (PP&E) was $542 million and $541 million at December 31, 2018 and 2017, respectively. NOTE 20. Quarterly Da…"
+   },
+   {
+    "chunk_id": "ch_559f65ef7718abfd",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 81,
+    "text": "Table of Contents NOTE 7. Supplemental Balance Sheet Information Accounts payable (included as a separate line item in the Consolidated Balance Sheet) includes drafts payable on demand of $104 million at December 31, 2018, and $74 million at December 31, 2017. Accumulated depreciation for capital leases totaled $54 million and $48 million as of December 31, 2018, and 2017, respectively. Additional supplemental balance sheet information is provided in the table that follows. (Millions) 2018 2017 Other current assets Derivative assets-current $ 88 $ 37 Insurance related (receivables, prepaid expenses and other) 103 71 Other 158 158 Total other current assets $ 349 $ 266 Property, plant and equipment - at cost Land $ 340 $ 348 Buildings and leasehold improvements 7,517 7,681 Machinery and equipment 15,680 15,907 Construction in progress 1,193 843 Capital leases 143 135 Gross property, plant and equipment 24,873 24,914 Accumulated depreciation (16,135) (16,048) Property, plant and equipmen…"
+   },
+   {
+    "chunk_id": "ch_927e4b89aa55cb07",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 62,
+    "text": "depreciated assets other than capitalized internally developed software are retained in property, plant and equipment and accumulated depreciation accounts until disposal. Upon disposal, assets and related accumulated depreciation are removed from the accounts and the net amount, less proceeds from disposal, is charged or credited to operations. Property, plant and equipment amounts are reviewed for impairment whenever events or changes in circumstances indicate that the carrying amount of an asset (asset group) may not be recoverable. An impairment loss would be recognized when the carrying amount of an asset exceeds the estimated undiscounted future cash flows expected to result from the use of the asset and its eventual disposition. The amount of the impairment loss recorded is calculated by the excess of the asset's carrying value over its fair value. Fair value is generally determined using a discounted cash flow analysis. Conditional asset retirement obligations: A liability is i…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"explained\": true, \"explanation\": \"Management explains that goodwill is recorded as the excess of the aggregate consideration transferred over the identifiable assets acquired and liabilities assumed in connection with business combinations, and mentions acquisitions such as Xilinx and Pensando, but does not explicitly detail the specific arithmetic composition or breakdown of the $24.177 billion goodwill balance resulting from these acquisitions.\", \"chunk_id\": \"ch_2f2a3901eadffc88\", \"quote\": \"Goodwill is the excess of the aggregate of the consideration transferred over the identifiable assets acquired and liabilities assumed in connection with business combinations.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T9Zh9aemxGRGqL+qNeHk68tX+aOgGtJeOe0DucIWV33JTcPG/PaUbs7CE0zhsHaQp/nvzCsjS2RGLX14jJn7F5oE4FGGTWvYlKxhEH7Wzk7LC2X7QOgwrrNw="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835913,
+  "id": "CD_NaqrWD9761e8PvOa20QM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 135,
+   "prompt_tokens": 2498,
+   "total_tokens": 2633
+  }
+ }
+}

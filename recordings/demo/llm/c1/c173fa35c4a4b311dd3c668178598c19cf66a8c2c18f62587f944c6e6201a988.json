@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents a specific tax benefit component related to foreign-derived intangible income, which is not reported as a distinct XBRL line item among the choices provided.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TZO+NdiKjuxNXKkIrHCCMdampODgNnKhX3izg08N8TJqUgpt4jGRRmRUymYgb7qqE8eF0W7DZSFFhBZXWecqw2Qc16IyjifPHflY1PrRN08LubUCSmIioDWY="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835275,
+  "id": "ijzNaorQGPaN0-kP3-6joQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 50,
+   "prompt_tokens": 249,
+   "total_tokens": 299
+  }
+ }
+}

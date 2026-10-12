@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The text discusses a net decrease in cost of sales related to commodity positions and grain inventories, which does not correspond to the Net Periodic Defined Benefits Expense line item.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TeaNDmgVZhR6Aw9bez6KYKmzRgWrnCsEk2GDkiEV/LDZoAjaqgzMheyy8xMGCw9HF3DcE2cVN26CN28RnOrMgLtMwZghWVv1ZWwQYgczpbiey6HEFkkda1h0="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835432,
+  "id": "Jz3NapW3LL_01e8Pr8fAsQI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 50,
+   "prompt_tokens": 295,
+   "total_tokens": 345
+  }
+ }
+}

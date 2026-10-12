@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents a segment operating profit, whereas the available XBRL line item corresponds to a change in operating capital, meaning they do not measure the same financial metric.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TatFM53sfCKNFOe4zkpQHdD6azqX3Uvj90heNM7ga/3gemqAbuet3N14oFcwyN1DxRE4SFOxDe7VUOPQRwHoHSQ5eCOgBss3YgWKSWkxF1MjZS+nqhnXDPLw="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835436,
+  "id": "LD3NaoDDE7-_1e8PuK2_oQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 51,
+   "prompt_tokens": 263,
+   "total_tokens": 314
+  }
+ }
+}

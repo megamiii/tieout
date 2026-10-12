@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents the maximum borrowing capacity under a commercial paper program limit, which is a potential future financing authorization rather than an actual balance sheet liability reported in the financial statements.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TenDE7qAtf7ewuJjuFNv9RIBf2PCA46BPaFbi7v2wecb9P4E3CTiLymrEEh7pJwHv502LQCACk26q4trWu/TBZheAGldX30u3EylwSxoPBUvQ7pB0iTgVLmk="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835272,
+  "id": "hzzNatjuN43N2roP8c_AiAQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 52,
+   "prompt_tokens": 251,
+   "total_tokens": 303
+  }
+ }
+}

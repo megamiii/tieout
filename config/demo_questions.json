@@ -1,0 +1,38 @@
+[
+ {
+  "id": "3m-capex-2018",
+  "eval_item": "financebench_id_03029",
+  "source": "recordings/evals/agent_full",
+  "shows": "XBRL lookup cross-checked against the cash flow statement; matches FinanceBench's answer ($1,577M)."
+ },
+ {
+  "id": "boeing-net-income-growth",
+  "eval_item": "xbrl-BA-2022-NetIncomeLoss-growth",
+  "source": "recordings/evals/agent_full",
+  "shows": "Two XBRL values and the calculator: the percentage is computed, never generated."
+ },
+ {
+  "id": "corning-working-capital",
+  "eval_item": "financebench_id_00005",
+  "source": "recordings/evals/agent_full",
+  "shows": "A judgment question answered from balance-sheet line items and a calculation."
+ },
+ {
+  "id": "3m-operating-margin-drivers",
+  "eval_item": "financebench_id_01226",
+  "source": "recordings/evals/agent_full",
+  "shows": "Reads MD&A to explain a change, with quotes highlighted in the cited pages."
+ },
+ {
+  "id": "boeing-production-rates",
+  "eval_item": "financebench_id_00494",
+  "source": "recordings/evals/agent_full",
+  "shows": "Pure text retrieval: forward-looking statements found by hybrid search."
+ },
+ {
+  "id": "amd-quick-ratio-review",
+  "eval_item": "financebench_id_00222",
+  "source": "recordings/evals/agent_full",
+  "shows": "Routed to human review: the validator rejected a sum the model did in its head."
+ }
+]

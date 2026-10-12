@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"explained\": false, \"explanation\": \"None of the provided passages explain the specific material increase in Deferred Tax Liabilities, Intangible Assets.\", \"chunk_id\": null, \"quote\": null}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TiEkqyvMINFDXKAwQbW5NkKOWmgkaRxaODHM3kyKzsC8wXlXjwwAQw22ziSJqw8LIj1MxWt1g3PCwpeoQ3Y1r7O8oD5esJrLHAbFVdSB1rYk3vDMQrIL4vUk="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835919,
+  "id": "Dj_Nav_aJavb9tMPtrzDIQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 2402,
+   "total_tokens": 2448
+  }
+ }
+}

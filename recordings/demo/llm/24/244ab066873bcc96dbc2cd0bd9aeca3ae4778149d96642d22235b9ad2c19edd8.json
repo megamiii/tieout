@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence discusses a licensing gain from milestone achievement and royalty income, whereas the provided XBRL line item relates to product warranty accrual increases, which are completely unrelated measures.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TZbD5YI9VqTY4msvSDLy0Zg9f8DExUYgOUkCj3huZC/PhNbPU7DngzKaEtDAbxw1UOIduoUtA0/h76zCkZbwE8X39qIWJwoI2bZHv+WvnYmpidTf3yJsFrsg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835276,
+  "id": "jDzNaveHE7jo2roP3Jy5wAw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 52,
+   "prompt_tokens": 269,
+   "total_tokens": 321
+  }
+ }
+}

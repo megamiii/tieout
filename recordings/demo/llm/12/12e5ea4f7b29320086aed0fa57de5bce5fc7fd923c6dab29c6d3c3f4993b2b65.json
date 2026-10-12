@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence discusses the change in Accounts Receivable, whereas the XBRL item is the year-end balance of the Allowance for Credit Loss, so neither the measure nor the values match.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TuhiXYyW+qMC3qApNji+1QqxzOB4v6OdPia02Dk5txZBPFGZBzfFYsS6So/zC1ECdGHbpvdSOIo3Ilv49mPdrhrrYM4ykzj6/4IstNJdfTfQ4ejGRyAYwcEM="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835188,
+  "id": "NDzNatWjAbLYrfcPurHQ4A8",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 54,
+   "prompt_tokens": 223,
+   "total_tokens": 277
+  }
+ }
+}

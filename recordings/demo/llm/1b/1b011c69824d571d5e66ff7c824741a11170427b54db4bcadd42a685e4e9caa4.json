@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents the net change in cash provided by operating activities (operating cash flow), which is a composite result of the listed drivers rather than the specific 'Increase (Decrease) in Operating Capital' line item.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T+L8di77Fvnput/ute+bsEHtGxUivQs0IaeFdkDC3bnFIiku23aZlhkhfKnkxz935Y34mcGHgqI1RHD50RfWcDd301GnLYcuD2OIVW34g3YTWcBWJFoscSnw="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835437,
+  "id": "LT3NaqDgBqKM1e8PwJm_cA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 60,
+   "prompt_tokens": 262,
+   "total_tokens": 322
+  }
+ }
+}

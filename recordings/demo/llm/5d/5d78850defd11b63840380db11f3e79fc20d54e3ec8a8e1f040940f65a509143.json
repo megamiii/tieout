@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"[AMOUNT] represents the change in total revenues between 2022 and 2021, which is a calculated difference and not a point-in-time balance sheet line item like Deferred Tax Liabilities, Inventory.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T2mwmlFD91HGvf/CkKKK90c7+iWHnFEQlR8xGmSVxm6VN8LXqcXEzt3G8kmk7FV1P5EGRRje9/JUGVw4dpaDWt7Ea2dL3GfKMsbgQGlR7QWkldb753FNKl5I="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835351,
+  "id": "1zzNat_LB9vU2roP59y8uQw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 63,
+   "prompt_tokens": 314,
+   "total_tokens": 377
+  }
+ }
+}

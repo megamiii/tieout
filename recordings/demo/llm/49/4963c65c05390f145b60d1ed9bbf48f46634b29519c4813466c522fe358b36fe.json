@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence refers specifically to the impact of income tax payments (net of refunds) on operating cash flows, which does not correspond to the broad category of other operating assets and liabilities.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TsdWBN0HiAi87hiw1HldTU6yXl5eBmVFWKeyxEFc9Sci84NICaN0JF2Q0fX5tOGf/AN2zMFVX8mQYZBfkonwcxMxa75PXlMc9kBkfY70T8emt7eUnH86W+30="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835242,
+  "id": "ajzNasqtGuyv2roPppDgmAg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 54,
+   "prompt_tokens": 240,
+   "total_tokens": 294
+  }
+ }
+}

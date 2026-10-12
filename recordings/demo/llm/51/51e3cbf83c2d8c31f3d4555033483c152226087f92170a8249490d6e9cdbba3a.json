@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents a specific charge on a product line (KC-46A Tanker) for the year 2021, which does not correspond to the company-wide capital expenditures measure or the 2022 period of the provided XBRL line item.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TtOMpjWpMr2+fvYrVPmUVhEth0lR1vzXFPSNPegIOZ7Y8xcmXEIqCjX2y5V2JYAbi8lTNHmyqcC776lYlVYe4843+VisnuuJoM31UXZUFMoBfgwNy+u7E3mE="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835380,
+  "id": "8zzNarapKprEvr0Pn-rbyAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 74,
+   "prompt_tokens": 256,
+   "total_tokens": 330
+  }
+ }
+}

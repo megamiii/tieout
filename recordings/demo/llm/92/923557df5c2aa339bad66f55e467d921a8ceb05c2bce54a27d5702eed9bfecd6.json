@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"explained\": false, \"explanation\": \"None of the provided passages explain the change in the Cost of Goods and Services Sold line item.\", \"chunk_id\": null, \"quote\": null}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T+TdD4qIyX7lqwMqiAjE0pv9VREX8/nxSVmWnw+sNXzGxjIGh/rjNtiLaojeyQ8QKkpdex7nl/CldzoNvEkvd6lhzXJy0r5b+B/5KrBnSr62qTs4mpx4dJwc="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835916,
+  "id": "Cz_NarOiJ-6Nvr0PjOCEYA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 2466,
+   "total_tokens": 2511
+  }
+ }
+}

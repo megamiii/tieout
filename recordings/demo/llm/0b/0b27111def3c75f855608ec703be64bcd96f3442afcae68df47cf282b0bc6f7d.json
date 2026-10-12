@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"explained\": false, \"explanation\": \"None of the provided passages explain the specific decrease in payments to acquire available-for-sale debt securities.\", \"chunk_id\": null, \"quote\": null}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T1CNWpR5xmyDaWb/KPZ7Y8mVoLhvIM58TIh8lvwyydKFpWzpvwcgc9gscEt/o8QU0hUzadsfk7vIJIPE60ob4bvGyxXl0CHo7o7w2qQULZ85V/2ZjdqZZp6Q="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835896,
+  "id": "-D7Nap6TG_bT1e8Ph-v8yAI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 2231,
+   "total_tokens": 2278
+  }
+ }
+}

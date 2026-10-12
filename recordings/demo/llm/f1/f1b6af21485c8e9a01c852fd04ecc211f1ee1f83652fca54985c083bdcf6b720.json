@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents non-operating pension income included in Other income, net for the year 2021, which is a component of income statement items, whereas the listed XBRL item is a balance sheet liability for pension and postretirement benefits.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tn82OzM3NKt+pbN2xREZpjbwZSdOga1CeapcSOYaisQ5UDEVo+34eZmWvjmMWpbsZLTtqBVfzORmiQxrePQ+DuZiXRweOpYYpwysV1mzaMI/VI0cez3hDXLg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835355,
+  "id": "2zzNapq5EqXq2roPh_m7yQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 68,
+   "prompt_tokens": 478,
+   "total_tokens": 546
+  }
+ }
+}

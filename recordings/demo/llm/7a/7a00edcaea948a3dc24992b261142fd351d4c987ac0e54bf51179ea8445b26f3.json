@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"explained\": true, \"explanation\": \"Management explains that the change in cash provided or used by investing activities was primarily driven by the net change in short-term investments.\", \"chunk_id\": \"ch_96c82839a25a7d16\", \"quote\": \"Cash provided (used) by investing activities was an inflow of $564 million for fiscal 2023, compared to an outflow of $1,524 million for fiscal 2022, primarily driven by the net change in short-term investments.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TiLAi/Sz2+rLEq32tIqD+VY/THKC6dcjWFqR276F9ozd+qQts6qrRIDSt6zvKr7HeQzuclIhfgRp72UwNxuttLeEGM4+coj+nVFEIyFDtozkep7+hHIthuRI="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835901,
+  "id": "_D7NavmfM5O11e8PrIOdaQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 127,
+   "prompt_tokens": 2413,
+   "total_tokens": 2540
+  }
+ }
+}

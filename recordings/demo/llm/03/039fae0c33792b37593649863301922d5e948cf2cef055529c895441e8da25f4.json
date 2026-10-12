@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence discusses the impact of foreign currency on accounts receivable, whereas the provided XBRL line item relates to goodwill foreign currency translation gain or loss.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TV8RkZBw5quxpxehidhGbtAUVo2S+qNuUKRXe4Gn4CeQQmnLi0Qc4c7fK8MUUJqwq6jNzpO0GWWwxOIxeAzV6wU4kWAw7A3Q58Kf+RziRQOKcjBIX1QH8vKM="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835190,
+  "id": "NTzNaralLKXZ2roPvd3CsQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 244,
+   "total_tokens": 291
+  }
+ }
+}

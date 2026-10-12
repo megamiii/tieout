@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": 1, \"reasoning\": \"The sentence discusses the company's loss from operations for fiscal year 2022, which corresponds directly to the annual Operating Income (Loss) XBRL line item for the same period.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TUr0CiLSKDsvpU92UUpiAUFngHAC6+b1Ouloi+ZT8GRy2cy7d08+GckBZteYBuS9Z9uVAXh0QV4DRFbdzqMbfOHSPC2TK/+GFqUJ9pNkI34iljCKSQAlHwdk="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835353,
+  "id": "2DzNavbIK5m42roPqaKXmAM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 58,
+   "prompt_tokens": 236,
+   "total_tokens": 294
+  }
+ }
+}

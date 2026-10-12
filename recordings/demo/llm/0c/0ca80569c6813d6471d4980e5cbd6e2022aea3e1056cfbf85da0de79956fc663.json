@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents a specific sub-component (non-operating pension expense) included within the broader line item 'Other income, net', and is not the full XBRL line item 'Other Nonoperating Income (Expense)'.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TRTROiceaqLMK0Mbx2JoGMB+fN1ydSpZES5H9/mJYJBK01l5isAXr4AlpmQPMoOhpn0xadayE/z7vXIokyzMDzOWOVMLn2D/3102+JRxn+zFsgIxLJuk2A5o="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835416,
+  "id": "GD3NaqKqG_G-1e8Pq_SSyQw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 63,
+   "prompt_tokens": 253,
+   "total_tokens": 316
+  }
+ }
+}

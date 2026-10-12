@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount refers to a specific portion of abnormal production costs related to the 737 program, which is a sub-component/segment cost and does not correspond to the whole company's Research and Development Expense.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Txr3BCLvMS9fKKhGoj97JfUzClETl/HzrHW9RYiDb26X4FtV+iTwVlCSa+6q1IWX7sqw6dLf353JCoK+rxJaf/tFl2z9hVDW4uVRYK3yaAhRCSsavcrlmPk0="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835358,
+  "id": "3TzNaui4Np-z2roPoJDhyQo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 62,
+   "prompt_tokens": 301,
+   "total_tokens": 363
+  }
+ }
+}

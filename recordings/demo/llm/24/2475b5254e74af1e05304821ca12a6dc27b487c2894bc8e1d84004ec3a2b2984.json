@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"explained\": false, \"explanation\": \"Management does not explain the overall change in total assets (+444.2%) in the provided passages.\", \"chunk_id\": null, \"quote\": null}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tk7yO93HKwYiDl/HvRi4ussS6U9VQ3w3QV7HiVBoxsmF01l7Euep0BgSH2chf/uvH7LfmWFmTqSubYAh5cJq5lIdAO3OOx0kojBQeM2+r8rP+cG4bTejz0Eg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835911,
+  "id": "Bz_NarPmCInd1e8Pi9rJwQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 48,
+   "prompt_tokens": 2429,
+   "total_tokens": 2477
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence discusses the change in earnings from operations (operating income) for 2022 compared to 2021, whereas the listed XBRL line item is the increase or decrease in accounts receivable for fiscal year 2021.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TXrl6jkiNy91vvs2cROpcpFRqslQB3MlGnacuhWZiNgjpUhdchXg4JmZEPMMEmBIY7TUMZiBbl20l7vqr2T/5g44EYpLGdZZBsrpQ+l0L1u+BbjMl77WOSds="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835382,
+  "id": "9jzNasn5D6ir1e8P9I_nuAI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 69,
+   "prompt_tokens": 250,
+   "total_tokens": 319
+  }
+ }
+}

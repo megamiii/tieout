@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Operations Revenues Costs and expenses",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_cc19595608c4e1aa",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Operations (Dollars in millions, except per share data) Years ended December 31, 2022 2021 2020 Sales of products $55,893 $51,386 $47,142 Sales of services 10,715 10,900 11,016 Total revenues 66,608 62,286 58,158 Cost of products (53,969) (49,954) (54,568) Cost of services (9,109) (9,283) (9,232) Boeing Capital interest expense (28) (32) (43) Total costs and expenses (63,106) (59,269) (63,843) 3,502 3,017 (5,685) (Loss)/income from operating investments, net (16) 210 9 General and administrative expense (4,187) (4,157) (4,817) Research and development expense, net (2,852) (2,249) (2,476) Gain on dispositions, net 6 277 202 Loss from operations (3,547) (2,902) (12,767) Other income, net 1,058 551 447 Interest and debt expense (2,533) (2,682) (2,156) Loss before income taxes (5,022) (5,033) (14,476) Income tax (expense)/benefit (31) 743 2,535 Net loss (5,053) (4,290) (11,941) Less: net loss attributable to n…"
+   },
+   {
+    "chunk_id": "ch_cbcee2216d47b49c",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 63,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Notes to the Consolidated Financial Statements Years ended December 31, 2022, 2021 and 2020 (Dollars in millions, except otherwise stated) Note 1 – Summary of Significant Accounting Policies Principles of Consolidation and Basis of Presentation The Consolidated Financial Statements included in this report have been prepared by management of The Boeing Company (herein referred to as “Boeing,” the “Company,” “we,” “us” or “our”). These statements include the accounts of all majority-owned subsidiaries and variable interest entities that are required to be consolidated. All significant intercompany accounts and transactions have been eliminated. As described in Note 22, we operate in four reportable segments: Commercial Airplanes (BCA), Defense, Space & Security (BDS), Global Services (BGS) and Boeing Capital (BCC). Use of Estimates The preparation of financial statements in conformity with U.S. generally accepted accounting principles…"
+   },
+   {
+    "chunk_id": "ch_d9dc572ae456eecb",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 69,
+    "text": "Table of Contents the estimate to complete exceed total estimated contract revenues, a loss provision is recorded. The determination of net realizable value of commercial aircraft program costs is based upon quarterly program reviews that estimate revenue and cost to be incurred to complete the program accounting quantity. When estimated costs to complete exceed estimated program revenues to go, a program loss provision is recorded in the current period for the estimated loss on all undelivered units in the accounting quantity. Used aircraft purchased by the Commercial Airplanes segment and general stock materials are stated at cost not in excess of net realizable value. Spare parts inventory is stated at lower of average unit cost or net realizable value. We review our commercial spare parts and general stock materials quarterly to identify impaired inventory, including excess or obsolete inventory, based on historical sales trends, expected production usage, and the size and age of t…"
+   },
+   {
+    "chunk_id": "ch_5d78669497b1d576",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 24,
+    "text": "Table of Contents Consolidated Results of Operations The following table summarizes key indicators of consolidated results of operations: (Dollars in millions, except per share data) Years ended December 31, 2022 2021 2020 Revenues $66,608 $62,286 $58,158 GAAP Loss from operations ($3,547) ($2,902) ($12,767) Operating margins (5.3) % (4.7) % (22.0) % Effective income tax rate (0.6) % 14.8 % 17.5 % Net loss attributable to Boeing Shareholders ($4,935) ($4,202) ($11,873) Diluted loss per share ($8.30) ($7.15) ($20.88) Non-GAAP Core operating loss ($4,690) ($4,075) ($14,150) Core operating margins (7.0 %) (6.5 %) (24.3 %) Core loss per share ($11.06) ($9.44) ($23.25) These measures exclude certain components of pension and other postretirement benefit expense. See pages 45 - 47 for important information about these non-GAAP measures and reconciliations to the most directly comparable GAAP measures. Revenues The following table summarizes Revenues: (Dollars in millions) Years ended Decembe…"
+   },
+   {
+    "chunk_id": "ch_94597416505a4206",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 41,
+    "text": "2020, 20.5% and 29.4% of the western-built commercial jet aircraft were parked. Aircraft valuations could decline if significant numbers of additional aircraft, particularly types with relatively few operators, are placed out of service. See Overview to Management's Discussion and Analysis of Financial Condition and Results of Operations for a discussion of the airline industry environment. Results of Operations (Dollars in millions) Years ended December 31, 2022 2021 2020 Revenues $199 $272 $261 Earnings from operations $29 $106 $63 Operating margins 15 % 39 % 24 % Revenues BCC segment revenues consist principally of lease income from equipment under operating lease, interest income from financing receivables and notes, and other income. BCC's revenues in 2022 decreased by $73 million compared with 2021 primarily due to lower gains on re-lease of assets. Earnings From Operations BCC's earnings from operations is presented net of interest expense, provision for (recovery of) losses, as…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents a segment operating profit for a specific segment, whereas the available XBRL line item is for consolidated Operating Income (Loss) of the whole company.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T5fLiD3s/bKbe1f4xfV5KcGr/WNX3uvS+0Zj3570EUibkpKDKcZ4dvIiUi78I+bm7QJeqFtTB2aKHUzJy3fMgNJ6p1VhMHtj6xfmQZQOz6NSsoZ24HzXem0I="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835433,
+  "id": "KT3NasHEGtux1e8P5e2h2QQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 50,
+   "prompt_tokens": 268,
+   "total_tokens": 318
+  }
+ }
+}

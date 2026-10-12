@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": 1, \"reasoning\": \"The amount represents Net Cash Provided by Operating Activities for the prior fiscal year (2021), which directly corresponds to the annual operating cash flow line item in the XBRL data for the comparative period.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TPFX9cs0AVG9rvozGRMlT5YjvYRbfxXNws32pAXVfUXrMMahM9anoOmvZLOQOgD+uky0JJ2YdV5yFNluiMIXw2DIhVuk+GdHNo0bOAlg9icuTYh0LF/dMeE4="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835439,
+  "id": "Lj3Napz1MNn91e8PmoaQoAE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 60,
+   "prompt_tokens": 526,
+   "total_tokens": 586
+  }
+ }
+}

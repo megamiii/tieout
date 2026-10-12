@@ -38,6 +38,8 @@ class RecordedTool(Tool):
     def run(self, args: Any) -> Any:
         arguments = args.model_dump(mode="json")
         h = tool_call_hash(self.name, arguments)
+        # Like an LLM span's request_hash: names the recording file this call uses.
+        annotate(recording_hash=h)
         path = self.cache_dir / h[:2] / f"{h}.json"
         if path.exists():
             annotate(cached=True)

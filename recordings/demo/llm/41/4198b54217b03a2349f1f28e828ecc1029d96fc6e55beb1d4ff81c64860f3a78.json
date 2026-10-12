@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"explained\": false, \"explanation\": \"None of the provided passages explain the specific decrease in goodwill acquired during the period for fiscal year 2018.\", \"chunk_id\": null, \"quote\": null}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Th0Lu9wCpxsks0uSUxmYaNcASJqiW7mPZZr0MhSzyROmwV5HMyt2jutxTpVjK9UHGQ0erwiOKT7MAmyONannHSU539bjhFW8I7uLpwcntASRvWEu7M5J4zoM="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835887,
+  "id": "7z7Nap6TGPbLrfcP2brDyAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 50,
+   "prompt_tokens": 2624,
+   "total_tokens": 2674
+  }
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GLW",
+  "query": "current liabilities",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "GLW",
+  "concepts": [
+   {
+    "concept": "LiabilitiesCurrent",
+    "label": "Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "5175000000",
+      "fact_id": "xf_7f82896570164f48",
+      "reported_in_10k_filed": "2023-02-13"
+     }
+    ]
+   },
+   {
+    "concept": "AccruedLiabilitiesCurrent",
+    "label": "Accrued Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "3147000000",
+      "fact_id": "xf_6e5a2c115dd7c900",
+      "reported_in_10k_filed": "2023-02-13"
+     }
+    ]
+   },
+   {
+    "concept": "OtherAccruedLiabilitiesCurrent",
+    "label": "Other Accrued Liabilities, Current",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "1226000000",
+      "fact_id": "xf_06ccce45368e2fa8",
+      "reported_in_10k_filed": "2023-02-13"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents proceeds from the issuance of medium-term notes (debt), which does not correspond to proceeds from the sale of treasury stock.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TlWNxw7LD9xrTVMvfByCErjAp0iJ0DttzgR+rP2thGut28ccmbWD/L4ttPoKiE2bxKXYjNFFvsQFpG/tmG8ddcIR/QFpZLPAZqaxW+sBkmM7Kt2ewIAuT7KA="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835247,
+  "id": "bzzNasTkBpLJrfcPmOG8SQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 341,
+   "total_tokens": 387
+  }
+ }
+}

@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents a sensitivity analysis of the projected benefit obligation to a hypothetical 25 basis point change in the discount rate, which is a forward-looking estimate rather than the actual historical increase or decrease in the obligation reported in the financial statements.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TULUL6rJG1BaE3FuOVNlwDkGckJgeyfVS7SXvhDEdmEWvVgq+geJPwsywPJe6TC2iBHOSbU70/j8Rku+TAwRBvsZJflek2xkaGmcwwAcw7ACTMevRofYvzJA="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835417,
+  "id": "GT3NapaxD7_01e8PwbXk4QI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 67,
+   "prompt_tokens": 248,
+   "total_tokens": 315
+  }
+ }
+}

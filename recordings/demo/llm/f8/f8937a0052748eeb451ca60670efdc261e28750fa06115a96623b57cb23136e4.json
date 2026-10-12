@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"explained\": false, \"explanation\": \"None of the provided passages explain the change in domestic income from continuing operations before income taxes.\", \"chunk_id\": null, \"quote\": null}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TRG1e6pNd5GSRrT6T0DCWQxPoJdu5N4vR/YcgRvo7wc0ZHpaP74GPuGlKQPl4T15W2+TrOghF2hOOd3GqUEOORQrhST1W0iW/l49Ny2WP7YEm7+573gnjG64="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835905,
+  "id": "AT_Nas6ZAuCj9tMP1Niy2A4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 2243,
+   "total_tokens": 2282
+  }
+ }
+}

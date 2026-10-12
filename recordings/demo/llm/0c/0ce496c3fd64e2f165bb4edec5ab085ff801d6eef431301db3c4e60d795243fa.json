@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"explained\": true, \"explanation\": \"Management explains that the increase in common stock repurchases was driven by a new Board authorization in November 2018 to repurchase up to $10 billion of stock, replacing the previous 2016 program.\", \"chunk_id\": \"ch_3415b59ec981ec16\", \"quote\": \"In November 2018, 3M's Board of Directors authorized the repurchase of up to $10 billion of 3M's outstanding common stock, which replaced the Company's February 2016 repurchase program. This program has no pre-established end date. In 2018, the Company purchased $4.9 billion of its own stock, compared to purchases of $2.1 billion in 2017 and $3.8 billion in 2016.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0THylV8CZr6tuIvynGLVaTM7Vi/GgPvyOOFMCK9WfJrmxWQPNUEhhsTXAsvfZQAy0vaU9MKkWzsNNkUvpzonrRwH3T/f3o56UBSlu1lhXC3nNbJyLVCgOFAII="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835885,
+  "id": "7D7NaobDGeSw0-kPrIbxIA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 197,
+   "prompt_tokens": 2377,
+   "total_tokens": 2574
+  }
+ }
+}

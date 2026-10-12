@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": 1, \"reasoning\": \"[AMOUNT] represents the change in Accounts payable for the period matching the increase/decrease in accounts payable line item scope and period.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TjdixddClNXjcTyDa3QMvrR29V1mJzpCktrUWT9X4tNReRK9vAW7RYdIytZ7XSkUgDotZCUssVJW9kT5enqHxsDzpLLgQZbd0QVqLGps6kvaRoaGg1LLRui4="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835412,
+  "id": "FD3NarTiDqTY9tMPktv_sAI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 317,
+   "total_tokens": 361
+  }
+ }
+}

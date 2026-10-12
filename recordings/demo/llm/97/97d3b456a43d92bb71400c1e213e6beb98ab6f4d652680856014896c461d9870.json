@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"explained\": false, \"explanation\": \"None of the provided passages explain the specific reason for the change in proceeds from maturities, prepayments, and calls of available-for-sale debt securities.\", \"chunk_id\": null, \"quote\": null}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tjt0gP+BBl6w5xIA9PRHFlf9gk8bDVlyJlm2EaMl1mc+mkzM6bz3CTzBjzi4HCCF+pcgVpt5ekkCOqZgsGKL+0zZEyhpi6SyET2j3ontel5WHqH37BG2Hxio="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835898,
+  "id": "-T7Nape-IPG-1e8PlpXqkAE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 53,
+   "prompt_tokens": 2086,
+   "total_tokens": 2139
+  }
+ }
+}

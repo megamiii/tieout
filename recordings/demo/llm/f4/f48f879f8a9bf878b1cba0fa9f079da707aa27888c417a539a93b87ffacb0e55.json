@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"[AMOUNT] represents the principal amount of medium-term notes maturing in August 2018, which is a specific debt repayment event not reported as a distinct balance sheet line item in the provided XBRL data.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TQQUZa39RsiPdz2ZIOU0Hc2dKnH8EpQmZcrn0fxeFgxebk90Q33+pXKFw7Ii/a9NdXUd5ryp33Z5OO+9a9pQkEEKxrv2qDUARV71IlfxNiIDdEgu4Tuvt6p4="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835185,
+  "id": "MDzNapiOOLfirfcPhb718Ao",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 61,
+   "prompt_tokens": 298,
+   "total_tokens": 359
+  }
+ }
+}

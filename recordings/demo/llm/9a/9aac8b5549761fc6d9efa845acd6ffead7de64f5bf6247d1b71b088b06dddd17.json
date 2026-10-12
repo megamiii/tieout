@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": 1, \"reasoning\": \"The sentence refers to net share repurchases, which directly corresponds to the XBRL line item Payments for Repurchase of Common Stock for the fiscal year 2022 period.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TBMTmAiSxOjLI/DAm1VrXV77w2dmhuVi5R8CtnkX8VazCRu5z3sWL1dZtaIN6fHabeu3U5+CrKFs/eEO0Yhn/iGjoXlXp7dJof/lf3fJ08wF4H6jes1d+Gvg="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835430,
+  "id": "Jj3NasGSAqvb9tMPtrzDIQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 56,
+   "prompt_tokens": 228,
+   "total_tokens": 284
+  }
+ }
+}

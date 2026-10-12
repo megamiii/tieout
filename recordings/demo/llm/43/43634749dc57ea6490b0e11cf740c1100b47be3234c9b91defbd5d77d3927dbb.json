@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The amount represents a cash contribution to the company's U.S. defined benefit pension plan, which does not correspond to the current foreign tax expense line item.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T3/U7e81tPSRbBWePXA5xLxgQRaDFmu6JCu5FS8/J2K9L3zzdDlZvrlq6BpcqYiycUTVaRpPWNb9nt2rlSKTVBegx7t3RvzAte299DVLu49QWneDiLIoYmZk="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835193,
+  "id": "ODzNatWOLd_t2roPobOAqA4",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 51,
+   "prompt_tokens": 251,
+   "total_tokens": 302
+  }
+ }
+}

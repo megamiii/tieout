@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"explained\": false, \"explanation\": \"The provided passages do not contain a discussion or explanation from management detailing the specific reasons for the year-over-year change in net cash provided by (used in) investing activities, other than presenting the tabular breakdown.\", \"chunk_id\": null, \"quote\": null}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0TezocgLHxKIPQUCVcIa3eNg/tavtlP7MjzTk6EOVJ9F+vt17Ed0iJDE9tL3QUrYprsR32EU+bzMXTnEbjoL74GMeIZI1IjtzNZiif7tC7uaSBXx8iLuQh3WI="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835883,
+  "id": "6z7Nar29B-ys1e8P3vHBWQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 69,
+   "prompt_tokens": 2433,
+   "total_tokens": 2502
+  }
+ }
+}

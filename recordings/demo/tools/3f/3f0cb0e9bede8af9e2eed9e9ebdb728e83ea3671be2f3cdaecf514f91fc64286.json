@@ -1,0 +1,80 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "BA",
+  "query": "net income",
+  "concept": null,
+  "fiscal_years": [
+   2021,
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "BA",
+  "concepts": [
+   {
+    "concept": "NetIncomeLoss",
+    "label": "Net Income (Loss) Attributable to Parent",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "-4935000000",
+      "fact_id": "xf_047f03e9aed1ef6a",
+      "reported_in_10k_filed": "2023-01-27"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2021-01-01..2021-12-31",
+      "value": "-4202000000",
+      "fact_id": "xf_af5a104d01ded21b",
+      "reported_in_10k_filed": "2022-01-31"
+     }
+    ]
+   },
+   {
+    "concept": "ProfitLoss",
+    "label": "Net Income (Loss), Including Portion Attributable to Noncontrolling Interest",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "-5053000000",
+      "fact_id": "xf_dad2ec0c5c525df0",
+      "reported_in_10k_filed": "2023-01-27"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2021-01-01..2021-12-31",
+      "value": "-4290000000",
+      "fact_id": "xf_e0b0570399b240d8",
+      "reported_in_10k_filed": "2022-01-31"
+     }
+    ]
+   },
+   {
+    "concept": "IncomeTaxesPaidNet",
+    "label": "Income Taxes Paid, Net",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "-1317000000",
+      "fact_id": "xf_d9e848f58ce4494c",
+      "reported_in_10k_filed": "2023-01-27"
+     },
+     {
+      "fiscal_year": 2021,
+      "period": "2021-01-01..2021-12-31",
+      "value": "-1480000000",
+      "fact_id": "xf_9b67e1832d6b3e66",
+      "reported_in_10k_filed": "2022-01-31"
+     }
+    ]
+   }
+  ]
+ }
+}

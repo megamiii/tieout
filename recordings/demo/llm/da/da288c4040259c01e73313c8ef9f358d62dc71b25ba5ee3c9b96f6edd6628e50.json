@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "{\"explained\": true, \"explanation\": \"Management explains that the increase in share repurchases was driven by the execution of a prior share repurchase program and the initiation of a new four-year, $18 billion plan authorized in June 2022.\", \"chunk_id\": \"ch_763be03a42eb9ab7\", \"quote\": \"In fiscal 2023, we purchased a total of 50.0 million shares of NIKE's Class B Common Stock for $5.5 billion (an average price of $110.32 per share). In August 2022, we terminated the previous four-year, $15 billion share repurchase program\"}",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0T3dLHWspQGL6E8aHGN1+VWMQTH2oCNTXx0s5I9B1SI4J4LenqnY8NM76DsDH1dYpxfTnsHHq2PJaXyCJ/HoS7iUHwvup/HdxpAQjulJ20IoMvRD0D0r4vmvQ="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835903,
+  "id": "_j7NaqXaGtfB1e8PveihiAE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 153,
+   "prompt_tokens": 2293,
+   "total_tokens": 2446
+  }
+ }
+}

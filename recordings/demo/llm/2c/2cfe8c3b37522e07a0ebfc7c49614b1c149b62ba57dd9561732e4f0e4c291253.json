@@ -1,0 +1,31 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 1,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "stop",
+    "index": 0,
+    "message": {
+     "content": "```json\n{\"line_item\": null, \"reasoning\": \"The sentence discusses the change in operating cash flows, whereas the provided XBRL line item corresponds to investing cash flows, meaning it does not report the same measure.\"}\n```",
+     "extra_content": {
+      "google": {
+       "thought_signature": "EmAKXgFpFH0Tcdk0/X7Y01UHc/vhULZ4kpRn6CdPuboswSmZ0n24KXePR08FcxWg83gRwinlQ7ptOrKcoSmDUe+jtFm/CLXE+PYqEUggmeb8n+4RORAzvAYwSV0WaIpbsXE="
+      }
+     },
+     "role": "assistant"
+    }
+   }
+  ],
+  "created": 1791835192,
+  "id": "NzzNar6qOdugrfcP5cHCIQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 50,
+   "prompt_tokens": 257,
+   "total_tokens": 307
+  }
+ }
+}

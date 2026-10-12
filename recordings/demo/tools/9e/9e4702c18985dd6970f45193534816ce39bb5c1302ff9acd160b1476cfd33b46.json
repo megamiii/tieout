@@ -1,0 +1,58 @@
+{
+ "tool": "get_financial_facts",
+ "arguments": {
+  "ticker": "GLW",
+  "query": "working capital",
+  "concept": null,
+  "fiscal_years": [
+   2022
+  ]
+ },
+ "output": {
+  "ticker": "GLW",
+  "concepts": [
+   {
+    "concept": "CapitalExpendituresIncurredButNotYetPaid",
+    "label": "Capital Expenditures Incurred but Not yet Paid",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "414000000",
+      "fact_id": "xf_dded727de67b2df5",
+      "reported_in_10k_filed": "2023-02-13"
+     }
+    ]
+   },
+   {
+    "concept": "AdditionalPaidInCapitalCommonStock",
+    "label": "Additional Paid in Capital, Common Stock",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "as of 2022-12-31",
+      "value": "16682000000",
+      "fact_id": "xf_f4a4910e6fffe667",
+      "reported_in_10k_filed": "2023-02-13"
+     }
+    ]
+   },
+   {
+    "concept": "InterestCostsCapitalized",
+    "label": "Interest Costs Capitalized",
+    "unit": "USD",
+    "values": [
+     {
+      "fiscal_year": 2022,
+      "period": "2022-01-01..2022-12-31",
+      "value": "48000000",
+      "fact_id": "xf_845c8082b2100bfb",
+      "reported_in_10k_filed": "2023-02-13"
+     }
+    ]
+   }
+  ]
+ }
+}

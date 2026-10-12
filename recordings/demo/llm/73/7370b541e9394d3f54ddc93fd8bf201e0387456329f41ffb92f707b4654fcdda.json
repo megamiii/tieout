@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TVgzt6vwDO/ijqvIi81i2cZ8tDBEt2W34lGUQnHktKPH6A0Gr0MYL/mhw2kgMt14CRCxMSSjkikNmoE43x3DuN+4+7Y05/UFhygLWqEEj0vT9YSuXm+TkBFg="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Consolidated Statements of Operations Years ended December 31\",\"ticker\":\"BA\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_285976",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791561479,
+  "id": "Bw_JapS4CfyYvdIPtbqYyQk",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 42,
+   "prompt_tokens": 4473,
+   "total_tokens": 4515
+  }
+ }
+}

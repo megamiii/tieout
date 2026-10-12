@@ -2,7 +2,7 @@
 
 An AI agent that answers audit-style questions about public companies' SEC filings, cites every source, and checks that the numbers in a filing actually tie out.
 
-**[Live demo](TODO-demo-url)** · works without an API key (demo mode)
+**[Live demo](https://megamiii.github.io/tieout/)** · replays recorded runs, so it needs no API key and costs nothing
 
 In auditing, a *tie-out* is the check that every number stated in a document matches the underlying financial records. tieout automates a first pass of that work on real 10-K filings. An agent searches the filing text, pulls structured financial data from the SEC's XBRL API, does arithmetic with a real calculator instead of the LLM, and returns an answer with citations and a confidence score. When the evidence is missing or contradictory, it flags the question for human review instead of guessing.
 
@@ -382,7 +382,7 @@ Tools: `search_filings`, `read_section`, `get_financial_facts`, `calculate`. The
 - [x] 7. Tie-out + analytical review
 - [x] 8. Tracing
 - [x] 9. MCP server
-- [ ] 10. Demo mode + deployment: demo mode, recordings, static export and the Pages workflow are done and tested locally; waiting for the first Pages deployment
+- [x] 10. Demo mode + deployment (static demo on GitHub Pages)
 - [ ] 11. CI + README polish
 
 ## Project structure

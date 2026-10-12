@@ -426,6 +426,15 @@ def ask_cmd(
         typer.echo(f"  warning: {warning}")
 
 
+@app.command("mcp")
+def mcp_cmd() -> None:
+    """Run the MCP server over stdio (for AI assistants, IDEs and other MCP clients)."""
+    from tieout.mcp_server.server import build_server, default_tools, run_stdio
+
+    companies = ingest.load_selected()
+    run_stdio(build_server(default_tools(companies), companies))
+
+
 @app.command("usage")
 def usage_cmd() -> None:
     """Today's LLM token usage against the free-tier daily limits."""

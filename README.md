@@ -147,6 +147,16 @@ Tracing (milestone 8):
 - **Saved with the run, in the same transaction:** a trace (`traces` + `spans` tables) is written in the same database transaction as the agent run or workflow it belongs to, so there is never a run without its trace or the reverse. `tieout ask --save` and `tieout workflow … --save` store traces from the CLI too.
 - **Replays show what was cached:** a replayed run marks every LLM span `cached`, so the trace of a recorded demo answer reads "0 LLM requests (+8 from cache)". This also exposed a stale recording: `recordings/live-3m-capex-fy2018/` no longer replays because the system prompt changed after it was recorded, so the request hashes differ. Demo recordings will be regenerated in milestone 10.
 
+MCP server (milestone 9):
+
+- **The same tools, not a copy:** the server lists the agent's own `Tool` objects with the JSON schemas the agent's LLM sees, and runs calls through the same validate-then-run function as the agent loop. An MCP client gets the same argument checks and the same error messages ("unknown ticker 'XYZ'; supported: [...]"), and a change to a tool changes both. A test checks that the listed schemas are identical.
+- **Official SDK, low-level server:** the MCP Python SDK's high-level decorator API builds schemas from function signatures, which would define every tool a second time. The low-level `Server` takes the existing schemas and handlers directly.
+- **What's exposed:** `search_filings`, `read_section`, `get_financial_facts` and `calculate`. `submit_answer` is not, because it is only meaningful inside the agent loop, where it is validated against the evidence the run has seen.
+- **Errors the model can act on:** a bad call to a real tool (invalid arguments, an unsupported company, a disallowed calculator expression) returns a tool result with `isError` and the message, so the client's model can retry, as the MCP spec recommends. Only calling a tool that doesn't exist is a protocol error.
+- **Coverage in the server instructions:** the instructions sent at connection list the 13 companies and their fiscal years, so the assistant knows what it can ask about before spending a call.
+- **Costs nothing to run:** there is no LLM inside the server, so it uses no API quota. It runs over stdio only, for local clients; serving it over HTTP from the deployed demo would be a separate step.
+- **Tested in-process and over stdio:** unit tests use the SDK's in-process client (tool listing, schemas, structured results, error results). An end-to-end check launched `tieout mcp` as a subprocess against the local database: the client connected in 2.9 s, `get_financial_facts` returned 3M's FY2018 capital expenditure ($1,577 million, with its fact ID) in 1.6 s on the first call (the embedding model loads lazily), and `search_filings` answered in 0.1 s. Logs go to stderr, since stdout carries the protocol.
+
 ## Data
 
 All data is public:
@@ -297,11 +307,28 @@ make eval                       # (milestone 5) runs the agent on the eval set a
 
 ### Use the MCP server
 
+The filing search and XBRL tools are available to any MCP client. The server runs locally over stdio and reads the local Postgres database, so start the database first (`docker compose up -d`) and load the data. No API key is needed: the client's own model does the reasoning.
+
 ```bash
-make mcp
+tieout mcp
 ```
 
-_TODO: add the MCP client config snippet._
+Most MCP clients are configured with a JSON entry like this one; use the absolute path of the `tieout` executable in your virtual environment, then restart the client:
+
+```json
+{
+  "mcpServers": {
+    "tieout": {
+      "command": "/absolute/path/to/tieout/.venv/bin/tieout",
+      "args": ["mcp"]
+    }
+  }
+}
+```
+
+On Windows the command is `C:\\path\\to\\tieout\\.venv\\Scripts\\tieout.exe` (backslashes are escaped in JSON). Paths inside the project (`.env`, `data/`, `config/`) are resolved from the package location, so the client can start the server from any working directory.
+
+Tools: `search_filings`, `read_section`, `get_financial_facts`, `calculate`. The server's instructions list the companies and fiscal years that are indexed.
 
 ## Build progress
 
@@ -313,7 +340,7 @@ _TODO: add the MCP client config snippet._
 - [x] 6. UI + review queue
 - [x] 7. Tie-out + analytical review
 - [x] 8. Tracing
-- [ ] 9. MCP server
+- [x] 9. MCP server
 - [ ] 10. Demo mode + deployment
 - [ ] 11. CI + README polish
 
@@ -359,7 +386,7 @@ tieout/
 │   ├── edgar/            # SEC EDGAR client, XBRL facts, caching
 │   ├── api/              # FastAPI routes, demo mode
 │   ├── tracing/          # span tree per run (contextvar tracer), stored in Postgres
-│   └── mcp_server/       # MCP tools
+│   └── mcp_server/       # MCP server over stdio (the agent's data tools)
 ├── frontend/             # React + TypeScript UI
 ├── evals/                # eval sets, graders, reports
 ├── tests/                # unit and integration tests

@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TfoGu87cqzKJ3uQl4Z/WmfAiPsYnyQcfroK9zeQyO/MImA8IfSa/mbiwliuFYn/bO/Pxpn9+LObSkcmfVCMfn4GDWys+W4aYeRXkkx5ZJ44OZq/j49tJA5sM="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AMCR\",\"query\":\"percentage increase net sales 2020 2019\",\"fiscal_year\":2020}",
+        "name": "search_filings"
+       },
+       "id": "call_407167",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791806206,
+  "id": "_crMaqmlINvt2roPiJ6V0Qo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 6725,
+   "prompt_tokens_details": {
+    "cached_tokens": 4037
+   },
+   "total_tokens": 6771
+  }
+ }
+}

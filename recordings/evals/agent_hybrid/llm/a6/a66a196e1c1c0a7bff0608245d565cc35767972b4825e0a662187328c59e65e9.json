@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TY92pWDH8aMCyrqBUkK9hCxCwmaHmlQopazJNviMOa+ugcAd0tpiuTHI2k2Xr+cu5Yq5vaGH4CAe3K/PjjbiX3TXGd/+s6wNM725PuJL1hCNFLiEmCEmz2oM="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"American Express's consolidated net cash provided by operating activities changed from $14,645 million in fiscal year 2021 to $21,079 million in fiscal year 2022, representing an increase of 43.9%.\",\"rationale\":\"The consolidated statement of cash flows reports net cash provided by operating activities of $14,645 million for 2021 and $21,079 million for 2022. The percentage change is calculated as ((21,079 - 14,645) / 14,645) * 100 = 43.9016..., which rounds to 43.9%.\",\"needs_review\":false,\"citations\":[{\"quote\":\"Net cash provided by operating activities 21,079 14,645 5,591\",\"source_id\":\"ch_eff10dd0e23194b0\"}],\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_70863",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791832989,
+  "id": "nDPNas7zIvG-1e8Pq_SSyQw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 243,
+   "prompt_tokens": 7956,
+   "prompt_tokens_details": {
+    "cached_tokens": 4046
+   },
+   "total_tokens": 8199
+  }
+ }
+}

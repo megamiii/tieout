@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TJ3YAwgKOASRaL99mw1jIhL8nXEV2I8f0oBubM65mVEEpPpqDnmY91rGLUc1xobOhX5u1GwPuxs5/3OMHXLvBAHW+imuiTBOTpB4+26Mp5Dm2RMPvO5HN6qE="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"GIS\",\"fiscal_year\":2020,\"section\":\"8\",\"query\":\"net sales revenue fiscal 2019 2020 General Mills Consolidated Statements of Earnings\"}",
+        "name": "search_filings"
+       },
+       "id": "call_47658",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833293,
+  "id": "zDTNap7YKrbnrfcPnez98Ao",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 57,
+   "prompt_tokens": 1533,
+   "total_tokens": 1590
+  }
+ }
+}

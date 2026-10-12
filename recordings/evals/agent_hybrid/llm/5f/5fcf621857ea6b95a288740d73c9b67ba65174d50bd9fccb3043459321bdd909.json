@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TFKXiKbE77hRR7T4GuQG0LhXnFH54oM3KO4j7jtqcsfRkMtxOsttyEAZkBdOEuHLT2zI8nyJzk52gHc+0gePzF+9LiHB+E4/ZR3FSLYjTNzGGNVQNysECBm4="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Consolidated Balance Sheets PepsiCo\",\"fiscal_year\":2022,\"section\":\"8\",\"ticker\":\"PEP\"}",
+        "name": "search_filings"
+       },
+       "id": "call_160302",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833482,
+  "id": "ijXNarOjEemM1e8P1sSDaQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 3214,
+   "total_tokens": 3257
+  }
+ }
+}

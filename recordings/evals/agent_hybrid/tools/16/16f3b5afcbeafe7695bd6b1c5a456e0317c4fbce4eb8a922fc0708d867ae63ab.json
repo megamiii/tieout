@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "CONSOLIDATED BALANCE SHEETS December 31 2022 Cash and cash equivalents",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_1ff60ced74aa865f",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 98,
+    "text": "Table of Contents CONSOLIDATED BALANCE SHEETS December 31 (Millions, except share data) 2022 2021 Assets Cash and cash equivalents Cash and due from banks (includes restricted cash of consolidated variable interest entities: 2022, $5; 2021, $11) $ 5,510 $ 1,292 Interest-bearing deposits in other banks (includes securities purchased under resale agreements: 2022, $318; 2021, $463) 28,097 20,548 Short-term investment securities (includes restricted investments of consolidated variable interest entities: 2022, $54; 2021, $32) 307 188 Total cash and cash equivalents 33,914 22,028 Card Member receivables (includes gross receivables available to settle obligations of a consolidated variable interest entity: 2022, $5,193; 2021, $5,175), less reserves for credit losses: 2022, $229; 2021, $64 57,384 53,581 Card Member loans (includes gross loans available to settle obligations of a consolidated variable interest entity: 2022, $28,461; 2021, $26,587), less reserves for credit losses: 2022, $3,74…"
+   },
+   {
+    "chunk_id": "ch_beff0c41031b1bd6",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 99,
+    "text": "Supplemental cash flow information Cash and cash equivalents reconciliation 2022 2021 2020 Cash and cash equivalents per Consolidated Balance Sheets $ 33,914 $ 22,028 $ 32,965 Restricted balances included in Cash and cash equivalents 544 525 606 Total cash and cash equivalents, excluding restricted balances $ 33,370 $ 21,503 $ 32,359 (a) Includes net gains and losses on fair value hedges, net gains and losses on Amex Ventures investments and changes in equity method investments. See Notes to Consolidated Financial Statements. (a) 96"
+   },
+   {
+    "chunk_id": "ch_49613b6f6301fe9f",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 99,
+    "text": "Acquisitions/dispositions, net of cash acquired (15) 1 (597) Other investing activities — — 135 Net cash (used in) provided by investing activities (33,689) (10,529) 11,632 Cash Flows from Financing Activities Net increase (decrease) in customer deposits 25,902 (2,468) 13,542 Net (decrease) increase in short-term borrowings (706) 461 (4,627) Proceeds from long-term debt 23,230 7,788 69 Payments of long-term debt (18,906) (11,662) (15,593) Issuance of American Express preferred shares — 1,584 — Redemption of American Express preferred shares — (1,600) — Issuance of American Express common shares 56 64 44 Repurchase of American Express common shares and other (3,502) (7,652) (1,029) Dividends paid (1,565) (1,448) (1,474) Net cash provided by (used in) financing activities 24,509 (14,933) (9,068) Effect of foreign currency exchange rates on cash and cash equivalents (13) (120) 364 Net increase (decrease) in cash and cash equivalents 11,886 (10,937) 8,519 Cash and cash equivalents at begin…"
+   },
+   {
+    "chunk_id": "ch_d4977d01cee1d51d",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 72,
+    "text": "Table of Contents CASH FLOWS The following table summarizes our cash flow activity, followed by a discussion of the major drivers impacting operating, investing and financing cash flows for the year ended December 31, 2022 compared to the year ended December 31, 2021: TABLE 21: CASH FLOWS (Billions) 2022 2021 2020 Total cash provided by (used in): Operating activities $ 21.1 $ 14.6 $ 5.6 Investing activities (33.7) (10.5) 11.6 Financing activities 24.5 (14.9) (9.1) Effect of foreign currency exchange rates on cash and cash equivalents — (0.1) 0.4 Net increase (decrease) in cash and cash equivalents $ 11.9 $ (10.9) $ 8.5 Cash Flows from Operating Activities Our cash flows from operating activities primarily include net income adjusted for (i) non-cash items included in net income, such as provisions for credit losses, depreciation and amortization, stock-based compensation, deferred taxes and other non-cash items and (ii) changes in the balances of operating assets and liabilities, whic…"
+   },
+   {
+    "chunk_id": "ch_f0885a17240d2858",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 95,
+    "text": "Table of Contents INDEX TO CONSOLIDATED FINANCIAL STATEMENTS CONSOLIDATED FINANCIAL STATEMENTS PAGE Consolidated Statements of Income – For the Years Ended December 31, 2022, 2021 and 2020 93 Consolidated Statements of Comprehensive Income – For the Years Ended December 31, 2022, 2021 and 2020 94 Consolidated Balance Sheets – December 31, 2022 and 2021 95 Consolidated Statements of Cash Flows – For the Years Ended December 31, 2022, 2021 and 2020 96 Consolidated Statements of Shareholders' Equity – For the Years Ended December 31, 2022, 2021 and 2020 97 NOTES TO CONSOLIDATED FINANCIAL STATEMENTS 98 Note 1 – Summary of Significant Accounting Policies 98 Note 2 – Loans and Card Member Receivables 104 Note 3 – Reserves for Credit Losses 112 Note 4 – Investment Securities 115 Note 5 – Asset Securitizations 117 Note 6 – Other Assets 118 Note 7 – Customer Deposits 120 Note 8 – Debt 121 Note 9 – Other Liabilities 124 Note 10 – Stock-Based Compensation 125 Note 11 – Retirement Plans 127 Note 1…"
+   }
+  ]
+ }
+}

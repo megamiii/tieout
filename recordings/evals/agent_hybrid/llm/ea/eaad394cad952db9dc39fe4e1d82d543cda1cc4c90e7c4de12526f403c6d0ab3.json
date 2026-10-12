@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TinlBuytCAPiHvQkPoFEf1AyQsCCJB2SDr7CltJTW+u2wd4zXtvTcS+/HjW6ZbdOOmSeSHW5gSp+wDkeCwjhCqZtvlDzl6NNnpsqP+Nlj+Mey3sVkEIlmHVE="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"In fiscal year 2018, 3M's net income attributable to 3M was $5,349 million (and net income including noncontrolling interest was $5,363 million).\",\"needs_review\":false,\"confidence\":1,\"citations\":[{\"quote\":\"Net income including noncontrolling interest $ 5,363 $ 4,869 $ 5,058\",\"source_id\":\"ch_d55dd0bf026b21da\"},{\"quote\":\"Net income attributable to 3M $ 5,349 $ 4,858 $ 5,050\",\"source_id\":\"ch_d55dd0bf026b21da\"}],\"rationale\":\"3M reports both net income including noncontrolling interest ($5,363 million) and net income attributable to 3M ($5,349 million) for fiscal year 2018 on its Consolidated Statement of Income.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_93181",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833416,
+  "id": "RzXNau2tDIn71e8Px8PzsAc",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 238,
+   "prompt_tokens": 7900,
+   "prompt_tokens_details": {
+    "cached_tokens": 4045
+   },
+   "total_tokens": 8138
+  }
+ }
+}

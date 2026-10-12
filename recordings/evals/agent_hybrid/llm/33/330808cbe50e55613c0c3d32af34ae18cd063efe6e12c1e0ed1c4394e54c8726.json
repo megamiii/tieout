@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T50bkrM5esJZhiW0AwVOkIK4Yj0S4PdIEheHShwI9MGAhAeyhxDNliLJOHtxm+g0ykodQC1oY7+HXYQy+G2vI1ORuGe0Q+piLyTJ4iixYzN+6Cg96AyoeJmY="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"citations\":[{\"source_id\":\"ch_b7df7e4543cc7133\",\"quote\":\"Net Income Attributable to PepsiCo $ 7,618 $ 7,120\"},{\"quote\":\"Net income $ 7,679 $ 7,175\",\"source_id\":\"ch_b7df7e4543cc7133\"}],\"rationale\":\"The net income figures for both total net income and net income attributable to PepsiCo are retrieved directly from PepsiCo's 2021 Form 10-K Consolidated Statement of Income. The percentage change is computed from these figures.\",\"answer\":\"PepsiCo's net income attributable to PepsiCo changed from $7,120 million in fiscal year 2020 to $7,618 million in fiscal year 2021, representing an increase of 7.0%. Total net income also increased from $7,175 million in fiscal year 2020 to $7,679 million in fiscal year 2021, which represents an increase of 7.0%.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_75195",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833478,
+  "id": "hDXNapazPOT11e8P7ankyQI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 273,
+   "prompt_tokens": 9291,
+   "total_tokens": 9564
+  }
+ }
+}

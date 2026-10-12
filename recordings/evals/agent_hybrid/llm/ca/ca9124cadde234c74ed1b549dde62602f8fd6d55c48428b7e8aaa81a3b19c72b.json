@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TE+2bt3pE6LocY7OCFtSDjOO0Y2JDR/85lNcR7iKg7Zwpv1axZ2R8FndHc1uBAk1iwDYFm4z9CMlOLiGaP7WVuVHvoFtyC7C+UsUtD0UUsDr0EdXBih7ezD0="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Net earnings from continuing operations 1464 999\",\"ticker\":\"BBY\",\"fiscal_year\":2019}",
+        "name": "search_filings"
+       },
+       "id": "call_1997",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833170,
+  "id": "UTTNarPHGtux1e8Pkeyh2QQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 6991,
+   "prompt_tokens_details": {
+    "cached_tokens": 4045
+   },
+   "total_tokens": 7037
+  }
+ }
+}

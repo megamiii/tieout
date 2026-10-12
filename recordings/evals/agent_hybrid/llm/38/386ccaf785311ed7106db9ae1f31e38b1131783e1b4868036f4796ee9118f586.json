@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tmhs++G9enrYngCWe0Q9HhUdGUaNO1ipd0I9jizZ5zNUtovTaKk7S2cMF2vkwagqi38wd5BVTy+4ptxg37MHpPlHrH4Zolmh+YTHEURnfJCi+u8ox7Z3/Vm8="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"AMD\",\"fiscal_year\":2015,\"query\":\"Consolidated Balance Sheets\"}",
+        "name": "search_filings"
+       },
+       "id": "call_475123",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791806221,
+  "id": "DMvMao6UIMLhrfcPwaSBMQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 35,
+   "prompt_tokens": 3139,
+   "total_tokens": 3174
+  }
+ }
+}

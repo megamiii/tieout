@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Total current assets",
+  "ticker": "AMD",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_51be233a2b315a00",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 69,
+    "text": "Other current liabilities December 26, 2015 December 27, 2014 (In millions) Liabilities related to assets held-for-sale $ 79 $ — Other current liabilities 45 40 Total other current liabilities $ 124 $ 40 NOTE 6: Goodwill and Acquired Intangible Assets Goodwill The carrying amounts of goodwill as of December 26, 2015 and December 27, 2014 were as follows: Computing and Graphics Enterprise, Embedded and Semi-Custom All Other Total (In millions) Initial goodwill due to ATI acquisition $ 1,194 $ 255 $ 745 $ 2,194 Initial goodwill due to SeaMicro acquisition 165 65 — 230 1,359 320 745 2,424 Accumulated impairment losses (1,126) — (745) (1,871) Balance as of December 28, 2013 233 320 — 553 Impairment charges (233) — — (233) Balance as of December 27, 2014 — 320 — 320 Assets held-for-sale — (42) — (42) Balance as of December 26, 2015 — 278 — 278 Accumulated impairment losses $ (1,359) $ — $ (745) $ (2,104) As a result of the decision to form the JVs with Nantong Fujitsu Microelectronics Co., …"
+   },
+   {
+    "chunk_id": "ch_57f83ddfc437a175",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 75,
+    "text": "The breakdown between current and non-current deferred tax assets and deferred tax liabilities as of December 26, 2015 and December 27, 2014 is as follows: December 26, 2015 December 27, 2014 (In millions) Current deferred tax assets $ 8 $ 2 Non-current deferred tax assets 48 33 Current deferred tax liabilities (46) (16) Net deferred tax assets $ 10 $ 19 Current deferred tax assets and current deferred tax liabilities are included in captions “Other current assets” and “Accrued liabilities,” respectively, on the consolidated balance sheets. Non-current deferred tax assets are included in the caption “Other assets” on the consolidated balance sheets. As of December 26, 2015, substantially all of the Company's U.S. and foreign deferred tax assets, net of deferred tax liabilities, continued to be subject to a valuation allowance. The realization of these assets is dependent on substantial future taxable income which, at December 26, 2015, in management's estimate, is not more likely than …"
+   },
+   {
+    "chunk_id": "ch_09bec6e2e4aa68dd",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 58,
+    "text": "Advanced Micro Devices, Inc. Consolidated Balance Sheets December 26, 2015 December 27, 2014 (In millions, except par value amounts) ASSETS Current assets: Cash and cash equivalents $ 785 $ 805 Marketable securities — 235 Accounts receivable, net 533 818 Inventories, net 678 685 Prepayments and other - GLOBALFOUNDRIES 33 113 Prepaid expenses 43 32 Other current assets 248 48 Total current assets 2,320 2,736 Property, plant and equipment, net 188 302 Acquisition related intangible assets, net — 65 Goodwill 278 320 Other assets 323 344 Total assets $ 3,109 $ 3,767 LIABILITIES AND STOCKHOLDERS' EQUITY (DEFICIT) Current liabilities: Short-term debt $ 230 $ 177 Accounts payable 279 415 Payable to GLOBALFOUNDRIES 245 218 Accrued liabilities 472 518 Other current liabilities 124 40 Deferred income on shipments to distributors 53 72 Total current liabilities 1,403 1,440 Long-term debt 2,032 2,035 Other long-term liabilities 86 105 Commitments and contingencies (see Notes 15 and 16) Stockholder…"
+   },
+   {
+    "chunk_id": "ch_fe57f506c4eebeb6",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 39,
+    "text": "The transaction is expected to close in the first half of 2016, pending all regulatory and other approvals. As a result of the decision to form the above JVs, the balance sheet as of December 26, 2015, reflects held-for-sale accounting of the ATMP assets and liabilities which requires reclassification of such financial amounts to current assets and current liabilities. We reclassified $183 million to other current assets and $79 million to other current liabilities. Asset balances reclassified into other current assets primarily consist of property, plant, and equipment of $110 million, goodwill of $42 million and inventory of $15 million. Liability balances reclassified into other current liabilities primarily consist of accounts payable of $70 million. The balances included in the final gain/(loss) calculation, at closing, are likely to be different due to normal operational activities occurring through the closing date. Critical Accounting Estimates Our discussion and analysis of ou…"
+   },
+   {
+    "chunk_id": "ch_c8c3cc20863c9ec7",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 68,
+    "text": "NOTE 5: Supplemental Balance Sheet Information Inventories December 26, 2015 December 27, 2014 (In millions) Raw materials $ 16 $ 40 Work in process 482 431 Finished goods 180 214 Total inventories, net $ 678 $ 685 Other current assets December 26, 2015 December 27, 2014 (In millions) Assets held-for-sale $ 183 $ — Other current assets 65 48 Total other current assets $ 248 $ 48 Property, plant and equipment December 26, 2015 December 27, 2014 (In millions) Land and land improvements $ 1 $ 4 Buildings and leasehold improvements 145 246 Equipment 821 1,416 Construction in progress 17 14 Property, plant and equipment, gross 984 1,680 Accumulated depreciation and amortization (796) (1,378) Total property, plant and equipment, net $ 188 $ 302 Depreciation expense for 2015, 2014 and 2013 was $94 million, $115 million and $139 million, respectively. Other assets December 26, 2015 December 27, 2014 (In millions) Software and technology licenses $ 189 $ 219 Other 134 125 Total other assets $ 3…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income Net Income Verizon",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_ead02b5c693a4080",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 52,
+    "text": "Report of Independent Registered Public Accounting Firm To the Shareholders and the Board of Directors of Verizon Communications Inc.: Opinion on the Financial Statements We have audited the accompanying consolidated balance sheets of Verizon Communications Inc. and subsidiaries (Verizon or the Company) as of December 31, 2022 and 2021, the related consolidated statements of income, comprehensive income, cash flows, and changes in equity for each of the three years in the period ended December 31, 2022, and the related notes and the financial statement schedule listed in the Index at Item 15(a) (collectively referred to as the \"consolidated financial statements\"). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of Verizon at December 31, 2022 and 2021, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2022, in conformity with U.S. generally accepted acc…"
+   },
+   {
+    "chunk_id": "ch_c59f8e387d40178e",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 51,
+    "text": "Item 8. Financial Statements and Supplementary Data Report of Independent Registered Public Accounting Firm To the Shareholders and the Board of Directors of Verizon Communications Inc.: Opinion on Internal Control Over Financial Reporting We have audited Verizon Communications Inc. and subsidiaries' (Verizon) internal control over financial reporting as of December 31, 2022, based on criteria established in Internal Control – Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission (2013 framework) (the COSO criteria). In our opinion, Verizon maintained, in all material respects, effective internal control over financial reporting as of December 31, 2022, based on the COSO criteria. We also have audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (PCAOB), the consolidated balance sheets of Verizon as of December 31, 2022 and 2021, the related consolidated statements of income, comprehensi…"
+   },
+   {
+    "chunk_id": "ch_42b6c533c68a7967",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Consolidated Statements of Comprehensive Income Verizon Communications Inc. and Subsidiaries (dollars in millions) Years Ended December 31, 2022 2021 2020 Net Income $ 21,748 $ 22,618 $ 18,348 Other Comprehensive Loss, Net of Tax (Expense) Benefit Foreign currency translation adjustments, net of tax of $(13), $(17) and $19 (153) (141) 180 Unrealized gain (loss) on cash flow hedges, net of tax of $(111), $30 and $197 322 (85) (571) Unrealized loss on fair value hedges, net of tax of $148, $0 and $0 (431) — — Unrealized loss on marketable securities, net of tax of $8, $3 and $(2) (25) (9) (2) Defined benefit pension and postretirement plans, net of tax of $221, $205 and $221 (651) (621) (676) Other comprehensive loss attributable to Verizon (938) (856) (1,069) Total Comprehensive Income $ 20,810 $ 21,762 $ 17,279 Comprehensive income attributable to noncontrolling interests $ 492 $ 553 $ 547 Comprehensive income attributable to Verizon 20,318 21,209 16,732 Total Comprehensive Income $ 20…"
+   },
+   {
+    "chunk_id": "ch_cbacdb0a61125bcd",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 59,
+    "text": "Notes to Consolidated Financial Statements Verizon Communications Inc. and Subsidiaries Note 1. Description of Business and Summary of Significant Accounting Policies Description of Business Verizon Communications Inc. (the Company) is a holding company that, acting through its subsidiaries (together with the Company, collectively, Verizon), is one of the world's leading providers of communications, technology, information and entertainment products and services to consumers, businesses and government entities. With a presence around the world, we offer data, video and voice services and solutions on our networks and platforms that are designed to meet customers' demand for mobility, reliable network connectivity, security and control. We have two reportable segments that we operate and manage as strategic business units - Verizon Consumer Group (Consumer) and Verizon Business Group (Business). Our Consumer segment provides consumer-focused wireless and wireline communications services…"
+   },
+   {
+    "chunk_id": "ch_bbb26027fd2bdf0f",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 78,
+    "text": "(2) During 2022, we recorded net gains of $119 million in connection with the open market repurchases, which were reflected within Other income (expense), net in our consolidated statements of income. Issuances (dollars in millions) Principal Amount Issued Net Proceeds (1) Verizon 3.875% notes due 2052 (2) $ 1,000 $ 982 Verizon 4.100% notes due 2055 655 650 Verizon 4.250% notes due 2030 (3) € 1,250 1,227 Verizon 4.750% notes due 2034 (3) € 1,250 1,231 Total $ 4,090 (1) Net proceeds were net of underwriting discounts and other issuance costs. In addition, for securities denominated in a currency other than the U.S. dollar, net proceeds are shown on a U.S. dollar equivalent basis. (2) An amount equal to the net proceeds from this green bond is expected to be used to fund, in whole or in part, certain renewable energy projects, including new and existing investments made by us during the period from December 1, 2021 through the maturity date of the green bond. (3) See Note 9 for additiona…"
+   }
+  ]
+ }
+}

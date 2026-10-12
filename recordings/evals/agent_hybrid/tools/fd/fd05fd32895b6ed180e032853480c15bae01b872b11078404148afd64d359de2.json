@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net sales increased 5 percent or 16,865.2 17,626.6",
+  "ticker": "GIS",
+  "fiscal_year": 2020,
+  "section": "7",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_998f150de99b239c",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 20,
+    "text": "Components of organic net sales growth are shown in the following table: Fiscal 2020 vs. Fiscal 2019 Contributions from organic volume growth (a) 2 pts Organic net price realization and mix 2 pts Organic net sales growth 4 pts Foreign currency exchange (1)pt Divestitures Flat 53rd week 2 pts Net sales growth 5 pts Note: Table may not foot due to rounding (a) Measured in tons based on the stated weight of our product shipments. Organic net sales in fiscal 2020 increased 4 percent compared to fiscal 2019, driven by increased contributions from organic volume growth and favorable organic net price realization and mix. The increase in organic net sales growth includes approximately 3 points of organic net sales growth due to the impact of the COVID-19 pandemic. The disclosed impacts attributable to the COVID-19 pandemic on net sales and organic net sales were calculated based upon net sales in excess of our expectations prior to the net increase in demand resulting from the COVID-19 pandem…"
+   },
+   {
+    "chunk_id": "ch_07651ab291555ba1",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 25,
+    "text": "Note: Table may not foot due to rounding. (a) Measured in tons based on the stated weight of our product shipments. Pet net sales increased 18 percent in fiscal 2020 compared to fiscal 2019, driven by an increase in contributions from volume growth, including the impact of an extra month in the period, and favorable net price realization and mix. Fiscal 2020 net sales includes growth from the impact of the COVID-19 pandemic. The components of Pet organic net sales growth are shown in the following table: Fiscal 2020 vs. 2019 Percentage Change Contributions from organic volume growth (a) 17 pts Organic net price realization and mix 2 pts Organic net sales growth 18 pts Net sales growth 18 pts Note: Table may not foot due to rounding. (a) Measured in tons based on the stated weight of our product shipments. The 18 percent increase in Pet organic net sales growth in fiscal 2020 was driven by an increase in contributions from organic volume growth, including the impact of an extra month in…"
+   },
+   {
+    "chunk_id": "ch_1917f091afdd0d15",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 20,
+    "text": "20 A summary of our consolidated financial results for fiscal 2020 follows: Fiscal 2020 In millions, except per share Fiscal 2020 vs. Fiscal 2019 Percent of Net Sales Constant- Currency Growth (a) Net sales $ 17,626.6 5 % Operating profit 2,953.9 17 % 16.8 % Net earnings attributable to General Mills 2,181.2 24 % Diluted earnings per share $ 3.56 23 % Organic net sales growth rate (a) 4 % Adjusted operating profit (a) 3,058.0 7 % 17.3 % 7 % Adjusted diluted earnings per share (a) $ 3.61 12 % 12 % (a) See the \"Non-GAAP Measures\" section below for our use of measures not defined by GAAP. Consolidated net sales were as follows: Fiscal 2020 Fiscal 2020 vs. Fiscal 2019 Fiscal 2019 Net sales (in millions) $ 17,626.6 5 % $ 16,865.2 Contributions from volume growth (a) 4 pts Net price realization and mix 2 pts Foreign currency exchange (1)pt Note: Table may not foot due to rounding (a) Measured in tons based on the stated weight of our product shipments. The 5 percent increase in net sales in …"
+   },
+   {
+    "chunk_id": "ch_b4d6f0ae539615a0",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 23,
+    "text": "23 The components of North America Retail organic net sales growth are shown in the following table: Fiscal 2020 vs. 2019 Percentage Change Contributions from organic volume growth (a) 8 pts Organic net price realization and mix (1)pt Organic net sales growth 6 pts Foreign currency exchange Flat 53rd week 2 pts Net sales growth 8 pts Note: Table may not foot due to rounding. (a) Measured in tons based on the stated weight of our product shipments. North America Retail organic net sales increased 6 percent in fiscal 2020 compared to fiscal 2019, primarily driven by the impact of the COVID-19 pandemic. The increase in organic net sales includes an increase in contributions from organic volume growth, partially offset by unfavorable organic net price realization and mix. Net sales for our North America Retail operating units are shown in the following table: In Millions Fiscal 2020 Fiscal 2020 vs. 2019 Percentage Change Fiscal 2019 U.S. Meals & Baking $ 4,408.5 15 % $ 3,839.8 U.S. Cereal …"
+   },
+   {
+    "chunk_id": "ch_d2a7f2694d7e81a6",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 18,
+    "text": "Stores & Foodservice, Europe & Australia, and Asia & Latin America segments were below fiscal 2019 levels, due to a slow start to the year in each of those segments, as well as the pandemic-related headwinds impacting Convenience Stores & Foodservice and Asia & Latin America in the second half of the year. Second, we maintained our strong adjusted operating profit margins. The combination of our continued strong levels of Holistic Margin Management (HMM) savings, volume growth, and positive net price realization and mix offset input cost inflation and increased investments in brand building and capabilities, resulting in significant growth in constant-currency adjusted operating profit and adjusted diluted EPS. Third, we reduced our leverage. Our continued cash discipline delivered a significant reduction in core working capital and strong free cash flow conversion, resulting in reduced debt and an important decrease in our leverage ratio. Our consolidated net sales for fiscal 2020 ros…"
+   }
+  ]
+ }
+}

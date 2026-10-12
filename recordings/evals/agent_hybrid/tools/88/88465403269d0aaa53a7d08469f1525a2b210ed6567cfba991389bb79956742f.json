@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Balance Sheets Total assets",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_340de167165df3b5",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 65,
+    "text": "Risk-Weighted Assets — Assets are weighted for risk according to a formula used by the Federal Reserve to conform to capital adequacy guidelines. On- and off-balance sheet items are weighted for risk, with off-balance sheet items converted to balance sheet equivalents, using risk conversion factors, before being allocated a risk-adjusted weight. Off-balance sheet exposures comprise a minimal part of the total risk-weighted assets. Common Equity Tier 1 Risk-Based Capital Ratio — Calculated as CET1 capital, divided by risk-weighted assets. CET1 capital is common shareholders' equity, adjusted for ineligible goodwill and intangible assets and certain deferred tax assets. CET1 capital is also adjusted for the Current Expected Credit Loss (CECL) final rules, as described below. (a) 62"
+   },
+   {
+    "chunk_id": "ch_f251134fcfc2bda7",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 64,
+    "text": "Table of Contents CORPORATE & OTHER Corporate functions and certain other businesses are included in Corporate & Other. Corporate & Other pretax loss was $2.2 billion and $1.0 billion in 2022 and 2021, respectively. The increase in the pretax loss was primarily driven by net losses on Amex Ventures investments in the current year, as compared to net gains in the prior year, a non-cash gain in the prior year related to an increase in GBTG's total equity book value and higher compensation costs in the current year. CONSOLIDATED CAPITAL RESOURCES AND LIQUIDITY Our balance sheet management objectives are to maintain: • A solid and flexible equity capital profile; • A broad, deep and diverse set of funding sources to finance our assets and meet operating requirements; and • Liquidity programs that enable us to continuously meet expected future financing obligations and business requirements for at least a twelve-month period in the event we are unable to continue to raise new funds under ou…"
+   },
+   {
+    "chunk_id": "ch_be73b6e96a08e24e",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 144,
+    "text": "Table of Contents NOTE 17 CHANGES IN ACCUMULATED OTHER COMPREHENSIVE INCOME (LOSS) AOCI is a balance sheet item in Shareholders' equity on the Consolidated Balance Sheets. It is comprised of items that have not been recognized in earnings but may be recognized in earnings in the future when certain events occur. Changes in each component for the three years ended December 31 were as follows: (Millions), net of tax Net Unrealized Gains (Losses) on Debt Securities Foreign Currency Translation Adjustment Gains (Losses), Net of Hedges Net Unrealized Pension and Other Postretirement Benefit Gains (Losses) Accumulated Other Comprehensive Income (Loss) Balances as of December 31, 2019 $ 33 $ (2,189) $ (581) $ (2,737) Net change 32 (40) (150) (158) Balances as of December 31, 2020 65 (2,229) (731) (2,895) Net change (42) (163) 155 (50) Balances as of December 31, 2021 23 (2,392) (576) (2,945) Net change (87) (230) 52 (265) Balances as of December 31, 2022 $ (64) $ (2,622) $ (524) $ (3,210) (a)…"
+   },
+   {
+    "chunk_id": "ch_5fde1f8bd9946c96",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 115,
+    "text": "of balance outstanding, amongst others. Credit losses on accrued interest are measured and presented as part of Reserves for credit losses on the Consolidated Balance Sheets and within the Provisions for credit losses in the Consolidated Statements of Income, rather than reversing interest income. Separate models are used for accounts deemed a troubled debt restructuring, which are measured individually and incorporate a discounted cash flow model. See Note 2 for information on troubled debt restructurings. Loans and receivable balances are written off when we consider amounts to be uncollectible, which is generally determined by the number of days past due and is typically no later than 180 days past due for pay in full or revolving loans and 120 days past due for term loans. Loans and receivables in bankruptcy or owed by deceased individuals are generally written off upon notification. 112"
+   },
+   {
+    "chunk_id": "ch_054c8b8e55046a74",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 81,
+    "text": "Table of Contents CRITICAL ACCOUNTING ESTIMATES Refer to Note 1 to the “Consolidated Financial Statements” for a summary of our significant accounting policies. Certain of our accounting policies requiring significant management assumptions and judgments are as follows: RESERVES FOR CARD MEMBER CREDIT LOSSES Reserves for Card Member credit losses represent our best estimate of the expected credit losses in our outstanding portfolio of Card Member loans and receivables as of the balance sheet date. The CECL methodology, which became effective January 1, 2020, requires us to estimate lifetime expected credit losses by incorporating historical loss experience, as well as current and future economic conditions over a reasonable and supportable period (R&S Period) beyond the balance sheet date. In estimating expected credit losses, we use a combination of statistically based models and analysis of the results produced by these models to determine the quantitative and qualitative components …"
+   }
+  ]
+ }
+}

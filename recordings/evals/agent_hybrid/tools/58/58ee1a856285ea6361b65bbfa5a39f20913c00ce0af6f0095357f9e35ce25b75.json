@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Balance Sheets Total assets CVS Health December 31 2022 2021",
+  "ticker": "CVS",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_bf7286d87fc9e932",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 182,
+    "text": "Report of Independent Registered Public Accounting Firm To the Shareholders and the Board of Directors of CVS Health Corporation Opinion on the Financial Statements We have audited the accompanying consolidated balance sheets of CVS Health Corporation (the Company) as of December 31, 2022 and 2021, the related consolidated statements of operations, comprehensive income, shareholders' equity and cash flows for each of the three years in the period ended December 31, 2022, and the related notes (collectively referred to as the “consolidated financial statements”). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of the Company at December 31, 2022 and 2021, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2022, in conformity with U.S. generally accepted accounting principles. We also have audited, in accordance with the standards of the Public Company Acc…"
+   },
+   {
+    "chunk_id": "ch_ec9f5a20ef57077c",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 107,
+    "text": "Item 8. Financial Statements and Supplementary Data. Index to Consolidated Financial Statements Page Consolidated Statements of Operations for the years ended December 31, 2022, 2021 and 2020 106 Consolidated Statements of Comprehensive Income for the years ended December 31, 2022, 2021 and 2020 107 Consolidated Balance Sheets as of December 31, 2022 and 2021 108 Consolidated Statements of Cash Flows for the years ended December 31, 2022, 2021 and 2020 109 Consolidated Statements of Shareholders' Equity for the years ended December 31, 2022, 2021 and 2020 111 Notes to Consolidated Financial Statements 112 Reports of Independent Registered Public Accounting Firm (Public Company Accounting Oversight Board ID: 42) 179 105"
+   },
+   {
+    "chunk_id": "ch_0fc913b892205687",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 137,
+    "text": "3. Investments Total investments at December 31, 2022 and 2021 were as follows: 2022 2021 In millions Current Long-term Total Current Long-term Total Debt securities available for sale $ 2,718 $ 17,562 $ 20,280 $ 3,009 $ 20,231 $ 23,240 Mortgage loans 55 989 1,044 58 844 902 Other investments 5 2,562 2,567 50 1,950 2,000 Total investments $ 2,778 $ 21,113 $ 23,891 $ 3,117 $ 23,025 $ 26,142 (1) Includes long-term investments of $17 million which have been accounted for as assets held for sale and are included in assets held for sale on the consolidated balance sheet at December 31, 2022. See Note 2 ‘‘Acquisitions, Divestitures and Asset Sales'' for additional information. At December 31, 2022 and 2021, the Company held investments of $331 million and $450 million, respectively, related to the 2012 conversion of an existing group annuity contract from a participating to a non-participating contract. These investments are included in the total investments of large case pensions supporting…"
+   },
+   {
+    "chunk_id": "ch_c958d3d43496208d",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 142,
+    "text": "Capital gains and losses recognized during the year ended December 31, 2022 related to investments in equity securities held as of December 31, 2022 were not material. Excluding amounts related to experience-rated products, proceeds from the sale of available-for-sale debt securities and the related gross realized capital gains and losses in the years ended December 31, 2022, 2021 and 2020 were as follows: In millions 2022 2021 2020 Proceeds from sales $ 4,243 $ 3,572 $ 3,913 Gross realized capital gains 24 72 80 Gross realized capital losses 177 14 62 4. Fair Value The preparation of the Company's consolidated financial statements requires certain assets and liabilities to be reflected at their fair value and others to be reflected on another basis, such as an adjusted historical cost basis. In this note, the Company provides details on the fair value of financial assets and liabilities and how it determines those fair values. The Company presents this information for those financial …"
+   },
+   {
+    "chunk_id": "ch_49ddab3f60c9fb2e",
+    "ticker": "CVS",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 144,
+    "text": "There were no financial liabilities measured at fair value on a recurring basis on the consolidated balance sheets at December 31, 2022 or 2021. Financial assets measured at fair value on a recurring basis on the consolidated balance sheets at December 31, 2022 and 2021 were as follows: In millions Level 1 Level 2 Level 3 Total December 31, 2022 Cash and cash equivalents $ 6,902 $ 6,049 $ — $ 12,951 Debt securities: U.S. government securities 1,860 32 — 1,892 States, municipalities and political subdivisions — 2,272 — 2,272 U.S. corporate securities — 8,897 61 8,958 Foreign securities — 2,542 8 2,550 Residential mortgage-backed securities — 757 — 757 Commercial mortgage-backed securities — 1,018 — 1,018 Other asset-backed securities — 2,810 — 2,810 Redeemable preferred securities — 23 — 23 Total debt securities 1,860 18,351 69 20,280 Equity securities 116 — 60 176 Total $ 8,878 $ 24,400 $ 129 $ 33,407 December 31, 2021 Cash and cash equivalents $ 4,954 $ 4,454 $ — $ 9,408 Debt securiti…"
+   }
+  ]
+ }
+}

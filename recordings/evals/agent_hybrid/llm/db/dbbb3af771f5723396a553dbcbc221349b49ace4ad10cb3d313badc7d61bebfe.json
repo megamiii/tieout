@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T7e74JqCu4NPkrmKY7Q7zlckKHDBHEUlQVICbYE91ssLmOfzPGefOBuFjDXkC4BVpcVjaM/mioEi+Zc/77yYyyqOoIGsXdg6ft1zwbU8Hhjt1qF7wCoQB8OQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_d55dd0bf026b21da\",\"quote\":\"Net income attributable to 3M $ 5,349 $ 4,858\"},{\"source_id\":\"ch_d55dd0bf026b21da\",\"quote\":\"Net income including noncontrolling interest $ 5,363 $ 4,869\"}],\"rationale\":\"Retrieved net income figures for 2017 and 2018 from 3M's Consolidated Statement of Income in Item 8. Net income attributable to 3M was $4,858 million in 2017 and $5,349 million in 2018 (an increase of 10.101%, or 10.1% rounded to one decimal place). Total net income including noncontrolling interest was $4,869 million in 2017 and $5,363 million in 2018 (an increase of 10.146%, or 10.1% rounded to one decimal place).\",\"confidence\":1,\"answer\":\"3M's net income attributable to 3M changed from $4,858 million in fiscal year 2017 to $5,349 million in fiscal year 2018, representing an increase of 10.1% (calculated as (5349 - 4858) / 4858 * 100). If using total net income including noncontrolling interest ($4,869 million in 2017 to $5,363 million in 2018), the change is an increase of 10.1% (calculated as (5363 - 4869) / 4869 * 100).\",\"needs_review\":false}",
+        "name": "submit_answer"
+       },
+       "id": "call_34125",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833368,
+  "id": "FzXNap2QIMrjrfcPnpb_8Ao",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 439,
+   "prompt_tokens": 8158,
+   "prompt_tokens_details": {
+    "cached_tokens": 6071
+   },
+   "total_tokens": 8597
+  }
+ }
+}

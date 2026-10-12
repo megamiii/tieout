@@ -159,28 +159,40 @@ After `tieout data index`: 705 sections and 13,003 chunks (bge-small-en-v1.5, 38
 
 ## Evaluation
 
-<!-- TODO: fill in with real results -->
+Results for the full agent (agent + hybrid RAG + XBRL + calculator) on `gemini-3.5-flash-lite` (Gemini free tier), measured 2026-10-09 to 2026-10-13. Full report: [evals/reports/eval.md](evals/reports/eval.md).
 
 | Metric | Description | Result |
 |---|---|---|
-| FinanceBench accuracy | Correct answers on the open-source sample (graded by numeric tolerance or an LLM judge) | _TODO_ |
-| XBRL numeric accuracy | Exact-match on generated numeric questions | _TODO_ |
-| Citation precision | Cited passages actually support the answer | _TODO_ |
-| Abstention quality | "Needs review" used for genuinely hard cases, not easy ones | _TODO_ |
-| Cost per question | Average LLM cost | _TODO_ |
-| Latency | p50 / p95 per question | _TODO_ |
+| FinanceBench accuracy | Correct answers on the 70 open-source FinanceBench questions about the supported 10-Ks (numeric tolerance or an LLM judge) | **85.7%** (60/70; 95% CI 75.7–92.1%) vs 44.3% for the baseline |
+| XBRL numeric accuracy | 40 generated questions with exact ground truth, graded within 0.5% (lookups) or 1% (growth rates) | **90.0%** (36/40; 95% CI 76.9–96.0%) vs 55.0% for the baseline |
+| Citation precision | Share of citations that point at the gold evidence (definition below) | 71.9% on FinanceBench (196 citations), 55.6% on XBRL (63) |
+| Abstention quality | Answered rate, and precision / recall of "needs review" | 80.0% answered on FinanceBench; of answers sent to review, 35.7% were actually wrong (precision); of wrong answers, 50.0% were sent to review (recall) |
+| Usage per question | LLM requests and tokens (the free tier has no dollar cost) | 6.5 requests, 31.8k tokens on FinanceBench; 5.0 requests, 19.6k tokens on XBRL; $0 |
+| Latency | p50 / p95 per question | 8.3 s / 28.9 s on FinanceBench, 4.5 s / 17.7 s on XBRL (from the live run; see note) |
 
 **Experiments**
 
-| Configuration | FinanceBench accuracy | Cost/question |
-|---|---|---|
-| Single prompt, vector RAG only (baseline) | _TODO_ | _TODO_ |
-| Agent + hybrid RAG | _TODO_ | _TODO_ |
-| Agent + hybrid RAG + XBRL + calculator | _TODO_ | _TODO_ |
+| Configuration | FinanceBench accuracy | XBRL numeric accuracy | Requests / tokens per question (FinanceBench) |
+|---|---|---|---|
+| Single prompt, vector RAG only (baseline) | 44.3% | 55.0% | 1.0 / 2.7k |
+| Agent + hybrid RAG | 84.3% | 87.5% | 6.4 / 32.9k |
+| Agent + hybrid RAG + XBRL + calculator | 85.7% | 90.0% | 6.5 / 31.8k |
+
+All three configurations use the same model, citation rules, confidence threshold (0.7) and graders; each question was run once at temperature 0.
+
+**What the results say**
+
+- **The agent loop is where the gain comes from.** Going from one prompt over retrieved chunks to an agent that searches iteratively, reads whole pages and must pass citation checks raises FinanceBench accuracy from 44.3% to 84.3%. The agent got 31 questions right that the baseline missed and 3 wrong that it got right (exact McNemar test, p < 10⁻⁶); on the XBRL set, 14 vs 1 (p ≈ 0.001).
+- **XBRL + calculator help where expected, but the overall accuracy difference is within noise.** They raise FinanceBench numeric accuracy (78.3% → 87.0%), citation precision (63.6% → 71.9% on FinanceBench, 42.0% → 55.6% on XBRL) and XBRL accuracy when answered (89.7% → 94.7%). Overall accuracy moves 84.3% → 85.7% on FinanceBench and 87.5% → 90.0% on XBRL, but the two agents disagree on only 9 and 5 questions (p = 1.0 for both): with 70 and 40 questions, the confidence intervals are about ±8–10 points, so this eval cannot tell these two configurations apart on accuracy alone.
+- **The strict "no unverified arithmetic" rule trades coverage for verifiability.** The full agent answers 80.0% of FinanceBench questions versus 87.1% for the agent without a calculator (which has no figure check), and most of what it sends to review is actually correct (abstention precision 35.7%): the model summed or averaged figures itself instead of calling `calculate`, and the validator correctly refused to accept unverified arithmetic. In audit work that is the intended behaviour, but it shows up as lower coverage. Ways to recover coverage without dropping the rule (prompting the model to compute intermediate values with `calculate`, or letting the validator re-derive simple sums of cited figures) are open next steps.
+- **The baseline abstains precisely but often.** It answers only 50% of FinanceBench questions, and 91% of what it declines it would have gotten wrong: one prompt over eight vector-retrieved chunks frequently lacks the table it needs and says so.
+- **Cost:** the agent uses about 6.5 LLM requests and 12× the tokens of the baseline per question. On the free tier that means requests per day, not money, is the limit: the full eval took four quota days.
+- **Caveats:** one run per question (no variance across seeds), small sets, an LLM judge that is lenient on figures inside text answers (see the spot check below), and a numeric set whose ground truth comes from XBRL, which favours the XBRL tool by construction.
+- **Latency note:** the full agent's final run replayed its recorded steps (after the validator fixes below), and replays are excluded from latency, so its latency is taken from its live run (the archived v1 row in the report: same model and the same step sequence up to the validator change).
 
 ### How the eval works (milestone 5)
 
-Status: in progress. The free tier allows 500 agent requests a day, so the three experiments run over several days; the table above is filled in only once all of them have finished. Interim numbers are in [evals/reports/eval.md](evals/reports/eval.md), with `graded/n` per row.
+Status: complete (all 110 questions graded for each configuration). The free tier allows 500 agent requests a day, so the runs were spread over four quota days.
 
 - **Set A, FinanceBench:** the 70 open-source FinanceBench questions about the supported 10-Ks (23 with a numeric gold answer, 47 text). Gold evidence pages and the figures in the gold evidence passages are kept for citation scoring.
 - **Set B, XBRL numeric:** 40 questions generated from XBRL with exact `Decimal` ground truth: 20 single-value lookups ("Nike's total revenue in fiscal year 2023, in USD millions") and 20 year-over-year % changes (which need the calculator), sampled round-robin across companies (2–4 each). Growth questions are only generated where the prior year was never restated, so there is one right answer. The ground truth comes from XBRL, so this set favours the XBRL tool by construction.
@@ -194,6 +206,16 @@ Status: in progress. The free tier allows 500 agent requests a day, so the three
 - The validator parsed "fiscal year 2015," as the figure `2015,` and rejected correct answers; numbers now require a thousands separator to be followed by exactly three digits.
 - In the first agent pass, 21 of 32 FinanceBench runs ended without a valid answer (12 out of steps, 9 over a 30k-token budget): the model first submitted on the last step, so any rejection ended the run. One rejection was a fabricated quote ("3,541" where the source says 4,134), which the validator correctly caught. `submit_answer` is now forced on the last two of eight steps, the run budget is 60k tokens (requests, not tokens, are Gemini's binding limit), and the schema states that quotes must be under 300 characters and that calculate results are not citable. In a 5-question re-run, all 5 ended with a validated answer or an explicit review decision.
 - The first citation-precision rule (gold page or gold value) scored correct XBRL citations as unsupported on text questions (22%); a looser second rule credited coincidences ("31", figures 0.5% apart) and inflated the baseline from 47.8% to 89.6%. The current rule is described above, and both failure modes have tests.
+
+**Validator changes measured during the eval** (the full agent was re-run after each; recorded steps replay from the cache, so each re-run cost a handful of requests):
+
+| Validator | FinanceBench answered | accuracy | abstention precision / recall | What changed |
+|---|---|---|---|---|
+| v1 (archived) | 75.7% | 85.7% | 35.3% / 60.0% | — |
+| v2 | 77.1% | 85.7% | 37.5% / 60.0% | figures that appear in the question count as supported ("more than 20% of revenue?") |
+| current | 80.0% | 85.7% | 35.7% / 50.0% | dates and references ("December 31", "Note 21") are not figures |
+
+The v2 hypothesis (that question figures caused most of the over-abstention) was wrong: it changed one answer. Inspecting the 10 correct answers still sent to review showed 6 were unverified in-head arithmetic (the rule working as intended), 2 were date/reference false positives (fixed in the current validator) and 2 were quotes that don't match their source exactly.
 
 ### Retrieval (milestone 2)
 
@@ -264,7 +286,7 @@ _TODO: add the MCP client config snippet._
 - [x] 2. Parsing (10-K sections with page numbers) + hybrid retrieval, with a retrieval eval
 - [x] 3. Agent loop with one tool
 - [x] 4. All tools + answer validation (first live run recorded on Gemini; see below)
-- [ ] 5. Evals
+- [x] 5. Evals
 - [x] 6. UI + review queue
 - [ ] 7. Tie-out + analytical review
 - [ ] 8. Tracing

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TE4R7fj6gEtBoPjiGMQIl+2pbfKMvrcfuHKLSHJSauy4FTIvuGJvOIxEPn8+FNj+k+ol3FumJkBkKvl3j9yufbmfL/L2hT4wtqZYWl6EiCv31aLixzRWfESY="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_eff10dd0e23194b0\",\"quote\":\"Purchase of premises and equipment, net of sales: 2022, $1; 2021, $88; 2020, $1 (1,855) (1,550) (1,478)\"}],\"confidence\":1,\"rationale\":\"The cash flow statement line item 'Purchase of premises and equipment, net of sales' gives $1,550 million for 2021 and $1,855 million for 2022. The percentage change is calculated as (1,855 - 1,550) / 1,550 * 100 = 19.677%, which rounds to 19.7%.\",\"answer\":\"American Express's capital expenditures (specifically reported as \\\"Purchase of premises and equipment, net of sales\\\") were $1,550 million in fiscal year 2021 and $1,855 million in fiscal year 2022. This represents an increase of approximately 19.7% (or 19.677%).\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_48346",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791832997,
+  "id": "pDPNao7rA7_01e8Pr8fAsQI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 285,
+   "prompt_tokens": 8278,
+   "total_tokens": 8563
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TJY/Qyd7zZEKh0H3m2zjfAero8sRrdfCHE4pkyyo4T6urBG4vNUGMGavfo2eXKAVp9Pac4fISqr+sxN/D4yRQbymhYm2bc4EymKT4fpOArZZQcR0e9vcHmkg="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Boeing FY2022 10-K is not supported\",\"ticker\":\"BA\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_30303",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833056,
+  "id": "4DPNapLWDv-D2roPwMLH8Ao",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 1532,
+   "total_tokens": 1578
+  }
+ }
+}

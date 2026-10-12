@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Earnings Net income fiscal 2018 fiscal 2019",
+  "ticker": "BBY",
+  "fiscal_year": 2019,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_528c8b78584fc423",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 85,
+    "text": "Table of Contents In accordance with SAB 118, we completed the accounting for the income tax effects of the Tax Act and recorded the following adjustments to the provisional tax expense during fiscal 2019: (1) a $20 million reduction to the deemed repatriation tax liability, resulting in a final tax liability of $189 million , and (2) a $3 million reduction to the revaluation of deferred tax assets and liabilities to reflect the new tax rate, resulting in a net revaluation charge of $71 million . For periods beginning after January 1, 2018, the Tax Act created a new requirement to include certain earnings of foreign subsidiaries, known as global intangible low tax income (“GILTI”), in U.S. taxable income. Under U.S. GAAP, a company can make an accounting policy election to either recognize deferred taxes for basis differences expected to reverse as GILTI or record the tax on these earnings as a current period expense when incurred. During the fourth quarter of fiscal 2019, we elected t…"
+   },
+   {
+    "chunk_id": "ch_04f87848453dd07f",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 90,
+    "text": "Table of Contents (1) Refer to Item 1, Business , of this Annual Report on Form 10-K for additional information regarding the key components of each revenue category. GreatCall results of operations from the date of acquisition were included within the Domestic segment and Services revenue category. (2) The Domestic segment operating income includes certain operations that are based in foreign tax jurisdictions and primarily relate to sourcing products into the U.S. Geographic Information The following table presents our geographic information in fiscal 2019 , fiscal 2018 and fiscal 2017 ($ in millions): 2019 2018 2017 Revenue from external customers United States $ 39,304 $ 38,662 $ 36,248 Canada 3,214 3,187 2,899 Other 361 302 256 Total revenue from external customers $ 42,879 $ 42,151 $ 39,403 Long-lived assets United States $ 2,321 $ 2,205 $ 2,120 Canada 161 190 156 Other 28 26 17 Total long-lived assets $ 2,510 $ 2,421 $ 2,293 15. Quarterly Financial Information (Unaudited) The fo…"
+   },
+   {
+    "chunk_id": "ch_ce3fdd0f1f38f862",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 91,
+    "text": "quarter, fourth quarter and year ended February 2, 2019, respectively, and $(5) million and $(5) million related to the revaluation of deferred tax assets and liabilities recorded in the fiscal third quarter and year ended February 2, 2019, respectively. (4) The sum of our quarterly diluted earnings per share does not equal our annual diluted earnings per share due to differences in quarterly and annual weighted-average shares outstanding. (5) Includes $0 million , $2 million , $(2) million and $10 million of restructuring charges (benefit) recorded in the fiscal first, second, third and fourth quarters of 2018, respectively, and $10 million for the fiscal year ended February 3, 2018, related to measures we took to restructure our businesses. Also includes $80 million related to a one-time bonus for certain employees and $20 million related to a one-time contribution to the Best Buy Foundation in response to future tax savings created by the Tax Act for the fiscal fourth quarter and ye…"
+   },
+   {
+    "chunk_id": "ch_f40c25b0f2a5cb3d",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 73,
+    "text": "Table of Contents The following table presents the effects of derivatives not designated as hedging instruments on our Consolidated Statements of Earnings for fiscal 2019 and fiscal 2018 ($ in millions): Gain (Loss) Recognized Contract Type Statement of Earnings Location 2019 2018 No hedge designation (foreign exchange contracts) SG&A $ 4 $ (3) The following table presents the effects of interest rate derivatives and adjustments to the carrying value of long-term debt on our Consolidated Statements of Earnings for fiscal 2019 and fiscal 2018 ($ in millions): Gain (Loss) Recognized Contract Type Statement of Earnings Location 2019 2018 Interest rate swap contracts Interest expense $ 31 $ (18) Adjustments to carrying value of long-term debt Interest expense (31) 18 Total $ — $ — The following table presents the notional amounts of our derivative instruments at February 2, 2019 , and February 3, 2018 ($ in millions): Notional Amount Contract Type February 2, 2019 February 3, 2018 Derivati…"
+   },
+   {
+    "chunk_id": "ch_875b47a8cab19292",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Table of Contents Consolidated Statements of Earnings $ and shares in millions, except per share amounts Fiscal Years Ended February 2, 2019 February 3, 2018 January 28, 2017 Revenue $ 42,879 $ 42,151 $ 39,403 Cost of goods sold 32,918 32,275 29,963 Gross profit 9,961 9,876 9,440 Selling, general and administrative expenses 8,015 8,023 7,547 Restructuring charges 46 10 39 Operating income 1,900 1,843 1,854 Other income (expense): Gain on sale of investments 12 1 3 Investment income and other 49 48 31 Interest expense (73) (75) (72) Earnings from continuing operations before income tax expense 1,888 1,817 1,816 Income tax expense 424 818 609 Net earnings from continuing operations 1,464 999 1,207 Gain from discontinued operations (Note 3), net of tax expense of $0, $0 and $7, respectively — 1 21 Net earnings $ 1,464 $ 1,000 $ 1,228 Basic earnings per share Continuing operations $ 5.30 $ 3.33 $ 3.79 Discontinued operations — — 0.07 Basic earnings per share $ 5.30 $ 3.33 $ 3.86 Diluted ea…"
+   }
+  ]
+ }
+}

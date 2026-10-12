@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TnRXK9mXQ3Km+dFUjBS/+E2YeHD5eISpWV0knTb842XbO9N/QH09WdvbeId5Mhkyc8QjhwJ3OVqMLwVA/8v1xf80/jLBelpyrXxTBAPb+Rg3FbN/BXCckyIA="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"Net earnings $ 1,419 $ 2,454 $ 1,798\",\"source_id\":\"ch_47bb73bb244b2319\"}],\"needs_review\":false,\"confidence\":1,\"rationale\":\"Net income (net earnings) for fiscal 2022 was $2,454 million and for fiscal 2023 was $1,419 million. The percentage change is (1419 - 2454) / 2454 = -1035 / 2454 = -42.176%, which rounds to -42.2%.\",\"answer\":\"Best Buy's net income (net earnings) decreased from $2,454 million in fiscal year 2022 to $1,419 million in fiscal year 2023, representing a decrease of 42.2%.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_130093",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833181,
+  "id": "XDTNarvfNKTY9tMPvtv_qAI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 229,
+   "prompt_tokens": 8408,
+   "total_tokens": 8637
+  }
+ }
+}

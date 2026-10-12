@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TonFeCSDLFP5ll/d18XrjVdHzNGbT3zkburIoCulFAuzviPysUfKiUE8GTixCfPWA8/RyQPjBj0PK/Ik6dGFQZkTGsVvfUbIAr1mGy8MSzm5AempGiZVapUM="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"ticker\":\"GLW\",\"query\":\"Consolidated Statements of Income Research, development and engineering\"}",
+        "name": "search_filings"
+       },
+       "id": "call_63005",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833354,
+  "id": "CTXNavTnLbXo2roP39aUyA0",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 42,
+   "prompt_tokens": 3692,
+   "total_tokens": 3734
+  }
+ }
+}

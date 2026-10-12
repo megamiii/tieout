@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TsYoo7gSVMw3pGmVbMWDeAiKCz+2Yi90cfxfYDixhYMkogQanXCVDFbbMbAC6vgj10NTm3o2/NtB4/WED+cFZZIoOVy7Fk+YsWdI/vQBAUGjv6x7bAruUM9w="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"Verizon's Consolidated Statements of Income reports Net Income of $21,748 million and Net Income attributable to Verizon of $21,256 million for the fiscal year ended December 31, 2022.\",\"citations\":[{\"quote\":\"Net Income $ 21,748 $ 22,618 $ 18,348\",\"source_id\":\"ch_e128c9d3d7199637\"},{\"source_id\":\"ch_e128c9d3d7199637\",\"quote\":\"Net income attributable to Verizon 21,256 22,065 17,801\"}],\"confidence\":1,\"needs_review\":false,\"answer\":\"In fiscal year 2022, Verizon's net income was $21,748 million (and net income attributable to Verizon was $21,256 million).\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_72777",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833545,
+  "id": "yDXNauyoJMbs1e8PnIuVcA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 236,
+   "prompt_tokens": 5680,
+   "prompt_tokens_details": {
+    "cached_tokens": 2016
+   },
+   "total_tokens": 5916
+  }
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TW7H1tjYM67k1FiMBg584lFbLVUFnnYuRY13njd0JG1VTbOgG3D+Hd0BTqOXuKwejAP3o3mJbGO8yILyfCrxQ0BDnkf0aEJ3WLvZ4KRQw8RrufLkBhuQfeoo="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_09bec6e2e4aa68dd\",\"quote\":\"Total assets $ 3,109 $ 3,767\"},{\"quote\":\"Total assets $ 3,109 $ 3,767 $ 4,337 $ 4,000 $ 4,954\",\"source_id\":\"ch_c7d1378f964d8486\"}],\"confidence\":1,\"rationale\":\"Total assets for FY2014 ($3,767 million) and FY2015 ($3,109 million) are obtained from AMD's Consolidated Balance Sheets in the 2015 10-K. The percentage change is (3,109 - 3,767) / 3,767 * 100 = -17.467%, which rounds to -17.5%.\",\"answer\":\"AMD's total assets decreased from $3,767 million in fiscal year 2014 (as of December 27, 2014) to $3,109 million in fiscal year 2015 (as of December 26, 2015), representing a decrease of approximately 17.5% (-17.5%).\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_34181",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791832863,
+  "id": "HjPNaqGZK_bT1e8Ph-v8yAI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 326,
+   "prompt_tokens": 8279,
+   "total_tokens": 8605
+  }
+ }
+}

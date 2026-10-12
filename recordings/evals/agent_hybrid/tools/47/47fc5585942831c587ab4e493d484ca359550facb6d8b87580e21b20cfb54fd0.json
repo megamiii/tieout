@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Cash Flows Net cash provided by operating activities Boeing 2022 2021",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_c0ec956f9687e5a4",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 59,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Cash Flows (Dollars in millions) Years ended December 31, 2022 2021 2020 Cash flows – operating activities: Net loss ($5,053) ($4,290) ($11,941) Adjustments to reconcile net loss to net cash used by operating activities: Non-cash items – Share-based plans expense 725 833 250 Treasury shares issued for 401(k) contribution 1,215 1,233 195 Depreciation and amortization 1,979 2,144 2,246 Investment/asset impairment charges, net 112 98 410 Customer financing valuation adjustments 37 12 Gain on dispositions, net (6) (277) (202) 787 and 777X reach-forward losses 3,460 6,493 Other charges and credits, net 364 360 1,462 Changes in assets and liabilities – Accounts receivable 142 (713) 909 Unbilled receivables 6 (586) 919 Advances and progress billings 108 2,505 (1,060) Inventories 420 (1,127) (11,002) Other current assets (591) 345 372 Accounts payable 838 (3,783) (5,363) Accrued liabilities 2,956 (3,687) 1,074 Inc…"
+   },
+   {
+    "chunk_id": "ch_df338af857ec23b6",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 84,
+    "text": "Table of Contents As of December 31, 2022, undiscounted cash flows for notes receivable, sales-type/finance and operating leases over the next five years and thereafter are as follows: Notes receivable Sales- type/finance leases Operating leases Year 1 $201 $239 $61 Year 2 18 161 50 Year 3 19 131 47 Year 4 21 118 43 Year 5 22 116 43 Thereafter 104 159 61 Total financing receipts 385 924 305 Less imputed interest (206) Estimated unguaranteed residual values 86 Total $385 $804 $305 At December 31, 2022 and December 31, 2021, unguaranteed residual values were $86 and $110. Guaranteed residual values at December 31, 2022 were not significant. Note 10 – Property, Plant and Equipment Property, plant and equipment at December 31 consisted of the following: 2022 2021 Land $376 $377 Buildings and land improvements 14,404 14,152 Machinery and equipment 15,844 15,692 Construction in progress 1,368 1,235 Gross property, plant and equipment 31,992 31,456 Less accumulated depreciation (21,442) (20,5…"
+   },
+   {
+    "chunk_id": "ch_6acac840694fe0ee",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 119,
+    "text": "Table of Contents REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM To the shareholders and the Board of Directors of The Boeing Company Opinion on the Financial Statements We have audited the accompanying consolidated statements of financial position of The Boeing Company and subsidiaries (the \"Company\") as of December 31, 2022 and 2021, the related consolidated statements of operations, comprehensive income, equity, and cash flows, for each of the three years in the period ended December 31, 2022, and the related notes (collectively referred to as the \"financial statements\"). In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of December 31, 2022 and 2021, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2022, in conformity with accounting principles generally accepted in the United States of America. We have also audited, in accordance with …"
+   },
+   {
+    "chunk_id": "ch_3c1bcb4812059ee7",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 59,
+    "text": "Other 307 304 235 Net cash provided/(used) by operating activities 3,512 (3,416) (18,410) Cash flows – investing activities: Payments to acquire property, plant and equipment (1,222) (980) (1,303) Proceeds from disposals of property, plant and equipment 35 529 296 Acquisitions, net of cash acquired (6) Contributions to investments (5,051) (35,713) (37,616) Proceeds from investments 10,619 45,489 20,275 Other (11) 5 (18) Net cash provided/(used) by investing activities 4,370 9,324 (18,366) Cash flows – financing activities: New borrowings 34 9,795 47,248 Debt repayments (1,310) (15,371) (10,998) Stock options exercised 50 42 36 Employee taxes on certain share-based payment arrangements (40) (66) (173) Dividends paid (1,158) Net cash (used)/provided by financing activities (1,266) (5,600) 34,955 Effect of exchange rate changes on cash and cash equivalents (73) (39) 85 Net increase/(decrease) in cash & cash equivalents, including restricted 6,543 269 (1,736) Cash & cash equivalents, inclu…"
+   },
+   {
+    "chunk_id": "ch_157617f2685c6426",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 118,
+    "text": "Table of Contents Assets Segment assets are summarized in the table below. December 31, 2022 2021 Commercial Airplanes $75,212 $75,863 Defense, Space & Security 14,426 14,974 Global Services 16,149 16,397 Boeing Capital 1,510 1,735 Unallocated items, eliminations and other 29,803 29,583 Total $137,100 $138,552 Assets included in Unallocated items, eliminations and other primarily consist of Cash and cash equivalents, Short-term and other investments, tax assets, capitalized interest, and assets managed centrally on behalf of the four principal business segments and intercompany eliminations. Capital Expenditures Years ended December 31, 2022 2021 2020 Commercial Airplanes $218 $177 $322 Defense, Space & Security 202 199 172 Global Services 130 94 127 Unallocated items, eliminations and other 672 510 682 Total $1,222 $980 $1,303 Capital expenditures for Unallocated items, eliminations and other relate primarily to assets managed centrally on behalf of the four principal business segment…"
+   }
+  ]
+ }
+}

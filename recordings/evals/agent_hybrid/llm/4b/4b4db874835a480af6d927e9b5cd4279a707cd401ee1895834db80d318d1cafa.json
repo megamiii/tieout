@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TxwOdms/JlyEbAYUscB7xzZXqNyHo/nlMx11CMjDpzRO/u6Ir7u9dBFbsFwb+Nd9SsXJGqQq9eTFXmEJlT22xab8H3KQocCL+8PYdnmaRbHoptpHj3RYYnjI="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"confidence\":1,\"answer\":\"AMD's net cash provided by operating activities changed from $3,521 million in fiscal year 2021 to $3,565 million in fiscal year 2022, representing an increase of approximately 1.25% (or 1.3% rounded to one decimal place).\",\"citations\":[{\"source_id\":\"ch_d47a8b02d8d2e8ce\",\"quote\":\"Operating activities $ 3,565 $ 3,521\"}],\"rationale\":\"Net cash provided by operating activities was $3,521 million for fiscal year 2021 and $3,565 million for fiscal year 2022. The percentage change is (3,565 - 3,521) / 3,521 * 100 = 1.24965%, which rounds to 1.3%.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_37114",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791832877,
+  "id": "LDPNarenBPja9tMP56atUA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 233,
+   "prompt_tokens": 7157,
+   "total_tokens": 7390
+  }
+ }
+}

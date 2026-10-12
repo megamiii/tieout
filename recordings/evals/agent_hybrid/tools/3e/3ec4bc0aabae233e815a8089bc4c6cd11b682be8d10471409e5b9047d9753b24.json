@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "revenue net sales consolidated statements of income",
+  "ticker": "AMCR",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_1550f825fb34813b",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 55,
+    "text": "highly inflationary accounting was $27.7 million and $30.2 million for the fiscal years ended June 30, 2020 and 2019, respectively, in the consolidated statement of income. Revenue Recognition: The Company generates revenue by providing its customers with flexible and rigid packaging serving a variety of markets including food, consumer products and healthcare end markets. The Company enters into a variety of agreements with customers, including quality agreements, pricing agreements and master supply agreements which outline the terms under which the Company does business with a specific customer. The Company also sells to some customers solely based on purchase orders. The Company has concluded for the vast majority of its revenues, that its contracts with customers are either a purchase order or the combination of a purchase order with a master supply agreement. All revenue recognized in the consolidated statement of income is considered to be revenue from contracts with customers. …"
+   },
+   {
+    "chunk_id": "ch_98865594d23ec74b",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 55,
+    "text": "the supplied packaging. Therefore, the Company has concluded that it has one performance obligation to supply packaging to customers. The Company may provide variable consideration in several forms which are determined through its agreements with customers. The Company can offer prompt payment discounts, sales rebates or other incentive payments to customers. Sales rebates and other incentive payments are typically awarded upon achievement of certain performance metrics, including volume. The Company accounts for variable consideration using the most likely amount method. The Company utilizes forecasted sales data and rebate percentages specific to each customer agreement and updates its judgment of the amounts to which the customer is entitled each period. The Company enters into long term agreements with certain customers, under which it is obligated to make various up-front payments for which it expects to receive a benefit in excess of the cost over the term of the contract. These …"
+   },
+   {
+    "chunk_id": "ch_e05219db5ccb63ee",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 54,
+    "text": "Note 2 - Significant Accounting Policies Basis of Presentation and Principles of Consolidation: The consolidated financial statements include the accounts of the Company and its majority owned subsidiaries. All intercompany transactions and balances have been eliminated. The consolidated financial statements are prepared in accordance with accounting principles generally accepted in the United States of America (\"U.S. GAAP\"). Business Combinations: The Company uses the acquisition method of accounting, which requires separate recognition of assets acquired and liabilities assumed from goodwill, at the acquisition date fair values. Goodwill as of the acquisition date is measured as the excess of consideration transferred and the fair value of any non-controlling interests in the acquiree over the net of the acquisition date fair values of the assets acquired and liabilities assumed. During the measurement period, which may be up to one year from the acquisition date, the Company has the…"
+   },
+   {
+    "chunk_id": "ch_15c16ce5b8d741d7",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 45,
+    "text": "The critical audit matter communicated below is a matter arising from the current period audit of the consolidated financial statements that was communicated or required to be communicated to the audit committee and that (i) relates to accounts or disclosures that are material to the consolidated financial statements and (ii) involved our especially challenging, subjective, or complex judgments. The communication of critical audit matters does not alter in any way our opinion on the consolidated financial statements, taken as a whole, and we are not, by communicating the critical audit matter below, providing a separate opinion on the critical audit matter or on the accounts or disclosures to which it relates. Goodwill Impairment Assessment - Flexibles North America and Flexibles Latin America Reporting Units within the Flexibles Segment As described in Notes 2 and 9 to the consolidated financial statements, the Company's consolidated goodwill balance was $5,339.3 million at June 30, 2…"
+   },
+   {
+    "chunk_id": "ch_2d202140d8b959ce",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 55,
+    "text": "The Company excluded from the measurement of the transaction price all taxes assessed by a government authority that are both imposed on and concurrent with a specific revenue producing transaction and collected from the customer, including sales taxes, value added taxes, excise taxes and use taxes. Accordingly, the tax amounts are not included in net sales. The Company does not adjust the promised consideration for the time value of money for contracts where the difference between the time of payment and performance is one year or less. Research and Development: Research and development expenditures are expensed as incurred. Restructuring Costs: Restructuring costs are recognized when the liability is incurred. The Company calculates severance obligations based on its standard customary practices. Accordingly, the Company records provisions for severance when probable and estimable and the Company has committed to the restructuring plan. In the absence of a standard customary 55"
+   }
+  ]
+ }
+}

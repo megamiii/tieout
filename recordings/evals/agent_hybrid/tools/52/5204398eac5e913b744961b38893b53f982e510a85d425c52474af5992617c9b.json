@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net sales 17,626.6 16,865.2",
+  "ticker": "GIS",
+  "fiscal_year": 2020,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_0556722df84109fc",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 90,
+    "text": "90 Our operating segment results were as follows: Fiscal Year In Millions 2020 2019 2018 Net sales: North America Retail $ 10,750.5 $ 9,925.2 $ 10,115.4 Europe & Australia 1,838.9 1,886.7 1,984.6 Convenience Stores & Foodservice 1,816.4 1,969.1 1,930.2 Pet 1,694.6 1,430.9 - Asia & Latin America 1,526.2 1,653.3 1,710.2 Total $ 17,626.6 $ 16,865.2 $ 15,740.4 Operating profit: North America Retail $ 2,627.0 $ 2,277.2 $ 2,217.4 Europe & Australia 113.8 123.3 142.1 Convenience Stores & Foodservice 337.2 419.5 392.6 Pet 390.7 268.4 - Asia & Latin America 18.7 72.4 39.6 Total segment operating profit $ 3,487.4 $ 3,160.8 $ 2,791.7 Unallocated corporate items 509.1 339.8 206.2 Divestitures loss - 30.0 - Restructuring, impairment, and other exit costs 24.4 275.1 165.6 Operating profit $ 2,953.9 $ 2,515.9 $ 2,419.9 Net sales for our North America Retail operating units were as follows: Fiscal Year In Millions 2020 2019 2018 U.S. Meals & Baking $ 4,408.5 $ 3,839.8 $ 3,865.7 U.S. Cereal 2,434.1 2,2…"
+   },
+   {
+    "chunk_id": "ch_50d2dd2067e3eb5a",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 91,
+    "text": "91 The following tables provide financial information by geographic area: Fiscal Year In Millions 2020 2019 2018 Net sales: United States $ 13,364.5 $ 12,462.8 $ 11,115.6 Non-United States 4,262.1 4,402.4 4,624.8 Total $ 17,626.6 $ 16,865.2 $ 15,740.4 In Millions May 31, 2020 May 26, 2019 Cash and cash equivalents: United States $ 1,112.0 $ 51.0 Non-United States 565.8 399.0 Total $ 1,677.8 $ 450.0 In Millions May 31, 2020 May 26, 2019 Land, buildings, and equipment: United States $ 2,761.6 $ 2,872.8 Non-United States 819.0 914.4 Total $ 3,580.6 $ 3,787.2 NOTE 18. SUPPLEMENTAL INFORMATION The components of certain Consolidated Balance Sheet accounts are as follows: In Millions May 31, 2020 May 26, 2019 Receivables: Customers $ 1,648.3 $ 1,708.5 Less allowance for doubtful accounts (33.2) (28.8) Total $ 1,615.1 $ 1,679.7 In Millions May 31, 2020 May 26, 2019 Inventories: Finished goods $ 1,142.6 $ 1,245.9 Raw materials and packaging 392.2 434.9 Grain 93.6 92.0 Excess of FIFO over LIFO c…"
+   },
+   {
+    "chunk_id": "ch_ca47e44ccdebe119",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 48,
+    "text": "48 Consolidated Statements of Earnings GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions, Except per Share Data) Fiscal Year 2020 2019 2018 Net sales $ 17,626.6 $ 16,865.2 $ 15,740.4 Cost of sales 11,496.7 11,108.4 10,304.8 Selling, general, and administrative expenses 3,151.6 2,935.8 2,850.1 Divestitures loss - 30.0 - Restructuring, impairment, and other exit costs 24.4 275.1 165.6 Operating profit 2,953.9 2,515.9 2,419.9 Benefit plan non-service income (112.8) (87.9) (89.4) Interest, net 466.5 521.8 373.7 Earnings before income taxes and after-tax earnings from joint ventures 2,600.2 2,082.0 2,135.6 Income taxes 480.5 367.8 57.3 After-tax earnings from joint ventures 91.1 72.0 84.7 Net earnings, including earnings attributable to redeemable and noncontrolling interests 2,210.8 1,786.2 2,163.0 Net earnings attributable to redeemable and noncontrolling interests 29.6 33.5 32.0 Net earnings attributable to General Mills $ 2,181.2 $ 1,752.7 $ 2,131.0 Earnings per share - basic $ 3.59 $ 2…"
+   },
+   {
+    "chunk_id": "ch_015f2132c0d85570",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 90,
+    "text": "$ 3,865.7 U.S. Cereal 2,434.1 2,255.4 2,251.8 U.S. Snacks 2,091.9 2,060.9 2,140.5 U.S. Yogurt and other 919.0 906.7 927.4 Canada 897.0 862.4 930.0 Total $ 10,750.5 $ 9,925.2 $ 10,115.4 Net sales by class of similar products were as follows: Fiscal Year In Millions 2020 2019 2018 Snacks $ 3,529.7 $ 3,487.4 $ 3,549.3 Cereal 2,874.1 2,672.8 2,679.8 Convenient meals 2,814.3 2,538.6 2,572.7 Yogurt 2,056.6 2,113.1 2,235.0 Dough 1,801.1 1,661.9 1,653.4 Pet 1,694.6 1,430.9 - Baking mixes and ingredients 1,674.2 1,663.7 1,709.7 Super-premium ice cream 718.1 812.7 803.2 Vegetables and other 463.9 484.1 537.3 Total $ 17,626.6 $ 16,865.2 $ 15,740.4 During the first quarter of fiscal 2020, we made certain changes in the classification of products and updated fiscal 2019 and fiscal 2018 net sales figures to match the current-year presentation."
+   },
+   {
+    "chunk_id": "ch_2ec432786e29c330",
+    "ticker": "GIS",
+    "fiscal_year": 2020,
+    "section": "Item 8",
+    "page": 55,
+    "text": "consideration payable to our customers, including trade promotion, consumer coupon redemption and other reductions to the transaction price, including estimated allowances for returns, unsalable product, and prompt pay discounts. Sales, use, value-added, and other excise taxes are not included in revenue. Trade promotions are recorded using significant judgment of estimated participation and performance levels for offered programs at the time of sale. Differences between estimated and actual reductions to the transaction price are recognized as a change in estimate in a subsequent period. We generally do not allow a right of return. However, on a limited case-by- case basis with prior approval, we may allow customers to return product. In limited circumstances, product returned in saleable condition is resold to other customers or outlets. Receivables from customers generally do not bear interest. Payment terms and collection patterns vary around the world and by channel, and are short…"
+   }
+  ]
+ }
+}

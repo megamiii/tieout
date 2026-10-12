@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net earnings attributable to General Mills",
+  "ticker": "GIS",
+  "fiscal_year": 2019,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5500f4d811242893",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Table of Contents Consolidated Statements of Earnings GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions, Except per Share Data) Fiscal Year 2019 2018 2017 Net sales $ 16,865.2 $ 15,740.4 $ 15,619.8 Cost of sales 11,108.4 10,304.8 10,052.0 Selling, general, and administrative expenses 2,935.8 2,850.1 2,888.8 Divestitures loss 30.0 - 6.5 Restructuring, impairment, and other exit costs 275.1 165.6 180.4 Operating profit 2,515.9 2,419.9 2,492.1 Benefit plan non-service income (87.9) (89.4) (74.3) Interest, net 521.8 373.7 295.1 Earnings before income taxes and after-tax earnings from joint ventures 2,082.0 2,135.6 2,271.3 Income taxes 367.8 57.3 655.2 After-tax earnings from joint ventures 72.0 84.7 85.0 Net earnings, including earnings attributable to redeemable and noncontrolling interests 1,786.2 2,163.0 1,701.1 Net earnings attributable to redeemable and noncontrolling interests 33.5 32.0 43.6 Net earnings attributable to General Mills $ 1,752.7 $ 2,131.0 $ 1,657.5 Earnings per share -…"
+   },
+   {
+    "chunk_id": "ch_71e7fa06daa99ef7",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 46,
+    "text": "Table of Contents Net Debt-to-Adjusted Earnings before Net Interest, Income Taxes, Depreciation and Amortization (EBITDA) Ratio We believe that this measure provides useful information to investors because it is an indicator of our ability to incur additional debt and to service our existing debt. The reconciliation of adjusted EBITDA to net earnings attributable to General Mills on a pro forma basis, its GAAP equivalent, as well as the calculation of the net debt-to-adjusted EBITDA ratio are as follows: Fiscal Year In Millions 2019 2018 Total debt (a) $ 14,490.0 $ 15,818.6 Cash 450.0 399.0 Net debt $ 14,040.0 $ 15,419.6 Net earnings attributable to General Mills, as reported (b) $ 1,752.7 $ 2,252.4 Net earnings attributable to redeemable and noncontrolling interests 33.5 32.0 After-tax earnings from joint ventures (72.0) (84.7) Income taxes 367.8 104.3 Earnings before income taxes and after-tax earnings from joint ventures 2,082.0 2,304.0 Interest, net 521.8 527.8 Depreciation and amo…"
+   },
+   {
+    "chunk_id": "ch_8cc3448a3e64bd72",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 84,
+    "text": "Table of Contents Fiscal 2018 General Mills Noncontrolling Interests Redeemable Interest In Millions Pretax Tax Net Net Net Net earnings, including earnings attributable to redeemable and noncontrolling interests $ 2,131.0 $ 13.4 $ 18.6 Other comprehensive income (loss): Foreign currency translation $ (76.9) $ - (76.9) 13.5 26.4 Net actuarial income 185.5 (45.4) 140.1 - - Other fair value changes: Securities 1.8 (0.6) 1.2 - - Hedge derivatives (64.7) 14.2 (50.5) - (0.3) Reclassification to earnings: Securities (a) (6.6) 1.5 (5.1) - - Hedge derivatives (b) 24.9 (6.4) 18.5 - (1.1) Amortization of losses and prior service costs (c) 176.8 (59.2) 117.6 - - Other comprehensive income 240.8 (95.9) 144.9 13.5 25.0 Total comprehensive income $ 2,275.9 $ 26.9 $ 43.6 (a) Gain reclassified from AOCI into earnings is reported in interest, net for securities. (b) Loss (gain) reclassified from AOCI into earnings is reported in interest, net for interest rate swaps and in cost of sales and SG&A expens…"
+   },
+   {
+    "chunk_id": "ch_3db9c7f411b58908",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 54,
+    "text": "Table of Contents Consolidated Statements of Comprehensive Income GENERAL MILLS, INC. AND SUBSIDIARIES (In Millions) Fiscal Year 2019 2018 2017 Net earnings, including earnings attributable to redeemable and noncontrolling interests $ 1,786.2 $ 2,163.0 $ 1,701.1 Other comprehensive income (loss), net of tax: Foreign currency translation (82.8) (37.0) 6.3 Net actuarial (loss) income (253.4) 140.1 197.9 Other fair value changes: Securities - 1.2 0.8 Hedge derivatives 12.1 (50.8) 53.3 Reclassification to earnings: Securities (2.0) (5.1) - Hedge derivatives 0.9 17.4 (25.7) Amortization of losses and prior service costs 84.6 117.6 122.5 Other comprehensive (loss) income, net of tax (240.6) 183.4 355.1 Total comprehensive income 1,545.6 2,346.4 2,056.2 Comprehensive (loss) income attributable to redeemable and noncontrolling interests (10.7) 70.5 31.0 Comprehensive income attributable to General Mills $ 1,556.3 $ 2,275.9 $ 2,025.2 See accompanying notes to consolidated financial statements. …"
+   },
+   {
+    "chunk_id": "ch_993a5e436ddf65f5",
+    "ticker": "GIS",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 88,
+    "text": "Table of Contents NOTE 12. EARNINGS PER SHARE Basic and diluted EPS were calculated using the following: Fiscal Year In Millions, Except per Share Data 2019 2018 2017 Net earnings attributable to General Mills $ 1,752.7 $ 2,131.0 $ 1,657.5 Average number of common shares—basic EPS 600.4 576.8 587.1 Incremental share effect from: (a) Stock options 3.1 6.9 8.1 Restricted stock units, performance share units, and other 1.9 2.0 2.8 Average number of common shares—diluted EPS 605.4 585.7 598.0 Earnings per share—basic $ 2.92 $ 3.69 $ 2.82 Earnings per share —diluted $ 2.90 $ 3.64 $ 2.77 (a) Incremental shares from stock options, restricted stock units, and performance share units are computed by the treasury stock method. Stock options, restricted stock units, and performance share units excluded from our computation of diluted EPS because they were not dilutive were as follows: Fiscal Year In Millions 2019 2018 2017 Anti-dilutive stock options, restricted stock units, and performance share…"
+   }
+  ]
+ }
+}

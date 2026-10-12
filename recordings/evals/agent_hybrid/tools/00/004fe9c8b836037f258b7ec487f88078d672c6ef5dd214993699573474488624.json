@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Total assets",
+  "ticker": "AMD",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e09fc9152a692c6b",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 74,
+    "text": "3,570 Less: valuation allowance (3,669) (3,495) Total deferred tax assets, net of valuation allowance 66 75 Deferred tax liabilities: Undistributed foreign earnings (33) (37) Other (23) (19) Total deferred tax liabilities (56) (56) Net deferred tax assets $ 10 $ 19 72"
+   },
+   {
+    "chunk_id": "ch_ab3781672b4b7a20",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 71,
+    "text": "Total Fair Value Cash and Cash Equivalents (In millions) December 26, 2015 Cash $ 409 $ 409 Level 2 (2) (3) Commercial paper 376 376 Total level 2 376 376 Total $ 785 $ 785 Total Fair Value Cash and Cash Equivalents Short-Term Marketable Securities (In millions) December 27, 2014 Cash $ 391 $ 391 $ — Level 1 (1) (2) Money market funds 4 4 — Total level 1 4 4 — Level 2 (2) (3) Commercial paper 618 410 208 Corporate bonds 27 — 27 Total level 2 645 410 235 Total $ 1,040 $ 805 $ 235 (1) The Company's Level 1 assets are valued using quoted prices for identical instruments in active markets. (2) The Company did not have any transfers between Level 1 and Level 2 of the fair value hierarchy during 2015 and 2014. (3) The Company's Level 2 short-term investments are valued using broker reports that utilize quoted market prices for identical or comparable instruments. Brokers gather observable inputs for all of the Company's fixed income securities from a variety of industry data providers and ot…"
+   },
+   {
+    "chunk_id": "ch_c8c3cc20863c9ec7",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 68,
+    "text": "NOTE 5: Supplemental Balance Sheet Information Inventories December 26, 2015 December 27, 2014 (In millions) Raw materials $ 16 $ 40 Work in process 482 431 Finished goods 180 214 Total inventories, net $ 678 $ 685 Other current assets December 26, 2015 December 27, 2014 (In millions) Assets held-for-sale $ 183 $ — Other current assets 65 48 Total other current assets $ 248 $ 48 Property, plant and equipment December 26, 2015 December 27, 2014 (In millions) Land and land improvements $ 1 $ 4 Buildings and leasehold improvements 145 246 Equipment 821 1,416 Construction in progress 17 14 Property, plant and equipment, gross 984 1,680 Accumulated depreciation and amortization (796) (1,378) Total property, plant and equipment, net $ 188 $ 302 Depreciation expense for 2015, 2014 and 2013 was $94 million, $115 million and $139 million, respectively. Other assets December 26, 2015 December 27, 2014 (In millions) Software and technology licenses $ 189 $ 219 Other 134 125 Total other assets $ 3…"
+   },
+   {
+    "chunk_id": "ch_2664162ac49382d3",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 70,
+    "text": "impairment analysis, the Company reviewed its long-lived tangible and intangible assets within the Computing and Graphics reporting unit under ASC 360, “Accounting for the Impairment or Disposal of Long-Lived Assets.” The Company determined that the forecasted undiscounted cash flows related to these assets or asset groups were in excess of their carrying values, and therefore these assets were not impaired. In the fourth quarters of 2015 and 2013, the Company conducted its annual impairment tests of goodwill. Based on the results of the Company's analysis of goodwill, each reporting unit's fair value exceeded its carrying value, indicating that there was no goodwill impairment in 2015 and 2013. Acquisition-related intangible assets As a part of the Company's strategy to simplify and sharpen its investment focus, the Company decided to exit the dense server systems business, formerly SeaMicro, in the first quarter of 2015. As a result, the Company recorded a charge of $76 million in “R…"
+   },
+   {
+    "chunk_id": "ch_fe57f506c4eebeb6",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 39,
+    "text": "The transaction is expected to close in the first half of 2016, pending all regulatory and other approvals. As a result of the decision to form the above JVs, the balance sheet as of December 26, 2015, reflects held-for-sale accounting of the ATMP assets and liabilities which requires reclassification of such financial amounts to current assets and current liabilities. We reclassified $183 million to other current assets and $79 million to other current liabilities. Asset balances reclassified into other current assets primarily consist of property, plant, and equipment of $110 million, goodwill of $42 million and inventory of $15 million. Liability balances reclassified into other current liabilities primarily consist of accounts payable of $70 million. The balances included in the final gain/(loss) calculation, at closing, are likely to be different due to normal operational activities occurring through the closing date. Critical Accounting Estimates Our discussion and analysis of ou…"
+   }
+  ]
+ }
+}

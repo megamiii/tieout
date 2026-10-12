@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "operating activities",
+  "ticker": "BBY",
+  "fiscal_year": 2019,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_468a0c65de58edaa",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Table of Contents Consolidated Statements of Cash Flows $ in millions Fiscal Years Ended February 2, 2019 February 3, 2018 January 28, 2017 Operating activities Net earnings $ 1,464 $ 1,000 $ 1,228 Adjustments to reconcile net earnings to total cash provided by operating activities: Depreciation and amortization 770 683 654 Restructuring charges 46 10 39 Stock-based compensation 123 129 108 Deferred income taxes 10 162 201 Other, net (25) (13) (17) Changes in operating assets and liabilities, net of acquired assets and liabilities: Receivables 28 315 (193) Merchandise inventories (194) (335) 199 Other assets (34) (21) 10 Accounts payable 432 (196) 518 Other liabilities (234) 117 23 Income taxes 22 290 (213) Total cash provided by operating activities 2,408 2,141 2,557 Investing activities Additions to property and equipment, net of $53, $123 and $48, respectively, of non-cash capital expenditures (819) (688) (580) Purchases of investments — (4,325) (3,045) Sales of investments 2,098 4,…"
+   },
+   {
+    "chunk_id": "ch_78e0fad0d3ac4815",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 69,
+    "text": "Table of Contents (1) The adjusted fair value of Intangible assets included consumer customer relationships of $235 million (amortized over 5 years ), tradename of $63 million (amortized over 8 years ), developed technology of $52 million (amortized over 5 years ) and commercial customer relationships of $23 million (amortized over 10 years ). (2) Measurement period adjustments included the finalization of the working capital adjustment. 3. Discontinued Operations Discontinued operations reflects activity within our International Segment. Fiscal 2018 activity is primarily related to the proceeds attributed to a non-compete clause from the sale of Best Buy Europe to Carphone Warehouse plc. Fiscal 2017 activity is primarily related to the sale of remaining Five Star property assets that were held for sale as of January 30, 2016. Fiscal 2019 had no financial results from discontinued operations. The aggregate financial results of all discontinued operations for fiscal 2018 and fiscal 2017…"
+   },
+   {
+    "chunk_id": "ch_5c9b5a41be85874b",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 57,
+    "text": "In order to align our fiscal reporting periods and comply with statutory filing requirements, we consolidate the financial results of our Mexico operations on a one - month lag. Our policy is to accelerate recording the effect of events occurring in the lag period that significantly affect our consolidated financial statements. No significant intervening event occurred in these operations that would have materially affected our financial condition, results of operations, liquidity or other factors had it been recorded during fiscal 2019, fiscal 2018 or fiscal 2017. Discontinued Operations Discontinued operations are primarily comprised of activity related to Jiangsu Five Star Appliance Co., Limited (\"Five Star\") within our International segment. Refer to Note 3, Discontinued Operations , for further information. Use of Estimates in the Preparation of Financial Statements The preparation of financial statements in conformity with accounting principles generally accepted in the U.S. (\"GA…"
+   },
+   {
+    "chunk_id": "ch_be68316000a5b6fa",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 61,
+    "text": "2-15 Property under capital and financing leases 3-7 Impairment of Long-Lived Assets and Costs Associated With Exit Activities Long-lived assets are evaluated for impairment whenever events or changes in circumstances indicate the carrying value of an asset may not be recoverable. Factors considered important that could result in an impairment review include, but are not limited to, negative operating income for the most recent 12-month period, significant under-performance relative to historical or planned operating results, significant changes in the manner of use or expected life of the assets or significant changes in our business strategies. An impairment loss is recognized when the estimated undiscounted cash flows expected to result from the use of the asset plus net proceeds expected from the disposition of the asset, if any, are less than the carrying value of the asset net of other liabilities. When an impairment loss is recognized, the carrying amount of the asset is reduced…"
+   },
+   {
+    "chunk_id": "ch_afc331b72f4beb21",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 61,
+    "text": "Table of Contents Property and Equipment Property and equipment are recorded at cost. We compute depreciation using the straight-line method over the estimated useful lives of the assets. Leasehold improvements are depreciated over the shorter of their estimated useful lives or the period from the date the assets are placed in service to the end of the lease term, which includes optional renewal periods if they are reasonably assured. Accelerated depreciation methods are generally used for income tax purposes. When property is retired or otherwise disposed of, the cost and accumulated depreciation are removed from our Consolidated Balance Sheets and any resulting gain or loss is reflected on our Consolidated Statements of Earnings. Repairs and maintenance costs are expensed as incurred. Major renewals or replacements that substantially extend the useful life of an asset are capitalized and depreciated. Costs associated with the acquisition or development of software for internal use ar…"
+   }
+  ]
+ }
+}

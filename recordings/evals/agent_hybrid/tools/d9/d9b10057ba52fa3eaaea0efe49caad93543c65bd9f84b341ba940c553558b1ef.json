@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Total assets",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7b37bb2f077ba357",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 121,
+    "text": "Table of Contents NOTE 6 OTHER ASSETS The following is a summary of Other assets as of December 31: (Millions) 2022 2021 Goodwill $ 3,786 $ 3,804 Other intangible assets, at amortized cost 146 201 Other 13,757 13,239 Total $ 17,689 $ 17,244 (a) Primarily includes net deferred tax assets, other receivables net of reserves, investments in non-consolidated entities, prepaid assets, tax credit investments and right-of-use lease assets. GOODWILL The changes in the carrying amount of goodwill reported in our reportable operating segments were as follows: (Millions) USCS CS ICS GMNS Total Balance as of December 31, 2020 $ 369 $ 2,124 $ 799 $ 560 $ 3,852 Acquisitions — — — — — Dispositions — — (3) — (3) Other (1) (1) (43) — (45) Balance as of December 31, 2021 $ 368 $ 2,123 $ 753 $ 560 $ 3,804 Acquisitions 13 — — — 13 Dispositions — — — — — Other (2) (1) (28) — (31) Balance as of December 31, 2022 $ 379 $ 2,122 $ 725 $ 560 $ 3,786 (a) Primarily includes foreign currency translation. During the…"
+   },
+   {
+    "chunk_id": "ch_b09502a18c813fa4",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 137,
+    "text": "The following table summarizes our financial assets and financial liabilities measured at fair value on a recurring basis, categorized by GAAP's fair value hierarchy (as described in the preceding paragraphs), as of December 31: 2022 2021 (Millions) Total Level 1 Level 2 Level 3 Total Level 1 Level 2 Level 3 Assets: Investment securities: Equity securities $ 41 $ 40 $ 1 $ — $ 79 $ 78 $ 1 $ — Debt securities 4,537 — 4,490 47 2,512 — 2,480 32 Derivatives, gross 521 — 494 27 590 — 590 — Total Assets 5,099 40 4,985 74 3,181 78 3,071 32 Liabilities: Derivatives, gross 801 — 801 — 139 — 139 — Total Liabilities $ 801 $ — $ 801 $ — $ 139 $ — $ 139 $ — (a) Refer to Note 4 for the fair values of investment securities and to Note 13 for the fair values of derivative assets and liabilities, on a further disaggregated basis. (b) Level 3 fair value reflects an embedded derivative. Management reviews and applies judgment to the valuation of the embedded derivative that is performed by an independent …"
+   },
+   {
+    "chunk_id": "ch_340de167165df3b5",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 65,
+    "text": "Risk-Weighted Assets — Assets are weighted for risk according to a formula used by the Federal Reserve to conform to capital adequacy guidelines. On- and off-balance sheet items are weighted for risk, with off-balance sheet items converted to balance sheet equivalents, using risk conversion factors, before being allocated a risk-adjusted weight. Off-balance sheet exposures comprise a minimal part of the total risk-weighted assets. Common Equity Tier 1 Risk-Based Capital Ratio — Calculated as CET1 capital, divided by risk-weighted assets. CET1 capital is common shareholders' equity, adjusted for ineligible goodwill and intangible assets and certain deferred tax assets. CET1 capital is also adjusted for the Current Expected Credit Loss (CECL) final rules, as described below. (a) 62"
+   },
+   {
+    "chunk_id": "ch_95365c63cbd0737f",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 168,
+    "text": "Table of Contents Appendix STATISTICAL DISCLOSURE BY BANK HOLDING COMPANIES The accompanying supplemental information should be read in conjunction with the “MD&A”, “Consolidated Financial Statements” and notes thereto. Distribution of Assets, Liabilities, and Shareholders' Equity; Interest Rates and Interest Differential The following tables provide a summary of our consolidated average balances including major categories of interest-earning assets and interest-bearing liabilities along with an analysis of net interest earnings. Consolidated average balances, interest, and average yields are segregated between U.S. and non-U.S. offices. Assets, liabilities, interest income and interest expense are attributed to the United States and outside the United States based on the location of the office recording such items. 2022 2021 2020 Years Ended December 31, (Millions, except percentages) Average Balance Interest Income Average Yield Average Balance Interest Income Average Yield Average B…"
+   },
+   {
+    "chunk_id": "ch_3f348afebca0266f",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 154,
+    "text": "5,958 2,936 929 1,874 (1,008) 10,689 Total assets (billions) $ 77 $ 45 $ 33 $ 15 $ 19 $ 189 2020 Total non-interest revenues $ 10,125 $ 8,210 $ 5,877 $ 4,209 $ (319) $ 28,102 Revenue from contracts with customers 7,261 7,123 3,663 3,948 (21) 21,974 Interest income 7,009 1,532 1,244 18 280 10,083 Interest expense 787 508 379 (82) 506 2,098 Total revenues net of interest expense 16,347 9,234 6,742 4,309 (545) 36,087 Pretax income (loss) 3,103 1,013 521 1,294 (1,635) 4,296 Total assets (billions) $ 65 $ 35 $ 28 $ 14 $ 49 $ 191 (a) Corporate & Other includes adjustments and eliminations for intersegment activity. (b) Includes discount revenue, certain service fees and other revenue and processed revenues from customers. Total Revenues Net of Interest Expense We allocate discount revenue and certain other revenues among segments using a transfer pricing methodology. Within the USCS, CS and ICS segments, discount revenue generally reflects the issuer component of the overall discount revenue…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,214 @@
+{
+ "item_id": "xbrl-MMM-2018-NetIncomeLoss-growth",
+ "eval_set": "xbrl_numeric",
+ "experiment": "agent_hybrid",
+ "status": "answered",
+ "answer": "3M's net income attributable to 3M changed from $4,858 million in fiscal year 2017 to $5,349 million in fiscal year 2018, representing an increase of 10.1% (calculated as (5349 - 4858) / 4858 * 100). If using total net income including noncontrolling interest ($4,869 million in 2017 to $5,363 million in 2018), the change is an increase of 10.1% (calculated as (5363 - 4869) / 4869 * 100).",
+ "confidence": 1.0,
+ "rationale": "Retrieved net income figures for 2017 and 2018 from 3M's Consolidated Statement of Income in Item 8. Net income attributable to 3M was $4,858 million in 2017 and $5,349 million in 2018 (an increase of 10.101%, or 10.1% rounded to one decimal place). Total net income including noncontrolling interest was $4,869 million in 2017 and $5,363 million in 2018 (an increase of 10.146%, or 10.1% rounded to one decimal place).",
+ "citations": [
+  {
+   "source_id": "ch_d55dd0bf026b21da",
+   "quote": "Net income attributable to 3M $ 5,349 $ 4,858",
+   "kind": "chunk",
+   "ticker": "MMM",
+   "fiscal_year": 2018,
+   "section": "Item 8",
+   "page": 56,
+   "values": [
+    "31",
+    "2018",
+    "2017",
+    "2016",
+    "32765",
+    "31657",
+    "30109",
+    "16682",
+    "16055",
+    "15118",
+    "7602",
+    "6626",
+    "6311",
+    "1821",
+    "1870",
+    "1764",
+    "547",
+    "586",
+    "111",
+    "25558",
+    "23965",
+    "23082",
+    "7207",
+    "7692",
+    "7027",
+    "207",
+    "144",
+    "26",
+    "7000",
+    "7548",
+    "7053",
+    "1637",
+    "2679",
+    "1995",
+    "5363",
+    "4869",
+    "5058",
+    "14",
+    "11",
+    "8",
+    "5349",
+    "4858",
+    "5050",
+    "588.5",
+    "597.5",
+    "604.7",
+    "9.09",
+    "8.13",
+    "8.35"
+   ]
+  },
+  {
+   "source_id": "ch_d55dd0bf026b21da",
+   "quote": "Net income including noncontrolling interest $ 5,363 $ 4,869",
+   "kind": "chunk",
+   "ticker": "MMM",
+   "fiscal_year": 2018,
+   "section": "Item 8",
+   "page": 56,
+   "values": [
+    "31",
+    "2018",
+    "2017",
+    "2016",
+    "32765",
+    "31657",
+    "30109",
+    "16682",
+    "16055",
+    "15118",
+    "7602",
+    "6626",
+    "6311",
+    "1821",
+    "1870",
+    "1764",
+    "547",
+    "586",
+    "111",
+    "25558",
+    "23965",
+    "23082",
+    "7207",
+    "7692",
+    "7027",
+    "207",
+    "144",
+    "26",
+    "7000",
+    "7548",
+    "7053",
+    "1637",
+    "2679",
+    "1995",
+    "5363",
+    "4869",
+    "5058",
+    "14",
+    "11",
+    "8",
+    "5349",
+    "4858",
+    "5050",
+    "588.5",
+    "597.5",
+    "604.7",
+    "9.09",
+    "8.13",
+    "8.35"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 6,
+ "prompt_tokens": 29398,
+ "completion_tokens": 647,
+ "latency_ms": 6371.3,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "10.1% matches 10.1070 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 6,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1552,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"ticker\":\"MMM\"}",
+     "error": "unknown tool 'get_financial_facts'; available: ['read_section', 'search_filings', 'submit_answer']"
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 1648,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"section\":\"8\",\"ticker\":\"MMM\",\"query\":\"Net income 2018 2017\",\"fiscal_year\":2018}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 3992,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"section\":\"8\",\"ticker\":\"MMM\",\"fiscal_year\":2018,\"query\":\"Consolidated Statements of Income Net Income Millions 2018 2017\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 6137,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"ticker\":\"MMM\",\"query\":\"Consolidated Statements of Income Net income attributable to 3M Company\",\"section\":\"8\",\"fiscal_year\":2018}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 4,
+   "tokens": 8119,
+   "tools": [
+    {
+     "name": "calculate",
+     "arguments": "{\"expression\":\"(5349 - 4858) / 4858 * 100\"}",
+     "error": "unknown tool 'calculate'; available: ['read_section', 'search_filings', 'submit_answer']"
+    }
+   ]
+  },
+  {
+   "step": 5,
+   "tokens": 8597,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"citations\":[{\"source_id\":\"ch_d55dd0bf026b21da\",\"quote\":\"Net income attributable to 3M $ 5,349 $ 4,858\"},{\"source_id\":\"ch_d55dd0bf026b21da\",\"quote\":\"Net income including noncontrolling interest $ 5,363 $ 4,869\"}],\"rationale\":\"Retrieved net income figures for 2017 and 2018 from 3M's Consolidated Statement of Income in Item 8. Net income attributable to 3M was $4,858 million in 2017 and $5,349 million in 2018 (an increase of 10.101%, or 10.1% rounded to one decimal place). Total net income including noncontrolling interest was $4,869 million in 2017 and $5,363 million in 2018 (an increase of 10.146%, or 10.1% rounded to one decimal place).\",\"confidence\":1,\"answer\":\"3M's net income attributable to 3M changed from $4,858 million in fiscal year 2017 to $5,349 million in fiscal year 2018, representing an increase of 10.1% (calculated as (5349 - 4858) / 4858 * 100). If using total net income including noncontrolling interest ($4,869 million in 2017 to $5,363 million in 2018), the change is an increase of 10.1% (calculated as (5363 - 4869) / 4869 * 100).\",\"needs_review\":false}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

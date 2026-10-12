@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net income PepsiCo 2021 2020",
+  "ticker": "PEP",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e3a8a83258e6d03c",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 80,
+    "text": "Table of Contents (g) Acquisitions in 2020 primarily reflects our acquisition of Pioneer Foods. See Note 13 for further information. (h) Acquisitions in 2020 primarily reflects our acquisition of Be & Cheery. See Note 13 for further information. Note 5 — Income Taxes The components of income before income taxes are as follows: 2021 2020 2019 United States $ 3,740 $ 4,070 $ 4,123 Foreign 6,081 4,999 5,189 $ 9,821 $ 9,069 $ 9,312 The provision for income taxes consisted of the following: 2021 2020 2019 Current: U.S. Federal $ 702 $ 715 $ 652 Foreign 955 932 807 State 44 110 196 1,701 1,757 1,655 Deferred: U.S. Federal 375 273 325 Foreign (14) (167) (31) State 80 31 10 441 137 304 $ 2,142 $ 1,894 $ 1,959 A reconciliation of the U.S. Federal statutory tax rate to our annual tax rate is as follows: 2021 2020 2019 U.S. Federal statutory tax rate 21.0 % 21.0 % 21.0 % State income tax, net of U.S. Federal tax benefit 1.0 1.2 1.6 Lower taxes on foreign results (1.6) (0.8) (0.9) One-time mandato…"
+   },
+   {
+    "chunk_id": "ch_0eff7e2108e9d30c",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 71,
+    "text": "Table of Contents Other Division Information Total assets and capital spending of each division are as follows: Total Assets Capital Spending 2021 2020 2021 2020 2019 FLNA $ 9,763 $ 8,730 $ 1,411 $ 1,189 $ 1,227 QFNA 1,101 1,021 92 85 104 PBNA 37,801 37,079 1,275 1,245 1,053 LatAm 7,272 6,977 461 390 557 Europe 18,472 17,917 752 730 613 AMESA 6,125 5,942 325 252 267 APAC 5,654 5,770 203 230 195 Total division 86,188 83,436 4,519 4,121 4,016 Corporate 6,189 9,482 106 119 216 Total $ 92,377 $ 92,918 $ 4,625 $ 4,240 $ 4,232 (a) Corporate assets consist principally of certain cash and cash equivalents, restricted cash, short-term investments, derivative instruments, property, plant and equipment and tax assets. In 2021, the change in assets was primarily due to a decrease in cash and cash equivalents and short-term investments. Refer to the cash flow statement for further information. Amortization of intangible assets and depreciation and other amortization of each division are as follows:…"
+   },
+   {
+    "chunk_id": "ch_b7df7e4543cc7133",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 61,
+    "text": "Table of Contents Consolidated Statement of Income PepsiCo, Inc. and Subsidiaries Fiscal years ended December 25, 2021, December 26, 2020 and December 28, 2019 (in millions except per share amounts) 2021 2020 2019 Net Revenue $ 79,474 $ 70,372 $ 67,161 Cost of sales 37,075 31,797 30,132 Gross profit 42,399 38,575 37,029 Selling, general and administrative expenses 31,237 28,495 26,738 Operating Profit 11,162 10,080 10,291 Other pension and retiree medical benefits income/(expense) 522 117 (44) Net interest expense and other (1,863) (1,128) (935) Income before income taxes 9,821 9,069 9,312 Provision for income taxes 2,142 1,894 1,959 Net income 7,679 7,175 7,353 Less: Net income attributable to noncontrolling interests 61 55 39 Net Income Attributable to PepsiCo $ 7,618 $ 7,120 $ 7,314 Net Income Attributable to PepsiCo per Common Share Basic $ 5.51 $ 5.14 $ 5.23 Diluted $ 5.49 $ 5.12 $ 5.20 Weighted-average common shares outstanding Basic 1,382 1,385 1,399 Diluted 1,389 1,392 1,407 Se…"
+   },
+   {
+    "chunk_id": "ch_da4ea9fe1c16ccd0",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 101,
+    "text": "Table of Contents Note 10 — Net Income Attributable to PepsiCo per Common Share The computations of basic and diluted net income attributable to PepsiCo per common share are as follows: 2021 2020 2019 Income Shares Income Shares Income Shares Basic net income attributable to PepsiCo per common share $ 5.51 $ 5.14 $ 5.23 Net income available for PepsiCo common shareholders $ 7,618 1,382 $ 7,120 1,385 $ 7,314 1,399 Dilutive securities: Stock options, RSUs, PSUs and other — 7 — 7 — 8 Diluted $ 7,618 1,389 $ 7,120 1,392 $ 7,314 1,407 Diluted net income attributable to PepsiCo per common share $ 5.49 $ 5.12 $ 5.20 (a) Weighted-average common shares outstanding (in millions). (b) The dilutive effect of these securities is calculated using the treasury stock method. The weighted-average amount of antidilutive securities excluded from the calculation of diluted earnings per common share was immaterial for the years ended December 25, 2021, December 26, 2020 and December 28, 2019. (a) (a) (a) (…"
+   },
+   {
+    "chunk_id": "ch_02035dd0d0b01462",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 62,
+    "text": "Table of Contents Consolidated Statement of Comprehensive Income PepsiCo, Inc. and Subsidiaries Fiscal years ended December 25, 2021, December 26, 2020 and December 28, 2019 (in millions) 2021 2020 2019 Net income $ 7,679 $ 7,175 $ 7,353 Other comprehensive income/(loss), net of taxes: Net currency translation adjustment (369) (650) 628 Net change on cash flow hedges 155 7 (90) Net pension and retiree medical adjustments 770 (532) 283 Other 22 (1) (2) 578 (1,176) 819 Comprehensive income 8,257 5,999 8,172 Less: Comprehensive income attributable to noncontrolling interests 61 55 39 Comprehensive Income Attributable to PepsiCo $ 8,196 $ 5,944 $ 8,133 See accompanying notes to the consolidated financial statements. 60"
+   }
+  ]
+ }
+}

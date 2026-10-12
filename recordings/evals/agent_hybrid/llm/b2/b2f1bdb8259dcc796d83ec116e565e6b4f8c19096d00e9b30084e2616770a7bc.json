@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TrePa8WT5W1WbRs0U3/j13zaSomc2svj4/SRdQ55+nPYFnHx2sez+jHKhmUgL6cgweBqgSOUyV40h+wHOQ9tFkVYyQhZ9bphYdl0MBNkw8toL+uveY71Y5NM="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"query\":\"CONSOLIDATED BALANCE SHEETS December 31 2022 Cash and cash equivalents\",\"ticker\":\"AXP\"}",
+        "name": "search_filings"
+       },
+       "id": "call_56663",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791832933,
+  "id": "ZTPNaompGfaN0-kP3-6joQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 51,
+   "prompt_tokens": 6410,
+   "prompt_tokens_details": {
+    "cached_tokens": 4040
+   },
+   "total_tokens": 6461
+  }
+ }
+}

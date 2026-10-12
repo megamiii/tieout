@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income Net Income Millions 2018 2017",
+  "ticker": "MMM",
+  "fiscal_year": 2018,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_86020c672ba33d24",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 126,
+    "text": "Table of Contents Business Segment Information Net Sales Operating Income (Millions) 2018 2017 2016 2018 2017 2016 Industrial $ 12,267 $ 11,866 $ 11,217 $ 2,737 $ 2,490 $ 2,528 Safety and Graphics 6,827 6,235 5,948 1,720 2,066 1,403 Health Care 6,021 5,853 5,606 1,799 1,764 1,731 Electronics and Energy 5,472 5,501 4,926 2,055 1,377 1,145 Consumer 4,796 4,731 4,578 1,027 1,004 1,054 Corporate and Unallocated 50 3 6 (1,465) (395) (321) Elimination of Dual Credit (2,668) (2,532) (2,172) (666) (614) (513) Total Company $ 32,765 $ 31,657 $ 30,109 $ 7,207 $ 7,692 $ 7,027 Assets Depreciation & Amortization Capital Expenditures (Millions) 2018 2017 2016 2018 2017 2016 2018 2017 2016 Industrial $ 9,855 $ 9,895 $ 9,140 $ 376 $ 432 $ 407 $ 454 $ 381 $ 360 Safety and Graphics 9,657 9,874 7,626 300 275 277 210 184 228 Health Care 4,687 4,757 4,293 162 175 175 180 137 136 Electronics and Energy 3,993 4,291 4,335 134 240 223 115 152 187 Consumer 2,757 2,706 2,497 91 112 114 115 109 109 Corporate and …"
+   },
+   {
+    "chunk_id": "ch_d5728bc5bf6b3c71",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 92,
+    "text": "(109) (105) Settlements, curtailments, special termination benefits and other (4) (4) — — — — Fair value of plan assets at end of year $ 14,803 $ 15,686 $ 6,170 $ 6,737 $ 1,260 $ 1,397 Funded status at end of year $ (1,145) $ (1,674) $ (795) $ (765) $ (915) $ (1,013) Qualified and Non-qualified Pension Benefits Postretirement United States International Benefits (Millions) 2018 2017 2018 2017 2018 2017 Amounts recognized in the Consolidated Balance Sheet as of Dec. 31, Non-current assets $ — $ 4 $ 208 $ 233 $ — $ — Accrued benefit cost Current liabilities (60) (53) (13) (12) (3) (4) Non-current liabilities (1,085) (1,625) (990) (986) (912) (1,009) Ending balance $ (1,145) $ (1,674) $ (795) $ (765) $ (915) $ (1,013) Qualified and Non-qualified Pension Benefits Postretirement United States International Benefits (Millions) 2018 2017 2018 2017 2018 2017 Amounts recognized in accumulated other comprehensive income as of Dec. 31, Net actuarial loss (gain) $ 5,374 $ 5,921 $ 1,713 $ 1,720 $ 5…"
+   },
+   {
+    "chunk_id": "ch_bb9a681b095c5651",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 127,
+    "text": "In the first quarter of 2018, the resolution of the State of Minnesota Natural Resource Damages (NRD) lawsuit reduced net income by $710 million, or $1.16 per diluted share. Refer to Note 16 for additional details. Additionally, the first quarter of 2018 was impacted by a measurement period adjustment related to the enactment of the Tax Cuts and Jobs Act (TCJA), which reduced net income by $217 million, or $0.36 per diluted share. Refer to Note 10 for additional details. In the fourth quarter of 2018, the Company's ongoing IRS examination under the Compliance Assurance Process (CAP) and new guidance released under the Tax Cuts and Jobs Act resulted in a charge that reduced net income by $60 million, or $0.11 per diluted share. Additionally, in the fourth quarter of 2018, the Company finalized the tax impact related to TCJA with a reversal of previously recorded tax expense that increased net income by $41 million, or $0.07 per diluted share. On a combined basis, these items, including …"
+   },
+   {
+    "chunk_id": "ch_f40c073fd7c6104c",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 54,
+    "text": "Table of Contents Report of Independent Registered Public Accounting Firm To the Shareholders and Board of Directors of 3M Company Opinions on the Financial Statements and Internal Control over Financial Reporting We have audited the accompanying consolidated balance sheets of 3M Company and its subsidiaries (the “Company”) as of December 31, 2018 and 2017, and the related consolidated statements of income, comprehensive income, changes in equity and cash flows for each of the three years in the period ended December 31, 2018, including the related notes (collectively referred to as the “consolidated financial statements”). We also have audited the Company's internal control over financial reporting as of December 31, 2018, based on criteria established in Internal Control - Integrated Framework (2013) issued by the Committee of Sponsoring Organizations of the Treadway Commission (COSO). In our opinion, the consolidated financial statements referred to above present fairly, in all mate…"
+   },
+   {
+    "chunk_id": "ch_297f006cdd33e0f6",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 86,
+    "text": "The total amount of UTB, if recognized, would affect the effective tax rate by $655 million as of December 31, 2018, $526 million as of December 31, 2017, and $333 million as of December 31, 2016. The ending net UTB results from adjusting the gross balance for deferred items, interest and penalties, and deductible taxes. The net UTB is included as components of Other Assets, Accrued Income Taxes, and Other Liabilities within the Consolidated Balance Sheet. The Company recognizes interest and penalties accrued related to unrecognized tax benefits in tax expense. The Company recognized in the consolidated statement of income on a gross basis approximately $12 million of expense, $20 million of expense, and $10 million of expense in 2018, 2017, and 2016, respectively. The amount of interest and penalties recognized may be an expense or benefit due to new or remeasured unrecognized tax benefit accruals. At December 31, 2018, and December 31, 2017, accrued interest and penalties in the cons…"
+   }
+  ]
+ }
+}

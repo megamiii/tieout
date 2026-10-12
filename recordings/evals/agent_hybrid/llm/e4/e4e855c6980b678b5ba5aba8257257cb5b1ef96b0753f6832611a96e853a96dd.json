@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T0+XueG1HujggW3V5fg2D5vzWpmcvio1lJ/izjaQH9xnJc+myuCug3xGVhYmA85uzcf5pImdVo3x/pmDN3jI4GkQEO56lUfwpTTX7Loxz2D/ckq02LEYMfsQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_66f8fe4224ac405b\",\"quote\":\"Revenue $ 39,403 $ 39,528 $ 40,339\"}],\"rationale\":\"Total revenue for fiscal year 2017 is directly reported as $39,403 million in the Consolidated Statements of Earnings in Best Buy's FY2017 10-K.\",\"answer\":\"In fiscal year 2017 (ended January 28, 2017), Best Buy's total revenue was $39,403 million.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_96842",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833117,
+  "id": "HTTNarqjCqzwrfcPgpquiQE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 168,
+   "prompt_tokens": 5368,
+   "total_tokens": 5536
+  }
+ }
+}

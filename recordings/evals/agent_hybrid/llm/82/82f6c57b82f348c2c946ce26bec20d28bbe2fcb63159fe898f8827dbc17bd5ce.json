@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TbIfBMTI7qEbscM8sW0HJqP+ny+aPl73MY+UvmhWr/nlzi5ygFStl+SuVJLz0CD8tYdghBbdbOKuAsl/bwlhpqDCHhzRKkk7wbkR5kyMzbeUMNoogLe91lXk="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Net loss attributable to Boeing Shareholders increased from $4,202 million to $4,935 million\",\"fiscal_year\":2022,\"ticker\":\"BA\"}",
+        "name": "search_filings"
+       },
+       "id": "call_31036",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833104,
+  "id": "DzTNaq3JBbjo2roP3Jy5wAw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 54,
+   "prompt_tokens": 6634,
+   "prompt_tokens_details": {
+    "cached_tokens": 4036
+   },
+   "total_tokens": 6688
+  }
+ }
+}

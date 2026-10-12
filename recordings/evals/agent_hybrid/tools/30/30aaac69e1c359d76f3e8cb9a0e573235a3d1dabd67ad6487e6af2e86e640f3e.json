@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Earnings Net income Best Buy 2023 2022",
+  "ticker": "BBY",
+  "fiscal_year": 2023,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_581e3bea803ff416",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 36,
+    "text": "REPORT OF INDEPENDENT REGISTERED PUBLIC ACCOUNTING FIRM To the shareholders and the Board of Directors of Best Buy Co., Inc. Richfield, Minnesota. Opinion on the Financial Statements We have audited the accompanying consolidated balance sheets of Best Buy Co., Inc. and subsidiaries (the \"Company\") as of January 28, 2023 and January 29, 2022, the related consolidated statements of earnings, comprehensive income, cash flows and changes in shareholders' equity for each of the three years in the period ended January 28, 2023, and the related notes (collectively referred to as the \"financial statements\"). In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company as of January 28, 2023 and January 29, 2022, and the results of its operations and its cash flows for each of the three years in the period ended January 28, 2023, in conformity with accounting principles generally accepted in the United States of America. We have also a…"
+   },
+   {
+    "chunk_id": "ch_47bb73bb244b2319",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 40,
+    "text": "Consolidated Statements of Earnings $ and shares in millions, except per share amounts Fiscal Years Ended January 28, 2023 January 29, 2022 January 30, 2021 Revenue $ 46,298 $ 51,761 $ 47,262 Cost of sales 36,386 40,121 36,689 Gross profit 9,912 11,640 10,573 Selling, general and administrative expenses 7,970 8,635 7,928 Restructuring charges 147 (34) 254 Operating income 1,795 3,039 2,391 Other income (expense): Investment income and other 28 10 38 Interest expense (35) (25) (52) Earnings before income tax expense and equity in income of affiliates 1,788 3,024 2,377 Income tax expense 370 574 579 Equity in income of affiliates 1 4 - Net earnings $ 1,419 $ 2,454 $ 1,798 Basic earnings per share $ 6.31 $ 9.94 $ 6.93 Diluted earnings per share $ 6.29 $ 9.84 $ 6.84 Weighted-average common shares outstanding: Basic 224.8 246.8 259.6 Diluted 225.7 249.3 263.0 See Notes to Consolidated Financial Statements. 40"
+   },
+   {
+    "chunk_id": "ch_c3e0c946948df023",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 59,
+    "text": "As of January 28, 2023, options to purchase common stock were all in-the-money and outstanding as follows (shares in millions): Exercisable Unexercisable Total Shares % Weighted- Average Price per Share Shares % Weighted- Average Price per Share Shares % Weighted- Average Price per Share In-the-money 0.4 51% $ 54.94 0.3 49% $ 67.13 0.7 100% $ 60.91 Reconciliations of the numerators and denominators of basic and diluted earnings per share were as follows ($ and shares in millions, except per share amounts): 2023 2022 2021 Numerator Net earnings $ 1,419 $ 2,454 $ 1,798 Denominator Weighted-average common shares outstanding 224.8 246.8 259.6 Dilutive effect of stock compensation plan awards 0.9 2.5 3.4 Weighted-average common shares outstanding, assuming dilution 225.7 249.3 263.0 Potential shares which were anti-dilutive and excluded from weighted-average share computations 0.7 0.1 - Basic earnings per share $ 6.31 $ 9.94 $ 6.93 Diluted earnings per share $ 6.29 $ 9.84 $ 6.84 Repurchase …"
+   },
+   {
+    "chunk_id": "ch_a9dabc57dd7a78f6",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 51,
+    "text": "Comprehensive income (loss) is computed as net earnings plus certain other items that are recorded directly to shareholders' equity. 2. Acquisitions Current Health Ltd. In fiscal 2022, we acquired all of the outstanding shares of Current Health Ltd. (“Current Health”), a care-at-home technology platform, on November 2, 2021, for net cash consideration of $389 million. The acquired assets included $351 million of goodwill that was assigned to our Best Buy Health reporting unit and was deductible for income tax purposes. The acquisition is aligned with our focus in virtual care to enable people in their homes to connect seamlessly with their health care providers and is included in our Domestic reportable segment and Services revenue category. The acquisition was accounted for using the acquisition method of accounting for business combinations and was not material to the results of operations. Two Peaks, LLC d/b/a Yardbird Furniture In fiscal 2022, we acquired all of the outstanding sha…"
+   },
+   {
+    "chunk_id": "ch_14d8c77622e45c2d",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 57,
+    "text": "80.30 Granted 1,674 $ 98.05 Vested and distributed (1,642) $ 75.55 Forfeited (382) $ 92.16 Outstanding as of January 28, 2023 3,046 $ 90.96 The total fair value vested and distributed during fiscal 2023, fiscal 2022 and fiscal 2021 was $159 million, $194 million and $145 million, respectively. The actual tax benefits realized for the tax deductions related to vesting in fiscal 2023, fiscal 2022 and fiscal 2021 was $33 million, $41 million and $33 million, respectively. As of January 28, 2023, there was $149 million of unrecognized compensation expense related to non-vested time-based share awards that we expect to recognize over a weighted-average period of 1.8 years. Performance-Based Share Awards Performance-based share awards generally vest upon the achievement of company performance goals based upon compound annual growth in enterprise revenue (“CAGR”) or attainment of net earnings (“adjusted net earnings”). The number of shares of common stock that could be distributed at the end …"
+   }
+  ]
+ }
+}

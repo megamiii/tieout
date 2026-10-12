@@ -1,0 +1,32 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "item": "8",
+  "page": 54
+ },
+ "output": {
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "item": "8",
+  "title": "Financial Statements and Supplementary Data",
+  "page": 54,
+  "item_pages": [
+   51,
+   107
+  ],
+  "chunks": [
+   {
+    "chunk_id": "ch_e128c9d3d7199637",
+    "page": 54,
+    "text": "Consolidated Statements of Income Verizon Communications Inc. and Subsidiaries (dollars in millions, except per share amounts) Years Ended December 31, 2022 2021 2020 Operating Revenues Service revenues and other $ 109,625 $ 110,449 $ 109,872 Wireless equipment revenues 27,210 23,164 18,420 Total Operating Revenues 136,835 133,613 128,292 Operating Expenses Cost of services (exclusive of items shown below) 28,637 31,234 31,401 Cost of wireless equipment 30,496 25,067 19,800 Selling, general and administrative expense 30,136 28,658 31,573 Depreciation and amortization expense 17,099 16,206 16,720 Total Operating Expenses 106,368 101,165 99,494 Operating Income 30,467 32,448 28,798 Equity in earnings (losses) of unconsolidated businesses 44 145 (45) Other income (expense), net 1,373 312 (539) Interest expense (3,613) (3,485) (4,247) Income Before Provision For Income Taxes 28,271 29,420 23,967 Provision for income taxes (6,523) (6,802) (5,619) Net Income $ 21,748 $ 22,618 $ 18,348 Net income attributable to noncontrolling interests $ 492 $ 553 $ 547 Net income attributable to Verizon 21,256 22,065 17,801 Net Income $ 21,748 $ 22,618 $ 18,348 Basic Earnings Per Common Share Net income attributable to Verizon $ 5.06 $ 5.32 $ 4.30 Weighted-average shares outstanding (in millions) 4,202 4,148 4,140 Diluted Earnings Per Common Share"
+   },
+   {
+    "chunk_id": "ch_5ea45714c88ebbe3",
+    "page": 54,
+    "text": "Basic Earnings Per Common Share Net income attributable to Verizon $ 5.06 $ 5.32 $ 4.30 Weighted-average shares outstanding (in millions) 4,202 4,148 4,140 Diluted Earnings Per Common Share Net income attributable to Verizon $ 5.06 $ 5.32 $ 4.30 Weighted-average shares outstanding (in millions) 4,204 4,150 4,142 See Notes to Consolidated Financial Statements Verizon 2022 Annual Report on Form 10-K 54"
+   }
+  ]
+ }
+}

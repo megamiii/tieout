@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T6bKENINM2xLwJokINFGbmPT8r2n8KXiytAIl0jVCC1suyRA9xfeUbnewDjUywVTfcN7JkPOF7YI60o1fvlhVUMsTSNTtlNe+V9VgHzVF/BKqPaIq7Xq7ZXo="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Short-term investments accounts and notes receivable\",\"ticker\":\"PEP\",\"fiscal_year\":2022,\"section\":\"8\"}",
+        "name": "search_filings"
+       },
+       "id": "call_51681",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833485,
+  "id": "jDXNao3GKMSq1e8PzLWIkQE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 45,
+   "prompt_tokens": 3502,
+   "total_tokens": 3547
+  }
+ }
+}

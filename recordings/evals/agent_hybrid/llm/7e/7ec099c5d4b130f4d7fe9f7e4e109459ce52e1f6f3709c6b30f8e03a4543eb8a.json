@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T2FoG10P/MOjlFyYyfkGuR5StBIcIPDXWi+FpfjVD1YiRll2FNy75yR7XL13uVArG5MUtpbx7xCtroIxPC5/pS7k7MY5dcxZA9kKzsDwVOFj0mX52KoqRtxI="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"research and development expense\",\"ticker\":\"AMCR\",\"fiscal_year\":2023}",
+        "name": "search_filings"
+       },
+       "id": "call_342584",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791806209,
+  "id": "AcvMarb7CdzlrfcPs-7uWQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 36,
+   "prompt_tokens": 1586,
+   "total_tokens": 1622
+  }
+ }
+}

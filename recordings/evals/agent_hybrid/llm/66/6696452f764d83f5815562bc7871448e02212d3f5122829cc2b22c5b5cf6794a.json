@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TZQMy9jAzIjE8FEMzmWk6uAcZ4k50NFWR7B0jbQptmcitAwaSUhd7d0dDR1M+/drxNIZYraYyXlOVA7hZICZTfWtS83A2OpIPAdF2A/NpnM4Qb2wy9y64CZQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"quote\":\"Total Assets $ 223,732 $ 190,094\",\"source_id\":\"ch_22a76f2d25721869\"}],\"answer\":\"American Express's total assets in fiscal year 2022 were $223,732 million (or approximately $223.7 billion).\",\"rationale\":\"Found the Consolidated Balance Sheets on page 95 of AXP's FY2022 10-K, showing Total Assets of $223,732 million as of December 31, 2022.\",\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_31779",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791832936,
+  "id": "ZzPNaqidN6ns2roP-KjeuAQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 166,
+   "prompt_tokens": 9425,
+   "total_tokens": 9591
+  }
+ }
+}

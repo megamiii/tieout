@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income Net Income Verizon 2022 2021",
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_ead02b5c693a4080",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 52,
+    "text": "Report of Independent Registered Public Accounting Firm To the Shareholders and the Board of Directors of Verizon Communications Inc.: Opinion on the Financial Statements We have audited the accompanying consolidated balance sheets of Verizon Communications Inc. and subsidiaries (Verizon or the Company) as of December 31, 2022 and 2021, the related consolidated statements of income, comprehensive income, cash flows, and changes in equity for each of the three years in the period ended December 31, 2022, and the related notes and the financial statement schedule listed in the Index at Item 15(a) (collectively referred to as the \"consolidated financial statements\"). In our opinion, the consolidated financial statements present fairly, in all material respects, the financial position of Verizon at December 31, 2022 and 2021, and the results of its operations and its cash flows for each of the three years in the period ended December 31, 2022, in conformity with U.S. generally accepted acc…"
+   },
+   {
+    "chunk_id": "ch_1ff4d43e163f8034",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 98,
+    "text": "1,432 Foreign (22) (97) 1 State and Local 466 1,007 120 Total 2,973 4,264 1,553 Total income tax provision $ 6,523 $ 6,802 $ 5,619 The following table shows the principal reasons for the difference between the effective income tax rate and the statutory federal income tax rate: Years Ended December 31, 2022 2021 2020 Statutory federal income tax rate 21.0 % 21.0 % 21.0 % State and local income tax rate, net of federal tax benefits 3.9 3.8 3.9 Noncontrolling interest (0.4) (0.4) (0.5) Divestitures — (0.6) 0.1 Tax credits (0.5) (0.5) (0.8) Other, net (0.9) (0.2) (0.3) Effective income tax rate 23.1 % 23.1 % 23.4 % The effective income tax rate for 2022 and 2021 was 23.1%. The effective income tax rate for the twelve months ended December 31, 2022 was comparable to the similar period in 2021. The decrease in the provision for income taxes was primarily due to the decrease in income before income taxes in the current period. The effective income tax rate for 2021 was 23.1% compared to 23.4…"
+   },
+   {
+    "chunk_id": "ch_5fe0ae06d8a5c498",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 27,
+    "text": "(dollars in millions) Years Ended December 31, 2022 2021 Consolidated Net Income $ 21,748 $ 22,618 Add: Provision for income taxes 6,523 6,802 Interest expense 3,613 3,485 Depreciation and amortization expense (1) 17,099 16,206 Consolidated EBITDA $ 48,983 $ 49,111 Add (Less): Other (income) expense, net (2) (3) $ (1,373) $ (312) Equity in earnings of unconsolidated businesses (4) (44) (145) Severance charges 304 209 Loss on spectrum licenses — 223 Net gain from sale of Media — (706) Consolidated Adjusted EBITDA $ 47,870 $ 48,380 (1) Includes Amortization of acquisition-related intangible assets, which were $826 million and $594 million during the years ended December 31, 2022 and 2021, respectively. See \"Special Items\" for additional information. (2) Includes Pension and benefits remeasurement credits of $1.7 billion and $2.4 billion during the years ended December 31, 2022 and 2021, respectively. See \"Special Items\" and \"Other Income (Expense), Net\" for additional information. (3) In…"
+   },
+   {
+    "chunk_id": "ch_e36a8b975c2a4bc2",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 25,
+    "text": "See Note 3 to the consolidated financial statements for additional information on the sale of Verizon Media, the acquisition of TracFone and spectrum license transactions. Depreciation and Amortization Expense Depreciation and amortization expense increased during 2022 compared to 2021, primarily due to the change in the mix of net depreciable and amortizable assets, including acquisition-related intangible assets, as well as the deployment of C-Band spectrum. Other Consolidated Results Other Income (Expense), Net Additional information relating to Other income (expense), net is as follows: (dollars in millions) Increase/(Decrease) Years Ended December 31, 2022 2021 2022 vs. 2021 Interest income $ 146 $ 48 $ 98 nm Other components of net periodic benefit income 2,386 3,785 (1,399) (37.0) % Net debt extinguishment losses (1,077) (3,541) 2,464 69.6 Other, net (82) 20 (102) nm Total $ 1,373 $ 312 $ 1,061 nm nm - not meaningful Other income (expense), net reflects certain items not directl…"
+   },
+   {
+    "chunk_id": "ch_189f573f002f0d5a",
+    "ticker": "VZ",
+    "fiscal_year": 2022,
+    "section": "Item 15",
+    "page": 113,
+    "text": "Schedule II - Valuation and Qualifying Accounts Verizon Communications Inc. and Subsidiaries For the Years Ended December 31, 2022, 2021 and 2020 (dollars in millions) Additions Description Balance at Beginning of Period Charged to Expenses Charged to Other Accounts(a) Deductions(b) Balance at End of Period(c) Allowance for credit losses deducted from accounts receivable: Year 2022 $ 1,151 $ 1,531 $ 69 $ 1,490 $ 1,261 Year 2021 1,507 743 139 1,238 1,151 Year 2020 1,125 (d) 1,390 165 1,173 1,507 Additions Description Balance at Beginning of Period Charged to Expenses Charged to Other Accounts(e) Deductions(f) Balance at End of Period Valuation allowance for deferred tax Year 2022 $ 1,574 $ 41 $ — $ 268 $ 1,347 Year 2021 2,183 339 — 948 1,574 Year 2020 2,260 202 84 363 2,183 (a) Charged to Other Accounts primarily includes amounts previously written off which were credited directly to this account when recovered. (b) Deductions primarily include amounts written off as uncollectible or tr…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T59/IOPvYtFcEfY3s6sLlYO2cwwLmDchByh5ry0lX/rL5GSxme3UMdZKXE/LflmYJ1+Q0PC8fzQBv+OlfAi3n+rRMs77z5W0NAYH+93r2+lRZeuNCCyQp/VA="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"AMERICAN EXPRESS COMPANY CONSOLIDATED BALANCE SHEETS\",\"ticker\":\"AXP\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_33550",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791832932,
+  "id": "ZDPNatzYE43N2roP8c_AiAQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 41,
+   "prompt_tokens": 4830,
+   "total_tokens": 4871
+  }
+ }
+}

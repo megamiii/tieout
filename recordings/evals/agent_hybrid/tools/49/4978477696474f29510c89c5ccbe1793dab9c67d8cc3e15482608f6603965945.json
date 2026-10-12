@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net income fiscal 2018 fiscal 2019",
+  "ticker": "BBY",
+  "fiscal_year": 2019,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_ff0b1bc70c4dcefe",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 40,
+    "text": "U.S. and Canada. As such, the income tax charge is calculated using the statutory tax rates for the U.S. (24.5%, 36.7% and 38.0% for fiscal 2019, fiscal 2018 and fiscal 2017, respectively) and Canada (26.9%, 26.6% and 26.6% for fiscal 2019, fiscal 2018 and fiscal 2017, respectively), applied to the non-GAAP adjustments of each country. Non-GAAP operating income for fiscal 2019 increased $35 million compared to fiscal 2018, primarily driven by strong revenue performance in both our Domestic and International segments in nearly all product categories and decreases in SG&A, primarily due to cost reductions and the absence of the extra week in fiscal 2019. The increase in non-GAAP operating income resulted in a year-over-year increase in non-GAAP diluted earnings per share from continuing operations in fiscal 2019 compared to fiscal 2018, which also benefited from a lower weighted-average diluted share count and a lower tax rate. Non-GAAP operating income for fiscal 2018 increased $220 mil…"
+   },
+   {
+    "chunk_id": "ch_b7a0536d66c510f5",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 36,
+    "text": "Our International segment gross profit increased $6 million in fiscal 2019 compared to fiscal 2018 . However, the gross profit rate decreased to 22.9% in fiscal 2019 from 23.2% in fiscal 2018. The decrease in gross profit rate in fiscal 2019 was primarily due to the unfavorable impact of foreign exchange rates, partially offset by increased revenue in the higher-margin services category. Our International segment's SG&A decreased $4 million in fiscal 2019 compared to fiscal 2018, and the SG&A rate decreased to 20.0% in fiscal 2019 from 20.6% in fiscal 2018. The decrease in SG&A in fiscal 2019 was primarily driven by the absence of the extra week, the favorable impact of foreign exchange rates and the absence of a one-time employee bonus expense related to tax reform. These decreases were partially offset by higher variable costs associated with increased revenue. Our International segment recorded a restructuring benefit of $1 million and restructuring charges of $1 million in fiscal 2…"
+   },
+   {
+    "chunk_id": "ch_ae2205fa084932b1",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Includes both gain from discontinued operations and net earnings from discontinued operations. Fiscal 2019 Results Compared With Fiscal 2018 Consolidated revenue of $42.9 billion in fiscal 2019 increased 1.7% compared to fiscal 2018. Fiscal 2018 includes approximately $760 million of revenue from the extra week. The components of the 1.7% revenue increase in fiscal 2019 were as follows: Comparable sales impact 4.4 % Non-comparable sales impact (1) (2.5)% Impact of foreign currency exchange rate fluctuations (0.2)% Total revenue increase 1.7 % (1) Non-comparable sales reflect the impact of the extra week in fiscal 2018, the impact of net store opening and closing activity, the results of GreatCall, as well as the impact of revenue streams not included within our comparable sales calculation, such as profit-share revenue, certain credit card revenue, gift card breakage, commercial sales and sales of merchandise to wholesalers and dealers, as applicable. Our gross profit rate and SG&A rat…"
+   },
+   {
+    "chunk_id": "ch_d63f2101861dded8",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 38,
+    "text": "and Supplementary Data , of this Annual Report on Form 10-K for additional information. Income tax expense decreased to $424 million in fiscal 2019 compared to $818 million in fiscal 2018, primarily as a result of the $283 million of tax expense associated with the Tax Act recorded in the prior year and the lower U.S. statutory tax rate in the current year, partially offset by the resolution of discrete tax matters in the prior year. Our effective income tax rate (“ETR”) for fiscal 2019 was 22.4%, compared to a rate of 45.0% in fiscal 2018. The decrease in the ETR was primarily due to the impact of the Tax Act recorded in the prior year and the lower U.S. statutory tax rate in the current year, partially offset by the resolution of discrete tax matters in the prior year. Income tax expense increased to $818 million in fiscal 2018 compared to $609 million in fiscal 2017, primarily as a result of the $283 million of tax expense associated with the Tax Act, partially offset by the impacts…"
+   },
+   {
+    "chunk_id": "ch_bf3df9b153a3c310",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 31,
+    "text": "Table of Contents Our operating income increased $57 million and our operating income as a percent of revenue remained flat in fiscal 2019 compared to fiscal 2018, primarily due to a decrease in gross profit rate offset by a lower SG&A rate. Fiscal 2018 Results Compared With Fiscal 2017 Consolidated revenue of $42.2 billion in fiscal 2018 increased 7.0% compared to fiscal 2017. Fiscal 2018 includes approximately $760 million of revenue from the extra week. The components of the 7.0% revenue increase in fiscal 2018 were as follows: Comparable sales impact 5.3% Non-comparable sales impact (1) 1.5% Impact of foreign currency exchange rate fluctuations 0.2% Total revenue increase 7.0% (1) Non-comparable sales reflect the impact of net store opening and closing activity, the impact of the extra week in fiscal 2018, as well as the impact of revenue streams not included within our comparable sales calculation, such as profit-share revenue, certain credit card revenue, gift card breakage, comm…"
+   }
+  ]
+ }
+}

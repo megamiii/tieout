@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "3,109",
+  "ticker": "AMD",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_b1abe0abcd43c7c5",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 59,
+    "text": "Advanced Micro Devices, Inc. Consolidated Statements of Stockholders' Equity (Deficit) Three Years Ended December 26, 2015 (In millions) Number of shares Common Stock Additional paid-in capital Treasury stock Accumulated deficit Accumulated other comprehensive income (loss) Total stockholders' equity (deficit) December 29, 2012 713 $ 7 $ 6,803 $ (109) $ (6,160) $ (3) $ 538 Net loss — — — — (83) — (83) Other comprehensive income, net — — — — — 1 1 Common stock issued under stock-based compensation plans, net of tax withholding 12 — 3 (3) — — — Stock-based compensation — — 91 — — — 91 Adjustment to equity component of the 6.00% Notes resulting from debt buyback — — (3) — — — (3) December 28, 2013 725 7 6,894 (112) (6,243) (2) 544 Net loss — — — — (403) — (403) Other comprehensive loss, net — — — — — (3) (3) Common stock issued under stock-based compensation plans, net of tax withholding 16 — 4 (6) — — (2) Common stock issued by exercise of warrants 35 1 — (1) — — — Stock-based compensati…"
+   },
+   {
+    "chunk_id": "ch_83db64f6253cac96",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 58,
+    "text": "(119) Accumulated deficit (7,306) (6,646) Accumulated other comprehensive loss (8) (5) Total stockholders' equity (deficit) (412) 187 Total liabilities and stockholders' equity (deficit) $ 3,109 $ 3,767 See accompanying notes to consolidated financial statements. 56"
+   },
+   {
+    "chunk_id": "ch_c7d1378f964d8486",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 6",
+    "page": 34,
+    "text": "(1.60) $ 0.66 Shares used in per share calculation Basic 783 768 754 741 727 Diluted 783 768 754 741 742 Long-term debt and other long term liabilities (9) $ 2,118 $ 2,140 $ 2,175 $ 2,065 $ 1,590 Total assets $ 3,109 $ 3,767 $ 4,337 $ 4,000 $ 4,954 (1) 2015, 2014, 2013 and 2012 consisted of 52 weeks, whereas 2011 consisted of 53 weeks. (2) In 2013, we entered into licenses and settlements regarding patent-related matters. Pursuant to these licenses and settlements, we received in aggregate, $48 million, net, which we recorded within net legal settlements in 2013. (3) During 2011, we changed the method of accounting for our investment in GF from the equity method to the cost method of accounting. As a result of the change, we recognized a non-cash gain of approximately $492 million, net of certain transaction related charges. In 2011, we recorded a non-cash impairment charge of approximately $209 million related to our investment in GF. (4) During the first quarter of 2012, we entered i…"
+   },
+   {
+    "chunk_id": "ch_4840c11a47be3c29",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 94,
+    "text": "Supplementary Financial Information (unaudited) The Company uses a 52 or 53 week fiscal year ending on the last Saturday in December. All quarters of 2015 and 2014 consisted of 13 weeks. (In millions, except per share amounts) 2015 2014 Dec. 26 Sep. 26 Jun. 27 Mar. 28 Dec. 27 Sep. 27 Jun. 28 Mar. 29 Net revenue $ 958 $ 1,061 $ 942 $ 1,030 $ 1,239 $ 1,429 $ 1,441 $ 1,397 Cost of sales (1) 675 822 710 704 879 935 943 910 Gross margin 283 239 232 326 360 494 498 487 Research and development 229 241 235 242 238 278 277 279 Marketing, general and administrative 109 108 134 131 144 150 154 156 Amortization of acquired intangible assets — — — 3 4 3 4 3 Restructuring and other special charges (gains), net (2) (6) 48 — 87 71 — — — Goodwill impairment charge(3) — — — — 233 — — — Operating income (loss) (49) (158) (137) (137) (330) 63 63 49 Interest expense (41) (39) (40) (40) (41) (43) (46) (47) Other income (expense), net (2) — (3) — 4 (1) (49) (20) Income (loss) before income taxes (92) (197) …"
+   },
+   {
+    "chunk_id": "ch_06b01d9a1111cbae",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 15",
+    "page": 109,
+    "text": "Exhibit 10.78 ADVANCED MICRO DEVICES, INC. PARTICIPANT By: By: Print Name: Print Name: Title: Address: Address:"
+   }
+  ]
+ }
+}

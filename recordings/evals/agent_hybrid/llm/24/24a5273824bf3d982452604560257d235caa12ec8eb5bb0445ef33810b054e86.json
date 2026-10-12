@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TNvRCbgQd2VUh4iNs8eyghAmcwpVv02mUPfYKjE8yb12jXdBpJHE5qoCKyDlOWMalFM1W13fu7J0Z5wqg8zx6rfm6FpUyRnKVWW/9cuEpvdnhA9HUptwZLDQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"query\":\"Consolidated Statements of Earnings Net income Best Buy 2023 2022\",\"ticker\":\"BBY\",\"fiscal_year\":2023}",
+        "name": "search_filings"
+       },
+       "id": "call_84113",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833176,
+  "id": "WDTNasf_Bt_A1e8P-cmdSQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 57,
+   "prompt_tokens": 3331,
+   "total_tokens": 3388
+  }
+ }
+}

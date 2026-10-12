@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TCAs2yJ6XoqN0RN7/PCM0wSKRRmzkgOYAROHHToXJ3t8yJfJWLY4vhab4it4OBT4ECuTznkYMUe23D+qezch4oO4UHnvGVywFC0wTfvH9Ji2snc+8bhKRBSA="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"answer\":\"In fiscal year 2015 (ended December 26, 2015), AMD reported a net loss of $660 million (or a net income of -$660 million).\",\"rationale\":\"AMD's Consolidated Statement of Operations for the fiscal year ended December 26, 2015 reports a Net loss of $660 million (equivalent to a net income of -$660 million).\",\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_7401ade5a984bd6a\",\"quote\":\"Net loss $ (660) $ (403) $ (83)\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_79473",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791832868,
+  "id": "JDPNatuQB5ew1e8P8MSk0QI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 169,
+   "prompt_tokens": 6694,
+   "prompt_tokens_details": {
+    "cached_tokens": 4042
+   },
+   "total_tokens": 6863
+  }
+ }
+}

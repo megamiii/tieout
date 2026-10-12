@@ -1,0 +1,37 @@
+{
+ "tool": "read_section",
+ "arguments": {
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "item": "8",
+  "page": 53
+ },
+ "output": {
+  "ticker": "VZ",
+  "fiscal_year": 2022,
+  "item": "8",
+  "title": "Financial Statements and Supplementary Data",
+  "page": 53,
+  "item_pages": [
+   51,
+   107
+  ],
+  "chunks": [
+   {
+    "chunk_id": "ch_b46e0e454b37a951",
+    "page": 53,
+    "text": "How We Addressed the Matter in Our Audit We obtained an understanding, evaluated the design and tested the operating effectiveness of controls over the employee benefits obligation valuation process. For example, we tested controls over management's review of the employee benefit obligation calculations, the significant actuarial assumptions and the data inputs provided to the actuary. To test the employee benefit obligations, our audit procedures included, among others, evaluating the methodologies used, the significant actuarial assumptions discussed above and the underlying data used by the Company. We compared the actuarial assumptions used by management to historical trends, current economic factors and evaluated the change in the employee benefit obligations from prior year due to the change in service cost, interest cost, actuarial gains and losses, benefit payments, contributions and other activities. In addition, we involved an actuarial specialist to assist in evaluating management's methodology for determining the discount rate that reflects the maturity and duration of the benefit payments and is used to measure the employee benefit obligations. As part of this assessment, we compared the projected cash flows to prior year projections and compared the current year benefits paid to the prior year projected cash flows. To evaluate the health care cost trends and per capita claims cost trends, we involved an actuarial specialist to assist in evaluating the assumptions and assessed whether the information was consistent with publicly available information, and whether any market data adjusted for entity-specific adjustments were applied. We also tested the completeness and accuracy of the underlying data, including the participant data provided to management's actuarial specialists. Impairment Evaluation for Verizon Business Group Goodwill Description of the Matter At December 31, 2022, the Company's goodwill related to its Verizon Business Group (Business) reporting unit was $7.5 billion and represented 2.0% of total assets. As discussed in Notes 1 and 4 of the consolidated financial statements, goodwill is not amortized but rather is tested for impairment at"
+   },
+   {
+    "chunk_id": "ch_fd23a28982bd4335",
+    "page": 53,
+    "text": "At December 31, 2022, the Company's goodwill related to its Verizon Business Group (Business) reporting unit was $7.5 billion and represented 2.0% of total assets. As discussed in Notes 1 and 4 of the consolidated financial statements, goodwill is not amortized but rather is tested for impairment at the reporting unit level at least annually, or more frequently if impairment indicators are present. The impairment test compares the fair value of the reporting unit (calculated using a combination of a market approach and an income approach) to its carrying amount. Auditing management's goodwill impairment test was complex and highly judgmental due to the inherent subjectivity of developing an estimate of the fair value of the reporting unit, which is based on assumptions about future conditions, transactions, or events whose outcome is uncertain and will therefore be subject to change over time. In particular, the fair value estimate was sensitive to significant assumptions such as the discount rate, revenue growth rate and earnings before interest, taxes, depreciation and amortization (EBITDA) margins, which are affected by expected future market or economic conditions. How We Addressed the Matter in Our Audit We obtained an understanding, evaluated the design and tested the operating effectiveness of controls over the Company's goodwill impairment review process. For example, we tested controls over management's review of the valuation models and the significant assumptions described above. To test the estimated fair value of the Company's Business reporting unit, our audit procedures included, among others, assessing the suitability and application of the valuation methodologies selected and evaluating the significant assumptions discussed above and underlying data used by the Company in its analysis. We compared the significant assumptions used by management to current industry and economic trends, market information, and other relevant factors. We performed sensitivity analyses of significant assumptions to determine what changes in assumptions are particularly sensitive when assessing the likelihood of impairment, or when calculating the amount of"
+   },
+   {
+    "chunk_id": "ch_a09349adab82a13f",
+    "page": 53,
+    "text": "Company in its analysis. We compared the significant assumptions used by management to current industry and economic trends, market information, and other relevant factors. We performed sensitivity analyses of significant assumptions to determine what changes in assumptions are particularly sensitive when assessing the likelihood of impairment, or when calculating the amount of an impairment. In addition, we involved a valuation specialist to assist in the evaluation of the assumptions and other relevant information that are most significant to the fair value estimate. We also assessed the historical accuracy of management's forecasts of financial results used in developing prior fair value estimates to assist in evaluating the reliability of the current forecasts. /s/ Ernst & Young LLP Ernst & Young LLP We have served as Verizon's auditor since 2000. New York, New York February 10, 2023 53 Verizon 2022 Annual Report on Form 10-K"
+   }
+  ]
+ }
+}

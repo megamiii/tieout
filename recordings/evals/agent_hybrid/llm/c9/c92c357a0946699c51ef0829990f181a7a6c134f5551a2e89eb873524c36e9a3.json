@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Ta0RGgi68GhaYc7qQzwPGVNEGfJIWAd/klI3GoZgc/r+7jB6b9gJmuBd1SjHCcAzihMjVbAj/9h4tzG7ojMLyhXYCITHUS+WVYgirc3XznjAyKiN+q7C08Xo="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"revenue net sales consolidated statements of income\",\"fiscal_year\":2020,\"ticker\":\"AMCR\"}",
+        "name": "search_filings"
+       },
+       "id": "call_203851",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791806196,
+  "id": "88rMauaSMqir1e8P9I_nuAI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 1599,
+   "total_tokens": 1638
+  }
+ }
+}

@@ -247,7 +247,7 @@ def run_answers(
         try:
             data = answer(item)
         except RetryableError as err:
-            summary.stopped = f"provider still rate-limiting after retries: {err}"
+            summary.stopped = f"LLM unavailable after retries (rate limit or network): {err}"
             break
         except LLMError as err:
             data = {
@@ -307,7 +307,7 @@ def run_grading(
         try:
             g = grade(item, data.get("answer"), judge_llm)
         except RetryableError as err:
-            summary.stopped = f"judge still rate-limiting after retries: {err}"
+            summary.stopped = f"judge unavailable after retries (rate limit or network): {err}"
             break
         data["grade"] = {
             "correct": g.correct,

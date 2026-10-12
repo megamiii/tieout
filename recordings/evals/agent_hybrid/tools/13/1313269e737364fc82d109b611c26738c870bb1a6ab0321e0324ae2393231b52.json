@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "research and development expense",
+  "ticker": "AMCR",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_27cc07959919442c",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 58,
+    "text": "The Company excludes from the measurement of the transaction price all taxes assessed by a government authority that are both imposed on and concurrent with a specific revenue producing transaction and collected from the customer, including sales taxes, value added taxes, excise taxes, and use taxes. Accordingly, the tax amounts are not included in net sales. The Company does not adjust the promised consideration for the time value of money for contracts where the difference between the time of payment and performance is one year or less. Research and Development: Research and development expenses are expensed as incurred. Restructuring Costs: Restructuring costs are recognized when the liability is incurred. The Company calculates severance obligations based on its standard customary practices. Accordingly, the Company records provisions for severance when payments are probable and estimable and when the Company has committed to the restructuring plan. In the absence of a standard cus…"
+   },
+   {
+    "chunk_id": "ch_03ed47ff1b286660",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 72,
+    "text": "$ (1,051) $ 1,524 June 30, 2022 ($ in millions) Gross Carrying Amount Accumulated Amortization and Impairment (1) Net Carrying Amount Customer relationships $ 1,970 $ (529) $ 1,441 Computer software 235 (162) 73 Other (2) 323 (180) 143 Total other intangible assets $ 2,528 $ (871) $ 1,657 (1) Accumulated amortization and impairment included $34 million and $33 million for June 30, 2023, and 2022, respectively, of accumulated impairment in the Other category. (2) Other included $17 million and $16 million for June 30, 2023, and 2022, respectively, of acquired intellectual property assets not yet being amortized as the related research and development projects have not yet been completed. Amortization expense for intangible assets during the fiscal years 2023, 2022, and 2021 was $174 million, $180 million, and $182 million, respectively. During the last three fiscal years, there were no impairment charges recorded on intangible assets. 72"
+   },
+   {
+    "chunk_id": "ch_c39bc78049697184",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 1A",
+    "page": 24,
+    "text": "Additionally, increased regulation of emissions linked to climate change, including greenhouse gas emissions and other climate-related regulations, could potentially increase the cost of our operations due to increased costs of compliance (which may not be recoverable through adjustment of prices), increased cost of fossil fuel-based inputs and increased cost of energy intensive raw material inputs. However, any such changes are uncertain, and we cannot predict the amount of additional capital expenses or operating expenses that would be necessary for compliance. Mandates to use certain types of materials, such as post-consumer recycled (\"PCR\") content, may lead to supply shortages and higher prices for those materials as current recycling rates may be insufficient to meet increased demand for PCR within and beyond the packaging industry. We could also incur additional compliance costs for monitoring and reporting emissions and for maintaining permits. Additionally, a sizable portion o…"
+   },
+   {
+    "chunk_id": "ch_2d850eb38fd588b3",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 63,
+    "text": "Note 4 - Restructuring, Impairment, and Other Related Activities, Net Restructuring, impairment, and other related activities, net as reported on the consolidated statements of income are summarized as follows: Years ended June 30, ($ in millions) 2023 2022 2021 Gain on disposal of Russian business, net $ 215 $ — $ — Restructuring and related expenses, net (111) (96) (94) Russia-Ukraine impairment expenses — (138) — Restructuring, impairment, and other related activities, net $ 104 $ (234) $ (94) A pre-tax net gain on disposal of the Company's three manufacturing facilities in Russia (\"Russian business\") of $215 million was recognized during fiscal year 2023. The carrying value of the Russian business had previously been impaired by $90 million in the fourth quarter of fiscal year 2022, following the Company's approved plan to sell its Russian operations. For further information, refer to Note 5, \"Acquisitions and Divestitures,\" and Note 6, \"Held for Sale.\" Impairment expenses of $138 …"
+   },
+   {
+    "chunk_id": "ch_01cb149a483be1d7",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 88,
+    "text": "Note 15 - Leases The components of lease expense are as follows: Years ended June 30, ($ in millions) 2023 2022 2021 Operating lease expense (1) $ 127 $ 130 $ 113 Short-term and variable lease expense (2) 21 17 20 Finance lease expense Amortization of right-of-use assets (2) 4 2 2 Interest on lease liabilities (3) 2 1 1 Total lease expense $ 154 $ 150 $ 136 (1) Included in both cost of sales and selling, general, and administrative expenses (2) Included primarily in cost of sales (3) Included in interest expense The Company's leases do not contain any material residual value guarantees or material restrictive covenants. As of June 30, 2023, the Company does not have material lease commitments that have not commenced. Supplemental balance sheet information related to leases: June 30, ($ in millions) Balance Sheet Location 2023 2022 Assets Operating lease right-of-use assets, net Operating lease assets $ 533 $ 560 Finance lease assets (1) Property, plant, and equipment, net 57 62 Total l…"
+   }
+  ]
+ }
+}

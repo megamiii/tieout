@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "percentage increase net sales 2020 2019",
+  "ticker": "AMCR",
+  "fiscal_year": 2020,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_167519ca8a884d81",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Consolidated Other Income, Net (in millions) 2020 2019 Other income, net $ 55.7 $ 186.4 Other income, net, as a percentage of net sales 0.4 % 2.0 % Other income, net decreased by $130.7 million to $55.7 million for fiscal year 2020, from $186.4 million for fiscal year 2019. The decrease was mainly driven by nonrecurrence of remedy disposal related gains in the fiscal year 2019. Consolidated Interest Income (in millions) 2020 2019 Interest income $ 22.2 $ 16.8 Interest income as a percentage of net sales 0.2 % 0.2 % Interest income increased by $5.4 million, or 32.1%, to $22.2 million for fiscal year 2020, from $16.8 million for fiscal year 2019, mainly driven by higher cash balances during the period and negative interest rates on a portion of Euro denominated borrowings. Consolidated Interest Expense (in millions) 2020 2019 Interest expense $ (206.9) $ (207.9) Interest expense as a percentage of net sales (1.7)% (2.2)% Interest expense remained relatively stable at $206.9 million for …"
+   },
+   {
+    "chunk_id": "ch_2b892897b0c523a8",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 28,
+    "text": "Net income attributable to Amcor plc increased by $182.0 million, or 42.3%, to $612.2 million for the fiscal year 2020, from $430.2 million for the fiscal year 2019 mainly as a result of the Bemis acquisition and related transaction and integration cost impacts. Diluted earnings per shares (\"Diluted EPS\") increased to $0.382, or 5.2%, for the fiscal year 2020, from $0.363 for the fiscal year 2019, with net income attributable to ordinary shareholders increasing 42.3% and the diluted weighted average number of shares outstanding increased 35.3%. The increase in the diluted weighted average number of shares outstanding was due to the acquisition of Bemis. Segment Results of Operations Flexibles Segment Our Flexibles reporting segment develops and supplies flexible packaging globally. (in millions) 2020 2019 Net sales including intersegment sales $ 9,754.7 $ 6,566.7 Adjusted EBIT from continuing operations 1,335.1 817.2 Adjusted EBIT from continuing operations as a percentage of net sales…"
+   },
+   {
+    "chunk_id": "ch_c0cf187589fb85b7",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 28,
+    "text": "Results of Operations The following is a discussion and analysis of changes in the financial condition and results of operations for fiscal year 2020 compared to fiscal year 2019. A discussion and analysis regarding our results of operations for fiscal year 2019 compared to fiscal year 2018 that are not included in this Annual Report on Form 10-K can be found in Part II, Item 7 of our Annual Report on Form 10-K for the fiscal year ended June 30, 2019, filed with the SEC on September 3, 2019. Consolidated Results of Operations (in millions) 2020 2019 Net sales $ 12,467.5 $ 9,458.2 Operating income 994.0 791.7 Operating profit as a percentage of net sales 8.0 % 8.4 % Net income attributable to Amcor plc $ 612.2 $ 430.2 Diluted Earnings Per Share $ 0.382 $ 0.363 Net sales increased $3,009.3 million, or 31.8%, to $12,467.5 million for the fiscal year 2020, from $9,458.2 million for the fiscal year 2019. Excluding negative currency impacts of $274.0 million, or (2.9%), and pass-through of l…"
+   },
+   {
+    "chunk_id": "ch_8c49cc35a8103680",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 29,
+    "text": "0.9%, favorable volumes of 0.4%, and unfavorable price/mix of 7.7%. Consolidated Gross Profit (in millions) 2020 2019 Gross profit $ 2,535.5 $ 1,799.1 Gross profit as a percentage of net sales 20.3 % 19.0 % Gross profit increased by $736.4 million, or 40.9%, to $2,535.5 million for fiscal year 2020, from $1,799.1 million for fiscal year 2019. The increase was primarily in the Flexibles reporting segment driven by the Bemis acquisition. Consolidated Selling, General and Administrative (\"SG&A\") Expense (in millions) 2020 2019 SG&A expenses $ (1,384.8) $ (999.0) SG&A expenses as a percentage of net sales (11.1)% (10.6)% SG&A increased by $385.8 million, or 38.6%, to $1,384.8 million for fiscal year 2020, from $999.0 million for fiscal year 2019. The increase was primarily in the Flexibles reporting segment and Other driven by the Bemis acquisition, including related transaction and integration cost impacts. Consolidated Research and Development (\"R&D\") Expense (in millions) 2020 2019 R&D …"
+   },
+   {
+    "chunk_id": "ch_16933008fd94d4bb",
+    "ticker": "AMCR",
+    "fiscal_year": 2020,
+    "section": "Item 7",
+    "page": 29,
+    "text": "Our Rigid Packaging reporting segment manufactures rigid packaging containers and related products. (in millions) 2020 2019 Net sales including intersegment sales $ 2,716.3 $ 2,892.7 Adjusted EBIT from continuing operations 290.1 308.2 Adjusted EBIT from continuing operations as a percentage of net sales 10.7 % 10.7 % Net sales decreased $176.4 million, or 6.1%, to $2,716.3 million for fiscal year 2020, from $2,892.7 million for fiscal year 2019. Excluding negative currency impacts of $39.0 million, or (1.3%) and pass-through of lower raw material costs of $117.7 million, or (4.1%), the decrease in net sales for the fiscal year 2020 was $19.7 million, or 0.7%, driven by favorable volumes of 0.5% and unfavorable price/mix of (1.2)%. Adjusted EBIT for the fiscal year 2020 decreased $18.1 million or 5.9% to $290.1 million for the fiscal year 2020 from $308.2 million for the fiscal year 2019. Excluding negative currency impacts of $5.1 million, or (1.7%), the decrease in Adjusted EBIT for …"
+   }
+  ]
+ }
+}

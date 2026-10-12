@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T+5trQ724z5VyfHvBWr0vmk5gYJO0iKr3AOLgtTdCjzU/EJgDeUSb0XjtF1rGIhbTGGlWkG+H2O07/ZQm/n8vpVcpav7twYgugqE7w/UNsImdHaEEX1OABcc="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BA\",\"fiscal_year\":2022,\"query\":\"Net cash provided/(used) by operating activities 3,512 (3,416)\",\"section\":\"8\"}",
+        "name": "search_filings"
+       },
+       "id": "call_46724",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833052,
+  "id": "3DPNauKqAcLhrfcPwaSBMQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 59,
+   "prompt_tokens": 5520,
+   "total_tokens": 5579
+  }
+ }
+}

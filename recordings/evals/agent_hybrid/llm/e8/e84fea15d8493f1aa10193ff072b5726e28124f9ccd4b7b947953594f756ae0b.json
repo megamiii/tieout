@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TDLpOE3kKSjSGDzw37khCcq6gnkixR7C+UInA6dkcrbedTL+O0UHwvZpB/6UYuF+iYK1uddOHpagTZnqnh7Kt9LevZS/0J9UF0VR3SuC0RKEu3uS3NuPmtjA="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Net Income Attributable to PepsiCo 7,618 7,120 7.0%\",\"ticker\":\"PEP\",\"fiscal_year\":2021}",
+        "name": "search_filings"
+       },
+       "id": "call_109106",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833475,
+  "id": "gzXNavelEIi61e8P9pn98AI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 56,
+   "prompt_tokens": 7374,
+   "prompt_tokens_details": {
+    "cached_tokens": 4042
+   },
+   "total_tokens": 7430
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Total assets",
+  "ticker": "NKE",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_7e1837b7c02cf6cb",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 59,
+    "text": "Table of Contents As of May 31, 2017 (In millions) Assets at Fair Value Cash Equivalents Short-term Investments Other Long-term Assets Cash $ 505 $ 505 $ — $ — Level 1: U.S. Treasury securities 1,545 159 1,386 — Level 2: Time deposits 813 769 44 — U.S. Agency securities 522 150 372 — Commercial paper and bonds 820 251 569 — Money market funds 1,974 1,974 — — Total level 2 4,129 3,144 985 — Level 3: Non-marketable preferred stock 10 — — 10 TOTAL $ 6,189 $ 3,808 $ 2,371 $ 10 The Company elects to record the gross assets and liabilities of its derivative financial instruments on the Consolidated Balance Sheets. The Company's derivative financial instruments are subject to master netting arrangements that allow for the offset of assets and liabilities in the event of default or early termination of the contract. Any amounts of cash collateral received related to these instruments associated with the Company ' s credit-related contingent features are recorded in Cash and equivalents and Acc…"
+   },
+   {
+    "chunk_id": "ch_636941d1901a0543",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 48,
+    "text": "Table of Contents NIKE, Inc. Consolidated Balance Sheets May 31, (In millions) 2018 2017 ASSETS Current assets: Cash and equivalents $ 4,249 $ 3,808 Short-term investments 996 2,371 Accounts receivable, net 3,498 3,677 Inventories 5,261 5,055 Prepaid expenses and other current assets 1,130 1,150 Total current assets 15,134 16,061 Property, plant and equipment, net 4,454 3,989 Identifiable intangible assets, net 285 283 Goodwill 154 139 Deferred income taxes and other assets 2,509 2,787 TOTAL ASSETS $ 22,536 $ 23,259 LIABILITIES AND SHAREHOLDERS' EQUITY Current liabilities: Current portion of long-term debt $ 6 $ 6 Notes payable 336 325 Accounts payable 2,279 2,048 Accrued liabilities 3,269 3,011 Income taxes payable 150 84 Total current liabilities 6,040 5,474 Long-term debt 3,468 3,471 Deferred income taxes and other liabilities 3,216 1,907 Commitments and contingencies (Note 15) Redeemable preferred stock — — Shareholders' equity: Common stock at stated value: Class A convertible — 3…"
+   },
+   {
+    "chunk_id": "ch_0b0af9c062d38595",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 73,
+    "text": "286 278 258 Total NIKE Brand 847 784 840 Converse 22 30 39 Corporate 325 387 312 TOTAL ADDITIONS TO LONG-LIVED ASSETS $ 1,194 $ 1,201 $ 1,191 DEPRECIATION North America $ 160 $ 140 $ 133 Europe, Middle East & Africa 116 106 85 Greater China 56 54 48 Asia Pacific & Latin America 55 54 42 Global Brand Divisions 217 233 230 Total NIKE Brand 604 587 538 Converse 33 28 27 Corporate 110 91 84 TOTAL DEPRECIATION $ 747 $ 706 $ 649 71"
+   },
+   {
+    "chunk_id": "ch_426318214d3ce197",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 59,
+    "text": "posted related to the Company ' s credit related contingent features is presented in the Cash provided by operations component of the Consolidated Statements of Cash Flows. Any amounts of non-cash collateral received, such as securities, are not recorded on the Consolidated Balance Sheets pursuant to U.S. GAAP. The following tables present information about the Company's derivative assets and liabilities measured at fair value on a recurring basis as of May 31, 2018 and 2017 , and indicate the level in the fair value hierarchy in which the Company classifies the fair value measurement. As of May 31, 2018 Derivative Assets Derivative Liabilities (In millions) Assets at Fair Value Other Current Assets Other Long- term Assets Liabilities at Fair Value Accrued Liabilities Other Long- term Liabilities Level 2: Foreign exchange forwards and options (1) $ 389 $ 237 $ 152 $ 182 $ 182 $ — Embedded derivatives 11 3 8 8 2 6 TOTAL $ 400 $ 240 $ 160 $ 190 $ 184 $ 6 (1) If the foreign exchange deriv…"
+   },
+   {
+    "chunk_id": "ch_253a67625ec64d75",
+    "ticker": "NKE",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 49,
+    "text": "276 (1,008) (1,034) Cash used by financing activities: Net proceeds from long-term debt issuance — 1,482 981 Long-term debt payments, including current portion (6) (44) (106) Increase (decrease) in notes payable 13 327 (67) Payments on capital lease and other financing obligations (23) (17) (7) Proceeds from exercise of stock options and other stock issuances 733 489 507 Repurchase of common stock (4,254) (3,223) (3,238) Dividends — common and preferred (1,243) (1,133) (1,022) Tax payments for net share settlement of equity awards (55) (29) (22) Cash used by financing activities (4,835) (2,148) (2,974) Effect of exchange rate changes on cash and equivalents 45 (20) (105) Net increase (decrease) in cash and equivalents 441 670 (714) Cash and equivalents, beginning of year 3,808 3,138 3,852 CASH AND EQUIVALENTS, END OF YEAR $ 4,249 $ 3,808 $ 3,138 Supplemental disclosure of cash flow information: Cash paid during the year for: Interest, net of capitalized interest $ 125 $ 98 $ 70 Income …"
+   }
+  ]
+ }
+}

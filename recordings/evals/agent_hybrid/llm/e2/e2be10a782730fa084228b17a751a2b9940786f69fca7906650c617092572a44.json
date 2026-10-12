@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TKUGUlRlrJW5WNhIdhj58Zrvj8ZnVZryY424pxcoSMNx6AonqYvbCuud7GhXlaS8M/ZMOlspjUFqxCSz/E3mDYlAL+agfHrCC9afVoHoe5kOI+odjKuXsY8w="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Consolidated Statements of Income\",\"ticker\":\"AMCR\",\"fiscal_year\":2023}",
+        "name": "search_filings"
+       },
+       "id": "call_299772",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791806211,
+  "id": "AsvMaprWK-zl0-kP6Ymj0Ag",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 37,
+   "prompt_tokens": 3133,
+   "total_tokens": 3170
+  }
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "((7618 - 7120) / 7120) * 100",
+  "ticker": "PEP",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_853a0645c65384d6",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 16",
+    "page": 143,
+    "text": "May 2028 Notes. The May 2028 notes are redeemable as a whole or in part, at our option at any time and from time to time prior to February 6, 2028 (three months prior to the maturity date of the May 2028 notes), at a redemption price equal to the greater of (i) 100% of the principal amount of such notes and (ii) the sum of the present values of the Remaining Scheduled Payments of principal and interest thereon (exclusive of interest accrued to the date of redemption), discounted to the redemption date on an annual basis (ACTUAL/ACTUAL (ICMA)) at the applicable Comparable Government Bond Rate plus 20 basis points, plus, in each case, accrued and unpaid interest to the date of redemption. The May 2028 notes are redeemable as a whole or in part, at our option at any time and from time to time on or after February 6, 2028 (three months prior to the maturity date of the May 2028 notes), at a redemption price equal to 100% of the principal amount of the May 2028 notes being redeemed, plus ac…"
+   },
+   {
+    "chunk_id": "ch_2b65116799d056e9",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 16",
+    "page": 142,
+    "text": "discounted to the redemption date on an annual basis (ACTUAL/ACTUAL (ICMA)) at the applicable Comparable Government Bond Rate plus 15 basis points, plus, in each case, accrued and unpaid interest to the date of redemption. The 2024 notes are redeemable as a whole or in part, at our option at any time and from time to time on or after April 6, 2024 (one month prior to the maturity date of the 2024 notes), at a redemption price equal to 100% of the principal amount of the 2024 notes being redeemed, plus accrued and unpaid interest to the date of redemption. 2026 Notes. The 2026 notes are redeemable as a whole or in part, at our option at any time and from time to time prior to January 28, 2026 (three months prior to the maturity date of the 2026 notes), on at least 30 days, but not more than 60 days, prior notice mailed (or otherwise transmitted in accordance with the procedures of the depositary) to the registered address of each holder of the 2026 notes, at a redemption price equal to …"
+   },
+   {
+    "chunk_id": "ch_b947e2bd905b287c",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 16",
+    "page": 412,
+    "text": "(1) The 100 percent survivor option described in Section 6.2(a)(2)(i) if his beneficiary is more than 10 years younger than he is, or (2) The 75 percent survivor option described in Section 6.2(a)(2)(ii) if his beneficiary is more than 19 years younger than he is. 6.5 Designation of Beneficiary: A Participant who has elected under Section 6.2 to receive all or part of his Retirement Pension in a form of payment that includes a survivor - 68 - PepsiCo Pension Equalization Plan –409A Program"
+   },
+   {
+    "chunk_id": "ch_c327501c34277940",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 16",
+    "page": 143,
+    "text": "address of each holder of notes, at a redemption price equal to the greater of (i) 100% of the principal amount of such notes and (ii) the sum of the present values of the Remaining Scheduled Payments of principal and interest thereon (exclusive of interest accrued to the date of redemption), discounted to the redemption date on an annual basis (ACTUAL/ACTUAL (ICMA)) at the applicable Comparable Government Bond Rate plus 20 basis points, plus, in each case, accrued and unpaid interest to the date of redemption. The July 2028 notes are redeemable as a whole or in part, at our option at any time and from time to time on or after April 18, 2028 (three months prior to the maturity date of the July 2028 notes), at a redemption price equal to 100% of the principal amount of the July 2028 notes being redeemed, plus accrued and unpaid interest to the date of redemption. 2031 Notes. The 2031 notes are redeemable as a whole or in part, at our option at any time and from time to time prior to Dec…"
+   },
+   {
+    "chunk_id": "ch_e8f1cb96e1cd5626",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 16",
+    "page": 145,
+    "text": "accrued and unpaid interest to the date of redemption. The 2050 notes are redeemable as a whole or in part, at our option at any time and from time to time on or after April 9, 2050 (six months prior to the maturity date of the 2050 notes), at a redemption price equal to 100% of the principal amount of the 2050 notes being redeemed, plus accrued and unpaid interest to the date of redemption. Definitions “Comparable Government Bond Rate” means, with respect to any redemption date for each series of euro notes, the price, expressed as a percentage (rounded to three decimal places, with 0.0005 being rounded upwards), at which the gross redemption yield on such euro notes to be redeemed, if they were to be purchased at such price on the third business day prior to the date fixed for redemption, would be equal to the gross redemption yield on such business day of the Comparable Government Bond (as defined below) on the basis of the middle market price of the Comparable Government Bond preva…"
+   }
+  ]
+ }
+}

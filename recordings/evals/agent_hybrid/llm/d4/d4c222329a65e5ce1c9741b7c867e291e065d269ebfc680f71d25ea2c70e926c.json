@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tp6Cu/5z9ukNx1awRzxOnkVS1V9jtsSuX287VbTEajcr6LO/WqMIhKDqVxa2WbfsF9elR1wuus/POa8kdK/dCDwqSMOJWU4FiAJfF/HTI8B6KINXClkUcZas="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"Net cash provided by operating activities was $3,512 million in 2022 and $(3,416) million in 2021. The percentage change from $(3,416) million to $3,512 million is ((3,512 - (-3,416)) / |-3,416|) * 100 = (6,928 / 3,416) * 100 = 202.813%, which rounds to 202.8%.\",\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_3c1bcb4812059ee7\",\"quote\":\"Net cash provided/(used) by operating activities 3,512 (3,416)\"}],\"answer\":\"Boeing's net cash provided by operating activities changed from a net cash use of $(3,416) million in fiscal year 2021 to net cash provided of $3,512 million in fiscal year 2022. Because the cash flow went from negative to positive, this represents a 202.8% increase (or improvement) in net cash provided by operating activities.\",\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_47767",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833055,
+  "id": "3jPNapDlNPLerfcP8IjoQA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 294,
+   "prompt_tokens": 9269,
+   "prompt_tokens_details": {
+    "cached_tokens": 6079
+   },
+   "total_tokens": 9563
+  }
+ }
+}

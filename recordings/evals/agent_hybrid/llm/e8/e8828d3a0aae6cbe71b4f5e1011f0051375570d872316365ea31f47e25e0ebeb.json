@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T7h2BfV4cp740upCxAMWbuEwpPRMptuL9qPxZn3VKoQg47+4hQ/LyUhHWg94Tz3M8AC2A/EUc8MJervjt8/PF1cWQ9DoYbyNp+i5xpO9FEwsv9U/5Wzn0sPg="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"section\":\"8\",\"query\":\"Cash Flows from Investing Activities\",\"ticker\":\"AXP\"}",
+        "name": "search_filings"
+       },
+       "id": "call_65314",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791832992,
+  "id": "nzPNasL9IvH_1e8P2JeoyQI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 43,
+   "prompt_tokens": 3224,
+   "total_tokens": 3267
+  }
+ }
+}

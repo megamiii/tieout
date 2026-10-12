@@ -157,7 +157,7 @@
  "requests": 5,
  "prompt_tokens": 21259,
  "completion_tokens": 368,
- "latency_ms": 9310.6,
+ "latency_ms": null,
  "grade": {
   "correct": true,
   "method": "numeric",

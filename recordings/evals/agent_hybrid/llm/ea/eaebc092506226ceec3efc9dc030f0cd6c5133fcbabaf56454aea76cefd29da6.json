@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T2L3UHYDacJxFI4fp6jaqD1AELBF37V+cD5jVDfZIr2sbnYuv8ERBxZpkor9IgGUTI+vOmTCqYOFLzdZhj5OgicrEUMBXG0rdxvPnhaV5pbgOt2LDyFwGeqY="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"query\":\"Consolidated Statements of Operations Years ended December 31, 2022 Net loss Boeing\",\"section\":\"8\",\"ticker\":\"BA\"}",
+        "name": "search_filings"
+       },
+       "id": "call_37867",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833109,
+  "id": "FTTNatWqHYjmrfcP3rao8Ao",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 57,
+   "prompt_tokens": 3389,
+   "total_tokens": 3446
+  }
+ }
+}

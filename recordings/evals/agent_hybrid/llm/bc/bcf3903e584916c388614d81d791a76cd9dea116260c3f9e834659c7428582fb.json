@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TBhl3qp71R0dXhN2xr3QqLP+tvCrI3rDgEYbkine/bG0xsp6dTGp96HdKEpWyI+Pj2hopjzH2b2QAaeENtNp7LgZWjbb/ki5Wd+AIicOq1srLiqhUT82BN2c="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"Amcor's research and development expenses in fiscal year 2023 were $101 million.\",\"rationale\":\"The research and development expenses for fiscal year 2023 are explicitly reported as $101 million in Amcor's Consolidated Statements of Income (Item 8 of the 2023 Form 10-K).\",\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_2bba86d92f1fb602\",\"quote\":\"Research and development expenses (101) (96) (100)\"}],\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_386152",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791806214,
+  "id": "BcvMaqXTH8GC0-kProC2KQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 152,
+   "prompt_tokens": 5963,
+   "prompt_tokens_details": {
+    "cached_tokens": 2018
+   },
+   "total_tokens": 6115
+  }
+ }
+}

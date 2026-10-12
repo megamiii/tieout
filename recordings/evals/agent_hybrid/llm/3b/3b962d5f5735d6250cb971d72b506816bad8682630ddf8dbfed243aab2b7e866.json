@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 12,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TL4dZSxT5LYv+3Cq7KRKsGAthWpt0osDVYXkQbfzj0dqpTYGXkiY2xPGoEJyRVZQGtlwEYH9M9RVewVm8maa7hGZvtNia8oc1ualf/TN8EoCvZM/YuJiUYeU="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The consolidated statements of income report research, development and engineering expenses of $995 million for fiscal year 2021 and $1,047 million for fiscal year 2022 (Item 8 / Item 16). The exact percentage increase is (1047 - 995) / 995 = 5.226%, which rounds to 5.2% (or 5% as mentioned in Item 7 MD&A).\",\"answer\":\"Corning's research, development and engineering expenses increased from $995 million in fiscal year 2021 to $1,047 million in fiscal year 2022, which represents an increase of 5.2% (or 5% as stated in MD&A).\",\"citations\":[{\"source_id\":\"ch_65c317f7079839a6\",\"quote\":\"Research, development and engineering expenses 1,047 995\"},{\"quote\":\"Research, development and engineering expenses increased by $52 million, or 5%, and were consistent as a percentage of sales when compared to 2021.\",\"source_id\":\"ch_6629d2661a5b7b79\"}],\"needs_review\":false,\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_85035",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833359,
+  "id": "DjXNaoSeJbus0-kPktaKGA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 312,
+   "prompt_tokens": 8260,
+   "prompt_tokens_details": {
+    "cached_tokens": 4047
+   },
+   "total_tokens": 8572
+  }
+ }
+}

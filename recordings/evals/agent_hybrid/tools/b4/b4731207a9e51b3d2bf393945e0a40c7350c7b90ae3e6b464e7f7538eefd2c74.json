@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net Income Attributable to PepsiCo 7,618 7,120 7.0%",
+  "ticker": "PEP",
+  "fiscal_year": 2021,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_da4ea9fe1c16ccd0",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 101,
+    "text": "Table of Contents Note 10 — Net Income Attributable to PepsiCo per Common Share The computations of basic and diluted net income attributable to PepsiCo per common share are as follows: 2021 2020 2019 Income Shares Income Shares Income Shares Basic net income attributable to PepsiCo per common share $ 5.51 $ 5.14 $ 5.23 Net income available for PepsiCo common shareholders $ 7,618 1,382 $ 7,120 1,385 $ 7,314 1,399 Dilutive securities: Stock options, RSUs, PSUs and other — 7 — 7 — 8 Diluted $ 7,618 1,389 $ 7,120 1,392 $ 7,314 1,407 Diluted net income attributable to PepsiCo per common share $ 5.49 $ 5.12 $ 5.20 (a) Weighted-average common shares outstanding (in millions). (b) The dilutive effect of these securities is calculated using the treasury stock method. The weighted-average amount of antidilutive securities excluded from the calculation of diluted earnings per common share was immaterial for the years ended December 25, 2021, December 26, 2020 and December 28, 2019. (a) (a) (a) (…"
+   },
+   {
+    "chunk_id": "ch_b7df7e4543cc7133",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 61,
+    "text": "Table of Contents Consolidated Statement of Income PepsiCo, Inc. and Subsidiaries Fiscal years ended December 25, 2021, December 26, 2020 and December 28, 2019 (in millions except per share amounts) 2021 2020 2019 Net Revenue $ 79,474 $ 70,372 $ 67,161 Cost of sales 37,075 31,797 30,132 Gross profit 42,399 38,575 37,029 Selling, general and administrative expenses 31,237 28,495 26,738 Operating Profit 11,162 10,080 10,291 Other pension and retiree medical benefits income/(expense) 522 117 (44) Net interest expense and other (1,863) (1,128) (935) Income before income taxes 9,821 9,069 9,312 Provision for income taxes 2,142 1,894 1,959 Net income 7,679 7,175 7,353 Less: Net income attributable to noncontrolling interests 61 55 39 Net Income Attributable to PepsiCo $ 7,618 $ 7,120 $ 7,314 Net Income Attributable to PepsiCo per Common Share Basic $ 5.51 $ 5.14 $ 5.23 Diluted $ 5.49 $ 5.12 $ 5.20 Weighted-average common shares outstanding Basic 1,382 1,385 1,399 Diluted 1,389 1,392 1,407 Se…"
+   },
+   {
+    "chunk_id": "ch_2ffd230b5d4fb13d",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 54,
+    "text": "Net income attributable to PepsiCo $ 7,618 $ 7,120 Interest expense 1,988 1,252 Tax on interest expense (441) (278) $ 9,165 $ 8,094 Average debt obligations $ 42,341 $ 41,402 Average common shareholders' equity 14,924 13,536 Average invested capital $ 57,265 $ 54,938 ROIC, non-GAAP measure 16.0 % 14.7 % (a) Includes a quarterly average of short-term and long-term debt obligations. (b) Includes a quarterly average of common stock, capital in excess of par value, retained earnings, accumulated other comprehensive loss and repurchased common stock. (a) (a) (b) (a) (b) 52"
+   },
+   {
+    "chunk_id": "ch_3b305406d574a86d",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 45,
+    "text": "Table of Contents Beverage unit volume grew 13%, primarily reflecting double-digit growth in China, partially offset by a low-single-digit decline in Vietnam. Additionally, the Philippines experienced low-single-digit growth and Thailand experienced mid-single-digit growth. Operating profit increased 14%, primarily reflecting the net revenue growth, productivity savings and a 2- percentage-point contribution from our Be & Cheery acquisition, partially offset by certain operating cost increases and higher advertising and marketing expenses. Additionally, impairment charges associated with an equity method investment reduced operating profit growth by 3 percentage points. Favorable foreign exchange contributed 3 percentage points to operating profit growth. Other Consolidated Results 2021 2020 Change Other pension and retiree medical benefits income $ 522 $ 117 $ 405 Net interest expense and other $ (1,863) $ (1,128) $ (735) Annual tax rate 21.8 % 20.9 % Net income attributable to PepsiC…"
+   },
+   {
+    "chunk_id": "ch_3839a4f45b88a010",
+    "ticker": "PEP",
+    "fiscal_year": 2021,
+    "section": "Item 7",
+    "page": 48,
+    "text": "Table of Contents Items Affecting Comparability Our reported financial results in this Form 10-K are impacted by the following items in each of the following years: 2021 Cost of sales Gross profit Selling, general and administrative expenses Operating profit Other pension and retiree medical benefits income Net interest expense and other Provision for income taxes Net income attributable to noncontrolling interests Net income attributable to PepsiCo Reported, GAAP Measure $ 37,075 $ 42,399 $ 31,237 $ 11,162 $ 522 $ (1,863) $ 2,142 $ 61 $ 7,618 Items Affecting Comparability Mark-to-market net impact (39) 39 20 19 — — 5 — 14 Restructuring and impairment charges (29) 29 (208) 237 10 — 41 1 205 Acquisition and divestiture-related charges (1) 1 5 (4) — — 23 — (27) Pension and retiree medical-related impact — — — — 12 — 1 — 11 Charge related to cash tender offers — — — — — 842 165 — 677 Tax expense related to the TCJ Act — — — — — — (190) — 190 Core, Non-GAAP Measure $ 37,006 $ 42,468 $ 31,0…"
+   }
+  ]
+ }
+}

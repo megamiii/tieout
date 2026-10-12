@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TOdAkPahAAZ9v78lZIOVXi5jjDOJbl9o0gbPBKT3LuwsBAGrO4ipBLKlDHS184+3xwVZKF0cELlmhScHpL6GIKak06fTLijumviawDp9Kgz6JpIw8NHeOyhM="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"confidence\":1,\"citations\":[{\"quote\":\"Net Income $ 21,748 $ 22,618 $ 18,348\",\"source_id\":\"ch_e128c9d3d7199637\"}],\"answer\":\"Verizon's net income changed from $22,618 million in fiscal year 2021 to $21,748 million in fiscal year 2022, representing a decrease of approximately 3.8%.\",\"rationale\":\"Net income for FY2021 was $22,618 million and for FY2022 was $21,748 million. Percentage change = (21,748 - 22,618) / 22,618 = -870 / 22,618 = -3.8465% -\\u003e -3.8%.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_50828",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833539,
+  "id": "wjXNau-OK-7d1e8PxPTkoAg",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 232,
+   "prompt_tokens": 7998,
+   "total_tokens": 8230
+  }
+ }
+}

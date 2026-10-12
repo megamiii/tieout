@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net earnings 1464 1000",
+  "ticker": "BBY",
+  "fiscal_year": 2019,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_875b47a8cab19292",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Table of Contents Consolidated Statements of Earnings $ and shares in millions, except per share amounts Fiscal Years Ended February 2, 2019 February 3, 2018 January 28, 2017 Revenue $ 42,879 $ 42,151 $ 39,403 Cost of goods sold 32,918 32,275 29,963 Gross profit 9,961 9,876 9,440 Selling, general and administrative expenses 8,015 8,023 7,547 Restructuring charges 46 10 39 Operating income 1,900 1,843 1,854 Other income (expense): Gain on sale of investments 12 1 3 Investment income and other 49 48 31 Interest expense (73) (75) (72) Earnings from continuing operations before income tax expense 1,888 1,817 1,816 Income tax expense 424 818 609 Net earnings from continuing operations 1,464 999 1,207 Gain from discontinued operations (Note 3), net of tax expense of $0, $0 and $7, respectively — 1 21 Net earnings $ 1,464 $ 1,000 $ 1,228 Basic earnings per share Continuing operations $ 5.30 $ 3.33 $ 3.79 Discontinued operations — — 0.07 Basic earnings per share $ 5.30 $ 3.33 $ 3.86 Diluted ea…"
+   },
+   {
+    "chunk_id": "ch_82b7441add5cab35",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 90,
+    "text": "208 $ 244 $ 277 $ 735 $ 1,464 Diluted earnings per share (4) $ 0.72 $ 0.86 $ 0.99 $ 2.69 $ 5.20 Quarter 1st 2nd 3rd 4th Fiscal Year Fiscal 2018 Revenue $ 8,528 $ 8,940 $ 9,320 $ 15,363 $ 42,151 Comparable sales growth (1) 1.6% 5.4% 4.4% 9.0% 5.6% Gross profit $ 2,022 $ 2,153 $ 2,280 $ 3,421 $ 9,876 Operating income (5) 300 321 350 872 1,843 Net earnings from continuing operations (6) 188 209 238 364 999 Gain from discontinued operations, net of tax — — 1 — 1 Net earnings $ 188 $ 209 $ 239 $ 364 $ 1,000 Diluted earnings per share (4) $ 0.60 $ 0.67 $ 0.78 $ 1.23 $ 3.26 (1) Our comparable sales calculation compares revenue from stores, websites and call centers operating for at least 14 full months, as well as revenue related to certain other comparable sales channels for a particular period to the corresponding period in the prior year. Relocated stores, as well as remodeled, expanded and downsized stores closed more than 14 days, are excluded from our comparable sales calculation until …"
+   },
+   {
+    "chunk_id": "ch_1786f9b1e2e38025",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 78,
+    "text": "Table of Contents Earnings per Share We compute our basic earnings per share based on the weighted-average number of common shares outstanding, and our diluted earnings per share based on the weighted-average number of common shares outstanding adjusted by the number of additional shares that would have been outstanding had the potentially dilutive common shares been issued. Potentially dilutive securities include stock options, nonvested share awards and shares issuable under our employee stock purchase plan. Nonvested market-based share awards and nonvested performance-based share awards are included in the average diluted shares outstanding each period if established market or performance criteria have been met at the end of the respective periods. At February 2, 2019 , options to purchase 2.4 million shares of common stock were outstanding as follows (shares in millions): Exercisable Unexercisable Total Shares % Weighted- Average Price per Share Shares % Weighted- Average Price per…"
+   },
+   {
+    "chunk_id": "ch_2d4062d782e3d0ab",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Table of Contents Consolidated Statements of Changes in Shareholders' Equity $ and shares in millions, except per share amounts Common Shares Common Stock Prepaid Share Repurchase Additional Paid-In Capital Retained Earnings Accumulated Other Comprehensive Income (Loss) Total Equity Balances at January 30, 2016 324 $ 32 $ (55) $ — $ 4,130 $ 271 $ 4,378 Net earnings — — — — 1,228 — 1,228 Other comprehensive income (loss), net of tax: Foreign currency translation adjustments — — — — — 10 10 Reclassification of foreign currency translation adjustments into earnings — — — — — (2) (2) Settlement of accelerated share repurchase — — 55 — — — 55 Tax benefits from stock options exercised, restricted stock vesting and employee stock purchase plan — — — 17 — — 17 Stock-based compensation — — — 108 — — 108 Issuance of common stock 8 1 — 170 — — 171 Common stock dividends, $1.57 per share — — — — (505) — (505) Repurchase of common stock (21) (2) — (295) (454) — (751) Balances at January 28, 2017 31…"
+   },
+   {
+    "chunk_id": "ch_f331153efbda5863",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 59,
+    "text": "Table of Contents The cumulative effect of the changes made to our Condensed Consolidated Balance Sheets on February 4, 2018, for the adoption of this standard was as follows ($ in millions): February 3, 2018 As Reported ASU 2014-09 Adjustment on February 4, 2018 February 4, 2018 Adjusted Assets Other assets $ 374 $ (19) $ 355 Liabilities Unredeemed gift card liabilities 385 (69) 316 Deferred revenue 453 (26) 427 Accrued liabilities 1,001 3 1,004 Equity Retained earnings 3,270 73 3,343 The following tables reflect the impact of adopting this standard on our Consolidated Balance Sheets as of February 2, 2019 , and our Consolidated Statements of Earnings for the fiscal year ended February 2, 2019 ($ in millions, except per share amounts): February 2, 2019 Impact of Changes to Consolidated Balance Sheets As Reported Balances without Adoption of ASU 2014-09 Effect of Change Higher/(Lower) (1) Assets Other current assets $ 466 $ 410 $ 56 Other assets 606 625 (19) Liabilities Unredeemed gift…"
+   }
+  ]
+ }
+}

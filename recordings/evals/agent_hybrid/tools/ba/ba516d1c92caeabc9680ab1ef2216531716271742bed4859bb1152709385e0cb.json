@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Total assets",
+  "ticker": "PEP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_9c64c0613b054b51",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 73,
+    "text": "PBNA 40,286 37,801 1,714 1,275 1,245 LatAm 7,886 7,272 581 461 390 Europe 16,230 18,472 668 752 730 AMESA 6,143 6,125 307 325 252 APAC 5,452 5,654 241 203 230 Total division 88,284 86,188 5,068 4,519 4,121 Corporate 3,903 6,189 139 106 119 Total $ 92,187 $ 92,377 $ 5,207 $ 4,625 $ 4,240 (a) Corporate assets consist principally of certain cash and cash equivalents, restricted cash, short-term investments, derivative instruments, property, plant and equipment, pension plan assets and tax assets. In 2022, the change in assets was primarily due to a decrease in cash and cash equivalents. (a) (a) 71"
+   },
+   {
+    "chunk_id": "ch_cfe4eff491630d5d",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 74,
+    "text": "All other countries 17,443 16,729 14,754 12,885 13,399 Total $ 86,392 $ 79,474 $ 70,372 $ 61,965 $ 62,080 (a) Long-lived assets represent property, plant and equipment, indefinite-lived intangible assets, amortizable intangible assets, investments in noncontrolled affiliates and other investments included in other assets. See Notes 2 and 14 for further information on property, plant and equipment. See Notes 2 and 4 for further information on goodwill and other intangible assets. See Note 14 for further information on other assets. Investments in noncontrolled affiliates are evaluated for impairment upon a significant change in the operating or macroeconomic environment. These assets are reported in the country where they are primarily used. (b) In 2021, the increase in net revenue reflects our acquisition of Be & Cheery. See Note 13 for further information. (c) In 2021, the increase in net revenue reflects our acquisition of Pioneer Foods. See Note 13 for further information. Note 2 — …"
+   },
+   {
+    "chunk_id": "ch_4cda04e5504c7494",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 102,
+    "text": "assets and other assets. Financial liabilities are classified on our balance sheet within accounts payable and other current liabilities and other liabilities. (b) Primarily related to our investment in Celsius convertible preferred stock. The fair value of our investment approximates the transaction price and any accrued dividends, as well as the amortized cost. As of December 31, 2022, $3 million, $104 million and $553 million were classified as cash equivalents, short-term investments and other assets, respectively. (c) Based on the price of index funds. These investments are classified as short-term investments and are used to manage a portion of market risk arising from our deferred compensation liability. (d) Based primarily on the price of our common stock. (e) Based on the fair value of investments corresponding to employees' investment elections. (f) Based on recently reported market transactions of spot and forward rates. (g) Primarily based on recently reported market transa…"
+   },
+   {
+    "chunk_id": "ch_83ed8175e5257db7",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 96,
+    "text": "Table of Contents method that recognizes investment gains or losses (the difference between the expected and actual return based on the market- related value of assets) over a five-year period. This has the effect of reducing year-to-year volatility. Plan assets measured at fair value as of year-end 2022 and 2021 are categorized consistently by Level 1 (quoted prices in active markets for identical assets), Level 2 (significant other observable inputs) and Level 3 (significant unobservable inputs) in both years and are as follows: Fair Value Hierarchy Level 2022 2021 U.S. plan assets Equity securities, including preferred stock 1 $ 4,387 $ 6,387 Government securities 2 1,751 2,523 Corporate bonds 2 4,245 6,210 Mortgage-backed securities 2 142 199 Contracts with insurance companies 3 9 9 Cash and cash equivalents 1, 2 157 352 Sub-total U.S. plan assets 10,691 15,680 Real estate commingled funds measured at net asset value 533 478 Dividends and interest receivable, net of payables 120 45…"
+   },
+   {
+    "chunk_id": "ch_a2f7252b01d02ce5",
+    "ticker": "PEP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 95,
+    "text": "these plan assets as compared to changes in our projected obligations. Our overall investment policy is to prudently invest plan assets in a well-diversified portfolio of equity and high-quality debt securities and real estate to achieve our long-term return expectations. Our investment policy also permits the use of derivative instruments, such as futures and forward contracts, to reduce interest rate and foreign currency risks. Futures contracts represent commitments to purchase or sell securities at a future date and at a specified price. Forward contracts consist of currency forwards. For 2023 and 2022, our expected long-term rate of return on U.S. plan assets is 7.4% and 6.7%, respectively. Our target investment allocations for U.S. plan assets for both 2023 and 2022 are as follows: Fixed income 56 % U.S. equity 22 % International equity 18 % Real estate 4 % Actual investment allocations may vary from our target investment allocations due to prevailing market conditions. We regula…"
+   }
+  ]
+ }
+}

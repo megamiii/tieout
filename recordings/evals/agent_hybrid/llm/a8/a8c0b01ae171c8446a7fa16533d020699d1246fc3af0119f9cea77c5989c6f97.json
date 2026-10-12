@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T2sU23azV7RApay7+SOPuj3JvubOf8nf60IIBoXfknCGUVFbXoanzLQp8othhStXUSGaTBujJUoaT1p+xl2KVYvmkoizGbRe/1HK2GBdBm3mfuOEaYNTgP0E="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"VZ\",\"query\":\"Consolidated Statements of Income Net Income Verizon\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_40714",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833542,
+  "id": "xjXNav_PBt2t1e8P0__GqQE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 39,
+   "prompt_tokens": 3191,
+   "total_tokens": 3230
+  }
+ }
+}

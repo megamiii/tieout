@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T7vTXq76nG1kct/vCMe2l94k89/qHdvhYn05l/0HDmG5sRB9o8hOepv34UJE4fwY9ko/6BVDTOd4WZKS0+wXmsS7WGVqjbk2Xp61B3Nu7cJSuFaMLSXoMxh4="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"rationale\":\"The net cash provided by operating activities for CVS Health was $8,007 million in 2017 and $8,865 million in 2018. The company's table in Item 7 explicitly reports the percentage change as 11%.\",\"answer\":\"CVS Health's net cash provided by operating activities increased by 11.0% (or 11% as reported) from $8,007 million in fiscal year 2017 to $8,865 million in fiscal year 2018.\",\"citations\":[{\"quote\":\"Net cash provided by operating activities $ 8,865 $ 8,007 $ 10,141 $ 858 11 % $ (2,134) (21)%\",\"source_id\":\"ch_3a0935523ecf6cb2\"}],\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_70694",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833227,
+  "id": "izTNasqnBpGNvr0PluXiYA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 230,
+   "prompt_tokens": 3610,
+   "total_tokens": 3840
+  }
+ }
+}

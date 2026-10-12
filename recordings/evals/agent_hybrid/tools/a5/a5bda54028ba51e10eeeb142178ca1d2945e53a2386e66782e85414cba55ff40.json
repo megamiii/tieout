@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Boeing FY2022 10-K is not supported",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_8f70480d12e20cc2",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 35,
+    "text": "We are currently producing at low rates and expect to gradually return to 5 per month in 2023. In the third quarter of 2021, we determined that production rates below 5 per month represented abnormally low production rates and result in abnormal production costs. We also determined that the inspections and rework costs on inventoried aircraft are excessive and should also be accounted for as abnormal production costs that are required to be expensed as incurred. Cumulative abnormal costs recorded through December 31, 2022 totaled $1.7 billion. During the fourth quarter of 2022 we adjusted the total estimate of abnormal production costs up to $2.8 billion with most being incurred by the end of 2023. At December 31, 2021, we were expecting to incur approximately $2 billion of abnormal production costs on a cumulative basis. The increase was primarily driven by a decision in the fourth quarter of 2022 to slow down near-term production due to supply chain constraints and increased inspecti…"
+   },
+   {
+    "chunk_id": "ch_d1744f094fc2ed7e",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 37,
+    "text": "Table of Contents Defense, Space & Security Business Environment and Trends United States Government Defense Environment Overview The Consolidated Appropriations Act, 2023, enacted in December 2022, provided fiscal year 2023 (FY23) appropriations for government departments and agencies, including $817 billion for the U.S. DoD and $25.4 billion for NASA. The enacted FY23 appropriations included funding for Boeing's major programs, including the F/A-18 Super Hornet, F-15EX, CH-47 Chinook, AH-64 Apache, V-22 Osprey, KC-46A Tanker, MQ-25, and the Space Launch System. The FY23 appropriations support F/A-18 production further into calendar year 2025. The FY23 appropriations did not include funding for additional P-8 aircraft. The P-8 program continues to pursue additional sales opportunities to extend production beyond 2024. There is ongoing uncertainty with respect to program-level appropriations for the U.S. DoD, NASA and other government agencies for fiscal year 2024 and beyond. U.S. gove…"
+   },
+   {
+    "chunk_id": "ch_bf63099a126702b7",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 1A",
+    "page": 10,
+    "text": "Table of Contents commercial aircraft assembly facilities are delayed or create significant disruption to our production system, or if our suppliers cannot timely deliver components to us at the cost and rates necessary to achieve our targets, we may be unable to meet delivery schedules and/or the financial performance of one or more of our programs may suffer. Operational challenges impacting the production system for one or more of our commercial aircraft programs could result in additional production delays and/or failure to meet customer demand for new aircraft, either of which would negatively impact our revenues and operating margins. Our commercial aircraft production system is extremely complex. Operational issues, including delays or defects in supplier components, failure to meet internal performance plans, or delays or failures to achieve required regulatory approval, could result in additional out-of-sequence work and increased production costs, as well as delayed deliverie…"
+   },
+   {
+    "chunk_id": "ch_1ac73c43f468d828",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 85,
+    "text": "Table of Contents Note 11 – Investments Our investments, which are recorded in Short-term and other investments or Investments, consisted of the following at December 31: 2022 2021 Equity method investments $948 $930 Time deposits 2,093 7,676 Available for sale debt instruments 479 464 Equity and other investments 36 45 Restricted cash & cash equivalents 33 52 Total $3,589 $9,167 Dividends received were $111 and $77 during 2022 and 2021. Retained earnings at December 31, 2022 include undistributed earnings from our equity method investments of $141. During the third quarter of 2021, Boeing and AE Industrial Partners announced a strategic partnership to establish a dedicated aerospace venture fund. This transaction resulted in the deconsolidation of HorizonX and generated a gain of $117 which is included in (Loss)/income from operating investments, net. Reflects amounts restricted in support of our property sales, workers' compensation programs and insurance premiums. Allowance for loss…"
+   },
+   {
+    "chunk_id": "ch_fb228ca85b2179a4",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 30,
+    "text": "Ltd. (COMAC), which delivered its first C919 aircraft in 2022. Some of these competitors have historically enjoyed access to government- provided financial support, including “launch aid,” which greatly reduces the cost and commercial risks associated with airplane development activities. This has enabled the development of airplanes without broad commercial viability; others to be brought to market more quickly than otherwise possible; and many offered for sale below market-based prices. Competitors continue to make improvements in efficiency, which may result in funding product development, gaining market share and improving earnings. This market environment has resulted in intense pressures on pricing and other competitive factors, and we expect these pressures to continue or intensify in the coming years. We are focused on improving our products and services and continuing our business transformation efforts, which enhances our ability to compete and positions us for market recover…"
+   }
+  ]
+ }
+}

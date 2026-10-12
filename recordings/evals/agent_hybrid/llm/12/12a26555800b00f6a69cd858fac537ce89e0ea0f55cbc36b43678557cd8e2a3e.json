@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TNGF3Z58eiz9Xk6EoaNjrp9eiEw5nOSATMHkJJ+A7ksKCGroNCGkiGW7HgcuT6aEdFYKFgj+w6tMx2RGKmNeWSNk2UneET4o3thfsbwfPX8yvotF5ur0cYeA="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"Net income (loss) attributable to Boeing shareholders Consolidated Statements of Operations\",\"ticker\":\"BA\",\"fiscal_year\":2022}",
+        "name": "search_filings"
+       },
+       "id": "call_30037",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833058,
+  "id": "4jPNarrrCe3q2roPpumz2QM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 3032,
+   "total_tokens": 3076
+  }
+ }
+}

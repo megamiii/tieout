@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Teij/ct4bKzDDmx/7N5jqduFEAjzvgmwLZeX1PsrbuIBBF9YXQBwRI6zUGJOxgNAKJaSJ6t9v8wAYhgJzMrYIH+npPWOF8Cs5ggWrkb3qkv+Byve2H8waFK0="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BA\",\"query\":\"operating income earnings operations 2018\",\"fiscal_year\":2018}",
+        "name": "search_filings"
+       },
+       "id": "call_50764",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833046,
+  "id": "1jPNaqb9CfbLrfcP2brDyAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 40,
+   "prompt_tokens": 1591,
+   "total_tokens": 1631
+  }
+ }
+}

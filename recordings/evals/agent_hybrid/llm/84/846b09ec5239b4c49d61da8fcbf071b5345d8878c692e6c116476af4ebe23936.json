@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TEc5AEqxxujI3UBPbldfm2iGWW4xdGRcLKpaPFB5j3ZV1lDG7+1IjN2ll8VfiUaXWwgUlP6EJ0y5mR2UvOUdjZgKv48zMmW+Ry0o64bMHiPgcs8y+aPaJMJE="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_5500f4d811242893\",\"quote\":\"Net earnings attributable to General Mills $ 1,752.7\"}],\"needs_review\":false,\"answer\":\"General Mills's net earnings (net income) attributable to General Mills was $1,752.7 million in fiscal year 2019.\",\"confidence\":1,\"rationale\":\"The Consolidated Statements of Earnings reports Net earnings attributable to General Mills of $1,752.7 million for fiscal year 2019.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_29556",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833292,
+  "id": "yzTNauCZKq_H0-kPhsHyyAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 143,
+   "prompt_tokens": 3691,
+   "total_tokens": 3834
+  }
+ }
+}

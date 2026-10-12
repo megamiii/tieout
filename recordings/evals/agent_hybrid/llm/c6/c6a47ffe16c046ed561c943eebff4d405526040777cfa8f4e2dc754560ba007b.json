@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T9skfGO1fd6L1sgN3C2gbfGltXsUzt110rXzGkELf/ui5o+1m3BXJ5sZVO6uBAsFMt1CHMF32tQ9PNZTq8xCj47dKhvZTqZAWyMozyKTxxirT+wMrD5BQhX8="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"query\":\"Net income Verizon 2021 2022\",\"ticker\":\"VZ\"}",
+        "name": "search_filings"
+       },
+       "id": "call_29668",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833522,
+  "id": "sTXNaqPsKvbLrfcP2rrDyAo",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 1597,
+   "total_tokens": 1641
+  }
+ }
+}

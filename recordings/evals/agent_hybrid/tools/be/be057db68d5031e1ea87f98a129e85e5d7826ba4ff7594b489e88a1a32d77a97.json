@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net loss attributable to Boeing Shareholders increased from $4,202 million to $4,935 million",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_cd8460afdb066257",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 27,
+    "text": "Table of Contents Other Earnings Items (Dollars in millions) Years ended December 31, 2022 2021 2020 Loss from operations ($3,547) ($2,902) ($12,767) Other income, net 1,058 551 447 Interest and debt expense (2,533) (2,682) (2,156) Loss before income taxes (5,022) (5,033) (14,476) Income tax (expense)/benefit (31) 743 2,535 Net loss from continuing operations (5,053) (4,290) (11,941) Less: net loss attributable to noncontrolling interest (118) (88) ($68) Net loss attributable to Boeing Shareholders ($4,935) ($4,202) ($11,873) Non-operating pension income included in Other income, net was $881 million in 2022, $528 million in 2021, and $340 million in 2020. The increased income in 2022 compared to 2021 was primarily due to lower amortization of net actuarial losses in 2022 and a settlement loss recorded in 2021. The increased income in 2021 compared to 2020 was primarily due to lower interest cost and higher expected return on plan assets, partially offset by higher amortization of net …"
+   },
+   {
+    "chunk_id": "ch_24a2ba8ecef95a47",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Less: net loss attributable to noncontrolling interest (118) (88) (68) Net loss attributable to Boeing Shareholders ($4,935) ($4,202) ($11,873) Basic loss per share ($8.30) ($7.15) ($20.88) Diluted loss per share ($8.30) ($7.15) ($20.88) See Notes to the Consolidated Financial Statements on pages 59 - 114. 53"
+   },
+   {
+    "chunk_id": "ch_eca87d3f5429fd17",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 62,
+    "text": "(11,941) Less: net loss attributable to noncontrolling interest (118) (88) (68) Net loss attributable to Boeing Shareholders ($4,935) ($4,202) ($11,873) This information is an integral part of the Notes to the Consolidated Financial Statements. See Note 22 for further segment results. 58"
+   },
+   {
+    "chunk_id": "ch_5d78669497b1d576",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 24,
+    "text": "Table of Contents Consolidated Results of Operations The following table summarizes key indicators of consolidated results of operations: (Dollars in millions, except per share data) Years ended December 31, 2022 2021 2020 Revenues $66,608 $62,286 $58,158 GAAP Loss from operations ($3,547) ($2,902) ($12,767) Operating margins (5.3) % (4.7) % (22.0) % Effective income tax rate (0.6) % 14.8 % 17.5 % Net loss attributable to Boeing Shareholders ($4,935) ($4,202) ($11,873) Diluted loss per share ($8.30) ($7.15) ($20.88) Non-GAAP Core operating loss ($4,690) ($4,075) ($14,150) Core operating margins (7.0 %) (6.5 %) (24.3 %) Core loss per share ($11.06) ($9.44) ($23.25) These measures exclude certain components of pension and other postretirement benefit expense. See pages 45 - 47 for important information about these non-GAAP measures and reconciliations to the most directly comparable GAAP measures. Revenues The following table summarizes Revenues: (Dollars in millions) Years ended Decembe…"
+   },
+   {
+    "chunk_id": "ch_cc19595608c4e1aa",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Operations (Dollars in millions, except per share data) Years ended December 31, 2022 2021 2020 Sales of products $55,893 $51,386 $47,142 Sales of services 10,715 10,900 11,016 Total revenues 66,608 62,286 58,158 Cost of products (53,969) (49,954) (54,568) Cost of services (9,109) (9,283) (9,232) Boeing Capital interest expense (28) (32) (43) Total costs and expenses (63,106) (59,269) (63,843) 3,502 3,017 (5,685) (Loss)/income from operating investments, net (16) 210 9 General and administrative expense (4,187) (4,157) (4,817) Research and development expense, net (2,852) (2,249) (2,476) Gain on dispositions, net 6 277 202 Loss from operations (3,547) (2,902) (12,767) Other income, net 1,058 551 447 Interest and debt expense (2,533) (2,682) (2,156) Loss before income taxes (5,022) (5,033) (14,476) Income tax (expense)/benefit (31) 743 2,535 Net loss (5,053) (4,290) (11,941) Less: net loss attributable to n…"
+   }
+  ]
+ }
+}

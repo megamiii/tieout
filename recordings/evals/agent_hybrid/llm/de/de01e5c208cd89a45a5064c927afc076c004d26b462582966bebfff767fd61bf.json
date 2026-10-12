@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TYO1n8gly3BkNAnXXc6RH53SSm8BwAW0anN4/kCQfK7JVkYDRJTxmHj1HmqSwOfI7Al7n81X3UPEHlpKqzaedyopqh11jobVehul0Se6cNDU8UXz8toHnozQ="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"fiscal_year\":2015,\"ticker\":\"AMD\",\"query\":\"Net income loss consolidated statements of operations\"}",
+        "name": "search_filings"
+       },
+       "id": "call_160868",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791832865,
+  "id": "ITPNarDPAb_01e8PwbXk4QI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 44,
+   "prompt_tokens": 1601,
+   "total_tokens": 1645
+  }
+ }
+}

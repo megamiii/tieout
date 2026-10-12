@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TnS3cUHVpvS2DIvK/1y8aLtDFwpA7KLLwo5qR8TYHuPIJsen+MQbJsJqO6v8HxfLGRtXPkuu5tYBi+KfOsTHrE72+StFtk/de/oT9LoUkmkSWYZXk/6qFN5c="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"BA\",\"fiscal_year\":2018}",
+        "name": "get_financial_facts"
+       },
+       "id": "call_40714",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833043,
+  "id": "0jPNaoCgKNugrfcP5cHCIQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 27,
+   "prompt_tokens": 1517,
+   "total_tokens": 1544
+  }
+ }
+}

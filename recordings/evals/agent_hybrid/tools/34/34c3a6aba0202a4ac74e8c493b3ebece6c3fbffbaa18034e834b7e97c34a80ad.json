@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Operations Years ended December 31, 2022 Net loss Boeing",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_54aaca8411e8a11d",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 62,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Notes to the Consolidated Financial Statements Summary of Business Segment Data (Dollars in millions) Years ended December 31, 2022 2021 2020 Revenues: Commercial Airplanes $25,867 $19,493 $16,162 Defense, Space & Security 23,162 26,540 26,257 Global Services 17,611 16,328 15,543 Boeing Capital 199 272 261 Unallocated items, eliminations and other (231) (347) (65) Total revenues $66,608 $62,286 $58,158 (Loss)/earnings from operations: Commercial Airplanes ($2,370) ($6,475) ($13,847) Defense, Space & Security (3,544) 1,544 1,539 Global Services 2,727 2,017 450 Boeing Capital 29 106 63 Segment operating loss (3,158) (2,808) (11,795) Unallocated items, eliminations and other (1,532) (1,267) (2,355) FAS/CAS service cost adjustment 1,143 1,173 1,383 Loss from operations (3,547) (2,902) (12,767) Other income, net 1,058 551 447 Interest and debt expense (2,533) (2,682) (2,156) Loss before income taxes (5,022) (5,033) (14,476) Income tax (e…"
+   },
+   {
+    "chunk_id": "ch_cc19595608c4e1aa",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 55,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Operations (Dollars in millions, except per share data) Years ended December 31, 2022 2021 2020 Sales of products $55,893 $51,386 $47,142 Sales of services 10,715 10,900 11,016 Total revenues 66,608 62,286 58,158 Cost of products (53,969) (49,954) (54,568) Cost of services (9,109) (9,283) (9,232) Boeing Capital interest expense (28) (32) (43) Total costs and expenses (63,106) (59,269) (63,843) 3,502 3,017 (5,685) (Loss)/income from operating investments, net (16) 210 9 General and administrative expense (4,187) (4,157) (4,817) Research and development expense, net (2,852) (2,249) (2,476) Gain on dispositions, net 6 277 202 Loss from operations (3,547) (2,902) (12,767) Other income, net 1,058 551 447 Interest and debt expense (2,533) (2,682) (2,156) Loss before income taxes (5,022) (5,033) (14,476) Income tax (expense)/benefit (31) 743 2,535 Net loss (5,053) (4,290) (11,941) Less: net loss attributable to n…"
+   },
+   {
+    "chunk_id": "ch_1908872c8c93b9bc",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Table of Contents The Boeing Company and Subsidiaries Consolidated Statements of Comprehensive Income (Dollars in millions) Years ended December 31, 2022 2021 2020 Net loss ($5,053) ($4,290) ($11,941) Other comprehensive income/(loss), net of tax: Currency translation adjustments (62) (75) 98 Unrealized loss on certain investments, net of tax of $0, $0 and $0 (1) Derivative instruments: Unrealized (loss)/gain arising during period, net of tax of $12, ($16) and ($4) (40) 55 14 Reclassification adjustment for loss/(gain) included in net earnings, net of tax of ($3), $2 and ($7) 10 (6) 27 Total unrealized (loss)/gain on derivative instruments, net of tax (30) 49 41 Defined benefit pension plans & other postretirement benefits: Net actuarial gain/(loss) arising during the period, net of tax of ($22), ($32) and $111 1,533 4,262 (1,956) Amortization of actuarial loss included in net periodic pension cost, net of tax of ($11), ($8) and ($52) 791 1,155 917 Settlements included in net (loss)/in…"
+   },
+   {
+    "chunk_id": "ch_fa21a0c4c813ddb9",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 80,
+    "text": "Table of Contents Note 6 – Allowances for Losses on Financial Assets The change in allowances for expected credit losses for the years ended December 31, 2022 and 2021 consisted of the following: Accounts receivable Unbilled receivables Other Current Assets Customer financing Other Assets Total Balance at January 1, 2021 ($444) ($129) ($72) ($17) ($140) ($802) Changes in estimates (24) (11) 6 (1) (59) (89) Write-offs 77 49 4 13 143 Recoveries 1 1 Balance at December 31, 2021 (390) (91) (62) (18) (186) (747) Balance at January 1, 2022 (390) (91) (62) (18) (186) (747) Changes in estimates 2 21 (27) (37) (35) (76) Write-offs 260 47 4 133 444 Recoveries 12 12 Balance at December 31, 2022 ($116) ($23) ($85) ($55) ($88) ($367) Note 7 – Inventories Inventories at December 31 consisted of the following: 2022 2021 Long-term contracts in progress $582 $872 Commercial aircraft programs 67,702 68,106 Capitalized precontract costs 794 648 Commercial spare parts, used aircraft, general stock materia…"
+   },
+   {
+    "chunk_id": "ch_5f825525f8b1584c",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 108,
+    "text": "Table of Contents Accumulated Other Comprehensive Loss Changes in Accumulated other comprehensive loss (AOCI) by component for the years ended December 31, 2022, 2021 and 2020 were as follows: Currency Translation Adjustments Unrealized Gains and Losses on Certain Investments Unrealized Gains and Losses on Derivative Instruments Defined Benefit Pension Plans & Other Postretirement Benefits Total Balance at January 1, 2020 ($128) $1 ($84) ($15,942) ($16,153) Other comprehensive income/(loss) before reclassifications 98 14 (1,929) (1,817) Amounts reclassified from AOCI 27 810 837 Net current period Other comprehensive income/(loss) 98 41 (1,119) (980) Balance at December 31, 2020 ($30) $1 ($43) ($17,061) ($17,133) Other comprehensive (loss)/income before reclassifications (75) 55 4,268 4,248 Amounts reclassified from AOCI (6) 1,232 1,226 Net current period Other comprehensive (loss)/income (75) 49 5,500 5,474 Balance at December 31, 2021 ($105) $1 $6 ($11,561) ($11,659) Other comprehensi…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "operating income earnings operations 2018",
+  "ticker": "BA",
+  "fiscal_year": 2018,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_307ddf378e31b683",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 22,
+    "text": "Table of Contents Earnings From Operations The following table summarizes Earnings from operations: (Dollars in millions) Years ended December 31, 2018 2017 2016 Commercial Airplanes $7,879 $5,452 $1,981 Defense, Space & Security 1,594 2,193 1,678 Global Services 2,522 2,246 2,159 Boeing Capital 79 114 59 Segment Operating Profit 12,074 10,005 5,877 Pension FAS/CAS service cost adjustment 1,005 1,127 1,029 Postretirement FAS/CAS service cost adjustment 322 311 328 Unallocated items, eliminations and other (1,414) (1,099) (707) Earnings from operations (GAAP) $11,987 $10,344 $6,527 FAS/CAS service cost adjustment * (1,327) (1,438) (1,357) Core operating earnings (Non-GAAP) ** $10,660 $8,906 $5,170 * The FAS/CAS service cost adjustment represents the difference between the FAS pension and postretirement service costs calculated under GAAP and costs allocated to the business segments. ** Core operating earnings is a Non-GAAP measure that excludes the FAS/CAS service cost adjustment. See p…"
+   },
+   {
+    "chunk_id": "ch_a41b019feced1995",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 22,
+    "text": "million in 2018 due to higher revenues and improved operating margins. The increase in operating margins is primarily due to higher 787 margins, improved cost performance and favorable delivery mix. BGS earnings from operations increased by $276 million in 2018 primarily due to higher revenues, partially offset by higher period costs . BDS earnings from operations in 2018 decreased by $599 million compared with 2017 as earnings' growth from higher revenues was more than offset by charges of $691 million related to winning the T-X Trainer and MQ-25 competitions, as well as $199 million of higher KC-46A Tanker reach-forward losses . Earnings from operations in 2017 increased by $3,817 million compared with 2016 due to higher earnings at BCA and BDS, partially offset by the change in Unallocated items, eliminations and other. BCA earnings from operations increased by $3,471 million in 2017 primarily due to lower reach-forward losses, lower research and development costs, and improved marg…"
+   },
+   {
+    "chunk_id": "ch_b52db30ff3ecc6e2",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 36,
+    "text": "Table of Contents Results of Operations (Dollars in millions) Years ended December 31, 2018 2017 2016 Revenues $17,018 $14,581 $13,819 % of total company revenues 17% 16% 15% Earnings from operations $2,522 $2,246 $2,159 Operating margins 14.8% 15.4% 15.6% Revenues BGS revenues in 2018 increased by $2,437 million compared with 2017 due to growth across our services portfolio, primarily driven by higher parts revenue including the acquisition of KLX . Net favorable cumulative contract catch-up adjustments to revenue were $63 million lower in 2018 than in 2017 . BGS revenues in 2017 increased by $762 million compared with 2016 primarily due to higher commercial parts revenues. Net favorable cumulative contract catch-up adjustments to revenue were $19 million higher in 2017 than in 2016 . Earnings From Operations BGS earnings from operations in 2018 increased by $276 million compared with 2017 primarily due to higher revenues, partially offset by higher period costs . Net favorable cumula…"
+   },
+   {
+    "chunk_id": "ch_fd9f33bf1c651157",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 7",
+    "page": 23,
+    "text": "Table of Contents Core operating earnings in 2017 increased by $3,736 million compared with 2016 primarily due to higher earnings at BCA and BDS. Unallocated Items, Eliminations and Other The most significant items included in Unallocated items, eliminations and other are shown in the following table: (Dollars in millions) Years ended December 31, 2018 2017 2016 Share-based plans ($76) ($77) ($66) Deferred compensation (19) (240) (46) Eliminations and other unallocated items (1,319) (782) (595) Unallocated items, eliminations and other ($1,414) ($1,099) ($707) Deferred compensation expense decreased by $221 million in 2018 and increased by $194 million in 2017, primarily driven by changes in broad stock market conditions and our stock price. Eliminations and other unallocated expense increased by $537 million in 2018 primarily due to timing of expense allocations, higher research and development expense and a $148 million charge incurred related to the outcome of the Spirit litigation.…"
+   },
+   {
+    "chunk_id": "ch_5a0ca2669ca6dc1e",
+    "ticker": "BA",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 77,
+    "text": "Table of Contents Note 5 – Earnings Per Share Basic and diluted earnings per share are computed using the two-class method, which is an earnings allocation method that determines earnings per share for common shares and participating securities. The undistributed earnings are allocated between common shares and participating securities as if all earnings had been distributed during the period. Participating securities and common shares have equal rights to undistributed earnings. Basic earnings per share is calculated by taking net earnings, less earnings available to participating securities, divided by the basic weighted average common shares outstanding. Diluted earnings per share is calculated by taking net earnings, less earnings available to participating securities, divided by the diluted weighted average common shares outstanding. The elements used in the computation of basic and diluted earnings per share were as follows: (In millions - except per share amounts) Years ended De…"
+   }
+  ]
+ }
+}

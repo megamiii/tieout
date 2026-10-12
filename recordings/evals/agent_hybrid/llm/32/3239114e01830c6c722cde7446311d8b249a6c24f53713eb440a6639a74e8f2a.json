@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TfImnpIS/gh/JR0xZMLJKorQipvXo5LuRDNatLL4++yqP1KkgyDJkDQ99moHaCpCQr0DmX/wRPqv1LOAmfM9aArWOJhk9VZ55K/rt+n5YQ+KWOLSzqJx+j/8="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"CVS Health's total assets changed from $232,999 million at fiscal year-end 2021 to $228,275 million at fiscal year-end 2022, representing a decrease of 2.0%.\",\"needs_review\":false,\"confidence\":1,\"citations\":[{\"quote\":\"Total assets $ 228,275 $ 232,999\",\"source_id\":\"ch_f8a564f1d3487be1\"}],\"rationale\":\"Retrieved Total assets from the Consolidated Balance Sheets at December 31, 2022 and 2021 ($228,275 million and $232,999 million, respectively). Calculated the percentage change: (228275 - 232999) / 232999 = -4724 / 232999 = -0.02027... which is -2.0% rounded to one decimal place.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_147481",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833238,
+  "id": "lTTNaorrD42N1e8PhqexYA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 256,
+   "prompt_tokens": 7702,
+   "total_tokens": 7958
+  }
+ }
+}

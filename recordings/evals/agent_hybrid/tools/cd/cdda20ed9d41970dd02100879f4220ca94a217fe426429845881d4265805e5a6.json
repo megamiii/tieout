@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income Research, development and engineering",
+  "ticker": "GLW",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_e29f4ef108ce4b3c",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 72,
+    "text": "Table of Contents 2. Restructuring, Impairment and Other Charges and Credits (Continued) The following tables present the impact and respective location of total restructuring, impairment and other charges and credits in the consolidated statements of income (in millions): Year ended December 31, 2022 Selling, Research, general development and and Gross administrative engineering margin (1) expenses expenses Other Total Severance $ 25 $ 32 $ 13 $ 70 Capacity optimization 215 4 219 Other charges and credits 97 15 3 $ 10 125 Total restructuring, impairment and other charges and credits $ 337 $ 51 $ 16 $ 10 $ 414 Year ended December 31, 2021 Selling, Research, general development and and Gross administrative engineering margin (1) expenses expenses Other Total Severance $ (6) $ (5) $ (2) $ (13) Capacity optimization 36 7 3 46 Other charges and credits 50 (5) $ 32 77 Total restructuring, impairment and other charges and credits $ 80 $ (3) $ 1 $ 32 $ 110 Year ended December 31, 2020 Selling…"
+   },
+   {
+    "chunk_id": "ch_da00a68966a29fd1",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 102,
+    "text": "14,805 Depreciation (2) $ 249 $ 547 $ 155 $ 128 $ 60 $ 146 $ 1,285 Research, development and engineering expenses (3) $ 230 $ 124 $ 222 $ 98 $ 37 $ 163 $ 874 Income tax provision (4) $ (180) $ (203) $ (90) $ (78) $ (40) $ (24) $ (615) Net income $ 661 $ 769 $ 340 $ 292 $ 153 $ 39 $ 2,254 Investment in affiliated companies, at equity $ 3 $ 102 $ 8 $ 4 $ 144 $ 261 Segment assets (5) $ 3,295 $ 8,104 $ 2,419 $ 2,061 $ 862 $ 2,136 $ 18,877 Capital expenditures $ 368 $ 495 $ 306 $ 110 $ 116 $ 218 $ 1,613 For the year ended December 31, 2021 Segment net sales $ 4,349 $ 3,700 $ 2,008 $ 1,586 $ 1,234 $ 1,243 $ 14,120 Depreciation (2) $ 224 $ 605 $ 161 $ 139 $ 52 $ 134 $ 1,315 Research, development and engineering expenses (3) $ 216 $ 110 $ 208 $ 111 $ 33 $ 160 $ 838 Income tax (provision) benefit (4) $ (152) $ (249) $ (99) $ (72) $ (51) $ 11 $ (612) Net income (loss) $ 553 $ 960 $ 371 $ 269 $ 194 $ (51) $ 2,296 Investment in affiliated companies, at equity $ 3 $ 109 $ 6 $ 4 $ 142 $ 264 Segment …"
+   },
+   {
+    "chunk_id": "ch_96fd444ba7c44bc2",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 102,
+    "text": "Table of Contents 19. Reportable Segments (Continued) In addition, certain income and expenses are excluded from segment net income (loss) and included in the unallocated amounts in the reconciliation of reportable segment net income (loss) to consolidated net income. These items are not used by the CODM in allocating resources or evaluating the results of the segments and include the following: the impact of translating the Japanese yen-denominated debt; the impact of the translated earnings contracts; acquisition-related costs; certain discrete tax items and other tax-related adjustments; restructuring, impairment and other charges and credits; certain litigation, regulatory and other legal matters; pension mark-to-market adjustments; and other non-recurring non-operational items. Although these amounts are excluded from segment results, they are included in reported consolidated results. Corning's administrative and staff functions are performed on a centralized basis and such costs…"
+   },
+   {
+    "chunk_id": "ch_65c317f7079839a6",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 58,
+    "text": "Table of Contents Consolidated Statements of Income Corning Incorporated and Subsidiary Companies Year ended December 31, (in millions, except per share amounts) 2022 2021 2020 Net sales $ 14,189 $ 14,082 $ 11,303 Cost of sales 9,683 9,019 7,772 Gross margin 4,506 5,063 3,531 Operating expenses: Selling, general and administrative expenses 1,898 1,827 1,747 Research, development and engineering expenses 1,047 995 1,154 Amortization of purchased intangibles 123 129 121 Operating income 1,438 2,112 509 Interest income 15 11 15 Interest expense (292) (300) (276) Translated earnings contract gain (loss), net (Note 14) 351 354 (38) Transaction-related gain, net (Note 3) 498 Other income (expense), net 285 249 (74) Income before income taxes 1,797 2,426 634 Provision for income taxes (Note 7) (411) (491) (111) Net income 1,386 1,935 523 Net income attributable to non-controlling interest (70) (29) (11) Net income attributable to Corning Incorporated $ 1,316 $ 1,906 $ 512 Earnings per common …"
+   },
+   {
+    "chunk_id": "ch_bb89458d09dfbaf1",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 103,
+    "text": "(51) (214) Unallocated amounts: Impact of constant currency reporting not included in segment net income (loss) (480) (87) (22) Gain (loss) on foreign currency hedges related to translated earnings 348 354 (46) Translation gain (loss) on Japanese yen-denominated debt 191 180 (86) Litigation, regulatory and other legal matters (100) (16) (144) Research, development, and engineering expense (2)(3) (163) (151) (150) Transaction-related gain, net (4) 498 Amortization of intangibles (123) (129) (121) Interest expense, net (237) (265) (261) Income tax benefit 204 120 324 Pension mark-to-market (11) (32) (31) Cumulative adjustment related to customer contract (5) (105) Severance (charges) credits (3) (70) 13 (148) Asset impairment (3) (217) Capacity realignment and other charges and credits (3) (344) (123) (462) Bond redemption loss (6) (31) (22) Gain (loss) on investments (7) 8 (23) 107 Gain on sale of business 53 54 Other corporate items (214) (254) (230) Net income $ 1,316 $ 1,906 $ 512 (1…"
+   }
+  ]
+ }
+}

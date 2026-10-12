@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Net earnings from continuing operations 1464 999",
+  "ticker": "BBY",
+  "fiscal_year": 2019,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_875b47a8cab19292",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 53,
+    "text": "Table of Contents Consolidated Statements of Earnings $ and shares in millions, except per share amounts Fiscal Years Ended February 2, 2019 February 3, 2018 January 28, 2017 Revenue $ 42,879 $ 42,151 $ 39,403 Cost of goods sold 32,918 32,275 29,963 Gross profit 9,961 9,876 9,440 Selling, general and administrative expenses 8,015 8,023 7,547 Restructuring charges 46 10 39 Operating income 1,900 1,843 1,854 Other income (expense): Gain on sale of investments 12 1 3 Investment income and other 49 48 31 Interest expense (73) (75) (72) Earnings from continuing operations before income tax expense 1,888 1,817 1,816 Income tax expense 424 818 609 Net earnings from continuing operations 1,464 999 1,207 Gain from discontinued operations (Note 3), net of tax expense of $0, $0 and $7, respectively — 1 21 Net earnings $ 1,464 $ 1,000 $ 1,228 Basic earnings per share Continuing operations $ 5.30 $ 3.33 $ 3.79 Discontinued operations — — 0.07 Basic earnings per share $ 5.30 $ 3.33 $ 3.86 Diluted ea…"
+   },
+   {
+    "chunk_id": "ch_d9f6c12cea7d332a",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 78,
+    "text": "Net earnings from continuing operations $ 1,464 $ 999 $ 1,207 Denominator Weighted-average common shares outstanding 276.4 300.4 318.5 Effect of potentially dilutive securities: Stock options and other 5.0 6.7 4.1 Weighted-average common shares outstanding, assuming dilution 281.4 307.1 322.6 Anti-dilutive securities excluded from Weighted-average common shares outstanding, assuming dilution 0.2 — 4.5 Net earnings per share from continuing operations Basic $ 5.30 $ 3.33 $ 3.79 Diluted $ 5.20 $ 3.26 $ 3.74 Repurchase of Common Stock On February 23, 2019, our Board of Directors authorized a new $3.0 billion share repurchase program that superseded the previous $5.0 billion authorization from February 2017. There is no expiration date governing the period over which we can repurchase shares under the February 2019 authorization. On January 22, 2016, we entered into a variable notional accelerated share repurchase agreement (\"January 2016 ASR\") with a third party financial institution to r…"
+   },
+   {
+    "chunk_id": "ch_3ffa03c832fb08fa",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 7",
+    "page": 39,
+    "text": "Table of Contents Discontinued Operations Discontinued operations reflect prior year activity within our International segment. Gain from discontinued operations, net of tax, in fiscal 2018 was $1 million, primarily related to the proceeds attributed to a non-compete clause from the sale of Best Buy Europe to Carphone Warehouse plc. Gain from discontinued operations, net of tax, in fiscal 2017 was $21 million, primarily related to the sale of the remaining Five Star property assets that were held for sale as of January 30, 2016. Non-GAAP Financial Measures The following table reconciles operating income, effective tax rate and diluted earnings per share from continuing operations (GAAP financial measures) for the periods presented to non-GAAP operating income, non-GAAP effective tax rate and non-GAAP diluted earnings per share from continuing operations (non-GAAP financial measures) for the periods presented ($ in millions, except per share amounts): Fiscal Year 2019 2018 2017 (1) Oper…"
+   },
+   {
+    "chunk_id": "ch_1786f9b1e2e38025",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 78,
+    "text": "Table of Contents Earnings per Share We compute our basic earnings per share based on the weighted-average number of common shares outstanding, and our diluted earnings per share based on the weighted-average number of common shares outstanding adjusted by the number of additional shares that would have been outstanding had the potentially dilutive common shares been issued. Potentially dilutive securities include stock options, nonvested share awards and shares issuable under our employee stock purchase plan. Nonvested market-based share awards and nonvested performance-based share awards are included in the average diluted shares outstanding each period if established market or performance criteria have been met at the end of the respective periods. At February 2, 2019 , options to purchase 2.4 million shares of common stock were outstanding as follows (shares in millions): Exercisable Unexercisable Total Shares % Weighted- Average Price per Share Shares % Weighted- Average Price per…"
+   },
+   {
+    "chunk_id": "ch_83f290caaaa6e145",
+    "ticker": "BBY",
+    "fiscal_year": 2019,
+    "section": "Item 8",
+    "page": 85,
+    "text": "Earnings from continuing operations before income tax expense by jurisdiction were as follows in fiscal 2019 , fiscal 2018 and fiscal 2017 ($ in millions): 2019 2018 2017 United States $ 1,574 $ 1,480 $ 1,507 Foreign 314 337 309 Earnings from continuing operations before income tax expense $ 1,888 $ 1,817 $ 1,816 Income tax expense was comprised of the following in fiscal 2019 , fiscal 2018 and fiscal 2017 ($ in millions): 2019 2018 2017 Current: Federal $ 275 $ 547 $ 317 State 75 59 37 Foreign 64 50 54 414 656 408 Deferred: Federal 4 141 163 State — 11 21 Foreign 6 10 17 10 162 201 Income tax expense $ 424 $ 818 $ 609 83"
+   }
+  ]
+ }
+}

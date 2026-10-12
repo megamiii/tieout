@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "total revenue",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_3f348afebca0266f",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 154,
+    "text": "5,958 2,936 929 1,874 (1,008) 10,689 Total assets (billions) $ 77 $ 45 $ 33 $ 15 $ 19 $ 189 2020 Total non-interest revenues $ 10,125 $ 8,210 $ 5,877 $ 4,209 $ (319) $ 28,102 Revenue from contracts with customers 7,261 7,123 3,663 3,948 (21) 21,974 Interest income 7,009 1,532 1,244 18 280 10,083 Interest expense 787 508 379 (82) 506 2,098 Total revenues net of interest expense 16,347 9,234 6,742 4,309 (545) 36,087 Pretax income (loss) 3,103 1,013 521 1,294 (1,635) 4,296 Total assets (billions) $ 65 $ 35 $ 28 $ 14 $ 49 $ 191 (a) Corporate & Other includes adjustments and eliminations for intersegment activity. (b) Includes discount revenue, certain service fees and other revenue and processed revenues from customers. Total Revenues Net of Interest Expense We allocate discount revenue and certain other revenues among segments using a transfer pricing methodology. Within the USCS, CS and ICS segments, discount revenue generally reflects the issuer component of the overall discount revenue…"
+   },
+   {
+    "chunk_id": "ch_afa1eb092d302760",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 47,
+    "text": "Table of Contents CONSOLIDATED RESULTS OF OPERATIONS The discussions in the “Consolidated Results of Operations” and “Business Segment Results of Operations” provide commentary on the variances for the year ended December 31, 2022 compared to the year ended December 31, 2021, as presented in the accompanying tables. For a discussion of the financial condition and results of operations for 2021 compared to 2020, please refer to Part II, Item 7. “Management's Discussion and Analysis of Financial Condition and Results of Operations” in our Annual Report on Form 10-K for the year ended December 31, 2021, filed with the SEC on February 11, 2022. Beginning in the first quarter of 2022, we made reporting presentation changes to our Consolidated Statements of Income to separately present revenues earned from processed volumes, previously reported in Discount revenue, Other fees and commissions and Other revenue, as Processed revenue. The remaining balances from Other fees and commissions and O…"
+   },
+   {
+    "chunk_id": "ch_2f6ccc9eb73c3326",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 54,
+    "text": "Table of Contents U.S. CONSUMER SERVICES TABLE 9: USCS SELECTED INCOME STATEMENT DATA Years Ended December 31, Change Change (Millions, except percentages) 2022 2021 2020 2022 vs. 2021 2021 vs. 2020 Revenues Non-interest revenues $ 16,440 $ 12,989 $ 10,125 $ 3,451 27 % $ 2,864 28 % Interest income 8,457 6,328 7,009 2,129 34 (681) (10) Interest expense 983 395 787 588 # (392) (50) Net interest income 7,474 5,933 6,222 1,541 26 (289) (5) Total revenues net of interest expense 23,914 18,922 16,347 4,992 26 2,575 16 Provisions for credit losses 1,021 (919) 2,617 1,940 # (3,536) # Total revenues net of interest expense after provisions for credit losses 22,893 19,841 13,730 3,052 15 6,111 45 Total expenses 17,493 13,883 10,627 3,610 26 3,256 31 Pretax segment income $ 5,400 $ 5,958 $ 3,103 $ (558) (9)% $ 2,855 92 % # Denotes a variance of 100 percent or more USCS issues a wide range of proprietary consumer cards and provides services to U.S. consumers, including travel and lifestyle service…"
+   },
+   {
+    "chunk_id": "ch_01a1954f662f77a4",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 96,
+    "text": "Table of Contents CONSOLIDATED STATEMENTS OF INCOME Year Ended December 31 (Millions, except per share amounts) 2022 2021 2020 Revenues Non-interest revenues Discount revenue $ 30,739 $ 24,563 $ 19,435 Net card fees 6,070 5,195 4,664 Service fees and other revenue 4,521 3,316 2,702 Processed revenue 1,637 1,556 1,301 Total non-interest revenues 42,967 34,630 28,102 Interest income Interest on loans 11,967 8,850 9,779 Interest and dividends on investment securities 96 83 127 Deposits with banks and other 595 100 177 Total interest income 12,658 9,033 10,083 Interest expense Deposits 1,527 458 943 Long-term debt and other 1,236 825 1,155 Total interest expense 2,763 1,283 2,098 Net interest income 9,895 7,750 7,985 Total revenues net of interest expense 52,862 42,380 36,087 Provisions for credit losses Card Member receivables 627 (73) 1,015 Card Member loans 1,514 (1,155) 3,453 Other 41 (191) 262 Total provisions for credit losses 2,182 (1,419) 4,730 Total revenues net of interest expens…"
+   },
+   {
+    "chunk_id": "ch_b0722865c9e76e36",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 60,
+    "text": "For 2022, ICS reported pretax income of $578 million, compared with $929 million a year ago. Results for this segment were significantly impacted by the strengthening of the U.S. dollar. TOTAL REVENUES NET OF INTEREST EXPENSE Non-interest revenues increased across all revenue categories, primarily driven by Discount revenue and Service fees and other revenues. Discount revenue increased 25 percent (37 percent on a FX-adjusted basis), primarily reflecting an increase in billed business of 23 percent (36 percent on a FX-adjusted basis). See Tables 5, 6 and 14 for more details on billed business performance. Net card fees increased 3 percent (14 percent on a FX-adjusted basis), primarily driven by growth in our premium card portfolios, partially offset by changes in foreign exchange rates. Service fees and other revenue increased 39 percent (52 percent on a FX-adjusted basis), primarily due to higher foreign exchange-related revenues associated with Card Member cross-currency spending, an…"
+   }
+  ]
+ }
+}

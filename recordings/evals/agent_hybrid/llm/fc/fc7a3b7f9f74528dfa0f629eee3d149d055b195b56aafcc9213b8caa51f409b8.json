@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T6Ob/cqKqNm8E+cjjAbXTnYGR+N7Db1DgvFAKySP6hplNNl9OW0AP1O9KX+X/qAeyKxtjXKn/Zxb0ldfNcf2utkDHwq0Kvgha9TlG5pfzcx/i+qC48AtLJ9Q="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"ticker\":\"AXP\",\"query\":\"Consolidated Balance Sheets Total assets\"}",
+        "name": "search_filings"
+       },
+       "id": "call_26499",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791832931,
+  "id": "YzPNaoi5Doim2roP_t7X-AM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 38,
+   "prompt_tokens": 3412,
+   "total_tokens": 3450
+  }
+ }
+}

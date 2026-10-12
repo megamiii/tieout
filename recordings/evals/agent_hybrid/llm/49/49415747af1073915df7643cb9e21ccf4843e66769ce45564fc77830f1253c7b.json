@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TgJQkYHnNqlMnj1UaaVynHnvbdZdFLs7rGuhPM/orOqLdET39jxvreZJI2AjykcSChwHgUrg5xHlG9oWfXBw4t9Xyt3/WZlytJByoeWg/p+tGvSsGjmisOgE="
+        }
+       },
+       "function": {
+        "arguments": "{\"rationale\":\"The net cash provided by operating activities for AMD in fiscal year 2022 is reported as $3,565 million in the Consolidated Statements of Cash Flows and related MD&A section.\",\"answer\":\"In fiscal year 2022, AMD's net cash provided by operating activities was $3,565 million (or $3.565 billion).\",\"citations\":[{\"quote\":\"Operating activities $ 3,565 $ 3,521\",\"source_id\":\"ch_d47a8b02d8d2e8ce\"}],\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_43463",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791832929,
+  "id": "YDPNatOcD_-D2roPwMLH8Ao",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 150,
+   "prompt_tokens": 9158,
+   "total_tokens": 9308
+  }
+ }
+}

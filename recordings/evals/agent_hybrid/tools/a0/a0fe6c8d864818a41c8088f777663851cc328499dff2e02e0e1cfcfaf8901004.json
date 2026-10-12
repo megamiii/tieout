@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "52 million, or 5%",
+  "ticker": "GLW",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_da00a68966a29fd1",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 102,
+    "text": "14,805 Depreciation (2) $ 249 $ 547 $ 155 $ 128 $ 60 $ 146 $ 1,285 Research, development and engineering expenses (3) $ 230 $ 124 $ 222 $ 98 $ 37 $ 163 $ 874 Income tax provision (4) $ (180) $ (203) $ (90) $ (78) $ (40) $ (24) $ (615) Net income $ 661 $ 769 $ 340 $ 292 $ 153 $ 39 $ 2,254 Investment in affiliated companies, at equity $ 3 $ 102 $ 8 $ 4 $ 144 $ 261 Segment assets (5) $ 3,295 $ 8,104 $ 2,419 $ 2,061 $ 862 $ 2,136 $ 18,877 Capital expenditures $ 368 $ 495 $ 306 $ 110 $ 116 $ 218 $ 1,613 For the year ended December 31, 2021 Segment net sales $ 4,349 $ 3,700 $ 2,008 $ 1,586 $ 1,234 $ 1,243 $ 14,120 Depreciation (2) $ 224 $ 605 $ 161 $ 139 $ 52 $ 134 $ 1,315 Research, development and engineering expenses (3) $ 216 $ 110 $ 208 $ 111 $ 33 $ 160 $ 838 Income tax (provision) benefit (4) $ (152) $ (249) $ (99) $ (72) $ (51) $ 11 $ (612) Net income (loss) $ 553 $ 960 $ 371 $ 269 $ 194 $ (51) $ 2,296 Investment in affiliated companies, at equity $ 3 $ 109 $ 6 $ 4 $ 142 $ 264 Segment …"
+   },
+   {
+    "chunk_id": "ch_a87674b914c9f259",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Days payable outstanding (1) 52 50 Long-term debt $ 6,687 $ 6,989 Total debt $ 6,911 $ 7,044 Total debt to total capital 36% 36% (1) Includes trade payables only. We perform comprehensive reviews of our significant customers and their creditworthiness by analyzing their financial strength at least annually or more frequently for customers where we have identified a measure of increased risk. We closely monitor payments and developments to identify potential customer credit issues. We are not aware of any customer credit issues that could have a material impact on our liquidity. We participate in accounts receivable management programs, including factoring arrangements to sell certain accounts receivable to third-party financial institutions or accelerate collections through our customer's supply chain financing arrangements. Sales of accounts receivable are reflected as a reduction of accounts receivable in the consolidated balance sheets and the proceeds are included in cash flows fro…"
+   },
+   {
+    "chunk_id": "ch_29d84682f0cb2610",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 86,
+    "text": "(1) (10) Current year prior service cost 28 1 Amortization of prior service (cost) credit (6) (4) (6) 1 1 1 5 6 5 Total recognized in other comprehensive (loss) income $ 9 $ (119) $ 77 $ 5 $ (7) $ (24) $ (199) $ (101) $ 62 86"
+   },
+   {
+    "chunk_id": "ch_935fdd02cf7561c9",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 106,
+    "text": "Table of Contents 19. Reportable Segments (Continued) The following table presents information relating to the Company's operations by geographic area (in millions): 2022 2021 2020 Net sales (1) Long-lived assets (2) Net sales (1) Long-lived assets (2) Net sales (1) Long-lived assets (2) North America: United States $ 5,149 $ 8,937 $ 4,539 $ 8,600 $ 3,412 $ 8,718 Canada 503 99 472 114 274 121 Mexico 96 180 93 289 75 239 Total North America 5,748 9,216 5,104 9,003 3,761 9,078 Asia Pacific: Japan 617 429 780 496 505 583 Taiwan 813 1,696 983 1,923 887 2,247 China 4,435 4,794 4,495 4,966 3,734 4,469 Korea 514 3,294 640 3,479 748 3,597 Other 729 81 459 84 340 83 Total Asia Pacific 7,108 10,294 7,357 10,948 6,214 10,979 Europe: Germany 539 459 462 500 378 579 Other 1,116 937 925 910 838 931 Total Europe 1,655 1,396 1,387 1,410 1,216 1,510 All Other 294 67 272 68 261 83 Total $ 14,805 $ 20,973 $ 14,120 $ 21,429 $ 11,452 $ 21,650 (1) Net sales are attributed to countries based on location of c…"
+   },
+   {
+    "chunk_id": "ch_dfefa3afae042acf",
+    "ticker": "GLW",
+    "fiscal_year": 2022,
+    "section": "Item 16",
+    "page": 102,
+    "text": "264 Segment assets (5) $ 3,183 $ 8,672 $ 2,328 $ 2,150 $ 791 $ 2,024 $ 19,148 Capital expenditures $ 301 $ 710 $ 183 $ 228 $ 128 $ 149 $ 1,699 For the year ended December 31, 2020 Segment net sales $ 3,563 $ 3,172 $ 1,884 $ 1,370 $ 998 $ 465 $ 11,452 Depreciation (2) $ 242 $ 548 $ 162 $ 132 $ 50 $ 81 $ 1,215 Research, development and engineering expenses (3) $ 204 $ 99 $ 155 $ 100 $ 26 $ 170 $ 754 Income tax (provision) benefit (4) $ (101) $ (190) $ (113) $ (52) $ (37) $ 58 $ (435) Net income (loss) $ 366 $ 717 $ 423 $ 197 $ 139 $ (214) $ 1,628 Investment in affiliated companies, at equity $ 3 $ 107 $ 4 $ 2 $ 142 $ 258 Segment assets (5) $ 2,868 $ 8,842 $ 2,571 $ 1,986 $ 683 $ 2,157 $ 19,107 Capital expenditures $ 127 $ 311 $ 125 $ 159 $ 83 $ 123 $ 928 (1) Corning obtained a controlling interest in HSG during the third quarter of 2020 and has consolidated results in Hemlock and Emerging Growth Businesses since September 9, 2020. Refer to Note 3 (HSG Transactions and Acquisitions) in th…"
+   }
+  ]
+ }
+}

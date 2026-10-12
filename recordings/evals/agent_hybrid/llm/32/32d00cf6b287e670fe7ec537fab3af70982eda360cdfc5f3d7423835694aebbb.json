@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 2,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TZBhUmvf8eEplkJkCRL6Tw7xfrgKnGFREPm7g6cTQu4kyU5nLu0vjdI28aBQ8arRdfpdtj9a5htQ+/ysaCf1FRKMxRD2kggj/SkfwJyAfyYlz9J1qHRNBM3w="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"ticker\":\"BA\",\"query\":\"net cash provided by operating activities Boeing 2021 2022\"}",
+        "name": "search_filings"
+       },
+       "id": "call_24896",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833048,
+  "id": "2DPNapmOIfTrrfcPuIGS8Qw",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 48,
+   "prompt_tokens": 1536,
+   "total_tokens": 1584
+  }
+ }
+}

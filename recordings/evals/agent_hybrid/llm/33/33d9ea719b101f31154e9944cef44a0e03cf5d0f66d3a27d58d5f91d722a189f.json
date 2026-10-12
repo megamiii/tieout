@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0T29UriR4gfHliY0DoGMdf+vO3M/sBxT+iM9c7+2UuxgX3v5AbuoqG1KZUqI5yotjLvwIlUvXPuPLyERhqf5ZbQ0QOl+2Yb0NLKllbtXbn6X3Lcl+PkLa9LOw="
+        }
+       },
+       "function": {
+        "arguments": "{\"confidence\":1,\"citations\":[{\"source_id\":\"ch_9c64c0613b054b51\",\"quote\":\"Total $ 92,187 $ 92,377\"}],\"answer\":\"In fiscal year 2022, PepsiCo's total assets were $92,187 million.\",\"rationale\":\"Total assets for PepsiCo in fiscal year 2022 are reported as $92,187 million in Item 7 of the 10-K.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_42794",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833489,
+  "id": "kDXNaoW1L5L81e8PwLi7uAE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 137,
+   "prompt_tokens": 3788,
+   "total_tokens": 3925
+  }
+ }
+}

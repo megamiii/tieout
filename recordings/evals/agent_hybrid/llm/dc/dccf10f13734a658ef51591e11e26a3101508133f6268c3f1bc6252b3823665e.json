@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0Tan40rv/xAr9dpai8ugFMIuywC2+b0ZpGqupy4xEf0l+ltbUSppajvwg0ZYC7K+M47bitOcxI9lzo5Qunkp98hdMnGVenzFr4aTnfU3oqr9ikEviPqP1k9u4="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"rationale\":\"Retrieved American Express Consolidated Statements of Income from Item 8 of the FY2022 Form 10-K, which lists total non-interest revenues of $42,967 million and total revenues net of interest expense of $52,862 million for the year ended December 31, 2022.\",\"confidence\":1,\"answer\":\"In fiscal year 2022, American Express reported total revenues net of interest expense of $52,862 million (or $52.862 billion), and total non-interest revenues of $42,967 million.\",\"citations\":[{\"source_id\":\"ch_01a1954f662f77a4\",\"quote\":\"Total revenues net of interest expense 52,862 42,380 36,087\"},{\"source_id\":\"ch_01a1954f662f77a4\",\"quote\":\"Total non-interest revenues 42,967 34,630 28,102\"}]}",
+        "name": "submit_answer"
+       },
+       "id": "call_52530",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833042,
+  "id": "0TPNatStC7eC2roP2r-gGQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 274,
+   "prompt_tokens": 3730,
+   "total_tokens": 4004
+  }
+ }
+}

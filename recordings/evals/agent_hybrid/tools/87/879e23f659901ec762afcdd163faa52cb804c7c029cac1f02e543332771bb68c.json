@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "purchases of property, plant and equipment",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_eff10dd0e23194b0",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 99,
+    "text": "Table of Contents CONSOLIDATED STATEMENTS OF CASH FLOWS Years Ended December 31 (Millions) 2022 2021 2020 Cash Flows from Operating Activities Net income $ 7,514 $ 8,060 $ 3,135 Adjustments to reconcile net income to net cash provided by operating activities: Provisions for credit losses 2,182 (1,419) 4,730 Depreciation and amortization 1,626 1,695 1,543 Stock-based compensation 375 330 249 Deferred taxes (1,189) 294 (939) Other items 365 (772) 683 Originations of loans held-for-sale (277) — — Proceeds from sales of loans held-for-sale 277 — — Changes in operating assets and liabilities, net of effects of acquisitions and dispositions: Other assets 1,391 1,068 (1,785) Accounts payable & other liabilities 8,815 5,389 (2,025) Net cash provided by operating activities 21,079 14,645 5,591 Cash Flows from Investing Activities Sale of investment securities 26 62 69 Maturities and redemptions of investment securities 1,892 20,032 7,159 Purchase of investments (4,175) (1,517) (20,562) Net (inc…"
+   },
+   {
+    "chunk_id": "ch_03bf61b3eca0bd91",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 105,
+    "text": "Table of Contents Leasehold improvements are depreciated using the straight-line method over the lesser of the remaining term of the leased facility, or the economic life of the improvement, and range from 5 to 10 years. We recognize lease restoration obligations at the fair value of the restoration liabilities when incurred and amortize the restoration assets over the lease term. Leases We have operating leases worldwide for facilities and equipment, which, for those leases with terms greater than 12 months, are recorded as lease-related assets and liabilities. We do not separate lease and non-lease components. Lease-related assets, or right-of-use assets, are recognized at the lease commencement date at amounts equal to the respective lease liabilities, adjusted for prepaid lease payments, initial direct costs and lease incentives. Lease liabilities are recognized at the present value of the contractual fixed lease payments, discounted using our incremental borrowing rate as of the l…"
+   },
+   {
+    "chunk_id": "ch_db23192d7bcf8959",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 104,
+    "text": "December 31, 2022, we performed a quantitative goodwill impairment assessment for those reporting units which were impacted by the realignment of our operating segments and concluded that their fair values exceeded their carrying values. Refer to Note 24 for further information on the realignment of our operating segments. Premises and Equipment Premises and equipment, including leasehold improvements, are carried at cost less accumulated depreciation. Costs incurred during construction are capitalized and are depreciated once an asset is placed in service. Depreciation is generally computed using the straight-line method over the estimated useful lives of the assets, which range from 3 to 10 years for equipment, furniture and building improvements, and from 40 to 50 years for premises, which are depreciated based upon their estimated useful life at the acquisition date. Certain costs associated with the acquisition or development of internal-use software are also capitalized and recor…"
+   },
+   {
+    "chunk_id": "ch_662a783173fed616",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 104,
+    "text": "Table of Contents BALANCE SHEET Cash and Cash Equivalents Cash and cash equivalents include cash and amounts due from banks, interest-bearing bank balances, including securities purchased under resale agreements, restricted cash, and other highly liquid investments with original maturities of 90 days or less. Restricted cash primarily represents amounts related to Card Member credit balances as well as upcoming debt maturities of consolidated VIEs. Goodwill Goodwill represents the excess of the acquisition cost of an acquired business over the fair value of assets acquired and liabilities assumed. We allocate goodwill to our reporting units for the purpose of impairment testing. A reporting unit is defined as an operating segment, or a business that is one level below an operating segment, for which discrete financial information is regularly reviewed by the operating segment manager. We evaluate goodwill for impairment annually as of June 30, or more frequently if events occur or circ…"
+   },
+   {
+    "chunk_id": "ch_1ff60ced74aa865f",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 98,
+    "text": "Table of Contents CONSOLIDATED BALANCE SHEETS December 31 (Millions, except share data) 2022 2021 Assets Cash and cash equivalents Cash and due from banks (includes restricted cash of consolidated variable interest entities: 2022, $5; 2021, $11) $ 5,510 $ 1,292 Interest-bearing deposits in other banks (includes securities purchased under resale agreements: 2022, $318; 2021, $463) 28,097 20,548 Short-term investment securities (includes restricted investments of consolidated variable interest entities: 2022, $54; 2021, $32) 307 188 Total cash and cash equivalents 33,914 22,028 Card Member receivables (includes gross receivables available to settle obligations of a consolidated variable interest entity: 2022, $5,193; 2021, $5,175), less reserves for credit losses: 2022, $229; 2021, $64 57,384 53,581 Card Member loans (includes gross loans available to settle obligations of a consolidated variable interest entity: 2022, $28,461; 2021, $26,587), less reserves for credit losses: 2022, $3,74…"
+   }
+  ]
+ }
+}

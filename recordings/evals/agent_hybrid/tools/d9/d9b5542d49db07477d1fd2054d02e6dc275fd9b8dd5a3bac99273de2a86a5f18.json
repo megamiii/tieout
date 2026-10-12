@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statement of Income Net sales Cost of sales",
+  "ticker": "MMM",
+  "fiscal_year": 2018,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_d55dd0bf026b21da",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Statement of Incom e Years ended December 31 (Millions, except per share amounts) 2018 2017 2016 Net sales $ 32,765 $ 31,657 $ 30,109 Operating expenses Cost of sales 16,682 16,055 15,118 Selling, general and administrative expenses 7,602 6,626 6,311 Research, development and related expenses 1,821 1,870 1,764 Gain on sale of businesses (547) (586) (111) Total operating expenses 25,558 23,965 23,082 Operating income 7,207 7,692 7,027 Other expense (income), net 207 144 (26) Income before income taxes 7,000 7,548 7,053 Provision for income taxes 1,637 2,679 1,995 Net income including noncontrolling interest $ 5,363 $ 4,869 $ 5,058 Less: Net income attributable to noncontrolling interest 14 11 8 Net income attributable to 3M $ 5,349 $ 4,858 $ 5,050 Weighted average 3M common shares outstanding — basic 588.5 597.5 604.7 Earnings per share attributable to 3M common shareholders — basic $ 9.09 $ 8.13 $ 8.35 Weighted average 3M commo…"
+   },
+   {
+    "chunk_id": "ch_d4020ce2e592ef18",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 78,
+    "text": "Fourth Quarter 2018 Cost of sales $ 12 $ 15 Selling, general and administrative expenses 89 16 Research, development and related expenses 4 1 Total $ 105 $ 32 Restructuring actions, including cash and non-cash impacts, follow: (Millions) Employee-Related Asset-Related Total Expense incurred in the second quarter and fourth quarter of 2018 $ 125 $ 12 $ 137 Non-cash changes — (12) (12) Cash payments (24) — (24) Adjustments (17) — (17) Accrued restructuring action balances as of December 31, 2018 $ 84 $ — $ 84 Remaining activities related to this restructuring are expected to be largely completed through 2019. 78"
+   },
+   {
+    "chunk_id": "ch_8bcf204b164172ee",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 57,
+    "text": "Table of Contents 3M Company and Subsidiaries Consolidated Statement of Comprehensive Incom e Years ended December 31 (Millions) 2018 2017 2016 Net income including noncontrolling interest $ 5,363 $ 4,869 $ 5,058 Other comprehensive income (loss), net of tax: Cumulative translation adjustment (467) 373 (331) Defined benefit pension and postretirement plans adjustment 444 52 (524) Cash flow hedging instruments, unrealized gain (loss) 176 (203) (33) Total other comprehensive income (loss), net of tax 153 222 (888) Comprehensive income (loss) including noncontrolling interest 5,516 5,091 4,170 Comprehensive (income) loss attributable to noncontrolling interest (8) (14) (6) Comprehensive income (loss) attributable to 3M $ 5,508 $ 5,077 $ 4,164 The accompanying Notes to Consolidated Financial Statements are an integral part of this statement. 57"
+   },
+   {
+    "chunk_id": "ch_ee61bed8ea29cd44",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 93,
+    "text": "(2) — — Total recognized in other comprehensive (income) loss $ (524) $ 240 $ 367 $ 13 $ (188) $ 337 $ (150) $ 65 $ 2 Total recognized in net periodic benefit cost (benefit) and other comprehensive (income) loss $ (280) $ 405 $ 492 $ 111 $ (64) $ 413 $ (82) $ 110 $ 51 93"
+   },
+   {
+    "chunk_id": "ch_5bb3c74efcaca1d1",
+    "ticker": "MMM",
+    "fiscal_year": 2018,
+    "section": "Item 8",
+    "page": 80,
+    "text": "Table of Contents NOTE 6. Supplemental Income Statement Information Other expense (income), net consists of the following: (Millions) 2018 2017 2016 Interest expense $ 350 $ 322 $ 199 Interest income (70) (50) (29) Pension and postretirement net periodic benefit cost (benefit) (73) (128) (196) Total $ 207 $ 144 $ (26) Pension and postretirement net periodic benefit costs described in the table above include all components of defined benefit plan net periodic benefit costs except service cost, which is reported in various operating expense lines. Refer to Note 13 for additional details on the components of pension and postretirement net periodic benefit costs. The Company recorded an early debt extinguishment charge of approximately $96 million which was included within interest expense in the fourth quarter of 2017. 80"
+   }
+  ]
+ }
+}

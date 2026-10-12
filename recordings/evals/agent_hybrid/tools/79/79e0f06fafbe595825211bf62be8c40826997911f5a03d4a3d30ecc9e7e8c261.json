@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "1,855",
+  "ticker": "AXP",
+  "fiscal_year": 2022,
+  "section": "8",
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_eff10dd0e23194b0",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 99,
+    "text": "Table of Contents CONSOLIDATED STATEMENTS OF CASH FLOWS Years Ended December 31 (Millions) 2022 2021 2020 Cash Flows from Operating Activities Net income $ 7,514 $ 8,060 $ 3,135 Adjustments to reconcile net income to net cash provided by operating activities: Provisions for credit losses 2,182 (1,419) 4,730 Depreciation and amortization 1,626 1,695 1,543 Stock-based compensation 375 330 249 Deferred taxes (1,189) 294 (939) Other items 365 (772) 683 Originations of loans held-for-sale (277) — — Proceeds from sales of loans held-for-sale 277 — — Changes in operating assets and liabilities, net of effects of acquisitions and dispositions: Other assets 1,391 1,068 (1,785) Accounts payable & other liabilities 8,815 5,389 (2,025) Net cash provided by operating activities 21,079 14,645 5,591 Cash Flows from Investing Activities Sale of investment securities 26 62 69 Maturities and redemptions of investment securities 1,892 20,032 7,159 Purchase of investments (4,175) (1,517) (20,562) Net (inc…"
+   },
+   {
+    "chunk_id": "ch_9968ab3b95e0b525",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 152,
+    "text": "Table of Contents NOTE 23 SIGNIFICANT CREDIT CONCENTRATIONS Concentrations of credit risk exist when changes in economic, industry or geographic factors similarly affect groups of counterparties whose aggregate credit exposure is material in relation to American Express' total credit exposure. Our customers operate in diverse industries, economic sectors and geographic regions. The following table details our maximum credit exposure of the on-balance sheet assets by category as of December 31: (Billions) 2022 2021 Individuals: $ 156 $ 131 United States 129 108 Outside the United States 27 23 Institutions: Financial services 36 24 Other 17 15 U.S. Government and agencies 4 2 Total on-balance sheet $ 213 $ 172 (a) Primarily reflects loans and receivables from global consumer and small business Card Members, which are governed by individual credit risk management. (b) The geographic regions with the largest concentration outside the United States include the United Kingdom, Japan, the Eur…"
+   },
+   {
+    "chunk_id": "ch_749da352ab687542",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 132,
+    "text": "sufficiently through discovery and/or development of important factual information and legal issues to enable us to estimate an amount of loss or a range of possible loss, while other matters have progressed sufficiently such that we are able to estimate an amount of loss or a range of possible loss. We have accrued for certain of our outstanding legal proceedings. An accrual is recorded when it is both (a) probable that a loss has occurred and (b) the amount of loss can be reasonably estimated. There may be instances in which an exposure to loss exceeds the accrual. We evaluate, on a quarterly basis, developments in legal proceedings that could cause an increase or decrease in the amount of the accrual that has been previously recorded, or a revision to the disclosed estimated range of possible losses, as applicable. For those disclosed legal proceedings where a loss is reasonably possible in future periods, whether in excess of a recorded accrual for legal or tax contingencies, or wh…"
+   },
+   {
+    "chunk_id": "ch_5136bf1d04f43675",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 119,
+    "text": "Table of Contents The following table summarizes the gross unrealized losses for available-for-sale debt securities by ratio of fair value to amortized cost as of December 31, 2022 and 2021: Less than 12 months 12 months or more Total Ratio of Fair Value to Amortized Cost (Dollars in millions) Number of Securities Estimated Fair Value Gross Unrealized Losses Number of Securities Estimated Fair Value Gross Unrealized Losses Number of Securities Estimated Fair Value Gross Unrealized Losses 2022: 90%–100% 74 $ 4,287 $ (74) 3 $ 52 $ (1) 77 $ 4,339 $ (75) Less than 90% 14 24 (9) — — — 14 24 (9) Total as of December 31, 2022 88 $ 4,311 $ (83) 3 $ 52 $ (1) 91 $ 4,363 $ (84) 2021: 90%–100% 5 $ 477 $ (1) — $ — $ — 5 $ 477 $ (1) Less than 90% — — — — — — — — — Total as of December 31, 2021 5 $ 477 $ (1) — $ — $ — 5 $ 477 $ (1) Weighted average yields and contractual maturities for available-for-sale debt securities with stated maturities as of December 31, 2022 were as follows: (Millions) Due wi…"
+   },
+   {
+    "chunk_id": "ch_a1574eeb26cfa968",
+    "ticker": "AXP",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 121,
+    "text": "as of both December 31, 2022 and 2021. OTHER INTANGIBLE ASSETS Intangible assets are amortized on a straight-line basis over their estimated useful lives of 1 to 22 years. We review long-lived assets and asset groups, including intangible assets, for impairment whenever events and circumstances indicate their carrying amounts may not be recoverable. An impairment is recognized if the carrying amount is not recoverable and exceeds the asset or asset group's fair value. The gross carrying amount for other intangible assets as of December 31, 2022 and 2021 was $720 million and $733 million, respectively, with accumulated amortization of $574 million and $532 million, respectively. Amortization expense was $51 million, $57 million and $54 million for the years ended December 31, 2022, 2021 and 2020, respectively. For other intangible assets on the Consolidated Balance Sheets as of December 31, 2022, amortization expense is expected to be $49 million in 2023, $44 million in 2024, $20 millio…"
+   }
+  ]
+ }
+}

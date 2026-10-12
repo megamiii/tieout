@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Revenue total revenue sales fiscal year 2017 Best Buy",
+  "ticker": "BBY",
+  "fiscal_year": 2017,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_5670de4746ecb0cb",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 7",
+    "page": 32,
+    "text": "Table of Contents Fiscal 2017 Results Compared With Fiscal 2016 Consolidated revenue of $39.4 billion in fiscal 2017 decreased 0.3% compared to fiscal 2016. The components of the 0.3% revenue decrease in fiscal 2017 were as follows: Impact of foreign currency exchange rate fluctuations (0.2)% Non-comparable sales (1) (0.3)% Comparable sales impact 0.2 % Total revenue decrease (0.3)% (1) Non-comparable sales reflects the impact of revenue in our International segment for the first through third quarters of fiscal 2017, net store opening and closing activity, as well as, the impact of revenue streams not included within our comparable sales calculation, such as profit share revenue, certain credit card revenue, gift card breakage and sales of merchandise to wholesalers and dealers, as applicable. Our gross profit rate increased 0.7% of revenue in fiscal 2017 . Our Domestic segment contributed a rate increase of 0.5% of revenue, while our International segment contributed 0.2%. For furthe…"
+   },
+   {
+    "chunk_id": "ch_8f7d600ddcdf2b39",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 7",
+    "page": 34,
+    "text": "Table of Contents (1) Non-comparable sales reflects the impact of net store opening and closing activity, as well as the impact of revenue streams not included within our comparable sales calculation, such as profit share revenue, credit card revenue, gift card breakage, commercial sales and sales of merchandise to wholesalers and dealers. The net store changes did not have a material impact on our revenue in fiscal 2017, as the majority of closures related to our small-format Best Buy Mobile stand- alone stores. The closing of small-format Best Buy Mobile stores have a significantly smaller impact given their smaller size and limited category focus compared to our large-format stores. The profit-share revenue included in our non-comparable sales relate to our extended warranty protection plans that are managed by a third party underwriter. We may be eligible to receive profit-sharing payments, depending on the performance of the portfolio. When performance of the portfolio is strong a…"
+   },
+   {
+    "chunk_id": "ch_6ab5d319e2dd30bf",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 7",
+    "page": 38,
+    "text": "Table of Contents The following table presents the International segment's revenue mix percentages by revenue category in fiscal 2017 and 2016 : Revenue Mix Summary Year Ended January 28, 2017 January 30, 2016 Consumer Electronics 31% 31% Computing and Mobile Phones 48% 48% Entertainment 7% 9% Appliances 6% 5% Services 7% 6% Other 1% 1% Total 100% 100% As noted above, comparable sales information has not been provided for the International segment for fiscal 2017 or 2016 due to the Canadian brand consolidation. As such, it is also impractical to provide such information on a revenue category basis. However, as noted above, the revenue mix by category has not changed significantly from fiscal 2016. Our International segment experienced a gross profit increase of $83 million , or 11.7% , in fiscal 2017 compared to fiscal 2016 . Excluding the impact of foreign currency exchange rate fluctuations, the increase in gross profit was $98 million. The gross profit rate increased to 25.0% in fis…"
+   },
+   {
+    "chunk_id": "ch_e8dbf9f30b4249f6",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 7",
+    "page": 33,
+    "text": "Represents comparable sales, excluding the estimated revenue benefit from installment billing. In fiscal 2015, we began selling installment billing plans offered by mobile carriers to our customers to complement the more traditional two-year plans. While the two types of contracts have broadly similar overall economics, installment billing plans typically generate higher revenues due to higher proceeds for devices and higher cost of sales due to lower device subsidies. As we increased our mix of installment billing plans, we had an associated increase in revenue and cost of goods sold and a decrease in gross profit rate, with gross profit dollars relatively unaffected. Beginning in fiscal 2017, we no longer reported comparable sales, excluding the estimated revenue benefit from installment billing, as the mix of installment billing plans became comparable on a year-over-year basis. The following table reconciles our Domestic segment stores open at the end of each of the last three fisc…"
+   },
+   {
+    "chunk_id": "ch_0dc88c0b37a5453f",
+    "ticker": "BBY",
+    "fiscal_year": 2017,
+    "section": "Item 7",
+    "page": 37,
+    "text": "Table of Contents The following table presents selected financial data for our International segment for each of the past three fiscal years ($ in millions): International Segment Performance Summary 2017 2016 2015 Revenue $ 3,155 $ 3,163 $ 4,284 Revenue decline % (0.3)% (26.2)% (10.4)% Comparable sales % decline (1) n/a n/a (3.5)% Restructuring charges - cost of goods sold $ — $ 3 $ — Gross profit $ 790 $ 707 $ 967 Gross profit as % of revenue 25.0 % 22.4 % 22.6 % SG&A $ 692 $ 721 $ 953 SG&A as % of revenue 21.9 % 22.8 % 22.2 % Restructuring charges $ 8 $ 196 $ 1 Operating income (loss) $ 90 $ (210) $ 13 Operating income (loss) as % of revenue 2.9 % (6.6)% 0.3 % (1) The Canadian brand consolidation has a material impact on a year-over-year basis on the Canadian retail stores and the website. As such, beginning in the first quarter of fiscal 2016 through the third quarter of fiscal 2017, all store and website revenue was removed from the comparable sales base, and an International segm…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "net income fiscal 2023 2022 Best Buy",
+  "ticker": "BBY",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_bdf7e93187c1b561",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 27,
+    "text": "International Segment Selected financial data for the International segment was as follows ($ in millions): International Segment Performance Summary 2023 2022 2021 Revenue $ 3,504 $ 3,931 $ 3,969 Revenue % change (10.9)% (1.0)% 12.6 % Comparable sales % change (5.4)% 3.3 % 15.0 % Gross profit $ 806 $ 938 $ 853 Gross profit as a % of revenue 23.0 % 23.9 % 21.5 % SG&A $ 638 $ 689 $ 689 SG&A as a % of revenue 18.2 % 17.5 % 17.4 % Restructuring charges $ 7 $ 5 $ 121 Operating income $ 161 $ 244 $ 43 Operating income as a % of revenue 4.6 % 6.2 % 1.1 % The decrease in revenue in fiscal 2023 was primarily driven by lower sales in Canada due to comparable sales declines across most of our product categories and the negative impact from unfavorable foreign currency exchange rates. International segment stores open at the end of each of the last three fiscal years were as follows: 2021 2022 2023 Total Stores at End of Fiscal Year Stores Opened Stores Closed(1) Total Stores at End of Fiscal Yea…"
+   },
+   {
+    "chunk_id": "ch_579d7f9c41b3c3c2",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 32,
+    "text": "For our Best Buy Domestic reporting unit, fair value exceeded book value by a substantial margin in fiscal 2023 and fiscal 2022. Compared to fiscal 2022, the excess of fair value over book value in fiscal 2023 decreased approximately in line with the decline in Best Buy's market capitalization over the same period, reflecting the macroeconomic factors that affected our fiscal year 2023 performance and our expectations for the future. Barring a fundamental, material further deterioration of these factors, we believe the risk of future goodwill impairment within our Best Buy Domestic reporting unit is remote. Our Best Buy Health reporting unit is subject to a greater level of uncertainty, since it operates in a less mature, rapidly-changing and high-growth environment. In both fiscal 2023 and fiscal 2022, the excess of fair value over book value for this reporting unit was substantial. In fiscal 2023, the excess decreased more significantly than our Best Buy Domestic reporting unit, prim…"
+   },
+   {
+    "chunk_id": "ch_80fa3d151b16e59c",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 60,
+    "text": "The following table includes estimated revenue from our contract liability balances expected to be recognized in future periods if performance of the contract is expected to have a duration of more than one year ($ in millions): Fiscal Year Amount Fiscal 2024 $ 25 Fiscal 2025 30 Fiscal 2026 25 Fiscal 2027 24 Fiscal 2028 24 Thereafter 137 See Note 14, Segment and Geographic Information, for information on our revenue by reportable segment and product category. 11. Income Taxes Reconciliations of the federal statutory income tax rate to income tax expense were as follows ($ in millions): 2023 2022 2021 Federal income tax at the statutory rate $ 376 $ 635 $ 499 State income taxes, net of federal benefit 63 88 72 Change in unrecognized tax benefits (45) (88) 20 Expense (benefit) from foreign operations (4) (8) 20 Other (20) (53) (32) Income tax expense $ 370 $ 574 $ 579 Effective income tax rate 20.7 % 19.0 % 24.3 % Earnings before income tax expense and equity in income of affiliates by j…"
+   },
+   {
+    "chunk_id": "ch_19013fffcce9c7d1",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 57,
+    "text": "68.40 Granted 31 $ 85.19 Adjustment for performance achievement 30 $ 68.91 Distributed (424) $ 70.71 Forfeited (22) $ 60.48 Outstanding as of January 28, 2023 288 $ 67.36 The total fair value distributed during fiscal 2023, fiscal 2022 and fiscal 2021 was $37 million, $43 million and $28 million, respectively. The actual tax benefits realized for the tax deductions related to distributions in fiscal 2023, fiscal 2022 and fiscal 2021 were $3 million, $3 million and $5 million, respectively. As of January 28, 2023, there was $2 million of unrecognized compensation expense related to non-vested performance-based share awards that we expect to recognize over a weighted-average period of 1.2 years. 57"
+   },
+   {
+    "chunk_id": "ch_77beb7de7827d1f4",
+    "ticker": "BBY",
+    "fiscal_year": 2023,
+    "section": "Item 7",
+    "page": 27,
+    "text": "Excludes stores that were temporarily closed as a result of the COVID-19 pandemic. International segment revenue mix percentages and comparable sales percentage changes by revenue category were as follows: Revenue Mix Summary Comparable Sales Summary 2023 2022 2023 2022 Computing and Mobile Phones 45 % 45 % (6.1)% 1.6 % Consumer Electronics 30 % 30 % (6.2)% 4.0 % Appliances 10 % 10 % 0.3 % 6.2 % Entertainment 8 % 8 % (8.6)% 3.5 % Services 5 % 5 % (2.1)% 7.9 % Other 2 % 2 % 1.1 % 8.8 % Total 100 % 100 % (5.4)% 3.3 % Notable comparable sales changes by revenue category were as follows: • Computing and Mobile Phones: The 6.1% comparable sales decline was driven primarily by computing and tablets, partially offset by comparable sales growth in mobile phones. • Consumer Electronics: The 6.2% comparable sales decline was driven primarily by home theater and health and fitness. • Appliances: The 0.3% comparable sales growth was driven by small appliances. • Entertainment: The 8.6% comparable …"
+   }
+  ]
+ }
+}

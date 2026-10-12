@@ -1,0 +1,43 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 10,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TBF3MR4AhcIXPnOynhh1vLMd28qbruZtaPM0mM7urTJn55MlsRpC/hnm6xQ9iFlaXwNYH0NtU7C1co/KB4BHiFFwFcP/hllHmU/pzYkkVg3ULsHfj9HDa/Eg="
+        }
+       },
+       "function": {
+        "arguments": "{\"section\":\"8\",\"query\":\"Consolidated Statement of Income Net sales Cost of sales\",\"ticker\":\"MMM\",\"fiscal_year\":2018}",
+        "name": "search_filings"
+       },
+       "id": "call_49629",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833414,
+  "id": "RjXNavj6BY3b9tMPofmxYA",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 6358,
+   "prompt_tokens_details": {
+    "cached_tokens": 4040
+   },
+   "total_tokens": 6405
+  }
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "item_id": "xbrl-BBY-2017-Revenues-lookup",
+ "eval_set": "xbrl_numeric",
+ "experiment": "agent_hybrid",
+ "status": "answered",
+ "answer": "In fiscal year 2017 (ended January 28, 2017), Best Buy's total revenue was $39,403 million.",
+ "confidence": 1.0,
+ "rationale": "Total revenue for fiscal year 2017 is directly reported as $39,403 million in the Consolidated Statements of Earnings in Best Buy's FY2017 10-K.",
+ "citations": [
+  {
+   "source_id": "ch_66f8fe4224ac405b",
+   "quote": "Revenue $ 39,403 $ 39,528 $ 40,339",
+   "kind": "chunk",
+   "ticker": "BBY",
+   "fiscal_year": 2017,
+   "section": "Item 8",
+   "page": 56,
+   "values": [
+    "28",
+    "2017",
+    "30",
+    "2016",
+    "31",
+    "2015",
+    "39403",
+    "39528",
+    "40339",
+    "29963",
+    "30334",
+    "31292",
+    "3",
+    "9440",
+    "9191",
+    "9047",
+    "7547",
+    "7618",
+    "7592",
+    "39",
+    "198",
+    "5",
+    "1854",
+    "1375",
+    "1450",
+    "3",
+    "2",
+    "13",
+    "31",
+    "13",
+    "14",
+    "72",
+    "80",
+    "90",
+    "1816",
+    "1310",
+    "1387",
+    "609",
+    "503",
+    "141",
+    "1207",
+    "807",
+    "1246",
+    "2",
+    "7",
+    "1",
+    "0",
+    "21",
+    "90",
+    "11",
+    "1228",
+    "897",
+    "1235"
+   ]
+  }
+ ],
+ "review_reasons": [],
+ "warnings": [],
+ "requests": 4,
+ "prompt_tokens": 11639,
+ "completion_tokens": 281,
+ "latency_ms": 3880.6,
+ "grade": {
+  "correct": true,
+  "method": "numeric",
+  "detail": "$39,403 matches 39403 (x1)",
+  "judge_model": null
+ },
+ "stop_reason": "submitted",
+ "tool_calls": 4,
+ "rejections": 0,
+ "trace": [
+  {
+   "step": 0,
+   "tokens": 1537,
+   "tools": [
+    {
+     "name": "get_financial_facts",
+     "arguments": "{\"ticker\":\"BBY\"}",
+     "error": "unknown tool 'get_financial_facts'; available: ['read_section', 'search_filings', 'submit_answer']"
+    }
+   ]
+  },
+  {
+   "step": 1,
+   "tokens": 1629,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"query\":\"Revenue total revenue sales fiscal year 2017 Best Buy\",\"fiscal_year\":2017,\"ticker\":\"BBY\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 2,
+   "tokens": 3218,
+   "tools": [
+    {
+     "name": "search_filings",
+     "arguments": "{\"fiscal_year\":2017,\"ticker\":\"BBY\",\"query\":\"Consolidated Statements of Earnings Revenue or net sales Best Buy\",\"section\":\"8\"}",
+     "error": null
+    }
+   ]
+  },
+  {
+   "step": 3,
+   "tokens": 5536,
+   "tools": [
+    {
+     "name": "submit_answer",
+     "arguments": "{\"confidence\":1,\"needs_review\":false,\"citations\":[{\"source_id\":\"ch_66f8fe4224ac405b\",\"quote\":\"Revenue $ 39,403 $ 39,528 $ 40,339\"}],\"rationale\":\"Total revenue for fiscal year 2017 is directly reported as $39,403 million in the Consolidated Statements of Earnings in Best Buy's FY2017 10-K.\",\"answer\":\"In fiscal year 2017 (ended January 28, 2017), Best Buy's total revenue was $39,403 million.\"}",
+     "error": null
+    }
+   ]
+  }
+ ]
+}

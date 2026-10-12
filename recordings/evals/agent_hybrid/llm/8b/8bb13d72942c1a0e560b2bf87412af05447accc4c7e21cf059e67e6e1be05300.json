@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 14,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TSCHSDdW/Hf5hsnjVlZJnAdH+fHsL+5jjG1WOGQ2RGH+ThHBB0+FzuBqQRDzKbBlhvgpKALimFRc7vOVApSqJ1aDxlTNkQHCOYqzVOmsRAFeG0jtVAb72jVk="
+        }
+       },
+       "function": {
+        "arguments": "{\"needs_review\":false,\"answer\":\"Best Buy's net earnings (net income) changed from $1,000 million in fiscal year 2018 to $1,464 million in fiscal year 2019, representing an increase of 46.4%.\",\"citations\":[{\"source_id\":\"ch_875b47a8cab19292\",\"quote\":\"Net earnings $ 1,464 $ 1,000 $ 1,228\"}],\"confidence\":1,\"rationale\":\"Net earnings for fiscal 2018 were $1,000 million and for fiscal 2019 were $1,464 million. The percentage change is (1464 - 1000) / 1000 * 100 = 46.4%.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_84078",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833173,
+  "id": "VDTNaunnFcSx1e8PhMiImQE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 207,
+   "prompt_tokens": 8795,
+   "total_tokens": 9002
+  }
+ }
+}

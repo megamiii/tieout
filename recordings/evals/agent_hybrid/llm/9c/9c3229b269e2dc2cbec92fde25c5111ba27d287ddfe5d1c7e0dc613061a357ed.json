@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TSEbf+ju/eqbP5FYbQLvLvwKUX3ad9lZpFW3NV09F0T3SjGmJsf+8VgYoGVofXDRvqC0bvH0FVj5K87HnimsST9PJFuwRNcMwPpHC49tyycKVwRVjWtTu2xo="
+        }
+       },
+       "function": {
+        "arguments": "{\"ticker\":\"NKE\",\"query\":\"TOTAL ASSETS\",\"fiscal_year\":2018}",
+        "name": "search_filings"
+       },
+       "id": "call_66878",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833421,
+  "id": "TTXNatGcFN_81e8P7OLgUQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 35,
+   "prompt_tokens": 3528,
+   "total_tokens": 3563
+  }
+ }
+}

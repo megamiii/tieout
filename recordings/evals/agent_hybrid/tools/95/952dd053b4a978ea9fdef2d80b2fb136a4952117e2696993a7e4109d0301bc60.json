@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Balance Sheets",
+  "ticker": "AMD",
+  "fiscal_year": 2015,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_f7dd3ecfef120e99",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 45,
+    "text": "The following table provides a summary of the restructuring activities during 2015 and the related liabilities recorded in “Other current liabilities” and “Other long-term liabilities” on our consolidated balance sheets as of December 26, 2015: Severance and related benefits Other exit related costs Total (In millions) Balance as of June 27, 2015 $ — $ — $ — Charges (reversals), net 27 10 37 Cash payments (13) (1) (14) Non-cash charges — (9) (9) Balance as of December 26, 2015 $ 14 $ — $ 14 2014 Restructuring Plan In the fourth quarter of 2014, we implemented a restructuring plan (2014 Restructuring Plan) designed to improve operating efficiencies. The 2014 Restructuring Plan involved a reduction of global headcount by approximately 6% and an alignment of our real estate footprint with our reduced headcount. We recorded a $57 million restructuring charge in the fourth quarter of 2014, which consisted of $44 million for severance and costs related to the continuation of certain employee…"
+   },
+   {
+    "chunk_id": "ch_fe57f506c4eebeb6",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 39,
+    "text": "The transaction is expected to close in the first half of 2016, pending all regulatory and other approvals. As a result of the decision to form the above JVs, the balance sheet as of December 26, 2015, reflects held-for-sale accounting of the ATMP assets and liabilities which requires reclassification of such financial amounts to current assets and current liabilities. We reclassified $183 million to other current assets and $79 million to other current liabilities. Asset balances reclassified into other current assets primarily consist of property, plant, and equipment of $110 million, goodwill of $42 million and inventory of $15 million. Liability balances reclassified into other current liabilities primarily consist of accounts payable of $70 million. The balances included in the final gain/(loss) calculation, at closing, are likely to be different due to normal operational activities occurring through the closing date. Critical Accounting Estimates Our discussion and analysis of ou…"
+   },
+   {
+    "chunk_id": "ch_750e1946d1b40b59",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 67,
+    "text": "JVs providing assembly, testing, marking, packing and packaging services (ATMP) to the Company. The Company plans to account for its investment in the JVs under the equity method of accounting. The Equity Interest Purchase Agreement also has related agreements including: (i) with respect to the Malaysian Target Company, a Shareholders' Agreement, and with respect to the Chinese Target Company, a Joint Venture Contract governing the joint venture relationships from and after the Closing, (ii) an IP License Agreement, (iii) a Manufacturing Services Agreement, (iv) a Transition Services Agreement, and (v) a Trademark License Agreement. The transaction is expected to close in the first half of 2016, pending all regulatory and other approvals. As a result of the decision to form the above JVs, the balance sheet as of December 26, 2015 reflects held-for-sale accounting of the ATMP assets and liabilities which requires reclassification of such financial amounts to current assets and current l…"
+   },
+   {
+    "chunk_id": "ch_4e7305cefbd1cb6e",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 8",
+    "page": 90,
+    "text": "Total (In millions) Balance as of June 27, 2015 $ — $ — $ — Charges (reversals), net 27 10 37 Cash payments (13) (1) (14) Non-cash charges — (9) (9) Balance as of December 26, 2015 $ 14 $ — $ 14 2014 Restructuring Plan In the fourth quarter of 2014, the Company implemented a restructuring plan (2014 Restructuring Plan) designed to improve operating efficiencies. The 2014 Restructuring Plan involved a reduction of global headcount by approximately 6% and an alignment of its real estate footprint with its reduced headcount. The Company recorded a $57 million restructuring charge in the fourth quarter of 2014, which consisted of $44 million for severance and costs related to the continuation of certain employee benefits, $6 million for contract or program termination costs, $1 million for facilities related costs and $6 million for asset impairments, a non-cash charge. During 2015, the Company recorded a $16 million restructuring charge, which consisted of $5 million non-cash charge relat…"
+   },
+   {
+    "chunk_id": "ch_6131c20177eb1800",
+    "ticker": "AMD",
+    "fiscal_year": 2015,
+    "section": "Item 7",
+    "page": 45,
+    "text": "liabilities” on our consolidated balance sheets as of December 26, 2015: Severance and related benefits Other exit related costs Total (In millions) Balance as of December 27, 2014 $ 26 $ 13 $ 39 Charges (reversals), net 2 14 16 Cash payments (23) (7) (30) Non-cash charges — (5) (5) Balance as of December 26, 2015 $ 5 $ 15 $ 20 2012 Restructuring Plan In the fourth quarter of 2012, we implemented a restructuring plan designed to improve our cost structure and to strengthen our competitiveness in core growth areas. The plan primarily involved a workforce reduction of approximately 14% as well as asset impairments and facility consolidations. We recorded restructuring expense in the fourth quarter of 2012 of approximately $90 million, which was primarily comprised of employee severance. The non-cash portion of the restructuring expense included approximately $4 million of asset impairments. In 2014 and 2013, we incurred costs of $3 million and $11 million, respectively, related to facili…"
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "Consolidated Statements of Income Net sales Cost of sales",
+  "ticker": "AMCR",
+  "fiscal_year": 2023,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_ad8395ae2e248943",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 105,
+    "text": "Deed of Cross Guarantee Consolidated Statements of Income ($ in millions) For the years ended June 30, 2023 2022 Net sales $ 377 $ 391 Cost of sales (319) (337) Gross profit 58 54 Operating expenses (1,125) (1,251) Other income, net 1,599 2,355 Operating income 532 1,158 Interest income 15 12 Interest expense (38) (14) Other non-operating income, net — 1 Income before income taxes 509 1,157 Income tax expense (22) (4) Net income $ 487 $ 1,153 105"
+   },
+   {
+    "chunk_id": "ch_2bba86d92f1fb602",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 50,
+    "text": "Amcor plc and Subsidiaries Consolidated Statements of Income ($ in millions, except per share data) For the years ended June 30, 2023 2022 2021 Net sales $ 14,694 $ 14,544 $ 12,861 Cost of sales (11,969) (11,724) (10,129) Gross profit 2,725 2,820 2,732 Selling, general, and administrative expenses (1,246) (1,284) (1,292) Research and development expenses (101) (96) (100) Restructuring, impairment, and other related activities, net 104 (234) (94) Other income, net 26 33 75 Operating income 1,508 1,239 1,321 Interest income 31 24 14 Interest expense (290) (159) (153) Other non-operating income, net 2 11 11 Income before income taxes and equity in income of affiliated companies 1,251 1,115 1,193 Income tax expense (193) (300) (261) Equity in income of affiliated companies, net of tax — — 19 Net income $ 1,058 $ 815 $ 951 Net income attributable to non-controlling interests (10) (10) (12) Net income attributable to Amcor plc $ 1,048 $ 805 $ 939 Basic earnings per share: Basic earnings per …"
+   },
+   {
+    "chunk_id": "ch_6bf4cb818f2f5a9d",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 56,
+    "text": "Note 2 - Significant Accounting Policies Basis of Presentation and Principles of Consolidation: The consolidated financial statements include the accounts of the Company and its subsidiaries, for which the Company has a controlling financial interest. All significant intercompany transactions and balances have been eliminated. The consolidated financial statements are prepared in accordance with accounting principles generally accepted in the United States of America (\"U.S. GAAP\"). The Company reclassified prior year inventory comparatives in the condensed consolidated balance sheets to conform to the current year's presentation which provides the breakdown of inventory. This change in presentation did not have an impact on the Company's financial condition or operating results. Certain amounts in the Company's notes to consolidated financial statements may not add up or recalculate due to rounding. Business Combinations: The Company uses the acquisition method of accounting, which req…"
+   },
+   {
+    "chunk_id": "ch_a76740c990e4fa5f",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 58,
+    "text": "institutions. Agreements which result in true sales of the transferred receivables, which occur when receivables are transferred without recourse to the Company, are reflected as a reduction of trade receivables, net on the consolidated balance sheets and the proceeds are included in the cash flows from operating activities in the consolidated statements of cash flows. Agreements that allow the Company to maintain effective control over the transferred receivables and which do not qualify as a true sale are accounted for as secured borrowings and recorded on the consolidated balance sheets within trade receivables, net and short-term debt. The expenses associated with receivables factoring are recorded in the consolidated statements of income primarily as a reduction of net sales. The Company did not factor any trade receivables in fiscal years 2023 and 2022 which did not qualify as true sales of the receivables. Inventories, net: Inventories are stated at the lower of cost and net rea…"
+   },
+   {
+    "chunk_id": "ch_8a1f53c23f9cded1",
+    "ticker": "AMCR",
+    "fiscal_year": 2023,
+    "section": "Item 8",
+    "page": 57,
+    "text": "consideration using the most likely amount method. The Company utilizes forecasted sales data and rebate percentages specific to each customer agreement and updates its judgment of the amounts to which the customer is entitled each period. The Company enters into long-term agreements with certain customers, under which it is obligated to make various up-front payments for which it expects to receive a benefit in excess of the cost over the term of the contract. These up-front payments are deferred and reflected in prepaid expenses and other current assets or other non-current assets on its consolidated balance sheets. Contract incentives are typically recognized as a reduction to revenue over the term of the customer agreement. Practical Expedients The Company sells primarily through its direct sales force. Any external sales commissions are expensed when incurred because the amortization period would be one year or less. External sales commission expense is included in selling, genera…"
+   }
+  ]
+ }
+}

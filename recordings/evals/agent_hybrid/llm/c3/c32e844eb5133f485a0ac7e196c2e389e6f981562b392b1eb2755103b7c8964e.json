@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TjQoy1oN+wGRWeYmksTIffiQxHjyNXkEhulThqrIBV9pyJtben1OiWI7nCwn8HlI/wjPqErsgzrxSkti0oHj61FnwiDdt2FwbbmEZ3jv2b/Aruw7OLwCUvIU="
+        }
+       },
+       "function": {
+        "arguments": "{\"fiscal_year\":2022,\"query\":\"purchases of property, plant and equipment\",\"section\":\"8\",\"ticker\":\"AXP\"}",
+        "name": "search_filings"
+       },
+       "id": "call_77766",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791832990,
+  "id": "njPNap6pHdS_1e8PzcLnyQI",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 46,
+   "prompt_tokens": 1609,
+   "total_tokens": 1655
+  }
+ }
+}

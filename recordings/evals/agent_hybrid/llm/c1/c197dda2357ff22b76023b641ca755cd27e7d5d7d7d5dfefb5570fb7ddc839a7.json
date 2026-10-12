@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 6,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TYGW8R3tnJ5FYZ6tPPbh0kwzOSmLn5YJ9AO63OKR+DY8iJwRnoDtGfnmO4PrT4m4j0eoiDDskzrQNtNe4ErNGj4FILV+ta3FqNp3G3cEw0UHLw4zTGULLsX0="
+        }
+       },
+       "function": {
+        "arguments": "{\"answer\":\"In fiscal year 2018, Boeing's earnings from operations (operating income) under GAAP was $11,987 million.\",\"rationale\":\"The operating income (Earnings from operations) for Boeing in fiscal year 2018 is explicitly listed as $11,987 million in the MD&A section of the 2018 Form 10-K.\",\"citations\":[{\"quote\":\"Earnings from operations (GAAP) $11,987 $10,344 $6,527\",\"source_id\":\"ch_307ddf378e31b683\"}],\"confidence\":1}",
+        "name": "submit_answer"
+       },
+       "id": "call_34042",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833048,
+  "id": "1zPNao-1INyc2roP5arkMQ",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 164,
+   "prompt_tokens": 3266,
+   "total_tokens": 3430
+  }
+ }
+}

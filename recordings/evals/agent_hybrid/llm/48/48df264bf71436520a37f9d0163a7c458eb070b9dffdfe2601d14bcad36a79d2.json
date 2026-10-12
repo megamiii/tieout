@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 8,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TneB9OgSy+9wA44M5Mi2x88fyyhDGmiLqky5cDYBPR/srshdHjDfVGq+g3WHer+Uugr0EFKA9lcU7ZN0f8OfQa/O9nwujWcO8idvCjm7Le9RLslnnUYMfEak="
+        }
+       },
+       "function": {
+        "arguments": "{\"citations\":[{\"source_id\":\"ch_f8a564f1d3487be1\",\"quote\":\"Total assets $ 228,275 $ 232,999\"}],\"confidence\":1,\"needs_review\":false,\"rationale\":\"The total assets figure for fiscal year 2022 is obtained directly from CVS Health's Consolidated Balance Sheets in Item 8 of the 2022 Form 10-K.\",\"answer\":\"CVS Health's total assets in fiscal year 2022 (as of December 31, 2022) were $228,275 million.\"}",
+        "name": "submit_answer"
+       },
+       "id": "call_35806",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833243,
+  "id": "mjTNase2F9ew1e8P9dmroQM",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 164,
+   "prompt_tokens": 4681,
+   "total_tokens": 4845
+  }
+ }
+}

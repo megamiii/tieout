@@ -1,0 +1,54 @@
+{
+ "tool": "search_filings",
+ "arguments": {
+  "query": "(-4935 - (-4202)) / -4202",
+  "ticker": "BA",
+  "fiscal_year": 2022,
+  "section": null,
+  "k": 5
+ },
+ "output": {
+  "results": [
+   {
+    "chunk_id": "ch_6ea530d385bcd39f",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 90,
+    "text": "Table of Contents inventory, over the useful life of the Property, plant and equipment extending through 2052. During 2022, we amortized $11 to Inventory, and recorded a benefit of $5 in Cost of Sales. At December, 31, 2022, inventory included a benefit of $64 and Accrued liabilities included a balance of $106. We are eligible to claim tax refunds from the State of Missouri and City of Irving, Texas primarily related to job creation and retention through 2031. During 2022, we received $30 in cash and recorded a benefit of $21 in Cost of sales. At December 31, 2022, Other current assets includes receivables of $20. As of December 31, 2022, $56 of refunds, plus interest, is subject to clawback if we fail to meet certain conditions, including employment levels. We are eligible to claim cash grants through 2032 of up to $62, related to operations in Queensland, Australia. During 2022, $7 cash was received and recorded as a benefit in Cost of Sales. At December 31, 2022, $4 is subject to cl…"
+   },
+   {
+    "chunk_id": "ch_1eab1ecc7aeee721",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 107,
+    "text": "Balance at January 1, 2020 1,012,261,159 449,352,405 Issued (19,986,868) Acquired 575,484 Balance at December 31, 2020 1,012,261,159 429,941,021 Issued (6,904,556) Acquired 307,242 Balance at December 31, 2021 1,012,261,159 423,343,707 Issued (8,877,047) Acquired 204,723 Balance at December 31, 2022 1,012,261,159 414,671,383 (1) 103"
+   },
+   {
+    "chunk_id": "ch_f4e300d7af4a1b03",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 110,
+    "text": "Table of Contents Losses from cash flow hedges reclassified from AOCI to Other income, net because it is probable the forecasted transactions will not occur were $50 and $0 for the years ended December 31, 2022 and 2021. Gains/(losses) related to undesignated derivatives on foreign exchange and commodity cash flow hedging transactions recognized in Other income, net were insignificant for the years ended December 31, 2022 and 2021. Based on our portfolio of cash flow hedges, we expect to reclassify gains of $14 (pre-tax) out of Accumulated other comprehensive loss into earnings during the next 12 months. We have derivative instruments with credit-risk-related contingent features. If we default on our five-year credit facility, our derivative counterparties could require settlement for foreign exchange and certain commodity contracts with original maturities of at least five years. The fair value of those contracts in a net liability position at December 31, 2022 was $33. For other part…"
+   },
+   {
+    "chunk_id": "ch_e375bef8529b86a7",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 8",
+    "page": 76,
+    "text": "Table of Contents Note 4 – Income Taxes The components of Loss before income taxes were: Years ended December 31, 2022 2021 2020 U.S. ($5,457) ($5,475) ($14,882) Non-U.S. 435 442 406 Total ($5,022) ($5,033) ($14,476) Income tax (benefit)/expense consisted of the following: Years ended December 31, 2022 2021 2020 Current tax (benefit)/expense U.S. federal ($58) ($89) ($3,968) Non-U.S. 142 147 148 U.S. state (42) 42 21 Total current 42 100 (3,799) Deferred tax (benefit)/expense U.S. federal (62) (855) 652 Non-U.S. (3) (12) U.S. state 54 24 612 Total deferred (11) (843) 1,264 Total income tax expense/(benefit) $31 ($743) ($2,535) Net income tax (refunds)/payments were ($1,317), ($1,480) and $37 in 2022, 2021 and 2020, respectively. 72"
+   },
+   {
+    "chunk_id": "ch_0bde4706c842d152",
+    "ticker": "BA",
+    "fiscal_year": 2022,
+    "section": "Item 7",
+    "page": 45,
+    "text": "Table of Contents Capital Resources The following table summarizes certain cash requirements for known contractual and other obligations as of December 31, 2022, and the estimated timing thereof. See Note 12 for future operating lease payments. (Dollars in millions) Current Long-term Total Long-term debt (including current portion) $5,197 $52,338 $57,535 Interest on debt 2,266 31,397 33,663 Pension and other postretirement 519 8,133 8,652 Purchase obligations 62,025 59,515 121,540 737 MAX customer concessions and consideration 100 600 700 For further discussion, see Note 13 to our Consolidated Financial Statements. We expect to be able to fund our cash requirements through cash and short-term investments and cash provided by operations, as well as continued access to capital markets. At December 31, 2022, we had $14.6 billion of cash, $2.6 billion of short-term investments, and $12.0 billion of unused borrowing capacity on revolving credit line agreements. In the third quarter of 2022,…"
+   }
+  ]
+ }
+}

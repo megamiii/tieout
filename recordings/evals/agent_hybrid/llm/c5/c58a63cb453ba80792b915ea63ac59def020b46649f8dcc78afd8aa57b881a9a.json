@@ -1,0 +1,40 @@
+{
+ "provider": "gemini",
+ "model": "gemini-3.5-flash-lite",
+ "messages": 4,
+ "response": {
+  "choices": [
+   {
+    "finish_reason": "tool_calls",
+    "index": 0,
+    "message": {
+     "role": "assistant",
+     "tool_calls": [
+      {
+       "extra_content": {
+        "google": {
+         "thought_signature": "EmAKXgFpFH0TBX6Ah0npC9PX8hiS//aQ3voLAnrM3rc4cq9WTfHA3N3ni1m5CzrnJVmKhflR2OfLSU1WpIxhFo2bvMLbVUb7KQuHkruleFxVSr4eeJGpSB837C5FsFoMDE8="
+        }
+       },
+       "function": {
+        "arguments": "{\"query\":\"net income fiscal 2023 2022 Best Buy\",\"fiscal_year\":2023,\"ticker\":\"BBY\"}",
+        "name": "search_filings"
+       },
+       "id": "call_63930",
+       "type": "function"
+      }
+     ]
+    }
+   }
+  ],
+  "created": 1791833175,
+  "id": "VzTNasezBqyv1e8P_KPGuQE",
+  "model": "gemini-3.5-flash-lite",
+  "object": "chat.completion",
+  "usage": {
+   "completion_tokens": 47,
+   "prompt_tokens": 1599,
+   "total_tokens": 1646
+  }
+ }
+}

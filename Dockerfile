@@ -1,5 +1,6 @@
-# One image for the public demo: the built UI, the API, the demo recordings and
-# the embedding model. Hugging Face Spaces runs it on port 7860.
+# One image for self-hosting the demo server: the built UI, the API, the demo
+# recordings and the embedding model, on port 7860. (The public demo itself is
+# the static GitHub Pages build; see .github/workflows/pages.yml.)
 
 # --- frontend -------------------------------------------------------------------
 FROM node:20-slim AS web
@@ -11,7 +12,7 @@ RUN npm run build
 
 # --- app ------------------------------------------------------------------------
 FROM python:3.12-slim
-# Spaces runs containers as uid 1000; the app writes its usage ledger under data/.
+# Run as a non-root user; the app writes its usage ledger under data/.
 RUN useradd --create-home --uid 1000 user
 WORKDIR /app
 

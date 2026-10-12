@@ -165,9 +165,9 @@ Demo mode and deployment (milestone 10):
 - **Recordings are assembled from traces, at zero cost:** a trace names every recording file its run used (the request hash on LLM spans and, since this milestone, the recording hash on tool spans). `tieout demo build` replays six curated eval questions from the eval recordings and the eight stored workflows from the local LLM cache, copies exactly the files their traces name into `recordings/demo/` (776 KB, 166 files), and then replays each one from that directory alone to prove the copy is complete. Building the demo made no LLM requests, and the rebuilt workflows reproduce the published results exactly (751 claims, 139 matched, 11 exceptions; 11 of 24 changes explained). The curated list, with what each question demonstrates, is `config/demo_questions.json`.
 - **A public database that doesn't grow:** a replayed question is stored once (as a `demo` run) and served from the database afterwards, so repeated clicks return the same run in milliseconds. Workflows are served from the runs stored with the database, and an unrecorded filing is refused before any work: the first version ran 7.3 s of claim extraction before its first LLM call missed the recording; refusing up front takes under 0.2 s. Review decisions, the one remaining public write, are limited to 30 per client per hour.
 - **Hash inputs are pinned in the image:** a request hash covers the provider URL and the model, so the Dockerfile sets `LLM_PROVIDER=gemini` and `LLM_MODEL=gemini-3.5-flash-lite`, the values the recordings were made with. Changing either would turn every replay into a cache miss.
-- **One image, free hosting:** a multi-stage Dockerfile builds the UI with Node, then installs the API on `python:3.12-slim` with the demo recordings, the eval reports and the quantized embedding model (65 MB) baked in, and serves both on port 7860 as uid 1000, as Hugging Face Spaces expects. The image is 855 MB. `.dockerignore` keeps `.env`, `data/` and the eval recordings out of it.
-- **Neon for the database:** `deploy/seed-neon.sh` copies the local database with `pg_dump | psql`, both run inside the local Postgres container, so the host needs no Postgres client. A fresh copy is 160 MB (13,003 chunks, 135,144 XBRL facts, the review queue and the stored workflows), within Neon's 0.5 GB free tier. Neon hands out `postgresql://` URLs, which SQLAlchemy would map to the psycopg2 driver, so the engine rewrites them to psycopg 3.
-- **Tested before any account exists:** the image ran locally in demo mode against the local database standing in for Neon, with no API key in the container: recorded questions replayed in 0.1 s with "0 LLM requests (+7 from cache)" in the trace, unrecorded questions and filings were refused, and every page fit a 375 px phone screen (the nav tabs now scroll instead of widening the page). The seed script was tested by restoring into a scratch database, twice, to check that re-seeding replaces rather than fails.
+- **Hosting moved to GitHub Pages, because Hugging Face's free tier no longer covers Docker:** the first plan was a Docker Space on Hugging Face with the database on Neon. Before deploying, Hugging Face's documentation (checked 2026-10-13) said Docker and Gradio Spaces now require a paid plan to create, which this project can't use. The demo only replays recorded runs, so everything it can show is fixed data: `tieout demo export-static` calls the real demo API endpoints in-process (FastAPI's test client, in demo mode, inside a transaction that is rolled back) and writes each response to `frontend/demo-data/` (1.7 MB: 23 runs, 8 workflows, 15 traces, the eval report). The frontend's static build (`vite build --mode static`) answers its requests from those files, so the page shows exactly what the demo server would, with no server, database or API key, and a GitHub Actions workflow publishes it to GitHub Pages on every push. The one thing a static site can't do is share writes: review decisions are saved in the visitor's browser (localStorage), and the demo banner says so.
+- **Self-hosting stays possible:** the multi-stage Dockerfile builds the UI with Node, then installs the API on `python:3.12-slim` with the demo recordings, the eval reports and the quantized embedding model (65 MB) baked in, and serves both on port 7860 as a non-root user (855 MB image, no API key; `.dockerignore` keeps `.env`, `data/` and the eval recordings out). `deploy/seed-neon.sh` copies the local database into any Postgres, such as a free Neon project, using `pg_dump | psql` run inside the local Postgres container; a fresh copy is 160 MB. Neon hands out `postgresql://` URLs, which SQLAlchemy would map to the psycopg2 driver, so the engine rewrites them to psycopg 3.
+- **Tested locally, without a server for the static site:** the Docker image ran in demo mode against the local database with no API key: recorded questions replayed in 0.1 s with "0 LLM requests (+7 from cache)" in the trace, unrecorded questions and filings were refused, and every page fit a 375 px phone screen (the nav tabs now scroll instead of widening the page). The static build was then served under `/tieout/`, as on GitHub Pages, with the API and the container stopped: recorded questions, tie-outs, traces and the eval dashboard loaded, unrecorded ones got the same refusal as the server, and an accepted review moved to the Reviewed queue and survived a reload. The seed script was tested by restoring into a scratch database, twice, to check that re-seeding replaces rather than fails.
 
 ## Data
 
@@ -197,7 +197,7 @@ All data is public:
 
 Data volume after `tieout data all`: 32 PDFs + 13 companyfacts files (119.9 MB cached on disk); 135,144 XBRL facts from 10-K/10-K/A filings (2,604 distinct concepts) loaded into Postgres.
 
-After `tieout data index`: 705 sections and 13,003 chunks (bge-small-en-v1.5, 384 dimensions). The local Postgres database is 254 MB (chunks 131 MB including HNSW and GIN indexes, XBRL facts 102 MB, sections 12 MB), within Neon's 0.5 GB free tier.
+After `tieout data index`: 705 sections and 13,003 chunks (bge-small-en-v1.5, 384 dimensions). The local Postgres database is 254 MB (chunks 131 MB including HNSW and GIN indexes, XBRL facts 102 MB, sections 12 MB); a fresh copy without the update history is 160 MB.
 
 ## Evaluation
 
@@ -310,27 +310,34 @@ tieout runs import-evals agent_full   # optional: fill the review queue from eva
 
 The first `tieout data all` embeds 13,003 chunks on the CPU (about 70 minutes on a 15 W laptop CPU); later runs reuse the embedding cache and finish in a few minutes. `make ingest`, `make test` and `make lint` wrap the same commands. See [Build progress](#build-progress).
 
-### Run the demo image locally
+### Publish the demo (GitHub Pages)
+
+The public demo is a static site: no server, database, API key or other account.
+
+1. In the GitHub repository, open **Settings → Pages** and set **Source** to **GitHub Actions**.
+2. Push to `main`. The [Pages workflow](.github/workflows/pages.yml) builds the frontend in static mode with `frontend/demo-data/` and publishes it at `https://<user>.github.io/<repo>/`.
+
+After changing the curated questions (`config/demo_questions.json`) or the stored workflows, rebuild the recordings and the snapshot, then commit both:
+
+```bash
+tieout demo build            # recordings/demo from eval runs and cached workflows (no LLM requests)
+tieout demo export-static    # frontend/demo-data from the demo API
+```
+
+To preview the static site locally: `npm --prefix frontend run build:static`, then `npm --prefix frontend run preview`.
+
+### Self-host the demo server (optional)
 
 ```bash
 docker build -t tieout:demo .
 docker run -p 7860:7860 -e DATABASE_URL=postgresql://tieout:tieout@host.docker.internal:5432/tieout tieout:demo
 ```
 
-Open http://localhost:7860. To rebuild the demo recordings after changing the curated questions in `config/demo_questions.json`, run `tieout demo build`.
+Open http://localhost:7860. To run it elsewhere, copy the database to any Postgres (for example a free [Neon](https://neon.tech) project) and pass its URL as `DATABASE_URL`:
 
-### Deploy for free (Neon + Hugging Face Spaces)
-
-1. **Database:** create a free project at [Neon](https://neon.tech), copy its connection string, and copy the local database into it:
-   ```bash
-   NEON_DATABASE_URL='postgresql://USER:PASSWORD@HOST/neondb?sslmode=require' sh deploy/seed-neon.sh
-   ```
-2. **Space:** create a [Hugging Face Space](https://huggingface.co/new-space) with the Docker SDK (blank template, free CPU). In its settings, add a secret `DATABASE_URL` with the Neon connection string. No LLM key is needed.
-3. **Push** (Git asks for your Hugging Face username and an access token with write permission):
-   ```bash
-   HF_SPACE=your-username/tieout sh deploy/push-space.sh
-   ```
-   The Space builds the Dockerfile and serves the demo on port 7860. The script pushes from a temporary worktree whose README is `deploy/huggingface/README.md`, which holds the Space's settings.
+```bash
+NEON_DATABASE_URL='postgresql://USER:PASSWORD@HOST/neondb?sslmode=require' sh deploy/seed-neon.sh
+```
 
 ### Evaluate
 
@@ -375,7 +382,7 @@ Tools: `search_filings`, `read_section`, `get_financial_facts`, `calculate`. The
 - [x] 7. Tie-out + analytical review
 - [x] 8. Tracing
 - [x] 9. MCP server
-- [ ] 10. Demo mode + deployment: demo mode, recordings, Docker image and Neon seeding are done and tested locally; the public deployment waits for Neon and Hugging Face accounts
+- [ ] 10. Demo mode + deployment: demo mode, recordings, static export and the Pages workflow are done and tested locally; waiting for the first Pages deployment
 - [ ] 11. CI + README polish
 
 ## Project structure
@@ -406,13 +413,14 @@ tieout/
 │   ├── indexing.py       # parse → chunk → embed (cached) → index pipeline
 │   ├── demo_recordings.py # assemble recordings/demo from traces
 │   └── cli.py            # `tieout` command line
-├── frontend/             # React + TypeScript UI (Vite)
+├── frontend/             # React + TypeScript UI (Vite); demo-data/ is the static demo snapshot
 ├── config/               # selected companies and filings, curated demo questions
 ├── evals/                # eval sets, per-question results, reports
 ├── recordings/           # recorded LLM + tool outputs: eval runs and the public demo
-├── deploy/               # Neon seeding, Hugging Face Space push
+├── deploy/               # copy the database to a hosted Postgres (self-hosting)
 ├── tests/                # unit tests + DB tests (skipped without Postgres)
-├── Dockerfile            # one image for the public demo
+├── Dockerfile            # one image for self-hosting the demo server
+├── .github/workflows/    # GitHub Pages deployment of the static demo
 └── docker-compose.yml    # Postgres 16 + pgvector
 ```
 

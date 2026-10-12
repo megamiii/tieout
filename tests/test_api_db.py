@@ -262,34 +262,38 @@ def test_demo_refuses_what_was_not_recorded(
     assert "only replays recorded runs" in r.json()["detail"]
 
 
-def test_demo_workflow_is_stored_once(
-    client: TestClient, demo: Path, monkeypatch: pytest.MonkeyPatch
+def test_demo_serves_stored_workflows_and_refuses_others_without_running(
+    client: TestClient, session: Session, demo: Path, monkeypatch: pytest.MonkeyPatch
 ) -> None:
     from tieout.api import app as app_module
+    from tieout.db.models import WorkflowRun
 
-    calls: list[str] = []
-
-    def fake_tieout(*args: object, **kwargs: object) -> dict[str, object]:
-        calls.append("run")
-        return {
-            "kind": "tieout",
-            "ticker": "ZZZ",
-            "fiscal_year": 2099,
-            "doc_name": "ZZZ_2099_10K",
-            "summary": {"claims": 0},
-            "items": [],
-        }
+    def must_not_run(*args: object, **kwargs: object) -> None:
+        raise AssertionError("demo mode must not run a workflow")
 
     class StubAgent:
         llm = type("L", (), {"model": "stub"})()
 
     monkeypatch.setattr(app_module, "agent", lambda: StubAgent())
-    monkeypatch.setattr(app_module, "embedder", lambda: None)
-    monkeypatch.setattr(app_module, "run_tieout", fake_tieout)
-    body = {"ticker": "ZZZ", "fiscal_year": 2099}
-    first = client.post("/api/workflows/tieout", json=body).json()
-    second = client.post("/api/workflows/tieout", json=body).json()
-    assert second["id"] == first["id"] and calls == ["run"]
+    monkeypatch.setattr(app_module, "run_tieout", must_not_run)
+    session.add(
+        WorkflowRun(
+            id="test-wf-1",
+            created_at=datetime(2030, 1, 1, tzinfo=UTC),
+            kind="tieout",
+            ticker="ZZZ",
+            fiscal_year=2099,
+            doc_name="ZZZ_2099_10K",
+            model="stub",
+            summary={"claims": 0},
+            items=[],
+        )
+    )
+    session.flush()
+    stored = client.post("/api/workflows/tieout", json={"ticker": "zzz", "fiscal_year": 2099})
+    assert stored.status_code == 200 and stored.json()["id"] == "test-wf-1"
+    other = client.post("/api/workflows/tieout", json={"ticker": "ZZZ", "fiscal_year": 2098})
+    assert other.status_code == 403
 
 
 def test_demo_limits_review_writes_per_client(

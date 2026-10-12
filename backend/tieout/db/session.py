@@ -9,9 +9,17 @@ from tieout.config import get_settings
 from tieout.db.models import Base
 
 
+def sqlalchemy_url(url: str) -> str:
+    """Use the psycopg 3 driver for plain postgres URLs (as Neon hands them out)."""
+    for scheme in ("postgresql://", "postgres://"):
+        if url.startswith(scheme):
+            return "postgresql+psycopg://" + url[len(scheme) :]
+    return url
+
+
 @lru_cache
 def get_engine(url: str | None = None) -> Engine:
-    return create_engine(url or get_settings().database_url, pool_pre_ping=True)
+    return create_engine(sqlalchemy_url(url or get_settings().database_url), pool_pre_ping=True)
 
 
 def get_sessionmaker(engine: Engine | None = None) -> sessionmaker[Session]:

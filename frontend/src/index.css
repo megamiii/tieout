@@ -81,6 +81,7 @@ select {
 }
 
 .brand {
+  flex-shrink: 0;
   font-weight: 700;
   letter-spacing: -0.01em;
 }
@@ -95,9 +96,15 @@ select {
 .tabs {
   display: flex;
   gap: 4px;
+  /* On narrow screens the tabs scroll inside the bar instead of widening the page. */
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
 
 .tabs a {
+  flex-shrink: 0;
+  white-space: nowrap;
   padding: 6px 12px;
   border-radius: 6px;
   color: var(--muted);
@@ -423,6 +430,10 @@ th {
 
   .brand span {
     display: none;
+  }
+
+  .demo-banner {
+    padding: 8px 16px;
   }
 
   main {

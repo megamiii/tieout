@@ -196,7 +196,9 @@ def _run_workflow(kind: str, req: WorkflowRequest, session: Session) -> dict[str
     llm = agent().llm
     name = f"{kind} {req.ticker.upper()} FY{req.fiscal_year}"
     if get_settings().demo_mode:
-        # Same rule as questions: a recorded workflow is stored once, then served.
+        # Workflows are served from the runs stored with the demo database. An
+        # unrecorded filing would spend seconds of CPU on claim extraction before
+        # its first LLM call missed the recording, so it is refused up front.
         existing = session.scalar(
             select(WorkflowRun)
             .where(
@@ -207,8 +209,9 @@ def _run_workflow(kind: str, req: WorkflowRequest, session: Session) -> dict[str
             .order_by(WorkflowRun.created_at.desc())
             .limit(1)
         )
-        if existing:
-            return {**workflow_dict(existing), "trace_id": trace_for(session, existing.id)}
+        if existing is None:
+            raise HTTPException(403, NOT_RECORDED)
+        return {**workflow_dict(existing), "trace_id": trace_for(session, existing.id)}
     try:
         with tracing(kind, name) as tracer, span("workflow", name):
             if kind == "tieout":

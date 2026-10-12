@@ -1,0 +1,15 @@
+# Never ship secrets or local state in the image.
+.env
+.git
+.venv
+data
+**/__pycache__
+**/*.egg-info
+.pytest_cache
+.mypy_cache
+.ruff_cache
+frontend/node_modules
+frontend/dist
+# Only the demo recording is needed at runtime.
+recordings/evals
+evals/runs

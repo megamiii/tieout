@@ -94,6 +94,7 @@ def ui_config() -> dict[str, Any]:
         if settings.demo_mode
         else [],
         "model": settings.llm_model,
+        "not_recorded": NOT_RECORDED,
     }
 
 
@@ -253,7 +254,17 @@ def list_workflows(
     stmt = select(WorkflowRun).order_by(WorkflowRun.created_at.desc())
     if kind:
         stmt = stmt.where(WorkflowRun.kind == kind)
-    return [{**workflow_dict(r), "items": None} for r in session.scalars(stmt)]
+    rows = list(session.scalars(stmt))
+    if get_settings().demo_mode:
+        # The demo serves the latest run per filing, so it lists only those.
+        seen: set[tuple[str, str, int]] = set()
+        latest = []
+        for r in rows:
+            if (key := (r.kind, r.ticker, r.fiscal_year)) not in seen:
+                seen.add(key)
+                latest.append(r)
+        rows = latest
+    return [{**workflow_dict(r), "items": None} for r in rows]
 
 
 @app.get("/api/workflows/{run_id}")

@@ -13,3 +13,4 @@ frontend/dist
 # Only the demo recording is needed at runtime.
 recordings/evals
 evals/runs
+frontend/demo-data

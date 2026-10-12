@@ -1,0 +1,54 @@
+# Publish the static demo to GitHub Pages on every push to main.
+# The site is the frontend built in static mode plus frontend/demo-data/, the
+# JSON snapshot of the demo API written by `tieout demo export-static`. No
+# server, database or API key is involved.
+name: Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deployment at a time; a newer push replaces a queued one.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - id: pages
+        uses: actions/configure-pages@v6
+      - name: Build the static demo
+        working-directory: frontend
+        env:
+          # e.g. /tieout/ for https://<user>.github.io/tieout/
+          VITE_BASE: ${{ steps.pages.outputs.base_path }}/
+        run: |
+          npm ci
+          npm run build:static
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: frontend/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

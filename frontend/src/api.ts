@@ -1,5 +1,8 @@
 // Typed client for the tieout API. Types mirror backend/tieout/runs.py and api/app.py.
 
+import { ApiError } from './errors'
+import { staticRequest } from './static'
+
 export type RunStatus = 'answered' | 'needs_review'
 export type Decision = 'accept' | 'override'
 
@@ -140,16 +143,14 @@ export interface EvalReport {
   experiments: Record<string, string>
 }
 
-export class ApiError extends Error {
-  status: number
+export { ApiError }
 
-  constructor(status: number, message: string) {
-    super(message)
-    this.status = status
-  }
-}
+// The GitHub Pages build (`vite build --mode static`) has no server: requests
+// are answered from JSON files exported from the demo API (see static.ts).
+const STATIC_DEMO = import.meta.env.MODE === 'static'
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
+  if (STATIC_DEMO) return staticRequest<T>(path, init)
   const res = await fetch(path, {
     ...init,
     headers: { 'Content-Type': 'application/json', ...init?.headers },
@@ -178,6 +179,8 @@ export interface UiConfig {
   demo_mode: boolean
   demo_questions: DemoQuestion[]
   model: string
+  not_recorded?: string
+  static?: boolean // the GitHub Pages build: no server, decisions stay in the browser
 }
 
 export const api = {

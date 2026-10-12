@@ -480,6 +480,44 @@ def demo_build(
         typer.echo(json.dumps(info))
 
 
+@demo_app.command("export-static")
+def demo_export_static(
+    out: Annotated[Path, typer.Option(help="output directory")] = REPO_ROOT
+    / "frontend"
+    / "demo-data",
+) -> None:
+    """Snapshot the demo API as static JSON for the GitHub Pages build."""
+    import os
+
+    from fastapi.testclient import TestClient
+    from sqlalchemy.orm import Session
+
+    from tieout.api import app as app_module
+    from tieout.db.session import get_engine
+    from tieout.demo_static import export_static
+
+    # The API reads settings lazily, so demo mode can be switched on here.
+    os.environ["DEMO_MODE"] = "true"
+    get_settings.cache_clear()
+    app_module.agent.cache_clear()
+
+    # Everything the export writes to the database (replayed demo runs) is
+    # rolled back: the local database is left as it was.
+    conn = get_engine().connect()
+    trans = conn.begin()
+    session = Session(bind=conn, join_transaction_mode="create_savepoint")
+    app_module.app.dependency_overrides[app_module.get_session] = lambda: session
+    try:
+        counts = export_static(TestClient(app_module.app), out)
+    finally:
+        app_module.app.dependency_overrides.clear()
+        session.close()
+        trans.rollback()
+        conn.close()
+    size = sum(f.stat().st_size for f in out.rglob("*") if f.is_file())
+    typer.echo(f"{json.dumps(counts)} -> {out} ({size / 1e6:.1f} MB)")
+
+
 @app.command("mcp")
 def mcp_cmd() -> None:
     """Run the MCP server over stdio (for AI assistants, IDEs and other MCP clients)."""

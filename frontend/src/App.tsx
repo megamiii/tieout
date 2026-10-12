@@ -51,8 +51,9 @@ export default function App() {
       {config?.demo_mode && (
         <div className="demo-banner small">
           <strong>Demo mode.</strong> Answers, tie-outs and reviews here are recorded runs replayed
-          without an API key, so the demo is free and always works. To ask your own questions, run
-          tieout locally with a free Gemini or Groq key.
+          without an API key, so the demo is free and always works.
+          {config.static && ' Review decisions you make are saved in this browser only.'} To ask your
+          own questions, run tieout locally with a free Gemini or Groq key.
         </div>
       )}
       <main>

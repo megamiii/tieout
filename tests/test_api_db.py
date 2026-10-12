@@ -308,3 +308,27 @@ def test_demo_limits_review_writes_per_client(
     body = {"decision": "accept", "reviewer": "demo", "note": ""}
     assert client.post("/api/runs/test-run-6/review", json=body).status_code == 200
     assert client.post("/api/runs/test-run-6/review", json=body).status_code == 429
+
+
+def test_demo_lists_only_the_latest_run_per_filing(
+    client: TestClient, session: Session, demo: Path
+) -> None:
+    from tieout.db.models import WorkflowRun
+
+    for run_id, day in [("test-wf-old", 1), ("test-wf-new", 2)]:
+        session.add(
+            WorkflowRun(
+                id=run_id,
+                created_at=datetime(2031, 1, day, tzinfo=UTC),
+                kind="tieout",
+                ticker="ZZZ",
+                fiscal_year=2099,
+                doc_name="ZZZ_2099_10K",
+                model="stub",
+                summary={},
+                items=[],
+            )
+        )
+    session.flush()
+    ids = [r["id"] for r in client.get("/api/workflows", params={"kind": "tieout"}).json()]
+    assert "test-wf-new" in ids and "test-wf-old" not in ids
